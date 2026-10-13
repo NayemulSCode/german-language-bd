@@ -1,0 +1,995 @@
+{
+  "id": "a1-u10-l02",
+  "level": "A1",
+  "unit": 10,
+  "lesson": 2,
+  "title": {
+    "de": "Beim Arzt",
+    "bn": "ডাক্তারের কাছে",
+    "en": "At the doctor"
+  },
+  "hook": {
+    "de": "Vorsicht ist besser als Nachsicht.",
+    "who": "Sprichwort",
+    "bn": "আগেই সতর্ক থাকা পরে দুঃখ করার চেয়ে ভালো।",
+    "en": "Better safe than sorry."
+  },
+  "goals": [
+    "টেলিফোনে অ্যাপয়েন্টমেন্ট নেওয়া",
+    "রোগের লক্ষণ বলা: Ich habe Fieber, Husten, Kopfschmerzen",
+    "ডাক্তারের প্রশ্ন বোঝা (Sie-রূপ)",
+    "জার্মানিতে ডাক্তার দেখানোর ধাপ"
+  ],
+  "words": [
+    {
+      "id": "praxis",
+      "de": "Praxis",
+      "art": "die",
+      "pl": "die Praxen",
+      "pos": "বিশেষ্য",
+      "bn": "ডাক্তারের চেম্বার",
+      "en": "doctor's practice"
+    },
+    {
+      "id": "termin",
+      "de": "Termin",
+      "art": "der",
+      "pl": "die Termine",
+      "pos": "বিশেষ্য",
+      "bn": "অ্যাপয়েন্টমেন্ট",
+      "en": "appointment"
+    },
+    {
+      "id": "wartezimmer",
+      "de": "Wartezimmer",
+      "art": "das",
+      "pl": "die Wartezimmer",
+      "pos": "বিশেষ্য",
+      "bn": "অপেক্ষা-ঘর",
+      "en": "waiting room"
+    },
+    {
+      "id": "krankenversicherung",
+      "de": "Krankenversicherung",
+      "art": "die",
+      "pl": "die Krankenversicherungen",
+      "pos": "বিশেষ্য",
+      "bn": "স্বাস্থ্যবিমা",
+      "en": "health insurance"
+    },
+    {
+      "id": "schmerzen",
+      "de": "Schmerzen",
+      "art": "die",
+      "pos": "বিশেষ্য, শুধু বহুবচন",
+      "bn": "ব্যথা",
+      "en": "pain"
+    },
+    {
+      "id": "husten",
+      "de": "Husten",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "কাশি",
+      "en": "cough"
+    },
+    {
+      "id": "fieber",
+      "de": "Fieber",
+      "art": "das",
+      "pos": "বিশেষ্য",
+      "bn": "জ্বর",
+      "en": "fever"
+    },
+    {
+      "id": "rezept",
+      "de": "Rezept",
+      "art": "das",
+      "pl": "die Rezepte",
+      "pos": "বিশেষ্য",
+      "bn": "প্রেসক্রিপশন",
+      "en": "prescription"
+    },
+    {
+      "id": "tablette",
+      "de": "Tablette",
+      "art": "die",
+      "pl": "die Tabletten",
+      "pos": "বিশেষ্য",
+      "bn": "ট্যাবলেট",
+      "en": "tablet"
+    },
+    {
+      "id": "mir_ist_schlecht",
+      "de": "Mir ist schlecht.",
+      "pos": "অভিব্যক্তি",
+      "bn": "আমার শরীর খারাপ লাগছে (বমি বমি ভাব)।",
+      "en": "I feel sick."
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Frau Krüger",
+      "bn": [
+        "ডাক্তার",
+        "মায়ারের",
+        "চেম্বার,",
+        "শুভ",
+        "দিন!"
+      ],
+      "en": [
+        "Dr.",
+        "Meier's",
+        "practice,",
+        "good",
+        "day!"
+      ],
+      "de": [
+        {
+          "t": "Praxis",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "Praxis",
+          "gb": "চেম্বার",
+          "ge": "practice",
+          "n": ""
+        },
+        {
+          "t": "Doktor",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Doktor",
+          "gb": "ডাক্তার",
+          "ge": "Dr",
+          "n": ""
+        },
+        {
+          "t": "Meier,",
+          "s": "Meier",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "Meier",
+          "gb": "মায়ারের",
+          "ge": "Meier's",
+          "n": ""
+        },
+        {
+          "t": "guten Tag!",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "guten Tag",
+          "gb": "শুভ দিন",
+          "ge": "good day",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "শুভ",
+        "দিন!",
+        "আমার",
+        "একটি",
+        "অ্যাপয়েন্টমেন্ট",
+        "দরকার,",
+        "দয়া",
+        "করে।"
+      ],
+      "en": [
+        "Good",
+        "day!",
+        "I",
+        "need",
+        "an",
+        "appointment,",
+        "please."
+      ],
+      "de": [
+        {
+          "t": "Guten Tag!",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Guten Tag",
+          "gb": "শুভ দিন",
+          "ge": "Good day",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "Ich",
+          "gb": "আমার",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "brauche",
+          "b": [
+            5
+          ],
+          "e": [
+            3
+          ],
+          "l": "brauchen",
+          "gb": "দরকার",
+          "ge": "need",
+          "n": ""
+        },
+        {
+          "t": "einen",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "ein",
+          "gb": "একটি",
+          "ge": "an",
+          "n": "der Termin + brauchen → einen Termin"
+        },
+        {
+          "t": "Termin,",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "Termin",
+          "gb": "অ্যাপয়েন্টমেন্ট",
+          "ge": "appointment",
+          "n": ""
+        },
+        {
+          "t": "bitte.",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            6
+          ],
+          "l": "bitte",
+          "gb": "দয়া করে",
+          "ge": "please",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Frau Krüger",
+      "bn": [
+        "আপনার",
+        "কি",
+        "ব্যথা",
+        "আছে?"
+      ],
+      "en": [
+        "Do",
+        "you",
+        "have",
+        "pain?"
+      ],
+      "de": [
+        {
+          "t": "Haben",
+          "b": [
+            3
+          ],
+          "e": [
+            0,
+            2
+          ],
+          "l": "haben",
+          "gb": "আছে",
+          "ge": "Do have",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "Sie",
+          "gb": "আপনার",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "Schmerzen?",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "Schmerzen",
+          "gb": "ব্যথা",
+          "ge": "pain",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "হ্যাঁ,",
+        "আমার",
+        "মাথাব্যথা",
+        "আর",
+        "জ্বর",
+        "আছে।",
+        "আর",
+        "আমার",
+        "কাশি",
+        "আছে।"
+      ],
+      "en": [
+        "Yes,",
+        "I",
+        "have",
+        "a",
+        "headache",
+        "and",
+        "a",
+        "fever.",
+        "And",
+        "I",
+        "have",
+        "a",
+        "cough."
+      ],
+      "de": [
+        {
+          "t": "Ja,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ja",
+          "gb": "হ্যাঁ",
+          "ge": "Yes",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "ich",
+          "gb": "আমার",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [
+            5
+          ],
+          "e": [
+            2
+          ],
+          "l": "haben",
+          "gb": "আছে",
+          "ge": "have",
+          "n": ""
+        },
+        {
+          "t": "Kopfschmerzen",
+          "b": [
+            2
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "Kopfschmerzen",
+          "gb": "মাথাব্যথা",
+          "ge": "a headache",
+          "n": "Ich habe Kopfschmerzen — আর্টিকেল ছাড়া"
+        },
+        {
+          "t": "und",
+          "b": [
+            3
+          ],
+          "e": [
+            5
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "Fieber.",
+          "b": [
+            4
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "Fieber",
+          "gb": "জ্বর",
+          "ge": "a fever",
+          "n": ""
+        },
+        {
+          "t": "Und",
+          "b": [
+            6
+          ],
+          "e": [
+            8
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            7
+          ],
+          "e": [
+            9
+          ],
+          "l": "ich",
+          "gb": "আমার",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [
+            9
+          ],
+          "e": [
+            10
+          ],
+          "l": "haben",
+          "gb": "আছে",
+          "ge": "have",
+          "n": ""
+        },
+        {
+          "t": "Husten.",
+          "b": [
+            8
+          ],
+          "e": [
+            11,
+            12
+          ],
+          "l": "Husten",
+          "gb": "কাশি",
+          "ge": "a cough",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Frau Krüger",
+      "bn": [
+        "সোমবার",
+        "সকাল",
+        "নয়টায়",
+        "আসুন।"
+      ],
+      "en": [
+        "Come",
+        "on",
+        "Monday",
+        "at",
+        "nine",
+        "o'clock."
+      ],
+      "de": [
+        {
+          "t": "Kommen",
+          "b": [
+            3
+          ],
+          "e": [
+            0
+          ],
+          "l": "kommen",
+          "gb": "আসুন",
+          "ge": "Come",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [],
+          "e": [],
+          "l": "Sie",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "am",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "am",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "on",
+          "n": ""
+        },
+        {
+          "t": "Montag",
+          "b": [
+            0
+          ],
+          "e": [
+            2
+          ],
+          "l": "Montag",
+          "gb": "সোমবার",
+          "ge": "Monday",
+          "n": ""
+        },
+        {
+          "t": "um",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "um",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "at",
+          "n": ""
+        },
+        {
+          "t": "neun",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "neun",
+          "gb": "নয়টায়",
+          "ge": "nine",
+          "n": ""
+        },
+        {
+          "t": "Uhr.",
+          "b": [],
+          "e": [
+            5
+          ],
+          "l": "Uhr",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "o'clock",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "ধন্যবাদ!",
+        "আমার",
+        "স্বাস্থ্যবিমা",
+        "আছে।"
+      ],
+      "en": [
+        "Thanks!",
+        "I",
+        "have",
+        "health",
+        "insurance."
+      ],
+      "de": [
+        {
+          "t": "Danke!",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Danke",
+          "gb": "ধন্যবাদ",
+          "ge": "Thanks",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "Ich",
+          "gb": "আমার",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "haben",
+          "gb": "আছে",
+          "ge": "have",
+          "n": ""
+        },
+        {
+          "t": "eine",
+          "b": [],
+          "e": [],
+          "l": "ein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Krankenversicherung.",
+          "b": [
+            2
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "Krankenversicherung",
+          "gb": "স্বাস্থ্যবিমা",
+          "ge": "health insurance",
+          "n": "জার্মানিতে থাকতে স্বাস্থ্যবিমা বাধ্যতামূলক"
+        }
+      ]
+    },
+    {
+      "who": "Frau Krüger",
+      "bn": [
+        "ঠিক",
+        "আছে।",
+        "দয়া",
+        "করে",
+        "আপনার",
+        "কার্ডটা",
+        "সঙ্গে",
+        "আনবেন।"
+      ],
+      "en": [
+        "Good.",
+        "Please",
+        "bring",
+        "your",
+        "card."
+      ],
+      "de": [
+        {
+          "t": "Gut.",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0
+          ],
+          "l": "Gut",
+          "gb": "ঠিক আছে",
+          "ge": "Good",
+          "n": ""
+        },
+        {
+          "t": "Bringen",
+          "b": [
+            7
+          ],
+          "e": [
+            2
+          ],
+          "l": "mitbringen",
+          "gb": "আনবেন",
+          "ge": "bring",
+          "n": "mitbringen ভাঙা ক্রিয়া: Bringen Sie … mit"
+        },
+        {
+          "t": "Sie",
+          "b": [],
+          "e": [],
+          "l": "Sie",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "bitte",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            1
+          ],
+          "l": "bitte",
+          "gb": "দয়া করে",
+          "ge": "Please",
+          "n": ""
+        },
+        {
+          "t": "Ihre",
+          "b": [
+            4
+          ],
+          "e": [
+            3
+          ],
+          "l": "Ihr",
+          "gb": "আপনার",
+          "ge": "your",
+          "n": ""
+        },
+        {
+          "t": "Karte",
+          "b": [
+            5
+          ],
+          "e": [
+            4
+          ],
+          "l": "Karte",
+          "gb": "কার্ডটা",
+          "ge": "card",
+          "n": "বিমার কার্ড (Versichertenkarte)"
+        },
+        {
+          "t": "mit.",
+          "b": [
+            6
+          ],
+          "e": [],
+          "l": "mitbringen",
+          "gb": "সঙ্গে",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "ডাক্তার দেখানোর ধাপ (জার্মানিতে)",
+      "head": [
+        "ধাপ",
+        "জার্মান",
+        "বাংলা"
+      ],
+      "rows": [
+        [
+          "১",
+          "einen Termin machen",
+          "অ্যাপয়েন্টমেন্ট নেওয়া"
+        ],
+        [
+          "২",
+          "im Wartezimmer warten",
+          "অপেক্ষা-ঘরে বসা"
+        ],
+        [
+          "৩",
+          "zum Arzt gehen",
+          "ডাক্তার দেখানো"
+        ],
+        [
+          "৪",
+          "ein Rezept bekommen",
+          "প্রেসক্রিপশন পাওয়া"
+        ],
+        [
+          "৫",
+          "Medikamente in der Apotheke holen",
+          "ওষুধের দোকান থেকে ওষুধ নেওয়া"
+        ]
+      ],
+      "note": "বেশিরভাগ ওষুধ Rezept ছাড়া মেলে না। Termin ছাড়া সাধারণত অপেক্ষা দীর্ঘ হয় — আগে ফোন করে নিন।"
+    },
+    {
+      "type": "table",
+      "title": "রোগের লক্ষণ — Ich habe …",
+      "head": [
+        "বাক্য",
+        "বাংলা"
+      ],
+      "rows": [
+        [
+          "Ich habe Fieber.",
+          "আমার জ্বর আছে।"
+        ],
+        [
+          "Ich habe Husten.",
+          "আমার কাশি আছে।"
+        ],
+        [
+          "Ich habe Kopfschmerzen.",
+          "আমার মাথাব্যথা আছে।"
+        ],
+        [
+          "Mir ist schlecht.",
+          "আমার বমি বমি লাগছে।"
+        ],
+        [
+          "Ich bin krank.",
+          "আমি অসুস্থ।"
+        ]
+      ],
+      "note": "রোগের নামের আগে ein/eine বসে না: Ich habe Fieber (Ich habe ein Fieber নয়)।"
+    },
+    {
+      "type": "text",
+      "title": "ডাক্তার ও রিসেপশনের Sie-প্রশ্ন",
+      "text": "ডাক্তার ও রিসেপশনিস্ট আপনাকে Sie বলবেন: „Haben Sie Schmerzen?“ (আপনার ব্যথা আছে?), „Wo tut es weh?“ (কোথায় ব্যথা?), „Seit wann?“ (কবে থেকে?)। উত্তরে আপনিও ছোট বাক্যে বলতে পারেন: „Ja, ich habe Fieber.“"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "der Termin",
+      "options": [
+        "অ্যাপয়েন্টমেন্ট",
+        "কাশি",
+        "প্রেসক্রিপশন",
+        "আমার শরীর খারাপ লাগছে"
+      ],
+      "answer": 0,
+      "why": "der Termin = অ্যাপয়েন্টমেন্ট।",
+      "word": "termin"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "der Husten",
+      "options": [
+        "অপেক্ষা-ঘর",
+        "জ্বর",
+        "আমার শরীর খারাপ লাগছে",
+        "কাশি"
+      ],
+      "answer": 3,
+      "why": "der Husten = কাশি।",
+      "word": "husten"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "das Rezept",
+      "options": [
+        "ট্যাবলেট",
+        "অ্যাপয়েন্টমেন্ট",
+        "প্রেসক্রিপশন",
+        "ব্যথা"
+      ],
+      "answer": 2,
+      "why": "das Rezept = প্রেসক্রিপশন।",
+      "word": "rezept"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Praxis",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Praxis। বহুবচন: die Praxen।",
+      "word": "praxis"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Tablette",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Tablette। বহুবচন: die Tabletten।",
+      "word": "tablette"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ich brauche ___ Termin.",
+      "options": [
+        "ein",
+        "eine",
+        "einen",
+        "einem"
+      ],
+      "answer": 2,
+      "why": "der Termin + brauchen → einen Termin।",
+      "word": "termin"
+    },
+    {
+      "type": "mcq",
+      "prompt": "জার্মানে কী হবে?",
+      "sub": "আমার জ্বর আছে।",
+      "subBn": true,
+      "options": [
+        "Ich habe Fieber.",
+        "Ich bin Fieber.",
+        "Ich habe ein Fieber bin.",
+        "Ich Fieber habe."
+      ],
+      "answer": 0,
+      "why": "রোগের আগে আর্টিকেল নেই: Ich habe Fieber।",
+      "word": "fieber"
+    },
+    {
+      "type": "order",
+      "prompt": "শব্দ সাজিয়ে প্রশ্ন বানান: „আপনার কি ব্যথা আছে?“",
+      "tiles": [
+        "Schmerzen?",
+        "Sie",
+        "Haben"
+      ],
+      "answer": [
+        "Haben",
+        "Sie",
+        "Schmerzen?"
+      ],
+      "why": "Haben Sie Schmerzen?",
+      "word": "schmerzen"
+    }
+  ],
+  "status": "draft",
+  "minutes": 14,
+  "passMark": 0.8
+}

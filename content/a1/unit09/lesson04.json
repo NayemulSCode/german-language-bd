@@ -1,0 +1,962 @@
+{
+  "id": "a1-u09-l04",
+  "level": "A1",
+  "unit": 9,
+  "lesson": 4,
+  "title": {
+    "de": "Monate und Datum",
+    "bn": "মাস, তারিখ ও জন্মদিন",
+    "en": "Months and dates"
+  },
+  "hook": {
+    "de": "Alles hat seine Zeit.",
+    "who": "Sprichwort",
+    "bn": "সবকিছুরই নিজস্ব সময় আছে।",
+    "en": "Everything has its time."
+  },
+  "goals": [
+    "বারো মাসের নাম",
+    "ক্রমবাচক সংখ্যা: der fünfzehnte Mai",
+    "তারিখ বলা ও লেখা",
+    "জন্মদিনের কথা: Wann hast du Geburtstag?"
+  ],
+  "words": [
+    {
+      "id": "januar",
+      "de": "Januar",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "জানুয়ারি",
+      "en": "January"
+    },
+    {
+      "id": "februar",
+      "de": "Februar",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "ফেব্রুয়ারি",
+      "en": "February"
+    },
+    {
+      "id": "maerz",
+      "de": "März",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "মার্চ",
+      "en": "March"
+    },
+    {
+      "id": "april",
+      "de": "April",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "এপ্রিল",
+      "en": "April"
+    },
+    {
+      "id": "mai",
+      "de": "Mai",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "মে",
+      "en": "May"
+    },
+    {
+      "id": "juni",
+      "de": "Juni",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "জুন",
+      "en": "June"
+    },
+    {
+      "id": "juli",
+      "de": "Juli",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "জুলাই",
+      "en": "July"
+    },
+    {
+      "id": "august",
+      "de": "August",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "আগস্ট",
+      "en": "August"
+    },
+    {
+      "id": "september",
+      "de": "September",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "সেপ্টেম্বর",
+      "en": "September"
+    },
+    {
+      "id": "oktober",
+      "de": "Oktober",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "অক্টোবর",
+      "en": "October"
+    },
+    {
+      "id": "november",
+      "de": "November",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "নভেম্বর",
+      "en": "November"
+    },
+    {
+      "id": "dezember",
+      "de": "Dezember",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "ডিসেম্বর",
+      "en": "December"
+    },
+    {
+      "id": "geburtstag",
+      "de": "Geburtstag",
+      "art": "der",
+      "pl": "die Geburtstage",
+      "pos": "বিশেষ্য",
+      "bn": "জন্মদিন",
+      "en": "birthday"
+    },
+    {
+      "id": "feiern",
+      "de": "feiern",
+      "pos": "ক্রিয়া",
+      "bn": "উদযাপন করা",
+      "en": "to celebrate"
+    },
+    {
+      "id": "zusammen",
+      "de": "zusammen",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "একসাথে",
+      "en": "together"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Muna",
+      "bn": [
+        "তোমার",
+        "জন্মদিন",
+        "কবে?"
+      ],
+      "en": [
+        "When",
+        "is",
+        "your",
+        "birthday?"
+      ],
+      "de": [
+        {
+          "t": "Wann",
+          "b": [
+            2
+          ],
+          "e": [
+            0
+          ],
+          "l": "Wann",
+          "gb": "কবে",
+          "ge": "When",
+          "n": ""
+        },
+        {
+          "t": "hast",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "haben",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": "Geburtstag haben = জন্মদিন হওয়া"
+        },
+        {
+          "t": "du",
+          "b": [
+            0
+          ],
+          "e": [
+            2
+          ],
+          "l": "du",
+          "gb": "তোমার",
+          "ge": "your",
+          "n": ""
+        },
+        {
+          "t": "Geburtstag?",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "Geburtstag",
+          "gb": "জন্মদিন",
+          "ge": "birthday",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমার",
+        "জন্মদিন",
+        "পনেরোই",
+        "মে।"
+      ],
+      "en": [
+        "My",
+        "birthday",
+        "is",
+        "on",
+        "the",
+        "fifteenth",
+        "of",
+        "May."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমার",
+          "ge": "My",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "haben",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "am",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "am",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "on",
+          "n": ""
+        },
+        {
+          "t": "fünfzehnten",
+          "b": [
+            2
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "fünfzehnte",
+          "gb": "পনেরোই",
+          "ge": "the fifteenth",
+          "n": "তারিখে ক্রমবাচক সংখ্যা: 15. = der fünfzehnte; am fünfzehnten"
+        },
+        {
+          "t": "Mai",
+          "b": [
+            3
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "Mai",
+          "gb": "মে",
+          "ge": "of May",
+          "n": ""
+        },
+        {
+          "t": "Geburtstag.",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "Geburtstag",
+          "gb": "জন্মদিন",
+          "ge": "birthday",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "সুন্দর!",
+        "আমার",
+        "জন্মদিন",
+        "ষোলোই",
+        "মে।"
+      ],
+      "en": [
+        "Nice!",
+        "My",
+        "birthday",
+        "is",
+        "on",
+        "the",
+        "sixteenth",
+        "of",
+        "May."
+      ],
+      "de": [
+        {
+          "t": "Schön!",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Schön",
+          "gb": "সুন্দর",
+          "ge": "Nice",
+          "n": ""
+        },
+        {
+          "t": "Mein",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "Mein",
+          "gb": "আমার",
+          "ge": "My",
+          "n": ""
+        },
+        {
+          "t": "Geburtstag",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "Geburtstag",
+          "gb": "জন্মদিন",
+          "ge": "birthday",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "am",
+          "b": [],
+          "e": [
+            4
+          ],
+          "l": "am",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "on",
+          "n": ""
+        },
+        {
+          "t": "sechzehnten",
+          "b": [
+            3
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "sechzehnte",
+          "gb": "ষোলোই",
+          "ge": "the sixteenth",
+          "n": ""
+        },
+        {
+          "t": "Mai.",
+          "b": [
+            4
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "Mai",
+          "gb": "মে",
+          "ge": "of May",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আজ",
+        "দশই",
+        "এপ্রিল।"
+      ],
+      "en": [
+        "Today",
+        "is",
+        "the",
+        "tenth",
+        "of",
+        "April."
+      ],
+      "de": [
+        {
+          "t": "Heute",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Heute",
+          "gb": "আজ",
+          "ge": "Today",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "der",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "der",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "zehnte",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "zehnte",
+          "gb": "দশই",
+          "ge": "tenth",
+          "n": ""
+        },
+        {
+          "t": "April.",
+          "b": [
+            2
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "April",
+          "gb": "এপ্রিল",
+          "ge": "of April",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "তাহলে",
+        "আমাদের",
+        "আরও",
+        "এক",
+        "মাস",
+        "আছে।"
+      ],
+      "en": [
+        "Then",
+        "we",
+        "still",
+        "have",
+        "one",
+        "month."
+      ],
+      "de": [
+        {
+          "t": "Dann",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Dann",
+          "gb": "তাহলে",
+          "ge": "Then",
+          "n": ""
+        },
+        {
+          "t": "haben",
+          "b": [
+            5
+          ],
+          "e": [
+            3
+          ],
+          "l": "haben",
+          "gb": "আছে",
+          "ge": "have",
+          "n": ""
+        },
+        {
+          "t": "wir",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "wir",
+          "gb": "আমাদের",
+          "ge": "we",
+          "n": ""
+        },
+        {
+          "t": "noch",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "noch",
+          "gb": "আরও",
+          "ge": "still",
+          "n": ""
+        },
+        {
+          "t": "einen",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "ein",
+          "gb": "এক",
+          "ge": "one",
+          "n": "der Monat → einen Monat (Akkusativ)"
+        },
+        {
+          "t": "Monat.",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "Monat",
+          "gb": "মাস",
+          "ge": "month",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমরা",
+        "একসাথে",
+        "উদযাপন",
+        "করব!"
+      ],
+      "en": [
+        "We",
+        "will",
+        "celebrate",
+        "together!"
+      ],
+      "de": [
+        {
+          "t": "Wir",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Wir",
+          "gb": "আমরা",
+          "ge": "We",
+          "n": ""
+        },
+        {
+          "t": "feiern",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "feiern",
+          "gb": "উদযাপন করব",
+          "ge": "will celebrate",
+          "n": ""
+        },
+        {
+          "t": "zusammen!",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "zusammen",
+          "gb": "একসাথে",
+          "ge": "together",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "ভালো",
+        "বুদ্ধি!",
+        "জন্মদিনের",
+        "শুভেচ্ছা!"
+      ],
+      "en": [
+        "Good",
+        "idea!",
+        "Happy",
+        "birthday!"
+      ],
+      "de": [
+        {
+          "t": "Gute Idee!",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "gute Idee",
+          "gb": "ভালো বুদ্ধি",
+          "ge": "Good idea",
+          "n": ""
+        },
+        {
+          "t": "Alles Gute",
+          "b": [
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "alles Gute",
+          "gb": "শুভেচ্ছা",
+          "ge": "Happy",
+          "n": "আক্ষরিক: সবকিছু ভালো — শুভেচ্ছা জানাতে"
+        },
+        {
+          "t": "zum",
+          "b": [],
+          "e": [],
+          "l": "zu dem",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Geburtstag!",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "Geburtstag",
+          "gb": "জন্মদিনের",
+          "ge": "birthday",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "বারো মাস — সবই der-শব্দ",
+      "head": [
+        "জার্মান",
+        "বাংলা"
+      ],
+      "rows": [
+        [
+          "Januar",
+          "জানুয়ারি"
+        ],
+        [
+          "Februar",
+          "ফেব্রুয়ারি"
+        ],
+        [
+          "März",
+          "মার্চ"
+        ],
+        [
+          "April",
+          "এপ্রিল"
+        ],
+        [
+          "Mai",
+          "মে"
+        ],
+        [
+          "Juni",
+          "জুন"
+        ],
+        [
+          "Juli",
+          "জুলাই"
+        ],
+        [
+          "August",
+          "আগস্ট"
+        ],
+        [
+          "September",
+          "সেপ্টেম্বর"
+        ],
+        [
+          "Oktober",
+          "অক্টোবর"
+        ],
+        [
+          "November",
+          "নভেম্বর"
+        ],
+        [
+          "Dezember",
+          "ডিসেম্বর"
+        ]
+      ],
+      "note": "„…মাসে“ বোঝাতে im: im Mai, im Juli, im Dezember (in dem)।"
+    },
+    {
+      "type": "table",
+      "title": "ক্রমবাচক সংখ্যা (১ম, ২য় …)",
+      "head": [
+        "সংখ্যা",
+        "ক্রমবাচক"
+      ],
+      "rows": [
+        [
+          "1.",
+          "erste"
+        ],
+        [
+          "2.",
+          "zweite"
+        ],
+        [
+          "3.",
+          "dritte"
+        ],
+        [
+          "4.",
+          "vierte"
+        ],
+        [
+          "5.",
+          "fünfte"
+        ],
+        [
+          "7.",
+          "siebte"
+        ],
+        [
+          "10.",
+          "zehnte"
+        ],
+        [
+          "15.",
+          "fünfzehnte"
+        ],
+        [
+          "20.",
+          "zwanzigste"
+        ],
+        [
+          "31.",
+          "einunddreißigste"
+        ]
+      ],
+      "note": "১ থেকে ১৯ পর্যন্ত শেষে -te; ২০ থেকে -ste। তারিখের আগে am, আর শেষে -n: am fünfzehnten Mai।"
+    },
+    {
+      "type": "text",
+      "title": "তারিখ লেখা ও বলা",
+      "text": "জার্মানে ক্রম: দিন.মাস.বছর — 15.05.2026। বলার সময়: „der fünfzehnte Mai“। কবে? প্রশ্নের উত্তর: „Am fünfzehnten Mai.“ জন্মদিনের শুভেচ্ছা: „Alles Gute zum Geburtstag!“"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "der Dezember",
+      "options": [
+        "আগস্ট",
+        "ডিসেম্বর",
+        "অক্টোবর",
+        "জন্মদিন"
+      ],
+      "answer": 1,
+      "why": "der Dezember = ডিসেম্বর।",
+      "word": "dezember"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "feiern",
+      "options": [
+        "আগস্ট",
+        "নভেম্বর",
+        "একসাথে",
+        "উদযাপন করা"
+      ],
+      "answer": 3,
+      "why": "feiern = উদযাপন করা।",
+      "word": "feiern"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "zusammen",
+      "options": [
+        "ফেব্রুয়ারি",
+        "মে",
+        "একসাথে",
+        "আগস্ট"
+      ],
+      "answer": 2,
+      "why": "zusammen = একসাথে।",
+      "word": "zusammen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Geburtstag",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 0,
+      "why": "der Geburtstag। বহুবচন: die Geburtstage।",
+      "word": "geburtstag"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ich habe am ___ Mai Geburtstag. (৫ই)",
+      "options": [
+        "fünften",
+        "fünfzehnten",
+        "fünf",
+        "fünfte"
+      ],
+      "answer": 0,
+      "why": "৫ → fünfte; am fünften Mai (-n)।",
+      "word": "mai"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক শব্দ বেছে নিন",
+      "sub": "Wann hast du Geburtstag? — ___ dritten März.",
+      "options": [
+        "Am",
+        "Im",
+        "Um",
+        "Von"
+      ],
+      "answer": 0,
+      "why": "তারিখের আগে am।",
+      "word": "geburtstag"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক শব্দ বেছে নিন",
+      "sub": "___ Juli ist es heiß.",
+      "options": [
+        "Im",
+        "Am",
+        "Um",
+        "Vom"
+      ],
+      "answer": 0,
+      "why": "মাসের আগে im: im Juli।",
+      "word": "juli"
+    },
+    {
+      "type": "order",
+      "prompt": "শব্দ সাজিয়ে বাক্য বানান: „জন্মদিনের শুভেচ্ছা!“",
+      "tiles": [
+        "Geburtstag!",
+        "zum",
+        "Gute",
+        "Alles"
+      ],
+      "answer": [
+        "Alles",
+        "Gute",
+        "zum",
+        "Geburtstag!"
+      ],
+      "why": "Alles Gute zum Geburtstag!",
+      "word": "geburtstag"
+    }
+  ],
+  "status": "draft",
+  "minutes": 14,
+  "passMark": 0.8
+}

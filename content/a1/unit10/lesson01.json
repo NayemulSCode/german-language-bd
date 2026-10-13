@@ -1,0 +1,844 @@
+{
+  "id": "a1-u10-l01",
+  "level": "A1",
+  "unit": 10,
+  "lesson": 1,
+  "title": {
+    "de": "Der Körper",
+    "bn": "শরীরের অঙ্গ",
+    "en": "The body"
+  },
+  "hook": {
+    "de": "Gesundheit ist das höchste Gut.",
+    "who": "Sprichwort",
+    "bn": "স্বাস্থ্যই সবচেয়ে বড় সম্পদ।",
+    "en": "Health is the greatest good."
+  },
+  "goals": [
+    "শরীরের অঙ্গের নাম ও আর্টিকেল",
+    "„Mein Kopf tut weh“ — কোথায় ব্যথা বলা",
+    "tut / tun — একবচন ও বহুবচন",
+    "Kopfschmerzen, Bauchschmerzen — যৌগিক শব্দ"
+  ],
+  "words": [
+    {
+      "id": "koerper",
+      "de": "Körper",
+      "art": "der",
+      "pl": "die Körper",
+      "pos": "বিশেষ্য",
+      "bn": "শরীর",
+      "en": "body"
+    },
+    {
+      "id": "kopf",
+      "de": "Kopf",
+      "art": "der",
+      "pl": "die Köpfe",
+      "pos": "বিশেষ্য",
+      "bn": "মাথা",
+      "en": "head"
+    },
+    {
+      "id": "hals",
+      "de": "Hals",
+      "art": "der",
+      "pl": "die Hälse",
+      "pos": "বিশেষ্য",
+      "bn": "গলা",
+      "en": "neck, throat"
+    },
+    {
+      "id": "bauch",
+      "de": "Bauch",
+      "art": "der",
+      "pl": "die Bäuche",
+      "pos": "বিশেষ্য",
+      "bn": "পেট",
+      "en": "stomach, belly"
+    },
+    {
+      "id": "ruecken",
+      "de": "Rücken",
+      "art": "der",
+      "pl": "die Rücken",
+      "pos": "বিশেষ্য",
+      "bn": "পিঠ",
+      "en": "back"
+    },
+    {
+      "id": "arm",
+      "de": "Arm",
+      "art": "der",
+      "pl": "die Arme",
+      "pos": "বিশেষ্য",
+      "bn": "হাত (কাঁধ থেকে কবজি)",
+      "en": "arm"
+    },
+    {
+      "id": "hand",
+      "de": "Hand",
+      "art": "die",
+      "pl": "die Hände",
+      "pos": "বিশেষ্য",
+      "bn": "হাত (কবজি থেকে আঙুল)",
+      "en": "hand"
+    },
+    {
+      "id": "bein",
+      "de": "Bein",
+      "art": "das",
+      "pl": "die Beine",
+      "pos": "বিশেষ্য",
+      "bn": "পা (উরু থেকে গোড়ালি)",
+      "en": "leg"
+    },
+    {
+      "id": "fuss",
+      "de": "Fuß",
+      "art": "der",
+      "pl": "die Füße",
+      "pos": "বিশেষ্য",
+      "bn": "পায়ের পাতা",
+      "en": "foot"
+    },
+    {
+      "id": "auge",
+      "de": "Auge",
+      "art": "das",
+      "pl": "die Augen",
+      "pos": "বিশেষ্য",
+      "bn": "চোখ",
+      "en": "eye"
+    },
+    {
+      "id": "ohr",
+      "de": "Ohr",
+      "art": "das",
+      "pl": "die Ohren",
+      "pos": "বিশেষ্য",
+      "bn": "কান",
+      "en": "ear"
+    },
+    {
+      "id": "nase",
+      "de": "Nase",
+      "art": "die",
+      "pl": "die Nasen",
+      "pos": "বিশেষ্য",
+      "bn": "নাক",
+      "en": "nose"
+    },
+    {
+      "id": "mund",
+      "de": "Mund",
+      "art": "der",
+      "pl": "die Münder",
+      "pos": "বিশেষ্য",
+      "bn": "মুখ (মুখগহ্বর)",
+      "en": "mouth"
+    },
+    {
+      "id": "zahn",
+      "de": "Zahn",
+      "art": "der",
+      "pl": "die Zähne",
+      "pos": "বিশেষ্য",
+      "bn": "দাঁত",
+      "en": "tooth"
+    },
+    {
+      "id": "fieber",
+      "de": "Fieber",
+      "art": "das",
+      "pos": "বিশেষ্য",
+      "bn": "জ্বর",
+      "en": "fever"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Muna",
+      "bn": [
+        "কী",
+        "হয়েছে?"
+      ],
+      "en": [
+        "What",
+        "is",
+        "wrong?"
+      ],
+      "de": [
+        {
+          "t": "Was",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Was",
+          "gb": "কী",
+          "ge": "What",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "los?",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "los",
+          "gb": "হয়েছে",
+          "ge": "wrong",
+          "n": "Was ist los? = কী হয়েছে? (কিছু ঠিক নেই মনে হলে জিজ্ঞাসা)"
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমার",
+        "মাথা",
+        "ব্যথা",
+        "করছে।"
+      ],
+      "en": [
+        "My",
+        "head",
+        "hurts."
+      ],
+      "de": [
+        {
+          "t": "Mein",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "mein",
+          "gb": "আমার",
+          "ge": "My",
+          "n": ""
+        },
+        {
+          "t": "Kopf",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "Kopf",
+          "gb": "মাথা",
+          "ge": "head",
+          "n": ""
+        },
+        {
+          "t": "tut",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "wehtun",
+          "gb": "ব্যথা",
+          "ge": "hurts",
+          "n": "wehtun: Mein Kopf tut weh — অঙ্গ একবচন হলে tut"
+        },
+        {
+          "t": "weh.",
+          "b": [
+            3
+          ],
+          "e": [],
+          "l": "wehtun",
+          "gb": "করছে",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "আর",
+        "তোমার",
+        "পিঠ?"
+      ],
+      "en": [
+        "And",
+        "your",
+        "back?"
+      ],
+      "de": [
+        {
+          "t": "Und",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "dein",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "dein",
+          "gb": "তোমার",
+          "ge": "your",
+          "n": ""
+        },
+        {
+          "t": "Rücken?",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "Rücken",
+          "gb": "পিঠ",
+          "ge": "back",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমার",
+        "পিঠ",
+        "আর",
+        "পেটও",
+        "ব্যথা",
+        "করছে।"
+      ],
+      "en": [
+        "My",
+        "back",
+        "and",
+        "my",
+        "stomach",
+        "hurt",
+        "too."
+      ],
+      "de": [
+        {
+          "t": "Mein",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Mein",
+          "gb": "আমার",
+          "ge": "My",
+          "n": ""
+        },
+        {
+          "t": "Rücken",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "Rücken",
+          "gb": "পিঠ",
+          "ge": "back",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "mein",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "mein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "my",
+          "n": ""
+        },
+        {
+          "t": "Bauch",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "Bauch",
+          "gb": "পেটও",
+          "ge": "stomach",
+          "n": ""
+        },
+        {
+          "t": "tun",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "wehtun",
+          "gb": "ব্যথা",
+          "ge": "hurt",
+          "n": "দুটি অঙ্গ (বহুবচন) → tun"
+        },
+        {
+          "t": "auch",
+          "b": [
+            3
+          ],
+          "e": [
+            6
+          ],
+          "l": "auch",
+          "gb": "পেটও",
+          "ge": "too",
+          "n": ""
+        },
+        {
+          "t": "weh.",
+          "b": [
+            5
+          ],
+          "e": [],
+          "l": "wehtun",
+          "gb": "করছে",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "তোমার",
+        "কি",
+        "জ্বর",
+        "আছে?"
+      ],
+      "en": [
+        "Do",
+        "you",
+        "have",
+        "a",
+        "fever?"
+      ],
+      "de": [
+        {
+          "t": "Hast",
+          "b": [
+            3
+          ],
+          "e": [
+            0,
+            2
+          ],
+          "l": "haben",
+          "gb": "আছে",
+          "ge": "Do have",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "du",
+          "gb": "তোমার",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "Fieber?",
+          "b": [
+            2
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "Fieber",
+          "gb": "জ্বর",
+          "ge": "a fever",
+          "n": "Fieber haben — আর্টিকেল ছাড়া"
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "না,",
+        "কিন্তু",
+        "আমার",
+        "গলা",
+        "ব্যথা",
+        "করছে।"
+      ],
+      "en": [
+        "No,",
+        "but",
+        "my",
+        "throat",
+        "hurts."
+      ],
+      "de": [
+        {
+          "t": "Nein,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Nein",
+          "gb": "না",
+          "ge": "No",
+          "n": ""
+        },
+        {
+          "t": "aber",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "aber",
+          "gb": "কিন্তু",
+          "ge": "but",
+          "n": ""
+        },
+        {
+          "t": "mein",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "mein",
+          "gb": "আমার",
+          "ge": "my",
+          "n": ""
+        },
+        {
+          "t": "Hals",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "Hals",
+          "gb": "গলা",
+          "ge": "throat",
+          "n": ""
+        },
+        {
+          "t": "tut",
+          "b": [
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "wehtun",
+          "gb": "ব্যথা",
+          "ge": "hurts",
+          "n": ""
+        },
+        {
+          "t": "weh.",
+          "b": [
+            5
+          ],
+          "e": [],
+          "l": "wehtun",
+          "gb": "করছে",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "শরীরের অঙ্গ ও বহুবচন",
+      "head": [
+        "জার্মান",
+        "বহুবচন",
+        "বাংলা"
+      ],
+      "rows": [
+        [
+          "der Kopf",
+          "die Köpfe",
+          "মাথা"
+        ],
+        [
+          "der Hals",
+          "die Hälse",
+          "গলা"
+        ],
+        [
+          "der Bauch",
+          "die Bäuche",
+          "পেট"
+        ],
+        [
+          "der Rücken",
+          "die Rücken",
+          "পিঠ"
+        ],
+        [
+          "der Arm",
+          "die Arme",
+          "হাত"
+        ],
+        [
+          "die Hand",
+          "die Hände",
+          "হাতের তালু ও আঙুল"
+        ],
+        [
+          "das Bein",
+          "die Beine",
+          "পা"
+        ],
+        [
+          "der Fuß",
+          "die Füße",
+          "পায়ের পাতা"
+        ],
+        [
+          "das Auge",
+          "die Augen",
+          "চোখ"
+        ],
+        [
+          "das Ohr",
+          "die Ohren",
+          "কান"
+        ],
+        [
+          "die Nase",
+          "die Nasen",
+          "নাক"
+        ],
+        [
+          "der Mund",
+          "die Münder",
+          "মুখ"
+        ],
+        [
+          "der Zahn",
+          "die Zähne",
+          "দাঁত"
+        ]
+      ],
+      "note": "বাংলায় „হাত“ একটিই; জার্মানে Arm (কাঁধ থেকে কবজি) আর Hand (কবজি থেকে আঙুল) আলাদা। „পা“-ও তেমনই: Bein ও Fuß।"
+    },
+    {
+      "type": "text",
+      "title": "wehtun — „ব্যথা করছে“",
+      "text": "„Mein Kopf tut weh.“ (আমার মাথা ব্যথা করছে)। অঙ্গ বহুবচন হলে tun: „Meine Augen tun weh.“, „Mein Rücken und mein Bauch tun weh.“ ভাঙা ক্রিয়া: wehtun → tut … weh।"
+    },
+    {
+      "type": "table",
+      "title": "ব্যথার যৌগিক শব্দ — Ich habe …",
+      "intro": "অঙ্গের নামের সাথে Schmerzen (ব্যথা) জুড়ে দিন। শব্দটি সবসময় বহুবচনে।",
+      "head": [
+        "শব্দ",
+        "বাংলা"
+      ],
+      "rows": [
+        [
+          "Kopfschmerzen",
+          "মাথাব্যথা"
+        ],
+        [
+          "Bauchschmerzen",
+          "পেটব্যথা"
+        ],
+        [
+          "Halsschmerzen",
+          "গলাব্যথা"
+        ],
+        [
+          "Rückenschmerzen",
+          "পিঠব্যথা"
+        ],
+        [
+          "Zahnschmerzen",
+          "দাঁতব্যথা"
+        ]
+      ],
+      "note": "Ich habe Kopfschmerzen. = আমার মাথাব্যথা আছে। (আর্টিকেল ছাড়া।)"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "der Rücken",
+      "options": [
+        "শরীর",
+        "গলা",
+        "পিঠ",
+        "হাত"
+      ],
+      "answer": 2,
+      "why": "der Rücken = পিঠ।",
+      "word": "ruecken"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "der Bauch",
+      "options": [
+        "গলা",
+        "পেট",
+        "পা",
+        "কান"
+      ],
+      "answer": 1,
+      "why": "der Bauch = পেট।",
+      "word": "bauch"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "der Zahn",
+      "options": [
+        "মাথা",
+        "দাঁত",
+        "পিঠ",
+        "পায়ের পাতা"
+      ],
+      "answer": 1,
+      "why": "der Zahn = দাঁত।",
+      "word": "zahn"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Kopf",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 0,
+      "why": "der Kopf। বহুবচন: die Köpfe।",
+      "word": "kopf"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Hand",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Hand। বহুবচন: die Hände।",
+      "word": "hand"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Mein Kopf ___ weh.",
+      "options": [
+        "tut",
+        "tun",
+        "tust",
+        "tue"
+      ],
+      "answer": 0,
+      "why": "একটি অঙ্গ (Kopf) → tut।",
+      "word": "kopf"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Meine Augen ___ weh.",
+      "options": [
+        "tut",
+        "tun",
+        "tust",
+        "tue"
+      ],
+      "answer": 1,
+      "why": "দুটি বা বহু অঙ্গ (Augen) → tun।",
+      "word": "auge"
+    },
+    {
+      "type": "order",
+      "prompt": "শব্দ সাজিয়ে বাক্য বানান: „আমার মাথা ব্যথা করছে।“",
+      "tiles": [
+        "weh.",
+        "tut",
+        "Kopf",
+        "Mein"
+      ],
+      "answer": [
+        "Mein",
+        "Kopf",
+        "tut",
+        "weh."
+      ],
+      "why": "Mein Kopf tut weh।",
+      "word": "kopf"
+    }
+  ],
+  "status": "draft",
+  "minutes": 14,
+  "passMark": 0.8
+}

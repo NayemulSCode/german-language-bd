@@ -1,0 +1,917 @@
+{
+  "id": "a1-u09-l03",
+  "level": "A1",
+  "unit": 9,
+  "lesson": 3,
+  "title": {
+    "de": "Das Wetter",
+    "bn": "আবহাওয়া ও ঋতু",
+    "en": "The weather"
+  },
+  "hook": {
+    "de": "Es gibt kein schlechtes Wetter, nur falsche Kleidung.",
+    "who": "Sprichwort",
+    "bn": "খারাপ আবহাওয়া বলে কিছু নেই, শুধু ভুল পোশাক আছে।",
+    "en": "There is no bad weather, only the wrong clothes."
+  },
+  "goals": [
+    "আবহাওয়ার বর্ণনা: Es regnet, Es schneit, Es ist kalt",
+    "তাপমাত্রা বলা: fünf Grad",
+    "চার ঋতু",
+    "নিজের দেশ ও জার্মানির আবহাওয়ার তুলনা"
+  ],
+  "words": [
+    {
+      "id": "wetter",
+      "de": "Wetter",
+      "art": "das",
+      "pos": "বিশেষ্য",
+      "bn": "আবহাওয়া",
+      "en": "weather"
+    },
+    {
+      "id": "sonne",
+      "de": "Sonne",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "সূর্য",
+      "en": "sun"
+    },
+    {
+      "id": "regen",
+      "de": "Regen",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "বৃষ্টি",
+      "en": "rain"
+    },
+    {
+      "id": "schnee",
+      "de": "Schnee",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "তুষার",
+      "en": "snow"
+    },
+    {
+      "id": "wind",
+      "de": "Wind",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "বাতাস",
+      "en": "wind"
+    },
+    {
+      "id": "grad",
+      "de": "Grad",
+      "art": "das",
+      "pl": "die Grad",
+      "pos": "বিশেষ্য",
+      "bn": "ডিগ্রি",
+      "en": "degree"
+    },
+    {
+      "id": "regnen",
+      "de": "regnen",
+      "pos": "ক্রিয়া",
+      "bn": "বৃষ্টি হওয়া",
+      "en": "to rain"
+    },
+    {
+      "id": "schneien",
+      "de": "schneien",
+      "pos": "ক্রিয়া",
+      "bn": "তুষারপাত হওয়া",
+      "en": "to snow"
+    },
+    {
+      "id": "sonnig",
+      "de": "sonnig",
+      "pos": "বিশেষণ",
+      "bn": "রৌদ্রোজ্জ্বল",
+      "en": "sunny"
+    },
+    {
+      "id": "heiss",
+      "de": "heiß",
+      "pos": "বিশেষণ",
+      "bn": "গরম, প্রচণ্ড গরম",
+      "en": "hot"
+    },
+    {
+      "id": "heute",
+      "de": "heute",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "আজ",
+      "en": "today"
+    },
+    {
+      "id": "sommer",
+      "de": "Sommer",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "গ্রীষ্মকাল",
+      "en": "summer"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Saheb",
+      "bn": [
+        "বার্লিনে",
+        "আবহাওয়া",
+        "কেমন?"
+      ],
+      "en": [
+        "What",
+        "is",
+        "the",
+        "weather",
+        "like",
+        "in",
+        "Berlin?"
+      ],
+      "de": [
+        {
+          "t": "Wie",
+          "b": [
+            2
+          ],
+          "e": [
+            0
+          ],
+          "l": "Wie",
+          "gb": "কেমন",
+          "ge": "What",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "das",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "das",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "Wetter",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "Wetter",
+          "gb": "আবহাওয়া",
+          "ge": "weather",
+          "n": ""
+        },
+        {
+          "t": "in",
+          "b": [
+            0
+          ],
+          "e": [
+            5
+          ],
+          "l": "in",
+          "gb": "বার্লিনে",
+          "ge": "in",
+          "n": ""
+        },
+        {
+          "t": "Berlin?",
+          "b": [
+            0
+          ],
+          "e": [
+            6
+          ],
+          "l": "Berlin",
+          "gb": "বার্লিনে",
+          "ge": "Berlin",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "আজ",
+        "ঠান্ডা।",
+        "মাত্র",
+        "পাঁচ",
+        "ডিগ্রি।"
+      ],
+      "en": [
+        "It",
+        "is",
+        "cold",
+        "today.",
+        "Only",
+        "five",
+        "degrees."
+      ],
+      "de": [
+        {
+          "t": "Heute",
+          "b": [
+            0
+          ],
+          "e": [
+            3
+          ],
+          "l": "Heute",
+          "gb": "আজ",
+          "ge": "today",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "es",
+          "b": [],
+          "e": [
+            0
+          ],
+          "l": "es",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "It",
+          "n": "আবহাওয়ার বাক্যে es বাধ্যতামূলক — „es ist kalt“"
+        },
+        {
+          "t": "kalt.",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "kalt",
+          "gb": "ঠান্ডা",
+          "ge": "cold",
+          "n": ""
+        },
+        {
+          "t": "Es",
+          "b": [],
+          "e": [],
+          "l": "Es",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "sind",
+          "b": [],
+          "e": [],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "nur",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "nur",
+          "gb": "মাত্র",
+          "ge": "Only",
+          "n": ""
+        },
+        {
+          "t": "fünf",
+          "b": [
+            3
+          ],
+          "e": [
+            5
+          ],
+          "l": "fünf",
+          "gb": "পাঁচ",
+          "ge": "five",
+          "n": ""
+        },
+        {
+          "t": "Grad.",
+          "b": [
+            4
+          ],
+          "e": [
+            6
+          ],
+          "l": "Grad",
+          "gb": "ডিগ্রি",
+          "ge": "degrees",
+          "n": "Grad বহুবচনেও একই: fünf Grad"
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "বৃষ্টি",
+        "হচ্ছে",
+        "কি?"
+      ],
+      "en": [
+        "Is",
+        "it",
+        "raining?"
+      ],
+      "de": [
+        {
+          "t": "Regnet",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            2
+          ],
+          "l": "regnen",
+          "gb": "বৃষ্টি হচ্ছে",
+          "ge": "Is raining",
+          "n": ""
+        },
+        {
+          "t": "es?",
+          "b": [
+            2
+          ],
+          "e": [
+            1
+          ],
+          "l": "es",
+          "gb": "কি",
+          "ge": "it",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "না,",
+        "কিন্তু",
+        "তুষারপাত",
+        "হচ্ছে!"
+      ],
+      "en": [
+        "No,",
+        "but",
+        "it",
+        "is",
+        "snowing!"
+      ],
+      "de": [
+        {
+          "t": "Nein,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Nein",
+          "gb": "না",
+          "ge": "No",
+          "n": ""
+        },
+        {
+          "t": "aber",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "aber",
+          "gb": "কিন্তু",
+          "ge": "but",
+          "n": ""
+        },
+        {
+          "t": "es",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "es",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "it",
+          "n": ""
+        },
+        {
+          "t": "schneit!",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "schneien",
+          "gb": "তুষারপাত হচ্ছে",
+          "ge": "is snowing",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "ঢাকায়",
+        "গরম,",
+        "আর",
+        "প্রায়ই",
+        "বৃষ্টি",
+        "হয়।"
+      ],
+      "en": [
+        "In",
+        "Dhaka",
+        "it",
+        "is",
+        "hot",
+        "and",
+        "it",
+        "often",
+        "rains."
+      ],
+      "de": [
+        {
+          "t": "In",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "In",
+          "gb": "ঢাকায়",
+          "ge": "In",
+          "n": ""
+        },
+        {
+          "t": "Dhaka",
+          "s": "Dhaka",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "Dhaka",
+          "gb": "ঢাকায়",
+          "ge": "Dhaka",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "es",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "es",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "it",
+          "n": ""
+        },
+        {
+          "t": "heiß,",
+          "b": [
+            1
+          ],
+          "e": [
+            4
+          ],
+          "l": "heiß",
+          "gb": "গরম",
+          "ge": "hot",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            2
+          ],
+          "e": [
+            5
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "es",
+          "b": [],
+          "e": [
+            6
+          ],
+          "l": "es",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "it",
+          "n": ""
+        },
+        {
+          "t": "regnet",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            8
+          ],
+          "l": "regnen",
+          "gb": "বৃষ্টি হয়",
+          "ge": "rains",
+          "n": ""
+        },
+        {
+          "t": "oft.",
+          "b": [
+            3
+          ],
+          "e": [
+            7
+          ],
+          "l": "oft",
+          "gb": "প্রায়ই",
+          "ge": "often",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "জার্মানিতে",
+        "গ্রীষ্মে",
+        "আবহাওয়া",
+        "উষ্ণ",
+        "আর",
+        "রৌদ্রোজ্জ্বল।"
+      ],
+      "en": [
+        "In",
+        "summer",
+        "it",
+        "is",
+        "warm",
+        "and",
+        "sunny",
+        "in",
+        "Germany."
+      ],
+      "de": [
+        {
+          "t": "Im",
+          "b": [
+            1
+          ],
+          "e": [
+            0
+          ],
+          "l": "in dem",
+          "gb": "গ্রীষ্মে",
+          "ge": "In",
+          "n": ""
+        },
+        {
+          "t": "Sommer",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "Sommer",
+          "gb": "গ্রীষ্মে",
+          "ge": "summer",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "es",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "es",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "it",
+          "n": ""
+        },
+        {
+          "t": "in",
+          "b": [
+            0
+          ],
+          "e": [
+            7
+          ],
+          "l": "in",
+          "gb": "জার্মানিতে",
+          "ge": "in",
+          "n": ""
+        },
+        {
+          "t": "Deutschland",
+          "b": [
+            0
+          ],
+          "e": [
+            8
+          ],
+          "l": "Deutschland",
+          "gb": "জার্মানিতে",
+          "ge": "Germany",
+          "n": ""
+        },
+        {
+          "t": "warm",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "warm",
+          "gb": "উষ্ণ",
+          "ge": "warm",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "sonnig.",
+          "b": [
+            5
+          ],
+          "e": [
+            6
+          ],
+          "l": "sonnig",
+          "gb": "রৌদ্রোজ্জ্বল",
+          "ge": "sunny",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "আবহাওয়ার শব্দ",
+      "head": [
+        "জার্মান",
+        "বাংলা",
+        "বাক্য"
+      ],
+      "rows": [
+        [
+          "die Sonne / sonnig",
+          "সূর্য / রৌদ্রোজ্জ্বল",
+          "Es ist sonnig."
+        ],
+        [
+          "der Regen / regnen",
+          "বৃষ্টি",
+          "Es regnet."
+        ],
+        [
+          "der Schnee / schneien",
+          "তুষার",
+          "Es schneit."
+        ],
+        [
+          "der Wind / windig",
+          "বাতাস",
+          "Es ist windig."
+        ],
+        [
+          "wolkig",
+          "মেঘলা",
+          "Es ist wolkig."
+        ],
+        [
+          "heiß / warm / kalt",
+          "গরম / উষ্ণ / ঠান্ডা",
+          "Es ist kalt."
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "title": "আবহাওয়ায় „es“ সবসময় লাগে",
+      "text": "বাংলায় „বৃষ্টি হচ্ছে“ বলতে কর্তা লাগে না। জার্মানে লাগে — কর্তা হলো es (এটাই „অদৃশ্য কর্তা“): „Es regnet.“, „Es schneit.“, „Es ist kalt.“ তাপমাত্রা: „Es sind fünf Grad.“ বা „Es hat fünf Grad.“ শূন্যের নিচে: „minus drei Grad“।"
+    },
+    {
+      "type": "table",
+      "title": "Jahreszeiten — চার ঋতু",
+      "head": [
+        "der Frühling",
+        "der Sommer",
+        "der Herbst",
+        "der Winter"
+      ],
+      "rows": [
+        [
+          "বসন্ত",
+          "গ্রীষ্ম",
+          "শরৎ",
+          "শীত"
+        ],
+        [
+          "im Frühling",
+          "im Sommer",
+          "im Herbst",
+          "im Winter"
+        ]
+      ],
+      "note": "সব ঋতু der-শব্দ, তাই „im“ (in dem): im Sommer = গ্রীষ্মে।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "der Regen",
+      "options": [
+        "তুষারপাত হওয়া",
+        "গরম",
+        "বৃষ্টি",
+        "গ্রীষ্মকাল"
+      ],
+      "answer": 2,
+      "why": "der Regen = বৃষ্টি।",
+      "word": "regen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "der Schnee",
+      "options": [
+        "গ্রীষ্মকাল",
+        "বৃষ্টি",
+        "বৃষ্টি হওয়া",
+        "তুষার"
+      ],
+      "answer": 3,
+      "why": "der Schnee = তুষার।",
+      "word": "schnee"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "heiß",
+      "options": [
+        "গ্রীষ্মকাল",
+        "বৃষ্টি",
+        "গরম",
+        "ডিগ্রি"
+      ],
+      "answer": 2,
+      "why": "heiß = গরম।",
+      "word": "heiss"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Wetter",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 2,
+      "why": "das Wetter।",
+      "word": "wetter"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Sonne",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Sonne।",
+      "word": "sonne"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Heute ___ es.",
+      "options": [
+        "regnet",
+        "regnest",
+        "regnen",
+        "regne"
+      ],
+      "answer": 0,
+      "why": "es regnet — es-এর সাথে -t।",
+      "word": "regnen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক শব্দ বেছে নিন",
+      "sub": "___ Winter ist es kalt.",
+      "options": [
+        "Im",
+        "Am",
+        "In",
+        "Um"
+      ],
+      "answer": 0,
+      "why": "ঋতুর আগে im: im Winter।",
+      "word": "sommer"
+    },
+    {
+      "type": "order",
+      "prompt": "শব্দ সাজিয়ে বাক্য বানান: „আজ ঠান্ডা।“",
+      "tiles": [
+        "kalt.",
+        "es",
+        "ist",
+        "Heute"
+      ],
+      "answer": [
+        "Heute",
+        "ist",
+        "es",
+        "kalt."
+      ],
+      "why": "Heute ist es kalt।",
+      "word": "heute"
+    }
+  ],
+  "status": "draft",
+  "minutes": 14,
+  "passMark": 0.8
+}

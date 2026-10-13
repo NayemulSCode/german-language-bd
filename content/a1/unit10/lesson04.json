@@ -1,0 +1,1169 @@
+{
+  "id": "a1-u10-l04",
+  "level": "A1",
+  "unit": 10,
+  "lesson": 4,
+  "minutes": 18,
+  "title": {
+    "de": "Ich stelle mich vor",
+    "bn": "A1 পুনরালোচনা — নিজের পরিচয়",
+    "en": "A1 review: introducing myself"
+  },
+  "hook": {
+    "de": "Frisch gewagt ist halb gewonnen.",
+    "who": "Sprichwort",
+    "bn": "সাহস করে শুরু করলে অর্ধেক জয় হয়ে যায়।",
+    "en": "Well begun is half done."
+  },
+  "goals": [
+    "নিজের পরিচয় একটানা বলা: নাম, বয়স, দেশ, শহর, পেশা, ভাষা",
+    "A1-এর সব ব্যাকরণ এক নজরে",
+    "১০টি মিশ্র প্রশ্নে নিজেকে যাচাই",
+    "অফিসিয়াল A1 পরীক্ষার প্রস্তুতি বোঝা"
+  ],
+  "words": [
+    {
+      "id": "vorstellung",
+      "de": "Vorstellung",
+      "art": "die",
+      "pl": "die Vorstellungen",
+      "pos": "বিশেষ্য",
+      "bn": "পরিচয় দেওয়া",
+      "en": "introduction"
+    },
+    {
+      "id": "herkunft",
+      "de": "Herkunft",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "আদি দেশ, উৎস",
+      "en": "origin"
+    },
+    {
+      "id": "mein_name_ist_saheb",
+      "de": "Mein Name ist Saheb.",
+      "pos": "বাক্য",
+      "bn": "আমার নাম সাহেব।",
+      "en": "My name is Saheb."
+    },
+    {
+      "id": "ich_bin_dreiundzwanzig_jahre_alt",
+      "de": "Ich bin dreiundzwanzig Jahre alt.",
+      "pos": "বাক্য",
+      "bn": "আমার বয়স তেইশ বছর।",
+      "en": "I am twenty-three years old."
+    },
+    {
+      "id": "ich_komme_aus_bangladesch",
+      "de": "Ich komme aus Bangladesch.",
+      "pos": "বাক্য",
+      "bn": "আমি বাংলাদেশ থেকে এসেছি।",
+      "en": "I come from Bangladesh."
+    },
+    {
+      "id": "ich_wohne_in_dhaka",
+      "de": "Ich wohne in Dhaka.",
+      "pos": "বাক্য",
+      "bn": "আমি ঢাকায় থাকি।",
+      "en": "I live in Dhaka."
+    },
+    {
+      "id": "ich_bin_student",
+      "de": "Ich bin Student.",
+      "pos": "বাক্য",
+      "bn": "আমি শিক্ষার্থী।",
+      "en": "I am a student."
+    },
+    {
+      "id": "ich_spreche_bengalisch_und_englisch",
+      "de": "Ich spreche Bengalisch und Englisch.",
+      "pos": "বাক্য",
+      "bn": "আমি বাংলা আর ইংরেজি বলি।",
+      "en": "I speak Bengali and English."
+    },
+    {
+      "id": "ich_lerne_deutsch",
+      "de": "Ich lerne Deutsch.",
+      "pos": "বাক্য",
+      "bn": "আমি জার্মান শিখছি।",
+      "en": "I am learning German."
+    },
+    {
+      "id": "ich_moechte_in_deutschland_arbeiten",
+      "de": "Ich möchte in Deutschland arbeiten.",
+      "pos": "বাক্য",
+      "bn": "আমি জার্মানিতে কাজ করতে চাই।",
+      "en": "I would like to work in Germany."
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Frau Becker",
+      "bn": [
+        "শুভ",
+        "দিন!",
+        "দয়া",
+        "করে",
+        "নিজের",
+        "পরিচয়",
+        "দিন।"
+      ],
+      "en": [
+        "Good",
+        "day!",
+        "Please",
+        "introduce",
+        "yourself."
+      ],
+      "de": [
+        {
+          "t": "Guten Tag!",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Guten Tag",
+          "gb": "শুভ দিন",
+          "ge": "Good day",
+          "n": ""
+        },
+        {
+          "t": "Bitte",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "Bitte",
+          "gb": "দয়া করে",
+          "ge": "Please",
+          "n": ""
+        },
+        {
+          "t": "stellen",
+          "b": [
+            6
+          ],
+          "e": [
+            3
+          ],
+          "l": "sich vorstellen",
+          "gb": "দিন",
+          "ge": "introduce",
+          "n": "sich vorstellen = নিজের পরিচয় দেওয়া — পরীক্ষার সবচেয়ে প্রচলিত নির্দেশ"
+        },
+        {
+          "t": "Sie",
+          "b": [],
+          "e": [],
+          "l": "Sie",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "sich",
+          "b": [
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "sich",
+          "gb": "নিজেকে",
+          "ge": "yourself",
+          "n": ""
+        },
+        {
+          "t": "vor.",
+          "b": [
+            5
+          ],
+          "e": [],
+          "l": "sich vorstellen",
+          "gb": "পরিচয়",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "শুভ",
+        "দিন!",
+        "আমার",
+        "নাম",
+        "সাহেব",
+        "রহমান।",
+        "আমার",
+        "বয়স",
+        "তেইশ",
+        "বছর।"
+      ],
+      "en": [
+        "Good",
+        "day!",
+        "My",
+        "name",
+        "is",
+        "Saheb",
+        "Rahman.",
+        "I",
+        "am",
+        "twenty-three",
+        "years",
+        "old."
+      ],
+      "de": [
+        {
+          "t": "Guten Tag!",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Guten Tag",
+          "gb": "শুভ দিন",
+          "ge": "Good day",
+          "n": ""
+        },
+        {
+          "t": "Mein",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "Mein",
+          "gb": "আমার",
+          "ge": "My",
+          "n": ""
+        },
+        {
+          "t": "Name",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "Name",
+          "gb": "নাম",
+          "ge": "name",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            4
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "Saheb Rahman.",
+          "s": "Saheb Rahman",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "Saheb Rahman",
+          "gb": "সাহেব রহমান",
+          "ge": "Saheb Rahman",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            6
+          ],
+          "e": [
+            7
+          ],
+          "l": "Ich",
+          "gb": "আমার",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "bin",
+          "b": [],
+          "e": [
+            8
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "am",
+          "n": ""
+        },
+        {
+          "t": "dreiundzwanzig",
+          "b": [
+            8
+          ],
+          "e": [
+            9
+          ],
+          "l": "dreiundzwanzig",
+          "gb": "তেইশ",
+          "ge": "twenty-three",
+          "n": ""
+        },
+        {
+          "t": "Jahre",
+          "b": [
+            9
+          ],
+          "e": [
+            10
+          ],
+          "l": "Jahre",
+          "gb": "বছর",
+          "ge": "years",
+          "n": ""
+        },
+        {
+          "t": "alt.",
+          "b": [
+            7
+          ],
+          "e": [
+            11
+          ],
+          "l": "alt",
+          "gb": "বয়স",
+          "ge": "old",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Frau Becker",
+      "bn": [
+        "আপনি",
+        "কোথা",
+        "থেকে",
+        "এসেছেন,",
+        "আর",
+        "কোথায়",
+        "থাকেন?"
+      ],
+      "en": [
+        "Where",
+        "do",
+        "you",
+        "come",
+        "from,",
+        "and",
+        "where",
+        "do",
+        "you",
+        "live?"
+      ],
+      "de": [
+        {
+          "t": "Woher",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            0,
+            4
+          ],
+          "l": "Woher",
+          "gb": "কোথা থেকে",
+          "ge": "Where from",
+          "n": ""
+        },
+        {
+          "t": "kommen",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "kommen",
+          "gb": "এসেছেন",
+          "ge": "come",
+          "n": ""
+        },
+        {
+          "t": "Sie,",
+          "b": [
+            0
+          ],
+          "e": [
+            2
+          ],
+          "l": "Sie",
+          "gb": "আপনি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "wo",
+          "b": [
+            5
+          ],
+          "e": [
+            6
+          ],
+          "l": "wo",
+          "gb": "কোথায়",
+          "ge": "where",
+          "n": ""
+        },
+        {
+          "t": "wohnen",
+          "b": [
+            6
+          ],
+          "e": [
+            9
+          ],
+          "l": "wohnen",
+          "gb": "থাকেন",
+          "ge": "live",
+          "n": ""
+        },
+        {
+          "t": "Sie?",
+          "b": [],
+          "e": [
+            8
+          ],
+          "l": "Sie",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "you",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "বাংলাদেশ",
+        "থেকে",
+        "এসেছি,",
+        "আর",
+        "ঢাকায়",
+        "থাকি।"
+      ],
+      "en": [
+        "I",
+        "come",
+        "from",
+        "Bangladesh",
+        "and",
+        "live",
+        "in",
+        "Dhaka."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "komme",
+          "b": [
+            3
+          ],
+          "e": [
+            1
+          ],
+          "l": "kommen",
+          "gb": "এসেছি",
+          "ge": "come",
+          "n": ""
+        },
+        {
+          "t": "aus",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "aus",
+          "gb": "থেকে",
+          "ge": "from",
+          "n": ""
+        },
+        {
+          "t": "Bangladesch",
+          "s": "Bangladesch",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "Bangladesch",
+          "gb": "বাংলাদেশ",
+          "ge": "Bangladesh",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "wohne",
+          "b": [
+            6
+          ],
+          "e": [
+            5
+          ],
+          "l": "wohnen",
+          "gb": "থাকি",
+          "ge": "live",
+          "n": ""
+        },
+        {
+          "t": "in",
+          "b": [
+            5
+          ],
+          "e": [
+            6
+          ],
+          "l": "in",
+          "gb": "ঢাকায়",
+          "ge": "in",
+          "n": ""
+        },
+        {
+          "t": "Dhaka.",
+          "s": "Dhaka",
+          "b": [
+            5
+          ],
+          "e": [
+            7
+          ],
+          "l": "Dhaka",
+          "gb": "ঢাকায়",
+          "ge": "Dhaka",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Frau Becker",
+      "bn": [
+        "আপনার",
+        "পেশা",
+        "কী?"
+      ],
+      "en": [
+        "What",
+        "is",
+        "your",
+        "profession?"
+      ],
+      "de": [
+        {
+          "t": "Was",
+          "b": [
+            2
+          ],
+          "e": [
+            0
+          ],
+          "l": "Was",
+          "gb": "কী",
+          "ge": "What",
+          "n": ""
+        },
+        {
+          "t": "sind",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [
+            0
+          ],
+          "e": [
+            2
+          ],
+          "l": "Sie",
+          "gb": "আপনার",
+          "ge": "your",
+          "n": ""
+        },
+        {
+          "t": "von Beruf?",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "Beruf",
+          "gb": "পেশা",
+          "ge": "profession",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "শিক্ষার্থী।",
+        "আমি",
+        "জার্মান",
+        "শিখছি,",
+        "আর",
+        "আমি",
+        "জার্মানিতে",
+        "কাজ",
+        "করতে",
+        "চাই।"
+      ],
+      "en": [
+        "I",
+        "am",
+        "a",
+        "student.",
+        "I",
+        "am",
+        "learning",
+        "German,",
+        "and",
+        "I",
+        "want",
+        "to",
+        "work",
+        "in",
+        "Germany."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "bin",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "am",
+          "n": ""
+        },
+        {
+          "t": "Student.",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "Student",
+          "gb": "শিক্ষার্থী",
+          "ge": "student",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "lerne",
+          "b": [
+            4
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "lernen",
+          "gb": "শিখছি",
+          "ge": "am learning",
+          "n": ""
+        },
+        {
+          "t": "Deutsch,",
+          "b": [
+            3
+          ],
+          "e": [
+            7
+          ],
+          "l": "Deutsch",
+          "gb": "জার্মান",
+          "ge": "German",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            5
+          ],
+          "e": [
+            8
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            6
+          ],
+          "e": [
+            9
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "möchte",
+          "b": [
+            10
+          ],
+          "e": [
+            10,
+            11
+          ],
+          "l": "möchten",
+          "gb": "চাই",
+          "ge": "want to",
+          "n": ""
+        },
+        {
+          "t": "in",
+          "b": [
+            7
+          ],
+          "e": [
+            13
+          ],
+          "l": "in",
+          "gb": "জার্মানিতে",
+          "ge": "in",
+          "n": ""
+        },
+        {
+          "t": "Deutschland",
+          "b": [
+            7
+          ],
+          "e": [
+            14
+          ],
+          "l": "Deutschland",
+          "gb": "জার্মানিতে",
+          "ge": "Germany",
+          "n": ""
+        },
+        {
+          "t": "arbeiten.",
+          "b": [
+            8,
+            9
+          ],
+          "e": [
+            12
+          ],
+          "l": "arbeiten",
+          "gb": "কাজ করতে",
+          "ge": "work",
+          "n": "মডালের সাথে মূল ক্রিয়া মূল রূপে, শেষে"
+        }
+      ]
+    },
+    {
+      "who": "Frau Becker",
+      "bn": [
+        "খুব",
+        "ভালো,",
+        "জনাব",
+        "রহমান!"
+      ],
+      "en": [
+        "Very",
+        "good,",
+        "Mr.",
+        "Rahman!"
+      ],
+      "de": [
+        {
+          "t": "Sehr",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Sehr",
+          "gb": "খুব",
+          "ge": "Very",
+          "n": "sehr = খুব"
+        },
+        {
+          "t": "gut,",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "gut",
+          "gb": "ভালো",
+          "ge": "good",
+          "n": ""
+        },
+        {
+          "t": "Herr",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "Herr",
+          "gb": "জনাব",
+          "ge": "Mr",
+          "n": ""
+        },
+        {
+          "t": "Rahman!",
+          "s": "Rahman",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "Rahman",
+          "gb": "রহমান",
+          "ge": "Rahman",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "নিজের পরিচয় — একটানা ছক",
+      "head": [
+        "বিষয়",
+        "জার্মান"
+      ],
+      "rows": [
+        [
+          "নাম",
+          "Ich heiße … / Mein Name ist …"
+        ],
+        [
+          "বয়স",
+          "Ich bin … Jahre alt."
+        ],
+        [
+          "কোথা থেকে",
+          "Ich komme aus …"
+        ],
+        [
+          "কোথায় থাকি",
+          "Ich wohne in …"
+        ],
+        [
+          "ভাষা",
+          "Ich spreche …"
+        ],
+        [
+          "পেশা",
+          "Ich bin … (ein ছাড়া)"
+        ],
+        [
+          "শখ",
+          "Ich spiele / höre / lese gern …"
+        ],
+        [
+          "ইচ্ছা",
+          "Ich möchte … (ক্রিয়া শেষে)"
+        ]
+      ],
+      "note": "পরীক্ষায় এই আটটি লাইনই চাওয়া হয় — বারবার জোরে বলে অভ্যাস করুন।"
+    },
+    {
+      "type": "table",
+      "title": "A1 ব্যাকরণ — এক নজরে",
+      "head": [
+        "বিষয়",
+        "মনে রাখুন"
+      ],
+      "rows": [
+        [
+          "ক্রিয়ার অবস্থান",
+          "সাধারণ বাক্যে ক্রিয়া ২য় স্থানে; প্রশ্নে প্রথমে"
+        ],
+        [
+          "ক্রিয়ার রূপ",
+          "-e, -st, -t, -en, -t, -en; অনিয়মিত: sein, haben, essen, nehmen, fahren, sprechen"
+        ],
+        [
+          "আর্টিকেল ও বহুবচন",
+          "der / die / das; বহুবচনে die; শব্দ আর্টিকেলসহ শিখুন"
+        ],
+        [
+          "Akkusativ",
+          "haben, möchten, brauchen-এর পরে: der → den, ein → einen"
+        ],
+        [
+          "Dativ",
+          "in, auf, neben, mit, zu-এর পরে: dem / der"
+        ],
+        [
+          "কে-নেই",
+          "kein (বিশেষ্য) / nicht (ক্রিয়া, বিশেষণ)"
+        ],
+        [
+          "মডাল ক্রিয়া",
+          "können, wollen, müssen, möchten — মূল ক্রিয়া শেষে"
+        ],
+        [
+          "ভাঙা ক্রিয়া",
+          "aufstehen → Ich stehe … auf"
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "title": "এরপর কী?",
+      "text": "এই অ্যাপ প্রস্তুতির জন্য — স্বীকৃত সার্টিফিকেট দেয় না। অফিসিয়াল A1 পরীক্ষা (যেমন Goethe-Institut, telc বা ÖSD-এর A1) সাধারণত চারটি অংশে: Lesen (পড়া), Hören (শোনা), Schreiben (লেখা), Sprechen (বলা)। পরীক্ষার তারিখ, ফি ও নিয়ম নিজ শহরের পরীক্ষা কেন্দ্রের ওয়েবসাইটে দেখে নিন। এরপর A2-এর কাজে যান।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ich ___ aus Bangladesch.",
+      "options": [
+        "komme",
+        "kommst",
+        "kommt",
+        "kommen"
+      ],
+      "answer": 0,
+      "why": "ich + kommen → komme।",
+      "word": "ich_komme_aus_bangladesch"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Wie ___ Sie?",
+      "options": [
+        "heißt",
+        "heißen",
+        "heiße",
+        "heiß"
+      ],
+      "answer": 1,
+      "why": "Sie-র সাথে মূল রূপ: Wie heißen Sie?"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ich habe ___ Bruder.",
+      "options": [
+        "ein",
+        "eine",
+        "einen",
+        "keine"
+      ],
+      "answer": 2,
+      "why": "der Bruder + haben → einen Bruder।"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Das Buch liegt auf ___ Tisch.",
+      "options": [
+        "dem",
+        "der",
+        "den",
+        "das"
+      ],
+      "answer": 0,
+      "why": "der Tisch → auf dem Tisch (Dativ)।"
+    },
+    {
+      "type": "mcq",
+      "prompt": "জার্মানে কী হবে?",
+      "sub": "আমি জার্মানিতে কাজ করতে চাই।",
+      "subBn": true,
+      "options": [
+        "Ich möchte in Deutschland arbeiten.",
+        "Ich möchte arbeiten in Deutschland.",
+        "Ich arbeiten möchte in Deutschland.",
+        "Ich möchte in Deutschland arbeite."
+      ],
+      "answer": 0,
+      "why": "মডাল ২য় স্থানে, মূল ক্রিয়া শেষে।",
+      "word": "ich_moechte_in_deutschland_arbeiten"
+    },
+    {
+      "type": "mcq",
+      "prompt": "ফাঁকা জায়গা পূরণ করুন",
+      "sub": "Ich stehe um sieben Uhr ___.",
+      "options": [
+        "auf",
+        "an",
+        "ab",
+        "aus"
+      ],
+      "answer": 0,
+      "why": "aufstehen → ich stehe … auf।"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক শব্দ বেছে নিন",
+      "sub": "Ich fahre ___ dem Bus.",
+      "options": [
+        "mit",
+        "zu",
+        "nach",
+        "von"
+      ],
+      "answer": 0,
+      "why": "যানবাহনের আগে mit।"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ich habe ___ Auto.",
+      "options": [
+        "kein",
+        "keine",
+        "nicht",
+        "keinen"
+      ],
+      "answer": 0,
+      "why": "das Auto → kein Auto।"
+    },
+    {
+      "type": "order",
+      "prompt": "শব্দ সাজিয়ে বাক্য বানান: „আমি বাংলাদেশ থেকে এসেছি।“",
+      "tiles": [
+        "Bangladesch.",
+        "aus",
+        "komme",
+        "Ich"
+      ],
+      "answer": [
+        "Ich",
+        "komme",
+        "aus",
+        "Bangladesch."
+      ],
+      "why": "Ich komme aus Bangladesch।",
+      "word": "ich_komme_aus_bangladesch"
+    },
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "Ich wohne in Dhaka.",
+      "options": [
+        "আমি ঢাকায় থাকি।",
+        "আমি ঢাকা থেকে এসেছি।",
+        "আমি ঢাকায় কাজ করি।",
+        "আমি ঢাকা যাচ্ছি।"
+      ],
+      "answer": 0,
+      "why": "wohnen = থাকা; in = -এ।",
+      "word": "ich_wohne_in_dhaka"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

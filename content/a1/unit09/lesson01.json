@@ -1,0 +1,1122 @@
+{
+  "id": "a1-u09-l01",
+  "level": "A1",
+  "unit": 9,
+  "lesson": 1,
+  "title": {
+    "de": "Die Kleidung",
+    "bn": "পোশাক-আশাক",
+    "en": "Clothes"
+  },
+  "hook": {
+    "de": "Kleider machen Leute.",
+    "who": "Gottfried Keller",
+    "bn": "পোশাকেই মানুষ চেনা যায়।",
+    "en": "Clothes make the man."
+  },
+  "goals": [
+    "পোশাকের নাম ও আর্টিকেল",
+    "tragen ও anziehen — পরা ও পরে থাকা",
+    "শীতের জন্য কী লাগবে বলা",
+    "পোশাকের বহুবচন"
+  ],
+  "words": [
+    {
+      "id": "kleidung",
+      "de": "Kleidung",
+      "art": "die",
+      "pos": "বিশেষ্য, শুধু একবচন",
+      "bn": "পোশাক",
+      "en": "clothing"
+    },
+    {
+      "id": "hose",
+      "de": "Hose",
+      "art": "die",
+      "pl": "die Hosen",
+      "pos": "বিশেষ্য",
+      "bn": "প্যান্ট",
+      "en": "trousers"
+    },
+    {
+      "id": "hemd",
+      "de": "Hemd",
+      "art": "das",
+      "pl": "die Hemden",
+      "pos": "বিশেষ্য",
+      "bn": "শার্ট",
+      "en": "shirt"
+    },
+    {
+      "id": "jacke",
+      "de": "Jacke",
+      "art": "die",
+      "pl": "die Jacken",
+      "pos": "বিশেষ্য",
+      "bn": "জ্যাকেট",
+      "en": "jacket"
+    },
+    {
+      "id": "mantel",
+      "de": "Mantel",
+      "art": "der",
+      "pl": "die Mäntel",
+      "pos": "বিশেষ্য",
+      "bn": "কোট, ওভারকোট",
+      "en": "coat"
+    },
+    {
+      "id": "pullover",
+      "de": "Pullover",
+      "art": "der",
+      "pl": "die Pullover",
+      "pos": "বিশেষ্য",
+      "bn": "সোয়েটার",
+      "en": "pullover"
+    },
+    {
+      "id": "t_shirt",
+      "de": "T-Shirt",
+      "art": "das",
+      "pl": "die T-Shirts",
+      "pos": "বিশেষ্য",
+      "bn": "টি-শার্ট",
+      "en": "T-shirt"
+    },
+    {
+      "id": "kleid",
+      "de": "Kleid",
+      "art": "das",
+      "pl": "die Kleider",
+      "pos": "বিশেষ্য",
+      "bn": "ফ্রক, গাউন",
+      "en": "dress"
+    },
+    {
+      "id": "muetze",
+      "de": "Mütze",
+      "art": "die",
+      "pl": "die Mützen",
+      "pos": "বিশেষ্য",
+      "bn": "টুপি",
+      "en": "hat, cap"
+    },
+    {
+      "id": "schuh",
+      "de": "Schuh",
+      "art": "der",
+      "pl": "die Schuhe",
+      "pos": "বিশেষ্য",
+      "bn": "জুতো",
+      "en": "shoe"
+    },
+    {
+      "id": "tragen",
+      "de": "tragen",
+      "pos": "ক্রিয়া",
+      "bn": "পরে থাকা; বহন করা",
+      "en": "to wear; to carry"
+    },
+    {
+      "id": "anziehen",
+      "de": "anziehen",
+      "pos": "ক্রিয়া (ভাঙা)",
+      "bn": "পরা",
+      "en": "to put on"
+    },
+    {
+      "id": "winter",
+      "de": "Winter",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "শীতকাল",
+      "en": "winter"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "শীতে",
+        "জার্মানি",
+        "যাচ্ছি।",
+        "আমার",
+        "কী",
+        "লাগবে?"
+      ],
+      "en": [
+        "I",
+        "am",
+        "going",
+        "to",
+        "Germany",
+        "in",
+        "winter.",
+        "What",
+        "do",
+        "I",
+        "need?"
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "fahre",
+          "b": [
+            3
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "fahren",
+          "gb": "যাচ্ছি",
+          "ge": "am going",
+          "n": ""
+        },
+        {
+          "t": "im",
+          "b": [],
+          "e": [
+            5
+          ],
+          "l": "in dem",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "in",
+          "n": "im Winter = শীতকালে"
+        },
+        {
+          "t": "Winter",
+          "b": [
+            1
+          ],
+          "e": [
+            6
+          ],
+          "l": "Winter",
+          "gb": "শীতে",
+          "ge": "winter",
+          "n": ""
+        },
+        {
+          "t": "nach",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "nach",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "to",
+          "n": ""
+        },
+        {
+          "t": "Deutschland.",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "Deutschland",
+          "gb": "জার্মানি",
+          "ge": "Germany",
+          "n": ""
+        },
+        {
+          "t": "Was",
+          "b": [
+            5
+          ],
+          "e": [
+            7
+          ],
+          "l": "Was",
+          "gb": "কী",
+          "ge": "What",
+          "n": ""
+        },
+        {
+          "t": "brauche",
+          "b": [
+            6
+          ],
+          "e": [
+            8,
+            10
+          ],
+          "l": "brauchen",
+          "gb": "লাগবে",
+          "ge": "do need",
+          "n": ""
+        },
+        {
+          "t": "ich?",
+          "b": [
+            4
+          ],
+          "e": [
+            9
+          ],
+          "l": "ich",
+          "gb": "আমার",
+          "ge": "I",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "ওখানে",
+        "ঠান্ডা!",
+        "তোমার",
+        "একটি",
+        "জ্যাকেট",
+        "আর",
+        "একটি",
+        "কোট",
+        "লাগবে।"
+      ],
+      "en": [
+        "It",
+        "is",
+        "cold",
+        "there!",
+        "You",
+        "need",
+        "a",
+        "jacket",
+        "and",
+        "a",
+        "coat."
+      ],
+      "de": [
+        {
+          "t": "Es",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Es",
+          "gb": "ওখানে",
+          "ge": "It",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "kalt!",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "kalt",
+          "gb": "ঠান্ডা",
+          "ge": "cold",
+          "n": ""
+        },
+        {
+          "t": "Du",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "Du",
+          "gb": "তোমার",
+          "ge": "You",
+          "n": ""
+        },
+        {
+          "t": "brauchst",
+          "b": [
+            8
+          ],
+          "e": [
+            5
+          ],
+          "l": "brauchen",
+          "gb": "লাগবে",
+          "ge": "need",
+          "n": ""
+        },
+        {
+          "t": "eine",
+          "b": [
+            3
+          ],
+          "e": [
+            6
+          ],
+          "l": "ein",
+          "gb": "একটি",
+          "ge": "a",
+          "n": ""
+        },
+        {
+          "t": "Jacke",
+          "b": [
+            4
+          ],
+          "e": [
+            7
+          ],
+          "l": "Jacke",
+          "gb": "জ্যাকেট",
+          "ge": "jacket",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            5
+          ],
+          "e": [
+            8
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "einen",
+          "b": [
+            6
+          ],
+          "e": [
+            9
+          ],
+          "l": "ein",
+          "gb": "একটি",
+          "ge": "a",
+          "n": "der Mantel + brauchen → einen Mantel"
+        },
+        {
+          "t": "Mantel.",
+          "b": [
+            7
+          ],
+          "e": [
+            10
+          ],
+          "l": "Mantel",
+          "gb": "কোট",
+          "ge": "coat",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আর",
+        "আমি",
+        "কী",
+        "পরব?"
+      ],
+      "en": [
+        "And",
+        "what",
+        "do",
+        "I",
+        "wear?"
+      ],
+      "de": [
+        {
+          "t": "Und",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "was",
+          "b": [
+            2
+          ],
+          "e": [
+            1
+          ],
+          "l": "was",
+          "gb": "কী",
+          "ge": "what",
+          "n": ""
+        },
+        {
+          "t": "ziehe",
+          "b": [
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "anziehen",
+          "gb": "পরব",
+          "ge": "do",
+          "n": "anziehen ভাঙা ক্রিয়া: Ich ziehe … an"
+        },
+        {
+          "t": "ich",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "an?",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "anziehen",
+          "gb": "পরব",
+          "ge": "wear",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "তুমি",
+        "একটি",
+        "গরম",
+        "প্যান্ট",
+        "আর",
+        "একটি",
+        "সোয়েটার",
+        "পরবে।"
+      ],
+      "en": [
+        "You",
+        "put",
+        "on",
+        "warm",
+        "trousers",
+        "and",
+        "a",
+        "pullover."
+      ],
+      "de": [
+        {
+          "t": "Du",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Du",
+          "gb": "তুমি",
+          "ge": "You",
+          "n": ""
+        },
+        {
+          "t": "ziehst",
+          "b": [
+            7
+          ],
+          "e": [
+            1
+          ],
+          "l": "anziehen",
+          "gb": "পরবে",
+          "ge": "put",
+          "n": ""
+        },
+        {
+          "t": "eine",
+          "b": [
+            1
+          ],
+          "e": [],
+          "l": "ein",
+          "gb": "একটি",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "warme",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "warm",
+          "gb": "গরম",
+          "ge": "warm",
+          "n": "বিশেষণ বিশেষ্যের আগে এলে শেষে -e / -en যোগ হয়"
+        },
+        {
+          "t": "Hose",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "Hose",
+          "gb": "প্যান্ট",
+          "ge": "trousers",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "einen",
+          "b": [
+            5
+          ],
+          "e": [
+            6
+          ],
+          "l": "ein",
+          "gb": "একটি",
+          "ge": "a",
+          "n": ""
+        },
+        {
+          "t": "Pullover",
+          "b": [
+            6
+          ],
+          "e": [
+            7
+          ],
+          "l": "Pullover",
+          "gb": "সোয়েটার",
+          "ge": "pullover",
+          "n": ""
+        },
+        {
+          "t": "an.",
+          "b": [
+            7
+          ],
+          "e": [
+            2
+          ],
+          "l": "anziehen",
+          "gb": "পরবে",
+          "ge": "on",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমার",
+        "কি",
+        "টি-শার্টও",
+        "লাগবে?"
+      ],
+      "en": [
+        "Do",
+        "I",
+        "also",
+        "need",
+        "a",
+        "T-shirt?"
+      ],
+      "de": [
+        {
+          "t": "Brauche",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "brauchen",
+          "gb": "লাগবে",
+          "ge": "need",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "ich",
+          "gb": "আমার",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "auch",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "auch",
+          "gb": "টি-শার্টও",
+          "ge": "also",
+          "n": ""
+        },
+        {
+          "t": "ein",
+          "b": [],
+          "e": [
+            4
+          ],
+          "l": "ein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "a",
+          "n": ""
+        },
+        {
+          "t": "T-Shirt?",
+          "s": "T-Shirt",
+          "b": [
+            2
+          ],
+          "e": [
+            5
+          ],
+          "l": "T-Shirt",
+          "gb": "টি-শার্টও",
+          "ge": "T-shirt",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "হ্যাঁ,",
+        "ঘরে",
+        "তুমি",
+        "টি-শার্ট",
+        "পরবে।"
+      ],
+      "en": [
+        "Yes,",
+        "in",
+        "the",
+        "flat",
+        "you",
+        "wear",
+        "a",
+        "T-shirt."
+      ],
+      "de": [
+        {
+          "t": "Ja,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ja",
+          "gb": "হ্যাঁ",
+          "ge": "Yes",
+          "n": ""
+        },
+        {
+          "t": "in",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "in",
+          "gb": "ঘরে",
+          "ge": "in",
+          "n": ""
+        },
+        {
+          "t": "der",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "die",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "Wohnung",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "Wohnung",
+          "gb": "ঘরে",
+          "ge": "flat",
+          "n": ""
+        },
+        {
+          "t": "trägst",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "tragen",
+          "gb": "পরবে",
+          "ge": "wear",
+          "n": "tragen: du trägst, er trägt (a → ä)"
+        },
+        {
+          "t": "du",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "ein",
+          "b": [],
+          "e": [
+            6
+          ],
+          "l": "ein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "a",
+          "n": ""
+        },
+        {
+          "t": "T-Shirt.",
+          "s": "T-Shirt",
+          "b": [
+            3
+          ],
+          "e": [
+            7
+          ],
+          "l": "T-Shirt",
+          "gb": "টি-শার্ট",
+          "ge": "T-shirt",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "পোশাক ও তার বহুবচন",
+      "head": [
+        "জার্মান",
+        "বহুবচন",
+        "বাংলা"
+      ],
+      "rows": [
+        [
+          "die Hose",
+          "die Hosen",
+          "প্যান্ট"
+        ],
+        [
+          "das Hemd",
+          "die Hemden",
+          "শার্ট"
+        ],
+        [
+          "die Jacke",
+          "die Jacken",
+          "জ্যাকেট"
+        ],
+        [
+          "der Mantel",
+          "die Mäntel",
+          "কোট"
+        ],
+        [
+          "der Pullover",
+          "die Pullover",
+          "সোয়েটার"
+        ],
+        [
+          "das T-Shirt",
+          "die T-Shirts",
+          "টি-শার্ট"
+        ],
+        [
+          "das Kleid",
+          "die Kleider",
+          "ফ্রক / গাউন"
+        ],
+        [
+          "die Mütze",
+          "die Mützen",
+          "টুপি"
+        ],
+        [
+          "der Schuh",
+          "die Schuhe",
+          "জুতো"
+        ]
+      ],
+      "note": "Schuhe প্রায়ই জোড়ায় (বহুবচনে) বলা হয়: „Ich brauche Schuhe.“"
+    },
+    {
+      "type": "conjugation",
+      "intro": "tragen: du ও er-এ a → ä হয়।",
+      "verbs": [
+        "tragen"
+      ],
+      "note": "fahren, tragen, schlafen — a বদলে ä (du ও er-এ)।",
+      "rows": [
+        {
+          "pron": "ich",
+          "stems": [
+            "trag"
+          ],
+          "ends": [
+            "e"
+          ],
+          "bn": "আমি পরি / বহন করি"
+        },
+        {
+          "pron": "du",
+          "stems": [
+            "träg"
+          ],
+          "ends": [
+            "st"
+          ],
+          "bn": "তুমি পরো"
+        },
+        {
+          "pron": "er / sie / es",
+          "stems": [
+            "träg"
+          ],
+          "ends": [
+            "t"
+          ],
+          "bn": "সে পরে"
+        },
+        {
+          "pron": "wir",
+          "stems": [
+            "trag"
+          ],
+          "ends": [
+            "en"
+          ],
+          "bn": "আমরা"
+        },
+        {
+          "pron": "ihr",
+          "stems": [
+            "trag"
+          ],
+          "ends": [
+            "t"
+          ],
+          "bn": "তোমরা"
+        },
+        {
+          "pron": "sie / Sie",
+          "stems": [
+            "trag"
+          ],
+          "ends": [
+            "en"
+          ],
+          "bn": "তারা / আপনি"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "anziehen নাকি tragen?",
+      "text": "anziehen = পরার কাজটি (গায়ে চাপানো): „Ich ziehe eine Jacke an.“ — ভাঙা ক্রিয়া, ছোট অংশ an শেষে। tragen = পরে আছি / পরে থাকি: „Ich trage eine Jacke.“ প্রশ্নে: „Was ziehst du an?“ = তুমি কী পরবে?"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "die Hose",
+      "options": [
+        "প্যান্ট",
+        "সোয়েটার",
+        "ফ্রক",
+        "জুতো"
+      ],
+      "answer": 0,
+      "why": "die Hose = প্যান্ট।",
+      "word": "hose"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "die Mütze",
+      "options": [
+        "প্যান্ট",
+        "কোট",
+        "টুপি",
+        "ফ্রক"
+      ],
+      "answer": 2,
+      "why": "die Mütze = টুপি।",
+      "word": "muetze"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "das Hemd",
+      "options": [
+        "টুপি",
+        "পরা",
+        "শার্ট",
+        "প্যান্ট"
+      ],
+      "answer": 2,
+      "why": "das Hemd = শার্ট।",
+      "word": "hemd"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Jacke",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Jacke। বহুবচন: die Jacken।",
+      "word": "jacke"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Mantel",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 0,
+      "why": "der Mantel। বহুবচন: die Mäntel।",
+      "word": "mantel"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Du ___ eine Jacke.",
+      "options": [
+        "trage",
+        "trägst",
+        "trägt",
+        "tragen"
+      ],
+      "answer": 1,
+      "why": "du + tragen → trägst (a → ä)।",
+      "word": "tragen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "জার্মানে কী হবে?",
+      "sub": "আমি একটি জ্যাকেট পরি।",
+      "subBn": true,
+      "options": [
+        "Ich ziehe eine Jacke an.",
+        "Ich anziehe eine Jacke.",
+        "Ich ziehe an eine Jacke.",
+        "Ich eine Jacke anziehe."
+      ],
+      "answer": 0,
+      "why": "মূল অংশ ২য় স্থানে, an শেষে।",
+      "word": "anziehen"
+    },
+    {
+      "type": "order",
+      "prompt": "শব্দ সাজিয়ে বাক্য বানান: „আমি একটি জ্যাকেট পরি।“",
+      "tiles": [
+        "an.",
+        "Jacke",
+        "eine",
+        "ziehe",
+        "Ich"
+      ],
+      "answer": [
+        "Ich",
+        "ziehe",
+        "eine",
+        "Jacke",
+        "an."
+      ],
+      "why": "Ich ziehe eine Jacke an।",
+      "word": "anziehen"
+    }
+  ],
+  "status": "draft",
+  "minutes": 14,
+  "passMark": 0.8
+}

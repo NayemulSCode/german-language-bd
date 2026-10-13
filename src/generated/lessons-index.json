@@ -375,5 +375,109 @@
     },
     "status": "draft",
     "minutes": 14
+  },
+  {
+    "id": "a1-u09-l01",
+    "level": "A1",
+    "unit": 9,
+    "lesson": 1,
+    "title": {
+      "bn": "পোশাক-আশাক",
+      "en": "Clothes",
+      "de": "Die Kleidung"
+    },
+    "status": "draft",
+    "minutes": 14
+  },
+  {
+    "id": "a1-u09-l02",
+    "level": "A1",
+    "unit": 9,
+    "lesson": 2,
+    "title": {
+      "bn": "রং, মাপ ও কেনাকাটা",
+      "en": "Colours and sizes",
+      "de": "Farben und Größen"
+    },
+    "status": "draft",
+    "minutes": 14
+  },
+  {
+    "id": "a1-u09-l03",
+    "level": "A1",
+    "unit": 9,
+    "lesson": 3,
+    "title": {
+      "bn": "আবহাওয়া ও ঋতু",
+      "en": "The weather",
+      "de": "Das Wetter"
+    },
+    "status": "draft",
+    "minutes": 14
+  },
+  {
+    "id": "a1-u09-l04",
+    "level": "A1",
+    "unit": 9,
+    "lesson": 4,
+    "title": {
+      "bn": "মাস, তারিখ ও জন্মদিন",
+      "en": "Months and dates",
+      "de": "Monate und Datum"
+    },
+    "status": "draft",
+    "minutes": 14
+  },
+  {
+    "id": "a1-u10-l01",
+    "level": "A1",
+    "unit": 10,
+    "lesson": 1,
+    "title": {
+      "bn": "শরীরের অঙ্গ",
+      "en": "The body",
+      "de": "Der Körper"
+    },
+    "status": "draft",
+    "minutes": 14
+  },
+  {
+    "id": "a1-u10-l02",
+    "level": "A1",
+    "unit": 10,
+    "lesson": 2,
+    "title": {
+      "bn": "ডাক্তারের কাছে",
+      "en": "At the doctor",
+      "de": "Beim Arzt"
+    },
+    "status": "draft",
+    "minutes": 14
+  },
+  {
+    "id": "a1-u10-l03",
+    "level": "A1",
+    "unit": 10,
+    "lesson": 3,
+    "title": {
+      "bn": "স্বাস্থ্য ও পরামর্শ",
+      "en": "Health and advice",
+      "de": "Gesundheit und Ratschläge"
+    },
+    "status": "draft",
+    "minutes": 14
+  },
+  {
+    "id": "a1-u10-l04",
+    "level": "A1",
+    "unit": 10,
+    "lesson": 4,
+    "title": {
+      "bn": "A1 পুনরালোচনা — নিজের পরিচয়",
+      "en": "A1 review: introducing myself",
+      "de": "Ich stelle mich vor"
+    },
+    "status": "draft",
+    "minutes": 18
   }
 ]

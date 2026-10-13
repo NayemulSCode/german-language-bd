@@ -1,0 +1,1011 @@
+{
+  "id": "a1-u09-l02",
+  "level": "A1",
+  "unit": 9,
+  "lesson": 2,
+  "title": {
+    "de": "Farben und Größen",
+    "bn": "রং, মাপ ও কেনাকাটা",
+    "en": "Colours and sizes"
+  },
+  "hook": {
+    "de": "Über Geschmack lässt sich nicht streiten.",
+    "who": "Sprichwort",
+    "bn": "রুচি নিয়ে তর্ক চলে না।",
+    "en": "There is no accounting for taste."
+  },
+  "goals": [
+    "রঙের নাম",
+    "কাপড়ের দোকানে কথা বলা: Ich suche …, Was ist Ihre Größe?",
+    "বিশেষণের শেষ: eine blaue Jacke",
+    "passen ও gefallen — মানানো ও পছন্দ হওয়া"
+  ],
+  "words": [
+    {
+      "id": "farbe",
+      "de": "Farbe",
+      "art": "die",
+      "pl": "die Farben",
+      "pos": "বিশেষ্য",
+      "bn": "রং",
+      "en": "colour"
+    },
+    {
+      "id": "rot",
+      "de": "rot",
+      "pos": "বিশেষণ",
+      "bn": "লাল",
+      "en": "red"
+    },
+    {
+      "id": "blau",
+      "de": "blau",
+      "pos": "বিশেষণ",
+      "bn": "নীল",
+      "en": "blue"
+    },
+    {
+      "id": "gruen",
+      "de": "grün",
+      "pos": "বিশেষণ",
+      "bn": "সবুজ",
+      "en": "green"
+    },
+    {
+      "id": "gelb",
+      "de": "gelb",
+      "pos": "বিশেষণ",
+      "bn": "হলুদ",
+      "en": "yellow"
+    },
+    {
+      "id": "schwarz",
+      "de": "schwarz",
+      "pos": "বিশেষণ",
+      "bn": "কালো",
+      "en": "black"
+    },
+    {
+      "id": "weiss",
+      "de": "weiß",
+      "pos": "বিশেষণ",
+      "bn": "সাদা",
+      "en": "white"
+    },
+    {
+      "id": "groesse",
+      "de": "Größe",
+      "art": "die",
+      "pl": "die Größen",
+      "pos": "বিশেষ্য",
+      "bn": "মাপ, সাইজ",
+      "en": "size"
+    },
+    {
+      "id": "passen",
+      "de": "passen",
+      "pos": "ক্রিয়া",
+      "bn": "মানানো, ঠিক মাপে হওয়া",
+      "en": "to fit"
+    },
+    {
+      "id": "gefallen",
+      "de": "gefallen",
+      "pos": "ক্রিয়া",
+      "bn": "পছন্দ হওয়া",
+      "en": "to please, to like"
+    },
+    {
+      "id": "anprobieren",
+      "de": "anprobieren",
+      "pos": "ক্রিয়া (ভাঙা)",
+      "bn": "পরে দেখা",
+      "en": "to try on"
+    },
+    {
+      "id": "suchen",
+      "de": "suchen",
+      "pos": "ক্রিয়া",
+      "bn": "খোঁজা",
+      "en": "to look for"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Verkäuferin",
+      "bn": [
+        "শুভ",
+        "দিন!",
+        "আপনি",
+        "কী",
+        "খুঁজছেন?"
+      ],
+      "en": [
+        "Good",
+        "day!",
+        "What",
+        "are",
+        "you",
+        "looking",
+        "for?"
+      ],
+      "de": [
+        {
+          "t": "Guten Tag!",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Guten Tag",
+          "gb": "শুভ দিন",
+          "ge": "Good day",
+          "n": ""
+        },
+        {
+          "t": "Was",
+          "b": [
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "Was",
+          "gb": "কী",
+          "ge": "What",
+          "n": ""
+        },
+        {
+          "t": "suchen",
+          "b": [
+            4
+          ],
+          "e": [
+            3,
+            5,
+            6
+          ],
+          "l": "suchen",
+          "gb": "খুঁজছেন",
+          "ge": "are looking for",
+          "n": ""
+        },
+        {
+          "t": "Sie?",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "Sie",
+          "gb": "আপনি",
+          "ge": "you",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "আমি",
+        "একটি",
+        "নীল",
+        "জ্যাকেট",
+        "খুঁজছি।"
+      ],
+      "en": [
+        "I",
+        "am",
+        "looking",
+        "for",
+        "a",
+        "blue",
+        "jacket."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "suche",
+          "b": [
+            4
+          ],
+          "e": [
+            1,
+            2,
+            3
+          ],
+          "l": "suchen",
+          "gb": "খুঁজছি",
+          "ge": "am looking for",
+          "n": ""
+        },
+        {
+          "t": "eine",
+          "b": [
+            1
+          ],
+          "e": [
+            4
+          ],
+          "l": "ein",
+          "gb": "একটি",
+          "ge": "a",
+          "n": ""
+        },
+        {
+          "t": "blaue",
+          "b": [
+            2
+          ],
+          "e": [
+            5
+          ],
+          "l": "blau",
+          "gb": "নীল",
+          "ge": "blue",
+          "n": "die Jacke + ein → eine blaue Jacke (শেষে -e)"
+        },
+        {
+          "t": "Jacke.",
+          "b": [
+            3
+          ],
+          "e": [
+            6
+          ],
+          "l": "Jacke",
+          "gb": "জ্যাকেট",
+          "ge": "jacket",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Verkäuferin",
+      "bn": [
+        "আপনার",
+        "সাইজ",
+        "কত?"
+      ],
+      "en": [
+        "What",
+        "is",
+        "your",
+        "size?"
+      ],
+      "de": [
+        {
+          "t": "Was",
+          "b": [
+            2
+          ],
+          "e": [
+            0
+          ],
+          "l": "Was",
+          "gb": "কত",
+          "ge": "What",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "Ihre",
+          "b": [
+            0
+          ],
+          "e": [
+            2
+          ],
+          "l": "Ihr",
+          "gb": "আপনার",
+          "ge": "your",
+          "n": ""
+        },
+        {
+          "t": "Größe?",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "Größe",
+          "gb": "সাইজ",
+          "ge": "size",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "আমার",
+        "সাইজ",
+        "এম।"
+      ],
+      "en": [
+        "I",
+        "am",
+        "size",
+        "M."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমার",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "haben",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "am",
+          "n": "Größe haben = অমুক সাইজের হওয়া"
+        },
+        {
+          "t": "Größe",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "Größe",
+          "gb": "সাইজ",
+          "ge": "size",
+          "n": ""
+        },
+        {
+          "t": "M.",
+          "s": "Em",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "M",
+          "gb": "এম",
+          "ge": "M",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Verkäuferin",
+      "bn": [
+        "এই",
+        "যে",
+        "নীল",
+        "রঙের",
+        "জ্যাকেট।",
+        "আপনি",
+        "কি",
+        "এটা",
+        "পরে",
+        "দেখবেন?"
+      ],
+      "en": [
+        "Here",
+        "is",
+        "a",
+        "jacket",
+        "in",
+        "blue.",
+        "Would",
+        "you",
+        "like",
+        "to",
+        "try",
+        "it?"
+      ],
+      "de": [
+        {
+          "t": "Hier",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0
+          ],
+          "l": "Hier",
+          "gb": "এই যে",
+          "ge": "Here",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "eine",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "ein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "a",
+          "n": ""
+        },
+        {
+          "t": "Jacke",
+          "b": [
+            4
+          ],
+          "e": [
+            3
+          ],
+          "l": "Jacke",
+          "gb": "জ্যাকেট",
+          "ge": "jacket",
+          "n": ""
+        },
+        {
+          "t": "in",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "in",
+          "gb": "রঙের",
+          "ge": "in",
+          "n": ""
+        },
+        {
+          "t": "Blau.",
+          "b": [
+            2
+          ],
+          "e": [
+            5
+          ],
+          "l": "blau",
+          "gb": "নীল",
+          "ge": "blue",
+          "n": "রং বিশেষ্য হিসেবে বড় হাতে: in Blau = নীল রঙে"
+        },
+        {
+          "t": "Möchten",
+          "b": [
+            9
+          ],
+          "e": [
+            6,
+            8
+          ],
+          "l": "möchten",
+          "gb": "দেখবেন",
+          "ge": "Would like",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [
+            5
+          ],
+          "e": [
+            7
+          ],
+          "l": "Sie",
+          "gb": "আপনি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "sie",
+          "b": [
+            7
+          ],
+          "e": [
+            11
+          ],
+          "l": "sie",
+          "gb": "এটা (die Jacke)",
+          "ge": "it (die Jacke)",
+          "n": "die Jacke → sie (কর্ম)"
+        },
+        {
+          "t": "anprobieren?",
+          "b": [
+            8
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "anprobieren",
+          "gb": "পরে",
+          "ge": "to try",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "হ্যাঁ,",
+        "অবশ্যই।",
+        "এটা",
+        "ভালো",
+        "মানিয়েছে!"
+      ],
+      "en": [
+        "Yes,",
+        "gladly.",
+        "It",
+        "fits",
+        "well!"
+      ],
+      "de": [
+        {
+          "t": "Ja,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ja",
+          "gb": "হ্যাঁ",
+          "ge": "Yes",
+          "n": ""
+        },
+        {
+          "t": "gern.",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "gern",
+          "gb": "অবশ্যই",
+          "ge": "gladly",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "sie",
+          "gb": "এটা",
+          "ge": "It",
+          "n": ""
+        },
+        {
+          "t": "passt",
+          "b": [
+            4
+          ],
+          "e": [
+            3
+          ],
+          "l": "passen",
+          "gb": "মানিয়েছে",
+          "ge": "fits",
+          "n": ""
+        },
+        {
+          "t": "gut!",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "gut",
+          "gb": "ভালো",
+          "ge": "well",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "এটা",
+        "আমার",
+        "পছন্দ",
+        "হয়েছে।"
+      ],
+      "en": [
+        "I",
+        "like",
+        "it."
+      ],
+      "de": [
+        {
+          "t": "Sie",
+          "b": [
+            0
+          ],
+          "e": [
+            2
+          ],
+          "l": "sie",
+          "gb": "এটা",
+          "ge": "it",
+          "n": ""
+        },
+        {
+          "t": "gefällt",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            1
+          ],
+          "l": "gefallen",
+          "gb": "পছন্দ হয়েছে",
+          "ge": "like",
+          "n": "gefallen: „sie gefällt mir“ = আমার পছন্দ হয়েছে"
+        },
+        {
+          "t": "mir.",
+          "b": [
+            1
+          ],
+          "e": [
+            0
+          ],
+          "l": "ich",
+          "gb": "আমার / আমাকে",
+          "ge": "me",
+          "n": "mir = ich-এর Dativ রূপ"
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "এটার",
+        "দাম",
+        "কত?"
+      ],
+      "en": [
+        "What",
+        "does",
+        "it",
+        "cost?"
+      ],
+      "de": [
+        {
+          "t": "Was",
+          "b": [
+            2
+          ],
+          "e": [
+            0
+          ],
+          "l": "Was",
+          "gb": "কত",
+          "ge": "What",
+          "n": ""
+        },
+        {
+          "t": "kostet",
+          "b": [
+            1
+          ],
+          "e": [
+            1,
+            3
+          ],
+          "l": "kosten",
+          "gb": "দাম",
+          "ge": "does cost",
+          "n": ""
+        },
+        {
+          "t": "sie?",
+          "b": [
+            0
+          ],
+          "e": [
+            2
+          ],
+          "l": "sie",
+          "gb": "এটার",
+          "ge": "it",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "রঙের নাম",
+      "head": [
+        "জার্মান",
+        "বাংলা"
+      ],
+      "rows": [
+        [
+          "rot",
+          "লাল"
+        ],
+        [
+          "blau",
+          "নীল"
+        ],
+        [
+          "grün",
+          "সবুজ"
+        ],
+        [
+          "gelb",
+          "হলুদ"
+        ],
+        [
+          "schwarz",
+          "কালো"
+        ],
+        [
+          "weiß",
+          "সাদা"
+        ],
+        [
+          "braun",
+          "বাদামি"
+        ],
+        [
+          "grau",
+          "ধূসর"
+        ],
+        [
+          "orange",
+          "কমলা"
+        ],
+        [
+          "rosa",
+          "গোলাপি"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "বিশেষণ বিশেষ্যের আগে: শেষে -e, -en, -es",
+      "intro": "ist-এর পরে বিশেষণ বদলায় না (Die Jacke ist blau)। কিন্তু বিশেষ্যের আগে এলে ein-এর পরে শেষে অক্ষর যোগ হয়:",
+      "head": [
+        "",
+        "ein-শব্দের পরে (Akkusativ)"
+      ],
+      "rows": [
+        [
+          "der Mantel",
+          "einen blauen Mantel"
+        ],
+        [
+          "die Jacke",
+          "eine blaue Jacke"
+        ],
+        [
+          "das Hemd",
+          "ein blaues Hemd"
+        ],
+        [
+          "die Schuhe (বহু.)",
+          "blaue Schuhe"
+        ]
+      ],
+      "note": "সূত্র: die-গোত্রে -e, der-গোত্রে -en, das-গোত্রে -es। আপাতত এই ছক চেনাই যথেষ্ট — পরের স্তরে বিস্তারিত।"
+    },
+    {
+      "type": "table",
+      "title": "Dativ-সর্বনাম — passen, gefallen, helfen-এর সাথে",
+      "head": [
+        "কর্তা",
+        "Dativ",
+        "বাংলা"
+      ],
+      "rows": [
+        [
+          "ich",
+          "mir",
+          "আমাকে / আমার"
+        ],
+        [
+          "du",
+          "dir",
+          "তোমাকে / তোমার"
+        ],
+        [
+          "er",
+          "ihm",
+          "তাকে (পুং.)"
+        ],
+        [
+          "sie",
+          "ihr",
+          "তাকে (স্ত্রী.)"
+        ],
+        [
+          "wir",
+          "uns",
+          "আমাদের"
+        ],
+        [
+          "Sie",
+          "Ihnen",
+          "আপনাকে"
+        ]
+      ],
+      "note": "Die Jacke gefällt mir. Die Hose passt dir gut. — সবসময় „কার পছন্দ/মাপ“ তা Dativ-এ।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "die Größe",
+      "options": [
+        "লাল",
+        "সবুজ",
+        "মাপ",
+        "কালো"
+      ],
+      "answer": 2,
+      "why": "die Größe = মাপ।",
+      "word": "groesse"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "schwarz",
+      "options": [
+        "কালো",
+        "সাদা",
+        "পছন্দ হওয়া",
+        "রং"
+      ],
+      "answer": 0,
+      "why": "schwarz = কালো।",
+      "word": "schwarz"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "gelb",
+      "options": [
+        "রং",
+        "সবুজ",
+        "হলুদ",
+        "মাপ"
+      ],
+      "answer": 2,
+      "why": "gelb = হলুদ।",
+      "word": "gelb"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "anprobieren",
+      "options": [
+        "মানানো",
+        "পরে দেখা",
+        "রং",
+        "সবুজ"
+      ],
+      "answer": 1,
+      "why": "anprobieren = পরে দেখা।",
+      "word": "anprobieren"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Farbe",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Farbe। বহুবচন: die Farben।",
+      "word": "farbe"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ich suche ___ Jacke.",
+      "options": [
+        "eine blaue",
+        "einen blaue",
+        "ein blaues",
+        "eine blau"
+      ],
+      "answer": 0,
+      "why": "die Jacke → eine blaue Jacke।",
+      "word": "blau"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Die Jacke gefällt ___.",
+      "options": [
+        "mir",
+        "mich",
+        "ich",
+        "mein"
+      ],
+      "answer": 0,
+      "why": "gefallen + Dativ: gefällt mir।",
+      "word": "gefallen"
+    },
+    {
+      "type": "order",
+      "prompt": "শব্দ সাজিয়ে প্রশ্ন বানান: „আপনার সাইজ কত?“",
+      "tiles": [
+        "Größe?",
+        "Ihre",
+        "ist",
+        "Was"
+      ],
+      "answer": [
+        "Was",
+        "ist",
+        "Ihre",
+        "Größe?"
+      ],
+      "why": "Was ist Ihre Größe?",
+      "word": "groesse"
+    }
+  ],
+  "status": "draft",
+  "minutes": 14,
+  "passMark": 0.8
+}

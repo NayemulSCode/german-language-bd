@@ -1,0 +1,946 @@
+{
+  "id": "a1-u10-l03",
+  "level": "A1",
+  "unit": 10,
+  "lesson": 3,
+  "title": {
+    "de": "Gesundheit und Ratschläge",
+    "bn": "স্বাস্থ্য ও পরামর্শ",
+    "en": "Health and advice"
+  },
+  "hook": {
+    "de": "Vorbeugen ist besser als heilen.",
+    "who": "Sprichwort",
+    "bn": "প্রতিরোধ চিকিৎসার চেয়ে ভালো।",
+    "en": "Prevention is better than cure."
+  },
+  "goals": [
+    "ডাক্তারের নির্দেশ বোঝা: Trinken Sie viel Wasser",
+    "আদেশ (Imperativ): Sie-রূপ ও du-রূপ",
+    "সুস্থ থাকার কথা: „Wie geht es dir?“",
+    "অসুস্থকে শুভেচ্ছা: Gute Besserung!"
+  ],
+  "words": [
+    {
+      "id": "gesund",
+      "de": "gesund",
+      "pos": "বিশেষণ",
+      "bn": "সুস্থ, স্বাস্থ্যকর",
+      "en": "healthy"
+    },
+    {
+      "id": "gesundheit",
+      "de": "Gesundheit",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "স্বাস্থ্য",
+      "en": "health"
+    },
+    {
+      "id": "medikament",
+      "de": "Medikament",
+      "art": "das",
+      "pl": "die Medikamente",
+      "pos": "বিশেষ্য",
+      "bn": "ওষুধ",
+      "en": "medicine"
+    },
+    {
+      "id": "bleiben",
+      "de": "bleiben",
+      "pos": "ক্রিয়া",
+      "bn": "থাকা, থেকে যাওয়া",
+      "en": "to stay"
+    },
+    {
+      "id": "ruhe",
+      "de": "Ruhe",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "বিশ্রাম, শান্তি",
+      "en": "rest, peace"
+    },
+    {
+      "id": "sollen",
+      "de": "sollen",
+      "pos": "মডাল ক্রিয়া",
+      "bn": "উচিত, বলা হয়েছে করতে",
+      "en": "should"
+    },
+    {
+      "id": "taeglich",
+      "de": "täglich",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "প্রতিদিন",
+      "en": "daily"
+    },
+    {
+      "id": "dreimal",
+      "de": "dreimal",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "তিনবার",
+      "en": "three times"
+    },
+    {
+      "id": "besser",
+      "de": "besser",
+      "pos": "বিশেষণ",
+      "bn": "আরও ভালো",
+      "en": "better"
+    },
+    {
+      "id": "gute_besserung",
+      "de": "Gute Besserung!",
+      "pos": "অভিব্যক্তি",
+      "bn": "তাড়াতাড়ি সুস্থ হয়ে উঠুন!",
+      "en": "get well soon!"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Dr. Meier",
+      "bn": [
+        "আপনি",
+        "কেমন",
+        "আছেন?"
+      ],
+      "en": [
+        "How",
+        "are",
+        "you?"
+      ],
+      "de": [
+        {
+          "t": "Wie",
+          "b": [
+            1
+          ],
+          "e": [
+            0
+          ],
+          "l": "Wie",
+          "gb": "কেমন",
+          "ge": "How",
+          "n": ""
+        },
+        {
+          "t": "geht",
+          "b": [
+            2
+          ],
+          "e": [
+            1
+          ],
+          "l": "gehen",
+          "gb": "আছেন",
+          "ge": "are",
+          "n": "Wie geht es Ihnen? = আপনি কেমন আছেন? (বন্ধুকে: Wie geht es dir?)"
+        },
+        {
+          "t": "es",
+          "b": [],
+          "e": [],
+          "l": "es",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Ihnen?",
+          "b": [
+            0
+          ],
+          "e": [
+            2
+          ],
+          "l": "Sie",
+          "gb": "আপনাকে",
+          "ge": "you",
+          "n": "Ihnen = Sie-এর Dativ"
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "ভালো",
+        "নয়।",
+        "আমার",
+        "জ্বর",
+        "আর",
+        "কাশি",
+        "আছে।"
+      ],
+      "en": [
+        "Not",
+        "good.",
+        "I",
+        "have",
+        "a",
+        "fever",
+        "and",
+        "a",
+        "cough."
+      ],
+      "de": [
+        {
+          "t": "Nicht",
+          "b": [
+            1
+          ],
+          "e": [
+            0
+          ],
+          "l": "Nicht",
+          "gb": "নয়",
+          "ge": "Not",
+          "n": ""
+        },
+        {
+          "t": "gut.",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "gut",
+          "gb": "ভালো",
+          "ge": "good",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "Ich",
+          "gb": "আমার",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [
+            6
+          ],
+          "e": [
+            3
+          ],
+          "l": "haben",
+          "gb": "আছে",
+          "ge": "have",
+          "n": ""
+        },
+        {
+          "t": "Fieber",
+          "b": [
+            3
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "Fieber",
+          "gb": "জ্বর",
+          "ge": "a fever",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            4
+          ],
+          "e": [
+            6
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "Husten.",
+          "b": [
+            5
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "Husten",
+          "gb": "কাশি",
+          "ge": "a cough",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Dr. Meier",
+      "bn": [
+        "আপনি",
+        "অসুস্থ।",
+        "আপনাকে",
+        "বিছানায়",
+        "থাকতে",
+        "হবে।"
+      ],
+      "en": [
+        "You",
+        "are",
+        "sick.",
+        "You",
+        "must",
+        "stay",
+        "in",
+        "bed."
+      ],
+      "de": [
+        {
+          "t": "Sie",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Sie",
+          "gb": "আপনি",
+          "ge": "You",
+          "n": ""
+        },
+        {
+          "t": "sind",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "are",
+          "n": ""
+        },
+        {
+          "t": "krank.",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "krank",
+          "gb": "অসুস্থ",
+          "ge": "sick",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "Sie",
+          "gb": "আপনাকে",
+          "ge": "You",
+          "n": ""
+        },
+        {
+          "t": "müssen",
+          "b": [
+            5
+          ],
+          "e": [
+            4
+          ],
+          "l": "müssen",
+          "gb": "হবে",
+          "ge": "must",
+          "n": ""
+        },
+        {
+          "t": "im",
+          "b": [
+            3
+          ],
+          "e": [
+            6
+          ],
+          "l": "in dem",
+          "gb": "বিছানায়",
+          "ge": "in",
+          "n": ""
+        },
+        {
+          "t": "Bett",
+          "b": [
+            3
+          ],
+          "e": [
+            7
+          ],
+          "l": "Bett",
+          "gb": "বিছানায়",
+          "ge": "bed",
+          "n": ""
+        },
+        {
+          "t": "bleiben.",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "bleiben",
+          "gb": "থাকতে",
+          "ge": "stay",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Dr. Meier",
+      "bn": [
+        "প্রচুর",
+        "পানি",
+        "আর",
+        "চা",
+        "পান",
+        "করুন।"
+      ],
+      "en": [
+        "Drink",
+        "a",
+        "lot",
+        "of",
+        "water",
+        "and",
+        "tea."
+      ],
+      "de": [
+        {
+          "t": "Trinken",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            0
+          ],
+          "l": "trinken",
+          "gb": "পান করুন",
+          "ge": "Drink",
+          "n": "Sie-আদেশ: মূল রূপ + Sie"
+        },
+        {
+          "t": "Sie",
+          "b": [],
+          "e": [],
+          "l": "Sie",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "viel",
+          "b": [
+            0
+          ],
+          "e": [
+            1,
+            2,
+            3
+          ],
+          "l": "viel",
+          "gb": "প্রচুর",
+          "ge": "a lot of",
+          "n": ""
+        },
+        {
+          "t": "Wasser",
+          "b": [
+            1
+          ],
+          "e": [
+            4
+          ],
+          "l": "Wasser",
+          "gb": "পানি",
+          "ge": "water",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            2
+          ],
+          "e": [
+            5
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "Tee.",
+          "b": [
+            3
+          ],
+          "e": [
+            6
+          ],
+          "l": "Tee",
+          "gb": "চা",
+          "ge": "tea",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Dr. Meier",
+      "bn": [
+        "ট্যাবলেটগুলো",
+        "দিনে",
+        "তিনবার",
+        "খান।"
+      ],
+      "en": [
+        "Take",
+        "the",
+        "tablets",
+        "three",
+        "times",
+        "a",
+        "day."
+      ],
+      "de": [
+        {
+          "t": "Nehmen",
+          "b": [
+            3
+          ],
+          "e": [
+            0
+          ],
+          "l": "nehmen",
+          "gb": "খান",
+          "ge": "Take",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [],
+          "e": [],
+          "l": "Sie",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "die",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "die",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "Tabletten",
+          "b": [
+            0
+          ],
+          "e": [
+            2
+          ],
+          "l": "Tablette",
+          "gb": "ট্যাবলেটগুলো",
+          "ge": "tablets",
+          "n": ""
+        },
+        {
+          "t": "dreimal",
+          "b": [
+            2
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "dreimal",
+          "gb": "তিনবার",
+          "ge": "three times",
+          "n": ""
+        },
+        {
+          "t": "täglich.",
+          "b": [
+            1
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "täglich",
+          "gb": "দিনে",
+          "ge": "a day",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "অনেক",
+        "ধন্যবাদ,",
+        "ডাক্তার",
+        "সাহেব!"
+      ],
+      "en": [
+        "Thank",
+        "you",
+        "very",
+        "much,",
+        "doctor!"
+      ],
+      "de": [
+        {
+          "t": "Vielen Dank,",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "l": "Dank",
+          "gb": "অনেক ধন্যবাদ",
+          "ge": "Thank you very much",
+          "n": ""
+        },
+        {
+          "t": "Herr",
+          "b": [
+            3
+          ],
+          "e": [],
+          "l": "Herr",
+          "gb": "সাহেব",
+          "ge": "(no counterpart)",
+          "n": "ডাক্তারকে: Herr Doktor / Frau Doktor"
+        },
+        {
+          "t": "Doktor!",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "Doktor",
+          "gb": "ডাক্তার",
+          "ge": "doctor",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Dr. Meier",
+      "bn": [
+        "তাড়াতাড়ি",
+        "সুস্থ",
+        "হয়ে",
+        "উঠুন!"
+      ],
+      "en": [
+        "Get",
+        "well",
+        "soon!"
+      ],
+      "de": [
+        {
+          "t": "Gute Besserung!",
+          "b": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "gute Besserung",
+          "gb": "তাড়াতাড়ি সুস্থ হয়ে উঠুন",
+          "ge": "Get well soon",
+          "n": "অসুস্থ মানুষকে বলার প্রচলিত শুভেচ্ছা"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "Imperativ — আদেশ ও পরামর্শ",
+      "head": [
+        "ক্রিয়া",
+        "Sie (ভদ্র)",
+        "du (বন্ধু)",
+        "বাংলা"
+      ],
+      "rows": [
+        [
+          "trinken",
+          "Trinken Sie viel Wasser!",
+          "Trink viel Wasser!",
+          "পান করুন / করো"
+        ],
+        [
+          "nehmen",
+          "Nehmen Sie die Tabletten!",
+          "Nimm die Tabletten!",
+          "নিন / নাও"
+        ],
+        [
+          "bleiben",
+          "Bleiben Sie im Bett!",
+          "Bleib im Bett!",
+          "থাকুন / থাকো"
+        ],
+        [
+          "schlafen",
+          "Schlafen Sie viel!",
+          "Schlaf viel!",
+          "ঘুমান / ঘুমাও"
+        ],
+        [
+          "gehen",
+          "Gehen Sie zum Arzt!",
+          "Geh zum Arzt!",
+          "যান / যাও"
+        ]
+      ],
+      "note": "Sie-আদেশ: মূল রূপ + Sie। du-আদেশ: মূল রূপ থেকে -en বাদ (Trink!)। e → i হওয়া ক্রিয়ায় i থাকে: nehmen → Nimm!, essen → Iss!"
+    },
+    {
+      "type": "conjugation",
+      "intro": "sollen — „উচিত / (কেউ বলেছে) করতে হবে“। ডাক্তারের নির্দেশে খুব চলে।",
+      "verbs": [
+        "sollen"
+      ],
+      "note": "Du sollst viel trinken. — ডাক্তার বলেছেন, তোমার প্রচুর পানি খাওয়া উচিত।",
+      "rows": [
+        {
+          "pron": "ich",
+          "stems": [
+            "soll"
+          ],
+          "ends": [
+            ""
+          ],
+          "bn": "আমার করা উচিত"
+        },
+        {
+          "pron": "du",
+          "stems": [
+            "soll"
+          ],
+          "ends": [
+            "st"
+          ],
+          "bn": "তোমার করা উচিত"
+        },
+        {
+          "pron": "er / sie / es",
+          "stems": [
+            "soll"
+          ],
+          "ends": [
+            ""
+          ],
+          "bn": "তার করা উচিত"
+        },
+        {
+          "pron": "wir",
+          "stems": [
+            "soll"
+          ],
+          "ends": [
+            "en"
+          ],
+          "bn": "আমাদের"
+        },
+        {
+          "pron": "ihr",
+          "stems": [
+            "soll"
+          ],
+          "ends": [
+            "t"
+          ],
+          "bn": "তোমাদের"
+        },
+        {
+          "pron": "sie / Sie",
+          "stems": [
+            "soll"
+          ],
+          "ends": [
+            "en"
+          ],
+          "bn": "তাদের / আপনার"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Wie geht es dir / Ihnen?",
+      "head": [
+        "প্রশ্ন",
+        "সম্ভাব্য উত্তর"
+      ],
+      "rows": [
+        [
+          "Wie geht es dir? (বন্ধুকে)",
+          "Gut, danke! / Es geht. / Nicht so gut."
+        ],
+        [
+          "Wie geht es Ihnen? (ভদ্র)",
+          "Gut, danke. Und Ihnen?"
+        ],
+        [
+          "অসুস্থকে বলুন",
+          "Gute Besserung!"
+        ]
+      ],
+      "note": "„Es geht.“ = চলে যাচ্ছে (খুব ভালোও না, খারাপও না)।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "das Medikament",
+      "options": [
+        "ওষুধ",
+        "উচিত",
+        "তিনবার",
+        "তাড়াতাড়ি সুস্থ হয়ে উঠুন!"
+      ],
+      "answer": 0,
+      "why": "das Medikament = ওষুধ।",
+      "word": "medikament"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "die Ruhe",
+      "options": [
+        "স্বাস্থ্য",
+        "বিশ্রাম",
+        "উচিত",
+        "আরও ভালো"
+      ],
+      "answer": 1,
+      "why": "die Ruhe = বিশ্রাম।",
+      "word": "ruhe"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "täglich",
+      "options": [
+        "প্রতিদিন",
+        "সুস্থ",
+        "থাকা",
+        "তিনবার"
+      ],
+      "answer": 0,
+      "why": "täglich = প্রতিদিন।",
+      "word": "taeglich"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Gesundheit",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Gesundheit।",
+      "word": "gesundheit"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন (ভদ্র আদেশ)",
+      "sub": "___ Sie viel Wasser!",
+      "options": [
+        "Trinken",
+        "Trink",
+        "Trinkt",
+        "Trinkst"
+      ],
+      "answer": 0,
+      "why": "Sie-আদেশ: Trinken Sie …",
+      "word": "medikament"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন (বন্ধুকে আদেশ)",
+      "sub": "___ viel Wasser! (du)",
+      "options": [
+        "Trink",
+        "Trinken",
+        "Trinkst",
+        "Trinkt"
+      ],
+      "answer": 0,
+      "why": "du-আদেশ: মূল রূপ থেকে -en বাদ → Trink!",
+      "word": "medikament"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন (বন্ধুকে আদেশ)",
+      "sub": "___ die Tabletten! (du)",
+      "options": [
+        "Nimm",
+        "Nehm",
+        "Nehme",
+        "Nimmt"
+      ],
+      "answer": 0,
+      "why": "nehmen → Nimm! (e → i থাকে)",
+      "word": "medikament"
+    },
+    {
+      "type": "mcq",
+      "prompt": "অসুস্থ বন্ধুকে কী বলবেন?",
+      "options": [
+        "Gute Besserung!",
+        "Alles Gute zum Geburtstag!",
+        "Guten Appetit!",
+        "Viel Spaß!"
+      ],
+      "answer": 0,
+      "why": "Gute Besserung! = তাড়াতাড়ি সুস্থ হয়ে উঠুন।",
+      "word": "gute_besserung"
+    }
+  ],
+  "status": "draft",
+  "minutes": 14,
+  "passMark": 0.8
+}
