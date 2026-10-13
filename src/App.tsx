@@ -11,13 +11,14 @@ import { ReviewScreen } from './screens/Review'
 import { DictionaryScreen } from './screens/Dictionary'
 import { ProfileScreen } from './screens/Profile'
 import { LessonScreen } from './screens/Lesson'
+import { PlacementScreen } from './screens/Placement'
 
-const TABS: [Exclude<RouteName, 'lesson'>, string][] = [['home', 'হোম'], ['course', 'কোর্স'], ['review', 'রিভিউ'], ['dict', 'ডিকশনারি'], ['me', 'প্রোফাইল']]
+const TABS: [Exclude<RouteName, 'lesson' | 'placement'>, string][] = [['home', 'হোম'], ['course', 'কোর্স'], ['review', 'রিভিউ'], ['dict', 'ডিকশনারি'], ['me', 'প্রোফাইল']]
 
 export function App() {
   const route = useRoute()
   const { progress } = useApp()
-  const inLesson = route.name === 'lesson'
+  const inLesson = route.name === 'lesson' || route.name === 'placement'
   const days = streak(progress.activity)
 
   // lessons run full-screen: the CSS hides the top bar and tabs
@@ -51,6 +52,7 @@ export function App() {
         {route.name === 'dict' && <DictionaryScreen />}
         {route.name === 'me' && <ProfileScreen />}
         {route.name === 'lesson' && <LessonScreen id={route.param} />}
+        {route.name === 'placement' && <PlacementScreen />}
       </main>
       <Toast />
     </>

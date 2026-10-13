@@ -1,17 +1,14 @@
 import { useState } from 'react'
-import type { Lesson, Question } from '../../schema/lesson'
+import type { Lesson } from '../../schema/lesson'
 import { useApp } from '../../state'
 import { Say } from '../common'
+import { QuestionBody, isReady, isRight } from '../Question'
 
 interface Props {
   lesson: Lesson
   onFinish(r: { score: number; total: number; passed: boolean; wrong: string[] }): void
   onRestart(): void
 }
-
-/** Order questions track picked tiles by index so repeated words work. */
-const isRight = (q: Question, picked: number | null, order: number[]) =>
-  q.type === 'order' ? order.map((i) => q.tiles[i]).join(' ') === q.answer.join(' ') : picked === q.answer
 
 export function Quiz({ lesson, onFinish, onRestart }: Props) {
   const { say, lessonProgress } = useApp()
@@ -58,7 +55,7 @@ export function Quiz({ lesson, onFinish, onRestart }: Props) {
 
   const cur = quiz[q]
   const ok = checked && isRight(cur, picked, order)
-  const ready = cur.type === 'order' ? order.length === cur.tiles.length : picked !== null
+  const ready = isReady(cur, picked, order)
 
   const check = () => {
     setChecked(true)
@@ -83,49 +80,7 @@ export function Quiz({ lesson, onFinish, onRestart }: Props) {
       <div className="qbar"><i style={{ width: `${(q / quiz.length) * 100}%` }} /></div>
       <div className="qprompt bn">{cur.prompt}</div>
 
-      {cur.type === 'order' ? (
-        <>
-          <div className="answer" lang="de" aria-label="আপনার বাক্য">
-            {order.length === 0 && <span className="hint bn" style={{ margin: 6 }}>নিচের শব্দে ট্যাপ করে বাক্য বানান</span>}
-            {order.map((ti) => (
-              <button key={ti} className="tile" disabled={checked} onClick={() => setOrder(order.filter((x) => x !== ti))}>{cur.tiles[ti]}</button>
-            ))}
-          </div>
-          <div className="bank" lang="de">
-            {cur.tiles.map((t, ti) => !order.includes(ti) && (
-              <button key={ti} className="tile" disabled={checked} onClick={() => setOrder([...order, ti])}>{t}</button>
-            ))}
-          </div>
-        </>
-      ) : (
-        <>
-          {cur.type === 'listen' && (
-            <div className="big-audio"><Say text={cur.say} label="প্রশ্নটি শুনুন" /><span className="hint bn" style={{ margin: 0 }}>ট্যাপ করে শুনুন, দরকার হলে আবার</span></div>
-          )}
-          {cur.type === 'mcq' && cur.sub && (
-            <div className={`qsub${cur.subBn ? ' bn' : ''}`} {...(cur.subBn ? {} : { lang: 'de' })}>{cur.sub}</div>
-          )}
-          <div className="opts">
-            {cur.options.map((o, i) => {
-              const cls = checked ? (i === cur.answer ? 'right' : i === picked ? 'wrong' : '') : ''
-              return (
-                <button
-                  key={i}
-                  className={`opt ${cls}${cur.type === 'listen' ? ' bn' : ''}`}
-                  aria-pressed={picked === i}
-                  disabled={checked}
-                  onClick={() => {
-                    setPicked(i)
-                    if (cur.type === 'mcq' && cur.subBn) void say(o)
-                  }}
-                >
-                  {o}
-                </button>
-              )
-            })}
-          </div>
-        </>
-      )}
+      <QuestionBody q={cur} picked={picked} order={order} checked={checked} onPick={setPicked} onOrder={setOrder} />
 
       {checked && (
         <div className={`fb ${ok ? 'ok' : 'no'} bn`}>

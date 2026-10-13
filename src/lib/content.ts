@@ -10,6 +10,9 @@ export const LESSONS: LessonMeta[] = [...index].sort(
 
 const loaders = import.meta.glob<Lesson>('../../content/**/*.json', { import: 'default' })
 
+/** Every lesson body (used by the placement test). Each is its own small chunk. */
+export const loadAllLessons = (): Promise<Lesson[]> => Promise.all(Object.values(loaders).map((load) => load()))
+
 /** a1-u01-l02 → content/a1/unit01/lesson02.json */
 export async function loadLesson(id: string): Promise<Lesson> {
   const m = /^([a-c][12])-u(\d{2})-l(\d{2})$/.exec(id)

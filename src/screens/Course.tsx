@@ -9,12 +9,12 @@ import { go } from '../router'
 import { Icon } from '../components/Icon'
 
 export function CourseScreen() {
-  const { lessonProgress } = useApp()
+  const { lessonProgress, progress } = useApp()
   const [level, setLevel] = useState<string>('A1')
   const [open, setOpen] = useState<Set<number>>(new Set())
   const [sheet, setSheet] = useState<LessonMeta | null>(null)
 
-  const states = lessonStates(LESSONS, (id) => lessonProgress(id).passed)
+  const states = lessonStates(LESSONS, (id) => lessonProgress(id).passed, { startUnit: progress.startUnit, unlockAll: progress.unlockAll })
   const info = LEVELS[level]
   const units = groupUnits(LESSONS, level)
   const built = units.length > 0
@@ -47,6 +47,7 @@ export function CourseScreen() {
     <>
       <div className="eyebrow bn">কোর্স ম্যাপ</div>
       <h1 style={{ fontSize: 30, marginTop: 4 }}>শূন্য থেকে B1</h1>
+      <a className="btn sm ghost bn" href="#placement" style={{ marginTop: 12 }}>{progress.placed ? 'প্লেসমেন্ট টেস্ট আবার দিন' : 'কোথা থেকে শুরু করবেন? প্লেসমেন্ট টেস্ট'}</a>
       <div className="levels" role="group" aria-label="লেভেল" style={{ gridTemplateColumns: `repeat(${LEVEL_ORDER.length},1fr)` }}>
         {LEVEL_ORDER.map((k) => (
           <button key={k} className="lv" aria-pressed={k === level} onClick={() => { setLevel(k); setOpen(new Set()) }}>
@@ -87,7 +88,7 @@ export function CourseScreen() {
                     const lp = lessonProgress(l.id)
                     return (
                       <button key={l.id} className={`lesson ${st}`} aria-disabled={st === 'locked' || undefined} onClick={() => pick(l)}>
-                        <span className="ic"><Icon name={st === 'done' ? 'check' : st === 'now' ? 'play' : 'lock'} /></span>
+                        <span className="ic"><Icon name={st === 'done' ? 'check' : st === 'locked' ? 'lock' : 'play'} /></span>
                         <span>
                           <span className="lt">{l.title.de}</span><br />
                           <span className="ls bn">{l.title.bn} · {bn(l.minutes)} মিনিট</span>

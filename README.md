@@ -7,6 +7,9 @@ Screens: **Home** (daily goal, continue, review count, exam countdown, word of t
 a lesson sheet), **Review** (spaced-repetition flashcards), **Dictionary** (search German, Bangla or English),
 **Profile** (stats, themes incl. a warm night mode, goals, account). On phones the tabs sit at the bottom, on wide screens in a sidebar.
 
+Placement: a 20-question test (2 per A1 unit, no feedback) recommends a starting unit. Earlier units stay open to practise
+without being marked passed or giving XP; Profile has an "unlock all lessons" switch for free browsing.
+
 Review works like this: missed quiz words are due immediately; passing a lesson adds all its words, first review the next day.
 Rating a card Again / Hard / Good / Easy sets the next interval (1 min, 10 min, 1 day, 4 days for new cards, growing for known ones).
 The design has a study-group leaderboard; it needs a social backend and is not built yet.
@@ -76,7 +79,7 @@ Clips already in the manifest are kept, so reruns only do new text. Until clips 
 
 - **Phase 0 (done):** React/Vite app, lesson JSON schema + validator, Lesson 1 converted, PWA.
 - **Phase 1 (content done, audio pending):** audio pipeline built; all of A1 (Units 1–10, 40 lessons) written as drafts. Still to do: run the "Build audio" workflow, native-speaker review.
-- **Phase 2 (login and sync built, needs your Supabase project):** Supabase auth (Google/email) and progress sync. Still to do: spaced-repetition review, placement test, A1 mock exam.
+- **Phase 2 (login and sync built, needs your Supabase project):** Supabase auth (Google/email) and progress sync. Done: spaced-repetition review, placement test. Still to do: A1 mock exam.
 - **Phase 3–4:** A2 and B1 content, listening/reading/writing/speaking exercise types, leaderboard.
 - **Later:** move the database to a self-hosted server once there is an audience (Postgres dump/restore; only the storage adapter changes).
 

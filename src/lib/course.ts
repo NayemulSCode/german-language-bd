@@ -1,17 +1,30 @@
 import type { LessonMeta } from './content'
 
-export type LessonState = 'done' | 'now' | 'locked'
+/** done = passed; now = the next lesson to do; open = can be started but is not the next one; locked = not yet. */
+export type LessonState = 'done' | 'now' | 'open' | 'locked'
 
-/** done = quiz passed; now = the first lesson not yet passed; everything after it is locked. */
-export function lessonStates(lessons: LessonMeta[], passed: (id: string) => boolean): Map<string, LessonState> {
+export interface StateOptions {
+  startUnit?: number // A1 units below this are open (placement result)
+  unlockAll?: boolean // nothing is locked
+}
+
+export function lessonStates(lessons: LessonMeta[], passed: (id: string) => boolean, opts: StateOptions = {}): Map<string, LessonState> {
   const out = new Map<string, LessonState>()
+  const start = opts.startUnit ?? 1
+  const skipped = (l: LessonMeta) => l.level === 'A1' && l.unit < start
   let foundNow = false
   for (const l of lessons) {
     if (passed(l.id)) out.set(l.id, 'done')
+    else if (opts.unlockAll || skipped(l)) out.set(l.id, 'open')
     else if (!foundNow) {
       out.set(l.id, 'now')
       foundNow = true
     } else out.set(l.id, 'locked')
+  }
+  // with everything unlocked there is still a natural "next": the first lesson not passed
+  if (opts.unlockAll && !foundNow) {
+    const first = lessons.find((l) => !passed(l.id) && !skipped(l))
+    if (first) out.set(first.id, 'now')
   }
   return out
 }

@@ -58,6 +58,11 @@ describe('mergeProgress', () => {
     const m = mergeProgress(p({ updatedAt: 1, theme: 'light', goal: 20, name: 'A', examDate: '2027-01-01' }), p({ updatedAt: 2, theme: 'night', goal: 100, name: 'B', examDate: '2027-02-02' }))
     expect([m.theme, m.goal, m.name, m.examDate]).toEqual(['night', 100, 'B', '2027-02-02'])
   })
+
+  it('placement settings follow the newer device too', () => {
+    const m = mergeProgress(p({ updatedAt: 1, startUnit: 1, placed: false, unlockAll: false }), p({ updatedAt: 2, startUnit: 4, placed: true, unlockAll: true }))
+    expect([m.startUnit, m.placed, m.unlockAll]).toEqual([4, true, true])
+  })
 })
 
 describe('sanitizeProgress', () => {
@@ -66,7 +71,7 @@ describe('sanitizeProgress', () => {
       lang: 'xx', slow: 'yes', xp: 999999, updatedAt: -1,
       lessons: { 'a1-u01-l01': { done: [0, 1, 1, 9, 'x'], best: 7, total: 8, passed: true }, bogus: { done: [0] }, 'a1-u01-l02': 5 },
       review: ['a1-u01-l01:ok', 42, { a: 1 }],
-      theme: 'neon', goal: 7, name: '  Saheb  ', examDate: 'soon',
+      theme: 'neon', goal: 7, name: '  Saheb  ', examDate: 'soon', startUnit: 'x', unlockAll: 'yes', placed: 1,
       srs: { 'a1-u01-l01:name': { due: 5, last: 4, ivl: 2, reps: 1, lapses: 0 }, 'bad key': { due: 1, last: 1 }, 'a1-u01-l02:x': { due: 'no' } },
       activity: { '2026-03-01': 40, 'yesterday': 9, '2026-03-02': -5 },
     })
@@ -77,6 +82,9 @@ describe('sanitizeProgress', () => {
     expect(Object.keys(s.srs).sort()).toEqual(['a1-u01-l01:name', 'a1-u01-l01:ok'])
     expect(s.srs['a1-u01-l01:ok'].due).toBe(0) // legacy missed-word list becomes cards due now
     expect([s.theme, s.goal, s.name, s.examDate]).toEqual(['system', 50, 'Saheb', ''])
+    expect([s.startUnit, s.unlockAll, s.placed]).toEqual([1, false, false])
+    expect(sanitizeProgress({ startUnit: 6, placed: true, unlockAll: true })).toMatchObject({ startUnit: 6, placed: true, unlockAll: true })
+    expect(sanitizeProgress({ startUnit: 0 }).startUnit).toBe(1)
     expect(s.activity).toEqual({ '2026-03-01': 40 })
     expect(s.xp).toBe(20 + 35 + 20)
   })

@@ -20,7 +20,7 @@ export function HomeScreen() {
   const weekday = new Date(now).toLocaleDateString('bn-BD', { weekday: 'long' })
   const dueCount = useMemo(() => Object.values(progress.srs).filter((c) => c.due <= now).length, [progress.srs, now])
 
-  const states = lessonStates(LESSONS, (id) => lessonProgress(id).passed)
+  const states = lessonStates(LESSONS, (id) => lessonProgress(id).passed, { startUnit: progress.startUnit, unlockAll: progress.unlockAll })
   const next = LESSONS.find((l) => states.get(l.id) === 'now')
   const unitLessons = next ? LESSONS.filter((l) => l.level === next.level && l.unit === next.unit) : []
   const unitPassed = unitLessons.filter((l) => lessonProgress(l.id).passed).length
@@ -63,6 +63,17 @@ export function HomeScreen() {
           <div className="bn" style={{ opacity: 0.85 }}>রিভিউ করে শব্দগুলো পাকা করুন। A2 শীঘ্রই আসছে।</div>
           <button className="btn bn" onClick={() => go('#review')}><Icon name="play" /> রিভিউ</button>
         </div>
+      )}
+
+      {!progress.placed && a1Passed === 0 && (
+        <a className="card row" href="#placement" style={{ textDecoration: 'none' }}>
+          <div className="grow">
+            <div className="eyebrow bn">নতুন? কিছু জানা আছে?</div>
+            <div className="bn" style={{ fontWeight: 700, marginTop: 4 }}>৫ মিনিটের প্লেসমেন্ট টেস্ট দিন</div>
+            <div className="muted bn" style={{ fontSize: 14 }}>আপনার জন্য সঠিক ইউনিট থেকে শুরু করুন — সব গোড়া থেকে করতে হবে না।</div>
+          </div>
+          <span className="btn sm ghost bn">টেস্ট</span>
+        </a>
       )}
 
       <div className="grid2">

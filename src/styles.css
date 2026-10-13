@@ -334,3 +334,7 @@ body.in-lesson main{padding:0;max-width:none}
 #root{display:contents}
 .btn svg{width:18px;height:18px;flex:none}
 .btn{white-space:nowrap}
+
+/* lessons that can be started but are not the next one (placement or unlock-all) */
+.lesson.open .ic{border-color:var(--ink);color:var(--ink)}
+.lesson.open .lt{color:var(--ink)}

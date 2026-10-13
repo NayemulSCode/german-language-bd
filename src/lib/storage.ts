@@ -28,6 +28,9 @@ export interface Progress {
   goal: number // daily XP goal
   name: string
   examDate: string // YYYY-MM-DD or ''
+  startUnit: number // A1 units before this one are open without being passed (set by the placement test)
+  unlockAll: boolean // every lesson open, no strict order
+  placed: boolean // the placement test has been taken
   // learning data (merged by union / max)
   xp: number // always derived from lessons, see computeXp
   lessons: Record<string, LessonProgress>
@@ -37,7 +40,7 @@ export interface Progress {
 }
 
 export const emptyProgress = (): Progress => ({
-  lang: 'both', slow: false, theme: 'system', goal: 50, name: '', examDate: '',
+  lang: 'both', slow: false, theme: 'system', goal: 50, name: '', examDate: '', startUnit: 1, unlockAll: false, placed: false,
   xp: 0, lessons: {}, srs: {}, activity: {}, updatedAt: 0,
 })
 
@@ -65,6 +68,9 @@ export function sanitizeProgress(raw: unknown): Progress {
   if (typeof r.goal === 'number' && (GOALS as readonly number[]).includes(r.goal)) out.goal = r.goal
   if (typeof r.name === 'string') out.name = r.name.trim().slice(0, 30)
   if (typeof r.examDate === 'string' && DAY_KEY.test(r.examDate)) out.examDate = r.examDate
+  if (isInt(r.startUnit, 99) && r.startUnit >= 1) out.startUnit = r.startUnit
+  out.unlockAll = r.unlockAll === true
+  out.placed = r.placed === true
   if (isNum(r.updatedAt, FAR_FUTURE)) out.updatedAt = r.updatedAt
   if (r.lessons && typeof r.lessons === 'object') {
     for (const [id, v] of Object.entries(r.lessons as Record<string, unknown>)) {
