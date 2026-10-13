@@ -24,6 +24,26 @@ src/lib/audio.ts                       plays pre-generated clips from public/aud
 src/components/steps/                  the five lesson steps: hook, words, dialogue, grammar, quiz
 ```
 
+## Login and sync (optional)
+
+Without configuration the app is fully offline and keeps progress on the device. To let learners sign in
+(Google or an email link) and keep progress across devices, connect a free [Supabase](https://supabase.com) project:
+
+1. **Create a project** at supabase.com (free plan).
+2. **Create the table:** open *SQL Editor*, paste `supabase/migrations/20260101000000_progress.sql` and run it.
+3. **Email login:** *Authentication → Providers → Email* is on by default (magic link). Under *Authentication → URL Configuration* set
+   *Site URL* to your deployed address and add it, plus `http://localhost:5173`, to *Redirect URLs*.
+4. **Google login (optional):** create an OAuth client in Google Cloud Console (type *Web application*), add the
+   callback URL shown in *Authentication → Providers → Google* as an authorised redirect URI, then paste the client ID and secret into that Supabase page.
+5. **Connect the app:** copy `.env.example` to `.env.local` and fill in *Project URL* and the *anon public key*
+   (*Project Settings → API*). Add the same two values as environment variables on your host.
+6. **Keep the free project awake:** add repository secrets `SUPABASE_URL` and `SUPABASE_ANON_KEY`; the *Keep Supabase awake* workflow then pings it twice a week.
+
+How sync works: progress is stored locally first. When signed in, the app merges with the server copy
+(steps are unioned, best scores and passes only go up, review words are unioned), so using two devices never loses
+lessons. XP is recalculated from lessons rather than stored. Only the language and slow-audio settings are last-writer-wins.
+Signing out keeps the progress on that device. Free-tier note: there are no automatic backups, so export the table occasionally.
+
 ## Audio
 
 `npm run audio` finds every string the app can speak (`src/lib/speakable.ts`), synthesizes normal and slow clips with
@@ -46,7 +66,7 @@ Clips already in the manifest are kept, so reruns only do new text. Until clips 
 
 - **Phase 0 (done):** React/Vite app, lesson JSON schema + validator, Lesson 1 converted, PWA.
 - **Phase 1 (content done, audio pending):** audio pipeline built; all of A1 (Units 1–10, 40 lessons) written as drafts. Still to do: run the "Build audio" workflow, native-speaker review.
-- **Phase 2:** Supabase auth (Google/email), progress sync, spaced-repetition review, placement test, A1 mock exam.
+- **Phase 2 (login and sync built, needs your Supabase project):** Supabase auth (Google/email) and progress sync. Still to do: spaced-repetition review, placement test, A1 mock exam.
 - **Phase 3–4:** A2 and B1 content, listening/reading/writing/speaking exercise types, leaderboard.
 - **Later:** move the database to a self-hosted server once there is an audience (Postgres dump/restore; only the storage adapter changes).
 

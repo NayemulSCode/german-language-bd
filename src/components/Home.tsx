@@ -2,6 +2,7 @@ import { LESSONS } from '../lib/content'
 import { UNIT_TITLES } from '../lib/units'
 import { useApp } from '../state'
 import { Prefs } from './common'
+import { Account } from './Account'
 
 export function Home({ onOpen }: { onOpen(id: string): void }) {
   const { progress, lessonProgress } = useApp()
@@ -10,6 +11,7 @@ export function Home({ onOpen }: { onOpen(id: string): void }) {
     <div className="wrap home">
       <h1>Deutsch für Bangla-Sprecher</h1>
       <p className="lead bn">A1 থেকে B1 — বাংলা ও ইংরেজি সহায়তাসহ জার্মান শিখুন।</p>
+      <Account />
       <div className="stats bn"><span>{progress.xp} XP</span><span>রিভিউ: {progress.review.length}টি শব্দ</span></div>
       <Prefs />
       {unitKeys.map((key) => {
