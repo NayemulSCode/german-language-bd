@@ -1,0 +1,886 @@
+{
+  "id": "a1-u06-l02",
+  "level": "A1",
+  "unit": 6,
+  "lesson": 2,
+  "title": {
+    "de": "Die Möbel",
+    "bn": "ঘরের আসবাব",
+    "en": "Furniture"
+  },
+  "hook": {
+    "de": "Ordnung muss sein.",
+    "who": "Sprichwort",
+    "bn": "গোছানো থাকতেই হবে।",
+    "en": "There must be order."
+  },
+  "goals": [
+    "আসবাবের নাম ও আর্টিকেল",
+    "„Es gibt …“ — ঘরে কী আছে বলা",
+    "es gibt আর haben-এর পার্থক্য",
+    "আসবাবের বহুবচন"
+  ],
+  "words": [
+    {
+      "id": "tisch",
+      "de": "Tisch",
+      "art": "der",
+      "pl": "die Tische",
+      "pos": "বিশেষ্য",
+      "bn": "টেবিল",
+      "en": "table"
+    },
+    {
+      "id": "stuhl",
+      "de": "Stuhl",
+      "art": "der",
+      "pl": "die Stühle",
+      "pos": "বিশেষ্য",
+      "bn": "চেয়ার",
+      "en": "chair"
+    },
+    {
+      "id": "bett",
+      "de": "Bett",
+      "art": "das",
+      "pl": "die Betten",
+      "pos": "বিশেষ্য",
+      "bn": "খাট, বিছানা",
+      "en": "bed"
+    },
+    {
+      "id": "sofa",
+      "de": "Sofa",
+      "art": "das",
+      "pl": "die Sofas",
+      "pos": "বিশেষ্য",
+      "bn": "সোফা",
+      "en": "sofa"
+    },
+    {
+      "id": "schrank",
+      "de": "Schrank",
+      "art": "der",
+      "pl": "die Schränke",
+      "pos": "বিশেষ্য",
+      "bn": "আলমারি",
+      "en": "wardrobe, cupboard"
+    },
+    {
+      "id": "regal",
+      "de": "Regal",
+      "art": "das",
+      "pl": "die Regale",
+      "pos": "বিশেষ্য",
+      "bn": "তাক",
+      "en": "shelf"
+    },
+    {
+      "id": "lampe",
+      "de": "Lampe",
+      "art": "die",
+      "pl": "die Lampen",
+      "pos": "বিশেষ্য",
+      "bn": "বাতি",
+      "en": "lamp"
+    },
+    {
+      "id": "fenster",
+      "de": "Fenster",
+      "art": "das",
+      "pl": "die Fenster",
+      "pos": "বিশেষ্য",
+      "bn": "জানালা",
+      "en": "window"
+    },
+    {
+      "id": "tuer",
+      "de": "Tür",
+      "art": "die",
+      "pl": "die Türen",
+      "pos": "বিশেষ্য",
+      "bn": "দরজা",
+      "en": "door"
+    },
+    {
+      "id": "kuehlschrank",
+      "de": "Kühlschrank",
+      "art": "der",
+      "pl": "die Kühlschränke",
+      "pos": "বিশেষ্য",
+      "bn": "ফ্রিজ",
+      "en": "fridge"
+    },
+    {
+      "id": "moebel",
+      "de": "Möbel",
+      "art": "die",
+      "pos": "বিশেষ্য, শুধু বহুবচন",
+      "bn": "আসবাব",
+      "en": "furniture"
+    },
+    {
+      "id": "es_gibt",
+      "de": "es gibt",
+      "pos": "অভিব্যক্তি",
+      "bn": "আছে (অস্তিত্ব)",
+      "en": "there is / there are"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Saheb",
+      "bn": [
+        "তোমার",
+        "ঘরে",
+        "কী",
+        "আছে?"
+      ],
+      "en": [
+        "What",
+        "do",
+        "you",
+        "have",
+        "in",
+        "your",
+        "room?"
+      ],
+      "de": [
+        {
+          "t": "Was",
+          "b": [
+            2
+          ],
+          "e": [
+            0
+          ],
+          "l": "Was",
+          "gb": "কী",
+          "ge": "What",
+          "n": ""
+        },
+        {
+          "t": "hast",
+          "b": [
+            3
+          ],
+          "e": [
+            1,
+            3
+          ],
+          "l": "haben",
+          "gb": "আছে",
+          "ge": "do have",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            0
+          ],
+          "e": [
+            2
+          ],
+          "l": "du",
+          "gb": "তোমার",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "im",
+          "b": [
+            1
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "in dem",
+          "gb": "ঘরে",
+          "ge": "in your",
+          "n": "im = in dem; „ঘরের ভেতরে“"
+        },
+        {
+          "t": "Zimmer?",
+          "b": [
+            1
+          ],
+          "e": [
+            6
+          ],
+          "l": "Zimmer",
+          "gb": "ঘরে",
+          "ge": "room",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "একটি",
+        "খাট,",
+        "একটি",
+        "টেবিল",
+        "আর",
+        "দুটি",
+        "চেয়ার",
+        "আছে।"
+      ],
+      "en": [
+        "There",
+        "is",
+        "a",
+        "bed,",
+        "a",
+        "table",
+        "and",
+        "two",
+        "chairs."
+      ],
+      "de": [
+        {
+          "t": "Es gibt",
+          "b": [
+            7
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "es gibt",
+          "gb": "আছে",
+          "ge": "there is",
+          "n": "es gibt = (কোথাও) আছে; এর পরে Akkusativ"
+        },
+        {
+          "t": "ein",
+          "b": [
+            0
+          ],
+          "e": [
+            2
+          ],
+          "l": "ein",
+          "gb": "একটি",
+          "ge": "a",
+          "n": ""
+        },
+        {
+          "t": "Bett,",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "Bett",
+          "gb": "খাট",
+          "ge": "bed",
+          "n": ""
+        },
+        {
+          "t": "einen",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "ein",
+          "gb": "একটি",
+          "ge": "a",
+          "n": "der Tisch → einen Tisch (Akkusativ)"
+        },
+        {
+          "t": "Tisch",
+          "b": [
+            3
+          ],
+          "e": [
+            5
+          ],
+          "l": "Tisch",
+          "gb": "টেবিল",
+          "ge": "table",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            4
+          ],
+          "e": [
+            6
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "zwei",
+          "b": [
+            5
+          ],
+          "e": [
+            7
+          ],
+          "l": "zwei",
+          "gb": "দুটি",
+          "ge": "two",
+          "n": ""
+        },
+        {
+          "t": "Stühle.",
+          "b": [
+            6
+          ],
+          "e": [
+            8
+          ],
+          "l": "Stuhl",
+          "gb": "চেয়ার",
+          "ge": "chairs",
+          "n": "Stuhl-এর বহুবচন: Stühle"
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "একটি",
+        "আলমারিও",
+        "আছে",
+        "কি?"
+      ],
+      "en": [
+        "Is",
+        "there",
+        "also",
+        "a",
+        "wardrobe?"
+      ],
+      "de": [
+        {
+          "t": "Gibt es",
+          "b": [
+            2
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "es gibt",
+          "gb": "আছে",
+          "ge": "is there",
+          "n": ""
+        },
+        {
+          "t": "auch",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "auch",
+          "gb": "আলমারিও",
+          "ge": "also",
+          "n": ""
+        },
+        {
+          "t": "einen",
+          "b": [
+            0
+          ],
+          "e": [
+            3
+          ],
+          "l": "ein",
+          "gb": "একটি",
+          "ge": "a",
+          "n": ""
+        },
+        {
+          "t": "Schrank?",
+          "b": [
+            1
+          ],
+          "e": [
+            4
+          ],
+          "l": "Schrank",
+          "gb": "আলমারিও",
+          "ge": "wardrobe",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "হ্যাঁ,",
+        "আর",
+        "একটি",
+        "তাক।",
+        "কিন্তু",
+        "কোনো",
+        "সোফা",
+        "নেই।"
+      ],
+      "en": [
+        "Yes,",
+        "and",
+        "a",
+        "shelf.",
+        "But",
+        "there",
+        "is",
+        "no",
+        "sofa."
+      ],
+      "de": [
+        {
+          "t": "Ja,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ja",
+          "gb": "হ্যাঁ",
+          "ge": "Yes",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "ein",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "ein",
+          "gb": "একটি",
+          "ge": "a",
+          "n": ""
+        },
+        {
+          "t": "Regal.",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "Regal",
+          "gb": "তাক",
+          "ge": "shelf",
+          "n": ""
+        },
+        {
+          "t": "Aber",
+          "b": [
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "Aber",
+          "gb": "কিন্তু",
+          "ge": "But",
+          "n": ""
+        },
+        {
+          "t": "es gibt",
+          "b": [
+            7
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "es gibt",
+          "gb": "নেই",
+          "ge": "there is",
+          "n": ""
+        },
+        {
+          "t": "kein",
+          "b": [
+            5
+          ],
+          "e": [
+            7
+          ],
+          "l": "kein",
+          "gb": "কোনো",
+          "ge": "no",
+          "n": ""
+        },
+        {
+          "t": "Sofa.",
+          "b": [
+            6
+          ],
+          "e": [
+            8
+          ],
+          "l": "Sofa",
+          "gb": "সোফা",
+          "ge": "sofa",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "বাতিটা",
+        "সুন্দর!"
+      ],
+      "en": [
+        "The",
+        "lamp",
+        "is",
+        "nice!"
+      ],
+      "de": [
+        {
+          "t": "Die",
+          "b": [],
+          "e": [
+            0
+          ],
+          "l": "Die",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "The",
+          "n": ""
+        },
+        {
+          "t": "Lampe",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "Lampe",
+          "gb": "বাতিটা",
+          "ge": "lamp",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "schön!",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "schön",
+          "gb": "সুন্দর",
+          "ge": "nice",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "ধন্যবাদ!",
+        "জানালাটা",
+        "বড়।"
+      ],
+      "en": [
+        "Thanks!",
+        "The",
+        "window",
+        "is",
+        "big."
+      ],
+      "de": [
+        {
+          "t": "Danke!",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Danke",
+          "gb": "ধন্যবাদ",
+          "ge": "Thanks",
+          "n": ""
+        },
+        {
+          "t": "Das",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "Das",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "The",
+          "n": ""
+        },
+        {
+          "t": "Fenster",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "Fenster",
+          "gb": "জানালাটা",
+          "ge": "window",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "groß.",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "groß",
+          "gb": "বড়",
+          "ge": "big",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "text",
+      "title": "Es gibt — „(কোথাও) আছে“",
+      "text": "„Es gibt + Akkusativ“ বলে কোনো জায়গায় কী আছে। Es gibt einen Tisch. Es gibt zwei Stühle. Es gibt kein Sofa. ক্রিয়া সবসময় gibt (একবচনরূপ) — পরের শব্দ একবচন বা বহুবচন যা-ই হোক। উল্টোটা: es gibt keinen/keine/kein = … নেই।"
+    },
+    {
+      "type": "table",
+      "title": "es gibt আর haben — পার্থক্য",
+      "head": [
+        "",
+        "কার আছে?",
+        "কোথায় আছে?"
+      ],
+      "rows": [
+        [
+          "haben",
+          "Ich habe ein Bett. (আমার একটি খাট আছে)",
+          "—"
+        ],
+        [
+          "es gibt",
+          "—",
+          "Im Zimmer gibt es ein Bett. (ঘরে একটি খাট আছে)"
+        ]
+      ],
+      "note": "যার মালিকানা বোঝাতে haben; জায়গায় কী আছে বোঝাতে es gibt।"
+    },
+    {
+      "type": "table",
+      "title": "আসবাবের বহুবচন",
+      "head": [
+        "একবচন",
+        "বহুবচন"
+      ],
+      "rows": [
+        [
+          "der Tisch",
+          "die Tische"
+        ],
+        [
+          "der Stuhl",
+          "die Stühle"
+        ],
+        [
+          "das Bett",
+          "die Betten"
+        ],
+        [
+          "der Schrank",
+          "die Schränke"
+        ],
+        [
+          "das Regal",
+          "die Regale"
+        ],
+        [
+          "die Lampe",
+          "die Lampen"
+        ],
+        [
+          "das Fenster",
+          "die Fenster"
+        ],
+        [
+          "die Tür",
+          "die Türen"
+        ],
+        [
+          "das Sofa",
+          "die Sofas"
+        ]
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "der Schrank",
+      "options": [
+        "সোফা",
+        "আলমারি",
+        "বাতি",
+        "দরজা"
+      ],
+      "answer": 1,
+      "why": "der Schrank = আলমারি।",
+      "word": "schrank"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "das Regal",
+      "options": [
+        "দরজা",
+        "আছে",
+        "তাক",
+        "খাট"
+      ],
+      "answer": 2,
+      "why": "das Regal = তাক।",
+      "word": "regal"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Tür",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Tür। বহুবচন: die Türen।",
+      "word": "tuer"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Bett",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 2,
+      "why": "das Bett। বহুবচন: die Betten।",
+      "word": "bett"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Es gibt ___ Tisch.",
+      "options": [
+        "ein",
+        "eine",
+        "einen",
+        "einem"
+      ],
+      "answer": 2,
+      "why": "es gibt + der Tisch → einen Tisch (Akkusativ)।",
+      "word": "es_gibt"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Es gibt ___ Sofa.",
+      "options": [
+        "kein",
+        "keine",
+        "keinen",
+        "nicht"
+      ],
+      "answer": 0,
+      "why": "das Sofa → kein Sofa।",
+      "word": "es_gibt"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Stuhl-এর বহুবচন কী?",
+      "options": [
+        "die Stühle",
+        "die Stuhle",
+        "die Stuhls",
+        "die Stühlen"
+      ],
+      "answer": 0,
+      "why": "der Stuhl → die Stühle (u → ü)।",
+      "word": "stuhl"
+    },
+    {
+      "type": "order",
+      "prompt": "শব্দ সাজিয়ে বাক্য বানান: „একটি টেবিল আছে।“",
+      "tiles": [
+        "Tisch.",
+        "einen",
+        "gibt",
+        "Es"
+      ],
+      "answer": [
+        "Es",
+        "gibt",
+        "einen",
+        "Tisch."
+      ],
+      "why": "Es gibt einen Tisch।",
+      "word": "es_gibt"
+    }
+  ],
+  "status": "draft",
+  "minutes": 14,
+  "passMark": 0.8
+}

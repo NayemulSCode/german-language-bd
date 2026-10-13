@@ -1,0 +1,885 @@
+{
+  "id": "a1-u06-l01",
+  "level": "A1",
+  "unit": 6,
+  "lesson": 1,
+  "title": {
+    "de": "Die Wohnung",
+    "bn": "আমার ফ্ল্যাট",
+    "en": "The flat"
+  },
+  "hook": {
+    "de": "Eigener Herd ist Goldes wert.",
+    "who": "Sprichwort",
+    "bn": "নিজের চুলার দাম সোনার সমান।",
+    "en": "A hearth of your own is worth gold."
+  },
+  "goals": [
+    "ঘরের নাম: Küche, Bad, Wohnzimmer, Schlafzimmer …",
+    "নিজের ফ্ল্যাটের বর্ণনা দেওয়া",
+    "er / sie / es — আর্টিকেল অনুযায়ী সর্বনাম",
+    "যৌগিক শব্দ: Wohn + Zimmer = Wohnzimmer"
+  ],
+  "words": [
+    {
+      "id": "wohnung",
+      "de": "Wohnung",
+      "art": "die",
+      "pl": "die Wohnungen",
+      "pos": "বিশেষ্য",
+      "bn": "ফ্ল্যাট, অ্যাপার্টমেন্ট",
+      "en": "flat"
+    },
+    {
+      "id": "haus",
+      "de": "Haus",
+      "art": "das",
+      "pl": "die Häuser",
+      "pos": "বিশেষ্য",
+      "bn": "বাড়ি",
+      "en": "house"
+    },
+    {
+      "id": "zimmer",
+      "de": "Zimmer",
+      "art": "das",
+      "pl": "die Zimmer",
+      "pos": "বিশেষ্য",
+      "bn": "ঘর",
+      "en": "room"
+    },
+    {
+      "id": "wohnzimmer",
+      "de": "Wohnzimmer",
+      "art": "das",
+      "pl": "die Wohnzimmer",
+      "pos": "বিশেষ্য",
+      "bn": "বসার ঘর",
+      "en": "living room"
+    },
+    {
+      "id": "schlafzimmer",
+      "de": "Schlafzimmer",
+      "art": "das",
+      "pl": "die Schlafzimmer",
+      "pos": "বিশেষ্য",
+      "bn": "শোবার ঘর",
+      "en": "bedroom"
+    },
+    {
+      "id": "kueche",
+      "de": "Küche",
+      "art": "die",
+      "pl": "die Küchen",
+      "pos": "বিশেষ্য",
+      "bn": "রান্নাঘর",
+      "en": "kitchen"
+    },
+    {
+      "id": "bad",
+      "de": "Bad",
+      "art": "das",
+      "pl": "die Bäder",
+      "pos": "বিশেষ্য",
+      "bn": "বাথরুম",
+      "en": "bathroom"
+    },
+    {
+      "id": "flur",
+      "de": "Flur",
+      "art": "der",
+      "pl": "die Flure",
+      "pos": "বিশেষ্য",
+      "bn": "করিডর",
+      "en": "hallway"
+    },
+    {
+      "id": "balkon",
+      "de": "Balkon",
+      "art": "der",
+      "pl": "die Balkone",
+      "pos": "বিশেষ্য",
+      "bn": "বারান্দা",
+      "en": "balcony"
+    },
+    {
+      "id": "gross",
+      "de": "groß",
+      "pos": "বিশেষণ",
+      "bn": "বড়",
+      "en": "big"
+    },
+    {
+      "id": "klein",
+      "de": "klein",
+      "pos": "বিশেষণ",
+      "bn": "ছোট",
+      "en": "small"
+    },
+    {
+      "id": "hell",
+      "de": "hell",
+      "pos": "বিশেষণ",
+      "bn": "আলোকোজ্জ্বল",
+      "en": "bright"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Saheb",
+      "bn": [
+        "তোমার",
+        "ফ্ল্যাটটা",
+        "কেমন?"
+      ],
+      "en": [
+        "What",
+        "is",
+        "your",
+        "flat",
+        "like?"
+      ],
+      "de": [
+        {
+          "t": "Wie",
+          "b": [
+            2
+          ],
+          "e": [
+            0
+          ],
+          "l": "Wie",
+          "gb": "কেমন",
+          "ge": "What",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "deine",
+          "b": [
+            0
+          ],
+          "e": [
+            2
+          ],
+          "l": "dein",
+          "gb": "তোমার",
+          "ge": "your",
+          "n": ""
+        },
+        {
+          "t": "Wohnung?",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "Wohnung",
+          "gb": "ফ্ল্যাটটা",
+          "ge": "flat",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "এটা",
+        "ছোট,",
+        "কিন্তু",
+        "উজ্জ্বল।"
+      ],
+      "en": [
+        "It",
+        "is",
+        "small,",
+        "but",
+        "bright."
+      ],
+      "de": [
+        {
+          "t": "Sie",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "sie",
+          "gb": "এটা (die Wohnung)",
+          "ge": "it (die Wohnung)",
+          "n": "die Wohnung → sie"
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "klein,",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "klein",
+          "gb": "ছোট",
+          "ge": "small",
+          "n": "ist-এর পরে বিশেষণ বদলায় না"
+        },
+        {
+          "t": "aber",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "aber",
+          "gb": "কিন্তু",
+          "ge": "but",
+          "n": ""
+        },
+        {
+          "t": "hell.",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "hell",
+          "gb": "উজ্জ্বল",
+          "ge": "bright",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "আমার",
+        "দুটি",
+        "ঘর,",
+        "একটি",
+        "রান্নাঘর",
+        "আর",
+        "একটি",
+        "বাথরুম",
+        "আছে।"
+      ],
+      "en": [
+        "I",
+        "have",
+        "two",
+        "rooms,",
+        "a",
+        "kitchen",
+        "and",
+        "a",
+        "bathroom."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমার",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [
+            8
+          ],
+          "e": [
+            1
+          ],
+          "l": "haben",
+          "gb": "আছে",
+          "ge": "have",
+          "n": ""
+        },
+        {
+          "t": "zwei",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "zwei",
+          "gb": "দুটি",
+          "ge": "two",
+          "n": ""
+        },
+        {
+          "t": "Zimmer,",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "Zimmer",
+          "gb": "ঘর",
+          "ge": "rooms",
+          "n": "Zimmer-এর বহুবচনও Zimmer (বদলায় না)"
+        },
+        {
+          "t": "eine",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "ein",
+          "gb": "একটি",
+          "ge": "a",
+          "n": ""
+        },
+        {
+          "t": "Küche",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "Küche",
+          "gb": "রান্নাঘর",
+          "ge": "kitchen",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            5
+          ],
+          "e": [
+            6
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "ein",
+          "b": [
+            6
+          ],
+          "e": [
+            7
+          ],
+          "l": "ein",
+          "gb": "একটি",
+          "ge": "a",
+          "n": ""
+        },
+        {
+          "t": "Bad.",
+          "b": [
+            7
+          ],
+          "e": [
+            8
+          ],
+          "l": "Bad",
+          "gb": "বাথরুম",
+          "ge": "bathroom",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "তোমার",
+        "কি",
+        "বারান্দাও",
+        "আছে?"
+      ],
+      "en": [
+        "Do",
+        "you",
+        "also",
+        "have",
+        "a",
+        "balcony?"
+      ],
+      "de": [
+        {
+          "t": "Hast",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "haben",
+          "gb": "আছে",
+          "ge": "have",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "du",
+          "gb": "তোমার",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "auch",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "auch",
+          "gb": "বারান্দাও",
+          "ge": "also",
+          "n": ""
+        },
+        {
+          "t": "einen",
+          "b": [],
+          "e": [
+            4
+          ],
+          "l": "ein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "a",
+          "n": "der Balkon + haben → einen"
+        },
+        {
+          "t": "Balkon?",
+          "b": [
+            2
+          ],
+          "e": [
+            5
+          ],
+          "l": "Balkon",
+          "gb": "বারান্দাও",
+          "ge": "balcony",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "হ্যাঁ,",
+        "বারান্দাটা",
+        "বড়।"
+      ],
+      "en": [
+        "Yes,",
+        "the",
+        "balcony",
+        "is",
+        "big."
+      ],
+      "de": [
+        {
+          "t": "Ja,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ja",
+          "gb": "হ্যাঁ",
+          "ge": "Yes",
+          "n": ""
+        },
+        {
+          "t": "der",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "der",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "Balkon",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "Balkon",
+          "gb": "বারান্দাটা",
+          "ge": "balcony",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "groß.",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "groß",
+          "gb": "বড়",
+          "ge": "big",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "ঢাকায়",
+        "আমার",
+        "ফ্ল্যাটে",
+        "তিনটি",
+        "ঘর",
+        "আছে।"
+      ],
+      "en": [
+        "My",
+        "flat",
+        "in",
+        "Dhaka",
+        "has",
+        "three",
+        "rooms."
+      ],
+      "de": [
+        {
+          "t": "Meine",
+          "b": [
+            1
+          ],
+          "e": [
+            0
+          ],
+          "l": "mein",
+          "gb": "আমার",
+          "ge": "My",
+          "n": ""
+        },
+        {
+          "t": "Wohnung",
+          "b": [
+            2
+          ],
+          "e": [
+            1
+          ],
+          "l": "Wohnung",
+          "gb": "ফ্ল্যাটে",
+          "ge": "flat",
+          "n": ""
+        },
+        {
+          "t": "in",
+          "b": [
+            0
+          ],
+          "e": [
+            2
+          ],
+          "l": "in",
+          "gb": "ঢাকায়",
+          "ge": "in",
+          "n": ""
+        },
+        {
+          "t": "Dhaka",
+          "s": "Dhaka",
+          "b": [
+            0
+          ],
+          "e": [
+            3
+          ],
+          "l": "Dhaka",
+          "gb": "ঢাকায়",
+          "ge": "Dhaka",
+          "n": ""
+        },
+        {
+          "t": "hat",
+          "b": [
+            5
+          ],
+          "e": [
+            4
+          ],
+          "l": "haben",
+          "gb": "আছে",
+          "ge": "has",
+          "n": ""
+        },
+        {
+          "t": "drei",
+          "b": [
+            3
+          ],
+          "e": [
+            5
+          ],
+          "l": "drei",
+          "gb": "তিনটি",
+          "ge": "three",
+          "n": ""
+        },
+        {
+          "t": "Zimmer.",
+          "b": [
+            4
+          ],
+          "e": [
+            6
+          ],
+          "l": "Zimmer",
+          "gb": "ঘর",
+          "ge": "rooms",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "ফ্ল্যাটের ঘরগুলো",
+      "head": [
+        "জার্মান",
+        "বাংলা"
+      ],
+      "rows": [
+        [
+          "das Zimmer",
+          "ঘর"
+        ],
+        [
+          "das Wohnzimmer",
+          "বসার ঘর"
+        ],
+        [
+          "das Schlafzimmer",
+          "শোবার ঘর"
+        ],
+        [
+          "die Küche",
+          "রান্নাঘর"
+        ],
+        [
+          "das Bad",
+          "বাথরুম"
+        ],
+        [
+          "der Flur",
+          "করিডর"
+        ],
+        [
+          "der Balkon",
+          "বারান্দা"
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "title": "যৌগিক শব্দ — ছোট শব্দ জুড়ে বড় শব্দ",
+      "text": "Wohn + Zimmer = Wohnzimmer (বসার ঘর)। Schlaf + Zimmer = Schlafzimmer (শোবার ঘর)। জার্মানে শব্দ জুড়ে নতুন শব্দ বানানো হয় — আর শেষ অংশের আর্টিকেলই পুরো শব্দের আর্টিকেল: das Zimmer → das Wohnzimmer, die Küche → die Wohnküche।"
+    },
+    {
+      "type": "table",
+      "title": "er / sie / es — আর্টিকেল দেখে সর্বনাম",
+      "intro": "কোনো জিনিসের কথা বারবার না বলে সর্বনাম ব্যবহার করুন। আর্টিকেল যা, সর্বনাম তা-ই: der → er, die → sie, das → es।",
+      "head": [
+        "আর্টিকেল",
+        "সর্বনাম",
+        "উদাহরণ"
+      ],
+      "rows": [
+        [
+          "der Balkon",
+          "er",
+          "Er ist groß."
+        ],
+        [
+          "die Wohnung",
+          "sie",
+          "Sie ist klein."
+        ],
+        [
+          "das Zimmer",
+          "es",
+          "Es ist hell."
+        ]
+      ],
+      "note": "ইংরেজির „it“ সবসময় একই, জার্মানে লিঙ্গ অনুযায়ী তিন রকম।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "die Küche",
+      "options": [
+        "রান্নাঘর",
+        "বড়",
+        "আলোকোজ্জ্বল",
+        "বাড়ি"
+      ],
+      "answer": 0,
+      "why": "die Küche = রান্নাঘর।",
+      "word": "kueche"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "der Flur",
+      "options": [
+        "ঘর",
+        "রান্নাঘর",
+        "করিডর",
+        "বড়"
+      ],
+      "answer": 2,
+      "why": "der Flur = করিডর।",
+      "word": "flur"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Wohnung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Wohnung। বহুবচন: die Wohnungen।",
+      "word": "wohnung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Balkon",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 0,
+      "why": "der Balkon। বহুবচন: die Balkone।",
+      "word": "balkon"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Zimmer",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 2,
+      "why": "das Zimmer। বহুবচন: die Zimmer।",
+      "word": "zimmer"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক সর্বনাম বেছে নিন",
+      "sub": "Die Wohnung ist klein. ___ ist hell.",
+      "options": [
+        "Er",
+        "Sie",
+        "Es",
+        "Ihr"
+      ],
+      "answer": 1,
+      "why": "die Wohnung → sie।",
+      "word": "wohnung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Wohnzimmer",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 2,
+      "why": "শেষ অংশ das Zimmer → das Wohnzimmer।",
+      "word": "wohnzimmer"
+    },
+    {
+      "type": "order",
+      "prompt": "শব্দ সাজিয়ে বাক্য বানান: „আমার দুটি ঘর আছে।“",
+      "tiles": [
+        "Zimmer.",
+        "zwei",
+        "habe",
+        "Ich"
+      ],
+      "answer": [
+        "Ich",
+        "habe",
+        "zwei",
+        "Zimmer."
+      ],
+      "why": "Ich habe zwei Zimmer।",
+      "word": "zimmer"
+    }
+  ],
+  "status": "draft",
+  "minutes": 14,
+  "passMark": 0.8
+}

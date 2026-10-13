@@ -1,0 +1,987 @@
+{
+  "id": "a1-u05-l02",
+  "level": "A1",
+  "unit": 5,
+  "lesson": 2,
+  "title": {
+    "de": "Wochentage und Tageszeiten",
+    "bn": "সপ্তাহের দিন ও দিনের সময়",
+    "en": "Days of the week and times of day"
+  },
+  "hook": {
+    "de": "Morgenstund hat Gold im Mund.",
+    "who": "Sprichwort",
+    "bn": "ভোরের সময়ে সোনা ফলে।",
+    "en": "The early bird catches the worm."
+  },
+  "goals": [
+    "সপ্তাহের সাত দিনের নাম",
+    "am Montag, am Abend, um drei Uhr — কখন কোন শব্দ",
+    "von … bis … দিয়ে সময়ের সীমা বলা",
+    "নিজের ক্লাসের সময়সূচি বলা"
+  ],
+  "words": [
+    {
+      "id": "montag",
+      "de": "Montag",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "সোমবার",
+      "en": "Monday"
+    },
+    {
+      "id": "dienstag",
+      "de": "Dienstag",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "মঙ্গলবার",
+      "en": "Tuesday"
+    },
+    {
+      "id": "mittwoch",
+      "de": "Mittwoch",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "বুধবার",
+      "en": "Wednesday"
+    },
+    {
+      "id": "donnerstag",
+      "de": "Donnerstag",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "বৃহস্পতিবার",
+      "en": "Thursday"
+    },
+    {
+      "id": "freitag",
+      "de": "Freitag",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "শুক্রবার",
+      "en": "Friday"
+    },
+    {
+      "id": "samstag",
+      "de": "Samstag",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "শনিবার",
+      "en": "Saturday"
+    },
+    {
+      "id": "sonntag",
+      "de": "Sonntag",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "রবিবার",
+      "en": "Sunday"
+    },
+    {
+      "id": "tag",
+      "de": "Tag",
+      "art": "der",
+      "pl": "die Tage",
+      "pos": "বিশেষ্য",
+      "bn": "দিন",
+      "en": "day"
+    },
+    {
+      "id": "abend",
+      "de": "Abend",
+      "art": "der",
+      "pl": "die Abende",
+      "pos": "বিশেষ্য",
+      "bn": "সন্ধ্যা",
+      "en": "evening"
+    },
+    {
+      "id": "wann",
+      "de": "wann",
+      "pos": "প্রশ্নবোধক",
+      "bn": "কখন",
+      "en": "when"
+    },
+    {
+      "id": "frei",
+      "de": "frei",
+      "pos": "বিশেষণ",
+      "bn": "ছুটি, মুক্ত",
+      "en": "free, off"
+    },
+    {
+      "id": "deutschkurs",
+      "de": "Deutschkurs",
+      "art": "der",
+      "pl": "die Deutschkurse",
+      "pos": "বিশেষ্য",
+      "bn": "জার্মান ক্লাস",
+      "en": "German course"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Muna",
+      "bn": [
+        "তোমার",
+        "জার্মান",
+        "ক্লাস",
+        "কখন?"
+      ],
+      "en": [
+        "When",
+        "do",
+        "you",
+        "have",
+        "German",
+        "class?"
+      ],
+      "de": [
+        {
+          "t": "Wann",
+          "b": [
+            3
+          ],
+          "e": [
+            0
+          ],
+          "l": "Wann",
+          "gb": "কখন",
+          "ge": "When",
+          "n": ""
+        },
+        {
+          "t": "hast",
+          "b": [],
+          "e": [
+            1,
+            3
+          ],
+          "l": "haben",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "do have",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            0
+          ],
+          "e": [
+            2
+          ],
+          "l": "du",
+          "gb": "তোমার",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "Deutschkurs?",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "Deutschkurs",
+          "gb": "জার্মান ক্লাস",
+          "ge": "German class",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমার",
+        "সোমবার",
+        "আর",
+        "বুধবার",
+        "জার্মান",
+        "ক্লাস",
+        "আছে।"
+      ],
+      "en": [
+        "I",
+        "have",
+        "German",
+        "class",
+        "on",
+        "Monday",
+        "and",
+        "on",
+        "Wednesday."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমার",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [
+            6
+          ],
+          "e": [
+            1
+          ],
+          "l": "haben",
+          "gb": "আছে",
+          "ge": "have",
+          "n": ""
+        },
+        {
+          "t": "Deutschkurs",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "Deutschkurs",
+          "gb": "জার্মান ক্লাস",
+          "ge": "German class",
+          "n": ""
+        },
+        {
+          "t": "am",
+          "b": [],
+          "e": [
+            4
+          ],
+          "l": "an dem",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "on",
+          "n": "am + বার = …বার (am Montag = সোমবারে)"
+        },
+        {
+          "t": "Montag",
+          "b": [
+            1
+          ],
+          "e": [
+            5
+          ],
+          "l": "Montag",
+          "gb": "সোমবার",
+          "ge": "Monday",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            2
+          ],
+          "e": [
+            6
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "am",
+          "b": [],
+          "e": [
+            7
+          ],
+          "l": "am",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "on",
+          "n": ""
+        },
+        {
+          "t": "Mittwoch.",
+          "b": [
+            3
+          ],
+          "e": [
+            8
+          ],
+          "l": "Mittwoch",
+          "gb": "বুধবার",
+          "ge": "Wednesday",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "কখন",
+        "থেকে",
+        "কখন",
+        "পর্যন্ত?"
+      ],
+      "en": [
+        "From",
+        "when",
+        "until",
+        "when?"
+      ],
+      "de": [
+        {
+          "t": "Von",
+          "b": [
+            1
+          ],
+          "e": [
+            0
+          ],
+          "l": "Von",
+          "gb": "থেকে",
+          "ge": "From",
+          "n": "von … bis … = … থেকে … পর্যন্ত"
+        },
+        {
+          "t": "wann",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "wann",
+          "gb": "কখন",
+          "ge": "when",
+          "n": ""
+        },
+        {
+          "t": "bis",
+          "b": [
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "bis",
+          "gb": "পর্যন্ত",
+          "ge": "until",
+          "n": ""
+        },
+        {
+          "t": "wann?",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "wann",
+          "gb": "কখন",
+          "ge": "when",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "নয়টা",
+        "থেকে",
+        "বারোটা",
+        "পর্যন্ত।"
+      ],
+      "en": [
+        "From",
+        "nine",
+        "o'clock",
+        "until",
+        "twelve",
+        "o'clock."
+      ],
+      "de": [
+        {
+          "t": "Von",
+          "b": [
+            1
+          ],
+          "e": [
+            0
+          ],
+          "l": "Von",
+          "gb": "থেকে",
+          "ge": "From",
+          "n": ""
+        },
+        {
+          "t": "neun",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "neun",
+          "gb": "নয়টা",
+          "ge": "nine",
+          "n": ""
+        },
+        {
+          "t": "Uhr",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "Uhr",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "o'clock",
+          "n": ""
+        },
+        {
+          "t": "bis",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "bis",
+          "gb": "পর্যন্ত",
+          "ge": "until",
+          "n": ""
+        },
+        {
+          "t": "zwölf",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "zwölf",
+          "gb": "বারোটা",
+          "ge": "twelve",
+          "n": ""
+        },
+        {
+          "t": "Uhr.",
+          "b": [],
+          "e": [
+            5
+          ],
+          "l": "Uhr",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "o'clock",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "আমার",
+        "ক্লাস",
+        "সন্ধ্যায়,",
+        "ছয়টা",
+        "থেকে",
+        "আটটা",
+        "পর্যন্ত।"
+      ],
+      "en": [
+        "My",
+        "class",
+        "is",
+        "in",
+        "the",
+        "evening,",
+        "from",
+        "six",
+        "to",
+        "eight."
+      ],
+      "de": [
+        {
+          "t": "Mein",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Mein",
+          "gb": "আমার",
+          "ge": "My",
+          "n": ""
+        },
+        {
+          "t": "Kurs",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "Kurs",
+          "gb": "ক্লাস",
+          "ge": "class",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "am",
+          "b": [],
+          "e": [
+            3,
+            4
+          ],
+          "l": "am",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "in the",
+          "n": "দিনের সময়ে am: am Abend (সন্ধ্যায়), am Morgen (সকালে)"
+        },
+        {
+          "t": "Abend,",
+          "b": [
+            2
+          ],
+          "e": [
+            5
+          ],
+          "l": "Abend",
+          "gb": "সন্ধ্যায়",
+          "ge": "evening",
+          "n": ""
+        },
+        {
+          "t": "von",
+          "b": [
+            4
+          ],
+          "e": [
+            6
+          ],
+          "l": "von",
+          "gb": "থেকে",
+          "ge": "from",
+          "n": ""
+        },
+        {
+          "t": "sechs",
+          "b": [
+            3
+          ],
+          "e": [
+            7
+          ],
+          "l": "sechs",
+          "gb": "ছয়টা",
+          "ge": "six",
+          "n": ""
+        },
+        {
+          "t": "bis",
+          "b": [
+            6
+          ],
+          "e": [
+            8
+          ],
+          "l": "bis",
+          "gb": "পর্যন্ত",
+          "ge": "to",
+          "n": ""
+        },
+        {
+          "t": "acht.",
+          "b": [
+            5
+          ],
+          "e": [
+            9
+          ],
+          "l": "acht",
+          "gb": "আটটা",
+          "ge": "eight",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আর",
+        "শনিবার",
+        "আর",
+        "রবিবার?"
+      ],
+      "en": [
+        "And",
+        "on",
+        "Saturday",
+        "and",
+        "Sunday?"
+      ],
+      "de": [
+        {
+          "t": "Und",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "am",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "am",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "on",
+          "n": ""
+        },
+        {
+          "t": "Samstag",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "Samstag",
+          "gb": "শনিবার",
+          "ge": "Saturday",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "Sonntag?",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "Sonntag",
+          "gb": "রবিবার",
+          "ge": "Sunday",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "তখন",
+        "আমার",
+        "ছুটি।"
+      ],
+      "en": [
+        "Then",
+        "I",
+        "am",
+        "off."
+      ],
+      "de": [
+        {
+          "t": "Da",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Da",
+          "gb": "তখন",
+          "ge": "Then",
+          "n": "da = তখন, তাই"
+        },
+        {
+          "t": "habe",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "haben",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "am",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "ich",
+          "gb": "আমার",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "frei.",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "frei",
+          "gb": "ছুটি",
+          "ge": "off",
+          "n": "frei haben = ছুটিতে থাকা"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "Wochentage — সবই der-শব্দ",
+      "head": [
+        "জার্মান",
+        "বাংলা",
+        "„…বারে“"
+      ],
+      "rows": [
+        [
+          "der Montag",
+          "সোমবার",
+          "am Montag"
+        ],
+        [
+          "der Dienstag",
+          "মঙ্গলবার",
+          "am Dienstag"
+        ],
+        [
+          "der Mittwoch",
+          "বুধবার",
+          "am Mittwoch"
+        ],
+        [
+          "der Donnerstag",
+          "বৃহস্পতিবার",
+          "am Donnerstag"
+        ],
+        [
+          "der Freitag",
+          "শুক্রবার",
+          "am Freitag"
+        ],
+        [
+          "der Samstag",
+          "শনিবার",
+          "am Samstag"
+        ],
+        [
+          "der Sonntag",
+          "রবিবার",
+          "am Sonntag"
+        ]
+      ],
+      "note": "জার্মান সপ্তাহ সোমবার থেকে শুরু। প্রতি সোমবার বোঝাতে: montags।"
+    },
+    {
+      "type": "table",
+      "title": "Tageszeiten",
+      "head": [
+        "জার্মান",
+        "বাংলা",
+        "বাক্যে"
+      ],
+      "rows": [
+        [
+          "der Morgen",
+          "ভোর, সকাল",
+          "am Morgen"
+        ],
+        [
+          "der Vormittag",
+          "বেলা ১২টার আগ পর্যন্ত",
+          "am Vormittag"
+        ],
+        [
+          "der Mittag",
+          "দুপুর",
+          "am Mittag"
+        ],
+        [
+          "der Nachmittag",
+          "বিকেল",
+          "am Nachmittag"
+        ],
+        [
+          "der Abend",
+          "সন্ধ্যা",
+          "am Abend"
+        ],
+        [
+          "die Nacht",
+          "রাত",
+          "in der Nacht"
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "title": "am, um, von … bis …",
+      "text": "বার ও দিনের অংশের আগে am: am Montag, am Abend। ঘড়ির সময়ের আগে um: um drei Uhr। সীমা বোঝাতে von … bis …: von neun bis zwölf Uhr। তিনটি আলাদা শব্দ — সঠিক জায়গায় বসানো অভ্যাস করুন।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "der Donnerstag",
+      "options": [
+        "শনিবার",
+        "দিন",
+        "বৃহস্পতিবার",
+        "কখন"
+      ],
+      "answer": 2,
+      "why": "der Donnerstag = বৃহস্পতিবার।",
+      "word": "donnerstag"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "der Mittwoch",
+      "options": [
+        "বুধবার",
+        "রবিবার",
+        "কখন",
+        "সোমবার"
+      ],
+      "answer": 0,
+      "why": "der Mittwoch = বুধবার।",
+      "word": "mittwoch"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "frei",
+      "options": [
+        "সোমবার",
+        "ছুটি",
+        "বৃহস্পতিবার",
+        "রবিবার"
+      ],
+      "answer": 1,
+      "why": "frei = ছুটি।",
+      "word": "frei"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Abend",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 0,
+      "why": "der Abend। বহুবচন: die Abende।",
+      "word": "abend"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক শব্দ বেছে নিন",
+      "sub": "___ Montag habe ich Kurs.",
+      "options": [
+        "Am",
+        "Um",
+        "Von",
+        "In"
+      ],
+      "answer": 0,
+      "why": "বারের আগে am: Am Montag।",
+      "word": "montag"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক শব্দ বেছে নিন",
+      "sub": "Der Kurs beginnt ___ neun Uhr.",
+      "options": [
+        "am",
+        "um",
+        "von",
+        "bis"
+      ],
+      "answer": 1,
+      "why": "ঘড়ির সময়ের আগে um: um neun Uhr।"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„শুক্রবার“ জার্মানে কী?",
+      "options": [
+        "Freitag",
+        "Samstag",
+        "Sonntag",
+        "Donnerstag"
+      ],
+      "answer": 0,
+      "why": "der Freitag = শুক্রবার।",
+      "word": "freitag"
+    },
+    {
+      "type": "order",
+      "prompt": "শব্দ সাজিয়ে বাক্য বানান: „নয়টা থেকে বারোটা পর্যন্ত“",
+      "tiles": [
+        "Uhr.",
+        "bis",
+        "zwölf",
+        "neun",
+        "Von"
+      ],
+      "answer": [
+        "Von",
+        "neun",
+        "bis",
+        "zwölf",
+        "Uhr."
+      ],
+      "why": "Von neun bis zwölf Uhr।",
+      "word": "wann"
+    }
+  ],
+  "status": "draft",
+  "minutes": 14,
+  "passMark": 0.8
+}

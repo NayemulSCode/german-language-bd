@@ -167,5 +167,109 @@
     },
     "status": "draft",
     "minutes": 14
+  },
+  {
+    "id": "a1-u05-l01",
+    "level": "A1",
+    "unit": 5,
+    "lesson": 1,
+    "title": {
+      "bn": "সময় বলা ও বোঝা",
+      "en": "Telling the time",
+      "de": "Die Uhrzeit"
+    },
+    "status": "draft",
+    "minutes": 14
+  },
+  {
+    "id": "a1-u05-l02",
+    "level": "A1",
+    "unit": 5,
+    "lesson": 2,
+    "title": {
+      "bn": "সপ্তাহের দিন ও দিনের সময়",
+      "en": "Days of the week and times of day",
+      "de": "Wochentage und Tageszeiten"
+    },
+    "status": "draft",
+    "minutes": 14
+  },
+  {
+    "id": "a1-u05-l03",
+    "level": "A1",
+    "unit": 5,
+    "lesson": 3,
+    "title": {
+      "bn": "আমার একটি দিন",
+      "en": "My day",
+      "de": "Mein Tag"
+    },
+    "status": "draft",
+    "minutes": 14
+  },
+  {
+    "id": "a1-u05-l04",
+    "level": "A1",
+    "unit": 5,
+    "lesson": 4,
+    "title": {
+      "bn": "প্রতিদিনের অভ্যাস ও অবসর",
+      "en": "Daily habits and free time",
+      "de": "Alltag und Freizeit"
+    },
+    "status": "draft",
+    "minutes": 14
+  },
+  {
+    "id": "a1-u06-l01",
+    "level": "A1",
+    "unit": 6,
+    "lesson": 1,
+    "title": {
+      "bn": "আমার ফ্ল্যাট",
+      "en": "The flat",
+      "de": "Die Wohnung"
+    },
+    "status": "draft",
+    "minutes": 14
+  },
+  {
+    "id": "a1-u06-l02",
+    "level": "A1",
+    "unit": 6,
+    "lesson": 2,
+    "title": {
+      "bn": "ঘরের আসবাব",
+      "en": "Furniture",
+      "de": "Die Möbel"
+    },
+    "status": "draft",
+    "minutes": 14
+  },
+  {
+    "id": "a1-u06-l03",
+    "level": "A1",
+    "unit": 6,
+    "lesson": 3,
+    "title": {
+      "bn": "কোথায় আছে? — অবস্থান",
+      "en": "Where is …? Locations",
+      "de": "Wo ist …?"
+    },
+    "status": "draft",
+    "minutes": 14
+  },
+  {
+    "id": "a1-u06-l04",
+    "level": "A1",
+    "unit": 6,
+    "lesson": 4,
+    "title": {
+      "bn": "ফ্ল্যাট খোঁজা ও ভাড়া",
+      "en": "Looking for a flat",
+      "de": "Wohnungssuche"
+    },
+    "status": "draft",
+    "minutes": 14
   }
 ]

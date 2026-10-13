@@ -1,0 +1,1112 @@
+{
+  "id": "a1-u06-l04",
+  "level": "A1",
+  "unit": 6,
+  "lesson": 4,
+  "title": {
+    "de": "Wohnungssuche",
+    "bn": "ফ্ল্যাট খোঁজা ও ভাড়া",
+    "en": "Looking for a flat"
+  },
+  "hook": {
+    "de": "Zu Hause ist es am schönsten.",
+    "who": "Sprichwort",
+    "bn": "ঘরের মতো সুন্দর আর কিছু নেই।",
+    "en": "There is no place like home."
+  },
+  "goals": [
+    "ফ্ল্যাট খুঁজছি বলা: Ich suche eine Wohnung",
+    "ভাড়া জিজ্ঞাসা করা: Kaltmiete, Nebenkosten",
+    "১০০ থেকে বড় সংখ্যা (sechshundert)",
+    "ফ্ল্যাটের বিজ্ঞাপনের সংক্ষেপ পড়া"
+  ],
+  "words": [
+    {
+      "id": "miete",
+      "de": "Miete",
+      "art": "die",
+      "pl": "die Mieten",
+      "pos": "বিশেষ্য",
+      "bn": "ভাড়া",
+      "en": "rent"
+    },
+    {
+      "id": "nebenkosten",
+      "de": "Nebenkosten",
+      "art": "die",
+      "pos": "বিশেষ্য, শুধু বহুবচন",
+      "bn": "বাড়তি খরচ (পানি, গরম, ময়লা…)",
+      "en": "extra costs, utilities"
+    },
+    {
+      "id": "monat",
+      "de": "Monat",
+      "art": "der",
+      "pl": "die Monate",
+      "pos": "বিশেষ্য",
+      "bn": "মাস",
+      "en": "month"
+    },
+    {
+      "id": "quadratmeter",
+      "de": "Quadratmeter",
+      "art": "der",
+      "pl": "die Quadratmeter",
+      "pos": "বিশেষ্য",
+      "bn": "বর্গমিটার",
+      "en": "square metre"
+    },
+    {
+      "id": "mieten",
+      "de": "mieten",
+      "pos": "ক্রিয়া",
+      "bn": "ভাড়া নেওয়া",
+      "en": "to rent"
+    },
+    {
+      "id": "suchen",
+      "de": "suchen",
+      "pos": "ক্রিয়া",
+      "bn": "খোঁজা",
+      "en": "to look for"
+    },
+    {
+      "id": "anzeige",
+      "de": "Anzeige",
+      "art": "die",
+      "pl": "die Anzeigen",
+      "pos": "বিশেষ্য",
+      "bn": "বিজ্ঞাপন",
+      "en": "advert"
+    },
+    {
+      "id": "vermieter",
+      "de": "Vermieter",
+      "art": "der",
+      "pl": "die Vermieter",
+      "pos": "বিশেষ্য",
+      "bn": "বাড়িওয়ালা",
+      "en": "landlord"
+    },
+    {
+      "id": "termin",
+      "de": "Termin",
+      "art": "der",
+      "pl": "die Termine",
+      "pos": "বিশেষ্য",
+      "bn": "অ্যাপয়েন্টমেন্ট, নির্ধারিত সময়",
+      "en": "appointment"
+    },
+    {
+      "id": "kalt",
+      "de": "kalt",
+      "pos": "বিশেষণ",
+      "bn": "ঠান্ডা; (ভাড়ায়) খরচ ছাড়া",
+      "en": "cold; (rent) excluding utilities"
+    },
+    {
+      "id": "warm",
+      "de": "warm",
+      "pos": "বিশেষণ",
+      "bn": "গরম; (ভাড়ায়) খরচসহ",
+      "en": "warm; (rent) including utilities"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Saheb",
+      "bn": [
+        "শুভ",
+        "দিন!",
+        "আমি",
+        "একটি",
+        "ফ্ল্যাট",
+        "খুঁজছি।"
+      ],
+      "en": [
+        "Good",
+        "day!",
+        "I",
+        "am",
+        "looking",
+        "for",
+        "a",
+        "flat."
+      ],
+      "de": [
+        {
+          "t": "Guten Tag!",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Guten Tag",
+          "gb": "শুভ দিন",
+          "ge": "Good day",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "suche",
+          "b": [
+            5
+          ],
+          "e": [
+            3,
+            4,
+            5
+          ],
+          "l": "suchen",
+          "gb": "খুঁজছি",
+          "ge": "am looking for",
+          "n": ""
+        },
+        {
+          "t": "eine",
+          "b": [
+            3
+          ],
+          "e": [
+            6
+          ],
+          "l": "ein",
+          "gb": "একটি",
+          "ge": "a",
+          "n": ""
+        },
+        {
+          "t": "Wohnung.",
+          "b": [
+            4
+          ],
+          "e": [
+            7
+          ],
+          "l": "Wohnung",
+          "gb": "ফ্ল্যাট",
+          "ge": "flat",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Herr Schmidt",
+      "bn": [
+        "আমার",
+        "একটি",
+        "ফ্ল্যাট",
+        "আছে।",
+        "তাতে",
+        "দুটি",
+        "ঘর",
+        "আছে।"
+      ],
+      "en": [
+        "I",
+        "have",
+        "a",
+        "flat.",
+        "It",
+        "has",
+        "two",
+        "rooms."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমার",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [
+            3
+          ],
+          "e": [
+            1
+          ],
+          "l": "haben",
+          "gb": "আছে",
+          "ge": "have",
+          "n": ""
+        },
+        {
+          "t": "eine",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "ein",
+          "gb": "একটি",
+          "ge": "a",
+          "n": ""
+        },
+        {
+          "t": "Wohnung.",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "Wohnung",
+          "gb": "ফ্ল্যাট",
+          "ge": "flat",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "sie",
+          "gb": "এটা (die Wohnung)",
+          "ge": "it (die Wohnung)",
+          "n": ""
+        },
+        {
+          "t": "hat",
+          "b": [
+            7
+          ],
+          "e": [
+            5
+          ],
+          "l": "haben",
+          "gb": "আছে",
+          "ge": "has",
+          "n": ""
+        },
+        {
+          "t": "zwei",
+          "b": [
+            5
+          ],
+          "e": [
+            6
+          ],
+          "l": "zwei",
+          "gb": "দুটি",
+          "ge": "two",
+          "n": ""
+        },
+        {
+          "t": "Zimmer.",
+          "b": [
+            6
+          ],
+          "e": [
+            7
+          ],
+          "l": "Zimmer",
+          "gb": "ঘর",
+          "ge": "rooms",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "ভাড়া",
+        "কত?"
+      ],
+      "en": [
+        "What",
+        "does",
+        "the",
+        "rent",
+        "cost?"
+      ],
+      "de": [
+        {
+          "t": "Was",
+          "b": [
+            1
+          ],
+          "e": [
+            0
+          ],
+          "l": "Was",
+          "gb": "কত",
+          "ge": "What",
+          "n": ""
+        },
+        {
+          "t": "kostet",
+          "b": [],
+          "e": [
+            1,
+            4
+          ],
+          "l": "kosten",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "does cost",
+          "n": ""
+        },
+        {
+          "t": "die",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "die",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "Miete?",
+          "b": [
+            0
+          ],
+          "e": [
+            3
+          ],
+          "l": "Miete",
+          "gb": "ভাড়া",
+          "ge": "rent",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Herr Schmidt",
+      "bn": [
+        "ভাড়া",
+        "মাসে",
+        "ছয়শো",
+        "ইউরো।"
+      ],
+      "en": [
+        "The",
+        "rent",
+        "is",
+        "six",
+        "hundred",
+        "euros",
+        "a",
+        "month."
+      ],
+      "de": [
+        {
+          "t": "Die",
+          "b": [],
+          "e": [
+            0
+          ],
+          "l": "Die",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "The",
+          "n": ""
+        },
+        {
+          "t": "Miete",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "Miete",
+          "gb": "ভাড়া",
+          "ge": "rent",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "sechshundert",
+          "b": [
+            2
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "sechshundert",
+          "gb": "ছয়শো",
+          "ge": "six hundred",
+          "n": "sechs + hundert = sechshundert (এক শব্দে)"
+        },
+        {
+          "t": "Euro",
+          "b": [
+            3
+          ],
+          "e": [
+            5
+          ],
+          "l": "Euro",
+          "gb": "ইউরো",
+          "ge": "euros",
+          "n": ""
+        },
+        {
+          "t": "im",
+          "b": [
+            1
+          ],
+          "e": [
+            6
+          ],
+          "l": "in dem",
+          "gb": "মাসে",
+          "ge": "per",
+          "n": "im Monat = প্রতি মাসে"
+        },
+        {
+          "t": "Monat.",
+          "b": [
+            1
+          ],
+          "e": [
+            7
+          ],
+          "l": "Monat",
+          "gb": "মাসে",
+          "ge": "month",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "এটা",
+        "কি",
+        "ঠান্ডা,",
+        "নাকি",
+        "গরম?"
+      ],
+      "en": [
+        "Is",
+        "that",
+        "cold",
+        "or",
+        "warm?"
+      ],
+      "de": [
+        {
+          "t": "Ist",
+          "b": [],
+          "e": [
+            0
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "Is",
+          "n": ""
+        },
+        {
+          "t": "das",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "das",
+          "gb": "এটা",
+          "ge": "that",
+          "n": ""
+        },
+        {
+          "t": "kalt",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "kalt",
+          "gb": "ঠান্ডা",
+          "ge": "cold",
+          "n": "ভাড়ার ক্ষেত্রে: kalt = বাড়তি খরচ ছাড়া শুধু ভাড়া"
+        },
+        {
+          "t": "oder",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "oder",
+          "gb": "নাকি",
+          "ge": "or",
+          "n": ""
+        },
+        {
+          "t": "warm?",
+          "b": [
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "warm",
+          "gb": "গরম",
+          "ge": "warm",
+          "n": "warm = বাড়তি খরচসহ মোট ভাড়া"
+        }
+      ]
+    },
+    {
+      "who": "Herr Schmidt",
+      "bn": [
+        "ঠান্ডা।",
+        "বাড়তি",
+        "খরচ",
+        "একশো",
+        "ইউরো।"
+      ],
+      "en": [
+        "Cold.",
+        "The",
+        "extra",
+        "costs",
+        "are",
+        "one",
+        "hundred",
+        "euros."
+      ],
+      "de": [
+        {
+          "t": "Kalt.",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "kalt",
+          "gb": "ঠান্ডা",
+          "ge": "Cold",
+          "n": ""
+        },
+        {
+          "t": "Die",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "Die",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "The",
+          "n": ""
+        },
+        {
+          "t": "Nebenkosten",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "Nebenkosten",
+          "gb": "বাড়তি খরচ",
+          "ge": "extra costs",
+          "n": ""
+        },
+        {
+          "t": "sind",
+          "b": [],
+          "e": [
+            4
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "are",
+          "n": ""
+        },
+        {
+          "t": "hundert",
+          "b": [
+            3
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "hundert",
+          "gb": "একশো",
+          "ge": "one hundred",
+          "n": ""
+        },
+        {
+          "t": "Euro.",
+          "b": [
+            4
+          ],
+          "e": [
+            7
+          ],
+          "l": "Euro",
+          "gb": "ইউরো",
+          "ge": "euros",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "ফ্ল্যাটটা",
+        "দেখতে",
+        "চাই।"
+      ],
+      "en": [
+        "I",
+        "would",
+        "like",
+        "to",
+        "see",
+        "the",
+        "flat."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "möchte",
+          "b": [
+            3
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "möchten",
+          "gb": "চাই",
+          "ge": "would like",
+          "n": ""
+        },
+        {
+          "t": "die",
+          "b": [],
+          "e": [
+            5
+          ],
+          "l": "die",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "Wohnung",
+          "b": [
+            1
+          ],
+          "e": [
+            6
+          ],
+          "l": "Wohnung",
+          "gb": "ফ্ল্যাটটা",
+          "ge": "flat",
+          "n": ""
+        },
+        {
+          "t": "sehen.",
+          "b": [
+            2
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "sehen",
+          "gb": "দেখতে",
+          "ge": "to see",
+          "n": "möchte … sehen: ক্রিয়ার মূল রূপ বাক্যের শেষে (বাংলার মতোই!)"
+        }
+      ]
+    },
+    {
+      "who": "Herr Schmidt",
+      "bn": [
+        "অবশ্যই।",
+        "শনিবারে",
+        "কি",
+        "আপনার",
+        "সময়",
+        "আছে?",
+        "সকাল",
+        "দশটায়?"
+      ],
+      "en": [
+        "Of",
+        "course.",
+        "Do",
+        "you",
+        "have",
+        "time",
+        "on",
+        "Saturday?",
+        "At",
+        "ten",
+        "o'clock?"
+      ],
+      "de": [
+        {
+          "t": "Gern.",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Gern",
+          "gb": "অবশ্যই",
+          "ge": "Of course",
+          "n": ""
+        },
+        {
+          "t": "Haben",
+          "b": [
+            5
+          ],
+          "e": [
+            4
+          ],
+          "l": "haben",
+          "gb": "আছে",
+          "ge": "have",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "Sie",
+          "gb": "আপনার",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "am",
+          "b": [],
+          "e": [
+            6
+          ],
+          "l": "am",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "on",
+          "n": ""
+        },
+        {
+          "t": "Samstag",
+          "b": [
+            1
+          ],
+          "e": [
+            7
+          ],
+          "l": "Samstag",
+          "gb": "শনিবারে",
+          "ge": "Saturday",
+          "n": ""
+        },
+        {
+          "t": "Zeit?",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "Zeit",
+          "gb": "সময়",
+          "ge": "time",
+          "n": ""
+        },
+        {
+          "t": "Um",
+          "b": [],
+          "e": [
+            8
+          ],
+          "l": "Um",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "At",
+          "n": ""
+        },
+        {
+          "t": "zehn",
+          "b": [
+            7
+          ],
+          "e": [
+            9
+          ],
+          "l": "zehn",
+          "gb": "দশটায়",
+          "ge": "ten",
+          "n": ""
+        },
+        {
+          "t": "Uhr?",
+          "b": [],
+          "e": [
+            10
+          ],
+          "l": "Uhr",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "o'clock",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "সংখ্যা ১০০ থেকে ১০০০",
+      "head": [
+        "সংখ্যা",
+        "জার্মান"
+      ],
+      "rows": [
+        [
+          "100",
+          "(ein)hundert"
+        ],
+        [
+          "200",
+          "zweihundert"
+        ],
+        [
+          "450",
+          "vierhundertfünfzig"
+        ],
+        [
+          "600",
+          "sechshundert"
+        ],
+        [
+          "1.000",
+          "(ein)tausend"
+        ],
+        [
+          "1.500",
+          "eintausendfünfhundert"
+        ]
+      ],
+      "note": "সংখ্যা এক শব্দে লেখা হয়, পড়ার ক্রম বাংলার মতোই: শতক → দশক-একক (একক আগে: dreihundert­dreiundzwanzig)। হাজারের চিহ্ন বিন্দু: 1.000।"
+    },
+    {
+      "type": "text",
+      "title": "Kaltmiete, Nebenkosten, Warmmiete",
+      "text": "Kaltmiete = শুধু ফ্ল্যাটের ভাড়া। Nebenkosten = পানি, গরম, ময়লা সরানো ইত্যাদির বাড়তি খরচ। Warmmiete = Kaltmiete + Nebenkosten। বিজ্ঞাপনে কোনটা লেখা আছে ভালোভাবে দেখুন — ছয়শো ইউরো kalt আর ছয়শো ইউরো warm এক জিনিস নয়।"
+    },
+    {
+      "type": "table",
+      "title": "বিজ্ঞাপনের সংক্ষেপ",
+      "head": [
+        "সংক্ষেপ",
+        "পূর্ণ রূপ ও অর্থ"
+      ],
+      "rows": [
+        [
+          "Zi.",
+          "Zimmer — ঘর"
+        ],
+        [
+          "Whg.",
+          "Wohnung — ফ্ল্যাট"
+        ],
+        [
+          "m²",
+          "Quadratmeter — বর্গমিটার"
+        ],
+        [
+          "KM",
+          "Kaltmiete — খরচ ছাড়া ভাড়া"
+        ],
+        [
+          "NK",
+          "Nebenkosten — বাড়তি খরচ"
+        ],
+        [
+          "WM",
+          "Warmmiete — মোট ভাড়া"
+        ]
+      ],
+      "note": "উদাহরণ: „2-Zi.-Whg., 55 m², KM 600 €, NK 100 €“ = দুই ঘরের ৫৫ বর্গমিটার ফ্ল্যাট, ভাড়া ৬০০ ইউরো, বাড়তি খরচ ১০০ ইউরো।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "die Miete",
+      "options": [
+        "অ্যাপয়েন্টমেন্ট",
+        "গরম",
+        "মাস",
+        "ভাড়া"
+      ],
+      "answer": 3,
+      "why": "die Miete = ভাড়া।",
+      "word": "miete"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "die Nebenkosten",
+      "options": [
+        "মাস",
+        "খোঁজা",
+        "বাড়তি খরচ",
+        "অ্যাপয়েন্টমেন্ট"
+      ],
+      "answer": 2,
+      "why": "die Nebenkosten = বাড়তি খরচ।",
+      "word": "nebenkosten"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "suchen",
+      "options": [
+        "ঠান্ডা",
+        "খোঁজা",
+        "বাড়তি খরচ",
+        "ভাড়া নেওয়া"
+      ],
+      "answer": 1,
+      "why": "suchen = খোঁজা।",
+      "word": "suchen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Anzeige",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Anzeige। বহুবচন: die Anzeigen।",
+      "word": "anzeige"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Monat",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 0,
+      "why": "der Monat। বহুবচন: die Monate।",
+      "word": "monat"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„sechshundert“ কত?",
+      "options": [
+        "৬০০",
+        "১৬০০",
+        "৬০",
+        "৬০০০"
+      ],
+      "answer": 0,
+      "why": "sechs + hundert = ৬০০।",
+      "word": "miete"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Kaltmiete“ মানে কী?",
+      "options": [
+        "খরচ ছাড়া ভাড়া",
+        "মোট ভাড়া",
+        "জামানত",
+        "বিদ্যুৎ বিল"
+      ],
+      "answer": 0,
+      "why": "Kaltmiete = শুধু ফ্ল্যাটের ভাড়া (Nebenkosten ছাড়া)।",
+      "word": "kalt"
+    },
+    {
+      "type": "order",
+      "prompt": "শব্দ সাজিয়ে বাক্য বানান: „আমি একটি ফ্ল্যাট খুঁজছি।“",
+      "tiles": [
+        "Wohnung.",
+        "eine",
+        "suche",
+        "Ich"
+      ],
+      "answer": [
+        "Ich",
+        "suche",
+        "eine",
+        "Wohnung."
+      ],
+      "why": "Ich suche eine Wohnung।",
+      "word": "suchen"
+    }
+  ],
+  "status": "draft",
+  "minutes": 14,
+  "passMark": 0.8
+}

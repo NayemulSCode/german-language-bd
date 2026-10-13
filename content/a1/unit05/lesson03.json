@@ -1,0 +1,1035 @@
+{
+  "id": "a1-u05-l03",
+  "level": "A1",
+  "unit": 5,
+  "lesson": 3,
+  "title": {
+    "de": "Mein Tag",
+    "bn": "আমার একটি দিন",
+    "en": "My day"
+  },
+  "hook": {
+    "de": "Früh übt sich, was ein Meister werden will.",
+    "who": "Sprichwort",
+    "bn": "যে ওস্তাদ হতে চায়, সে শুরুতেই অভ্যাস করে।",
+    "en": "Whoever wants to become a master starts practising early."
+  },
+  "goals": [
+    "নিজের দিনের কাজ ধাপে ধাপে বলা",
+    "trennbare Verben: aufstehen → Ich stehe … auf",
+    "dann, danach — ঘটনার ক্রম",
+    "ক্রিয়া সবসময় বাক্যের দ্বিতীয় স্থানে"
+  ],
+  "words": [
+    {
+      "id": "aufstehen",
+      "de": "aufstehen",
+      "pos": "ক্রিয়া (ভাঙা)",
+      "bn": "ঘুম থেকে ওঠা",
+      "en": "to get up"
+    },
+    {
+      "id": "fruehstuecken",
+      "de": "frühstücken",
+      "pos": "ক্রিয়া",
+      "bn": "নাস্তা করা",
+      "en": "to have breakfast"
+    },
+    {
+      "id": "duschen",
+      "de": "duschen",
+      "pos": "ক্রিয়া",
+      "bn": "গোসল করা",
+      "en": "to shower"
+    },
+    {
+      "id": "anfangen",
+      "de": "anfangen",
+      "pos": "ক্রিয়া (ভাঙা)",
+      "bn": "শুরু হওয়া / করা",
+      "en": "to start"
+    },
+    {
+      "id": "einkaufen",
+      "de": "einkaufen",
+      "pos": "ক্রিয়া (ভাঙা)",
+      "bn": "বাজার করা",
+      "en": "to go shopping"
+    },
+    {
+      "id": "kochen",
+      "de": "kochen",
+      "pos": "ক্রিয়া",
+      "bn": "রান্না করা",
+      "en": "to cook"
+    },
+    {
+      "id": "fernsehen",
+      "de": "fernsehen",
+      "pos": "ক্রিয়া (ভাঙা)",
+      "bn": "টিভি দেখা",
+      "en": "to watch TV"
+    },
+    {
+      "id": "schlafen",
+      "de": "schlafen",
+      "pos": "ক্রিয়া",
+      "bn": "ঘুমানো",
+      "en": "to sleep"
+    },
+    {
+      "id": "mittagessen",
+      "de": "Mittagessen",
+      "art": "das",
+      "pos": "বিশেষ্য",
+      "bn": "দুপুরের খাবার",
+      "en": "lunch"
+    },
+    {
+      "id": "abendessen",
+      "de": "Abendessen",
+      "art": "das",
+      "pos": "বিশেষ্য",
+      "bn": "রাতের খাবার",
+      "en": "dinner"
+    },
+    {
+      "id": "dann",
+      "de": "dann",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "তারপর",
+      "en": "then"
+    },
+    {
+      "id": "danach",
+      "de": "danach",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "এর পরে",
+      "en": "afterwards"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Saheb",
+      "bn": [
+        "তোমার",
+        "দিন",
+        "কেমন",
+        "কাটে?"
+      ],
+      "en": [
+        "What",
+        "is",
+        "your",
+        "day",
+        "like?"
+      ],
+      "de": [
+        {
+          "t": "Wie",
+          "b": [
+            2
+          ],
+          "e": [
+            0
+          ],
+          "l": "Wie",
+          "gb": "কেমন",
+          "ge": "What",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [
+            3
+          ],
+          "e": [
+            1
+          ],
+          "l": "sein",
+          "gb": "কাটে",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "dein",
+          "b": [
+            0
+          ],
+          "e": [
+            2
+          ],
+          "l": "dein",
+          "gb": "তোমার",
+          "ge": "your",
+          "n": ""
+        },
+        {
+          "t": "Tag?",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "Tag",
+          "gb": "দিন",
+          "ge": "day",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "আমি",
+        "সাতটায়",
+        "ঘুম",
+        "থেকে",
+        "উঠি।"
+      ],
+      "en": [
+        "I",
+        "get",
+        "up",
+        "at",
+        "seven",
+        "o'clock."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "stehe",
+          "b": [
+            4
+          ],
+          "e": [
+            1
+          ],
+          "l": "aufstehen",
+          "gb": "উঠি",
+          "ge": "get",
+          "n": "aufstehen ভেঙে যায়: Ich stehe … auf"
+        },
+        {
+          "t": "um",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "um",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "at",
+          "n": ""
+        },
+        {
+          "t": "sieben",
+          "b": [
+            1
+          ],
+          "e": [
+            4
+          ],
+          "l": "sieben",
+          "gb": "সাতটায়",
+          "ge": "seven",
+          "n": ""
+        },
+        {
+          "t": "Uhr",
+          "b": [],
+          "e": [
+            5
+          ],
+          "l": "Uhr",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "o'clock",
+          "n": ""
+        },
+        {
+          "t": "auf.",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "aufstehen",
+          "gb": "ঘুম থেকে",
+          "ge": "up",
+          "n": "ভাঙা অংশ auf যায় বাক্যের শেষে"
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "তারপর",
+        "আমি",
+        "নাস্তা",
+        "করি",
+        "আর",
+        "গোসল",
+        "করি।"
+      ],
+      "en": [
+        "Then",
+        "I",
+        "have",
+        "breakfast",
+        "and",
+        "shower."
+      ],
+      "de": [
+        {
+          "t": "Dann",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Dann",
+          "gb": "তারপর",
+          "ge": "Then",
+          "n": ""
+        },
+        {
+          "t": "frühstücke",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "frühstücken",
+          "gb": "নাস্তা করি",
+          "ge": "have breakfast",
+          "n": "Dann frühstücke ich — „dann“ আগে এলে ক্রিয়া তবুও ২য় স্থানে, কর্তা পরে"
+        },
+        {
+          "t": "ich",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "dusche.",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            5
+          ],
+          "l": "duschen",
+          "gb": "গোসল করি",
+          "ge": "shower",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আর",
+        "তোমার",
+        "ক্লাস",
+        "কখন",
+        "শুরু",
+        "হয়?"
+      ],
+      "en": [
+        "And",
+        "when",
+        "does",
+        "your",
+        "class",
+        "start?"
+      ],
+      "de": [
+        {
+          "t": "Und",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "wann",
+          "b": [
+            3
+          ],
+          "e": [
+            1
+          ],
+          "l": "wann",
+          "gb": "কখন",
+          "ge": "when",
+          "n": ""
+        },
+        {
+          "t": "fängt",
+          "b": [
+            4
+          ],
+          "e": [
+            2
+          ],
+          "l": "anfangen",
+          "gb": "শুরু",
+          "ge": "does",
+          "n": "anfangen: er fängt … an (a → ä)"
+        },
+        {
+          "t": "dein",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "dein",
+          "gb": "তোমার",
+          "ge": "your",
+          "n": ""
+        },
+        {
+          "t": "Kurs",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "Kurs",
+          "gb": "ক্লাস",
+          "ge": "class",
+          "n": ""
+        },
+        {
+          "t": "an?",
+          "b": [
+            5
+          ],
+          "e": [
+            5
+          ],
+          "l": "anfangen",
+          "gb": "হয়",
+          "ge": "start",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "ক্লাস",
+        "নয়টায়",
+        "শুরু",
+        "হয়।"
+      ],
+      "en": [
+        "It",
+        "starts",
+        "at",
+        "nine",
+        "o'clock."
+      ],
+      "de": [
+        {
+          "t": "Er",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "er",
+          "gb": "সেটা (der Kurs)",
+          "ge": "it (der Kurs)",
+          "n": "der Kurs → er"
+        },
+        {
+          "t": "fängt",
+          "b": [
+            2
+          ],
+          "e": [
+            1
+          ],
+          "l": "anfangen",
+          "gb": "শুরু",
+          "ge": "starts",
+          "n": ""
+        },
+        {
+          "t": "um",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "um",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "at",
+          "n": ""
+        },
+        {
+          "t": "neun",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "neun",
+          "gb": "নয়টায়",
+          "ge": "nine",
+          "n": ""
+        },
+        {
+          "t": "Uhr",
+          "b": [],
+          "e": [
+            4
+          ],
+          "l": "Uhr",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "o'clock",
+          "n": ""
+        },
+        {
+          "t": "an.",
+          "b": [
+            3
+          ],
+          "e": [
+            1
+          ],
+          "l": "anfangen",
+          "gb": "হয়",
+          "ge": "starts",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "তুমি",
+        "কি",
+        "সন্ধ্যায়",
+        "বাজার",
+        "করো?"
+      ],
+      "en": [
+        "Do",
+        "you",
+        "go",
+        "shopping",
+        "in",
+        "the",
+        "evening?"
+      ],
+      "de": [
+        {
+          "t": "Kaufst",
+          "b": [
+            3
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "einkaufen",
+          "gb": "বাজার",
+          "ge": "go shopping",
+          "n": "einkaufen: du kaufst … ein"
+        },
+        {
+          "t": "du",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "am",
+          "b": [],
+          "e": [
+            4,
+            5
+          ],
+          "l": "am",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "in the",
+          "n": ""
+        },
+        {
+          "t": "Abend",
+          "b": [
+            2
+          ],
+          "e": [
+            6
+          ],
+          "l": "Abend",
+          "gb": "সন্ধ্যায়",
+          "ge": "evening",
+          "n": ""
+        },
+        {
+          "t": "ein?",
+          "b": [
+            4
+          ],
+          "e": [],
+          "l": "einkaufen",
+          "gb": "করো",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "হ্যাঁ,",
+        "আর",
+        "তারপর",
+        "আমি",
+        "রাতের",
+        "খাবার",
+        "রান্না",
+        "করি।"
+      ],
+      "en": [
+        "Yes,",
+        "and",
+        "then",
+        "I",
+        "cook",
+        "dinner."
+      ],
+      "de": [
+        {
+          "t": "Ja,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ja",
+          "gb": "হ্যাঁ",
+          "ge": "Yes",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "danach",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "danach",
+          "gb": "তারপর",
+          "ge": "then",
+          "n": ""
+        },
+        {
+          "t": "koche",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            4
+          ],
+          "l": "kochen",
+          "gb": "রান্না করি",
+          "ge": "cook",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "das",
+          "b": [],
+          "e": [],
+          "l": "das",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Abendessen.",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            5
+          ],
+          "l": "Abendessen",
+          "gb": "রাতের খাবার",
+          "ge": "dinner",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আর",
+        "দশটায়",
+        "আমি",
+        "ঘুমাই।"
+      ],
+      "en": [
+        "And",
+        "at",
+        "ten",
+        "o'clock",
+        "I",
+        "sleep."
+      ],
+      "de": [
+        {
+          "t": "Und",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "um",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "um",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "at",
+          "n": ""
+        },
+        {
+          "t": "zehn",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "zehn",
+          "gb": "দশটায়",
+          "ge": "ten",
+          "n": ""
+        },
+        {
+          "t": "Uhr",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "Uhr",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "o'clock",
+          "n": ""
+        },
+        {
+          "t": "schlafe",
+          "b": [
+            3
+          ],
+          "e": [
+            5
+          ],
+          "l": "schlafen",
+          "gb": "ঘুমাই",
+          "ge": "sleep",
+          "n": "ক্রিয়া ২য় স্থানে: Um zehn Uhr schlafe ich"
+        },
+        {
+          "t": "ich.",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "text",
+      "title": "Trennbare Verben — ভাঙা ক্রিয়া",
+      "text": "কিছু ক্রিয়ার সামনে ছোট অংশ (auf-, an-, ein-, fern-) থাকে। বাক্যে ক্রিয়াটি ভেঙে যায়: মূল অংশ ২য় স্থানে, ছোট অংশ শেষে। aufstehen → „Ich stehe um sieben Uhr auf.“ আনভাঙা রূপ শুধু মূল রূপে (aufstehen) দেখা যায়।"
+    },
+    {
+      "type": "table",
+      "title": "কয়েকটি ভাঙা ক্রিয়া",
+      "head": [
+        "মূল রূপ",
+        "বাক্যে",
+        "বাংলা"
+      ],
+      "rows": [
+        [
+          "aufstehen",
+          "Ich stehe um 7 Uhr auf.",
+          "ঘুম থেকে উঠি"
+        ],
+        [
+          "anfangen",
+          "Der Kurs fängt um 9 Uhr an.",
+          "শুরু হয়"
+        ],
+        [
+          "einkaufen",
+          "Ich kaufe am Abend ein.",
+          "বাজার করি"
+        ],
+        [
+          "fernsehen",
+          "Er sieht abends fern.",
+          "টিভি দেখে (sehen: e → ie)"
+        ]
+      ],
+      "note": "নিয়ম: ক্রিয়ার ছোট অংশ বাংলার ক্রিয়ার মতোই শেষে যায় — তাই বাংলাভাষীর জন্য শেখা সহজ।"
+    },
+    {
+      "type": "order",
+      "title": "ক্রিয়া সবসময় দ্বিতীয় স্থানে",
+      "text": "বাক্যের শুরুতে সময় (dann, danach, um sieben Uhr) বসালে কর্তা ক্রিয়ার পরে যায়, তবু ক্রিয়া ২য় স্থানেই থাকে।",
+      "de": [
+        {
+          "t": "Dann"
+        },
+        {
+          "t": "frühstücke",
+          "v": true
+        },
+        {
+          "t": "ich."
+        }
+      ],
+      "bn": [
+        {
+          "t": "তারপর"
+        },
+        {
+          "t": "আমি"
+        },
+        {
+          "t": "নাস্তা করি।",
+          "v": true
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "aufstehen",
+      "options": [
+        "ঘুম থেকে ওঠা",
+        "ঘুমানো",
+        "রান্না করা",
+        "বাজার করা"
+      ],
+      "answer": 0,
+      "why": "aufstehen = ঘুম থেকে ওঠা।",
+      "word": "aufstehen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "einkaufen",
+      "options": [
+        "বাজার করা",
+        "দুপুরের খাবার",
+        "এর পরে",
+        "গোসল করা"
+      ],
+      "answer": 0,
+      "why": "einkaufen = বাজার করা।",
+      "word": "einkaufen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Abendessen",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 2,
+      "why": "das Abendessen।",
+      "word": "abendessen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "জার্মানে কী হবে?",
+      "sub": "আমি সাতটায় ঘুম থেকে উঠি।",
+      "subBn": true,
+      "options": [
+        "Ich stehe um sieben Uhr auf.",
+        "Ich aufstehe um sieben Uhr.",
+        "Ich stehe auf um sieben Uhr.",
+        "Ich um sieben Uhr stehe auf."
+      ],
+      "answer": 0,
+      "why": "মূল অংশ ২য় স্থানে, auf শেষে।",
+      "word": "aufstehen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "ফাঁকা জায়গা পূরণ করুন",
+      "sub": "Der Kurs fängt um neun Uhr ___.",
+      "options": [
+        "an",
+        "auf",
+        "ein",
+        "aus"
+      ],
+      "answer": 0,
+      "why": "anfangen → er fängt … an।",
+      "word": "anfangen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "ফাঁকা জায়গা পূরণ করুন",
+      "sub": "Ich kaufe am Abend ___.",
+      "options": [
+        "ein",
+        "an",
+        "auf",
+        "aus"
+      ],
+      "answer": 0,
+      "why": "einkaufen → ich kaufe … ein।",
+      "word": "einkaufen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Dann ___ ich.",
+      "options": [
+        "frühstücke",
+        "frühstückst",
+        "frühstückt",
+        "frühstücken"
+      ],
+      "answer": 0,
+      "why": "ich + frühstücken → frühstücke।",
+      "word": "fruehstuecken"
+    },
+    {
+      "type": "order",
+      "prompt": "শব্দ সাজিয়ে বাক্য বানান: „তারপর আমি নাস্তা করি।“",
+      "tiles": [
+        "ich.",
+        "frühstücke",
+        "Dann"
+      ],
+      "answer": [
+        "Dann",
+        "frühstücke",
+        "ich."
+      ],
+      "why": "Dann frühstücke ich।",
+      "word": "fruehstuecken"
+    }
+  ],
+  "status": "draft",
+  "minutes": 14,
+  "passMark": 0.8
+}

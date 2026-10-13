@@ -1,0 +1,1047 @@
+{
+  "id": "a1-u05-l04",
+  "level": "A1",
+  "unit": 5,
+  "lesson": 4,
+  "title": {
+    "de": "Alltag und Freizeit",
+    "bn": "প্রতিদিনের অভ্যাস ও অবসর",
+    "en": "Daily habits and free time"
+  },
+  "hook": {
+    "de": "Ohne Fleiß kein Preis.",
+    "who": "Sprichwort",
+    "bn": "পরিশ্রম ছাড়া পুরস্কার নেই।",
+    "en": "No pain, no gain."
+  },
+  "goals": [
+    "কতবার করি তা বলা: immer, oft, manchmal, nie",
+    "নিয়মিত ক্রিয়ার পুরো রূপ (lernen, machen)",
+    "অবসর ও সপ্তাহান্ত নিয়ে কথা",
+    "বাক্যে সময়ের শব্দ বসানোর অভ্যাস"
+  ],
+  "words": [
+    {
+      "id": "immer",
+      "de": "immer",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "সবসময়",
+      "en": "always"
+    },
+    {
+      "id": "oft",
+      "de": "oft",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "প্রায়ই",
+      "en": "often"
+    },
+    {
+      "id": "manchmal",
+      "de": "manchmal",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "মাঝে মাঝে",
+      "en": "sometimes"
+    },
+    {
+      "id": "selten",
+      "de": "selten",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "কদাচিৎ",
+      "en": "rarely"
+    },
+    {
+      "id": "nie",
+      "de": "nie",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "কখনো না",
+      "en": "never"
+    },
+    {
+      "id": "jeden_tag",
+      "de": "jeden Tag",
+      "pos": "অভিব্যক্তি",
+      "bn": "প্রতিদিন",
+      "en": "every day"
+    },
+    {
+      "id": "frueh",
+      "de": "früh",
+      "pos": "বিশেষণ",
+      "bn": "তাড়াতাড়ি, সকাল সকাল",
+      "en": "early"
+    },
+    {
+      "id": "lernen",
+      "de": "lernen",
+      "pos": "ক্রিয়া",
+      "bn": "শেখা",
+      "en": "to learn"
+    },
+    {
+      "id": "machen",
+      "de": "machen",
+      "pos": "ক্রিয়া",
+      "bn": "করা",
+      "en": "to do, to make"
+    },
+    {
+      "id": "pause",
+      "de": "Pause",
+      "art": "die",
+      "pl": "die Pausen",
+      "pos": "বিশেষ্য",
+      "bn": "বিরতি",
+      "en": "break"
+    },
+    {
+      "id": "muede",
+      "de": "müde",
+      "pos": "বিশেষণ",
+      "bn": "ক্লান্ত",
+      "en": "tired"
+    },
+    {
+      "id": "freizeit",
+      "de": "Freizeit",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "অবসর",
+      "en": "free time"
+    },
+    {
+      "id": "wochenende",
+      "de": "Wochenende",
+      "art": "das",
+      "pl": "die Wochenenden",
+      "pos": "বিশেষ্য",
+      "bn": "সপ্তাহান্ত",
+      "en": "weekend"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Muna",
+      "bn": [
+        "তুমি",
+        "কত",
+        "ঘনঘন",
+        "জার্মান",
+        "শেখো?"
+      ],
+      "en": [
+        "How",
+        "often",
+        "do",
+        "you",
+        "learn",
+        "German?"
+      ],
+      "de": [
+        {
+          "t": "Wie",
+          "b": [
+            1
+          ],
+          "e": [
+            0
+          ],
+          "l": "Wie",
+          "gb": "কত",
+          "ge": "How",
+          "n": ""
+        },
+        {
+          "t": "oft",
+          "b": [
+            2
+          ],
+          "e": [
+            1
+          ],
+          "l": "oft",
+          "gb": "ঘনঘন",
+          "ge": "often",
+          "n": ""
+        },
+        {
+          "t": "lernst",
+          "b": [
+            4
+          ],
+          "e": [
+            2,
+            4
+          ],
+          "l": "lernen",
+          "gb": "শেখো",
+          "ge": "do learn",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            0
+          ],
+          "e": [
+            3
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "Deutsch?",
+          "b": [
+            3
+          ],
+          "e": [
+            5
+          ],
+          "l": "Deutsch",
+          "gb": "জার্মান",
+          "ge": "German",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "প্রতিদিন",
+        "জার্মান",
+        "শিখি।"
+      ],
+      "en": [
+        "I",
+        "learn",
+        "German",
+        "every",
+        "day."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "lerne",
+          "b": [
+            3
+          ],
+          "e": [
+            1
+          ],
+          "l": "lernen",
+          "gb": "শিখি",
+          "ge": "learn",
+          "n": ""
+        },
+        {
+          "t": "jeden Tag",
+          "b": [
+            1
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "jeder Tag",
+          "gb": "প্রতিদিন",
+          "ge": "every day",
+          "n": "jeden Tag = প্রতিদিন"
+        },
+        {
+          "t": "Deutsch.",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "Deutsch",
+          "gb": "জার্মান",
+          "ge": "German",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "আমি",
+        "প্রায়ই",
+        "সন্ধ্যায়",
+        "শিখি।",
+        "কিন্তু",
+        "আমি",
+        "মাঝে",
+        "মাঝে",
+        "ক্লান্ত",
+        "থাকি।"
+      ],
+      "en": [
+        "I",
+        "often",
+        "learn",
+        "in",
+        "the",
+        "evening.",
+        "But",
+        "I",
+        "am",
+        "sometimes",
+        "tired."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "lerne",
+          "b": [
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "lernen",
+          "gb": "শিখি",
+          "ge": "learn",
+          "n": ""
+        },
+        {
+          "t": "oft",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "oft",
+          "gb": "প্রায়ই",
+          "ge": "often",
+          "n": ""
+        },
+        {
+          "t": "am",
+          "b": [],
+          "e": [
+            3,
+            4
+          ],
+          "l": "am",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "in the",
+          "n": ""
+        },
+        {
+          "t": "Abend.",
+          "b": [
+            2
+          ],
+          "e": [
+            5
+          ],
+          "l": "Abend",
+          "gb": "সন্ধ্যায়",
+          "ge": "evening",
+          "n": ""
+        },
+        {
+          "t": "Aber",
+          "b": [
+            4
+          ],
+          "e": [
+            6
+          ],
+          "l": "Aber",
+          "gb": "কিন্তু",
+          "ge": "But",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            5
+          ],
+          "e": [
+            7
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "bin",
+          "b": [
+            9
+          ],
+          "e": [
+            8
+          ],
+          "l": "sein",
+          "gb": "থাকি",
+          "ge": "am",
+          "n": ""
+        },
+        {
+          "t": "manchmal",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            9
+          ],
+          "l": "manchmal",
+          "gb": "মাঝে মাঝে",
+          "ge": "sometimes",
+          "n": ""
+        },
+        {
+          "t": "müde.",
+          "b": [
+            8
+          ],
+          "e": [
+            10
+          ],
+          "l": "müde",
+          "gb": "ক্লান্ত",
+          "ge": "tired",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আর",
+        "অবসরে",
+        "তুমি",
+        "কী",
+        "করো?"
+      ],
+      "en": [
+        "And",
+        "what",
+        "do",
+        "you",
+        "do",
+        "in",
+        "your",
+        "free",
+        "time?"
+      ],
+      "de": [
+        {
+          "t": "Und",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "was",
+          "b": [
+            3
+          ],
+          "e": [
+            1
+          ],
+          "l": "was",
+          "gb": "কী",
+          "ge": "what",
+          "n": ""
+        },
+        {
+          "t": "machst",
+          "b": [
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "machen",
+          "gb": "করো",
+          "ge": "do",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "in",
+          "b": [
+            1
+          ],
+          "e": [
+            5
+          ],
+          "l": "in",
+          "gb": "অবসরে",
+          "ge": "in",
+          "n": ""
+        },
+        {
+          "t": "der",
+          "b": [],
+          "e": [
+            6
+          ],
+          "l": "der",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "your",
+          "n": ""
+        },
+        {
+          "t": "Freizeit?",
+          "b": [
+            1
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "Freizeit",
+          "gb": "অবসরে",
+          "ge": "free time",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "সপ্তাহান্তে",
+        "আমার",
+        "সময়",
+        "থাকে।"
+      ],
+      "en": [
+        "On",
+        "the",
+        "weekend",
+        "I",
+        "have",
+        "time."
+      ],
+      "de": [
+        {
+          "t": "Am",
+          "b": [],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Am",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "On the",
+          "n": ""
+        },
+        {
+          "t": "Wochenende",
+          "b": [
+            0
+          ],
+          "e": [
+            2
+          ],
+          "l": "Wochenende",
+          "gb": "সপ্তাহান্তে",
+          "ge": "weekend",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "haben",
+          "gb": "থাকে",
+          "ge": "have",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "ich",
+          "gb": "আমার",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "Zeit.",
+          "b": [
+            2
+          ],
+          "e": [
+            5
+          ],
+          "l": "Zeit",
+          "gb": "সময়",
+          "ge": "time",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "কখনো",
+        "তাড়াতাড়ি",
+        "ঘুমাই",
+        "না।"
+      ],
+      "en": [
+        "I",
+        "never",
+        "sleep",
+        "early."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "schlafe",
+          "b": [
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "schlafen",
+          "gb": "ঘুমাই",
+          "ge": "sleep",
+          "n": ""
+        },
+        {
+          "t": "nie",
+          "b": [
+            1,
+            4
+          ],
+          "e": [
+            1
+          ],
+          "l": "nie",
+          "gb": "কখনো না",
+          "ge": "never",
+          "n": "nie = কখনো না — নিজেই না-বাচক, আলাদা nicht লাগে না"
+        },
+        {
+          "t": "früh.",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "früh",
+          "gb": "তাড়াতাড়ি",
+          "ge": "early",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "তোমার",
+        "একটু",
+        "বিরতি",
+        "দরকার!"
+      ],
+      "en": [
+        "You",
+        "need",
+        "a",
+        "break!"
+      ],
+      "de": [
+        {
+          "t": "Du",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Du",
+          "gb": "তোমার",
+          "ge": "You",
+          "n": ""
+        },
+        {
+          "t": "brauchst",
+          "b": [
+            3
+          ],
+          "e": [
+            1
+          ],
+          "l": "brauchen",
+          "gb": "দরকার",
+          "ge": "need",
+          "n": ""
+        },
+        {
+          "t": "eine",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "ein",
+          "gb": "একটু",
+          "ge": "a",
+          "n": ""
+        },
+        {
+          "t": "Pause!",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "Pause",
+          "gb": "বিরতি",
+          "ge": "break",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "কতবার? — Häufigkeit",
+      "head": [
+        "জার্মান",
+        "বাংলা",
+        "কতটা"
+      ],
+      "rows": [
+        [
+          "immer",
+          "সবসময়",
+          "●●●●●"
+        ],
+        [
+          "oft",
+          "প্রায়ই",
+          "●●●●○"
+        ],
+        [
+          "manchmal",
+          "মাঝে মাঝে",
+          "●●●○○"
+        ],
+        [
+          "selten",
+          "কদাচিৎ",
+          "●○○○○"
+        ],
+        [
+          "nie",
+          "কখনো না",
+          "○○○○○"
+        ]
+      ],
+      "note": "ক্রিয়ার ঠিক পরেই বসে: Ich lerne oft Deutsch. / Ich schlafe nie früh."
+    },
+    {
+      "type": "conjugation",
+      "intro": "নিয়মিত ক্রিয়ার ছক: মূল রূপ থেকে -en বাদ দিয়ে শেষাংশ যোগ করুন — e, st, t, en, t, en।",
+      "verbs": [
+        "lernen",
+        "machen"
+      ],
+      "note": "এই ছক শত শত ক্রিয়ায় খাটে: wohnen, kommen, kaufen, kochen, trinken …",
+      "rows": [
+        {
+          "pron": "ich",
+          "stems": [
+            "lern",
+            "mach"
+          ],
+          "ends": [
+            "e",
+            "e"
+          ],
+          "bn": "আমি শিখি / করি"
+        },
+        {
+          "pron": "du",
+          "stems": [
+            "lern",
+            "mach"
+          ],
+          "ends": [
+            "st",
+            "st"
+          ],
+          "bn": "তুমি শেখো / করো"
+        },
+        {
+          "pron": "er / sie / es",
+          "stems": [
+            "lern",
+            "mach"
+          ],
+          "ends": [
+            "t",
+            "t"
+          ],
+          "bn": "সে শেখে / করে"
+        },
+        {
+          "pron": "wir",
+          "stems": [
+            "lern",
+            "mach"
+          ],
+          "ends": [
+            "en",
+            "en"
+          ],
+          "bn": "আমরা"
+        },
+        {
+          "pron": "ihr",
+          "stems": [
+            "lern",
+            "mach"
+          ],
+          "ends": [
+            "t",
+            "t"
+          ],
+          "bn": "তোমরা"
+        },
+        {
+          "pron": "sie / Sie",
+          "stems": [
+            "lern",
+            "mach"
+          ],
+          "ends": [
+            "en",
+            "en"
+          ],
+          "bn": "তারা / আপনি"
+        }
+      ]
+    },
+    {
+      "type": "order",
+      "title": "সময়ের শব্দ শুরুতে এলে ক্রিয়া ২য় স্থানেই",
+      "text": "Am Wochenende habe ich Zeit. — „am Wochenende“ আগে এলে কর্তা ich ক্রিয়ার পরে যায়।",
+      "de": [
+        {
+          "t": "Am Wochenende"
+        },
+        {
+          "t": "habe",
+          "v": true
+        },
+        {
+          "t": "ich Zeit."
+        }
+      ],
+      "bn": [
+        {
+          "t": "সপ্তাহান্তে"
+        },
+        {
+          "t": "আমার সময়"
+        },
+        {
+          "t": "থাকে।",
+          "v": true
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "die Pause",
+      "options": [
+        "শেখা",
+        "ক্লান্ত",
+        "সপ্তাহান্ত",
+        "বিরতি"
+      ],
+      "answer": 3,
+      "why": "die Pause = বিরতি।",
+      "word": "pause"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "manchmal",
+      "options": [
+        "মাঝে মাঝে",
+        "সবসময়",
+        "কখনো না",
+        "শেখা"
+      ],
+      "answer": 0,
+      "why": "manchmal = মাঝে মাঝে।",
+      "word": "manchmal"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "nie",
+      "options": [
+        "কখনো না",
+        "প্রতিদিন",
+        "করা",
+        "অবসর"
+      ],
+      "answer": 0,
+      "why": "nie = কখনো না।",
+      "word": "nie"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Freizeit",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Freizeit।",
+      "word": "freizeit"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Wochenende",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 2,
+      "why": "das Wochenende। বহুবচন: die Wochenenden।",
+      "word": "wochenende"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Du ___ jeden Tag Deutsch.",
+      "options": [
+        "lerne",
+        "lernst",
+        "lernt",
+        "lernen"
+      ],
+      "answer": 1,
+      "why": "du + lernen → lernst।",
+      "word": "lernen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„প্রায়ই“ জার্মানে কী?",
+      "options": [
+        "oft",
+        "nie",
+        "immer",
+        "selten"
+      ],
+      "answer": 0,
+      "why": "oft = প্রায়ই; immer = সবসময়।",
+      "word": "oft"
+    },
+    {
+      "type": "order",
+      "prompt": "শব্দ সাজিয়ে বাক্য বানান: „সপ্তাহান্তে আমার সময় থাকে।“",
+      "tiles": [
+        "Zeit.",
+        "ich",
+        "habe",
+        "Wochenende",
+        "Am"
+      ],
+      "answer": [
+        "Am",
+        "Wochenende",
+        "habe",
+        "ich",
+        "Zeit."
+      ],
+      "why": "Am Wochenende habe ich Zeit।",
+      "word": "wochenende"
+    }
+  ],
+  "status": "draft",
+  "minutes": 14,
+  "passMark": 0.8
+}

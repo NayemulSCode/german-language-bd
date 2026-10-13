@@ -1,0 +1,782 @@
+{
+  "id": "a1-u05-l01",
+  "level": "A1",
+  "unit": 5,
+  "lesson": 1,
+  "title": {
+    "de": "Die Uhrzeit",
+    "bn": "সময় বলা ও বোঝা",
+    "en": "Telling the time"
+  },
+  "hook": {
+    "de": "Pünktlichkeit ist die Höflichkeit der Könige.",
+    "who": "Sprichwort",
+    "bn": "সময়ানুবর্তিতা রাজাদের ভদ্রতা।",
+    "en": "Punctuality is the courtesy of kings."
+  },
+  "goals": [
+    "„কয়টা বাজে?“ জিজ্ঞাসা করা ও উত্তর দেওয়া",
+    "Viertel nach / vor ও halb — সোয়া, পৌনে, সাড়ে",
+    "„halb vier“ = সাড়ে তিনটা — জার্মানির সবচেয়ে বড় ফাঁদ!",
+    "বাস বা ক্লাসের সময় বলা"
+  ],
+  "words": [
+    {
+      "id": "uhr",
+      "de": "Uhr",
+      "art": "die",
+      "pl": "die Uhren",
+      "pos": "বিশেষ্য",
+      "bn": "ঘড়ি; …টা (সময়)",
+      "en": "clock; o'clock"
+    },
+    {
+      "id": "stunde",
+      "de": "Stunde",
+      "art": "die",
+      "pl": "die Stunden",
+      "pos": "বিশেষ্য",
+      "bn": "ঘণ্টা",
+      "en": "hour"
+    },
+    {
+      "id": "minute",
+      "de": "Minute",
+      "art": "die",
+      "pl": "die Minuten",
+      "pos": "বিশেষ্য",
+      "bn": "মিনিট",
+      "en": "minute"
+    },
+    {
+      "id": "spaet",
+      "de": "spät",
+      "pos": "বিশেষণ",
+      "bn": "দেরি, পরে",
+      "en": "late"
+    },
+    {
+      "id": "halb",
+      "de": "halb",
+      "pos": "বিশেষণ",
+      "bn": "অর্ধেক",
+      "en": "half"
+    },
+    {
+      "id": "viertel",
+      "de": "Viertel",
+      "art": "das",
+      "pos": "বিশেষ্য",
+      "bn": "এক-চতুর্থাংশ (১৫ মিনিট)",
+      "en": "quarter"
+    },
+    {
+      "id": "nach",
+      "de": "nach",
+      "pos": "অব্যয়",
+      "bn": "পরে",
+      "en": "past, after"
+    },
+    {
+      "id": "vor",
+      "de": "vor",
+      "pos": "অব্যয়",
+      "bn": "আগে",
+      "en": "to, before"
+    },
+    {
+      "id": "bus",
+      "de": "Bus",
+      "art": "der",
+      "pl": "die Busse",
+      "pos": "বিশেষ্য",
+      "bn": "বাস",
+      "en": "bus"
+    },
+    {
+      "id": "kurs",
+      "de": "Kurs",
+      "art": "der",
+      "pl": "die Kurse",
+      "pos": "বিশেষ্য",
+      "bn": "কোর্স, ক্লাস",
+      "en": "course"
+    },
+    {
+      "id": "beginnen",
+      "de": "beginnen",
+      "pos": "ক্রিয়া",
+      "bn": "শুরু হওয়া",
+      "en": "to begin"
+    },
+    {
+      "id": "puenktlich",
+      "de": "pünktlich",
+      "pos": "বিশেষণ",
+      "bn": "ঠিক সময়ে",
+      "en": "on time"
+    },
+    {
+      "id": "wie_spaet_ist_es",
+      "de": "Wie spät ist es?",
+      "pos": "অভিব্যক্তি",
+      "bn": "এখন কয়টা বাজে?",
+      "en": "what time is it?"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Saheb",
+      "bn": [
+        "মাফ",
+        "করো,",
+        "এখন",
+        "কয়টা",
+        "বাজে?"
+      ],
+      "en": [
+        "Excuse",
+        "me,",
+        "what",
+        "time",
+        "is",
+        "it?"
+      ],
+      "de": [
+        {
+          "t": "Entschuldigung,",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Entschuldigung",
+          "gb": "মাফ করো",
+          "ge": "Excuse me",
+          "n": ""
+        },
+        {
+          "t": "wie",
+          "b": [
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "wie",
+          "gb": "কয়টা",
+          "ge": "what",
+          "n": ""
+        },
+        {
+          "t": "spät",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "spät",
+          "gb": "এখন",
+          "ge": "time",
+          "n": "wie spät = কত দেরি (আক্ষরিক) — „কয়টা বাজে?“ বোঝায়"
+        },
+        {
+          "t": "ist",
+          "b": [
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "sein",
+          "gb": "বাজে",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "es?",
+          "b": [],
+          "e": [
+            5
+          ],
+          "l": "es",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "it",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "তিনটা",
+        "বাজে।"
+      ],
+      "en": [
+        "It",
+        "is",
+        "three",
+        "o'clock."
+      ],
+      "de": [
+        {
+          "t": "Es",
+          "b": [],
+          "e": [
+            0
+          ],
+          "l": "Es",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "It",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "sein",
+          "gb": "বাজে",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "drei",
+          "b": [
+            0
+          ],
+          "e": [
+            2
+          ],
+          "l": "drei",
+          "gb": "তিনটা",
+          "ge": "three",
+          "n": ""
+        },
+        {
+          "t": "Uhr.",
+          "b": [
+            0
+          ],
+          "e": [
+            3
+          ],
+          "l": "Uhr",
+          "gb": "তিনটা",
+          "ge": "o'clock",
+          "n": "Uhr = ঘড়ি; সময়ের পরে „…টা“ বোঝাতে"
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "বাস",
+        "সোয়া",
+        "তিনটায়",
+        "আসে।"
+      ],
+      "en": [
+        "The",
+        "bus",
+        "comes",
+        "at",
+        "quarter",
+        "past",
+        "three."
+      ],
+      "de": [
+        {
+          "t": "Der",
+          "b": [],
+          "e": [
+            0
+          ],
+          "l": "Der",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "The",
+          "n": ""
+        },
+        {
+          "t": "Bus",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "Bus",
+          "gb": "বাস",
+          "ge": "bus",
+          "n": ""
+        },
+        {
+          "t": "kommt",
+          "b": [
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "kommen",
+          "gb": "আসে",
+          "ge": "comes",
+          "n": ""
+        },
+        {
+          "t": "um",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "um",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "at",
+          "n": "um + সময় = …টায়"
+        },
+        {
+          "t": "Viertel nach",
+          "b": [
+            1
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "Viertel nach",
+          "gb": "সোয়া",
+          "ge": "quarter past",
+          "n": "Viertel nach drei = ৩:১৫"
+        },
+        {
+          "t": "drei.",
+          "b": [
+            2
+          ],
+          "e": [
+            6
+          ],
+          "l": "drei",
+          "gb": "তিনটায়",
+          "ge": "three",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "আমাদের",
+        "আরও",
+        "পাঁচ",
+        "মিনিট",
+        "আছে।"
+      ],
+      "en": [
+        "We",
+        "still",
+        "have",
+        "five",
+        "minutes."
+      ],
+      "de": [
+        {
+          "t": "Wir",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Wir",
+          "gb": "আমাদের",
+          "ge": "We",
+          "n": ""
+        },
+        {
+          "t": "haben",
+          "b": [
+            4
+          ],
+          "e": [
+            2
+          ],
+          "l": "haben",
+          "gb": "আছে",
+          "ge": "have",
+          "n": ""
+        },
+        {
+          "t": "noch",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "noch",
+          "gb": "আরও",
+          "ge": "still",
+          "n": ""
+        },
+        {
+          "t": "fünf",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "fünf",
+          "gb": "পাঁচ",
+          "ge": "five",
+          "n": ""
+        },
+        {
+          "t": "Minuten.",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "Minuten",
+          "gb": "মিনিট",
+          "ge": "minutes",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "ক্লাস",
+        "সাড়ে",
+        "তিনটায়",
+        "শুরু",
+        "হয়।"
+      ],
+      "en": [
+        "The",
+        "course",
+        "starts",
+        "at",
+        "half",
+        "past",
+        "three."
+      ],
+      "de": [
+        {
+          "t": "Der",
+          "b": [],
+          "e": [
+            0
+          ],
+          "l": "Der",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "The",
+          "n": ""
+        },
+        {
+          "t": "Kurs",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "Kurs",
+          "gb": "ক্লাস",
+          "ge": "course",
+          "n": ""
+        },
+        {
+          "t": "beginnt",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            2
+          ],
+          "l": "beginnen",
+          "gb": "শুরু হয়",
+          "ge": "starts",
+          "n": ""
+        },
+        {
+          "t": "um",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "um",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "at",
+          "n": ""
+        },
+        {
+          "t": "halb",
+          "b": [
+            1
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "halb",
+          "gb": "সাড়ে",
+          "ge": "half past",
+          "n": "halb vier = ৩:৩০ — „চারের অর্ধেক আগে“! পরের ঘণ্টা বলা হয়"
+        },
+        {
+          "t": "vier.",
+          "b": [
+            2
+          ],
+          "e": [
+            6
+          ],
+          "l": "vier",
+          "gb": "চার (কিন্তু সময় ৩:৩০)",
+          "ge": "four (but the time is 3:30)",
+          "n": "halb vier ≠ সাড়ে চারটা। সাড়ে তিনটা = halb vier"
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "আমরা",
+        "ঠিক",
+        "সময়ে",
+        "আছি!"
+      ],
+      "en": [
+        "We",
+        "are",
+        "on",
+        "time!"
+      ],
+      "de": [
+        {
+          "t": "Wir",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Wir",
+          "gb": "আমরা",
+          "ge": "We",
+          "n": ""
+        },
+        {
+          "t": "sind",
+          "b": [
+            3
+          ],
+          "e": [
+            1
+          ],
+          "l": "sein",
+          "gb": "আছি",
+          "ge": "are",
+          "n": ""
+        },
+        {
+          "t": "pünktlich!",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "pünktlich",
+          "gb": "ঠিক সময়ে",
+          "ge": "on time",
+          "n": "জার্মানিতে সময় মেনে চলা খুবই গুরুত্বপূর্ণ"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "ঘণ্টা ও মিনিট (দৈনন্দিন কথায়)",
+      "head": [
+        "সময়",
+        "জার্মানে বলা",
+        "বাংলায়"
+      ],
+      "rows": [
+        [
+          "3:00",
+          "drei Uhr",
+          "তিনটা"
+        ],
+        [
+          "3:05",
+          "fünf nach drei",
+          "তিনটা পাঁচ"
+        ],
+        [
+          "3:15",
+          "Viertel nach drei",
+          "সোয়া তিনটা"
+        ],
+        [
+          "3:30",
+          "halb vier",
+          "সাড়ে তিনটা"
+        ],
+        [
+          "3:45",
+          "Viertel vor vier",
+          "পৌনে চারটা"
+        ],
+        [
+          "3:55",
+          "fünf vor vier",
+          "চারটা বাজতে পাঁচ"
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "title": "সবচেয়ে বড় ফাঁদ: halb",
+      "text": "„halb vier“ মানে সাড়ে চারটা নয়, ৩:৩০ — অর্থাৎ „চারটার অর্ধেক আগে“। জার্মানে halb-এর পরের সংখ্যাটাই পরের ঘণ্টা। তাই halb drei = ২:৩০, halb acht = ৭:৩০। বাংলার „সাড়ে তিনটা“ আর জার্মানের „halb vier“ একই।"
+    },
+    {
+      "type": "text",
+      "title": "সরকারি / ২৪-ঘণ্টা সময়",
+      "text": "ট্রেন-বাসের সময়সূচি, ডাক্তার ও অফিসে ২৪-ঘণ্টা ব্যবহার হয়: 15:30 = fünfzehn Uhr dreißig, 18:45 = achtzehn Uhr fünfundvierzig। এখানে halb/Viertel লাগে না — শুধু ঘণ্টা ও মিনিট। প্রশ্ন: „Wie spät ist es?“ বা „Wie viel Uhr ist es?“"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "Es ist halb vier.",
+      "options": [
+        "৩:৩০",
+        "৪:৩০",
+        "৩:১৫",
+        "৪:০০"
+      ],
+      "answer": 0,
+      "why": "halb vier = ৩:৩০ (চারটার অর্ধেক আগে)।",
+      "word": "halb"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Viertel nach zwei“ কত?",
+      "options": [
+        "২:১৫",
+        "২:৪৫",
+        "১:৪৫",
+        "২:৩০"
+      ],
+      "answer": 0,
+      "why": "Viertel nach zwei = ২টা পনেরো।",
+      "word": "viertel"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Viertel vor drei“ কত?",
+      "options": [
+        "২:৪৫",
+        "২:১৫",
+        "৩:১৫",
+        "৩:৪৫"
+      ],
+      "answer": 0,
+      "why": "Viertel vor drei = তিনটার ১৫ মিনিট আগে = ২:৪৫।",
+      "word": "vor"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„halb sieben“ কত?",
+      "options": [
+        "৬:৩০",
+        "৭:৩০",
+        "৭:১৫",
+        "৬:১৫"
+      ],
+      "answer": 0,
+      "why": "halb sieben = ৬:৩০ (সাতটার অর্ধেক আগে)।",
+      "word": "halb"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„fünf vor acht“ কত?",
+      "options": [
+        "৭:৫৫",
+        "৮:০৫",
+        "৮:৫৫",
+        "৭:০৫"
+      ],
+      "answer": 0,
+      "why": "fünf vor acht = আটটার ৫ মিনিট আগে = ৭:৫৫।",
+      "word": "vor"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Uhr",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Uhr। বহুবচন: die Uhren।",
+      "word": "uhr"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "beginnen",
+      "options": [
+        "মিনিট",
+        "শুরু হওয়া",
+        "এক-চতুর্থাংশ",
+        "বাস"
+      ],
+      "answer": 1,
+      "why": "beginnen = শুরু হওয়া।",
+      "word": "beginnen"
+    },
+    {
+      "type": "order",
+      "prompt": "শব্দ সাজিয়ে প্রশ্ন বানান: „এখন কয়টা বাজে?“",
+      "tiles": [
+        "es?",
+        "ist",
+        "spät",
+        "Wie"
+      ],
+      "answer": [
+        "Wie",
+        "spät",
+        "ist",
+        "es?"
+      ],
+      "why": "Wie spät ist es?",
+      "word": "wie_spaet_ist_es"
+    }
+  ],
+  "status": "draft",
+  "minutes": 14,
+  "passMark": 0.8
+}
