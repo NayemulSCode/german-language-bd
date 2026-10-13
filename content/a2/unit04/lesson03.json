@@ -1,0 +1,1383 @@
+{
+  "level": "A2",
+  "unit": 4,
+  "minutes": 16,
+  "lesson": 3,
+  "id": "a2-u04-l03",
+  "title": {
+    "de": "In der Apotheke",
+    "bn": "ফার্মেসিতে: Imperativ ও ওষুধের নিয়ম",
+    "en": "At the pharmacy: imperative and dosage"
+  },
+  "hook": {
+    "de": "Vorbeugen ist besser als heilen.",
+    "who": "Sprichwort",
+    "bn": "চিকিৎসার চেয়ে প্রতিরোধ ভালো।",
+    "en": "Prevention is better than cure."
+  },
+  "goals": [
+    "Imperativ: Nimm! Nehmt! Nehmen Sie!",
+    "ওষুধ কীভাবে খাবেন: dreimal täglich, vor/nach dem Essen",
+    "Apotheke-তে ওষুধ চাওয়া",
+    "sollen = উচিত / নির্দেশ"
+  ],
+  "words": [
+    {
+      "id": "apotheke",
+      "de": "Apotheke",
+      "art": "die",
+      "pl": "die Apotheken",
+      "pos": "বিশেষ্য",
+      "bn": "ওষুধের দোকান",
+      "en": "pharmacy"
+    },
+    {
+      "id": "tablette",
+      "de": "Tablette",
+      "art": "die",
+      "pl": "die Tabletten",
+      "pos": "বিশেষ্য",
+      "bn": "ট্যাবলেট",
+      "en": "tablet"
+    },
+    {
+      "id": "hustensaft",
+      "de": "Hustensaft",
+      "art": "der",
+      "pl": "die Hustensäfte",
+      "pos": "বিশেষ্য",
+      "bn": "কাশির সিরাপ",
+      "en": "cough syrup"
+    },
+    {
+      "id": "salbe",
+      "de": "Salbe",
+      "art": "die",
+      "pl": "die Salben",
+      "pos": "বিশেষ্য",
+      "bn": "মলম",
+      "en": "ointment"
+    },
+    {
+      "id": "packung",
+      "de": "Packung",
+      "art": "die",
+      "pl": "die Packungen",
+      "pos": "বিশেষ্য",
+      "bn": "প্যাকেট",
+      "en": "package"
+    },
+    {
+      "id": "einnehmen",
+      "de": "einnehmen",
+      "pos": "ক্রিয়া · hat eingenommen",
+      "bn": "ওষুধ খাওয়া",
+      "en": "to take (medicine)"
+    },
+    {
+      "id": "taeglich",
+      "de": "täglich",
+      "pos": "বিশেষণ",
+      "bn": "প্রতিদিন",
+      "en": "daily"
+    },
+    {
+      "id": "nebenwirkung",
+      "de": "Nebenwirkung",
+      "art": "die",
+      "pl": "die Nebenwirkungen",
+      "pos": "বিশেষ্য",
+      "bn": "পার্শ্বপ্রতিক্রিয়া",
+      "en": "side effect"
+    },
+    {
+      "id": "essen",
+      "de": "Essen",
+      "art": "das",
+      "pos": "বিশেষ্য",
+      "bn": "খাবার, খাওয়া",
+      "en": "meal, food"
+    },
+    {
+      "id": "sollen",
+      "de": "sollen",
+      "pos": "মডালভার্ব",
+      "bn": "উচিত, করার কথা",
+      "en": "should, supposed to"
+    },
+    {
+      "id": "manchmal",
+      "de": "manchmal",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "কখনো কখনো",
+      "en": "sometimes"
+    },
+    {
+      "id": "apothekerin",
+      "de": "Apothekerin",
+      "art": "die",
+      "pl": "die Apothekerinnen",
+      "pos": "বিশেষ্য",
+      "bn": "ফার্মাসিস্ট (নারী)",
+      "en": "pharmacist (f)"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Apothekerin",
+      "bn": [
+        "শুভ",
+        "দিন!",
+        "আপনার",
+        "কী",
+        "লাগবে?"
+      ],
+      "en": [
+        "Good",
+        "day!",
+        "What",
+        "can",
+        "I",
+        "get",
+        "you?"
+      ],
+      "de": [
+        {
+          "t": "Guten Tag!",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Guten Tag",
+          "gb": "শুভ দিন",
+          "ge": "Good day",
+          "n": ""
+        },
+        {
+          "t": "Was",
+          "b": [
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "Was",
+          "gb": "কী",
+          "ge": "What",
+          "n": ""
+        },
+        {
+          "t": "darf",
+          "b": [
+            4
+          ],
+          "e": [
+            3
+          ],
+          "l": "darf",
+          "gb": "লাগবে",
+          "ge": "can",
+          "n": "Was darf es sein? = কী চাই? (দোকানের প্রচলিত প্রশ্ন)"
+        },
+        {
+          "t": "es",
+          "b": [],
+          "e": [],
+          "l": "es",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "sein?",
+          "b": [],
+          "e": [
+            5,
+            6
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "get you",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমার",
+        "কাছে",
+        "ডা.",
+        "বার্গারের",
+        "একটি",
+        "প্রেসক্রিপশন",
+        "আছে।"
+      ],
+      "en": [
+        "I",
+        "have",
+        "a",
+        "prescription",
+        "from",
+        "Dr",
+        "Berger."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমার",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [
+            6
+          ],
+          "e": [
+            1
+          ],
+          "l": "habe",
+          "gb": "আছে",
+          "ge": "have",
+          "n": ""
+        },
+        {
+          "t": "ein",
+          "b": [
+            4
+          ],
+          "e": [
+            2
+          ],
+          "l": "ein",
+          "gb": "একটি",
+          "ge": "a",
+          "n": ""
+        },
+        {
+          "t": "Rezept",
+          "b": [
+            5
+          ],
+          "e": [
+            3
+          ],
+          "l": "Rezept",
+          "gb": "প্রেসক্রিপশন",
+          "ge": "prescription",
+          "n": ""
+        },
+        {
+          "t": "von",
+          "b": [],
+          "e": [
+            4
+          ],
+          "l": "von",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "from",
+          "n": ""
+        },
+        {
+          "t": "Dr. Berger.",
+          "s": "Berger",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "Dr Berger",
+          "gb": "ডা বার্গারের",
+          "ge": "Dr Berger",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Apothekerin",
+      "bn": [
+        "এগুলো",
+        "ট্যাবলেট",
+        "আর",
+        "একটি",
+        "কাশির",
+        "সিরাপ।"
+      ],
+      "en": [
+        "These",
+        "are",
+        "tablets",
+        "and",
+        "a",
+        "cough",
+        "syrup."
+      ],
+      "de": [
+        {
+          "t": "Das",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Das",
+          "gb": "এগুলো",
+          "ge": "These",
+          "n": ""
+        },
+        {
+          "t": "sind",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "sind",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "are",
+          "n": ""
+        },
+        {
+          "t": "Tabletten",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "Tablette",
+          "gb": "ট্যাবলেট",
+          "ge": "tablets",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "ein",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "ein",
+          "gb": "একটি",
+          "ge": "a",
+          "n": ""
+        },
+        {
+          "t": "Hustensaft.",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "Hustensaft",
+          "gb": "কাশির সিরাপ",
+          "ge": "cough syrup",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "ট্যাবলেটগুলো",
+        "কীভাবে",
+        "খাব?"
+      ],
+      "en": [
+        "How",
+        "should",
+        "I",
+        "take",
+        "the",
+        "tablets?"
+      ],
+      "de": [
+        {
+          "t": "Wie",
+          "b": [
+            2
+          ],
+          "e": [
+            0
+          ],
+          "l": "Wie",
+          "gb": "কীভাবে",
+          "ge": "How",
+          "n": ""
+        },
+        {
+          "t": "soll",
+          "b": [
+            3
+          ],
+          "e": [
+            1
+          ],
+          "l": "sollen",
+          "gb": "খাব",
+          "ge": "should",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            0
+          ],
+          "e": [
+            2
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "die",
+          "b": [],
+          "e": [
+            4
+          ],
+          "l": "die",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "Tabletten",
+          "b": [
+            1
+          ],
+          "e": [
+            5
+          ],
+          "l": "Tablette",
+          "gb": "ট্যাবলেটগুলো",
+          "ge": "tablets",
+          "n": ""
+        },
+        {
+          "t": "nehmen?",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "nehmen",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "take",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Apothekerin",
+      "bn": [
+        "দিনে",
+        "তিনবার",
+        "একটি",
+        "করে",
+        "ট্যাবলেট",
+        "খান,",
+        "খাওয়ার",
+        "পরে।"
+      ],
+      "en": [
+        "Take",
+        "one",
+        "tablet",
+        "three",
+        "times",
+        "a",
+        "day,",
+        "after",
+        "meals."
+      ],
+      "de": [
+        {
+          "t": "Nehmen",
+          "b": [
+            5
+          ],
+          "e": [
+            0
+          ],
+          "l": "nehmen",
+          "gb": "খান",
+          "ge": "Take",
+          "n": "Imperativ (Sie): Infinitiv + Sie → Nehmen Sie"
+        },
+        {
+          "t": "Sie",
+          "b": [],
+          "e": [],
+          "l": "Sie",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "dreimal täglich",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "l": "täglich",
+          "gb": "দিনে তিনবার",
+          "ge": "three times a day",
+          "n": ""
+        },
+        {
+          "t": "eine",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            1
+          ],
+          "l": "eine",
+          "gb": "একটি করে",
+          "ge": "one",
+          "n": ""
+        },
+        {
+          "t": "Tablette,",
+          "b": [
+            4
+          ],
+          "e": [
+            2
+          ],
+          "l": "Tablette",
+          "gb": "ট্যাবলেট",
+          "ge": "tablet",
+          "n": ""
+        },
+        {
+          "t": "nach dem Essen.",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "Essen",
+          "gb": "খাওয়ার পরে",
+          "ge": "after meals",
+          "n": "nach + Dativ: nach dem Essen"
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আর",
+        "সিরাপটা?",
+        "আমাকে",
+        "কি",
+        "ওটা",
+        "খাওয়ার",
+        "আগে",
+        "খেতে",
+        "হবে?"
+      ],
+      "en": [
+        "And",
+        "the",
+        "syrup?",
+        "Do",
+        "I",
+        "have",
+        "to",
+        "take",
+        "it",
+        "before",
+        "meals?"
+      ],
+      "de": [
+        {
+          "t": "Und",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "der Hustensaft?",
+          "b": [
+            1
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "Hustensaft",
+          "gb": "সিরাপটা",
+          "ge": "the syrup",
+          "n": ""
+        },
+        {
+          "t": "Muss",
+          "b": [
+            8
+          ],
+          "e": [
+            3
+          ],
+          "l": "Muss",
+          "gb": "হবে",
+          "ge": "Do",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "ich",
+          "gb": "আমাকে",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "ihn",
+          "b": [
+            4
+          ],
+          "e": [
+            8
+          ],
+          "l": "ihn",
+          "gb": "ওটা",
+          "ge": "it",
+          "n": ""
+        },
+        {
+          "t": "vor dem Essen",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "Essen",
+          "gb": "খাওয়ার আগে",
+          "ge": "before meals",
+          "n": ""
+        },
+        {
+          "t": "nehmen?",
+          "b": [
+            7
+          ],
+          "e": [
+            5,
+            6,
+            7
+          ],
+          "l": "nehmen",
+          "gb": "খেতে",
+          "ge": "have to take",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Apothekerin",
+      "bn": [
+        "না,",
+        "সিরাপটা",
+        "রাতে",
+        "খান।",
+        "প্রচুর",
+        "পানি",
+        "পান",
+        "করুন",
+        "আর",
+        "বিশ্রাম",
+        "নিন!"
+      ],
+      "en": [
+        "No,",
+        "take",
+        "the",
+        "syrup",
+        "in",
+        "the",
+        "evening.",
+        "Drink",
+        "a",
+        "lot",
+        "of",
+        "water",
+        "and",
+        "get",
+        "some",
+        "rest!"
+      ],
+      "de": [
+        {
+          "t": "Nein,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Nein",
+          "gb": "না",
+          "ge": "No",
+          "n": ""
+        },
+        {
+          "t": "nehmen",
+          "b": [
+            3
+          ],
+          "e": [
+            1
+          ],
+          "l": "nehmen",
+          "gb": "খান",
+          "ge": "take",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [],
+          "e": [],
+          "l": "Sie",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "den Saft",
+          "b": [
+            1
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "den Saft",
+          "gb": "সিরাপটা",
+          "ge": "the syrup",
+          "n": ""
+        },
+        {
+          "t": "abends.",
+          "b": [
+            2
+          ],
+          "e": [
+            4,
+            5,
+            6
+          ],
+          "l": "abends",
+          "gb": "রাতে",
+          "ge": "in the evening",
+          "n": ""
+        },
+        {
+          "t": "Trinken",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            7
+          ],
+          "l": "trinken",
+          "gb": "পান করুন",
+          "ge": "Drink",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [],
+          "e": [],
+          "l": "Sie",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "viel",
+          "b": [
+            4
+          ],
+          "e": [
+            8,
+            9,
+            10
+          ],
+          "l": "viel",
+          "gb": "প্রচুর",
+          "ge": "a lot of",
+          "n": ""
+        },
+        {
+          "t": "Wasser",
+          "b": [
+            5
+          ],
+          "e": [
+            11
+          ],
+          "l": "Wasser",
+          "gb": "পানি",
+          "ge": "water",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            8
+          ],
+          "e": [
+            12
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "ruhen",
+          "b": [
+            9,
+            10
+          ],
+          "e": [
+            13,
+            14,
+            15
+          ],
+          "l": "sich ausruhen",
+          "gb": "বিশ্রাম নিন",
+          "ge": "get some rest",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [],
+          "e": [],
+          "l": "Sie",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "sich",
+          "b": [],
+          "e": [],
+          "l": "sich",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "aus!",
+          "b": [],
+          "e": [],
+          "l": "aus",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "কোনো",
+        "পার্শ্বপ্রতিক্রিয়া",
+        "আছে?"
+      ],
+      "en": [
+        "Are",
+        "there",
+        "any",
+        "side",
+        "effects?"
+      ],
+      "de": [
+        {
+          "t": "Gibt",
+          "b": [
+            2
+          ],
+          "e": [
+            0
+          ],
+          "l": "geben",
+          "gb": "আছে",
+          "ge": "Are",
+          "n": "es gibt = আছে (অস্তিত্ব)"
+        },
+        {
+          "t": "es",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "es",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "there",
+          "n": ""
+        },
+        {
+          "t": "Nebenwirkungen?",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            2,
+            3,
+            4
+          ],
+          "l": "Nebenwirkung",
+          "gb": "কোনো পার্শ্বপ্রতিক্রিয়া",
+          "ge": "any side effects",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Apothekerin",
+      "bn": [
+        "কখনো",
+        "কখনো",
+        "ঘুম",
+        "পায়।",
+        "এটা",
+        "বারো",
+        "ইউরো,",
+        "দয়া",
+        "করে।"
+      ],
+      "en": [
+        "Sometimes",
+        "it",
+        "makes",
+        "you",
+        "sleepy.",
+        "That",
+        "is",
+        "twelve",
+        "euros,",
+        "please."
+      ],
+      "de": [
+        {
+          "t": "Manchmal",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0
+          ],
+          "l": "manchmal",
+          "gb": "কখনো কখনো",
+          "ge": "Sometimes",
+          "n": ""
+        },
+        {
+          "t": "macht",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "macht",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "makes",
+          "n": ""
+        },
+        {
+          "t": "er",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "er",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "it",
+          "n": ""
+        },
+        {
+          "t": "müde.",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "müde",
+          "gb": "ঘুম পায়",
+          "ge": "you sleepy",
+          "n": ""
+        },
+        {
+          "t": "Das",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "Das",
+          "gb": "এটা",
+          "ge": "That",
+          "n": ""
+        },
+        {
+          "t": "macht",
+          "b": [],
+          "e": [
+            6
+          ],
+          "l": "macht",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "zwölf Euro,",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "zwölf Euro",
+          "gb": "বারো ইউরো",
+          "ge": "twelve euros",
+          "n": ""
+        },
+        {
+          "t": "bitte.",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            9
+          ],
+          "l": "bitte",
+          "gb": "দয়া করে",
+          "ge": "please",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "Imperativ: Befehl, Bitte, Rat",
+      "head": [
+        "Person",
+        "Regel",
+        "Beispiel"
+      ],
+      "rows": [
+        [
+          "du",
+          "Stamm (ohne -st)",
+          "Nimm die Tablette! · Trink Wasser! · Bleib zu Hause!"
+        ],
+        [
+          "ihr",
+          "wie ihr-Form",
+          "Nehmt die Tablette! · Trinkt Wasser!"
+        ],
+        [
+          "Sie (höflich)",
+          "Infinitiv + Sie",
+          "Nehmen Sie die Tablette! · Trinken Sie Wasser!"
+        ]
+      ],
+      "note": "Bitte macht es höflicher: „Nehmen Sie bitte …“। Alle drei Formen: ক্রিয়া প্রথমে।"
+    },
+    {
+      "type": "table",
+      "title": "অনিয়মিত ও trennbare Imperative",
+      "head": [
+        "Infinitiv",
+        "du",
+        "ihr",
+        "Sie"
+      ],
+      "rows": [
+        [
+          "nehmen",
+          "nimm!",
+          "nehmt!",
+          "nehmen Sie!"
+        ],
+        [
+          "sein",
+          "sei!",
+          "seid!",
+          "seien Sie!"
+        ],
+        [
+          "aufstehen",
+          "steh auf!",
+          "steht auf!",
+          "stehen Sie auf!"
+        ],
+        [
+          "sich ausruhen",
+          "ruh dich aus!",
+          "ruht euch aus!",
+          "ruhen Sie sich aus!"
+        ],
+        [
+          "sprechen",
+          "sprich!",
+          "sprecht!",
+          "sprechen Sie!"
+        ]
+      ],
+      "note": "e→i-ক্রিয়ার du-Imperativ: nimm, sprich, lies, gib। Reflexivpronomen ক্রিয়ার পরে: „Setz dich!“, „Setzen Sie sich!“।"
+    },
+    {
+      "type": "table",
+      "title": "ওষুধ খাওয়ার নিয়ম",
+      "head": [
+        "জার্মান",
+        "বাংলা"
+      ],
+      "rows": [
+        [
+          "einmal / zweimal / dreimal täglich",
+          "দিনে একবার / দুইবার / তিনবার"
+        ],
+        [
+          "vor dem Essen",
+          "খাওয়ার আগে"
+        ],
+        [
+          "nach dem Essen",
+          "খাওয়ার পরে"
+        ],
+        [
+          "morgens / mittags / abends",
+          "সকালে / দুপুরে / রাতে"
+        ],
+        [
+          "bei Bedarf",
+          "প্রয়োজন হলে"
+        ],
+        [
+          "Nebenwirkungen",
+          "পার্শ্বপ্রতিক্রিয়া"
+        ]
+      ],
+      "note": "vor, nach + Dativ: vor dem Essen, nach dem Essen। sollen: „Sie sollen viel Wasser trinken“ = আপনার জন্য নির্দেশ।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "die Tablette",
+      "options": [
+        "প্যাকেট",
+        "প্রতিদিন",
+        "ট্যাবলেট",
+        "খাবার"
+      ],
+      "answer": 2,
+      "why": "die Tablette = ট্যাবলেট।",
+      "word": "tablette"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "einnehmen",
+      "options": [
+        "কাশির সিরাপ",
+        "প্রতিদিন",
+        "ওষুধ খাওয়া",
+        "উচিত"
+      ],
+      "answer": 2,
+      "why": "einnehmen = ওষুধ খাওয়া।",
+      "word": "einnehmen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "täglich",
+      "options": [
+        "প্রতিদিন",
+        "কাশির সিরাপ",
+        "ওষুধ খাওয়া",
+        "উচিত"
+      ],
+      "answer": 0,
+      "why": "täglich = প্রতিদিন।",
+      "word": "taeglich"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Apotheke",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Apotheke। বহুবচন: die Apotheken।",
+      "word": "apotheke"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Imperativ (Sie): „nehmen“ →",
+      "options": [
+        "Nehmen Sie!",
+        "Nimmst Sie!",
+        "Nimm Sie!",
+        "Sie nehmen!"
+      ],
+      "answer": 0,
+      "why": "Infinitiv + Sie।",
+      "word": "einnehmen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Imperativ (du): „nehmen“ →",
+      "options": [
+        "Nimm!",
+        "Nehm!",
+        "Nimmt!",
+        "Nehmen!"
+      ],
+      "answer": 0,
+      "why": "e→i: nimm।",
+      "word": "einnehmen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Imperativ (ihr): „trinken“ →",
+      "options": [
+        "Trinkt!",
+        "Trink!",
+        "Trinken Sie!",
+        "Getrunken!"
+      ],
+      "answer": 0,
+      "why": "ihr-Form: trinkt।",
+      "word": "hustensaft"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Nehmen Sie die Tablette nach ___ Essen.",
+      "options": [
+        "dem",
+        "den",
+        "der",
+        "das"
+      ],
+      "answer": 0,
+      "why": "nach + Dativ: nach dem Essen।",
+      "word": "essen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„dreimal täglich“ কী?",
+      "options": [
+        "দিনে তিনবার",
+        "তিন দিন ধরে",
+        "তিন বার সপ্তাহে",
+        "রাতে তিনবার"
+      ],
+      "answer": 0,
+      "why": "täglich = প্রতিদিন।",
+      "word": "taeglich"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „প্রচুর পানি পান করুন!“",
+      "tiles": [
+        "Sie",
+        "viel",
+        "Trinken",
+        "Wasser!"
+      ],
+      "answer": [
+        "Trinken",
+        "Sie",
+        "viel",
+        "Wasser!"
+      ],
+      "why": "Imperativ (Sie): ক্রিয়া প্রথমে।",
+      "word": "apotheke"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

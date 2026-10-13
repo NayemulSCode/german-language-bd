@@ -1,0 +1,1405 @@
+{
+  "level": "A2",
+  "unit": 3,
+  "minutes": 16,
+  "lesson": 3,
+  "id": "a2-u03-l03",
+  "title": {
+    "de": "Das Hotel ist teurer als die Jugendherberge",
+    "bn": "তুলনা: Komparativ ও Superlativ",
+    "en": "Comparing: comparative and superlative"
+  },
+  "hook": {
+    "de": "Besser spät als nie.",
+    "who": "Sprichwort",
+    "bn": "দেরিতে হলেও না হওয়ার চেয়ে ভালো।",
+    "en": "Better late than never."
+  },
+  "goals": [
+    "Komparativ: -er + als (billiger als)",
+    "Superlativ: am -sten (am billigsten)",
+    "অনিয়মিত: gut – besser – am besten, viel – mehr – am meisten, gern – lieber – am liebsten",
+    "so … wie = সমান তুলনা"
+  ],
+  "words": [
+    {
+      "id": "billig",
+      "de": "billig",
+      "pos": "বিশেষণ",
+      "bn": "সস্তা",
+      "en": "cheap"
+    },
+    {
+      "id": "teuer",
+      "de": "teuer",
+      "pos": "বিশেষণ",
+      "bn": "দামি",
+      "en": "expensive"
+    },
+    {
+      "id": "guenstig",
+      "de": "günstig",
+      "pos": "বিশেষণ",
+      "bn": "কমদামি, সুবিধাজনক",
+      "en": "favourable, inexpensive"
+    },
+    {
+      "id": "gross",
+      "de": "groß",
+      "pos": "বিশেষণ",
+      "bn": "বড়",
+      "en": "big"
+    },
+    {
+      "id": "klein",
+      "de": "klein",
+      "pos": "বিশেষণ",
+      "bn": "ছোট",
+      "en": "small"
+    },
+    {
+      "id": "nah",
+      "de": "nah",
+      "pos": "বিশেষণ",
+      "bn": "কাছে",
+      "en": "near"
+    },
+    {
+      "id": "doppelzimmer",
+      "de": "Doppelzimmer",
+      "art": "das",
+      "pl": "die Doppelzimmer",
+      "pos": "বিশেষ্য",
+      "bn": "ডাবল রুম",
+      "en": "double room"
+    },
+    {
+      "id": "einzelzimmer",
+      "de": "Einzelzimmer",
+      "art": "das",
+      "pl": "die Einzelzimmer",
+      "pos": "বিশেষ্য",
+      "bn": "সিঙ্গেল রুম",
+      "en": "single room"
+    },
+    {
+      "id": "uebernachtung",
+      "de": "Übernachtung",
+      "art": "die",
+      "pl": "die Übernachtungen",
+      "pos": "বিশেষ্য",
+      "bn": "রাত্রিযাপন",
+      "en": "overnight stay"
+    },
+    {
+      "id": "fruehstueck",
+      "de": "Frühstück",
+      "art": "das",
+      "pos": "বিশেষ্য",
+      "bn": "সকালের নাস্তা",
+      "en": "breakfast"
+    },
+    {
+      "id": "jugendherberge",
+      "de": "Jugendherberge",
+      "art": "die",
+      "pl": "die Jugendherbergen",
+      "pos": "বিশেষ্য",
+      "bn": "ইয়ুথ হোস্টেল",
+      "en": "youth hostel"
+    },
+    {
+      "id": "zentrum",
+      "de": "Zentrum",
+      "art": "das",
+      "pl": "die Zentren",
+      "pos": "বিশেষ্য",
+      "bn": "শহরের কেন্দ্র",
+      "en": "centre"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Muna",
+      "bn": [
+        "আমি",
+        "দুটো",
+        "জায়গা",
+        "খুঁজে",
+        "পেয়েছি:",
+        "একটা",
+        "হোটেল",
+        "আর",
+        "একটা",
+        "ইয়ুথ",
+        "হোস্টেল।"
+      ],
+      "en": [
+        "I",
+        "have",
+        "found",
+        "two",
+        "places:",
+        "a",
+        "hotel",
+        "and",
+        "a",
+        "youth",
+        "hostel."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "habe",
+          "gb": "খুঁজে পেয়েছি",
+          "ge": "have found",
+          "n": ""
+        },
+        {
+          "t": "zwei",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "zwei",
+          "gb": "দুটো",
+          "ge": "two",
+          "n": ""
+        },
+        {
+          "t": "Unterkünfte",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "Unterkünfte",
+          "gb": "জায়গা",
+          "ge": "places",
+          "n": ""
+        },
+        {
+          "t": "gefunden:",
+          "b": [],
+          "e": [],
+          "l": "gefunden",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "ein Hotel",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "ein Hotel",
+          "gb": "একটা হোটেল",
+          "ge": "a hotel",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            7
+          ],
+          "e": [
+            7
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "eine Jugendherberge.",
+          "b": [
+            8,
+            9,
+            10
+          ],
+          "e": [
+            8,
+            9,
+            10
+          ],
+          "l": "Jugendherberge",
+          "gb": "একটা ইয়ুথ হোস্টেল",
+          "ge": "a youth hostel",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "কোনটা",
+        "সস্তা?"
+      ],
+      "en": [
+        "Which",
+        "one",
+        "is",
+        "cheap?"
+      ],
+      "de": [
+        {
+          "t": "Welche",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Welche",
+          "gb": "কোনটা",
+          "ge": "Which",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            1,
+            2
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "one is",
+          "n": ""
+        },
+        {
+          "t": "billig?",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "billig",
+          "gb": "সস্তা",
+          "ge": "cheap",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "ইয়ুথ",
+        "হোস্টেল",
+        "হোটেলের",
+        "চেয়ে",
+        "সস্তা।",
+        "একটা",
+        "রাতের",
+        "জন্য",
+        "সেখানে",
+        "ত্রিশ",
+        "ইউরো",
+        "লাগে।"
+      ],
+      "en": [
+        "The",
+        "youth",
+        "hostel",
+        "is",
+        "cheaper",
+        "than",
+        "the",
+        "hotel.",
+        "A",
+        "night",
+        "there",
+        "costs",
+        "thirty",
+        "euros."
+      ],
+      "de": [
+        {
+          "t": "Die",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Die",
+          "gb": "ইয়ুথ",
+          "ge": "The",
+          "n": ""
+        },
+        {
+          "t": "Jugendherberge",
+          "b": [
+            1
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "Jugendherberge",
+          "gb": "হোস্টেল",
+          "ge": "youth hostel",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "billiger",
+          "b": [
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "billig",
+          "gb": "সস্তা",
+          "ge": "cheaper",
+          "n": "Komparativ: billig + er = billiger"
+        },
+        {
+          "t": "als",
+          "b": [
+            3
+          ],
+          "e": [
+            5
+          ],
+          "l": "als",
+          "gb": "চেয়ে",
+          "ge": "than",
+          "n": "Komparativ-এর পরে „als“"
+        },
+        {
+          "t": "das",
+          "b": [],
+          "e": [
+            6
+          ],
+          "l": "das",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "Hotel.",
+          "b": [
+            2
+          ],
+          "e": [
+            7
+          ],
+          "l": "Hotel",
+          "gb": "হোটেলের",
+          "ge": "hotel",
+          "n": ""
+        },
+        {
+          "t": "Eine",
+          "b": [
+            5
+          ],
+          "e": [
+            8
+          ],
+          "l": "Eine",
+          "gb": "একটা",
+          "ge": "A",
+          "n": ""
+        },
+        {
+          "t": "Übernachtung",
+          "b": [
+            6
+          ],
+          "e": [
+            9
+          ],
+          "l": "Übernachtung",
+          "gb": "রাতের",
+          "ge": "night",
+          "n": ""
+        },
+        {
+          "t": "kostet",
+          "b": [
+            11
+          ],
+          "e": [
+            11
+          ],
+          "l": "kostet",
+          "gb": "লাগে",
+          "ge": "costs",
+          "n": ""
+        },
+        {
+          "t": "dort",
+          "b": [
+            8
+          ],
+          "e": [
+            10
+          ],
+          "l": "dort",
+          "gb": "সেখানে",
+          "ge": "there",
+          "n": ""
+        },
+        {
+          "t": "dreißig Euro.",
+          "b": [
+            9,
+            10
+          ],
+          "e": [
+            12,
+            13
+          ],
+          "l": "dreißig Euro",
+          "gb": "ত্রিশ ইউরো",
+          "ge": "thirty euros",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আর",
+        "হোটেলটা",
+        "কেমন?",
+        "ওটা",
+        "কি",
+        "শহরের",
+        "কেন্দ্রের",
+        "কাছে?"
+      ],
+      "en": [
+        "And",
+        "what",
+        "is",
+        "the",
+        "hotel",
+        "like?",
+        "Is",
+        "it",
+        "near",
+        "the",
+        "centre?"
+      ],
+      "de": [
+        {
+          "t": "Und",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "wie",
+          "b": [
+            2
+          ],
+          "e": [
+            1
+          ],
+          "l": "wie",
+          "gb": "কেমন",
+          "ge": "what",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "das",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "das",
+          "gb": "হোটেলটা",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "Hotel?",
+          "b": [
+            1
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "Hotel",
+          "gb": "হোটেলটা",
+          "ge": "hotel like",
+          "n": ""
+        },
+        {
+          "t": "Ist",
+          "b": [],
+          "e": [
+            6
+          ],
+          "l": "Ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "Is",
+          "n": ""
+        },
+        {
+          "t": "es",
+          "b": [
+            3
+          ],
+          "e": [
+            7
+          ],
+          "l": "es",
+          "gb": "ওটা",
+          "ge": "it",
+          "n": ""
+        },
+        {
+          "t": "nah",
+          "b": [
+            7
+          ],
+          "e": [
+            8
+          ],
+          "l": "nah",
+          "gb": "কাছে",
+          "ge": "near",
+          "n": ""
+        },
+        {
+          "t": "am",
+          "b": [],
+          "e": [],
+          "l": "am",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Zentrum?",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "Zentrum",
+          "gb": "শহরের কেন্দ্রের",
+          "ge": "the centre",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "হ্যাঁ,",
+        "হোটেলটা",
+        "কেন্দ্রের",
+        "আরও",
+        "কাছে,",
+        "আর",
+        "এখানে",
+        "সকালের",
+        "নাস্তা",
+        "আছে।",
+        "কিন্তু",
+        "ওটা",
+        "বেশি",
+        "দামি।"
+      ],
+      "en": [
+        "Yes,",
+        "the",
+        "hotel",
+        "is",
+        "closer",
+        "to",
+        "the",
+        "centre,",
+        "and",
+        "breakfast",
+        "is",
+        "included.",
+        "But",
+        "it",
+        "is",
+        "more",
+        "expensive."
+      ],
+      "de": [
+        {
+          "t": "Ja,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ja",
+          "gb": "হ্যাঁ",
+          "ge": "Yes",
+          "n": ""
+        },
+        {
+          "t": "es",
+          "b": [
+            1
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "es",
+          "gb": "হোটেলটা",
+          "ge": "the hotel",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "näher",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "nah",
+          "gb": "আরও কাছে",
+          "ge": "closer",
+          "n": "nah → näher (Umlaut)"
+        },
+        {
+          "t": "am",
+          "b": [
+            2
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "am",
+          "gb": "কেন্দ্রের",
+          "ge": "to the",
+          "n": ""
+        },
+        {
+          "t": "Zentrum,",
+          "b": [
+            2
+          ],
+          "e": [
+            7
+          ],
+          "l": "Zentrum",
+          "gb": "কেন্দ্রের",
+          "ge": "centre",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            5
+          ],
+          "e": [
+            8
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "Frühstück",
+          "b": [
+            8
+          ],
+          "e": [
+            9
+          ],
+          "l": "Frühstück",
+          "gb": "নাস্তা",
+          "ge": "breakfast",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [
+            9
+          ],
+          "e": [
+            10
+          ],
+          "l": "ist",
+          "gb": "আছে",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "dabei.",
+          "b": [],
+          "e": [
+            11
+          ],
+          "l": "dabei",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "included",
+          "n": ""
+        },
+        {
+          "t": "Aber",
+          "b": [
+            10
+          ],
+          "e": [
+            12
+          ],
+          "l": "Aber",
+          "gb": "কিন্তু",
+          "ge": "But",
+          "n": ""
+        },
+        {
+          "t": "es",
+          "b": [
+            11
+          ],
+          "e": [
+            13
+          ],
+          "l": "es",
+          "gb": "ওটা",
+          "ge": "it",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            14
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "teurer.",
+          "b": [
+            12,
+            13
+          ],
+          "e": [
+            15,
+            16
+          ],
+          "l": "teuer",
+          "gb": "বেশি দামি",
+          "ge": "more expensive",
+          "n": "teuer → teurer (e বাদ)"
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমাদের",
+        "জন্য",
+        "কোনটা",
+        "সবচেয়ে",
+        "ভালো?"
+      ],
+      "en": [
+        "Which",
+        "is",
+        "the",
+        "best",
+        "for",
+        "us?"
+      ],
+      "de": [
+        {
+          "t": "Was",
+          "b": [
+            2
+          ],
+          "e": [
+            0
+          ],
+          "l": "Was",
+          "gb": "কোনটা",
+          "ge": "Which",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "für",
+          "b": [
+            1
+          ],
+          "e": [
+            4
+          ],
+          "l": "für",
+          "gb": "জন্য",
+          "ge": "for",
+          "n": ""
+        },
+        {
+          "t": "uns",
+          "b": [
+            0
+          ],
+          "e": [
+            5
+          ],
+          "l": "uns",
+          "gb": "আমাদের",
+          "ge": "us",
+          "n": ""
+        },
+        {
+          "t": "am besten?",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "gut",
+          "gb": "সবচেয়ে ভালো",
+          "ge": "the best",
+          "n": "gut – besser – am besten (অনিয়মিত)"
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "আমার",
+        "মতে",
+        "ইয়ুথ",
+        "হোস্টেল",
+        "সবচেয়ে",
+        "সুবিধাজনক।",
+        "আমি",
+        "সবচেয়ে",
+        "বেশি",
+        "সস্তা",
+        "জায়গা",
+        "পছন্দ",
+        "করি।"
+      ],
+      "en": [
+        "In",
+        "my",
+        "opinion",
+        "the",
+        "youth",
+        "hostel",
+        "is",
+        "the",
+        "most",
+        "affordable.",
+        "I",
+        "like",
+        "cheap",
+        "places",
+        "the",
+        "most."
+      ],
+      "de": [
+        {
+          "t": "Meiner",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Meiner",
+          "gb": "আমার",
+          "ge": "In my",
+          "n": ""
+        },
+        {
+          "t": "Meinung",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "Meinung",
+          "gb": "মতে",
+          "ge": "opinion",
+          "n": ""
+        },
+        {
+          "t": "nach",
+          "b": [],
+          "e": [],
+          "l": "nach",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            6
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "die Jugendherberge",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            3,
+            4,
+            5
+          ],
+          "l": "Jugendherberge",
+          "gb": "ইয়ুথ হোস্টেল",
+          "ge": "the youth hostel",
+          "n": ""
+        },
+        {
+          "t": "am günstigsten.",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            7,
+            8,
+            9
+          ],
+          "l": "günstig",
+          "gb": "সবচেয়ে সুবিধাজনক",
+          "ge": "the most affordable",
+          "n": "Superlativ: am + -sten (am günstigsten)"
+        },
+        {
+          "t": "Ich",
+          "b": [
+            6
+          ],
+          "e": [
+            10
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "mag",
+          "b": [
+            11,
+            12
+          ],
+          "e": [
+            11
+          ],
+          "l": "mag",
+          "gb": "পছন্দ করি",
+          "ge": "like",
+          "n": ""
+        },
+        {
+          "t": "billige",
+          "b": [
+            9
+          ],
+          "e": [
+            12
+          ],
+          "l": "billige",
+          "gb": "সস্তা",
+          "ge": "cheap",
+          "n": ""
+        },
+        {
+          "t": "Zimmer",
+          "b": [
+            10
+          ],
+          "e": [
+            13
+          ],
+          "l": "Zimmer",
+          "gb": "জায়গা",
+          "ge": "places",
+          "n": ""
+        },
+        {
+          "t": "am liebsten.",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            14,
+            15
+          ],
+          "l": "gern",
+          "gb": "সবচেয়ে বেশি",
+          "ge": "the most",
+          "n": "gern – lieber – am liebsten"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "Komparativ (-er + als) ও Superlativ (am -sten)",
+      "head": [
+        "Grundform",
+        "Komparativ",
+        "Superlativ"
+      ],
+      "rows": [
+        [
+          "billig",
+          "billiger",
+          "am billigsten"
+        ],
+        [
+          "klein",
+          "kleiner",
+          "am kleinsten"
+        ],
+        [
+          "schnell",
+          "schneller",
+          "am schnellsten"
+        ],
+        [
+          "teuer",
+          "teurer",
+          "am teuersten"
+        ],
+        [
+          "groß",
+          "größer",
+          "am größten"
+        ],
+        [
+          "nah",
+          "näher",
+          "am nächsten"
+        ],
+        [
+          "alt",
+          "älter",
+          "am ältesten"
+        ],
+        [
+          "jung",
+          "jünger",
+          "am jüngsten"
+        ]
+      ],
+      "note": "একাক্ষর বিশেষণে প্রায়ই Umlaut আসে (groß → größer, alt → älter)। d, t, z, s, ß-এ শেষ হলে -esten (am ältesten, am kürzesten)।"
+    },
+    {
+      "type": "table",
+      "title": "অনিয়মিত তুলনা — মুখস্থ করুন",
+      "head": [
+        "Grundform",
+        "Komparativ",
+        "Superlativ"
+      ],
+      "rows": [
+        [
+          "gut",
+          "besser",
+          "am besten"
+        ],
+        [
+          "viel",
+          "mehr",
+          "am meisten"
+        ],
+        [
+          "gern",
+          "lieber",
+          "am liebsten"
+        ],
+        [
+          "hoch",
+          "höher",
+          "am höchsten"
+        ]
+      ],
+      "note": "Ich trinke gern Tee, lieber Kaffee, am liebsten Wasser."
+    },
+    {
+      "type": "table",
+      "title": "তুলনার বাক্য",
+      "head": [
+        "ধরন",
+        "উদাহরণ"
+      ],
+      "rows": [
+        [
+          "ছোট ≠ বড় (als)",
+          "Das Hotel ist teurer als die Jugendherberge."
+        ],
+        [
+          "সমান (so … wie)",
+          "Das Zimmer ist so groß wie das Zimmer im Hotel."
+        ],
+        [
+          "সবচেয়ে (am -sten)",
+          "Die Jugendherberge ist am billigsten."
+        ],
+        [
+          "বিশেষ্যের আগে",
+          "das billigste Zimmer (Superlativ + -e Endung)"
+        ]
+      ],
+      "note": "als = অসমান, wie = সমান। „besser wie“ ভুল — „besser als“।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "günstig",
+      "options": [
+        "বড়",
+        "কমদামি",
+        "কাছে",
+        "সিঙ্গেল রুম"
+      ],
+      "answer": 1,
+      "why": "günstig = কমদামি।",
+      "word": "guenstig"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "die Übernachtung",
+      "options": [
+        "কাছে",
+        "সকালের নাস্তা",
+        "সস্তা",
+        "রাত্রিযাপন"
+      ],
+      "answer": 3,
+      "why": "die Übernachtung = রাত্রিযাপন।",
+      "word": "uebernachtung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "nah",
+      "options": [
+        "বড়",
+        "সিঙ্গেল রুম",
+        "ইয়ুথ হোস্টেল",
+        "কাছে"
+      ],
+      "answer": 3,
+      "why": "nah = কাছে।",
+      "word": "nah"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Jugendherberge",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Jugendherberge। বহুবচন: die Jugendherbergen।",
+      "word": "jugendherberge"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„billig“-এর Komparativ কী?",
+      "options": [
+        "billiger",
+        "billigerer",
+        "mehr billig",
+        "am billigsten"
+      ],
+      "answer": 0,
+      "why": "billig + er।",
+      "word": "billig"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„groß“-এর Komparativ কী?",
+      "options": [
+        "größer",
+        "großer",
+        "gröster",
+        "am größten"
+      ],
+      "answer": 0,
+      "why": "Umlaut + er।",
+      "word": "gross"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Das Frühstück im Hotel ist ___ als in der Jugendherberge.",
+      "options": [
+        "besser",
+        "gutter",
+        "mehr gut",
+        "am besten"
+      ],
+      "answer": 0,
+      "why": "gut → besser (অনিয়মিত)।",
+      "word": "fruehstueck"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Das Hotel ist teurer ___ die Jugendherberge.",
+      "options": [
+        "als",
+        "wie",
+        "dass",
+        "wenn"
+      ],
+      "answer": 0,
+      "why": "Komparativ-এর পরে als।",
+      "word": "teuer"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Das Zimmer ist so klein ___ meins.",
+      "options": [
+        "wie",
+        "als",
+        "dass",
+        "wer"
+      ],
+      "answer": 0,
+      "why": "সমান তুলনা: so … wie।",
+      "word": "klein"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „ইয়ুথ হোস্টেল সবচেয়ে সস্তা।“",
+      "tiles": [
+        "am billigsten.",
+        "ist",
+        "Die Jugendherberge"
+      ],
+      "answer": [
+        "Die Jugendherberge",
+        "ist",
+        "am billigsten."
+      ],
+      "why": "Superlativ: am + -sten।",
+      "word": "billig"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

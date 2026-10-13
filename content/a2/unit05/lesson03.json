@@ -1,0 +1,1315 @@
+{
+  "level": "A2",
+  "unit": 5,
+  "minutes": 16,
+  "lesson": 3,
+  "id": "a2-u05-l03",
+  "title": {
+    "de": "Die Besichtigung",
+    "bn": "ফ্ল্যাট দেখতে যাওয়া: পরোক্ষ প্রশ্ন (ob, wie, wann)",
+    "en": "The viewing: indirect questions"
+  },
+  "hook": {
+    "de": "Wer fragt, der führt.",
+    "who": "Redensart",
+    "bn": "যে প্রশ্ন করে, সে-ই এগিয়ে থাকে।",
+    "en": "Whoever asks leads."
+  },
+  "goals": [
+    "ফ্ল্যাট দেখার সময় প্রশ্ন করা",
+    "ভদ্র পরোক্ষ প্রশ্ন: Können Sie mir sagen, wie hoch …?",
+    "Ja/Nein-প্রশ্নে ob, W-প্রশ্নে wie/wann/wo",
+    "পরোক্ষ প্রশ্নে ক্রিয়া শেষে"
+  ],
+  "words": [
+    {
+      "id": "besichtigung",
+      "de": "Besichtigung",
+      "art": "die",
+      "pl": "die Besichtigungen",
+      "pos": "বিশেষ্য",
+      "bn": "ফ্ল্যাট বা জায়গা দেখতে যাওয়া",
+      "en": "viewing"
+    },
+    {
+      "id": "haustier",
+      "de": "Haustier",
+      "art": "das",
+      "pl": "die Haustiere",
+      "pos": "বিশেষ্য",
+      "bn": "পোষা প্রাণী",
+      "en": "pet"
+    },
+    {
+      "id": "erlaubt",
+      "de": "erlaubt",
+      "pos": "বিশেষণ",
+      "bn": "অনুমোদিত",
+      "en": "allowed"
+    },
+    {
+      "id": "einziehen",
+      "de": "einziehen",
+      "pos": "ক্রিয়া · ist eingezogen",
+      "bn": "নতুন বাসায় উঠা",
+      "en": "to move in"
+    },
+    {
+      "id": "mietvertrag",
+      "de": "Mietvertrag",
+      "art": "der",
+      "pl": "die Mietverträge",
+      "pos": "বিশেষ্য",
+      "bn": "ভাড়াচুক্তি",
+      "en": "rental contract"
+    },
+    {
+      "id": "unterschreiben",
+      "de": "unterschreiben",
+      "pos": "ক্রিয়া · hat unterschrieben",
+      "bn": "সই করা",
+      "en": "to sign"
+    },
+    {
+      "id": "inklusive",
+      "de": "inklusive",
+      "pos": "অব্যয়/ক্রিয়াবিশেষণ",
+      "bn": "অন্তর্ভুক্ত",
+      "en": "included, including"
+    },
+    {
+      "id": "heizung",
+      "de": "Heizung",
+      "art": "die",
+      "pl": "die Heizungen",
+      "pos": "বিশেষ্য",
+      "bn": "হিটার, গরম করার ব্যবস্থা",
+      "en": "heating"
+    },
+    {
+      "id": "ob",
+      "de": "ob",
+      "pos": "সংযোজক",
+      "bn": "কিনা",
+      "en": "whether, if"
+    },
+    {
+      "id": "katze",
+      "de": "Katze",
+      "art": "die",
+      "pl": "die Katzen",
+      "pos": "বিশেষ্য",
+      "bn": "বিড়াল",
+      "en": "cat"
+    },
+    {
+      "id": "hund",
+      "de": "Hund",
+      "art": "der",
+      "pl": "die Hunde",
+      "pos": "বিশেষ্য",
+      "bn": "কুকুর",
+      "en": "dog"
+    },
+    {
+      "id": "hereinkommen",
+      "de": "hereinkommen",
+      "pos": "ক্রিয়া · ist hereingekommen",
+      "bn": "ভিতরে আসা",
+      "en": "to come in"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Herr Koch",
+      "bn": [
+        "স্বাগতম!",
+        "ভিতরে",
+        "আসুন।"
+      ],
+      "en": [
+        "Welcome!",
+        "Come",
+        "in."
+      ],
+      "de": [
+        {
+          "t": "Willkommen!",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Willkommen",
+          "gb": "স্বাগতম",
+          "ge": "Welcome",
+          "n": ""
+        },
+        {
+          "t": "Kommen",
+          "b": [
+            2
+          ],
+          "e": [
+            1
+          ],
+          "l": "hereinkommen",
+          "gb": "আসুন",
+          "ge": "Come",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [],
+          "e": [],
+          "l": "Sie",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "herein.",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "herein",
+          "gb": "ভিতরে",
+          "ge": "in",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "ধন্যবাদ।",
+        "আপনি",
+        "কি",
+        "আমাকে",
+        "বলতে",
+        "পারেন,",
+        "আনুষঙ্গিক",
+        "খরচ",
+        "কত?"
+      ],
+      "en": [
+        "Thank",
+        "you.",
+        "Can",
+        "you",
+        "tell",
+        "me",
+        "how",
+        "high",
+        "the",
+        "extra",
+        "costs",
+        "are?"
+      ],
+      "de": [
+        {
+          "t": "Danke.",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Danke",
+          "gb": "ধন্যবাদ",
+          "ge": "Thank you",
+          "n": ""
+        },
+        {
+          "t": "Können",
+          "b": [
+            5
+          ],
+          "e": [
+            2
+          ],
+          "l": "Können",
+          "gb": "পারেন",
+          "ge": "Can",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "Sie",
+          "gb": "আপনি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "mir",
+          "b": [
+            3
+          ],
+          "e": [
+            5
+          ],
+          "l": "mir",
+          "gb": "আমাকে",
+          "ge": "me",
+          "n": ""
+        },
+        {
+          "t": "sagen,",
+          "b": [
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "sagen",
+          "gb": "বলতে",
+          "ge": "tell",
+          "n": ""
+        },
+        {
+          "t": "wie",
+          "b": [
+            8
+          ],
+          "e": [
+            6
+          ],
+          "l": "wie",
+          "gb": "কত",
+          "ge": "how",
+          "n": "পরোক্ষ প্রশ্ন: wie hoch die Nebenkosten sind — ক্রিয়া শেষে"
+        },
+        {
+          "t": "hoch",
+          "b": [],
+          "e": [
+            7
+          ],
+          "l": "hoch",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "high",
+          "n": ""
+        },
+        {
+          "t": "die",
+          "b": [],
+          "e": [
+            8
+          ],
+          "l": "die",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "Nebenkosten",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "Nebenkosten",
+          "gb": "আনুষঙ্গিক খরচ",
+          "ge": "extra costs",
+          "n": ""
+        },
+        {
+          "t": "sind?",
+          "b": [],
+          "e": [
+            11
+          ],
+          "l": "sind",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "are",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Herr Koch",
+      "bn": [
+        "আনুষঙ্গিক",
+        "খরচ",
+        "মাসে",
+        "১৫০",
+        "ইউরো।",
+        "হিটার",
+        "ও",
+        "পানি",
+        "অন্তর্ভুক্ত।"
+      ],
+      "en": [
+        "The",
+        "extra",
+        "costs",
+        "are",
+        "150",
+        "euros",
+        "per",
+        "month.",
+        "Heating",
+        "and",
+        "water",
+        "are",
+        "included."
+      ],
+      "de": [
+        {
+          "t": "Die",
+          "b": [],
+          "e": [
+            0
+          ],
+          "l": "Die",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "The",
+          "n": ""
+        },
+        {
+          "t": "Nebenkosten",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "Nebenkosten",
+          "gb": "আনুষঙ্গিক খরচ",
+          "ge": "extra costs",
+          "n": ""
+        },
+        {
+          "t": "sind",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "sind",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "are",
+          "n": ""
+        },
+        {
+          "t": "hundertfünfzig Euro",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "hundertfünfzig Euro",
+          "gb": "১৫০ ইউরো",
+          "ge": "150 euros",
+          "n": ""
+        },
+        {
+          "t": "im Monat.",
+          "b": [
+            2
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "im Monat",
+          "gb": "মাসে",
+          "ge": "per month",
+          "n": ""
+        },
+        {
+          "t": "Heizung",
+          "b": [
+            5
+          ],
+          "e": [
+            8
+          ],
+          "l": "Heizung",
+          "gb": "হিটার",
+          "ge": "Heating",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            6
+          ],
+          "e": [
+            9
+          ],
+          "l": "und",
+          "gb": "ও",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "Wasser",
+          "b": [
+            7
+          ],
+          "e": [
+            10
+          ],
+          "l": "Wasser",
+          "gb": "পানি",
+          "ge": "water",
+          "n": ""
+        },
+        {
+          "t": "sind",
+          "b": [],
+          "e": [
+            11
+          ],
+          "l": "sind",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "are",
+          "n": ""
+        },
+        {
+          "t": "inklusive.",
+          "b": [
+            8
+          ],
+          "e": [
+            12
+          ],
+          "l": "inklusive",
+          "gb": "অন্তর্ভুক্ত",
+          "ge": "included",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "জানতে",
+        "চাই,",
+        "পোষা",
+        "প্রাণী",
+        "রাখা",
+        "যায়",
+        "কিনা।"
+      ],
+      "en": [
+        "I",
+        "would",
+        "like",
+        "to",
+        "know",
+        "whether",
+        "pets",
+        "are",
+        "allowed."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "möchte",
+          "b": [
+            2
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "möchte",
+          "gb": "চাই",
+          "ge": "would like",
+          "n": ""
+        },
+        {
+          "t": "wissen,",
+          "b": [
+            1
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "wissen",
+          "gb": "জানতে",
+          "ge": "to know",
+          "n": ""
+        },
+        {
+          "t": "ob",
+          "b": [
+            7
+          ],
+          "e": [
+            5
+          ],
+          "l": "ob",
+          "gb": "কিনা",
+          "ge": "whether",
+          "n": "ob = কিনা (Ja/Nein-Frage → ob-Satz)"
+        },
+        {
+          "t": "man",
+          "b": [],
+          "e": [],
+          "l": "man",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Haustiere",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            6
+          ],
+          "l": "Haustier",
+          "gb": "পোষা প্রাণী",
+          "ge": "pets",
+          "n": ""
+        },
+        {
+          "t": "haben",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            7
+          ],
+          "l": "haben",
+          "gb": "রাখা যায়",
+          "ge": "are",
+          "n": ""
+        },
+        {
+          "t": "darf.",
+          "b": [],
+          "e": [
+            8
+          ],
+          "l": "dürfen",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "allowed",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Herr Koch",
+      "bn": [
+        "বিড়াল",
+        "অনুমোদিত,",
+        "কুকুর",
+        "দুঃখজনকভাবে",
+        "নয়।"
+      ],
+      "en": [
+        "Cats",
+        "are",
+        "allowed,",
+        "dogs",
+        "unfortunately",
+        "not."
+      ],
+      "de": [
+        {
+          "t": "Katzen",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Katze",
+          "gb": "বিড়াল",
+          "ge": "Cats",
+          "n": ""
+        },
+        {
+          "t": "sind",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "sind",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "are",
+          "n": ""
+        },
+        {
+          "t": "erlaubt,",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "erlaubt",
+          "gb": "অনুমোদিত",
+          "ge": "allowed",
+          "n": ""
+        },
+        {
+          "t": "Hunde",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "Hund",
+          "gb": "কুকুর",
+          "ge": "dogs",
+          "n": ""
+        },
+        {
+          "t": "leider",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "leider",
+          "gb": "দুঃখজনকভাবে",
+          "ge": "unfortunately",
+          "n": ""
+        },
+        {
+          "t": "nicht.",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "nicht",
+          "gb": "নয়",
+          "ge": "not",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আর",
+        "আমি",
+        "কখন",
+        "নতুন",
+        "বাসায়",
+        "উঠতে",
+        "পারব?"
+      ],
+      "en": [
+        "And",
+        "when",
+        "can",
+        "I",
+        "move",
+        "in?"
+      ],
+      "de": [
+        {
+          "t": "Und",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "wann",
+          "b": [
+            2
+          ],
+          "e": [
+            1
+          ],
+          "l": "wann",
+          "gb": "কখন",
+          "ge": "when",
+          "n": ""
+        },
+        {
+          "t": "kann",
+          "b": [
+            6
+          ],
+          "e": [
+            2
+          ],
+          "l": "kann",
+          "gb": "পারব",
+          "ge": "can",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "einziehen?",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "einziehen",
+          "gb": "বাসায় উঠতে",
+          "ge": "move in",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Herr Koch",
+      "bn": [
+        "পহেলা",
+        "জুন",
+        "থেকে।",
+        "আপনাকে",
+        "ভাড়াচুক্তিতে",
+        "সই",
+        "করতে",
+        "হবে।"
+      ],
+      "en": [
+        "From",
+        "the",
+        "first",
+        "of",
+        "June.",
+        "You",
+        "have",
+        "to",
+        "sign",
+        "the",
+        "rental",
+        "contract."
+      ],
+      "de": [
+        {
+          "t": "Ab",
+          "b": [
+            2
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ab",
+          "gb": "থেকে",
+          "ge": "From",
+          "n": ""
+        },
+        {
+          "t": "dem",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "dem",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "ersten",
+          "b": [
+            0
+          ],
+          "e": [
+            2
+          ],
+          "l": "ersten",
+          "gb": "পহেলা",
+          "ge": "first",
+          "n": ""
+        },
+        {
+          "t": "Juni.",
+          "b": [
+            1
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "Juni",
+          "gb": "জুন",
+          "ge": "of June",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [
+            3
+          ],
+          "e": [
+            5
+          ],
+          "l": "Sie",
+          "gb": "আপনাকে",
+          "ge": "You",
+          "n": ""
+        },
+        {
+          "t": "müssen",
+          "b": [
+            7
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "müssen",
+          "gb": "হবে",
+          "ge": "have to",
+          "n": ""
+        },
+        {
+          "t": "den",
+          "b": [],
+          "e": [
+            9
+          ],
+          "l": "den",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "Mietvertrag",
+          "b": [
+            4
+          ],
+          "e": [
+            10,
+            11
+          ],
+          "l": "Mietvertrag",
+          "gb": "ভাড়াচুক্তিতে",
+          "ge": "rental contract",
+          "n": ""
+        },
+        {
+          "t": "unterschreiben.",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            8
+          ],
+          "l": "unterschreiben",
+          "gb": "সই করতে",
+          "ge": "sign",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "কাল",
+        "আপনাকে",
+        "ফোন",
+        "করে",
+        "জানাব।"
+      ],
+      "en": [
+        "I",
+        "will",
+        "call",
+        "you",
+        "tomorrow",
+        "and",
+        "let",
+        "you",
+        "know."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "rufe",
+          "b": [
+            3
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "rufe",
+          "gb": "ফোন",
+          "ge": "will call",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "Sie",
+          "gb": "আপনাকে",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "morgen",
+          "b": [
+            1
+          ],
+          "e": [
+            4
+          ],
+          "l": "morgen",
+          "gb": "কাল",
+          "ge": "tomorrow",
+          "n": ""
+        },
+        {
+          "t": "an",
+          "b": [
+            4
+          ],
+          "e": [],
+          "l": "an",
+          "gb": "করে",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [],
+          "e": [
+            5
+          ],
+          "l": "und",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "sage",
+          "b": [
+            5
+          ],
+          "e": [
+            6
+          ],
+          "l": "sage",
+          "gb": "জানাব",
+          "ge": "let",
+          "n": ""
+        },
+        {
+          "t": "Ihnen",
+          "b": [],
+          "e": [
+            7
+          ],
+          "l": "Ihnen",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "Bescheid.",
+          "b": [],
+          "e": [
+            8
+          ],
+          "l": "Bescheid",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "know",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "order",
+      "title": "পরোক্ষ প্রশ্ন: ক্রিয়া শেষে",
+      "text": "সরাসরি প্রশ্ন ভদ্রভাবে করতে „Können Sie mir sagen, …?“ বা „Ich möchte wissen, …“ দিয়ে শুরু করুন। প্রশ্নশব্দ (wie, wann, wo) বা ob-এর পরে বাক্য — ক্রিয়া একদম শেষে।",
+      "de": [
+        {
+          "t": "Können Sie mir sagen,"
+        },
+        {
+          "t": "wie hoch"
+        },
+        {
+          "t": "die Nebenkosten"
+        },
+        {
+          "t": "sind?",
+          "v": true
+        }
+      ],
+      "bn": [
+        {
+          "t": "আপনি কি বলতে পারেন,"
+        },
+        {
+          "t": "আনুষঙ্গিক খরচ"
+        },
+        {
+          "t": "কত?",
+          "v": true
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "সরাসরি → পরোক্ষ প্রশ্ন",
+      "head": [
+        "সরাসরি",
+        "পরোক্ষ (ভদ্র)"
+      ],
+      "rows": [
+        [
+          "Wie hoch ist die Miete?",
+          "Können Sie mir sagen, wie hoch die Miete ist?"
+        ],
+        [
+          "Wann kann ich einziehen?",
+          "Ich möchte wissen, wann ich einziehen kann."
+        ],
+        [
+          "Darf man Haustiere haben?",
+          "Ich möchte wissen, ob man Haustiere haben darf."
+        ],
+        [
+          "Ist die Heizung inklusive?",
+          "Wissen Sie, ob die Heizung inklusive ist?"
+        ]
+      ],
+      "note": "Ja/Nein-প্রশ্ন → ob। W-প্রশ্ন (wie, wann, wo, was, warum) → সেই W-শব্দই থাকে। ক্রিয়া শেষে। কমা বাধ্যতামূলক।"
+    },
+    {
+      "type": "text",
+      "title": "ফ্ল্যাট দেখার সময় জরুরি প্রশ্ন",
+      "text": "Wie hoch sind die Nebenkosten? · Ist die Heizung inklusive? · Wie hoch ist die Kaution? · Ab wann ist die Wohnung frei? · Darf man Haustiere haben? · Gibt es einen Keller oder Fahrradraum? · Wie lange läuft der Mietvertrag? — এই প্রশ্নগুলো লিখে নিয়ে যান।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "der Mietvertrag",
+      "options": [
+        "পোষা প্রাণী",
+        "ভাড়াচুক্তি",
+        "নতুন বাসায় উঠা",
+        "অন্তর্ভুক্ত"
+      ],
+      "answer": 1,
+      "why": "der Mietvertrag = ভাড়াচুক্তি।",
+      "word": "mietvertrag"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "einziehen",
+      "options": [
+        "ভাড়াচুক্তি",
+        "হিটার",
+        "কুকুর",
+        "নতুন বাসায় উঠা"
+      ],
+      "answer": 3,
+      "why": "einziehen = নতুন বাসায় উঠা।",
+      "word": "einziehen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "erlaubt",
+      "options": [
+        "বিড়াল",
+        "ফ্ল্যাট বা জায়গা দেখতে যাওয়া",
+        "ভাড়াচুক্তি",
+        "অনুমোদিত"
+      ],
+      "answer": 3,
+      "why": "erlaubt = অনুমোদিত।",
+      "word": "erlaubt"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Heizung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Heizung। বহুবচন: die Heizungen।",
+      "word": "heizung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক বাক্য কোনটি?",
+      "options": [
+        "Ich möchte wissen, ob man Haustiere haben darf.",
+        "Ich möchte wissen, ob darf man Haustiere haben.",
+        "Ich möchte wissen, ob man darf Haustiere haben.",
+        "Ich möchte wissen ob, man Haustiere haben darf."
+      ],
+      "answer": 0,
+      "why": "ob-Satz: ক্রিয়া শেষে।",
+      "word": "ob"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ich weiß nicht, ___ die Heizung inklusive ist.",
+      "options": [
+        "ob",
+        "wie",
+        "wer",
+        "dass"
+      ],
+      "answer": 0,
+      "why": "Ja/Nein-প্রশ্ন → ob।",
+      "word": "ob"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Können Sie mir sagen, ___ ich einziehen kann?",
+      "options": [
+        "wann",
+        "ob",
+        "was",
+        "weil"
+      ],
+      "answer": 0,
+      "why": "wann = কখন।",
+      "word": "einziehen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„inklusive“ মানে কী?",
+      "options": [
+        "অন্তর্ভুক্ত",
+        "আলাদা",
+        "অতিরিক্ত",
+        "বন্ধ"
+      ],
+      "answer": 0,
+      "why": "inklusive = included।",
+      "word": "inklusive"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„unterschreiben“ কী?",
+      "options": [
+        "সই করা",
+        "পড়া",
+        "লেখা",
+        "ডাকা"
+      ],
+      "answer": 0,
+      "why": "Unterschrift = সই।",
+      "word": "unterschreiben"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „আপনি কি বলতে পারেন, কখন আমি উঠতে পারব?“",
+      "tiles": [
+        "kann?",
+        "sagen,",
+        "Können",
+        "Sie",
+        "wann",
+        "ich",
+        "mir",
+        "einziehen"
+      ],
+      "answer": [
+        "Können",
+        "Sie",
+        "mir",
+        "sagen,",
+        "wann",
+        "ich",
+        "einziehen",
+        "kann?"
+      ],
+      "why": "wann ich einziehen kann — ক্রিয়া শেষে।",
+      "word": "einziehen"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

@@ -1,0 +1,1202 @@
+{
+  "level": "A2",
+  "unit": 3,
+  "minutes": 16,
+  "lesson": 1,
+  "id": "a2-u03-l01",
+  "title": {
+    "de": "Wo ist mein Reisepass?",
+    "bn": "Wechselpräpositionen: wo? / wohin?",
+    "en": "Two-way prepositions: where? and where to?"
+  },
+  "hook": {
+    "de": "Ordnung ist das halbe Leben.",
+    "who": "Redensart",
+    "bn": "গোছানো থাকাই অর্ধেক জীবন।",
+    "en": "Order is half of life."
+  },
+  "goals": [
+    "৯টি অব্যয়: in, an, auf, über, unter, vor, hinter, neben, zwischen",
+    "wo? → Dativ (স্থিতি), wohin? → Akkusativ (গতি)",
+    "stehen/stellen, liegen/legen, sitzen/setzen",
+    "in dem = im, an dem = am, in das = ins"
+  ],
+  "words": [
+    {
+      "id": "legen",
+      "de": "legen",
+      "pos": "ক্রিয়া · hat gelegt (+ Akk.)",
+      "bn": "শুইয়ে রাখা",
+      "en": "to lay, to put (flat)"
+    },
+    {
+      "id": "liegen",
+      "de": "liegen",
+      "pos": "ক্রিয়া · hat gelegen (+ Dat.)",
+      "bn": "শুয়ে থাকা, রাখা আছে",
+      "en": "to lie, to be located"
+    },
+    {
+      "id": "stellen",
+      "de": "stellen",
+      "pos": "ক্রিয়া · hat gestellt (+ Akk.)",
+      "bn": "দাঁড় করিয়ে রাখা",
+      "en": "to put (upright)"
+    },
+    {
+      "id": "stehen",
+      "de": "stehen",
+      "pos": "ক্রিয়া · hat gestanden (+ Dat.)",
+      "bn": "দাঁড়িয়ে থাকা, রাখা আছে",
+      "en": "to stand"
+    },
+    {
+      "id": "koffer",
+      "de": "Koffer",
+      "art": "der",
+      "pl": "die Koffer",
+      "pos": "বিশেষ্য",
+      "bn": "স্যুটকেস",
+      "en": "suitcase"
+    },
+    {
+      "id": "tasche",
+      "de": "Tasche",
+      "art": "die",
+      "pl": "die Taschen",
+      "pos": "বিশেষ্য",
+      "bn": "ব্যাগ",
+      "en": "bag"
+    },
+    {
+      "id": "reisepass",
+      "de": "Reisepass",
+      "art": "der",
+      "pl": "die Reisepässe",
+      "pos": "বিশেষ্য",
+      "bn": "পাসপোর্ট",
+      "en": "passport"
+    },
+    {
+      "id": "rucksack",
+      "de": "Rucksack",
+      "art": "der",
+      "pl": "die Rucksäcke",
+      "pos": "বিশেষ্য",
+      "bn": "পিঠের ব্যাগ",
+      "en": "backpack"
+    },
+    {
+      "id": "tuer",
+      "de": "Tür",
+      "art": "die",
+      "pl": "die Türen",
+      "pos": "বিশেষ্য",
+      "bn": "দরজা",
+      "en": "door"
+    },
+    {
+      "id": "neben",
+      "de": "neben",
+      "pos": "অব্যয়",
+      "bn": "পাশে",
+      "en": "next to"
+    },
+    {
+      "id": "zwischen",
+      "de": "zwischen",
+      "pos": "অব্যয়",
+      "bn": "মাঝে",
+      "en": "between"
+    },
+    {
+      "id": "hinter",
+      "de": "hinter",
+      "pos": "অব্যয়",
+      "bn": "পিছনে",
+      "en": "behind"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Muna",
+      "bn": [
+        "আমার",
+        "পাসপোর্ট",
+        "কোথায়?"
+      ],
+      "en": [
+        "Where",
+        "is",
+        "my",
+        "passport?"
+      ],
+      "de": [
+        {
+          "t": "Wo",
+          "b": [
+            2
+          ],
+          "e": [
+            0
+          ],
+          "l": "Wo",
+          "gb": "কোথায়",
+          "ge": "Where",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "mein",
+          "b": [
+            0
+          ],
+          "e": [
+            2
+          ],
+          "l": "mein",
+          "gb": "আমার",
+          "ge": "my",
+          "n": ""
+        },
+        {
+          "t": "Reisepass?",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "Reisepass",
+          "gb": "পাসপোর্ট",
+          "ge": "passport",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "ওটা",
+        "টেবিলের",
+        "উপর,",
+        "ব্যাগের",
+        "পাশে",
+        "আছে।"
+      ],
+      "en": [
+        "It",
+        "is",
+        "on",
+        "the",
+        "table,",
+        "next",
+        "to",
+        "the",
+        "bag."
+      ],
+      "de": [
+        {
+          "t": "Er",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Er",
+          "gb": "ওটা",
+          "ge": "It",
+          "n": ""
+        },
+        {
+          "t": "liegt",
+          "b": [
+            5
+          ],
+          "e": [
+            1
+          ],
+          "l": "liegen",
+          "gb": "আছে",
+          "ge": "is",
+          "n": "liegen = স্থিতি, তাই „wo?“ → Dativ"
+        },
+        {
+          "t": "auf",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "auf",
+          "gb": "উপর",
+          "ge": "on",
+          "n": ""
+        },
+        {
+          "t": "dem",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "der",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the",
+          "n": "der Tisch → auf dem Tisch (Dativ)"
+        },
+        {
+          "t": "Tisch,",
+          "b": [
+            1
+          ],
+          "e": [
+            4
+          ],
+          "l": "Tisch",
+          "gb": "টেবিলের",
+          "ge": "table",
+          "n": ""
+        },
+        {
+          "t": "neben",
+          "b": [
+            4
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "neben",
+          "gb": "পাশে",
+          "ge": "next to",
+          "n": ""
+        },
+        {
+          "t": "der",
+          "b": [],
+          "e": [
+            7
+          ],
+          "l": "der",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "Tasche.",
+          "b": [
+            3
+          ],
+          "e": [
+            8
+          ],
+          "l": "Tasche",
+          "gb": "ব্যাগের",
+          "ge": "bag",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "ধন্যবাদ!",
+        "আমি",
+        "ওটা",
+        "পিঠের",
+        "ব্যাগে",
+        "রাখছি।"
+      ],
+      "en": [
+        "Thanks!",
+        "I",
+        "am",
+        "putting",
+        "it",
+        "into",
+        "the",
+        "backpack."
+      ],
+      "de": [
+        {
+          "t": "Danke!",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Danke",
+          "gb": "ধন্যবাদ",
+          "ge": "Thanks",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "lege",
+          "b": [
+            5
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "legen",
+          "gb": "রাখছি",
+          "ge": "am putting",
+          "n": "legen = গতি, তাই „wohin?“ → Akkusativ"
+        },
+        {
+          "t": "ihn",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "er",
+          "gb": "ওটা",
+          "ge": "it",
+          "n": ""
+        },
+        {
+          "t": "in",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "in",
+          "gb": "ব্যাগে",
+          "ge": "into",
+          "n": ""
+        },
+        {
+          "t": "den",
+          "b": [],
+          "e": [
+            6
+          ],
+          "l": "der",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the",
+          "n": "der Rucksack → in den Rucksack (Akkusativ)"
+        },
+        {
+          "t": "Rucksack.",
+          "b": [
+            3
+          ],
+          "e": [
+            7
+          ],
+          "l": "Rucksack",
+          "gb": "পিঠের",
+          "ge": "backpack",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আর",
+        "স্যুটকেসটা",
+        "তুমি",
+        "কোথায়",
+        "রাখবে?"
+      ],
+      "en": [
+        "And",
+        "where",
+        "will",
+        "you",
+        "put",
+        "the",
+        "suitcase?"
+      ],
+      "de": [
+        {
+          "t": "Und",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "wohin",
+          "b": [
+            3
+          ],
+          "e": [
+            1
+          ],
+          "l": "wohin",
+          "gb": "কোথায়",
+          "ge": "where",
+          "n": ""
+        },
+        {
+          "t": "stellst",
+          "b": [
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "stellen",
+          "gb": "রাখবে",
+          "ge": "put",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "den",
+          "b": [],
+          "e": [],
+          "l": "den",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Koffer?",
+          "b": [
+            1
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "Koffer",
+          "gb": "স্যুটকেসটা",
+          "ge": "the suitcase",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "আমি",
+        "ওটা",
+        "দরজার",
+        "সামনে",
+        "রাখব।"
+      ],
+      "en": [
+        "I",
+        "will",
+        "put",
+        "it",
+        "in",
+        "front",
+        "of",
+        "the",
+        "door."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "stelle",
+          "b": [
+            4
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "stelle",
+          "gb": "রাখব",
+          "ge": "will put",
+          "n": ""
+        },
+        {
+          "t": "ihn",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "er",
+          "gb": "ওটা",
+          "ge": "it",
+          "n": ""
+        },
+        {
+          "t": "vor",
+          "b": [
+            3
+          ],
+          "e": [
+            4,
+            5,
+            6
+          ],
+          "l": "vor",
+          "gb": "সামনে",
+          "ge": "in front of",
+          "n": ""
+        },
+        {
+          "t": "die",
+          "b": [],
+          "e": [
+            7
+          ],
+          "l": "die",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "Tür.",
+          "b": [
+            2
+          ],
+          "e": [
+            8
+          ],
+          "l": "Tür",
+          "gb": "দরজার",
+          "ge": "door",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "তারপর",
+        "ওটা",
+        "দরজার",
+        "সামনে",
+        "থাকবে।",
+        "আমি",
+        "ব্যাগটা",
+        "ওর",
+        "পিছনে",
+        "রাখব।"
+      ],
+      "en": [
+        "Then",
+        "it",
+        "will",
+        "be",
+        "in",
+        "front",
+        "of",
+        "the",
+        "door.",
+        "I",
+        "will",
+        "put",
+        "the",
+        "bag",
+        "behind",
+        "it."
+      ],
+      "de": [
+        {
+          "t": "Dann",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Dann",
+          "gb": "তারপর",
+          "ge": "Then",
+          "n": ""
+        },
+        {
+          "t": "steht",
+          "b": [
+            4
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "stehen",
+          "gb": "থাকবে",
+          "ge": "will be",
+          "n": ""
+        },
+        {
+          "t": "er",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "er",
+          "gb": "ওটা",
+          "ge": "it",
+          "n": ""
+        },
+        {
+          "t": "vor",
+          "b": [
+            3
+          ],
+          "e": [
+            4,
+            5,
+            6
+          ],
+          "l": "vor",
+          "gb": "সামনে",
+          "ge": "in front of",
+          "n": ""
+        },
+        {
+          "t": "der",
+          "b": [],
+          "e": [
+            7
+          ],
+          "l": "der",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "Tür.",
+          "b": [
+            2
+          ],
+          "e": [
+            8
+          ],
+          "l": "Tür",
+          "gb": "দরজার",
+          "ge": "door",
+          "n": ""
+        },
+        {
+          "t": "Die Tasche",
+          "b": [
+            6
+          ],
+          "e": [
+            12,
+            13
+          ],
+          "l": "Tasche",
+          "gb": "ব্যাগটা",
+          "ge": "the bag",
+          "n": ""
+        },
+        {
+          "t": "stelle",
+          "b": [
+            9
+          ],
+          "e": [
+            10,
+            11
+          ],
+          "l": "stelle",
+          "gb": "রাখব",
+          "ge": "will put",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            5
+          ],
+          "e": [
+            9
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "hinter",
+          "b": [
+            8
+          ],
+          "e": [
+            14
+          ],
+          "l": "hinter",
+          "gb": "পিছনে",
+          "ge": "behind",
+          "n": ""
+        },
+        {
+          "t": "ihn.",
+          "b": [
+            7
+          ],
+          "e": [
+            15
+          ],
+          "l": "er",
+          "gb": "ওর",
+          "ge": "it",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "আমরা",
+        "কাল",
+        "হামবুর্গে",
+        "যাচ্ছি।",
+        "আমি",
+        "খুব",
+        "খুশি!"
+      ],
+      "en": [
+        "We",
+        "are",
+        "going",
+        "to",
+        "Hamburg",
+        "tomorrow.",
+        "I",
+        "am",
+        "so",
+        "happy!"
+      ],
+      "de": [
+        {
+          "t": "Wir",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Wir",
+          "gb": "আমরা",
+          "ge": "We",
+          "n": ""
+        },
+        {
+          "t": "fahren",
+          "b": [
+            3
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "fahren",
+          "gb": "যাচ্ছি",
+          "ge": "are going",
+          "n": ""
+        },
+        {
+          "t": "morgen",
+          "b": [
+            1
+          ],
+          "e": [
+            5
+          ],
+          "l": "morgen",
+          "gb": "কাল",
+          "ge": "tomorrow",
+          "n": ""
+        },
+        {
+          "t": "nach",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "nach",
+          "gb": "হামবুর্গে",
+          "ge": "to",
+          "n": ""
+        },
+        {
+          "t": "Hamburg.",
+          "b": [],
+          "e": [
+            4
+          ],
+          "l": "Hamburg",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "Hamburg",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            4
+          ],
+          "e": [
+            6
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "freue",
+          "b": [
+            6
+          ],
+          "e": [
+            9
+          ],
+          "l": "sich freuen",
+          "gb": "খুশি",
+          "ge": "happy",
+          "n": "sich freuen = খুশি হওয়া (reflexiv — Unit 4)"
+        },
+        {
+          "t": "mich!",
+          "b": [
+            5
+          ],
+          "e": [],
+          "l": "ich",
+          "gb": "নিজেকে",
+          "ge": "myself",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "নয়টি Wechselpräpositionen",
+      "head": [
+        "Präposition",
+        "অর্থ",
+        "উদাহরণ"
+      ],
+      "rows": [
+        [
+          "in",
+          "ভিতরে",
+          "in der Tasche / in die Tasche"
+        ],
+        [
+          "an",
+          "গায়ে লেগে",
+          "an der Wand / an die Wand"
+        ],
+        [
+          "auf",
+          "উপরে",
+          "auf dem Tisch / auf den Tisch"
+        ],
+        [
+          "über",
+          "উপর দিয়ে",
+          "über dem Tisch / über den Tisch"
+        ],
+        [
+          "unter",
+          "নিচে",
+          "unter dem Tisch / unter den Tisch"
+        ],
+        [
+          "vor",
+          "সামনে",
+          "vor der Tür / vor die Tür"
+        ],
+        [
+          "hinter",
+          "পিছনে",
+          "hinter dem Haus / hinter das Haus"
+        ],
+        [
+          "neben",
+          "পাশে",
+          "neben dem Bett / neben das Bett"
+        ],
+        [
+          "zwischen",
+          "মাঝে",
+          "zwischen dem Bett und dem Tisch"
+        ]
+      ],
+      "note": "এই ৯টি অব্যয় দুই রকম আর্টিকেল নেয়: স্থিতি (wo?) → Dativ, গতি/দিকে (wohin?) → Akkusativ।"
+    },
+    {
+      "type": "table",
+      "title": "wo? → Dativ, wohin? → Akkusativ",
+      "head": [
+        "",
+        "wo? (Dativ)",
+        "wohin? (Akkusativ)"
+      ],
+      "rows": [
+        [
+          "m: der Tisch",
+          "auf dem Tisch",
+          "auf den Tisch"
+        ],
+        [
+          "n: das Bett",
+          "auf dem Bett",
+          "auf das Bett"
+        ],
+        [
+          "f: die Tür",
+          "vor der Tür",
+          "vor die Tür"
+        ],
+        [
+          "Plural",
+          "auf den Tischen",
+          "auf die Tische"
+        ]
+      ],
+      "note": "Dativ-এ m ও n একই (dem), Akkusativ-এ f ও n অপরিবর্তিত (die, das)। শুধু m বদলায়: dem → den।"
+    },
+    {
+      "type": "table",
+      "title": "জোড়া ক্রিয়া: স্থিতি ও গতি",
+      "head": [
+        "স্থিতি (wo? + Dativ)",
+        "গতি (wohin? + Akkusativ)"
+      ],
+      "rows": [
+        [
+          "liegen — Der Pass liegt auf dem Tisch.",
+          "legen — Ich lege den Pass auf den Tisch."
+        ],
+        [
+          "stehen — Der Koffer steht vor der Tür.",
+          "stellen — Ich stelle den Koffer vor die Tür."
+        ],
+        [
+          "sitzen — Er sitzt auf dem Stuhl.",
+          "setzen — Er setzt sich auf den Stuhl."
+        ],
+        [
+          "hängen — Das Bild hängt an der Wand.",
+          "hängen — Ich hänge das Bild an die Wand."
+        ]
+      ],
+      "note": "সংক্ষেপ: in dem = im, an dem = am, in das = ins, an das = ans, auf das = aufs।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "der Koffer",
+      "options": [
+        "স্যুটকেস",
+        "পিঠের ব্যাগ",
+        "পাশে",
+        "পিছনে"
+      ],
+      "answer": 0,
+      "why": "der Koffer = স্যুটকেস।",
+      "word": "koffer"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "legen",
+      "options": [
+        "শুইয়ে রাখা",
+        "পিঠের ব্যাগ",
+        "মাঝে",
+        "দাঁড় করিয়ে রাখা"
+      ],
+      "answer": 0,
+      "why": "legen = শুইয়ে রাখা।",
+      "word": "legen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "hinter",
+      "options": [
+        "পিঠের ব্যাগ",
+        "মাঝে",
+        "পিছনে",
+        "দাঁড় করিয়ে রাখা"
+      ],
+      "answer": 2,
+      "why": "hinter = পিছনে।",
+      "word": "hinter"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Reisepass",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 0,
+      "why": "der Reisepass। বহুবচন: die Reisepässe।",
+      "word": "reisepass"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন (wo?)",
+      "sub": "Der Pass liegt auf ___ Tisch.",
+      "options": [
+        "dem",
+        "den",
+        "der",
+        "die"
+      ],
+      "answer": 0,
+      "why": "wo? → Dativ: auf dem Tisch।",
+      "word": "liegen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন (wohin?)",
+      "sub": "Ich lege den Pass in ___ Rucksack.",
+      "options": [
+        "den",
+        "dem",
+        "der",
+        "das"
+      ],
+      "answer": 0,
+      "why": "wohin? → Akkusativ: in den Rucksack।",
+      "word": "legen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন (wo?)",
+      "sub": "Der Koffer steht vor ___ Tür.",
+      "options": [
+        "der",
+        "die",
+        "den",
+        "dem"
+      ],
+      "answer": 0,
+      "why": "die Tür, wo? → Dativ f: der Tür।",
+      "word": "stehen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন (wohin?)",
+      "sub": "Ich stelle den Koffer vor ___ Tür.",
+      "options": [
+        "die",
+        "der",
+        "dem",
+        "den"
+      ],
+      "answer": 0,
+      "why": "wohin? → Akkusativ f: die Tür।",
+      "word": "stellen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„in dem“ = ?",
+      "options": [
+        "im",
+        "ins",
+        "am",
+        "zum"
+      ],
+      "answer": 0,
+      "why": "in dem → im।",
+      "word": "tasche"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „আমি পাসপোর্টটা ব্যাগে রাখছি।“",
+      "tiles": [
+        "Rucksack.",
+        "Reisepass",
+        "in",
+        "lege",
+        "den",
+        "Ich",
+        "den"
+      ],
+      "answer": [
+        "Ich",
+        "lege",
+        "den",
+        "Reisepass",
+        "in",
+        "den",
+        "Rucksack."
+      ],
+      "why": "legen → wohin? → Akkusativ (den)।",
+      "word": "rucksack"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

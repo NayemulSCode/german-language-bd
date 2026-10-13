@@ -1,0 +1,1259 @@
+{
+  "level": "A2",
+  "unit": 3,
+  "minutes": 16,
+  "lesson": 4,
+  "id": "a2-u03-l04",
+  "title": {
+    "de": "Wenn das Wetter schön ist …",
+    "bn": "শর্ত ও পরিকল্পনা: wenn, werden",
+    "en": "Conditions and plans: wenn and werden"
+  },
+  "hook": {
+    "de": "Wer nicht wagt, der nicht gewinnt.",
+    "who": "Sprichwort",
+    "bn": "যে সাহস করে না, সে জেতে না।",
+    "en": "Nothing ventured, nothing gained."
+  },
+  "goals": [
+    "wenn-বাক্য (শর্ত): Wenn es regnet, bleiben wir",
+    "wenn-বাক্য আগে এলে মূল বাক্যে ক্রিয়া প্রথমে",
+    "Futur I: ich werde … fahren",
+    "পরিকল্পনা ও সম্ভাবনা: vielleicht, hoffentlich, bestimmt"
+  ],
+  "words": [
+    {
+      "id": "wenn",
+      "de": "wenn",
+      "pos": "সংযোজক",
+      "bn": "যদি, যখন (পুনরাবৃত্ত)",
+      "en": "if, when"
+    },
+    {
+      "id": "wetter",
+      "de": "Wetter",
+      "art": "das",
+      "pos": "বিশেষ্য",
+      "bn": "আবহাওয়া",
+      "en": "weather"
+    },
+    {
+      "id": "regnen",
+      "de": "regnen",
+      "pos": "ক্রিয়া · hat geregnet",
+      "bn": "বৃষ্টি হওয়া",
+      "en": "to rain"
+    },
+    {
+      "id": "scheinen",
+      "de": "scheinen",
+      "pos": "ক্রিয়া · hat geschienen",
+      "bn": "আলো দেওয়া (সূর্য)",
+      "en": "to shine"
+    },
+    {
+      "id": "ausflug",
+      "de": "Ausflug",
+      "art": "der",
+      "pl": "die Ausflüge",
+      "pos": "বিশেষ্য",
+      "bn": "ঘুরতে যাওয়া, ছোট ট্রিপ",
+      "en": "excursion"
+    },
+    {
+      "id": "planen",
+      "de": "planen",
+      "pos": "ক্রিয়া · hat geplant",
+      "bn": "পরিকল্পনা করা",
+      "en": "to plan"
+    },
+    {
+      "id": "vielleicht",
+      "de": "vielleicht",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "হয়তো",
+      "en": "perhaps"
+    },
+    {
+      "id": "hoffentlich",
+      "de": "hoffentlich",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "আশা করি",
+      "en": "hopefully"
+    },
+    {
+      "id": "bestimmt",
+      "de": "bestimmt",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "নিশ্চয়ই",
+      "en": "certainly"
+    },
+    {
+      "id": "sehenswuerdigkeit",
+      "de": "Sehenswürdigkeit",
+      "art": "die",
+      "pl": "die Sehenswürdigkeiten",
+      "pos": "বিশেষ্য",
+      "bn": "দর্শনীয় স্থান",
+      "en": "sight"
+    },
+    {
+      "id": "museum",
+      "de": "Museum",
+      "art": "das",
+      "pl": "die Museen",
+      "pos": "বিশেষ্য",
+      "bn": "জাদুঘর",
+      "en": "museum"
+    },
+    {
+      "id": "hafen",
+      "de": "Hafen",
+      "art": "der",
+      "pl": "die Häfen",
+      "pos": "বিশেষ্য",
+      "bn": "বন্দর",
+      "en": "harbour"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Muna",
+      "bn": [
+        "আমরা",
+        "হামবুর্গে",
+        "কী",
+        "করব,",
+        "সাহেব?"
+      ],
+      "en": [
+        "What",
+        "will",
+        "we",
+        "do",
+        "in",
+        "Hamburg,",
+        "Saheb?"
+      ],
+      "de": [
+        {
+          "t": "Was",
+          "b": [
+            2
+          ],
+          "e": [
+            0
+          ],
+          "l": "Was",
+          "gb": "কী",
+          "ge": "What",
+          "n": ""
+        },
+        {
+          "t": "werden",
+          "b": [
+            3
+          ],
+          "e": [
+            1
+          ],
+          "l": "werden",
+          "gb": "করব",
+          "ge": "will",
+          "n": "werden + Infinitiv am Ende = Futur I"
+        },
+        {
+          "t": "wir",
+          "b": [
+            0
+          ],
+          "e": [
+            2
+          ],
+          "l": "wir",
+          "gb": "আমরা",
+          "ge": "we",
+          "n": ""
+        },
+        {
+          "t": "in",
+          "b": [],
+          "e": [
+            4
+          ],
+          "l": "in",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "in",
+          "n": ""
+        },
+        {
+          "t": "Hamburg",
+          "b": [
+            1
+          ],
+          "e": [
+            5
+          ],
+          "l": "Hamburg",
+          "gb": "হামবুর্গে",
+          "ge": "Hamburg",
+          "n": ""
+        },
+        {
+          "t": "machen,",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "machen",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "do",
+          "n": ""
+        },
+        {
+          "t": "Saheb?",
+          "s": "Saheb",
+          "b": [
+            4
+          ],
+          "e": [
+            6
+          ],
+          "l": "Saheb",
+          "gb": "সাহেব",
+          "ge": "Saheb",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আবহাওয়া",
+        "ভালো",
+        "থাকলে",
+        "আমরা",
+        "বন্দরে",
+        "যাব।"
+      ],
+      "en": [
+        "If",
+        "the",
+        "weather",
+        "is",
+        "nice,",
+        "we",
+        "will",
+        "go",
+        "to",
+        "the",
+        "harbour."
+      ],
+      "de": [
+        {
+          "t": "Wenn",
+          "b": [
+            2
+          ],
+          "e": [
+            0
+          ],
+          "l": "wenn",
+          "gb": "থাকলে",
+          "ge": "If",
+          "n": "wenn-Satz: ক্রিয়া শেষে"
+        },
+        {
+          "t": "das",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "das",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "Wetter",
+          "b": [
+            0
+          ],
+          "e": [
+            2
+          ],
+          "l": "Wetter",
+          "gb": "আবহাওয়া",
+          "ge": "weather",
+          "n": ""
+        },
+        {
+          "t": "schön",
+          "b": [
+            1
+          ],
+          "e": [
+            4
+          ],
+          "l": "schön",
+          "gb": "ভালো",
+          "ge": "nice",
+          "n": ""
+        },
+        {
+          "t": "ist,",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "gehen",
+          "b": [
+            5
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "gehen",
+          "gb": "যাব",
+          "ge": "will go",
+          "n": "wenn-Satz আগে এলে মূল বাক্যে ক্রিয়া প্রথমে: …, gehen wir"
+        },
+        {
+          "t": "wir",
+          "b": [
+            3
+          ],
+          "e": [
+            5
+          ],
+          "l": "wir",
+          "gb": "আমরা",
+          "ge": "we",
+          "n": ""
+        },
+        {
+          "t": "zum",
+          "b": [],
+          "e": [
+            8,
+            9
+          ],
+          "l": "zum",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "to the",
+          "n": ""
+        },
+        {
+          "t": "Hafen.",
+          "b": [
+            4
+          ],
+          "e": [
+            10
+          ],
+          "l": "Hafen",
+          "gb": "বন্দরে",
+          "ge": "harbour",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "আর",
+        "বৃষ্টি",
+        "হলে?"
+      ],
+      "en": [
+        "And",
+        "if",
+        "it",
+        "rains?"
+      ],
+      "de": [
+        {
+          "t": "Und",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "wenn",
+          "b": [
+            2
+          ],
+          "e": [
+            1
+          ],
+          "l": "wenn",
+          "gb": "হলে",
+          "ge": "if",
+          "n": ""
+        },
+        {
+          "t": "es",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "es",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "it",
+          "n": ""
+        },
+        {
+          "t": "regnet?",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "regnen",
+          "gb": "বৃষ্টি",
+          "ge": "rains",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "তাহলে",
+        "আমরা",
+        "জাদুঘরে",
+        "যাব।",
+        "বৃষ্টি",
+        "হলে",
+        "সেখানে",
+        "ভালো।"
+      ],
+      "en": [
+        "Then",
+        "we",
+        "will",
+        "go",
+        "to",
+        "a",
+        "museum.",
+        "It",
+        "is",
+        "nice",
+        "there",
+        "when",
+        "it",
+        "rains."
+      ],
+      "de": [
+        {
+          "t": "Dann",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Dann",
+          "gb": "তাহলে",
+          "ge": "Then",
+          "n": ""
+        },
+        {
+          "t": "besuchen",
+          "b": [
+            3
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "besuchen",
+          "gb": "যাব",
+          "ge": "will go",
+          "n": ""
+        },
+        {
+          "t": "wir",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "wir",
+          "gb": "আমরা",
+          "ge": "we",
+          "n": ""
+        },
+        {
+          "t": "ein",
+          "b": [
+            2
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "ein",
+          "gb": "জাদুঘরে",
+          "ge": "to a",
+          "n": ""
+        },
+        {
+          "t": "Museum.",
+          "b": [
+            2
+          ],
+          "e": [
+            6
+          ],
+          "l": "Museum",
+          "gb": "জাদুঘরে",
+          "ge": "museum",
+          "n": ""
+        },
+        {
+          "t": "Wenn",
+          "b": [
+            5
+          ],
+          "e": [
+            11
+          ],
+          "l": "wenn",
+          "gb": "হলে",
+          "ge": "when",
+          "n": ""
+        },
+        {
+          "t": "es",
+          "b": [],
+          "e": [
+            12
+          ],
+          "l": "es",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "it",
+          "n": ""
+        },
+        {
+          "t": "regnet,",
+          "b": [
+            4
+          ],
+          "e": [
+            13
+          ],
+          "l": "regnet",
+          "gb": "বৃষ্টি",
+          "ge": "rains",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [
+            7
+          ],
+          "e": [
+            8,
+            9
+          ],
+          "l": "ist",
+          "gb": "ভালো",
+          "ge": "is nice",
+          "n": ""
+        },
+        {
+          "t": "es",
+          "b": [
+            6
+          ],
+          "e": [
+            10
+          ],
+          "l": "es",
+          "gb": "সেখানে",
+          "ge": "there",
+          "n": ""
+        },
+        {
+          "t": "dort",
+          "b": [
+            6
+          ],
+          "e": [
+            10
+          ],
+          "l": "dort",
+          "gb": "সেখানে",
+          "ge": "there",
+          "n": ""
+        },
+        {
+          "t": "gut.",
+          "b": [
+            7
+          ],
+          "e": [],
+          "l": "gut",
+          "gb": "ভালো",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "হয়তো",
+        "আমি",
+        "কিছু",
+        "দর্শনীয়",
+        "স্থান",
+        "দেখতে",
+        "চাই।"
+      ],
+      "en": [
+        "Perhaps",
+        "I",
+        "would",
+        "like",
+        "to",
+        "see",
+        "some",
+        "sights."
+      ],
+      "de": [
+        {
+          "t": "Vielleicht",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "vielleicht",
+          "gb": "হয়তো",
+          "ge": "Perhaps",
+          "n": ""
+        },
+        {
+          "t": "möchte",
+          "b": [
+            6
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "möchte",
+          "gb": "চাই",
+          "ge": "would like",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "einige",
+          "b": [
+            2
+          ],
+          "e": [
+            6
+          ],
+          "l": "einige",
+          "gb": "কিছু",
+          "ge": "some",
+          "n": ""
+        },
+        {
+          "t": "Sehenswürdigkeiten",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            7
+          ],
+          "l": "Sehenswürdigkeit",
+          "gb": "দর্শনীয় স্থান",
+          "ge": "sights",
+          "n": ""
+        },
+        {
+          "t": "sehen.",
+          "b": [
+            5
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "sehen",
+          "gb": "দেখতে",
+          "ge": "to see",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "বন্দর",
+        "আর",
+        "পুরোনো",
+        "শহর",
+        "দেখব।",
+        "আমি",
+        "নিশ্চয়ই",
+        "প্রচুর",
+        "ছবি",
+        "তুলব।"
+      ],
+      "en": [
+        "I",
+        "will",
+        "see",
+        "the",
+        "harbour",
+        "and",
+        "the",
+        "old",
+        "town.",
+        "I",
+        "will",
+        "certainly",
+        "take",
+        "a",
+        "lot",
+        "of",
+        "photos."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "werde",
+          "b": [
+            5
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "werden",
+          "gb": "দেখব",
+          "ge": "will see",
+          "n": ""
+        },
+        {
+          "t": "den Hafen",
+          "b": [
+            1
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "Hafen",
+          "gb": "বন্দর",
+          "ge": "the harbour",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            2
+          ],
+          "e": [
+            5
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "die Altstadt",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            6,
+            7,
+            8
+          ],
+          "l": "die Altstadt",
+          "gb": "পুরোনো শহর",
+          "ge": "the old town",
+          "n": ""
+        },
+        {
+          "t": "sehen.",
+          "b": [],
+          "e": [],
+          "l": "sehen",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            6
+          ],
+          "e": [
+            9
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "werde",
+          "b": [
+            10
+          ],
+          "e": [
+            10
+          ],
+          "l": "werde",
+          "gb": "তুলব",
+          "ge": "will",
+          "n": ""
+        },
+        {
+          "t": "bestimmt",
+          "b": [
+            7
+          ],
+          "e": [
+            11
+          ],
+          "l": "bestimmt",
+          "gb": "নিশ্চয়ই",
+          "ge": "certainly",
+          "n": ""
+        },
+        {
+          "t": "viele",
+          "b": [
+            8
+          ],
+          "e": [
+            13,
+            14,
+            15
+          ],
+          "l": "viele",
+          "gb": "প্রচুর",
+          "ge": "a lot of",
+          "n": ""
+        },
+        {
+          "t": "Fotos",
+          "b": [
+            9
+          ],
+          "e": [
+            16
+          ],
+          "l": "Fotos",
+          "gb": "ছবি",
+          "ge": "photos",
+          "n": ""
+        },
+        {
+          "t": "machen.",
+          "b": [],
+          "e": [
+            12
+          ],
+          "l": "machen",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "take",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "আশা",
+        "করি",
+        "আবহাওয়া",
+        "ভালো",
+        "থাকবে!"
+      ],
+      "en": [
+        "I",
+        "hope",
+        "the",
+        "weather",
+        "will",
+        "be",
+        "good!"
+      ],
+      "de": [
+        {
+          "t": "Hoffentlich",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "hoffentlich",
+          "gb": "আশা করি",
+          "ge": "I hope",
+          "n": ""
+        },
+        {
+          "t": "wird",
+          "b": [
+            4
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "werden",
+          "gb": "থাকবে",
+          "ge": "will be",
+          "n": ""
+        },
+        {
+          "t": "das",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "das",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "Wetter",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "Wetter",
+          "gb": "আবহাওয়া",
+          "ge": "weather",
+          "n": ""
+        },
+        {
+          "t": "gut!",
+          "b": [
+            3
+          ],
+          "e": [
+            6
+          ],
+          "l": "gut",
+          "gb": "ভালো",
+          "ge": "good",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "order",
+      "title": "wenn-বাক্য: আগে এলে মূল বাক্যে ক্রিয়া প্রথমে",
+      "text": "wenn একটি Nebensatz শুরু করে, ক্রিয়া শেষে। Nebensatz আগে এলে মূল বাক্য ক্রিয়া দিয়ে শুরু হয় (পুরো Nebensatz = প্রথম অংশ)।",
+      "de": [
+        {
+          "t": "Wenn das Wetter schön"
+        },
+        {
+          "t": "ist,",
+          "v": true
+        },
+        {
+          "t": "gehen",
+          "v": true
+        },
+        {
+          "t": "wir zum Hafen."
+        }
+      ],
+      "bn": [
+        {
+          "t": "আবহাওয়া ভালো"
+        },
+        {
+          "t": "থাকলে,",
+          "v": true
+        },
+        {
+          "t": "আমরা বন্দরে যাব।"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Futur I: werden + Infinitiv (শেষে)",
+      "head": [
+        "Person",
+        "werden",
+        "উদাহরণ"
+      ],
+      "rows": [
+        [
+          "ich",
+          "werde",
+          "Ich werde Fotos machen."
+        ],
+        [
+          "du",
+          "wirst",
+          "Du wirst Spaß haben."
+        ],
+        [
+          "er/sie/es",
+          "wird",
+          "Es wird regnen."
+        ],
+        [
+          "wir",
+          "werden",
+          "Wir werden das Museum besuchen."
+        ],
+        [
+          "ihr",
+          "werdet",
+          "Ihr werdet müde sein."
+        ],
+        [
+          "sie/Sie",
+          "werden",
+          "Sie werden pünktlich sein."
+        ]
+      ],
+      "note": "মুখের কথায় ভবিষ্যৎ প্রায়ই Präsens + সময়: „Morgen fahren wir nach Hamburg“। werden ব্যবহার হয় ভবিষ্যদ্বাণী, প্রতিজ্ঞা, অনুমানে।"
+    },
+    {
+      "type": "table",
+      "title": "সম্ভাবনার শব্দ",
+      "head": [
+        "শব্দ",
+        "সম্ভাবনা"
+      ],
+      "rows": [
+        [
+          "vielleicht",
+          "হয়তো (৫০%)"
+        ],
+        [
+          "wahrscheinlich",
+          "সম্ভবত (৭০%)"
+        ],
+        [
+          "bestimmt",
+          "নিশ্চয়ই (৯০%)"
+        ],
+        [
+          "hoffentlich",
+          "আশা করি"
+        ]
+      ],
+      "note": "এগুলোর পর ক্রিয়া ২য় স্থানে: „Vielleicht fahren wir nach Berlin“; ক্রিয়াবিশেষণ বসলে subject পরে আসে।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "der Ausflug",
+      "options": [
+        "ঘুরতে যাওয়া",
+        "পরিকল্পনা করা",
+        "আশা করি",
+        "দর্শনীয় স্থান"
+      ],
+      "answer": 0,
+      "why": "der Ausflug = ঘুরতে যাওয়া।",
+      "word": "ausflug"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "hoffentlich",
+      "options": [
+        "আবহাওয়া",
+        "ঘুরতে যাওয়া",
+        "নিশ্চয়ই",
+        "আশা করি"
+      ],
+      "answer": 3,
+      "why": "hoffentlich = আশা করি।",
+      "word": "hoffentlich"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "vielleicht",
+      "options": [
+        "হয়তো",
+        "বন্দর",
+        "বৃষ্টি হওয়া",
+        "পরিকল্পনা করা"
+      ],
+      "answer": 0,
+      "why": "vielleicht = হয়তো।",
+      "word": "vielleicht"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Sehenswürdigkeit",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Sehenswürdigkeit। বহুবচন: die Sehenswürdigkeiten।",
+      "word": "sehenswuerdigkeit"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক বাক্য কোনটি?",
+      "options": [
+        "Wenn es regnet, bleiben wir zu Hause.",
+        "Wenn es regnet, wir bleiben zu Hause.",
+        "Wenn es regnet bleiben, wir zu Hause.",
+        "Wenn regnet es, bleiben wir zu Hause."
+      ],
+      "answer": 0,
+      "why": "wenn-Satz আগে: তারপর ক্রিয়া।",
+      "word": "wenn"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ich ___ morgen nach Hamburg fahren.",
+      "options": [
+        "werde",
+        "wirst",
+        "wird",
+        "werden"
+      ],
+      "answer": 0,
+      "why": "ich + werden → werde।",
+      "word": "planen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Morgen ___ es regnen.",
+      "options": [
+        "wird",
+        "werde",
+        "wirst",
+        "werdet"
+      ],
+      "answer": 0,
+      "why": "es + werden → wird।",
+      "word": "regnen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„bestimmt“ মানে কী?",
+      "options": [
+        "নিশ্চয়ই",
+        "হয়তো",
+        "কখনো নয়",
+        "কখনো কখনো"
+      ],
+      "answer": 0,
+      "why": "bestimmt = certainly।",
+      "word": "bestimmt"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Futur I-এ Infinitiv কোথায় যায়?",
+      "options": [
+        "বাক্যের শেষে",
+        "প্রথমে",
+        "werden-এর আগে",
+        "যেকোনো জায়গায়"
+      ],
+      "answer": 0,
+      "why": "werden ২য়, Infinitiv শেষে।",
+      "word": "planen"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „বৃষ্টি হলে আমরা জাদুঘরে যাব।“",
+      "tiles": [
+        "wir",
+        "regnet,",
+        "ins Museum.",
+        "gehen",
+        "es",
+        "Wenn"
+      ],
+      "answer": [
+        "Wenn",
+        "es",
+        "regnet,",
+        "gehen",
+        "wir",
+        "ins Museum."
+      ],
+      "why": "wenn-Satz আগে → ক্রিয়া প্রথমে।",
+      "word": "museum"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

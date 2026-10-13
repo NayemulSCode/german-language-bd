@@ -1,0 +1,1394 @@
+{
+  "level": "A2",
+  "unit": 5,
+  "minutes": 16,
+  "lesson": 4,
+  "id": "a2-u05-l04",
+  "title": {
+    "de": "Die Heizung ist kaputt",
+    "bn": "সমস্যা জানানো ও Relativsatz (der, die, das)",
+    "en": "Reporting problems and relative clauses"
+  },
+  "hook": {
+    "de": "Ein Unglück kommt selten allein.",
+    "who": "Sprichwort",
+    "bn": "দুর্ভাগ্য একা আসে না।",
+    "en": "Misfortunes never come singly."
+  },
+  "goals": [
+    "সমস্যা জানানো: … ist kaputt, … funktioniert nicht",
+    "Relativsatz: der Nachbar, der … wohnt",
+    "Relativpronomen: der, das, die (Nominativ), den (Akkusativ m)",
+    "সমাধান চাওয়া: Können Sie jemanden schicken?"
+  ],
+  "words": [
+    {
+      "id": "kaputt",
+      "de": "kaputt",
+      "pos": "বিশেষণ",
+      "bn": "নষ্ট, ভাঙা",
+      "en": "broken"
+    },
+    {
+      "id": "funktionieren",
+      "de": "funktionieren",
+      "pos": "ক্রিয়া · hat funktioniert",
+      "bn": "কাজ করা (যন্ত্র)",
+      "en": "to work, to function"
+    },
+    {
+      "id": "tropfen",
+      "de": "tropfen",
+      "pos": "ক্রিয়া · hat getropft",
+      "bn": "ফোঁটা ফোঁটা পড়া",
+      "en": "to drip"
+    },
+    {
+      "id": "wasserhahn",
+      "de": "Wasserhahn",
+      "art": "der",
+      "pl": "die Wasserhähne",
+      "pos": "বিশেষ্য",
+      "bn": "পানির কল",
+      "en": "tap"
+    },
+    {
+      "id": "handwerker",
+      "de": "Handwerker",
+      "art": "der",
+      "pl": "die Handwerker",
+      "pos": "বিশেষ্য",
+      "bn": "কারিগর (ইলেকট্রিশিয়ান, প্লাম্বার)",
+      "en": "tradesman"
+    },
+    {
+      "id": "reparieren",
+      "de": "reparieren",
+      "pos": "ক্রিয়া · hat repariert",
+      "bn": "মেরামত করা",
+      "en": "to repair"
+    },
+    {
+      "id": "hausmeister",
+      "de": "Hausmeister",
+      "art": "der",
+      "pl": "die Hausmeister",
+      "pos": "বিশেষ্য",
+      "bn": "বাড়ির তত্ত্বাবধায়ক",
+      "en": "caretaker"
+    },
+    {
+      "id": "ausserdem",
+      "de": "außerdem",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "এছাড়াও",
+      "en": "besides, in addition"
+    },
+    {
+      "id": "problem",
+      "de": "Problem",
+      "art": "das",
+      "pl": "die Probleme",
+      "pos": "বিশেষ্য",
+      "bn": "সমস্যা",
+      "en": "problem"
+    },
+    {
+      "id": "melden",
+      "de": "melden",
+      "pos": "ক্রিয়া · hat gemeldet",
+      "bn": "জানানো, রিপোর্ট করা",
+      "en": "to report"
+    },
+    {
+      "id": "hilfe",
+      "de": "Hilfe",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "সাহায্য",
+      "en": "help"
+    },
+    {
+      "id": "abends",
+      "de": "abends",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "রাতে, সন্ধ্যায়",
+      "en": "in the evening"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Saheb",
+      "bn": [
+        "শুভ",
+        "দিন,",
+        "আমি",
+        "সাহেব",
+        "বলছি।",
+        "আমার",
+        "হিটার",
+        "নষ্ট।"
+      ],
+      "en": [
+        "Good",
+        "day,",
+        "this",
+        "is",
+        "Saheb.",
+        "My",
+        "heating",
+        "is",
+        "broken."
+      ],
+      "de": [
+        {
+          "t": "Guten Tag,",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Guten Tag",
+          "gb": "শুভ দিন",
+          "ge": "Good day",
+          "n": ""
+        },
+        {
+          "t": "hier",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "hier",
+          "gb": "আমি",
+          "ge": "this",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [
+            4
+          ],
+          "e": [
+            3
+          ],
+          "l": "ist",
+          "gb": "বলছি",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "Saheb.",
+          "s": "Saheb",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "Saheb",
+          "gb": "সাহেব",
+          "ge": "Saheb",
+          "n": ""
+        },
+        {
+          "t": "Die",
+          "b": [
+            5
+          ],
+          "e": [
+            5
+          ],
+          "l": "Die",
+          "gb": "আমার",
+          "ge": "My",
+          "n": ""
+        },
+        {
+          "t": "Heizung",
+          "b": [
+            6
+          ],
+          "e": [
+            6
+          ],
+          "l": "Heizung",
+          "gb": "হিটার",
+          "ge": "heating",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            7
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "kaputt.",
+          "b": [
+            7
+          ],
+          "e": [
+            8
+          ],
+          "l": "kaputt",
+          "gb": "নষ্ট",
+          "ge": "broken",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Hausmeister",
+      "bn": [
+        "কতদিন",
+        "ধরে",
+        "কাজ",
+        "করছে",
+        "না?"
+      ],
+      "en": [
+        "Since",
+        "when",
+        "has",
+        "it",
+        "not",
+        "been",
+        "working?"
+      ],
+      "de": [
+        {
+          "t": "Seit wann",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Seit wann",
+          "gb": "কতদিন ধরে",
+          "ge": "Since when",
+          "n": ""
+        },
+        {
+          "t": "funktioniert",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "funktionieren",
+          "gb": "কাজ",
+          "ge": "has",
+          "n": ""
+        },
+        {
+          "t": "sie",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "sie",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "it",
+          "n": ""
+        },
+        {
+          "t": "nicht?",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            4,
+            5,
+            6
+          ],
+          "l": "nicht",
+          "gb": "করছে না",
+          "ge": "not been working",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "গতকাল",
+        "সন্ধ্যা",
+        "থেকে।",
+        "এছাড়া",
+        "রান্নাঘরের",
+        "কলটা",
+        "ফোঁটা",
+        "ফোঁটা",
+        "পানি",
+        "ফেলছে।"
+      ],
+      "en": [
+        "Since",
+        "yesterday",
+        "evening.",
+        "Also,",
+        "the",
+        "tap",
+        "in",
+        "the",
+        "kitchen",
+        "is",
+        "dripping."
+      ],
+      "de": [
+        {
+          "t": "Seit",
+          "b": [
+            2
+          ],
+          "e": [
+            0
+          ],
+          "l": "Seit",
+          "gb": "থেকে",
+          "ge": "Since",
+          "n": ""
+        },
+        {
+          "t": "gestern",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "gestern",
+          "gb": "গতকাল",
+          "ge": "yesterday",
+          "n": ""
+        },
+        {
+          "t": "Abend.",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "Abend",
+          "gb": "সন্ধ্যা",
+          "ge": "evening",
+          "n": ""
+        },
+        {
+          "t": "Außerdem",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "außerdem",
+          "gb": "এছাড়া",
+          "ge": "Also",
+          "n": ""
+        },
+        {
+          "t": "tropft",
+          "b": [
+            9
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "tropfen",
+          "gb": "ফেলছে",
+          "ge": "is dripping",
+          "n": ""
+        },
+        {
+          "t": "der",
+          "b": [],
+          "e": [
+            4
+          ],
+          "l": "der",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "Wasserhahn",
+          "b": [
+            5
+          ],
+          "e": [
+            5
+          ],
+          "l": "Wasserhahn",
+          "gb": "কলটা",
+          "ge": "tap",
+          "n": ""
+        },
+        {
+          "t": "in",
+          "b": [],
+          "e": [
+            6
+          ],
+          "l": "in",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "in",
+          "n": ""
+        },
+        {
+          "t": "der",
+          "b": [],
+          "e": [
+            7
+          ],
+          "l": "der",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "Küche.",
+          "b": [
+            4
+          ],
+          "e": [
+            8
+          ],
+          "l": "Küche",
+          "gb": "রান্নাঘরের",
+          "ge": "kitchen",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Hausmeister",
+      "bn": [
+        "আমি",
+        "আজই",
+        "একজন",
+        "কারিগর",
+        "পাঠাচ্ছি,",
+        "যে",
+        "দুটোই",
+        "মেরামত",
+        "করবে।"
+      ],
+      "en": [
+        "I",
+        "will",
+        "send",
+        "a",
+        "tradesman",
+        "today",
+        "who",
+        "will",
+        "repair",
+        "both."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "schicke",
+          "b": [
+            4
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "schicke",
+          "gb": "পাঠাচ্ছি",
+          "ge": "will send",
+          "n": ""
+        },
+        {
+          "t": "heute",
+          "b": [
+            1
+          ],
+          "e": [
+            5
+          ],
+          "l": "heute",
+          "gb": "আজই",
+          "ge": "today",
+          "n": ""
+        },
+        {
+          "t": "noch",
+          "b": [],
+          "e": [],
+          "l": "noch",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "einen",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "einen",
+          "gb": "একজন",
+          "ge": "a",
+          "n": ""
+        },
+        {
+          "t": "Handwerker,",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "Handwerker",
+          "gb": "কারিগর",
+          "ge": "tradesman",
+          "n": ""
+        },
+        {
+          "t": "der",
+          "b": [
+            5
+          ],
+          "e": [
+            6
+          ],
+          "l": "der",
+          "gb": "যে",
+          "ge": "who",
+          "n": "Relativpronomen: der Handwerker → der (Nominativ m)"
+        },
+        {
+          "t": "beides",
+          "b": [
+            6
+          ],
+          "e": [
+            9
+          ],
+          "l": "beides",
+          "gb": "দুটোই",
+          "ge": "both",
+          "n": ""
+        },
+        {
+          "t": "repariert.",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "reparieren",
+          "gb": "মেরামত করবে",
+          "ge": "will repair",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "ধন্যবাদ!",
+        "আর",
+        "আমার",
+        "আরেকটা",
+        "সমস্যা",
+        "আছে:",
+        "উপরে",
+        "যে",
+        "প্রতিবেশী",
+        "থাকে,",
+        "সে",
+        "রাতে",
+        "খুব",
+        "জোরে",
+        "শব্দ",
+        "করে।"
+      ],
+      "en": [
+        "Thanks!",
+        "And",
+        "I",
+        "have",
+        "another",
+        "problem:",
+        "the",
+        "neighbour",
+        "who",
+        "lives",
+        "above",
+        "me",
+        "is",
+        "very",
+        "loud",
+        "in",
+        "the",
+        "evening."
+      ],
+      "de": [
+        {
+          "t": "Danke!",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Danke",
+          "gb": "ধন্যবাদ",
+          "ge": "Thanks",
+          "n": ""
+        },
+        {
+          "t": "Und",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "ich",
+          "gb": "আমার",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [
+            5
+          ],
+          "e": [
+            3
+          ],
+          "l": "habe",
+          "gb": "আছে",
+          "ge": "have",
+          "n": ""
+        },
+        {
+          "t": "noch",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "noch",
+          "gb": "আরেকটা",
+          "ge": "another",
+          "n": ""
+        },
+        {
+          "t": "ein",
+          "b": [],
+          "e": [],
+          "l": "ein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Problem:",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "Problem",
+          "gb": "সমস্যা",
+          "ge": "problem",
+          "n": ""
+        },
+        {
+          "t": "Der",
+          "b": [],
+          "e": [
+            6
+          ],
+          "l": "Der",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "Nachbar,",
+          "b": [
+            8
+          ],
+          "e": [
+            7
+          ],
+          "l": "Nachbar",
+          "gb": "প্রতিবেশী",
+          "ge": "neighbour",
+          "n": ""
+        },
+        {
+          "t": "der",
+          "b": [
+            7
+          ],
+          "e": [
+            8
+          ],
+          "l": "der",
+          "gb": "যে",
+          "ge": "who",
+          "n": ""
+        },
+        {
+          "t": "über",
+          "b": [
+            6
+          ],
+          "e": [
+            10
+          ],
+          "l": "über",
+          "gb": "উপরে",
+          "ge": "above",
+          "n": "über mir = আমার উপরে (Dativ)"
+        },
+        {
+          "t": "mir",
+          "b": [],
+          "e": [
+            11
+          ],
+          "l": "mir",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "me",
+          "n": ""
+        },
+        {
+          "t": "wohnt,",
+          "b": [
+            9
+          ],
+          "e": [
+            9
+          ],
+          "l": "wohnt",
+          "gb": "থাকে",
+          "ge": "lives",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            12
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "abends",
+          "b": [
+            11
+          ],
+          "e": [
+            15,
+            16,
+            17
+          ],
+          "l": "abends",
+          "gb": "রাতে",
+          "ge": "in the evening",
+          "n": ""
+        },
+        {
+          "t": "sehr",
+          "b": [
+            12
+          ],
+          "e": [
+            13
+          ],
+          "l": "sehr",
+          "gb": "খুব",
+          "ge": "very",
+          "n": ""
+        },
+        {
+          "t": "laut.",
+          "b": [
+            13,
+            14,
+            15
+          ],
+          "e": [
+            14
+          ],
+          "l": "laut",
+          "gb": "জোরে শব্দ করে",
+          "ge": "loud",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Hausmeister",
+      "bn": [
+        "আমি",
+        "তার",
+        "সাথে",
+        "কথা",
+        "বলব।",
+        "অন্য",
+        "কোনো",
+        "সমস্যা?"
+      ],
+      "en": [
+        "I",
+        "will",
+        "talk",
+        "to",
+        "him.",
+        "Any",
+        "other",
+        "problem?"
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "spreche",
+          "b": [
+            4
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "spreche",
+          "gb": "বলব",
+          "ge": "will talk",
+          "n": ""
+        },
+        {
+          "t": "mit",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "mit",
+          "gb": "সাথে",
+          "ge": "to",
+          "n": ""
+        },
+        {
+          "t": "ihm.",
+          "b": [
+            1
+          ],
+          "e": [
+            4
+          ],
+          "l": "ihm",
+          "gb": "তার",
+          "ge": "him",
+          "n": ""
+        },
+        {
+          "t": "Noch",
+          "b": [
+            5
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "Noch",
+          "gb": "অন্য",
+          "ge": "Any other",
+          "n": ""
+        },
+        {
+          "t": "ein",
+          "b": [
+            6
+          ],
+          "e": [],
+          "l": "ein",
+          "gb": "কোনো",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Problem?",
+          "b": [
+            7
+          ],
+          "e": [
+            7
+          ],
+          "l": "Problem",
+          "gb": "সমস্যা",
+          "ge": "problem",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "না,",
+        "অনেক",
+        "ধন্যবাদ!",
+        "এটাই",
+        "সেই",
+        "সাহায্য,",
+        "যা",
+        "আমার",
+        "দরকার।"
+      ],
+      "en": [
+        "No,",
+        "thank",
+        "you",
+        "very",
+        "much!",
+        "That",
+        "is",
+        "the",
+        "help",
+        "that",
+        "I",
+        "need."
+      ],
+      "de": [
+        {
+          "t": "Nein,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Nein",
+          "gb": "না",
+          "ge": "No",
+          "n": ""
+        },
+        {
+          "t": "vielen Dank!",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "l": "vielen Dank",
+          "gb": "অনেক ধন্যবাদ",
+          "ge": "thank you very much",
+          "n": ""
+        },
+        {
+          "t": "Das",
+          "b": [
+            3
+          ],
+          "e": [
+            5
+          ],
+          "l": "Das",
+          "gb": "এটাই",
+          "ge": "That",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            6
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "die",
+          "b": [
+            4
+          ],
+          "e": [
+            7
+          ],
+          "l": "die",
+          "gb": "সেই",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "Hilfe,",
+          "b": [
+            5
+          ],
+          "e": [
+            8
+          ],
+          "l": "Hilfe",
+          "gb": "সাহায্য",
+          "ge": "help",
+          "n": ""
+        },
+        {
+          "t": "die",
+          "b": [
+            6
+          ],
+          "e": [
+            9
+          ],
+          "l": "die",
+          "gb": "যা",
+          "ge": "that",
+          "n": "Relativpronomen: die Hilfe → die (Akkusativ f)"
+        },
+        {
+          "t": "ich",
+          "b": [
+            7
+          ],
+          "e": [
+            10
+          ],
+          "l": "ich",
+          "gb": "আমার",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "brauche.",
+          "b": [
+            8
+          ],
+          "e": [
+            11
+          ],
+          "l": "brauche",
+          "gb": "দরকার",
+          "ge": "need",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "order",
+      "title": "Relativsatz: ক্রিয়া শেষে, কমা দুই পাশে",
+      "text": "Relativsatz আগের বিশেষ্যের আরও তথ্য দেয় („যে“, „যা“)। Relativpronomen-এর লিঙ্গ আগের বিশেষ্যের লিঙ্গ অনুযায়ী (der/das/die)। ক্রিয়া শেষে।",
+      "de": [
+        {
+          "t": "Der Nachbar,"
+        },
+        {
+          "t": "der"
+        },
+        {
+          "t": "über mir"
+        },
+        {
+          "t": "wohnt,",
+          "v": true
+        },
+        {
+          "t": "ist laut."
+        }
+      ],
+      "bn": [
+        {
+          "t": "যে প্রতিবেশী"
+        },
+        {
+          "t": "উপরে"
+        },
+        {
+          "t": "থাকে,",
+          "v": true
+        },
+        {
+          "t": "সে জোরে শব্দ করে।"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Relativpronomen",
+      "head": [
+        "",
+        "m",
+        "n",
+        "f",
+        "Plural"
+      ],
+      "rows": [
+        [
+          "Nominativ (যে কাজ করে)",
+          "der",
+          "das",
+          "die",
+          "die"
+        ],
+        [
+          "Akkusativ (যাকে/যা)",
+          "den",
+          "das",
+          "die",
+          "die"
+        ]
+      ],
+      "note": "লিঙ্গ ও বচন = আগের বিশেষ্য; কেস = Relativsatz-এ তার ভূমিকা। Nominativ: „der Handwerker, der repariert“; Akkusativ: „die Hilfe, die ich brauche“ (ich = কর্তা, তাই die = কর্ম)।"
+    },
+    {
+      "type": "table",
+      "title": "Relativsatz-এর উদাহরণ",
+      "head": [
+        "জার্মান",
+        "বাংলা"
+      ],
+      "rows": [
+        [
+          "Das ist die Wohnung, die ich suche.",
+          "এটাই সেই ফ্ল্যাট, যেটা আমি খুঁজছি।"
+        ],
+        [
+          "Ich kenne einen Mann, der Handwerker ist.",
+          "আমি এমন একজনকে চিনি, যে কারিগর।"
+        ],
+        [
+          "Der Hausmeister, den ich anrufe, ist nett.",
+          "বাড়ির তত্ত্বাবধায়ক, যাকে আমি ফোন করি, ভালো।"
+        ],
+        [
+          "Das Zimmer, das hell ist, gefällt mir.",
+          "যে রুমটা আলোকিত, সেটা আমার পছন্দ।"
+        ]
+      ],
+      "note": "আগে মূল বাক্য তারপর কমা, Relativsatz, কমা। ক্রিয়া Relativsatz-এর শেষে।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "der Wasserhahn",
+      "options": [
+        "বাড়ির তত্ত্বাবধায়ক",
+        "পানির কল",
+        "সমস্যা",
+        "সাহায্য"
+      ],
+      "answer": 1,
+      "why": "der Wasserhahn = পানির কল।",
+      "word": "wasserhahn"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "kaputt",
+      "options": [
+        "নষ্ট",
+        "কারিগর",
+        "এছাড়াও",
+        "সাহায্য"
+      ],
+      "answer": 0,
+      "why": "kaputt = নষ্ট।",
+      "word": "kaputt"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "tropfen",
+      "options": [
+        "এছাড়াও",
+        "সাহায্য",
+        "ফোঁটা ফোঁটা পড়া",
+        "কাজ করা"
+      ],
+      "answer": 2,
+      "why": "tropfen = ফোঁটা ফোঁটা পড়া।",
+      "word": "tropfen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Hausmeister",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 0,
+      "why": "der Hausmeister। বহুবচন: die Hausmeister।",
+      "word": "hausmeister"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Der Nachbar, ___ über mir wohnt, ist laut.",
+      "options": [
+        "der",
+        "die",
+        "das",
+        "den"
+      ],
+      "answer": 0,
+      "why": "der Nachbar → Relativpronomen der।"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Das ist die Wohnung, ___ ich suche.",
+      "options": [
+        "die",
+        "der",
+        "das",
+        "den"
+      ],
+      "answer": 0,
+      "why": "die Wohnung → die।"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Das Zimmer, ___ hell ist, ist schön.",
+      "options": [
+        "das",
+        "der",
+        "die",
+        "den"
+      ],
+      "answer": 0,
+      "why": "das Zimmer → das।"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন (Akkusativ)",
+      "sub": "Der Hausmeister, ___ ich anrufe, ist nett.",
+      "options": [
+        "den",
+        "der",
+        "dem",
+        "das"
+      ],
+      "answer": 0,
+      "why": "der Hausmeister (m, Akk) → den।",
+      "word": "hausmeister"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক বাক্য কোনটি?",
+      "options": [
+        "Der Handwerker, der kommt, repariert die Heizung.",
+        "Der Handwerker, der kommt repariert die Heizung.",
+        "Der Handwerker, kommt der, repariert die Heizung.",
+        "Der Handwerker der, kommt, repariert die Heizung."
+      ],
+      "answer": 0,
+      "why": "Relativsatz: কমা + ক্রিয়া শেষে।",
+      "word": "handwerker"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „এটাই সেই সাহায্য, যা আমার দরকার।“",
+      "tiles": [
+        "brauche.",
+        "die",
+        "ist",
+        "Das",
+        "Hilfe,",
+        "die",
+        "ich"
+      ],
+      "answer": [
+        "Das",
+        "ist",
+        "die",
+        "Hilfe,",
+        "die",
+        "ich",
+        "brauche."
+      ],
+      "why": "Hauptsatz, Relativsatz mit Verb am Ende।",
+      "word": "hilfe"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

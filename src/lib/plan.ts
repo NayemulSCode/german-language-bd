@@ -9,7 +9,7 @@ export const LEVELS: Record<string, LevelInfo> = {
   A1: { tag: 'আবেদনের ন্যূনতম শর্ত', goal: 'Goethe-Zertifikat A1', planned: [] },
   A2: {
     tag: 'বাড়তি পয়েন্টের জন্য', goal: '~১৩০০ শব্দ · Goethe-Zertifikat A2',
-    planned: [['Im Büro', 'অফিসের কাজ'], ['Reisen planen', 'ভ্রমণের পরিকল্পনা'], ['Gesundheit', 'স্বাস্থ্য ও অ্যাপয়েন্টমেন্ট'], ['Wohnungssuche', 'বাসা খোঁজা'], ['Feste feiern', 'উৎসব'], ['Medien', 'মিডিয়া ও প্রযুক্তি'], ['Lernen', 'শেখা ও কোর্স'], ['Kleidung', 'পোশাক'], ['Natur und Wetter', 'প্রকৃতি ও আবহাওয়া'], ['Ämter', 'অফিস-আদালত'], ['Freunde', 'বন্ধুত্ব'], ['Pläne', 'ভবিষ্যৎ পরিকল্পনা']],
+    planned: [['Vergangenes erzählen', 'অতীতের কথা বলা'], ['Im Büro', 'অফিসের কাজ'], ['Reisen planen', 'ভ্রমণের পরিকল্পনা'], ['Gesundheit', 'স্বাস্থ্য ও অ্যাপয়েন্টমেন্ট'], ['Wohnungssuche', 'বাসা খোঁজা'], ['Feste feiern', 'উৎসব'], ['Medien', 'মিডিয়া ও প্রযুক্তি'], ['Lernen', 'শেখা ও কোর্স'], ['Natur und Wetter', 'প্রকৃতি ও আবহাওয়া'], ['Ämter', 'অফিস-আদালত'], ['Freunde', 'বন্ধুত্ব'], ['Pläne', 'ভবিষ্যৎ পরিকল্পনা']],
   },
   B1: {
     tag: 'বাড়তি পয়েন্টের জন্য', goal: '~২৪০০ শব্দ · Goethe-Zertifikat B1',
@@ -30,4 +30,8 @@ export const UNIT_TITLES: Record<string, { de: string; bn: string }> = {
   'A1-9': { de: 'Kleidung und Wetter', bn: 'পোশাক, আবহাওয়া ও তারিখ' },
   'A1-10': { de: 'Körper und Gesundheit', bn: 'শরীর ও স্বাস্থ্য' },
   'A2-1': { de: 'Vergangenes erzählen', bn: 'অতীতের কথা বলা (Perfekt)' },
+  'A2-2': { de: 'Im Büro', bn: 'অফিসের কাজ (Dativ, höflich fragen, weil)' },
+  'A2-3': { de: 'Reisen planen', bn: 'ভ্রমণের পরিকল্পনা (Wechselpräpositionen, Vergleiche)' },
+  'A2-4': { de: 'Gesundheit', bn: 'স্বাস্থ্য ও ডাক্তার (reflexive Verben, dass)' },
+  'A2-5': { de: 'Wohnungssuche', bn: 'বাসা খোঁজা (Adjektive, Relativsätze)' },
 }

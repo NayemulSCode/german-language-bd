@@ -1,0 +1,1245 @@
+{
+  "level": "A2",
+  "unit": 4,
+  "minutes": 16,
+  "lesson": 4,
+  "id": "a2-u04-l04",
+  "title": {
+    "de": "Ich finde, dass Sport wichtig ist",
+    "bn": "dass-বাক্য: মতামত ও খবর",
+    "en": "dass-clauses: opinions and reports"
+  },
+  "hook": {
+    "de": "In einem gesunden Körper wohnt ein gesunder Geist.",
+    "who": "Juvenal",
+    "bn": "সুস্থ দেহে সুস্থ মন।",
+    "en": "A sound mind in a sound body."
+  },
+  "goals": [
+    "dass-বাক্য: ক্রিয়া শেষে",
+    "Ich finde / denke / glaube / weiß, dass …",
+    "Es ist wichtig, dass …",
+    "das (এটি) আর dass (যে) আলাদা"
+  ],
+  "words": [
+    {
+      "id": "sport",
+      "de": "Sport",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "খেলাধুলা",
+      "en": "sport"
+    },
+    {
+      "id": "gemuese",
+      "de": "Gemüse",
+      "art": "das",
+      "pos": "বিশেষ্য",
+      "bn": "সবজি",
+      "en": "vegetables"
+    },
+    {
+      "id": "obst",
+      "de": "Obst",
+      "art": "das",
+      "pos": "বিশেষ্য",
+      "bn": "ফল",
+      "en": "fruit"
+    },
+    {
+      "id": "schlaf",
+      "de": "Schlaf",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "ঘুম",
+      "en": "sleep"
+    },
+    {
+      "id": "stress",
+      "de": "Stress",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "মানসিক চাপ",
+      "en": "stress"
+    },
+    {
+      "id": "rauchen",
+      "de": "rauchen",
+      "pos": "ক্রিয়া · hat geraucht",
+      "bn": "ধূমপান করা",
+      "en": "to smoke"
+    },
+    {
+      "id": "wichtig",
+      "de": "wichtig",
+      "pos": "বিশেষণ",
+      "bn": "গুরুত্বপূর্ণ",
+      "en": "important"
+    },
+    {
+      "id": "ungesund",
+      "de": "ungesund",
+      "pos": "বিশেষণ",
+      "bn": "স্বাস্থ্যের জন্য ক্ষতিকর",
+      "en": "unhealthy"
+    },
+    {
+      "id": "regelmaessig",
+      "de": "regelmäßig",
+      "pos": "বিশেষণ",
+      "bn": "নিয়মিত",
+      "en": "regular"
+    },
+    {
+      "id": "genug",
+      "de": "genug",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "যথেষ্ট",
+      "en": "enough"
+    },
+    {
+      "id": "denken",
+      "de": "denken",
+      "pos": "ক্রিয়া · hat gedacht",
+      "bn": "ভাবা, মনে করা",
+      "en": "to think"
+    },
+    {
+      "id": "wissen",
+      "de": "wissen",
+      "pos": "ক্রিয়া · weiß, hat gewusst",
+      "bn": "জানা",
+      "en": "to know"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Lena",
+      "bn": [
+        "আমার",
+        "মনে",
+        "হয়",
+        "খেলাধুলা",
+        "খুব",
+        "গুরুত্বপূর্ণ।"
+      ],
+      "en": [
+        "I",
+        "think",
+        "that",
+        "sport",
+        "is",
+        "very",
+        "important."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমার",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "finde,",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            1
+          ],
+          "l": "finden",
+          "gb": "মনে হয়",
+          "ge": "think",
+          "n": ""
+        },
+        {
+          "t": "dass",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "dass",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "that",
+          "n": "dass-Satz: ক্রিয়া শেষে"
+        },
+        {
+          "t": "Sport",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "Sport",
+          "gb": "খেলাধুলা",
+          "ge": "sport",
+          "n": ""
+        },
+        {
+          "t": "sehr",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "sehr",
+          "gb": "খুব",
+          "ge": "very",
+          "n": ""
+        },
+        {
+          "t": "wichtig",
+          "b": [
+            5
+          ],
+          "e": [
+            6
+          ],
+          "l": "wichtig",
+          "gb": "গুরুত্বপূর্ণ",
+          "ge": "important",
+          "n": ""
+        },
+        {
+          "t": "ist.",
+          "b": [],
+          "e": [
+            4
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমারও",
+        "তাই",
+        "মনে",
+        "হয়।",
+        "নিয়মিত",
+        "খেলাধুলা",
+        "করা",
+        "উচিত।"
+      ],
+      "en": [
+        "I",
+        "think",
+        "so",
+        "too.",
+        "You",
+        "should",
+        "do",
+        "sport",
+        "regularly."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমারও",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "denke",
+          "b": [
+            1,
+            2,
+            3
+          ],
+          "e": [
+            1
+          ],
+          "l": "denken",
+          "gb": "তাই মনে হয়",
+          "ge": "think",
+          "n": ""
+        },
+        {
+          "t": "auch,",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "auch",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "too",
+          "n": ""
+        },
+        {
+          "t": "dass",
+          "b": [],
+          "e": [],
+          "l": "dass",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "man",
+          "b": [],
+          "e": [
+            4
+          ],
+          "l": "man",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "You",
+          "n": ""
+        },
+        {
+          "t": "regelmäßig",
+          "b": [
+            4
+          ],
+          "e": [
+            8
+          ],
+          "l": "regelmäßig",
+          "gb": "নিয়মিত",
+          "ge": "regularly",
+          "n": ""
+        },
+        {
+          "t": "Sport",
+          "b": [
+            5
+          ],
+          "e": [
+            7
+          ],
+          "l": "Sport",
+          "gb": "খেলাধুলা",
+          "ge": "sport",
+          "n": ""
+        },
+        {
+          "t": "machen",
+          "b": [
+            6
+          ],
+          "e": [
+            6
+          ],
+          "l": "machen",
+          "gb": "করা",
+          "ge": "do",
+          "n": ""
+        },
+        {
+          "t": "soll.",
+          "b": [
+            7
+          ],
+          "e": [
+            5
+          ],
+          "l": "sollen",
+          "gb": "উচিত",
+          "ge": "should",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "ডাক্তার",
+        "বলেছেন,",
+        "আমাকে",
+        "বেশি",
+        "সবজি",
+        "আর",
+        "ফল",
+        "খেতে",
+        "হবে।"
+      ],
+      "en": [
+        "The",
+        "doctor",
+        "says",
+        "that",
+        "I",
+        "should",
+        "eat",
+        "more",
+        "vegetables",
+        "and",
+        "fruit."
+      ],
+      "de": [
+        {
+          "t": "Die Ärztin",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Ärztin",
+          "gb": "ডাক্তার",
+          "ge": "The doctor",
+          "n": ""
+        },
+        {
+          "t": "sagt,",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "sagt",
+          "gb": "বলেছেন",
+          "ge": "says",
+          "n": ""
+        },
+        {
+          "t": "dass",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "dass",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "that",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "ich",
+          "gb": "আমাকে",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "mehr",
+          "b": [
+            3
+          ],
+          "e": [
+            7
+          ],
+          "l": "viel",
+          "gb": "বেশি",
+          "ge": "more",
+          "n": ""
+        },
+        {
+          "t": "Gemüse",
+          "b": [
+            4
+          ],
+          "e": [
+            8
+          ],
+          "l": "Gemüse",
+          "gb": "সবজি",
+          "ge": "vegetables",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            5
+          ],
+          "e": [
+            9
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "Obst",
+          "b": [
+            6
+          ],
+          "e": [
+            10
+          ],
+          "l": "Obst",
+          "gb": "ফল",
+          "ge": "fruit",
+          "n": ""
+        },
+        {
+          "t": "essen",
+          "b": [
+            7
+          ],
+          "e": [
+            6
+          ],
+          "l": "essen",
+          "gb": "খেতে",
+          "ge": "eat",
+          "n": ""
+        },
+        {
+          "t": "soll.",
+          "b": [
+            8
+          ],
+          "e": [
+            5
+          ],
+          "l": "sollen",
+          "gb": "হবে",
+          "ge": "should",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "ঠিকই।",
+        "আর",
+        "পর্যাপ্ত",
+        "ঘুমানোও",
+        "জরুরি।"
+      ],
+      "en": [
+        "True.",
+        "And",
+        "it",
+        "is",
+        "important",
+        "that",
+        "you",
+        "get",
+        "enough",
+        "sleep."
+      ],
+      "de": [
+        {
+          "t": "Stimmt.",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Stimmt",
+          "gb": "ঠিকই",
+          "ge": "True",
+          "n": ""
+        },
+        {
+          "t": "Es",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "Es",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "it",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "wichtig,",
+          "b": [
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "wichtig",
+          "gb": "জরুরি",
+          "ge": "important",
+          "n": ""
+        },
+        {
+          "t": "dass",
+          "b": [],
+          "e": [
+            5
+          ],
+          "l": "dass",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "that",
+          "n": ""
+        },
+        {
+          "t": "man",
+          "b": [],
+          "e": [
+            6
+          ],
+          "l": "man",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "genug",
+          "b": [
+            2
+          ],
+          "e": [
+            8
+          ],
+          "l": "genug",
+          "gb": "পর্যাপ্ত",
+          "ge": "enough",
+          "n": ""
+        },
+        {
+          "t": "schläft.",
+          "b": [
+            3
+          ],
+          "e": [
+            9
+          ],
+          "l": "schlafen",
+          "gb": "ঘুমানোও",
+          "ge": "sleep",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "আমি",
+        "জানি,",
+        "স্ট্রেস",
+        "স্বাস্থ্যের",
+        "জন্য",
+        "ক্ষতিকর,",
+        "কিন্তু",
+        "আমার",
+        "অনেক",
+        "কাজ।"
+      ],
+      "en": [
+        "I",
+        "know",
+        "that",
+        "stress",
+        "is",
+        "unhealthy,",
+        "but",
+        "I",
+        "have",
+        "a",
+        "lot",
+        "to",
+        "do."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "weiß,",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "wissen",
+          "gb": "জানি",
+          "ge": "know",
+          "n": ""
+        },
+        {
+          "t": "dass",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "dass",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "that",
+          "n": ""
+        },
+        {
+          "t": "Stress",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "Stress",
+          "gb": "স্ট্রেস",
+          "ge": "stress",
+          "n": ""
+        },
+        {
+          "t": "ungesund",
+          "b": [
+            5
+          ],
+          "e": [
+            5
+          ],
+          "l": "ungesund",
+          "gb": "ক্ষতিকর",
+          "ge": "unhealthy",
+          "n": ""
+        },
+        {
+          "t": "ist,",
+          "b": [],
+          "e": [
+            4
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "aber",
+          "b": [
+            6
+          ],
+          "e": [
+            6
+          ],
+          "l": "aber",
+          "gb": "কিন্তু",
+          "ge": "but",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            7
+          ],
+          "e": [
+            7
+          ],
+          "l": "ich",
+          "gb": "আমার",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [],
+          "e": [
+            8
+          ],
+          "l": "habe",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "have",
+          "n": ""
+        },
+        {
+          "t": "viel",
+          "b": [
+            8
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "viel",
+          "gb": "অনেক",
+          "ge": "a lot",
+          "n": ""
+        },
+        {
+          "t": "zu tun.",
+          "b": [
+            9
+          ],
+          "e": [
+            11,
+            12
+          ],
+          "l": "zu tun",
+          "gb": "কাজ",
+          "ge": "to do",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "তুমি",
+        "কি",
+        "ধূমপান",
+        "করো?"
+      ],
+      "en": [
+        "Do",
+        "you",
+        "smoke?"
+      ],
+      "de": [
+        {
+          "t": "Rauchst",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "rauchen",
+          "gb": "ধূমপান করো",
+          "ge": "smoke",
+          "n": ""
+        },
+        {
+          "t": "du?",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "না,",
+        "আমি",
+        "ধূমপান",
+        "করি",
+        "না,",
+        "কারণ",
+        "আমি",
+        "সুস্থভাবে",
+        "বাঁচতে",
+        "চাই।"
+      ],
+      "en": [
+        "No,",
+        "I",
+        "do",
+        "not",
+        "smoke",
+        "because",
+        "I",
+        "want",
+        "to",
+        "live",
+        "healthily."
+      ],
+      "de": [
+        {
+          "t": "Nein,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Nein",
+          "gb": "না",
+          "ge": "No",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "rauche",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "rauchen",
+          "gb": "ধূমপান করি",
+          "ge": "smoke",
+          "n": ""
+        },
+        {
+          "t": "nicht,",
+          "b": [
+            4
+          ],
+          "e": [
+            3
+          ],
+          "l": "nicht",
+          "gb": "না",
+          "ge": "not",
+          "n": ""
+        },
+        {
+          "t": "weil",
+          "b": [
+            5
+          ],
+          "e": [
+            5
+          ],
+          "l": "weil",
+          "gb": "কারণ",
+          "ge": "because",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            6
+          ],
+          "e": [
+            6
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "gesund",
+          "b": [
+            7
+          ],
+          "e": [
+            10
+          ],
+          "l": "gesund",
+          "gb": "সুস্থভাবে",
+          "ge": "healthily",
+          "n": ""
+        },
+        {
+          "t": "leben",
+          "b": [
+            8
+          ],
+          "e": [
+            9
+          ],
+          "l": "leben",
+          "gb": "বাঁচতে",
+          "ge": "live",
+          "n": ""
+        },
+        {
+          "t": "möchte.",
+          "b": [
+            9
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "möchten",
+          "gb": "চাই",
+          "ge": "want to",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "order",
+      "title": "dass-বাক্য: ক্রিয়া শেষে",
+      "text": "dass = „যে“ (সংযোজক)। মূল বাক্যের পরে কমা, তারপর dass + বাকি অংশ, ক্রিয়া শেষে। কমা বাধ্যতামূলক।",
+      "de": [
+        {
+          "t": "Ich finde,"
+        },
+        {
+          "t": "dass"
+        },
+        {
+          "t": "Sport sehr wichtig"
+        },
+        {
+          "t": "ist.",
+          "v": true
+        }
+      ],
+      "bn": [
+        {
+          "t": "আমার মনে হয়"
+        },
+        {
+          "t": "খেলাধুলা খুব"
+        },
+        {
+          "t": "গুরুত্বপূর্ণ।",
+          "v": true
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "কোন শব্দের পরে dass আসে?",
+      "head": [
+        "গ্রুপ",
+        "উদাহরণ"
+      ],
+      "rows": [
+        [
+          "মত বা চিন্তা",
+          "Ich finde / denke / glaube / meine, dass …"
+        ],
+        [
+          "জানা ও বলা",
+          "Ich weiß / Er sagt / Sie hofft, dass …"
+        ],
+        [
+          "Es ist + বিশেষণ",
+          "Es ist wichtig / schön / schade, dass …"
+        ],
+        [
+          "Modalverb শেষে",
+          "… dass man Sport machen soll."
+        ],
+        [
+          "Perfekt শেষে",
+          "… dass er gestern gekommen ist."
+        ]
+      ],
+      "note": "dass ছাড়াও বলা যায়: „Ich finde, Sport ist wichtig“ — তখন ক্রিয়া ২য় স্থানে (সাধারণ বাক্য)।"
+    },
+    {
+      "type": "table",
+      "title": "das নাকি dass?",
+      "head": [
+        "",
+        "das",
+        "dass"
+      ],
+      "rows": [
+        [
+          "কাজ",
+          "আর্টিকেল বা সর্বনাম (এটি)",
+          "সংযোজক (যে)"
+        ],
+        [
+          "উদাহরণ",
+          "Das ist gesund. · das Obst",
+          "Ich weiß, dass das gesund ist."
+        ],
+        [
+          "চেনার উপায়",
+          "this/that দিয়ে বদলানো যায়",
+          "বদলানো যায় না"
+        ]
+      ],
+      "note": "দুইটি পাশাপাশি আসতে পারে: „…, dass das gesund ist“। এখানে dass সংযোজক আর das সর্বনাম।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "wichtig",
+      "options": [
+        "গুরুত্বপূর্ণ",
+        "ভাবা",
+        "খেলাধুলা",
+        "ফল"
+      ],
+      "answer": 0,
+      "why": "wichtig = গুরুত্বপূর্ণ।",
+      "word": "wichtig"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "regelmäßig",
+      "options": [
+        "নিয়মিত",
+        "খেলাধুলা",
+        "ঘুম",
+        "গুরুত্বপূর্ণ"
+      ],
+      "answer": 0,
+      "why": "regelmäßig = নিয়মিত।",
+      "word": "regelmaessig"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "genug",
+      "options": [
+        "নিয়মিত",
+        "খেলাধুলা",
+        "যথেষ্ট",
+        "ঘুম"
+      ],
+      "answer": 2,
+      "why": "genug = যথেষ্ট।",
+      "word": "genug"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Gemüse",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 2,
+      "why": "das Gemüse।",
+      "word": "gemuese"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক বাক্য কোনটি?",
+      "options": [
+        "Ich finde, dass Sport wichtig ist.",
+        "Ich finde, dass ist Sport wichtig.",
+        "Ich finde, dass Sport ist wichtig.",
+        "Ich finde dass Sport wichtig, ist."
+      ],
+      "answer": 0,
+      "why": "dass-Satz: ক্রিয়া শেষে।",
+      "word": "wichtig"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ich weiß, ___ Stress ungesund ist.",
+      "options": [
+        "dass",
+        "das",
+        "dasse",
+        "daß"
+      ],
+      "answer": 0,
+      "why": "সংযোজক = dass।",
+      "word": "wissen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "___ ist ungesund.",
+      "options": [
+        "das",
+        "dass",
+        "dessen",
+        "der"
+      ],
+      "answer": 0,
+      "why": "সর্বনাম (এটি) = das।",
+      "word": "ungesund"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক বাক্য কোনটি?",
+      "options": [
+        "Es ist wichtig, dass man genug schläft.",
+        "Es ist wichtig, dass man schläft genug.",
+        "Es ist wichtig dass, man genug schläft.",
+        "Es wichtig ist, dass man genug schläft."
+      ],
+      "answer": 0,
+      "why": "ক্রিয়া শেষে।",
+      "word": "genug"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Modalverb-সহ সঠিক বাক্য কোনটি?",
+      "options": [
+        "…, dass man Sport machen soll.",
+        "…, dass man soll Sport machen.",
+        "…, dass man machen Sport soll.",
+        "…, dass man Sport soll machen."
+      ],
+      "answer": 0,
+      "why": "Infinitiv + Modalverb।",
+      "word": "sport"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „আমি জানি যে স্ট্রেস ক্ষতিকর।“",
+      "tiles": [
+        "ungesund",
+        "ist.",
+        "dass",
+        "weiß,",
+        "Stress",
+        "Ich"
+      ],
+      "answer": [
+        "Ich",
+        "weiß,",
+        "dass",
+        "Stress",
+        "ungesund",
+        "ist."
+      ],
+      "why": "dass … ist — ক্রিয়া শেষে।",
+      "word": "wissen"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

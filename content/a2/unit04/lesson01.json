@@ -1,0 +1,1285 @@
+{
+  "level": "A2",
+  "unit": 4,
+  "minutes": 16,
+  "lesson": 1,
+  "id": "a2-u04-l01",
+  "title": {
+    "de": "Was fehlt Ihnen?",
+    "bn": "ডাক্তারের কাছে: অসুখের বর্ণনা",
+    "en": "At the doctor: describing symptoms"
+  },
+  "hook": {
+    "de": "Gesundheit ist das höchste Gut.",
+    "who": "Redensart",
+    "bn": "স্বাস্থ্যই সবচেয়ে বড় সম্পদ।",
+    "en": "Health is the greatest wealth."
+  },
+  "goals": [
+    "অ্যাপয়েন্টমেন্ট নেওয়া",
+    "Mir tut … weh / Ich habe …schmerzen",
+    "seit + Dativ: কতদিন ধরে",
+    "ডাক্তারের প্রশ্ন বোঝা: Was fehlt Ihnen? Seit wann?"
+  ],
+  "words": [
+    {
+      "id": "praxis",
+      "de": "Praxis",
+      "art": "die",
+      "pl": "die Praxen",
+      "pos": "বিশেষ্য",
+      "bn": "ডাক্তারের চেম্বার",
+      "en": "practice, surgery"
+    },
+    {
+      "id": "fieber",
+      "de": "Fieber",
+      "art": "das",
+      "pos": "বিশেষ্য",
+      "bn": "জ্বর",
+      "en": "fever"
+    },
+    {
+      "id": "husten",
+      "de": "Husten",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "কাশি",
+      "en": "cough"
+    },
+    {
+      "id": "halsschmerzen",
+      "de": "Halsschmerzen",
+      "art": "die",
+      "pos": "বিশেষ্য, বহুবচন",
+      "bn": "গলা ব্যথা",
+      "en": "sore throat"
+    },
+    {
+      "id": "kopfschmerzen",
+      "de": "Kopfschmerzen",
+      "art": "die",
+      "pos": "বিশেষ্য, বহুবচন",
+      "bn": "মাথাব্যথা",
+      "en": "headache"
+    },
+    {
+      "id": "erkaeltung",
+      "de": "Erkältung",
+      "art": "die",
+      "pl": "die Erkältungen",
+      "pos": "বিশেষ্য",
+      "bn": "ঠান্ডা লাগা",
+      "en": "cold"
+    },
+    {
+      "id": "rezept",
+      "de": "Rezept",
+      "art": "das",
+      "pl": "die Rezepte",
+      "pos": "বিশেষ্য",
+      "bn": "প্রেসক্রিপশন",
+      "en": "prescription"
+    },
+    {
+      "id": "untersuchen",
+      "de": "untersuchen",
+      "pos": "ক্রিয়া · hat untersucht",
+      "bn": "পরীক্ষা করা",
+      "en": "to examine"
+    },
+    {
+      "id": "wehtun",
+      "de": "wehtun",
+      "pos": "ক্রিয়া · hat wehgetan (+ Dativ)",
+      "bn": "ব্যথা করা",
+      "en": "to hurt"
+    },
+    {
+      "id": "fehlen",
+      "de": "fehlen",
+      "pos": "ক্রিয়া · hat gefehlt (+ Dativ)",
+      "bn": "অভাব থাকা, সমস্যা হওয়া",
+      "en": "to be wrong, to lack"
+    },
+    {
+      "id": "aerztin",
+      "de": "Ärztin",
+      "art": "die",
+      "pl": "die Ärztinnen",
+      "pos": "বিশেষ্য",
+      "bn": "ডাক্তার (নারী)",
+      "en": "doctor (f)"
+    },
+    {
+      "id": "patient",
+      "de": "Patient",
+      "art": "der",
+      "pl": "die Patienten",
+      "pos": "বিশেষ্য",
+      "bn": "রোগী",
+      "en": "patient"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Empfang",
+      "bn": [
+        "ডা.",
+        "বার্গারের",
+        "চেম্বার,",
+        "শুভ",
+        "দিন।"
+      ],
+      "en": [
+        "Dr",
+        "Berger’s",
+        "practice,",
+        "good",
+        "day."
+      ],
+      "de": [
+        {
+          "t": "Praxis",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "Praxis",
+          "gb": "চেম্বার",
+          "ge": "practice",
+          "n": ""
+        },
+        {
+          "t": "Dr. Berger,",
+          "s": "Berger",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Dr Berger",
+          "gb": "ডা বার্গারের",
+          "ge": "Dr Berger’s",
+          "n": ""
+        },
+        {
+          "t": "guten Tag.",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "guten Tag",
+          "gb": "শুভ দিন",
+          "ge": "good day",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "শুভ",
+        "দিন,",
+        "আমার",
+        "একটা",
+        "অ্যাপয়েন্টমেন্ট",
+        "লাগবে।",
+        "আমার",
+        "তিন",
+        "দিন",
+        "ধরে",
+        "জ্বর।"
+      ],
+      "en": [
+        "Good",
+        "day,",
+        "I",
+        "need",
+        "an",
+        "appointment.",
+        "I",
+        "have",
+        "had",
+        "a",
+        "fever",
+        "for",
+        "three",
+        "days."
+      ],
+      "de": [
+        {
+          "t": "Guten Tag,",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Guten Tag",
+          "gb": "শুভ দিন",
+          "ge": "Good day",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "ich",
+          "gb": "আমার",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "brauche",
+          "b": [
+            5
+          ],
+          "e": [
+            3
+          ],
+          "l": "brauche",
+          "gb": "লাগবে",
+          "ge": "need",
+          "n": ""
+        },
+        {
+          "t": "einen",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "einen",
+          "gb": "একটা",
+          "ge": "an",
+          "n": ""
+        },
+        {
+          "t": "Termin.",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "Termin",
+          "gb": "অ্যাপয়েন্টমেন্ট",
+          "ge": "appointment",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            6
+          ],
+          "e": [
+            6
+          ],
+          "l": "Ich",
+          "gb": "আমার",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [],
+          "e": [
+            7,
+            8
+          ],
+          "l": "haben",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "have had",
+          "n": ""
+        },
+        {
+          "t": "seit",
+          "b": [
+            9
+          ],
+          "e": [
+            11
+          ],
+          "l": "seit",
+          "gb": "ধরে",
+          "ge": "for",
+          "n": ""
+        },
+        {
+          "t": "drei",
+          "b": [
+            7
+          ],
+          "e": [
+            12
+          ],
+          "l": "drei",
+          "gb": "তিন",
+          "ge": "three",
+          "n": ""
+        },
+        {
+          "t": "Tagen",
+          "b": [
+            8
+          ],
+          "e": [
+            13
+          ],
+          "l": "Tagen",
+          "gb": "দিন",
+          "ge": "days",
+          "n": "seit + Dativ Plural: -n"
+        },
+        {
+          "t": "Fieber.",
+          "b": [
+            10
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "Fieber",
+          "gb": "জ্বর",
+          "ge": "a fever",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Empfang",
+      "bn": [
+        "আপনি",
+        "কি",
+        "আজ",
+        "১৫টায়",
+        "আসতে",
+        "পারবেন?"
+      ],
+      "en": [
+        "Can",
+        "you",
+        "come",
+        "today",
+        "at",
+        "three",
+        "p.m.?"
+      ],
+      "de": [
+        {
+          "t": "Können",
+          "b": [
+            5
+          ],
+          "e": [
+            0
+          ],
+          "l": "Können",
+          "gb": "পারবেন",
+          "ge": "Can",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "Sie",
+          "gb": "আপনি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "heute",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "heute",
+          "gb": "আজ",
+          "ge": "today",
+          "n": ""
+        },
+        {
+          "t": "um",
+          "b": [],
+          "e": [
+            4
+          ],
+          "l": "um",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "at",
+          "n": ""
+        },
+        {
+          "t": "fünfzehn Uhr",
+          "b": [
+            3
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "fünfzehn Uhr",
+          "gb": "১৫টায়",
+          "ge": "three pm",
+          "n": ""
+        },
+        {
+          "t": "kommen?",
+          "b": [
+            4
+          ],
+          "e": [
+            2
+          ],
+          "l": "kommen",
+          "gb": "আসতে",
+          "ge": "come",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Ärztin",
+      "bn": [
+        "শুভ",
+        "দিন।",
+        "আপনার",
+        "কী",
+        "সমস্যা?"
+      ],
+      "en": [
+        "Good",
+        "day.",
+        "What",
+        "seems",
+        "to",
+        "be",
+        "the",
+        "problem?"
+      ],
+      "de": [
+        {
+          "t": "Guten Tag.",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Guten Tag",
+          "gb": "শুভ দিন",
+          "ge": "Good day",
+          "n": ""
+        },
+        {
+          "t": "Was",
+          "b": [
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "Was",
+          "gb": "কী",
+          "ge": "What",
+          "n": ""
+        },
+        {
+          "t": "fehlt",
+          "b": [
+            4
+          ],
+          "e": [
+            3
+          ],
+          "l": "fehlen",
+          "gb": "সমস্যা",
+          "ge": "seems",
+          "n": ""
+        },
+        {
+          "t": "Ihnen?",
+          "b": [
+            2
+          ],
+          "e": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "l": "Ihnen",
+          "gb": "আপনার",
+          "ge": "to be the problem",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমার",
+        "গলা",
+        "ব্যথা",
+        "করছে,",
+        "আর",
+        "আমার",
+        "কাশি",
+        "আছে।"
+      ],
+      "en": [
+        "My",
+        "throat",
+        "hurts",
+        "and",
+        "I",
+        "have",
+        "a",
+        "cough."
+      ],
+      "de": [
+        {
+          "t": "Mir",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "ich",
+          "gb": "আমার",
+          "ge": "My",
+          "n": "Mir tut … weh: Dativ + wehtun"
+        },
+        {
+          "t": "tut",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "wehtun",
+          "gb": "ব্যথা",
+          "ge": "hurts",
+          "n": ""
+        },
+        {
+          "t": "der",
+          "b": [],
+          "e": [],
+          "l": "der",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Hals",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "Hals",
+          "gb": "গলা",
+          "ge": "throat",
+          "n": ""
+        },
+        {
+          "t": "weh,",
+          "b": [
+            3
+          ],
+          "e": [],
+          "l": "weh",
+          "gb": "করছে",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            4
+          ],
+          "e": [
+            3
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            5
+          ],
+          "e": [
+            4
+          ],
+          "l": "ich",
+          "gb": "আমার",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [
+            7
+          ],
+          "e": [
+            5
+          ],
+          "l": "habe",
+          "gb": "আছে",
+          "ge": "have",
+          "n": ""
+        },
+        {
+          "t": "Husten.",
+          "b": [
+            6
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "Husten",
+          "gb": "কাশি",
+          "ge": "a cough",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Ärztin",
+      "bn": [
+        "কতদিন",
+        "ধরে?",
+        "আপনার",
+        "কি",
+        "জ্বর",
+        "আছে?"
+      ],
+      "en": [
+        "For",
+        "how",
+        "long?",
+        "Do",
+        "you",
+        "have",
+        "a",
+        "fever?"
+      ],
+      "de": [
+        {
+          "t": "Seit wann?",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "Seit wann",
+          "gb": "কতদিন ধরে",
+          "ge": "For how long",
+          "n": ""
+        },
+        {
+          "t": "Haben",
+          "b": [
+            5
+          ],
+          "e": [
+            3
+          ],
+          "l": "Haben",
+          "gb": "আছে",
+          "ge": "Do",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "Sie",
+          "gb": "আপনার",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "Fieber?",
+          "b": [
+            4
+          ],
+          "e": [
+            5,
+            6,
+            7
+          ],
+          "l": "Fieber",
+          "gb": "জ্বর",
+          "ge": "have a fever",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "তিন",
+        "দিন",
+        "ধরে।",
+        "গতকাল",
+        "আমার",
+        "৩৮,৫",
+        "ডিগ্রি",
+        "ছিল।"
+      ],
+      "en": [
+        "For",
+        "three",
+        "days.",
+        "Yesterday",
+        "I",
+        "had",
+        "38.5",
+        "degrees."
+      ],
+      "de": [
+        {
+          "t": "Seit",
+          "b": [
+            2
+          ],
+          "e": [
+            0
+          ],
+          "l": "seit",
+          "gb": "ধরে",
+          "ge": "For",
+          "n": ""
+        },
+        {
+          "t": "drei",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "drei",
+          "gb": "তিন",
+          "ge": "three",
+          "n": ""
+        },
+        {
+          "t": "Tagen.",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "Tagen",
+          "gb": "দিন",
+          "ge": "days",
+          "n": ""
+        },
+        {
+          "t": "Gestern",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "Gestern",
+          "gb": "গতকাল",
+          "ge": "Yesterday",
+          "n": ""
+        },
+        {
+          "t": "hatte",
+          "b": [
+            7
+          ],
+          "e": [
+            5
+          ],
+          "l": "haben",
+          "gb": "ছিল",
+          "ge": "had",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "ich",
+          "gb": "আমার",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "achtunddreißig Komma fünf.",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "achtunddreißig Komma fünf",
+          "gb": "৩৮৫ ডিগ্রি",
+          "ge": "385 degrees",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Ärztin",
+      "bn": [
+        "আপনার",
+        "ঠান্ডা",
+        "লেগেছে।",
+        "আমি",
+        "আপনাকে",
+        "একটি",
+        "প্রেসক্রিপশন",
+        "লিখে",
+        "দিচ্ছি।",
+        "বাসায়",
+        "থাকুন!"
+      ],
+      "en": [
+        "You",
+        "have",
+        "a",
+        "cold.",
+        "I",
+        "will",
+        "write",
+        "you",
+        "a",
+        "prescription.",
+        "Stay",
+        "at",
+        "home!"
+      ],
+      "de": [
+        {
+          "t": "Sie",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Sie",
+          "gb": "আপনার",
+          "ge": "You",
+          "n": ""
+        },
+        {
+          "t": "haben",
+          "b": [
+            2
+          ],
+          "e": [
+            1
+          ],
+          "l": "haben",
+          "gb": "লেগেছে",
+          "ge": "have",
+          "n": ""
+        },
+        {
+          "t": "eine",
+          "b": [
+            5
+          ],
+          "e": [
+            2
+          ],
+          "l": "eine",
+          "gb": "একটি",
+          "ge": "a",
+          "n": ""
+        },
+        {
+          "t": "Erkältung.",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "Erkältung",
+          "gb": "ঠান্ডা",
+          "ge": "cold",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "schreibe",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "schreibe",
+          "gb": "লিখে দিচ্ছি",
+          "ge": "will write",
+          "n": ""
+        },
+        {
+          "t": "Ihnen",
+          "b": [
+            4
+          ],
+          "e": [
+            7
+          ],
+          "l": "Ihnen",
+          "gb": "আপনাকে",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "ein",
+          "b": [
+            5
+          ],
+          "e": [
+            8
+          ],
+          "l": "ein",
+          "gb": "একটি",
+          "ge": "a",
+          "n": ""
+        },
+        {
+          "t": "Rezept.",
+          "b": [
+            6
+          ],
+          "e": [
+            9
+          ],
+          "l": "Rezept",
+          "gb": "প্রেসক্রিপশন",
+          "ge": "prescription",
+          "n": ""
+        },
+        {
+          "t": "Bleiben",
+          "b": [
+            10
+          ],
+          "e": [
+            10
+          ],
+          "l": "bleiben",
+          "gb": "থাকুন",
+          "ge": "Stay",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [],
+          "e": [],
+          "l": "Sie",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "zu Hause!",
+          "b": [
+            9
+          ],
+          "e": [
+            11,
+            12
+          ],
+          "l": "zu Hause",
+          "gb": "বাসায়",
+          "ge": "at home",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "ব্যথা বোঝানোর দুটি পদ্ধতি",
+      "head": [
+        "পদ্ধতি",
+        "উদাহরণ"
+      ],
+      "rows": [
+        [
+          "Mir tut + Körperteil + weh",
+          "Mir tut der Hals weh. / Mir tun die Füße weh."
+        ],
+        [
+          "Ich habe + …schmerzen",
+          "Ich habe Halsschmerzen. / Kopfschmerzen / Bauchschmerzen."
+        ],
+        [
+          "Mein + Körperteil + tut weh",
+          "Mein Kopf tut weh."
+        ],
+        [
+          "Ich habe + রোগ",
+          "Ich habe Fieber / Husten / eine Erkältung."
+        ]
+      ],
+      "note": "wehtun-এ „কার“ Dativ: mir, dir, ihm, ihr … Körperteil-এর বহুবচনে tun: „Mir tun die Augen weh“।"
+    },
+    {
+      "type": "table",
+      "title": "ডাক্তারের সাধারণ প্রশ্ন",
+      "head": [
+        "জার্মান",
+        "বাংলা"
+      ],
+      "rows": [
+        [
+          "Was fehlt Ihnen?",
+          "আপনার কী সমস্যা?"
+        ],
+        [
+          "Wo tut es weh?",
+          "কোথায় ব্যথা?"
+        ],
+        [
+          "Seit wann haben Sie das?",
+          "কতদিন ধরে?"
+        ],
+        [
+          "Haben Sie Fieber?",
+          "জ্বর আছে?"
+        ],
+        [
+          "Nehmen Sie Medikamente?",
+          "কোনো ওষুধ খান?"
+        ],
+        [
+          "Haben Sie eine Allergie?",
+          "কোনো অ্যালার্জি আছে?"
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "title": "seit + Dativ (কত সময় ধরে)",
+      "text": "„Ich habe seit drei Tagen Fieber“ — Präsens, কারণ এখনও আছে। seit-এর পরে সময় Dativ-এ: seit einem Tag, seit zwei Wochen, seit drei Tagen (Plural -n)। „Seit wann?“ = কতদিন ধরে?"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "das Fieber",
+      "options": [
+        "জ্বর",
+        "ব্যথা করা",
+        "ডাক্তার",
+        "ডাক্তারের চেম্বার"
+      ],
+      "answer": 0,
+      "why": "das Fieber = জ্বর।",
+      "word": "fieber"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "der Husten",
+      "options": [
+        "জ্বর",
+        "ঠান্ডা লাগা",
+        "ব্যথা করা",
+        "কাশি"
+      ],
+      "answer": 3,
+      "why": "der Husten = কাশি।",
+      "word": "husten"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "das Rezept",
+      "options": [
+        "কাশি",
+        "ঠান্ডা লাগা",
+        "প্রেসক্রিপশন",
+        "অভাব থাকা"
+      ],
+      "answer": 2,
+      "why": "das Rezept = প্রেসক্রিপশন।",
+      "word": "rezept"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Erkältung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Erkältung। বহুবচন: die Erkältungen।",
+      "word": "erkaeltung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "___ tut der Kopf weh.",
+      "options": [
+        "mir",
+        "mich",
+        "ich",
+        "meinen"
+      ],
+      "answer": 0,
+      "why": "Mir tut der Kopf weh — Dativ।",
+      "word": "wehtun"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ich habe seit drei ___ Fieber.",
+      "options": [
+        "Tagen",
+        "Tag",
+        "Tage",
+        "Tags"
+      ],
+      "answer": 0,
+      "why": "seit drei Tagen — Dativ Plural -n।",
+      "word": "fieber"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Seit wann?“ মানে কী?",
+      "options": [
+        "কতদিন ধরে?",
+        "কোথায়?",
+        "কার?",
+        "কখন যাবে?"
+      ],
+      "answer": 0,
+      "why": "Seit wann = for how long.",
+      "word": "fehlen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Was fehlt Ihnen?“ এর অর্থ কী?",
+      "options": [
+        "আপনার কী সমস্যা?",
+        "আপনার কী লাগবে?",
+        "আপনার কে আছে?",
+        "কী খাবেন?"
+      ],
+      "answer": 0,
+      "why": "fehlen = সমস্যা/অভাব।",
+      "word": "fehlen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Halsschmerzen“ কী?",
+      "options": [
+        "গলা ব্যথা",
+        "মাথাব্যথা",
+        "পেট ব্যথা",
+        "দাঁত ব্যথা"
+      ],
+      "answer": 0,
+      "why": "Hals = গলা।",
+      "word": "halsschmerzen"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „আমার তিন দিন ধরে জ্বর।“",
+      "tiles": [
+        "Fieber.",
+        "Tagen",
+        "habe",
+        "seit",
+        "Ich",
+        "drei"
+      ],
+      "answer": [
+        "Ich",
+        "habe",
+        "seit",
+        "drei",
+        "Tagen",
+        "Fieber."
+      ],
+      "why": "seit + Dativ।",
+      "word": "fieber"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

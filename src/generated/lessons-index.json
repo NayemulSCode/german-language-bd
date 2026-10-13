@@ -614,5 +614,229 @@
     "status": "draft",
     "minutes": 16,
     "words": 12
+  },
+  {
+    "id": "a2-u02-l01",
+    "level": "A2",
+    "unit": 2,
+    "lesson": 1,
+    "title": {
+      "bn": "Dativ: mir, dir, ihm, ihr",
+      "en": "Can you help me? The dative case",
+      "de": "Können Sie mir helfen?"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u02-l02",
+    "level": "A2",
+    "unit": 2,
+    "lesson": 2,
+    "title": {
+      "bn": "Präpositionen mit Dativ",
+      "en": "Prepositions with the dative",
+      "de": "Mit dem Bus zur Arbeit"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u02-l03",
+    "level": "A2",
+    "unit": 2,
+    "lesson": 3,
+    "title": {
+      "bn": "ফোনে ও ইমেইলে ভদ্র অনুরোধ",
+      "en": "Telephoning and polite requests",
+      "de": "Könnte ich bitte Herrn Schmidt sprechen?"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u02-l04",
+    "level": "A2",
+    "unit": 2,
+    "lesson": 4,
+    "title": {
+      "bn": "কারণ বলা: weil-বাক্য",
+      "en": "Giving reasons with weil",
+      "de": "Ich komme zu spät, weil …"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u03-l01",
+    "level": "A2",
+    "unit": 3,
+    "lesson": 1,
+    "title": {
+      "bn": "Wechselpräpositionen: wo? / wohin?",
+      "en": "Two-way prepositions: where? and where to?",
+      "de": "Wo ist mein Reisepass?"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u03-l02",
+    "level": "A2",
+    "unit": 3,
+    "lesson": 2,
+    "title": {
+      "bn": "স্টেশনে: টিকিট, প্ল্যাটফর্ম, ট্রেন বদল",
+      "en": "At the station: tickets, platforms and changes",
+      "de": "Eine Fahrkarte nach München"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u03-l03",
+    "level": "A2",
+    "unit": 3,
+    "lesson": 3,
+    "title": {
+      "bn": "তুলনা: Komparativ ও Superlativ",
+      "en": "Comparing: comparative and superlative",
+      "de": "Das Hotel ist teurer als die Jugendherberge"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u03-l04",
+    "level": "A2",
+    "unit": 3,
+    "lesson": 4,
+    "title": {
+      "bn": "শর্ত ও পরিকল্পনা: wenn, werden",
+      "en": "Conditions and plans: wenn and werden",
+      "de": "Wenn das Wetter schön ist …"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u04-l01",
+    "level": "A2",
+    "unit": 4,
+    "lesson": 1,
+    "title": {
+      "bn": "ডাক্তারের কাছে: অসুখের বর্ণনা",
+      "en": "At the doctor: describing symptoms",
+      "de": "Was fehlt Ihnen?"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u04-l02",
+    "level": "A2",
+    "unit": 4,
+    "lesson": 2,
+    "title": {
+      "bn": "reflexive Verben: sich fühlen, sich freuen",
+      "en": "Reflexive verbs: I don’t feel well",
+      "de": "Ich fühle mich nicht gut"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u04-l03",
+    "level": "A2",
+    "unit": 4,
+    "lesson": 3,
+    "title": {
+      "bn": "ফার্মেসিতে: Imperativ ও ওষুধের নিয়ম",
+      "en": "At the pharmacy: imperative and dosage",
+      "de": "In der Apotheke"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u04-l04",
+    "level": "A2",
+    "unit": 4,
+    "lesson": 4,
+    "title": {
+      "bn": "dass-বাক্য: মতামত ও খবর",
+      "en": "dass-clauses: opinions and reports",
+      "de": "Ich finde, dass Sport wichtig ist"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u05-l01",
+    "level": "A2",
+    "unit": 5,
+    "lesson": 1,
+    "title": {
+      "bn": "বাসার বিজ্ঞাপন: ভাড়া, খরচ, জামানত",
+      "en": "A flat in Berlin: reading rental ads",
+      "de": "Eine Wohnung in Berlin"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u05-l02",
+    "level": "A2",
+    "unit": 5,
+    "lesson": 2,
+    "title": {
+      "bn": "বিশেষণের শেষে -e, -en, -es, -er",
+      "en": "Adjective endings after ein-",
+      "de": "Ich suche eine kleine, helle Wohnung"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u05-l03",
+    "level": "A2",
+    "unit": 5,
+    "lesson": 3,
+    "title": {
+      "bn": "ফ্ল্যাট দেখতে যাওয়া: পরোক্ষ প্রশ্ন (ob, wie, wann)",
+      "en": "The viewing: indirect questions",
+      "de": "Die Besichtigung"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u05-l04",
+    "level": "A2",
+    "unit": 5,
+    "lesson": 4,
+    "title": {
+      "bn": "সমস্যা জানানো ও Relativsatz (der, die, das)",
+      "en": "Reporting problems and relative clauses",
+      "de": "Die Heizung ist kaputt"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
   }
 ]

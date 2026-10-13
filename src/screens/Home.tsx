@@ -59,8 +59,8 @@ export function HomeScreen() {
       ) : (
         <div className="card continue">
           <div className="eyebrow bn">সব লেসন শেষ</div>
-          <h2>A1 সম্পূর্ণ!</h2>
-          <div className="bn" style={{ opacity: 0.85 }}>রিভিউ করে শব্দগুলো পাকা করুন। A2 শীঘ্রই আসছে।</div>
+          <h2>{LESSONS.some((l) => l.level !== 'A1') ? 'এখন পর্যন্ত সব শেষ!' : 'A1 সম্পূর্ণ!'}</h2>
+          <div className="bn" style={{ opacity: 0.85 }}>রিভিউ করে শব্দগুলো পাকা করুন। নতুন লেসন শীঘ্রই আসছে।</div>
           <button className="btn bn" onClick={() => go('#review')}><Icon name="play" /> রিভিউ</button>
         </div>
       )}

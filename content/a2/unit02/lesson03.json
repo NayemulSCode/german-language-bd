@@ -1,0 +1,1265 @@
+{
+  "level": "A2",
+  "unit": 2,
+  "minutes": 16,
+  "lesson": 3,
+  "id": "a2-u02-l03",
+  "title": {
+    "de": "Könnte ich bitte Herrn Schmidt sprechen?",
+    "bn": "ফোনে ও ইমেইলে ভদ্র অনুরোধ",
+    "en": "Telephoning and polite requests"
+  },
+  "hook": {
+    "de": "Der Ton macht die Musik.",
+    "who": "Redensart",
+    "bn": "বলার ধরনেই সব — সুর ভালো হলে কথাও ভালো শোনায়।",
+    "en": "It is not what you say, it is how you say it."
+  },
+  "goals": [
+    "höfliche Bitte: Könnten Sie …? Würden Sie …?",
+    "ফোনের পরিচিত বাক্য: Einen Moment, ich verbinde Sie",
+    "Nachricht রেখে যাওয়া",
+    "ফর্মাল ইমেইলের শুরু ও শেষ"
+  ],
+  "words": [
+    {
+      "id": "koennten",
+      "de": "könnten",
+      "pos": "Konjunktiv II von können",
+      "bn": "পারতেন (ভদ্র অনুরোধে)",
+      "en": "could (polite)"
+    },
+    {
+      "id": "wuerden",
+      "de": "würden",
+      "pos": "Konjunktiv II von werden",
+      "bn": "করতেন কি? (ভদ্র অনুরোধে)",
+      "en": "would (polite)"
+    },
+    {
+      "id": "verbinden",
+      "de": "verbinden",
+      "pos": "ক্রিয়া · hat verbunden",
+      "bn": "লাইন দেওয়া, সংযুক্ত করা",
+      "en": "to connect"
+    },
+    {
+      "id": "zurueckrufen",
+      "de": "zurückrufen",
+      "pos": "ক্রিয়া · hat zurückgerufen",
+      "bn": "ফিরতি ফোন করা",
+      "en": "to call back"
+    },
+    {
+      "id": "erreichen",
+      "de": "erreichen",
+      "pos": "ক্রিয়া · hat erreicht",
+      "bn": "যোগাযোগ পাওয়া",
+      "en": "to reach"
+    },
+    {
+      "id": "nachricht",
+      "de": "Nachricht",
+      "art": "die",
+      "pl": "die Nachrichten",
+      "pos": "বিশেষ্য",
+      "bn": "বার্তা",
+      "en": "message"
+    },
+    {
+      "id": "moment",
+      "de": "Moment",
+      "art": "der",
+      "pl": "die Momente",
+      "pos": "বিশেষ্য",
+      "bn": "মুহূর্ত",
+      "en": "moment"
+    },
+    {
+      "id": "leider",
+      "de": "leider",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "দুর্ভাগ্যবশত",
+      "en": "unfortunately"
+    },
+    {
+      "id": "nummer",
+      "de": "Nummer",
+      "art": "die",
+      "pl": "die Nummern",
+      "pos": "বিশেষ্য",
+      "bn": "নম্বর",
+      "en": "number"
+    },
+    {
+      "id": "sprechen",
+      "de": "sprechen",
+      "pos": "ক্রিয়া · spricht, hat gesprochen",
+      "bn": "কথা বলা",
+      "en": "to speak"
+    },
+    {
+      "id": "anhang",
+      "de": "Anhang",
+      "art": "der",
+      "pl": "die Anhänge",
+      "pos": "বিশেষ্য",
+      "bn": "সংযুক্তি (ইমেইলে)",
+      "en": "attachment"
+    },
+    {
+      "id": "freundlich",
+      "de": "freundlich",
+      "pos": "বিশেষণ",
+      "bn": "বন্ধুত্বপূর্ণ, ভদ্র",
+      "en": "friendly"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Zentrale",
+      "bn": [
+        "শ্মিট",
+        "কোম্পানি,",
+        "শুভ",
+        "দিন।",
+        "আমি",
+        "আপনাকে",
+        "কীভাবে",
+        "সাহায্য",
+        "করতে",
+        "পারি?"
+      ],
+      "en": [
+        "Schmidt",
+        "company,",
+        "good",
+        "day.",
+        "How",
+        "can",
+        "I",
+        "help",
+        "you?"
+      ],
+      "de": [
+        {
+          "t": "Firma Schmidt,",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Firma Schmidt",
+          "gb": "শ্মিট কোম্পানি",
+          "ge": "Schmidt company",
+          "n": ""
+        },
+        {
+          "t": "guten Tag.",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "guten Tag",
+          "gb": "শুভ দিন",
+          "ge": "good day",
+          "n": ""
+        },
+        {
+          "t": "Wie",
+          "b": [
+            6
+          ],
+          "e": [
+            4
+          ],
+          "l": "Wie",
+          "gb": "কীভাবে",
+          "ge": "How",
+          "n": ""
+        },
+        {
+          "t": "kann",
+          "b": [
+            9
+          ],
+          "e": [
+            5
+          ],
+          "l": "kann",
+          "gb": "পারি",
+          "ge": "can",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            4
+          ],
+          "e": [
+            6
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "Ihnen",
+          "b": [
+            5
+          ],
+          "e": [
+            8
+          ],
+          "l": "Ihnen",
+          "gb": "আপনাকে",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "helfen?",
+          "b": [
+            7
+          ],
+          "e": [
+            7
+          ],
+          "l": "helfen",
+          "gb": "সাহায্য",
+          "ge": "help",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "শুভ",
+        "দিন,",
+        "আমি",
+        "সাহেব।",
+        "আমি",
+        "কি",
+        "মিস্টার",
+        "শ্মিটের",
+        "সাথে",
+        "কথা",
+        "বলতে",
+        "পারি?"
+      ],
+      "en": [
+        "Good",
+        "day,",
+        "this",
+        "is",
+        "Saheb.",
+        "Could",
+        "I",
+        "please",
+        "speak",
+        "to",
+        "Mr",
+        "Schmidt?"
+      ],
+      "de": [
+        {
+          "t": "Guten Tag,",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Guten Tag",
+          "gb": "শুভ দিন",
+          "ge": "Good day",
+          "n": ""
+        },
+        {
+          "t": "hier",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "hier",
+          "gb": "আমি",
+          "ge": "this",
+          "n": ""
+        },
+        {
+          "t": "spricht",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "sprechen",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "Saheb.",
+          "s": "Saheb",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "Saheb",
+          "gb": "সাহেব",
+          "ge": "Saheb",
+          "n": ""
+        },
+        {
+          "t": "Könnte",
+          "b": [
+            11
+          ],
+          "e": [
+            5
+          ],
+          "l": "könnten",
+          "gb": "পারি",
+          "ge": "Could",
+          "n": "Könnte ich …? = ভদ্র অনুরোধ (können-এর Konjunktiv II)"
+        },
+        {
+          "t": "ich",
+          "b": [
+            4
+          ],
+          "e": [
+            6
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "bitte",
+          "b": [],
+          "e": [
+            7
+          ],
+          "l": "bitte",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "please",
+          "n": ""
+        },
+        {
+          "t": "Herrn",
+          "b": [
+            6
+          ],
+          "e": [
+            10
+          ],
+          "l": "Herrn",
+          "gb": "মিস্টার",
+          "ge": "Mr",
+          "n": ""
+        },
+        {
+          "t": "Schmidt",
+          "b": [
+            7
+          ],
+          "e": [
+            11
+          ],
+          "l": "Schmidt",
+          "gb": "শ্মিটের",
+          "ge": "Schmidt",
+          "n": ""
+        },
+        {
+          "t": "sprechen?",
+          "b": [
+            9,
+            10
+          ],
+          "e": [
+            8
+          ],
+          "l": "sprechen",
+          "gb": "কথা বলতে",
+          "ge": "speak",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Zentrale",
+      "bn": [
+        "এক",
+        "মুহূর্ত,",
+        "আমি",
+        "আপনাকে",
+        "লাইন",
+        "দিচ্ছি।"
+      ],
+      "en": [
+        "One",
+        "moment,",
+        "I",
+        "will",
+        "put",
+        "you",
+        "through."
+      ],
+      "de": [
+        {
+          "t": "Einen",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Einen",
+          "gb": "এক",
+          "ge": "One",
+          "n": ""
+        },
+        {
+          "t": "Moment,",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "Moment",
+          "gb": "মুহূর্ত",
+          "ge": "moment",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "verbinde",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "l": "verbinden",
+          "gb": "লাইন দিচ্ছি",
+          "ge": "will put you through",
+          "n": ""
+        },
+        {
+          "t": "Sie.",
+          "b": [
+            3
+          ],
+          "e": [],
+          "l": "Sie",
+          "gb": "আপনাকে",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Zentrale",
+      "bn": [
+        "দুঃখিত,",
+        "মিস্টার",
+        "শ্মিট",
+        "এখন",
+        "নেই।",
+        "আপনি",
+        "কি",
+        "কোনো",
+        "বার্তা",
+        "রেখে",
+        "যেতে",
+        "চান?"
+      ],
+      "en": [
+        "Unfortunately",
+        "Mr",
+        "Schmidt",
+        "is",
+        "not",
+        "here.",
+        "Would",
+        "you",
+        "like",
+        "to",
+        "leave",
+        "a",
+        "message?"
+      ],
+      "de": [
+        {
+          "t": "Leider",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "leider",
+          "gb": "দুঃখিত",
+          "ge": "Unfortunately",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "Herr",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "Herr",
+          "gb": "মিস্টার",
+          "ge": "Mr",
+          "n": ""
+        },
+        {
+          "t": "Schmidt",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "Schmidt",
+          "gb": "শ্মিট",
+          "ge": "Schmidt",
+          "n": ""
+        },
+        {
+          "t": "gerade",
+          "b": [
+            3
+          ],
+          "e": [],
+          "l": "gerade",
+          "gb": "এখন",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "nicht",
+          "b": [
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "nicht",
+          "gb": "নেই",
+          "ge": "not",
+          "n": ""
+        },
+        {
+          "t": "da.",
+          "b": [],
+          "e": [
+            5
+          ],
+          "l": "da",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "here",
+          "n": ""
+        },
+        {
+          "t": "Möchten",
+          "b": [
+            11
+          ],
+          "e": [
+            6,
+            7,
+            8
+          ],
+          "l": "möchten",
+          "gb": "চান",
+          "ge": "Would you like",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [
+            5
+          ],
+          "e": [],
+          "l": "Sie",
+          "gb": "আপনি",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "eine",
+          "b": [
+            7
+          ],
+          "e": [
+            11
+          ],
+          "l": "eine",
+          "gb": "কোনো",
+          "ge": "a",
+          "n": ""
+        },
+        {
+          "t": "Nachricht",
+          "b": [
+            8
+          ],
+          "e": [
+            12
+          ],
+          "l": "Nachricht",
+          "gb": "বার্তা",
+          "ge": "message",
+          "n": ""
+        },
+        {
+          "t": "hinterlassen?",
+          "b": [
+            9,
+            10
+          ],
+          "e": [
+            10
+          ],
+          "l": "hinterlassen",
+          "gb": "রেখে যেতে",
+          "ge": "leave",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "হ্যাঁ।",
+        "আপনি",
+        "কি",
+        "দয়া",
+        "করে",
+        "তাকে",
+        "বলতে",
+        "পারেন,",
+        "উনি",
+        "আমাকে",
+        "ফিরতি",
+        "ফোন",
+        "করতে?"
+      ],
+      "en": [
+        "Yes.",
+        "Could",
+        "you",
+        "please",
+        "ask",
+        "him",
+        "to",
+        "call",
+        "me",
+        "back?"
+      ],
+      "de": [
+        {
+          "t": "Ja.",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ja",
+          "gb": "হ্যাঁ",
+          "ge": "Yes",
+          "n": ""
+        },
+        {
+          "t": "Würden",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "würden",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "Could",
+          "n": "Würden Sie …? = আপনি কি করতেন/করবেন? (ভদ্র)"
+        },
+        {
+          "t": "Sie",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "Sie",
+          "gb": "আপনি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "ihn",
+          "b": [
+            5
+          ],
+          "e": [
+            5
+          ],
+          "l": "er",
+          "gb": "তাকে",
+          "ge": "him",
+          "n": ""
+        },
+        {
+          "t": "bitte",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            3
+          ],
+          "l": "bitte",
+          "gb": "দয়া করে",
+          "ge": "please",
+          "n": ""
+        },
+        {
+          "t": "zurückrufen?",
+          "b": [
+            10,
+            11,
+            12
+          ],
+          "e": [
+            7,
+            9
+          ],
+          "l": "zurückrufen",
+          "gb": "ফিরতি ফোন করতে",
+          "ge": "call back",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Zentrale",
+      "bn": [
+        "গিয়ে",
+        "বলব।",
+        "আপনার",
+        "নম্বর",
+        "কত?"
+      ],
+      "en": [
+        "I",
+        "will",
+        "do",
+        "that.",
+        "What",
+        "is",
+        "your",
+        "number?"
+      ],
+      "de": [
+        {
+          "t": "Gern.",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "l": "Gern",
+          "gb": "গিয়ে বলব",
+          "ge": "I will do that",
+          "n": ""
+        },
+        {
+          "t": "Wie",
+          "b": [
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "Wie",
+          "gb": "কত",
+          "ge": "What",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            5
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "Ihre",
+          "b": [
+            2
+          ],
+          "e": [
+            6
+          ],
+          "l": "Ihre",
+          "gb": "আপনার",
+          "ge": "your",
+          "n": ""
+        },
+        {
+          "t": "Nummer?",
+          "b": [
+            3
+          ],
+          "e": [
+            7
+          ],
+          "l": "Nummer",
+          "gb": "নম্বর",
+          "ge": "number",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমার",
+        "নম্বর",
+        "আমি",
+        "ইমেইলে",
+        "পাঠিয়েছি।",
+        "আপনাকে",
+        "অনেক",
+        "ধন্যবাদ,",
+        "আবার",
+        "শুনব।"
+      ],
+      "en": [
+        "I",
+        "sent",
+        "my",
+        "number",
+        "by",
+        "email.",
+        "Thank",
+        "you",
+        "very",
+        "much,",
+        "goodbye."
+      ],
+      "de": [
+        {
+          "t": "Meine",
+          "b": [
+            0
+          ],
+          "e": [
+            2
+          ],
+          "l": "Meine",
+          "gb": "আমার",
+          "ge": "my",
+          "n": ""
+        },
+        {
+          "t": "Nummer",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "Nummer",
+          "gb": "নম্বর",
+          "ge": "number",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [],
+          "e": [],
+          "l": "haben",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            2
+          ],
+          "e": [
+            0
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "per E-Mail",
+          "b": [
+            3
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "per E-Mail",
+          "gb": "ইমেইলে",
+          "ge": "by email",
+          "n": ""
+        },
+        {
+          "t": "geschickt.",
+          "b": [
+            4
+          ],
+          "e": [
+            1
+          ],
+          "l": "schicken",
+          "gb": "পাঠিয়েছি",
+          "ge": "sent",
+          "n": ""
+        },
+        {
+          "t": "Vielen Dank,",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "l": "Vielen Dank",
+          "gb": "অনেক ধন্যবাদ",
+          "ge": "Thank you very much",
+          "n": ""
+        },
+        {
+          "t": "auf Wiederhören.",
+          "b": [
+            8,
+            9
+          ],
+          "e": [
+            10
+          ],
+          "l": "auf Wiederhören",
+          "gb": "আবার শুনব",
+          "ge": "goodbye",
+          "n": "ফোনে বিদায়ে „auf Wiederhören“ বলা হয় (দেখা হয় না বলে „Wiedersehen“ নয়)"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "ভদ্র অনুরোধ: Konjunktiv II",
+      "head": [
+        "সাধারণ",
+        "ভদ্র",
+        "অর্থ"
+      ],
+      "rows": [
+        [
+          "Kannst du …?",
+          "Könntest du …? / Könnten Sie …?",
+          "আপনি কি পারতেন…?"
+        ],
+        [
+          "Wirst du …?",
+          "Würdest du …? / Würden Sie …?",
+          "আপনি কি করবেন…?"
+        ],
+        [
+          "Ich will …",
+          "Ich möchte … / Ich hätte gern …",
+          "আমি চাই / আমার লাগবে…"
+        ],
+        [
+          "Hast du …?",
+          "Hätten Sie …?",
+          "আপনার কাছে আছে কি…?"
+        ]
+      ],
+      "note": "A2-তে এই কয়টি রূপ বাক্যাংশ হিসেবে শিখুন: „Könnten Sie mir helfen?“, „Würden Sie bitte …?“, „Ich möchte …“, „Ich hätte gern …“।"
+    },
+    {
+      "type": "table",
+      "title": "ফোনের কিছু প্রচলিত বাক্য",
+      "head": [
+        "জার্মান",
+        "বাংলা"
+      ],
+      "rows": [
+        [
+          "Hier spricht …",
+          "আমি … বলছি"
+        ],
+        [
+          "Könnte ich bitte … sprechen?",
+          "আমি কি … -এর সাথে কথা বলতে পারি?"
+        ],
+        [
+          "Einen Moment, ich verbinde Sie.",
+          "এক মুহূর্ত, লাইন দিচ্ছি"
+        ],
+        [
+          "Er ist leider nicht da.",
+          "উনি দুঃখিত, এখন নেই"
+        ],
+        [
+          "Möchten Sie eine Nachricht hinterlassen?",
+          "বার্তা রেখে যেতে চান?"
+        ],
+        [
+          "Bitte rufen Sie mich zurück.",
+          "দয়া করে আমাকে ফিরতি ফোন করুন"
+        ],
+        [
+          "Auf Wiederhören!",
+          "ফোনে বিদায়"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "ফর্মাল ইমেইল",
+      "head": [
+        "অংশ",
+        "বাক্য"
+      ],
+      "rows": [
+        [
+          "শুরু (নাম জানলে)",
+          "Sehr geehrter Herr Schmidt, / Sehr geehrte Frau Weber,"
+        ],
+        [
+          "শুরু (নাম না জানলে)",
+          "Sehr geehrte Damen und Herren,"
+        ],
+        [
+          "কারণ",
+          "ich schreibe Ihnen wegen …"
+        ],
+        [
+          "সংযুক্তি",
+          "Im Anhang finden Sie …"
+        ],
+        [
+          "শেষ",
+          "Mit freundlichen Grüßen, Saheb"
+        ]
+      ],
+      "note": "ইমেইলে „du“ নয়, „Sie“ ব্যবহার করুন — অফিস ও ভাড়াটিয়া/ঠিকাদারের সাথে।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "die Nachricht",
+      "options": [
+        "নম্বর",
+        "বার্তা",
+        "সংযুক্তি",
+        "পারতেন"
+      ],
+      "answer": 1,
+      "why": "die Nachricht = বার্তা।",
+      "word": "nachricht"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "leider",
+      "options": [
+        "করতেন কি?",
+        "যোগাযোগ পাওয়া",
+        "দুর্ভাগ্যবশত",
+        "নম্বর"
+      ],
+      "answer": 2,
+      "why": "leider = দুর্ভাগ্যবশত।",
+      "word": "leider"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "verbinden",
+      "options": [
+        "লাইন দেওয়া",
+        "বন্ধুত্বপূর্ণ",
+        "ফিরতি ফোন করা",
+        "মুহূর্ত"
+      ],
+      "answer": 0,
+      "why": "verbinden = লাইন দেওয়া।",
+      "word": "verbinden"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Nummer",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Nummer। বহুবচন: die Nummern।",
+      "word": "nummer"
+    },
+    {
+      "type": "mcq",
+      "prompt": "কোনটি বেশি ভদ্র?",
+      "options": [
+        "Könnten Sie mir helfen?",
+        "Hilf mir!",
+        "Kannst du helfen?",
+        "Sie helfen mir."
+      ],
+      "answer": 0,
+      "why": "Könnten Sie …? ভদ্র অনুরোধ।",
+      "word": "koennten"
+    },
+    {
+      "type": "mcq",
+      "prompt": "ফোনে বিদায়ে কী বলা হয়?",
+      "options": [
+        "Auf Wiederhören",
+        "Auf Wiedersehen",
+        "Bis morgen sehen",
+        "Guten Morgen"
+      ],
+      "answer": 0,
+      "why": "ফোনে Wiederhören।",
+      "word": "sprechen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "ইমেইলের শুরুতে (নাম অজানা) কী লিখবেন?",
+      "options": [
+        "Sehr geehrte Damen und Herren,",
+        "Hallo Leute,",
+        "Liebe Grüße,",
+        "Tschüss,"
+      ],
+      "answer": 0,
+      "why": "ফর্মাল শুরু।",
+      "word": "anhang"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "___ Sie bitte zurückrufen?",
+      "options": [
+        "Würden",
+        "Wurde",
+        "Wird",
+        "Wirden"
+      ],
+      "answer": 0,
+      "why": "Würden Sie …? ভদ্র অনুরোধ।",
+      "word": "wuerden"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Mit freundlichen Grüßen“ কোথায় লেখা হয়?",
+      "options": [
+        "ইমেইলের শেষে",
+        "ইমেইলের শুরুতে",
+        "বিষয় লাইনে",
+        "ফোনে বলার সময়"
+      ],
+      "answer": 0,
+      "why": "শেষে লেখা হয়।",
+      "word": "freundlich"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „আমি কি দয়া করে মিস্টার শ্মিটের সাথে কথা বলতে পারি?“",
+      "tiles": [
+        "sprechen?",
+        "bitte",
+        "Herrn Schmidt",
+        "ich",
+        "Könnte"
+      ],
+      "answer": [
+        "Könnte",
+        "ich",
+        "bitte",
+        "Herrn Schmidt",
+        "sprechen?"
+      ],
+      "why": "Könnte ich … sprechen? — ক্রিয়া শেষে।",
+      "word": "sprechen"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

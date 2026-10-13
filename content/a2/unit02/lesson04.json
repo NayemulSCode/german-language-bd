@@ -1,0 +1,1312 @@
+{
+  "level": "A2",
+  "unit": 2,
+  "minutes": 16,
+  "lesson": 4,
+  "id": "a2-u02-l04",
+  "title": {
+    "de": "Ich komme zu spät, weil …",
+    "bn": "কারণ বলা: weil-বাক্য",
+    "en": "Giving reasons with weil"
+  },
+  "hook": {
+    "de": "Pünktlichkeit ist die Höflichkeit der Könige.",
+    "who": "Redensart",
+    "bn": "সময়ানুবর্তিতা রাজাদের ভদ্রতা।",
+    "en": "Punctuality is the politeness of kings."
+  },
+  "goals": [
+    "weil-বাক্যে ক্রিয়া একদম শেষে",
+    "warum? — weil …",
+    "দেরি বা অনুপস্থিতির কারণ বলা",
+    "weil আর denn-এর পার্থক্য"
+  ],
+  "words": [
+    {
+      "id": "weil",
+      "de": "weil",
+      "pos": "সংযোজক",
+      "bn": "কারণ, যেহেতু",
+      "en": "because"
+    },
+    {
+      "id": "warum",
+      "de": "warum",
+      "pos": "প্রশ্নশব্দ",
+      "bn": "কেন",
+      "en": "why"
+    },
+    {
+      "id": "denn",
+      "de": "denn",
+      "pos": "সংযোজক",
+      "bn": "কারণ (Hauptsatz-এর আগে)",
+      "en": "because (main clause)"
+    },
+    {
+      "id": "verspaetung",
+      "de": "Verspätung",
+      "art": "die",
+      "pl": "die Verspätungen",
+      "pos": "বিশেষ্য",
+      "bn": "দেরি",
+      "en": "delay"
+    },
+    {
+      "id": "stau",
+      "de": "Stau",
+      "art": "der",
+      "pl": "die Staus",
+      "pos": "বিশেষ্য",
+      "bn": "যানজট",
+      "en": "traffic jam"
+    },
+    {
+      "id": "puenktlich",
+      "de": "pünktlich",
+      "pos": "বিশেষণ",
+      "bn": "সময়মতো",
+      "en": "on time"
+    },
+    {
+      "id": "verschlafen",
+      "de": "verschlafen",
+      "pos": "ক্রিয়া · hat verschlafen",
+      "bn": "ঘুম থেকে দেরিতে ওঠা",
+      "en": "to oversleep"
+    },
+    {
+      "id": "urlaub",
+      "de": "Urlaub",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "ছুটি",
+      "en": "holiday, leave"
+    },
+    {
+      "id": "krank",
+      "de": "krank",
+      "pos": "বিশেষণ",
+      "bn": "অসুস্থ",
+      "en": "ill"
+    },
+    {
+      "id": "besuch",
+      "de": "Besuch",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "অতিথি, দেখা করতে আসা",
+      "en": "visit"
+    },
+    {
+      "id": "entschuldigung",
+      "de": "Entschuldigung",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "ক্ষমা, দুঃখপ্রকাশ",
+      "en": "apology"
+    },
+    {
+      "id": "bescheid",
+      "de": "Bescheid",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "খবর, জানানো",
+      "en": "notice, word"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Chef",
+      "bn": [
+        "সাহেব,",
+        "তুমি",
+        "আজ",
+        "দেরিতে",
+        "এসেছ।",
+        "কেন?"
+      ],
+      "en": [
+        "Saheb,",
+        "you",
+        "are",
+        "late",
+        "today.",
+        "Why?"
+      ],
+      "de": [
+        {
+          "t": "Saheb,",
+          "s": "Saheb",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Saheb",
+          "gb": "সাহেব",
+          "ge": "Saheb",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "Sie",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "sind",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "are",
+          "n": ""
+        },
+        {
+          "t": "heute",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "heute",
+          "gb": "আজ",
+          "ge": "today",
+          "n": ""
+        },
+        {
+          "t": "zu spät.",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            3
+          ],
+          "l": "zu spät",
+          "gb": "দেরিতে এসেছ",
+          "ge": "late",
+          "n": ""
+        },
+        {
+          "t": "Warum?",
+          "b": [
+            5
+          ],
+          "e": [
+            5
+          ],
+          "l": "warum",
+          "gb": "কেন",
+          "ge": "Why",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "দুঃখিত!",
+        "আমি",
+        "দেরিতে",
+        "এসেছি,",
+        "কারণ",
+        "বাসটা",
+        "দেরি",
+        "করেছে।"
+      ],
+      "en": [
+        "I",
+        "am",
+        "sorry!",
+        "I",
+        "am",
+        "late",
+        "because",
+        "the",
+        "bus",
+        "was",
+        "delayed."
+      ],
+      "de": [
+        {
+          "t": "Entschuldigung!",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "Entschuldigung",
+          "gb": "আমি দুঃখিত",
+          "ge": "I am sorry",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "komme",
+          "b": [
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "komme",
+          "gb": "এসেছি",
+          "ge": "am",
+          "n": ""
+        },
+        {
+          "t": "zu spät,",
+          "b": [
+            3
+          ],
+          "e": [
+            5
+          ],
+          "l": "zu spät",
+          "gb": "দেরিতে",
+          "ge": "late",
+          "n": ""
+        },
+        {
+          "t": "weil",
+          "b": [
+            5
+          ],
+          "e": [
+            6
+          ],
+          "l": "weil",
+          "gb": "কারণ",
+          "ge": "because",
+          "n": "weil-এর পর ক্রিয়া একদম শেষে যায়"
+        },
+        {
+          "t": "der",
+          "b": [],
+          "e": [
+            7
+          ],
+          "l": "der",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "Bus",
+          "b": [
+            6
+          ],
+          "e": [
+            8
+          ],
+          "l": "Bus",
+          "gb": "বাসটা",
+          "ge": "bus",
+          "n": ""
+        },
+        {
+          "t": "Verspätung",
+          "b": [
+            7
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "Verspätung",
+          "gb": "দেরি",
+          "ge": "was delayed",
+          "n": ""
+        },
+        {
+          "t": "hatte.",
+          "b": [
+            8
+          ],
+          "e": [],
+          "l": "hatte",
+          "gb": "করেছে",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Chef",
+      "bn": [
+        "আর",
+        "গতকাল?",
+        "তুমি",
+        "কেন",
+        "অফিসে",
+        "আসোনি?"
+      ],
+      "en": [
+        "And",
+        "yesterday?",
+        "Why",
+        "did",
+        "you",
+        "not",
+        "come",
+        "to",
+        "the",
+        "office?"
+      ],
+      "de": [
+        {
+          "t": "Und",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "gestern?",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "gestern",
+          "gb": "গতকাল",
+          "ge": "yesterday",
+          "n": ""
+        },
+        {
+          "t": "Warum",
+          "b": [
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "Warum",
+          "gb": "কেন",
+          "ge": "Why",
+          "n": ""
+        },
+        {
+          "t": "waren",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "did",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "Sie",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "nicht",
+          "b": [
+            5
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "nicht",
+          "gb": "আসোনি",
+          "ge": "not come",
+          "n": ""
+        },
+        {
+          "t": "im",
+          "b": [
+            4
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "im",
+          "gb": "অফিসে",
+          "ge": "to the",
+          "n": ""
+        },
+        {
+          "t": "Büro?",
+          "b": [
+            4
+          ],
+          "e": [
+            9
+          ],
+          "l": "Büro",
+          "gb": "অফিসে",
+          "ge": "office",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "অসুস্থ",
+        "ছিলাম,",
+        "কারণ",
+        "আমার",
+        "জ্বর",
+        "ছিল।",
+        "আমি",
+        "আপনাকে",
+        "ফোন",
+        "করেছিলাম।"
+      ],
+      "en": [
+        "I",
+        "was",
+        "ill",
+        "because",
+        "I",
+        "had",
+        "a",
+        "fever.",
+        "I",
+        "called",
+        "you."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "war",
+          "b": [
+            2
+          ],
+          "e": [
+            1
+          ],
+          "l": "war",
+          "gb": "ছিলাম",
+          "ge": "was",
+          "n": ""
+        },
+        {
+          "t": "krank,",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "krank",
+          "gb": "অসুস্থ",
+          "ge": "ill",
+          "n": ""
+        },
+        {
+          "t": "weil",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "weil",
+          "gb": "কারণ",
+          "ge": "because",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "ich",
+          "gb": "আমার",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "Fieber",
+          "b": [
+            5
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "Fieber",
+          "gb": "জ্বর",
+          "ge": "a fever",
+          "n": ""
+        },
+        {
+          "t": "hatte.",
+          "b": [
+            6
+          ],
+          "e": [
+            5
+          ],
+          "l": "haben",
+          "gb": "ছিল",
+          "ge": "had",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Chef",
+      "bn": [
+        "তবে",
+        "পরের",
+        "বার",
+        "সকালে",
+        "আমাকে",
+        "জানাবে,",
+        "কারণ",
+        "আমাদের",
+        "পরিকল্পনা",
+        "করতে",
+        "হয়।"
+      ],
+      "en": [
+        "But",
+        "next",
+        "time",
+        "please",
+        "tell",
+        "me",
+        "in",
+        "the",
+        "morning,",
+        "because",
+        "we",
+        "have",
+        "to",
+        "plan."
+      ],
+      "de": [
+        {
+          "t": "Aber",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Aber",
+          "gb": "তবে",
+          "ge": "But",
+          "n": ""
+        },
+        {
+          "t": "sagen",
+          "b": [
+            5
+          ],
+          "e": [
+            4
+          ],
+          "l": "sagen",
+          "gb": "জানাবে",
+          "ge": "tell",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [],
+          "e": [],
+          "l": "Sie",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "mir",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "mir",
+          "gb": "আমাকে",
+          "ge": "me",
+          "n": ""
+        },
+        {
+          "t": "bitte",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "bitte",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "please",
+          "n": ""
+        },
+        {
+          "t": "früh",
+          "b": [
+            3
+          ],
+          "e": [
+            6,
+            7,
+            8
+          ],
+          "l": "früh",
+          "gb": "সকালে",
+          "ge": "in the morning",
+          "n": ""
+        },
+        {
+          "t": "Bescheid,",
+          "b": [],
+          "e": [],
+          "l": "Bescheid",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": "Bescheid sagen = জানানো"
+        },
+        {
+          "t": "denn",
+          "b": [
+            6
+          ],
+          "e": [
+            9
+          ],
+          "l": "denn",
+          "gb": "কারণ",
+          "ge": "because",
+          "n": "denn + Hauptsatz (ক্রিয়া ২য় স্থানে): denn wir müssen planen"
+        },
+        {
+          "t": "wir",
+          "b": [
+            7
+          ],
+          "e": [
+            10
+          ],
+          "l": "wir",
+          "gb": "আমাদের",
+          "ge": "we",
+          "n": ""
+        },
+        {
+          "t": "müssen",
+          "b": [
+            10
+          ],
+          "e": [
+            11,
+            12
+          ],
+          "l": "müssen",
+          "gb": "হয়",
+          "ge": "have to",
+          "n": ""
+        },
+        {
+          "t": "planen.",
+          "b": [
+            8
+          ],
+          "e": [
+            13
+          ],
+          "l": "planen",
+          "gb": "পরিকল্পনা",
+          "ge": "plan",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "ঠিক",
+        "আছে।",
+        "আমি",
+        "পরের",
+        "সপ্তাহে",
+        "ছুটি",
+        "নিতে",
+        "চাই,",
+        "কারণ",
+        "আমার",
+        "পরিবার",
+        "দেখা",
+        "করতে",
+        "আসছে।"
+      ],
+      "en": [
+        "All",
+        "right.",
+        "I",
+        "would",
+        "like",
+        "to",
+        "take",
+        "leave",
+        "next",
+        "week",
+        "because",
+        "my",
+        "family",
+        "is",
+        "coming",
+        "to",
+        "visit."
+      ],
+      "de": [
+        {
+          "t": "Okay.",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Okay",
+          "gb": "ঠিক আছে",
+          "ge": "All right",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "möchte",
+          "b": [
+            7
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "möchte",
+          "gb": "চাই",
+          "ge": "would like",
+          "n": ""
+        },
+        {
+          "t": "nächste Woche",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            8,
+            9
+          ],
+          "l": "nächste Woche",
+          "gb": "পরের সপ্তাহে",
+          "ge": "next week",
+          "n": ""
+        },
+        {
+          "t": "Urlaub",
+          "b": [
+            5
+          ],
+          "e": [
+            7
+          ],
+          "l": "Urlaub",
+          "gb": "ছুটি",
+          "ge": "leave",
+          "n": ""
+        },
+        {
+          "t": "nehmen,",
+          "b": [
+            6
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "nehmen",
+          "gb": "নিতে",
+          "ge": "to take",
+          "n": ""
+        },
+        {
+          "t": "weil",
+          "b": [
+            8
+          ],
+          "e": [
+            10
+          ],
+          "l": "weil",
+          "gb": "কারণ",
+          "ge": "because",
+          "n": ""
+        },
+        {
+          "t": "meine",
+          "b": [
+            9
+          ],
+          "e": [
+            11
+          ],
+          "l": "meine",
+          "gb": "আমার",
+          "ge": "my",
+          "n": ""
+        },
+        {
+          "t": "Familie",
+          "b": [
+            10
+          ],
+          "e": [
+            12
+          ],
+          "l": "Familie",
+          "gb": "পরিবার",
+          "ge": "family",
+          "n": ""
+        },
+        {
+          "t": "zu Besuch",
+          "b": [
+            11,
+            12
+          ],
+          "e": [
+            13,
+            14,
+            15,
+            16
+          ],
+          "l": "zu Besuch",
+          "gb": "দেখা করতে",
+          "ge": "is coming to visit",
+          "n": ""
+        },
+        {
+          "t": "kommt.",
+          "b": [
+            13
+          ],
+          "e": [],
+          "l": "kommt",
+          "gb": "আসছে",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Chef",
+      "bn": [
+        "ভালো!",
+        "তাহলে",
+        "আপনি",
+        "সময়মতো",
+        "আসুন।"
+      ],
+      "en": [
+        "Good!",
+        "Then",
+        "please",
+        "be",
+        "on",
+        "time."
+      ],
+      "de": [
+        {
+          "t": "Gut!",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Gut",
+          "gb": "ভালো",
+          "ge": "Good",
+          "n": ""
+        },
+        {
+          "t": "Dann",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "Dann",
+          "gb": "তাহলে",
+          "ge": "Then",
+          "n": ""
+        },
+        {
+          "t": "seien",
+          "b": [
+            4
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "sein",
+          "gb": "আসুন",
+          "ge": "please be",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [
+            2
+          ],
+          "e": [],
+          "l": "Sie",
+          "gb": "আপনি",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "bitte",
+          "b": [],
+          "e": [],
+          "l": "bitte",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "pünktlich.",
+          "b": [
+            3
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "pünktlich",
+          "gb": "সময়মতো",
+          "ge": "on time",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "order",
+      "title": "weil-বাক্য: ক্রিয়া শেষে",
+      "text": "weil একটি Nebensatz (অধীন বাক্য) শুরু করে। সেখানে সংযুক্ত ক্রিয়া বাক্যের একদম শেষে যায়। প্রধান বাক্যে ক্রিয়া ২য় স্থানে।",
+      "de": [
+        {
+          "t": "Ich komme zu spät,"
+        },
+        {
+          "t": "weil"
+        },
+        {
+          "t": "der Bus Verspätung"
+        },
+        {
+          "t": "hatte.",
+          "v": true
+        }
+      ],
+      "bn": [
+        {
+          "t": "আমি দেরিতে এসেছি,"
+        },
+        {
+          "t": "কারণ"
+        },
+        {
+          "t": "বাসটা দেরি"
+        },
+        {
+          "t": "করেছিল।",
+          "v": true
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "weil-এর সাথে বিভিন্ন কাল",
+      "head": [
+        "প্রধান বাক্য",
+        "weil-বাক্য"
+      ],
+      "rows": [
+        [
+          "Ich bleibe zu Hause,",
+          "weil ich krank bin."
+        ],
+        [
+          "Ich komme zu spät,",
+          "weil ich verschlafen habe."
+        ],
+        [
+          "Er kommt nicht,",
+          "weil er arbeiten muss."
+        ],
+        [
+          "Sie nimmt Urlaub,",
+          "weil ihre Familie zu Besuch kommt."
+        ]
+      ],
+      "note": "Perfekt/Modalverb: শেষে দুই ক্রিয়া, সংযুক্ত রূপটি (habe, muss) একদম শেষে। trennbar: „zu Besuch kommt“ — আলাদা হয় না, একসাথে শেষে।"
+    },
+    {
+      "type": "table",
+      "title": "weil নাকি denn?",
+      "head": [
+        "",
+        "weil",
+        "denn"
+      ],
+      "rows": [
+        [
+          "পরের বাক্যে ক্রিয়া",
+          "শেষে",
+          "২য় স্থানে (সাধারণ)"
+        ],
+        [
+          "উদাহরণ",
+          "Ich bleibe, weil ich müde bin.",
+          "Ich bleibe, denn ich bin müde."
+        ],
+        [
+          "প্রশ্নের উত্তরে",
+          "Warum? — Weil ich müde bin.",
+          "denn প্রশ্নের একা উত্তর হয় না"
+        ]
+      ],
+      "note": "প্রশ্ন: „Warum?“। উত্তর: „Weil …“।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "die Verspätung",
+      "options": [
+        "খবর",
+        "দেরি",
+        "কেন",
+        "সময়মতো"
+      ],
+      "answer": 1,
+      "why": "die Verspätung = দেরি।",
+      "word": "verspaetung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "verschlafen",
+      "options": [
+        "কেন",
+        "সময়মতো",
+        "অতিথি",
+        "ঘুম থেকে দেরিতে ওঠা"
+      ],
+      "answer": 3,
+      "why": "verschlafen = ঘুম থেকে দেরিতে ওঠা।",
+      "word": "verschlafen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "pünktlich",
+      "options": [
+        "ক্ষমা",
+        "সময়মতো",
+        "কেন",
+        "ঘুম থেকে দেরিতে ওঠা"
+      ],
+      "answer": 1,
+      "why": "pünktlich = সময়মতো।",
+      "word": "puenktlich"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Stau",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 0,
+      "why": "der Stau। বহুবচন: die Staus।",
+      "word": "stau"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক বাক্য কোনটি?",
+      "options": [
+        "Ich komme zu spät, weil ich krank bin.",
+        "Ich komme zu spät, weil bin ich krank.",
+        "Ich komme zu spät, weil ich bin krank.",
+        "Ich komme zu spät weil krank ich bin."
+      ],
+      "answer": 0,
+      "why": "weil-বাক্যে ক্রিয়া শেষে।",
+      "word": "weil"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Warum kommst du nicht?“ এর উত্তর কোনটি?",
+      "options": [
+        "Weil ich arbeiten muss.",
+        "Denn ich muss arbeiten.",
+        "Weil muss ich arbeiten.",
+        "Warum ich muss arbeiten."
+      ],
+      "answer": 0,
+      "why": "উত্তরে Weil + ক্রিয়া শেষে।",
+      "word": "warum"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ich komme zu spät, weil ich verschlafen ___.",
+      "options": [
+        "habe",
+        "hat",
+        "bin",
+        "ist"
+      ],
+      "answer": 0,
+      "why": "weil ich verschlafen habe — Perfekt-এ haben শেষে।",
+      "word": "verschlafen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "denn-এর পরে ক্রিয়া কোথায় যায়?",
+      "options": [
+        "২য় স্থানে",
+        "একদম শেষে",
+        "প্রথমে",
+        "যেকোনো জায়গায়"
+      ],
+      "answer": 0,
+      "why": "denn Hauptsatz শুরু করে।",
+      "word": "denn"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক বাক্য কোনটি?",
+      "options": [
+        "Er bleibt zu Hause, weil er krank ist.",
+        "Er bleibt zu Hause, weil er ist krank.",
+        "Er bleibt zu Hause, weil ist er krank.",
+        "Er bleibt zu Hause weil krank er ist."
+      ],
+      "answer": 0,
+      "why": "weil er krank ist।",
+      "word": "krank"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „আমি অসুস্থ, কারণ আমার জ্বর আছে।“",
+      "tiles": [
+        "habe.",
+        "weil",
+        "krank,",
+        "Ich",
+        "Fieber",
+        "ich",
+        "bin"
+      ],
+      "answer": [
+        "Ich",
+        "bin",
+        "krank,",
+        "weil",
+        "ich",
+        "Fieber",
+        "habe."
+      ],
+      "why": "weil ich Fieber habe — ক্রিয়া শেষে।",
+      "word": "weil"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}
