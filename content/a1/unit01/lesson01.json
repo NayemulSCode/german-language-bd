@@ -1,0 +1,756 @@
+{
+  "id": "a1-u01-l01",
+  "level": "A1",
+  "unit": 1,
+  "lesson": 1,
+  "title": {
+    "de": "Hallo!",
+    "bn": "হ্যালো! নিজের পরিচয় দিন",
+    "en": "Hello! Introduce yourself"
+  },
+  "status": "draft",
+  "minutes": 12,
+  "hook": {
+    "de": "Wer fremde Sprachen nicht kennt, weiß nichts von seiner eigenen.",
+    "who": "Johann Wolfgang von Goethe",
+    "bn": "যে বিদেশি ভাষা জানে না, সে নিজের ভাষা সম্পর্কেও কিছু জানে না।",
+    "en": "Whoever knows no foreign languages knows nothing of their own."
+  },
+  "goals": [
+    "১০টি নতুন শব্দ, প্রতিটির উচ্চারণসহ",
+    "একটি ছোট সংলাপ — প্রতিটি শব্দ ট্যাপ করে বাংলা ও ইংরেজির সাথে মিলিয়ে দেখা",
+    "ক্রিয়ার রূপ: ich komme, du kommst",
+    "৮ প্রশ্নের কুইজ"
+  ],
+  "words": [
+    {
+      "id": "hallo",
+      "de": "Hallo",
+      "pos": "অভিবাদন",
+      "bn": "হ্যালো",
+      "en": "hello"
+    },
+    {
+      "id": "guten_morgen",
+      "de": "Guten Morgen",
+      "pos": "অভিবাদন",
+      "bn": "শুভ সকাল",
+      "en": "good morning"
+    },
+    {
+      "id": "name",
+      "de": "Name",
+      "art": "der",
+      "pl": "die Namen",
+      "pos": "বিশেষ্য",
+      "bn": "নাম",
+      "en": "name"
+    },
+    {
+      "id": "heissen",
+      "de": "heißen",
+      "pos": "ক্রিয়া",
+      "bn": "নাম হওয়া, ডাকা হওয়া",
+      "en": "to be called"
+    },
+    {
+      "id": "kommen",
+      "de": "kommen",
+      "pos": "ক্রিয়া",
+      "bn": "আসা",
+      "en": "to come"
+    },
+    {
+      "id": "aus",
+      "de": "aus",
+      "pos": "অব্যয়",
+      "bn": "থেকে (দেশ বা শহর)",
+      "en": "from"
+    },
+    {
+      "id": "wohnen",
+      "de": "wohnen",
+      "pos": "ক্রিয়া",
+      "bn": "থাকা, বাস করা",
+      "en": "to live"
+    },
+    {
+      "id": "land",
+      "de": "Land",
+      "art": "das",
+      "pl": "die Länder",
+      "pos": "বিশেষ্য",
+      "bn": "দেশ",
+      "en": "country"
+    },
+    {
+      "id": "stadt",
+      "de": "Stadt",
+      "art": "die",
+      "pl": "die Städte",
+      "pos": "বিশেষ্য",
+      "bn": "শহর",
+      "en": "city"
+    },
+    {
+      "id": "tschuess",
+      "de": "Tschüss",
+      "pos": "অভিবাদন",
+      "bn": "বিদায়",
+      "en": "bye"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Muna",
+      "bn": [
+        "হ্যালো!",
+        "তোমার",
+        "নাম",
+        "কী?"
+      ],
+      "en": [
+        "Hello!",
+        "What",
+        "is",
+        "your",
+        "name?"
+      ],
+      "de": [
+        {
+          "t": "Hallo!",
+          "s": "Hallo",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Hallo",
+          "gb": "হ্যালো",
+          "ge": "hello",
+          "n": "অভিবাদন"
+        },
+        {
+          "t": "Wie",
+          "b": [
+            3
+          ],
+          "e": [
+            1
+          ],
+          "l": "wie",
+          "gb": "কী / কীভাবে",
+          "ge": "how / what",
+          "n": "প্রশ্নবোধক শব্দ — বাক্যের শুরুতে বসে"
+        },
+        {
+          "t": "heißt",
+          "b": [
+            2
+          ],
+          "e": [
+            2,
+            4
+          ],
+          "l": "heißen",
+          "gb": "নাম হওয়া",
+          "ge": "to be called",
+          "n": "du-এর সাথে heißen → heißt"
+        },
+        {
+          "t": "du?",
+          "s": "du",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you (informal)",
+          "n": "বন্ধু বা সমবয়সীর সাথে du; অপরিচিত বড়দের সাথে Sie"
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমার",
+        "নাম",
+        "সাহেব।",
+        "আর",
+        "তোমার?"
+      ],
+      "en": [
+        "My",
+        "name",
+        "is",
+        "Saheb.",
+        "And",
+        "you?"
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": "সর্বনাম, বাক্যের মাঝে ছোট হাতের i দিয়ে লেখা হয়"
+        },
+        {
+          "t": "heiße",
+          "b": [
+            1
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "heißen",
+          "gb": "নাম হওয়া",
+          "ge": "to be called",
+          "n": "ich-এর সাথে ক্রিয়ার শেষে -e"
+        },
+        {
+          "t": "Saheb.",
+          "s": "Saheb",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "Saheb",
+          "gb": "সাহেব (নাম)",
+          "ge": "Saheb (name)",
+          "n": "নাম"
+        },
+        {
+          "t": "Und",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "und",
+          "gb": "আর, এবং",
+          "ge": "and",
+          "n": "সংযোজক"
+        },
+        {
+          "t": "du?",
+          "s": "du",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": "„Und du?“ = আর তোমার? — খুব প্রচলিত ছোট প্রশ্ন"
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "আমি",
+        "মুনা।",
+        "তুমি",
+        "কোথা",
+        "থেকে",
+        "এসেছ?"
+      ],
+      "en": [
+        "I",
+        "am",
+        "Muna.",
+        "Where",
+        "are",
+        "you",
+        "from?"
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": "সর্বনাম"
+        },
+        {
+          "t": "bin",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "sein",
+          "gb": "হওয়া (বাংলায় সাধারণত উহ্য থাকে)",
+          "ge": "to be",
+          "n": "sein অনিয়মিত: ich bin, du bist, er ist। বাংলায় „আমি মুনা“ বলতে কোনো ক্রিয়া লাগে না"
+        },
+        {
+          "t": "Muna.",
+          "s": "Muna",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "Muna",
+          "gb": "মুনা (নাম)",
+          "ge": "Muna (name)",
+          "n": "নাম"
+        },
+        {
+          "t": "Woher",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            3,
+            6
+          ],
+          "l": "woher",
+          "gb": "কোথা থেকে",
+          "ge": "where … from",
+          "n": "এক শব্দে „কোথা থেকে“ — ইংরেজিতে দুই জায়গায় ভাগ হয়ে যায়"
+        },
+        {
+          "t": "kommst",
+          "b": [
+            5
+          ],
+          "e": [
+            4
+          ],
+          "l": "kommen",
+          "gb": "আসা",
+          "ge": "to come",
+          "n": "du-এর সাথে ক্রিয়ার শেষে -st"
+        },
+        {
+          "t": "du?",
+          "s": "du",
+          "b": [
+            2
+          ],
+          "e": [
+            5
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": "প্রশ্নে ক্রিয়া আগে, du পরে"
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "বাংলাদেশ",
+        "থেকে",
+        "এসেছি।",
+        "আমি",
+        "ঢাকায়",
+        "থাকি।"
+      ],
+      "en": [
+        "I",
+        "come",
+        "from",
+        "Bangladesh.",
+        "I",
+        "live",
+        "in",
+        "Dhaka."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": "সর্বনাম"
+        },
+        {
+          "t": "komme",
+          "b": [
+            3
+          ],
+          "e": [
+            1
+          ],
+          "l": "kommen",
+          "gb": "আসা",
+          "ge": "to come",
+          "n": "ক্রিয়া দ্বিতীয় স্থানে; বাংলায় শেষে"
+        },
+        {
+          "t": "aus",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "aus",
+          "gb": "থেকে",
+          "ge": "from",
+          "n": "দেশ বা শহর থেকে আসা বোঝাতে aus"
+        },
+        {
+          "t": "Bangladesch.",
+          "s": "Bangladesch",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "Bangladesch",
+          "gb": "বাংলাদেশ",
+          "ge": "Bangladesh",
+          "n": "জার্মান বানান: Bangladesch (sch = শ)"
+        },
+        {
+          "t": "Ich",
+          "b": [
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": "সর্বনাম"
+        },
+        {
+          "t": "wohne",
+          "b": [
+            6
+          ],
+          "e": [
+            5
+          ],
+          "l": "wohnen",
+          "gb": "থাকা",
+          "ge": "to live",
+          "n": "ich-এর সাথে -e; „w“ উচ্চারণ „ভ“-এর মতো"
+        },
+        {
+          "t": "in",
+          "b": [
+            5
+          ],
+          "e": [
+            6
+          ],
+          "l": "in",
+          "gb": "-এ, মধ্যে",
+          "ge": "in",
+          "n": "বাংলায় এটা শব্দের শেষে বিভক্তি (ঢাকা + য়)"
+        },
+        {
+          "t": "Dhaka.",
+          "s": "Dhaka",
+          "b": [
+            5
+          ],
+          "e": [
+            7
+          ],
+          "l": "Dhaka",
+          "gb": "ঢাকা",
+          "ge": "Dhaka",
+          "n": "শহরের নাম"
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "চমৎকার!",
+        "বিদায়,",
+        "সাহেব!"
+      ],
+      "en": [
+        "Nice!",
+        "Bye,",
+        "Saheb!"
+      ],
+      "de": [
+        {
+          "t": "Schön!",
+          "s": "Schön",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "schön",
+          "gb": "সুন্দর, চমৎকার",
+          "ge": "nice, beautiful",
+          "n": "ö উচ্চারণ: ঠোঁট গোল করে „এ“ বলা"
+        },
+        {
+          "t": "Tschüss,",
+          "s": "Tschüss",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "Tschüss",
+          "gb": "বিদায়",
+          "ge": "bye",
+          "n": "অনানুষ্ঠানিক বিদায়; ফরমাল: Auf Wiedersehen"
+        },
+        {
+          "t": "Saheb!",
+          "s": "Saheb",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "Saheb",
+          "gb": "সাহেব",
+          "ge": "Saheb",
+          "n": "নাম"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "conjugation",
+      "intro": "বাংলায় যেমন „আমি আসি, তুমি আসো, সে আসে“, জার্মানেও কর্তা বদলালে ক্রিয়ার শেষ বদলায়। মূল ক্রিয়া থেকে -en বাদ দিয়ে শেষাংশ জুড়ুন।",
+      "verbs": [
+        "kommen",
+        "wohnen",
+        "heißen"
+      ],
+      "rows": [
+        {
+          "pron": "ich",
+          "stems": [
+            "komm",
+            "wohn",
+            "heiß"
+          ],
+          "ends": [
+            "e",
+            "e",
+            "e"
+          ],
+          "bn": "আমি আসি"
+        },
+        {
+          "pron": "du",
+          "stems": [
+            "komm",
+            "wohn",
+            "heiß"
+          ],
+          "ends": [
+            "st",
+            "st",
+            "t"
+          ],
+          "bn": "তুমি আসো"
+        },
+        {
+          "pron": "er / sie / es",
+          "stems": [
+            "komm",
+            "wohn",
+            "heiß"
+          ],
+          "ends": [
+            "t",
+            "t",
+            "t"
+          ],
+          "bn": "সে আসে"
+        }
+      ],
+      "note": "heißen-এ মূলেই ß আছে, তাই du-তে শুধু -t: du heißt। আর sein (হওয়া) অনিয়মিত: ich bin, du bist, er ist।"
+    },
+    {
+      "type": "order",
+      "title": "ক্রিয়া বসে দ্বিতীয় স্থানে",
+      "text": "বাংলায় ক্রিয়া বাক্যের শেষে; জার্মানে সাধারণ বাক্যে ক্রিয়া সবসময় দ্বিতীয় অবস্থানে।",
+      "de": [
+        {
+          "t": "Ich"
+        },
+        {
+          "t": "wohne",
+          "v": true
+        },
+        {
+          "t": "in Dhaka."
+        }
+      ],
+      "bn": [
+        {
+          "t": "আমি"
+        },
+        {
+          "t": "ঢাকায়"
+        },
+        {
+          "t": "থাকি।",
+          "v": true
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "heißen",
+      "options": [
+        "থাকা",
+        "নাম হওয়া",
+        "আসা",
+        "বিদায়"
+      ],
+      "answer": 1,
+      "why": "heißen = নাম হওয়া। Ich heiße Saheb = আমার নাম সাহেব।",
+      "word": "heissen"
+    },
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "Woher kommst du, Mou?",
+      "options": [
+        "তোমার নাম কী?",
+        "তুমি কোথায় থাকো?",
+        "তুমি কোথা থেকে এসেছ?",
+        "তুমি কেমন আছ?"
+      ],
+      "answer": 2,
+      "why": "Woher = কোথা থেকে, kommst = আসো।",
+      "word": "kommen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "শূন্যস্থান পূরণ করুন",
+      "sub": "Mollika: Ich ___ aus Bangladesch.",
+      "options": [
+        "kommst",
+        "kommt",
+        "komme",
+        "kommen"
+      ],
+      "answer": 2,
+      "why": "ich-এর সাথে ক্রিয়ার শেষে -e: ich komme।",
+      "word": "kommen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Stadt",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Stadt (শহর)। বহুবচন: die Städte।",
+      "word": "stadt"
+    },
+    {
+      "type": "order",
+      "prompt": "শব্দ সাজিয়ে বাক্য বানান: „তুমি কোথা থেকে এসেছ?“",
+      "tiles": [
+        "du?",
+        "Woher",
+        "kommst"
+      ],
+      "answer": [
+        "Woher",
+        "kommst",
+        "du?"
+      ],
+      "why": "প্রশ্নশব্দ প্রথমে, তারপর ক্রিয়া, তারপর du।",
+      "word": "kommen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "du-এর সাথে heißen-এর সঠিক রূপ",
+      "sub": "Wie ___ du, Khusbu?",
+      "options": [
+        "heißst",
+        "heiße",
+        "heißt",
+        "heißen"
+      ],
+      "answer": 2,
+      "why": "মূলে আগেই ß আছে, তাই du-তে শুধু -t যোগ হয়: du heißt।",
+      "word": "heissen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "জার্মানে কী হবে?",
+      "sub": "আমি ঢাকায় থাকি।",
+      "options": [
+        "Ich wohnst in Dhaka.",
+        "Ich wohne in Dhaka.",
+        "Ich in Dhaka wohne.",
+        "Ich bin Dhaka."
+      ],
+      "answer": 1,
+      "why": "ক্রিয়া দ্বিতীয় স্থানে আর ich-এর সাথে -e: Ich wohne in Dhaka।",
+      "subBn": true,
+      "word": "wohnen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Land",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 2,
+      "why": "das Land (দেশ)। বহুবচন: die Länder।",
+      "word": "land"
+    }
+  ],
+  "passMark": 0.8
+}
