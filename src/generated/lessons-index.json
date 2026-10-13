@@ -271,5 +271,109 @@
     },
     "status": "draft",
     "minutes": 14
+  },
+  {
+    "id": "a1-u07-l01",
+    "level": "A1",
+    "unit": 7,
+    "lesson": 1,
+    "title": {
+      "bn": "শহরের জায়গাগুলো",
+      "en": "In town",
+      "de": "In der Stadt"
+    },
+    "status": "draft",
+    "minutes": 14
+  },
+  {
+    "id": "a1-u07-l02",
+    "level": "A1",
+    "unit": 7,
+    "lesson": 2,
+    "title": {
+      "bn": "পথের হদিস জিজ্ঞাসা",
+      "en": "Asking for directions",
+      "de": "Nach dem Weg fragen"
+    },
+    "status": "draft",
+    "minutes": 14
+  },
+  {
+    "id": "a1-u07-l03",
+    "level": "A1",
+    "unit": 7,
+    "lesson": 3,
+    "title": {
+      "bn": "যানবাহন",
+      "en": "Means of transport",
+      "de": "Verkehrsmittel"
+    },
+    "status": "draft",
+    "minutes": 14
+  },
+  {
+    "id": "a1-u07-l04",
+    "level": "A1",
+    "unit": 7,
+    "lesson": 4,
+    "title": {
+      "bn": "স্টেশনে টিকিট কেনা",
+      "en": "At the station",
+      "de": "Am Bahnhof"
+    },
+    "status": "draft",
+    "minutes": 14
+  },
+  {
+    "id": "a1-u08-l01",
+    "level": "A1",
+    "unit": 8,
+    "lesson": 1,
+    "title": {
+      "bn": "আমার শখ",
+      "en": "My hobbies",
+      "de": "Meine Hobbys"
+    },
+    "status": "draft",
+    "minutes": 14
+  },
+  {
+    "id": "a1-u08-l02",
+    "level": "A1",
+    "unit": 8,
+    "lesson": 2,
+    "title": {
+      "bn": "পারা, চাওয়া, হতে হবে",
+      "en": "Modal verbs",
+      "de": "Können, wollen, müssen"
+    },
+    "status": "draft",
+    "minutes": 14
+  },
+  {
+    "id": "a1-u08-l03",
+    "level": "A1",
+    "unit": 8,
+    "lesson": 3,
+    "title": {
+      "bn": "দেখা করার কথা ও নিমন্ত্রণ",
+      "en": "Making plans",
+      "de": "Eine Verabredung"
+    },
+    "status": "draft",
+    "minutes": 14
+  },
+  {
+    "id": "a1-u08-l04",
+    "level": "A1",
+    "unit": 8,
+    "lesson": 4,
+    "title": {
+      "bn": "বার্তা ও ই-মেইল লেখা",
+      "en": "Writing a message",
+      "de": "Eine Nachricht schreiben"
+    },
+    "status": "draft",
+    "minutes": 14
   }
 ]

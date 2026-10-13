@@ -1,0 +1,1115 @@
+{
+  "id": "a1-u08-l02",
+  "level": "A1",
+  "unit": 8,
+  "lesson": 2,
+  "title": {
+    "de": "Können, wollen, müssen",
+    "bn": "পারা, চাওয়া, হতে হবে",
+    "en": "Modal verbs"
+  },
+  "hook": {
+    "de": "Wer will, der kann.",
+    "who": "Sprichwort",
+    "bn": "যে চায়, সে পারে।",
+    "en": "Where there is a will, there is a way."
+  },
+  "goals": [
+    "können, wollen, müssen, möchten ব্যবহার",
+    "মডাল ক্রিয়া ২য় স্থানে, মূল ক্রিয়া শেষে",
+    "ভাষা নিয়ে কথা: Ich spreche ein bisschen Deutsch",
+    "sprechen ক্রিয়ার রূপ (du sprichst)"
+  ],
+  "words": [
+    {
+      "id": "koennen",
+      "de": "können",
+      "pos": "মডাল ক্রিয়া",
+      "bn": "পারা",
+      "en": "can, to be able to"
+    },
+    {
+      "id": "wollen",
+      "de": "wollen",
+      "pos": "মডাল ক্রিয়া",
+      "bn": "চাওয়া, ইচ্ছা থাকা",
+      "en": "to want"
+    },
+    {
+      "id": "muessen",
+      "de": "müssen",
+      "pos": "মডাল ক্রিয়া",
+      "bn": "হতে হবে, বাধ্য হওয়া",
+      "en": "must, to have to"
+    },
+    {
+      "id": "sprechen",
+      "de": "sprechen",
+      "pos": "ক্রিয়া",
+      "bn": "বলা, কথা বলা",
+      "en": "to speak"
+    },
+    {
+      "id": "sprache",
+      "de": "Sprache",
+      "art": "die",
+      "pl": "die Sprachen",
+      "pos": "বিশেষ্য",
+      "bn": "ভাষা",
+      "en": "language"
+    },
+    {
+      "id": "englisch",
+      "de": "Englisch",
+      "pos": "বিশেষ্য",
+      "bn": "ইংরেজি",
+      "en": "English"
+    },
+    {
+      "id": "bengalisch",
+      "de": "Bengalisch",
+      "pos": "বিশেষ্য",
+      "bn": "বাংলা (ভাষা)",
+      "en": "Bengali"
+    },
+    {
+      "id": "gut",
+      "de": "gut",
+      "pos": "বিশেষণ",
+      "bn": "ভালো",
+      "en": "good, well"
+    },
+    {
+      "id": "schlecht",
+      "de": "schlecht",
+      "pos": "বিশেষণ",
+      "bn": "খারাপ",
+      "en": "bad, badly"
+    },
+    {
+      "id": "ein_bisschen",
+      "de": "ein bisschen",
+      "pos": "অভিব্যক্তি",
+      "bn": "একটু",
+      "en": "a little"
+    },
+    {
+      "id": "schon",
+      "de": "schon",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "ইতিমধ্যে",
+      "en": "already"
+    },
+    {
+      "id": "warum",
+      "de": "warum",
+      "pos": "প্রশ্নবোধক",
+      "bn": "কেন",
+      "en": "why"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Muna",
+      "bn": [
+        "তুমি",
+        "কি",
+        "ইংরেজি",
+        "বলতে",
+        "পারো?"
+      ],
+      "en": [
+        "Do",
+        "you",
+        "speak",
+        "English?"
+      ],
+      "de": [
+        {
+          "t": "Sprichst",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            2
+          ],
+          "l": "sprechen",
+          "gb": "বলতে পারো",
+          "ge": "speak",
+          "n": "du sprichst — sprechen: e → i"
+        },
+        {
+          "t": "du",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "Englisch?",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "Englisch",
+          "gb": "ইংরেজি",
+          "ge": "English",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "হ্যাঁ,",
+        "আমি",
+        "বাংলা",
+        "আর",
+        "ইংরেজি",
+        "বলি,",
+        "আর",
+        "আমি",
+        "জার্মান",
+        "শিখছি।"
+      ],
+      "en": [
+        "Yes,",
+        "I",
+        "speak",
+        "Bengali",
+        "and",
+        "English,",
+        "and",
+        "I",
+        "am",
+        "learning",
+        "German."
+      ],
+      "de": [
+        {
+          "t": "Ja,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ja",
+          "gb": "হ্যাঁ",
+          "ge": "Yes",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "spreche",
+          "b": [
+            5
+          ],
+          "e": [
+            2
+          ],
+          "l": "sprechen",
+          "gb": "বলি",
+          "ge": "speak",
+          "n": ""
+        },
+        {
+          "t": "Bengalisch",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "Bengalisch",
+          "gb": "বাংলা",
+          "ge": "Bengali",
+          "n": "ভাষার নাম বড় হাতে, আর্টিকেল ছাড়া: Bengalisch, Englisch, Deutsch"
+        },
+        {
+          "t": "und",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "Englisch,",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "Englisch",
+          "gb": "ইংরেজি",
+          "ge": "English",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            6
+          ],
+          "e": [
+            6
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            7
+          ],
+          "e": [
+            7
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "lerne",
+          "b": [
+            9
+          ],
+          "e": [
+            8,
+            9
+          ],
+          "l": "lernen",
+          "gb": "শিখছি",
+          "ge": "am learning",
+          "n": ""
+        },
+        {
+          "t": "Deutsch.",
+          "b": [
+            8
+          ],
+          "e": [
+            10
+          ],
+          "l": "Deutsch",
+          "gb": "জার্মান",
+          "ge": "German",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "তুমি",
+        "কি",
+        "ইতিমধ্যে",
+        "ভালো",
+        "জার্মান",
+        "বলতে",
+        "পারো?"
+      ],
+      "en": [
+        "Can",
+        "you",
+        "already",
+        "speak",
+        "German",
+        "well?"
+      ],
+      "de": [
+        {
+          "t": "Kannst",
+          "b": [
+            6
+          ],
+          "e": [
+            0
+          ],
+          "l": "können",
+          "gb": "পারো",
+          "ge": "Can",
+          "n": "du kannst — মডাল ক্রিয়া ২য় স্থানে"
+        },
+        {
+          "t": "du",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "schon",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "schon",
+          "gb": "ইতিমধ্যে",
+          "ge": "already",
+          "n": ""
+        },
+        {
+          "t": "gut",
+          "b": [
+            3
+          ],
+          "e": [
+            5
+          ],
+          "l": "gut",
+          "gb": "ভালো",
+          "ge": "well",
+          "n": ""
+        },
+        {
+          "t": "Deutsch",
+          "b": [
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "Deutsch",
+          "gb": "জার্মান",
+          "ge": "German",
+          "n": ""
+        },
+        {
+          "t": "sprechen?",
+          "b": [
+            5
+          ],
+          "e": [
+            3
+          ],
+          "l": "sprechen",
+          "gb": "বলতে",
+          "ge": "speak",
+          "n": "মূল ক্রিয়া শেষে, মূল রূপে (sprechen)"
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "এখনো",
+        "তেমন",
+        "ভালো",
+        "নয়।",
+        "কিন্তু",
+        "আমি",
+        "একটু",
+        "বলতে",
+        "পারি।"
+      ],
+      "en": [
+        "Not",
+        "that",
+        "well",
+        "yet.",
+        "But",
+        "I",
+        "can",
+        "speak",
+        "a",
+        "little."
+      ],
+      "de": [
+        {
+          "t": "Noch nicht",
+          "b": [
+            0,
+            3
+          ],
+          "e": [
+            0,
+            3
+          ],
+          "l": "noch nicht",
+          "gb": "এখনো নয়",
+          "ge": "Not yet",
+          "n": ""
+        },
+        {
+          "t": "so",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "so",
+          "gb": "তেমন",
+          "ge": "that",
+          "n": ""
+        },
+        {
+          "t": "gut.",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "gut",
+          "gb": "ভালো",
+          "ge": "well",
+          "n": ""
+        },
+        {
+          "t": "Aber",
+          "b": [
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "Aber",
+          "gb": "কিন্তু",
+          "ge": "But",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            5
+          ],
+          "e": [
+            5
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "kann",
+          "b": [
+            8
+          ],
+          "e": [
+            6
+          ],
+          "l": "können",
+          "gb": "পারি",
+          "ge": "can",
+          "n": "ich kann — ich ও er একই রূপ"
+        },
+        {
+          "t": "ein bisschen",
+          "b": [
+            6
+          ],
+          "e": [
+            8,
+            9
+          ],
+          "l": "ein bisschen",
+          "gb": "একটু",
+          "ge": "a little",
+          "n": ""
+        },
+        {
+          "t": "sprechen.",
+          "b": [
+            7
+          ],
+          "e": [
+            7
+          ],
+          "l": "sprechen",
+          "gb": "বলতে",
+          "ge": "speak",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "আর",
+        "তুমি",
+        "কেন",
+        "জার্মান",
+        "শিখছ?"
+      ],
+      "en": [
+        "And",
+        "why",
+        "are",
+        "you",
+        "learning",
+        "German?"
+      ],
+      "de": [
+        {
+          "t": "Und",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "warum",
+          "b": [
+            2
+          ],
+          "e": [
+            1
+          ],
+          "l": "warum",
+          "gb": "কেন",
+          "ge": "why",
+          "n": ""
+        },
+        {
+          "t": "lernst",
+          "b": [
+            4
+          ],
+          "e": [
+            2,
+            4
+          ],
+          "l": "lernen",
+          "gb": "শিখছ",
+          "ge": "are learning",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "Deutsch?",
+          "b": [
+            3
+          ],
+          "e": [
+            5
+          ],
+          "l": "Deutsch",
+          "gb": "জার্মান",
+          "ge": "German",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "জার্মানিতে",
+        "কাজ",
+        "করতে",
+        "চাই।"
+      ],
+      "en": [
+        "I",
+        "want",
+        "to",
+        "work",
+        "in",
+        "Germany."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "will",
+          "b": [
+            4
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "wollen",
+          "gb": "চাই",
+          "ge": "want to",
+          "n": "ich will = আমি চাই (দৃঢ় ইচ্ছা); ভদ্রভাবে: ich möchte"
+        },
+        {
+          "t": "in",
+          "b": [
+            1
+          ],
+          "e": [
+            4
+          ],
+          "l": "in",
+          "gb": "জার্মানিতে",
+          "ge": "in",
+          "n": ""
+        },
+        {
+          "t": "Deutschland",
+          "b": [
+            1
+          ],
+          "e": [
+            5
+          ],
+          "l": "Deutschland",
+          "gb": "জার্মানিতে",
+          "ge": "Germany",
+          "n": ""
+        },
+        {
+          "t": "arbeiten.",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "arbeiten",
+          "gb": "কাজ করতে",
+          "ge": "work",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "তাহলে",
+        "তোমাকে",
+        "অনেক",
+        "শিখতে",
+        "হবে!"
+      ],
+      "en": [
+        "Then",
+        "you",
+        "have",
+        "to",
+        "learn",
+        "a",
+        "lot!"
+      ],
+      "de": [
+        {
+          "t": "Dann",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Dann",
+          "gb": "তাহলে",
+          "ge": "Then",
+          "n": ""
+        },
+        {
+          "t": "musst",
+          "b": [
+            4
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "müssen",
+          "gb": "হবে",
+          "ge": "have to",
+          "n": "du musst — müssen = হতে হবে"
+        },
+        {
+          "t": "du",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "du",
+          "gb": "তোমাকে",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "viel",
+          "b": [
+            2
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "viel",
+          "gb": "অনেক",
+          "ge": "a lot",
+          "n": "viel = অনেক"
+        },
+        {
+          "t": "lernen!",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "lernen",
+          "gb": "শিখতে",
+          "ge": "learn",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "মডাল ক্রিয়ার পুরো ছক",
+      "head": [
+        "",
+        "können (পারা)",
+        "wollen (চাওয়া)",
+        "müssen (হতে হবে)",
+        "möchten (চাই, ভদ্র)"
+      ],
+      "rows": [
+        [
+          "ich",
+          "kann",
+          "will",
+          "muss",
+          "möchte"
+        ],
+        [
+          "du",
+          "kannst",
+          "willst",
+          "musst",
+          "möchtest"
+        ],
+        [
+          "er / sie / es",
+          "kann",
+          "will",
+          "muss",
+          "möchte"
+        ],
+        [
+          "wir",
+          "können",
+          "wollen",
+          "müssen",
+          "möchten"
+        ],
+        [
+          "ihr",
+          "könnt",
+          "wollt",
+          "müsst",
+          "möchtet"
+        ],
+        [
+          "sie / Sie",
+          "können",
+          "wollen",
+          "müssen",
+          "möchten"
+        ]
+      ],
+      "note": "ich ও er/sie/es একই রূপ (কোনো -e বা -t নেই) — মডাল ক্রিয়ার সবচেয়ে বড় বৈশিষ্ট্য।"
+    },
+    {
+      "type": "order",
+      "title": "মডাল ২য় স্থানে, মূল ক্রিয়া শেষে",
+      "text": "মডাল ক্রিয়া ২য় স্থানে বসে, আর মূল ক্রিয়া মূল রূপে (-en) বাক্যের শেষে চলে যায় — বাংলার „…করতে পারি“-র মতো।",
+      "de": [
+        {
+          "t": "Ich"
+        },
+        {
+          "t": "kann",
+          "v": true
+        },
+        {
+          "t": "ein bisschen"
+        },
+        {
+          "t": "sprechen.",
+          "v": true
+        }
+      ],
+      "bn": [
+        {
+          "t": "আমি"
+        },
+        {
+          "t": "একটু"
+        },
+        {
+          "t": "বলতে"
+        },
+        {
+          "t": "পারি।",
+          "v": true
+        }
+      ]
+    },
+    {
+      "type": "conjugation",
+      "intro": "sprechen: du ও er-এ e → i হয়।",
+      "verbs": [
+        "sprechen"
+      ],
+      "note": "ভাষা বলতে: Ich spreche Deutsch. (আর্টিকেল ছাড়া)।",
+      "rows": [
+        {
+          "pron": "ich",
+          "stems": [
+            "sprech"
+          ],
+          "ends": [
+            "e"
+          ],
+          "bn": "আমি বলি"
+        },
+        {
+          "pron": "du",
+          "stems": [
+            "sprich"
+          ],
+          "ends": [
+            "st"
+          ],
+          "bn": "তুমি বলো"
+        },
+        {
+          "pron": "er / sie / es",
+          "stems": [
+            "sprich"
+          ],
+          "ends": [
+            "t"
+          ],
+          "bn": "সে বলে"
+        },
+        {
+          "pron": "wir",
+          "stems": [
+            "sprech"
+          ],
+          "ends": [
+            "en"
+          ],
+          "bn": "আমরা বলি"
+        },
+        {
+          "pron": "ihr",
+          "stems": [
+            "sprech"
+          ],
+          "ends": [
+            "t"
+          ],
+          "bn": "তোমরা বলো"
+        },
+        {
+          "pron": "sie / Sie",
+          "stems": [
+            "sprech"
+          ],
+          "ends": [
+            "en"
+          ],
+          "bn": "তারা / আপনি বলেন"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "Englisch",
+      "options": [
+        "ইংরেজি",
+        "ইতিমধ্যে",
+        "পারা",
+        "হতে হবে"
+      ],
+      "answer": 0,
+      "why": "Englisch = ইংরেজি।",
+      "word": "englisch"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "die Sprache",
+      "options": [
+        "বলা",
+        "ভালো",
+        "ইতিমধ্যে",
+        "ভাষা"
+      ],
+      "answer": 3,
+      "why": "die Sprache = ভাষা।",
+      "word": "sprache"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Sprache",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Sprache। বহুবচন: die Sprachen।",
+      "word": "sprache"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ich ___ Deutsch sprechen.",
+      "options": [
+        "kann",
+        "kannst",
+        "können",
+        "könnt"
+      ],
+      "answer": 0,
+      "why": "ich kann (ich ও er একই)।",
+      "word": "koennen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Du ___ gut tanzen.",
+      "options": [
+        "kann",
+        "kannst",
+        "können",
+        "könnt"
+      ],
+      "answer": 1,
+      "why": "du + können → kannst।",
+      "word": "koennen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Du ___ Englisch.",
+      "options": [
+        "sprichst",
+        "sprechst",
+        "spricht",
+        "sprechen"
+      ],
+      "answer": 0,
+      "why": "du + sprechen → sprichst (e → i)।",
+      "word": "sprechen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "জার্মানে কী হবে?",
+      "sub": "আমি জার্মানিতে কাজ করতে চাই।",
+      "subBn": true,
+      "options": [
+        "Ich will in Deutschland arbeiten.",
+        "Ich will arbeiten in Deutschland.",
+        "Ich arbeiten will in Deutschland.",
+        "Ich will in Deutschland arbeite."
+      ],
+      "answer": 0,
+      "why": "মডাল ২য় স্থানে, মূল ক্রিয়া মূল রূপে শেষে।",
+      "word": "wollen"
+    },
+    {
+      "type": "order",
+      "prompt": "শব্দ সাজিয়ে বাক্য বানান: „আমি একটু বলতে পারি।“",
+      "tiles": [
+        "sprechen.",
+        "bisschen",
+        "ein",
+        "kann",
+        "Ich"
+      ],
+      "answer": [
+        "Ich",
+        "kann",
+        "ein",
+        "bisschen",
+        "sprechen."
+      ],
+      "why": "Ich kann ein bisschen sprechen।",
+      "word": "koennen"
+    }
+  ],
+  "status": "draft",
+  "minutes": 14,
+  "passMark": 0.8
+}

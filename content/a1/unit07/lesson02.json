@@ -1,0 +1,958 @@
+{
+  "id": "a1-u07-l02",
+  "level": "A1",
+  "unit": 7,
+  "lesson": 2,
+  "title": {
+    "de": "Nach dem Weg fragen",
+    "bn": "পথের হদিস জিজ্ঞাসা",
+    "en": "Asking for directions"
+  },
+  "hook": {
+    "de": "Wer nicht fragt, bleibt dumm.",
+    "who": "Sprichwort",
+    "bn": "যে জিজ্ঞাসা করে না, সে অজ্ঞই থাকে।",
+    "en": "Whoever does not ask stays ignorant."
+  },
+  "goals": [
+    "পথ জিজ্ঞাসা করা: Wie komme ich zum Bahnhof?",
+    "ডানে, বাঁয়ে, সোজা — Richtungen",
+    "আদেশসূচক রূপ (Sie): Gehen Sie! Biegen Sie ab!",
+    "zum ও zur — „…-এ / …-র কাছে“"
+  ],
+  "words": [
+    {
+      "id": "weg",
+      "de": "Weg",
+      "art": "der",
+      "pl": "die Wege",
+      "pos": "বিশেষ্য",
+      "bn": "পথ",
+      "en": "way, path"
+    },
+    {
+      "id": "geradeaus",
+      "de": "geradeaus",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "সোজা",
+      "en": "straight ahead"
+    },
+    {
+      "id": "links",
+      "de": "links",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "বাঁয়ে",
+      "en": "left"
+    },
+    {
+      "id": "rechts",
+      "de": "rechts",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "ডানে",
+      "en": "right"
+    },
+    {
+      "id": "gehen",
+      "de": "gehen",
+      "pos": "ক্রিয়া",
+      "bn": "যাওয়া (হেঁটে)",
+      "en": "to go, to walk"
+    },
+    {
+      "id": "abbiegen",
+      "de": "abbiegen",
+      "pos": "ক্রিয়া (ভাঙা)",
+      "bn": "মোড় নেওয়া",
+      "en": "to turn"
+    },
+    {
+      "id": "ampel",
+      "de": "Ampel",
+      "art": "die",
+      "pl": "die Ampeln",
+      "pos": "বিশেষ্য",
+      "bn": "ট্রাফিক লাইট",
+      "en": "traffic light"
+    },
+    {
+      "id": "kreuzung",
+      "de": "Kreuzung",
+      "art": "die",
+      "pl": "die Kreuzungen",
+      "pos": "বিশেষ্য",
+      "bn": "মোড়, চৌরাস্তা",
+      "en": "crossing"
+    },
+    {
+      "id": "strasse",
+      "de": "Straße",
+      "art": "die",
+      "pl": "die Straßen",
+      "pos": "বিশেষ্য",
+      "bn": "রাস্তা",
+      "en": "street"
+    },
+    {
+      "id": "erste",
+      "de": "erste",
+      "pos": "ক্রমবাচক",
+      "bn": "প্রথম",
+      "en": "first"
+    },
+    {
+      "id": "zweite",
+      "de": "zweite",
+      "pos": "ক্রমবাচক",
+      "bn": "দ্বিতীয়",
+      "en": "second"
+    },
+    {
+      "id": "weit",
+      "de": "weit",
+      "pos": "বিশেষণ",
+      "bn": "দূর",
+      "en": "far"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Saheb",
+      "bn": [
+        "মাফ",
+        "করবেন,",
+        "স্টেশনে",
+        "কীভাবে",
+        "যাব?"
+      ],
+      "en": [
+        "Excuse",
+        "me,",
+        "how",
+        "do",
+        "I",
+        "get",
+        "to",
+        "the",
+        "station?"
+      ],
+      "de": [
+        {
+          "t": "Entschuldigung,",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Entschuldigung",
+          "gb": "মাফ করবেন",
+          "ge": "Excuse me",
+          "n": ""
+        },
+        {
+          "t": "wie",
+          "b": [
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "wie",
+          "gb": "কীভাবে",
+          "ge": "how",
+          "n": ""
+        },
+        {
+          "t": "komme",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "kommen",
+          "gb": "যাব",
+          "ge": "get",
+          "n": "Wie komme ich …? = আমি … কীভাবে পৌঁছাব?"
+        },
+        {
+          "t": "ich",
+          "b": [],
+          "e": [
+            4
+          ],
+          "l": "ich",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "zum",
+          "b": [],
+          "e": [
+            6,
+            7
+          ],
+          "l": "zu dem",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "to the",
+          "n": "zum = zu + dem: der Bahnhof → zum Bahnhof"
+        },
+        {
+          "t": "Bahnhof?",
+          "b": [
+            2
+          ],
+          "e": [
+            8
+          ],
+          "l": "Bahnhof",
+          "gb": "স্টেশনে",
+          "ge": "station",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Frau Krüger",
+      "bn": [
+        "এখান",
+        "থেকে",
+        "সোজা",
+        "ট্রাফিক",
+        "লাইট",
+        "পর্যন্ত",
+        "যান।"
+      ],
+      "en": [
+        "Go",
+        "straight",
+        "ahead",
+        "here",
+        "to",
+        "the",
+        "traffic",
+        "light."
+      ],
+      "de": [
+        {
+          "t": "Gehen",
+          "b": [
+            6
+          ],
+          "e": [
+            0
+          ],
+          "l": "gehen",
+          "gb": "যান",
+          "ge": "Go",
+          "n": "Sie-র আদেশ: ক্রিয়া আগে, Sie পরে"
+        },
+        {
+          "t": "Sie",
+          "b": [],
+          "e": [],
+          "l": "Sie",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "hier",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "hier",
+          "gb": "এখান থেকে",
+          "ge": "here",
+          "n": ""
+        },
+        {
+          "t": "geradeaus",
+          "b": [
+            2
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "geradeaus",
+          "gb": "সোজা",
+          "ge": "straight ahead",
+          "n": ""
+        },
+        {
+          "t": "bis",
+          "b": [
+            5
+          ],
+          "e": [
+            4
+          ],
+          "l": "bis",
+          "gb": "পর্যন্ত",
+          "ge": "to",
+          "n": "bis zu = … পর্যন্ত"
+        },
+        {
+          "t": "zur",
+          "b": [],
+          "e": [
+            5
+          ],
+          "l": "zu der",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the",
+          "n": "zur = zu + der: die Ampel → zur Ampel"
+        },
+        {
+          "t": "Ampel.",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "Ampel",
+          "gb": "ট্রাফিক লাইট",
+          "ge": "traffic light",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Frau Krüger",
+      "bn": [
+        "সেখানে",
+        "বাঁয়ে",
+        "ঘুরুন।"
+      ],
+      "en": [
+        "Turn",
+        "left",
+        "there."
+      ],
+      "de": [
+        {
+          "t": "Dort",
+          "b": [
+            0
+          ],
+          "e": [
+            2
+          ],
+          "l": "Dort",
+          "gb": "সেখানে",
+          "ge": "there",
+          "n": ""
+        },
+        {
+          "t": "biegen",
+          "b": [
+            2
+          ],
+          "e": [
+            0
+          ],
+          "l": "abbiegen",
+          "gb": "ঘুরুন",
+          "ge": "Turn",
+          "n": "abbiegen ভাঙা ক্রিয়া: Biegen Sie … ab"
+        },
+        {
+          "t": "Sie",
+          "b": [],
+          "e": [],
+          "l": "Sie",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "links",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "links",
+          "gb": "বাঁয়ে",
+          "ge": "left",
+          "n": ""
+        },
+        {
+          "t": "ab.",
+          "b": [
+            2
+          ],
+          "e": [
+            0
+          ],
+          "l": "abbiegen",
+          "gb": "ঘুরুন",
+          "ge": "Turn",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "ট্রাফিক",
+        "লাইটে",
+        "বাঁয়ে?"
+      ],
+      "en": [
+        "Left",
+        "at",
+        "the",
+        "traffic",
+        "light?"
+      ],
+      "de": [
+        {
+          "t": "Links",
+          "b": [
+            2
+          ],
+          "e": [
+            0
+          ],
+          "l": "Links",
+          "gb": "বাঁয়ে",
+          "ge": "Left",
+          "n": ""
+        },
+        {
+          "t": "an",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "an",
+          "gb": "লাইটে",
+          "ge": "at",
+          "n": ""
+        },
+        {
+          "t": "der",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "die",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "Ampel?",
+          "b": [
+            0
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "Ampel",
+          "gb": "ট্রাফিক",
+          "ge": "traffic light",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Frau Krüger",
+      "bn": [
+        "না,",
+        "ডানে।",
+        "তারপর",
+        "প্রথম",
+        "রাস্তা",
+        "বাঁয়ে।"
+      ],
+      "en": [
+        "No,",
+        "right.",
+        "Then",
+        "the",
+        "first",
+        "street",
+        "on",
+        "the",
+        "left."
+      ],
+      "de": [
+        {
+          "t": "Nein,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Nein",
+          "gb": "না",
+          "ge": "No",
+          "n": ""
+        },
+        {
+          "t": "rechts.",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "rechts",
+          "gb": "ডানে",
+          "ge": "right",
+          "n": ""
+        },
+        {
+          "t": "Dann",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "Dann",
+          "gb": "তারপর",
+          "ge": "Then",
+          "n": ""
+        },
+        {
+          "t": "die",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "die",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "erste",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "erste",
+          "gb": "প্রথম",
+          "ge": "first",
+          "n": ""
+        },
+        {
+          "t": "Straße",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "Straße",
+          "gb": "রাস্তা",
+          "ge": "street",
+          "n": ""
+        },
+        {
+          "t": "links.",
+          "b": [
+            5
+          ],
+          "e": [
+            6,
+            7,
+            8
+          ],
+          "l": "links",
+          "gb": "বাঁয়ে",
+          "ge": "on the left",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "ধন্যবাদ!",
+        "অনেক",
+        "দূর?"
+      ],
+      "en": [
+        "Thanks!",
+        "Is",
+        "it",
+        "far?"
+      ],
+      "de": [
+        {
+          "t": "Danke!",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Danke",
+          "gb": "ধন্যবাদ",
+          "ge": "Thanks",
+          "n": ""
+        },
+        {
+          "t": "Ist",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "Is",
+          "n": ""
+        },
+        {
+          "t": "es",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "es",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "it",
+          "n": ""
+        },
+        {
+          "t": "weit?",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "weit",
+          "gb": "দূর",
+          "ge": "far",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Frau Krüger",
+      "bn": [
+        "না,",
+        "হেঁটে",
+        "মাত্র",
+        "পাঁচ",
+        "মিনিট।"
+      ],
+      "en": [
+        "No,",
+        "only",
+        "five",
+        "minutes",
+        "on",
+        "foot."
+      ],
+      "de": [
+        {
+          "t": "Nein,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Nein",
+          "gb": "না",
+          "ge": "No",
+          "n": ""
+        },
+        {
+          "t": "nur",
+          "b": [
+            2
+          ],
+          "e": [
+            1
+          ],
+          "l": "nur",
+          "gb": "মাত্র",
+          "ge": "only",
+          "n": ""
+        },
+        {
+          "t": "fünf",
+          "b": [
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "fünf",
+          "gb": "পাঁচ",
+          "ge": "five",
+          "n": ""
+        },
+        {
+          "t": "Minuten",
+          "b": [
+            4
+          ],
+          "e": [
+            3
+          ],
+          "l": "Minuten",
+          "gb": "মিনিট",
+          "ge": "minutes",
+          "n": ""
+        },
+        {
+          "t": "zu Fuß.",
+          "b": [
+            1
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "zu Fuß",
+          "gb": "হেঁটে",
+          "ge": "on foot",
+          "n": "zu Fuß = হেঁটে (আক্ষরিক: পায়ে)"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "Wie komme ich zum / zur …?",
+      "intro": "zu + dem = zum (der/das-জায়গা); zu + der = zur (die-জায়গা)।",
+      "head": [
+        "জায়গা",
+        "প্রশ্ন"
+      ],
+      "rows": [
+        [
+          "der Bahnhof",
+          "Wie komme ich zum Bahnhof?"
+        ],
+        [
+          "das Kino",
+          "Wie komme ich zum Kino?"
+        ],
+        [
+          "die Post",
+          "Wie komme ich zur Post?"
+        ],
+        [
+          "die Apotheke",
+          "Wie komme ich zur Apotheke?"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Imperativ (Sie) — ভদ্র আদেশ",
+      "intro": "মূল ক্রিয়া + Sie। ভাঙা ক্রিয়ার ছোট অংশ শেষে যায়।",
+      "head": [
+        "মূল রূপ",
+        "আদেশ",
+        "বাংলা"
+      ],
+      "rows": [
+        [
+          "gehen",
+          "Gehen Sie geradeaus.",
+          "সোজা যান"
+        ],
+        [
+          "abbiegen",
+          "Biegen Sie links ab.",
+          "বাঁয়ে ঘুরুন"
+        ],
+        [
+          "nehmen",
+          "Nehmen Sie die erste Straße.",
+          "প্রথম রাস্তা ধরুন"
+        ],
+        [
+          "fragen",
+          "Fragen Sie dort.",
+          "ওখানে জিজ্ঞাসা করুন"
+        ]
+      ],
+      "note": "পথ বলার সময় এই রূপ সবচেয়ে বেশি শুনবেন — তাই বোঝা আগে, বলা পরে।"
+    },
+    {
+      "type": "table",
+      "title": "দিক ও ক্রম",
+      "head": [
+        "জার্মান",
+        "বাংলা"
+      ],
+      "rows": [
+        [
+          "geradeaus",
+          "সোজা"
+        ],
+        [
+          "links / rechts",
+          "বাঁয়ে / ডানে"
+        ],
+        [
+          "an der Ampel",
+          "ট্রাফিক লাইটে"
+        ],
+        [
+          "an der Kreuzung",
+          "মোড়ে"
+        ],
+        [
+          "die erste / zweite Straße",
+          "প্রথম / দ্বিতীয় রাস্তা"
+        ],
+        [
+          "zu Fuß",
+          "হেঁটে"
+        ]
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "die Ampel",
+      "options": [
+        "ট্রাফিক লাইট",
+        "সোজা",
+        "ডানে",
+        "মোড় নেওয়া"
+      ],
+      "answer": 0,
+      "why": "die Ampel = ট্রাফিক লাইট।",
+      "word": "ampel"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "die Kreuzung",
+      "options": [
+        "মোড়",
+        "রাস্তা",
+        "দূর",
+        "বাঁয়ে"
+      ],
+      "answer": 0,
+      "why": "die Kreuzung = মোড়।",
+      "word": "kreuzung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "geradeaus",
+      "options": [
+        "রাস্তা",
+        "দূর",
+        "সোজা",
+        "ডানে"
+      ],
+      "answer": 2,
+      "why": "geradeaus = সোজা।",
+      "word": "geradeaus"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "links",
+      "options": [
+        "বাঁয়ে",
+        "যাওয়া",
+        "মোড়",
+        "দ্বিতীয়"
+      ],
+      "answer": 0,
+      "why": "links = বাঁয়ে।",
+      "word": "links"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Wie komme ich ___ Bahnhof?",
+      "options": [
+        "zum",
+        "zur",
+        "zu den",
+        "im"
+      ],
+      "answer": 0,
+      "why": "der Bahnhof → zum Bahnhof।",
+      "word": "weg"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Wie komme ich ___ Post?",
+      "options": [
+        "zum",
+        "zur",
+        "zu dem",
+        "am"
+      ],
+      "answer": 1,
+      "why": "die Post → zur Post।",
+      "word": "weg"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "___ Sie geradeaus!",
+      "options": [
+        "Gehen",
+        "Gehe",
+        "Geht",
+        "Gehst"
+      ],
+      "answer": 0,
+      "why": "Sie-র আদেশ: Gehen Sie …",
+      "word": "gehen"
+    },
+    {
+      "type": "order",
+      "prompt": "শব্দ সাজিয়ে বাক্য বানান: „বাঁয়ে ঘুরুন।“",
+      "tiles": [
+        "ab.",
+        "links",
+        "Sie",
+        "Biegen"
+      ],
+      "answer": [
+        "Biegen",
+        "Sie",
+        "links",
+        "ab."
+      ],
+      "why": "Biegen Sie links ab।",
+      "word": "abbiegen"
+    }
+  ],
+  "status": "draft",
+  "minutes": 14,
+  "passMark": 0.8
+}

@@ -1,0 +1,861 @@
+{
+  "id": "a1-u08-l04",
+  "level": "A1",
+  "unit": 8,
+  "lesson": 4,
+  "title": {
+    "de": "Eine Nachricht schreiben",
+    "bn": "বার্তা ও ই-মেইল লেখা",
+    "en": "Writing a message"
+  },
+  "hook": {
+    "de": "Wer schreibt, der bleibt.",
+    "who": "Sprichwort",
+    "bn": "যা লেখা থাকে, তা থেকে যায়।",
+    "en": "What is written, remains."
+  },
+  "goals": [
+    "বন্ধুকে ছোট বার্তা বা ই-মেইল লেখা",
+    "শুরুর সম্বোধন ও শেষের শুভেচ্ছা: Liebe/Lieber …, Viele Grüße",
+    "নিমন্ত্রণ গ্রহণ ও প্রত্যাখ্যান লেখা",
+    "müssen ও ভাঙা ক্রিয়ার সংমিশ্রণ"
+  ],
+  "words": [
+    {
+      "id": "nachricht",
+      "de": "Nachricht",
+      "art": "die",
+      "pl": "die Nachrichten",
+      "pos": "বিশেষ্য",
+      "bn": "বার্তা",
+      "en": "message"
+    },
+    {
+      "id": "e_mail",
+      "de": "E-Mail",
+      "art": "die",
+      "pl": "die E-Mails",
+      "pos": "বিশেষ্য",
+      "bn": "ই-মেইল",
+      "en": "e-mail"
+    },
+    {
+      "id": "gruss",
+      "de": "Gruß",
+      "art": "der",
+      "pl": "die Grüße",
+      "pos": "বিশেষ্য",
+      "bn": "শুভেচ্ছা",
+      "en": "greeting"
+    },
+    {
+      "id": "antworten",
+      "de": "antworten",
+      "pos": "ক্রিয়া",
+      "bn": "উত্তর দেওয়া",
+      "en": "to answer"
+    },
+    {
+      "id": "absagen",
+      "de": "absagen",
+      "pos": "ক্রিয়া (ভাঙা)",
+      "bn": "না বলা, বাতিল করা",
+      "en": "to decline, to cancel"
+    },
+    {
+      "id": "zusagen",
+      "de": "zusagen",
+      "pos": "ক্রিয়া (ভাঙা)",
+      "bn": "হ্যাঁ বলা, রাজি হওয়া",
+      "en": "to accept"
+    },
+    {
+      "id": "krank",
+      "de": "krank",
+      "pos": "বিশেষণ",
+      "bn": "অসুস্থ",
+      "en": "sick"
+    },
+    {
+      "id": "lieb",
+      "de": "lieb",
+      "pos": "বিশেষণ",
+      "bn": "প্রিয়",
+      "en": "dear"
+    },
+    {
+      "id": "viele_gruesse",
+      "de": "Viele Grüße",
+      "pos": "অভিব্যক্তি",
+      "bn": "অনেক শুভেচ্ছা",
+      "en": "best wishes"
+    },
+    {
+      "id": "viel_spass",
+      "de": "Viel Spaß!",
+      "pos": "অভিব্যক্তি",
+      "bn": "মজা করো!",
+      "en": "have fun!"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Muna",
+      "bn": [
+        "প্রিয়",
+        "সাহেব,"
+      ],
+      "en": [
+        "Dear",
+        "Saheb,"
+      ],
+      "de": [
+        {
+          "t": "Lieber",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "lieb",
+          "gb": "প্রিয়",
+          "ge": "Dear",
+          "n": "পুরুষকে: Lieber; নারীকে: Liebe"
+        },
+        {
+          "t": "Saheb,",
+          "s": "Saheb",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "Saheb",
+          "gb": "সাহেব",
+          "ge": "Saheb",
+          "n": "সম্বোধনের পরে কমা (ইংরেজির মতো)"
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "আমি",
+        "তোমাকে",
+        "পার্টিতে",
+        "নিমন্ত্রণ",
+        "করছি।"
+      ],
+      "en": [
+        "I",
+        "am",
+        "inviting",
+        "you",
+        "to",
+        "the",
+        "party."
+      ],
+      "de": [
+        {
+          "t": "ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": "চিঠির শুরুর সম্বোধনের পরে ছোট হাতের অক্ষরে শুরু করুন (বিশেষ্য ছাড়া)"
+        },
+        {
+          "t": "lade",
+          "b": [
+            3
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "einladen",
+          "gb": "নিমন্ত্রণ",
+          "ge": "am inviting",
+          "n": ""
+        },
+        {
+          "t": "dich",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "du",
+          "gb": "তোমাকে",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "zur",
+          "b": [],
+          "e": [
+            4,
+            5
+          ],
+          "l": "zu der",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "to the",
+          "n": ""
+        },
+        {
+          "t": "Party",
+          "b": [
+            2
+          ],
+          "e": [
+            6
+          ],
+          "l": "Party",
+          "gb": "পার্টিতে",
+          "ge": "party",
+          "n": ""
+        },
+        {
+          "t": "ein.",
+          "b": [
+            4
+          ],
+          "e": [],
+          "l": "einladen",
+          "gb": "করছি",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "তুমি",
+        "কি",
+        "আসবে?",
+        "দয়া",
+        "করে",
+        "উত্তর",
+        "দাও!"
+      ],
+      "en": [
+        "Are",
+        "you",
+        "coming?",
+        "Please",
+        "answer!"
+      ],
+      "de": [
+        {
+          "t": "Kommst",
+          "b": [
+            2
+          ],
+          "e": [
+            0,
+            2
+          ],
+          "l": "kommen",
+          "gb": "আসবে",
+          "ge": "Are coming",
+          "n": ""
+        },
+        {
+          "t": "du?",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "Bitte",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            3
+          ],
+          "l": "Bitte",
+          "gb": "দয়া করে",
+          "ge": "Please",
+          "n": ""
+        },
+        {
+          "t": "antworte!",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            4
+          ],
+          "l": "antworten",
+          "gb": "উত্তর দাও",
+          "ge": "answer",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "অনেক",
+        "শুভেচ্ছা,",
+        "মুনা"
+      ],
+      "en": [
+        "Best",
+        "wishes,",
+        "Muna"
+      ],
+      "de": [
+        {
+          "t": "Viele Grüße,",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Viele Grüße",
+          "gb": "অনেক শুভেচ্ছা",
+          "ge": "Best wishes",
+          "n": ""
+        },
+        {
+          "t": "Muna",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "Muna",
+          "gb": "মুনা",
+          "ge": "Muna",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "প্রিয়",
+        "মুনা,"
+      ],
+      "en": [
+        "Dear",
+        "Muna,"
+      ],
+      "de": [
+        {
+          "t": "Liebe",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "lieb",
+          "gb": "প্রিয়",
+          "ge": "Dear",
+          "n": ""
+        },
+        {
+          "t": "Muna,",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "Muna",
+          "gb": "মুনা",
+          "ge": "Muna",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "নিমন্ত্রণের",
+        "জন্য",
+        "অনেক",
+        "ধন্যবাদ!",
+        "দুঃখিত,",
+        "আমাকে",
+        "না",
+        "বলতে",
+        "হচ্ছে।"
+      ],
+      "en": [
+        "Thank",
+        "you",
+        "very",
+        "much",
+        "for",
+        "the",
+        "invitation!",
+        "Unfortunately",
+        "I",
+        "have",
+        "to",
+        "decline."
+      ],
+      "de": [
+        {
+          "t": "vielen Dank",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "l": "Dank",
+          "gb": "অনেক ধন্যবাদ",
+          "ge": "Thank you very much",
+          "n": ""
+        },
+        {
+          "t": "für",
+          "b": [
+            1
+          ],
+          "e": [
+            4
+          ],
+          "l": "für",
+          "gb": "জন্য",
+          "ge": "for",
+          "n": "für + Akkusativ = জন্য"
+        },
+        {
+          "t": "die",
+          "b": [],
+          "e": [
+            5
+          ],
+          "l": "die",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "Einladung!",
+          "b": [
+            0
+          ],
+          "e": [
+            6
+          ],
+          "l": "Einladung",
+          "gb": "নিমন্ত্রণের",
+          "ge": "invitation",
+          "n": ""
+        },
+        {
+          "t": "Leider",
+          "b": [
+            4
+          ],
+          "e": [
+            7
+          ],
+          "l": "Leider",
+          "gb": "দুঃখিত",
+          "ge": "Unfortunately",
+          "n": ""
+        },
+        {
+          "t": "muss",
+          "b": [
+            8
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "müssen",
+          "gb": "হচ্ছে",
+          "ge": "have to",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            5
+          ],
+          "e": [
+            8
+          ],
+          "l": "ich",
+          "gb": "আমাকে",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "absagen.",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            11
+          ],
+          "l": "absagen",
+          "gb": "না বলতে",
+          "ge": "decline",
+          "n": "মডালের সাথে ভাঙা ক্রিয়া একসাথে: muss … absagen"
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "অসুস্থ।"
+      ],
+      "en": [
+        "I",
+        "am",
+        "sick."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "bin",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "am",
+          "n": ""
+        },
+        {
+          "t": "krank.",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "krank",
+          "gb": "অসুস্থ",
+          "ge": "sick",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "পার্টিতে",
+        "মজা",
+        "করো!",
+        "শুভেচ্ছা,",
+        "সাহেব"
+      ],
+      "en": [
+        "Have",
+        "fun",
+        "at",
+        "the",
+        "party!",
+        "Best",
+        "wishes,",
+        "Saheb"
+      ],
+      "de": [
+        {
+          "t": "Viel Spaß",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Viel Spaß",
+          "gb": "মজা করো",
+          "ge": "Have fun",
+          "n": "Viel Spaß! = মজা করো!"
+        },
+        {
+          "t": "auf",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "auf",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "at",
+          "n": ""
+        },
+        {
+          "t": "der",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "der",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "Party!",
+          "b": [
+            0
+          ],
+          "e": [
+            4
+          ],
+          "l": "Party",
+          "gb": "পার্টিতে",
+          "ge": "party",
+          "n": ""
+        },
+        {
+          "t": "Liebe Grüße,",
+          "b": [
+            3
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "Liebe Grüße",
+          "gb": "শুভেচ্ছা",
+          "ge": "Best wishes",
+          "n": ""
+        },
+        {
+          "t": "Saheb",
+          "b": [
+            4
+          ],
+          "e": [
+            7
+          ],
+          "l": "Saheb",
+          "gb": "সাহেব",
+          "ge": "Saheb",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "চিঠি / ই-মেইলের কাঠামো",
+      "head": [
+        "অংশ",
+        "বন্ধুকে",
+        "আনুষ্ঠানিক"
+      ],
+      "rows": [
+        [
+          "সম্বোধন",
+          "Liebe Muna, / Lieber Saheb,",
+          "Sehr geehrte Frau Becker, / Sehr geehrter Herr Schmidt,"
+        ],
+        [
+          "শুভেচ্ছা (শেষে)",
+          "Viele Grüße / Liebe Grüße",
+          "Mit freundlichen Grüßen"
+        ],
+        [
+          "সম্বোধনের পরে",
+          "কমা, তারপর ছোট হাতের অক্ষর",
+          "কমা, তারপর ছোট হাতের অক্ষর"
+        ]
+      ],
+      "note": "আনুষ্ঠানিক ই-মেইলে সবসময় Sie ও বড় হাতের Sie/Ihr ব্যবহার করুন।"
+    },
+    {
+      "type": "table",
+      "title": "ভাঙা ক্রিয়া + মডাল",
+      "intro": "সাধারণ বাক্যে ভাঙা ক্রিয়া ভেঙে যায়। কিন্তু মডালের সাথে ক্রিয়াটি অক্ষুণ্ণ থাকে এবং শেষে যায়।",
+      "head": [
+        "সাধারণ বাক্য",
+        "মডালসহ"
+      ],
+      "rows": [
+        [
+          "Ich lade dich ein.",
+          "Ich möchte dich einladen."
+        ],
+        [
+          "Ich sage ab.",
+          "Ich muss absagen."
+        ],
+        [
+          "Er steht früh auf.",
+          "Er muss früh aufstehen."
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "title": "bitte ও danke — লেখায় কম ব্যবহার নয়",
+      "text": "ই-মেইলে সৌজন্য খুব গুরুত্বপূর্ণ: „vielen Dank für …“ (…-এর জন্য অনেক ধন্যবাদ), „Bitte antworte …“ (দয়া করে উত্তর দিন)। না বললেও আগে ধন্যবাদ, তারপর leider।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "die Nachricht",
+      "options": [
+        "অসুস্থ",
+        "বার্তা",
+        "অনেক শুভেচ্ছা",
+        "ই-মেইল"
+      ],
+      "answer": 1,
+      "why": "die Nachricht = বার্তা।",
+      "word": "nachricht"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "antworten",
+      "options": [
+        "উত্তর দেওয়া",
+        "না বলা",
+        "প্রিয়",
+        "বার্তা"
+      ],
+      "answer": 0,
+      "why": "antworten = উত্তর দেওয়া।",
+      "word": "antworten"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "absagen",
+      "options": [
+        "মজা করো!",
+        "শুভেচ্ছা",
+        "না বলা",
+        "অসুস্থ"
+      ],
+      "answer": 2,
+      "why": "absagen = না বলা।",
+      "word": "absagen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ E-Mail",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die E-Mail। বহুবচন: die E-Mails।",
+      "word": "e_mail"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "___ Muna,",
+      "options": [
+        "Liebe",
+        "Lieber",
+        "Lieb",
+        "Liebes"
+      ],
+      "answer": 0,
+      "why": "নারীকে: Liebe Muna,",
+      "word": "lieb"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "___ Saheb,",
+      "options": [
+        "Liebe",
+        "Lieber",
+        "Lieb",
+        "Liebes"
+      ],
+      "answer": 1,
+      "why": "পুরুষকে: Lieber Saheb,",
+      "word": "lieb"
+    },
+    {
+      "type": "mcq",
+      "prompt": "আনুষ্ঠানিক ই-মেইলের শেষে কী লিখবেন?",
+      "options": [
+        "Mit freundlichen Grüßen",
+        "Liebe Grüße",
+        "Tschüss",
+        "Hallo"
+      ],
+      "answer": 0,
+      "why": "আনুষ্ঠানিক শেষ: Mit freundlichen Grüßen।"
+    },
+    {
+      "type": "order",
+      "prompt": "শব্দ সাজিয়ে বাক্য বানান: „দুঃখিত, আমাকে না বলতে হচ্ছে।“",
+      "tiles": [
+        "absagen.",
+        "ich",
+        "muss",
+        "Leider"
+      ],
+      "answer": [
+        "Leider",
+        "muss",
+        "ich",
+        "absagen."
+      ],
+      "why": "Leider muss ich absagen।",
+      "word": "absagen"
+    }
+  ],
+  "status": "draft",
+  "minutes": 14,
+  "passMark": 0.8
+}

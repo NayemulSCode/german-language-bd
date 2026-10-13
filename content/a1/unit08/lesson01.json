@@ -1,0 +1,1015 @@
+{
+  "id": "a1-u08-l01",
+  "level": "A1",
+  "unit": 8,
+  "lesson": 1,
+  "title": {
+    "de": "Meine Hobbys",
+    "bn": "আমার শখ",
+    "en": "My hobbies"
+  },
+  "hook": {
+    "de": "Ohne Musik wäre das Leben ein Irrtum.",
+    "who": "Friedrich Nietzsche",
+    "bn": "গান ছাড়া জীবন হতো এক ভুল।",
+    "en": "Without music, life would be a mistake."
+  },
+  "goals": [
+    "নিজের শখ নিয়ে কথা বলা",
+    "spielen, hören, lesen, schwimmen, tanzen",
+    "„gern“ ও „nicht gern“ — পছন্দ ও অপছন্দ",
+    "lesen ক্রিয়ার রূপ (du liest)"
+  ],
+  "words": [
+    {
+      "id": "hobby",
+      "de": "Hobby",
+      "art": "das",
+      "pl": "die Hobbys",
+      "pos": "বিশেষ্য",
+      "bn": "শখ",
+      "en": "hobby"
+    },
+    {
+      "id": "spielen",
+      "de": "spielen",
+      "pos": "ক্রিয়া",
+      "bn": "খেলা; বাজানো",
+      "en": "to play"
+    },
+    {
+      "id": "fussball",
+      "de": "Fußball",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "ফুটবল",
+      "en": "football"
+    },
+    {
+      "id": "gitarre",
+      "de": "Gitarre",
+      "art": "die",
+      "pl": "die Gitarren",
+      "pos": "বিশেষ্য",
+      "bn": "গিটার",
+      "en": "guitar"
+    },
+    {
+      "id": "lesen",
+      "de": "lesen",
+      "pos": "ক্রিয়া",
+      "bn": "পড়া",
+      "en": "to read"
+    },
+    {
+      "id": "schwimmen",
+      "de": "schwimmen",
+      "pos": "ক্রিয়া",
+      "bn": "সাঁতার কাটা",
+      "en": "to swim"
+    },
+    {
+      "id": "musik",
+      "de": "Musik",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "গান, সংগীত",
+      "en": "music"
+    },
+    {
+      "id": "hoeren",
+      "de": "hören",
+      "pos": "ক্রিয়া",
+      "bn": "শোনা",
+      "en": "to listen, to hear"
+    },
+    {
+      "id": "tanzen",
+      "de": "tanzen",
+      "pos": "ক্রিয়া",
+      "bn": "নাচা",
+      "en": "to dance"
+    },
+    {
+      "id": "sport",
+      "de": "Sport",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "খেলাধুলা",
+      "en": "sport"
+    },
+    {
+      "id": "film",
+      "de": "Film",
+      "art": "der",
+      "pl": "die Filme",
+      "pos": "বিশেষ্য",
+      "bn": "সিনেমা",
+      "en": "film"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Muna",
+      "bn": [
+        "তোমার",
+        "শখ",
+        "কী",
+        "কী?"
+      ],
+      "en": [
+        "What",
+        "are",
+        "your",
+        "hobbies?"
+      ],
+      "de": [
+        {
+          "t": "Was",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            0
+          ],
+          "l": "Was",
+          "gb": "কী কী",
+          "ge": "What",
+          "n": ""
+        },
+        {
+          "t": "sind",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "are",
+          "n": "Hobbys বহুবচন → sind"
+        },
+        {
+          "t": "deine",
+          "b": [
+            0
+          ],
+          "e": [
+            2
+          ],
+          "l": "dein",
+          "gb": "তোমার",
+          "ge": "your",
+          "n": ""
+        },
+        {
+          "t": "Hobbys?",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "Hobbys",
+          "gb": "শখ",
+          "ge": "hobbies",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "ফুটবল",
+        "খেলতে",
+        "ভালোবাসি।",
+        "আর",
+        "গান",
+        "শুনতে",
+        "ভালোবাসি।"
+      ],
+      "en": [
+        "I",
+        "like",
+        "to",
+        "play",
+        "football.",
+        "And",
+        "I",
+        "like",
+        "to",
+        "listen",
+        "to",
+        "music."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "spiele",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "spielen",
+          "gb": "খেলতে",
+          "ge": "play",
+          "n": ""
+        },
+        {
+          "t": "gern",
+          "b": [
+            3
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "gern",
+          "gb": "ভালোবাসি",
+          "ge": "like to",
+          "n": ""
+        },
+        {
+          "t": "Fußball.",
+          "b": [
+            1
+          ],
+          "e": [
+            4
+          ],
+          "l": "Fußball",
+          "gb": "ফুটবল",
+          "ge": "football",
+          "n": ""
+        },
+        {
+          "t": "Und",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [],
+          "e": [
+            6
+          ],
+          "l": "ich",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "höre",
+          "b": [
+            6
+          ],
+          "e": [
+            9
+          ],
+          "l": "hören",
+          "gb": "শুনতে",
+          "ge": "listen",
+          "n": ""
+        },
+        {
+          "t": "gern",
+          "b": [
+            7
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "gern",
+          "gb": "ভালোবাসি",
+          "ge": "like to",
+          "n": ""
+        },
+        {
+          "t": "Musik.",
+          "b": [
+            5
+          ],
+          "e": [
+            10,
+            11
+          ],
+          "l": "Musik",
+          "gb": "গান",
+          "ge": "to music",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "আমি",
+        "নাচতে",
+        "আর",
+        "সাঁতার",
+        "কাটতে",
+        "ভালোবাসি।"
+      ],
+      "en": [
+        "I",
+        "like",
+        "to",
+        "dance",
+        "and",
+        "swim."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "tanze",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "tanzen",
+          "gb": "নাচতে",
+          "ge": "dance",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "schwimme",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "schwimmen",
+          "gb": "সাঁতার কাটতে",
+          "ge": "swim",
+          "n": ""
+        },
+        {
+          "t": "gern.",
+          "b": [
+            5
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "gern",
+          "gb": "ভালোবাসি",
+          "ge": "like to",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "তুমি",
+        "কি",
+        "ফুটবলও",
+        "খেলো?"
+      ],
+      "en": [
+        "Do",
+        "you",
+        "play",
+        "football",
+        "too?"
+      ],
+      "de": [
+        {
+          "t": "Spielst",
+          "b": [
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "spielen",
+          "gb": "খেলো",
+          "ge": "play",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "auch",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "auch",
+          "gb": "ফুটবলও",
+          "ge": "too",
+          "n": ""
+        },
+        {
+          "t": "Fußball?",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "Fußball",
+          "gb": "ফুটবলও",
+          "ge": "football",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "না,",
+        "আমি",
+        "ফুটবল",
+        "খেলতে",
+        "ভালোবাসি",
+        "না।"
+      ],
+      "en": [
+        "No,",
+        "I",
+        "do",
+        "not",
+        "like",
+        "to",
+        "play",
+        "football."
+      ],
+      "de": [
+        {
+          "t": "Nein,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Nein",
+          "gb": "না",
+          "ge": "No",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "spiele",
+          "b": [
+            3
+          ],
+          "e": [
+            6
+          ],
+          "l": "spielen",
+          "gb": "খেলতে",
+          "ge": "play",
+          "n": ""
+        },
+        {
+          "t": "nicht",
+          "b": [
+            5
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "nicht",
+          "gb": "না",
+          "ge": "do not",
+          "n": "nicht gern = পছন্দ করি না"
+        },
+        {
+          "t": "gern",
+          "b": [
+            4
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "gern",
+          "gb": "ভালোবাসি",
+          "ge": "like to",
+          "n": ""
+        },
+        {
+          "t": "Fußball.",
+          "b": [
+            2
+          ],
+          "e": [
+            7
+          ],
+          "l": "Fußball",
+          "gb": "ফুটবল",
+          "ge": "football",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "আমি",
+        "বই",
+        "পড়তে",
+        "ভালোবাসি।"
+      ],
+      "en": [
+        "I",
+        "like",
+        "to",
+        "read",
+        "books."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "lese",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "lesen",
+          "gb": "পড়তে",
+          "ge": "read",
+          "n": "lesen: du liest, er liest (e → ie)"
+        },
+        {
+          "t": "gern",
+          "b": [
+            3
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "gern",
+          "gb": "ভালোবাসি",
+          "ge": "like to",
+          "n": ""
+        },
+        {
+          "t": "Bücher.",
+          "b": [
+            1
+          ],
+          "e": [
+            4
+          ],
+          "l": "Buch",
+          "gb": "বই",
+          "ge": "books",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "গিটারও",
+        "বাজাই।",
+        "আর",
+        "তুমি?"
+      ],
+      "en": [
+        "I",
+        "also",
+        "play",
+        "the",
+        "guitar.",
+        "And",
+        "you?"
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "spiele",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "spielen",
+          "gb": "বাজাই",
+          "ge": "play",
+          "n": "spielen = খেলা ও (বাদ্যযন্ত্র) বাজানো — দুটোই"
+        },
+        {
+          "t": "auch",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "auch",
+          "gb": "গিটারও",
+          "ge": "also",
+          "n": ""
+        },
+        {
+          "t": "Gitarre.",
+          "b": [
+            1
+          ],
+          "e": [
+            4
+          ],
+          "l": "Gitarre",
+          "gb": "গিটারও",
+          "ge": "guitar",
+          "n": "Gitarre spielen = গিটার বাজানো (আর্টিকেল ছাড়া)"
+        },
+        {
+          "t": "Und",
+          "b": [
+            3
+          ],
+          "e": [
+            5
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "du?",
+          "b": [
+            4
+          ],
+          "e": [
+            6
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "conjugation",
+      "intro": "spielen নিয়মিত। lesen-এ du ও er-এ e → ie হয়।",
+      "verbs": [
+        "spielen",
+        "lesen"
+      ],
+      "note": "du liest — „du lest“ নয়। (essen, nehmen, lesen, sprechen — e বদলে i/ie হওয়া ক্রিয়ার একটি পরিবার।)",
+      "rows": [
+        {
+          "pron": "ich",
+          "stems": [
+            "spiel",
+            "les"
+          ],
+          "ends": [
+            "e",
+            "e"
+          ],
+          "bn": "আমি খেলি / পড়ি"
+        },
+        {
+          "pron": "du",
+          "stems": [
+            "spiel",
+            "lies"
+          ],
+          "ends": [
+            "st",
+            "t"
+          ],
+          "bn": "তুমি খেলো / পড়ো"
+        },
+        {
+          "pron": "er / sie / es",
+          "stems": [
+            "spiel",
+            "lies"
+          ],
+          "ends": [
+            "t",
+            "t"
+          ],
+          "bn": "সে খেলে / পড়ে"
+        },
+        {
+          "pron": "wir",
+          "stems": [
+            "spiel",
+            "les"
+          ],
+          "ends": [
+            "en",
+            "en"
+          ],
+          "bn": "আমরা"
+        },
+        {
+          "pron": "ihr",
+          "stems": [
+            "spiel",
+            "les"
+          ],
+          "ends": [
+            "t",
+            "t"
+          ],
+          "bn": "তোমরা"
+        },
+        {
+          "pron": "sie / Sie",
+          "stems": [
+            "spiel",
+            "les"
+          ],
+          "ends": [
+            "en",
+            "en"
+          ],
+          "bn": "তারা / আপনি"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "gern / nicht gern",
+      "text": "gern = পছন্দ করি। nicht gern = পছন্দ করি না: „Ich spiele nicht gern Fußball.“ — nicht আসে ক্রিয়ার ঠিক পরে, gern-এর আগে। বাংলায় „ভালোবাসি না“, জার্মানে „nicht gern“।"
+    },
+    {
+      "type": "table",
+      "title": "শখের ক্রিয়া",
+      "head": [
+        "জার্মান",
+        "বাক্যে",
+        "বাংলা"
+      ],
+      "rows": [
+        [
+          "Fußball spielen",
+          "Ich spiele Fußball.",
+          "ফুটবল খেলি"
+        ],
+        [
+          "Gitarre spielen",
+          "Ich spiele Gitarre.",
+          "গিটার বাজাই"
+        ],
+        [
+          "Musik hören",
+          "Ich höre Musik.",
+          "গান শুনি"
+        ],
+        [
+          "schwimmen",
+          "Ich schwimme gern.",
+          "সাঁতার কাটি"
+        ],
+        [
+          "tanzen",
+          "Ich tanze gern.",
+          "নাচি"
+        ],
+        [
+          "lesen",
+          "Ich lese Bücher.",
+          "বই পড়ি"
+        ],
+        [
+          "einen Film sehen",
+          "Ich sehe einen Film.",
+          "সিনেমা দেখি"
+        ]
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "die Gitarre",
+      "options": [
+        "গান",
+        "নাচা",
+        "সিনেমা",
+        "গিটার"
+      ],
+      "answer": 3,
+      "why": "die Gitarre = গিটার।",
+      "word": "gitarre"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "schwimmen",
+      "options": [
+        "গান",
+        "খেলাধুলা",
+        "খেলা",
+        "সাঁতার কাটা"
+      ],
+      "answer": 3,
+      "why": "schwimmen = সাঁতার কাটা।",
+      "word": "schwimmen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "tanzen",
+      "options": [
+        "সাঁতার কাটা",
+        "খেলাধুলা",
+        "নাচা",
+        "খেলা"
+      ],
+      "answer": 2,
+      "why": "tanzen = নাচা।",
+      "word": "tanzen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Sport",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 0,
+      "why": "der Sport।",
+      "word": "sport"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Musik",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Musik।",
+      "word": "musik"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Du ___ gern Bücher.",
+      "options": [
+        "lese",
+        "liest",
+        "lest",
+        "lesen"
+      ],
+      "answer": 1,
+      "why": "du + lesen → liest (e → ie)।",
+      "word": "lesen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "জার্মানে কী হবে?",
+      "sub": "আমি ফুটবল খেলতে ভালোবাসি না।",
+      "subBn": true,
+      "options": [
+        "Ich spiele nicht gern Fußball.",
+        "Ich nicht spiele gern Fußball.",
+        "Ich spiele gern nicht Fußball.",
+        "Ich spiele kein gern Fußball."
+      ],
+      "answer": 0,
+      "why": "nicht gern — ক্রিয়ার পরে, বিশেষ্যের আগে।",
+      "word": "spielen"
+    },
+    {
+      "type": "order",
+      "prompt": "শব্দ সাজিয়ে বাক্য বানান: „আমি গান শুনতে ভালোবাসি।“",
+      "tiles": [
+        "Musik.",
+        "gern",
+        "höre",
+        "Ich"
+      ],
+      "answer": [
+        "Ich",
+        "höre",
+        "gern",
+        "Musik."
+      ],
+      "why": "Ich höre gern Musik।",
+      "word": "hoeren"
+    }
+  ],
+  "status": "draft",
+  "minutes": 14,
+  "passMark": 0.8
+}

@@ -1,0 +1,1095 @@
+{
+  "id": "a1-u07-l03",
+  "level": "A1",
+  "unit": 7,
+  "lesson": 3,
+  "title": {
+    "de": "Verkehrsmittel",
+    "bn": "যানবাহন",
+    "en": "Means of transport"
+  },
+  "hook": {
+    "de": "Der Weg ist das Ziel.",
+    "who": "Sprichwort",
+    "bn": "পথটাই গন্তব্য।",
+    "en": "The journey is the destination."
+  },
+  "goals": [
+    "যানবাহনের নাম: Zug, U-Bahn, Straßenbahn, Fahrrad",
+    "„mit dem Zug“ — mit + Dativ",
+    "fahren ক্রিয়ার রূপ (du fährst!)",
+    "ছাড়ার ও পৌঁছানোর সময় বলা"
+  ],
+  "words": [
+    {
+      "id": "verkehrsmittel",
+      "de": "Verkehrsmittel",
+      "art": "das",
+      "pl": "die Verkehrsmittel",
+      "pos": "বিশেষ্য",
+      "bn": "যানবাহন",
+      "en": "means of transport"
+    },
+    {
+      "id": "zug",
+      "de": "Zug",
+      "art": "der",
+      "pl": "die Züge",
+      "pos": "বিশেষ্য",
+      "bn": "ট্রেন",
+      "en": "train"
+    },
+    {
+      "id": "u_bahn",
+      "de": "U-Bahn",
+      "art": "die",
+      "pl": "die U-Bahnen",
+      "pos": "বিশেষ্য",
+      "bn": "মেট্রো",
+      "en": "underground"
+    },
+    {
+      "id": "strassenbahn",
+      "de": "Straßenbahn",
+      "art": "die",
+      "pl": "die Straßenbahnen",
+      "pos": "বিশেষ্য",
+      "bn": "ট্রাম",
+      "en": "tram"
+    },
+    {
+      "id": "fahren",
+      "de": "fahren",
+      "pos": "ক্রিয়া",
+      "bn": "যানবাহনে যাওয়া",
+      "en": "to go (by vehicle)"
+    },
+    {
+      "id": "zu_fuss",
+      "de": "zu Fuß",
+      "pos": "অভিব্যক্তি",
+      "bn": "হেঁটে",
+      "en": "on foot"
+    },
+    {
+      "id": "fahrkarte",
+      "de": "Fahrkarte",
+      "art": "die",
+      "pl": "die Fahrkarten",
+      "pos": "বিশেষ্য",
+      "bn": "টিকিট",
+      "en": "ticket"
+    },
+    {
+      "id": "gleis",
+      "de": "Gleis",
+      "art": "das",
+      "pl": "die Gleise",
+      "pos": "বিশেষ্য",
+      "bn": "প্ল্যাটফর্ম, লাইন",
+      "en": "platform, track"
+    },
+    {
+      "id": "abfahrt",
+      "de": "Abfahrt",
+      "art": "die",
+      "pl": "die Abfahrten",
+      "pos": "বিশেষ্য",
+      "bn": "ছাড়ার সময়",
+      "en": "departure"
+    },
+    {
+      "id": "ankunft",
+      "de": "Ankunft",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "পৌঁছানো",
+      "en": "arrival"
+    },
+    {
+      "id": "mit",
+      "de": "mit",
+      "pos": "অব্যয়",
+      "bn": "দিয়ে, সঙ্গে (যানবাহনে)",
+      "en": "with, by"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Muna",
+      "bn": [
+        "তুমি",
+        "জার্মান",
+        "ক্লাসে",
+        "কীভাবে",
+        "যাও?"
+      ],
+      "en": [
+        "How",
+        "do",
+        "you",
+        "get",
+        "to",
+        "German",
+        "class?"
+      ],
+      "de": [
+        {
+          "t": "Wie",
+          "b": [
+            3
+          ],
+          "e": [
+            0
+          ],
+          "l": "Wie",
+          "gb": "কীভাবে",
+          "ge": "How",
+          "n": ""
+        },
+        {
+          "t": "fährst",
+          "b": [
+            4
+          ],
+          "e": [
+            1,
+            3
+          ],
+          "l": "fahren",
+          "gb": "যাও",
+          "ge": "do get",
+          "n": "du fährst — a → ä"
+        },
+        {
+          "t": "du",
+          "b": [
+            0
+          ],
+          "e": [
+            2
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "zum",
+          "b": [],
+          "e": [
+            4
+          ],
+          "l": "zu dem",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "to",
+          "n": ""
+        },
+        {
+          "t": "Deutschkurs?",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "Deutschkurs",
+          "gb": "জার্মান ক্লাসে",
+          "ge": "German class",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "মেট্রোতে",
+        "যাই।"
+      ],
+      "en": [
+        "I",
+        "go",
+        "by",
+        "underground."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "fahre",
+          "b": [
+            2
+          ],
+          "e": [
+            1
+          ],
+          "l": "fahren",
+          "gb": "যাই",
+          "ge": "go",
+          "n": ""
+        },
+        {
+          "t": "mit",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "mit",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "by",
+          "n": "mit + Dativ: যানবাহনের আগে mit"
+        },
+        {
+          "t": "der",
+          "b": [],
+          "e": [],
+          "l": "die",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": "die U-Bahn → mit der U-Bahn"
+        },
+        {
+          "t": "U-Bahn.",
+          "s": "U-Bahn",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "U-Bahn",
+          "gb": "মেট্রোতে",
+          "ge": "underground",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "আমি",
+        "সাইকেলে",
+        "যাই,",
+        "নয়তো",
+        "হেঁটে",
+        "যাই।"
+      ],
+      "en": [
+        "I",
+        "go",
+        "by",
+        "bike",
+        "or",
+        "I",
+        "walk."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "fahre",
+          "b": [
+            2
+          ],
+          "e": [
+            1
+          ],
+          "l": "fahren",
+          "gb": "যাই",
+          "ge": "go",
+          "n": ""
+        },
+        {
+          "t": "mit",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "mit",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "by",
+          "n": ""
+        },
+        {
+          "t": "dem",
+          "b": [],
+          "e": [],
+          "l": "das",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": "das Fahrrad → mit dem Fahrrad"
+        },
+        {
+          "t": "Fahrrad,",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "Fahrrad",
+          "gb": "সাইকেলে",
+          "ge": "bike",
+          "n": ""
+        },
+        {
+          "t": "oder",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "oder",
+          "gb": "নয়তো",
+          "ge": "or",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            0
+          ],
+          "e": [
+            5
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "gehe",
+          "b": [
+            5
+          ],
+          "e": [
+            6
+          ],
+          "l": "gehen",
+          "gb": "যাই",
+          "ge": "walk",
+          "n": ""
+        },
+        {
+          "t": "zu Fuß.",
+          "b": [
+            4
+          ],
+          "e": [],
+          "l": "zu Fuß",
+          "gb": "হেঁটে",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আর",
+        "সপ্তাহান্তে?",
+        "তুমি",
+        "কি",
+        "বার্লিনে",
+        "যাচ্ছ?"
+      ],
+      "en": [
+        "And",
+        "on",
+        "the",
+        "weekend?",
+        "Are",
+        "you",
+        "going",
+        "to",
+        "Berlin?"
+      ],
+      "de": [
+        {
+          "t": "Und",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "am",
+          "b": [],
+          "e": [
+            1,
+            2
+          ],
+          "l": "am",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "on the",
+          "n": ""
+        },
+        {
+          "t": "Wochenende?",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "Wochenende",
+          "gb": "সপ্তাহান্তে",
+          "ge": "weekend",
+          "n": ""
+        },
+        {
+          "t": "Fährst",
+          "b": [
+            5
+          ],
+          "e": [
+            6
+          ],
+          "l": "fahren",
+          "gb": "যাচ্ছ",
+          "ge": "going",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            2
+          ],
+          "e": [
+            5
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "nach",
+          "b": [],
+          "e": [
+            7
+          ],
+          "l": "nach",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "to",
+          "n": "শহর বা দেশের নামের আগে nach: nach Berlin"
+        },
+        {
+          "t": "Berlin?",
+          "b": [
+            4
+          ],
+          "e": [
+            8
+          ],
+          "l": "Berlin",
+          "gb": "বার্লিনে",
+          "ge": "Berlin",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "হ্যাঁ,",
+        "ট্রেনে।",
+        "ট্রেনটা",
+        "কখন",
+        "ছাড়ে?"
+      ],
+      "en": [
+        "Yes,",
+        "by",
+        "train.",
+        "When",
+        "does",
+        "the",
+        "train",
+        "leave?"
+      ],
+      "de": [
+        {
+          "t": "Ja,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ja",
+          "gb": "হ্যাঁ",
+          "ge": "Yes",
+          "n": ""
+        },
+        {
+          "t": "mit",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "mit",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "by",
+          "n": ""
+        },
+        {
+          "t": "dem",
+          "b": [],
+          "e": [],
+          "l": "der",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Zug.",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "Zug",
+          "gb": "ট্রেনে",
+          "ge": "train",
+          "n": ""
+        },
+        {
+          "t": "Wann",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "Wann",
+          "gb": "কখন",
+          "ge": "When",
+          "n": ""
+        },
+        {
+          "t": "fährt",
+          "b": [
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "fahren",
+          "gb": "ছাড়ে",
+          "ge": "does",
+          "n": ""
+        },
+        {
+          "t": "der",
+          "b": [],
+          "e": [
+            5
+          ],
+          "l": "der",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "Zug?",
+          "b": [
+            2
+          ],
+          "e": [
+            6
+          ],
+          "l": "Zug",
+          "gb": "ট্রেনটা",
+          "ge": "train",
+          "n": ""
+        },
+        {
+          "t": "ab?",
+          "b": [
+            4
+          ],
+          "e": [
+            7
+          ],
+          "l": "abfahren",
+          "gb": "ছাড়ে",
+          "ge": "leave",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "ছাড়ার",
+        "সময়",
+        "সকাল",
+        "আটটা,",
+        "পৌঁছানো",
+        "দুপুর",
+        "বারোটা।"
+      ],
+      "en": [
+        "Departure",
+        "is",
+        "at",
+        "eight",
+        "o'clock,",
+        "arrival",
+        "at",
+        "twelve",
+        "o'clock."
+      ],
+      "de": [
+        {
+          "t": "Die",
+          "b": [],
+          "e": [],
+          "l": "Die",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Abfahrt",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0
+          ],
+          "l": "Abfahrt",
+          "gb": "ছাড়ার সময়",
+          "ge": "Departure",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "um",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "um",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "at",
+          "n": ""
+        },
+        {
+          "t": "acht",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "acht",
+          "gb": "আটটা",
+          "ge": "eight",
+          "n": ""
+        },
+        {
+          "t": "Uhr,",
+          "b": [],
+          "e": [
+            4
+          ],
+          "l": "Uhr",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "o'clock",
+          "n": ""
+        },
+        {
+          "t": "die",
+          "b": [],
+          "e": [],
+          "l": "die",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Ankunft",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "Ankunft",
+          "gb": "পৌঁছানো",
+          "ge": "arrival",
+          "n": ""
+        },
+        {
+          "t": "um",
+          "b": [],
+          "e": [
+            6
+          ],
+          "l": "um",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "at",
+          "n": ""
+        },
+        {
+          "t": "zwölf",
+          "b": [
+            6
+          ],
+          "e": [
+            7
+          ],
+          "l": "zwölf",
+          "gb": "বারোটা",
+          "ge": "twelve",
+          "n": ""
+        },
+        {
+          "t": "Uhr.",
+          "b": [],
+          "e": [
+            8
+          ],
+          "l": "Uhr",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "o'clock",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "তিন",
+        "নম্বর",
+        "প্ল্যাটফর্ম",
+        "থেকে।"
+      ],
+      "en": [
+        "From",
+        "platform",
+        "three."
+      ],
+      "de": [
+        {
+          "t": "Von",
+          "b": [
+            3
+          ],
+          "e": [
+            0
+          ],
+          "l": "Von",
+          "gb": "থেকে",
+          "ge": "From",
+          "n": ""
+        },
+        {
+          "t": "Gleis",
+          "b": [
+            2
+          ],
+          "e": [
+            1
+          ],
+          "l": "Gleis",
+          "gb": "প্ল্যাটফর্ম",
+          "ge": "platform",
+          "n": ""
+        },
+        {
+          "t": "drei.",
+          "b": [
+            0
+          ],
+          "e": [
+            2
+          ],
+          "l": "drei",
+          "gb": "তিন",
+          "ge": "three",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "mit + Dativ — কীসে যাচ্ছি",
+      "head": [
+        "আর্টিকেল",
+        "বাক্যে"
+      ],
+      "rows": [
+        [
+          "der Zug",
+          "mit dem Zug"
+        ],
+        [
+          "die U-Bahn",
+          "mit der U-Bahn"
+        ],
+        [
+          "die Straßenbahn",
+          "mit der Straßenbahn"
+        ],
+        [
+          "das Fahrrad",
+          "mit dem Fahrrad"
+        ],
+        [
+          "das Auto",
+          "mit dem Auto"
+        ],
+        [
+          "— (আর্টিকেল নেই)",
+          "zu Fuß"
+        ]
+      ],
+      "note": "নিয়ম একই: der/das → dem, die → der। হেঁটে যাওয়ার সময় আর্টিকেল ও mit লাগে না — „zu Fuß“।"
+    },
+    {
+      "type": "conjugation",
+      "intro": "fahren: du ও er-এ a → ä হয়।",
+      "verbs": [
+        "fahren"
+      ],
+      "note": "fahren (গাড়ি/ট্রেন/সাইকেলে যাওয়া) আর gehen (হেঁটে যাওয়া) — আলাদা ক্রিয়া।",
+      "rows": [
+        {
+          "pron": "ich",
+          "stems": [
+            "fahr"
+          ],
+          "ends": [
+            "e"
+          ],
+          "bn": "আমি যাই"
+        },
+        {
+          "pron": "du",
+          "stems": [
+            "fähr"
+          ],
+          "ends": [
+            "st"
+          ],
+          "bn": "তুমি যাও"
+        },
+        {
+          "pron": "er / sie / es",
+          "stems": [
+            "fähr"
+          ],
+          "ends": [
+            "t"
+          ],
+          "bn": "সে যায়"
+        },
+        {
+          "pron": "wir",
+          "stems": [
+            "fahr"
+          ],
+          "ends": [
+            "en"
+          ],
+          "bn": "আমরা যাই"
+        },
+        {
+          "pron": "ihr",
+          "stems": [
+            "fahr"
+          ],
+          "ends": [
+            "t"
+          ],
+          "bn": "তোমরা যাও"
+        },
+        {
+          "pron": "sie / Sie",
+          "stems": [
+            "fahr"
+          ],
+          "ends": [
+            "en"
+          ],
+          "bn": "তারা / আপনি যান"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "nach নাকি zu?",
+      "text": "শহর ও দেশের নামের আগে nach: nach Berlin, nach Deutschland। ব্যক্তি বা নির্দিষ্ট স্থানের (আর্টিকেলসহ) আগে zu: zum Bahnhof, zur Schule, zum Arzt। সহজ সূত্র: নাম থাকলে nach, আর্টিকেল থাকলে zu।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "die Fahrkarte",
+      "options": [
+        "ছাড়ার সময়",
+        "টিকিট",
+        "দিয়ে",
+        "ট্রেন"
+      ],
+      "answer": 1,
+      "why": "die Fahrkarte = টিকিট।",
+      "word": "fahrkarte"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "das Gleis",
+      "options": [
+        "প্ল্যাটফর্ম",
+        "পৌঁছানো",
+        "ট্রেন",
+        "যানবাহনে যাওয়া"
+      ],
+      "answer": 0,
+      "why": "das Gleis = প্ল্যাটফর্ম।",
+      "word": "gleis"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Straßenbahn",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Straßenbahn। বহুবচন: die Straßenbahnen।",
+      "word": "strassenbahn"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Zug",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 0,
+      "why": "der Zug। বহুবচন: die Züge।",
+      "word": "zug"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ich fahre mit ___ Zug.",
+      "options": [
+        "dem",
+        "der",
+        "den",
+        "das"
+      ],
+      "answer": 0,
+      "why": "der Zug → mit dem Zug।",
+      "word": "mit"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Du ___ nach Berlin.",
+      "options": [
+        "fahre",
+        "fährst",
+        "fährt",
+        "fahren"
+      ],
+      "answer": 1,
+      "why": "du + fahren → fährst।",
+      "word": "fahren"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক শব্দ বেছে নিন",
+      "sub": "Ich fahre ___ der U-Bahn.",
+      "options": [
+        "mit",
+        "zu",
+        "nach",
+        "von"
+      ],
+      "answer": 0,
+      "why": "যানবাহনের আগে mit।",
+      "word": "mit"
+    },
+    {
+      "type": "order",
+      "prompt": "শব্দ সাজিয়ে বাক্য বানান: „আমি ট্রেনে যাই।“",
+      "tiles": [
+        "Zug.",
+        "dem",
+        "mit",
+        "fahre",
+        "Ich"
+      ],
+      "answer": [
+        "Ich",
+        "fahre",
+        "mit",
+        "dem",
+        "Zug."
+      ],
+      "why": "Ich fahre mit dem Zug।",
+      "word": "fahren"
+    }
+  ],
+  "status": "draft",
+  "minutes": 14,
+  "passMark": 0.8
+}

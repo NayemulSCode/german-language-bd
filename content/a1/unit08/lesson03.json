@@ -1,0 +1,1042 @@
+{
+  "id": "a1-u08-l03",
+  "level": "A1",
+  "unit": 8,
+  "lesson": 3,
+  "title": {
+    "de": "Eine Verabredung",
+    "bn": "দেখা করার কথা ও নিমন্ত্রণ",
+    "en": "Making plans"
+  },
+  "hook": {
+    "de": "Geteilte Freude ist doppelte Freude.",
+    "who": "Sprichwort",
+    "bn": "ভাগ করে নেওয়া আনন্দ দ্বিগুণ হয়।",
+    "en": "A joy shared is a joy doubled."
+  },
+  "goals": [
+    "কাউকে নিমন্ত্রণ করা: Ich lade dich ein",
+    "রাজি হওয়া ও ভদ্রভাবে না বলা",
+    "Akkusativ সর্বনাম: mich, dich, ihn, sie",
+    "ভাঙা ক্রিয়া einladen"
+  ],
+  "words": [
+    {
+      "id": "treffen",
+      "de": "treffen",
+      "pos": "ক্রিয়া",
+      "bn": "দেখা করা",
+      "en": "to meet"
+    },
+    {
+      "id": "einladen",
+      "de": "einladen",
+      "pos": "ক্রিয়া (ভাঙা)",
+      "bn": "নিমন্ত্রণ করা",
+      "en": "to invite"
+    },
+    {
+      "id": "einladung",
+      "de": "Einladung",
+      "art": "die",
+      "pl": "die Einladungen",
+      "pos": "বিশেষ্য",
+      "bn": "নিমন্ত্রণ",
+      "en": "invitation"
+    },
+    {
+      "id": "party",
+      "de": "Party",
+      "art": "die",
+      "pl": "die Partys",
+      "pos": "বিশেষ্য",
+      "bn": "পার্টি",
+      "en": "party"
+    },
+    {
+      "id": "vorschlag",
+      "de": "Vorschlag",
+      "art": "der",
+      "pl": "die Vorschläge",
+      "pos": "বিশেষ্য",
+      "bn": "প্রস্তাব",
+      "en": "suggestion"
+    },
+    {
+      "id": "lust",
+      "de": "Lust",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "ইচ্ছা, মন",
+      "en": "desire, feeling like"
+    },
+    {
+      "id": "leider",
+      "de": "leider",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "দুঃখিত, দুর্ভাগ্যবশত",
+      "en": "unfortunately"
+    },
+    {
+      "id": "vielleicht",
+      "de": "vielleicht",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "হয়তো",
+      "en": "maybe"
+    },
+    {
+      "id": "natuerlich",
+      "de": "natürlich",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "অবশ্যই, স্বাভাবিকভাবেই",
+      "en": "of course"
+    },
+    {
+      "id": "sehr",
+      "de": "sehr",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "খুব",
+      "en": "very"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Muna",
+      "bn": [
+        "শনিবারে",
+        "কি",
+        "তোমার",
+        "সময়",
+        "আছে?"
+      ],
+      "en": [
+        "Do",
+        "you",
+        "have",
+        "time",
+        "on",
+        "Saturday?"
+      ],
+      "de": [
+        {
+          "t": "Hast",
+          "b": [
+            4
+          ],
+          "e": [
+            0,
+            2
+          ],
+          "l": "haben",
+          "gb": "আছে",
+          "ge": "Do have",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            2
+          ],
+          "e": [
+            1
+          ],
+          "l": "du",
+          "gb": "তোমার",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "am",
+          "b": [],
+          "e": [
+            4
+          ],
+          "l": "am",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "on",
+          "n": ""
+        },
+        {
+          "t": "Samstag",
+          "b": [
+            0
+          ],
+          "e": [
+            5
+          ],
+          "l": "Samstag",
+          "gb": "শনিবারে",
+          "ge": "Saturday",
+          "n": ""
+        },
+        {
+          "t": "Zeit?",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "Zeit",
+          "gb": "সময়",
+          "ge": "time",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "হ্যাঁ,",
+        "হয়তো।",
+        "কেন?"
+      ],
+      "en": [
+        "Yes,",
+        "maybe.",
+        "Why?"
+      ],
+      "de": [
+        {
+          "t": "Ja,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ja",
+          "gb": "হ্যাঁ",
+          "ge": "Yes",
+          "n": ""
+        },
+        {
+          "t": "vielleicht.",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "vielleicht",
+          "gb": "হয়তো",
+          "ge": "maybe",
+          "n": ""
+        },
+        {
+          "t": "Warum?",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "Warum",
+          "gb": "কেন",
+          "ge": "Why",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "আমি",
+        "তোমাকে",
+        "আমার",
+        "পার্টিতে",
+        "নিমন্ত্রণ",
+        "করছি।"
+      ],
+      "en": [
+        "I",
+        "am",
+        "inviting",
+        "you",
+        "to",
+        "my",
+        "party."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "lade",
+          "b": [
+            4
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "einladen",
+          "gb": "নিমন্ত্রণ",
+          "ge": "am inviting",
+          "n": "einladen ভাঙা ক্রিয়া: Ich lade … ein"
+        },
+        {
+          "t": "dich",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "du",
+          "gb": "তোমাকে",
+          "ge": "you",
+          "n": "du → dich (কর্ম)"
+        },
+        {
+          "t": "zu",
+          "b": [],
+          "e": [
+            4
+          ],
+          "l": "zu",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "to",
+          "n": "zu + Dativ: zu meiner Party"
+        },
+        {
+          "t": "meiner",
+          "b": [
+            2
+          ],
+          "e": [
+            5
+          ],
+          "l": "mein",
+          "gb": "আমার",
+          "ge": "my",
+          "n": ""
+        },
+        {
+          "t": "Party",
+          "b": [
+            3
+          ],
+          "e": [
+            6
+          ],
+          "l": "Party",
+          "gb": "পার্টিতে",
+          "ge": "party",
+          "n": ""
+        },
+        {
+          "t": "ein.",
+          "b": [
+            5
+          ],
+          "e": [],
+          "l": "einladen",
+          "gb": "করছি",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "সুন্দর!",
+        "পার্টি",
+        "কখন?"
+      ],
+      "en": [
+        "Nice!",
+        "When",
+        "is",
+        "the",
+        "party?"
+      ],
+      "de": [
+        {
+          "t": "Schön!",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Schön",
+          "gb": "সুন্দর",
+          "ge": "Nice",
+          "n": ""
+        },
+        {
+          "t": "Wann",
+          "b": [
+            2
+          ],
+          "e": [
+            1
+          ],
+          "l": "Wann",
+          "gb": "কখন",
+          "ge": "When",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "die",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "die",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "Party?",
+          "b": [
+            1
+          ],
+          "e": [
+            4
+          ],
+          "l": "Party",
+          "gb": "পার্টি",
+          "ge": "party",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "শনিবার",
+        "সন্ধ্যা",
+        "ছয়টায়।"
+      ],
+      "en": [
+        "On",
+        "Saturday",
+        "at",
+        "six",
+        "in",
+        "the",
+        "evening."
+      ],
+      "de": [
+        {
+          "t": "Am",
+          "b": [],
+          "e": [
+            0
+          ],
+          "l": "Am",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "On",
+          "n": ""
+        },
+        {
+          "t": "Samstag",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "Samstag",
+          "gb": "শনিবার",
+          "ge": "Saturday",
+          "n": ""
+        },
+        {
+          "t": "um",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "um",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "at",
+          "n": ""
+        },
+        {
+          "t": "achtzehn",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "achtzehn",
+          "gb": "ছয়টায়",
+          "ge": "six",
+          "n": "১৮ Uhr = সন্ধ্যা ৬টা (২৪-ঘণ্টা পদ্ধতি)"
+        },
+        {
+          "t": "Uhr.",
+          "b": [
+            1
+          ],
+          "e": [
+            4,
+            5,
+            6
+          ],
+          "l": "Uhr",
+          "gb": "সন্ধ্যা",
+          "ge": "in the evening",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "দুঃখিত,",
+        "আমার",
+        "ক্লাস",
+        "আছে।",
+        "কিন্তু",
+        "আমি",
+        "নয়টায়",
+        "আসব।"
+      ],
+      "en": [
+        "Unfortunately",
+        "I",
+        "have",
+        "class.",
+        "But",
+        "I",
+        "will",
+        "come",
+        "at",
+        "nine",
+        "o'clock."
+      ],
+      "de": [
+        {
+          "t": "Leider",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Leider",
+          "gb": "দুঃখিত",
+          "ge": "Unfortunately",
+          "n": "leider = দুর্ভাগ্যবশত — ভদ্রভাবে না বলার জন্য"
+        },
+        {
+          "t": "habe",
+          "b": [
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "haben",
+          "gb": "আছে",
+          "ge": "have",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "ich",
+          "gb": "আমার",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "Kurs.",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "Kurs",
+          "gb": "ক্লাস",
+          "ge": "class",
+          "n": ""
+        },
+        {
+          "t": "Aber",
+          "b": [
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "Aber",
+          "gb": "কিন্তু",
+          "ge": "But",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            5
+          ],
+          "e": [
+            5
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "komme",
+          "b": [
+            7
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "kommen",
+          "gb": "আসব",
+          "ge": "will come",
+          "n": ""
+        },
+        {
+          "t": "um",
+          "b": [],
+          "e": [
+            8
+          ],
+          "l": "um",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "at",
+          "n": ""
+        },
+        {
+          "t": "neun",
+          "b": [
+            6
+          ],
+          "e": [
+            9
+          ],
+          "l": "neun",
+          "gb": "নয়টায়",
+          "ge": "nine",
+          "n": ""
+        },
+        {
+          "t": "Uhr.",
+          "b": [],
+          "e": [
+            10
+          ],
+          "l": "Uhr",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "o'clock",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "অবশ্যই!",
+        "তোমার",
+        "ইচ্ছা",
+        "আছে",
+        "তো?"
+      ],
+      "en": [
+        "Of",
+        "course!",
+        "Do",
+        "you",
+        "feel",
+        "like",
+        "it?"
+      ],
+      "de": [
+        {
+          "t": "Natürlich!",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Natürlich",
+          "gb": "অবশ্যই",
+          "ge": "Of course",
+          "n": ""
+        },
+        {
+          "t": "Hast",
+          "b": [
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "haben",
+          "gb": "আছে",
+          "ge": "Do",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "du",
+          "gb": "তোমার",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "Lust?",
+          "b": [
+            2
+          ],
+          "e": [
+            4,
+            5,
+            6
+          ],
+          "l": "Lust",
+          "gb": "ইচ্ছা",
+          "ge": "feel like it",
+          "n": "Lust haben = মন চাওয়া, আগ্রহ থাকা"
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "হ্যাঁ,",
+        "খুব!",
+        "শনিবারে",
+        "দেখা",
+        "হবে!"
+      ],
+      "en": [
+        "Yes,",
+        "very",
+        "much!",
+        "See",
+        "you",
+        "on",
+        "Saturday!"
+      ],
+      "de": [
+        {
+          "t": "Ja,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ja",
+          "gb": "হ্যাঁ",
+          "ge": "Yes",
+          "n": ""
+        },
+        {
+          "t": "sehr",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "sehr",
+          "gb": "খুব",
+          "ge": "very",
+          "n": ""
+        },
+        {
+          "t": "gern!",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "gern",
+          "gb": "খুব",
+          "ge": "much",
+          "n": ""
+        },
+        {
+          "t": "Bis",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "bis",
+          "gb": "দেখা হবে",
+          "ge": "See you",
+          "n": "Bis Samstag! = শনিবার পর্যন্ত — „শনিবারে দেখা হবে“"
+        },
+        {
+          "t": "Samstag!",
+          "b": [
+            2
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "Samstag",
+          "gb": "শনিবারে",
+          "ge": "on Saturday",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "Akkusativ-সর্বনাম — „আমাকে, তোমাকে …“",
+      "head": [
+        "কর্তা",
+        "কর্ম (Akkusativ)",
+        "বাংলা"
+      ],
+      "rows": [
+        [
+          "ich",
+          "mich",
+          "আমাকে"
+        ],
+        [
+          "du",
+          "dich",
+          "তোমাকে"
+        ],
+        [
+          "er",
+          "ihn",
+          "তাকে (পুং.)"
+        ],
+        [
+          "sie",
+          "sie",
+          "তাকে (স্ত্রী.)"
+        ],
+        [
+          "es",
+          "es",
+          "এটাকে"
+        ],
+        [
+          "wir",
+          "uns",
+          "আমাদের"
+        ],
+        [
+          "ihr",
+          "euch",
+          "তোমাদের"
+        ],
+        [
+          "sie / Sie",
+          "sie / Sie",
+          "তাদের / আপনাকে"
+        ]
+      ],
+      "note": "Ich lade dich ein = আমি তোমাকে নিমন্ত্রণ করছি। শুধু er → ihn বদলায়; বাকিগুলো মুখস্থ ছোট তালিকা।"
+    },
+    {
+      "type": "text",
+      "title": "einladen — ভাঙা ক্রিয়া",
+      "text": "einladen = নিমন্ত্রণ করা: „Ich lade dich ein.“ du-তে a → ä: „Du lädst mich ein.“ মডালের সাথে ভাঙা ক্রিয়া একসাথে থাকে: „Ich möchte dich einladen.“"
+    },
+    {
+      "type": "table",
+      "title": "রাজি হওয়া ও না বলা",
+      "head": [
+        "পরিস্থিতি",
+        "বাক্য"
+      ],
+      "rows": [
+        [
+          "রাজি",
+          "Ja, gern! / Ja, sehr gern! / Natürlich!"
+        ],
+        [
+          "ভদ্রভাবে না",
+          "Leider nicht. / Leider habe ich keine Zeit."
+        ],
+        [
+          "এখনো ঠিক নয়",
+          "Vielleicht."
+        ],
+        [
+          "আগ্রহ জিজ্ঞাসা",
+          "Hast du Lust?"
+        ],
+        [
+          "বিদায়",
+          "Bis Samstag!"
+        ]
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "die Einladung",
+      "options": [
+        "পার্টি",
+        "ইচ্ছা",
+        "নিমন্ত্রণ",
+        "হয়তো"
+      ],
+      "answer": 2,
+      "why": "die Einladung = নিমন্ত্রণ।",
+      "word": "einladung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "vielleicht",
+      "options": [
+        "হয়তো",
+        "পার্টি",
+        "দুঃখিত",
+        "দেখা করা"
+      ],
+      "answer": 0,
+      "why": "vielleicht = হয়তো।",
+      "word": "vielleicht"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "leider",
+      "options": [
+        "নিমন্ত্রণ",
+        "ইচ্ছা",
+        "দুঃখিত",
+        "খুব"
+      ],
+      "answer": 2,
+      "why": "leider = দুঃখিত।",
+      "word": "leider"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Party",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Party। বহুবচন: die Partys।",
+      "word": "party"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ich lade ___ ein.",
+      "options": [
+        "dich",
+        "du",
+        "dir",
+        "dein"
+      ],
+      "answer": 0,
+      "why": "কর্ম: du → dich।",
+      "word": "einladen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "জার্মানে কী হবে?",
+      "sub": "আমি তোমাকে নিমন্ত্রণ করছি।",
+      "subBn": true,
+      "options": [
+        "Ich lade dich ein.",
+        "Ich einlade dich.",
+        "Ich dich einlade.",
+        "Ich lade ein dich."
+      ],
+      "answer": 0,
+      "why": "ভাঙা ক্রিয়া: lade … ein।",
+      "word": "einladen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "কোন বাক্যে ভদ্রভাবে না বলা হয়েছে?",
+      "options": [
+        "Leider habe ich keine Zeit.",
+        "Nein!",
+        "Ich will nicht.",
+        "Ja, gern!"
+      ],
+      "answer": 0,
+      "why": "leider দিয়ে ভদ্রভাবে অপারগতা জানানো যায়।",
+      "word": "leider"
+    },
+    {
+      "type": "order",
+      "prompt": "শব্দ সাজিয়ে প্রশ্ন বানান: „শনিবারে কি তোমার সময় আছে?“",
+      "tiles": [
+        "Zeit?",
+        "Samstag",
+        "am",
+        "du",
+        "Hast"
+      ],
+      "answer": [
+        "Hast",
+        "du",
+        "am",
+        "Samstag",
+        "Zeit?"
+      ],
+      "why": "Hast du am Samstag Zeit?"
+    }
+  ],
+  "status": "draft",
+  "minutes": 14,
+  "passMark": 0.8
+}

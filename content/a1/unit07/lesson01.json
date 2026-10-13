@@ -1,0 +1,1044 @@
+{
+  "id": "a1-u07-l01",
+  "level": "A1",
+  "unit": 7,
+  "lesson": 1,
+  "title": {
+    "de": "In der Stadt",
+    "bn": "শহরের জায়গাগুলো",
+    "en": "In town"
+  },
+  "hook": {
+    "de": "Alle Wege führen nach Rom.",
+    "who": "Sprichwort",
+    "bn": "সব পথ রোমেই গিয়ে মেলে।",
+    "en": "All roads lead to Rome."
+  },
+  "goals": [
+    "শহরের জায়গার নাম: Bahnhof, Apotheke, Post …",
+    "„Gibt es hier …?“ দিয়ে জানতে চাওয়া",
+    "in + Dativ: im Park, in der Stadt",
+    "কাছে ও দূরের শব্দ: hier, dort, in der Nähe, weit"
+  ],
+  "words": [
+    {
+      "id": "stadt",
+      "de": "Stadt",
+      "art": "die",
+      "pl": "die Städte",
+      "pos": "বিশেষ্য",
+      "bn": "শহর",
+      "en": "city"
+    },
+    {
+      "id": "zentrum",
+      "de": "Zentrum",
+      "art": "das",
+      "pl": "die Zentren",
+      "pos": "বিশেষ্য",
+      "bn": "কেন্দ্র",
+      "en": "centre"
+    },
+    {
+      "id": "bahnhof",
+      "de": "Bahnhof",
+      "art": "der",
+      "pl": "die Bahnhöfe",
+      "pos": "বিশেষ্য",
+      "bn": "রেলস্টেশন",
+      "en": "station"
+    },
+    {
+      "id": "bank",
+      "de": "Bank",
+      "art": "die",
+      "pl": "die Banken",
+      "pos": "বিশেষ্য",
+      "bn": "ব্যাংক",
+      "en": "bank"
+    },
+    {
+      "id": "post",
+      "de": "Post",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "ডাকঘর",
+      "en": "post office"
+    },
+    {
+      "id": "apotheke",
+      "de": "Apotheke",
+      "art": "die",
+      "pl": "die Apotheken",
+      "pos": "বিশেষ্য",
+      "bn": "ওষুধের দোকান",
+      "en": "pharmacy"
+    },
+    {
+      "id": "schule",
+      "de": "Schule",
+      "art": "die",
+      "pl": "die Schulen",
+      "pos": "বিশেষ্য",
+      "bn": "স্কুল",
+      "en": "school"
+    },
+    {
+      "id": "park",
+      "de": "Park",
+      "art": "der",
+      "pl": "die Parks",
+      "pos": "বিশেষ্য",
+      "bn": "পার্ক",
+      "en": "park"
+    },
+    {
+      "id": "kino",
+      "de": "Kino",
+      "art": "das",
+      "pl": "die Kinos",
+      "pos": "বিশেষ্য",
+      "bn": "সিনেমা হল",
+      "en": "cinema"
+    },
+    {
+      "id": "bushaltestelle",
+      "de": "Bushaltestelle",
+      "art": "die",
+      "pl": "die Bushaltestellen",
+      "pos": "বিশেষ্য",
+      "bn": "বাস স্টপ",
+      "en": "bus stop"
+    },
+    {
+      "id": "caf",
+      "de": "Café",
+      "art": "das",
+      "pl": "die Cafés",
+      "pos": "বিশেষ্য",
+      "bn": "ক্যাফে",
+      "en": "café"
+    },
+    {
+      "id": "in_der_naehe",
+      "de": "in der Nähe",
+      "pos": "অভিব্যক্তি",
+      "bn": "কাছেই",
+      "en": "nearby"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Saheb",
+      "bn": [
+        "এখানে",
+        "কি",
+        "কোনো",
+        "ওষুধের",
+        "দোকান",
+        "আছে?"
+      ],
+      "en": [
+        "Is",
+        "there",
+        "a",
+        "pharmacy",
+        "here?"
+      ],
+      "de": [
+        {
+          "t": "Gibt es",
+          "b": [
+            5
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "es gibt",
+          "gb": "আছে",
+          "ge": "Is there",
+          "n": ""
+        },
+        {
+          "t": "hier",
+          "b": [
+            0
+          ],
+          "e": [
+            4
+          ],
+          "l": "hier",
+          "gb": "এখানে",
+          "ge": "here",
+          "n": ""
+        },
+        {
+          "t": "eine",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "ein",
+          "gb": "কোনো",
+          "ge": "a",
+          "n": ""
+        },
+        {
+          "t": "Apotheke?",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            3
+          ],
+          "l": "Apotheke",
+          "gb": "ওষুধের দোকান",
+          "ge": "pharmacy",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "হ্যাঁ,",
+        "ওষুধের",
+        "দোকানটা",
+        "কাছেই।"
+      ],
+      "en": [
+        "Yes,",
+        "the",
+        "pharmacy",
+        "is",
+        "nearby."
+      ],
+      "de": [
+        {
+          "t": "Ja,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ja",
+          "gb": "হ্যাঁ",
+          "ge": "Yes",
+          "n": ""
+        },
+        {
+          "t": "die",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "die",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "Apotheke",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "Apotheke",
+          "gb": "ওষুধের দোকানটা",
+          "ge": "pharmacy",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "in der Nähe.",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "in der Nähe",
+          "gb": "কাছেই",
+          "ge": "nearby",
+          "n": "die Nähe = সান্নিধ্য; in der Nähe = কাছাকাছি"
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আর",
+        "রেলস্টেশন",
+        "কোথায়?"
+      ],
+      "en": [
+        "And",
+        "where",
+        "is",
+        "the",
+        "station?"
+      ],
+      "de": [
+        {
+          "t": "Und",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "wo",
+          "b": [
+            2
+          ],
+          "e": [
+            1
+          ],
+          "l": "wo",
+          "gb": "কোথায়",
+          "ge": "where",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "der",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "der",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "Bahnhof?",
+          "b": [
+            1
+          ],
+          "e": [
+            4
+          ],
+          "l": "Bahnhof",
+          "gb": "রেলস্টেশন",
+          "ge": "station",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "রেলস্টেশন",
+        "শহরের",
+        "কেন্দ্রে,",
+        "পার্কের",
+        "পাশে।"
+      ],
+      "en": [
+        "The",
+        "station",
+        "is",
+        "in",
+        "the",
+        "centre,",
+        "next",
+        "to",
+        "the",
+        "park."
+      ],
+      "de": [
+        {
+          "t": "Der",
+          "b": [],
+          "e": [
+            0
+          ],
+          "l": "Der",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "The",
+          "n": ""
+        },
+        {
+          "t": "Bahnhof",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "Bahnhof",
+          "gb": "রেলস্টেশন",
+          "ge": "station",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "im",
+          "b": [
+            2
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "in dem",
+          "gb": "কেন্দ্রে",
+          "ge": "in the",
+          "n": "im = in + dem: das Zentrum → im Zentrum"
+        },
+        {
+          "t": "Zentrum,",
+          "b": [
+            2
+          ],
+          "e": [
+            5
+          ],
+          "l": "Zentrum",
+          "gb": "কেন্দ্রে",
+          "ge": "centre",
+          "n": ""
+        },
+        {
+          "t": "neben",
+          "b": [
+            4
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "neben",
+          "gb": "পাশে",
+          "ge": "next to",
+          "n": ""
+        },
+        {
+          "t": "dem",
+          "b": [],
+          "e": [
+            8
+          ],
+          "l": "der",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the",
+          "n": "der Park → neben dem Park (Dativ)"
+        },
+        {
+          "t": "Park.",
+          "b": [
+            3
+          ],
+          "e": [
+            9
+          ],
+          "l": "Park",
+          "gb": "পার্কের",
+          "ge": "park",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "শহরে",
+        "কি",
+        "একটি",
+        "সিনেমা",
+        "হলও",
+        "আছে?"
+      ],
+      "en": [
+        "Is",
+        "there",
+        "also",
+        "a",
+        "cinema",
+        "in",
+        "the",
+        "city?"
+      ],
+      "de": [
+        {
+          "t": "Gibt es",
+          "b": [
+            5
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "es gibt",
+          "gb": "আছে",
+          "ge": "Is there",
+          "n": ""
+        },
+        {
+          "t": "auch",
+          "b": [
+            4
+          ],
+          "e": [
+            2
+          ],
+          "l": "auch",
+          "gb": "হলও",
+          "ge": "also",
+          "n": ""
+        },
+        {
+          "t": "ein",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "ein",
+          "gb": "একটি",
+          "ge": "a",
+          "n": ""
+        },
+        {
+          "t": "Kino",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "Kino",
+          "gb": "সিনেমা",
+          "ge": "cinema",
+          "n": ""
+        },
+        {
+          "t": "in",
+          "b": [
+            0
+          ],
+          "e": [
+            5
+          ],
+          "l": "in",
+          "gb": "শহরে",
+          "ge": "in",
+          "n": ""
+        },
+        {
+          "t": "der",
+          "b": [],
+          "e": [
+            6
+          ],
+          "l": "die",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "Stadt?",
+          "b": [
+            0
+          ],
+          "e": [
+            7
+          ],
+          "l": "Stadt",
+          "gb": "শহরে",
+          "ge": "city",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "হ্যাঁ,",
+        "কিন্তু",
+        "এটা",
+        "দামি।"
+      ],
+      "en": [
+        "Yes,",
+        "but",
+        "it",
+        "is",
+        "expensive."
+      ],
+      "de": [
+        {
+          "t": "Ja,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ja",
+          "gb": "হ্যাঁ",
+          "ge": "Yes",
+          "n": ""
+        },
+        {
+          "t": "aber",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "aber",
+          "gb": "কিন্তু",
+          "ge": "but",
+          "n": ""
+        },
+        {
+          "t": "es",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "es",
+          "gb": "এটা",
+          "ge": "it",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "teuer.",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "teuer",
+          "gb": "দামি",
+          "ge": "expensive",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "ব্যাংক,",
+        "ডাকঘর",
+        "আর",
+        "স্কুলও",
+        "ওখানেই।"
+      ],
+      "en": [
+        "The",
+        "bank,",
+        "the",
+        "post",
+        "office",
+        "and",
+        "the",
+        "school",
+        "are",
+        "also",
+        "there."
+      ],
+      "de": [
+        {
+          "t": "Die",
+          "b": [],
+          "e": [
+            0
+          ],
+          "l": "Die",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "The",
+          "n": ""
+        },
+        {
+          "t": "Bank,",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "Bank",
+          "gb": "ব্যাংক",
+          "ge": "bank",
+          "n": ""
+        },
+        {
+          "t": "die",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "die",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "Post",
+          "b": [
+            1
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "Post",
+          "gb": "ডাকঘর",
+          "ge": "post office",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            2
+          ],
+          "e": [
+            5
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "die",
+          "b": [],
+          "e": [
+            6
+          ],
+          "l": "die",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "Schule",
+          "b": [
+            3
+          ],
+          "e": [
+            7
+          ],
+          "l": "Schule",
+          "gb": "স্কুলও",
+          "ge": "school",
+          "n": ""
+        },
+        {
+          "t": "sind",
+          "b": [],
+          "e": [
+            8
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "are",
+          "n": ""
+        },
+        {
+          "t": "auch",
+          "b": [
+            3
+          ],
+          "e": [
+            9
+          ],
+          "l": "auch",
+          "gb": "স্কুলও",
+          "ge": "also",
+          "n": ""
+        },
+        {
+          "t": "dort.",
+          "b": [
+            4
+          ],
+          "e": [
+            10
+          ],
+          "l": "dort",
+          "gb": "ওখানেই",
+          "ge": "there",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "শহরের জায়গা",
+      "head": [
+        "জার্মান",
+        "বাংলা"
+      ],
+      "rows": [
+        [
+          "der Bahnhof",
+          "রেলস্টেশন"
+        ],
+        [
+          "die Bank",
+          "ব্যাংক"
+        ],
+        [
+          "die Post",
+          "ডাকঘর"
+        ],
+        [
+          "die Apotheke",
+          "ওষুধের দোকান (ফার্মেসি)"
+        ],
+        [
+          "die Schule",
+          "স্কুল"
+        ],
+        [
+          "der Park",
+          "পার্ক"
+        ],
+        [
+          "das Kino",
+          "সিনেমা হল"
+        ],
+        [
+          "die Bushaltestelle",
+          "বাস স্টপ"
+        ],
+        [
+          "das Café",
+          "ক্যাফে"
+        ],
+        [
+          "das Zentrum",
+          "শহরের কেন্দ্র"
+        ]
+      ],
+      "note": "ওষুধের দোকান Apotheke — সাধারণ জিনিসের দোকান Drogerie। জ্বর-ব্যথার ওষুধ Apotheke-তেই পাবেন।"
+    },
+    {
+      "type": "table",
+      "title": "in + Dativ: „…-এ“ (কোথায়?)",
+      "intro": "in + dem = im (der/das-শব্দে), in + der (die-শব্দে)।",
+      "head": [
+        "আর্টিকেল",
+        "বাক্যে"
+      ],
+      "rows": [
+        [
+          "der Park",
+          "im Park"
+        ],
+        [
+          "das Zentrum",
+          "im Zentrum"
+        ],
+        [
+          "das Kino",
+          "im Kino"
+        ],
+        [
+          "die Stadt",
+          "in der Stadt"
+        ],
+        [
+          "die Schule",
+          "in der Schule"
+        ],
+        [
+          "die Apotheke",
+          "in der Apotheke"
+        ]
+      ],
+      "note": "আগের ইউনিটে দেখা নিয়ম: der/das → dem (im), die → der।"
+    },
+    {
+      "type": "text",
+      "title": "কাছে ও দূর",
+      "text": "hier = এখানে, da/dort = ওখানে, in der Nähe = কাছেই, weit = দূরে। „Gibt es hier eine Apotheke?“ বিদেশে সবচেয়ে কাজের প্রশ্নগুলোর একটি — মুখস্থ করে নিন।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "die Apotheke",
+      "options": [
+        "ডাকঘর",
+        "পার্ক",
+        "ওষুধের দোকান",
+        "বাস স্টপ"
+      ],
+      "answer": 2,
+      "why": "die Apotheke = ওষুধের দোকান।",
+      "word": "apotheke"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "die Bushaltestelle",
+      "options": [
+        "ওষুধের দোকান",
+        "সিনেমা হল",
+        "শহর",
+        "বাস স্টপ"
+      ],
+      "answer": 3,
+      "why": "die Bushaltestelle = বাস স্টপ।",
+      "word": "bushaltestelle"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Bahnhof",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 0,
+      "why": "der Bahnhof। বহুবচন: die Bahnhöfe।",
+      "word": "bahnhof"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Post",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Post।",
+      "word": "post"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Kino",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 2,
+      "why": "das Kino। বহুবচন: die Kinos।",
+      "word": "kino"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ich bin ___ Park.",
+      "options": [
+        "im",
+        "in der",
+        "in die",
+        "am"
+      ],
+      "answer": 0,
+      "why": "der Park → in dem Park = im Park।",
+      "word": "park"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ich bin ___ Stadt.",
+      "options": [
+        "im",
+        "in der",
+        "in dem",
+        "in den"
+      ],
+      "answer": 1,
+      "why": "die Stadt → in der Stadt।",
+      "word": "stadt"
+    },
+    {
+      "type": "order",
+      "prompt": "শব্দ সাজিয়ে প্রশ্ন বানান: „এখানে কি ওষুধের দোকান আছে?“",
+      "tiles": [
+        "Apotheke?",
+        "eine",
+        "hier",
+        "es",
+        "Gibt"
+      ],
+      "answer": [
+        "Gibt",
+        "es",
+        "hier",
+        "eine",
+        "Apotheke?"
+      ],
+      "why": "Gibt es hier eine Apotheke?",
+      "word": "apotheke"
+    }
+  ],
+  "status": "draft",
+  "minutes": 14,
+  "passMark": 0.8
+}
