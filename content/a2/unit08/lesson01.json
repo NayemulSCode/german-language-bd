@@ -1,0 +1,1204 @@
+{
+  "level": "A2",
+  "unit": 8,
+  "minutes": 16,
+  "lesson": 1,
+  "id": "a2-u08-l01",
+  "title": {
+    "de": "Ich möchte mich für einen Kurs anmelden",
+    "bn": "ভাষা কোর্সে ভর্তি হওয়া",
+    "en": "Registering for a German course"
+  },
+  "hook": {
+    "de": "Übung macht den Meister.",
+    "who": "Sprichwort",
+    "bn": "অনুশীলনেই দক্ষতা আসে।",
+    "en": "Practice makes perfect."
+  },
+  "goals": [
+    "কোর্সের তথ্য জানা: Beginn, Dauer, Kosten, Niveau",
+    "sich anmelden für + Akkusativ",
+    "von … bis, zweimal pro Woche",
+    "Anmeldeformular বোঝা"
+  ],
+  "words": [
+    {
+      "id": "kurs",
+      "de": "Kurs",
+      "art": "der",
+      "pl": "die Kurse",
+      "pos": "বিশেষ্য",
+      "bn": "কোর্স",
+      "en": "course"
+    },
+    {
+      "id": "anmeldung",
+      "de": "Anmeldung",
+      "art": "die",
+      "pl": "die Anmeldungen",
+      "pos": "বিশেষ্য",
+      "bn": "নিবন্ধন, ভর্তি",
+      "en": "registration"
+    },
+    {
+      "id": "sich_anmelden",
+      "de": "sich anmelden",
+      "pos": "ক্রিয়া · hat sich angemeldet",
+      "bn": "নাম লেখানো",
+      "en": "to register"
+    },
+    {
+      "id": "niveau",
+      "de": "Niveau",
+      "art": "das",
+      "pl": "die Niveaus",
+      "pos": "বিশেষ্য",
+      "bn": "স্তর",
+      "en": "level"
+    },
+    {
+      "id": "unterricht",
+      "de": "Unterricht",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "ক্লাস, পাঠদান",
+      "en": "lessons, teaching"
+    },
+    {
+      "id": "lehrerin",
+      "de": "Lehrerin",
+      "art": "die",
+      "pl": "die Lehrerinnen",
+      "pos": "বিশেষ্য",
+      "bn": "শিক্ষক (নারী)",
+      "en": "teacher (f)"
+    },
+    {
+      "id": "kosten",
+      "de": "Kosten",
+      "art": "die",
+      "pos": "বিশেষ্য, বহুবচন",
+      "bn": "খরচ",
+      "en": "costs"
+    },
+    {
+      "id": "beginn",
+      "de": "Beginn",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "শুরু",
+      "en": "start"
+    },
+    {
+      "id": "volkshochschule",
+      "de": "Volkshochschule",
+      "art": "die",
+      "pl": "die Volkshochschulen",
+      "pos": "বিশেষ্য",
+      "bn": "ভল্কসহখশুলে (সাশ্রয়ী কোর্সের সরকারি প্রতিষ্ঠান)",
+      "en": "adult education centre"
+    },
+    {
+      "id": "integrationskurs",
+      "de": "Integrationskurs",
+      "art": "der",
+      "pl": "die Integrationskurse",
+      "pos": "বিশেষ্য",
+      "bn": "ইন্টিগ্রেশন কোর্স",
+      "en": "integration course"
+    },
+    {
+      "id": "pro_woche",
+      "de": "pro Woche",
+      "pos": "অভিব্যক্তি",
+      "bn": "প্রতি সপ্তাহে",
+      "en": "per week"
+    },
+    {
+      "id": "teilnehmer",
+      "de": "Teilnehmer",
+      "art": "der",
+      "pl": "die Teilnehmer",
+      "pos": "বিশেষ্য",
+      "bn": "অংশগ্রহণকারী",
+      "en": "participant"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Saheb",
+      "bn": [
+        "শুভ",
+        "দিন,",
+        "আমি",
+        "একটি",
+        "জার্মান",
+        "কোর্সে",
+        "ভর্তি",
+        "হতে",
+        "চাই।"
+      ],
+      "en": [
+        "Good",
+        "day,",
+        "I",
+        "would",
+        "like",
+        "to",
+        "register",
+        "for",
+        "a",
+        "German",
+        "course."
+      ],
+      "de": [
+        {
+          "t": "Guten Tag,",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Guten Tag",
+          "gb": "শুভ দিন",
+          "ge": "Good day",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "möchte",
+          "b": [
+            8
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "möchte",
+          "gb": "চাই",
+          "ge": "would like",
+          "n": ""
+        },
+        {
+          "t": "mich",
+          "b": [],
+          "e": [],
+          "l": "mich",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "für",
+          "b": [
+            5
+          ],
+          "e": [
+            7
+          ],
+          "l": "für",
+          "gb": "কোর্সে",
+          "ge": "for",
+          "n": ""
+        },
+        {
+          "t": "einen",
+          "b": [
+            3
+          ],
+          "e": [
+            8
+          ],
+          "l": "einen",
+          "gb": "একটি",
+          "ge": "a",
+          "n": ""
+        },
+        {
+          "t": "Deutschkurs",
+          "b": [
+            4
+          ],
+          "e": [
+            9
+          ],
+          "l": "Deutschkurs",
+          "gb": "জার্মান",
+          "ge": "German",
+          "n": ""
+        },
+        {
+          "t": "anmelden.",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "sich anmelden",
+          "gb": "ভর্তি হতে",
+          "ge": "to register",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Frau Krüger",
+      "bn": [
+        "অবশ্যই।",
+        "আপনার",
+        "স্তর",
+        "কত?"
+      ],
+      "en": [
+        "Of",
+        "course.",
+        "What",
+        "is",
+        "your",
+        "level?"
+      ],
+      "de": [
+        {
+          "t": "Gern.",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Gern",
+          "gb": "অবশ্যই",
+          "ge": "Of course",
+          "n": ""
+        },
+        {
+          "t": "Welches",
+          "b": [
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "Welches",
+          "gb": "কত",
+          "ge": "What",
+          "n": ""
+        },
+        {
+          "t": "Niveau",
+          "b": [
+            2
+          ],
+          "e": [
+            5
+          ],
+          "l": "Niveau",
+          "gb": "স্তর",
+          "ge": "level",
+          "n": ""
+        },
+        {
+          "t": "haben",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "haben",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "Sie?",
+          "b": [
+            1
+          ],
+          "e": [
+            4
+          ],
+          "l": "Sie",
+          "gb": "আপনার",
+          "ge": "your",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "A1",
+        "শেষ",
+        "করেছি।",
+        "এখন",
+        "আমি",
+        "A2",
+        "শুরু",
+        "করতে",
+        "চাই।"
+      ],
+      "en": [
+        "I",
+        "have",
+        "finished",
+        "A1.",
+        "Now",
+        "I",
+        "would",
+        "like",
+        "to",
+        "start",
+        "A2."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [
+            3
+          ],
+          "e": [
+            1
+          ],
+          "l": "habe",
+          "gb": "করেছি",
+          "ge": "have",
+          "n": ""
+        },
+        {
+          "t": "A1",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "A1",
+          "gb": "A1",
+          "ge": "A1",
+          "n": ""
+        },
+        {
+          "t": "abgeschlossen.",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "abschließen",
+          "gb": "শেষ",
+          "ge": "finished",
+          "n": ""
+        },
+        {
+          "t": "Jetzt",
+          "b": [
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "Jetzt",
+          "gb": "এখন",
+          "ge": "Now",
+          "n": ""
+        },
+        {
+          "t": "möchte",
+          "b": [
+            9
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "möchte",
+          "gb": "চাই",
+          "ge": "would like",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            5
+          ],
+          "e": [
+            5
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "mit A2",
+          "b": [
+            6
+          ],
+          "e": [
+            10
+          ],
+          "l": "mit A2",
+          "gb": "A2",
+          "ge": "A2",
+          "n": ""
+        },
+        {
+          "t": "anfangen.",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            8,
+            9
+          ],
+          "l": "anfangen",
+          "gb": "শুরু করতে",
+          "ge": "to start",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Frau Krüger",
+      "bn": [
+        "আমাদের",
+        "একটি",
+        "A2-কোর্স",
+        "আছে।",
+        "ওটা",
+        "পহেলা",
+        "জুন",
+        "শুরু",
+        "হয়।",
+        "ক্লাস",
+        "সপ্তাহে",
+        "তিনবার।"
+      ],
+      "en": [
+        "We",
+        "have",
+        "an",
+        "A2",
+        "course.",
+        "It",
+        "starts",
+        "on",
+        "the",
+        "first",
+        "of",
+        "June.",
+        "Lessons",
+        "are",
+        "three",
+        "times",
+        "a",
+        "week."
+      ],
+      "de": [
+        {
+          "t": "Wir",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Wir",
+          "gb": "আমাদের",
+          "ge": "We",
+          "n": ""
+        },
+        {
+          "t": "haben",
+          "b": [
+            3
+          ],
+          "e": [
+            1
+          ],
+          "l": "haben",
+          "gb": "আছে",
+          "ge": "have",
+          "n": ""
+        },
+        {
+          "t": "einen A2-Kurs.",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            2,
+            3,
+            4
+          ],
+          "l": "Kurs",
+          "gb": "একটি A2-কোর্স",
+          "ge": "an A2 course",
+          "n": ""
+        },
+        {
+          "t": "Er",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "Er",
+          "gb": "ওটা",
+          "ge": "It",
+          "n": ""
+        },
+        {
+          "t": "beginnt",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            6
+          ],
+          "l": "beginnt",
+          "gb": "শুরু হয়",
+          "ge": "starts",
+          "n": ""
+        },
+        {
+          "t": "am ersten Juni.",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "l": "am ersten Juni",
+          "gb": "পহেলা জুন",
+          "ge": "on the first of June",
+          "n": ""
+        },
+        {
+          "t": "Der Unterricht",
+          "b": [
+            9
+          ],
+          "e": [
+            12
+          ],
+          "l": "Unterricht",
+          "gb": "ক্লাস",
+          "ge": "Lessons",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            13
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "are",
+          "n": ""
+        },
+        {
+          "t": "dreimal pro Woche.",
+          "b": [
+            10,
+            11
+          ],
+          "e": [
+            14,
+            15,
+            16,
+            17
+          ],
+          "l": "pro Woche",
+          "gb": "সপ্তাহে তিনবার",
+          "ge": "three times a week",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "ক্লাস",
+        "কয়টা",
+        "থেকে",
+        "কয়টা",
+        "পর্যন্ত",
+        "চলে?"
+      ],
+      "en": [
+        "From",
+        "what",
+        "time",
+        "until",
+        "what",
+        "time",
+        "are",
+        "the",
+        "lessons?"
+      ],
+      "de": [
+        {
+          "t": "Von",
+          "b": [],
+          "e": [
+            0
+          ],
+          "l": "Von",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "From",
+          "n": ""
+        },
+        {
+          "t": "wann",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "wann",
+          "gb": "কয়টা থেকে",
+          "ge": "what time",
+          "n": ""
+        },
+        {
+          "t": "bis",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "bis",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "until",
+          "n": ""
+        },
+        {
+          "t": "wann",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "wann",
+          "gb": "কয়টা পর্যন্ত",
+          "ge": "what time",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [
+            5
+          ],
+          "e": [
+            6
+          ],
+          "l": "ist",
+          "gb": "চলে",
+          "ge": "are",
+          "n": ""
+        },
+        {
+          "t": "der Unterricht?",
+          "b": [
+            0
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "Unterricht",
+          "gb": "ক্লাস",
+          "ge": "the lessons",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Frau Krüger",
+      "bn": [
+        "সন্ধ্যা",
+        "ছয়টা",
+        "থেকে",
+        "সাড়ে",
+        "আটটা",
+        "পর্যন্ত।",
+        "কোর্সের",
+        "খরচ",
+        "১২০",
+        "ইউরো।"
+      ],
+      "en": [
+        "From",
+        "six",
+        "until",
+        "half",
+        "past",
+        "eight",
+        "in",
+        "the",
+        "evening.",
+        "The",
+        "course",
+        "costs",
+        "120",
+        "euros."
+      ],
+      "de": [
+        {
+          "t": "Von",
+          "b": [
+            2
+          ],
+          "e": [
+            0
+          ],
+          "l": "Von",
+          "gb": "থেকে",
+          "ge": "From",
+          "n": ""
+        },
+        {
+          "t": "achtzehn Uhr",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "achtzehn Uhr",
+          "gb": "সন্ধ্যা ছয়টা",
+          "ge": "six",
+          "n": ""
+        },
+        {
+          "t": "bis",
+          "b": [
+            5
+          ],
+          "e": [
+            2
+          ],
+          "l": "bis",
+          "gb": "পর্যন্ত",
+          "ge": "until",
+          "n": ""
+        },
+        {
+          "t": "zwanzig Uhr dreißig.",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            3,
+            4,
+            5
+          ],
+          "l": "zwanzig Uhr dreißig",
+          "gb": "সাড়ে আটটা",
+          "ge": "half past eight",
+          "n": ""
+        },
+        {
+          "t": "Die Kosten",
+          "b": [
+            7
+          ],
+          "e": [
+            11
+          ],
+          "l": "Kosten",
+          "gb": "খরচ",
+          "ge": "costs",
+          "n": ""
+        },
+        {
+          "t": "betragen",
+          "b": [],
+          "e": [
+            11
+          ],
+          "l": "betragen",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "costs",
+          "n": ""
+        },
+        {
+          "t": "hundertzwanzig Euro.",
+          "b": [
+            8,
+            9
+          ],
+          "e": [
+            12,
+            13
+          ],
+          "l": "hundertzwanzig Euro",
+          "gb": "১২০ ইউরো",
+          "ge": "120 euros",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "ধন্যবাদ।",
+        "আমি",
+        "কি",
+        "আজই",
+        "নিবন্ধন",
+        "করতে",
+        "পারি?"
+      ],
+      "en": [
+        "Thank",
+        "you.",
+        "Can",
+        "I",
+        "register",
+        "today?"
+      ],
+      "de": [
+        {
+          "t": "Danke.",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Danke",
+          "gb": "ধন্যবাদ",
+          "ge": "Thank you",
+          "n": ""
+        },
+        {
+          "t": "Kann",
+          "b": [
+            6
+          ],
+          "e": [
+            2
+          ],
+          "l": "Kann",
+          "gb": "পারি",
+          "ge": "Can",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "mich",
+          "b": [],
+          "e": [],
+          "l": "mich",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "heute",
+          "b": [
+            3
+          ],
+          "e": [
+            5
+          ],
+          "l": "heute",
+          "gb": "আজই",
+          "ge": "today",
+          "n": ""
+        },
+        {
+          "t": "anmelden?",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            4
+          ],
+          "l": "sich anmelden",
+          "gb": "নিবন্ধন করতে",
+          "ge": "register",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "sich anmelden für / zu",
+      "head": [
+        "পরিস্থিতি",
+        "বাক্য"
+      ],
+      "rows": [
+        [
+          "কোর্সে ভর্তি",
+          "Ich melde mich für einen Kurs an."
+        ],
+        [
+          "পরীক্ষায় নিবন্ধন",
+          "Ich melde mich zur Prüfung an."
+        ],
+        [
+          "বাসার ঠিকানা (Meldeamt)",
+          "Ich melde mich in Berlin an."
+        ],
+        [
+          "বাতিল",
+          "Ich melde mich ab."
+        ],
+        [
+          "তারিখ নির্ধারণ",
+          "Der Kurs beginnt am ersten Juni."
+        ]
+      ],
+      "note": "sich anmelden → trennbar (Ich melde mich an)। „anmelden“ = নিবন্ধন করা; „abmelden“ = নাম বাতিল।"
+    },
+    {
+      "type": "table",
+      "title": "সময় ও বারংবারতা",
+      "head": [
+        "জার্মান",
+        "বাংলা"
+      ],
+      "rows": [
+        [
+          "von … bis …",
+          "… থেকে … পর্যন্ত"
+        ],
+        [
+          "einmal / zweimal / dreimal pro Woche",
+          "সপ্তাহে একবার / দুইবার / তিনবার"
+        ],
+        [
+          "jeden Tag / jede Woche",
+          "প্রতিদিন / প্রতি সপ্তাহে"
+        ],
+        [
+          "montags, dienstags",
+          "প্রতি সোমবার, প্রতি মঙ্গলবার"
+        ],
+        [
+          "vormittags / abends",
+          "সকালে / সন্ধ্যায়"
+        ]
+      ],
+      "note": "অফিশিয়াল সময়: „achtzehn Uhr“ = সন্ধ্যা ৬টা। „halb neun“ = সাড়ে আটটা।"
+    },
+    {
+      "type": "text",
+      "title": "Integrationskurs ও VHS",
+      "text": "Volkshochschule (VHS) প্রায় প্রতিটি শহরে কম খরচে জার্মান কোর্স দেয়। Integrationskurs সাধারণত ভাষা আর জার্মানির ভূমিকা কভার করে; কে অংশ নিতে পারেন তা আপনার আবাসিক অনুমতির (Aufenthaltstitel) ওপর নির্ভর করে — BAMF বা স্থানীয় অফিসে জিজ্ঞাসা করুন।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "der Kurs",
+      "options": [
+        "অংশগ্রহণকারী",
+        "নাম লেখানো",
+        "কোর্স",
+        "ক্লাস"
+      ],
+      "answer": 2,
+      "why": "der Kurs = কোর্স।",
+      "word": "kurs"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "die Anmeldung",
+      "options": [
+        "শুরু",
+        "প্রতি সপ্তাহে",
+        "নিবন্ধন",
+        "নাম লেখানো"
+      ],
+      "answer": 2,
+      "why": "die Anmeldung = নিবন্ধন।",
+      "word": "anmeldung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "der Beginn",
+      "options": [
+        "স্তর",
+        "খরচ",
+        "প্রতি সপ্তাহে",
+        "শুরু"
+      ],
+      "answer": 3,
+      "why": "der Beginn = শুরু।",
+      "word": "beginn"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Volkshochschule",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Volkshochschule। বহুবচন: die Volkshochschulen।",
+      "word": "volkshochschule"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ich melde mich ___ einen Kurs an.",
+      "options": [
+        "für",
+        "zu",
+        "bei",
+        "mit"
+      ],
+      "answer": 0,
+      "why": "sich anmelden für einen Kurs।",
+      "word": "sich_anmelden"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক বাক্য কোনটি?",
+      "options": [
+        "Ich melde mich an.",
+        "Ich anmelde mich.",
+        "Ich melde an mich.",
+        "Ich mich anmelde."
+      ],
+      "answer": 0,
+      "why": "trennbar: an শেষে।",
+      "word": "sich_anmelden"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„dreimal pro Woche“ মানে কী?",
+      "options": [
+        "সপ্তাহে তিনবার",
+        "তিন সপ্তাহ ধরে",
+        "প্রতিদিন তিনবার",
+        "তিন মাসে একবার"
+      ],
+      "answer": 0,
+      "why": "pro Woche = প্রতি সপ্তাহে।",
+      "word": "pro_woche"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„von … bis …“ কীসের জন্য?",
+      "options": [
+        "সময়ের সীমা",
+        "দাম",
+        "জায়গা",
+        "কারণ"
+      ],
+      "answer": 0,
+      "why": "from … until।",
+      "word": "unterricht"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Lehrerin-এর আর্টিকেল কী?",
+      "options": [
+        "die",
+        "der",
+        "das",
+        "den"
+      ],
+      "answer": 0,
+      "why": "die Lehrerin।",
+      "word": "lehrerin"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „ক্লাস সপ্তাহে তিনবার।“",
+      "tiles": [
+        "dreimal",
+        "ist",
+        "pro Woche.",
+        "Der Unterricht"
+      ],
+      "answer": [
+        "Der Unterricht",
+        "ist",
+        "dreimal",
+        "pro Woche."
+      ],
+      "why": "Zeitangabe nach dem Verb।",
+      "word": "unterricht"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

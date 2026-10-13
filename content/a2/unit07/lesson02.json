@@ -1,0 +1,1309 @@
+{
+  "level": "A2",
+  "unit": 7,
+  "minutes": 16,
+  "lesson": 2,
+  "id": "a2-u07-l02",
+  "title": {
+    "de": "Was steht in der Zeitung?",
+    "bn": "খবর: Passiv Präsens (wird gesendet)",
+    "en": "The news: the present passive"
+  },
+  "hook": {
+    "de": "Nichts ist so alt wie die Zeitung von gestern.",
+    "who": "Redensart",
+    "bn": "গতকালের খবরের কাগজের মতো পুরোনো আর কিছু নেই।",
+    "en": "Nothing is as old as yesterday’s newspaper."
+  },
+  "goals": [
+    "Passiv Präsens: werden + Partizip II",
+    "Aktiv ও Passiv-এর পার্থক্য",
+    "von + Dativ (কে করছে)",
+    "মিডিয়ার শব্দ: Zeitung, Sendung, Artikel"
+  ],
+  "words": [
+    {
+      "id": "zeitung",
+      "de": "Zeitung",
+      "art": "die",
+      "pl": "die Zeitungen",
+      "pos": "বিশেষ্য",
+      "bn": "খবরের কাগজ",
+      "en": "newspaper"
+    },
+    {
+      "id": "nachrichten",
+      "de": "Nachrichten",
+      "art": "die",
+      "pos": "বিশেষ্য, বহুবচন",
+      "bn": "সংবাদ",
+      "en": "news"
+    },
+    {
+      "id": "sendung",
+      "de": "Sendung",
+      "art": "die",
+      "pl": "die Sendungen",
+      "pos": "বিশেষ্য",
+      "bn": "অনুষ্ঠান",
+      "en": "programme, broadcast"
+    },
+    {
+      "id": "programm",
+      "de": "Programm",
+      "art": "das",
+      "pl": "die Programme",
+      "pos": "বিশেষ্য",
+      "bn": "অনুষ্ঠানসূচি",
+      "en": "programme"
+    },
+    {
+      "id": "artikel",
+      "de": "Artikel",
+      "art": "der",
+      "pl": "die Artikel",
+      "pos": "বিশেষ্য",
+      "bn": "প্রবন্ধ, লেখা",
+      "en": "article"
+    },
+    {
+      "id": "werbung",
+      "de": "Werbung",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "বিজ্ঞাপন",
+      "en": "advertising"
+    },
+    {
+      "id": "berichten",
+      "de": "berichten",
+      "pos": "ক্রিয়া · hat berichtet",
+      "bn": "প্রতিবেদন করা",
+      "en": "to report"
+    },
+    {
+      "id": "senden",
+      "de": "senden",
+      "pos": "ক্রিয়া · hat gesendet",
+      "bn": "সম্প্রচার করা, পাঠানো",
+      "en": "to broadcast, to send"
+    },
+    {
+      "id": "umleiten",
+      "de": "umleiten",
+      "pos": "ক্রিয়া · hat umgeleitet",
+      "bn": "অন্য পথে ঘুরিয়ে দেওয়া",
+      "en": "to divert"
+    },
+    {
+      "id": "fernseher",
+      "de": "Fernseher",
+      "art": "der",
+      "pl": "die Fernseher",
+      "pos": "বিশেষ্য",
+      "bn": "টিভি",
+      "en": "television set"
+    },
+    {
+      "id": "aktuell",
+      "de": "aktuell",
+      "pos": "বিশেষণ",
+      "bn": "সাম্প্রতিক",
+      "en": "current"
+    },
+    {
+      "id": "information",
+      "de": "Information",
+      "art": "die",
+      "pl": "die Informationen",
+      "pos": "বিশেষ্য",
+      "bn": "তথ্য",
+      "en": "information"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Lena",
+      "bn": [
+        "তুমি",
+        "কি",
+        "আজকের",
+        "খবরের",
+        "কাগজ",
+        "পড়েছ?"
+      ],
+      "en": [
+        "Have",
+        "you",
+        "read",
+        "today’s",
+        "newspaper?"
+      ],
+      "de": [
+        {
+          "t": "Hast",
+          "b": [],
+          "e": [
+            0
+          ],
+          "l": "Hast",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "Have",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "die",
+          "b": [],
+          "e": [],
+          "l": "die",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Zeitung",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "Zeitung",
+          "gb": "খবরের কাগজ",
+          "ge": "newspaper",
+          "n": ""
+        },
+        {
+          "t": "von heute",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "von heute",
+          "gb": "আজকের",
+          "ge": "today’s",
+          "n": ""
+        },
+        {
+          "t": "gelesen?",
+          "b": [
+            5
+          ],
+          "e": [
+            2
+          ],
+          "l": "gelesen",
+          "gb": "পড়েছ",
+          "ge": "read",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "না।",
+        "আমি",
+        "টিভিতে",
+        "খবর",
+        "দেখতে",
+        "বেশি",
+        "পছন্দ",
+        "করি।",
+        "খবর",
+        "প্রতি",
+        "সন্ধ্যা",
+        "আটটায়",
+        "সম্প্রচার",
+        "করা",
+        "হয়।"
+      ],
+      "en": [
+        "No.",
+        "I",
+        "prefer",
+        "to",
+        "watch",
+        "the",
+        "news",
+        "on",
+        "TV.",
+        "The",
+        "news",
+        "is",
+        "broadcast",
+        "every",
+        "evening",
+        "at",
+        "eight."
+      ],
+      "de": [
+        {
+          "t": "Nein.",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Nein",
+          "gb": "না",
+          "ge": "No",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "sehe",
+          "b": [
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "sehe",
+          "gb": "দেখতে",
+          "ge": "watch",
+          "n": ""
+        },
+        {
+          "t": "lieber",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "lieber",
+          "gb": "বেশি পছন্দ",
+          "ge": "prefer to",
+          "n": ""
+        },
+        {
+          "t": "Nachrichten",
+          "b": [
+            3
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "Nachrichten",
+          "gb": "খবর",
+          "ge": "the news",
+          "n": ""
+        },
+        {
+          "t": "im Fernsehen.",
+          "b": [
+            2
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "Fernseher",
+          "gb": "টিভিতে",
+          "ge": "on TV",
+          "n": ""
+        },
+        {
+          "t": "Die",
+          "b": [],
+          "e": [
+            9
+          ],
+          "l": "Die",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "The",
+          "n": ""
+        },
+        {
+          "t": "Nachrichten",
+          "b": [
+            8
+          ],
+          "e": [
+            10
+          ],
+          "l": "Nachrichten",
+          "gb": "খবর",
+          "ge": "news",
+          "n": ""
+        },
+        {
+          "t": "werden",
+          "b": [
+            13,
+            14
+          ],
+          "e": [
+            11
+          ],
+          "l": "werden",
+          "gb": "করা হয়",
+          "ge": "is",
+          "n": "Passiv: werden + Partizip II"
+        },
+        {
+          "t": "jeden Abend",
+          "b": [
+            9,
+            10
+          ],
+          "e": [
+            13,
+            14
+          ],
+          "l": "jeden Abend",
+          "gb": "প্রতি সন্ধ্যা",
+          "ge": "every evening",
+          "n": ""
+        },
+        {
+          "t": "um zwanzig Uhr",
+          "b": [
+            11
+          ],
+          "e": [
+            15,
+            16
+          ],
+          "l": "um zwanzig Uhr",
+          "gb": "আটটায়",
+          "ge": "at eight",
+          "n": ""
+        },
+        {
+          "t": "gesendet.",
+          "b": [
+            12
+          ],
+          "e": [
+            12
+          ],
+          "l": "senden",
+          "gb": "সম্প্রচার",
+          "ge": "broadcast",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "পত্রিকায়",
+        "লেখা",
+        "আছে",
+        "যে",
+        "অফিসের",
+        "সামনের",
+        "রাস্তা",
+        "মেরামত",
+        "করা",
+        "হচ্ছে।"
+      ],
+      "en": [
+        "The",
+        "newspaper",
+        "says",
+        "that",
+        "the",
+        "road",
+        "in",
+        "front",
+        "of",
+        "the",
+        "office",
+        "is",
+        "being",
+        "repaired."
+      ],
+      "de": [
+        {
+          "t": "In der Zeitung",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "In der Zeitung",
+          "gb": "পত্রিকায়",
+          "ge": "The newspaper",
+          "n": ""
+        },
+        {
+          "t": "steht,",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "steht",
+          "gb": "লেখা আছে",
+          "ge": "says",
+          "n": ""
+        },
+        {
+          "t": "dass",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "dass",
+          "gb": "যে",
+          "ge": "that",
+          "n": ""
+        },
+        {
+          "t": "die Straße",
+          "b": [
+            6
+          ],
+          "e": [
+            5
+          ],
+          "l": "die Straße",
+          "gb": "রাস্তা",
+          "ge": "road",
+          "n": ""
+        },
+        {
+          "t": "vor dem Büro",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            6,
+            7,
+            8,
+            4,
+            10
+          ],
+          "l": "vor dem Büro",
+          "gb": "অফিসের সামনের",
+          "ge": "in front of the office",
+          "n": ""
+        },
+        {
+          "t": "repariert",
+          "b": [
+            7
+          ],
+          "e": [
+            13
+          ],
+          "l": "reparieren",
+          "gb": "মেরামত",
+          "ge": "repaired",
+          "n": ""
+        },
+        {
+          "t": "wird.",
+          "b": [
+            8,
+            9
+          ],
+          "e": [
+            11,
+            12
+          ],
+          "l": "werden",
+          "gb": "করা হচ্ছে",
+          "ge": "is being",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "এটা",
+        "আমার",
+        "জন্য",
+        "জরুরি।",
+        "আমি",
+        "প্রতিদিন",
+        "ওখান",
+        "দিয়ে",
+        "যাই।",
+        "এটা",
+        "কি",
+        "অনেকদিন",
+        "চলবে?"
+      ],
+      "en": [
+        "That",
+        "is",
+        "important",
+        "for",
+        "me.",
+        "I",
+        "drive",
+        "there",
+        "every",
+        "day.",
+        "Will",
+        "it",
+        "take",
+        "long?"
+      ],
+      "de": [
+        {
+          "t": "Das",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Das",
+          "gb": "এটা",
+          "ge": "That",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "wichtig",
+          "b": [
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "wichtig",
+          "gb": "জরুরি",
+          "ge": "important",
+          "n": ""
+        },
+        {
+          "t": "für",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "für",
+          "gb": "জন্য",
+          "ge": "for",
+          "n": ""
+        },
+        {
+          "t": "mich.",
+          "b": [
+            1
+          ],
+          "e": [
+            4
+          ],
+          "l": "mich",
+          "gb": "আমার",
+          "ge": "me",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "fahre",
+          "b": [
+            8
+          ],
+          "e": [
+            6
+          ],
+          "l": "fahre",
+          "gb": "যাই",
+          "ge": "drive",
+          "n": ""
+        },
+        {
+          "t": "jeden Tag",
+          "b": [
+            5
+          ],
+          "e": [
+            8,
+            9
+          ],
+          "l": "jeden Tag",
+          "gb": "প্রতিদিন",
+          "ge": "every day",
+          "n": ""
+        },
+        {
+          "t": "dort.",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            7
+          ],
+          "l": "dort",
+          "gb": "ওখান দিয়ে",
+          "ge": "there",
+          "n": ""
+        },
+        {
+          "t": "Dauert",
+          "b": [
+            12
+          ],
+          "e": [
+            12
+          ],
+          "l": "dauern",
+          "gb": "চলবে",
+          "ge": "take",
+          "n": ""
+        },
+        {
+          "t": "das",
+          "b": [
+            9
+          ],
+          "e": [
+            10,
+            11
+          ],
+          "l": "das",
+          "gb": "এটা",
+          "ge": "Will it",
+          "n": ""
+        },
+        {
+          "t": "lange?",
+          "b": [
+            11
+          ],
+          "e": [
+            13
+          ],
+          "l": "lange",
+          "gb": "অনেকদিন",
+          "ge": "long",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "দুই",
+        "সপ্তাহ।",
+        "আর",
+        "যানবাহন",
+        "অন্য",
+        "পথে",
+        "ঘুরিয়ে",
+        "দেওয়া",
+        "হবে।"
+      ],
+      "en": [
+        "Two",
+        "weeks.",
+        "And",
+        "the",
+        "traffic",
+        "will",
+        "be",
+        "diverted."
+      ],
+      "de": [
+        {
+          "t": "Zwei",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Zwei",
+          "gb": "দুই",
+          "ge": "Two",
+          "n": ""
+        },
+        {
+          "t": "Wochen.",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "Wochen",
+          "gb": "সপ্তাহ",
+          "ge": "weeks",
+          "n": ""
+        },
+        {
+          "t": "Und",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "der Verkehr",
+          "b": [
+            3
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "der Verkehr",
+          "gb": "যানবাহন",
+          "ge": "the traffic",
+          "n": ""
+        },
+        {
+          "t": "wird",
+          "b": [
+            8
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "wird",
+          "gb": "হবে",
+          "ge": "will be",
+          "n": ""
+        },
+        {
+          "t": "umgeleitet.",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            7
+          ],
+          "l": "umleiten",
+          "gb": "ঘুরিয়ে দেওয়া",
+          "ge": "diverted",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "তথ্যের",
+        "জন্য",
+        "ধন্যবাদ!",
+        "আমি",
+        "ইন্টারনেটেও",
+        "প্রবন্ধ",
+        "পড়ি।",
+        "কিন্তু",
+        "সেখানে",
+        "অনেক",
+        "বিজ্ঞাপন",
+        "দেখানো",
+        "হয়।"
+      ],
+      "en": [
+        "Thanks",
+        "for",
+        "the",
+        "information!",
+        "I",
+        "also",
+        "read",
+        "articles",
+        "on",
+        "the",
+        "internet.",
+        "But",
+        "a",
+        "lot",
+        "of",
+        "advertising",
+        "is",
+        "shown",
+        "there."
+      ],
+      "de": [
+        {
+          "t": "Danke",
+          "b": [
+            2
+          ],
+          "e": [
+            0
+          ],
+          "l": "Danke",
+          "gb": "ধন্যবাদ",
+          "ge": "Thanks",
+          "n": ""
+        },
+        {
+          "t": "für",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "für",
+          "gb": "জন্য",
+          "ge": "for",
+          "n": ""
+        },
+        {
+          "t": "die Information!",
+          "b": [
+            0
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "Information",
+          "gb": "তথ্যের",
+          "ge": "the information",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "lese",
+          "b": [
+            6
+          ],
+          "e": [
+            6
+          ],
+          "l": "lese",
+          "gb": "পড়ি",
+          "ge": "read",
+          "n": ""
+        },
+        {
+          "t": "auch",
+          "b": [],
+          "e": [
+            5
+          ],
+          "l": "auch",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "also",
+          "n": ""
+        },
+        {
+          "t": "Artikel",
+          "b": [
+            5
+          ],
+          "e": [
+            7
+          ],
+          "l": "Artikel",
+          "gb": "প্রবন্ধ",
+          "ge": "articles",
+          "n": ""
+        },
+        {
+          "t": "im Internet.",
+          "b": [
+            4
+          ],
+          "e": [
+            8,
+            9,
+            10
+          ],
+          "l": "im Internet",
+          "gb": "ইন্টারনেটেও",
+          "ge": "on the internet",
+          "n": ""
+        },
+        {
+          "t": "Dort",
+          "b": [
+            8
+          ],
+          "e": [
+            18
+          ],
+          "l": "Dort",
+          "gb": "সেখানে",
+          "ge": "there",
+          "n": ""
+        },
+        {
+          "t": "wird",
+          "b": [
+            12
+          ],
+          "e": [
+            16
+          ],
+          "l": "wird",
+          "gb": "হয়",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "viel",
+          "b": [
+            9
+          ],
+          "e": [
+            12,
+            13,
+            14
+          ],
+          "l": "viel",
+          "gb": "অনেক",
+          "ge": "a lot of",
+          "n": ""
+        },
+        {
+          "t": "Werbung",
+          "b": [
+            10
+          ],
+          "e": [
+            15
+          ],
+          "l": "Werbung",
+          "gb": "বিজ্ঞাপন",
+          "ge": "advertising",
+          "n": ""
+        },
+        {
+          "t": "gezeigt.",
+          "b": [
+            11
+          ],
+          "e": [
+            17
+          ],
+          "l": "zeigen",
+          "gb": "দেখানো",
+          "ge": "shown",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "Passiv Präsens: werden + Partizip II",
+      "head": [
+        "Aktiv",
+        "Passiv"
+      ],
+      "rows": [
+        [
+          "Man repariert die Straße.",
+          "Die Straße wird repariert."
+        ],
+        [
+          "Das Fernsehen sendet die Nachrichten.",
+          "Die Nachrichten werden gesendet."
+        ],
+        [
+          "Man zeigt viel Werbung.",
+          "Viel Werbung wird gezeigt."
+        ],
+        [
+          "Sie leiten den Verkehr um.",
+          "Der Verkehr wird umgeleitet."
+        ]
+      ],
+      "note": "Passiv = কাজটা গুরুত্বপূর্ণ, কে করছে তা নয়। Akkusativ-কর্ম হয়ে যায় Nominativ-কর্তা। werden সংযুক্ত রূপ (wird/werden), Partizip II শেষে।"
+    },
+    {
+      "type": "table",
+      "title": "werden — Präsens",
+      "head": [
+        "Person",
+        "werden",
+        "Passiv-Beispiel"
+      ],
+      "rows": [
+        [
+          "er/sie/es",
+          "wird",
+          "Das Buch wird gelesen."
+        ],
+        [
+          "sie (pl.)",
+          "werden",
+          "Die Nachrichten werden gesendet."
+        ],
+        [
+          "ich",
+          "werde",
+          "Ich werde eingeladen."
+        ],
+        [
+          "wir",
+          "werden",
+          "Wir werden informiert."
+        ]
+      ],
+      "note": "Nebensatz: „…, dass die Straße repariert wird.“ (werden শেষে)। কে করছে বললে: „von + Dativ“ — „Die Straße wird von der Stadt repariert“।"
+    },
+    {
+      "type": "table",
+      "title": "মিডিয়ার শব্দ",
+      "head": [
+        "জার্মান",
+        "বাংলা"
+      ],
+      "rows": [
+        [
+          "die Zeitung",
+          "খবরের কাগজ"
+        ],
+        [
+          "die Nachrichten",
+          "খবর"
+        ],
+        [
+          "die Sendung",
+          "অনুষ্ঠান"
+        ],
+        [
+          "der Artikel",
+          "প্রবন্ধ"
+        ],
+        [
+          "die Werbung",
+          "বিজ্ঞাপন"
+        ],
+        [
+          "im Fernsehen / im Radio / im Internet",
+          "টিভিতে / রেডিওতে / ইন্টারনেটে"
+        ]
+      ],
+      "note": "Nachrichten সবসময় বহুবচন (die Nachrichten)।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "die Zeitung",
+      "options": [
+        "বিজ্ঞাপন",
+        "খবরের কাগজ",
+        "সম্প্রচার করা",
+        "টিভি"
+      ],
+      "answer": 1,
+      "why": "die Zeitung = খবরের কাগজ।",
+      "word": "zeitung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "berichten",
+      "options": [
+        "টিভি",
+        "প্রতিবেদন করা",
+        "খবরের কাগজ",
+        "অনুষ্ঠানসূচি"
+      ],
+      "answer": 1,
+      "why": "berichten = প্রতিবেদন করা।",
+      "word": "berichten"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "die Werbung",
+      "options": [
+        "সম্প্রচার করা",
+        "সাম্প্রতিক",
+        "বিজ্ঞাপন",
+        "সংবাদ"
+      ],
+      "answer": 2,
+      "why": "die Werbung = বিজ্ঞাপন।",
+      "word": "werbung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Sendung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Sendung। বহুবচন: die Sendungen।",
+      "word": "sendung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Die Straße ___ repariert.",
+      "options": [
+        "wird",
+        "werden",
+        "wurde",
+        "wirst"
+      ],
+      "answer": 0,
+      "why": "Singular → wird।",
+      "word": "umleiten"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Die Nachrichten ___ gesendet.",
+      "options": [
+        "werden",
+        "wird",
+        "werde",
+        "wirst"
+      ],
+      "answer": 0,
+      "why": "Plural → werden।",
+      "word": "senden"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Passiv-এ সঠিক Partizip কোনটি?",
+      "sub": "Der Verkehr wird ___.",
+      "options": [
+        "umgeleitet",
+        "geumleitet",
+        "umleitet",
+        "umgeleiten"
+      ],
+      "answer": 0,
+      "why": "umleiten → umgeleitet।",
+      "word": "umleiten"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Passiv বাক্য কোনটি?",
+      "options": [
+        "Die Zeitung wird gelesen.",
+        "Ich lese die Zeitung.",
+        "Er hat die Zeitung gelesen.",
+        "Lies die Zeitung!"
+      ],
+      "answer": 0,
+      "why": "werden + Partizip II।",
+      "word": "zeitung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Nachrichten“ কী?",
+      "options": [
+        "সংবাদ (বহুবচন)",
+        "চিঠি (একবচন)",
+        "বিজ্ঞাপন",
+        "ছবি"
+      ],
+      "answer": 0,
+      "why": "die Nachrichten = news।",
+      "word": "nachrichten"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „খবর আটটায় সম্প্রচার করা হয়।“",
+      "tiles": [
+        "gesendet.",
+        "um acht Uhr",
+        "Die Nachrichten",
+        "werden"
+      ],
+      "answer": [
+        "Die Nachrichten",
+        "werden",
+        "um acht Uhr",
+        "gesendet."
+      ],
+      "why": "werden ২য় স্থানে, Partizip শেষে।",
+      "word": "senden"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

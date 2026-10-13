@@ -1,0 +1,1265 @@
+{
+  "level": "A2",
+  "unit": 12,
+  "minutes": 16,
+  "lesson": 1,
+  "id": "a2-u12-l01",
+  "title": {
+    "de": "Was hast du vor?",
+    "bn": "ভবিষ্যতের পরিকল্পনা ও লক্ষ্য",
+    "en": "Plans and goals for the future"
+  },
+  "hook": {
+    "de": "Wer ein Ziel hat, findet den Weg.",
+    "who": "Redensart",
+    "bn": "যার লক্ষ্য আছে, সে পথ খুঁজে পায়।",
+    "en": "Whoever has a goal finds the way."
+  },
+  "goals": [
+    "vorhaben + zu: Ich habe vor, … zu machen",
+    "Ausbildung und Studium",
+    "Beruf werden: Ich möchte Elektriker werden",
+    "Ich bin sicher, dass …"
+  ],
+  "words": [
+    {
+      "id": "vorhaben",
+      "de": "vorhaben",
+      "pos": "ক্রিয়া · hat vor, hat vorgehabt",
+      "bn": "পরিকল্পনা করা",
+      "en": "to plan, to intend"
+    },
+    {
+      "id": "zukunft",
+      "de": "Zukunft",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "ভবিষ্যৎ",
+      "en": "future"
+    },
+    {
+      "id": "ziel",
+      "de": "Ziel",
+      "art": "das",
+      "pl": "die Ziele",
+      "pos": "বিশেষ্য",
+      "bn": "লক্ষ্য",
+      "en": "goal"
+    },
+    {
+      "id": "ausbildung",
+      "de": "Ausbildung",
+      "art": "die",
+      "pl": "die Ausbildungen",
+      "pos": "বিশেষ্য",
+      "bn": "বৃত্তিমূলক প্রশিক্ষণ",
+      "en": "vocational training"
+    },
+    {
+      "id": "studium",
+      "de": "Studium",
+      "art": "das",
+      "pl": "die Studien",
+      "pos": "বিশেষ্য",
+      "bn": "বিশ্ববিদ্যালয়ের পড়াশোনা",
+      "en": "university studies"
+    },
+    {
+      "id": "beruf",
+      "de": "Beruf",
+      "art": "der",
+      "pl": "die Berufe",
+      "pos": "বিশেষ্য",
+      "bn": "পেশা",
+      "en": "profession"
+    },
+    {
+      "id": "chance",
+      "de": "Chance",
+      "art": "die",
+      "pl": "die Chancen",
+      "pos": "বিশেষ্য",
+      "bn": "সুযোগ",
+      "en": "chance, opportunity"
+    },
+    {
+      "id": "verdienen",
+      "de": "verdienen",
+      "pos": "ক্রিয়া · hat verdient",
+      "bn": "আয় করা",
+      "en": "to earn"
+    },
+    {
+      "id": "schaffen",
+      "de": "schaffen",
+      "pos": "ক্রিয়া · hat geschafft",
+      "bn": "পারা, পেরে ওঠা",
+      "en": "to manage"
+    },
+    {
+      "id": "unabhaengig",
+      "de": "unabhängig",
+      "pos": "বিশেষণ",
+      "bn": "স্বাবলম্বী",
+      "en": "independent"
+    },
+    {
+      "id": "sicher",
+      "de": "sicher",
+      "pos": "বিশেষণ",
+      "bn": "নিশ্চিত, নিরাপদ",
+      "en": "sure, safe"
+    },
+    {
+      "id": "elektriker",
+      "de": "Elektriker",
+      "art": "der",
+      "pl": "die Elektriker",
+      "pos": "বিশেষ্য",
+      "bn": "ইলেকট্রিশিয়ান",
+      "en": "electrician"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Lena",
+      "bn": [
+        "ভবিষ্যতে",
+        "তোমার",
+        "কী",
+        "পরিকল্পনা?"
+      ],
+      "en": [
+        "What",
+        "are",
+        "you",
+        "planning",
+        "for",
+        "the",
+        "future?"
+      ],
+      "de": [
+        {
+          "t": "Was",
+          "b": [
+            2
+          ],
+          "e": [
+            0
+          ],
+          "l": "Was",
+          "gb": "কী",
+          "ge": "What",
+          "n": ""
+        },
+        {
+          "t": "hast",
+          "b": [
+            3
+          ],
+          "e": [
+            1
+          ],
+          "l": "hast",
+          "gb": "পরিকল্পনা",
+          "ge": "are",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "du",
+          "gb": "তোমার",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "in der Zukunft",
+          "b": [
+            0
+          ],
+          "e": [
+            4,
+            5,
+            6
+          ],
+          "l": "Zukunft",
+          "gb": "ভবিষ্যতে",
+          "ge": "for the future",
+          "n": ""
+        },
+        {
+          "t": "vor?",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "vorhaben",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "planning",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "জার্মানিতে",
+        "একটি",
+        "বৃত্তিমূলক",
+        "প্রশিক্ষণ",
+        "নেওয়ার",
+        "পরিকল্পনা",
+        "করছি।"
+      ],
+      "en": [
+        "I",
+        "am",
+        "planning",
+        "to",
+        "do",
+        "vocational",
+        "training",
+        "in",
+        "Germany."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [
+            6
+          ],
+          "e": [
+            1
+          ],
+          "l": "habe",
+          "gb": "পরিকল্পনা",
+          "ge": "am",
+          "n": ""
+        },
+        {
+          "t": "vor,",
+          "b": [
+            7
+          ],
+          "e": [
+            2
+          ],
+          "l": "vorhaben",
+          "gb": "করছি",
+          "ge": "planning",
+          "n": "vorhaben (trennbar) + zu + Infinitiv"
+        },
+        {
+          "t": "in Deutschland",
+          "b": [
+            1
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "in Deutschland",
+          "gb": "জার্মানিতে",
+          "ge": "in Germany",
+          "n": ""
+        },
+        {
+          "t": "eine Ausbildung",
+          "b": [
+            2,
+            3,
+            4
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "Ausbildung",
+          "gb": "একটি বৃত্তিমূলক প্রশিক্ষণ",
+          "ge": "vocational training",
+          "n": ""
+        },
+        {
+          "t": "zu machen.",
+          "b": [
+            5
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "zu machen",
+          "gb": "নেওয়ার",
+          "ge": "to do",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "কোন",
+        "পেশা",
+        "তুমি",
+        "শিখতে",
+        "চাও?"
+      ],
+      "en": [
+        "Which",
+        "profession",
+        "would",
+        "you",
+        "like",
+        "to",
+        "learn?"
+      ],
+      "de": [
+        {
+          "t": "Welchen",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Welchen",
+          "gb": "কোন",
+          "ge": "Which",
+          "n": ""
+        },
+        {
+          "t": "Beruf",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "Beruf",
+          "gb": "পেশা",
+          "ge": "profession",
+          "n": ""
+        },
+        {
+          "t": "möchtest",
+          "b": [
+            4
+          ],
+          "e": [
+            2,
+            3,
+            4
+          ],
+          "l": "möchtest",
+          "gb": "চাও",
+          "ge": "would you like",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            2
+          ],
+          "e": [],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "lernen?",
+          "b": [
+            3
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "lernen",
+          "gb": "শিখতে",
+          "ge": "to learn",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "ইলেকট্রিশিয়ান",
+        "হতে",
+        "চাই।",
+        "এটা",
+        "অনেক",
+        "সুযোগের",
+        "একটি",
+        "ভালো",
+        "পেশা।"
+      ],
+      "en": [
+        "I",
+        "would",
+        "like",
+        "to",
+        "become",
+        "an",
+        "electrician.",
+        "It",
+        "is",
+        "a",
+        "good",
+        "profession",
+        "with",
+        "many",
+        "opportunities."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "möchte",
+          "b": [
+            3
+          ],
+          "e": [
+            1,
+            2,
+            3
+          ],
+          "l": "möchte",
+          "gb": "চাই",
+          "ge": "would like to",
+          "n": ""
+        },
+        {
+          "t": "Elektriker",
+          "b": [
+            1
+          ],
+          "e": [
+            6
+          ],
+          "l": "Elektriker",
+          "gb": "ইলেকট্রিশিয়ান",
+          "ge": "electrician",
+          "n": ""
+        },
+        {
+          "t": "werden.",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "werden",
+          "gb": "হতে",
+          "ge": "become",
+          "n": ""
+        },
+        {
+          "t": "Das",
+          "b": [
+            4
+          ],
+          "e": [
+            7
+          ],
+          "l": "Das",
+          "gb": "এটা",
+          "ge": "It",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            8
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "ein guter Beruf",
+          "b": [
+            7,
+            8,
+            9
+          ],
+          "e": [
+            9,
+            10,
+            11
+          ],
+          "l": "ein guter Beruf",
+          "gb": "একটি ভালো পেশা",
+          "ge": "a good profession",
+          "n": ""
+        },
+        {
+          "t": "mit vielen Chancen.",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            12,
+            13,
+            14
+          ],
+          "l": "Chance",
+          "gb": "অনেক সুযোগের",
+          "ge": "with many opportunities",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "প্রশিক্ষণ",
+        "কতদিন",
+        "চলে?",
+        "আর",
+        "তখন",
+        "কি",
+        "তুমি",
+        "আয়",
+        "করো?"
+      ],
+      "en": [
+        "How",
+        "long",
+        "does",
+        "the",
+        "training",
+        "last?",
+        "And",
+        "do",
+        "you",
+        "earn",
+        "money",
+        "during",
+        "it?"
+      ],
+      "de": [
+        {
+          "t": "Wie lange",
+          "b": [
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Wie lange",
+          "gb": "কতদিন",
+          "ge": "How long",
+          "n": ""
+        },
+        {
+          "t": "dauert",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "dauert",
+          "gb": "চলে",
+          "ge": "does",
+          "n": ""
+        },
+        {
+          "t": "die Ausbildung?",
+          "b": [
+            0
+          ],
+          "e": [
+            3,
+            4,
+            5
+          ],
+          "l": "die Ausbildung",
+          "gb": "প্রশিক্ষণ",
+          "ge": "the training last",
+          "n": ""
+        },
+        {
+          "t": "Und",
+          "b": [
+            3
+          ],
+          "e": [
+            6
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "verdienst",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            9
+          ],
+          "l": "verdienen",
+          "gb": "আয় করো",
+          "ge": "earn",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            6
+          ],
+          "e": [
+            8
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "dabei",
+          "b": [
+            4
+          ],
+          "e": [
+            11,
+            12
+          ],
+          "l": "dabei",
+          "gb": "তখন",
+          "ge": "during it",
+          "n": ""
+        },
+        {
+          "t": "schon",
+          "b": [
+            5
+          ],
+          "e": [],
+          "l": "schon",
+          "gb": "কি",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Geld?",
+          "b": [],
+          "e": [
+            10
+          ],
+          "l": "Geld",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "money",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "সাধারণত",
+        "তিন",
+        "বছর।",
+        "প্রশিক্ষণ",
+        "নিলে",
+        "কিছু",
+        "আয়ও",
+        "হয়।"
+      ],
+      "en": [
+        "Normally",
+        "three",
+        "years.",
+        "You",
+        "also",
+        "earn",
+        "something",
+        "while",
+        "training."
+      ],
+      "de": [
+        {
+          "t": "Normalerweise",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "normalerweise",
+          "gb": "সাধারণত",
+          "ge": "Normally",
+          "n": ""
+        },
+        {
+          "t": "drei Jahre.",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "drei Jahre",
+          "gb": "তিন বছর",
+          "ge": "three years",
+          "n": ""
+        },
+        {
+          "t": "Man",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "Man",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "You",
+          "n": ""
+        },
+        {
+          "t": "verdient",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            5
+          ],
+          "l": "verdienen",
+          "gb": "আয়ও হয়",
+          "ge": "earn",
+          "n": ""
+        },
+        {
+          "t": "schon",
+          "b": [],
+          "e": [
+            4
+          ],
+          "l": "schon",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "also",
+          "n": ""
+        },
+        {
+          "t": "etwas,",
+          "b": [
+            5
+          ],
+          "e": [
+            6
+          ],
+          "l": "etwas",
+          "gb": "কিছু",
+          "ge": "something",
+          "n": ""
+        },
+        {
+          "t": "wenn",
+          "b": [
+            4
+          ],
+          "e": [
+            7
+          ],
+          "l": "wenn",
+          "gb": "নিলে",
+          "ge": "while",
+          "n": ""
+        },
+        {
+          "t": "man",
+          "b": [],
+          "e": [],
+          "l": "man",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "eine Ausbildung",
+          "b": [
+            3
+          ],
+          "e": [
+            8
+          ],
+          "l": "Ausbildung",
+          "gb": "প্রশিক্ষণ",
+          "ge": "training",
+          "n": ""
+        },
+        {
+          "t": "macht.",
+          "b": [],
+          "e": [],
+          "l": "macht",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "তাহলে",
+        "তুমি",
+        "শীঘ্রই",
+        "স্বাবলম্বী",
+        "হবে।",
+        "আমি",
+        "নিশ্চিত",
+        "যে",
+        "তুমি",
+        "পারবে!"
+      ],
+      "en": [
+        "Then",
+        "you",
+        "will",
+        "soon",
+        "be",
+        "independent.",
+        "I",
+        "am",
+        "sure",
+        "that",
+        "you",
+        "will",
+        "manage",
+        "it!"
+      ],
+      "de": [
+        {
+          "t": "Dann",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Dann",
+          "gb": "তাহলে",
+          "ge": "Then",
+          "n": ""
+        },
+        {
+          "t": "wirst",
+          "b": [
+            4
+          ],
+          "e": [
+            2
+          ],
+          "l": "wirst",
+          "gb": "হবে",
+          "ge": "will",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "bald",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "bald",
+          "gb": "শীঘ্রই",
+          "ge": "soon",
+          "n": ""
+        },
+        {
+          "t": "unabhängig",
+          "b": [
+            3
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "unabhängig",
+          "gb": "স্বাবলম্বী",
+          "ge": "be independent",
+          "n": ""
+        },
+        {
+          "t": "sein.",
+          "b": [],
+          "e": [],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            5
+          ],
+          "e": [
+            6
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "bin",
+          "b": [],
+          "e": [
+            7
+          ],
+          "l": "bin",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "am",
+          "n": ""
+        },
+        {
+          "t": "sicher,",
+          "b": [
+            6
+          ],
+          "e": [
+            8
+          ],
+          "l": "sicher",
+          "gb": "নিশ্চিত",
+          "ge": "sure",
+          "n": ""
+        },
+        {
+          "t": "dass",
+          "b": [
+            7
+          ],
+          "e": [
+            9
+          ],
+          "l": "dass",
+          "gb": "যে",
+          "ge": "that",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            8
+          ],
+          "e": [
+            10
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "es",
+          "b": [],
+          "e": [
+            13
+          ],
+          "l": "es",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "it",
+          "n": ""
+        },
+        {
+          "t": "schaffst!",
+          "b": [
+            9
+          ],
+          "e": [
+            11,
+            12
+          ],
+          "l": "schaffen",
+          "gb": "পারবে",
+          "ge": "will manage",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "Ausbildung oder Studium?",
+      "head": [
+        "",
+        "Ausbildung",
+        "Studium"
+      ],
+      "rows": [
+        [
+          "Ort",
+          "Betrieb + Berufsschule (duales System)",
+          "Universität / Hochschule"
+        ],
+        [
+          "Dauer",
+          "meist 2–3,5 Jahre",
+          "meist 3–5 Jahre"
+        ],
+        [
+          "Geld",
+          "Ausbildungsvergütung (Gehalt)",
+          "meist kein Gehalt"
+        ],
+        [
+          "Ergebnis",
+          "Berufsabschluss",
+          "Bachelor / Master"
+        ],
+        [
+          "Voraussetzung",
+          "meist Schulabschluss; oft B1–B2 Deutsch",
+          "Hochschulzugang; oft B2–C1 Deutsch"
+        ]
+      ],
+      "note": "Voraussetzungen unterscheiden sich je nach Beruf und Betrieb — das ist nur ein grober Überblick. Informieren Sie sich bei der Industrie- und Handelskammer (IHK) oder bei „Make it in Germany“."
+    },
+    {
+      "type": "table",
+      "title": "Pläne ausdrücken",
+      "head": [
+        "Ausdruck",
+        "Beispiel"
+      ],
+      "rows": [
+        [
+          "vorhaben + zu",
+          "Ich habe vor, eine Ausbildung zu machen."
+        ],
+        [
+          "Futur (werden)",
+          "Ich werde Elektriker werden."
+        ],
+        [
+          "Ich möchte … werden",
+          "Ich möchte Pflegekraft werden."
+        ],
+        [
+          "Ich bin sicher, dass …",
+          "Ich bin sicher, dass ich es schaffe."
+        ],
+        [
+          "wenn … dann",
+          "Wenn ich B1 schaffe, dann bewerbe ich mich."
+        ]
+      ],
+      "note": "Beruf nach „werden“ ohne Artikel: „Ich werde Lehrer.“ Aber mit Adjektiv: „Ich werde ein guter Lehrer.“"
+    },
+    {
+      "type": "text",
+      "title": "Wortschatz Zukunft",
+      "text": "das Ziel · die Zukunft · die Chance · schaffen · sich entscheiden · verdienen · unabhängig · sicher. — „Ich habe das Ziel, in drei Jahren eine Ausbildung zu beginnen.“"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "die Ausbildung",
+      "options": [
+        "নিশ্চিত",
+        "পরিকল্পনা করা",
+        "লক্ষ্য",
+        "বৃত্তিমূলক প্রশিক্ষণ"
+      ],
+      "answer": 3,
+      "why": "die Ausbildung = বৃত্তিমূলক প্রশিক্ষণ।",
+      "word": "ausbildung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "verdienen",
+      "options": [
+        "আয় করা",
+        "নিশ্চিত",
+        "ভবিষ্যৎ",
+        "বিশ্ববিদ্যালয়ের পড়াশোনা"
+      ],
+      "answer": 0,
+      "why": "verdienen = আয় করা।",
+      "word": "verdienen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "unabhängig",
+      "options": [
+        "পেশা",
+        "স্বাবলম্বী",
+        "পারা",
+        "পরিকল্পনা করা"
+      ],
+      "answer": 1,
+      "why": "unabhängig = স্বাবলম্বী।",
+      "word": "unabhaengig"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Chance",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Chance। বহুবচন: die Chancen।",
+      "word": "chance"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„vorhaben“ কী করে?",
+      "options": [
+        "পরিকল্পনা করা",
+        "ভুলে যাওয়া",
+        "ফেলে দেওয়া",
+        "শেখা"
+      ],
+      "answer": 0,
+      "why": "vorhaben = to plan।",
+      "word": "vorhaben"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক বাক্য কোনটি?",
+      "options": [
+        "Ich habe vor, eine Ausbildung zu machen.",
+        "Ich habe eine Ausbildung zu machen vor.",
+        "Ich vorhabe, eine Ausbildung zu machen.",
+        "Ich habe vor eine Ausbildung machen zu."
+      ],
+      "answer": 0,
+      "why": "vorhaben + zu + Infinitiv।",
+      "word": "vorhaben"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Ausbildung কোথায় হয়?",
+      "options": [
+        "Betrieb + Berufsschule",
+        "শুধু বাড়িতে",
+        "শুধু স্কুলে",
+        "শুধু অনলাইনে"
+      ],
+      "answer": 0,
+      "why": "duales System।",
+      "word": "ausbildung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ich möchte Elektriker ___.",
+      "options": [
+        "werden",
+        "sein",
+        "haben",
+        "machen"
+      ],
+      "answer": 0,
+      "why": "Beruf werden।",
+      "word": "beruf"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„sicher“ মানে কী?",
+      "options": [
+        "নিশ্চিত, নিরাপদ",
+        "ধীর",
+        "দামি",
+        "ক্লান্ত"
+      ],
+      "answer": 0,
+      "why": "sicher।",
+      "word": "sicher"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „আমি নিশ্চিত যে তুমি পারবে।“",
+      "tiles": [
+        "schaffst.",
+        "sicher,",
+        "du",
+        "dass",
+        "es",
+        "Ich bin"
+      ],
+      "answer": [
+        "Ich bin",
+        "sicher,",
+        "dass",
+        "du",
+        "es",
+        "schaffst."
+      ],
+      "why": "dass-Satz: ক্রিয়া শেষে।",
+      "word": "schaffen"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

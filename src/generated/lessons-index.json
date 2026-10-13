@@ -838,5 +838,397 @@
     "status": "draft",
     "minutes": 16,
     "words": 12
+  },
+  {
+    "id": "a2-u06-l01",
+    "level": "A2",
+    "unit": 6,
+    "lesson": 1,
+    "title": {
+      "bn": "নিমন্ত্রণ: দাওয়াত দেওয়া, রাজি হওয়া, না করা",
+      "en": "Invitations: inviting, accepting, declining",
+      "de": "Ich lade dich ein"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u06-l02",
+    "level": "A2",
+    "unit": 6,
+    "lesson": 2,
+    "title": {
+      "bn": "উপহার: Dativ ও Akkusativ একসাথে",
+      "en": "Gifts: dative and accusative together",
+      "de": "Was schenkst du ihr?"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u06-l03",
+    "level": "A2",
+    "unit": 6,
+    "lesson": 3,
+    "title": {
+      "bn": "উৎসব: obwohl (যদিও)",
+      "en": "Festivals: obwohl (although)",
+      "de": "Feste in Deutschland und Bangladesch"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u06-l04",
+    "level": "A2",
+    "unit": 6,
+    "lesson": 4,
+    "title": {
+      "bn": "ইচ্ছা ও কল্পনা: hätte, wäre, würde",
+      "en": "Wishes and dreams: hätte, wäre, würde",
+      "de": "Was würdest du tun, wenn …?"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u07-l01",
+    "level": "A2",
+    "unit": 7,
+    "lesson": 1,
+    "title": {
+      "bn": "Verben mit Präposition: warten auf, denken an",
+      "en": "Verbs with prepositions",
+      "de": "Ich warte auf einen Anruf"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u07-l02",
+    "level": "A2",
+    "unit": 7,
+    "lesson": 2,
+    "title": {
+      "bn": "খবর: Passiv Präsens (wird gesendet)",
+      "en": "The news: the present passive",
+      "de": "Was steht in der Zeitung?"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u07-l03",
+    "level": "A2",
+    "unit": 7,
+    "lesson": 3,
+    "title": {
+      "bn": "সোশ্যাল মিডিয়া: je … desto",
+      "en": "Social media: the more … the …",
+      "de": "Je mehr, desto besser?"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u07-l04",
+    "level": "A2",
+    "unit": 7,
+    "lesson": 4,
+    "title": {
+      "bn": "অনলাইন কেনা ও অভিযোগ জানানো",
+      "en": "Online shopping and complaints",
+      "de": "Das Handy ist defekt"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u08-l01",
+    "level": "A2",
+    "unit": 8,
+    "lesson": 1,
+    "title": {
+      "bn": "ভাষা কোর্সে ভর্তি হওয়া",
+      "en": "Registering for a German course",
+      "de": "Ich möchte mich für einen Kurs anmelden"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u08-l02",
+    "level": "A2",
+    "unit": 8,
+    "lesson": 2,
+    "title": {
+      "bn": "Infinitiv mit zu: শেখার কৌশল",
+      "en": "Infinitive with zu: learning strategies",
+      "de": "Es ist wichtig, jeden Tag zu lernen"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u08-l03",
+    "level": "A2",
+    "unit": 8,
+    "lesson": 3,
+    "title": {
+      "bn": "উদ্দেশ্য: um … zu এবং damit",
+      "en": "Purpose: um … zu and damit",
+      "de": "Ich lerne, um die Prüfung zu bestehen"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u08-l04",
+    "level": "A2",
+    "unit": 8,
+    "lesson": 4,
+    "title": {
+      "bn": "পড়ার পরিকল্পনা: zuerst, danach, zum Schluss",
+      "en": "My study plan: order and frequency",
+      "de": "Mein Lernplan"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u09-l01",
+    "level": "A2",
+    "unit": 9,
+    "lesson": 1,
+    "title": {
+      "bn": "আবহাওয়ার খবর বোঝা",
+      "en": "The weather forecast",
+      "de": "Das Wetter für morgen"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u09-l02",
+    "level": "A2",
+    "unit": 9,
+    "lesson": 2,
+    "title": {
+      "bn": "ঋতু ও প্রকৃতি",
+      "en": "Seasons and nature",
+      "de": "Meine liebste Jahreszeit"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u09-l03",
+    "level": "A2",
+    "unit": 9,
+    "lesson": 3,
+    "title": {
+      "bn": "ভ্রমণের গল্প: Perfekt ও Präteritum",
+      "en": "Telling about a hike: perfect and preterite",
+      "de": "Wie war die Wanderung?"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u09-l04",
+    "level": "A2",
+    "unit": 9,
+    "lesson": 4,
+    "title": {
+      "bn": "মূল্যবান ময়লা আলাদা করা (Mülltrennung)",
+      "en": "Waste separation and the environment",
+      "de": "Wohin kommt der Müll?"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u10-l01",
+    "level": "A2",
+    "unit": 10,
+    "lesson": 1,
+    "title": {
+      "bn": "বাসস্থান নিবন্ধন (Anmeldung)",
+      "en": "Registering your address",
+      "de": "Anmeldung beim Bürgeramt"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u10-l02",
+    "level": "A2",
+    "unit": 10,
+    "lesson": 2,
+    "title": {
+      "bn": "ভিসা ও আবাসিক অনুমতি বাড়ানো",
+      "en": "Extending a visa or residence permit",
+      "de": "Mein Visum läuft ab"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u10-l03",
+    "level": "A2",
+    "unit": 10,
+    "lesson": 3,
+    "title": {
+      "bn": "ব্যাংক অ্যাকাউন্ট খোলা",
+      "en": "Opening a bank account",
+      "de": "Ein Konto eröffnen"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u10-l04",
+    "level": "A2",
+    "unit": 10,
+    "lesson": 4,
+    "title": {
+      "bn": "অফিসের চিঠি বোঝা: Frist, Unterlagen, Genitiv",
+      "en": "Understanding an official letter",
+      "de": "Ein Brief vom Amt"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u11-l01",
+    "level": "A2",
+    "unit": 11,
+    "lesson": 1,
+    "title": {
+      "bn": "চেহারা ও স্বভাবের বর্ণনা",
+      "en": "Describing people: looks and character",
+      "de": "Wie sieht sie aus?"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u11-l02",
+    "level": "A2",
+    "unit": 11,
+    "lesson": 2,
+    "title": {
+      "bn": "অনুভূতি, ঝগড়া ও ক্ষমা",
+      "en": "Feelings, disagreements and apologies",
+      "de": "Es tut mir leid"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u11-l03",
+    "level": "A2",
+    "unit": 11,
+    "lesson": 3,
+    "title": {
+      "bn": "দেখা করার পরিকল্পনা: প্রস্তাব, সময় ঠিক করা",
+      "en": "Making plans: suggestions and times",
+      "de": "Wie wäre es mit einem Konzert?"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u11-l04",
+    "level": "A2",
+    "unit": 11,
+    "lesson": 4,
+    "title": {
+      "bn": "বন্ধুকে ইমেইল লেখা",
+      "en": "Writing an email to a friend",
+      "de": "Lieber Tom, …"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u12-l01",
+    "level": "A2",
+    "unit": 12,
+    "lesson": 1,
+    "title": {
+      "bn": "ভবিষ্যতের পরিকল্পনা ও লক্ষ্য",
+      "en": "Plans and goals for the future",
+      "de": "Was hast du vor?"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u12-l02",
+    "level": "A2",
+    "unit": 12,
+    "lesson": 2,
+    "title": {
+      "bn": "জার্মানিতে কাজ খোঁজা (Chancenkarte)",
+      "en": "Looking for work in Germany",
+      "de": "Arbeit in Deutschland suchen"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u12-l03",
+    "level": "A2",
+    "unit": 12,
+    "lesson": 3,
+    "title": {
+      "bn": "সিভি (Lebenslauf) লেখা",
+      "en": "Writing a German CV",
+      "de": "Mein Lebenslauf"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u12-l04",
+    "level": "A2",
+    "unit": 12,
+    "lesson": 4,
+    "title": {
+      "bn": "A2-এর রিভিউ ও পরবর্তী ধাপ",
+      "en": "Done! A2 review and what comes next",
+      "de": "Geschafft! Rückblick auf A2"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
   }
 ]

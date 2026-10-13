@@ -1,0 +1,1296 @@
+{
+  "level": "A2",
+  "unit": 11,
+  "minutes": 16,
+  "lesson": 3,
+  "id": "a2-u11-l03",
+  "title": {
+    "de": "Wie wäre es mit einem Konzert?",
+    "bn": "দেখা করার পরিকল্পনা: প্রস্তাব, সময় ঠিক করা",
+    "en": "Making plans: suggestions and times"
+  },
+  "hook": {
+    "de": "Ein Treffen unter Freunden ist mehr wert als tausend Nachrichten.",
+    "who": "Redensart",
+    "bn": "বন্ধুদের সাক্ষাৎ হাজার বার্তার চেয়ে মূল্যবান।",
+    "en": "A meeting between friends is worth a thousand messages."
+  },
+  "goals": [
+    "প্রস্তাব দেওয়া: Wie wäre es mit …? Sollen wir …?",
+    "সময় ঠিক করা: Viertel vor sechs, halb sechs",
+    "passt mir / passt mir nicht",
+    "sich treffen: Treffpunkt, Uhrzeit"
+  ],
+  "words": [
+    {
+      "id": "verabredung",
+      "de": "Verabredung",
+      "art": "die",
+      "pl": "die Verabredungen",
+      "pos": "বিশেষ্য",
+      "bn": "দেখা করার ঠিক করা সময়",
+      "en": "meeting arrangement, date"
+    },
+    {
+      "id": "vorschlagen",
+      "de": "vorschlagen",
+      "pos": "ক্রিয়া · schlägt vor, hat vorgeschlagen",
+      "bn": "প্রস্তাব করা",
+      "en": "to suggest"
+    },
+    {
+      "id": "vorschlag",
+      "de": "Vorschlag",
+      "art": "der",
+      "pl": "die Vorschläge",
+      "pos": "বিশেষ্য",
+      "bn": "প্রস্তাব",
+      "en": "suggestion"
+    },
+    {
+      "id": "konzert",
+      "de": "Konzert",
+      "art": "das",
+      "pl": "die Konzerte",
+      "pos": "বিশেষ্য",
+      "bn": "কনসার্ট",
+      "en": "concert"
+    },
+    {
+      "id": "eingang",
+      "de": "Eingang",
+      "art": "der",
+      "pl": "die Eingänge",
+      "pos": "বিশেষ্য",
+      "bn": "প্রবেশদ্বার",
+      "en": "entrance"
+    },
+    {
+      "id": "treffpunkt",
+      "de": "Treffpunkt",
+      "art": "der",
+      "pl": "die Treffpunkte",
+      "pos": "বিশেষ্য",
+      "bn": "দেখা হওয়ার জায়গা",
+      "en": "meeting point"
+    },
+    {
+      "id": "passen",
+      "de": "passen",
+      "pos": "ক্রিয়া · hat gepasst (+ Dativ)",
+      "bn": "সুবিধাজনক হওয়া, মানানো",
+      "en": "to suit"
+    },
+    {
+      "id": "unternehmen",
+      "de": "unternehmen",
+      "pos": "ক্রিয়া · hat unternommen",
+      "bn": "কিছু করা (বেড়ানো ইত্যাদি)",
+      "en": "to do (something)"
+    },
+    {
+      "id": "verschieben",
+      "de": "verschieben",
+      "pos": "ক্রিয়া · hat verschoben",
+      "bn": "পিছিয়ে দেওয়া",
+      "en": "to postpone"
+    },
+    {
+      "id": "viertel",
+      "de": "Viertel",
+      "art": "das",
+      "pl": "die Viertel",
+      "pos": "বিশেষ্য",
+      "bn": "এক-চতুর্থাংশ",
+      "en": "quarter"
+    },
+    {
+      "id": "erst",
+      "de": "erst",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "কেবল তখন, এর আগে নয়",
+      "en": "not until, only"
+    },
+    {
+      "id": "lust",
+      "de": "Lust",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "ইচ্ছা, আগ্রহ",
+      "en": "desire, inclination"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Lena",
+      "bn": [
+        "শনিবার",
+        "তোমার",
+        "সময়",
+        "আছে?",
+        "আমার",
+        "কিছু",
+        "করার",
+        "ইচ্ছা",
+        "আছে।"
+      ],
+      "en": [
+        "Do",
+        "you",
+        "have",
+        "time",
+        "on",
+        "Saturday?",
+        "I",
+        "feel",
+        "like",
+        "doing",
+        "something."
+      ],
+      "de": [
+        {
+          "t": "Hast",
+          "b": [
+            3
+          ],
+          "e": [
+            0
+          ],
+          "l": "Hast",
+          "gb": "আছে",
+          "ge": "Do",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "du",
+          "gb": "তোমার",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "am Samstag",
+          "b": [
+            0
+          ],
+          "e": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "l": "am Samstag",
+          "gb": "শনিবার",
+          "ge": "have time on Saturday",
+          "n": ""
+        },
+        {
+          "t": "Zeit?",
+          "b": [
+            2
+          ],
+          "e": [],
+          "l": "Zeit",
+          "gb": "সময়",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            4
+          ],
+          "e": [
+            6
+          ],
+          "l": "Ich",
+          "gb": "আমার",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [
+            8
+          ],
+          "e": [
+            7
+          ],
+          "l": "habe",
+          "gb": "আছে",
+          "ge": "feel",
+          "n": ""
+        },
+        {
+          "t": "Lust,",
+          "b": [
+            7
+          ],
+          "e": [
+            8
+          ],
+          "l": "Lust",
+          "gb": "ইচ্ছা",
+          "ge": "like",
+          "n": ""
+        },
+        {
+          "t": "etwas",
+          "b": [
+            5
+          ],
+          "e": [
+            10
+          ],
+          "l": "etwas",
+          "gb": "কিছু",
+          "ge": "something",
+          "n": ""
+        },
+        {
+          "t": "zu unternehmen.",
+          "b": [
+            6
+          ],
+          "e": [
+            9
+          ],
+          "l": "unternehmen",
+          "gb": "করার",
+          "ge": "doing",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "হ্যাঁ,",
+        "অবশ্যই!",
+        "তুমি",
+        "কী",
+        "প্রস্তাব",
+        "করছ?"
+      ],
+      "en": [
+        "Yes,",
+        "gladly!",
+        "What",
+        "do",
+        "you",
+        "suggest?"
+      ],
+      "de": [
+        {
+          "t": "Ja,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ja",
+          "gb": "হ্যাঁ",
+          "ge": "Yes",
+          "n": ""
+        },
+        {
+          "t": "gern!",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "gern",
+          "gb": "অবশ্যই",
+          "ge": "gladly",
+          "n": ""
+        },
+        {
+          "t": "Was",
+          "b": [
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "Was",
+          "gb": "কী",
+          "ge": "What",
+          "n": ""
+        },
+        {
+          "t": "schlägst",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "vorschlagen",
+          "gb": "প্রস্তাব",
+          "ge": "suggest",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            2
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "do you",
+          "n": ""
+        },
+        {
+          "t": "vor?",
+          "b": [
+            5
+          ],
+          "e": [],
+          "l": "vor",
+          "gb": "করছ",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "পার্কে",
+        "একটি",
+        "কনসার্ট",
+        "কেমন",
+        "হয়?"
+      ],
+      "en": [
+        "How",
+        "about",
+        "a",
+        "concert",
+        "in",
+        "the",
+        "park?"
+      ],
+      "de": [
+        {
+          "t": "Wie wäre es",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Wie wäre es",
+          "gb": "কেমন হয়",
+          "ge": "How about",
+          "n": "Wie wäre es mit + Dativ? = … কেমন হয়?"
+        },
+        {
+          "t": "mit einem Konzert",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "Konzert",
+          "gb": "একটি কনসার্ট",
+          "ge": "a concert",
+          "n": ""
+        },
+        {
+          "t": "im Park?",
+          "b": [
+            0
+          ],
+          "e": [
+            4,
+            5,
+            6
+          ],
+          "l": "im Park",
+          "gb": "পার্কে",
+          "ge": "in the park",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "ভালো",
+        "শোনাচ্ছে।",
+        "ওটা",
+        "কখন",
+        "শুরু",
+        "হয়?"
+      ],
+      "en": [
+        "That",
+        "sounds",
+        "good.",
+        "When",
+        "does",
+        "it",
+        "start?"
+      ],
+      "de": [
+        {
+          "t": "Das",
+          "b": [],
+          "e": [
+            0
+          ],
+          "l": "Das",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "That",
+          "n": ""
+        },
+        {
+          "t": "klingt",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "klingt",
+          "gb": "শোনাচ্ছে",
+          "ge": "sounds",
+          "n": ""
+        },
+        {
+          "t": "gut.",
+          "b": [
+            0
+          ],
+          "e": [
+            2
+          ],
+          "l": "gut",
+          "gb": "ভালো",
+          "ge": "good",
+          "n": ""
+        },
+        {
+          "t": "Wann",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "Wann",
+          "gb": "কখন",
+          "ge": "When",
+          "n": ""
+        },
+        {
+          "t": "fängt",
+          "b": [
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "anfangen",
+          "gb": "শুরু",
+          "ge": "does",
+          "n": ""
+        },
+        {
+          "t": "es",
+          "b": [
+            2
+          ],
+          "e": [
+            5
+          ],
+          "l": "es",
+          "gb": "ওটা",
+          "ge": "it",
+          "n": ""
+        },
+        {
+          "t": "an?",
+          "b": [
+            5
+          ],
+          "e": [
+            6
+          ],
+          "l": "an",
+          "gb": "হয়",
+          "ge": "start",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "সন্ধ্যা",
+        "ছয়টায়।",
+        "আমরা",
+        "কি",
+        "সাড়ে",
+        "পাঁচটায়",
+        "প্রবেশদ্বারে",
+        "দেখা",
+        "করব?"
+      ],
+      "en": [
+        "At",
+        "six",
+        "in",
+        "the",
+        "evening.",
+        "Shall",
+        "we",
+        "meet",
+        "at",
+        "the",
+        "entrance",
+        "at",
+        "half",
+        "past",
+        "five?"
+      ],
+      "de": [
+        {
+          "t": "Um",
+          "b": [],
+          "e": [
+            0
+          ],
+          "l": "Um",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "At",
+          "n": ""
+        },
+        {
+          "t": "achtzehn Uhr.",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "l": "achtzehn Uhr",
+          "gb": "সন্ধ্যা ছয়টায়",
+          "ge": "six in the evening",
+          "n": ""
+        },
+        {
+          "t": "Wollen",
+          "b": [
+            8
+          ],
+          "e": [
+            5
+          ],
+          "l": "Wollen",
+          "gb": "করব",
+          "ge": "Shall",
+          "n": ""
+        },
+        {
+          "t": "wir",
+          "b": [
+            2
+          ],
+          "e": [
+            6
+          ],
+          "l": "wir",
+          "gb": "আমরা",
+          "ge": "we",
+          "n": ""
+        },
+        {
+          "t": "uns",
+          "b": [],
+          "e": [],
+          "l": "uns",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "um halb sechs",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            8,
+            12,
+            13,
+            14
+          ],
+          "l": "um halb sechs",
+          "gb": "সাড়ে পাঁচটায়",
+          "ge": "at half past five",
+          "n": "halb sechs = ৫টা ৩০ (ছয়ের অর্ধেক আগে)"
+        },
+        {
+          "t": "am Eingang",
+          "b": [
+            6
+          ],
+          "e": [
+            11,
+            9,
+            10
+          ],
+          "l": "Eingang",
+          "gb": "প্রবেশদ্বারে",
+          "ge": "at the entrance",
+          "n": ""
+        },
+        {
+          "t": "treffen?",
+          "b": [
+            7
+          ],
+          "e": [
+            7
+          ],
+          "l": "sich treffen",
+          "gb": "দেখা",
+          "ge": "meet",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "সাড়ে",
+        "পাঁচটা",
+        "আমার",
+        "জন্য",
+        "ঠিক",
+        "নয়,",
+        "কারণ",
+        "আমি",
+        "পাঁচটা",
+        "পর্যন্ত",
+        "কাজ",
+        "করি।",
+        "আমরা",
+        "কি",
+        "পৌনে",
+        "ছয়টায়",
+        "দেখা",
+        "করতে",
+        "পারি?"
+      ],
+      "en": [
+        "Half",
+        "past",
+        "five",
+        "does",
+        "not",
+        "suit",
+        "me,",
+        "because",
+        "I",
+        "work",
+        "until",
+        "five.",
+        "Can",
+        "we",
+        "meet",
+        "at",
+        "a",
+        "quarter",
+        "to",
+        "six?"
+      ],
+      "de": [
+        {
+          "t": "Halb sechs",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "Halb sechs",
+          "gb": "সাড়ে পাঁচটা",
+          "ge": "Half past five",
+          "n": ""
+        },
+        {
+          "t": "passt",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "passen",
+          "gb": "ঠিক",
+          "ge": "suit",
+          "n": ""
+        },
+        {
+          "t": "mir",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            6
+          ],
+          "l": "mir",
+          "gb": "আমার জন্য",
+          "ge": "me",
+          "n": ""
+        },
+        {
+          "t": "nicht,",
+          "b": [
+            5
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "nicht",
+          "gb": "নয়",
+          "ge": "does not",
+          "n": ""
+        },
+        {
+          "t": "denn",
+          "b": [
+            6
+          ],
+          "e": [
+            7
+          ],
+          "l": "denn",
+          "gb": "কারণ",
+          "ge": "because",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            7
+          ],
+          "e": [
+            8
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "arbeite",
+          "b": [
+            10,
+            11
+          ],
+          "e": [
+            9
+          ],
+          "l": "arbeite",
+          "gb": "কাজ করি",
+          "ge": "work",
+          "n": ""
+        },
+        {
+          "t": "bis fünf.",
+          "b": [
+            8,
+            9
+          ],
+          "e": [
+            10,
+            11
+          ],
+          "l": "bis fünf",
+          "gb": "পাঁচটা পর্যন্ত",
+          "ge": "until five",
+          "n": ""
+        },
+        {
+          "t": "Können",
+          "b": [
+            18
+          ],
+          "e": [
+            12
+          ],
+          "l": "Können",
+          "gb": "পারি",
+          "ge": "Can",
+          "n": ""
+        },
+        {
+          "t": "wir",
+          "b": [
+            12
+          ],
+          "e": [
+            13
+          ],
+          "l": "wir",
+          "gb": "আমরা",
+          "ge": "we",
+          "n": ""
+        },
+        {
+          "t": "uns",
+          "b": [],
+          "e": [],
+          "l": "uns",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "um Viertel vor sechs",
+          "b": [
+            14,
+            15
+          ],
+          "e": [
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "l": "Viertel",
+          "gb": "পৌনে ছয়টায়",
+          "ge": "at a quarter to six",
+          "n": ""
+        },
+        {
+          "t": "treffen?",
+          "b": [
+            16,
+            17
+          ],
+          "e": [
+            14
+          ],
+          "l": "treffen",
+          "gb": "দেখা করতে",
+          "ge": "meet",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "কোনো",
+        "সমস্যা",
+        "নেই।",
+        "তাহলে",
+        "আমরা",
+        "পৌনে",
+        "ছয়টায়",
+        "দেখা",
+        "করব।",
+        "আমি",
+        "খুব",
+        "আগ্রহী!"
+      ],
+      "en": [
+        "No",
+        "problem.",
+        "Then",
+        "we",
+        "will",
+        "meet",
+        "at",
+        "a",
+        "quarter",
+        "to",
+        "six.",
+        "I",
+        "am",
+        "really",
+        "looking",
+        "forward",
+        "to",
+        "it!"
+      ],
+      "de": [
+        {
+          "t": "Kein Problem.",
+          "b": [
+            0,
+            1,
+            2
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Kein Problem",
+          "gb": "কোনো সমস্যা নেই",
+          "ge": "No problem",
+          "n": ""
+        },
+        {
+          "t": "Dann",
+          "b": [
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "Dann",
+          "gb": "তাহলে",
+          "ge": "Then",
+          "n": ""
+        },
+        {
+          "t": "treffen",
+          "b": [
+            7
+          ],
+          "e": [
+            5
+          ],
+          "l": "treffen",
+          "gb": "দেখা",
+          "ge": "meet",
+          "n": ""
+        },
+        {
+          "t": "wir",
+          "b": [
+            4
+          ],
+          "e": [
+            3
+          ],
+          "l": "wir",
+          "gb": "আমরা",
+          "ge": "we",
+          "n": ""
+        },
+        {
+          "t": "uns",
+          "b": [],
+          "e": [],
+          "l": "uns",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "um Viertel vor sechs.",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "l": "um Viertel vor sechs",
+          "gb": "পৌনে ছয়টায়",
+          "ge": "at a quarter to six",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            9
+          ],
+          "e": [
+            11
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "freue",
+          "b": [
+            11
+          ],
+          "e": [
+            12,
+            13,
+            14,
+            15
+          ],
+          "l": "sich freuen",
+          "gb": "আগ্রহী",
+          "ge": "am really looking forward",
+          "n": ""
+        },
+        {
+          "t": "mich!",
+          "b": [
+            10
+          ],
+          "e": [
+            16,
+            17
+          ],
+          "l": "mich",
+          "gb": "খুব",
+          "ge": "to it",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "প্রস্তাব ও উত্তর",
+      "head": [
+        "প্রস্তাব",
+        "রাজি",
+        "না / অন্য প্রস্তাব"
+      ],
+      "rows": [
+        [
+          "Wie wäre es mit einem Konzert?",
+          "Gute Idee! / Das klingt gut.",
+          "Das passt mir nicht. Wie wäre es mit …?"
+        ],
+        [
+          "Sollen wir ins Kino gehen?",
+          "Ja, gern!",
+          "Lieber nicht. Ich bin müde."
+        ],
+        [
+          "Hast du Lust, etwas zu machen?",
+          "Ja, sehr gern.",
+          "Leider habe ich keine Zeit."
+        ],
+        [
+          "Wollen wir uns um 18 Uhr treffen?",
+          "Okay, das passt.",
+          "Können wir uns später treffen?"
+        ]
+      ],
+      "note": "Wie wäre es mit + Dativ (mit einem Konzert, mit dem Kino)। Sollen wir + Infinitiv। Lust haben, … zu + Infinitiv।"
+    },
+    {
+      "type": "table",
+      "title": "সময় — কথায়",
+      "head": [
+        "সময়",
+        "কথায়"
+      ],
+      "rows": [
+        [
+          "17:30",
+          "halb sechs"
+        ],
+        [
+          "17:45",
+          "Viertel vor sechs"
+        ],
+        [
+          "18:15",
+          "Viertel nach sechs"
+        ],
+        [
+          "17:25",
+          "fünf vor halb sechs"
+        ],
+        [
+          "18:00",
+          "sechs Uhr / achtzehn Uhr"
+        ]
+      ],
+      "note": "halb sechs = ছয়টার অর্ধেক আগে = ৫:৩০ (বাংলার „সাড়ে পাঁচ“)। এটা ভুল হওয়ার সবচেয়ে বড় জায়গা — মনে রাখুন: halb + পরের ঘণ্টা।"
+    },
+    {
+      "type": "text",
+      "title": "passen + Dativ",
+      "text": "„Der Termin passt mir.“ = সময়টা আমার জন্য ঠিক আছে। „Das passt mir nicht.“ = আমার জন্য সুবিধা নয়। বিনয়ী উপায়: „Leider passt es mir nicht. Können wir den Termin verschieben?“"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "das Konzert",
+      "options": [
+        "কনসার্ট",
+        "পিছিয়ে দেওয়া",
+        "কেবল তখন",
+        "দেখা করার ঠিক করা সময়"
+      ],
+      "answer": 0,
+      "why": "das Konzert = কনসার্ট।",
+      "word": "konzert"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "vorschlagen",
+      "options": [
+        "সুবিধাজনক হওয়া",
+        "প্রস্তাব করা",
+        "এক-চতুর্থাংশ",
+        "দেখা করার ঠিক করা সময়"
+      ],
+      "answer": 1,
+      "why": "vorschlagen = প্রস্তাব করা।",
+      "word": "vorschlagen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "verschieben",
+      "options": [
+        "পিছিয়ে দেওয়া",
+        "ইচ্ছা",
+        "প্রস্তাব",
+        "দেখা হওয়ার জায়গা"
+      ],
+      "answer": 0,
+      "why": "verschieben = পিছিয়ে দেওয়া।",
+      "word": "verschieben"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Treffpunkt",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 0,
+      "why": "der Treffpunkt। বহুবচন: die Treffpunkte।",
+      "word": "treffpunkt"
+    },
+    {
+      "type": "mcq",
+      "prompt": "17:30 জার্মানে কী?",
+      "options": [
+        "halb sechs",
+        "halb fünf",
+        "sechs Uhr dreißig nach",
+        "Viertel sechs"
+      ],
+      "answer": 0,
+      "why": "halb + পরের ঘণ্টা।",
+      "word": "viertel"
+    },
+    {
+      "type": "mcq",
+      "prompt": "17:45 কী?",
+      "options": [
+        "Viertel vor sechs",
+        "Viertel nach fünf",
+        "halb sechs",
+        "fünf vor sechs"
+      ],
+      "answer": 0,
+      "why": "quarter to six।",
+      "word": "viertel"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Das passt ___ nicht.",
+      "options": [
+        "mir",
+        "mich",
+        "ich",
+        "mein"
+      ],
+      "answer": 0,
+      "why": "passen + Dativ।",
+      "word": "passen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Wie wäre es mit …?“ এর পর কী বসে?",
+      "options": [
+        "Dativ",
+        "Akkusativ",
+        "Nominativ",
+        "Genitiv"
+      ],
+      "answer": 0,
+      "why": "mit + Dativ।",
+      "word": "vorschlag"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Hast du Lust, etwas zu unternehmen?“ কী জানতে চায়?",
+      "options": [
+        "কিছু করার ইচ্ছা আছে কিনা",
+        "কিছু কিনতে চাও কিনা",
+        "কিছু বলতে চাও কিনা",
+        "কেউ আছে কিনা"
+      ],
+      "answer": 0,
+      "why": "Lust haben।",
+      "word": "unternehmen"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „আমরা কি পৌনে ছয়টায় দেখা করতে পারি?“",
+      "tiles": [
+        "sechs",
+        "Können",
+        "treffen?",
+        "uns",
+        "wir",
+        "um Viertel vor"
+      ],
+      "answer": [
+        "Können",
+        "wir",
+        "uns",
+        "um Viertel vor",
+        "sechs",
+        "treffen?"
+      ],
+      "why": "Können wir uns … treffen?",
+      "word": "treffpunkt"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

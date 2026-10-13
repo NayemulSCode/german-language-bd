@@ -1,0 +1,1252 @@
+{
+  "level": "A2",
+  "unit": 7,
+  "minutes": 16,
+  "lesson": 3,
+  "id": "a2-u07-l03",
+  "title": {
+    "de": "Je mehr, desto besser?",
+    "bn": "সোশ্যাল মিডিয়া: je … desto",
+    "en": "Social media: the more … the …"
+  },
+  "hook": {
+    "de": "Reden ist Silber, Schweigen ist Gold.",
+    "who": "Sprichwort",
+    "bn": "বলা রুপো, চুপ থাকা সোনা।",
+    "en": "Speech is silver, silence is golden."
+  },
+  "goals": [
+    "je + Komparativ …, desto + Komparativ",
+    "immer + Komparativ: immer besser",
+    "ইন্টারনেটে নিরাপদ থাকা: Datenschutz",
+    "posten, teilen, Profil, Kommentar"
+  ],
+  "words": [
+    {
+      "id": "foto",
+      "de": "Foto",
+      "art": "das",
+      "pl": "die Fotos",
+      "pos": "বিশেষ্য",
+      "bn": "ছবি",
+      "en": "photo"
+    },
+    {
+      "id": "video",
+      "de": "Video",
+      "art": "das",
+      "pl": "die Videos",
+      "pos": "বিশেষ্য",
+      "bn": "ভিডিও",
+      "en": "video"
+    },
+    {
+      "id": "posten",
+      "de": "posten",
+      "pos": "ক্রিয়া · hat gepostet",
+      "bn": "পোস্ট করা",
+      "en": "to post"
+    },
+    {
+      "id": "teilen",
+      "de": "teilen",
+      "pos": "ক্রিয়া · hat geteilt",
+      "bn": "শেয়ার করা, ভাগ করা",
+      "en": "to share"
+    },
+    {
+      "id": "profil",
+      "de": "Profil",
+      "art": "das",
+      "pl": "die Profile",
+      "pos": "বিশেষ্য",
+      "bn": "প্রোফাইল",
+      "en": "profile"
+    },
+    {
+      "id": "kommentar",
+      "de": "Kommentar",
+      "art": "der",
+      "pl": "die Kommentare",
+      "pos": "বিশেষ্য",
+      "bn": "মন্তব্য",
+      "en": "comment"
+    },
+    {
+      "id": "datenschutz",
+      "de": "Datenschutz",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "তথ্য সুরক্ষা",
+      "en": "data protection"
+    },
+    {
+      "id": "oeffentlich",
+      "de": "öffentlich",
+      "pos": "বিশেষণ",
+      "bn": "প্রকাশ্য, সবার জন্য",
+      "en": "public"
+    },
+    {
+      "id": "privat",
+      "de": "privat",
+      "pos": "বিশেষণ",
+      "bn": "ব্যক্তিগত",
+      "en": "private"
+    },
+    {
+      "id": "vorsichtig",
+      "de": "vorsichtig",
+      "pos": "বিশেষণ",
+      "bn": "সতর্ক",
+      "en": "careful"
+    },
+    {
+      "id": "online",
+      "de": "online",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "অনলাইনে",
+      "en": "online"
+    },
+    {
+      "id": "konto",
+      "de": "Konto",
+      "art": "das",
+      "pl": "die Konten",
+      "pos": "বিশেষ্য",
+      "bn": "অ্যাকাউন্ট",
+      "en": "account"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Muna",
+      "bn": [
+        "আমি",
+        "প্রতিদিন",
+        "একটি",
+        "ছবি",
+        "পোস্ট",
+        "করি।"
+      ],
+      "en": [
+        "I",
+        "post",
+        "a",
+        "photo",
+        "every",
+        "day."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "poste",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            1
+          ],
+          "l": "posten",
+          "gb": "পোস্ট করি",
+          "ge": "post",
+          "n": ""
+        },
+        {
+          "t": "jeden Tag",
+          "b": [
+            1
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "jeden Tag",
+          "gb": "প্রতিদিন",
+          "ge": "every day",
+          "n": ""
+        },
+        {
+          "t": "ein Foto.",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "Foto",
+          "gb": "একটি ছবি",
+          "ge": "a photo",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "তুমি",
+        "যত",
+        "বেশি",
+        "পোস্ট",
+        "করো,",
+        "তত",
+        "বেশি",
+        "মানুষ",
+        "তোমার",
+        "জীবন",
+        "জানে।"
+      ],
+      "en": [
+        "The",
+        "more",
+        "you",
+        "post,",
+        "the",
+        "more",
+        "people",
+        "know",
+        "your",
+        "life."
+      ],
+      "de": [
+        {
+          "t": "Je",
+          "b": [
+            1
+          ],
+          "e": [
+            0
+          ],
+          "l": "je",
+          "gb": "যত",
+          "ge": "The",
+          "n": "je + Komparativ … , desto + Komparativ: যত … তত …"
+        },
+        {
+          "t": "mehr",
+          "b": [
+            2
+          ],
+          "e": [
+            1
+          ],
+          "l": "viel",
+          "gb": "বেশি",
+          "ge": "more",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            0
+          ],
+          "e": [
+            2
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "postest,",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            3
+          ],
+          "l": "posten",
+          "gb": "পোস্ট করো",
+          "ge": "post",
+          "n": ""
+        },
+        {
+          "t": "desto",
+          "b": [
+            5
+          ],
+          "e": [
+            4
+          ],
+          "l": "desto",
+          "gb": "তত",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "mehr",
+          "b": [
+            6
+          ],
+          "e": [
+            5
+          ],
+          "l": "mehr",
+          "gb": "বেশি",
+          "ge": "more",
+          "n": ""
+        },
+        {
+          "t": "Leute",
+          "b": [
+            7
+          ],
+          "e": [
+            6
+          ],
+          "l": "Leute",
+          "gb": "মানুষ",
+          "ge": "people",
+          "n": ""
+        },
+        {
+          "t": "kennen",
+          "b": [
+            10
+          ],
+          "e": [
+            7
+          ],
+          "l": "kennen",
+          "gb": "জানে",
+          "ge": "know",
+          "n": ""
+        },
+        {
+          "t": "dein",
+          "b": [
+            8
+          ],
+          "e": [
+            8
+          ],
+          "l": "dein",
+          "gb": "তোমার",
+          "ge": "your",
+          "n": ""
+        },
+        {
+          "t": "Leben.",
+          "b": [
+            9
+          ],
+          "e": [
+            9
+          ],
+          "l": "Leben",
+          "gb": "জীবন",
+          "ge": "life",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "ঠিক,",
+        "কিন্তু",
+        "আমার",
+        "যত",
+        "বেশি",
+        "বন্ধু",
+        "থাকে,",
+        "তত",
+        "বেশি",
+        "মজা",
+        "হয়।"
+      ],
+      "en": [
+        "True,",
+        "but",
+        "the",
+        "more",
+        "friends",
+        "I",
+        "have,",
+        "the",
+        "more",
+        "fun",
+        "it",
+        "is."
+      ],
+      "de": [
+        {
+          "t": "Stimmt,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Stimmt",
+          "gb": "ঠিক",
+          "ge": "True",
+          "n": ""
+        },
+        {
+          "t": "aber",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "aber",
+          "gb": "কিন্তু",
+          "ge": "but",
+          "n": ""
+        },
+        {
+          "t": "je",
+          "b": [
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "je",
+          "gb": "যত",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "mehr",
+          "b": [
+            4
+          ],
+          "e": [
+            3
+          ],
+          "l": "mehr",
+          "gb": "বেশি",
+          "ge": "more",
+          "n": ""
+        },
+        {
+          "t": "Freunde",
+          "b": [
+            5
+          ],
+          "e": [
+            4
+          ],
+          "l": "Freunde",
+          "gb": "বন্ধু",
+          "ge": "friends",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            2
+          ],
+          "e": [
+            5
+          ],
+          "l": "ich",
+          "gb": "আমার",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "habe,",
+          "b": [
+            6
+          ],
+          "e": [
+            6
+          ],
+          "l": "habe",
+          "gb": "থাকে",
+          "ge": "have",
+          "n": ""
+        },
+        {
+          "t": "desto",
+          "b": [
+            7
+          ],
+          "e": [
+            7
+          ],
+          "l": "desto",
+          "gb": "তত",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "mehr",
+          "b": [
+            8
+          ],
+          "e": [
+            8
+          ],
+          "l": "mehr",
+          "gb": "বেশি",
+          "ge": "more",
+          "n": ""
+        },
+        {
+          "t": "Spaß",
+          "b": [
+            9
+          ],
+          "e": [
+            9
+          ],
+          "l": "Spaß",
+          "gb": "মজা",
+          "ge": "fun",
+          "n": ""
+        },
+        {
+          "t": "macht",
+          "b": [
+            10
+          ],
+          "e": [],
+          "l": "macht",
+          "gb": "হয়",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "es",
+          "b": [],
+          "e": [
+            10
+          ],
+          "l": "es",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "it",
+          "n": ""
+        },
+        {
+          "t": "mir.",
+          "b": [],
+          "e": [
+            11
+          ],
+          "l": "mir",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "সাবধান",
+        "থেকো।",
+        "তোমার",
+        "প্রোফাইল",
+        "সবার",
+        "জন্য",
+        "খোলা",
+        "থাকা",
+        "উচিত",
+        "নয়।"
+      ],
+      "en": [
+        "Be",
+        "careful.",
+        "Your",
+        "profile",
+        "should",
+        "not",
+        "be",
+        "public."
+      ],
+      "de": [
+        {
+          "t": "Sei",
+          "b": [
+            1
+          ],
+          "e": [
+            0
+          ],
+          "l": "Sei",
+          "gb": "থেকো",
+          "ge": "Be",
+          "n": ""
+        },
+        {
+          "t": "vorsichtig.",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "vorsichtig",
+          "gb": "সাবধান",
+          "ge": "careful",
+          "n": ""
+        },
+        {
+          "t": "Dein",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "Dein",
+          "gb": "তোমার",
+          "ge": "Your",
+          "n": ""
+        },
+        {
+          "t": "Profil",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "Profil",
+          "gb": "প্রোফাইল",
+          "ge": "profile",
+          "n": ""
+        },
+        {
+          "t": "sollte",
+          "b": [
+            8
+          ],
+          "e": [
+            4
+          ],
+          "l": "sollen",
+          "gb": "উচিত",
+          "ge": "should",
+          "n": ""
+        },
+        {
+          "t": "nicht",
+          "b": [
+            9
+          ],
+          "e": [
+            5
+          ],
+          "l": "nicht",
+          "gb": "নয়",
+          "ge": "not",
+          "n": ""
+        },
+        {
+          "t": "öffentlich",
+          "b": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "öffentlich",
+          "gb": "সবার জন্য খোলা থাকা",
+          "ge": "be public",
+          "n": ""
+        },
+        {
+          "t": "sein.",
+          "b": [],
+          "e": [],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "আমি",
+        "ওটা",
+        "ব্যক্তিগত",
+        "করে",
+        "রেখেছি।",
+        "আমার",
+        "ছবিগুলো",
+        "শুধু",
+        "আমার",
+        "বন্ধুরা",
+        "দেখে।"
+      ],
+      "en": [
+        "I",
+        "have",
+        "made",
+        "it",
+        "private.",
+        "Only",
+        "my",
+        "friends",
+        "see",
+        "my",
+        "photos."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [
+            4
+          ],
+          "e": [
+            1
+          ],
+          "l": "habe",
+          "gb": "রেখেছি",
+          "ge": "have",
+          "n": ""
+        },
+        {
+          "t": "es",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "es",
+          "gb": "ওটা",
+          "ge": "it",
+          "n": ""
+        },
+        {
+          "t": "privat",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "privat",
+          "gb": "ব্যক্তিগত",
+          "ge": "private",
+          "n": ""
+        },
+        {
+          "t": "gestellt.",
+          "b": [
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "gestellt",
+          "gb": "করে",
+          "ge": "made",
+          "n": "privat stellen = ব্যক্তিগত করে দেওয়া"
+        },
+        {
+          "t": "Meine",
+          "b": [
+            5
+          ],
+          "e": [
+            6
+          ],
+          "l": "Meine",
+          "gb": "আমার",
+          "ge": "my",
+          "n": ""
+        },
+        {
+          "t": "Fotos",
+          "b": [
+            6
+          ],
+          "e": [
+            10
+          ],
+          "l": "Fotos",
+          "gb": "ছবিগুলো",
+          "ge": "photos",
+          "n": ""
+        },
+        {
+          "t": "sehen",
+          "b": [
+            10
+          ],
+          "e": [
+            8
+          ],
+          "l": "sehen",
+          "gb": "দেখে",
+          "ge": "see",
+          "n": ""
+        },
+        {
+          "t": "nur",
+          "b": [
+            7
+          ],
+          "e": [
+            5
+          ],
+          "l": "nur",
+          "gb": "শুধু",
+          "ge": "Only",
+          "n": ""
+        },
+        {
+          "t": "meine Freunde.",
+          "b": [
+            9
+          ],
+          "e": [
+            7
+          ],
+          "l": "meine Freunde",
+          "gb": "বন্ধুরা",
+          "ge": "friends",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "ভালো।",
+        "ইন্টারনেট",
+        "যত",
+        "দ্রুত",
+        "হয়,",
+        "তত",
+        "গুরুত্বপূর্ণ",
+        "হয়",
+        "তথ্য",
+        "সুরক্ষা।"
+      ],
+      "en": [
+        "Good.",
+        "The",
+        "faster",
+        "the",
+        "internet",
+        "gets,",
+        "the",
+        "more",
+        "important",
+        "data",
+        "protection",
+        "becomes."
+      ],
+      "de": [
+        {
+          "t": "Gut.",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Gut",
+          "gb": "ভালো",
+          "ge": "Good",
+          "n": ""
+        },
+        {
+          "t": "Je",
+          "b": [
+            2
+          ],
+          "e": [
+            1
+          ],
+          "l": "Je",
+          "gb": "যত",
+          "ge": "The",
+          "n": ""
+        },
+        {
+          "t": "schneller",
+          "b": [
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "schneller",
+          "gb": "দ্রুত",
+          "ge": "faster",
+          "n": ""
+        },
+        {
+          "t": "das Internet",
+          "b": [
+            1
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "das Internet",
+          "gb": "ইন্টারনেট",
+          "ge": "the internet",
+          "n": ""
+        },
+        {
+          "t": "wird,",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "wird",
+          "gb": "হয়",
+          "ge": "gets",
+          "n": ""
+        },
+        {
+          "t": "desto",
+          "b": [
+            5
+          ],
+          "e": [
+            6
+          ],
+          "l": "desto",
+          "gb": "তত",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "wichtiger",
+          "b": [
+            6
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "wichtig",
+          "gb": "গুরুত্বপূর্ণ",
+          "ge": "more important",
+          "n": ""
+        },
+        {
+          "t": "wird",
+          "b": [
+            7
+          ],
+          "e": [
+            11
+          ],
+          "l": "wird",
+          "gb": "হয়",
+          "ge": "becomes",
+          "n": ""
+        },
+        {
+          "t": "der Datenschutz.",
+          "b": [
+            8,
+            9
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "Datenschutz",
+          "gb": "তথ্য সুরক্ষা",
+          "ge": "data protection",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "order",
+      "title": "je … desto: দুই কমপারেটিভ",
+      "text": "je-বাক্য একটি Nebensatz (ক্রিয়া শেষে)। desto-র পরে মূল বাক্য: ক্রিয়া ২য় স্থানে (desto + Komparativ প্রথম অংশ)।",
+      "de": [
+        {
+          "t": "Je mehr du"
+        },
+        {
+          "t": "postest,",
+          "v": true
+        },
+        {
+          "t": "desto mehr Leute"
+        },
+        {
+          "t": "kennen",
+          "v": true
+        },
+        {
+          "t": "dein Leben."
+        }
+      ],
+      "bn": [
+        {
+          "t": "তুমি যত বেশি"
+        },
+        {
+          "t": "পোস্ট করো,",
+          "v": true
+        },
+        {
+          "t": "তত বেশি মানুষ জানে।"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "je … desto — উদাহরণ",
+      "head": [
+        "জার্মান",
+        "বাংলা"
+      ],
+      "rows": [
+        [
+          "Je früher du kommst, desto besser.",
+          "যত আগে আসো, তত ভালো।"
+        ],
+        [
+          "Je mehr ich übe, desto leichter wird Deutsch.",
+          "যত বেশি অনুশীলন করি, জার্মান তত সহজ হয়।"
+        ],
+        [
+          "Je älter man wird, desto ruhiger wird man.",
+          "বয়স যত বাড়ে, মানুষ তত শান্ত হয়।"
+        ],
+        [
+          "Je billiger, desto lieber.",
+          "যত সস্তা, তত পছন্দ।"
+        ]
+      ],
+      "note": "immer + Komparativ = ক্রমশ: „Es wird immer wärmer.“ (ক্রমশ গরম হচ্ছে), „Ich lerne immer mehr.“"
+    },
+    {
+      "type": "table",
+      "title": "অনলাইনে নিরাপদ থাকার শব্দ",
+      "head": [
+        "জার্মান",
+        "বাংলা"
+      ],
+      "rows": [
+        [
+          "das Profil",
+          "প্রোফাইল"
+        ],
+        [
+          "öffentlich / privat",
+          "প্রকাশ্য / ব্যক্তিগত"
+        ],
+        [
+          "posten, teilen, kommentieren",
+          "পোস্ট, শেয়ার, মন্তব্য করা"
+        ],
+        [
+          "der Datenschutz",
+          "তথ্য সুরক্ষা"
+        ],
+        [
+          "das Passwort ändern",
+          "পাসওয়ার্ড বদলানো"
+        ],
+        [
+          "Vorsicht!",
+          "সাবধান!"
+        ]
+      ],
+      "note": "EU-তে আপনার ব্যক্তিগত তথ্যের (DSGVO) সুরক্ষা আছে। অচেনা লিংকে ক্লিক করবেন না এবং পাসওয়ার্ড কাউকে দেবেন না।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "der Datenschutz",
+      "options": [
+        "তথ্য সুরক্ষা",
+        "ভিডিও",
+        "শেয়ার করা",
+        "মন্তব্য"
+      ],
+      "answer": 0,
+      "why": "der Datenschutz = তথ্য সুরক্ষা।",
+      "word": "datenschutz"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "teilen",
+      "options": [
+        "তথ্য সুরক্ষা",
+        "শেয়ার করা",
+        "সতর্ক",
+        "ছবি"
+      ],
+      "answer": 1,
+      "why": "teilen = শেয়ার করা।",
+      "word": "teilen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "öffentlich",
+      "options": [
+        "সতর্ক",
+        "ছবি",
+        "শেয়ার করা",
+        "প্রকাশ্য"
+      ],
+      "answer": 3,
+      "why": "öffentlich = প্রকাশ্য।",
+      "word": "oeffentlich"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Profil",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 2,
+      "why": "das Profil। বহুবচন: die Profile।",
+      "word": "profil"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Je mehr du lernst, ___ besser wirst du.",
+      "options": [
+        "desto",
+        "dann",
+        "weil",
+        "ob"
+      ],
+      "answer": 0,
+      "why": "je … desto।",
+      "word": "kommentar"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„immer besser“ মানে কী?",
+      "options": [
+        "ক্রমশ ভালো",
+        "সবসময় খারাপ",
+        "কখনো ভালো না",
+        "সবচেয়ে ভালো"
+      ],
+      "answer": 0,
+      "why": "immer + Komparativ = ক্রমশ।",
+      "word": "vorsichtig"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক বাক্য কোনটি?",
+      "options": [
+        "Je früher du kommst, desto besser.",
+        "Je früher kommst du, desto besser.",
+        "Je früher du kommst, besser desto.",
+        "Je früh du kommst, desto gut."
+      ],
+      "answer": 0,
+      "why": "je-Satz: ক্রিয়া শেষে।",
+      "word": "online"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক Komparativ বেছে নিন",
+      "sub": "Je schneller das Internet wird, desto ___ wird der Datenschutz.",
+      "options": [
+        "wichtiger",
+        "wichtigere",
+        "mehr wichtig",
+        "am wichtigsten"
+      ],
+      "answer": 0,
+      "why": "wichtig → wichtiger।",
+      "word": "datenschutz"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„privat“ এর বিপরীত কী?",
+      "options": [
+        "öffentlich",
+        "online",
+        "vorsichtig",
+        "kostenlos"
+      ],
+      "answer": 0,
+      "why": "privat ↔ öffentlich।",
+      "word": "privat"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „যত বেশি তুমি পোস্ট করো, তত বেশি মানুষ জানে।“",
+      "tiles": [
+        "Leute",
+        "desto",
+        "du",
+        "postest,",
+        "mehr",
+        "Je",
+        "mehr",
+        "wissen."
+      ],
+      "answer": [
+        "Je",
+        "mehr",
+        "du",
+        "postest,",
+        "desto",
+        "mehr",
+        "Leute",
+        "wissen."
+      ],
+      "why": "je-Satz, dann desto + Hauptsatz।",
+      "word": "posten"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

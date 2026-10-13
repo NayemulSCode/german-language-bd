@@ -1,0 +1,1417 @@
+{
+  "level": "A2",
+  "unit": 10,
+  "minutes": 16,
+  "lesson": 4,
+  "id": "a2-u10-l04",
+  "title": {
+    "de": "Ein Brief vom Amt",
+    "bn": "অফিসের চিঠি বোঝা: Frist, Unterlagen, Genitiv",
+    "en": "Understanding an official letter"
+  },
+  "hook": {
+    "de": "Schwarz auf weiß",
+    "who": "Redensart",
+    "bn": "কালোয় সাদায় লেখা — লিখিত প্রমাণ।",
+    "en": "Black on white — in writing."
+  },
+  "goals": [
+    "চিঠির অংশ: Absender, Betreff, Frist",
+    "ভদ্র আদেশ: Bitte reichen Sie … ein",
+    "Genitiv: des Antrags, der Behörde",
+    "আপনি-নির্দেশ পড়ে বোঝা"
+  ],
+  "words": [
+    {
+      "id": "brief",
+      "de": "Brief",
+      "art": "der",
+      "pl": "die Briefe",
+      "pos": "বিশেষ্য",
+      "bn": "চিঠি",
+      "en": "letter"
+    },
+    {
+      "id": "schreiben",
+      "de": "Schreiben",
+      "art": "das",
+      "pl": "die Schreiben",
+      "pos": "বিশেষ্য",
+      "bn": "চিঠি, নোটিশ (অফিশিয়াল)",
+      "en": "letter, notice"
+    },
+    {
+      "id": "absender",
+      "de": "Absender",
+      "art": "der",
+      "pl": "die Absender",
+      "pos": "বিশেষ্য",
+      "bn": "প্রেরক",
+      "en": "sender"
+    },
+    {
+      "id": "betreff",
+      "de": "Betreff",
+      "art": "der",
+      "pl": "die Betreffe",
+      "pos": "বিশেষ্য",
+      "bn": "বিষয় (চিঠির)",
+      "en": "subject line"
+    },
+    {
+      "id": "frist",
+      "de": "Frist",
+      "art": "die",
+      "pl": "die Fristen",
+      "pos": "বিশেষ্য",
+      "bn": "সময়সীমা",
+      "en": "deadline"
+    },
+    {
+      "id": "einreichen",
+      "de": "einreichen",
+      "pos": "ক্রিয়া · hat eingereicht",
+      "bn": "জমা দেওয়া",
+      "en": "to submit"
+    },
+    {
+      "id": "einhalten",
+      "de": "einhalten",
+      "pos": "ক্রিয়া · hat eingehalten",
+      "bn": "মেনে চলা (সময়সীমা)",
+      "en": "to meet (a deadline)"
+    },
+    {
+      "id": "ablehnen",
+      "de": "ablehnen",
+      "pos": "ক্রিয়া · hat abgelehnt",
+      "bn": "প্রত্যাখ্যান করা",
+      "en": "to reject"
+    },
+    {
+      "id": "widerspruch",
+      "de": "Widerspruch",
+      "art": "der",
+      "pl": "die Widersprüche",
+      "pos": "বিশেষ্য",
+      "bn": "আপত্তি, প্রতিবাদ",
+      "en": "objection"
+    },
+    {
+      "id": "spaetestens",
+      "de": "spätestens",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "অন্তত ততদিনের মধ্যে (শেষ সীমা)",
+      "en": "at the latest"
+    },
+    {
+      "id": "anbei",
+      "de": "anbei",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "সংযুক্ত",
+      "en": "enclosed"
+    },
+    {
+      "id": "mitteilen",
+      "de": "mitteilen",
+      "pos": "ক্রিয়া · hat mitgeteilt",
+      "bn": "জানানো",
+      "en": "to inform"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Saheb",
+      "bn": [
+        "লেনা,",
+        "আমি",
+        "অফিস",
+        "থেকে",
+        "একটি",
+        "চিঠি",
+        "পেয়েছি।",
+        "তুমি",
+        "কি",
+        "ওটা",
+        "বুঝতে",
+        "আমাকে",
+        "সাহায্য",
+        "করতে",
+        "পারো?"
+      ],
+      "en": [
+        "Lena,",
+        "I",
+        "received",
+        "a",
+        "letter",
+        "from",
+        "the",
+        "office.",
+        "Can",
+        "you",
+        "help",
+        "me",
+        "to",
+        "understand",
+        "it?"
+      ],
+      "de": [
+        {
+          "t": "Lena,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Lena",
+          "gb": "লেনা",
+          "ge": "Lena",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [
+            6
+          ],
+          "e": [
+            2
+          ],
+          "l": "habe",
+          "gb": "পেয়েছি",
+          "ge": "received",
+          "n": ""
+        },
+        {
+          "t": "einen Brief",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "Brief",
+          "gb": "একটি চিঠি",
+          "ge": "a letter",
+          "n": ""
+        },
+        {
+          "t": "vom Amt",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            5,
+            6,
+            7
+          ],
+          "l": "vom Amt",
+          "gb": "অফিস থেকে",
+          "ge": "from the office",
+          "n": ""
+        },
+        {
+          "t": "bekommen.",
+          "b": [],
+          "e": [],
+          "l": "bekommen",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Kannst",
+          "b": [
+            14
+          ],
+          "e": [
+            8
+          ],
+          "l": "Kannst",
+          "gb": "পারো",
+          "ge": "Can",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            7
+          ],
+          "e": [
+            9
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "mir",
+          "b": [
+            11
+          ],
+          "e": [
+            11
+          ],
+          "l": "mir",
+          "gb": "আমাকে",
+          "ge": "me",
+          "n": ""
+        },
+        {
+          "t": "helfen,",
+          "b": [
+            12
+          ],
+          "e": [
+            10
+          ],
+          "l": "helfen",
+          "gb": "সাহায্য",
+          "ge": "help",
+          "n": ""
+        },
+        {
+          "t": "ihn",
+          "b": [
+            9
+          ],
+          "e": [
+            14
+          ],
+          "l": "ihn",
+          "gb": "ওটা",
+          "ge": "it",
+          "n": ""
+        },
+        {
+          "t": "zu verstehen?",
+          "b": [
+            10
+          ],
+          "e": [
+            13
+          ],
+          "l": "zu verstehen",
+          "gb": "বুঝতে",
+          "ge": "understand",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "অবশ্যই।",
+        "প্রেরক",
+        "কে?",
+        "আর",
+        "বিষয়ে",
+        "কী",
+        "লেখা",
+        "আছে?"
+      ],
+      "en": [
+        "Of",
+        "course.",
+        "Who",
+        "is",
+        "the",
+        "sender?",
+        "And",
+        "what",
+        "does",
+        "the",
+        "subject",
+        "line",
+        "say?"
+      ],
+      "de": [
+        {
+          "t": "Klar.",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Klar",
+          "gb": "অবশ্যই",
+          "ge": "Of course",
+          "n": ""
+        },
+        {
+          "t": "Wer",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "Wer",
+          "gb": "কে",
+          "ge": "Who",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "der Absender?",
+          "b": [
+            1
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "Absender",
+          "gb": "প্রেরক",
+          "ge": "the sender",
+          "n": ""
+        },
+        {
+          "t": "Und",
+          "b": [
+            3
+          ],
+          "e": [
+            6
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "was",
+          "b": [
+            5
+          ],
+          "e": [
+            7
+          ],
+          "l": "was",
+          "gb": "কী",
+          "ge": "what",
+          "n": ""
+        },
+        {
+          "t": "steht",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            8
+          ],
+          "l": "steht",
+          "gb": "লেখা আছে",
+          "ge": "does",
+          "n": ""
+        },
+        {
+          "t": "im Betreff?",
+          "b": [
+            4
+          ],
+          "e": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "l": "Betreff",
+          "gb": "বিষয়ে",
+          "ge": "the subject line say",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "প্রেরক",
+        "Ausländerbehörde।",
+        "বিষয়ে",
+        "লেখা:",
+        "আপনার",
+        "আবেদন,",
+        "বর্ধিতকরণের",
+        "জন্য।"
+      ],
+      "en": [
+        "The",
+        "sender",
+        "is",
+        "the",
+        "immigration",
+        "office.",
+        "The",
+        "subject",
+        "says:",
+        "“Your",
+        "application",
+        "for",
+        "extension”."
+      ],
+      "de": [
+        {
+          "t": "Der Absender",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Der Absender",
+          "gb": "প্রেরক",
+          "ge": "The sender",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "die Ausländerbehörde.",
+          "b": [
+            1
+          ],
+          "e": [
+            3,
+            4,
+            5
+          ],
+          "l": "Ausländerbehörde",
+          "gb": "Ausländerbehörde",
+          "ge": "the immigration office",
+          "n": ""
+        },
+        {
+          "t": "Im Betreff",
+          "b": [
+            2
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "Im Betreff",
+          "gb": "বিষয়ে",
+          "ge": "The subject",
+          "n": ""
+        },
+        {
+          "t": "steht:",
+          "b": [
+            3
+          ],
+          "e": [
+            8
+          ],
+          "l": "steht",
+          "gb": "লেখা",
+          "ge": "says",
+          "n": ""
+        },
+        {
+          "t": "„Ihr Antrag",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "Antrag",
+          "gb": "আপনার আবেদন",
+          "ge": "“Your application",
+          "n": ""
+        },
+        {
+          "t": "auf Verlängerung“.",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            11,
+            12
+          ],
+          "l": "auf Verlängerung“",
+          "gb": "বর্ধিতকরণের জন্য",
+          "ge": "for extension”",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "ঠিক",
+        "আছে।",
+        "ওরা",
+        "লিখেছে:",
+        "অনুগ্রহ",
+        "করে",
+        "অনুপস্থিত",
+        "কাগজপত্র",
+        "১৫",
+        "মে-র",
+        "মধ্যে",
+        "জমা",
+        "দিন।"
+      ],
+      "en": [
+        "All",
+        "right.",
+        "They",
+        "write:",
+        "“Please",
+        "submit",
+        "the",
+        "missing",
+        "documents",
+        "by",
+        "15",
+        "May",
+        "at",
+        "the",
+        "latest.”"
+      ],
+      "de": [
+        {
+          "t": "Okay.",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Okay",
+          "gb": "ঠিক আছে",
+          "ge": "All right",
+          "n": ""
+        },
+        {
+          "t": "Sie schreiben:",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "Sie schreiben",
+          "gb": "ওরা লিখেছে",
+          "ge": "They write",
+          "n": ""
+        },
+        {
+          "t": "„Bitte",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            4
+          ],
+          "l": "„Bitte",
+          "gb": "অনুগ্রহ করে",
+          "ge": "“Please",
+          "n": ""
+        },
+        {
+          "t": "reichen",
+          "b": [
+            11
+          ],
+          "e": [
+            5
+          ],
+          "l": "einreichen",
+          "gb": "জমা",
+          "ge": "submit",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [
+            12
+          ],
+          "e": [],
+          "l": "Sie",
+          "gb": "দিন",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "die fehlenden Unterlagen",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            6,
+            7,
+            8
+          ],
+          "l": "Unterlagen",
+          "gb": "অনুপস্থিত কাগজপত্র",
+          "ge": "the missing documents",
+          "n": ""
+        },
+        {
+          "t": "bis spätestens",
+          "b": [
+            10
+          ],
+          "e": [
+            9
+          ],
+          "l": "spätestens",
+          "gb": "মধ্যে",
+          "ge": "by",
+          "n": ""
+        },
+        {
+          "t": "15. Mai",
+          "b": [
+            8,
+            9
+          ],
+          "e": [
+            10,
+            11
+          ],
+          "l": "15 Mai",
+          "gb": "১৫ মে-র",
+          "ge": "15 May",
+          "n": ""
+        },
+        {
+          "t": "ein.“",
+          "b": [],
+          "e": [
+            12,
+            13,
+            14
+          ],
+          "l": "ein“",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "at the latest”",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "কোন",
+        "কাগজ",
+        "নেই?"
+      ],
+      "en": [
+        "Which",
+        "document",
+        "is",
+        "missing?"
+      ],
+      "de": [
+        {
+          "t": "Welche",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Welche",
+          "gb": "কোন",
+          "ge": "Which",
+          "n": ""
+        },
+        {
+          "t": "Unterlagen",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "Unterlagen",
+          "gb": "কাগজ",
+          "ge": "document",
+          "n": ""
+        },
+        {
+          "t": "fehlen?",
+          "b": [
+            2
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "fehlen",
+          "gb": "নেই",
+          "ge": "is missing",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "স্বাস্থ্যবিমার",
+        "প্রমাণ।",
+        "যদি",
+        "আপনি",
+        "সময়সীমা",
+        "না",
+        "মানেন,",
+        "আবেদন",
+        "প্রত্যাখ্যান",
+        "হতে",
+        "পারে।"
+      ],
+      "en": [
+        "Proof",
+        "of",
+        "health",
+        "insurance.",
+        "If",
+        "you",
+        "do",
+        "not",
+        "meet",
+        "the",
+        "deadline,",
+        "the",
+        "application",
+        "can",
+        "be",
+        "rejected."
+      ],
+      "de": [
+        {
+          "t": "Ein Nachweis",
+          "b": [
+            1
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ein Nachweis",
+          "gb": "প্রমাণ",
+          "ge": "Proof",
+          "n": ""
+        },
+        {
+          "t": "über",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "über",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "of",
+          "n": ""
+        },
+        {
+          "t": "die Krankenversicherung.",
+          "b": [
+            0
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "die Krankenversicherung",
+          "gb": "স্বাস্থ্যবিমার",
+          "ge": "health insurance",
+          "n": ""
+        },
+        {
+          "t": "Wenn",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "Wenn",
+          "gb": "যদি",
+          "ge": "If",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [
+            3
+          ],
+          "e": [
+            5
+          ],
+          "l": "Sie",
+          "gb": "আপনি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "die Frist",
+          "b": [
+            4
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "Frist",
+          "gb": "সময়সীমা",
+          "ge": "the deadline",
+          "n": ""
+        },
+        {
+          "t": "nicht",
+          "b": [
+            5
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "nicht",
+          "gb": "না",
+          "ge": "do not",
+          "n": ""
+        },
+        {
+          "t": "einhalten,",
+          "b": [
+            6
+          ],
+          "e": [
+            8
+          ],
+          "l": "einhalten",
+          "gb": "মানেন",
+          "ge": "meet",
+          "n": ""
+        },
+        {
+          "t": "kann",
+          "b": [
+            10
+          ],
+          "e": [
+            13
+          ],
+          "l": "kann",
+          "gb": "পারে",
+          "ge": "can",
+          "n": ""
+        },
+        {
+          "t": "der Antrag",
+          "b": [
+            7
+          ],
+          "e": [
+            11,
+            12
+          ],
+          "l": "der Antrag",
+          "gb": "আবেদন",
+          "ge": "the application",
+          "n": ""
+        },
+        {
+          "t": "abgelehnt",
+          "b": [
+            8
+          ],
+          "e": [
+            14,
+            15
+          ],
+          "l": "ablehnen",
+          "gb": "প্রত্যাখ্যান",
+          "ge": "be rejected",
+          "n": ""
+        },
+        {
+          "t": "werden.",
+          "b": [
+            9
+          ],
+          "e": [],
+          "l": "werden",
+          "gb": "হতে",
+          "ge": "(no counterpart)",
+          "n": "Passiv mit können: kann abgelehnt werden"
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "তাহলে",
+        "আমি",
+        "কাল",
+        "কাগজগুলো",
+        "নিয়ে",
+        "যাব।",
+        "আর",
+        "ইমেইলে",
+        "আমি",
+        "লিখব:",
+        "সংযুক্ত",
+        "করে",
+        "আমি",
+        "অনুপস্থিত",
+        "কাগজ",
+        "পাঠাচ্ছি।"
+      ],
+      "en": [
+        "Then",
+        "I",
+        "will",
+        "take",
+        "the",
+        "documents",
+        "there",
+        "tomorrow.",
+        "And",
+        "in",
+        "the",
+        "email",
+        "I",
+        "will",
+        "write:",
+        "“Enclosed",
+        "I",
+        "am",
+        "sending",
+        "the",
+        "missing",
+        "documents.”"
+      ],
+      "de": [
+        {
+          "t": "Dann",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Dann",
+          "gb": "তাহলে",
+          "ge": "Then",
+          "n": ""
+        },
+        {
+          "t": "bringe",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "bringe",
+          "gb": "নিয়ে যাব",
+          "ge": "will take",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "die Unterlagen",
+          "b": [
+            3
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "die Unterlagen",
+          "gb": "কাগজগুলো",
+          "ge": "the documents",
+          "n": ""
+        },
+        {
+          "t": "morgen",
+          "b": [
+            2
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "morgen",
+          "gb": "কাল",
+          "ge": "there tomorrow",
+          "n": ""
+        },
+        {
+          "t": "vorbei.",
+          "b": [],
+          "e": [],
+          "l": "vorbei",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Anbei",
+          "b": [
+            10,
+            11
+          ],
+          "e": [
+            15
+          ],
+          "l": "anbei",
+          "gb": "সংযুক্ত করে",
+          "ge": "“Enclosed",
+          "n": ""
+        },
+        {
+          "t": "sende",
+          "b": [
+            15
+          ],
+          "e": [
+            12,
+            17,
+            18
+          ],
+          "l": "sende",
+          "gb": "পাঠাচ্ছি",
+          "ge": "I am sending",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            8
+          ],
+          "e": [],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "die fehlenden Unterlagen.",
+          "b": [
+            13,
+            14
+          ],
+          "e": [
+            10,
+            20,
+            21
+          ],
+          "l": "die fehlenden Unterlagen",
+          "gb": "অনুপস্থিত কাগজ",
+          "ge": "the missing documents”",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "চিঠির অংশ",
+      "head": [
+        "জার্মান",
+        "বাংলা"
+      ],
+      "rows": [
+        [
+          "Absender",
+          "প্রেরক (উপরে ডানে বা বামে)"
+        ],
+        [
+          "Empfänger / Anschrift",
+          "প্রাপক ও ঠিকানা"
+        ],
+        [
+          "Betreff",
+          "বিষয়"
+        ],
+        [
+          "Sehr geehrte Damen und Herren,",
+          "সম্বোধন"
+        ],
+        [
+          "Frist",
+          "সময়সীমা"
+        ],
+        [
+          "Mit freundlichen Grüßen",
+          "বিদায় সম্ভাষণ"
+        ],
+        [
+          "Anlage / Anbei",
+          "সংযুক্তি"
+        ]
+      ],
+      "note": "অফিসের চিঠিতে তারিখ ও Frist সবচেয়ে গুরুত্বপূর্ণ। Frist মিস করলে আবেদন বাতিল হতে পারে — সন্দেহ হলে ফোন বা ইমেইল করে জানিয়ে দিন।"
+    },
+    {
+      "type": "table",
+      "title": "ভদ্র নির্দেশ (চিঠিতে)",
+      "head": [
+        "জার্মান",
+        "বাংলা"
+      ],
+      "rows": [
+        [
+          "Bitte reichen Sie die Unterlagen bis zum 15. Mai ein.",
+          "১৫ মে-র মধ্যে কাগজ জমা দিন।"
+        ],
+        [
+          "Bitte teilen Sie uns Ihre Adresse mit.",
+          "আপনার ঠিকানা আমাদের জানান।"
+        ],
+        [
+          "Wenn Sie die Frist nicht einhalten, kann der Antrag abgelehnt werden.",
+          "সময়সীমা না মানলে আবেদন প্রত্যাখ্যাত হতে পারে।"
+        ],
+        [
+          "Gegen diese Entscheidung können Sie Widerspruch einlegen.",
+          "এই সিদ্ধান্তের বিরুদ্ধে আপনি আপত্তি জানাতে পারেন।"
+        ]
+      ],
+      "note": "ভাঙা ক্রিয়া: einreichen → reichen Sie … ein; mitteilen → teilen Sie mit; einhalten → halten … ein।"
+    },
+    {
+      "type": "table",
+      "title": "Genitiv: কার? (শুধু চিনতে)",
+      "head": [
+        "",
+        "m",
+        "n",
+        "f",
+        "Plural"
+      ],
+      "rows": [
+        [
+          "Nominativ",
+          "der Antrag",
+          "das Amt",
+          "die Behörde",
+          "die Anträge"
+        ],
+        [
+          "Genitiv",
+          "des Antrags",
+          "des Amtes",
+          "der Behörde",
+          "der Anträge"
+        ]
+      ],
+      "note": "Genitiv = „-র“ (কার?): der Antrag des Mannes = পুরুষটির আবেদন। m/n-এ বিশেষ্যে -s বা -es যোগ হয়। অফিসের চিঠিতে বেশি দেখা যায়; কথায় প্রায়ই „von + Dativ“ বলা হয় (der Antrag von meinem Bruder)।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "die Frist",
+      "options": [
+        "অন্তত ততদিনের মধ্যে",
+        "জানানো",
+        "প্রেরক",
+        "সময়সীমা"
+      ],
+      "answer": 3,
+      "why": "die Frist = সময়সীমা।",
+      "word": "frist"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "einreichen",
+      "options": [
+        "জমা দেওয়া",
+        "আপত্তি",
+        "জানানো",
+        "বিষয়"
+      ],
+      "answer": 0,
+      "why": "einreichen = জমা দেওয়া।",
+      "word": "einreichen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "der Widerspruch",
+      "options": [
+        "প্রেরক",
+        "জমা দেওয়া",
+        "অন্তত ততদিনের মধ্যে",
+        "আপত্তি"
+      ],
+      "answer": 3,
+      "why": "der Widerspruch = আপত্তি।",
+      "word": "widerspruch"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Betreff",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 0,
+      "why": "der Betreff। বহুবচন: die Betreffe।",
+      "word": "betreff"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Bitte reichen Sie die Unterlagen ein“ কখন বলা হয়?",
+      "options": [
+        "কাগজ জমা দিতে বললে",
+        "কাগজ ছিঁড়তে বললে",
+        "কাগজ পড়তে বললে",
+        "কাগজ হারালে"
+      ],
+      "answer": 0,
+      "why": "einreichen = submit।",
+      "word": "einreichen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Genitiv: „des Antrags“ মানে কী?",
+      "options": [
+        "আবেদনের",
+        "আবেদনকে",
+        "আবেদন",
+        "আবেদনে"
+      ],
+      "answer": 0,
+      "why": "des + -s = -র।",
+      "word": "betreff"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„bis spätestens 15. Mai“ মানে কী?",
+      "options": [
+        "১৫ মে-র মধ্যে, তার পরে নয়",
+        "১৫ মে-র পরে",
+        "১৫ মে ছাড়া",
+        "১৫ মে প্রথম দিন"
+      ],
+      "answer": 0,
+      "why": "spätestens = at the latest।",
+      "word": "spaetestens"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক বাক্য কোনটি?",
+      "options": [
+        "Der Antrag kann abgelehnt werden.",
+        "Der Antrag kann werden abgelehnt.",
+        "Der Antrag abgelehnt kann werden.",
+        "Kann der abgelehnt Antrag werden."
+      ],
+      "answer": 0,
+      "why": "Modalverb ২য়, Partizip + werden শেষে।",
+      "word": "ablehnen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Absender কে?",
+      "options": [
+        "যে চিঠি পাঠায়",
+        "যে চিঠি পায়",
+        "যে চিঠি লেখে না",
+        "যে ডাকঘরে কাজ করে"
+      ],
+      "answer": 0,
+      "why": "der Absender = sender।",
+      "word": "absender"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „অনুগ্রহ করে কাগজগুলো জমা দিন।“",
+      "tiles": [
+        "ein.",
+        "die Unterlagen",
+        "Bitte",
+        "Sie",
+        "reichen"
+      ],
+      "answer": [
+        "Bitte",
+        "reichen",
+        "Sie",
+        "die Unterlagen",
+        "ein."
+      ],
+      "why": "ভাঙা ক্রিয়া: einreichen → reichen … ein।",
+      "word": "einreichen"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

@@ -34,4 +34,11 @@ export const UNIT_TITLES: Record<string, { de: string; bn: string }> = {
   'A2-3': { de: 'Reisen planen', bn: 'ভ্রমণের পরিকল্পনা (Wechselpräpositionen, Vergleiche)' },
   'A2-4': { de: 'Gesundheit', bn: 'স্বাস্থ্য ও ডাক্তার (reflexive Verben, dass)' },
   'A2-5': { de: 'Wohnungssuche', bn: 'বাসা খোঁজা (Adjektive, Relativsätze)' },
+  'A2-6': { de: 'Feste feiern', bn: 'উৎসব ও নিমন্ত্রণ (obwohl, Konjunktiv II)' },
+  'A2-7': { de: 'Medien', bn: 'মিডিয়া ও প্রযুক্তি (Passiv, je … desto)' },
+  'A2-8': { de: 'Lernen', bn: 'শেখা ও পরীক্ষা (zu + Infinitiv, um … zu)' },
+  'A2-9': { de: 'Natur und Wetter', bn: 'প্রকৃতি, আবহাওয়া ও পরিবেশ' },
+  'A2-10': { de: 'Ämter', bn: 'অফিস-আদালত (Anmeldung, Bank, Briefe)' },
+  'A2-11': { de: 'Freunde', bn: 'বন্ধুত্ব (Adjektive, sondern)' },
+  'A2-12': { de: 'Pläne', bn: 'ভবিষ্যৎ পরিকল্পনা ও A2 রিভিউ' },
 }

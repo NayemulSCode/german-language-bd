@@ -1,0 +1,1456 @@
+{
+  "level": "A2",
+  "unit": 12,
+  "minutes": 16,
+  "lesson": 2,
+  "id": "a2-u12-l02",
+  "title": {
+    "de": "Arbeit in Deutschland suchen",
+    "bn": "জার্মানিতে কাজ খোঁজা (Chancenkarte)",
+    "en": "Looking for work in Germany"
+  },
+  "hook": {
+    "de": "Wer sucht, der findet.",
+    "who": "Sprichwort",
+    "bn": "যে খোঁজে, সে পায়।",
+    "en": "Whoever seeks, finds."
+  },
+  "goals": [
+    "Chancenkarte সম্পর্কে সাধারণ ধারণা (নিয়ম বদলায়, অফিশিয়াল সাইট দেখুন)",
+    "deshalb = সেজন্য (ক্রিয়া ২য় স্থানে)",
+    "Berufserfahrung, Sprachkenntnisse, Zeugnis, Anerkennung",
+    "Ich suche eine Stelle als …"
+  ],
+  "words": [
+    {
+      "id": "chancenkarte",
+      "de": "Chancenkarte",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "অপরচুনিটি কার্ড (কাজ খুঁজতে আসার পয়েন্ট-ভিত্তিক সুযোগ)",
+      "en": "Opportunity Card"
+    },
+    {
+      "id": "punkt",
+      "de": "Punkt",
+      "art": "der",
+      "pl": "die Punkte",
+      "pos": "বিশেষ্য",
+      "bn": "পয়েন্ট",
+      "en": "point"
+    },
+    {
+      "id": "sprachkenntnisse",
+      "de": "Sprachkenntnisse",
+      "art": "die",
+      "pos": "বিশেষ্য, বহুবচন",
+      "bn": "ভাষাজ্ঞান",
+      "en": "language skills"
+    },
+    {
+      "id": "berufserfahrung",
+      "de": "Berufserfahrung",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "কাজের অভিজ্ঞতা",
+      "en": "work experience"
+    },
+    {
+      "id": "alter",
+      "de": "Alter",
+      "art": "das",
+      "pos": "বিশেষ্য",
+      "bn": "বয়স",
+      "en": "age"
+    },
+    {
+      "id": "stelle",
+      "de": "Stelle",
+      "art": "die",
+      "pl": "die Stellen",
+      "pos": "বিশেষ্য",
+      "bn": "চাকরির পদ",
+      "en": "job, position"
+    },
+    {
+      "id": "techniker",
+      "de": "Techniker",
+      "art": "der",
+      "pl": "die Techniker",
+      "pos": "বিশেষ্য",
+      "bn": "টেকনিশিয়ান",
+      "en": "technician"
+    },
+    {
+      "id": "zeugnis",
+      "de": "Zeugnis",
+      "art": "das",
+      "pl": "die Zeugnisse",
+      "pos": "বিশেষ্য",
+      "bn": "সনদ, রেজাল্টের কাগজ",
+      "en": "certificate, reference"
+    },
+    {
+      "id": "anerkennung",
+      "de": "Anerkennung",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "স্বীকৃতি (যোগ্যতার)",
+      "en": "recognition"
+    },
+    {
+      "id": "deshalb",
+      "de": "deshalb",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "সেজন্য",
+      "en": "therefore"
+    },
+    {
+      "id": "arbeit",
+      "de": "Arbeit",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "কাজ",
+      "en": "work"
+    },
+    {
+      "id": "voraussetzung",
+      "de": "Voraussetzung",
+      "art": "die",
+      "pl": "die Voraussetzungen",
+      "pos": "বিশেষ্য",
+      "bn": "শর্ত",
+      "en": "requirement"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Muna",
+      "bn": [
+        "তুমি",
+        "কি",
+        "জানো",
+        "Chancenkarte",
+        "দিয়ে",
+        "কী",
+        "করবে?"
+      ],
+      "en": [
+        "Do",
+        "you",
+        "know",
+        "what",
+        "you",
+        "will",
+        "do",
+        "with",
+        "the",
+        "Chancenkarte?"
+      ],
+      "de": [
+        {
+          "t": "Weißt",
+          "b": [
+            2
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "wissen",
+          "gb": "জানো",
+          "ge": "Do you know",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            0
+          ],
+          "e": [],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "schon,",
+          "b": [
+            1
+          ],
+          "e": [],
+          "l": "schon",
+          "gb": "কি",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "was",
+          "b": [
+            5
+          ],
+          "e": [
+            3
+          ],
+          "l": "was",
+          "gb": "কী",
+          "ge": "what",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            0
+          ],
+          "e": [
+            4
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "mit der Chancenkarte",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            7,
+            8,
+            9
+          ],
+          "l": "Chancenkarte",
+          "gb": "Chancenkarte দিয়ে",
+          "ge": "with the Chancenkarte",
+          "n": ""
+        },
+        {
+          "t": "machst?",
+          "b": [
+            6
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "machst",
+          "gb": "করবে",
+          "ge": "will do",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "হ্যাঁ,",
+        "আমি",
+        "জার্মানিতে",
+        "কাজ",
+        "খুঁজতে",
+        "চাই।",
+        "এর",
+        "জন্য",
+        "আমার",
+        "যথেষ্ট",
+        "পয়েন্ট",
+        "লাগবে।"
+      ],
+      "en": [
+        "Yes,",
+        "I",
+        "want",
+        "to",
+        "look",
+        "for",
+        "work",
+        "in",
+        "Germany.",
+        "For",
+        "that",
+        "I",
+        "need",
+        "enough",
+        "points."
+      ],
+      "de": [
+        {
+          "t": "Ja,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ja",
+          "gb": "হ্যাঁ",
+          "ge": "Yes",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "will",
+          "b": [
+            5
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "will",
+          "gb": "চাই",
+          "ge": "want to",
+          "n": ""
+        },
+        {
+          "t": "in Deutschland",
+          "b": [
+            2
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "in Deutschland",
+          "gb": "জার্মানিতে",
+          "ge": "in Germany",
+          "n": ""
+        },
+        {
+          "t": "Arbeit",
+          "b": [
+            3
+          ],
+          "e": [
+            6
+          ],
+          "l": "Arbeit",
+          "gb": "কাজ",
+          "ge": "work",
+          "n": ""
+        },
+        {
+          "t": "suchen.",
+          "b": [
+            4
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "suchen",
+          "gb": "খুঁজতে",
+          "ge": "look for",
+          "n": ""
+        },
+        {
+          "t": "Dafür",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "Dafür",
+          "gb": "এর জন্য",
+          "ge": "For that",
+          "n": ""
+        },
+        {
+          "t": "brauche",
+          "b": [
+            11
+          ],
+          "e": [
+            12
+          ],
+          "l": "brauche",
+          "gb": "লাগবে",
+          "ge": "need",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            8
+          ],
+          "e": [
+            11
+          ],
+          "l": "ich",
+          "gb": "আমার",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "genug",
+          "b": [
+            9
+          ],
+          "e": [
+            13
+          ],
+          "l": "genug",
+          "gb": "যথেষ্ট",
+          "ge": "enough",
+          "n": ""
+        },
+        {
+          "t": "Punkte.",
+          "b": [
+            10
+          ],
+          "e": [
+            14
+          ],
+          "l": "Punkt",
+          "gb": "পয়েন্ট",
+          "ge": "points",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "কীসের",
+        "জন্য",
+        "পয়েন্ট",
+        "আছে?",
+        "আমার",
+        "মনে",
+        "হয়",
+        "ভাষাজ্ঞান,",
+        "শিক্ষা,",
+        "অভিজ্ঞতা",
+        "আর",
+        "বয়সের",
+        "জন্য।"
+      ],
+      "en": [
+        "What",
+        "are",
+        "the",
+        "points",
+        "for?",
+        "I",
+        "think",
+        "for",
+        "language",
+        "skills,",
+        "education,",
+        "experience",
+        "and",
+        "age."
+      ],
+      "de": [
+        {
+          "t": "Wofür",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "l": "Wofür",
+          "gb": "কীসের জন্য",
+          "ge": "What are the points for",
+          "n": "Wofür? = কীসের জন্য? (wo + für)"
+        },
+        {
+          "t": "gibt es",
+          "b": [
+            3
+          ],
+          "e": [],
+          "l": "gibt es",
+          "gb": "আছে",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Punkte?",
+          "b": [
+            2
+          ],
+          "e": [],
+          "l": "Punkte",
+          "gb": "পয়েন্ট",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Ich glaube,",
+          "b": [
+            4,
+            5,
+            6
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "Ich glaube",
+          "gb": "আমার মনে হয়",
+          "ge": "I think",
+          "n": ""
+        },
+        {
+          "t": "für Sprachkenntnisse,",
+          "b": [
+            7
+          ],
+          "e": [
+            7,
+            8,
+            9
+          ],
+          "l": "Sprachkenntnisse",
+          "gb": "ভাষাজ্ঞান",
+          "ge": "for language skills",
+          "n": ""
+        },
+        {
+          "t": "Ausbildung,",
+          "b": [
+            8
+          ],
+          "e": [
+            10
+          ],
+          "l": "Ausbildung",
+          "gb": "শিক্ষা",
+          "ge": "education",
+          "n": ""
+        },
+        {
+          "t": "Berufserfahrung",
+          "b": [
+            9
+          ],
+          "e": [
+            11
+          ],
+          "l": "Berufserfahrung",
+          "gb": "অভিজ্ঞতা",
+          "ge": "experience",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            10
+          ],
+          "e": [
+            12
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "Alter.",
+          "b": [
+            11,
+            12
+          ],
+          "e": [
+            13
+          ],
+          "l": "Alter",
+          "gb": "বয়সের জন্য",
+          "ge": "age",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "হ্যাঁ।",
+        "সেজন্য",
+        "আমি",
+        "জার্মান",
+        "শিখছি।",
+        "নিয়ম",
+        "বদলায়,",
+        "তাই",
+        "আমি",
+        "অফিশিয়াল",
+        "সাইট",
+        "„Make",
+        "it",
+        "in",
+        "Germany“",
+        "পড়ি।"
+      ],
+      "en": [
+        "Yes.",
+        "That",
+        "is",
+        "why",
+        "I",
+        "am",
+        "learning",
+        "German.",
+        "The",
+        "rules",
+        "change,",
+        "so",
+        "I",
+        "read",
+        "the",
+        "official",
+        "site",
+        "“Make",
+        "it",
+        "in",
+        "Germany”."
+      ],
+      "de": [
+        {
+          "t": "Ja.",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ja",
+          "gb": "হ্যাঁ",
+          "ge": "Yes",
+          "n": ""
+        },
+        {
+          "t": "Deshalb",
+          "b": [
+            1
+          ],
+          "e": [
+            1,
+            2,
+            3
+          ],
+          "l": "deshalb",
+          "gb": "সেজন্য",
+          "ge": "That is why",
+          "n": "deshalb + ক্রিয়া ২য় স্থানে: Deshalb lerne ich Deutsch"
+        },
+        {
+          "t": "lerne",
+          "b": [
+            4
+          ],
+          "e": [
+            4,
+            5,
+            6
+          ],
+          "l": "lerne",
+          "gb": "শিখছি",
+          "ge": "I am learning",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            2
+          ],
+          "e": [],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Deutsch.",
+          "b": [
+            3
+          ],
+          "e": [
+            7
+          ],
+          "l": "Deutsch",
+          "gb": "জার্মান",
+          "ge": "German",
+          "n": ""
+        },
+        {
+          "t": "Die Regeln",
+          "b": [
+            5
+          ],
+          "e": [
+            8,
+            9
+          ],
+          "l": "Die Regeln",
+          "gb": "নিয়ম",
+          "ge": "The rules",
+          "n": ""
+        },
+        {
+          "t": "ändern sich,",
+          "b": [
+            6
+          ],
+          "e": [
+            10
+          ],
+          "l": "ändern sich",
+          "gb": "বদলায়",
+          "ge": "change",
+          "n": ""
+        },
+        {
+          "t": "deshalb",
+          "b": [
+            7
+          ],
+          "e": [
+            11
+          ],
+          "l": "deshalb",
+          "gb": "তাই",
+          "ge": "so",
+          "n": ""
+        },
+        {
+          "t": "lese",
+          "b": [
+            15
+          ],
+          "e": [
+            13
+          ],
+          "l": "lese",
+          "gb": "পড়ি",
+          "ge": "read",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            8
+          ],
+          "e": [
+            12
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "die offizielle Seite",
+          "b": [
+            9,
+            10
+          ],
+          "e": [
+            14,
+            15,
+            16
+          ],
+          "l": "die offizielle Seite",
+          "gb": "অফিশিয়াল সাইট",
+          "ge": "the official site",
+          "n": ""
+        },
+        {
+          "t": "„Make it in Germany“.",
+          "b": [
+            11,
+            12,
+            13,
+            14
+          ],
+          "e": [
+            17,
+            18,
+            19,
+            20
+          ],
+          "l": "„Make it in Germany“",
+          "gb": "„Make it in Germany“",
+          "ge": "“Make it in Germany”",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "তুমি",
+        "কেমন",
+        "কাজ",
+        "খুঁজছ?"
+      ],
+      "en": [
+        "What",
+        "kind",
+        "of",
+        "work",
+        "are",
+        "you",
+        "looking",
+        "for?"
+      ],
+      "de": [
+        {
+          "t": "Was für eine Arbeit",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "l": "Was für eine Arbeit",
+          "gb": "কেমন কাজ",
+          "ge": "What kind of work",
+          "n": ""
+        },
+        {
+          "t": "suchst",
+          "b": [
+            3
+          ],
+          "e": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "l": "suchen",
+          "gb": "খুঁজছ",
+          "ge": "are you looking for",
+          "n": ""
+        },
+        {
+          "t": "du?",
+          "b": [
+            0
+          ],
+          "e": [],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "বাংলাদেশে",
+        "আমি",
+        "টেকনিশিয়ান",
+        "ছিলাম।",
+        "আমি",
+        "একটি",
+        "কোম্পানিতে",
+        "তিন",
+        "বছর",
+        "কাজ",
+        "করেছি।",
+        "এখানে",
+        "আমি",
+        "ইলেকট্রিশিয়ানের",
+        "পদ",
+        "খুঁজছি।"
+      ],
+      "en": [
+        "In",
+        "Bangladesh",
+        "I",
+        "was",
+        "a",
+        "technician.",
+        "I",
+        "worked",
+        "for",
+        "three",
+        "years",
+        "at",
+        "a",
+        "company.",
+        "Here",
+        "I",
+        "am",
+        "looking",
+        "for",
+        "a",
+        "position",
+        "as",
+        "an",
+        "electrician."
+      ],
+      "de": [
+        {
+          "t": "In Bangladesch",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "In Bangladesch",
+          "gb": "বাংলাদেশে",
+          "ge": "In Bangladesh",
+          "n": ""
+        },
+        {
+          "t": "war",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "war",
+          "gb": "ছিলাম",
+          "ge": "was",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "Techniker.",
+          "b": [
+            2
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "Techniker",
+          "gb": "টেকনিশিয়ান",
+          "ge": "a technician",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            4
+          ],
+          "e": [
+            6
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [],
+          "e": [],
+          "l": "habe",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "drei Jahre",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            8,
+            9,
+            10
+          ],
+          "l": "drei Jahre",
+          "gb": "তিন বছর",
+          "ge": "for three years",
+          "n": ""
+        },
+        {
+          "t": "bei einer Firma",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            11,
+            12,
+            13
+          ],
+          "l": "bei einer Firma",
+          "gb": "একটি কোম্পানিতে",
+          "ge": "at a company",
+          "n": ""
+        },
+        {
+          "t": "gearbeitet.",
+          "b": [
+            9,
+            10
+          ],
+          "e": [
+            7
+          ],
+          "l": "arbeiten",
+          "gb": "কাজ করেছি",
+          "ge": "worked",
+          "n": ""
+        },
+        {
+          "t": "Hier",
+          "b": [
+            11
+          ],
+          "e": [
+            14
+          ],
+          "l": "Hier",
+          "gb": "এখানে",
+          "ge": "Here",
+          "n": ""
+        },
+        {
+          "t": "suche",
+          "b": [
+            15
+          ],
+          "e": [
+            16,
+            17,
+            18
+          ],
+          "l": "suchen",
+          "gb": "খুঁজছি",
+          "ge": "am looking for",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            12
+          ],
+          "e": [
+            15
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "eine Stelle",
+          "b": [
+            14
+          ],
+          "e": [
+            19,
+            20
+          ],
+          "l": "Stelle",
+          "gb": "পদ",
+          "ge": "a position",
+          "n": ""
+        },
+        {
+          "t": "als Elektriker.",
+          "b": [
+            13
+          ],
+          "e": [
+            21,
+            22,
+            23
+          ],
+          "l": "Elektriker",
+          "gb": "ইলেকট্রিশিয়ানের",
+          "ge": "as an electrician",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "হয়তো",
+        "তোমার",
+        "সনদ",
+        "স্বীকৃতি",
+        "করিয়ে",
+        "নিতে",
+        "হবে।",
+        "এটা",
+        "আগে",
+        "থেকে",
+        "খোঁজ",
+        "নাও।"
+      ],
+      "en": [
+        "You",
+        "may",
+        "have",
+        "to",
+        "get",
+        "your",
+        "certificates",
+        "recognised.",
+        "Find",
+        "out",
+        "about",
+        "that",
+        "in",
+        "advance."
+      ],
+      "de": [
+        {
+          "t": "Vielleicht",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Vielleicht",
+          "gb": "হয়তো",
+          "ge": "You may",
+          "n": ""
+        },
+        {
+          "t": "musst",
+          "b": [
+            6
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "musst",
+          "gb": "হবে",
+          "ge": "have to",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            1
+          ],
+          "e": [],
+          "l": "du",
+          "gb": "তোমার",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "deine Zeugnisse",
+          "b": [
+            2
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "Zeugnis",
+          "gb": "সনদ",
+          "ge": "your certificates",
+          "n": ""
+        },
+        {
+          "t": "anerkennen",
+          "b": [
+            3
+          ],
+          "e": [
+            7
+          ],
+          "l": "Anerkennung",
+          "gb": "স্বীকৃতি",
+          "ge": "recognised",
+          "n": ""
+        },
+        {
+          "t": "lassen.",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            4
+          ],
+          "l": "lassen",
+          "gb": "করিয়ে নিতে",
+          "ge": "get",
+          "n": "anerkennen lassen = স্বীকৃতি করিয়ে নেওয়া"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "Chancenkarte — Grundidee (ohne Gewähr)",
+      "head": [
+        "Thema",
+        "Idee"
+      ],
+      "rows": [
+        [
+          "Was ist das?",
+          "Ein Aufenthaltstitel, mit dem man in Deutschland Arbeit suchen darf, wenn man genug Punkte hat."
+        ],
+        [
+          "Punkte-Kategorien (Beispiele)",
+          "Qualifikation, Berufserfahrung, Sprachkenntnisse (Deutsch / Englisch), Alter, Bezug zu Deutschland"
+        ],
+        [
+          "Wichtig",
+          "Regeln und Punktzahlen können sich ändern."
+        ],
+        [
+          "Offizielle Info",
+          "Make it in Germany · Auswärtiges Amt · deutsche Botschaft"
+        ],
+        [
+          "Außerdem",
+          "Oft braucht man Nachweise zu Lebensunterhalt, Zeugnissen, Krankenversicherung."
+        ]
+      ],
+      "note": "এই অ্যাপ আইনি পরামর্শ নয়। শর্ত ও পয়েন্ট সর্বদা অফিশিয়াল সাইটে দেখে নিন।"
+    },
+    {
+      "type": "order",
+      "title": "deshalb / deswegen: ক্রিয়া ২য় স্থানে",
+      "text": "deshalb ক্রিয়াবিশেষণ — Nebensatz নয়। বাক্যের শুরুতে বসলে কর্তা ক্রিয়ার পরে আসে।",
+      "de": [
+        {
+          "t": "Ich möchte arbeiten,"
+        },
+        {
+          "t": "deshalb"
+        },
+        {
+          "t": "lerne",
+          "v": true
+        },
+        {
+          "t": "ich Deutsch."
+        }
+      ],
+      "bn": [
+        {
+          "t": "আমি কাজ করতে চাই,"
+        },
+        {
+          "t": "সেজন্য আমি জার্মান শিখি।"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "weil / deshalb — পার্থক্য",
+      "head": [
+        "",
+        "weil",
+        "deshalb"
+      ],
+      "rows": [
+        [
+          "ধরন",
+          "Nebensatz (ক্রিয়া শেষে)",
+          "Hauptsatz (ক্রিয়া ২য়)"
+        ],
+        [
+          "উদাহরণ",
+          "Ich lerne Deutsch, weil ich arbeiten möchte.",
+          "Ich möchte arbeiten, deshalb lerne ich Deutsch."
+        ],
+        [
+          "কারণ/ফল",
+          "কারণ আগে বা পরে",
+          "ফল পরে"
+        ]
+      ],
+      "note": "দুটোই A2-র জন্য জরুরি। deshalb ছাড়া: „darum, deswegen, daher“ প্রায় একই।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "die Berufserfahrung",
+      "options": [
+        "অপরচুনিটি কার্ড",
+        "ভাষাজ্ঞান",
+        "কাজের অভিজ্ঞতা",
+        "চাকরির পদ"
+      ],
+      "answer": 2,
+      "why": "die Berufserfahrung = কাজের অভিজ্ঞতা।",
+      "word": "berufserfahrung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "die Voraussetzung",
+      "options": [
+        "অপরচুনিটি কার্ড",
+        "কাজের অভিজ্ঞতা",
+        "শর্ত",
+        "টেকনিশিয়ান"
+      ],
+      "answer": 2,
+      "why": "die Voraussetzung = শর্ত।",
+      "word": "voraussetzung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "das Alter",
+      "options": [
+        "কাজের অভিজ্ঞতা",
+        "সনদ",
+        "কাজ",
+        "বয়স"
+      ],
+      "answer": 3,
+      "why": "das Alter = বয়স।",
+      "word": "alter"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Chancenkarte",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Chancenkarte।",
+      "word": "chancenkarte"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক বাক্য কোনটি?",
+      "options": [
+        "Deshalb lerne ich Deutsch.",
+        "Deshalb ich lerne Deutsch.",
+        "Deshalb Deutsch lerne ich.",
+        "Ich deshalb Deutsch lerne."
+      ],
+      "answer": 0,
+      "why": "deshalb + ক্রিয়া ২য়।",
+      "word": "deshalb"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Wofür gibt es Punkte?“ মানে কী?",
+      "options": [
+        "কীসের জন্য পয়েন্ট আছে?",
+        "কত পয়েন্ট আছে?",
+        "কখন পয়েন্ট আছে?",
+        "কে পয়েন্ট দেয়?"
+      ],
+      "answer": 0,
+      "why": "Wofür = কীসের জন্য।",
+      "word": "punkt"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Chancenkarte সম্পর্কে সঠিক কথা কী?",
+      "options": [
+        "নিয়ম বদলাতে পারে — অফিশিয়াল সাইট দেখুন",
+        "নিয়ম কখনো বদলায় না",
+        "অ্যাপই চূড়ান্ত তথ্য",
+        "কোনো পয়েন্ট লাগে না"
+      ],
+      "answer": 0,
+      "why": "ব্যবহারের আগে যাচাই।",
+      "word": "chancenkarte"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Zeugnis“ মানে কী?",
+      "options": [
+        "সনদ, রেজাল্টের কাগজ",
+        "পোস্টকার্ড",
+        "টেলিফোন",
+        "টিকিট"
+      ],
+      "answer": 0,
+      "why": "das Zeugnis।",
+      "word": "zeugnis"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক বাক্য কোনটি?",
+      "options": [
+        "Ich suche eine Stelle als Elektriker.",
+        "Ich suche als Elektriker eine Stelle suche.",
+        "Ich eine Stelle suche als Elektriker.",
+        "Suche ich eine Stelle Elektriker als."
+      ],
+      "answer": 0,
+      "why": "Stelle als + Beruf।",
+      "word": "stelle"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „সেজন্য আমি জার্মান শিখি।“",
+      "tiles": [
+        "ich",
+        "lerne",
+        "Deshalb",
+        "Deutsch."
+      ],
+      "answer": [
+        "Deshalb",
+        "lerne",
+        "ich",
+        "Deutsch."
+      ],
+      "why": "Deshalb + ক্রিয়া + কর্তা।",
+      "word": "deshalb"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

@@ -1,0 +1,1060 @@
+{
+  "level": "A2",
+  "unit": 6,
+  "minutes": 16,
+  "lesson": 2,
+  "id": "a2-u06-l02",
+  "title": {
+    "de": "Was schenkst du ihr?",
+    "bn": "উপহার: Dativ ও Akkusativ একসাথে",
+    "en": "Gifts: dative and accusative together"
+  },
+  "hook": {
+    "de": "Kleine Geschenke erhalten die Freundschaft.",
+    "who": "Sprichwort",
+    "bn": "ছোট উপহারেই বন্ধুত্ব টেকে।",
+    "en": "Small gifts keep friendship alive."
+  },
+  "goals": [
+    "দুই কর্ম: Ich schenke ihr ein Buch",
+    "Pronomen-ক্রম: Ich gebe es ihr",
+    "শুভেচ্ছা: Alles Gute zum Geburtstag",
+    "gratulieren, danken (+ Dativ)"
+  ],
+  "words": [
+    {
+      "id": "geschenk",
+      "de": "Geschenk",
+      "art": "das",
+      "pl": "die Geschenke",
+      "pos": "বিশেষ্য",
+      "bn": "উপহার",
+      "en": "gift"
+    },
+    {
+      "id": "schenken",
+      "de": "schenken",
+      "pos": "ক্রিয়া · hat geschenkt",
+      "bn": "উপহার দেওয়া",
+      "en": "to give (as a gift)"
+    },
+    {
+      "id": "blume",
+      "de": "Blume",
+      "art": "die",
+      "pl": "die Blumen",
+      "pos": "বিশেষ্য",
+      "bn": "ফুল",
+      "en": "flower"
+    },
+    {
+      "id": "buch",
+      "de": "Buch",
+      "art": "das",
+      "pl": "die Bücher",
+      "pos": "বিশেষ্য",
+      "bn": "বই",
+      "en": "book"
+    },
+    {
+      "id": "karte",
+      "de": "Karte",
+      "art": "die",
+      "pl": "die Karten",
+      "pos": "বিশেষ্য",
+      "bn": "কার্ড",
+      "en": "card"
+    },
+    {
+      "id": "idee",
+      "de": "Idee",
+      "art": "die",
+      "pl": "die Ideen",
+      "pos": "বিশেষ্য",
+      "bn": "ধারণা",
+      "en": "idea"
+    },
+    {
+      "id": "gratulieren",
+      "de": "gratulieren",
+      "pos": "ক্রিয়া · hat gratuliert (+ Dativ)",
+      "bn": "অভিনন্দন জানানো",
+      "en": "to congratulate"
+    },
+    {
+      "id": "glueckwunsch",
+      "de": "Glückwunsch",
+      "art": "der",
+      "pl": "die Glückwünsche",
+      "pos": "বিশেষ্য",
+      "bn": "শুভেচ্ছা",
+      "en": "congratulation"
+    },
+    {
+      "id": "danken",
+      "de": "danken",
+      "pos": "ক্রিয়া · hat gedankt (+ Dativ)",
+      "bn": "ধন্যবাদ দেওয়া",
+      "en": "to thank"
+    },
+    {
+      "id": "zusammen",
+      "de": "zusammen",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "একসাথে",
+      "en": "together"
+    },
+    {
+      "id": "ueberraschung",
+      "de": "Überraschung",
+      "art": "die",
+      "pl": "die Überraschungen",
+      "pos": "বিশেষ্য",
+      "bn": "চমক",
+      "en": "surprise"
+    },
+    {
+      "id": "freude",
+      "de": "Freude",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "আনন্দ",
+      "en": "joy"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Muna",
+      "bn": [
+        "তুমি",
+        "লেনাকে",
+        "জন্মদিনে",
+        "কী",
+        "উপহার",
+        "দিচ্ছ?"
+      ],
+      "en": [
+        "What",
+        "are",
+        "you",
+        "giving",
+        "Lena",
+        "for",
+        "her",
+        "birthday?"
+      ],
+      "de": [
+        {
+          "t": "Was",
+          "b": [
+            3
+          ],
+          "e": [
+            0
+          ],
+          "l": "Was",
+          "gb": "কী",
+          "ge": "What",
+          "n": ""
+        },
+        {
+          "t": "schenkst",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            1,
+            2,
+            3
+          ],
+          "l": "schenken",
+          "gb": "উপহার দিচ্ছ",
+          "ge": "are you giving",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            0
+          ],
+          "e": [],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Lena",
+          "b": [
+            1
+          ],
+          "e": [
+            4
+          ],
+          "l": "Lena",
+          "gb": "লেনাকে",
+          "ge": "Lena",
+          "n": ""
+        },
+        {
+          "t": "zum",
+          "b": [
+            2
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "zum",
+          "gb": "জন্মদিনে",
+          "ge": "for her",
+          "n": ""
+        },
+        {
+          "t": "Geburtstag?",
+          "b": [
+            2
+          ],
+          "e": [
+            7
+          ],
+          "l": "Geburtstag",
+          "gb": "জন্মদিনে",
+          "ge": "birthday",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "ওকে",
+        "একটি",
+        "বই",
+        "আর",
+        "একটি",
+        "কার্ড",
+        "দিচ্ছি।"
+      ],
+      "en": [
+        "I",
+        "am",
+        "giving",
+        "her",
+        "a",
+        "book",
+        "and",
+        "a",
+        "card."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "schenke",
+          "b": [
+            7
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "schenke",
+          "gb": "দিচ্ছি",
+          "ge": "am giving",
+          "n": ""
+        },
+        {
+          "t": "ihr",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "sie",
+          "gb": "ওকে (Dativ)",
+          "ge": "her (Dativ)",
+          "n": "sie → ihr (Dativ)"
+        },
+        {
+          "t": "ein Buch",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "Buch",
+          "gb": "একটি বই",
+          "ge": "a book",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            4
+          ],
+          "e": [
+            6
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "eine Karte.",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "Karte",
+          "gb": "একটি কার্ড",
+          "ge": "a card",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "একটি",
+        "বই?",
+        "ভালো",
+        "ধারণা!",
+        "আমি",
+        "ওকে",
+        "ফুল",
+        "কিনব।"
+      ],
+      "en": [
+        "A",
+        "book?",
+        "Good",
+        "idea!",
+        "I",
+        "will",
+        "buy",
+        "her",
+        "flowers."
+      ],
+      "de": [
+        {
+          "t": "Ein Buch?",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Ein Buch",
+          "gb": "একটি বই",
+          "ge": "A book",
+          "n": ""
+        },
+        {
+          "t": "Das",
+          "b": [],
+          "e": [],
+          "l": "Das",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "eine gute",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "eine gute",
+          "gb": "ভালো",
+          "ge": "Good",
+          "n": ""
+        },
+        {
+          "t": "Idee!",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "Idee",
+          "gb": "ধারণা",
+          "ge": "idea",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "kaufe",
+          "b": [
+            7
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "kaufe",
+          "gb": "কিনব",
+          "ge": "will buy",
+          "n": ""
+        },
+        {
+          "t": "ihr",
+          "b": [
+            5
+          ],
+          "e": [
+            7
+          ],
+          "l": "ihr",
+          "gb": "ওকে",
+          "ge": "her",
+          "n": ""
+        },
+        {
+          "t": "Blumen.",
+          "b": [
+            6
+          ],
+          "e": [
+            8
+          ],
+          "l": "Blume",
+          "gb": "ফুল",
+          "ge": "flowers",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমরা",
+        "ওগুলো",
+        "ওকে",
+        "একসাথে",
+        "দেব।"
+      ],
+      "en": [
+        "We",
+        "will",
+        "give",
+        "them",
+        "to",
+        "her",
+        "together."
+      ],
+      "de": [
+        {
+          "t": "Wir",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Wir",
+          "gb": "আমরা",
+          "ge": "We",
+          "n": ""
+        },
+        {
+          "t": "geben",
+          "b": [
+            4
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "geben",
+          "gb": "দেব",
+          "ge": "will give",
+          "n": ""
+        },
+        {
+          "t": "sie",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "sie",
+          "gb": "ওগুলো",
+          "ge": "them",
+          "n": "Akkusativ-Pronomen আগে: sie (die Geschenke) vor ihr"
+        },
+        {
+          "t": "ihr",
+          "b": [
+            2
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "ihr",
+          "gb": "ওকে",
+          "ge": "to her",
+          "n": ""
+        },
+        {
+          "t": "zusammen.",
+          "b": [
+            3
+          ],
+          "e": [
+            6
+          ],
+          "l": "zusammen",
+          "gb": "একসাথে",
+          "ge": "together",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "আর",
+        "আমরা",
+        "ওকে",
+        "অভিনন্দন",
+        "জানাব:",
+        "জন্মদিনের",
+        "শুভেচ্ছা!"
+      ],
+      "en": [
+        "And",
+        "we",
+        "will",
+        "congratulate",
+        "her:",
+        "Happy",
+        "birthday!"
+      ],
+      "de": [
+        {
+          "t": "Und",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "wir",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "wir",
+          "gb": "আমরা",
+          "ge": "we",
+          "n": ""
+        },
+        {
+          "t": "gratulieren",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "gratulieren",
+          "gb": "অভিনন্দন জানাব",
+          "ge": "will congratulate",
+          "n": ""
+        },
+        {
+          "t": "ihr:",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "ihr",
+          "gb": "ওকে",
+          "ge": "her",
+          "n": ""
+        },
+        {
+          "t": "Alles Gute",
+          "b": [
+            6
+          ],
+          "e": [
+            5
+          ],
+          "l": "Alles Gute",
+          "gb": "শুভেচ্ছা",
+          "ge": "Happy",
+          "n": "Alles Gute = সব শুভেচ্ছা"
+        },
+        {
+          "t": "zum Geburtstag!",
+          "b": [
+            5
+          ],
+          "e": [
+            6
+          ],
+          "l": "zum Geburtstag",
+          "gb": "জন্মদিনের",
+          "ge": "birthday",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "ও",
+        "নিশ্চয়ই",
+        "খুশি",
+        "হবে।",
+        "তোমার",
+        "সাহায্যের",
+        "জন্য",
+        "ধন্যবাদ!"
+      ],
+      "en": [
+        "She",
+        "will",
+        "certainly",
+        "be",
+        "happy.",
+        "Thanks",
+        "for",
+        "your",
+        "help!"
+      ],
+      "de": [
+        {
+          "t": "Sie",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Sie",
+          "gb": "ও",
+          "ge": "She",
+          "n": ""
+        },
+        {
+          "t": "wird",
+          "b": [
+            3
+          ],
+          "e": [
+            1
+          ],
+          "l": "wird",
+          "gb": "হবে",
+          "ge": "will",
+          "n": ""
+        },
+        {
+          "t": "sich",
+          "b": [],
+          "e": [],
+          "l": "sich",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "bestimmt",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "bestimmt",
+          "gb": "নিশ্চয়ই",
+          "ge": "certainly",
+          "n": ""
+        },
+        {
+          "t": "freuen.",
+          "b": [
+            2
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "sich freuen",
+          "gb": "খুশি",
+          "ge": "be happy",
+          "n": ""
+        },
+        {
+          "t": "Danke",
+          "b": [
+            7
+          ],
+          "e": [
+            5
+          ],
+          "l": "Danke",
+          "gb": "ধন্যবাদ",
+          "ge": "Thanks",
+          "n": ""
+        },
+        {
+          "t": "für",
+          "b": [
+            6
+          ],
+          "e": [
+            6
+          ],
+          "l": "für",
+          "gb": "জন্য",
+          "ge": "for",
+          "n": ""
+        },
+        {
+          "t": "deine",
+          "b": [
+            4
+          ],
+          "e": [
+            7
+          ],
+          "l": "deine",
+          "gb": "তোমার",
+          "ge": "your",
+          "n": ""
+        },
+        {
+          "t": "Hilfe!",
+          "b": [
+            5
+          ],
+          "e": [
+            8
+          ],
+          "l": "Hilfe",
+          "gb": "সাহায্যের",
+          "ge": "help",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "Dativ + Akkusativ: কে কাকে কী দেয়?",
+      "head": [
+        "কর্তা",
+        "ক্রিয়া",
+        "Dativ (কাকে)",
+        "Akkusativ (কী)"
+      ],
+      "rows": [
+        [
+          "Ich",
+          "schenke",
+          "Lena",
+          "ein Buch."
+        ],
+        [
+          "Wir",
+          "kaufen",
+          "ihr",
+          "Blumen."
+        ],
+        [
+          "Er",
+          "gibt",
+          "mir",
+          "die Karte."
+        ],
+        [
+          "Sie",
+          "zeigt",
+          "uns",
+          "das Foto."
+        ],
+        [
+          "Ich",
+          "schicke",
+          "dir",
+          "eine Nachricht."
+        ]
+      ],
+      "note": "এই ক্রিয়াগুলো দুই কর্ম নেয়: geben, schenken, kaufen, schicken, zeigen, bringen, erklären, empfehlen।"
+    },
+    {
+      "type": "table",
+      "title": "শব্দক্রম: Pronomen আগে, Nomen পরে",
+      "head": [
+        "দুটোই Nomen",
+        "Dativ-Pronomen + Akk-Nomen",
+        "দুটোই Pronomen"
+      ],
+      "rows": [
+        [
+          "Ich gebe Lena das Buch.",
+          "Ich gebe ihr das Buch.",
+          "Ich gebe es ihr."
+        ],
+        [
+          "Wir schenken dem Chef die Blumen.",
+          "Wir schenken ihm die Blumen.",
+          "Wir schenken sie ihm."
+        ]
+      ],
+      "note": "নিয়ম: Pronomen Nomen-এর আগে। দুটোই Pronomen হলে Akkusativ আগে (es ihr), Dativ পরে। Dativ-Nomen সাধারণত Akkusativ-Nomen-এর আগে।"
+    },
+    {
+      "type": "table",
+      "title": "শুভেচ্ছা",
+      "head": [
+        "জার্মান",
+        "কখন"
+      ],
+      "rows": [
+        [
+          "Alles Gute zum Geburtstag!",
+          "জন্মদিনে"
+        ],
+        [
+          "Herzlichen Glückwunsch!",
+          "সাফল্যে, বিয়েতে, পরীক্ষায়"
+        ],
+        [
+          "Frohe Weihnachten! / Frohe Ostern!",
+          "উৎসবে"
+        ],
+        [
+          "Frohes neues Jahr!",
+          "নববর্ষে"
+        ],
+        [
+          "Gute Besserung!",
+          "অসুস্থতায়"
+        ],
+        [
+          "Viel Erfolg!",
+          "পরীক্ষা বা কাজের আগে"
+        ],
+        [
+          "Gesundheit!",
+          "হাঁচির পরে"
+        ]
+      ],
+      "note": "gratulieren + Dativ: „Ich gratuliere dir zum Geburtstag.“ danken + Dativ: „Ich danke dir für das Geschenk.“"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "das Geschenk",
+      "options": [
+        "ফুল",
+        "কার্ড",
+        "অভিনন্দন জানানো",
+        "উপহার"
+      ],
+      "answer": 3,
+      "why": "das Geschenk = উপহার।",
+      "word": "geschenk"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "gratulieren",
+      "options": [
+        "অভিনন্দন জানানো",
+        "শুভেচ্ছা",
+        "চমক",
+        "উপহার দেওয়া"
+      ],
+      "answer": 0,
+      "why": "gratulieren = অভিনন্দন জানানো।",
+      "word": "gratulieren"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "die Überraschung",
+      "options": [
+        "আনন্দ",
+        "ফুল",
+        "ধারণা",
+        "চমক"
+      ],
+      "answer": 3,
+      "why": "die Überraschung = চমক।",
+      "word": "ueberraschung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Blume",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Blume। বহুবচন: die Blumen।",
+      "word": "blume"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ich schenke ___ ein Buch. (Lena)",
+      "options": [
+        "ihr",
+        "sie",
+        "ihn",
+        "ihnen"
+      ],
+      "answer": 0,
+      "why": "schenken + Dativ f: ihr।",
+      "word": "schenken"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক বাক্য কোনটি?",
+      "options": [
+        "Ich gebe es ihr.",
+        "Ich gebe ihr es.",
+        "Ich ihr gebe es.",
+        "Ich es gebe ihr."
+      ],
+      "answer": 0,
+      "why": "Akkusativ-Pronomen আগে।",
+      "word": "geschenk"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক বাক্য কোনটি?",
+      "options": [
+        "Ich schenke ihm ein Buch.",
+        "Ich schenke ein Buch ihm.",
+        "Ich ihm schenke ein Buch.",
+        "Ich ein Buch schenke ihm."
+      ],
+      "answer": 0,
+      "why": "Pronomen আগে, Nomen পরে।",
+      "word": "buch"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Gute Besserung!“ কখন বলা হয়?",
+      "options": [
+        "অসুস্থ মানুষকে",
+        "জন্মদিনে",
+        "নববর্ষে",
+        "পরীক্ষার আগে"
+      ],
+      "answer": 0,
+      "why": "Besserung = সুস্থতা।",
+      "word": "glueckwunsch"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ich danke ___ für die Karte.",
+      "options": [
+        "dir",
+        "dich",
+        "du",
+        "dein"
+      ],
+      "answer": 0,
+      "why": "danken + Dativ।",
+      "word": "danken"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „আমরা ওগুলো ওকে একসাথে দেব।“",
+      "tiles": [
+        "ihr",
+        "zusammen.",
+        "sie",
+        "geben",
+        "Wir"
+      ],
+      "answer": [
+        "Wir",
+        "geben",
+        "sie",
+        "ihr",
+        "zusammen."
+      ],
+      "why": "Akk-Pronomen (sie) আগে, Dativ (ihr) পরে।",
+      "word": "zusammen"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}
