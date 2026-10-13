@@ -1,0 +1,1131 @@
+{
+  "id": "a1-u01-l03",
+  "level": "A1",
+  "unit": 1,
+  "lesson": 3,
+  "title": {
+    "de": "Länder und Nationalitäten",
+    "bn": "দেশ ও জাতীয়তা",
+    "en": "Countries and nationalities"
+  },
+  "hook": {
+    "de": "Andere Länder, andere Sitten.",
+    "who": "Sprichwort",
+    "bn": "দেশ বদলালে রীতিও বদলায়।",
+    "en": "Other countries, other customs."
+  },
+  "goals": [
+    "দেশের নাম ও মহাদেশ",
+    "„Ich komme aus …“ ও „Ich wohne in …“",
+    "জাতীয়তা বলা: Bangladescher / Bangladescherin",
+    "প্রশ্নশব্দ: Wer, Was, Wo, Woher, Wie"
+  ],
+  "words": [
+    {
+      "id": "bangladesch",
+      "de": "Bangladesch",
+      "pos": "দেশ",
+      "bn": "বাংলাদেশ",
+      "en": "Bangladesh"
+    },
+    {
+      "id": "deutschland",
+      "de": "Deutschland",
+      "pos": "দেশ",
+      "bn": "জার্মানি",
+      "en": "Germany"
+    },
+    {
+      "id": "indien",
+      "de": "Indien",
+      "pos": "দেশ",
+      "bn": "ভারত",
+      "en": "India"
+    },
+    {
+      "id": "pakistan",
+      "de": "Pakistan",
+      "pos": "দেশ",
+      "bn": "পাকিস্তান",
+      "en": "Pakistan"
+    },
+    {
+      "id": "oesterreich",
+      "de": "Österreich",
+      "pos": "দেশ",
+      "bn": "অস্ট্রিয়া",
+      "en": "Austria"
+    },
+    {
+      "id": "schweiz",
+      "de": "Schweiz",
+      "art": "die",
+      "pos": "দেশ",
+      "bn": "সুইজারল্যান্ড",
+      "en": "Switzerland"
+    },
+    {
+      "id": "europa",
+      "de": "Europa",
+      "pos": "মহাদেশ",
+      "bn": "ইউরোপ",
+      "en": "Europe"
+    },
+    {
+      "id": "asien",
+      "de": "Asien",
+      "pos": "মহাদেশ",
+      "bn": "এশিয়া",
+      "en": "Asia"
+    },
+    {
+      "id": "bangladescher",
+      "de": "Bangladescher",
+      "art": "der",
+      "pos": "বিশেষ্য (পুরুষ)",
+      "bn": "বাংলাদেশি (পুরুষ)",
+      "en": "Bangladeshi (m.)"
+    },
+    {
+      "id": "bangladescherin",
+      "de": "Bangladescherin",
+      "art": "die",
+      "pos": "বিশেষ্য (নারী)",
+      "bn": "বাংলাদেশি (নারী)",
+      "en": "Bangladeshi (f.)"
+    },
+    {
+      "id": "deutscher",
+      "de": "Deutscher",
+      "art": "der",
+      "pos": "বিশেষ্য (পুরুষ)",
+      "bn": "জার্মান নাগরিক (পুরুষ)",
+      "en": "German (m.)"
+    },
+    {
+      "id": "deutsche",
+      "de": "Deutsche",
+      "art": "die",
+      "pos": "বিশেষ্য (নারী)",
+      "bn": "জার্মান নাগরিক (নারী)",
+      "en": "German (f.)"
+    },
+    {
+      "id": "jetzt",
+      "de": "jetzt",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "এখন",
+      "en": "now"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Lena",
+      "bn": [
+        "হ্যালো!",
+        "আমি",
+        "লেনা।",
+        "আমি",
+        "জার্মানি",
+        "থেকে",
+        "এসেছি।"
+      ],
+      "en": [
+        "Hi!",
+        "I",
+        "am",
+        "Lena.",
+        "I",
+        "come",
+        "from",
+        "Germany."
+      ],
+      "de": [
+        {
+          "t": "Hallo!",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Hallo",
+          "gb": "হ্যালো",
+          "ge": "Hi",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "bin",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "am",
+          "n": ""
+        },
+        {
+          "t": "Lena.",
+          "s": "Lena",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "Lena",
+          "gb": "লেনা",
+          "ge": "Lena",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "komme",
+          "b": [
+            6
+          ],
+          "e": [
+            5
+          ],
+          "l": "kommen",
+          "gb": "এসেছি",
+          "ge": "come",
+          "n": ""
+        },
+        {
+          "t": "aus",
+          "b": [
+            5
+          ],
+          "e": [
+            6
+          ],
+          "l": "aus",
+          "gb": "থেকে",
+          "ge": "from",
+          "n": ""
+        },
+        {
+          "t": "Deutschland.",
+          "b": [
+            4
+          ],
+          "e": [
+            7
+          ],
+          "l": "Deutschland",
+          "gb": "জার্মানি",
+          "ge": "Germany",
+          "n": "বেশিরভাগ দেশের আগে আর্টিকেল নেই"
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "বাংলাদেশ",
+        "থেকে",
+        "এসেছি।",
+        "আমি",
+        "বাংলাদেশি।"
+      ],
+      "en": [
+        "I",
+        "come",
+        "from",
+        "Bangladesh.",
+        "I",
+        "am",
+        "Bangladeshi."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "komme",
+          "b": [
+            3
+          ],
+          "e": [
+            1
+          ],
+          "l": "kommen",
+          "gb": "এসেছি",
+          "ge": "come",
+          "n": ""
+        },
+        {
+          "t": "aus",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "aus",
+          "gb": "থেকে",
+          "ge": "from",
+          "n": ""
+        },
+        {
+          "t": "Bangladesch.",
+          "s": "Bangladesch",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "Bangladesch",
+          "gb": "বাংলাদেশ",
+          "ge": "Bangladesh",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "bin",
+          "b": [],
+          "e": [
+            5
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "am",
+          "n": ""
+        },
+        {
+          "t": "Bangladescher.",
+          "b": [
+            5
+          ],
+          "e": [
+            6
+          ],
+          "l": "Bangladescher",
+          "gb": "বাংলাদেশি",
+          "ge": "Bangladeshi",
+          "n": "পুরুষ: Bangladescher। পেশার মতোই — আগে ein বসে না"
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "আর",
+        "আমিও",
+        "বাংলাদেশি।"
+      ],
+      "en": [
+        "And",
+        "I",
+        "am",
+        "also",
+        "Bangladeshi."
+      ],
+      "de": [
+        {
+          "t": "Und",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "ich",
+          "gb": "আমিও",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "bin",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "am",
+          "n": ""
+        },
+        {
+          "t": "Bangladescherin.",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "Bangladescherin",
+          "gb": "বাংলাদেশি",
+          "ge": "Bangladeshi",
+          "n": "নারী হলে শেষে -in: Bangladescherin"
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "তোমরা",
+        "কোথায়",
+        "থাকো?"
+      ],
+      "en": [
+        "Where",
+        "do",
+        "you",
+        "live?"
+      ],
+      "de": [
+        {
+          "t": "Wo",
+          "b": [
+            1
+          ],
+          "e": [
+            0
+          ],
+          "l": "Wo",
+          "gb": "কোথায়",
+          "ge": "Where",
+          "n": ""
+        },
+        {
+          "t": "wohnt",
+          "b": [
+            2
+          ],
+          "e": [
+            1,
+            3
+          ],
+          "l": "wohnen",
+          "gb": "থাকো",
+          "ge": "do live",
+          "n": "ihr wohnt — ihr = তোমরা"
+        },
+        {
+          "t": "ihr?",
+          "b": [
+            0
+          ],
+          "e": [
+            2
+          ],
+          "l": "ihr",
+          "gb": "তোমরা",
+          "ge": "you",
+          "n": "ihr = তোমরা (একাধিক বন্ধুকে)"
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "বাংলাদেশের",
+        "ঢাকায়",
+        "থাকি।"
+      ],
+      "en": [
+        "I",
+        "live",
+        "in",
+        "Dhaka,",
+        "in",
+        "Bangladesh."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "wohne",
+          "b": [
+            3
+          ],
+          "e": [
+            1
+          ],
+          "l": "wohnen",
+          "gb": "থাকি",
+          "ge": "live",
+          "n": ""
+        },
+        {
+          "t": "in",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "in",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "in",
+          "n": ""
+        },
+        {
+          "t": "Dhaka,",
+          "s": "Dhaka",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "Dhaka",
+          "gb": "ঢাকায়",
+          "ge": "Dhaka",
+          "n": ""
+        },
+        {
+          "t": "in",
+          "b": [],
+          "e": [
+            4
+          ],
+          "l": "in",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "in",
+          "n": ""
+        },
+        {
+          "t": "Bangladesch.",
+          "s": "Bangladesch",
+          "b": [
+            1
+          ],
+          "e": [
+            5
+          ],
+          "l": "Bangladesch",
+          "gb": "বাংলাদেশের",
+          "ge": "Bangladesh",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "আমি",
+        "এখন",
+        "বার্লিনে",
+        "থাকি।"
+      ],
+      "en": [
+        "I",
+        "live",
+        "in",
+        "Berlin",
+        "now."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "wohne",
+          "b": [
+            3
+          ],
+          "e": [
+            1
+          ],
+          "l": "wohnen",
+          "gb": "থাকি",
+          "ge": "live",
+          "n": ""
+        },
+        {
+          "t": "jetzt",
+          "b": [
+            1
+          ],
+          "e": [
+            4
+          ],
+          "l": "jetzt",
+          "gb": "এখন",
+          "ge": "now",
+          "n": ""
+        },
+        {
+          "t": "in",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "in",
+          "gb": "বার্লিনে",
+          "ge": "in",
+          "n": ""
+        },
+        {
+          "t": "Berlin.",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "Berlin",
+          "gb": "বার্লিনে",
+          "ge": "Berlin",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "বার্লিন",
+        "জার্মানিতে,",
+        "আর",
+        "জার্মানি",
+        "ইউরোপে।"
+      ],
+      "en": [
+        "Berlin",
+        "is",
+        "in",
+        "Germany,",
+        "and",
+        "Germany",
+        "is",
+        "in",
+        "Europe."
+      ],
+      "de": [
+        {
+          "t": "Berlin",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Berlin",
+          "gb": "বার্লিন",
+          "ge": "Berlin",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "in",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "in",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "in",
+          "n": ""
+        },
+        {
+          "t": "Deutschland,",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "Deutschland",
+          "gb": "জার্মানিতে",
+          "ge": "Germany",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "Deutschland",
+          "b": [
+            3
+          ],
+          "e": [
+            5
+          ],
+          "l": "Deutschland",
+          "gb": "জার্মানি",
+          "ge": "Germany",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            6
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "in",
+          "b": [],
+          "e": [
+            7
+          ],
+          "l": "in",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "in",
+          "n": ""
+        },
+        {
+          "t": "Europa.",
+          "b": [
+            4
+          ],
+          "e": [
+            8
+          ],
+          "l": "Europa",
+          "gb": "ইউরোপে",
+          "ge": "Europe",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আর",
+        "বাংলাদেশ",
+        "এশিয়ায়।"
+      ],
+      "en": [
+        "And",
+        "Bangladesh",
+        "is",
+        "in",
+        "Asia."
+      ],
+      "de": [
+        {
+          "t": "Und",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "Bangladesch",
+          "s": "Bangladesch",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "Bangladesch",
+          "gb": "বাংলাদেশ",
+          "ge": "Bangladesh",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "in",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "in",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "in",
+          "n": ""
+        },
+        {
+          "t": "Asien.",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "Asien",
+          "gb": "এশিয়ায়",
+          "ge": "Asia",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "দেশ: কোথা থেকে? কোথায়?",
+      "head": [
+        "দেশ",
+        "বাংলা",
+        "কোথা থেকে",
+        "কোথায়"
+      ],
+      "rows": [
+        [
+          "Deutschland",
+          "জার্মানি",
+          "aus Deutschland",
+          "in Deutschland"
+        ],
+        [
+          "Bangladesch",
+          "বাংলাদেশ",
+          "aus Bangladesch",
+          "in Bangladesch"
+        ],
+        [
+          "Indien",
+          "ভারত",
+          "aus Indien",
+          "in Indien"
+        ],
+        [
+          "Pakistan",
+          "পাকিস্তান",
+          "aus Pakistan",
+          "in Pakistan"
+        ],
+        [
+          "Österreich",
+          "অস্ট্রিয়া",
+          "aus Österreich",
+          "in Österreich"
+        ],
+        [
+          "die Schweiz",
+          "সুইজারল্যান্ড",
+          "aus der Schweiz",
+          "in der Schweiz"
+        ]
+      ],
+      "note": "বেশিরভাগ দেশের আগে আর্টিকেল নেই। ব্যতিক্রম (আর্টিকেলসহ): die Schweiz, die Türkei, die USA।"
+    },
+    {
+      "type": "table",
+      "title": "জাতীয়তা: পুরুষ ও নারী",
+      "head": [
+        "দেশ",
+        "পুরুষ",
+        "নারী"
+      ],
+      "rows": [
+        [
+          "Deutschland",
+          "der Deutsche",
+          "die Deutsche"
+        ],
+        [
+          "Bangladesch",
+          "der Bangladescher",
+          "die Bangladescherin"
+        ],
+        [
+          "Indien",
+          "der Inder",
+          "die Inderin"
+        ],
+        [
+          "Österreich",
+          "der Österreicher",
+          "die Österreicherin"
+        ],
+        [
+          "die Schweiz",
+          "der Schweizer",
+          "die Schweizerin"
+        ]
+      ],
+      "note": "বেশিরভাগ ক্ষেত্রে নারী রূপ = পুরুষ রূপ + -in। বলার সময় আর্টিকেল ছাড়াই: „Ich bin Bangladescher.“"
+    },
+    {
+      "type": "table",
+      "title": "প্রশ্নশব্দ (W-Fragen)",
+      "head": [
+        "জার্মান",
+        "বাংলা",
+        "উদাহরণ"
+      ],
+      "rows": [
+        [
+          "Wer?",
+          "কে?",
+          "Wer ist das?"
+        ],
+        [
+          "Was?",
+          "কী?",
+          "Was ist das?"
+        ],
+        [
+          "Wo?",
+          "কোথায়?",
+          "Wo wohnst du?"
+        ],
+        [
+          "Woher?",
+          "কোথা থেকে?",
+          "Woher kommst du?"
+        ],
+        [
+          "Wohin?",
+          "কোথায় (যাওয়া)?",
+          "Wohin gehst du?"
+        ],
+        [
+          "Wie?",
+          "কেমন? / কীভাবে?",
+          "Wie heißt du?"
+        ],
+        [
+          "Wann?",
+          "কখন?",
+          "Wann kommst du?"
+        ]
+      ],
+      "note": "W-প্রশ্নে ক্রিয়া দ্বিতীয় স্থানে: Woher | kommst | du? — প্রশ্নশব্দই প্রথম স্থান নেয়।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "Österreich",
+      "options": [
+        "জার্মান নাগরিক",
+        "বাংলাদেশ",
+        "অস্ট্রিয়া",
+        "ভারত"
+      ],
+      "answer": 2,
+      "why": "Österreich = অস্ট্রিয়া।",
+      "word": "oesterreich"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "Asien",
+      "options": [
+        "এখন",
+        "ভারত",
+        "এশিয়া",
+        "সুইজারল্যান্ড"
+      ],
+      "answer": 2,
+      "why": "Asien = এশিয়া।",
+      "word": "asien"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "Europa",
+      "options": [
+        "ভারত",
+        "ইউরোপ",
+        "সুইজারল্যান্ড",
+        "জার্মান নাগরিক"
+      ],
+      "answer": 1,
+      "why": "Europa = ইউরোপ।",
+      "word": "europa"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক শব্দ বেছে নিন",
+      "sub": "Ich komme ___ Deutschland.",
+      "options": [
+        "aus",
+        "in",
+        "nach",
+        "von"
+      ],
+      "answer": 0,
+      "why": "কোথা থেকে এসেছি: aus Deutschland।",
+      "word": "deutschland"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক শব্দ বেছে নিন",
+      "sub": "Ich wohne ___ Berlin.",
+      "options": [
+        "aus",
+        "in",
+        "nach",
+        "bei"
+      ],
+      "answer": 1,
+      "why": "কোথায় থাকি: in Berlin।",
+      "word": "jetzt"
+    },
+    {
+      "type": "mcq",
+      "prompt": "নারী বাংলাদেশিকে কী বলে?",
+      "options": [
+        "Bangladescherin",
+        "Bangladescher",
+        "Bangladescheren",
+        "Bangladeschin"
+      ],
+      "answer": 0,
+      "why": "নারী রূপ: -in যোগ → Bangladescherin।",
+      "word": "bangladescherin"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক প্রশ্নশব্দ বেছে নিন",
+      "sub": "___ kommst du?",
+      "options": [
+        "Woher",
+        "Wo",
+        "Wohin",
+        "Was"
+      ],
+      "answer": 0,
+      "why": "কোথা থেকে? = Woher?",
+      "word": "bangladesch"
+    },
+    {
+      "type": "order",
+      "prompt": "শব্দ সাজিয়ে বাক্য বানান: „আমি এখন বার্লিনে থাকি।“",
+      "tiles": [
+        "Berlin.",
+        "in",
+        "jetzt",
+        "wohne",
+        "Ich"
+      ],
+      "answer": [
+        "Ich",
+        "wohne",
+        "jetzt",
+        "in",
+        "Berlin."
+      ],
+      "why": "Ich wohne jetzt in Berlin।",
+      "word": "jetzt"
+    }
+  ],
+  "status": "draft",
+  "minutes": 14,
+  "passMark": 0.8
+}

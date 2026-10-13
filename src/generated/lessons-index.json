@@ -13,6 +13,45 @@
     "minutes": 12
   },
   {
+    "id": "a1-u01-l02",
+    "level": "A1",
+    "unit": 1,
+    "lesson": 2,
+    "title": {
+      "bn": "অভিবাদন ও বিদায়",
+      "en": "Greetings and goodbyes",
+      "de": "Begrüßen und Verabschieden"
+    },
+    "status": "draft",
+    "minutes": 14
+  },
+  {
+    "id": "a1-u01-l03",
+    "level": "A1",
+    "unit": 1,
+    "lesson": 3,
+    "title": {
+      "bn": "দেশ ও জাতীয়তা",
+      "en": "Countries and nationalities",
+      "de": "Länder und Nationalitäten"
+    },
+    "status": "draft",
+    "minutes": 14
+  },
+  {
+    "id": "a1-u01-l04",
+    "level": "A1",
+    "unit": 1,
+    "lesson": 4,
+    "title": {
+      "bn": "ক্লাসে কাজে লাগার বাক্য",
+      "en": "Classroom survival phrases",
+      "de": "Im Deutschkurs"
+    },
+    "status": "draft",
+    "minutes": 14
+  },
+  {
     "id": "a1-u02-l01",
     "level": "A1",
     "unit": 2,

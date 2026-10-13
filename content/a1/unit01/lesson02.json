@@ -1,0 +1,927 @@
+{
+  "id": "a1-u01-l02",
+  "level": "A1",
+  "unit": 1,
+  "lesson": 2,
+  "title": {
+    "de": "Begrüßen und Verabschieden",
+    "bn": "অভিবাদন ও বিদায়",
+    "en": "Greetings and goodbyes"
+  },
+  "hook": {
+    "de": "Ein freundliches Wort kostet nichts.",
+    "who": "Sprichwort",
+    "bn": "মিষ্টি কথায় কোনো খরচ নেই।",
+    "en": "A friendly word costs nothing."
+  },
+  "goals": [
+    "দিনের সময় অনুযায়ী অভিবাদন: Guten Morgen, Guten Tag, Guten Abend",
+    "বন্ধু ও অপরিচিতকে কেমন আছেন জিজ্ঞাসা: du ও Sie",
+    "বিদায়ের ভদ্র ও অনানুষ্ঠানিক উপায়",
+    "Herr ও Frau দিয়ে নামের আগে সম্বোধন"
+  ],
+  "words": [
+    {
+      "id": "guten_tag",
+      "de": "Guten Tag!",
+      "pos": "অভিব্যক্তি",
+      "bn": "শুভ দিন! (ভদ্র অভিবাদন)",
+      "en": "good day!"
+    },
+    {
+      "id": "guten_abend",
+      "de": "Guten Abend!",
+      "pos": "অভিব্যক্তি",
+      "bn": "শুভ সন্ধ্যা!",
+      "en": "good evening!"
+    },
+    {
+      "id": "gute_nacht",
+      "de": "Gute Nacht!",
+      "pos": "অভিব্যক্তি",
+      "bn": "শুভ রাত্রি!",
+      "en": "good night!"
+    },
+    {
+      "id": "auf_wiedersehen",
+      "de": "Auf Wiedersehen!",
+      "pos": "অভিব্যক্তি",
+      "bn": "বিদায়! (ভদ্র)",
+      "en": "goodbye!"
+    },
+    {
+      "id": "bis_bald",
+      "de": "Bis bald!",
+      "pos": "অভিব্যক্তি",
+      "bn": "শীঘ্রই দেখা হবে!",
+      "en": "see you soon!"
+    },
+    {
+      "id": "bis_morgen",
+      "de": "Bis morgen!",
+      "pos": "অভিব্যক্তি",
+      "bn": "কাল দেখা হবে!",
+      "en": "see you tomorrow!"
+    },
+    {
+      "id": "wie_geht_s",
+      "de": "Wie geht's?",
+      "pos": "অভিব্যক্তি",
+      "bn": "কেমন আছো? (বন্ধুকে)",
+      "en": "how are you? (informal)"
+    },
+    {
+      "id": "wie_geht_es_ihnen",
+      "de": "Wie geht es Ihnen?",
+      "pos": "অভিব্যক্তি",
+      "bn": "আপনি কেমন আছেন? (ভদ্র)",
+      "en": "how are you? (formal)"
+    },
+    {
+      "id": "gut_danke",
+      "de": "Gut, danke.",
+      "pos": "অভিব্যক্তি",
+      "bn": "ভালো, ধন্যবাদ।",
+      "en": "fine, thanks."
+    },
+    {
+      "id": "es_geht",
+      "de": "Es geht.",
+      "pos": "অভিব্যক্তি",
+      "bn": "চলে যাচ্ছে (খুব ভালোও নয়, খারাপও নয়)।",
+      "en": "so-so."
+    },
+    {
+      "id": "herr",
+      "de": "Herr",
+      "art": "der",
+      "pl": "die Herren",
+      "pos": "বিশেষ্য",
+      "bn": "জনাব, মিস্টার",
+      "en": "Mr."
+    },
+    {
+      "id": "frau",
+      "de": "Frau",
+      "art": "die",
+      "pl": "die Frauen",
+      "pos": "বিশেষ্য",
+      "bn": "ম্যাডাম, মিসেস; নারী",
+      "en": "Mrs., Ms.; woman"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Herr Schmidt",
+      "bn": [
+        "শুভ",
+        "সকাল,",
+        "ম্যাডাম",
+        "বেকার!"
+      ],
+      "en": [
+        "Good",
+        "morning,",
+        "Mrs.",
+        "Becker!"
+      ],
+      "de": [
+        {
+          "t": "Guten Morgen,",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "guten Morgen",
+          "gb": "শুভ সকাল",
+          "ge": "Good morning",
+          "n": ""
+        },
+        {
+          "t": "Frau",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "Frau",
+          "gb": "ম্যাডাম",
+          "ge": "Mrs",
+          "n": "Frau + পদবি: Frau Becker"
+        },
+        {
+          "t": "Becker!",
+          "s": "Becker",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "Becker",
+          "gb": "বেকার",
+          "ge": "Becker",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Frau Becker",
+      "bn": [
+        "শুভ",
+        "সকাল,",
+        "জনাব",
+        "শ্মিট!",
+        "আপনি",
+        "কেমন",
+        "আছেন?"
+      ],
+      "en": [
+        "Good",
+        "morning,",
+        "Mr.",
+        "Schmidt!",
+        "How",
+        "are",
+        "you?"
+      ],
+      "de": [
+        {
+          "t": "Guten Morgen,",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "guten Morgen",
+          "gb": "শুভ সকাল",
+          "ge": "Good morning",
+          "n": ""
+        },
+        {
+          "t": "Herr",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "Herr",
+          "gb": "জনাব",
+          "ge": "Mr",
+          "n": ""
+        },
+        {
+          "t": "Schmidt!",
+          "s": "Schmidt",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "Schmidt",
+          "gb": "শ্মিট",
+          "ge": "Schmidt",
+          "n": ""
+        },
+        {
+          "t": "Wie",
+          "b": [
+            5
+          ],
+          "e": [
+            4
+          ],
+          "l": "Wie",
+          "gb": "কেমন",
+          "ge": "How",
+          "n": ""
+        },
+        {
+          "t": "geht",
+          "b": [
+            6
+          ],
+          "e": [
+            5
+          ],
+          "l": "gehen",
+          "gb": "আছেন",
+          "ge": "are",
+          "n": "Wie geht es …? — আক্ষরিক: কেমন চলছে?"
+        },
+        {
+          "t": "es",
+          "b": [],
+          "e": [],
+          "l": "es",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Ihnen?",
+          "b": [
+            4
+          ],
+          "e": [
+            6
+          ],
+          "l": "Sie",
+          "gb": "আপনাকে",
+          "ge": "you",
+          "n": "Ihnen = Sie-এর Dativ রূপ; ভদ্র"
+        }
+      ]
+    },
+    {
+      "who": "Herr Schmidt",
+      "bn": [
+        "ভালো,",
+        "ধন্যবাদ।",
+        "আর",
+        "আপনি?"
+      ],
+      "en": [
+        "Good,",
+        "thanks.",
+        "And",
+        "you?"
+      ],
+      "de": [
+        {
+          "t": "Gut,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Gut",
+          "gb": "ভালো",
+          "ge": "Good",
+          "n": ""
+        },
+        {
+          "t": "danke.",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "danke",
+          "gb": "ধন্যবাদ",
+          "ge": "thanks",
+          "n": ""
+        },
+        {
+          "t": "Und",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "Ihnen?",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "Sie",
+          "gb": "আপনাকে",
+          "ge": "you",
+          "n": "Und Ihnen? = আর আপনি?"
+        }
+      ]
+    },
+    {
+      "who": "Frau Becker",
+      "bn": [
+        "চলে",
+        "যাচ্ছে,",
+        "ধন্যবাদ।"
+      ],
+      "en": [
+        "So-so,",
+        "thanks."
+      ],
+      "de": [
+        {
+          "t": "Es geht,",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0
+          ],
+          "l": "es geht",
+          "gb": "চলে যাচ্ছে",
+          "ge": "So-so",
+          "n": "Es geht = চলে যাচ্ছে — খুব ভালোও নয়, খারাপও নয়"
+        },
+        {
+          "t": "danke.",
+          "b": [
+            2
+          ],
+          "e": [
+            1
+          ],
+          "l": "danke",
+          "gb": "ধন্যবাদ",
+          "ge": "thanks",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Herr Schmidt",
+      "bn": [
+        "বিদায়,",
+        "ম্যাডাম",
+        "বেকার!"
+      ],
+      "en": [
+        "Goodbye,",
+        "Mrs.",
+        "Becker!"
+      ],
+      "de": [
+        {
+          "t": "Auf Wiedersehen,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "auf Wiedersehen",
+          "gb": "বিদায়",
+          "ge": "Goodbye",
+          "n": "ভদ্র বিদায়"
+        },
+        {
+          "t": "Frau",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "Frau",
+          "gb": "ম্যাডাম",
+          "ge": "Mrs",
+          "n": ""
+        },
+        {
+          "t": "Becker!",
+          "s": "Becker",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "Becker",
+          "gb": "বেকার",
+          "ge": "Becker",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Frau Becker",
+      "bn": [
+        "শীঘ্রই",
+        "দেখা",
+        "হবে!"
+      ],
+      "en": [
+        "See",
+        "you",
+        "soon!"
+      ],
+      "de": [
+        {
+          "t": "Bis bald!",
+          "b": [
+            0,
+            1,
+            2
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "bis bald",
+          "gb": "শীঘ্রই দেখা হবে",
+          "ge": "See you soon",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "হ্যালো",
+        "সাহেব!",
+        "কেমন",
+        "আছো?"
+      ],
+      "en": [
+        "Hi",
+        "Saheb!",
+        "How",
+        "are",
+        "you?"
+      ],
+      "de": [
+        {
+          "t": "Hallo",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Hallo",
+          "gb": "হ্যালো",
+          "ge": "Hi",
+          "n": ""
+        },
+        {
+          "t": "Saheb!",
+          "s": "Saheb",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "Saheb",
+          "gb": "সাহেব",
+          "ge": "Saheb",
+          "n": ""
+        },
+        {
+          "t": "Wie geht's?",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            2,
+            3,
+            4
+          ],
+          "l": "wie geht es",
+          "gb": "কেমন আছো",
+          "ge": "How are you",
+          "n": "Wie geht's? = Wie geht es dir? — বন্ধুদের মধ্যে"
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "ভালো,",
+        "ধন্যবাদ!",
+        "আর",
+        "তুমি?"
+      ],
+      "en": [
+        "Good,",
+        "thanks!",
+        "And",
+        "you?"
+      ],
+      "de": [
+        {
+          "t": "Gut,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Gut",
+          "gb": "ভালো",
+          "ge": "Good",
+          "n": ""
+        },
+        {
+          "t": "danke!",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "danke",
+          "gb": "ধন্যবাদ",
+          "ge": "thanks",
+          "n": ""
+        },
+        {
+          "t": "Und",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "dir?",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "du",
+          "gb": "তোমাকে",
+          "ge": "you",
+          "n": "dir = du-এর Dativ; Und dir? = আর তুমি?"
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "আমিও",
+        "ভালো,",
+        "ধন্যবাদ।",
+        "কাল",
+        "দেখা",
+        "হবে!"
+      ],
+      "en": [
+        "Fine",
+        "too,",
+        "thanks.",
+        "See",
+        "you",
+        "tomorrow!"
+      ],
+      "de": [
+        {
+          "t": "Auch",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "Auch",
+          "gb": "আমিও",
+          "ge": "too",
+          "n": ""
+        },
+        {
+          "t": "gut,",
+          "b": [
+            1
+          ],
+          "e": [
+            0
+          ],
+          "l": "gut",
+          "gb": "ভালো",
+          "ge": "Fine",
+          "n": ""
+        },
+        {
+          "t": "danke.",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "danke",
+          "gb": "ধন্যবাদ",
+          "ge": "thanks",
+          "n": ""
+        },
+        {
+          "t": "Bis morgen!",
+          "b": [
+            3,
+            4,
+            5
+          ],
+          "e": [
+            3,
+            4,
+            5
+          ],
+          "l": "bis morgen",
+          "gb": "কাল দেখা হবে",
+          "ge": "See you tomorrow",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "শুভ",
+        "রাত্রি!",
+        "বিদায়!"
+      ],
+      "en": [
+        "Good",
+        "night!",
+        "Bye!"
+      ],
+      "de": [
+        {
+          "t": "Gute Nacht!",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "gute Nacht",
+          "gb": "শুভ রাত্রি",
+          "ge": "Good night",
+          "n": "ঘুমানোর আগে বলা হয়, দেখা হওয়ার সময় নয়"
+        },
+        {
+          "t": "Tschüss!",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "Tschüss",
+          "gb": "বিদায়",
+          "ge": "Bye",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "কখন কোন অভিবাদন",
+      "head": [
+        "সময়",
+        "জার্মান",
+        "বাংলা"
+      ],
+      "rows": [
+        [
+          "সকাল",
+          "Guten Morgen!",
+          "শুভ সকাল"
+        ],
+        [
+          "দিনের বেলা (প্রায় ১০টা–১৮টা)",
+          "Guten Tag!",
+          "শুভ দিন"
+        ],
+        [
+          "সন্ধ্যা",
+          "Guten Abend!",
+          "শুভ সন্ধ্যা"
+        ],
+        [
+          "ঘুমাতে যাওয়ার আগে",
+          "Gute Nacht!",
+          "শুভ রাত্রি"
+        ],
+        [
+          "বন্ধুদের মধ্যে, যেকোনো সময়",
+          "Hallo! / Hi!",
+          "হ্যালো"
+        ]
+      ],
+      "note": "এলাকাভেদে আরও শুনবেন: Moin (উত্তর জার্মানি, সারা দিন), Servus (দক্ষিণ জার্মানি ও অস্ট্রিয়া), Grüß Gott (বাভারিয়া ও অস্ট্রিয়া)। চিনে রাখুন, নিজে Guten Tag দিয়েই চলবে।"
+    },
+    {
+      "type": "table",
+      "title": "বন্ধু (du) নাকি ভদ্র (Sie)?",
+      "head": [
+        "",
+        "বন্ধু / সমবয়সী",
+        "অপরিচিত / বড়দের / অফিসে"
+      ],
+      "rows": [
+        [
+          "অভিবাদন",
+          "Hallo!",
+          "Guten Tag!"
+        ],
+        [
+          "কেমন আছেন?",
+          "Wie geht's? / Wie geht es dir?",
+          "Wie geht es Ihnen?"
+        ],
+        [
+          "আর আপনি?",
+          "Und dir?",
+          "Und Ihnen?"
+        ],
+        [
+          "বিদায়",
+          "Tschüss! / Bis bald!",
+          "Auf Wiedersehen!"
+        ]
+      ],
+      "note": "ভেবে না পেলে ভদ্র রূপ (Sie) বেছে নিন — বেশি ভদ্র হওয়া কখনো ভুল নয়।"
+    },
+    {
+      "type": "text",
+      "title": "Herr ও Frau",
+      "text": "নামের আগে Herr (পুরুষ) বা Frau (নারী) বসান এবং পদবি ব্যবহার করুন: Herr Schmidt, Frau Becker। „Fräulein“ আজকাল ব্যবহার হয় না — অবিবাহিত নারীকেও Frau বলুন। প্রথম পরিচয়ে চোখে চোখ রেখে হাত মেলানো সাধারণ রীতি।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "Gute Nacht!",
+      "options": [
+        "আপনি কেমন আছেন?",
+        "চলে যাচ্ছে",
+        "ম্যাডাম",
+        "শুভ রাত্রি!"
+      ],
+      "answer": 3,
+      "why": "Gute Nacht! = শুভ রাত্রি!।",
+      "word": "gute_nacht"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "Bis morgen!",
+      "options": [
+        "শুভ দিন!",
+        "কাল দেখা হবে!",
+        "বিদায়!",
+        "আপনি কেমন আছেন?"
+      ],
+      "answer": 1,
+      "why": "Bis morgen! = কাল দেখা হবে!।",
+      "word": "bis_morgen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "Auf Wiedersehen!",
+      "options": [
+        "আপনি কেমন আছেন?",
+        "বিদায়!",
+        "জনাব",
+        "শুভ সন্ধ্যা!"
+      ],
+      "answer": 1,
+      "why": "Auf Wiedersehen! = বিদায়!।",
+      "word": "auf_wiedersehen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সন্ধ্যায় ভদ্রভাবে কী বলবেন?",
+      "options": [
+        "Guten Abend!",
+        "Gute Nacht!",
+        "Guten Morgen!",
+        "Tschüss!"
+      ],
+      "answer": 0,
+      "why": "সন্ধ্যায় দেখা হলে Guten Abend!",
+      "word": "guten_abend"
+    },
+    {
+      "type": "mcq",
+      "prompt": "ঘুমাতে যাওয়ার আগে কী বলবেন?",
+      "options": [
+        "Gute Nacht!",
+        "Guten Tag!",
+        "Guten Abend!",
+        "Guten Morgen!"
+      ],
+      "answer": 0,
+      "why": "Gute Nacht! — ঘুমানোর আগে বা বিদায় নেওয়ার সময়।",
+      "word": "gute_nacht"
+    },
+    {
+      "type": "mcq",
+      "prompt": "অফিসে জনাব শ্মিটকে কীভাবে জিজ্ঞাসা করবেন?",
+      "options": [
+        "Wie geht es Ihnen?",
+        "Wie geht es dir?",
+        "Wie heißt du?",
+        "Woher kommst du?"
+      ],
+      "answer": 0,
+      "why": "অপরিচিত বা ভদ্র ক্ষেত্রে: Wie geht es Ihnen?",
+      "word": "wie_geht_es_ihnen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "ঘনিষ্ঠ বন্ধুকে বিদায় জানাতে কোনটি স্বাভাবিক?",
+      "options": [
+        "Tschüss!",
+        "Auf Wiedersehen, Frau Becker!",
+        "Guten Abend, Herr Schmidt!",
+        "Wie geht es Ihnen?"
+      ],
+      "answer": 0,
+      "why": "বন্ধুকে Tschüss! বা Bis bald!",
+      "word": "bis_bald"
+    },
+    {
+      "type": "order",
+      "prompt": "শব্দ সাজিয়ে প্রশ্ন বানান: „আপনি কেমন আছেন?“",
+      "tiles": [
+        "Ihnen?",
+        "es",
+        "geht",
+        "Wie"
+      ],
+      "answer": [
+        "Wie",
+        "geht",
+        "es",
+        "Ihnen?"
+      ],
+      "why": "Wie geht es Ihnen?",
+      "word": "wie_geht_es_ihnen"
+    }
+  ],
+  "status": "draft",
+  "minutes": 14,
+  "passMark": 0.8
+}

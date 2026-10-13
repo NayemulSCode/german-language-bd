@@ -1,0 +1,1130 @@
+{
+  "id": "a1-u01-l04",
+  "level": "A1",
+  "unit": 1,
+  "lesson": 4,
+  "title": {
+    "de": "Im Deutschkurs",
+    "bn": "ক্লাসে কাজে লাগার বাক্য",
+    "en": "Classroom survival phrases"
+  },
+  "hook": {
+    "de": "Fragen kostet nichts.",
+    "who": "Sprichwort",
+    "bn": "জিজ্ঞাসা করতে খরচ নেই।",
+    "en": "Asking costs nothing."
+  },
+  "goals": [
+    "না বুঝলে বলা: Ich verstehe das nicht",
+    "অর্থ ও বানান জিজ্ঞাসা: Was bedeutet …? Wie schreibt man das?",
+    "শিক্ষকের নির্দেশ বোঝা",
+    "ক্রিয়া verstehen ও wissen"
+  ],
+  "words": [
+    {
+      "id": "verstehen",
+      "de": "verstehen",
+      "pos": "ক্রিয়া",
+      "bn": "বোঝা",
+      "en": "to understand"
+    },
+    {
+      "id": "wiederholen",
+      "de": "wiederholen",
+      "pos": "ক্রিয়া",
+      "bn": "আবার বলা",
+      "en": "to repeat"
+    },
+    {
+      "id": "bedeuten",
+      "de": "bedeuten",
+      "pos": "ক্রিয়া",
+      "bn": "অর্থ হওয়া",
+      "en": "to mean"
+    },
+    {
+      "id": "fragen",
+      "de": "fragen",
+      "pos": "ক্রিয়া",
+      "bn": "জিজ্ঞাসা করা",
+      "en": "to ask"
+    },
+    {
+      "id": "frage",
+      "de": "Frage",
+      "art": "die",
+      "pl": "die Fragen",
+      "pos": "বিশেষ্য",
+      "bn": "প্রশ্ন",
+      "en": "question"
+    },
+    {
+      "id": "antwort",
+      "de": "Antwort",
+      "art": "die",
+      "pl": "die Antworten",
+      "pos": "বিশেষ্য",
+      "bn": "উত্তর",
+      "en": "answer"
+    },
+    {
+      "id": "wort",
+      "de": "Wort",
+      "art": "das",
+      "pl": "die Wörter",
+      "pos": "বিশেষ্য",
+      "bn": "শব্দ",
+      "en": "word"
+    },
+    {
+      "id": "satz",
+      "de": "Satz",
+      "art": "der",
+      "pl": "die Sätze",
+      "pos": "বিশেষ্য",
+      "bn": "বাক্য",
+      "en": "sentence"
+    },
+    {
+      "id": "richtig",
+      "de": "richtig",
+      "pos": "বিশেষণ",
+      "bn": "ঠিক, সঠিক",
+      "en": "correct"
+    },
+    {
+      "id": "falsch",
+      "de": "falsch",
+      "pos": "বিশেষণ",
+      "bn": "ভুল",
+      "en": "wrong"
+    },
+    {
+      "id": "wissen",
+      "de": "wissen",
+      "pos": "ক্রিয়া",
+      "bn": "জানা (তথ্য)",
+      "en": "to know"
+    },
+    {
+      "id": "beispiel",
+      "de": "Beispiel",
+      "art": "das",
+      "pl": "die Beispiele",
+      "pos": "বিশেষ্য",
+      "bn": "উদাহরণ",
+      "en": "example"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Frau Becker",
+      "bn": [
+        "শুভ",
+        "সকাল!",
+        "আপনার",
+        "কি",
+        "কোনো",
+        "প্রশ্ন",
+        "আছে?"
+      ],
+      "en": [
+        "Good",
+        "morning!",
+        "Do",
+        "you",
+        "have",
+        "a",
+        "question?"
+      ],
+      "de": [
+        {
+          "t": "Guten Morgen!",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "guten Morgen",
+          "gb": "শুভ সকাল",
+          "ge": "Good morning",
+          "n": ""
+        },
+        {
+          "t": "Haben",
+          "b": [
+            6
+          ],
+          "e": [
+            2,
+            4
+          ],
+          "l": "haben",
+          "gb": "আছে",
+          "ge": "Do have",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "Sie",
+          "gb": "আপনার",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "eine",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "ein",
+          "gb": "কোনো",
+          "ge": "a",
+          "n": ""
+        },
+        {
+          "t": "Frage?",
+          "b": [
+            5
+          ],
+          "e": [
+            6
+          ],
+          "l": "Frage",
+          "gb": "প্রশ্ন",
+          "ge": "question",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "হ্যাঁ।",
+        "pünktlich",
+        "শব্দের",
+        "অর্থ",
+        "কী?"
+      ],
+      "en": [
+        "Yes.",
+        "What",
+        "does",
+        "the",
+        "word",
+        "pünktlich",
+        "mean?"
+      ],
+      "de": [
+        {
+          "t": "Ja.",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ja",
+          "gb": "হ্যাঁ",
+          "ge": "Yes",
+          "n": ""
+        },
+        {
+          "t": "Was",
+          "b": [
+            4
+          ],
+          "e": [
+            1
+          ],
+          "l": "Was",
+          "gb": "কী",
+          "ge": "What",
+          "n": ""
+        },
+        {
+          "t": "bedeutet",
+          "b": [
+            3
+          ],
+          "e": [
+            2,
+            6
+          ],
+          "l": "bedeuten",
+          "gb": "অর্থ",
+          "ge": "does mean",
+          "n": "Was bedeutet …? = … শব্দের অর্থ কী?"
+        },
+        {
+          "t": "das",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "das",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "Wort",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "Wort",
+          "gb": "শব্দের",
+          "ge": "word",
+          "n": ""
+        },
+        {
+          "t": "pünktlich?",
+          "s": "pünktlich",
+          "b": [
+            1
+          ],
+          "e": [
+            5
+          ],
+          "l": "pünktlich",
+          "gb": "ঠিক সময়ে",
+          "ge": "on time",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Frau Becker",
+      "bn": [
+        "Pünktlich",
+        "মানে:",
+        "দেরি",
+        "না",
+        "করে।"
+      ],
+      "en": [
+        "Pünktlich",
+        "means:",
+        "not",
+        "late."
+      ],
+      "de": [
+        {
+          "t": "Pünktlich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "pünktlich",
+          "gb": "ঠিক সময়ে",
+          "ge": "on time",
+          "n": ""
+        },
+        {
+          "t": "bedeutet:",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "bedeuten",
+          "gb": "মানে",
+          "ge": "means",
+          "n": ""
+        },
+        {
+          "t": "nicht",
+          "b": [
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "nicht",
+          "gb": "না",
+          "ge": "not",
+          "n": ""
+        },
+        {
+          "t": "spät.",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "spät",
+          "gb": "দেরি",
+          "ge": "late",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "এটা",
+        "বুঝছি",
+        "না।",
+        "আরেকবার,",
+        "দয়া",
+        "করে।"
+      ],
+      "en": [
+        "I",
+        "do",
+        "not",
+        "understand",
+        "that.",
+        "Once",
+        "more,",
+        "please."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "verstehe",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "verstehen",
+          "gb": "বুঝছি",
+          "ge": "understand",
+          "n": ""
+        },
+        {
+          "t": "das",
+          "b": [
+            1
+          ],
+          "e": [
+            4
+          ],
+          "l": "das",
+          "gb": "এটা",
+          "ge": "that",
+          "n": ""
+        },
+        {
+          "t": "nicht.",
+          "b": [
+            3
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "nicht",
+          "gb": "না",
+          "ge": "do not",
+          "n": "nicht ক্রিয়াকে নাকচ করে — বাক্যের শেষে"
+        },
+        {
+          "t": "Noch einmal,",
+          "b": [
+            4
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "noch einmal",
+          "gb": "আরেকবার",
+          "ge": "Once more",
+          "n": ""
+        },
+        {
+          "t": "bitte.",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            7
+          ],
+          "l": "bitte",
+          "gb": "দয়া করে",
+          "ge": "please",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Frau Becker",
+      "bn": [
+        "অবশ্যই।",
+        "আমি",
+        "আবার",
+        "বলছি:",
+        "pünktlich"
+      ],
+      "en": [
+        "Of",
+        "course.",
+        "I",
+        "repeat:",
+        "pünktlich."
+      ],
+      "de": [
+        {
+          "t": "Gern.",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Gern",
+          "gb": "অবশ্যই",
+          "ge": "Of course",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "wiederhole:",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "wiederholen",
+          "gb": "আবার বলছি",
+          "ge": "repeat",
+          "n": ""
+        },
+        {
+          "t": "pünktlich.",
+          "s": "pünktlich",
+          "b": [
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "pünktlich",
+          "gb": "pünktlich",
+          "ge": "pünktlich",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "এটা",
+        "কীভাবে",
+        "লেখে?"
+      ],
+      "en": [
+        "How",
+        "do",
+        "you",
+        "write",
+        "that?"
+      ],
+      "de": [
+        {
+          "t": "Wie",
+          "b": [
+            1
+          ],
+          "e": [
+            0
+          ],
+          "l": "Wie",
+          "gb": "কীভাবে",
+          "ge": "How",
+          "n": ""
+        },
+        {
+          "t": "schreibt",
+          "b": [
+            2
+          ],
+          "e": [
+            1,
+            3
+          ],
+          "l": "schreiben",
+          "gb": "লেখে",
+          "ge": "do write",
+          "n": ""
+        },
+        {
+          "t": "man",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "man",
+          "gb": "কেউ / লোকে (সাধারণভাবে)",
+          "ge": "one, you (in general)",
+          "n": "man = সাধারণভাবে কেউ; ক্রিয়া er-এর মতো (-t)"
+        },
+        {
+          "t": "das?",
+          "b": [
+            0
+          ],
+          "e": [
+            4
+          ],
+          "l": "das",
+          "gb": "এটা",
+          "ge": "that",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Frau Becker",
+      "bn": [
+        "P-Ü-N-K-T-L-I-C-H।"
+      ],
+      "en": [
+        "P-Ü-N-K-T-L-I-C-H."
+      ],
+      "de": [
+        {
+          "t": "P-Ü-N-K-T-L-I-C-H.",
+          "s": "Peh, Üh, Enn, Kah, Teh, Ell, Ih, Tseh, Hah",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "pünktlich",
+          "gb": "অক্ষর ধরে বলা শব্দ",
+          "ge": "word spelled out",
+          "n": "অক্ষরের নাম মনে আছে? Unit 2-এ আবার অনুশীলন করবেন"
+        }
+      ]
+    },
+    {
+      "who": "Frau Becker",
+      "bn": [
+        "pünktlich",
+        "দিয়ে",
+        "একটি",
+        "বাক্য",
+        "বানান।"
+      ],
+      "en": [
+        "Make",
+        "a",
+        "sentence",
+        "with",
+        "pünktlich."
+      ],
+      "de": [
+        {
+          "t": "Machen",
+          "b": [
+            4
+          ],
+          "e": [
+            0
+          ],
+          "l": "machen",
+          "gb": "বানান",
+          "ge": "Make",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [],
+          "e": [],
+          "l": "Sie",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "einen",
+          "b": [
+            2
+          ],
+          "e": [
+            1
+          ],
+          "l": "ein",
+          "gb": "একটি",
+          "ge": "a",
+          "n": "der Satz + machen → einen Satz (Akkusativ)"
+        },
+        {
+          "t": "Satz",
+          "b": [
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "Satz",
+          "gb": "বাক্য",
+          "ge": "sentence",
+          "n": ""
+        },
+        {
+          "t": "mit",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "mit",
+          "gb": "দিয়ে",
+          "ge": "with",
+          "n": ""
+        },
+        {
+          "t": "pünktlich.",
+          "s": "pünktlich",
+          "b": [
+            0
+          ],
+          "e": [
+            4
+          ],
+          "l": "pünktlich",
+          "gb": "pünktlich",
+          "ge": "pünktlich",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "বাসটা",
+        "ঠিক",
+        "সময়ে।"
+      ],
+      "en": [
+        "The",
+        "bus",
+        "is",
+        "on",
+        "time."
+      ],
+      "de": [
+        {
+          "t": "Der",
+          "b": [],
+          "e": [
+            0
+          ],
+          "l": "Der",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "The",
+          "n": ""
+        },
+        {
+          "t": "Bus",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "Bus",
+          "gb": "বাসটা",
+          "ge": "bus",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "pünktlich.",
+          "s": "pünktlich",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "pünktlich",
+          "gb": "ঠিক সময়ে",
+          "ge": "on time",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Frau Becker",
+      "bn": [
+        "ঠিক!",
+        "খুব",
+        "ভালো।"
+      ],
+      "en": [
+        "Correct!",
+        "Very",
+        "good."
+      ],
+      "de": [
+        {
+          "t": "Richtig!",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "richtig",
+          "gb": "ঠিক",
+          "ge": "Correct",
+          "n": ""
+        },
+        {
+          "t": "Sehr",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "Sehr",
+          "gb": "খুব",
+          "ge": "Very",
+          "n": ""
+        },
+        {
+          "t": "gut.",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "gut",
+          "gb": "ভালো",
+          "ge": "good",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "ক্লাসে সবচেয়ে কাজের বাক্য",
+      "head": [
+        "পরিস্থিতি",
+        "জার্মান",
+        "বাংলা"
+      ],
+      "rows": [
+        [
+          "বুঝিনি",
+          "Ich verstehe das nicht.",
+          "আমি এটা বুঝছি না।"
+        ],
+        [
+          "আবার শুনতে চাই",
+          "Noch einmal, bitte.",
+          "আরেকবার, দয়া করে।"
+        ],
+        [
+          "ধীরে",
+          "Langsam, bitte.",
+          "ধীরে, দয়া করে।"
+        ],
+        [
+          "অর্থ জানতে",
+          "Was bedeutet das Wort …?",
+          "… শব্দের অর্থ কী?"
+        ],
+        [
+          "বানান জানতে",
+          "Wie schreibt man das?",
+          "এটা কীভাবে লেখে?"
+        ],
+        [
+          "জানি না",
+          "Ich weiß nicht.",
+          "আমি জানি না।"
+        ],
+        [
+          "প্রশ্ন আছে",
+          "Ich habe eine Frage.",
+          "আমার একটি প্রশ্ন আছে।"
+        ],
+        [
+          "উত্তর",
+          "Das ist richtig. / Das ist falsch.",
+          "এটা ঠিক। / এটা ভুল।"
+        ]
+      ],
+      "note": "এই আটটি বাক্য মুখস্থ করে নিন — প্রথম দিন থেকেই কাজে লাগবে।"
+    },
+    {
+      "type": "conjugation",
+      "intro": "verstehen নিয়মিত; wissen অনিয়মিত — ich ও er একই রূপ (weiß), -t নেই।",
+      "verbs": [
+        "verstehen",
+        "wissen"
+      ],
+      "note": "Ich weiß nicht. = আমি জানি না। — „wissen“ তথ্য জানা; „kennen“ (ব্যক্তি বা জায়গাকে চেনা) আলাদা, পরে শিখবেন।",
+      "rows": [
+        {
+          "pron": "ich",
+          "stems": [
+            "versteh",
+            "weiß"
+          ],
+          "ends": [
+            "e",
+            ""
+          ],
+          "bn": "আমি বুঝি / জানি"
+        },
+        {
+          "pron": "du",
+          "stems": [
+            "versteh",
+            "weiß"
+          ],
+          "ends": [
+            "st",
+            "t"
+          ],
+          "bn": "তুমি বোঝো / জানো"
+        },
+        {
+          "pron": "er / sie / es",
+          "stems": [
+            "versteh",
+            "weiß"
+          ],
+          "ends": [
+            "t",
+            ""
+          ],
+          "bn": "সে বোঝে / জানে"
+        },
+        {
+          "pron": "wir",
+          "stems": [
+            "versteh",
+            "wiss"
+          ],
+          "ends": [
+            "en",
+            "en"
+          ],
+          "bn": "আমরা"
+        },
+        {
+          "pron": "ihr",
+          "stems": [
+            "versteh",
+            "wiss"
+          ],
+          "ends": [
+            "t",
+            "t"
+          ],
+          "bn": "তোমরা"
+        },
+        {
+          "pron": "sie / Sie",
+          "stems": [
+            "versteh",
+            "wiss"
+          ],
+          "ends": [
+            "en",
+            "en"
+          ],
+          "bn": "তারা / আপনি"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "„man“ — সাধারণভাবে কেউ",
+      "text": "„Wie schreibt man das?“ আক্ষরিক: কীভাবে (কেউ) এটা লেখে? = এটা কীভাবে লেখা হয়? „man“-এর সাথে ক্রিয়া er-এর রূপ নেয় (schreibt, sagt)। ইংরেজির „one / you“-এর মতো। কারও নির্দিষ্ট নাম না জেনে সাধারণ নিয়ম বা রীতি বলতে ব্যবহার করুন।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "die Frage",
+      "options": [
+        "প্রশ্ন",
+        "জিজ্ঞাসা করা",
+        "শব্দ",
+        "ঠিক"
+      ],
+      "answer": 0,
+      "why": "die Frage = প্রশ্ন।",
+      "word": "frage"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "wiederholen",
+      "options": [
+        "উত্তর",
+        "ঠিক",
+        "আবার বলা",
+        "উদাহরণ"
+      ],
+      "answer": 2,
+      "why": "wiederholen = আবার বলা।",
+      "word": "wiederholen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "richtig",
+      "options": [
+        "অর্থ হওয়া",
+        "উত্তর",
+        "ভুল",
+        "ঠিক"
+      ],
+      "answer": 3,
+      "why": "richtig = ঠিক।",
+      "word": "richtig"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "falsch",
+      "options": [
+        "জানা",
+        "আবার বলা",
+        "প্রশ্ন",
+        "ভুল"
+      ],
+      "answer": 3,
+      "why": "falsch = ভুল।",
+      "word": "falsch"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Wort",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 2,
+      "why": "das Wort। বহুবচন: die Wörter।",
+      "word": "wort"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ich ___ das nicht.",
+      "options": [
+        "verstehe",
+        "verstehst",
+        "versteht",
+        "verstehen"
+      ],
+      "answer": 0,
+      "why": "ich + verstehen → verstehe।",
+      "word": "verstehen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ich ___ nicht.",
+      "options": [
+        "weiß",
+        "weißt",
+        "wisse",
+        "wissen"
+      ],
+      "answer": 0,
+      "why": "ich weiß (wissen অনিয়মিত, শেষে -e নেই)।",
+      "word": "wissen"
+    },
+    {
+      "type": "order",
+      "prompt": "শব্দ সাজিয়ে প্রশ্ন বানান: „এটা কীভাবে লেখে?“",
+      "tiles": [
+        "das?",
+        "man",
+        "schreibt",
+        "Wie"
+      ],
+      "answer": [
+        "Wie",
+        "schreibt",
+        "man",
+        "das?"
+      ],
+      "why": "Wie schreibt man das?"
+    }
+  ],
+  "status": "draft",
+  "minutes": 14,
+  "passMark": 0.8
+}
