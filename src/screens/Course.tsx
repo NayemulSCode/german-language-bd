@@ -103,10 +103,10 @@ export function CourseScreen() {
           )
         })}
 
-        {!built && info.planned.map(([de, b], i) => (
+        {info.planned.slice(units.length).map(([de, b], i) => (
           <div key={de} className="unit soon">
             <div className="hd">
-              <span className="n num" style={{ width: 44, height: 44, borderRadius: 12, display: 'grid', placeItems: 'center', background: 'var(--paper)', border: '1px solid var(--line)', fontFamily: 'var(--display)', fontWeight: 800, color: 'var(--muted)' }}>{bn(i + 1)}</span>
+              <span className="n num" style={{ width: 44, height: 44, borderRadius: 12, display: 'grid', placeItems: 'center', background: 'var(--paper)', border: '1px solid var(--line)', fontFamily: 'var(--display)', fontWeight: 800, color: 'var(--muted)' }}>{bn(units.length + i + 1)}</span>
               <span><span className="t">{de}</span><br /><span className="s bn">{b}</span></span>
               <span className="tag bn">শীঘ্রই</span>
             </div>

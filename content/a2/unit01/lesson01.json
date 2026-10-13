@@ -1,0 +1,1031 @@
+{
+  "level": "A2",
+  "unit": 1,
+  "minutes": 16,
+  "lesson": 1,
+  "id": "a2-u01-l01",
+  "title": {
+    "de": "Was hast du gestern gemacht?",
+    "bn": "গতকাল কী করলে? — Perfekt (haben)",
+    "en": "What did you do yesterday? Perfect tense with haben"
+  },
+  "hook": {
+    "de": "Aus Fehlern wird man klug.",
+    "who": "Sprichwort",
+    "bn": "ভুল থেকেই মানুষ শেখে।",
+    "en": "You learn from your mistakes."
+  },
+  "goals": [
+    "অতীতের কথা বলার সবচেয়ে প্রচলিত রূপ: Perfekt",
+    "haben + Partizip II (ge-…-t)",
+    "ক্রিয়া ২য় স্থানে, Partizip শেষে",
+    "গতকাল, পরশু, গত সপ্তাহ — সময়ের শব্দ"
+  ],
+  "words": [
+    {
+      "id": "gestern",
+      "de": "gestern",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "গতকাল",
+      "en": "yesterday"
+    },
+    {
+      "id": "vorgestern",
+      "de": "vorgestern",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "গত পরশু (গতকালের আগের দিন)",
+      "en": "the day before yesterday"
+    },
+    {
+      "id": "letzte_woche",
+      "de": "letzte Woche",
+      "pos": "অভিব্যক্তি",
+      "bn": "গত সপ্তাহে",
+      "en": "last week"
+    },
+    {
+      "id": "machen",
+      "de": "machen",
+      "pos": "ক্রিয়া · hat gemacht",
+      "bn": "করা",
+      "en": "to do, to make"
+    },
+    {
+      "id": "kaufen",
+      "de": "kaufen",
+      "pos": "ক্রিয়া · hat gekauft",
+      "bn": "কেনা",
+      "en": "to buy"
+    },
+    {
+      "id": "kochen",
+      "de": "kochen",
+      "pos": "ক্রিয়া · hat gekocht",
+      "bn": "রান্না করা",
+      "en": "to cook"
+    },
+    {
+      "id": "lernen",
+      "de": "lernen",
+      "pos": "ক্রিয়া · hat gelernt",
+      "bn": "শেখা, পড়া",
+      "en": "to learn, to study"
+    },
+    {
+      "id": "arbeiten",
+      "de": "arbeiten",
+      "pos": "ক্রিয়া · hat gearbeitet",
+      "bn": "কাজ করা",
+      "en": "to work"
+    },
+    {
+      "id": "spielen",
+      "de": "spielen",
+      "pos": "ক্রিয়া · hat gespielt",
+      "bn": "খেলা",
+      "en": "to play"
+    },
+    {
+      "id": "hoeren",
+      "de": "hören",
+      "pos": "ক্রিয়া · hat gehört",
+      "bn": "শোনা",
+      "en": "to hear, to listen"
+    },
+    {
+      "id": "besuchen",
+      "de": "besuchen",
+      "pos": "ক্রিয়া · hat besucht",
+      "bn": "দেখা করতে যাওয়া",
+      "en": "to visit"
+    },
+    {
+      "id": "bezahlen",
+      "de": "bezahlen",
+      "pos": "ক্রিয়া · hat bezahlt",
+      "bn": "টাকা মেটানো",
+      "en": "to pay"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Muna",
+      "bn": [
+        "হ্যালো",
+        "সাহেব!",
+        "তুমি",
+        "গতকাল",
+        "কী",
+        "করেছিলে?"
+      ],
+      "en": [
+        "Hi",
+        "Saheb!",
+        "What",
+        "did",
+        "you",
+        "do",
+        "yesterday?"
+      ],
+      "de": [
+        {
+          "t": "Hallo",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Hallo",
+          "gb": "হ্যালো",
+          "ge": "Hi",
+          "n": ""
+        },
+        {
+          "t": "Saheb!",
+          "s": "Saheb",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "Saheb",
+          "gb": "সাহেব",
+          "ge": "Saheb",
+          "n": ""
+        },
+        {
+          "t": "Was",
+          "b": [
+            4
+          ],
+          "e": [
+            2
+          ],
+          "l": "Was",
+          "gb": "কী",
+          "ge": "What",
+          "n": ""
+        },
+        {
+          "t": "hast",
+          "b": [
+            5
+          ],
+          "e": [
+            3
+          ],
+          "l": "haben",
+          "gb": "করেছিলে",
+          "ge": "did",
+          "n": "Perfekt = haben + Partizip II"
+        },
+        {
+          "t": "du",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "gestern",
+          "b": [
+            3
+          ],
+          "e": [
+            6
+          ],
+          "l": "gestern",
+          "gb": "গতকাল",
+          "ge": "yesterday",
+          "n": ""
+        },
+        {
+          "t": "gemacht?",
+          "b": [
+            5
+          ],
+          "e": [
+            5
+          ],
+          "l": "machen",
+          "gb": "করেছিলে",
+          "ge": "do",
+          "n": "Partizip II: ge + mach + t. এটি বাক্যের শেষে যায়"
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "গতকাল",
+        "আমি",
+        "জার্মান",
+        "শিখেছি",
+        "আর",
+        "ভাত",
+        "রান্না",
+        "করেছি।"
+      ],
+      "en": [
+        "Yesterday",
+        "I",
+        "studied",
+        "German",
+        "and",
+        "cooked",
+        "rice."
+      ],
+      "de": [
+        {
+          "t": "Gestern",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Gestern",
+          "gb": "গতকাল",
+          "ge": "Yesterday",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [],
+          "e": [],
+          "l": "haben",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "Deutsch",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "Deutsch",
+          "gb": "জার্মান",
+          "ge": "German",
+          "n": ""
+        },
+        {
+          "t": "gelernt",
+          "b": [
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "lernen",
+          "gb": "শিখেছি",
+          "ge": "studied",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "Reis",
+          "b": [
+            5
+          ],
+          "e": [
+            6
+          ],
+          "l": "Reis",
+          "gb": "ভাত",
+          "ge": "rice",
+          "n": ""
+        },
+        {
+          "t": "gekocht.",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            5
+          ],
+          "l": "kochen",
+          "gb": "রান্না করেছি",
+          "ge": "cooked",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "আমি",
+        "সপ্তাহান্তে",
+        "অনেক",
+        "কাজ",
+        "করেছি।"
+      ],
+      "en": [
+        "I",
+        "worked",
+        "a",
+        "lot",
+        "at",
+        "the",
+        "weekend."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [],
+          "e": [],
+          "l": "haben",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "am",
+          "b": [],
+          "e": [
+            4,
+            5
+          ],
+          "l": "am",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "at the",
+          "n": ""
+        },
+        {
+          "t": "Wochenende",
+          "b": [
+            1
+          ],
+          "e": [
+            6
+          ],
+          "l": "Wochenende",
+          "gb": "সপ্তাহান্তে",
+          "ge": "weekend",
+          "n": ""
+        },
+        {
+          "t": "viel",
+          "b": [
+            2
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "viel",
+          "gb": "অনেক",
+          "ge": "a lot",
+          "n": ""
+        },
+        {
+          "t": "gearbeitet.",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            1
+          ],
+          "l": "arbeiten",
+          "gb": "কাজ করেছি",
+          "ge": "worked",
+          "n": "arbeiten → gearbeitet (t-এর আগে e যোগ হয়)"
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "তুমি",
+        "কি",
+        "গানও",
+        "শুনেছ?"
+      ],
+      "en": [
+        "Did",
+        "you",
+        "also",
+        "listen",
+        "to",
+        "music?"
+      ],
+      "de": [
+        {
+          "t": "Hast",
+          "b": [],
+          "e": [
+            0
+          ],
+          "l": "haben",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "Did",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "auch",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "auch",
+          "gb": "গানও",
+          "ge": "also",
+          "n": ""
+        },
+        {
+          "t": "Musik",
+          "b": [
+            2
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "Musik",
+          "gb": "গানও",
+          "ge": "to music",
+          "n": ""
+        },
+        {
+          "t": "gehört?",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "hören",
+          "gb": "শুনেছ",
+          "ge": "listen",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "হ্যাঁ,",
+        "আর",
+        "আমি",
+        "বন্ধুদের",
+        "সাথে",
+        "দেখা",
+        "করেছি।"
+      ],
+      "en": [
+        "Yes,",
+        "and",
+        "I",
+        "visited",
+        "friends."
+      ],
+      "de": [
+        {
+          "t": "Ja,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ja",
+          "gb": "হ্যাঁ",
+          "ge": "Yes",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [],
+          "e": [],
+          "l": "haben",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Freunde",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "Freunde",
+          "gb": "বন্ধুদের সাথে",
+          "ge": "friends",
+          "n": ""
+        },
+        {
+          "t": "besucht.",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            3
+          ],
+          "l": "besuchen",
+          "gb": "দেখা করেছি",
+          "ge": "visited",
+          "n": "besuchen → besucht: be- দিয়ে শুরু হলে ge- বসে না"
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "গত",
+        "পরশু",
+        "আমি",
+        "রুটি",
+        "কিনেছি।"
+      ],
+      "en": [
+        "The",
+        "day",
+        "before",
+        "yesterday",
+        "I",
+        "bought",
+        "bread."
+      ],
+      "de": [
+        {
+          "t": "Vorgestern",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "l": "vorgestern",
+          "gb": "গত পরশু",
+          "ge": "The day before yesterday",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [],
+          "e": [],
+          "l": "haben",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "Brot",
+          "b": [
+            3
+          ],
+          "e": [
+            6
+          ],
+          "l": "Brot",
+          "gb": "রুটি",
+          "ge": "bread",
+          "n": ""
+        },
+        {
+          "t": "gekauft.",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "kaufen",
+          "gb": "কিনেছি",
+          "ge": "bought",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "গত",
+        "সপ্তাহে",
+        "আমি",
+        "ফুটবল",
+        "খেলেছি।"
+      ],
+      "en": [
+        "Last",
+        "week",
+        "I",
+        "played",
+        "football."
+      ],
+      "de": [
+        {
+          "t": "Letzte Woche",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "letzte Woche",
+          "gb": "গত সপ্তাহে",
+          "ge": "Last week",
+          "n": "die Woche → letzte Woche (Akkusativ, স্ত্রীলিঙ্গ)"
+        },
+        {
+          "t": "habe",
+          "b": [],
+          "e": [],
+          "l": "haben",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "Fußball",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "Fußball",
+          "gb": "ফুটবল",
+          "ge": "football",
+          "n": ""
+        },
+        {
+          "t": "gespielt.",
+          "b": [
+            4
+          ],
+          "e": [
+            3
+          ],
+          "l": "spielen",
+          "gb": "খেলেছি",
+          "ge": "played",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "order",
+      "title": "Perfekt = haben (২য় স্থানে) + Partizip II (শেষে)",
+      "text": "অতীতের কথা বলতে মুখের জার্মানে Perfekt সবচেয়ে প্রচলিত। haben ২য় স্থানে বসে আর Partizip II বাক্যের একদম শেষে — বাংলায় „শিখেছি“ যেমন শেষে।",
+      "de": [
+        {
+          "t": "Gestern"
+        },
+        {
+          "t": "habe",
+          "v": true
+        },
+        {
+          "t": "ich Deutsch"
+        },
+        {
+          "t": "gelernt.",
+          "v": true
+        }
+      ],
+      "bn": [
+        {
+          "t": "গতকাল"
+        },
+        {
+          "t": "আমি জার্মান"
+        },
+        {
+          "t": "শিখেছি।",
+          "v": true
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "নিয়মিত ক্রিয়া: ge- + স্টেম + -t",
+      "head": [
+        "Infinitiv",
+        "Partizip II",
+        "Perfekt"
+      ],
+      "rows": [
+        [
+          "machen",
+          "gemacht",
+          "Ich habe das gemacht."
+        ],
+        [
+          "kaufen",
+          "gekauft",
+          "Er hat Brot gekauft."
+        ],
+        [
+          "kochen",
+          "gekocht",
+          "Wir haben gekocht."
+        ],
+        [
+          "lernen",
+          "gelernt",
+          "Du hast gelernt."
+        ],
+        [
+          "arbeiten",
+          "gearbeitet",
+          "Sie hat gearbeitet."
+        ],
+        [
+          "besuchen",
+          "besucht",
+          "Ich habe ihn besucht."
+        ],
+        [
+          "bezahlen",
+          "bezahlt",
+          "Ich habe bezahlt."
+        ]
+      ],
+      "note": "be-, ver-, ent-, er- দিয়ে শুরু ক্রিয়ায় ge- বসে না (besucht, bezahlt)। স্টেম t বা d-তে শেষ হলে -et: gearbeitet।"
+    },
+    {
+      "type": "table",
+      "title": "অতীতের সময়ের শব্দ",
+      "head": [
+        "জার্মান",
+        "বাংলা"
+      ],
+      "rows": [
+        [
+          "gestern",
+          "গতকাল"
+        ],
+        [
+          "vorgestern",
+          "গত পরশু"
+        ],
+        [
+          "letzte Woche",
+          "গত সপ্তাহে"
+        ],
+        [
+          "letzten Monat",
+          "গত মাসে"
+        ],
+        [
+          "letztes Jahr",
+          "গত বছর"
+        ],
+        [
+          "am Wochenende",
+          "সপ্তাহান্তে"
+        ]
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "gestern",
+      "options": [
+        "টাকা মেটানো",
+        "গত সপ্তাহে",
+        "কেনা",
+        "গতকাল"
+      ],
+      "answer": 3,
+      "why": "gestern = গতকাল।",
+      "word": "gestern"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "vorgestern",
+      "options": [
+        "গত পরশু",
+        "কাজ করা",
+        "দেখা করতে যাওয়া",
+        "গত সপ্তাহে"
+      ],
+      "answer": 0,
+      "why": "vorgestern = গত পরশু।",
+      "word": "vorgestern"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ich habe Deutsch ___.",
+      "options": [
+        "gelernt",
+        "lernt",
+        "gelernen",
+        "lernte"
+      ],
+      "answer": 0,
+      "why": "lernen → gelernt (ge + lern + t)।",
+      "word": "lernen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Gestern ___ ich Reis gekocht.",
+      "options": [
+        "habe",
+        "bin",
+        "hat",
+        "habt"
+      ],
+      "answer": 0,
+      "why": "ich + haben → habe।",
+      "word": "kochen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Wir haben gestern Fußball ___.",
+      "options": [
+        "gespielt",
+        "spielt",
+        "gespielen",
+        "spielte"
+      ],
+      "answer": 0,
+      "why": "spielen → gespielt।",
+      "word": "spielen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "arbeiten-এর Partizip II কী?",
+      "options": [
+        "gearbeitet",
+        "gearbeit",
+        "arbeitet",
+        "geabeitet"
+      ],
+      "answer": 0,
+      "why": "স্টেম t-তে শেষ → ge…et: gearbeitet।",
+      "word": "arbeiten"
+    },
+    {
+      "type": "mcq",
+      "prompt": "besuchen-এর Partizip II কী?",
+      "options": [
+        "besucht",
+        "gebesucht",
+        "besuchen",
+        "gebesuch"
+      ],
+      "answer": 0,
+      "why": "be- দিয়ে শুরু ক্রিয়ায় ge- বসে না।",
+      "word": "besuchen"
+    },
+    {
+      "type": "order",
+      "prompt": "শব্দ সাজিয়ে বাক্য বানান: „গতকাল আমি জার্মান শিখেছি।“",
+      "tiles": [
+        "gelernt.",
+        "Deutsch",
+        "ich",
+        "habe",
+        "Gestern"
+      ],
+      "answer": [
+        "Gestern",
+        "habe",
+        "ich",
+        "Deutsch",
+        "gelernt."
+      ],
+      "why": "haben ২য় স্থানে, Partizip শেষে।",
+      "word": "lernen"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

@@ -29,4 +29,5 @@ export const UNIT_TITLES: Record<string, { de: string; bn: string }> = {
   'A1-8': { de: 'Freizeit und Verabredungen', bn: 'অবসর ও দেখা-সাক্ষাৎ' },
   'A1-9': { de: 'Kleidung und Wetter', bn: 'পোশাক, আবহাওয়া ও তারিখ' },
   'A1-10': { de: 'Körper und Gesundheit', bn: 'শরীর ও স্বাস্থ্য' },
+  'A2-1': { de: 'Vergangenes erzählen', bn: 'অতীতের কথা বলা (Perfekt)' },
 }

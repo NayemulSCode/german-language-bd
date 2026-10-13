@@ -1,0 +1,1112 @@
+{
+  "level": "A2",
+  "unit": 1,
+  "minutes": 16,
+  "lesson": 2,
+  "id": "a2-u01-l02",
+  "title": {
+    "de": "Ich bin nach Berlin gefahren",
+    "bn": "Perfekt (sein) ও অনিয়মিত ক্রিয়া",
+    "en": "Perfect with sein and irregular verbs"
+  },
+  "hook": {
+    "de": "Reisen bildet.",
+    "who": "Sprichwort",
+    "bn": "ভ্রমণ মানুষকে শিক্ষিত করে।",
+    "en": "Travel broadens the mind."
+  },
+  "goals": [
+    "গতি বা অবস্থা বদলের ক্রিয়ায় sein + Partizip II",
+    "অনিয়মিত Partizip: gegessen, getrunken, gesehen …",
+    "haben নাকি sein — কীভাবে বুঝবেন",
+    "পৌঁছানোর গল্প বলা"
+  ],
+  "words": [
+    {
+      "id": "fahren",
+      "de": "fahren",
+      "pos": "ক্রিয়া · ist gefahren",
+      "bn": "যানবাহনে যাওয়া",
+      "en": "to go (by vehicle)"
+    },
+    {
+      "id": "gehen",
+      "de": "gehen",
+      "pos": "ক্রিয়া · ist gegangen",
+      "bn": "যাওয়া (হেঁটে)",
+      "en": "to go, to walk"
+    },
+    {
+      "id": "kommen",
+      "de": "kommen",
+      "pos": "ক্রিয়া · ist gekommen",
+      "bn": "আসা",
+      "en": "to come"
+    },
+    {
+      "id": "fliegen",
+      "de": "fliegen",
+      "pos": "ক্রিয়া · ist geflogen",
+      "bn": "উড়ে যাওয়া",
+      "en": "to fly"
+    },
+    {
+      "id": "bleiben",
+      "de": "bleiben",
+      "pos": "ক্রিয়া · ist geblieben",
+      "bn": "থেকে যাওয়া",
+      "en": "to stay"
+    },
+    {
+      "id": "ankommen",
+      "de": "ankommen",
+      "pos": "ক্রিয়া · ist angekommen",
+      "bn": "পৌঁছানো",
+      "en": "to arrive"
+    },
+    {
+      "id": "essen",
+      "de": "essen",
+      "pos": "ক্রিয়া · hat gegessen",
+      "bn": "খাওয়া",
+      "en": "to eat"
+    },
+    {
+      "id": "trinken",
+      "de": "trinken",
+      "pos": "ক্রিয়া · hat getrunken",
+      "bn": "পান করা",
+      "en": "to drink"
+    },
+    {
+      "id": "sehen",
+      "de": "sehen",
+      "pos": "ক্রিয়া · hat gesehen",
+      "bn": "দেখা",
+      "en": "to see"
+    },
+    {
+      "id": "schlafen",
+      "de": "schlafen",
+      "pos": "ক্রিয়া · hat geschlafen",
+      "bn": "ঘুমানো",
+      "en": "to sleep"
+    },
+    {
+      "id": "lesen",
+      "de": "lesen",
+      "pos": "ক্রিয়া · hat gelesen",
+      "bn": "পড়া",
+      "en": "to read"
+    },
+    {
+      "id": "nehmen",
+      "de": "nehmen",
+      "pos": "ক্রিয়া · hat genommen",
+      "bn": "নেওয়া",
+      "en": "to take"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Muna",
+      "bn": [
+        "তুমি",
+        "বার্লিনে",
+        "কখন",
+        "পৌঁছেছ?"
+      ],
+      "en": [
+        "When",
+        "did",
+        "you",
+        "arrive",
+        "in",
+        "Berlin?"
+      ],
+      "de": [
+        {
+          "t": "Wann",
+          "b": [
+            2
+          ],
+          "e": [
+            0
+          ],
+          "l": "Wann",
+          "gb": "কখন",
+          "ge": "When",
+          "n": ""
+        },
+        {
+          "t": "bist",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "did",
+          "n": "গতির ক্রিয়ার সাথে Perfekt-এ sein: bist … angekommen"
+        },
+        {
+          "t": "du",
+          "b": [
+            0
+          ],
+          "e": [
+            2
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "in",
+          "b": [
+            1
+          ],
+          "e": [
+            4
+          ],
+          "l": "in",
+          "gb": "বার্লিনে",
+          "ge": "in",
+          "n": ""
+        },
+        {
+          "t": "Berlin",
+          "b": [
+            1
+          ],
+          "e": [
+            5
+          ],
+          "l": "Berlin",
+          "gb": "বার্লিনে",
+          "ge": "Berlin",
+          "n": ""
+        },
+        {
+          "t": "angekommen?",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "ankommen",
+          "gb": "পৌঁছেছ",
+          "ge": "arrive",
+          "n": "ankommen → angekommen (ge মাঝখানে)"
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "মঙ্গলবার",
+        "পৌঁছেছি।"
+      ],
+      "en": [
+        "I",
+        "arrived",
+        "on",
+        "Tuesday."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "bin",
+          "b": [],
+          "e": [],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "am",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "am",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "on",
+          "n": ""
+        },
+        {
+          "t": "Dienstag",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "Dienstag",
+          "gb": "মঙ্গলবার",
+          "ge": "Tuesday",
+          "n": ""
+        },
+        {
+          "t": "angekommen.",
+          "b": [
+            2
+          ],
+          "e": [
+            1
+          ],
+          "l": "ankommen",
+          "gb": "পৌঁছেছি",
+          "ge": "arrived",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "ঢাকা",
+        "থেকে",
+        "ফ্র্যাঙ্কফুর্টে",
+        "উড়ে",
+        "এসেছি।"
+      ],
+      "en": [
+        "I",
+        "flew",
+        "from",
+        "Dhaka",
+        "to",
+        "Frankfurt."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "bin",
+          "b": [],
+          "e": [],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "von",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "von",
+          "gb": "থেকে",
+          "ge": "from",
+          "n": ""
+        },
+        {
+          "t": "Dhaka",
+          "s": "Dhaka",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "Dhaka",
+          "gb": "ঢাকা",
+          "ge": "Dhaka",
+          "n": ""
+        },
+        {
+          "t": "nach",
+          "b": [],
+          "e": [
+            4
+          ],
+          "l": "nach",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "to",
+          "n": "শহরের নামের আগে nach"
+        },
+        {
+          "t": "Frankfurt",
+          "b": [
+            3
+          ],
+          "e": [
+            5
+          ],
+          "l": "Frankfurt",
+          "gb": "ফ্র্যাঙ্কফুর্টে",
+          "ge": "Frankfurt",
+          "n": ""
+        },
+        {
+          "t": "geflogen.",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            1
+          ],
+          "l": "fliegen",
+          "gb": "উড়ে এসেছি",
+          "ge": "flew",
+          "n": "fliegen → ist geflogen (অনিয়মিত)"
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "আর",
+        "তারপর",
+        "তুমি",
+        "ট্রেনে",
+        "বার্লিন",
+        "এসেছ?"
+      ],
+      "en": [
+        "And",
+        "then",
+        "you",
+        "took",
+        "the",
+        "train",
+        "to",
+        "Berlin?"
+      ],
+      "de": [
+        {
+          "t": "Und",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "dann",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "dann",
+          "gb": "তারপর",
+          "ge": "then",
+          "n": ""
+        },
+        {
+          "t": "bist",
+          "b": [],
+          "e": [],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "mit dem Zug",
+          "b": [
+            3
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "der Zug",
+          "gb": "ট্রেনে",
+          "ge": "the train",
+          "n": ""
+        },
+        {
+          "t": "nach",
+          "b": [],
+          "e": [
+            6
+          ],
+          "l": "nach",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "to",
+          "n": ""
+        },
+        {
+          "t": "Berlin",
+          "b": [
+            4
+          ],
+          "e": [
+            7
+          ],
+          "l": "Berlin",
+          "gb": "বার্লিন",
+          "ge": "Berlin",
+          "n": ""
+        },
+        {
+          "t": "gefahren?",
+          "b": [
+            5
+          ],
+          "e": [
+            3
+          ],
+          "l": "fahren",
+          "gb": "এসেছ",
+          "ge": "took",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "হ্যাঁ।",
+        "আমি",
+        "ট্রেনে",
+        "রুটি",
+        "খেয়েছি",
+        "আর",
+        "চা",
+        "খেয়েছি।"
+      ],
+      "en": [
+        "Yes.",
+        "I",
+        "ate",
+        "bread",
+        "and",
+        "drank",
+        "tea",
+        "on",
+        "the",
+        "train."
+      ],
+      "de": [
+        {
+          "t": "Ja.",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ja",
+          "gb": "হ্যাঁ",
+          "ge": "Yes",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [],
+          "e": [],
+          "l": "haben",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "im",
+          "b": [
+            2
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "im",
+          "gb": "ট্রেনে",
+          "ge": "on the",
+          "n": ""
+        },
+        {
+          "t": "Zug",
+          "b": [
+            2
+          ],
+          "e": [
+            9
+          ],
+          "l": "Zug",
+          "gb": "ট্রেনে",
+          "ge": "train",
+          "n": ""
+        },
+        {
+          "t": "Brot",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "Brot",
+          "gb": "রুটি",
+          "ge": "bread",
+          "n": ""
+        },
+        {
+          "t": "gegessen",
+          "b": [
+            4
+          ],
+          "e": [
+            2
+          ],
+          "l": "essen",
+          "gb": "খেয়েছি",
+          "ge": "ate",
+          "n": "essen → hat gegessen (অনিয়মিত, haben)"
+        },
+        {
+          "t": "und",
+          "b": [
+            5
+          ],
+          "e": [
+            4
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "Tee",
+          "b": [
+            6
+          ],
+          "e": [
+            6
+          ],
+          "l": "Tee",
+          "gb": "চা",
+          "ge": "tea",
+          "n": ""
+        },
+        {
+          "t": "getrunken.",
+          "b": [
+            7
+          ],
+          "e": [
+            5
+          ],
+          "l": "trinken",
+          "gb": "খেয়েছি",
+          "ge": "drank",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "তুমি",
+        "কি",
+        "শহরটা",
+        "ইতিমধ্যে",
+        "দেখেছ?"
+      ],
+      "en": [
+        "Have",
+        "you",
+        "already",
+        "seen",
+        "the",
+        "city?"
+      ],
+      "de": [
+        {
+          "t": "Hast",
+          "b": [],
+          "e": [
+            0
+          ],
+          "l": "haben",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "Have",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "die",
+          "b": [],
+          "e": [
+            4
+          ],
+          "l": "die",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "Stadt",
+          "b": [
+            2
+          ],
+          "e": [
+            5
+          ],
+          "l": "Stadt",
+          "gb": "শহরটা",
+          "ge": "city",
+          "n": ""
+        },
+        {
+          "t": "schon",
+          "b": [
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "schon",
+          "gb": "ইতিমধ্যে",
+          "ge": "already",
+          "n": ""
+        },
+        {
+          "t": "gesehen?",
+          "b": [
+            4
+          ],
+          "e": [
+            3
+          ],
+          "l": "sehen",
+          "gb": "দেখেছ",
+          "ge": "seen",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "না,",
+        "এখনো",
+        "না।",
+        "আমি",
+        "শুধু",
+        "ঘুমিয়েছি",
+        "আর",
+        "পড়েছি।"
+      ],
+      "en": [
+        "No,",
+        "not",
+        "yet.",
+        "I",
+        "only",
+        "slept",
+        "and",
+        "read."
+      ],
+      "de": [
+        {
+          "t": "Nein,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Nein",
+          "gb": "না",
+          "ge": "No",
+          "n": ""
+        },
+        {
+          "t": "noch nicht.",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "noch nicht",
+          "gb": "এখনো না",
+          "ge": "not yet",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [],
+          "e": [],
+          "l": "haben",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "nur",
+          "b": [
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "nur",
+          "gb": "শুধু",
+          "ge": "only",
+          "n": ""
+        },
+        {
+          "t": "geschlafen",
+          "b": [
+            5
+          ],
+          "e": [
+            5
+          ],
+          "l": "schlafen",
+          "gb": "ঘুমিয়েছি",
+          "ge": "slept",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            6
+          ],
+          "e": [
+            6
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "gelesen.",
+          "b": [
+            7
+          ],
+          "e": [
+            7
+          ],
+          "l": "lesen",
+          "gb": "পড়েছি",
+          "ge": "read",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "sein + Partizip II: গতি বা অবস্থার বদল",
+      "head": [
+        "Infinitiv",
+        "Perfekt",
+        "বাংলা"
+      ],
+      "rows": [
+        [
+          "fahren",
+          "ich bin gefahren",
+          "আমি (যানবাহনে) গিয়েছি"
+        ],
+        [
+          "gehen",
+          "ich bin gegangen",
+          "আমি গিয়েছি (হেঁটে)"
+        ],
+        [
+          "kommen",
+          "ich bin gekommen",
+          "আমি এসেছি"
+        ],
+        [
+          "fliegen",
+          "ich bin geflogen",
+          "আমি উড়ে গিয়েছি"
+        ],
+        [
+          "ankommen",
+          "ich bin angekommen",
+          "আমি পৌঁছেছি"
+        ],
+        [
+          "bleiben",
+          "ich bin geblieben",
+          "আমি থেকে গিয়েছি"
+        ],
+        [
+          "sein",
+          "ich bin gewesen",
+          "আমি ছিলাম"
+        ]
+      ],
+      "note": "সূত্র: এক জায়গা থেকে অন্য জায়গায় যাওয়া বা অবস্থা বদলালে (einschlafen, aufstehen, werden) sein। বাকি প্রায় সব ক্রিয়ায় haben।"
+    },
+    {
+      "type": "table",
+      "title": "অনিয়মিত Partizip II (ge-…-en) — মুখস্থ করুন",
+      "head": [
+        "Infinitiv",
+        "Partizip II"
+      ],
+      "rows": [
+        [
+          "essen",
+          "gegessen"
+        ],
+        [
+          "trinken",
+          "getrunken"
+        ],
+        [
+          "sehen",
+          "gesehen"
+        ],
+        [
+          "nehmen",
+          "genommen"
+        ],
+        [
+          "schlafen",
+          "geschlafen"
+        ],
+        [
+          "lesen",
+          "gelesen"
+        ],
+        [
+          "schreiben",
+          "geschrieben"
+        ],
+        [
+          "sprechen",
+          "gesprochen"
+        ],
+        [
+          "finden",
+          "gefunden"
+        ],
+        [
+          "geben",
+          "gegeben"
+        ]
+      ],
+      "note": "প্রতিটি ক্রিয়া শেখার সময় Partizip-ও একসাথে শিখুন: „essen – hat gegessen“।"
+    },
+    {
+      "type": "text",
+      "title": "haben নাকি sein?",
+      "text": "বেশিরভাগ ক্রিয়ায় haben: Ich habe gegessen. Ich habe geschlafen. কিন্তু যে ক্রিয়ায় কেউ এক জায়গা থেকে অন্য জায়গায় যায় বা অবস্থা বদলায় সেখানে sein: Ich bin gefahren. Ich bin angekommen. Ich bin geblieben-ও sein দিয়ে — যদিও জায়গা বদলায়নি (এটি নিয়মের ব্যতিক্রম, মুখস্থ)।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "fahren",
+      "options": [
+        "পড়া",
+        "যানবাহনে যাওয়া",
+        "যাওয়া",
+        "উড়ে যাওয়া"
+      ],
+      "answer": 1,
+      "why": "fahren = যানবাহনে যাওয়া।",
+      "word": "fahren"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "bleiben",
+      "options": [
+        "উড়ে যাওয়া",
+        "থেকে যাওয়া",
+        "পান করা",
+        "পড়া"
+      ],
+      "answer": 1,
+      "why": "bleiben = থেকে যাওয়া।",
+      "word": "bleiben"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ich ___ nach Berlin gefahren.",
+      "options": [
+        "bin",
+        "habe",
+        "hat",
+        "ist"
+      ],
+      "answer": 0,
+      "why": "fahren → sein: ich bin gefahren।",
+      "word": "fahren"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Er ___ gestern Brot gegessen.",
+      "options": [
+        "hat",
+        "ist",
+        "habe",
+        "bin"
+      ],
+      "answer": 0,
+      "why": "essen → haben: er hat gegessen।",
+      "word": "essen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Wir ___ in Berlin geblieben.",
+      "options": [
+        "sind",
+        "haben",
+        "hat",
+        "bin"
+      ],
+      "answer": 0,
+      "why": "bleiben → sein: wir sind geblieben।",
+      "word": "bleiben"
+    },
+    {
+      "type": "mcq",
+      "prompt": "sehen-এর Partizip II কী?",
+      "options": [
+        "gesehen",
+        "gesehnt",
+        "gesieht",
+        "gesah"
+      ],
+      "answer": 0,
+      "why": "sehen → hat gesehen।",
+      "word": "sehen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "trinken-এর Partizip II কী?",
+      "options": [
+        "getrunken",
+        "getrinkt",
+        "getrinken",
+        "trunken"
+      ],
+      "answer": 0,
+      "why": "trinken → hat getrunken।",
+      "word": "trinken"
+    },
+    {
+      "type": "order",
+      "prompt": "শব্দ সাজিয়ে বাক্য বানান: „আমি মঙ্গলবার পৌঁছেছি।“",
+      "tiles": [
+        "angekommen.",
+        "Dienstag",
+        "am",
+        "bin",
+        "Ich"
+      ],
+      "answer": [
+        "Ich",
+        "bin",
+        "am",
+        "Dienstag",
+        "angekommen."
+      ],
+      "why": "sein ২য় স্থানে, Partizip শেষে।",
+      "word": "ankommen"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

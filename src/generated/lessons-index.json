@@ -558,5 +558,61 @@
     "status": "draft",
     "minutes": 18,
     "words": 10
+  },
+  {
+    "id": "a2-u01-l01",
+    "level": "A2",
+    "unit": 1,
+    "lesson": 1,
+    "title": {
+      "bn": "গতকাল কী করলে? — Perfekt (haben)",
+      "en": "What did you do yesterday? Perfect tense with haben",
+      "de": "Was hast du gestern gemacht?"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u01-l02",
+    "level": "A2",
+    "unit": 1,
+    "lesson": 2,
+    "title": {
+      "bn": "Perfekt (sein) ও অনিয়মিত ক্রিয়া",
+      "en": "Perfect with sein and irregular verbs",
+      "de": "Ich bin nach Berlin gefahren"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u01-l03",
+    "level": "A2",
+    "unit": 1,
+    "lesson": 3,
+    "title": {
+      "bn": "ভাঙা ও অভাঙা ক্রিয়ার Perfekt",
+      "en": "Separable and inseparable verbs in the perfect",
+      "de": "Wie war dein Wochenende?"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u01-l04",
+    "level": "A2",
+    "unit": 1,
+    "lesson": 4,
+    "title": {
+      "bn": "war, hatte, konnte — Präteritum",
+      "en": "Then and now: preterite of sein, haben and modals",
+      "de": "Früher und heute"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
   }
 ]
