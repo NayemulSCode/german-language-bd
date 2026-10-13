@@ -1,0 +1,936 @@
+{
+  "id": "a1-u03-l02",
+  "level": "A1",
+  "unit": 3,
+  "lesson": 2,
+  "title": {
+    "de": "Haben und Familie",
+    "bn": "haben ক্রিয়া ও আত্মীয়স্বজন",
+    "en": "The verb haben and relatives"
+  },
+  "hook": {
+    "de": "Wer hat, der hat.",
+    "who": "Sprichwort",
+    "bn": "যার আছে, তার আছে।",
+    "en": "Those who have, have."
+  },
+  "goals": [
+    "haben-এর পুরো রূপ: ich habe, du hast, er hat …",
+    "„আমার … আছে“ = Ich habe …",
+    "পুংলিঙ্গে ein → einen",
+    "বিবাহিত/অবিবাহিত, বন্ধু ও আত্মীয়দের শব্দ"
+  ],
+  "words": [
+    {
+      "id": "haben",
+      "de": "haben",
+      "pos": "ক্রিয়া",
+      "bn": "থাকা, আছে",
+      "en": "to have"
+    },
+    {
+      "id": "mann",
+      "de": "Mann",
+      "art": "der",
+      "pl": "die Männer",
+      "pos": "বিশেষ্য",
+      "bn": "পুরুষ; স্বামী",
+      "en": "man; husband"
+    },
+    {
+      "id": "freund",
+      "de": "Freund",
+      "art": "der",
+      "pl": "die Freunde",
+      "pos": "বিশেষ্য",
+      "bn": "বন্ধু (ছেলে)",
+      "en": "friend (male)"
+    },
+    {
+      "id": "freundin",
+      "de": "Freundin",
+      "art": "die",
+      "pl": "die Freundinnen",
+      "pos": "বিশেষ্য",
+      "bn": "বান্ধবী",
+      "en": "friend (female)"
+    },
+    {
+      "id": "onkel",
+      "de": "Onkel",
+      "art": "der",
+      "pl": "die Onkel",
+      "pos": "বিশেষ্য",
+      "bn": "চাচা, মামা, কাকা",
+      "en": "uncle"
+    },
+    {
+      "id": "tante",
+      "de": "Tante",
+      "art": "die",
+      "pl": "die Tanten",
+      "pos": "বিশেষ্য",
+      "bn": "চাচি, খালা, ফুফু, মামি",
+      "en": "aunt"
+    },
+    {
+      "id": "verheiratet",
+      "de": "verheiratet",
+      "pos": "বিশেষণ",
+      "bn": "বিবাহিত",
+      "en": "married"
+    },
+    {
+      "id": "ledig",
+      "de": "ledig",
+      "pos": "বিশেষণ",
+      "bn": "অবিবাহিত",
+      "en": "single"
+    },
+    {
+      "id": "foto",
+      "de": "Foto",
+      "art": "das",
+      "pl": "die Fotos",
+      "pos": "বিশেষ্য",
+      "bn": "ছবি",
+      "en": "photo"
+    },
+    {
+      "id": "baby",
+      "de": "Baby",
+      "art": "das",
+      "pl": "die Babys",
+      "pos": "বিশেষ্য",
+      "bn": "শিশু (ছোট বাচ্চা)",
+      "en": "baby"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Muna",
+      "bn": [
+        "তুমি",
+        "কি",
+        "বিবাহিত?"
+      ],
+      "en": [
+        "Are",
+        "you",
+        "married?"
+      ],
+      "de": [
+        {
+          "t": "Bist",
+          "b": [],
+          "e": [
+            0
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "Are",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "verheiratet?",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "verheiratet",
+          "gb": "বিবাহিত",
+          "ge": "married",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "না,",
+        "আমি",
+        "অবিবাহিত।",
+        "কিন্তু",
+        "আমার",
+        "একজন",
+        "বান্ধবী",
+        "আছে।"
+      ],
+      "en": [
+        "No,",
+        "I",
+        "am",
+        "single.",
+        "But",
+        "I",
+        "have",
+        "a",
+        "girlfriend."
+      ],
+      "de": [
+        {
+          "t": "Nein,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Nein",
+          "gb": "না",
+          "ge": "No",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "bin",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "am",
+          "n": ""
+        },
+        {
+          "t": "ledig.",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "ledig",
+          "gb": "অবিবাহিত",
+          "ge": "single",
+          "n": ""
+        },
+        {
+          "t": "Aber",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "Aber",
+          "gb": "কিন্তু",
+          "ge": "But",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "ich",
+          "gb": "আমার",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [
+            7
+          ],
+          "e": [
+            6
+          ],
+          "l": "haben",
+          "gb": "আছে",
+          "ge": "have",
+          "n": ""
+        },
+        {
+          "t": "eine",
+          "b": [
+            5
+          ],
+          "e": [
+            7
+          ],
+          "l": "ein",
+          "gb": "একজন",
+          "ge": "a",
+          "n": ""
+        },
+        {
+          "t": "Freundin.",
+          "b": [
+            6
+          ],
+          "e": [
+            8
+          ],
+          "l": "Freundin",
+          "gb": "বান্ধবী",
+          "ge": "girlfriend",
+          "n": "Freundin = বান্ধবী; সম্পর্কের প্রেক্ষাপটে „গার্লফ্রেন্ড“ও হতে পারে"
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "তোমার",
+        "কি",
+        "সন্তান",
+        "আছে?"
+      ],
+      "en": [
+        "Do",
+        "you",
+        "have",
+        "children?"
+      ],
+      "de": [
+        {
+          "t": "Hast",
+          "b": [
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "haben",
+          "gb": "আছে",
+          "ge": "have",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "du",
+          "gb": "তোমার",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "Kinder?",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "Kinder",
+          "gb": "সন্তান",
+          "ge": "children",
+          "n": "Kinder = Kind-এর বহুবচন"
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "না।",
+        "আমার",
+        "চাচার",
+        "তিনটি",
+        "সন্তান",
+        "আছে।"
+      ],
+      "en": [
+        "No.",
+        "My",
+        "uncle",
+        "has",
+        "three",
+        "children."
+      ],
+      "de": [
+        {
+          "t": "Nein.",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Nein",
+          "gb": "না",
+          "ge": "No",
+          "n": ""
+        },
+        {
+          "t": "Mein",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "Mein",
+          "gb": "আমার",
+          "ge": "My",
+          "n": ""
+        },
+        {
+          "t": "Onkel",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "Onkel",
+          "gb": "চাচার",
+          "ge": "uncle",
+          "n": "Onkel = চাচা, মামা, কাকা — সবাই Onkel"
+        },
+        {
+          "t": "hat",
+          "b": [
+            5
+          ],
+          "e": [
+            3
+          ],
+          "l": "haben",
+          "gb": "আছে",
+          "ge": "has",
+          "n": "er/sie/es hat"
+        },
+        {
+          "t": "drei",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "drei",
+          "gb": "তিনটি",
+          "ge": "three",
+          "n": ""
+        },
+        {
+          "t": "Kinder.",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "Kinder",
+          "gb": "সন্তান",
+          "ge": "children",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "আমার",
+        "বোনের",
+        "একটি",
+        "শিশু",
+        "আছে!"
+      ],
+      "en": [
+        "My",
+        "sister",
+        "has",
+        "a",
+        "baby!"
+      ],
+      "de": [
+        {
+          "t": "Meine",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "mein",
+          "gb": "আমার",
+          "ge": "My",
+          "n": ""
+        },
+        {
+          "t": "Schwester",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "Schwester",
+          "gb": "বোনের",
+          "ge": "sister",
+          "n": ""
+        },
+        {
+          "t": "hat",
+          "b": [
+            4
+          ],
+          "e": [
+            2
+          ],
+          "l": "haben",
+          "gb": "আছে",
+          "ge": "has",
+          "n": ""
+        },
+        {
+          "t": "ein",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "ein",
+          "gb": "একটি",
+          "ge": "a",
+          "n": ""
+        },
+        {
+          "t": "Baby!",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "Baby",
+          "gb": "শিশু",
+          "ge": "baby",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "সুন্দর!",
+        "তোমার",
+        "কাছে",
+        "কি",
+        "একটি",
+        "ছবি",
+        "আছে?"
+      ],
+      "en": [
+        "Nice!",
+        "Do",
+        "you",
+        "have",
+        "a",
+        "photo?"
+      ],
+      "de": [
+        {
+          "t": "Schön!",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "schön",
+          "gb": "সুন্দর",
+          "ge": "Nice",
+          "n": ""
+        },
+        {
+          "t": "Hast",
+          "b": [
+            6
+          ],
+          "e": [
+            3
+          ],
+          "l": "haben",
+          "gb": "আছে",
+          "ge": "have",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "du",
+          "gb": "তোমার",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "ein",
+          "b": [
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "ein",
+          "gb": "একটি",
+          "ge": "a",
+          "n": ""
+        },
+        {
+          "t": "Foto?",
+          "b": [
+            5
+          ],
+          "e": [
+            5
+          ],
+          "l": "Foto",
+          "gb": "ছবি",
+          "ge": "photo",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "হ্যাঁ,",
+        "এই",
+        "যে",
+        "একটি",
+        "ছবি।"
+      ],
+      "en": [
+        "Yes,",
+        "here",
+        "is",
+        "a",
+        "photo."
+      ],
+      "de": [
+        {
+          "t": "Ja,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ja",
+          "gb": "হ্যাঁ",
+          "ge": "Yes",
+          "n": ""
+        },
+        {
+          "t": "hier",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "hier",
+          "gb": "এই",
+          "ge": "here",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "ein",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "ein",
+          "gb": "একটি",
+          "ge": "a",
+          "n": ""
+        },
+        {
+          "t": "Foto.",
+          "b": [
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "Foto",
+          "gb": "ছবি",
+          "ge": "photo",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "conjugation",
+      "intro": "haben (থাকা, আছে) সবচেয়ে দরকারি ক্রিয়াগুলোর একটি। du ও er/sie/es-এ b উধাও হয়ে যায় — এটা নিয়ম ভাঙা।",
+      "verbs": [
+        "haben"
+      ],
+      "rows": [
+        {
+          "pron": "ich",
+          "stems": [
+            "hab"
+          ],
+          "ends": [
+            "e"
+          ],
+          "bn": "আমার আছে"
+        },
+        {
+          "pron": "du",
+          "stems": [
+            "ha"
+          ],
+          "ends": [
+            "st"
+          ],
+          "bn": "তোমার আছে"
+        },
+        {
+          "pron": "er / sie / es",
+          "stems": [
+            "ha"
+          ],
+          "ends": [
+            "t"
+          ],
+          "bn": "তার আছে"
+        },
+        {
+          "pron": "wir",
+          "stems": [
+            "hab"
+          ],
+          "ends": [
+            "en"
+          ],
+          "bn": "আমাদের আছে"
+        },
+        {
+          "pron": "ihr",
+          "stems": [
+            "hab"
+          ],
+          "ends": [
+            "t"
+          ],
+          "bn": "তোমাদের আছে"
+        },
+        {
+          "pron": "sie / Sie",
+          "stems": [
+            "hab"
+          ],
+          "ends": [
+            "en"
+          ],
+          "bn": "তাদের / আপনার আছে"
+        }
+      ],
+      "note": "বাংলায় „আমার একটি ভাই আছে“ — জার্মানে কর্তা হয় „আমি“: Ich habe einen Bruder।"
+    },
+    {
+      "type": "table",
+      "title": "haben-এর পরে: ein → einen (শুধু পুংলিঙ্গে)",
+      "intro": "haben-এর পরে যা আসে তা Akkusativ-এ থাকে। তিনটি লিঙ্গের মধ্যে শুধু der-শব্দে রূপ বদলায়।",
+      "head": [
+        "",
+        "কর্তা (Nominativ)",
+        "haben-এর পরে (Akkusativ)"
+      ],
+      "rows": [
+        [
+          "der Bruder",
+          "ein Bruder",
+          "einen Bruder"
+        ],
+        [
+          "die Schwester",
+          "eine Schwester",
+          "eine Schwester"
+        ],
+        [
+          "das Kind",
+          "ein Kind",
+          "ein Kind"
+        ],
+        [
+          "die Kinder (বহু.)",
+          "Kinder",
+          "Kinder"
+        ]
+      ],
+      "note": "Ich habe einen Bruder (ইনি আমার ভাই আছে) — আর Das ist ein Bruder।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "verheiratet",
+      "options": [
+        "বিবাহিত",
+        "চাচি",
+        "ছবি",
+        "থাকা"
+      ],
+      "answer": 0,
+      "why": "verheiratet = বিবাহিত।",
+      "word": "verheiratet"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "ledig",
+      "options": [
+        "অবিবাহিত",
+        "বিবাহিত",
+        "থাকা",
+        "বান্ধবী"
+      ],
+      "answer": 0,
+      "why": "ledig = অবিবাহিত।",
+      "word": "ledig"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ich ___ einen Bruder.",
+      "options": [
+        "habe",
+        "hast",
+        "hat",
+        "haben"
+      ],
+      "answer": 0,
+      "why": "ich-এর সাথে: ich habe।",
+      "word": "haben"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Du ___ eine Schwester.",
+      "options": [
+        "habe",
+        "hast",
+        "hat",
+        "habt"
+      ],
+      "answer": 1,
+      "why": "du-এর সাথে: du hast (b উধাও)।",
+      "word": "haben"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Mein Onkel ___ drei Kinder.",
+      "options": [
+        "habe",
+        "hast",
+        "hat",
+        "haben"
+      ],
+      "answer": 2,
+      "why": "er/sie/es-এর সাথে: hat। Onkel = er।",
+      "word": "haben"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ich habe ___ Bruder.",
+      "options": [
+        "ein",
+        "eine",
+        "einen",
+        "einem"
+      ],
+      "answer": 2,
+      "why": "der Bruder + haben → einen Bruder।"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Tante",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Tante। বহুবচন: die Tanten।",
+      "word": "tante"
+    },
+    {
+      "type": "order",
+      "prompt": "শব্দ সাজিয়ে বাক্য বানান: „তোমার কাছে কি ছবি আছে?“",
+      "tiles": [
+        "Foto?",
+        "du",
+        "ein",
+        "Hast"
+      ],
+      "answer": [
+        "Hast",
+        "du",
+        "ein",
+        "Foto?"
+      ],
+      "why": "প্রশ্নে ক্রিয়া প্রথমে: Hast du ein Foto?",
+      "word": "foto"
+    }
+  ],
+  "status": "draft",
+  "minutes": 14,
+  "passMark": 0.8
+}

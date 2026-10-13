@@ -1,0 +1,975 @@
+{
+  "id": "a1-u03-l04",
+  "level": "A1",
+  "unit": 3,
+  "lesson": 4,
+  "title": {
+    "de": "Ich habe kein Auto",
+    "bn": "কী আছে, কী নেই — kein ও nicht",
+    "en": "What I have and do not have"
+  },
+  "hook": {
+    "de": "Kein Mensch ist eine Insel.",
+    "who": "Sprichwort",
+    "bn": "কোনো মানুষই দ্বীপ নয়।",
+    "en": "No man is an island."
+  },
+  "goals": [
+    "„আমার … নেই“ = Ich habe kein/keine …",
+    "kein-এর রূপ: kein, keine, keinen",
+    "kein আর nicht-এর পার্থক্য",
+    "দৈনন্দিন জিনিস: Auto, Handy, Fahrrad, Haustier"
+  ],
+  "words": [
+    {
+      "id": "auto",
+      "de": "Auto",
+      "art": "das",
+      "pl": "die Autos",
+      "pos": "বিশেষ্য",
+      "bn": "গাড়ি",
+      "en": "car"
+    },
+    {
+      "id": "fahrrad",
+      "de": "Fahrrad",
+      "art": "das",
+      "pl": "die Fahrräder",
+      "pos": "বিশেষ্য",
+      "bn": "সাইকেল",
+      "en": "bicycle"
+    },
+    {
+      "id": "haustier",
+      "de": "Haustier",
+      "art": "das",
+      "pl": "die Haustiere",
+      "pos": "বিশেষ্য",
+      "bn": "পোষা প্রাণী",
+      "en": "pet"
+    },
+    {
+      "id": "hund",
+      "de": "Hund",
+      "art": "der",
+      "pl": "die Hunde",
+      "pos": "বিশেষ্য",
+      "bn": "কুকুর",
+      "en": "dog"
+    },
+    {
+      "id": "katze",
+      "de": "Katze",
+      "art": "die",
+      "pl": "die Katzen",
+      "pos": "বিশেষ্য",
+      "bn": "বিড়াল",
+      "en": "cat"
+    },
+    {
+      "id": "handy",
+      "de": "Handy",
+      "art": "das",
+      "pl": "die Handys",
+      "pos": "বিশেষ্য",
+      "bn": "মোবাইল ফোন",
+      "en": "mobile phone"
+    },
+    {
+      "id": "geld",
+      "de": "Geld",
+      "art": "das",
+      "pos": "বিশেষ্য, শুধু একবচন",
+      "bn": "টাকা, অর্থ",
+      "en": "money"
+    },
+    {
+      "id": "zeit",
+      "de": "Zeit",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "সময়",
+      "en": "time"
+    },
+    {
+      "id": "kein",
+      "de": "kein",
+      "pos": "নির্দেশক শব্দ",
+      "bn": "কোনো … নেই",
+      "en": "no, not a"
+    },
+    {
+      "id": "nicht",
+      "de": "nicht",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "না (ক্রিয়া বা বিশেষণকে নাকচ)",
+      "en": "not"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Muna",
+      "bn": [
+        "তোমার",
+        "কি",
+        "গাড়ি",
+        "আছে?"
+      ],
+      "en": [
+        "Do",
+        "you",
+        "have",
+        "a",
+        "car?"
+      ],
+      "de": [
+        {
+          "t": "Hast",
+          "b": [
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "haben",
+          "gb": "আছে",
+          "ge": "have",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "du",
+          "gb": "তোমার",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "ein",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "ein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "a",
+          "n": ""
+        },
+        {
+          "t": "Auto?",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "Auto",
+          "gb": "গাড়ি",
+          "ge": "car",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "না,",
+        "আমার",
+        "গাড়ি",
+        "নেই।",
+        "কিন্তু",
+        "আমার",
+        "একটি",
+        "সাইকেল",
+        "আছে।"
+      ],
+      "en": [
+        "No,",
+        "I",
+        "do",
+        "not",
+        "have",
+        "a",
+        "car.",
+        "But",
+        "I",
+        "have",
+        "a",
+        "bike."
+      ],
+      "de": [
+        {
+          "t": "Nein,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Nein",
+          "gb": "না",
+          "ge": "No",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "ich",
+          "gb": "আমার",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [],
+          "e": [
+            2,
+            4
+          ],
+          "l": "haben",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "do have",
+          "n": ""
+        },
+        {
+          "t": "kein",
+          "b": [
+            3
+          ],
+          "e": [
+            3,
+            5
+          ],
+          "l": "kein",
+          "gb": "কোনো … না",
+          "ge": "no, not a",
+          "n": "kein = ein-এর নেতিবাচক রূপ ( „… নেই“ )"
+        },
+        {
+          "t": "Auto.",
+          "b": [
+            2
+          ],
+          "e": [
+            6
+          ],
+          "l": "Auto",
+          "gb": "গাড়ি",
+          "ge": "car",
+          "n": ""
+        },
+        {
+          "t": "Aber",
+          "b": [
+            4
+          ],
+          "e": [
+            7
+          ],
+          "l": "Aber",
+          "gb": "কিন্তু",
+          "ge": "But",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            5
+          ],
+          "e": [
+            8
+          ],
+          "l": "ich",
+          "gb": "আমার",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [
+            8
+          ],
+          "e": [
+            9
+          ],
+          "l": "haben",
+          "gb": "আছে",
+          "ge": "have",
+          "n": ""
+        },
+        {
+          "t": "ein",
+          "b": [
+            6
+          ],
+          "e": [
+            10
+          ],
+          "l": "ein",
+          "gb": "একটি",
+          "ge": "a",
+          "n": ""
+        },
+        {
+          "t": "Fahrrad.",
+          "b": [
+            7
+          ],
+          "e": [
+            11
+          ],
+          "l": "Fahrrad",
+          "gb": "সাইকেল",
+          "ge": "bike",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "তোমার",
+        "কি",
+        "কোনো",
+        "পোষা",
+        "প্রাণী",
+        "আছে?"
+      ],
+      "en": [
+        "Do",
+        "you",
+        "have",
+        "a",
+        "pet?"
+      ],
+      "de": [
+        {
+          "t": "Hast",
+          "b": [
+            5
+          ],
+          "e": [
+            2
+          ],
+          "l": "haben",
+          "gb": "আছে",
+          "ge": "have",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "du",
+          "gb": "তোমার",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "ein",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "ein",
+          "gb": "কোনো",
+          "ge": "a",
+          "n": ""
+        },
+        {
+          "t": "Haustier?",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "Haustier",
+          "gb": "পোষা প্রাণী",
+          "ge": "pet",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "হ্যাঁ,",
+        "আমার",
+        "একটি",
+        "বিড়াল",
+        "আছে।",
+        "তার",
+        "নাম",
+        "মিমি।"
+      ],
+      "en": [
+        "Yes,",
+        "I",
+        "have",
+        "a",
+        "cat.",
+        "Her",
+        "name",
+        "is",
+        "Mimi."
+      ],
+      "de": [
+        {
+          "t": "Ja,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ja",
+          "gb": "হ্যাঁ",
+          "ge": "Yes",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "ich",
+          "gb": "আমার",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [
+            4
+          ],
+          "e": [
+            2
+          ],
+          "l": "haben",
+          "gb": "আছে",
+          "ge": "have",
+          "n": ""
+        },
+        {
+          "t": "eine",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "ein",
+          "gb": "একটি",
+          "ge": "a",
+          "n": ""
+        },
+        {
+          "t": "Katze.",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "Katze",
+          "gb": "বিড়াল",
+          "ge": "cat",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [
+            5
+          ],
+          "e": [
+            5
+          ],
+          "l": "sie",
+          "gb": "সে (মেয়ে)",
+          "ge": "she",
+          "n": ""
+        },
+        {
+          "t": "heißt",
+          "b": [
+            6
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "heißen",
+          "gb": "নাম",
+          "ge": "name is",
+          "n": ""
+        },
+        {
+          "t": "Mimi.",
+          "s": "Mimi",
+          "b": [
+            7
+          ],
+          "e": [
+            8
+          ],
+          "l": "Mimi",
+          "gb": "মিমি",
+          "ge": "Mimi",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "আমার",
+        "কোনো",
+        "বিড়াল",
+        "নেই।",
+        "আমার",
+        "একটি",
+        "কুকুর",
+        "আছে।"
+      ],
+      "en": [
+        "I",
+        "do",
+        "not",
+        "have",
+        "a",
+        "cat.",
+        "I",
+        "have",
+        "a",
+        "dog."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমার",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [
+            3
+          ],
+          "e": [
+            1,
+            3
+          ],
+          "l": "haben",
+          "gb": "নেই",
+          "ge": "do have",
+          "n": ""
+        },
+        {
+          "t": "keine",
+          "b": [
+            1
+          ],
+          "e": [
+            2,
+            4
+          ],
+          "l": "kein",
+          "gb": "কোনো",
+          "ge": "not a",
+          "n": "die Katze → keine Katze"
+        },
+        {
+          "t": "Katze.",
+          "b": [
+            2
+          ],
+          "e": [
+            5
+          ],
+          "l": "Katze",
+          "gb": "বিড়াল",
+          "ge": "cat",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            4
+          ],
+          "e": [
+            6
+          ],
+          "l": "Ich",
+          "gb": "আমার",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [
+            7
+          ],
+          "e": [
+            7
+          ],
+          "l": "haben",
+          "gb": "আছে",
+          "ge": "have",
+          "n": ""
+        },
+        {
+          "t": "einen",
+          "b": [
+            5
+          ],
+          "e": [
+            8
+          ],
+          "l": "ein",
+          "gb": "একটি",
+          "ge": "a",
+          "n": "der Hund + haben → einen"
+        },
+        {
+          "t": "Hund.",
+          "b": [
+            6
+          ],
+          "e": [
+            9
+          ],
+          "l": "Hund",
+          "gb": "কুকুর",
+          "ge": "dog",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "তোমার",
+        "কি",
+        "সময়",
+        "আছে?"
+      ],
+      "en": [
+        "Do",
+        "you",
+        "have",
+        "time?"
+      ],
+      "de": [
+        {
+          "t": "Hast",
+          "b": [
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "haben",
+          "gb": "আছে",
+          "ge": "have",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "du",
+          "gb": "তোমার",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "Zeit?",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "Zeit",
+          "gb": "সময়",
+          "ge": "time",
+          "n": "Zeit-এর আগে ein বসে না: Hast du Zeit?"
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "না,",
+        "আমার",
+        "সময়",
+        "নেই।"
+      ],
+      "en": [
+        "No,",
+        "I",
+        "do",
+        "not",
+        "have",
+        "time."
+      ],
+      "de": [
+        {
+          "t": "Nein,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Nein",
+          "gb": "না",
+          "ge": "No",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "ich",
+          "gb": "আমার",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [],
+          "e": [
+            2,
+            4
+          ],
+          "l": "haben",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "do have",
+          "n": ""
+        },
+        {
+          "t": "keine",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "kein",
+          "gb": "নেই",
+          "ge": "not",
+          "n": "die Zeit → keine Zeit"
+        },
+        {
+          "t": "Zeit.",
+          "b": [
+            2
+          ],
+          "e": [
+            5
+          ],
+          "l": "Zeit",
+          "gb": "সময়",
+          "ge": "time",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "kein — „… নেই / কোনো … না“",
+      "intro": "kein আসলে ein-এর নেতিবাচক রূপ। ein যে রূপে বসত, kein সেই রূপেই বসে (ব্যতিক্রম: বহুবচনেও keine হয়)।",
+      "head": [
+        "",
+        "কর্তা (Nominativ)",
+        "haben-এর পরে (Akkusativ)"
+      ],
+      "rows": [
+        [
+          "der Hund",
+          "kein Hund",
+          "keinen Hund"
+        ],
+        [
+          "die Katze",
+          "keine Katze",
+          "keine Katze"
+        ],
+        [
+          "das Auto",
+          "kein Auto",
+          "kein Auto"
+        ],
+        [
+          "die Kinder (বহু.)",
+          "keine Kinder",
+          "keine Kinder"
+        ]
+      ],
+      "note": "Ich habe keinen Hund = আমার কুকুর নেই। — বাংলায় „নেই“ ক্রিয়ার সাথে মেশে, জার্মানে kein বিশেষ্যের সামনে বসে।"
+    },
+    {
+      "type": "text",
+      "title": "kein নাকি nicht?",
+      "text": "kein — বিশেষ্যকে (যার আগে ein থাকত বা কোনো আর্টিকেলই থাকত না) নাকচ করে: „Ich habe kein Auto.“, „Ich habe keine Zeit.“, „Ich habe kein Geld.“ nicht — ক্রিয়া, বিশেষণ বা পুরো বাক্যকে নাকচ করে: „Ich arbeite nicht.“, „Das ist nicht gut.“ সহজ নিয়ম: যে বিশেষ্যের আগে ein বসতে পারে → kein।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "das Fahrrad",
+      "options": [
+        "না",
+        "সাইকেল",
+        "পোষা প্রাণী",
+        "বিড়াল"
+      ],
+      "answer": 1,
+      "why": "das Fahrrad = সাইকেল।",
+      "word": "fahrrad"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "das Haustier",
+      "options": [
+        "পোষা প্রাণী",
+        "টাকা",
+        "না",
+        "কুকুর"
+      ],
+      "answer": 0,
+      "why": "das Haustier = পোষা প্রাণী।",
+      "word": "haustier"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Katze",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Katze। বহুবচন: die Katzen।",
+      "word": "katze"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Handy",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 2,
+      "why": "das Handy। বহুবচন: die Handys।",
+      "word": "handy"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ich habe ___ Auto.",
+      "options": [
+        "kein",
+        "keine",
+        "nicht",
+        "keinen"
+      ],
+      "answer": 0,
+      "why": "das Auto → kein Auto।",
+      "word": "kein"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ich habe ___ Hund.",
+      "options": [
+        "kein",
+        "keine",
+        "keinen",
+        "nicht"
+      ],
+      "answer": 2,
+      "why": "der Hund + haben (Akkusativ) → keinen Hund।",
+      "word": "kein"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ich habe ___ Zeit.",
+      "options": [
+        "kein",
+        "keine",
+        "keinen",
+        "nicht"
+      ],
+      "answer": 1,
+      "why": "die Zeit → keine Zeit।",
+      "word": "zeit"
+    },
+    {
+      "type": "order",
+      "prompt": "শব্দ সাজিয়ে বাক্য বানান: „আমার সময় নেই।“",
+      "tiles": [
+        "Zeit.",
+        "keine",
+        "habe",
+        "Ich"
+      ],
+      "answer": [
+        "Ich",
+        "habe",
+        "keine",
+        "Zeit."
+      ],
+      "why": "Ich habe keine Zeit।",
+      "word": "zeit"
+    }
+  ],
+  "status": "draft",
+  "minutes": 14,
+  "passMark": 0.8
+}

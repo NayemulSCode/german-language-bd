@@ -37,8 +37,9 @@ export function checkLesson(raw: unknown): string[] {
       const a = [...q.answer].sort().join('|')
       const t = [...q.tiles].sort().join('|')
       if (a !== t) errs.push(`quiz[${qi}]: tiles and answer must contain the same words`)
-    } else if (q.answer >= q.options.length) {
-      errs.push(`quiz[${qi}].answer: ${q.answer} out of range`)
+    } else {
+      if (q.answer >= q.options.length) errs.push(`quiz[${qi}].answer: ${q.answer} out of range`)
+      if (new Set(q.options).size !== q.options.length) errs.push(`quiz[${qi}]: duplicate options`)
     }
   })
   const expectedId = `${l.level.toLowerCase()}-u${String(l.unit).padStart(2, '0')}-l${String(l.lesson).padStart(2, '0')}`
@@ -50,10 +51,14 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   let failed = 0
   let count = 0
   const index: unknown[] = []
+  const seen = new Set<string>()
   for (const file of jsonFiles(ROOT)) {
     count++
     const raw = JSON.parse(readFileSync(file, 'utf8'))
     const errs = checkLesson(raw)
+    const lid = (raw as { id?: string }).id
+    if (lid && seen.has(lid)) errs.push(`duplicate lesson id ${lid}`)
+    if (lid) seen.add(lid)
     if (!errs.length) {
       const l = Lesson.parse(raw)
       index.push({ id: l.id, level: l.level, unit: l.unit, lesson: l.lesson, title: l.title, status: l.status, minutes: l.minutes })

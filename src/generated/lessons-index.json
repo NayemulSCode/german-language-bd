@@ -63,5 +63,109 @@
     },
     "status": "draft",
     "minutes": 15
+  },
+  {
+    "id": "a1-u03-l01",
+    "level": "A1",
+    "unit": 3,
+    "lesson": 1,
+    "title": {
+      "bn": "আমার পরিবার",
+      "en": "My family",
+      "de": "Meine Familie"
+    },
+    "status": "draft",
+    "minutes": 14
+  },
+  {
+    "id": "a1-u03-l02",
+    "level": "A1",
+    "unit": 3,
+    "lesson": 2,
+    "title": {
+      "bn": "haben ক্রিয়া ও আত্মীয়স্বজন",
+      "en": "The verb haben and relatives",
+      "de": "Haben und Familie"
+    },
+    "status": "draft",
+    "minutes": 14
+  },
+  {
+    "id": "a1-u03-l03",
+    "level": "A1",
+    "unit": 3,
+    "lesson": 3,
+    "title": {
+      "bn": "পেশা ও কাজ",
+      "en": "Jobs",
+      "de": "Berufe"
+    },
+    "status": "draft",
+    "minutes": 14
+  },
+  {
+    "id": "a1-u03-l04",
+    "level": "A1",
+    "unit": 3,
+    "lesson": 4,
+    "title": {
+      "bn": "কী আছে, কী নেই — kein ও nicht",
+      "en": "What I have and do not have",
+      "de": "Ich habe kein Auto"
+    },
+    "status": "draft",
+    "minutes": 14
+  },
+  {
+    "id": "a1-u04-l01",
+    "level": "A1",
+    "unit": 4,
+    "lesson": 1,
+    "title": {
+      "bn": "খাওয়া ও পান করা",
+      "en": "Eating and drinking",
+      "de": "Essen und Trinken"
+    },
+    "status": "draft",
+    "minutes": 14
+  },
+  {
+    "id": "a1-u04-l02",
+    "level": "A1",
+    "unit": 4,
+    "lesson": 2,
+    "title": {
+      "bn": "বাজারে কেনাকাটা",
+      "en": "Shopping for food",
+      "de": "Im Supermarkt"
+    },
+    "status": "draft",
+    "minutes": 14
+  },
+  {
+    "id": "a1-u04-l03",
+    "level": "A1",
+    "unit": 4,
+    "lesson": 3,
+    "title": {
+      "bn": "দাম ও টাকা মেটানো",
+      "en": "Prices and paying",
+      "de": "Preise und Bezahlen"
+    },
+    "status": "draft",
+    "minutes": 14
+  },
+  {
+    "id": "a1-u04-l04",
+    "level": "A1",
+    "unit": 4,
+    "lesson": 4,
+    "title": {
+      "bn": "রেস্তোরাঁয়",
+      "en": "In a restaurant",
+      "de": "Im Restaurant"
+    },
+    "status": "draft",
+    "minutes": 14
   }
 ]

@@ -14,6 +14,21 @@ export function Grammar({ lesson, onNext }: { lesson: Lesson; onNext(): void }) 
             </div>
           )
         }
+        if (g.type === 'table') {
+          return (
+            <div className="panel" style={{ marginTop: 12 }} key={i}>
+              {g.title && <h3 style={{ fontSize: 19 }}>{g.title}</h3>}
+              {g.intro && <p className="bn" style={{ margin: '6px 0 0' }}>{g.intro}</p>}
+              <div className="tbl-wrap">
+                <table>
+                  <thead><tr>{g.head.map((h, k) => <th key={k}>{h}</th>)}</tr></thead>
+                  <tbody>{g.rows.map((r, k) => <tr key={k}>{r.map((c, j) => <td key={j}>{c}</td>)}</tr>)}</tbody>
+                </table>
+              </div>
+              {g.note && <div className="note bn">{g.note}</div>}
+            </div>
+          )
+        }
         if (g.type === 'conjugation') {
           return (
             <div className="panel" style={{ marginTop: 12 }} key={i}>

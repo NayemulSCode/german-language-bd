@@ -1,0 +1,917 @@
+{
+  "id": "a1-u04-l01",
+  "level": "A1",
+  "unit": 4,
+  "lesson": 1,
+  "title": {
+    "de": "Essen und Trinken",
+    "bn": "খাওয়া ও পান করা",
+    "en": "Eating and drinking"
+  },
+  "hook": {
+    "de": "Liebe geht durch den Magen.",
+    "who": "Sprichwort",
+    "bn": "ভালোবাসার পথ পেটের ভেতর দিয়ে যায়।",
+    "en": "Love goes through the stomach."
+  },
+  "goals": [
+    "প্রতিদিনের খাবার ও পানীয়ের নাম",
+    "essen ও trinken ক্রিয়ার রূপ (du isst!)",
+    "„gern“ দিয়ে পছন্দ বলা",
+    "নিজের খাওয়ার অভ্যাস নিয়ে কথা"
+  ],
+  "words": [
+    {
+      "id": "essen",
+      "de": "essen",
+      "pos": "ক্রিয়া",
+      "bn": "খাওয়া",
+      "en": "to eat"
+    },
+    {
+      "id": "trinken",
+      "de": "trinken",
+      "pos": "ক্রিয়া",
+      "bn": "পান করা",
+      "en": "to drink"
+    },
+    {
+      "id": "gern",
+      "de": "gern",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "পছন্দ করে, খুশিমনে",
+      "en": "gladly, like to"
+    },
+    {
+      "id": "brot",
+      "de": "Brot",
+      "art": "das",
+      "pl": "die Brote",
+      "pos": "বিশেষ্য",
+      "bn": "রুটি",
+      "en": "bread"
+    },
+    {
+      "id": "reis",
+      "de": "Reis",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "ভাত, চাল",
+      "en": "rice"
+    },
+    {
+      "id": "wasser",
+      "de": "Wasser",
+      "art": "das",
+      "pos": "বিশেষ্য",
+      "bn": "পানি",
+      "en": "water"
+    },
+    {
+      "id": "tee",
+      "de": "Tee",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "চা",
+      "en": "tea"
+    },
+    {
+      "id": "kaffee",
+      "de": "Kaffee",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "কফি",
+      "en": "coffee"
+    },
+    {
+      "id": "milch",
+      "de": "Milch",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "দুধ",
+      "en": "milk"
+    },
+    {
+      "id": "apfel",
+      "de": "Apfel",
+      "art": "der",
+      "pl": "die Äpfel",
+      "pos": "বিশেষ্য",
+      "bn": "আপেল",
+      "en": "apple"
+    },
+    {
+      "id": "fisch",
+      "de": "Fisch",
+      "art": "der",
+      "pl": "die Fische",
+      "pos": "বিশেষ্য",
+      "bn": "মাছ",
+      "en": "fish"
+    },
+    {
+      "id": "fleisch",
+      "de": "Fleisch",
+      "art": "das",
+      "pos": "বিশেষ্য",
+      "bn": "মাংস",
+      "en": "meat"
+    },
+    {
+      "id": "gemuese",
+      "de": "Gemüse",
+      "art": "das",
+      "pos": "বিশেষ্য",
+      "bn": "সবজি",
+      "en": "vegetables"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Muna",
+      "bn": [
+        "তুমি",
+        "কী",
+        "খেতে",
+        "ভালোবাসো?"
+      ],
+      "en": [
+        "What",
+        "do",
+        "you",
+        "like",
+        "to",
+        "eat?"
+      ],
+      "de": [
+        {
+          "t": "Was",
+          "b": [
+            1
+          ],
+          "e": [
+            0
+          ],
+          "l": "Was",
+          "gb": "কী",
+          "ge": "What",
+          "n": ""
+        },
+        {
+          "t": "isst",
+          "b": [
+            2
+          ],
+          "e": [
+            5
+          ],
+          "l": "essen",
+          "gb": "খেতে",
+          "ge": "eat",
+          "n": "du isst — essen অনিয়মিত (e → i)"
+        },
+        {
+          "t": "du",
+          "b": [
+            0
+          ],
+          "e": [
+            2
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "gern?",
+          "b": [
+            3
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "gern",
+          "gb": "ভালোবাসো",
+          "ge": "like to",
+          "n": "gern = পছন্দ করে/খুশিমনে — ক্রিয়ার পরে বসে"
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "ভাত",
+        "আর",
+        "মাছ",
+        "খেতে",
+        "ভালোবাসি।"
+      ],
+      "en": [
+        "I",
+        "like",
+        "to",
+        "eat",
+        "rice",
+        "and",
+        "fish."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "esse",
+          "b": [
+            4
+          ],
+          "e": [
+            3
+          ],
+          "l": "essen",
+          "gb": "খেতে",
+          "ge": "eat",
+          "n": ""
+        },
+        {
+          "t": "gern",
+          "b": [
+            5
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "gern",
+          "gb": "ভালোবাসি",
+          "ge": "like to",
+          "n": "Ich esse gern … = আমি … খেতে ভালোবাসি"
+        },
+        {
+          "t": "Reis",
+          "b": [
+            1
+          ],
+          "e": [
+            4
+          ],
+          "l": "Reis",
+          "gb": "ভাত",
+          "ge": "rice",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            2
+          ],
+          "e": [
+            5
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "Fisch.",
+          "b": [
+            3
+          ],
+          "e": [
+            6
+          ],
+          "l": "Fisch",
+          "gb": "মাছ",
+          "ge": "fish",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "আমি",
+        "দুধ",
+        "দিয়ে",
+        "চা",
+        "পান",
+        "করতে",
+        "ভালোবাসি।"
+      ],
+      "en": [
+        "I",
+        "like",
+        "to",
+        "drink",
+        "tea",
+        "with",
+        "milk."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "trinke",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            3
+          ],
+          "l": "trinken",
+          "gb": "পান করতে",
+          "ge": "drink",
+          "n": ""
+        },
+        {
+          "t": "gern",
+          "b": [
+            6
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "gern",
+          "gb": "ভালোবাসি",
+          "ge": "like to",
+          "n": ""
+        },
+        {
+          "t": "Tee",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "Tee",
+          "gb": "চা",
+          "ge": "tea",
+          "n": ""
+        },
+        {
+          "t": "mit",
+          "b": [
+            2
+          ],
+          "e": [
+            5
+          ],
+          "l": "mit",
+          "gb": "দিয়ে",
+          "ge": "with",
+          "n": "mit = সঙ্গে / দিয়ে"
+        },
+        {
+          "t": "Milch.",
+          "b": [
+            1
+          ],
+          "e": [
+            6
+          ],
+          "l": "Milch",
+          "gb": "দুধ",
+          "ge": "milk",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "তুমি",
+        "কি",
+        "কফিও",
+        "খাও?"
+      ],
+      "en": [
+        "Do",
+        "you",
+        "drink",
+        "coffee",
+        "too?"
+      ],
+      "de": [
+        {
+          "t": "Trinkst",
+          "b": [
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "trinken",
+          "gb": "খাও",
+          "ge": "drink",
+          "n": "কফি, চা, পানি — সবই trinken (পান করা), essen নয়"
+        },
+        {
+          "t": "du",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "auch",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "auch",
+          "gb": "কফিও",
+          "ge": "too",
+          "n": "auch = ও, আরও"
+        },
+        {
+          "t": "Kaffee?",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "Kaffee",
+          "gb": "কফিও",
+          "ge": "coffee",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "না।",
+        "আমি",
+        "পানি",
+        "পান",
+        "করি।"
+      ],
+      "en": [
+        "No.",
+        "I",
+        "drink",
+        "water."
+      ],
+      "de": [
+        {
+          "t": "Nein.",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Nein",
+          "gb": "না",
+          "ge": "No",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "trinke",
+          "b": [
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "trinken",
+          "gb": "পান",
+          "ge": "drink",
+          "n": ""
+        },
+        {
+          "t": "Wasser.",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "Wasser",
+          "gb": "পানি",
+          "ge": "water",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আর",
+        "তুমি",
+        "কি",
+        "মাংস",
+        "খাও?"
+      ],
+      "en": [
+        "And",
+        "do",
+        "you",
+        "eat",
+        "meat?"
+      ],
+      "de": [
+        {
+          "t": "Und",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "isst",
+          "b": [
+            4
+          ],
+          "e": [
+            3
+          ],
+          "l": "essen",
+          "gb": "খাও",
+          "ge": "eat",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "Fleisch?",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "Fleisch",
+          "gb": "মাংস",
+          "ge": "meat",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "না,",
+        "আমি",
+        "শুধু",
+        "সবজি",
+        "খাই।"
+      ],
+      "en": [
+        "No,",
+        "I",
+        "only",
+        "eat",
+        "vegetables."
+      ],
+      "de": [
+        {
+          "t": "Nein,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Nein",
+          "gb": "না",
+          "ge": "No",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "esse",
+          "b": [
+            4
+          ],
+          "e": [
+            3
+          ],
+          "l": "essen",
+          "gb": "খাই",
+          "ge": "eat",
+          "n": ""
+        },
+        {
+          "t": "nur",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "nur",
+          "gb": "শুধু",
+          "ge": "only",
+          "n": "nur = শুধু"
+        },
+        {
+          "t": "Gemüse.",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "Gemüse",
+          "gb": "সবজি",
+          "ge": "vegetables",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "conjugation",
+      "intro": "essen অনিয়মিত: du ও er-এ e → i হয়। trinken নিয়মিত।",
+      "verbs": [
+        "essen",
+        "trinken"
+      ],
+      "note": "du isst — „du esst“ নয়! s-এর পরে st মিশে গিয়ে isst হয়।",
+      "rows": [
+        {
+          "pron": "ich",
+          "stems": [
+            "ess",
+            "trink"
+          ],
+          "ends": [
+            "e",
+            "e"
+          ],
+          "bn": "আমি খাই / পান করি"
+        },
+        {
+          "pron": "du",
+          "stems": [
+            "iss",
+            "trink"
+          ],
+          "ends": [
+            "t",
+            "st"
+          ],
+          "bn": "তুমি খাও / পান করো"
+        },
+        {
+          "pron": "er / sie / es",
+          "stems": [
+            "iss",
+            "trink"
+          ],
+          "ends": [
+            "t",
+            "t"
+          ],
+          "bn": "সে খায় / পান করে"
+        },
+        {
+          "pron": "wir",
+          "stems": [
+            "ess",
+            "trink"
+          ],
+          "ends": [
+            "en",
+            "en"
+          ],
+          "bn": "আমরা"
+        },
+        {
+          "pron": "ihr",
+          "stems": [
+            "ess",
+            "trink"
+          ],
+          "ends": [
+            "t",
+            "t"
+          ],
+          "bn": "তোমরা"
+        },
+        {
+          "pron": "sie / Sie",
+          "stems": [
+            "ess",
+            "trink"
+          ],
+          "ends": [
+            "en",
+            "en"
+          ],
+          "bn": "তারা / আপনি"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "gern — „ভালোবাসি / খুশিমনে“",
+      "text": "ক্রিয়ার পরে gern বসালে পছন্দ বোঝায়: „Ich esse gern Reis.“ (আমি ভাত খেতে ভালোবাসি), „Ich trinke gern Tee.“ বাংলার „…করতে ভালোবাসি“-র সমান। জার্মানে আলাদা ক্রিয়া („ভালোবাসা“) লাগে না — gern-ই যথেষ্ট।"
+    },
+    {
+      "type": "text",
+      "title": "essen নাকি trinken?",
+      "text": "কঠিন খাবার = essen (Brot, Reis, Fisch, Fleisch, Gemüse, Apfel)। তরল = trinken (Wasser, Tee, Kaffee, Milch)। বাংলায় „চা খাওয়া“ বলি, জার্মানে সবসময় „Tee trinken“ (পান করা)।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "das Brot",
+      "options": [
+        "রুটি",
+        "খাওয়া",
+        "পছন্দ করে",
+        "পানি"
+      ],
+      "answer": 0,
+      "why": "das Brot = রুটি।",
+      "word": "brot"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "das Gemüse",
+      "options": [
+        "ভাত",
+        "সবজি",
+        "কফি",
+        "মাছ"
+      ],
+      "answer": 1,
+      "why": "das Gemüse = সবজি।",
+      "word": "gemuese"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Milch",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Milch।",
+      "word": "milch"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Wasser",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 2,
+      "why": "das Wasser।",
+      "word": "wasser"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Du ___ Fleisch.",
+      "options": [
+        "esse",
+        "isst",
+        "esst",
+        "essen"
+      ],
+      "answer": 1,
+      "why": "du + essen → isst (e → i)।",
+      "word": "essen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ich ___ gern Tee.",
+      "options": [
+        "trinke",
+        "trinkst",
+        "trinkt",
+        "trinken"
+      ],
+      "answer": 0,
+      "why": "ich-এর সাথে: ich trinke।",
+      "word": "trinken"
+    },
+    {
+      "type": "mcq",
+      "prompt": "জার্মানে কী হবে?",
+      "sub": "আমি ভাত খেতে ভালোবাসি।",
+      "subBn": true,
+      "options": [
+        "Ich esse gern Reis.",
+        "Ich gern esse Reis.",
+        "Gern ich esse Reis.",
+        "Ich esse Reis gern nicht."
+      ],
+      "answer": 0,
+      "why": "gern ক্রিয়ার পরে: Ich esse gern Reis।",
+      "word": "gern"
+    },
+    {
+      "type": "order",
+      "prompt": "শব্দ সাজিয়ে বাক্য বানান: „আমি চা পান করতে ভালোবাসি।“",
+      "tiles": [
+        "Tee.",
+        "gern",
+        "trinke",
+        "Ich"
+      ],
+      "answer": [
+        "Ich",
+        "trinke",
+        "gern",
+        "Tee."
+      ],
+      "why": "Ich trinke gern Tee।",
+      "word": "trinken"
+    }
+  ],
+  "status": "draft",
+  "minutes": 14,
+  "passMark": 0.8
+}

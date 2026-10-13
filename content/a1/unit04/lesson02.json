@@ -1,0 +1,887 @@
+{
+  "id": "a1-u04-l02",
+  "level": "A1",
+  "unit": 4,
+  "lesson": 2,
+  "title": {
+    "de": "Im Supermarkt",
+    "bn": "বাজারে কেনাকাটা",
+    "en": "Shopping for food"
+  },
+  "hook": {
+    "de": "Der Kunde ist König.",
+    "who": "Sprichwort",
+    "bn": "ক্রেতাই রাজা।",
+    "en": "The customer is king."
+  },
+  "goals": [
+    "„Ich möchte …“ দিয়ে ভদ্রভাবে কিছু চাওয়া",
+    "পরিমাণের শব্দ: Kilo, Liter, Stück, Packung",
+    "Akkusativ: der → den, ein → einen",
+    "দোকানির প্রশ্ন বোঝা"
+  ],
+  "words": [
+    {
+      "id": "moechten",
+      "de": "möchten",
+      "pos": "ক্রিয়া",
+      "bn": "চাওয়া (ভদ্র)",
+      "en": "would like"
+    },
+    {
+      "id": "kaufen",
+      "de": "kaufen",
+      "pos": "ক্রিয়া",
+      "bn": "কেনা",
+      "en": "to buy"
+    },
+    {
+      "id": "brauchen",
+      "de": "brauchen",
+      "pos": "ক্রিয়া",
+      "bn": "দরকার হওয়া",
+      "en": "to need"
+    },
+    {
+      "id": "supermarkt",
+      "de": "Supermarkt",
+      "art": "der",
+      "pl": "die Supermärkte",
+      "pos": "বিশেষ্য",
+      "bn": "সুপারমার্কেট",
+      "en": "supermarket"
+    },
+    {
+      "id": "baeckerei",
+      "de": "Bäckerei",
+      "art": "die",
+      "pl": "die Bäckereien",
+      "pos": "বিশেষ্য",
+      "bn": "রুটির দোকান",
+      "en": "bakery"
+    },
+    {
+      "id": "kilo",
+      "de": "Kilo",
+      "art": "das",
+      "pos": "বিশেষ্য",
+      "bn": "কিলো",
+      "en": "kilo"
+    },
+    {
+      "id": "liter",
+      "de": "Liter",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "লিটার",
+      "en": "litre"
+    },
+    {
+      "id": "stueck",
+      "de": "Stück",
+      "art": "das",
+      "pl": "die Stücke",
+      "pos": "বিশেষ্য",
+      "bn": "টুকরো, পিস",
+      "en": "piece"
+    },
+    {
+      "id": "packung",
+      "de": "Packung",
+      "art": "die",
+      "pl": "die Packungen",
+      "pos": "বিশেষ্য",
+      "bn": "প্যাকেট",
+      "en": "pack"
+    },
+    {
+      "id": "ei",
+      "de": "Ei",
+      "art": "das",
+      "pl": "die Eier",
+      "pos": "বিশেষ্য",
+      "bn": "ডিম",
+      "en": "egg"
+    },
+    {
+      "id": "kaese",
+      "de": "Käse",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "পনির",
+      "en": "cheese"
+    },
+    {
+      "id": "butter",
+      "de": "Butter",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "মাখন",
+      "en": "butter"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Verkäuferin",
+      "bn": [
+        "শুভ",
+        "দিন!",
+        "আপনি",
+        "কী",
+        "চান?"
+      ],
+      "en": [
+        "Good",
+        "day!",
+        "What",
+        "would",
+        "you",
+        "like?"
+      ],
+      "de": [
+        {
+          "t": "Guten Tag!",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Guten Tag",
+          "gb": "শুভ দিন",
+          "ge": "Good day",
+          "n": ""
+        },
+        {
+          "t": "Was",
+          "b": [
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "Was",
+          "gb": "কী",
+          "ge": "What",
+          "n": ""
+        },
+        {
+          "t": "möchten",
+          "b": [
+            4
+          ],
+          "e": [
+            3,
+            5
+          ],
+          "l": "möchten",
+          "gb": "চান",
+          "ge": "would like",
+          "n": ""
+        },
+        {
+          "t": "Sie?",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "Sie",
+          "gb": "আপনি",
+          "ge": "you",
+          "n": "অপরিচিত দোকানির সাথে Sie"
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "এক",
+        "কিলো",
+        "আপেল",
+        "চাই,",
+        "দয়া",
+        "করে।"
+      ],
+      "en": [
+        "I",
+        "would",
+        "like",
+        "a",
+        "kilo",
+        "of",
+        "apples,",
+        "please."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "möchte",
+          "b": [
+            4
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "möchten",
+          "gb": "চাই",
+          "ge": "would like",
+          "n": "ich möchte = আমি চাই (ভদ্র অনুরোধ)"
+        },
+        {
+          "t": "ein",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "ein",
+          "gb": "এক",
+          "ge": "a",
+          "n": ""
+        },
+        {
+          "t": "Kilo",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "Kilo",
+          "gb": "কিলো",
+          "ge": "kilo",
+          "n": "পরিমাণের পরে „von“ লাগে না: ein Kilo Äpfel"
+        },
+        {
+          "t": "Äpfel,",
+          "b": [
+            3
+          ],
+          "e": [
+            6
+          ],
+          "l": "Apfel",
+          "gb": "আপেল",
+          "ge": "apples",
+          "n": "Apfel-এর বহুবচন: Äpfel"
+        },
+        {
+          "t": "bitte.",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            7
+          ],
+          "l": "bitte",
+          "gb": "দয়া করে",
+          "ge": "please",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Verkäuferin",
+      "bn": [
+        "অবশ্যই।",
+        "আপনি",
+        "কি",
+        "আরও",
+        "পনির",
+        "নেবেন?"
+      ],
+      "en": [
+        "Of",
+        "course.",
+        "Would",
+        "you",
+        "like",
+        "some",
+        "more",
+        "cheese?"
+      ],
+      "de": [
+        {
+          "t": "Gern.",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Gern",
+          "gb": "অবশ্যই",
+          "ge": "Of course",
+          "n": ""
+        },
+        {
+          "t": "Möchten",
+          "b": [
+            5
+          ],
+          "e": [
+            2,
+            4
+          ],
+          "l": "möchten",
+          "gb": "নেবেন",
+          "ge": "Would like",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "Sie",
+          "gb": "আপনি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "noch",
+          "b": [
+            3
+          ],
+          "e": [
+            6
+          ],
+          "l": "noch",
+          "gb": "আরও",
+          "ge": "more",
+          "n": "noch = আরও, এখনও"
+        },
+        {
+          "t": "Käse?",
+          "b": [
+            4
+          ],
+          "e": [
+            7
+          ],
+          "l": "Käse",
+          "gb": "পনির",
+          "ge": "cheese",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "হ্যাঁ,",
+        "আমার",
+        "এক",
+        "টুকরো",
+        "পনির",
+        "দরকার।"
+      ],
+      "en": [
+        "Yes,",
+        "I",
+        "need",
+        "a",
+        "piece",
+        "of",
+        "cheese."
+      ],
+      "de": [
+        {
+          "t": "Ja,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ja",
+          "gb": "হ্যাঁ",
+          "ge": "Yes",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "ich",
+          "gb": "আমার",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "brauche",
+          "b": [
+            5
+          ],
+          "e": [
+            2
+          ],
+          "l": "brauchen",
+          "gb": "দরকার",
+          "ge": "need",
+          "n": ""
+        },
+        {
+          "t": "ein",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "ein",
+          "gb": "এক",
+          "ge": "a",
+          "n": ""
+        },
+        {
+          "t": "Stück",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "Stück",
+          "gb": "টুকরো",
+          "ge": "piece",
+          "n": ""
+        },
+        {
+          "t": "Käse.",
+          "b": [
+            4
+          ],
+          "e": [
+            6
+          ],
+          "l": "Käse",
+          "gb": "পনির",
+          "ge": "cheese",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Verkäuferin",
+      "bn": [
+        "আপনার",
+        "কি",
+        "মাখনও",
+        "লাগবে?"
+      ],
+      "en": [
+        "Do",
+        "you",
+        "also",
+        "need",
+        "butter?"
+      ],
+      "de": [
+        {
+          "t": "Brauchen",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "brauchen",
+          "gb": "লাগবে",
+          "ge": "need",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "Sie",
+          "gb": "আপনার",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "auch",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "auch",
+          "gb": "মাখনও",
+          "ge": "also",
+          "n": ""
+        },
+        {
+          "t": "Butter?",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "Butter",
+          "gb": "মাখনও",
+          "ge": "butter",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "না,",
+        "ধন্যবাদ।",
+        "এটুকুই।"
+      ],
+      "en": [
+        "No,",
+        "thank",
+        "you.",
+        "That",
+        "is",
+        "all."
+      ],
+      "de": [
+        {
+          "t": "Nein,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Nein",
+          "gb": "না",
+          "ge": "No",
+          "n": ""
+        },
+        {
+          "t": "danke.",
+          "b": [
+            1
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "danke",
+          "gb": "ধন্যবাদ",
+          "ge": "thank you",
+          "n": ""
+        },
+        {
+          "t": "Das",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "Das",
+          "gb": "এটুকুই",
+          "ge": "That",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            4
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "alles.",
+          "b": [
+            2
+          ],
+          "e": [
+            5
+          ],
+          "l": "alles",
+          "gb": "এটুকুই",
+          "ge": "all",
+          "n": "Das ist alles = এটুকুই (আর কিছু লাগবে না)"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "Akkusativ — „কাকে / কী?“ (কর্ম)",
+      "intro": "möchten, brauchen, kaufen, essen, haben-এর পরে যা আসে সেটাই কর্ম। শুধু পুংলিঙ্গে রূপ বদলায়: der → den, ein → einen।",
+      "head": [
+        "",
+        "der (পুং.)",
+        "die (স্ত্রী.)",
+        "das (ক্লীব)",
+        "die (বহু.)"
+      ],
+      "rows": [
+        [
+          "কর্তা (Nominativ)",
+          "der Käse",
+          "die Butter",
+          "das Brot",
+          "die Eier"
+        ],
+        [
+          "কর্ম (Akkusativ)",
+          "den Käse",
+          "die Butter",
+          "das Brot",
+          "die Eier"
+        ],
+        [
+          "ein — কর্তা",
+          "ein Käse",
+          "eine Butter",
+          "ein Brot",
+          "Eier"
+        ],
+        [
+          "ein — কর্ম",
+          "einen Käse",
+          "eine Butter",
+          "ein Brot",
+          "Eier"
+        ]
+      ],
+      "note": "মনে রাখুন: শুধু „der-শব্দ“ পাল্টায় — Ich möchte einen Käse, aber: Ich möchte eine Butter, ein Brot।"
+    },
+    {
+      "type": "conjugation",
+      "intro": "möchten — ভদ্রভাবে চাইতে বা অর্ডার দিতে সবচেয়ে প্রচলিত।",
+      "verbs": [
+        "möchten"
+      ],
+      "note": "ich möchte ও er möchte একই রূপ (-e)।",
+      "rows": [
+        {
+          "pron": "ich",
+          "stems": [
+            "möcht"
+          ],
+          "ends": [
+            "e"
+          ],
+          "bn": "আমি চাই"
+        },
+        {
+          "pron": "du",
+          "stems": [
+            "möcht"
+          ],
+          "ends": [
+            "est"
+          ],
+          "bn": "তুমি চাও"
+        },
+        {
+          "pron": "er / sie / es",
+          "stems": [
+            "möcht"
+          ],
+          "ends": [
+            "e"
+          ],
+          "bn": "সে চায়"
+        },
+        {
+          "pron": "wir",
+          "stems": [
+            "möcht"
+          ],
+          "ends": [
+            "en"
+          ],
+          "bn": "আমরা চাই"
+        },
+        {
+          "pron": "ihr",
+          "stems": [
+            "möcht"
+          ],
+          "ends": [
+            "et"
+          ],
+          "bn": "তোমরা চাও"
+        },
+        {
+          "pron": "sie / Sie",
+          "stems": [
+            "möcht"
+          ],
+          "ends": [
+            "en"
+          ],
+          "bn": "তারা / আপনি চান"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "পরিমাণের শব্দ",
+      "text": "ein Kilo Äpfel · ein Liter Milch · eine Packung Reis · ein Stück Käse · sechs Eier। বাংলায় „এক কিলো আপেল“ যেমন, জার্মানেও মাঝে „von/of“ ছাড়া সরাসরি পরের শব্দ বসে।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "der Käse",
+      "options": [
+        "ডিম",
+        "চাওয়া",
+        "পনির",
+        "দরকার হওয়া"
+      ],
+      "answer": 2,
+      "why": "der Käse = পনির।",
+      "word": "kaese"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "brauchen",
+      "options": [
+        "লিটার",
+        "ডিম",
+        "দরকার হওয়া",
+        "চাওয়া"
+      ],
+      "answer": 2,
+      "why": "brauchen = দরকার হওয়া।",
+      "word": "brauchen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Butter",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Butter।",
+      "word": "butter"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Ei",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 2,
+      "why": "das Ei। বহুবচন: die Eier।",
+      "word": "ei"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ich möchte ___ Käse.",
+      "options": [
+        "ein",
+        "eine",
+        "einen",
+        "einem"
+      ],
+      "answer": 2,
+      "why": "der Käse + möchten → einen Käse (Akkusativ)।",
+      "word": "kaese"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ich brauche ___ Butter.",
+      "options": [
+        "ein",
+        "eine",
+        "einen",
+        "keinen"
+      ],
+      "answer": 1,
+      "why": "die Butter → eine Butter (বদলায় না)।",
+      "word": "butter"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Du ___ einen Kaffee.",
+      "options": [
+        "möchte",
+        "möchtest",
+        "möchtet",
+        "möchten"
+      ],
+      "answer": 1,
+      "why": "du + möchten → möchtest।",
+      "word": "moechten"
+    },
+    {
+      "type": "order",
+      "prompt": "শব্দ সাজিয়ে বাক্য বানান: „আমি এক কিলো আপেল চাই।“",
+      "tiles": [
+        "Äpfel.",
+        "Kilo",
+        "ein",
+        "möchte",
+        "Ich"
+      ],
+      "answer": [
+        "Ich",
+        "möchte",
+        "ein",
+        "Kilo",
+        "Äpfel."
+      ],
+      "why": "Ich möchte ein Kilo Äpfel।",
+      "word": "moechten"
+    }
+  ],
+  "status": "draft",
+  "minutes": 14,
+  "passMark": 0.8
+}

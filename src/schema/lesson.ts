@@ -47,8 +47,17 @@ const WordOrder = z.object({
   de: z.array(z.object({ t: z.string(), v: z.boolean().optional() })),
   bn: z.array(z.object({ t: z.string(), v: z.boolean().optional() })),
 })
+const Table = z.object({
+  type: z.literal('table'),
+  title: z.string().optional(),
+  intro: z.string().optional(),
+  head: z.array(z.string()).min(1),
+  rows: z.array(z.array(z.string())).min(1),
+  note: z.string().optional(),
+})
 export const GrammarPanel = z.discriminatedUnion('type', [
   z.object({ type: z.literal('text'), title: z.string().optional(), text: z.string() }),
+  Table,
   ConjTable,
   WordOrder,
 ])

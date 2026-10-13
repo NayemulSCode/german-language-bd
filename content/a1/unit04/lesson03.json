@@ -1,0 +1,927 @@
+{
+  "id": "a1-u04-l03",
+  "level": "A1",
+  "unit": 4,
+  "lesson": 3,
+  "title": {
+    "de": "Preise und Bezahlen",
+    "bn": "দাম ও টাকা মেটানো",
+    "en": "Prices and paying"
+  },
+  "hook": {
+    "de": "Zeit ist Geld.",
+    "who": "Sprichwort",
+    "bn": "সময়ই অর্থ।",
+    "en": "Time is money."
+  },
+  "goals": [
+    "দাম জিজ্ঞাসা করা: Wie viel kostet das?",
+    "ইউরো ও সেন্টে দাম বলা (2,50 €)",
+    "বার বা কার্ডে বিল মেটানো",
+    "nehmen ক্রিয়ার রূপ (du nimmst)"
+  ],
+  "words": [
+    {
+      "id": "kosten",
+      "de": "kosten",
+      "pos": "ক্রিয়া",
+      "bn": "দাম হওয়া",
+      "en": "to cost"
+    },
+    {
+      "id": "wie_viel",
+      "de": "wie viel",
+      "pos": "প্রশ্নবোধক",
+      "bn": "কত",
+      "en": "how much"
+    },
+    {
+      "id": "euro",
+      "de": "Euro",
+      "art": "der",
+      "pl": "die Euro",
+      "pos": "বিশেষ্য",
+      "bn": "ইউরো",
+      "en": "euro"
+    },
+    {
+      "id": "cent",
+      "de": "Cent",
+      "art": "der",
+      "pl": "die Cent",
+      "pos": "বিশেষ্য",
+      "bn": "সেন্ট",
+      "en": "cent"
+    },
+    {
+      "id": "preis",
+      "de": "Preis",
+      "art": "der",
+      "pl": "die Preise",
+      "pos": "বিশেষ্য",
+      "bn": "দাম",
+      "en": "price"
+    },
+    {
+      "id": "teuer",
+      "de": "teuer",
+      "pos": "বিশেষণ",
+      "bn": "দামি, ব্যয়বহুল",
+      "en": "expensive"
+    },
+    {
+      "id": "guenstig",
+      "de": "günstig",
+      "pos": "বিশেষণ",
+      "bn": "সস্তা, সাশ্রয়ী",
+      "en": "cheap, good value"
+    },
+    {
+      "id": "nehmen",
+      "de": "nehmen",
+      "pos": "ক্রিয়া",
+      "bn": "নেওয়া",
+      "en": "to take"
+    },
+    {
+      "id": "zahlen",
+      "de": "zahlen",
+      "pos": "ক্রিয়া",
+      "bn": "টাকা দেওয়া",
+      "en": "to pay"
+    },
+    {
+      "id": "bar",
+      "de": "bar",
+      "pos": "বিশেষণ",
+      "bn": "নগদে",
+      "en": "cash"
+    },
+    {
+      "id": "karte",
+      "de": "Karte",
+      "art": "die",
+      "pl": "die Karten",
+      "pos": "বিশেষ্য",
+      "bn": "কার্ড",
+      "en": "card"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Saheb",
+      "bn": [
+        "মাফ",
+        "করবেন,",
+        "এটার",
+        "দাম",
+        "কত?"
+      ],
+      "en": [
+        "Excuse",
+        "me,",
+        "how",
+        "much",
+        "does",
+        "that",
+        "cost?"
+      ],
+      "de": [
+        {
+          "t": "Entschuldigung,",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Entschuldigung",
+          "gb": "মাফ করবেন",
+          "ge": "Excuse me",
+          "n": ""
+        },
+        {
+          "t": "wie viel",
+          "b": [
+            4
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "wie viel",
+          "gb": "কত",
+          "ge": "how much",
+          "n": ""
+        },
+        {
+          "t": "kostet",
+          "b": [
+            3
+          ],
+          "e": [
+            4,
+            6
+          ],
+          "l": "kosten",
+          "gb": "দাম",
+          "ge": "does cost",
+          "n": "একবচনে kostet, বহুবচনে kosten"
+        },
+        {
+          "t": "das?",
+          "b": [
+            2
+          ],
+          "e": [
+            5
+          ],
+          "l": "das",
+          "gb": "এটার",
+          "ge": "that",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Herr Weber",
+      "bn": [
+        "আপেলগুলোর",
+        "দাম",
+        "কিলো",
+        "প্রতি",
+        "দুই",
+        "ইউরো।"
+      ],
+      "en": [
+        "The",
+        "apples",
+        "cost",
+        "two",
+        "euros",
+        "a",
+        "kilo."
+      ],
+      "de": [
+        {
+          "t": "Die",
+          "b": [],
+          "e": [
+            0
+          ],
+          "l": "Die",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "The",
+          "n": ""
+        },
+        {
+          "t": "Äpfel",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "Apfel",
+          "gb": "আপেলগুলোর",
+          "ge": "apples",
+          "n": ""
+        },
+        {
+          "t": "kosten",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "kosten",
+          "gb": "দাম",
+          "ge": "cost",
+          "n": "Äpfel বহুবচন → kosten"
+        },
+        {
+          "t": "zwei",
+          "b": [
+            4
+          ],
+          "e": [
+            3
+          ],
+          "l": "zwei",
+          "gb": "দুই",
+          "ge": "two",
+          "n": ""
+        },
+        {
+          "t": "Euro",
+          "b": [
+            5
+          ],
+          "e": [
+            4
+          ],
+          "l": "Euro",
+          "gb": "ইউরো",
+          "ge": "euros",
+          "n": "Euro বহুবচনেও একই: zwei Euro"
+        },
+        {
+          "t": "das",
+          "b": [
+            3
+          ],
+          "e": [
+            5
+          ],
+          "l": "das",
+          "gb": "প্রতি",
+          "ge": "a",
+          "n": "das Kilo = প্রতি কিলো"
+        },
+        {
+          "t": "Kilo.",
+          "b": [
+            2
+          ],
+          "e": [
+            6
+          ],
+          "l": "Kilo",
+          "gb": "কিলো",
+          "ge": "kilo",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "এটা",
+        "সস্তা!",
+        "আমি",
+        "দুই",
+        "কিলো",
+        "নেব।"
+      ],
+      "en": [
+        "That",
+        "is",
+        "cheap!",
+        "I",
+        "will",
+        "take",
+        "two",
+        "kilos."
+      ],
+      "de": [
+        {
+          "t": "Das",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Das",
+          "gb": "এটা",
+          "ge": "That",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "günstig!",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "günstig",
+          "gb": "সস্তা",
+          "ge": "cheap",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "nehme",
+          "b": [
+            5
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "nehmen",
+          "gb": "নেব",
+          "ge": "will take",
+          "n": "ich nehme — nehmen অনিয়মিত: du nimmst"
+        },
+        {
+          "t": "zwei",
+          "b": [
+            3
+          ],
+          "e": [
+            6
+          ],
+          "l": "zwei",
+          "gb": "দুই",
+          "ge": "two",
+          "n": ""
+        },
+        {
+          "t": "Kilo.",
+          "b": [
+            4
+          ],
+          "e": [
+            7
+          ],
+          "l": "Kilo",
+          "gb": "কিলো",
+          "ge": "kilos",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Herr Weber",
+      "bn": [
+        "মোট",
+        "চার",
+        "ইউরো।",
+        "আপনি",
+        "কি",
+        "নগদে",
+        "দেবেন,",
+        "নাকি",
+        "কার্ডে?"
+      ],
+      "en": [
+        "That",
+        "makes",
+        "four",
+        "euros.",
+        "Do",
+        "you",
+        "pay",
+        "cash",
+        "or",
+        "by",
+        "card?"
+      ],
+      "de": [
+        {
+          "t": "Das",
+          "b": [],
+          "e": [
+            0
+          ],
+          "l": "Das",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "That",
+          "n": ""
+        },
+        {
+          "t": "macht",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "machen",
+          "gb": "মোট",
+          "ge": "makes",
+          "n": "„Das macht …“ = মোট … হলো"
+        },
+        {
+          "t": "vier",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "vier",
+          "gb": "চার",
+          "ge": "four",
+          "n": ""
+        },
+        {
+          "t": "Euro.",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "Euro",
+          "gb": "ইউরো",
+          "ge": "euros",
+          "n": ""
+        },
+        {
+          "t": "Zahlen",
+          "b": [
+            6
+          ],
+          "e": [
+            6
+          ],
+          "l": "zahlen",
+          "gb": "দেবেন",
+          "ge": "pay",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [
+            3
+          ],
+          "e": [
+            5
+          ],
+          "l": "Sie",
+          "gb": "আপনি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "bar",
+          "b": [
+            5
+          ],
+          "e": [
+            7
+          ],
+          "l": "bar",
+          "gb": "নগদে",
+          "ge": "cash",
+          "n": ""
+        },
+        {
+          "t": "oder",
+          "b": [
+            7
+          ],
+          "e": [
+            8
+          ],
+          "l": "oder",
+          "gb": "নাকি",
+          "ge": "or",
+          "n": ""
+        },
+        {
+          "t": "mit",
+          "b": [
+            8
+          ],
+          "e": [
+            9
+          ],
+          "l": "mit",
+          "gb": "কার্ডে",
+          "ge": "by",
+          "n": ""
+        },
+        {
+          "t": "Karte?",
+          "b": [
+            8
+          ],
+          "e": [
+            10
+          ],
+          "l": "Karte",
+          "gb": "কার্ডে",
+          "ge": "card",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "কার্ডে,",
+        "দয়া",
+        "করে।"
+      ],
+      "en": [
+        "By",
+        "card,",
+        "please."
+      ],
+      "de": [
+        {
+          "t": "Mit",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Mit",
+          "gb": "কার্ডে",
+          "ge": "By",
+          "n": ""
+        },
+        {
+          "t": "Karte,",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "Karte",
+          "gb": "কার্ডে",
+          "ge": "card",
+          "n": ""
+        },
+        {
+          "t": "bitte.",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "bitte",
+          "gb": "দয়া করে",
+          "ge": "please",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Herr Weber",
+      "bn": [
+        "এই",
+        "নিন।",
+        "ধন্যবাদ",
+        "আর",
+        "বিদায়!"
+      ],
+      "en": [
+        "Here",
+        "you",
+        "go.",
+        "Thanks",
+        "and",
+        "bye!"
+      ],
+      "de": [
+        {
+          "t": "Bitte schön.",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "bitte schön",
+          "gb": "এই নিন",
+          "ge": "Here you go",
+          "n": "কিছু হাতে দেওয়ার সময় বলা হয়"
+        },
+        {
+          "t": "Danke",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "Danke",
+          "gb": "ধন্যবাদ",
+          "ge": "Thanks",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "tschüss!",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "tschüss",
+          "gb": "বিদায়",
+          "ge": "bye",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "দাম বলা",
+      "intro": "কমার আগের সংখ্যা Euro, পরের সংখ্যা Cent। „Euro“ ও „Cent“ বহুবচনেও একই থাকে।",
+      "head": [
+        "লেখা",
+        "বলা"
+      ],
+      "rows": [
+        [
+          "2,50 €",
+          "zwei Euro fünfzig"
+        ],
+        [
+          "0,80 €",
+          "achtzig Cent"
+        ],
+        [
+          "12,99 €",
+          "zwölf Euro neunundneunzig"
+        ],
+        [
+          "1,00 €",
+          "ein Euro"
+        ],
+        [
+          "100 €",
+          "hundert Euro"
+        ]
+      ],
+      "note": "দশমিকের চিহ্ন কমা (,): 2,50 — ইংরেজির বিন্দুর জায়গায় জার্মানে কমা।"
+    },
+    {
+      "type": "conjugation",
+      "intro": "nehmen অনিয়মিত: du ও er-এ e → i এবং h বাদ।",
+      "verbs": [
+        "nehmen"
+      ],
+      "note": "essen-এর মতোই: ich esse — du isst; ich nehme — du nimmst।",
+      "rows": [
+        {
+          "pron": "ich",
+          "stems": [
+            "nehm"
+          ],
+          "ends": [
+            "e"
+          ],
+          "bn": "আমি নিই"
+        },
+        {
+          "pron": "du",
+          "stems": [
+            "nimm"
+          ],
+          "ends": [
+            "st"
+          ],
+          "bn": "তুমি নাও"
+        },
+        {
+          "pron": "er / sie / es",
+          "stems": [
+            "nimm"
+          ],
+          "ends": [
+            "t"
+          ],
+          "bn": "সে নেয়"
+        },
+        {
+          "pron": "wir",
+          "stems": [
+            "nehm"
+          ],
+          "ends": [
+            "en"
+          ],
+          "bn": "আমরা নিই"
+        },
+        {
+          "pron": "ihr",
+          "stems": [
+            "nehm"
+          ],
+          "ends": [
+            "t"
+          ],
+          "bn": "তোমরা নাও"
+        },
+        {
+          "pron": "sie / Sie",
+          "stems": [
+            "nehm"
+          ],
+          "ends": [
+            "en"
+          ],
+          "bn": "তারা / আপনি নেন"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "kostet নাকি kosten?",
+      "text": "একটি জিনিস হলে „Das kostet …“। একাধিক হলে „Die Äpfel kosten …“। প্রশ্নে: „Wie viel kostet das?“ / „Wie viel kosten die Äpfel?“ — যা কেনা হচ্ছে তার সংখ্যার সাথে ক্রিয়া মেলে।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "der Preis",
+      "options": [
+        "ইউরো",
+        "দামি",
+        "দাম",
+        "নেওয়া"
+      ],
+      "answer": 2,
+      "why": "der Preis = দাম।",
+      "word": "preis"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "teuer",
+      "options": [
+        "সেন্ট",
+        "নেওয়া",
+        "দামি",
+        "কার্ড"
+      ],
+      "answer": 2,
+      "why": "teuer = দামি।",
+      "word": "teuer"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Karte",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Karte। বহুবচন: die Karten।",
+      "word": "karte"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„zwei Euro fünfzig“ কত?",
+      "options": [
+        "২,৫০ €",
+        "২৫ €",
+        "০,২৫ €",
+        "২০,৫ €"
+      ],
+      "answer": 0,
+      "why": "zwei Euro fünfzig = ২,৫০ €।",
+      "word": "euro"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„achtzig Cent“ কত?",
+      "options": [
+        "০,৮০ €",
+        "৮ €",
+        "৮০ €",
+        "১৮ €"
+      ],
+      "answer": 0,
+      "why": "achtzig Cent = ০,৮০ €।",
+      "word": "cent"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Das ___ drei Euro.",
+      "options": [
+        "kostet",
+        "kosten",
+        "koste",
+        "kostest"
+      ],
+      "answer": 0,
+      "why": "একটি জিনিস → kostet।",
+      "word": "kosten"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Du ___ den Kaffee.",
+      "options": [
+        "nehme",
+        "nehmst",
+        "nimmst",
+        "nehmt"
+      ],
+      "answer": 2,
+      "why": "du + nehmen → nimmst।",
+      "word": "nehmen"
+    },
+    {
+      "type": "order",
+      "prompt": "শব্দ সাজিয়ে প্রশ্ন বানান: „এটার দাম কত?“",
+      "tiles": [
+        "das?",
+        "kostet",
+        "viel",
+        "Wie"
+      ],
+      "answer": [
+        "Wie",
+        "viel",
+        "kostet",
+        "das?"
+      ],
+      "why": "Wie viel kostet das?",
+      "word": "kosten"
+    }
+  ],
+  "status": "draft",
+  "minutes": 14,
+  "passMark": 0.8
+}

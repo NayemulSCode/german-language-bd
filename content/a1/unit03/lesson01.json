@@ -1,0 +1,885 @@
+{
+  "id": "a1-u03-l01",
+  "level": "A1",
+  "unit": 3,
+  "lesson": 1,
+  "title": {
+    "de": "Meine Familie",
+    "bn": "আমার পরিবার",
+    "en": "My family"
+  },
+  "hook": {
+    "de": "Blut ist dicker als Wasser.",
+    "who": "Sprichwort",
+    "bn": "রক্তের টান পানির চেয়ে গভীর।",
+    "en": "Blood is thicker than water."
+  },
+  "goals": [
+    "পরিবারের সদস্যদের জার্মান নাম",
+    "mein / meine — „আমার“ বলার সঠিক রূপ",
+    "বহুবচন: Väter, Mütter, Brüder …",
+    "ছবি দেখিয়ে পরিবারের পরিচয় দেওয়া"
+  ],
+  "words": [
+    {
+      "id": "familie",
+      "de": "Familie",
+      "art": "die",
+      "pl": "die Familien",
+      "pos": "বিশেষ্য",
+      "bn": "পরিবার",
+      "en": "family"
+    },
+    {
+      "id": "mutter",
+      "de": "Mutter",
+      "art": "die",
+      "pl": "die Mütter",
+      "pos": "বিশেষ্য",
+      "bn": "মা",
+      "en": "mother"
+    },
+    {
+      "id": "vater",
+      "de": "Vater",
+      "art": "der",
+      "pl": "die Väter",
+      "pos": "বিশেষ্য",
+      "bn": "বাবা",
+      "en": "father"
+    },
+    {
+      "id": "eltern",
+      "de": "Eltern",
+      "art": "die",
+      "pos": "বিশেষ্য, শুধু বহুবচন",
+      "bn": "বাবা-মা",
+      "en": "parents"
+    },
+    {
+      "id": "bruder",
+      "de": "Bruder",
+      "art": "der",
+      "pl": "die Brüder",
+      "pos": "বিশেষ্য",
+      "bn": "ভাই",
+      "en": "brother"
+    },
+    {
+      "id": "schwester",
+      "de": "Schwester",
+      "art": "die",
+      "pl": "die Schwestern",
+      "pos": "বিশেষ্য",
+      "bn": "বোন",
+      "en": "sister"
+    },
+    {
+      "id": "geschwister",
+      "de": "Geschwister",
+      "art": "die",
+      "pos": "বিশেষ্য, শুধু বহুবচন",
+      "bn": "ভাইবোন",
+      "en": "siblings"
+    },
+    {
+      "id": "oma",
+      "de": "Oma",
+      "art": "die",
+      "pl": "die Omas",
+      "pos": "বিশেষ্য",
+      "bn": "দাদি / নানি",
+      "en": "grandma"
+    },
+    {
+      "id": "opa",
+      "de": "Opa",
+      "art": "der",
+      "pl": "die Opas",
+      "pos": "বিশেষ্য",
+      "bn": "দাদু / নানা",
+      "en": "grandpa"
+    },
+    {
+      "id": "kind",
+      "de": "Kind",
+      "art": "das",
+      "pl": "die Kinder",
+      "pos": "বিশেষ্য",
+      "bn": "শিশু, সন্তান",
+      "en": "child"
+    },
+    {
+      "id": "sohn",
+      "de": "Sohn",
+      "art": "der",
+      "pl": "die Söhne",
+      "pos": "বিশেষ্য",
+      "bn": "ছেলে (সন্তান)",
+      "en": "son"
+    },
+    {
+      "id": "tochter",
+      "de": "Tochter",
+      "art": "die",
+      "pl": "die Töchter",
+      "pos": "বিশেষ্য",
+      "bn": "মেয়ে (সন্তান)",
+      "en": "daughter"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Muna",
+      "bn": [
+        "এটা",
+        "আমার",
+        "পরিবার।"
+      ],
+      "en": [
+        "This",
+        "is",
+        "my",
+        "family."
+      ],
+      "de": [
+        {
+          "t": "Das",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Das",
+          "gb": "এটা",
+          "ge": "This",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "meine",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "mein",
+          "gb": "আমার",
+          "ge": "my",
+          "n": "die Familie (স্ত্রীলিঙ্গ) → meine Familie"
+        },
+        {
+          "t": "Familie.",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "Familie",
+          "gb": "পরিবার",
+          "ge": "family",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "ইনি",
+        "কে?"
+      ],
+      "en": [
+        "Who",
+        "is",
+        "that?"
+      ],
+      "de": [
+        {
+          "t": "Wer",
+          "b": [
+            1
+          ],
+          "e": [
+            0
+          ],
+          "l": "Wer",
+          "gb": "কে",
+          "ge": "Who",
+          "n": "Wer = কে (ব্যক্তি সম্পর্কে প্রশ্ন)"
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "das?",
+          "b": [
+            0
+          ],
+          "e": [
+            2
+          ],
+          "l": "das",
+          "gb": "ইনি",
+          "ge": "that",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "ইনি",
+        "আমার",
+        "বাবা।",
+        "আর",
+        "ইনি",
+        "আমার",
+        "মা।"
+      ],
+      "en": [
+        "This",
+        "is",
+        "my",
+        "father.",
+        "And",
+        "this",
+        "is",
+        "my",
+        "mother."
+      ],
+      "de": [
+        {
+          "t": "Das",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Das",
+          "gb": "ইনি",
+          "ge": "This",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "mein",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "mein",
+          "gb": "আমার",
+          "ge": "my",
+          "n": "der Vater (পুংলিঙ্গ) → mein Vater"
+        },
+        {
+          "t": "Vater.",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "Vater",
+          "gb": "বাবা",
+          "ge": "father",
+          "n": ""
+        },
+        {
+          "t": "Und",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "das",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "das",
+          "gb": "ইনি",
+          "ge": "this",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            6
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "meine",
+          "b": [
+            5
+          ],
+          "e": [
+            7
+          ],
+          "l": "mein",
+          "gb": "আমার",
+          "ge": "my",
+          "n": "die Mutter (স্ত্রীলিঙ্গ) → meine Mutter"
+        },
+        {
+          "t": "Mutter.",
+          "b": [
+            6
+          ],
+          "e": [
+            8
+          ],
+          "l": "Mutter",
+          "gb": "মা",
+          "ge": "mother",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "তোমার",
+        "কি",
+        "ভাইবোন",
+        "আছে?"
+      ],
+      "en": [
+        "Do",
+        "you",
+        "have",
+        "siblings?"
+      ],
+      "de": [
+        {
+          "t": "Hast",
+          "b": [
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "haben",
+          "gb": "আছে (থাকা)",
+          "ge": "have",
+          "n": "haben: du hast — পরের লেসনে পুরো রূপ"
+        },
+        {
+          "t": "du",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "du",
+          "gb": "তোমার",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "Geschwister?",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "Geschwister",
+          "gb": "ভাইবোন",
+          "ge": "siblings",
+          "n": "Geschwister শুধু বহুবচন: Bruder + Schwester"
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "হ্যাঁ,",
+        "আমার",
+        "এক",
+        "ভাই",
+        "আর",
+        "এক",
+        "বোন",
+        "আছে।"
+      ],
+      "en": [
+        "Yes,",
+        "I",
+        "have",
+        "a",
+        "brother",
+        "and",
+        "a",
+        "sister."
+      ],
+      "de": [
+        {
+          "t": "Ja,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ja",
+          "gb": "হ্যাঁ",
+          "ge": "Yes",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "ich",
+          "gb": "আমার",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [
+            7
+          ],
+          "e": [
+            2
+          ],
+          "l": "haben",
+          "gb": "আছে",
+          "ge": "have",
+          "n": "ich-এর সাথে habe"
+        },
+        {
+          "t": "einen",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "ein",
+          "gb": "এক / একটি",
+          "ge": "a",
+          "n": "der Bruder + haben → einen (পুংলিঙ্গে ein → einen)"
+        },
+        {
+          "t": "Bruder",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "Bruder",
+          "gb": "ভাই",
+          "ge": "brother",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "eine",
+          "b": [
+            5
+          ],
+          "e": [
+            6
+          ],
+          "l": "ein",
+          "gb": "এক / একটি",
+          "ge": "a",
+          "n": "die Schwester → eine (বদলায় না)"
+        },
+        {
+          "t": "Schwester.",
+          "b": [
+            6
+          ],
+          "e": [
+            7
+          ],
+          "l": "Schwester",
+          "gb": "বোন",
+          "ge": "sister",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমার",
+        "একজন",
+        "বোন",
+        "আছে।",
+        "তার",
+        "নাম",
+        "মৌ।"
+      ],
+      "en": [
+        "I",
+        "have",
+        "one",
+        "sister.",
+        "Her",
+        "name",
+        "is",
+        "Mou."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমার",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [
+            3
+          ],
+          "e": [
+            1
+          ],
+          "l": "haben",
+          "gb": "আছে",
+          "ge": "have",
+          "n": ""
+        },
+        {
+          "t": "eine",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "ein",
+          "gb": "একজন",
+          "ge": "one",
+          "n": ""
+        },
+        {
+          "t": "Schwester.",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "Schwester",
+          "gb": "বোন",
+          "ge": "sister",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "sie",
+          "gb": "সে (মেয়ে)",
+          "ge": "she",
+          "n": "Schwester স্ত্রীলিঙ্গ → sie"
+        },
+        {
+          "t": "heißt",
+          "b": [
+            5
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "heißen",
+          "gb": "নাম",
+          "ge": "name is",
+          "n": ""
+        },
+        {
+          "t": "Mou.",
+          "s": "Mou",
+          "b": [
+            6
+          ],
+          "e": [
+            7
+          ],
+          "l": "Mou",
+          "gb": "মৌ",
+          "ge": "Mou",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "mein / meine — „আমার“",
+      "intro": "আর্টিকেল der বা das হলে mein, die বা বহুবচন হলে meine। du-র জন্য একই নিয়মে dein / deine।",
+      "head": [
+        "",
+        "der Vater",
+        "die Mutter",
+        "das Kind",
+        "die Eltern"
+      ],
+      "rows": [
+        [
+          "ich (আমার)",
+          "mein Vater",
+          "meine Mutter",
+          "mein Kind",
+          "meine Eltern"
+        ],
+        [
+          "du (তোমার)",
+          "dein Vater",
+          "deine Mutter",
+          "dein Kind",
+          "deine Eltern"
+        ]
+      ],
+      "note": "ছোট সূত্র: die-গোত্র (স্ত্রীলিঙ্গ ও বহুবচন) → শেষে -e যোগ।"
+    },
+    {
+      "type": "table",
+      "title": "বহুবচন (Plural)",
+      "intro": "বহুবচনে আর্টিকেল সবসময় die। অনেক শব্দে a → ä, o → ö হয়ে যায়।",
+      "head": [
+        "একবচন",
+        "বহুবচন"
+      ],
+      "rows": [
+        [
+          "der Vater",
+          "die Väter"
+        ],
+        [
+          "die Mutter",
+          "die Mütter"
+        ],
+        [
+          "der Bruder",
+          "die Brüder"
+        ],
+        [
+          "die Schwester",
+          "die Schwestern"
+        ],
+        [
+          "das Kind",
+          "die Kinder"
+        ],
+        [
+          "der Sohn",
+          "die Söhne"
+        ],
+        [
+          "die Tochter",
+          "die Töchter"
+        ]
+      ],
+      "note": "বহুবচন আলাদা করে মুখস্থ করতে হয় — প্রতিটি শব্দ শেখার সময় বহুবচনও শিখুন।"
+    },
+    {
+      "type": "text",
+      "title": "Wer ist das?",
+      "text": "„Wer ist das?“ = ইনি কে? উত্তরে: „Das ist mein Vater.“ ছবি বা মানুষ দেখিয়ে সবসময় „Das ist …“ বলা যায় — লিঙ্গ যা-ই হোক।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "die Mutter",
+      "options": [
+        "মা",
+        "বোন",
+        "দাদি / নানি",
+        "শিশু"
+      ],
+      "answer": 0,
+      "why": "die Mutter = মা।",
+      "word": "mutter"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "die Geschwister",
+      "options": [
+        "ভাইবোন",
+        "দাদু / নানা",
+        "মেয়ে",
+        "বাবা"
+      ],
+      "answer": 0,
+      "why": "die Geschwister = ভাইবোন।",
+      "word": "geschwister"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Schwester",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Schwester। বহুবচন: die Schwestern।",
+      "word": "schwester"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "___ Mutter",
+      "options": [
+        "mein",
+        "meine",
+        "meinen",
+        "meiner"
+      ],
+      "answer": 1,
+      "why": "die Mutter → meine Mutter।",
+      "word": "mutter"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "___ Vater",
+      "options": [
+        "mein",
+        "meine",
+        "meiner",
+        "meines"
+      ],
+      "answer": 0,
+      "why": "der Vater → mein Vater।",
+      "word": "vater"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Bruder-এর বহুবচন কী?",
+      "options": [
+        "die Brüder",
+        "die Bruders",
+        "die Brüdern",
+        "die Bruder"
+      ],
+      "answer": 0,
+      "why": "der Bruder → die Brüder (u → ü)।",
+      "word": "bruder"
+    },
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "Hast du Geschwister?",
+      "options": [
+        "তোমার কি ভাইবোন আছে?",
+        "তোমার নাম কী?",
+        "তুমি কোথা থেকে এসেছ?",
+        "এটা আমার পরিবার"
+      ],
+      "answer": 0,
+      "why": "Geschwister = ভাইবোন; Hast du … ? = তোমার কি … আছে?",
+      "word": "geschwister"
+    },
+    {
+      "type": "order",
+      "prompt": "শব্দ সাজিয়ে বাক্য বানান: „এটা আমার পরিবার।“",
+      "tiles": [
+        "Familie.",
+        "ist",
+        "meine",
+        "Das"
+      ],
+      "answer": [
+        "Das",
+        "ist",
+        "meine",
+        "Familie."
+      ],
+      "why": "Das ist meine Familie।",
+      "word": "familie"
+    }
+  ],
+  "status": "draft",
+  "minutes": 14,
+  "passMark": 0.8
+}

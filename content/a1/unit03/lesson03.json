@@ -1,0 +1,926 @@
+{
+  "id": "a1-u03-l03",
+  "level": "A1",
+  "unit": 3,
+  "lesson": 3,
+  "title": {
+    "de": "Berufe",
+    "bn": "পেশা ও কাজ",
+    "en": "Jobs"
+  },
+  "hook": {
+    "de": "Arbeit macht das Leben süß.",
+    "who": "Sprichwort",
+    "bn": "কাজই জীবনকে মধুর করে।",
+    "en": "Work makes life sweet."
+  },
+  "goals": [
+    "নিজের ও অন্যের পেশা বলা",
+    "পুরুষ ও নারী পেশার রূপ: Lehrer / Lehrerin",
+    "arbeiten ক্রিয়ার রূপ",
+    "„Ich bin Student“ — পেশার আগে ein বসে না"
+  ],
+  "words": [
+    {
+      "id": "beruf",
+      "de": "Beruf",
+      "art": "der",
+      "pl": "die Berufe",
+      "pos": "বিশেষ্য",
+      "bn": "পেশা",
+      "en": "job, profession"
+    },
+    {
+      "id": "arbeiten",
+      "de": "arbeiten",
+      "pos": "ক্রিয়া",
+      "bn": "কাজ করা",
+      "en": "to work"
+    },
+    {
+      "id": "lehrer",
+      "de": "Lehrer",
+      "art": "der",
+      "pl": "die Lehrer",
+      "pos": "বিশেষ্য",
+      "bn": "শিক্ষক",
+      "en": "teacher (m.)"
+    },
+    {
+      "id": "lehrerin",
+      "de": "Lehrerin",
+      "art": "die",
+      "pl": "die Lehrerinnen",
+      "pos": "বিশেষ্য",
+      "bn": "শিক্ষিকা",
+      "en": "teacher (f.)"
+    },
+    {
+      "id": "arzt",
+      "de": "Arzt",
+      "art": "der",
+      "pl": "die Ärzte",
+      "pos": "বিশেষ্য",
+      "bn": "ডাক্তার (পুরুষ)",
+      "en": "doctor (m.)"
+    },
+    {
+      "id": "aerztin",
+      "de": "Ärztin",
+      "art": "die",
+      "pl": "die Ärztinnen",
+      "pos": "বিশেষ্য",
+      "bn": "ডাক্তার (নারী)",
+      "en": "doctor (f.)"
+    },
+    {
+      "id": "student",
+      "de": "Student",
+      "art": "der",
+      "pl": "die Studenten",
+      "pos": "বিশেষ্য",
+      "bn": "শিক্ষার্থী (ছাত্র)",
+      "en": "student (m.)"
+    },
+    {
+      "id": "studentin",
+      "de": "Studentin",
+      "art": "die",
+      "pl": "die Studentinnen",
+      "pos": "বিশেষ্য",
+      "bn": "শিক্ষার্থী (ছাত্রী)",
+      "en": "student (f.)"
+    },
+    {
+      "id": "ingenieur",
+      "de": "Ingenieur",
+      "art": "der",
+      "pl": "die Ingenieure",
+      "pos": "বিশেষ্য",
+      "bn": "প্রকৌশলী",
+      "en": "engineer"
+    },
+    {
+      "id": "firma",
+      "de": "Firma",
+      "art": "die",
+      "pl": "die Firmen",
+      "pos": "বিশেষ্য",
+      "bn": "কোম্পানি",
+      "en": "company"
+    },
+    {
+      "id": "krankenhaus",
+      "de": "Krankenhaus",
+      "art": "das",
+      "pl": "die Krankenhäuser",
+      "pos": "বিশেষ্য",
+      "bn": "হাসপাতাল",
+      "en": "hospital"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Muna",
+      "bn": [
+        "তোমার",
+        "পেশা",
+        "কী?"
+      ],
+      "en": [
+        "What",
+        "is",
+        "your",
+        "profession?"
+      ],
+      "de": [
+        {
+          "t": "Was",
+          "b": [
+            2
+          ],
+          "e": [
+            0
+          ],
+          "l": "Was",
+          "gb": "কী",
+          "ge": "What",
+          "n": ""
+        },
+        {
+          "t": "bist",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            0
+          ],
+          "e": [
+            2
+          ],
+          "l": "du",
+          "gb": "তোমার",
+          "ge": "your",
+          "n": ""
+        },
+        {
+          "t": "von Beruf?",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "Beruf",
+          "gb": "পেশা",
+          "ge": "profession",
+          "n": "„von Beruf“ = পেশায়। পুরো বাক্য: তুমি পেশায় কী?"
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "শিক্ষার্থী।",
+        "আর",
+        "তুমি?"
+      ],
+      "en": [
+        "I",
+        "am",
+        "a",
+        "student.",
+        "And",
+        "you?"
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "bin",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "am",
+          "n": ""
+        },
+        {
+          "t": "Student.",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "Student",
+          "gb": "শিক্ষার্থী",
+          "ge": "student",
+          "n": "পেশার আগে ein বসে না: Ich bin Student (ইংরেজির „a student“-এর মতো নয়)"
+        },
+        {
+          "t": "Und",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "du?",
+          "b": [
+            3
+          ],
+          "e": [
+            5
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "আমি",
+        "শিক্ষিকা।",
+        "আমার",
+        "বাবা",
+        "ডাক্তার।"
+      ],
+      "en": [
+        "I",
+        "am",
+        "a",
+        "teacher.",
+        "My",
+        "father",
+        "is",
+        "a",
+        "doctor."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "bin",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "am",
+          "n": ""
+        },
+        {
+          "t": "Lehrerin.",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "Lehrerin",
+          "gb": "শিক্ষিকা",
+          "ge": "teacher",
+          "n": "নারী হলে Lehrerin (+in)"
+        },
+        {
+          "t": "Mein",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "Mein",
+          "gb": "আমার",
+          "ge": "My",
+          "n": ""
+        },
+        {
+          "t": "Vater",
+          "b": [
+            3
+          ],
+          "e": [
+            5
+          ],
+          "l": "Vater",
+          "gb": "বাবা",
+          "ge": "father",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            6
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "Arzt.",
+          "b": [
+            4
+          ],
+          "e": [
+            8
+          ],
+          "l": "Arzt",
+          "gb": "ডাক্তার",
+          "ge": "doctor",
+          "n": "পুরুষ ডাক্তার: Arzt"
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "তোমার",
+        "বাবা",
+        "কোথায়",
+        "কাজ",
+        "করেন?"
+      ],
+      "en": [
+        "Where",
+        "does",
+        "your",
+        "father",
+        "work?"
+      ],
+      "de": [
+        {
+          "t": "Wo",
+          "b": [
+            2
+          ],
+          "e": [
+            0
+          ],
+          "l": "Wo",
+          "gb": "কোথায়",
+          "ge": "Where",
+          "n": ""
+        },
+        {
+          "t": "arbeitet",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            1,
+            4
+          ],
+          "l": "arbeiten",
+          "gb": "কাজ করেন",
+          "ge": "does work",
+          "n": "er arbeitet — স্টেমের শেষে t থাকায় মাঝে e যোগ হয়"
+        },
+        {
+          "t": "dein",
+          "b": [
+            0
+          ],
+          "e": [
+            2
+          ],
+          "l": "dein",
+          "gb": "তোমার",
+          "ge": "your",
+          "n": ""
+        },
+        {
+          "t": "Vater?",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "Vater",
+          "gb": "বাবা",
+          "ge": "father",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "তিনি",
+        "হাসপাতালে",
+        "কাজ",
+        "করেন।"
+      ],
+      "en": [
+        "He",
+        "works",
+        "in",
+        "the",
+        "hospital."
+      ],
+      "de": [
+        {
+          "t": "Er",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Er",
+          "gb": "তিনি",
+          "ge": "He",
+          "n": ""
+        },
+        {
+          "t": "arbeitet",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            1
+          ],
+          "l": "arbeiten",
+          "gb": "কাজ করেন",
+          "ge": "works",
+          "n": ""
+        },
+        {
+          "t": "im",
+          "b": [
+            1
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "in dem",
+          "gb": "এ (স্থান)",
+          "ge": "in the",
+          "n": "im = in + dem; স্থান বোঝায় — বিস্তারিত পরে"
+        },
+        {
+          "t": "Krankenhaus.",
+          "b": [
+            1
+          ],
+          "e": [
+            4
+          ],
+          "l": "Krankenhaus",
+          "gb": "হাসপাতালে",
+          "ge": "hospital",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আর",
+        "তোমার",
+        "মা?",
+        "তিনিও",
+        "কি",
+        "কাজ",
+        "করেন?"
+      ],
+      "en": [
+        "And",
+        "your",
+        "mother?",
+        "Does",
+        "she",
+        "work",
+        "too?"
+      ],
+      "de": [
+        {
+          "t": "Und",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "deine",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "dein",
+          "gb": "তোমার",
+          "ge": "your",
+          "n": ""
+        },
+        {
+          "t": "Mutter?",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "Mutter",
+          "gb": "মা",
+          "ge": "mother",
+          "n": ""
+        },
+        {
+          "t": "Arbeitet",
+          "b": [
+            5
+          ],
+          "e": [
+            3,
+            5
+          ],
+          "l": "arbeiten",
+          "gb": "কাজ",
+          "ge": "Does work",
+          "n": ""
+        },
+        {
+          "t": "sie",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "sie",
+          "gb": "তিনিও",
+          "ge": "she",
+          "n": ""
+        },
+        {
+          "t": "auch?",
+          "b": [
+            3
+          ],
+          "e": [
+            6
+          ],
+          "l": "auch",
+          "gb": "তিনিও",
+          "ge": "too",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "হ্যাঁ,",
+        "তিনি",
+        "ডাক্তার।"
+      ],
+      "en": [
+        "Yes,",
+        "she",
+        "is",
+        "a",
+        "doctor."
+      ],
+      "de": [
+        {
+          "t": "Ja,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ja",
+          "gb": "হ্যাঁ",
+          "ge": "Yes",
+          "n": ""
+        },
+        {
+          "t": "sie",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "sie",
+          "gb": "তিনি",
+          "ge": "she",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "Ärztin.",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "Ärztin",
+          "gb": "ডাক্তার",
+          "ge": "doctor",
+          "n": "নারী ডাক্তার: Ärztin (a → ä + in)"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "text",
+      "title": "পেশার আগে ein বসে না",
+      "text": "জার্মানে পেশা বলার সময় ein/eine ছাড়াই বলা হয়: „Ich bin Lehrer.“, „Sie ist Ärztin.“ — ঠিক বাংলার মতো („আমি শিক্ষক“)। ইংরেজির „I am a teacher“-এর a এখানে নেই।"
+    },
+    {
+      "type": "table",
+      "title": "পুরুষ → নারী: শেষে -in",
+      "head": [
+        "পুরুষ",
+        "নারী"
+      ],
+      "rows": [
+        [
+          "der Lehrer",
+          "die Lehrerin"
+        ],
+        [
+          "der Student",
+          "die Studentin"
+        ],
+        [
+          "der Arzt",
+          "die Ärztin (a → ä)"
+        ],
+        [
+          "der Ingenieur",
+          "die Ingenieurin"
+        ],
+        [
+          "der Koch",
+          "die Köchin (o → ö)"
+        ]
+      ],
+      "note": "নারী রূপের বহুবচন: -innen (die Lehrerinnen)।"
+    },
+    {
+      "type": "conjugation",
+      "intro": "arbeiten — স্টেমের শেষে t থাকায় du/er/ihr-এ মাঝখানে e বসে (উচ্চারণ সহজ করতে)।",
+      "verbs": [
+        "arbeiten"
+      ],
+      "rows": [
+        {
+          "pron": "ich",
+          "stems": [
+            "arbeit"
+          ],
+          "ends": [
+            "e"
+          ],
+          "bn": "আমি কাজ করি"
+        },
+        {
+          "pron": "du",
+          "stems": [
+            "arbeit"
+          ],
+          "ends": [
+            "est"
+          ],
+          "bn": "তুমি কাজ করো"
+        },
+        {
+          "pron": "er / sie / es",
+          "stems": [
+            "arbeit"
+          ],
+          "ends": [
+            "et"
+          ],
+          "bn": "সে কাজ করে"
+        },
+        {
+          "pron": "wir",
+          "stems": [
+            "arbeit"
+          ],
+          "ends": [
+            "en"
+          ],
+          "bn": "আমরা কাজ করি"
+        },
+        {
+          "pron": "ihr",
+          "stems": [
+            "arbeit"
+          ],
+          "ends": [
+            "et"
+          ],
+          "bn": "তোমরা কাজ করো"
+        },
+        {
+          "pron": "sie / Sie",
+          "stems": [
+            "arbeit"
+          ],
+          "ends": [
+            "en"
+          ],
+          "bn": "তারা / আপনি কাজ করেন"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "die Ärztin",
+      "options": [
+        "ডাক্তার",
+        "শিক্ষার্থী",
+        "কোম্পানি",
+        "পেশা"
+      ],
+      "answer": 0,
+      "why": "die Ärztin = ডাক্তার।",
+      "word": "aerztin"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "der Beruf",
+      "options": [
+        "ডাক্তার",
+        "কোম্পানি",
+        "পেশা",
+        "শিক্ষক"
+      ],
+      "answer": 2,
+      "why": "der Beruf = পেশা।",
+      "word": "beruf"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "die Firma",
+      "options": [
+        "শিক্ষিকা",
+        "প্রকৌশলী",
+        "কাজ করা",
+        "কোম্পানি"
+      ],
+      "answer": 3,
+      "why": "die Firma = কোম্পানি।",
+      "word": "firma"
+    },
+    {
+      "type": "mcq",
+      "prompt": "নারী শিক্ষিকাকে জার্মানে কী বলে?",
+      "options": [
+        "Lehrerin",
+        "Lehrer",
+        "Lehrerinnen",
+        "Lehrerer"
+      ],
+      "answer": 0,
+      "why": "der Lehrer → die Lehrerin।",
+      "word": "lehrerin"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Mein Vater ___ im Krankenhaus.",
+      "options": [
+        "arbeite",
+        "arbeitest",
+        "arbeitet",
+        "arbeiten"
+      ],
+      "answer": 2,
+      "why": "er/sie/es: arbeitet। Vater = er।",
+      "word": "arbeiten"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Du ___ in einer Firma.",
+      "options": [
+        "arbeite",
+        "arbeitest",
+        "arbeitet",
+        "arbeiten"
+      ],
+      "answer": 1,
+      "why": "du + arbeiten → arbeitest (e যোগ হয়)।",
+      "word": "arbeiten"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক বাক্য বেছে নিন",
+      "sub": "আমি শিক্ষার্থী।",
+      "subBn": true,
+      "options": [
+        "Ich bin Student.",
+        "Ich Student bin.",
+        "Ich habe Student.",
+        "Ich bist Student."
+      ],
+      "answer": 0,
+      "why": "পেশায় sein, ein ছাড়া: Ich bin Student।",
+      "word": "student"
+    },
+    {
+      "type": "order",
+      "prompt": "শব্দ সাজিয়ে বাক্য বানান: „তোমার পেশা কী?“",
+      "tiles": [
+        "Beruf?",
+        "du",
+        "Was",
+        "von",
+        "bist"
+      ],
+      "answer": [
+        "Was",
+        "bist",
+        "du",
+        "von",
+        "Beruf?"
+      ],
+      "why": "Was bist du von Beruf?",
+      "word": "beruf"
+    }
+  ],
+  "status": "draft",
+  "minutes": 14,
+  "passMark": 0.8
+}

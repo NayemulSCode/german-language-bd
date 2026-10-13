@@ -1,0 +1,921 @@
+{
+  "id": "a1-u04-l04",
+  "level": "A1",
+  "unit": 4,
+  "lesson": 4,
+  "title": {
+    "de": "Im Restaurant",
+    "bn": "রেস্তোরাঁয়",
+    "en": "In a restaurant"
+  },
+  "hook": {
+    "de": "Hunger ist der beste Koch.",
+    "who": "Sprichwort",
+    "bn": "ক্ষুধাই সেরা বাবুর্চি।",
+    "en": "Hunger is the best cook."
+  },
+  "goals": [
+    "রেস্তোরাঁয় খাবার অর্ডার করা",
+    "„Ich habe Hunger / Durst“ বলা",
+    "বিল চাওয়া: Die Rechnung, bitte!",
+    "Akkusativ: Ich nehme den Salat"
+  ],
+  "words": [
+    {
+      "id": "speisekarte",
+      "de": "Speisekarte",
+      "art": "die",
+      "pl": "die Speisekarten",
+      "pos": "বিশেষ্য",
+      "bn": "মেনু",
+      "en": "menu"
+    },
+    {
+      "id": "kellner",
+      "de": "Kellner",
+      "art": "der",
+      "pl": "die Kellner",
+      "pos": "বিশেষ্য",
+      "bn": "ওয়েটার",
+      "en": "waiter"
+    },
+    {
+      "id": "bestellen",
+      "de": "bestellen",
+      "pos": "ক্রিয়া",
+      "bn": "অর্ডার করা",
+      "en": "to order"
+    },
+    {
+      "id": "rechnung",
+      "de": "Rechnung",
+      "art": "die",
+      "pl": "die Rechnungen",
+      "pos": "বিশেষ্য",
+      "bn": "বিল",
+      "en": "bill"
+    },
+    {
+      "id": "hunger",
+      "de": "Hunger",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "খিদে",
+      "en": "hunger"
+    },
+    {
+      "id": "durst",
+      "de": "Durst",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "পিপাসা",
+      "en": "thirst"
+    },
+    {
+      "id": "suppe",
+      "de": "Suppe",
+      "art": "die",
+      "pl": "die Suppen",
+      "pos": "বিশেষ্য",
+      "bn": "স্যুপ",
+      "en": "soup"
+    },
+    {
+      "id": "salat",
+      "de": "Salat",
+      "art": "der",
+      "pl": "die Salate",
+      "pos": "বিশেষ্য",
+      "bn": "সালাদ",
+      "en": "salad"
+    },
+    {
+      "id": "lecker",
+      "de": "lecker",
+      "pos": "বিশেষণ",
+      "bn": "সুস্বাদু",
+      "en": "tasty"
+    },
+    {
+      "id": "guten_appetit",
+      "de": "Guten Appetit!",
+      "pos": "অভিব্যক্তি",
+      "bn": "ভালোভাবে খান!",
+      "en": "enjoy your meal!"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Kellner",
+      "bn": [
+        "শুভ",
+        "সন্ধ্যা!",
+        "এই",
+        "যে",
+        "মেনু।"
+      ],
+      "en": [
+        "Good",
+        "evening!",
+        "Here",
+        "is",
+        "the",
+        "menu."
+      ],
+      "de": [
+        {
+          "t": "Guten Abend!",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Guten Abend",
+          "gb": "শুভ সন্ধ্যা",
+          "ge": "Good evening",
+          "n": ""
+        },
+        {
+          "t": "Hier",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "Hier",
+          "gb": "এই",
+          "ge": "Here",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "die",
+          "b": [],
+          "e": [
+            4
+          ],
+          "l": "die",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "Speisekarte.",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "Speisekarte",
+          "gb": "মেনু",
+          "ge": "menu",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "ধন্যবাদ।",
+        "আমার",
+        "খিদে",
+        "পেয়েছে!"
+      ],
+      "en": [
+        "Thanks.",
+        "I",
+        "am",
+        "hungry!"
+      ],
+      "de": [
+        {
+          "t": "Danke.",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Danke",
+          "gb": "ধন্যবাদ",
+          "ge": "Thanks",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "Ich",
+          "gb": "আমার",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "haben",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "am",
+          "n": ""
+        },
+        {
+          "t": "Hunger!",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "Hunger",
+          "gb": "খিদে পেয়েছে",
+          "ge": "hungry",
+          "n": "Hunger haben (আক্ষরিক: ক্ষুধা আছে) = খিদে পাওয়া"
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আর",
+        "আমার",
+        "পিপাসা",
+        "পেয়েছে।"
+      ],
+      "en": [
+        "And",
+        "I",
+        "am",
+        "thirsty."
+      ],
+      "de": [
+        {
+          "t": "Und",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "ich",
+          "gb": "আমার",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "haben",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "am",
+          "n": ""
+        },
+        {
+          "t": "Durst.",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "Durst",
+          "gb": "পিপাসা",
+          "ge": "thirsty",
+          "n": "Durst haben = পিপাসা পাওয়া"
+        }
+      ]
+    },
+    {
+      "who": "Kellner",
+      "bn": [
+        "আপনারা",
+        "কী",
+        "অর্ডার",
+        "করতে",
+        "চান?"
+      ],
+      "en": [
+        "What",
+        "would",
+        "you",
+        "like",
+        "to",
+        "order?"
+      ],
+      "de": [
+        {
+          "t": "Was",
+          "b": [
+            1
+          ],
+          "e": [
+            0
+          ],
+          "l": "Was",
+          "gb": "কী",
+          "ge": "What",
+          "n": ""
+        },
+        {
+          "t": "möchten",
+          "b": [
+            4
+          ],
+          "e": [
+            1,
+            3
+          ],
+          "l": "möchten",
+          "gb": "চান",
+          "ge": "would like",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [
+            0
+          ],
+          "e": [
+            2
+          ],
+          "l": "Sie",
+          "gb": "আপনারা",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "bestellen?",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "bestellen",
+          "gb": "অর্ডার করতে",
+          "ge": "to order",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "আমি",
+        "স্যুপ",
+        "নেব।"
+      ],
+      "en": [
+        "I",
+        "will",
+        "take",
+        "the",
+        "soup."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "nehme",
+          "b": [
+            2
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "nehmen",
+          "gb": "নেব",
+          "ge": "will take",
+          "n": ""
+        },
+        {
+          "t": "die",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "die",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "Suppe.",
+          "b": [
+            1
+          ],
+          "e": [
+            4
+          ],
+          "l": "Suppe",
+          "gb": "স্যুপ",
+          "ge": "soup",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আর",
+        "আমি",
+        "সালাদ",
+        "আর",
+        "একটি",
+        "পানি",
+        "নেব।"
+      ],
+      "en": [
+        "And",
+        "I",
+        "will",
+        "take",
+        "the",
+        "salad",
+        "and",
+        "a",
+        "water."
+      ],
+      "de": [
+        {
+          "t": "Und",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "nehme",
+          "b": [
+            6
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "nehmen",
+          "gb": "নেব",
+          "ge": "will take",
+          "n": ""
+        },
+        {
+          "t": "den",
+          "b": [],
+          "e": [
+            4
+          ],
+          "l": "der",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the",
+          "n": "der Salat → den Salat (Akkusativ)"
+        },
+        {
+          "t": "Salat",
+          "b": [
+            2
+          ],
+          "e": [
+            5
+          ],
+          "l": "Salat",
+          "gb": "সালাদ",
+          "ge": "salad",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            3
+          ],
+          "e": [
+            6
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "ein",
+          "b": [
+            4
+          ],
+          "e": [
+            7
+          ],
+          "l": "ein",
+          "gb": "একটি",
+          "ge": "a",
+          "n": ""
+        },
+        {
+          "t": "Wasser.",
+          "b": [
+            5
+          ],
+          "e": [
+            8
+          ],
+          "l": "Wasser",
+          "gb": "পানি",
+          "ge": "water",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Kellner",
+      "bn": [
+        "এই",
+        "নিন।",
+        "ভালোভাবে",
+        "খান!"
+      ],
+      "en": [
+        "Here",
+        "you",
+        "go.",
+        "Enjoy",
+        "your",
+        "meal!"
+      ],
+      "de": [
+        {
+          "t": "Bitte sehr.",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "bitte sehr",
+          "gb": "এই নিন",
+          "ge": "Here you go",
+          "n": ""
+        },
+        {
+          "t": "Guten Appetit!",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            3,
+            4,
+            5
+          ],
+          "l": "Guten Appetit",
+          "gb": "ভালোভাবে খান",
+          "ge": "Enjoy your meal",
+          "n": "খাওয়া শুরুর আগে সবাই বলে"
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "স্যুপটা",
+        "সুস্বাদু!"
+      ],
+      "en": [
+        "The",
+        "soup",
+        "is",
+        "delicious!"
+      ],
+      "de": [
+        {
+          "t": "Die",
+          "b": [],
+          "e": [
+            0
+          ],
+          "l": "Die",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "The",
+          "n": ""
+        },
+        {
+          "t": "Suppe",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "Suppe",
+          "gb": "স্যুপটা",
+          "ge": "soup",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "lecker!",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "lecker",
+          "gb": "সুস্বাদু",
+          "ge": "delicious",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "বিলটা",
+        "দিন,",
+        "দয়া",
+        "করে!"
+      ],
+      "en": [
+        "The",
+        "bill,",
+        "please!"
+      ],
+      "de": [
+        {
+          "t": "Die",
+          "b": [],
+          "e": [
+            0
+          ],
+          "l": "Die",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "The",
+          "n": ""
+        },
+        {
+          "t": "Rechnung,",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "Rechnung",
+          "gb": "বিলটা",
+          "ge": "bill",
+          "n": ""
+        },
+        {
+          "t": "bitte!",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "bitte",
+          "gb": "দয়া করে",
+          "ge": "please",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "text",
+      "title": "Hunger und Durst haben",
+      "text": "বাংলায় „খিদে পাওয়া“, জার্মানে „Hunger haben“ (খিদে থাকা): Ich habe Hunger. Ich habe Durst. না থাকলে: Ich habe keinen Hunger (der Hunger → keinen)। „Ich bin hungrig“-ও বলা যায়, কিন্তু „Ich habe Hunger“ বেশি প্রচলিত।"
+    },
+    {
+      "type": "text",
+      "title": "অর্ডার করার দুই ভদ্র উপায়",
+      "text": "„Ich nehme …“ (আমি … নেব) এবং „Ich möchte …“ (আমি … চাই)। দুটোর পরেই Akkusativ: Ich nehme den Salat. / Ich möchte einen Salat. পানীয় অর্ডারে একটিই যথেষ্ট: „Ein Wasser, bitte.“"
+    },
+    {
+      "type": "table",
+      "title": "মেনুর ভাগ",
+      "head": [
+        "জার্মান",
+        "বাংলা"
+      ],
+      "rows": [
+        [
+          "die Vorspeise",
+          "প্রথম পদ"
+        ],
+        [
+          "das Hauptgericht",
+          "মূল পদ"
+        ],
+        [
+          "der Nachtisch",
+          "মিষ্টি / ডেসার্ট"
+        ],
+        [
+          "die Getränke",
+          "পানীয়"
+        ]
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "die Rechnung",
+      "options": [
+        "পিপাসা",
+        "সালাদ",
+        "ভালোভাবে খান!",
+        "বিল"
+      ],
+      "answer": 3,
+      "why": "die Rechnung = বিল।",
+      "word": "rechnung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "die Speisekarte",
+      "options": [
+        "মেনু",
+        "বিল",
+        "স্যুপ",
+        "ভালোভাবে খান!"
+      ],
+      "answer": 0,
+      "why": "die Speisekarte = মেনু।",
+      "word": "speisekarte"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Suppe",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Suppe। বহুবচন: die Suppen।",
+      "word": "suppe"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Salat",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 0,
+      "why": "der Salat। বহুবচন: die Salate।",
+      "word": "salat"
+    },
+    {
+      "type": "mcq",
+      "prompt": "জার্মানে কী হবে?",
+      "sub": "আমার খিদে পেয়েছে।",
+      "subBn": true,
+      "options": [
+        "Ich habe Hunger.",
+        "Ich bin Hunger.",
+        "Ich habe hungrig.",
+        "Ich Hunger habe."
+      ],
+      "answer": 0,
+      "why": "খিদে পাওয়া = Hunger haben।",
+      "word": "hunger"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ich nehme ___ Salat.",
+      "options": [
+        "der",
+        "den",
+        "dem",
+        "das"
+      ],
+      "answer": 1,
+      "why": "der Salat + nehmen (Akkusativ) → den Salat।",
+      "word": "salat"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Guten Appetit!“ কখন বলা হয়?",
+      "options": [
+        "খাওয়ার আগে",
+        "ঘুমানোর আগে",
+        "বিদায়ের সময়",
+        "পরিচয়ের সময়"
+      ],
+      "answer": 0,
+      "why": "খাবার শুরুর আগে বলা হয় — „ভালোভাবে খান“।",
+      "word": "guten_appetit"
+    },
+    {
+      "type": "order",
+      "prompt": "শব্দ সাজিয়ে বাক্য বানান: „বিলটা দিন, দয়া করে!“",
+      "tiles": [
+        "bitte!",
+        "Rechnung,",
+        "Die"
+      ],
+      "answer": [
+        "Die",
+        "Rechnung,",
+        "bitte!"
+      ],
+      "why": "Die Rechnung, bitte!",
+      "word": "rechnung"
+    }
+  ],
+  "status": "draft",
+  "minutes": 14,
+  "passMark": 0.8
+}

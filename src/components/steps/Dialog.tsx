@@ -66,7 +66,7 @@ export function Dialog({ lesson, onNext }: { lesson: Lesson; onNext(): void }) {
                     {showBn && <span className="bn">{tok.gb}</span>}
                     {showEn && <span>{tok.ge}</span>}
                   </div>
-                  <div className="hint bn" style={{ marginTop: 4 }}>{tok.n}</div>
+                  {tok.n && <div className="hint bn" style={{ marginTop: 4 }}>{tok.n}</div>}
                   {tok.b.length === 0 && showBn && <div className="hint bn">বাংলা বাক্যে এর সরাসরি কোনো শব্দ নেই।</div>}
                 </div>
               </div>
