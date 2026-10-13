@@ -62,7 +62,7 @@ export function Quiz({ lesson, onFinish, onRestart }: Props) {
   const check = () => {
     setChecked(true)
     if (isRight(cur, picked, order)) setScore((s) => s + 1)
-    else setWrong((w) => [...w, cur.word])
+    else if (cur.word) setWrong((w) => [...w, cur.word!])
     if (cur.type === 'order') void say(cur.answer.join(' '))
     else if (cur.type === 'mcq' && cur.subBn && picked !== null) void say(cur.options[cur.answer])
   }

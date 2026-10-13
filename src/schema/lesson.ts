@@ -61,7 +61,7 @@ const Mcq = z.object({
   options: z.array(z.string()).min(2),
   answer: z.number().int().min(0),
   why: z.string(),
-  word: z.string(), // word id queued for review when answered wrong
+  word: z.string().optional(), // word id queued for review when answered wrong
 })
 const Listen = z.object({
   type: z.literal('listen'),
@@ -70,7 +70,7 @@ const Listen = z.object({
   options: z.array(z.string()).min(2),
   answer: z.number().int().min(0),
   why: z.string(),
-  word: z.string(),
+  word: z.string().optional(),
 })
 const Order = z.object({
   type: z.literal('order'),
@@ -78,7 +78,7 @@ const Order = z.object({
   tiles: z.array(z.string()).min(2),
   answer: z.array(z.string()).min(2),
   why: z.string(),
-  word: z.string(),
+  word: z.string().optional(),
 })
 export const Question = z.discriminatedUnion('type', [Mcq, Listen, Order])
 

@@ -1,0 +1,870 @@
+{
+  "id": "a1-u02-l02",
+  "level": "A1",
+  "unit": 2,
+  "lesson": 2,
+  "title": {
+    "de": "Die Zahlen 0–12",
+    "bn": "সংখ্যা ০ থেকে ১২ ও ফোন নম্বর",
+    "en": "Numbers 0–12 and phone numbers"
+  },
+  "status": "draft",
+  "minutes": 12,
+  "hook": {
+    "de": "Übung macht den Meister.",
+    "who": "Sprichwort",
+    "bn": "অভ্যাসই দক্ষ করে তোলে।",
+    "en": "Practice makes perfect."
+  },
+  "goals": [
+    "০ থেকে ১২ পর্যন্ত সংখ্যা বলা ও শোনা",
+    "ফোন নম্বর বলা ও বোঝা",
+    "১৩ থেকে ২০-এর গঠন-প্যাটার্ন চেনা",
+    "eins ও ein-এর পার্থক্য"
+  ],
+  "words": [
+    {
+      "id": "null",
+      "de": "null",
+      "pos": "সংখ্যা",
+      "bn": "০, শূন্য",
+      "en": "zero"
+    },
+    {
+      "id": "eins",
+      "de": "eins",
+      "pos": "সংখ্যা",
+      "bn": "১, এক",
+      "en": "one"
+    },
+    {
+      "id": "zwei",
+      "de": "zwei",
+      "pos": "সংখ্যা",
+      "bn": "২, দুই",
+      "en": "two"
+    },
+    {
+      "id": "drei",
+      "de": "drei",
+      "pos": "সংখ্যা",
+      "bn": "৩, তিন",
+      "en": "three"
+    },
+    {
+      "id": "vier",
+      "de": "vier",
+      "pos": "সংখ্যা",
+      "bn": "৪, চার",
+      "en": "four"
+    },
+    {
+      "id": "fuenf",
+      "de": "fünf",
+      "pos": "সংখ্যা",
+      "bn": "৫, পাঁচ",
+      "en": "five"
+    },
+    {
+      "id": "sechs",
+      "de": "sechs",
+      "pos": "সংখ্যা",
+      "bn": "৬, ছয়",
+      "en": "six"
+    },
+    {
+      "id": "sieben",
+      "de": "sieben",
+      "pos": "সংখ্যা",
+      "bn": "৭, সাত",
+      "en": "seven"
+    },
+    {
+      "id": "acht",
+      "de": "acht",
+      "pos": "সংখ্যা",
+      "bn": "৮, আট",
+      "en": "eight"
+    },
+    {
+      "id": "neun",
+      "de": "neun",
+      "pos": "সংখ্যা",
+      "bn": "৯, নয়",
+      "en": "nine"
+    },
+    {
+      "id": "zehn",
+      "de": "zehn",
+      "pos": "সংখ্যা",
+      "bn": "১০, দশ",
+      "en": "ten"
+    },
+    {
+      "id": "elf",
+      "de": "elf",
+      "pos": "সংখ্যা",
+      "bn": "১১, এগারো",
+      "en": "eleven"
+    },
+    {
+      "id": "zwoelf",
+      "de": "zwölf",
+      "pos": "সংখ্যা",
+      "bn": "১২, বারো",
+      "en": "twelve"
+    },
+    {
+      "id": "nummer",
+      "de": "Nummer",
+      "art": "die",
+      "pl": "die Nummern",
+      "pos": "বিশেষ্য",
+      "bn": "নম্বর",
+      "en": "number"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Muna",
+      "bn": [
+        "তোমার",
+        "নম্বর",
+        "কত?"
+      ],
+      "en": [
+        "What",
+        "is",
+        "your",
+        "number?"
+      ],
+      "de": [
+        {
+          "t": "Wie",
+          "b": [
+            2
+          ],
+          "e": [
+            0
+          ],
+          "l": "wie",
+          "gb": "কত / কী",
+          "ge": "what",
+          "n": "প্রশ্নবোধক শব্দ"
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "sein",
+          "gb": "হওয়া (বাংলায় উহ্য)",
+          "ge": "to be",
+          "n": "er/sie/es ist"
+        },
+        {
+          "t": "deine",
+          "b": [
+            0
+          ],
+          "e": [
+            2
+          ],
+          "l": "dein",
+          "gb": "তোমার",
+          "ge": "your (informal)",
+          "n": "Nummer স্ত্রীলিঙ্গ, তাই dein-এর সাথে -e: deine Nummer"
+        },
+        {
+          "t": "Nummer?",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "Nummer",
+          "gb": "নম্বর",
+          "ge": "number",
+          "n": "die Nummer"
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমার",
+        "নম্বর",
+        "শূন্য",
+        "এক",
+        "পাঁচ",
+        "এক,",
+        "দুই",
+        "তিন",
+        "চার",
+        "আট।"
+      ],
+      "en": [
+        "My",
+        "number",
+        "is",
+        "zero",
+        "one",
+        "five",
+        "one,",
+        "two",
+        "three",
+        "four",
+        "eight."
+      ],
+      "de": [
+        {
+          "t": "Meine",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "mein",
+          "gb": "আমার",
+          "ge": "my",
+          "n": "Nummer স্ত্রীলিঙ্গ: meine Nummer"
+        },
+        {
+          "t": "Nummer",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "Nummer",
+          "gb": "নম্বর",
+          "ge": "number",
+          "n": "die Nummer"
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "sein",
+          "gb": "হওয়া (বাংলায় উহ্য)",
+          "ge": "to be",
+          "n": "er/sie/es ist"
+        },
+        {
+          "t": "null",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "null",
+          "gb": "শূন্য",
+          "ge": "zero",
+          "n": "সংখ্যা"
+        },
+        {
+          "t": "eins",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "eins",
+          "gb": "এক",
+          "ge": "one",
+          "n": "সংখ্যা"
+        },
+        {
+          "t": "fünf",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "fünf",
+          "gb": "পাঁচ",
+          "ge": "five",
+          "n": "সংখ্যা"
+        },
+        {
+          "t": "eins,",
+          "b": [
+            5
+          ],
+          "e": [
+            6
+          ],
+          "l": "eins",
+          "gb": "এক",
+          "ge": "one",
+          "n": "সংখ্যা"
+        },
+        {
+          "t": "zwei",
+          "b": [
+            6
+          ],
+          "e": [
+            7
+          ],
+          "l": "zwei",
+          "gb": "দুই",
+          "ge": "two",
+          "n": "সংখ্যা"
+        },
+        {
+          "t": "drei",
+          "b": [
+            7
+          ],
+          "e": [
+            8
+          ],
+          "l": "drei",
+          "gb": "তিন",
+          "ge": "three",
+          "n": "সংখ্যা"
+        },
+        {
+          "t": "vier",
+          "b": [
+            8
+          ],
+          "e": [
+            9
+          ],
+          "l": "vier",
+          "gb": "চার",
+          "ge": "four",
+          "n": "সংখ্যা"
+        },
+        {
+          "t": "acht.",
+          "b": [
+            9
+          ],
+          "e": [
+            10
+          ],
+          "l": "acht",
+          "gb": "আট",
+          "ge": "eight",
+          "n": "সংখ্যা"
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "আরেকবার,",
+        "দয়া",
+        "করে।"
+      ],
+      "en": [
+        "Once",
+        "more,",
+        "please."
+      ],
+      "de": [
+        {
+          "t": "Noch einmal,",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "noch einmal",
+          "gb": "আরেকবার",
+          "ge": "once more",
+          "n": "না বুঝলে বলার সহজ বাক্যাংশ"
+        },
+        {
+          "t": "bitte.",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "bitte",
+          "gb": "দয়া করে",
+          "ge": "please",
+          "n": "ভদ্রতার শব্দ"
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "ধীরে:",
+        "শূন্য",
+        "এক",
+        "পাঁচ",
+        "এক,",
+        "দুই",
+        "তিন",
+        "চার",
+        "আট।"
+      ],
+      "en": [
+        "Slowly:",
+        "zero",
+        "one",
+        "five",
+        "one,",
+        "two",
+        "three",
+        "four",
+        "eight."
+      ],
+      "de": [
+        {
+          "t": "Langsam:",
+          "s": "Langsam",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "langsam",
+          "gb": "ধীরে",
+          "ge": "slowly",
+          "n": "ক্রিয়াবিশেষণ"
+        },
+        {
+          "t": "null",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "null",
+          "gb": "শূন্য",
+          "ge": "zero",
+          "n": "সংখ্যা"
+        },
+        {
+          "t": "eins",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "eins",
+          "gb": "এক",
+          "ge": "one",
+          "n": "সংখ্যা"
+        },
+        {
+          "t": "fünf",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "fünf",
+          "gb": "পাঁচ",
+          "ge": "five",
+          "n": "সংখ্যা"
+        },
+        {
+          "t": "eins,",
+          "b": [
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "eins",
+          "gb": "এক",
+          "ge": "one",
+          "n": "সংখ্যা"
+        },
+        {
+          "t": "zwei",
+          "b": [
+            5
+          ],
+          "e": [
+            5
+          ],
+          "l": "zwei",
+          "gb": "দুই",
+          "ge": "two",
+          "n": "সংখ্যা"
+        },
+        {
+          "t": "drei",
+          "b": [
+            6
+          ],
+          "e": [
+            6
+          ],
+          "l": "drei",
+          "gb": "তিন",
+          "ge": "three",
+          "n": "সংখ্যা"
+        },
+        {
+          "t": "vier",
+          "b": [
+            7
+          ],
+          "e": [
+            7
+          ],
+          "l": "vier",
+          "gb": "চার",
+          "ge": "four",
+          "n": "সংখ্যা"
+        },
+        {
+          "t": "acht.",
+          "b": [
+            8
+          ],
+          "e": [
+            8
+          ],
+          "l": "acht",
+          "gb": "আট",
+          "ge": "eight",
+          "n": "সংখ্যা"
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "আমার",
+        "নম্বর",
+        "শূন্য",
+        "ছয়",
+        "সাত",
+        "তিন,",
+        "এগারো",
+        "বারো।"
+      ],
+      "en": [
+        "My",
+        "number",
+        "is",
+        "zero",
+        "six",
+        "seven",
+        "three,",
+        "eleven",
+        "twelve."
+      ],
+      "de": [
+        {
+          "t": "Meine",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "mein",
+          "gb": "আমার",
+          "ge": "my",
+          "n": "meine Nummer"
+        },
+        {
+          "t": "Nummer",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "Nummer",
+          "gb": "নম্বর",
+          "ge": "number",
+          "n": "die Nummer"
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "sein",
+          "gb": "হওয়া (বাংলায় উহ্য)",
+          "ge": "to be",
+          "n": "er/sie/es ist"
+        },
+        {
+          "t": "null",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "null",
+          "gb": "শূন্য",
+          "ge": "zero",
+          "n": "সংখ্যা"
+        },
+        {
+          "t": "sechs",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "sechs",
+          "gb": "ছয়",
+          "ge": "six",
+          "n": "সংখ্যা"
+        },
+        {
+          "t": "sieben",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "sieben",
+          "gb": "সাত",
+          "ge": "seven",
+          "n": "সংখ্যা"
+        },
+        {
+          "t": "drei,",
+          "b": [
+            5
+          ],
+          "e": [
+            6
+          ],
+          "l": "drei",
+          "gb": "তিন",
+          "ge": "three",
+          "n": "সংখ্যা"
+        },
+        {
+          "t": "elf",
+          "b": [
+            6
+          ],
+          "e": [
+            7
+          ],
+          "l": "elf",
+          "gb": "এগারো",
+          "ge": "eleven",
+          "n": "জোড়ায় জোড়ায় নম্বর বলা সাধারণ: elf zwölf = ১১ ১২"
+        },
+        {
+          "t": "zwölf.",
+          "b": [
+            7
+          ],
+          "e": [
+            8
+          ],
+          "l": "zwölf",
+          "gb": "বারো",
+          "ge": "twelve",
+          "n": "সংখ্যা"
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "ধন্যবাদ,",
+        "মুনা!"
+      ],
+      "en": [
+        "Thank",
+        "you,",
+        "Muna!"
+      ],
+      "de": [
+        {
+          "t": "Danke,",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "danke",
+          "gb": "ধন্যবাদ",
+          "ge": "thank you",
+          "n": "অভিবাদন"
+        },
+        {
+          "t": "Muna!",
+          "s": "Muna",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "Muna",
+          "gb": "মুনা (নাম)",
+          "ge": "Muna (name)",
+          "n": "নাম"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "text",
+      "title": "১৩ থেকে ১৯: একক + zehn",
+      "text": "13 dreizehn (drei + zehn) · 14 vierzehn · 15 fünfzehn · 16 sechzehn (sechs → sech) · 17 siebzehn (sieben → sieb) · 18 achtzehn · 19 neunzehn · 20 zwanzig। শুধু ১৬ ও ১৭-এ বানান ছোট হয়ে যায় — এটাই একমাত্র ফাঁদ।"
+    },
+    {
+      "type": "text",
+      "title": "eins নাকি ein?",
+      "text": "গোনার সময় বা ফোন নম্বরে eins: „eins, zwei, drei“। কিন্তু বিশেষ্যের আগে ein / eine: „ein Name“, „eine Nummer“। মনে রাখুন: ১ = eins, „একটি“ = ein/eine।"
+    },
+    {
+      "type": "text",
+      "title": "ফোন নম্বর",
+      "text": "জার্মানে নম্বর সাধারণত একটা একটা সংখ্যা করে বা জোড়ায় বলা হয়। 0151 2348 = „null eins fünf eins, zwei drei vier acht“। ফোনে কখনো „zwo“ বলা হয় (zwei-এর বদলে, যাতে drei-এর সাথে গুলিয়ে না যায়) — শুনলে অবাক হবেন না।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "sieben",
+      "options": [
+        "৫",
+        "৬",
+        "৭",
+        "৮"
+      ],
+      "answer": 2,
+      "why": "sieben = ৭। sechs = ৬।",
+      "word": "sieben"
+    },
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "zwölf",
+      "options": [
+        "১০",
+        "১১",
+        "১২",
+        "১৩"
+      ],
+      "answer": 2,
+      "why": "zwölf = ১২; elf = ১১।",
+      "word": "zwoelf"
+    },
+    {
+      "type": "mcq",
+      "prompt": "৪ জার্মানে কী?",
+      "options": [
+        "vier",
+        "fünf",
+        "sechs",
+        "acht"
+      ],
+      "answer": 0,
+      "why": "৪ = vier। fünf = ৫।",
+      "word": "vier"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„neun“ মানে কত?",
+      "options": [
+        "৫",
+        "৯",
+        "১৯",
+        "০"
+      ],
+      "answer": 1,
+      "why": "neun = ৯। (neunzehn = ১৯)",
+      "word": "neun"
+    },
+    {
+      "type": "mcq",
+      "prompt": "১৩ জার্মানে কী?",
+      "options": [
+        "dreizehn",
+        "dreißig",
+        "dreiundzehn",
+        "zehndrei"
+      ],
+      "answer": 0,
+      "why": "১৩ = drei + zehn = dreizehn।",
+      "word": "drei"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„sechzehn“ মানে কত?",
+      "options": [
+        "১৬",
+        "৬০",
+        "১৫",
+        "১৭"
+      ],
+      "answer": 0,
+      "why": "sechzehn = ১৬ (sechs → sech)।",
+      "word": "sechs"
+    },
+    {
+      "type": "mcq",
+      "prompt": "ফোন নম্বর „০৮“ জার্মানে কেমন বলবেন?",
+      "options": [
+        "null acht",
+        "eins acht",
+        "zehn acht",
+        "nein acht"
+      ],
+      "answer": 0,
+      "why": "০ = null, ৮ = acht।",
+      "word": "null"
+    },
+    {
+      "type": "order",
+      "prompt": "শব্দ সাজিয়ে বাক্য বানান: „আমার নম্বর শূন্য এক“",
+      "tiles": [
+        "ist",
+        "Nummer",
+        "Meine",
+        "null",
+        "eins"
+      ],
+      "answer": [
+        "Meine",
+        "Nummer",
+        "ist",
+        "null",
+        "eins"
+      ],
+      "why": "Meine Nummer ist null eins।",
+      "word": "nummer"
+    }
+  ],
+  "passMark": 0.8
+}

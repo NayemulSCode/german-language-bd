@@ -10,7 +10,7 @@ function* jsonFiles(dir: string): Generator<string> {
   for (const name of readdirSync(dir).sort()) {
     const p = join(dir, name)
     if (statSync(p).isDirectory()) yield* jsonFiles(p)
-    else if (name.endsWith('.json')) yield p
+    else if (name.endsWith('.json') && name !== 'pronunciation.json') yield p
   }
 }
 
@@ -32,7 +32,7 @@ export function checkLesson(raw: unknown): string[] {
     })
   })
   l.quiz.forEach((q, qi) => {
-    if (!ids.has(q.word)) errs.push(`quiz[${qi}].word: unknown word id "${q.word}"`)
+    if (q.word && !ids.has(q.word)) errs.push(`quiz[${qi}].word: unknown word id "${q.word}"`)
     if (q.type === 'order') {
       const a = [...q.answer].sort().join('|')
       const t = [...q.tiles].sort().join('|')

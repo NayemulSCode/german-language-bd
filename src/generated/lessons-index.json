@@ -11,5 +11,57 @@
     },
     "status": "draft",
     "minutes": 12
+  },
+  {
+    "id": "a1-u02-l01",
+    "level": "A1",
+    "unit": 2,
+    "lesson": 1,
+    "title": {
+      "bn": "বর্ণমালা ও বানান করা",
+      "en": "The alphabet and spelling",
+      "de": "Das Alphabet"
+    },
+    "status": "draft",
+    "minutes": 12
+  },
+  {
+    "id": "a1-u02-l02",
+    "level": "A1",
+    "unit": 2,
+    "lesson": 2,
+    "title": {
+      "bn": "সংখ্যা ০ থেকে ১২ ও ফোন নম্বর",
+      "en": "Numbers 0–12 and phone numbers",
+      "de": "Die Zahlen 0–12"
+    },
+    "status": "draft",
+    "minutes": 12
+  },
+  {
+    "id": "a1-u02-l03",
+    "level": "A1",
+    "unit": 2,
+    "lesson": 3,
+    "title": {
+      "bn": "সংখ্যা ২০ থেকে ১০০ ও বয়স",
+      "en": "Numbers up to 100 and age",
+      "de": "Zahlen und Alter"
+    },
+    "status": "draft",
+    "minutes": 14
+  },
+  {
+    "id": "a1-u02-l04",
+    "level": "A1",
+    "unit": 2,
+    "lesson": 4,
+    "title": {
+      "bn": "ফর্ম পূরণ ও „Sie“",
+      "en": "Filling in a form and “Sie”",
+      "de": "Das Formular"
+    },
+    "status": "draft",
+    "minutes": 15
   }
 ]

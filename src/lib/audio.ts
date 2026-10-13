@@ -1,4 +1,5 @@
 import { toast } from './toast'
+import { clipKey } from './speakable'
 
 /**
  * Plays German audio. Pre-generated clips (public/audio/manifest.json, built from lesson text)
@@ -19,7 +20,7 @@ let warnedVoice = false
 export async function speak(text: string, opts: { slow: boolean }): Promise<void> {
   current?.pause()
   const files = await loadManifest()
-  const file = files[`${opts.slow ? 'slow' : 'normal'}|${text}`]
+  const file = files[clipKey(text, opts.slow)]
   if (file) {
     const el = new Audio(`${import.meta.env.BASE_URL}audio/${file}`)
     current = el

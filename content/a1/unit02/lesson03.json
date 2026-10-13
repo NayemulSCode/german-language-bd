@@ -1,0 +1,669 @@
+{
+  "id": "a1-u02-l03",
+  "level": "A1",
+  "unit": 2,
+  "lesson": 3,
+  "title": {
+    "de": "Zahlen und Alter",
+    "bn": "সংখ্যা ২০ থেকে ১০০ ও বয়স",
+    "en": "Numbers up to 100 and age"
+  },
+  "status": "draft",
+  "minutes": 14,
+  "hook": {
+    "de": "Man ist so alt, wie man sich fühlt.",
+    "who": "Sprichwort",
+    "bn": "বয়স ততটুকুই, যতটুকু আপনি অনুভব করেন।",
+    "en": "You are as old as you feel."
+  },
+  "goals": [
+    "২০ থেকে ১০০ পর্যন্ত সংখ্যা",
+    "„তেইশ“ = dreiundzwanzig — একক আগে, দশক পরে",
+    "নিজের বয়স বলা: Ich bin … Jahre alt",
+    "sein-এর পূর্ণ রূপ: ich bin, du bist, er ist …"
+  ],
+  "words": [
+    {
+      "id": "zwanzig",
+      "de": "zwanzig",
+      "pos": "সংখ্যা",
+      "bn": "২০, বিশ",
+      "en": "twenty"
+    },
+    {
+      "id": "dreissig",
+      "de": "dreißig",
+      "pos": "সংখ্যা",
+      "bn": "৩০, ত্রিশ",
+      "en": "thirty"
+    },
+    {
+      "id": "vierzig",
+      "de": "vierzig",
+      "pos": "সংখ্যা",
+      "bn": "৪০, চল্লিশ",
+      "en": "forty"
+    },
+    {
+      "id": "fuenfzig",
+      "de": "fünfzig",
+      "pos": "সংখ্যা",
+      "bn": "৫০, পঞ্চাশ",
+      "en": "fifty"
+    },
+    {
+      "id": "sechzig",
+      "de": "sechzig",
+      "pos": "সংখ্যা",
+      "bn": "৬০, ষাট",
+      "en": "sixty"
+    },
+    {
+      "id": "siebzig",
+      "de": "siebzig",
+      "pos": "সংখ্যা",
+      "bn": "৭০, সত্তর",
+      "en": "seventy"
+    },
+    {
+      "id": "achtzig",
+      "de": "achtzig",
+      "pos": "সংখ্যা",
+      "bn": "৮০, আশি",
+      "en": "eighty"
+    },
+    {
+      "id": "neunzig",
+      "de": "neunzig",
+      "pos": "সংখ্যা",
+      "bn": "৯০, নব্বই",
+      "en": "ninety"
+    },
+    {
+      "id": "hundert",
+      "de": "hundert",
+      "pos": "সংখ্যা",
+      "bn": "১০০, একশো",
+      "en": "one hundred"
+    },
+    {
+      "id": "jahr",
+      "de": "Jahr",
+      "art": "das",
+      "pl": "die Jahre",
+      "pos": "বিশেষ্য",
+      "bn": "বছর",
+      "en": "year"
+    },
+    {
+      "id": "alt",
+      "de": "alt",
+      "pos": "বিশেষণ",
+      "bn": "বয়সী, পুরোনো",
+      "en": "old"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Muna",
+      "bn": [
+        "তোমার",
+        "বয়স",
+        "কত?"
+      ],
+      "en": [
+        "How",
+        "old",
+        "are",
+        "you?"
+      ],
+      "de": [
+        {
+          "t": "Wie",
+          "b": [
+            2
+          ],
+          "e": [
+            0
+          ],
+          "l": "wie",
+          "gb": "কত / কীভাবে",
+          "ge": "how",
+          "n": "প্রশ্নবোধক শব্দ"
+        },
+        {
+          "t": "alt",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "alt",
+          "gb": "বয়সী",
+          "ge": "old",
+          "n": "Wie alt? = কত বয়স?"
+        },
+        {
+          "t": "bist",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "sein",
+          "gb": "হওয়া (বাংলায় উহ্য)",
+          "ge": "to be",
+          "n": "du bist"
+        },
+        {
+          "t": "du?",
+          "b": [
+            0
+          ],
+          "e": [
+            3
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": "প্রশ্নে ক্রিয়া আগে, du পরে"
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমার",
+        "বয়স",
+        "তেইশ",
+        "বছর।"
+      ],
+      "en": [
+        "I",
+        "am",
+        "twenty-three",
+        "years",
+        "old."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": "সর্বনাম"
+        },
+        {
+          "t": "bin",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "sein",
+          "gb": "হওয়া (বাংলায় উহ্য)",
+          "ge": "to be",
+          "n": "ich bin — „haben“ নয়! Ich habe 23 ভুল"
+        },
+        {
+          "t": "dreiundzwanzig",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "dreiundzwanzig",
+          "gb": "তেইশ",
+          "ge": "twenty-three",
+          "n": "drei + und + zwanzig = „তিন আর বিশ“ — একক আগে"
+        },
+        {
+          "t": "Jahre",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "Jahr",
+          "gb": "বছর",
+          "ge": "years",
+          "n": "das Jahr, বহুবচন: die Jahre"
+        },
+        {
+          "t": "alt.",
+          "b": [
+            1
+          ],
+          "e": [
+            4
+          ],
+          "l": "alt",
+          "gb": "বয়সী",
+          "ge": "old",
+          "n": "বয়স বোঝাতে Jahre alt"
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "তেইশ?",
+        "আমি",
+        "বাইশ।"
+      ],
+      "en": [
+        "Twenty-three?",
+        "I",
+        "am",
+        "twenty-two."
+      ],
+      "de": [
+        {
+          "t": "Dreiundzwanzig?",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "dreiundzwanzig",
+          "gb": "তেইশ",
+          "ge": "twenty-three",
+          "n": "প্রশ্নের সুরে বললে বিস্ময় বা নিশ্চিত হওয়া বোঝায়"
+        },
+        {
+          "t": "Ich",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": "সর্বনাম"
+        },
+        {
+          "t": "bin",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "sein",
+          "gb": "হওয়া (বাংলায় উহ্য)",
+          "ge": "to be",
+          "n": "ich bin"
+        },
+        {
+          "t": "zweiundzwanzig.",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "zweiundzwanzig",
+          "gb": "বাইশ",
+          "ge": "twenty-two",
+          "n": "zwei + und + zwanzig"
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমার",
+        "দাদু",
+        "একশো",
+        "বছর",
+        "বয়সী!"
+      ],
+      "en": [
+        "My",
+        "grandpa",
+        "is",
+        "one",
+        "hundred",
+        "years",
+        "old!"
+      ],
+      "de": [
+        {
+          "t": "Mein",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "mein",
+          "gb": "আমার",
+          "ge": "my",
+          "n": "der Opa → mein Opa"
+        },
+        {
+          "t": "Opa",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "Opa",
+          "gb": "দাদু / নানা",
+          "ge": "grandpa",
+          "n": "অনানুষ্ঠানিক শব্দ; der Opa (পরের ইউনিটে পরিবার শিখব)"
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "sein",
+          "gb": "হওয়া (বাংলায় উহ্য)",
+          "ge": "to be",
+          "n": "er/sie/es ist"
+        },
+        {
+          "t": "hundert",
+          "b": [
+            2
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "hundert",
+          "gb": "একশো",
+          "ge": "one hundred",
+          "n": "ein ছাড়াই বলা যায়: hundert"
+        },
+        {
+          "t": "Jahre",
+          "b": [
+            3
+          ],
+          "e": [
+            5
+          ],
+          "l": "Jahr",
+          "gb": "বছর",
+          "ge": "years",
+          "n": "das Jahr / die Jahre"
+        },
+        {
+          "t": "alt!",
+          "b": [
+            4
+          ],
+          "e": [
+            6
+          ],
+          "l": "alt",
+          "gb": "বয়সী",
+          "ge": "old",
+          "n": "বিশেষণ"
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "বাহ!",
+        "একশো",
+        "বছর!"
+      ],
+      "en": [
+        "Wow!",
+        "One",
+        "hundred",
+        "years!"
+      ],
+      "de": [
+        {
+          "t": "Wow!",
+          "s": "Wow",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "wow",
+          "gb": "বাহ!",
+          "ge": "wow",
+          "n": "বিস্ময়সূচক শব্দ"
+        },
+        {
+          "t": "Hundert",
+          "b": [
+            1
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "hundert",
+          "gb": "একশো",
+          "ge": "one hundred",
+          "n": "সংখ্যা"
+        },
+        {
+          "t": "Jahre!",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "Jahr",
+          "gb": "বছর",
+          "ge": "years",
+          "n": "বহুবচন"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "text",
+      "title": "একক আগে, দশক পরে",
+      "text": "21 einundzwanzig · 22 zweiundzwanzig · 34 vierunddreißig · 45 fünfundvierzig · 99 neunundneunzig। মনে রাখুন: „তিন-আর-বিশ“ ক্রমে বলা হয় — যেমন ইংরেজির „three and twenty“। ৩০ হলো dreißig (ß, -zig নয়); ৬০ sechzig ও ৭০ siebzig-এ sechs/sieben ছোট হয়।"
+    },
+    {
+      "type": "conjugation",
+      "intro": "বয়স ও পরিচয় বলতে „sein“ (হওয়া) ব্যবহার হয়। এটি অনিয়মিত — পুরো রূপ একসাথে মুখস্থ করুন।",
+      "verbs": [
+        "sein"
+      ],
+      "rows": [
+        {
+          "pron": "ich",
+          "stems": [
+            "bin"
+          ],
+          "ends": [
+            ""
+          ],
+          "bn": "আমি"
+        },
+        {
+          "pron": "du",
+          "stems": [
+            "bist"
+          ],
+          "ends": [
+            ""
+          ],
+          "bn": "তুমি"
+        },
+        {
+          "pron": "er / sie / es",
+          "stems": [
+            "ist"
+          ],
+          "ends": [
+            ""
+          ],
+          "bn": "সে"
+        },
+        {
+          "pron": "wir",
+          "stems": [
+            "sind"
+          ],
+          "ends": [
+            ""
+          ],
+          "bn": "আমরা"
+        },
+        {
+          "pron": "ihr",
+          "stems": [
+            "seid"
+          ],
+          "ends": [
+            ""
+          ],
+          "bn": "তোমরা"
+        },
+        {
+          "pron": "sie / Sie",
+          "stems": [
+            "sind"
+          ],
+          "ends": [
+            ""
+          ],
+          "bn": "তারা / আপনি"
+        }
+      ],
+      "note": "বাংলায় „আমার বয়স ২৩“ বললেও জার্মানে „haben“ ব্যবহার করা যায় না: ঠিক — Ich bin 23 Jahre alt। ভুল — Ich habe 23 Jahre।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "dreißig",
+      "options": [
+        "১৩",
+        "৩০",
+        "৪০",
+        "৩৩"
+      ],
+      "answer": 1,
+      "why": "dreißig = ৩০; dreizehn = ১৩।",
+      "word": "dreissig"
+    },
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "vierundvierzig",
+      "options": [
+        "৪৪",
+        "৪০",
+        "১৪",
+        "৪১"
+      ],
+      "answer": 0,
+      "why": "vier und vierzig = ৪৪।"
+    },
+    {
+      "type": "mcq",
+      "prompt": "২৫ জার্মানে কী?",
+      "options": [
+        "fünfundzwanzig",
+        "zwanzigfünf",
+        "fünfzwanzig",
+        "fünfundfünfzig"
+      ],
+      "answer": 0,
+      "why": "একক আগে: fünf + und + zwanzig।",
+      "word": "zwanzig"
+    },
+    {
+      "type": "mcq",
+      "prompt": "৯০ জার্মানে কী?",
+      "options": [
+        "neunzig",
+        "neunzehn",
+        "neunundneunzig",
+        "neun"
+      ],
+      "answer": 0,
+      "why": "৯০ = neunzig; ১৯ = neunzehn।",
+      "word": "neunzig"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Wie alt ___ du?",
+      "options": [
+        "bin",
+        "bist",
+        "ist",
+        "sind"
+      ],
+      "answer": 1,
+      "why": "du-এর সাথে sein = bist।",
+      "word": "alt"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক বাক্য বেছে নিন",
+      "sub": "আমার বয়স ২৩ বছর।",
+      "subBn": true,
+      "options": [
+        "Ich habe 23 Jahre.",
+        "Ich bin 23 Jahre alt.",
+        "Ich ist 23 Jahre alt.",
+        "Ich bist 23 alt."
+      ],
+      "answer": 1,
+      "why": "বয়সে sein: Ich bin 23 Jahre alt।",
+      "word": "jahr"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„sechzig“ মানে কত?",
+      "options": [
+        "৬০",
+        "১৬",
+        "৬",
+        "৬৬"
+      ],
+      "answer": 0,
+      "why": "sechzig = ৬০; sechzehn = ১৬।",
+      "word": "sechzig"
+    },
+    {
+      "type": "order",
+      "prompt": "শব্দ সাজিয়ে বাক্য বানান: „তোমার বয়স কত?“",
+      "tiles": [
+        "du?",
+        "Wie",
+        "bist",
+        "alt"
+      ],
+      "answer": [
+        "Wie",
+        "alt",
+        "bist",
+        "du?"
+      ],
+      "why": "Wie alt bist du?",
+      "word": "alt"
+    }
+  ],
+  "passMark": 0.8
+}

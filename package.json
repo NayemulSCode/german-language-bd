@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "typecheck": "tsc --noEmit",
     "validate": "tsx scripts/validate-content.ts",
-    "test": "vitest run"
+    "test": "vitest run",
+    "audio": "tsx scripts/build-audio.ts"
   },
   "dependencies": {
     "react": "^19.3.0",

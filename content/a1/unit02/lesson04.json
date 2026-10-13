@@ -1,0 +1,938 @@
+{
+  "id": "a1-u02-l04",
+  "level": "A1",
+  "unit": 2,
+  "lesson": 4,
+  "title": {
+    "de": "Das Formular",
+    "bn": "ফর্ম পূরণ ও „Sie“",
+    "en": "Filling in a form and “Sie”"
+  },
+  "status": "draft",
+  "minutes": 15,
+  "hook": {
+    "de": "Ordnung ist das halbe Leben.",
+    "who": "Sprichwort",
+    "bn": "গোছানো থাকাই অর্ধেক জীবন।",
+    "en": "Order is half of life."
+  },
+  "goals": [
+    "অফিসে ও অপরিচিতদের সাথে ভদ্র „Sie“ ব্যবহার",
+    "ফর্মের শব্দ: Adresse, Straße, Telefonnummer",
+    "নাম, ঠিকানা ও ফোন নম্বর বলা",
+    "Herr / Frau দিয়ে ডাকা"
+  ],
+  "words": [
+    {
+      "id": "formular",
+      "de": "Formular",
+      "art": "das",
+      "pl": "die Formulare",
+      "pos": "বিশেষ্য",
+      "bn": "ফর্ম",
+      "en": "form"
+    },
+    {
+      "id": "adresse",
+      "de": "Adresse",
+      "art": "die",
+      "pl": "die Adressen",
+      "pos": "বিশেষ্য",
+      "bn": "ঠিকানা",
+      "en": "address"
+    },
+    {
+      "id": "strasse",
+      "de": "Straße",
+      "art": "die",
+      "pl": "die Straßen",
+      "pos": "বিশেষ্য",
+      "bn": "রাস্তা",
+      "en": "street"
+    },
+    {
+      "id": "hausnummer",
+      "de": "Hausnummer",
+      "art": "die",
+      "pl": "die Hausnummern",
+      "pos": "বিশেষ্য",
+      "bn": "বাড়ির নম্বর",
+      "en": "house number"
+    },
+    {
+      "id": "telefonnummer",
+      "de": "Telefonnummer",
+      "art": "die",
+      "pl": "die Telefonnummern",
+      "pos": "বিশেষ্য",
+      "bn": "ফোন নম্বর",
+      "en": "phone number"
+    },
+    {
+      "id": "ausfuellen",
+      "de": "ausfüllen",
+      "pos": "ক্রিয়া",
+      "bn": "পূরণ করা",
+      "en": "to fill out"
+    },
+    {
+      "id": "unterschreiben",
+      "de": "unterschreiben",
+      "pos": "ক্রিয়া",
+      "bn": "সই করা",
+      "en": "to sign"
+    },
+    {
+      "id": "sie",
+      "de": "Sie",
+      "pos": "সর্বনাম",
+      "bn": "আপনি (ভদ্র রূপ)",
+      "en": "you (formal)"
+    },
+    {
+      "id": "herr",
+      "de": "Herr",
+      "art": "der",
+      "pl": "die Herren",
+      "pos": "বিশেষ্য",
+      "bn": "জনাব",
+      "en": "Mr."
+    },
+    {
+      "id": "frau",
+      "de": "Frau",
+      "art": "die",
+      "pl": "die Frauen",
+      "pos": "বিশেষ্য",
+      "bn": "মিসেস / ম্যাডাম; নারী",
+      "en": "Mrs. / Ms.; woman"
+    },
+    {
+      "id": "hier",
+      "de": "hier",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "এখানে",
+      "en": "here"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Frau Becker",
+      "bn": [
+        "শুভ",
+        "দিন!",
+        "আপনার",
+        "নাম",
+        "কী?"
+      ],
+      "en": [
+        "Good",
+        "day!",
+        "What",
+        "is",
+        "your",
+        "name?"
+      ],
+      "de": [
+        {
+          "t": "Guten Tag!",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "guten Tag",
+          "gb": "শুভ দিন",
+          "ge": "good day",
+          "n": "দিনের বেলার ভদ্র অভিবাদন; Hallo-র চেয়ে আনুষ্ঠানিক"
+        },
+        {
+          "t": "Wie",
+          "b": [
+            4
+          ],
+          "e": [
+            2
+          ],
+          "l": "wie",
+          "gb": "কী",
+          "ge": "what",
+          "n": "প্রশ্নবোধক শব্দ"
+        },
+        {
+          "t": "heißen",
+          "b": [
+            3
+          ],
+          "e": [
+            3,
+            5
+          ],
+          "l": "heißen",
+          "gb": "নাম হওয়া",
+          "ge": "to be called",
+          "n": "Sie-র সাথে ক্রিয়া মূল রূপেই থাকে: heißen"
+        },
+        {
+          "t": "Sie?",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "Sie",
+          "gb": "আপনি",
+          "ge": "you (formal)",
+          "n": "বড় হাতের S — ভদ্র রূপ"
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমার",
+        "নাম",
+        "সাহেব",
+        "রহমান।"
+      ],
+      "en": [
+        "My",
+        "name",
+        "is",
+        "Saheb",
+        "Rahman."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": "সর্বনাম"
+        },
+        {
+          "t": "heiße",
+          "b": [
+            1
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "heißen",
+          "gb": "নাম হওয়া",
+          "ge": "to be called",
+          "n": "ich-এর সাথে -e"
+        },
+        {
+          "t": "Saheb Rahman.",
+          "s": "Saheb Rahman",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "Saheb Rahman",
+          "gb": "সাহেব রহমান",
+          "ge": "Saheb Rahman",
+          "n": "নাম"
+        }
+      ]
+    },
+    {
+      "who": "Frau Becker",
+      "bn": [
+        "দয়া",
+        "করে",
+        "ফর্মটি",
+        "পূরণ",
+        "করুন।"
+      ],
+      "en": [
+        "Please",
+        "fill",
+        "out",
+        "the",
+        "form."
+      ],
+      "de": [
+        {
+          "t": "Bitte",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0
+          ],
+          "l": "bitte",
+          "gb": "দয়া করে",
+          "ge": "please",
+          "n": "ভদ্রতার শব্দ"
+        },
+        {
+          "t": "füllen",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            1
+          ],
+          "l": "ausfüllen",
+          "gb": "পূরণ করা",
+          "ge": "to fill out",
+          "n": "ausfüllen ভেঙে যায়: füllen … aus (পরে শিখব)"
+        },
+        {
+          "t": "Sie",
+          "b": [],
+          "e": [],
+          "l": "Sie",
+          "gb": "আপনি",
+          "ge": "you (formal)",
+          "n": "বাংলায় „করুন“ রূপেই সম্মান বোঝা যায়"
+        },
+        {
+          "t": "das",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "das",
+          "gb": "সেই / এই",
+          "ge": "the",
+          "n": "das Formular"
+        },
+        {
+          "t": "Formular",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "Formular",
+          "gb": "ফর্ম",
+          "ge": "form",
+          "n": "das Formular"
+        },
+        {
+          "t": "aus.",
+          "s": "aus",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            2
+          ],
+          "l": "ausfüllen",
+          "gb": "পূরণ করা (অংশ)",
+          "ge": "fill out (part)",
+          "n": "ক্রিয়ার ভাঙা অংশ বাক্যের শেষে"
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "আমার",
+        "ঠিকানা",
+        "লিখছি:",
+        "Hauptstraße",
+        "বারো।"
+      ],
+      "en": [
+        "I",
+        "am",
+        "writing",
+        "my",
+        "address:",
+        "Hauptstraße",
+        "twelve."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": "সর্বনাম"
+        },
+        {
+          "t": "schreibe",
+          "b": [
+            3
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "schreiben",
+          "gb": "লিখি",
+          "ge": "to write",
+          "n": "ich-এর সাথে -e"
+        },
+        {
+          "t": "meine",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "mein",
+          "gb": "আমার",
+          "ge": "my",
+          "n": "Adresse স্ত্রীলিঙ্গ: meine Adresse"
+        },
+        {
+          "t": "Adresse:",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "Adresse",
+          "gb": "ঠিকানা",
+          "ge": "address",
+          "n": "die Adresse"
+        },
+        {
+          "t": "Hauptstraße",
+          "s": "Hauptstraße",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "Hauptstraße",
+          "gb": "রাস্তার নাম",
+          "ge": "street name",
+          "n": "জার্মানে রাস্তার নাম আগে, বাড়ির নম্বর পরে: Hauptstraße 12"
+        },
+        {
+          "t": "zwölf.",
+          "b": [
+            5
+          ],
+          "e": [
+            6
+          ],
+          "l": "zwölf",
+          "gb": "বারো",
+          "ge": "twelve",
+          "n": "বাড়ির নম্বর"
+        }
+      ]
+    },
+    {
+      "who": "Frau Becker",
+      "bn": [
+        "আর",
+        "আপনার",
+        "ফোন",
+        "নম্বর?"
+      ],
+      "en": [
+        "And",
+        "your",
+        "phone",
+        "number?"
+      ],
+      "de": [
+        {
+          "t": "Und",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": "সংযোজক"
+        },
+        {
+          "t": "Ihre",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "Ihr",
+          "gb": "আপনার",
+          "ge": "your (formal)",
+          "n": "Sie-র মালিকানা — বড় হাতের I: Ihre Nummer"
+        },
+        {
+          "t": "Telefonnummer?",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "Telefonnummer",
+          "gb": "ফোন নম্বর",
+          "ge": "phone number",
+          "n": "die Telefonnummer"
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "শূন্য",
+        "এক",
+        "পাঁচ",
+        "এক,",
+        "দুই",
+        "তিন",
+        "চার",
+        "আট।"
+      ],
+      "en": [
+        "Zero",
+        "one",
+        "five",
+        "one,",
+        "two",
+        "three",
+        "four",
+        "eight."
+      ],
+      "de": [
+        {
+          "t": "Null",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "null",
+          "gb": "শূন্য",
+          "ge": "zero",
+          "n": "সংখ্যা"
+        },
+        {
+          "t": "eins",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "eins",
+          "gb": "এক",
+          "ge": "one",
+          "n": "সংখ্যা"
+        },
+        {
+          "t": "fünf",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "fünf",
+          "gb": "পাঁচ",
+          "ge": "five",
+          "n": "সংখ্যা"
+        },
+        {
+          "t": "eins,",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "eins",
+          "gb": "এক",
+          "ge": "one",
+          "n": "সংখ্যা"
+        },
+        {
+          "t": "zwei",
+          "b": [
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "zwei",
+          "gb": "দুই",
+          "ge": "two",
+          "n": "সংখ্যা"
+        },
+        {
+          "t": "drei",
+          "b": [
+            5
+          ],
+          "e": [
+            5
+          ],
+          "l": "drei",
+          "gb": "তিন",
+          "ge": "three",
+          "n": "সংখ্যা"
+        },
+        {
+          "t": "vier",
+          "b": [
+            6
+          ],
+          "e": [
+            6
+          ],
+          "l": "vier",
+          "gb": "চার",
+          "ge": "four",
+          "n": "সংখ্যা"
+        },
+        {
+          "t": "acht.",
+          "b": [
+            7
+          ],
+          "e": [
+            7
+          ],
+          "l": "acht",
+          "gb": "আট",
+          "ge": "eight",
+          "n": "সংখ্যা"
+        }
+      ]
+    },
+    {
+      "who": "Frau Becker",
+      "bn": [
+        "ধন্যবাদ,",
+        "জনাব",
+        "রহমান।",
+        "এখানে",
+        "সই",
+        "করুন,",
+        "দয়া",
+        "করে।"
+      ],
+      "en": [
+        "Thank",
+        "you,",
+        "Mr.",
+        "Rahman.",
+        "Please",
+        "sign",
+        "here."
+      ],
+      "de": [
+        {
+          "t": "Danke,",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "danke",
+          "gb": "ধন্যবাদ",
+          "ge": "thank you",
+          "n": "অভিবাদন"
+        },
+        {
+          "t": "Herr",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "Herr",
+          "gb": "জনাব",
+          "ge": "Mr.",
+          "n": "der Herr — নামের আগে বসে"
+        },
+        {
+          "t": "Rahman.",
+          "s": "Rahman",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "Rahman",
+          "gb": "রহমান",
+          "ge": "Rahman",
+          "n": "পদবি"
+        },
+        {
+          "t": "Unterschreiben",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            5
+          ],
+          "l": "unterschreiben",
+          "gb": "সই করা",
+          "ge": "to sign",
+          "n": "আদেশ/অনুরোধে ক্রিয়া আগে: Unterschreiben Sie …"
+        },
+        {
+          "t": "Sie",
+          "b": [],
+          "e": [],
+          "l": "Sie",
+          "gb": "আপনি",
+          "ge": "you (formal)",
+          "n": "ভদ্র অনুরোধ"
+        },
+        {
+          "t": "hier,",
+          "b": [
+            3
+          ],
+          "e": [
+            6
+          ],
+          "l": "hier",
+          "gb": "এখানে",
+          "ge": "here",
+          "n": "ক্রিয়াবিশেষণ"
+        },
+        {
+          "t": "bitte.",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            4
+          ],
+          "l": "bitte",
+          "gb": "দয়া করে",
+          "ge": "please",
+          "n": "ভদ্রতার শব্দ"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "text",
+      "title": "du নাকি Sie?",
+      "text": "du — বন্ধু, সহপাঠী, পরিবার, শিশু। Sie — অপরিচিত, অফিস, ডাক্তার, শিক্ষক ও বয়স্কদের সাথে। সন্দেহ হলে Sie-ই নিরাপদ। Sie সবসময় বড় হাতের অক্ষরে লেখা হয় (ভদ্র রূপে) আর এর ক্রিয়ার রূপ মূল ক্রিয়ার (-en) মতোই থাকে (ব্যতিক্রম: Sie sind)।"
+    },
+    {
+      "type": "conjugation",
+      "intro": "ভদ্র রূপ Sie যোগ করে নিন:",
+      "verbs": [
+        "heißen",
+        "schreiben"
+      ],
+      "rows": [
+        {
+          "pron": "ich",
+          "stems": [
+            "heiß",
+            "schreib"
+          ],
+          "ends": [
+            "e",
+            "e"
+          ],
+          "bn": "আমি"
+        },
+        {
+          "pron": "du",
+          "stems": [
+            "heiß",
+            "schreib"
+          ],
+          "ends": [
+            "t",
+            "st"
+          ],
+          "bn": "তুমি"
+        },
+        {
+          "pron": "er / sie / es",
+          "stems": [
+            "heiß",
+            "schreib"
+          ],
+          "ends": [
+            "t",
+            "t"
+          ],
+          "bn": "সে"
+        },
+        {
+          "pron": "Sie",
+          "stems": [
+            "heiß",
+            "schreib"
+          ],
+          "ends": [
+            "en",
+            "en"
+          ],
+          "bn": "আপনি"
+        }
+      ],
+      "note": "Sie heißen — মূল রূপের মতোই: „Wie heißen Sie?“ আর বন্ধুকে: „Wie heißt du?“"
+    },
+    {
+      "type": "text",
+      "title": "ঠিকানা লেখার নিয়ম",
+      "text": "Hauptstraße 12 — আগে রাস্তা, পরে বাড়ির নম্বর। তারপর পোস্টকোড (PLZ) ও শহর: 10115 Berlin — শহরের নামের আগে কোড বসে।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Wie ___ Sie?",
+      "options": [
+        "heißt",
+        "heißen",
+        "heiße",
+        "heiß"
+      ],
+      "answer": 1,
+      "why": "Sie-র সাথে মূল রূপ: Wie heißen Sie?",
+      "word": "sie"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Formular“ মানে কী?",
+      "options": [
+        "ফর্ম",
+        "ঠিকানা",
+        "নম্বর",
+        "সই"
+      ],
+      "answer": 0,
+      "why": "das Formular = ফর্ম।",
+      "word": "formular"
+    },
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "Unterschreiben Sie hier, bitte.",
+      "options": [
+        "এখানে সই করুন, দয়া করে",
+        "ফর্ম পূরণ করুন",
+        "আপনার ঠিকানা কী?",
+        "ধীরে বলুন"
+      ],
+      "answer": 0,
+      "why": "unterschreiben = সই করা; hier = এখানে।",
+      "word": "unterschreiben"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Adresse",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Adresse। বহুবচন: die Adressen।",
+      "word": "adresse"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Formular",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 2,
+      "why": "das Formular। বহুবচন: die Formulare।",
+      "word": "formular"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Straße",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Straße। বহুবচন: die Straßen।",
+      "word": "strasse"
+    },
+    {
+      "type": "mcq",
+      "prompt": "কার সাথে „Sie“ ব্যবহার করবেন?",
+      "options": [
+        "ঘনিষ্ঠ বন্ধু",
+        "অপরিচিত বা অফিসের লোক",
+        "ছোট ভাই",
+        "নিজের মা"
+      ],
+      "answer": 1,
+      "why": "অপরিচিত ও অফিসিয়াল ক্ষেত্রে Sie।",
+      "word": "sie"
+    },
+    {
+      "type": "order",
+      "prompt": "শব্দ সাজিয়ে বাক্য বানান: „আপনার নাম কী?“",
+      "tiles": [
+        "Sie?",
+        "heißen",
+        "Wie"
+      ],
+      "answer": [
+        "Wie",
+        "heißen",
+        "Sie?"
+      ],
+      "why": "Wie heißen Sie?",
+      "word": "sie"
+    }
+  ],
+  "passMark": 0.8
+}

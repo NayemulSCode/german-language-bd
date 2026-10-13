@@ -1,0 +1,596 @@
+{
+  "id": "a1-u02-l01",
+  "level": "A1",
+  "unit": 2,
+  "lesson": 1,
+  "title": {
+    "de": "Das Alphabet",
+    "bn": "বর্ণমালা ও বানান করা",
+    "en": "The alphabet and spelling"
+  },
+  "status": "draft",
+  "minutes": 12,
+  "hook": {
+    "de": "Aller Anfang ist schwer.",
+    "who": "Sprichwort",
+    "bn": "প্রতিটি শুরুই কঠিন।",
+    "en": "Every beginning is hard."
+  },
+  "goals": [
+    "জার্মান ২৬টি অক্ষরের নাম ও ä, ö, ü, ß",
+    "নিজের পদবি বানান করে বলা",
+    "না বুঝলে ভদ্রভাবে আবার বলতে বলা: Wie bitte?",
+    "বাংলার সাথে মিল ও অমিল: w, v, z, j, sch"
+  ],
+  "words": [
+    {
+      "id": "buchstabe",
+      "de": "Buchstabe",
+      "art": "der",
+      "pl": "die Buchstaben",
+      "pos": "বিশেষ্য",
+      "bn": "অক্ষর",
+      "en": "letter"
+    },
+    {
+      "id": "buchstabieren",
+      "de": "buchstabieren",
+      "pos": "ক্রিয়া",
+      "bn": "বানান করা (অক্ষর ধরে বলা)",
+      "en": "to spell"
+    },
+    {
+      "id": "schreiben",
+      "de": "schreiben",
+      "pos": "ক্রিয়া",
+      "bn": "লেখা",
+      "en": "to write"
+    },
+    {
+      "id": "wie_bitte",
+      "de": "Wie bitte?",
+      "pos": "অভিব্যক্তি",
+      "bn": "কী বললেন?",
+      "en": "pardon?"
+    },
+    {
+      "id": "bitte",
+      "de": "bitte",
+      "pos": "অভিব্যক্তি",
+      "bn": "দয়া করে; স্বাগতম",
+      "en": "please; you are welcome"
+    },
+    {
+      "id": "langsam",
+      "de": "langsam",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "ধীরে",
+      "en": "slowly"
+    },
+    {
+      "id": "entschuldigung",
+      "de": "Entschuldigung",
+      "pos": "অভিব্যক্তি",
+      "bn": "মাফ করবেন",
+      "en": "excuse me; sorry"
+    },
+    {
+      "id": "danke",
+      "de": "Danke",
+      "pos": "অভিবাদন",
+      "bn": "ধন্যবাদ",
+      "en": "thank you"
+    },
+    {
+      "id": "nachname",
+      "de": "Nachname",
+      "art": "der",
+      "pl": "die Nachnamen",
+      "pos": "বিশেষ্য",
+      "bn": "পদবি",
+      "en": "surname"
+    },
+    {
+      "id": "vorname",
+      "de": "Vorname",
+      "art": "der",
+      "pl": "die Vornamen",
+      "pos": "বিশেষ্য",
+      "bn": "নামের প্রথম অংশ (ব্যক্তিগত নাম)",
+      "en": "first name"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Muna",
+      "bn": [
+        "মাফ",
+        "করো,",
+        "তোমার",
+        "পদবি",
+        "কী?"
+      ],
+      "en": [
+        "Excuse",
+        "me,",
+        "what",
+        "is",
+        "your",
+        "surname?"
+      ],
+      "de": [
+        {
+          "t": "Entschuldigung,",
+          "s": "Entschuldigung",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Entschuldigung",
+          "gb": "মাফ করো",
+          "ge": "excuse me",
+          "n": "কাউকে ডেকে কিছু জিজ্ঞাসা করার আগে বলা হয়"
+        },
+        {
+          "t": "wie",
+          "b": [
+            4
+          ],
+          "e": [
+            2
+          ],
+          "l": "wie",
+          "gb": "কী",
+          "ge": "what",
+          "n": "প্রশ্নবোধক শব্দ — বাক্যের শুরুর দিকে বসে"
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "sein",
+          "gb": "হওয়া (বাংলায় উহ্য)",
+          "ge": "to be",
+          "n": "sein: ich bin, du bist, er/sie/es ist"
+        },
+        {
+          "t": "dein",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "dein",
+          "gb": "তোমার",
+          "ge": "your (informal)",
+          "n": "du-এর মালিকানা: dein Name, dein Nachname"
+        },
+        {
+          "t": "Nachname?",
+          "b": [
+            3
+          ],
+          "e": [
+            5
+          ],
+          "l": "Nachname",
+          "gb": "পদবি",
+          "ge": "surname",
+          "n": "der Nachname — পুংলিঙ্গ"
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমার",
+        "পদবি",
+        "রহমান।"
+      ],
+      "en": [
+        "My",
+        "surname",
+        "is",
+        "Rahman."
+      ],
+      "de": [
+        {
+          "t": "Mein",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "mein",
+          "gb": "আমার",
+          "ge": "my",
+          "n": "ich-এর মালিকানা: mein Name, mein Nachname"
+        },
+        {
+          "t": "Nachname",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "Nachname",
+          "gb": "পদবি",
+          "ge": "surname",
+          "n": "der Nachname"
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "sein",
+          "gb": "হওয়া (বাংলায় উহ্য)",
+          "ge": "to be",
+          "n": "Nachname (der) = „er“-গোত্র, তাই ist: der Nachname ist …"
+        },
+        {
+          "t": "Rahman.",
+          "s": "Rahman",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "Rahman",
+          "gb": "রহমান (নাম)",
+          "ge": "Rahman (name)",
+          "n": "নাম"
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "কী?",
+        "এটা",
+        "দয়া",
+        "করে",
+        "বানান",
+        "করো।"
+      ],
+      "en": [
+        "Pardon?",
+        "Spell",
+        "that,",
+        "please."
+      ],
+      "de": [
+        {
+          "t": "Wie bitte?",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "wie bitte",
+          "gb": "কী বললে?",
+          "ge": "pardon?",
+          "n": "না শুনলে বা না বুঝলে বলুন — „Was?“ বলা অভদ্রতা"
+        },
+        {
+          "t": "Buchstabier",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            1
+          ],
+          "l": "buchstabieren",
+          "gb": "বানান করো",
+          "ge": "spell",
+          "n": "আদেশসূচক রূপ (পরে শিখব): buchstabieren → Buchstabier!"
+        },
+        {
+          "t": "das",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "das",
+          "gb": "এটা",
+          "ge": "that",
+          "n": "নির্দেশক সর্বনাম"
+        },
+        {
+          "t": "bitte.",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "bitte",
+          "gb": "দয়া করে",
+          "ge": "please",
+          "n": "ভদ্রতার শব্দ — „bitte“ আবার „স্বাগতম“ও বোঝায়"
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "ঠিক",
+        "আছে।",
+        "ধীরে:",
+        "R-A-H-M-A-N।"
+      ],
+      "en": [
+        "Okay.",
+        "Slowly:",
+        "R-A-H-M-A-N."
+      ],
+      "de": [
+        {
+          "t": "Okay.",
+          "s": "Okay",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0
+          ],
+          "l": "okay",
+          "gb": "ঠিক আছে",
+          "ge": "okay",
+          "n": "জার্মানেও „okay“ বলা হয়"
+        },
+        {
+          "t": "Langsam:",
+          "s": "Langsam",
+          "b": [
+            2
+          ],
+          "e": [
+            1
+          ],
+          "l": "langsam",
+          "gb": "ধীরে",
+          "ge": "slowly",
+          "n": "ক্রিয়াবিশেষণ"
+        },
+        {
+          "t": "R-A-H-M-A-N.",
+          "s": "Err, Ah, Hah, Emm, Ah, Enn",
+          "b": [
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "Rahman",
+          "gb": "অক্ষর ধরে বলা নাম",
+          "ge": "name spelled out",
+          "n": "জার্মান অক্ষরের নামে: Er-A-Ha-Em-A-En"
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "ধন্যবাদ!",
+        "আমি",
+        "লিখছি:",
+        "সাহেব",
+        "রহমান।"
+      ],
+      "en": [
+        "Thanks!",
+        "I",
+        "am",
+        "writing:",
+        "Saheb",
+        "Rahman."
+      ],
+      "de": [
+        {
+          "t": "Danke!",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "danke",
+          "gb": "ধন্যবাদ",
+          "ge": "thanks",
+          "n": "আরও ভদ্র: Danke schön / Vielen Dank"
+        },
+        {
+          "t": "Ich",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": "সর্বনাম"
+        },
+        {
+          "t": "schreibe",
+          "b": [
+            2
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "schreiben",
+          "gb": "লিখি",
+          "ge": "to write",
+          "n": "ich-এর সাথে -e: ich schreibe"
+        },
+        {
+          "t": "Saheb Rahman.",
+          "s": "Saheb Rahman",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "Saheb Rahman",
+          "gb": "সাহেব রহমান (নাম)",
+          "ge": "Saheb Rahman (name)",
+          "n": "প্রথমে Vorname, তারপর Nachname"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "text",
+      "title": "অক্ষরের নাম (আনুমানিক বাংলা উচ্চারণ)",
+      "text": "A (আ) · B (বে) · C (ৎসে) · D (দে) · E (এ) · F (এফ) · G (গে) · H (হা) · I (ঈ) · J (ইয়ট) · K (কা) · L (এল) · M (এম) · N (এন) · O (ও) · P (পে) · Q (কু) · R (এর) · S (এস) · T (তে) · U (উ) · V (ফাউ) · W (ভে) · X (ইকস) · Y (ঊপসিলন) · Z (ৎসেট)। সবগুলো শব্দ ট্যাপ করে শুনে নিন — ঠিক উচ্চারণ শোনাটাই আসল।"
+    },
+    {
+      "type": "text",
+      "title": "বিশেষ অক্ষর: ä, ö, ü, ß",
+      "text": "ä — „এ“-এর কাছাকাছি (Bär)। ö — ঠোঁট গোল করে „এ“ বলা (schön)। ü — ঠোঁট গোল করে „ই“ বলা (Tschüss)। ß — তীক্ষ্ণ „স“ (heißen), „ডবল s“ হিসেবে ভাবুন। কিবোর্ডে না পেলে ae, oe, ue, ss লেখা যায়।"
+    },
+    {
+      "type": "text",
+      "title": "বাংলাভাষীর জন্য সাবধান",
+      "text": "w = „ভ“ (Wasser, wohnen), v = „ফ“ (Vater, viel), z = „ৎস“ (Zahl, zehn), j = „ইয়“ (Jahr, ja), sch = „শ“ (Schule), ch = নরম „খ/হ“ শব্দ (ich), ei = „আই“, ie = লম্বা „ঈ“, eu = „অয়“। জার্মানে বেশিরভাগ শব্দ যেমন লেখা তেমনই পড়া হয়।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "prompt": "জার্মানে w অক্ষরের উচ্চারণ কেমন?",
+      "options": [
+        "ভ",
+        "ও",
+        "ডব্লিউ",
+        "ফ"
+      ],
+      "answer": 0,
+      "why": "w = ভ: Wasser, wohnen।"
+    },
+    {
+      "type": "mcq",
+      "prompt": "z অক্ষরের উচ্চারণ কেমন?",
+      "options": [
+        "জ",
+        "ৎস",
+        "শ",
+        "স"
+      ],
+      "answer": 1,
+      "why": "z = ৎস: Zahl (সংখ্যা), zehn (দশ)।"
+    },
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "Wie bitte?",
+      "options": [
+        "কী বললে?",
+        "ধন্যবাদ",
+        "বিদায়",
+        "তোমার নাম কী?"
+      ],
+      "answer": 0,
+      "why": "Wie bitte? = আবার বলুন / কী বললেন?",
+      "word": "wie_bitte"
+    },
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "Langsam, bitte.",
+      "options": [
+        "দ্রুত বলো",
+        "ধীরে বলো, দয়া করে",
+        "আমি লিখছি",
+        "আরেকবার"
+      ],
+      "answer": 1,
+      "why": "langsam = ধীরে।",
+      "word": "langsam"
+    },
+    {
+      "type": "mcq",
+      "prompt": "শূন্যস্থান পূরণ করুন",
+      "sub": "Mein ___ ist Rahman.",
+      "options": [
+        "Nachname",
+        "schreiben",
+        "Danke",
+        "langsam"
+      ],
+      "answer": 0,
+      "why": "Mein Nachname ist Rahman = আমার পদবি রহমান।",
+      "word": "nachname"
+    },
+    {
+      "type": "mcq",
+      "prompt": "ß অক্ষরটির উচ্চারণ কেমন?",
+      "options": [
+        "তীক্ষ্ণ স",
+        "শ",
+        "ঝ",
+        "ৎস"
+      ],
+      "answer": 0,
+      "why": "ß = তীক্ষ্ণ s: heißen, Straße।"
+    },
+    {
+      "type": "order",
+      "prompt": "শব্দ সাজিয়ে বাক্য বানান: „তোমার পদবি কী?“",
+      "tiles": [
+        "Nachname?",
+        "dein",
+        "Wie",
+        "ist"
+      ],
+      "answer": [
+        "Wie",
+        "ist",
+        "dein",
+        "Nachname?"
+      ],
+      "why": "প্রশ্নশব্দ, তারপর ist, তারপর dein Nachname।",
+      "word": "nachname"
+    },
+    {
+      "type": "mcq",
+      "prompt": "ich-এর সাথে schreiben-এর সঠিক রূপ",
+      "sub": "Ich ___ meinen Namen.",
+      "options": [
+        "schreibe",
+        "schreibst",
+        "schreibt",
+        "schreiben"
+      ],
+      "answer": 0,
+      "why": "ich-এর সাথে শেষে -e: ich schreibe।",
+      "word": "schreiben"
+    }
+  ],
+  "passMark": 0.8
+}
