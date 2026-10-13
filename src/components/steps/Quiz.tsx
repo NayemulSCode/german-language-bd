@@ -50,6 +50,7 @@ export function Quiz({ lesson, onFinish, onRestart }: Props) {
         )}
         <div className="actions">
           <button className="btn bn" onClick={onRestart}>আবার কুইজ</button>
+          <a className="btn ghost bn" href="#course">কোর্সে ফিরুন</a>
         </div>
       </section>
     )

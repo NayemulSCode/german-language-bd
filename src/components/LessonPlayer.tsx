@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import type { Lesson } from '../schema/lesson'
 import { useApp } from '../state'
+import { Icon } from './Icon'
 import { Prefs } from './common'
 import { Hook } from './steps/Hook'
 import { Words } from './steps/Words'
@@ -10,7 +11,7 @@ import { Quiz } from './steps/Quiz'
 
 const STEPS = ['হুক', 'শব্দ', 'সংলাপ', 'গ্রামার', 'কুইজ']
 
-export function LessonPlayer({ lesson, onExit }: { lesson: Lesson; onExit(): void }) {
+export function LessonPlayer({ lesson }: { lesson: Lesson }) {
   const { progress, lessonProgress, completeStep, finishQuiz } = useApp()
   const [step, setStep] = useState(0)
   const [quizRun, setQuizRun] = useState(0) // bumping this remounts Quiz to restart it
@@ -27,11 +28,11 @@ export function LessonPlayer({ lesson, onExit }: { lesson: Lesson; onExit(): voi
 
   return (
     <div className="wrap">
-      <header className="bar">
-        <div className="bar-top">
-          <button className="back bn" onClick={onExit} aria-label="লেসন তালিকায় ফিরুন">←</button>
+      <header className="lbar">
+        <div className="lbar-top">
+          <a className="lclose" href="#course" aria-label="লেসন বন্ধ করে কোর্সে ফিরুন"><Icon name="close" /></a>
           <span className="lvl">{lesson.level}</span>
-          <span className="bar-title">ইউনিট {lesson.unit} · লেসন {lesson.lesson} — {lesson.title.de}</span>
+          <span className="lbar-title">ইউনিট {lesson.unit} · লেসন {lesson.lesson} — {lesson.title.de}</span>
           <span className="xp">{progress.xp} XP</span>
         </div>
         <nav className="steps" aria-label="লেসনের ধাপ">
@@ -48,7 +49,7 @@ export function LessonPlayer({ lesson, onExit }: { lesson: Lesson; onExit(): voi
         {step === 1 && <Words lesson={lesson} onNext={next} />}
         {step === 2 && <Dialog lesson={lesson} onNext={next} />}
         {step === 3 && <Grammar lesson={lesson} onNext={() => { completeStep(lesson.id, 3); setQuizRun((n) => n + 1); go(4) }} />}
-        {step === 4 && <Quiz key={quizRun} lesson={lesson} onFinish={(r) => finishQuiz(lesson.id, r)} onRestart={() => setQuizRun((n) => n + 1)} />}
+        {step === 4 && <Quiz key={quizRun} lesson={lesson} onFinish={(r) => finishQuiz(lesson.id, { ...r, wordIds: lesson.words.map((w) => w.id) })} onRestart={() => setQuizRun((n) => n + 1)} />}
       </main>
     </div>
   )

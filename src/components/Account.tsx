@@ -29,7 +29,7 @@ export function Account() {
     <>
       <div className="account">
         <span className="bn who">লগইন করলে অগ্রগতি ফোন ও কম্পিউটার — সব ডিভাইসে সেভ থাকবে।</span>
-        <button className="btn bn small" onClick={() => setOpen(true)}>লগইন</button>
+        <button className="btn sm bn" onClick={() => setOpen(true)}>লগইন</button>
       </div>
       {open && <SignInDialog onClose={() => setOpen(false)} />}
     </>

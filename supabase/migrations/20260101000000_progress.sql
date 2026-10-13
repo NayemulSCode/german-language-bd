@@ -6,8 +6,9 @@ create table if not exists public.progress (
   user_id    uuid primary key references auth.users (id) on delete cascade,
   data       jsonb not null,
   updated_at timestamptz not null default now(),
-  -- progress for 150+ lessons is a few KB; this stops abuse of the free-tier storage
-  constraint progress_data_size check (pg_column_size(data) < 200000)
+  -- lessons, review cards (about 90 bytes per word) and daily activity stay well under this even at B1;
+  -- the limit stops abuse of the free-tier storage
+  constraint progress_data_size check (pg_column_size(data) < 500000)
 );
 
 alter table public.progress enable row level security;

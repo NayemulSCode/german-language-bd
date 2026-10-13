@@ -1,7 +1,15 @@
-# Deutsch für Bangla-Sprecher
+# Sprachbrücke
 
 A free, offline-capable German course (A1 → B1) for Bangla speakers, with Bangla and English support.
-React + Vite + TypeScript PWA. Lessons are plain JSON; progress is stored locally (a Supabase sync layer comes later).
+React + Vite + TypeScript PWA. Lessons are plain JSON; progress is stored on the device and can sync through Supabase.
+
+Screens: **Home** (daily goal, continue, review count, exam countdown, word of the day), **Course** (level and unit map with
+a lesson sheet), **Review** (spaced-repetition flashcards), **Dictionary** (search German, Bangla or English),
+**Profile** (stats, themes incl. a warm night mode, goals, account). On phones the tabs sit at the bottom, on wide screens in a sidebar.
+
+Review works like this: missed quiz words are due immediately; passing a lesson adds all its words, first review the next day.
+Rating a card Again / Hard / Good / Easy sets the next interval (1 min, 10 min, 1 day, 4 days for new cards, growing for known ones).
+The design has a study-group leaderboard; it needs a social backend and is not built yet.
 
 ## Run
 
@@ -9,7 +17,7 @@ React + Vite + TypeScript PWA. Lessons are plain JSON; progress is stored locall
 npm install
 npm run dev        # dev server
 npm test           # content validator tests
-npm run validate   # check every lesson in /content, regenerate src/generated/lessons-index.json
+npm run validate   # check every lesson in /content, regenerate src/generated/ (lesson index + dictionary)
 npm run build      # validate + typecheck + production build (PWA)
 npm run audio      # generate TTS clips for all lessons (needs Piper, see below)
 ```
@@ -19,7 +27,9 @@ npm run audio      # generate TTS clips for all lessons (needs Piper, see below)
 ```
 content/<level>/unitNN/lessonNN.json   lesson content (schema: src/schema/lesson.ts)
 scripts/validate-content.ts            schema + cross-reference checks, writes the lesson index
-src/lib/storage.ts                     ProgressStore interface (localStorage now, Supabase later)
+src/lib/storage.ts                     Progress model, validation, local storage
+src/lib/sync.ts, srs.ts, stats.ts      merge/sync, review scheduling, streaks and heatmap
+src/screens/                           Home, Course, Review, Dictionary, Profile, Lesson
 src/lib/audio.ts                       plays pre-generated clips from public/audio/manifest.json, falls back to the device voice
 src/components/steps/                  the five lesson steps: hook, words, dialogue, grammar, quiz
 ```

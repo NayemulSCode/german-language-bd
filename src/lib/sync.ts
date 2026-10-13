@@ -1,4 +1,4 @@
-import { computeXp, type LessonProgress, type Progress } from './storage'
+import { computeXp, type Card, type LessonProgress, type Progress } from './storage'
 
 /** A server-side copy of one user's progress. */
 export interface RemoteStore {
@@ -8,8 +8,9 @@ export interface RemoteStore {
 
 /**
  * Merge two devices' progress. Only ever adds: steps are unioned, the best quiz score and the pass flag
- * only go up, review items are unioned. Because of that it is safe to merge in any order, any number of times.
- * Only settings (language, slow audio) are last-writer-wins, decided by updatedAt.
+ * only go up, review cards keep the most recently reviewed copy, daily activity keeps the higher total.
+ * Because of that it is safe to merge in any order, any number of times.
+ * Only settings (language, theme, goal, name, exam date) are last-writer-wins, decided by updatedAt.
  */
 export function mergeProgress(a: Progress, b: Progress): Progress {
   const lessons: Record<string, LessonProgress> = {}
@@ -23,12 +24,14 @@ export function mergeProgress(a: Progress, b: Progress): Progress {
     const hi = y.best > x.best ? y : x
     lessons[id] = { done: [...new Set([...x.done, ...y.done])].sort(), best: hi.best, total: hi.total, passed: x.passed || y.passed }
   }
+  const srs: Record<string, Card> = { ...a.srs }
+  for (const [k, c] of Object.entries(b.srs)) if (!srs[k] || c.last > srs[k].last) srs[k] = c
+  const activity: Record<string, number> = { ...a.activity }
+  for (const [d, v] of Object.entries(b.activity)) activity[d] = Math.max(activity[d] ?? 0, v)
   const newer = b.updatedAt > a.updatedAt ? b : a
   return {
-    lang: newer.lang,
-    slow: newer.slow,
-    lessons,
-    review: [...new Set([...a.review, ...b.review])],
+    lang: newer.lang, slow: newer.slow, theme: newer.theme, goal: newer.goal, name: newer.name, examDate: newer.examDate,
+    lessons, srs, activity,
     updatedAt: Math.max(a.updatedAt, b.updatedAt),
     xp: computeXp(lessons),
   }
@@ -36,8 +39,8 @@ export function mergeProgress(a: Progress, b: Progress): Progress {
 
 /** What counts as "the same" for sync purposes (ignores updatedAt, which changes on every local edit). */
 export function progressKey(p: Progress): string {
-  const ids = Object.keys(p.lessons).sort()
-  return JSON.stringify([p.lang, p.slow, ids.map((id) => [id, p.lessons[id]]), [...p.review].sort()])
+  const sorted = <T,>(o: Record<string, T>) => Object.keys(o).sort().map((k) => [k, o[k]])
+  return JSON.stringify([p.lang, p.slow, p.theme, p.goal, p.name, p.examDate, sorted(p.lessons), sorted(p.srs), sorted(p.activity)])
 }
 
 /** Pull → merge → push. Returns the merged progress; pushes only when the server copy is missing or different. */

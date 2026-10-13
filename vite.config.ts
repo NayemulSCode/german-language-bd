@@ -20,8 +20,8 @@ export default defineConfig({
         ],
       },
       manifest: {
-        name: 'Deutsch für Bangla-Sprecher',
-        short_name: 'Deutsch BD',
+        name: 'Sprachbrücke',
+        short_name: 'Sprachbrücke',
         description: 'জার্মান ভাষা শিখুন A1 থেকে B1 — বাংলা ও ইংরেজি সহায়তাসহ',
         lang: 'bn',
         start_url: '/',

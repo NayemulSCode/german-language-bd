@@ -51,6 +51,7 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   let failed = 0
   let count = 0
   const index: unknown[] = []
+  const dictionary: unknown[] = []
   const seen = new Set<string>()
   for (const file of jsonFiles(ROOT)) {
     count++
@@ -61,7 +62,9 @@ if (import.meta.url === `file://${process.argv[1]}`) {
     if (lid) seen.add(lid)
     if (!errs.length) {
       const l = Lesson.parse(raw)
-      index.push({ id: l.id, level: l.level, unit: l.unit, lesson: l.lesson, title: l.title, status: l.status, minutes: l.minutes })
+      index.push({ id: l.id, level: l.level, unit: l.unit, lesson: l.lesson, title: l.title, status: l.status, minutes: l.minutes, words: l.words.length })
+      // every word with its review key, for the Dictionary and Review screens (loaded on demand)
+      for (const w of l.words) dictionary.push({ k: `${l.id}:${w.id}`, de: w.de, art: w.art, pl: w.pl, pos: w.pos, bn: w.bn, en: w.en, lv: l.level })
     }
     if (errs.length) {
       failed++
@@ -77,5 +80,6 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   const out = new URL('../src/generated/', import.meta.url).pathname
   mkdirSync(out, { recursive: true })
   writeFileSync(join(out, 'lessons-index.json'), JSON.stringify(index, null, 2) + '\n')
+  writeFileSync(join(out, 'dictionary.json'), JSON.stringify(dictionary) + '\n')
   console.log(`✓ ${count} lesson file(s) valid`)
 }

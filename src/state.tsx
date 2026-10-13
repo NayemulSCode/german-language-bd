@@ -1,6 +1,9 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
-import { computeXp, localStore, type Lang, type LessonProgress, type Progress } from './lib/storage'
+import { computeXp, localStore, type Card, type Lang, type LessonProgress, type Progress, type Theme } from './lib/storage'
 import { mergeProgress, progressKey, syncOnce } from './lib/sync'
+import { dayKey } from './lib/stats'
+import { DAY } from './lib/format'
+import { newCard, rateCard as nextCard, type Grade } from './lib/srs'
 import { speak } from './lib/audio'
 import { useAuth } from './auth'
 
@@ -12,10 +15,12 @@ interface Ctx {
   syncNow(): void
   setLang(l: Lang): void
   setSlow(s: boolean): void
+  setSettings(patch: Partial<Pick<Progress, 'theme' | 'goal' | 'name' | 'examDate'>> & { theme?: Theme }): void
+  rateCard(key: string, grade: Grade): void
   say(text: string): Promise<void>
   lessonProgress(id: string): LessonProgress
   completeStep(lessonId: string, step: number): void
-  finishQuiz(lessonId: string, r: { score: number; total: number; passed: boolean; wrong: string[] }): void
+  finishQuiz(lessonId: string, r: { score: number; total: number; passed: boolean; wrong: string[]; wordIds: string[] }): void
 }
 
 const C = createContext<Ctx | null>(null)
@@ -35,11 +40,23 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
     setProgress((prev) => {
       const next = fn(prev)
       if (next === prev) return prev
-      const stamped = { ...next, xp: computeXp(next.lessons), updatedAt: Date.now() }
+      const xp = computeXp(next.lessons)
+      const now = Date.now()
+      // XP earned by this change counts toward today (daily goal, streak, heatmap)
+      const gained = xp - computeXp(prev.lessons)
+      const activity = gained > 0 ? { ...next.activity, [dayKey(now)]: (next.activity[dayKey(now)] ?? 0) + gained } : next.activity
+      const stamped = { ...next, xp, activity, updatedAt: now }
       localStore.save(stamped)
       return stamped
     })
   }, [])
+
+  // the chosen theme overrides the system light/dark setting (CSS keys off data-app-theme)
+  useEffect(() => {
+    const root = document.documentElement
+    if (progress.theme === 'system') root.removeAttribute('data-app-theme')
+    else root.setAttribute('data-app-theme', progress.theme)
+  }, [progress.theme])
 
   const runSync = useCallback(async () => {
     if (!remote || running.current) return
@@ -98,6 +115,12 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
       syncNow: () => void runSync(),
       setLang: (lang) => update((p) => ({ ...p, lang })),
       setSlow: (slow) => update((p) => ({ ...p, slow })),
+      setSettings: (patch) => update((p) => ({ ...p, ...patch })),
+      rateCard: (key, grade) =>
+        update((p) => {
+          const c = p.srs[key]
+          return c ? { ...p, srs: { ...p.srs, [key]: nextCard(c, grade, Date.now()) } } : p
+        }),
       say: (text) => speak(text, { slow: progress.slow }),
       lessonProgress: (id) => progress.lessons[id] ?? blank,
       completeStep: (lessonId, step) =>
@@ -110,9 +133,18 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
         update((p) => {
           const lp = p.lessons[lessonId] ?? blank
           const better = r.score >= lp.best
+          const now = Date.now()
+          const srs: Record<string, Card> = { ...p.srs }
+          // words answered wrong are due for review right away
+          for (const w of r.wrong) {
+            const k = `${lessonId}:${w}`
+            srs[k] = { ...newCard(now), lapses: (srs[k]?.lapses ?? 0) + 1 }
+          }
+          // passing a lesson puts all of its words into the review cycle, first review tomorrow
+          if (r.passed && !lp.passed) for (const w of r.wordIds) srs[`${lessonId}:${w}`] ??= newCard(now, DAY)
           return {
             ...p,
-            review: [...new Set([...p.review, ...r.wrong.map((w) => `${lessonId}:${w}`)])],
+            srs,
             lessons: {
               ...p.lessons,
               [lessonId]: {

@@ -10,7 +10,8 @@
       "de": "Hallo!"
     },
     "status": "draft",
-    "minutes": 12
+    "minutes": 12,
+    "words": 10
   },
   {
     "id": "a1-u01-l02",
@@ -23,7 +24,8 @@
       "de": "Begrüßen und Verabschieden"
     },
     "status": "draft",
-    "minutes": 14
+    "minutes": 14,
+    "words": 12
   },
   {
     "id": "a1-u01-l03",
@@ -36,7 +38,8 @@
       "de": "Länder und Nationalitäten"
     },
     "status": "draft",
-    "minutes": 14
+    "minutes": 14,
+    "words": 13
   },
   {
     "id": "a1-u01-l04",
@@ -49,7 +52,8 @@
       "de": "Im Deutschkurs"
     },
     "status": "draft",
-    "minutes": 14
+    "minutes": 14,
+    "words": 12
   },
   {
     "id": "a1-u02-l01",
@@ -62,7 +66,8 @@
       "de": "Das Alphabet"
     },
     "status": "draft",
-    "minutes": 12
+    "minutes": 12,
+    "words": 10
   },
   {
     "id": "a1-u02-l02",
@@ -75,7 +80,8 @@
       "de": "Die Zahlen 0–12"
     },
     "status": "draft",
-    "minutes": 12
+    "minutes": 12,
+    "words": 14
   },
   {
     "id": "a1-u02-l03",
@@ -88,7 +94,8 @@
       "de": "Zahlen und Alter"
     },
     "status": "draft",
-    "minutes": 14
+    "minutes": 14,
+    "words": 11
   },
   {
     "id": "a1-u02-l04",
@@ -101,7 +108,8 @@
       "de": "Das Formular"
     },
     "status": "draft",
-    "minutes": 15
+    "minutes": 15,
+    "words": 11
   },
   {
     "id": "a1-u03-l01",
@@ -114,7 +122,8 @@
       "de": "Meine Familie"
     },
     "status": "draft",
-    "minutes": 14
+    "minutes": 14,
+    "words": 12
   },
   {
     "id": "a1-u03-l02",
@@ -127,7 +136,8 @@
       "de": "Haben und Familie"
     },
     "status": "draft",
-    "minutes": 14
+    "minutes": 14,
+    "words": 10
   },
   {
     "id": "a1-u03-l03",
@@ -140,7 +150,8 @@
       "de": "Berufe"
     },
     "status": "draft",
-    "minutes": 14
+    "minutes": 14,
+    "words": 11
   },
   {
     "id": "a1-u03-l04",
@@ -153,7 +164,8 @@
       "de": "Ich habe kein Auto"
     },
     "status": "draft",
-    "minutes": 14
+    "minutes": 14,
+    "words": 10
   },
   {
     "id": "a1-u04-l01",
@@ -166,7 +178,8 @@
       "de": "Essen und Trinken"
     },
     "status": "draft",
-    "minutes": 14
+    "minutes": 14,
+    "words": 13
   },
   {
     "id": "a1-u04-l02",
@@ -179,7 +192,8 @@
       "de": "Im Supermarkt"
     },
     "status": "draft",
-    "minutes": 14
+    "minutes": 14,
+    "words": 12
   },
   {
     "id": "a1-u04-l03",
@@ -192,7 +206,8 @@
       "de": "Preise und Bezahlen"
     },
     "status": "draft",
-    "minutes": 14
+    "minutes": 14,
+    "words": 11
   },
   {
     "id": "a1-u04-l04",
@@ -205,7 +220,8 @@
       "de": "Im Restaurant"
     },
     "status": "draft",
-    "minutes": 14
+    "minutes": 14,
+    "words": 10
   },
   {
     "id": "a1-u05-l01",
@@ -218,7 +234,8 @@
       "de": "Die Uhrzeit"
     },
     "status": "draft",
-    "minutes": 14
+    "minutes": 14,
+    "words": 13
   },
   {
     "id": "a1-u05-l02",
@@ -231,7 +248,8 @@
       "de": "Wochentage und Tageszeiten"
     },
     "status": "draft",
-    "minutes": 14
+    "minutes": 14,
+    "words": 12
   },
   {
     "id": "a1-u05-l03",
@@ -244,7 +262,8 @@
       "de": "Mein Tag"
     },
     "status": "draft",
-    "minutes": 14
+    "minutes": 14,
+    "words": 12
   },
   {
     "id": "a1-u05-l04",
@@ -257,7 +276,8 @@
       "de": "Alltag und Freizeit"
     },
     "status": "draft",
-    "minutes": 14
+    "minutes": 14,
+    "words": 13
   },
   {
     "id": "a1-u06-l01",
@@ -270,7 +290,8 @@
       "de": "Die Wohnung"
     },
     "status": "draft",
-    "minutes": 14
+    "minutes": 14,
+    "words": 12
   },
   {
     "id": "a1-u06-l02",
@@ -283,7 +304,8 @@
       "de": "Die Möbel"
     },
     "status": "draft",
-    "minutes": 14
+    "minutes": 14,
+    "words": 12
   },
   {
     "id": "a1-u06-l03",
@@ -296,7 +318,8 @@
       "de": "Wo ist …?"
     },
     "status": "draft",
-    "minutes": 14
+    "minutes": 14,
+    "words": 12
   },
   {
     "id": "a1-u06-l04",
@@ -309,7 +332,8 @@
       "de": "Wohnungssuche"
     },
     "status": "draft",
-    "minutes": 14
+    "minutes": 14,
+    "words": 11
   },
   {
     "id": "a1-u07-l01",
@@ -322,7 +346,8 @@
       "de": "In der Stadt"
     },
     "status": "draft",
-    "minutes": 14
+    "minutes": 14,
+    "words": 12
   },
   {
     "id": "a1-u07-l02",
@@ -335,7 +360,8 @@
       "de": "Nach dem Weg fragen"
     },
     "status": "draft",
-    "minutes": 14
+    "minutes": 14,
+    "words": 12
   },
   {
     "id": "a1-u07-l03",
@@ -348,7 +374,8 @@
       "de": "Verkehrsmittel"
     },
     "status": "draft",
-    "minutes": 14
+    "minutes": 14,
+    "words": 11
   },
   {
     "id": "a1-u07-l04",
@@ -361,7 +388,8 @@
       "de": "Am Bahnhof"
     },
     "status": "draft",
-    "minutes": 14
+    "minutes": 14,
+    "words": 10
   },
   {
     "id": "a1-u08-l01",
@@ -374,7 +402,8 @@
       "de": "Meine Hobbys"
     },
     "status": "draft",
-    "minutes": 14
+    "minutes": 14,
+    "words": 11
   },
   {
     "id": "a1-u08-l02",
@@ -387,7 +416,8 @@
       "de": "Können, wollen, müssen"
     },
     "status": "draft",
-    "minutes": 14
+    "minutes": 14,
+    "words": 12
   },
   {
     "id": "a1-u08-l03",
@@ -400,7 +430,8 @@
       "de": "Eine Verabredung"
     },
     "status": "draft",
-    "minutes": 14
+    "minutes": 14,
+    "words": 10
   },
   {
     "id": "a1-u08-l04",
@@ -413,7 +444,8 @@
       "de": "Eine Nachricht schreiben"
     },
     "status": "draft",
-    "minutes": 14
+    "minutes": 14,
+    "words": 10
   },
   {
     "id": "a1-u09-l01",
@@ -426,7 +458,8 @@
       "de": "Die Kleidung"
     },
     "status": "draft",
-    "minutes": 14
+    "minutes": 14,
+    "words": 13
   },
   {
     "id": "a1-u09-l02",
@@ -439,7 +472,8 @@
       "de": "Farben und Größen"
     },
     "status": "draft",
-    "minutes": 14
+    "minutes": 14,
+    "words": 12
   },
   {
     "id": "a1-u09-l03",
@@ -452,7 +486,8 @@
       "de": "Das Wetter"
     },
     "status": "draft",
-    "minutes": 14
+    "minutes": 14,
+    "words": 12
   },
   {
     "id": "a1-u09-l04",
@@ -465,7 +500,8 @@
       "de": "Monate und Datum"
     },
     "status": "draft",
-    "minutes": 14
+    "minutes": 14,
+    "words": 15
   },
   {
     "id": "a1-u10-l01",
@@ -478,7 +514,8 @@
       "de": "Der Körper"
     },
     "status": "draft",
-    "minutes": 14
+    "minutes": 14,
+    "words": 15
   },
   {
     "id": "a1-u10-l02",
@@ -491,7 +528,8 @@
       "de": "Beim Arzt"
     },
     "status": "draft",
-    "minutes": 14
+    "minutes": 14,
+    "words": 10
   },
   {
     "id": "a1-u10-l03",
@@ -504,7 +542,8 @@
       "de": "Gesundheit und Ratschläge"
     },
     "status": "draft",
-    "minutes": 14
+    "minutes": 14,
+    "words": 10
   },
   {
     "id": "a1-u10-l04",
@@ -517,6 +556,7 @@
       "de": "Ich stelle mich vor"
     },
     "status": "draft",
-    "minutes": 18
+    "minutes": 18,
+    "words": 10
   }
 ]

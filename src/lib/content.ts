@@ -17,3 +17,21 @@ export async function loadLesson(id: string): Promise<Lesson> {
   if (!load) throw new Error(`Lesson not found: ${id}`)
   return load()
 }
+
+export interface DictEntry {
+  k: string // "<lessonId>:<wordId>", also the review-card key
+  de: string
+  art?: 'der' | 'die' | 'das'
+  pl?: string
+  pos: string
+  bn: string
+  en: string
+  lv: string
+}
+
+let dict: Promise<DictEntry[]> | null = null
+/** All vocabulary, loaded on first use (the Dictionary and Review screens). */
+export const loadDictionary = (): Promise<DictEntry[]> => (dict ??= import('../generated/dictionary.json').then((m) => m.default as DictEntry[]))
+
+/** The spoken form of an entry, article first. */
+export const spoken = (e: Pick<DictEntry, 'de' | 'art'>) => (e.art ? `${e.art} ${e.de}` : e.de)

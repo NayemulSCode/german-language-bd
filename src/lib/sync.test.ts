@@ -1,9 +1,10 @@
 import { describe, expect, it } from 'vitest'
-import { computeXp, emptyProgress, sanitizeProgress, type Progress } from './storage'
+import { computeXp, emptyProgress, sanitizeProgress, type Card, type Progress } from './storage'
 import { mergeProgress, progressKey, syncOnce, type RemoteStore } from './sync'
 
 const p = (over: Partial<Progress> = {}): Progress => ({ ...emptyProgress(), ...over })
 const lesson = (done: number[], best = 0, passed = false) => ({ done, best, total: 8, passed })
+const card = (last: number, ivl = 0): Card => ({ due: last + 1000, ivl, reps: 0, lapses: 0, last })
 
 describe('computeXp', () => {
   it('matches the in-app rules: 10 per step 1-4, 5 per best answer, 20 for the first pass', () => {
@@ -27,8 +28,8 @@ describe('mergeProgress', () => {
   })
 
   it('is commutative and idempotent for progress (settings aside)', () => {
-    const a = p({ updatedAt: 5, review: ['x:1'], lessons: { 'a1-u01-l01': lesson([0], 3) } })
-    const b = p({ updatedAt: 9, review: ['x:2'], lessons: { 'a1-u01-l01': lesson([1], 6, true) } })
+    const a = p({ updatedAt: 5, srs: { 'a1-u01-l01:name': card(5) }, activity: { '2026-01-01': 10 }, lessons: { 'a1-u01-l01': lesson([0], 3) } })
+    const b = p({ updatedAt: 9, srs: { 'a1-u01-l01:land': card(9) }, activity: { '2026-01-01': 30 }, lessons: { 'a1-u01-l01': lesson([1], 6, true) } })
     expect(progressKey(mergeProgress(a, b))).toBe(progressKey(mergeProgress(b, a)))
     const m = mergeProgress(a, b)
     expect(progressKey(mergeProgress(m, m))).toBe(progressKey(m))
@@ -42,9 +43,20 @@ describe('mergeProgress', () => {
     expect(m.updatedAt).toBe(20)
   })
 
-  it('unions review items without duplicates', () => {
-    const m = mergeProgress(p({ review: ['a:1', 'a:2'] }), p({ review: ['a:2', 'a:3'] }))
-    expect(m.review.sort()).toEqual(['a:1', 'a:2', 'a:3'])
+  it('keeps the most recently reviewed copy of each card and the higher daily XP', () => {
+    const k = 'a1-u01-l01:name'
+    const m = mergeProgress(
+      p({ srs: { [k]: card(100, 1) }, activity: { '2026-01-01': 10, '2026-01-02': 5 } }),
+      p({ srs: { [k]: card(200, 4), 'a1-u01-l01:land': card(50) }, activity: { '2026-01-01': 30 } }),
+    )
+    expect(m.srs[k].ivl).toBe(4)
+    expect(Object.keys(m.srs)).toHaveLength(2)
+    expect(m.activity).toEqual({ '2026-01-01': 30, '2026-01-02': 5 })
+  })
+
+  it('settings (theme, goal, name, exam date) follow the newer device', () => {
+    const m = mergeProgress(p({ updatedAt: 1, theme: 'light', goal: 20, name: 'A', examDate: '2027-01-01' }), p({ updatedAt: 2, theme: 'night', goal: 100, name: 'B', examDate: '2027-02-02' }))
+    expect([m.theme, m.goal, m.name, m.examDate]).toEqual(['night', 100, 'B', '2027-02-02'])
   })
 })
 
@@ -53,13 +65,19 @@ describe('sanitizeProgress', () => {
     const s = sanitizeProgress({
       lang: 'xx', slow: 'yes', xp: 999999, updatedAt: -1,
       lessons: { 'a1-u01-l01': { done: [0, 1, 1, 9, 'x'], best: 7, total: 8, passed: true }, bogus: { done: [0] }, 'a1-u01-l02': 5 },
-      review: ['ok:1', 42, { a: 1 }],
+      review: ['a1-u01-l01:ok', 42, { a: 1 }],
+      theme: 'neon', goal: 7, name: '  Saheb  ', examDate: 'soon',
+      srs: { 'a1-u01-l01:name': { due: 5, last: 4, ivl: 2, reps: 1, lapses: 0 }, 'bad key': { due: 1, last: 1 }, 'a1-u01-l02:x': { due: 'no' } },
+      activity: { '2026-03-01': 40, 'yesterday': 9, '2026-03-02': -5 },
     })
     expect(s.lang).toBe('both')
     expect(s.slow).toBe(false)
     expect(s.updatedAt).toBe(0)
     expect(s.lessons).toEqual({ 'a1-u01-l01': { done: [0, 1], best: 7, total: 8, passed: true } })
-    expect(s.review).toEqual(['ok:1'])
+    expect(Object.keys(s.srs).sort()).toEqual(['a1-u01-l01:name', 'a1-u01-l01:ok'])
+    expect(s.srs['a1-u01-l01:ok'].due).toBe(0) // legacy missed-word list becomes cards due now
+    expect([s.theme, s.goal, s.name, s.examDate]).toEqual(['system', 50, 'Saheb', ''])
+    expect(s.activity).toEqual({ '2026-03-01': 40 })
     expect(s.xp).toBe(20 + 35 + 20)
   })
 

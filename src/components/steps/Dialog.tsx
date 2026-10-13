@@ -43,14 +43,14 @@ export function Dialog({ lesson, onNext }: { lesson: Lesson; onNext(): void }) {
               ))}
             </div>
             {showBn && (
-              <div className="row bn">
-                <span className="tag">বাংলা</span>
+              <div className="lrow bn">
+                <span className="ltag">বাংলা</span>
                 {ln.bn.map((w, i) => <span key={i} className={`w${tok?.b.includes(i) ? ' hit' : ''}`}>{w}</span>)}
               </div>
             )}
             {showEn && (
-              <div className="row">
-                <span className="tag">English</span>
+              <div className="lrow">
+                <span className="ltag">English</span>
                 {ln.en.map((w, i) => <span key={i} className={`w${tok?.e.includes(i) ? ' hit' : ''}`}>{w}</span>)}
               </div>
             )}

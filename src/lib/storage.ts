@@ -1,6 +1,8 @@
 /** Progress model and local storage. Everything goes through ProgressStore so sync can be layered on without touching components. */
 
 export type Lang = 'bn' | 'en' | 'both'
+export type Theme = 'system' | 'light' | 'dark' | 'night'
+export const GOALS = [20, 50, 100] as const
 
 export interface LessonProgress {
   done: number[] // completed step indexes
@@ -9,16 +11,35 @@ export interface LessonProgress {
   passed: boolean
 }
 
-export interface Progress {
-  lang: Lang
-  slow: boolean
-  xp: number // always derived from lessons, see computeXp
-  lessons: Record<string, LessonProgress>
-  review: string[] // "<lessonId>:<wordId>" items answered wrong, waiting for spaced repetition
-  updatedAt: number // ms since epoch of the last local change; decides which device's settings win
+/** Spaced-repetition state of one word, keyed "<lessonId>:<wordId>". */
+export interface Card {
+  due: number // ms since epoch when it is next due
+  ivl: number // current interval in days (0 while still being learned)
+  reps: number // successful reviews in a row
+  lapses: number // times forgotten
+  last: number // ms of the last change; decides which device's copy wins when merging
 }
 
-export const emptyProgress = (): Progress => ({ lang: 'both', slow: false, xp: 0, lessons: {}, review: [], updatedAt: 0 })
+export interface Progress {
+  // settings (last writer wins, see mergeProgress)
+  lang: Lang
+  slow: boolean
+  theme: Theme
+  goal: number // daily XP goal
+  name: string
+  examDate: string // YYYY-MM-DD or ''
+  // learning data (merged by union / max)
+  xp: number // always derived from lessons, see computeXp
+  lessons: Record<string, LessonProgress>
+  srs: Record<string, Card>
+  activity: Record<string, number> // YYYY-MM-DD → XP earned that day (streaks, heatmap)
+  updatedAt: number // ms of the last local change; decides which device's settings win
+}
+
+export const emptyProgress = (): Progress => ({
+  lang: 'both', slow: false, theme: 'system', goal: 50, name: '', examDate: '',
+  xp: 0, lessons: {}, srs: {}, activity: {}, updatedAt: 0,
+})
 
 /** XP is derived, so merging two devices can never double-count: 10 per step 1–4, 5 per correct quiz answer (best run), 20 for the first pass. */
 export function computeXp(lessons: Record<string, LessonProgress>): number {
@@ -28,6 +49,10 @@ export function computeXp(lessons: Record<string, LessonProgress>): number {
 }
 
 const isInt = (n: unknown, max: number): n is number => typeof n === 'number' && Number.isInteger(n) && n >= 0 && n <= max
+const isNum = (n: unknown, max: number): n is number => typeof n === 'number' && Number.isFinite(n) && n >= 0 && n <= max
+const CARD_KEY = /^[a-c][12]-u\d{2}-l\d{2}:[a-z0-9_]{1,60}$/
+const DAY_KEY = /^\d{4}-\d{2}-\d{2}$/
+const FAR_FUTURE = 4102444800000 // year 2100
 
 /** Coerces untrusted JSON (localStorage, or the server) into a valid Progress. Unknown or malformed parts are dropped. */
 export function sanitizeProgress(raw: unknown): Progress {
@@ -35,8 +60,12 @@ export function sanitizeProgress(raw: unknown): Progress {
   if (!raw || typeof raw !== 'object') return out
   const r = raw as Record<string, unknown>
   if (r.lang === 'bn' || r.lang === 'en' || r.lang === 'both') out.lang = r.lang
+  if (r.theme === 'system' || r.theme === 'light' || r.theme === 'dark' || r.theme === 'night') out.theme = r.theme
   out.slow = r.slow === true
-  if (typeof r.updatedAt === 'number' && Number.isFinite(r.updatedAt) && r.updatedAt >= 0) out.updatedAt = r.updatedAt
+  if (typeof r.goal === 'number' && (GOALS as readonly number[]).includes(r.goal)) out.goal = r.goal
+  if (typeof r.name === 'string') out.name = r.name.trim().slice(0, 30)
+  if (typeof r.examDate === 'string' && DAY_KEY.test(r.examDate)) out.examDate = r.examDate
+  if (isNum(r.updatedAt, FAR_FUTURE)) out.updatedAt = r.updatedAt
   if (r.lessons && typeof r.lessons === 'object') {
     for (const [id, v] of Object.entries(r.lessons as Record<string, unknown>)) {
       if (!/^[a-c][12]-u\d{2}-l\d{2}$/.test(id) || !v || typeof v !== 'object') continue
@@ -45,7 +74,21 @@ export function sanitizeProgress(raw: unknown): Progress {
       out.lessons[id] = { done, best: isInt(l.best, 100) ? l.best : 0, total: isInt(l.total, 100) ? l.total : 0, passed: l.passed === true }
     }
   }
-  if (Array.isArray(r.review)) out.review = [...new Set(r.review.filter((x): x is string => typeof x === 'string' && x.length < 80))].slice(0, 5000)
+  if (r.srs && typeof r.srs === 'object') {
+    for (const [k, v] of Object.entries(r.srs as Record<string, unknown>).slice(0, 6000)) {
+      if (!CARD_KEY.test(k) || !v || typeof v !== 'object') continue
+      const c = v as Record<string, unknown>
+      if (!isNum(c.due, FAR_FUTURE) || !isNum(c.last, FAR_FUTURE)) continue
+      out.srs[k] = { due: c.due, last: c.last, ivl: isNum(c.ivl, 3650) ? c.ivl : 0, reps: isInt(c.reps, 10000) ? c.reps : 0, lapses: isInt(c.lapses, 10000) ? c.lapses : 0 }
+    }
+  }
+  // older saves kept a plain list of missed words: make them due now
+  if (Array.isArray(r.review)) {
+    for (const k of r.review) if (typeof k === 'string' && CARD_KEY.test(k) && !out.srs[k]) out.srs[k] = { due: 0, ivl: 0, reps: 0, lapses: 1, last: 0 }
+  }
+  if (r.activity && typeof r.activity === 'object') {
+    for (const [d, v] of Object.entries(r.activity as Record<string, unknown>).slice(0, 1000)) if (DAY_KEY.test(d) && isInt(v, 100000)) out.activity[d] = v
+  }
   out.xp = computeXp(out.lessons)
   return out
 }
