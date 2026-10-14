@@ -1,0 +1,1512 @@
+{
+  "level": "B1",
+  "unit": 7,
+  "minutes": 18,
+  "lesson": 3,
+  "id": "b1-u07-l03",
+  "title": {
+    "de": "Die Teambesprechung",
+    "bn": "টিম মিটিং ও কার্যবিবরণী (Protokoll)",
+    "en": "The team meeting and the minutes"
+  },
+  "hook": {
+    "de": "Viele Köche verderben den Brei.",
+    "who": "Sprichwort",
+    "bn": "বেশি রাঁধুনি রান্না নষ্ট করে।",
+    "en": "Too many cooks spoil the broth."
+  },
+  "goals": [
+    "Tagesordnung und Besprechungsablauf",
+    "Aufgaben verteilen und Verantwortung klären",
+    "Protokollsprache: Es wurde beschlossen, dass …",
+    "Passiv Präteritum und Perfekt im Protokoll"
+  ],
+  "words": [
+    {
+      "id": "tagesordnung",
+      "de": "Tagesordnung",
+      "art": "die",
+      "pl": "die Tagesordnungen",
+      "pos": "বিশেষ্য",
+      "bn": "আলোচ্যসূচি",
+      "en": "agenda"
+    },
+    {
+      "id": "protokoll",
+      "de": "Protokoll",
+      "art": "das",
+      "pl": "die Protokolle",
+      "pos": "বিশেষ্য",
+      "bn": "কার্যবিবরণী, মিটিং নোট",
+      "en": "minutes"
+    },
+    {
+      "id": "beschluss",
+      "de": "Beschluss",
+      "art": "der",
+      "pl": "die Beschlüsse",
+      "pos": "বিশেষ্য",
+      "bn": "সিদ্ধান্ত (সর্বসম্মত)",
+      "en": "resolution, decision"
+    },
+    {
+      "id": "beschliessen",
+      "de": "beschließen",
+      "pos": "ক্রিয়া · hat beschlossen",
+      "bn": "সিদ্ধান্ত নেওয়া",
+      "en": "to decide, to resolve"
+    },
+    {
+      "id": "verteilen",
+      "de": "verteilen",
+      "pos": "ক্রিয়া · hat verteilt",
+      "bn": "ভাগ করে দেওয়া",
+      "en": "to distribute"
+    },
+    {
+      "id": "verantwortlich",
+      "de": "verantwortlich",
+      "pos": "বিশেষণ",
+      "bn": "দায়িত্বপ্রাপ্ত",
+      "en": "responsible"
+    },
+    {
+      "id": "zeitplan",
+      "de": "Zeitplan",
+      "art": "der",
+      "pl": "die Zeitpläne",
+      "pos": "বিশেষ্য",
+      "bn": "সময়সূচি",
+      "en": "schedule"
+    },
+    {
+      "id": "zusammenfassen",
+      "de": "zusammenfassen",
+      "pos": "ক্রিয়া · hat zusammengefasst",
+      "bn": "সংক্ষেপ করা",
+      "en": "to summarise"
+    },
+    {
+      "id": "anmerkung",
+      "de": "Anmerkung",
+      "art": "die",
+      "pl": "die Anmerkungen",
+      "pos": "বিশেষ্য",
+      "bn": "মন্তব্য",
+      "en": "remark"
+    },
+    {
+      "id": "tagesordnungspunkt",
+      "de": "Tagesordnungspunkt",
+      "art": "der",
+      "pl": "die Tagesordnungspunkte",
+      "pos": "বিশেষ্য",
+      "bn": "আলোচ্য বিষয়",
+      "en": "agenda item"
+    },
+    {
+      "id": "erledigen",
+      "de": "erledigen",
+      "pos": "ক্রিয়া · hat erledigt",
+      "bn": "সম্পন্ন করা",
+      "en": "to get done"
+    },
+    {
+      "id": "teilnehmer",
+      "de": "Teilnehmer",
+      "art": "der",
+      "pl": "die Teilnehmer",
+      "pos": "বিশেষ্য",
+      "bn": "অংশগ্রহণকারী",
+      "en": "participant"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Frau Hoffmann",
+      "bn": [
+        "শুভ",
+        "সকাল",
+        "সবাইকে।",
+        "আজকের",
+        "আলোচ্যসূচিতে",
+        "তিনটি",
+        "বিষয়",
+        "আছে।",
+        "প্রথমে",
+        "আমি",
+        "গত",
+        "সপ্তাহের",
+        "কার্যবিবরণী",
+        "পড়ব।"
+      ],
+      "en": [
+        "Good",
+        "morning,",
+        "everyone.",
+        "There",
+        "are",
+        "three",
+        "items",
+        "on",
+        "today’s",
+        "agenda.",
+        "First",
+        "I",
+        "will",
+        "read",
+        "the",
+        "minutes",
+        "of",
+        "last",
+        "week."
+      ],
+      "de": [
+        {
+          "t": "Guten Morgen",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Guten Morgen",
+          "gb": "শুভ সকাল",
+          "ge": "Good morning",
+          "n": ""
+        },
+        {
+          "t": "allerseits.",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "allerseits",
+          "gb": "সবাইকে",
+          "ge": "everyone",
+          "n": ""
+        },
+        {
+          "t": "Auf der heutigen",
+          "b": [
+            3
+          ],
+          "e": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "l": "Auf der heutigen",
+          "gb": "আজকের",
+          "ge": "There are three items",
+          "n": ""
+        },
+        {
+          "t": "Tagesordnung",
+          "b": [
+            4
+          ],
+          "e": [
+            7,
+            8,
+            9
+          ],
+          "l": "Tagesordnung",
+          "gb": "আলোচ্যসূচিতে",
+          "ge": "on today’s agenda",
+          "n": ""
+        },
+        {
+          "t": "stehen",
+          "b": [
+            7
+          ],
+          "e": [],
+          "l": "stehen",
+          "gb": "আছে",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "drei Punkte.",
+          "b": [
+            5,
+            6
+          ],
+          "e": [],
+          "l": "drei Punkte",
+          "gb": "তিনটি বিষয়",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Zuerst lese ich",
+          "b": [
+            8,
+            9,
+            13
+          ],
+          "e": [
+            10,
+            11,
+            12,
+            13
+          ],
+          "l": "Zuerst lese ich",
+          "gb": "প্রথমে আমি পড়ব",
+          "ge": "First I will read",
+          "n": ""
+        },
+        {
+          "t": "das Protokoll",
+          "b": [
+            12
+          ],
+          "e": [
+            14,
+            15
+          ],
+          "l": "Protokoll",
+          "gb": "কার্যবিবরণী",
+          "ge": "the minutes",
+          "n": ""
+        },
+        {
+          "t": "der letzten Woche",
+          "b": [
+            10,
+            11
+          ],
+          "e": [
+            16,
+            17,
+            18
+          ],
+          "l": "der letzten Woche",
+          "gb": "গত সপ্তাহের",
+          "ge": "of last week",
+          "n": ""
+        },
+        {
+          "t": "vor.",
+          "b": [],
+          "e": [],
+          "l": "vor",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Frau Hoffmann",
+      "bn": [
+        "সেখানে",
+        "লেখা",
+        "আছে:",
+        "„সিদ্ধান্ত",
+        "হয়েছে",
+        "যে",
+        "নতুন",
+        "প্রকল্প",
+        "আগামী",
+        "মাসে",
+        "শুরু",
+        "হবে।",
+        "সব",
+        "দলের",
+        "সদস্যকে",
+        "আগেই",
+        "জানানো",
+        "হয়েছে।“"
+      ],
+      "en": [
+        "It",
+        "says",
+        "there:",
+        "“It",
+        "was",
+        "decided",
+        "that",
+        "the",
+        "new",
+        "project",
+        "will",
+        "start",
+        "next",
+        "month.",
+        "All",
+        "team",
+        "members",
+        "have",
+        "been",
+        "informed",
+        "in",
+        "advance.”"
+      ],
+      "de": [
+        {
+          "t": "Dort steht:",
+          "b": [
+            0,
+            1,
+            2
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "Dort steht",
+          "gb": "সেখানে লেখা আছে",
+          "ge": "It says there",
+          "n": ""
+        },
+        {
+          "t": "„Es wurde beschlossen,",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            3,
+            4,
+            5
+          ],
+          "l": "„Es wurde beschlossen",
+          "gb": "সিদ্ধান্ত হয়েছে",
+          "ge": "“It was decided",
+          "n": ""
+        },
+        {
+          "t": "dass",
+          "b": [
+            5
+          ],
+          "e": [
+            6
+          ],
+          "l": "dass",
+          "gb": "যে",
+          "ge": "that",
+          "n": ""
+        },
+        {
+          "t": "das neue Projekt",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            7,
+            8,
+            9
+          ],
+          "l": "das neue Projekt",
+          "gb": "নতুন প্রকল্প",
+          "ge": "the new project",
+          "n": ""
+        },
+        {
+          "t": "nächsten Monat",
+          "b": [
+            8,
+            9
+          ],
+          "e": [
+            10,
+            11,
+            12,
+            13
+          ],
+          "l": "nächsten Monat",
+          "gb": "আগামী মাসে",
+          "ge": "will start next month",
+          "n": ""
+        },
+        {
+          "t": "beginnt.",
+          "b": [
+            10,
+            11
+          ],
+          "e": [],
+          "l": "beginnt",
+          "gb": "শুরু হবে",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Alle Teammitglieder",
+          "b": [
+            12,
+            13,
+            14
+          ],
+          "e": [
+            14,
+            15,
+            16
+          ],
+          "l": "Alle Teammitglieder",
+          "gb": "সব দলের সদস্যকে",
+          "ge": "All team members",
+          "n": ""
+        },
+        {
+          "t": "sind vorab",
+          "b": [
+            15
+          ],
+          "e": [
+            17,
+            18
+          ],
+          "l": "sind vorab",
+          "gb": "আগেই",
+          "ge": "have been",
+          "n": ""
+        },
+        {
+          "t": "informiert worden.“",
+          "b": [
+            16,
+            17
+          ],
+          "e": [
+            19,
+            20,
+            21
+          ],
+          "l": "informiert worden“",
+          "gb": "জানানো হয়েছে“",
+          "ge": "informed in advance”",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Tom",
+      "bn": [
+        "আমার",
+        "একটা",
+        "মন্তব্য",
+        "আছে।",
+        "সময়সূচি",
+        "কিছুটা",
+        "আঁটসাঁট",
+        "মনে",
+        "হচ্ছে।"
+      ],
+      "en": [
+        "I",
+        "have",
+        "a",
+        "remark.",
+        "The",
+        "schedule",
+        "seems",
+        "a",
+        "bit",
+        "tight."
+      ],
+      "de": [
+        {
+          "t": "Ich habe",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Ich habe",
+          "gb": "আমার",
+          "ge": "I have",
+          "n": ""
+        },
+        {
+          "t": "eine Anmerkung.",
+          "b": [
+            1,
+            2,
+            3
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "Anmerkung",
+          "gb": "একটা মন্তব্য আছে",
+          "ge": "a remark",
+          "n": ""
+        },
+        {
+          "t": "Der Zeitplan",
+          "b": [
+            4
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "Zeitplan",
+          "gb": "সময়সূচি",
+          "ge": "The schedule",
+          "n": ""
+        },
+        {
+          "t": "wirkt",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            6
+          ],
+          "l": "wirkt",
+          "gb": "মনে হচ্ছে",
+          "ge": "seems",
+          "n": ""
+        },
+        {
+          "t": "etwas knapp.",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            7,
+            8,
+            9
+          ],
+          "l": "etwas knapp",
+          "gb": "কিছুটা আঁটসাঁট",
+          "ge": "a bit tight",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Frau Hoffmann",
+      "bn": [
+        "ধন্যবাদ।",
+        "দ্বিতীয়",
+        "বিষয়",
+        "হলো",
+        "কাজ",
+        "বণ্টন।",
+        "কে",
+        "কোন",
+        "অংশের",
+        "দায়িত্বে",
+        "থাকবে?"
+      ],
+      "en": [
+        "Thank",
+        "you.",
+        "The",
+        "second",
+        "item",
+        "is",
+        "the",
+        "distribution",
+        "of",
+        "tasks.",
+        "Who",
+        "will",
+        "be",
+        "responsible",
+        "for",
+        "which",
+        "part?"
+      ],
+      "de": [
+        {
+          "t": "Danke.",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Danke",
+          "gb": "ধন্যবাদ",
+          "ge": "Thank you",
+          "n": ""
+        },
+        {
+          "t": "Der zweite Punkt",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            2,
+            3,
+            4
+          ],
+          "l": "Der zweite Punkt",
+          "gb": "দ্বিতীয় বিষয়",
+          "ge": "The second item",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [
+            3
+          ],
+          "e": [
+            5
+          ],
+          "l": "ist",
+          "gb": "হলো",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "die Aufgabenverteilung.",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "l": "verteilen",
+          "gb": "কাজ বণ্টন",
+          "ge": "the distribution of tasks",
+          "n": ""
+        },
+        {
+          "t": "Wer",
+          "b": [
+            6
+          ],
+          "e": [
+            10
+          ],
+          "l": "Wer",
+          "gb": "কে",
+          "ge": "Who",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            11,
+            12
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "will be",
+          "n": ""
+        },
+        {
+          "t": "für welchen Teil",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            14,
+            15,
+            16
+          ],
+          "l": "für welchen Teil",
+          "gb": "কোন অংশের",
+          "ge": "for which part",
+          "n": ""
+        },
+        {
+          "t": "verantwortlich?",
+          "b": [
+            9,
+            10
+          ],
+          "e": [
+            13
+          ],
+          "l": "verantwortlich",
+          "gb": "দায়িত্বে থাকবে",
+          "ge": "responsible",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "বৈদ্যুতিক",
+        "অংশের",
+        "দায়িত্ব",
+        "নিতে",
+        "পারি।",
+        "আমি",
+        "ওটা",
+        "শুক্রবারের",
+        "মধ্যে",
+        "সম্পন্ন",
+        "করতে",
+        "পারব।"
+      ],
+      "en": [
+        "I",
+        "can",
+        "take",
+        "responsibility",
+        "for",
+        "the",
+        "electrical",
+        "part.",
+        "I",
+        "can",
+        "get",
+        "it",
+        "done",
+        "by",
+        "Friday."
+      ],
+      "de": [
+        {
+          "t": "Ich kann",
+          "b": [
+            0,
+            5
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Ich kann",
+          "gb": "আমি পারি",
+          "ge": "I can",
+          "n": ""
+        },
+        {
+          "t": "die Verantwortung",
+          "b": [
+            3
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "die Verantwortung",
+          "gb": "দায়িত্ব",
+          "ge": "take responsibility",
+          "n": ""
+        },
+        {
+          "t": "für den elektrischen Teil",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "l": "für den elektrischen Teil",
+          "gb": "বৈদ্যুতিক অংশের",
+          "ge": "for the electrical part",
+          "n": ""
+        },
+        {
+          "t": "übernehmen.",
+          "b": [
+            4
+          ],
+          "e": [],
+          "l": "übernehmen",
+          "gb": "নিতে",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Ich kann es",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "l": "Ich kann es",
+          "gb": "আমি ওটা",
+          "ge": "I can get it",
+          "n": ""
+        },
+        {
+          "t": "bis Freitag",
+          "b": [
+            8,
+            9
+          ],
+          "e": [
+            12,
+            13,
+            14
+          ],
+          "l": "bis Freitag",
+          "gb": "শুক্রবারের মধ্যে",
+          "ge": "done by Friday",
+          "n": ""
+        },
+        {
+          "t": "erledigen.",
+          "b": [
+            10,
+            11,
+            12
+          ],
+          "e": [],
+          "l": "erledigen",
+          "gb": "সম্পন্ন করতে পারব",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Frau Hoffmann",
+      "bn": [
+        "ভালো।",
+        "আমি",
+        "ওটা",
+        "কার্যবিবরণীতে",
+        "লিখে",
+        "রাখব।",
+        "সংক্ষেপে:",
+        "মিস্টার",
+        "রহমান",
+        "বৈদ্যুতিক",
+        "অংশ",
+        "শুক্রবারের",
+        "মধ্যে",
+        "করবেন,",
+        "মিস্টার",
+        "ব্রাউন",
+        "সময়সূচি",
+        "আবার",
+        "দেখবেন।"
+      ],
+      "en": [
+        "Good.",
+        "I",
+        "will",
+        "note",
+        "that",
+        "in",
+        "the",
+        "minutes.",
+        "In",
+        "summary:",
+        "Mr",
+        "Rahman",
+        "will",
+        "do",
+        "the",
+        "electrical",
+        "part",
+        "by",
+        "Friday;",
+        "Mr",
+        "Braun",
+        "will",
+        "review",
+        "the",
+        "schedule",
+        "again."
+      ],
+      "de": [
+        {
+          "t": "Gut.",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Gut",
+          "gb": "ভালো",
+          "ge": "Good",
+          "n": ""
+        },
+        {
+          "t": "Das halte ich",
+          "b": [
+            1,
+            2,
+            4,
+            5
+          ],
+          "e": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "l": "Das halte ich",
+          "gb": "আমি ওটা লিখে রাখব",
+          "ge": "I will note that",
+          "n": ""
+        },
+        {
+          "t": "im Protokoll",
+          "b": [
+            3
+          ],
+          "e": [
+            5,
+            6,
+            7
+          ],
+          "l": "im Protokoll",
+          "gb": "কার্যবিবরণীতে",
+          "ge": "in the minutes",
+          "n": ""
+        },
+        {
+          "t": "fest.",
+          "b": [],
+          "e": [],
+          "l": "fest",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Zusammengefasst:",
+          "b": [
+            6
+          ],
+          "e": [
+            8,
+            9
+          ],
+          "l": "zusammenfassen",
+          "gb": "সংক্ষেপে",
+          "ge": "In summary",
+          "n": ""
+        },
+        {
+          "t": "Herr Rahman",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            10,
+            11
+          ],
+          "l": "Herr Rahman",
+          "gb": "মিস্টার রহমান",
+          "ge": "Mr Rahman",
+          "n": ""
+        },
+        {
+          "t": "erledigt",
+          "b": [
+            13
+          ],
+          "e": [
+            12,
+            13
+          ],
+          "l": "erledigt",
+          "gb": "করবেন",
+          "ge": "will do",
+          "n": ""
+        },
+        {
+          "t": "den elektrischen Teil",
+          "b": [
+            9,
+            10
+          ],
+          "e": [
+            14,
+            15,
+            16
+          ],
+          "l": "den elektrischen Teil",
+          "gb": "বৈদ্যুতিক অংশ",
+          "ge": "the electrical part",
+          "n": ""
+        },
+        {
+          "t": "bis Freitag,",
+          "b": [
+            11,
+            12
+          ],
+          "e": [
+            17,
+            18
+          ],
+          "l": "bis Freitag",
+          "gb": "শুক্রবারের মধ্যে",
+          "ge": "by Friday",
+          "n": ""
+        },
+        {
+          "t": "Herr Braun",
+          "b": [
+            14,
+            15
+          ],
+          "e": [
+            19,
+            20
+          ],
+          "l": "Herr Braun",
+          "gb": "মিস্টার ব্রাউন",
+          "ge": "Mr Braun",
+          "n": ""
+        },
+        {
+          "t": "prüft",
+          "b": [
+            17,
+            18
+          ],
+          "e": [
+            21,
+            22
+          ],
+          "l": "prüft",
+          "gb": "আবার দেখবেন",
+          "ge": "will review",
+          "n": ""
+        },
+        {
+          "t": "den Zeitplan",
+          "b": [
+            16
+          ],
+          "e": [
+            23,
+            24
+          ],
+          "l": "den Zeitplan",
+          "gb": "সময়সূচি",
+          "ge": "the schedule",
+          "n": ""
+        },
+        {
+          "t": "noch einmal.",
+          "b": [],
+          "e": [
+            25
+          ],
+          "l": "noch einmal",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "again",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Tom",
+      "bn": [
+        "আর",
+        "পরের",
+        "মিটিং",
+        "কবে?",
+        "আমি",
+        "আজকের",
+        "ফলাফলের",
+        "ওপর",
+        "ভিত্তি",
+        "করে",
+        "আমার",
+        "নোট",
+        "তৈরি",
+        "করব।"
+      ],
+      "en": [
+        "And",
+        "when",
+        "is",
+        "the",
+        "next",
+        "meeting?",
+        "I",
+        "will",
+        "prepare",
+        "my",
+        "notes",
+        "based",
+        "on",
+        "today’s",
+        "results."
+      ],
+      "de": [
+        {
+          "t": "Und",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "wann",
+          "b": [
+            3
+          ],
+          "e": [
+            1
+          ],
+          "l": "wann",
+          "gb": "কবে",
+          "ge": "when",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "das nächste Treffen?",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            3,
+            4,
+            5
+          ],
+          "l": "das nächste Treffen",
+          "gb": "পরের মিটিং",
+          "ge": "the next meeting",
+          "n": ""
+        },
+        {
+          "t": "Ich bereite",
+          "b": [
+            4,
+            12,
+            13
+          ],
+          "e": [
+            6,
+            7,
+            8
+          ],
+          "l": "Ich bereite",
+          "gb": "আমি তৈরি করব",
+          "ge": "I will prepare",
+          "n": ""
+        },
+        {
+          "t": "meine Notizen",
+          "b": [
+            10,
+            11
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "meine Notizen",
+          "gb": "আমার নোট",
+          "ge": "my notes",
+          "n": ""
+        },
+        {
+          "t": "anhand der heutigen Ergebnisse",
+          "b": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "e": [
+            11,
+            12,
+            13,
+            14
+          ],
+          "l": "anhand der heutigen Ergebnisse",
+          "gb": "আজকের ফলাফলের ওপর ভিত্তি করে",
+          "ge": "based on today’s results",
+          "n": ""
+        },
+        {
+          "t": "vor.",
+          "b": [],
+          "e": [],
+          "l": "vor",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "Besprechungsablauf",
+      "head": [
+        "Phase",
+        "Redemittel"
+      ],
+      "rows": [
+        [
+          "Eröffnung",
+          "Ich begrüße Sie. Die Tagesordnung sieht so aus: …"
+        ],
+        [
+          "Protokoll",
+          "Ich lese das Protokoll der letzten Sitzung vor."
+        ],
+        [
+          "Diskussion",
+          "Dazu habe ich eine Anmerkung. / Ich möchte etwas ergänzen."
+        ],
+        [
+          "Aufgaben verteilen",
+          "Wer übernimmt …? / Wer ist dafür verantwortlich?"
+        ],
+        [
+          "Zusammenfassung",
+          "Zusammengefasst: … / Wir haben beschlossen, dass …"
+        ],
+        [
+          "Abschluss",
+          "Der nächste Termin ist … Danke für Ihre Teilnahme."
+        ]
+      ],
+      "note": "মিটিংয়ে সংক্ষিপ্ত, স্পষ্ট বাক্য ব্যবহার করুন; শেষে কে কী করবে (Wer? Was? Bis wann?) নিশ্চিত করুন।"
+    },
+    {
+      "type": "table",
+      "title": "Protokollsprache",
+      "head": [
+        "Aktiv",
+        "Protokoll (Passiv)"
+      ],
+      "rows": [
+        [
+          "Wir haben beschlossen, das Projekt zu starten.",
+          "Es wurde beschlossen, das Projekt zu starten."
+        ],
+        [
+          "Wir haben alle informiert.",
+          "Alle sind informiert worden."
+        ],
+        [
+          "Herr Rahman übernimmt die Aufgabe.",
+          "Die Aufgabe wird von Herrn Rahman übernommen."
+        ],
+        [
+          "Man prüft den Zeitplan noch einmal.",
+          "Der Zeitplan wird noch einmal geprüft."
+        ]
+      ],
+      "note": "কার্যবিবরণী সাধারণত Passiv ও Präteritum/Perfekt-এ লেখা হয়; Verantwortlichkeit-এর জন্য „von + Dativ“ ব্যবহার করুন।"
+    },
+    {
+      "type": "table",
+      "title": "Aufgaben und Fristen",
+      "head": [
+        "Frage",
+        "Antwort"
+      ],
+      "rows": [
+        [
+          "Wer?",
+          "Herr Rahman ist verantwortlich."
+        ],
+        [
+          "Was?",
+          "Der elektrische Teil wird erledigt."
+        ],
+        [
+          "Bis wann?",
+          "bis Freitag / bis zum 15. Mai"
+        ],
+        [
+          "Wie?",
+          "in Absprache mit dem Team"
+        ]
+      ],
+      "note": "কাজ বণ্টনে Wer – Was – Bis wann? তিনটি প্রশ্ন সবসময় পরিষ্কার করুন।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "die Tagesordnung",
+      "options": [
+        "আলোচ্যসূচি",
+        "মন্তব্য",
+        "সম্পন্ন করা",
+        "কার্যবিবরণী"
+      ],
+      "answer": 0,
+      "why": "die Tagesordnung = আলোচ্যসূচি।",
+      "word": "tagesordnung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "beschließen",
+      "options": [
+        "অংশগ্রহণকারী",
+        "সিদ্ধান্ত",
+        "সময়সূচি",
+        "সিদ্ধান্ত নেওয়া"
+      ],
+      "answer": 3,
+      "why": "beschließen = সিদ্ধান্ত নেওয়া।",
+      "word": "beschliessen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "zusammenfassen",
+      "options": [
+        "মন্তব্য",
+        "অংশগ্রহণকারী",
+        "সিদ্ধান্ত",
+        "সংক্ষেপ করা"
+      ],
+      "answer": 3,
+      "why": "zusammenfassen = সংক্ষেপ করা।",
+      "word": "zusammenfassen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Beschluss",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 0,
+      "why": "der Beschluss। বহুবচন: die Beschlüsse।",
+      "word": "beschluss"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Protokoll-এ কোনটি লেখা স্বাভাবিক?",
+      "options": [
+        "Es wurde beschlossen, dass …",
+        "Wir wollen einfach …",
+        "Ich finde, dass …",
+        "Mir egal …"
+      ],
+      "answer": 0,
+      "why": "Passiv Präteritum।",
+      "word": "protokoll"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„verantwortlich“ মানে কী?",
+      "options": [
+        "দায়িত্বপ্রাপ্ত",
+        "ব্যস্ত",
+        "পুরোনো",
+        "ধীর"
+      ],
+      "answer": 0,
+      "why": "verantworten।",
+      "word": "verantwortlich"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Aufgaben verteilen — কোন তিনটি প্রশ্ন জরুরি?",
+      "options": [
+        "Wer? Was? Bis wann?",
+        "Wo? Wie viel? Warum?",
+        "Wann? Wo? Mit wem?",
+        "Wie? Wer? Wo?"
+      ],
+      "answer": 0,
+      "why": "Zuständigkeit klären।",
+      "word": "verteilen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক বাক্য কোনটি?",
+      "options": [
+        "Alle sind informiert worden.",
+        "Alle sind informiert geworden.",
+        "Alle werden informiert worden.",
+        "Alle informiert worden sind."
+      ],
+      "answer": 0,
+      "why": "Passiv Perfekt: worden।",
+      "word": "anmerkung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Tagesordnungspunkt“ কী?",
+      "options": [
+        "আলোচ্য বিষয়",
+        "সমাপ্তি",
+        "খাবার",
+        "বেতন"
+      ],
+      "answer": 0,
+      "why": "Punkt der Tagesordnung।",
+      "word": "tagesordnungspunkt"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „কাজটা শুক্রবারের মধ্যে সম্পন্ন করা হবে।“",
+      "tiles": [
+        "bis Freitag",
+        "wird",
+        "erledigt.",
+        "Die Aufgabe"
+      ],
+      "answer": [
+        "Die Aufgabe",
+        "wird",
+        "bis Freitag",
+        "erledigt."
+      ],
+      "why": "Passiv Präsens।",
+      "word": "erledigen"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

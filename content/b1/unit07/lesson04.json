@@ -1,0 +1,1729 @@
+{
+  "level": "B1",
+  "unit": 7,
+  "minutes": 18,
+  "lesson": 4,
+  "id": "b1-u07-l04",
+  "title": {
+    "de": "Krank, Urlaub, Kündigung",
+    "bn": "অসুস্থতা, ছুটি ও চাকরি ছাড়া: অধিকার ও দায়িত্ব",
+    "en": "Sick leave, holiday, termination: rights and duties"
+  },
+  "hook": {
+    "de": "Wissen schützt.",
+    "who": "Redensart",
+    "bn": "জানা আপনাকে রক্ষা করে।",
+    "en": "Knowing protects you."
+  },
+  "goals": [
+    "Krankmeldung: unverzüglich melden, Bescheinigung",
+    "Urlaub beantragen und genehmigen lassen",
+    "Kündigung, Betriebsrat, Gewerkschaft, Beratung",
+    "Rechte und Pflichten benennen"
+  ],
+  "words": [
+    {
+      "id": "krankmeldung",
+      "de": "Krankmeldung",
+      "art": "die",
+      "pl": "die Krankmeldungen",
+      "pos": "বিশেষ্য",
+      "bn": "অসুস্থতার সংবাদ",
+      "en": "sick notification"
+    },
+    {
+      "id": "bescheinigung",
+      "de": "Bescheinigung",
+      "art": "die",
+      "pl": "die Bescheinigungen",
+      "pos": "বিশেষ্য",
+      "bn": "সনদ, প্রত্যয়নপত্র",
+      "en": "certificate"
+    },
+    {
+      "id": "unverzueglich",
+      "de": "unverzüglich",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "বিনা দেরিতে",
+      "en": "without delay"
+    },
+    {
+      "id": "urlaubsantrag",
+      "de": "Urlaubsantrag",
+      "art": "der",
+      "pl": "die Urlaubsanträge",
+      "pos": "বিশেষ্য",
+      "bn": "ছুটির আবেদন",
+      "en": "holiday request"
+    },
+    {
+      "id": "genehmigen",
+      "de": "genehmigen",
+      "pos": "ক্রিয়া · hat genehmigt",
+      "bn": "অনুমোদন করা",
+      "en": "to approve"
+    },
+    {
+      "id": "anspruch",
+      "de": "Anspruch",
+      "art": "der",
+      "pl": "die Ansprüche",
+      "pos": "বিশেষ্য",
+      "bn": "দাবির অধিকার",
+      "en": "entitlement, claim"
+    },
+    {
+      "id": "betriebsrat",
+      "de": "Betriebsrat",
+      "art": "der",
+      "pl": "die Betriebsräte",
+      "pos": "বিশেষ্য",
+      "bn": "কর্মচারী পরিষদ",
+      "en": "works council"
+    },
+    {
+      "id": "gewerkschaft",
+      "de": "Gewerkschaft",
+      "art": "die",
+      "pl": "die Gewerkschaften",
+      "pos": "বিশেষ্য",
+      "bn": "শ্রমিক সংগঠন",
+      "en": "trade union"
+    },
+    {
+      "id": "aufhebungsvertrag",
+      "de": "Aufhebungsvertrag",
+      "art": "der",
+      "pl": "die Aufhebungsverträge",
+      "pos": "বিশেষ্য",
+      "bn": "পারস্পরিক সম্মতিতে চুক্তি বাতিল",
+      "en": "termination agreement"
+    },
+    {
+      "id": "abfindung",
+      "de": "Abfindung",
+      "art": "die",
+      "pl": "die Abfindungen",
+      "pos": "বিশেষ্য",
+      "bn": "ক্ষতিপূরণ (চাকরি ছাড়ার সময়)",
+      "en": "severance pay"
+    },
+    {
+      "id": "recht",
+      "de": "Recht",
+      "art": "das",
+      "pl": "die Rechte",
+      "pos": "বিশেষ্য",
+      "bn": "অধিকার, আইন",
+      "en": "right, law"
+    },
+    {
+      "id": "pflicht",
+      "de": "Pflicht",
+      "art": "die",
+      "pl": "die Pflichten",
+      "pos": "বিশেষ্য",
+      "bn": "দায়িত্ব, বাধ্যবাধকতা",
+      "en": "duty"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Saheb",
+      "bn": [
+        "শুভ",
+        "সকাল,",
+        "মিস্টার",
+        "ব্রাউন।",
+        "আমি",
+        "আজ",
+        "খুব",
+        "অসুস্থ।",
+        "আমার",
+        "জ্বর",
+        "আছে,",
+        "তাই",
+        "আমি",
+        "আসতে",
+        "পারছি",
+        "না।"
+      ],
+      "en": [
+        "Good",
+        "morning,",
+        "Mr",
+        "Braun.",
+        "I",
+        "am",
+        "very",
+        "ill",
+        "today.",
+        "I",
+        "have",
+        "a",
+        "fever,",
+        "so",
+        "I",
+        "cannot",
+        "come."
+      ],
+      "de": [
+        {
+          "t": "Guten Morgen,",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Guten Morgen",
+          "gb": "শুভ সকাল",
+          "ge": "Good morning",
+          "n": ""
+        },
+        {
+          "t": "Herr Braun.",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "Herr Braun",
+          "gb": "মিস্টার ব্রাউন",
+          "ge": "Mr Braun",
+          "n": ""
+        },
+        {
+          "t": "Ich bin",
+          "b": [
+            4
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "Ich bin",
+          "gb": "আমি",
+          "ge": "I am",
+          "n": ""
+        },
+        {
+          "t": "heute",
+          "b": [
+            5
+          ],
+          "e": [
+            8
+          ],
+          "l": "heute",
+          "gb": "আজ",
+          "ge": "today",
+          "n": ""
+        },
+        {
+          "t": "sehr krank.",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "sehr krank",
+          "gb": "খুব অসুস্থ",
+          "ge": "very ill",
+          "n": ""
+        },
+        {
+          "t": "Ich habe Fieber,",
+          "b": [
+            8,
+            9,
+            10
+          ],
+          "e": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "l": "Ich habe Fieber",
+          "gb": "আমার জ্বর আছে",
+          "ge": "I have a fever",
+          "n": ""
+        },
+        {
+          "t": "deshalb",
+          "b": [
+            11
+          ],
+          "e": [
+            13
+          ],
+          "l": "deshalb",
+          "gb": "তাই",
+          "ge": "so",
+          "n": ""
+        },
+        {
+          "t": "kann ich",
+          "b": [
+            14,
+            15
+          ],
+          "e": [
+            14,
+            15
+          ],
+          "l": "kann ich",
+          "gb": "পারছি না",
+          "ge": "I cannot",
+          "n": ""
+        },
+        {
+          "t": "nicht kommen.",
+          "b": [
+            13
+          ],
+          "e": [
+            16
+          ],
+          "l": "nicht kommen",
+          "gb": "আসতে",
+          "ge": "come",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Herr Braun",
+      "bn": [
+        "ঠিক",
+        "আছে,",
+        "ভালো",
+        "করে",
+        "সুস্থ",
+        "হোন।",
+        "আপনি",
+        "কি",
+        "ডাক্তার",
+        "দেখাবেন?",
+        "আপনার",
+        "একটি",
+        "বিবৃতি",
+        "লাগবে।"
+      ],
+      "en": [
+        "All",
+        "right,",
+        "get",
+        "well",
+        "soon.",
+        "Will",
+        "you",
+        "see",
+        "a",
+        "doctor?",
+        "You",
+        "will",
+        "need",
+        "a",
+        "certificate."
+      ],
+      "de": [
+        {
+          "t": "In Ordnung,",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "In Ordnung",
+          "gb": "ঠিক আছে",
+          "ge": "All right",
+          "n": ""
+        },
+        {
+          "t": "gute Besserung.",
+          "b": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "e": [
+            2,
+            3,
+            4
+          ],
+          "l": "gute Besserung",
+          "gb": "ভালো করে সুস্থ হোন",
+          "ge": "get well soon",
+          "n": ""
+        },
+        {
+          "t": "Gehen Sie",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "Gehen Sie",
+          "gb": "আপনি কি",
+          "ge": "Will you",
+          "n": ""
+        },
+        {
+          "t": "zum Arzt?",
+          "b": [
+            8,
+            9
+          ],
+          "e": [
+            7,
+            8,
+            9
+          ],
+          "l": "zum Arzt",
+          "gb": "ডাক্তার দেখাবেন",
+          "ge": "see a doctor",
+          "n": ""
+        },
+        {
+          "t": "Sie brauchen",
+          "b": [
+            10,
+            13
+          ],
+          "e": [
+            10,
+            11,
+            12
+          ],
+          "l": "Sie brauchen",
+          "gb": "আপনার লাগবে",
+          "ge": "You will need",
+          "n": ""
+        },
+        {
+          "t": "eine Bescheinigung.",
+          "b": [
+            11,
+            12
+          ],
+          "e": [
+            13,
+            14
+          ],
+          "l": "Bescheinigung",
+          "gb": "একটি বিবৃতি",
+          "ge": "a certificate",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "হ্যাঁ।",
+        "কখন",
+        "থেকে",
+        "সেটা",
+        "লাগবে?",
+        "আর",
+        "আমি",
+        "কি",
+        "অফিসকে",
+        "নিজে",
+        "জানাব?"
+      ],
+      "en": [
+        "Yes.",
+        "From",
+        "when",
+        "is",
+        "it",
+        "needed?",
+        "And",
+        "do",
+        "I",
+        "inform",
+        "the",
+        "office",
+        "myself?"
+      ],
+      "de": [
+        {
+          "t": "Ja.",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ja",
+          "gb": "হ্যাঁ",
+          "ge": "Yes",
+          "n": ""
+        },
+        {
+          "t": "Ab wann",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "Ab wann",
+          "gb": "কখন থেকে",
+          "ge": "From when",
+          "n": ""
+        },
+        {
+          "t": "braucht man",
+          "b": [
+            4
+          ],
+          "e": [
+            3,
+            4,
+            5
+          ],
+          "l": "braucht man",
+          "gb": "লাগবে",
+          "ge": "is it needed",
+          "n": ""
+        },
+        {
+          "t": "sie?",
+          "b": [
+            3
+          ],
+          "e": [],
+          "l": "sie",
+          "gb": "সেটা",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Und",
+          "b": [
+            5
+          ],
+          "e": [
+            6
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "informiere ich",
+          "b": [
+            6,
+            10
+          ],
+          "e": [
+            7,
+            8,
+            9
+          ],
+          "l": "informiere ich",
+          "gb": "আমি জানাব",
+          "ge": "do I inform",
+          "n": ""
+        },
+        {
+          "t": "das Büro",
+          "b": [
+            8
+          ],
+          "e": [
+            10,
+            11
+          ],
+          "l": "das Büro",
+          "gb": "অফিসকে",
+          "ge": "the office",
+          "n": ""
+        },
+        {
+          "t": "selbst?",
+          "b": [
+            9
+          ],
+          "e": [
+            12
+          ],
+          "l": "selbst",
+          "gb": "নিজে",
+          "ge": "myself",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Herr Braun",
+      "bn": [
+        "আপনাকে",
+        "বিনা",
+        "দেরিতে",
+        "জানাতে",
+        "হয়,",
+        "যেমন",
+        "এখন",
+        "করলেন।",
+        "সাধারণত",
+        "তিন",
+        "দিনের",
+        "পরে",
+        "সনদ",
+        "লাগে।"
+      ],
+      "en": [
+        "You",
+        "have",
+        "to",
+        "report",
+        "without",
+        "delay,",
+        "as",
+        "you",
+        "have",
+        "just",
+        "done.",
+        "A",
+        "certificate",
+        "is",
+        "usually",
+        "needed",
+        "after",
+        "three",
+        "days."
+      ],
+      "de": [
+        {
+          "t": "Sie müssen",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "Sie müssen",
+          "gb": "আপনাকে",
+          "ge": "You have to",
+          "n": ""
+        },
+        {
+          "t": "sich unverzüglich",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            3,
+            4,
+            5
+          ],
+          "l": "unverzüglich",
+          "gb": "বিনা দেরিতে",
+          "ge": "report without delay",
+          "n": ""
+        },
+        {
+          "t": "melden,",
+          "b": [
+            3,
+            4
+          ],
+          "e": [],
+          "l": "melden",
+          "gb": "জানাতে হয়",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "wie",
+          "b": [
+            5
+          ],
+          "e": [
+            6
+          ],
+          "l": "wie",
+          "gb": "যেমন",
+          "ge": "as",
+          "n": ""
+        },
+        {
+          "t": "Sie es",
+          "b": [
+            6
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "Sie es",
+          "gb": "এখন",
+          "ge": "you have",
+          "n": ""
+        },
+        {
+          "t": "jetzt getan haben.",
+          "b": [
+            7
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "jetzt getan haben",
+          "gb": "করলেন",
+          "ge": "just done",
+          "n": ""
+        },
+        {
+          "t": "Normalerweise",
+          "b": [
+            8
+          ],
+          "e": [
+            14
+          ],
+          "l": "Normalerweise",
+          "gb": "সাধারণত",
+          "ge": "usually",
+          "n": ""
+        },
+        {
+          "t": "braucht man",
+          "b": [
+            13
+          ],
+          "e": [
+            13,
+            15
+          ],
+          "l": "braucht man",
+          "gb": "লাগে",
+          "ge": "is needed",
+          "n": ""
+        },
+        {
+          "t": "nach drei Tagen",
+          "b": [
+            9,
+            10,
+            11
+          ],
+          "e": [
+            16,
+            17,
+            18
+          ],
+          "l": "nach drei Tagen",
+          "gb": "তিন দিনের পরে",
+          "ge": "after three days",
+          "n": ""
+        },
+        {
+          "t": "eine Bescheinigung.",
+          "b": [
+            12
+          ],
+          "e": [
+            11,
+            12
+          ],
+          "l": "eine Bescheinigung",
+          "gb": "সনদ",
+          "ge": "A certificate",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "বুঝেছি।",
+        "আর",
+        "আমি",
+        "যখন",
+        "সুস্থ",
+        "হব,",
+        "আমি",
+        "দুই",
+        "সপ্তাহের",
+        "ছুটি",
+        "নিতে",
+        "চাই।",
+        "কীভাবে",
+        "আবেদন",
+        "করব?"
+      ],
+      "en": [
+        "Understood.",
+        "And",
+        "once",
+        "I",
+        "am",
+        "well,",
+        "I",
+        "want",
+        "to",
+        "take",
+        "two",
+        "weeks",
+        "of",
+        "leave.",
+        "How",
+        "do",
+        "I",
+        "apply?"
+      ],
+      "de": [
+        {
+          "t": "Verstanden.",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Verstanden",
+          "gb": "বুঝেছি",
+          "ge": "Understood",
+          "n": ""
+        },
+        {
+          "t": "Und",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "wenn ich",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "wenn ich",
+          "gb": "আমি যখন",
+          "ge": "once I",
+          "n": ""
+        },
+        {
+          "t": "wieder gesund bin,",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "wieder gesund bin",
+          "gb": "সুস্থ হব",
+          "ge": "am well",
+          "n": ""
+        },
+        {
+          "t": "möchte ich",
+          "b": [
+            6,
+            11
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "möchte ich",
+          "gb": "আমি চাই",
+          "ge": "I want",
+          "n": ""
+        },
+        {
+          "t": "zwei Wochen Urlaub",
+          "b": [
+            7,
+            8,
+            9
+          ],
+          "e": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "l": "zwei Wochen Urlaub",
+          "gb": "দুই সপ্তাহের ছুটি",
+          "ge": "to take two weeks of leave",
+          "n": ""
+        },
+        {
+          "t": "nehmen.",
+          "b": [
+            10
+          ],
+          "e": [],
+          "l": "nehmen",
+          "gb": "নিতে",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Wie",
+          "b": [
+            12
+          ],
+          "e": [
+            14
+          ],
+          "l": "Wie",
+          "gb": "কীভাবে",
+          "ge": "How",
+          "n": ""
+        },
+        {
+          "t": "beantrage ich",
+          "b": [
+            13,
+            14
+          ],
+          "e": [
+            15,
+            16,
+            17
+          ],
+          "l": "beantrage ich",
+          "gb": "আবেদন করব",
+          "ge": "do I apply",
+          "n": ""
+        },
+        {
+          "t": "das?",
+          "b": [],
+          "e": [],
+          "l": "das",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Herr Braun",
+      "bn": [
+        "ছুটির",
+        "আবেদন",
+        "আগে",
+        "লিখিতভাবে",
+        "জমা",
+        "দেবেন।",
+        "আমি",
+        "ওটা",
+        "অনুমোদন",
+        "করলে",
+        "আপনি",
+        "ছুটি",
+        "নিতে",
+        "পারবেন।",
+        "আপনার",
+        "বছরে",
+        "ছাব্বিশ",
+        "দিনের",
+        "অধিকার",
+        "আছে।"
+      ],
+      "en": [
+        "You",
+        "submit",
+        "your",
+        "leave",
+        "request",
+        "in",
+        "writing",
+        "first.",
+        "If",
+        "I",
+        "approve",
+        "it,",
+        "you",
+        "can",
+        "take",
+        "your",
+        "leave.",
+        "You",
+        "are",
+        "entitled",
+        "to",
+        "twenty-six",
+        "days",
+        "a",
+        "year."
+      ],
+      "de": [
+        {
+          "t": "Den Urlaubsantrag",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "l": "Urlaubsantrag",
+          "gb": "ছুটির আবেদন",
+          "ge": "You submit your leave request",
+          "n": ""
+        },
+        {
+          "t": "reichen Sie",
+          "b": [
+            4,
+            5
+          ],
+          "e": [],
+          "l": "reichen Sie",
+          "gb": "জমা দেবেন",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "zuerst schriftlich",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            5,
+            6,
+            7
+          ],
+          "l": "zuerst schriftlich",
+          "gb": "আগে লিখিতভাবে",
+          "ge": "in writing first",
+          "n": ""
+        },
+        {
+          "t": "ein.",
+          "b": [],
+          "e": [],
+          "l": "ein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Wenn ich",
+          "b": [
+            6
+          ],
+          "e": [
+            8,
+            9
+          ],
+          "l": "Wenn ich",
+          "gb": "আমি",
+          "ge": "If I",
+          "n": ""
+        },
+        {
+          "t": "ihn genehmige,",
+          "b": [
+            7,
+            8,
+            9
+          ],
+          "e": [
+            10,
+            11
+          ],
+          "l": "genehmigen",
+          "gb": "ওটা অনুমোদন করলে",
+          "ge": "approve it",
+          "n": ""
+        },
+        {
+          "t": "können Sie",
+          "b": [
+            10,
+            13
+          ],
+          "e": [
+            12,
+            13
+          ],
+          "l": "können Sie",
+          "gb": "আপনি পারবেন",
+          "ge": "you can",
+          "n": ""
+        },
+        {
+          "t": "den Urlaub nehmen.",
+          "b": [
+            11,
+            12
+          ],
+          "e": [
+            14,
+            15,
+            16
+          ],
+          "l": "den Urlaub nehmen",
+          "gb": "ছুটি নিতে",
+          "ge": "take your leave",
+          "n": ""
+        },
+        {
+          "t": "Sie haben",
+          "b": [
+            14
+          ],
+          "e": [
+            17,
+            18
+          ],
+          "l": "Sie haben",
+          "gb": "আপনার",
+          "ge": "You are",
+          "n": ""
+        },
+        {
+          "t": "einen Anspruch",
+          "b": [
+            18,
+            19
+          ],
+          "e": [
+            19
+          ],
+          "l": "Anspruch",
+          "gb": "অধিকার আছে",
+          "ge": "entitled",
+          "n": ""
+        },
+        {
+          "t": "auf 26 Tage",
+          "b": [
+            16,
+            17
+          ],
+          "e": [
+            20,
+            21,
+            22
+          ],
+          "l": "auf 26 Tage",
+          "gb": "ছাব্বিশ দিনের",
+          "ge": "to twenty-six days",
+          "n": ""
+        },
+        {
+          "t": "pro Jahr.",
+          "b": [
+            15
+          ],
+          "e": [
+            23,
+            24
+          ],
+          "l": "pro Jahr",
+          "gb": "বছরে",
+          "ge": "a year",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আর",
+        "যদি",
+        "কখনো",
+        "কোম্পানি",
+        "আমাকে",
+        "চাকরি",
+        "ছাড়তে",
+        "বলে?",
+        "আমি",
+        "কোথায়",
+        "পরামর্শ",
+        "পাব?"
+      ],
+      "en": [
+        "And",
+        "if",
+        "the",
+        "company",
+        "ever",
+        "tells",
+        "me",
+        "to",
+        "leave",
+        "the",
+        "job?",
+        "Where",
+        "can",
+        "I",
+        "get",
+        "advice?"
+      ],
+      "de": [
+        {
+          "t": "Und",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "wenn",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "wenn",
+          "gb": "যদি",
+          "ge": "if",
+          "n": ""
+        },
+        {
+          "t": "die Firma",
+          "b": [
+            3
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "die Firma",
+          "gb": "কোম্পানি",
+          "ge": "the company",
+          "n": ""
+        },
+        {
+          "t": "mir",
+          "b": [
+            4
+          ],
+          "e": [
+            6
+          ],
+          "l": "mir",
+          "gb": "আমাকে",
+          "ge": "me",
+          "n": ""
+        },
+        {
+          "t": "einmal kündigt?",
+          "b": [
+            2,
+            5,
+            6,
+            7
+          ],
+          "e": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "l": "einmal kündigt",
+          "gb": "কখনো চাকরি ছাড়তে বলে",
+          "ge": "ever tells me to leave the job",
+          "n": ""
+        },
+        {
+          "t": "Wo bekomme ich",
+          "b": [
+            8,
+            9,
+            11
+          ],
+          "e": [
+            11,
+            12,
+            13,
+            14
+          ],
+          "l": "Wo bekomme ich",
+          "gb": "আমি কোথায় পাব",
+          "ge": "Where can I get",
+          "n": ""
+        },
+        {
+          "t": "Beratung?",
+          "b": [
+            10
+          ],
+          "e": [
+            15
+          ],
+          "l": "Beratung",
+          "gb": "পরামর্শ",
+          "ge": "advice",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Herr Braun",
+      "bn": [
+        "কর্মচারী",
+        "পরিষদ",
+        "বা",
+        "ট্রেড",
+        "ইউনিয়ন",
+        "আপনাকে",
+        "পরামর্শ",
+        "দেবে।",
+        "আপনার",
+        "অধিকার",
+        "ও",
+        "দায়িত্ব",
+        "জানা",
+        "ভালো।"
+      ],
+      "en": [
+        "The",
+        "works",
+        "council",
+        "or",
+        "a",
+        "trade",
+        "union",
+        "will",
+        "advise",
+        "you.",
+        "It",
+        "is",
+        "good",
+        "to",
+        "know",
+        "your",
+        "rights",
+        "and",
+        "duties."
+      ],
+      "de": [
+        {
+          "t": "Der Betriebsrat",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "Betriebsrat",
+          "gb": "কর্মচারী পরিষদ",
+          "ge": "The works council",
+          "n": ""
+        },
+        {
+          "t": "oder",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "oder",
+          "gb": "বা",
+          "ge": "or",
+          "n": ""
+        },
+        {
+          "t": "eine Gewerkschaft",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            4,
+            5,
+            6
+          ],
+          "l": "Gewerkschaft",
+          "gb": "ট্রেড ইউনিয়ন",
+          "ge": "a trade union",
+          "n": ""
+        },
+        {
+          "t": "berät",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "berät",
+          "gb": "পরামর্শ দেবে",
+          "ge": "will advise",
+          "n": ""
+        },
+        {
+          "t": "Sie.",
+          "b": [
+            5
+          ],
+          "e": [
+            9
+          ],
+          "l": "Sie",
+          "gb": "আপনাকে",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "Es ist gut,",
+          "b": [
+            13
+          ],
+          "e": [
+            10,
+            11,
+            12
+          ],
+          "l": "Es ist gut",
+          "gb": "ভালো",
+          "ge": "It is good",
+          "n": ""
+        },
+        {
+          "t": "seine Rechte",
+          "b": [
+            8,
+            9
+          ],
+          "e": [
+            13,
+            14,
+            15,
+            16
+          ],
+          "l": "seine Rechte",
+          "gb": "আপনার অধিকার",
+          "ge": "to know your rights",
+          "n": ""
+        },
+        {
+          "t": "und Pflichten",
+          "b": [
+            10,
+            11
+          ],
+          "e": [
+            17,
+            18
+          ],
+          "l": "und Pflichten",
+          "gb": "ও দায়িত্ব",
+          "ge": "and duties",
+          "n": ""
+        },
+        {
+          "t": "zu kennen.",
+          "b": [
+            12
+          ],
+          "e": [],
+          "l": "zu kennen",
+          "gb": "জানা",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "Krankmeldung (Überblick)",
+      "head": [
+        "Schritt",
+        "Was tun?"
+      ],
+      "rows": [
+        [
+          "1. Sofort melden",
+          "unverzüglich beim Arbeitgeber anrufen oder schreiben (Hinweis im Vertrag beachten)"
+        ],
+        [
+          "2. Arzt besuchen",
+          "bei längerer Krankheit Bescheinigung (AU) holen"
+        ],
+        [
+          "3. Bescheinigung",
+          "meist ab dem 4. Krankheitstag nötig; manche Arbeitgeber verlangen sie früher"
+        ],
+        [
+          "4. Digital",
+          "Der Arzt übermittelt die AU häufig elektronisch an die Krankenkasse; der Arbeitgeber ruft sie ab"
+        ],
+        [
+          "5. Genesung",
+          "Bei Rückkehr kurz informieren"
+        ]
+      ],
+      "note": "নিয়ম পরিবর্তনশীল এবং চুক্তিভেদে আলাদা। নিজের চুক্তি ও কোম্পানির নিয়ম দেখুন; সন্দেহ হলে Betriebsrat বা Krankenkasse-কে জিজ্ঞাসা করুন।"
+    },
+    {
+      "type": "table",
+      "title": "Urlaub und Kündigung",
+      "head": [
+        "Thema",
+        "Wichtig"
+      ],
+      "rows": [
+        [
+          "Urlaubsanspruch",
+          "gesetzlich mindestens 20 Tage bei 5-Tage-Woche; im Vertrag oft mehr"
+        ],
+        [
+          "Urlaubsantrag",
+          "rechtzeitig schriftlich/online stellen, genehmigen lassen"
+        ],
+        [
+          "Kündigung",
+          "meist schriftlich, mit Frist; in der Probezeit kürzer"
+        ],
+        [
+          "Aufhebungsvertrag",
+          "beide Seiten stimmen zu – vorher beraten lassen!"
+        ],
+        [
+          "Abfindung",
+          "nicht automatisch, kann verhandelt werden"
+        ],
+        [
+          "Beratung",
+          "Betriebsrat, Gewerkschaft, Arbeitsagentur, Beratungsstellen"
+        ]
+      ],
+      "note": "কিছু সুরক্ষা Kündigungsschutzgesetz-এ (কোম্পানির আকার ও চাকরির সময়ের ওপর নির্ভর) আছে। এটি আইনি পরামর্শ নয় — কোনো সই করার আগে পরামর্শ নিন।"
+    },
+    {
+      "type": "table",
+      "title": "Rechte und Pflichten benennen",
+      "head": [
+        "Recht",
+        "Pflicht"
+      ],
+      "rows": [
+        [
+          "Anspruch auf Urlaub",
+          "Urlaub rechtzeitig beantragen"
+        ],
+        [
+          "Anspruch auf Gehalt",
+          "Arbeit pünktlich und sorgfältig erledigen"
+        ],
+        [
+          "Schutz bei Krankheit",
+          "unverzüglich melden, Bescheinigung vorlegen"
+        ],
+        [
+          "Mitbestimmung (Betriebsrat)",
+          "vertraulich mit Betriebsgeheimnissen umgehen"
+        ]
+      ],
+      "note": "Das Recht auf … / die Pflicht zu … — Nomen + Präposition: das Recht auf + Akk., die Pflicht zu + Dativ।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "die Krankmeldung",
+      "options": [
+        "সনদ",
+        "ছুটির আবেদন",
+        "অসুস্থতার সংবাদ",
+        "দাবির অধিকার"
+      ],
+      "answer": 2,
+      "why": "die Krankmeldung = অসুস্থতার সংবাদ।",
+      "word": "krankmeldung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "unverzüglich",
+      "options": [
+        "কর্মচারী পরিষদ",
+        "বিনা দেরিতে",
+        "ক্ষতিপূরণ",
+        "অসুস্থতার সংবাদ"
+      ],
+      "answer": 1,
+      "why": "unverzüglich = বিনা দেরিতে।",
+      "word": "unverzueglich"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "der Anspruch",
+      "options": [
+        "ক্ষতিপূরণ",
+        "অসুস্থতার সংবাদ",
+        "দাবির অধিকার",
+        "ছুটির আবেদন"
+      ],
+      "answer": 2,
+      "why": "der Anspruch = দাবির অধিকার।",
+      "word": "anspruch"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Gewerkschaft",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Gewerkschaft। বহুবচন: die Gewerkschaften।",
+      "word": "gewerkschaft"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„unverzüglich“ মানে কী?",
+      "options": [
+        "বিনা দেরিতে",
+        "ধীরে ধীরে",
+        "বছরে একবার",
+        "কখনো নয়"
+      ],
+      "answer": 0,
+      "why": "ohne schuldhaftes Zögern।",
+      "word": "unverzueglich"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক অব্যয় বেছে নিন",
+      "sub": "Sie haben einen Anspruch ___ 26 Urlaubstage.",
+      "options": [
+        "auf",
+        "zu",
+        "für",
+        "mit"
+      ],
+      "answer": 0,
+      "why": "Anspruch auf + Akk.",
+      "word": "anspruch"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Betriebsrat কী?",
+      "options": [
+        "কর্মচারী পরিষদ",
+        "ম্যানেজার",
+        "ব্যাংক",
+        "বিমা কোম্পানি"
+      ],
+      "answer": 0,
+      "why": "Vertretung der Beschäftigten।",
+      "word": "betriebsrat"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Aufhebungsvertrag-এ কী করা উচিত?",
+      "options": [
+        "সই করার আগে পরামর্শ নেওয়া",
+        "সাথে সাথে সই করা",
+        "কিছু না পড়া",
+        "ছিঁড়ে ফেলা"
+      ],
+      "answer": 0,
+      "why": "vorher beraten lassen।",
+      "word": "aufhebungsvertrag"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Recht“ আর „Pflicht“ — পার্থক্য কী?",
+      "options": [
+        "অধিকার বনাম দায়িত্ব",
+        "একই অর্থ",
+        "টাকা বনাম সময়",
+        "শাস্তি বনাম পুরস্কার"
+      ],
+      "answer": 0,
+      "why": "Recht ↔ Pflicht।",
+      "word": "recht"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „আমাকে বিনা দেরিতে জানাতে হয়।“",
+      "tiles": [
+        "unverzüglich",
+        "Sie müssen",
+        "melden.",
+        "sich"
+      ],
+      "answer": [
+        "Sie müssen",
+        "sich",
+        "unverzüglich",
+        "melden."
+      ],
+      "why": "Modalverb + reflexiv + Infinitiv।",
+      "word": "krankmeldung"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

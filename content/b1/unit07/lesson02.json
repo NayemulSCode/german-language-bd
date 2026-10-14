@@ -1,0 +1,1448 @@
+{
+  "level": "B1",
+  "unit": 7,
+  "minutes": 18,
+  "lesson": 2,
+  "id": "b1-u07-l02",
+  "title": {
+    "de": "Ein Gespräch mit dem Chef",
+    "bn": "কাজের দ্বন্দ্ব ও ভদ্র সমালোচনা",
+    "en": "Handling conflict and giving feedback"
+  },
+  "hook": {
+    "de": "Reden ist Silber, aber richtig reden ist Gold.",
+    "who": "Redensart",
+    "bn": "বলা রুপো, কিন্তু ঠিকভাবে বলা সোনা।",
+    "en": "Speaking well is gold."
+  },
+  "goals": [
+    "Kritik höflich äußern: Ich-Botschaften, Konjunktiv II",
+    "Konjunktiv II der Vergangenheit: Ich hätte mir gewünscht, …",
+    "Konflikte ansprechen und Lösungen vorschlagen",
+    "Missverständnisse klären"
+  ],
+  "words": [
+    {
+      "id": "konflikt",
+      "de": "Konflikt",
+      "art": "der",
+      "pl": "die Konflikte",
+      "pos": "বিশেষ্য",
+      "bn": "দ্বন্দ্ব",
+      "en": "conflict"
+    },
+    {
+      "id": "ansprechen",
+      "de": "ansprechen",
+      "pos": "ক্রিয়া · hat angesprochen",
+      "bn": "কথা তোলা",
+      "en": "to bring up"
+    },
+    {
+      "id": "klaeren",
+      "de": "klären",
+      "pos": "ক্রিয়া · hat geklärt",
+      "bn": "স্পষ্ট করা, মিটিয়ে নেওয়া",
+      "en": "to clarify"
+    },
+    {
+      "id": "vorgesetzte",
+      "de": "Vorgesetzte",
+      "art": "der",
+      "pl": "die Vorgesetzten",
+      "pos": "বিশেষ্য",
+      "bn": "উর্ধ্বতন কর্মকর্তা",
+      "en": "superior, boss"
+    },
+    {
+      "id": "absprache",
+      "de": "Absprache",
+      "art": "die",
+      "pl": "die Absprachen",
+      "pos": "বিশেষ্য",
+      "bn": "আগাম সমঝোতা",
+      "en": "agreement, arrangement"
+    },
+    {
+      "id": "verstaendnis",
+      "de": "Verständnis",
+      "art": "das",
+      "pos": "বিশেষ্য",
+      "bn": "সহানুভূতি, বোধ",
+      "en": "understanding"
+    },
+    {
+      "id": "loesung",
+      "de": "Lösung",
+      "art": "die",
+      "pl": "die Lösungen",
+      "pos": "বিশেষ্য",
+      "bn": "সমাধান",
+      "en": "solution"
+    },
+    {
+      "id": "vorwurf",
+      "de": "Vorwurf",
+      "art": "der",
+      "pl": "die Vorwürfe",
+      "pos": "বিশেষ্য",
+      "bn": "অভিযোগ",
+      "en": "reproach"
+    },
+    {
+      "id": "hilfreich",
+      "de": "hilfreich",
+      "pos": "বিশেষণ",
+      "bn": "সহায়ক",
+      "en": "helpful"
+    },
+    {
+      "id": "klar",
+      "de": "klar",
+      "pos": "বিশেষণ",
+      "bn": "স্পষ্ট",
+      "en": "clear"
+    },
+    {
+      "id": "wuenschen",
+      "de": "wünschen",
+      "pos": "ক্রিয়া · hat gewünscht",
+      "bn": "আশা করা, কামনা করা",
+      "en": "to wish"
+    },
+    {
+      "id": "zustaendigkeit",
+      "de": "Zuständigkeit",
+      "art": "die",
+      "pl": "die Zuständigkeiten",
+      "pos": "বিশেষ্য",
+      "bn": "দায়িত্বের এখতিয়ার",
+      "en": "responsibility, remit"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Saheb",
+      "bn": [
+        "শুভ",
+        "সকাল,",
+        "মিস্টার",
+        "ব্রাউন।",
+        "আপনার",
+        "কি",
+        "পাঁচ",
+        "মিনিট",
+        "সময়",
+        "আছে?",
+        "আমি",
+        "একটা",
+        "বিষয়",
+        "নিয়ে",
+        "কথা",
+        "বলতে",
+        "চাই।"
+      ],
+      "en": [
+        "Good",
+        "morning,",
+        "Mr",
+        "Braun.",
+        "Do",
+        "you",
+        "have",
+        "five",
+        "minutes?",
+        "I",
+        "would",
+        "like",
+        "to",
+        "speak",
+        "about",
+        "something."
+      ],
+      "de": [
+        {
+          "t": "Guten Morgen,",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Guten Morgen",
+          "gb": "শুভ সকাল",
+          "ge": "Good morning",
+          "n": ""
+        },
+        {
+          "t": "Herr Braun.",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "Herr Braun",
+          "gb": "মিস্টার ব্রাউন",
+          "ge": "Mr Braun",
+          "n": ""
+        },
+        {
+          "t": "Haben Sie",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            4,
+            5,
+            6
+          ],
+          "l": "Haben Sie",
+          "gb": "আপনার কি",
+          "ge": "Do you have",
+          "n": ""
+        },
+        {
+          "t": "fünf Minuten Zeit?",
+          "b": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "fünf Minuten Zeit",
+          "gb": "পাঁচ মিনিট সময় আছে",
+          "ge": "five minutes",
+          "n": ""
+        },
+        {
+          "t": "Ich möchte",
+          "b": [
+            10,
+            16
+          ],
+          "e": [
+            9,
+            10,
+            11
+          ],
+          "l": "Ich möchte",
+          "gb": "আমি চাই",
+          "ge": "I would like",
+          "n": ""
+        },
+        {
+          "t": "etwas ansprechen.",
+          "b": [
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "e": [
+            12,
+            13,
+            14,
+            15
+          ],
+          "l": "ansprechen",
+          "gb": "একটা বিষয় নিয়ে কথা বলতে",
+          "ge": "to speak about something",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Herr Braun",
+      "bn": [
+        "অবশ্যই।",
+        "বলুন।"
+      ],
+      "en": [
+        "Of",
+        "course.",
+        "Go",
+        "ahead."
+      ],
+      "de": [
+        {
+          "t": "Natürlich.",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Natürlich",
+          "gb": "অবশ্যই",
+          "ge": "Of course",
+          "n": ""
+        },
+        {
+          "t": "Bitte",
+          "b": [
+            1
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "Bitte",
+          "gb": "বলুন",
+          "ge": "Go ahead",
+          "n": ""
+        },
+        {
+          "t": "sehr.",
+          "b": [],
+          "e": [],
+          "l": "sehr",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "গত",
+        "সপ্তাহে",
+        "আমাকে",
+        "হঠাৎ",
+        "অন্য",
+        "একটা",
+        "কাজ",
+        "দেওয়া",
+        "হলো।",
+        "আমি",
+        "অসুবিধায়",
+        "পড়েছিলাম।",
+        "আমার",
+        "আশা",
+        "ছিল,",
+        "আগে",
+        "থেকে",
+        "আমাকে",
+        "জানানো",
+        "হতো।"
+      ],
+      "en": [
+        "Last",
+        "week",
+        "I",
+        "was",
+        "suddenly",
+        "given",
+        "another",
+        "task.",
+        "I",
+        "got",
+        "into",
+        "difficulty.",
+        "I",
+        "would",
+        "have",
+        "wished",
+        "to",
+        "be",
+        "told",
+        "in",
+        "advance."
+      ],
+      "de": [
+        {
+          "t": "Letzte Woche",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Letzte Woche",
+          "gb": "গত সপ্তাহে",
+          "ge": "Last week",
+          "n": ""
+        },
+        {
+          "t": "wurde mir",
+          "b": [
+            2,
+            7,
+            8
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "wurde mir",
+          "gb": "আমাকে দেওয়া হলো",
+          "ge": "I was",
+          "n": ""
+        },
+        {
+          "t": "plötzlich",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "plötzlich",
+          "gb": "হঠাৎ",
+          "ge": "suddenly",
+          "n": ""
+        },
+        {
+          "t": "eine andere Aufgabe",
+          "b": [
+            4,
+            5,
+            6
+          ],
+          "e": [
+            5,
+            6,
+            7
+          ],
+          "l": "eine andere Aufgabe",
+          "gb": "অন্য একটা কাজ",
+          "ge": "given another task",
+          "n": ""
+        },
+        {
+          "t": "gegeben.",
+          "b": [],
+          "e": [],
+          "l": "gegeben",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Das hat mich",
+          "b": [
+            9
+          ],
+          "e": [
+            8,
+            9
+          ],
+          "l": "Das hat mich",
+          "gb": "আমি",
+          "ge": "I got",
+          "n": ""
+        },
+        {
+          "t": "in Schwierigkeiten gebracht.",
+          "b": [
+            10,
+            11
+          ],
+          "e": [
+            10,
+            11
+          ],
+          "l": "in Schwierigkeiten gebracht",
+          "gb": "অসুবিধায় পড়েছিলাম",
+          "ge": "into difficulty",
+          "n": ""
+        },
+        {
+          "t": "Ich hätte mir",
+          "b": [
+            12
+          ],
+          "e": [
+            12,
+            13,
+            14
+          ],
+          "l": "Ich hätte mir",
+          "gb": "আমার",
+          "ge": "I would have",
+          "n": ""
+        },
+        {
+          "t": "gewünscht,",
+          "b": [
+            13,
+            14
+          ],
+          "e": [
+            15
+          ],
+          "l": "wünschen",
+          "gb": "আশা ছিল",
+          "ge": "wished",
+          "n": "Konjunktiv II der Vergangenheit: hätte … gewünscht"
+        },
+        {
+          "t": "vorher",
+          "b": [
+            15,
+            16
+          ],
+          "e": [
+            19,
+            20
+          ],
+          "l": "vorher",
+          "gb": "আগে থেকে",
+          "ge": "in advance",
+          "n": ""
+        },
+        {
+          "t": "informiert zu werden.",
+          "b": [
+            17,
+            18,
+            19
+          ],
+          "e": [
+            16,
+            17,
+            18
+          ],
+          "l": "informiert zu werden",
+          "gb": "আমাকে জানানো হতো",
+          "ge": "to be told",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Herr Braun",
+      "bn": [
+        "আপনি",
+        "ঠিক",
+        "বলছেন।",
+        "আমি",
+        "সেটা",
+        "আগে",
+        "বলা",
+        "উচিত",
+        "ছিল।",
+        "কিন্তু",
+        "অন্য",
+        "কর্মীর",
+        "অসুস্থতার",
+        "কারণে",
+        "আমার",
+        "কাছে",
+        "সময়",
+        "ছিল",
+        "না।"
+      ],
+      "en": [
+        "You",
+        "are",
+        "right.",
+        "I",
+        "should",
+        "have",
+        "said",
+        "it",
+        "earlier.",
+        "But",
+        "because",
+        "of",
+        "another",
+        "employee’s",
+        "illness",
+        "I",
+        "had",
+        "no",
+        "time."
+      ],
+      "de": [
+        {
+          "t": "Sie haben recht.",
+          "b": [
+            0,
+            1,
+            2
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "Sie haben recht",
+          "gb": "আপনি ঠিক বলছেন",
+          "ge": "You are right",
+          "n": ""
+        },
+        {
+          "t": "Ich hätte",
+          "b": [
+            14
+          ],
+          "e": [
+            3,
+            4,
+            5
+          ],
+          "l": "Ich hätte",
+          "gb": "আমার",
+          "ge": "I should have",
+          "n": ""
+        },
+        {
+          "t": "es früher",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            6,
+            7,
+            8
+          ],
+          "l": "es früher",
+          "gb": "সেটা আগে",
+          "ge": "said it earlier",
+          "n": ""
+        },
+        {
+          "t": "sagen sollen.",
+          "b": [
+            6,
+            7,
+            8
+          ],
+          "e": [],
+          "l": "sagen sollen",
+          "gb": "বলা উচিত ছিল",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Aber",
+          "b": [
+            9
+          ],
+          "e": [
+            9
+          ],
+          "l": "Aber",
+          "gb": "কিন্তু",
+          "ge": "But",
+          "n": ""
+        },
+        {
+          "t": "wegen der Krankheit",
+          "b": [
+            12,
+            13
+          ],
+          "e": [
+            10,
+            11
+          ],
+          "l": "wegen der Krankheit",
+          "gb": "অসুস্থতার কারণে",
+          "ge": "because of",
+          "n": ""
+        },
+        {
+          "t": "eines anderen Mitarbeiters",
+          "b": [
+            10,
+            11
+          ],
+          "e": [
+            12,
+            13,
+            14
+          ],
+          "l": "eines anderen Mitarbeiters",
+          "gb": "অন্য কর্মীর",
+          "ge": "another employee’s illness",
+          "n": ""
+        },
+        {
+          "t": "hatte ich",
+          "b": [
+            14,
+            17
+          ],
+          "e": [
+            15,
+            16
+          ],
+          "l": "hatte ich",
+          "gb": "আমার ছিল",
+          "ge": "I had",
+          "n": ""
+        },
+        {
+          "t": "keine Zeit.",
+          "b": [
+            16,
+            18
+          ],
+          "e": [
+            17,
+            18
+          ],
+          "l": "keine Zeit",
+          "gb": "সময় না",
+          "ge": "no time",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "বুঝি।",
+        "তবু",
+        "সামনে",
+        "কি",
+        "আমরা",
+        "একটা",
+        "স্পষ্ট",
+        "আগাম",
+        "সমঝোতা",
+        "করতে",
+        "পারি?",
+        "তাহলে",
+        "আমি",
+        "আমার",
+        "কাজ",
+        "ভালো",
+        "পরিকল্পনা",
+        "করতে",
+        "পারব।"
+      ],
+      "en": [
+        "I",
+        "understand.",
+        "Still,",
+        "could",
+        "we",
+        "make",
+        "a",
+        "clear",
+        "arrangement",
+        "for",
+        "the",
+        "future?",
+        "Then",
+        "I",
+        "could",
+        "plan",
+        "my",
+        "work",
+        "better."
+      ],
+      "de": [
+        {
+          "t": "Ich verstehe",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Ich verstehe",
+          "gb": "আমি বুঝি",
+          "ge": "I understand",
+          "n": ""
+        },
+        {
+          "t": "das.",
+          "b": [],
+          "e": [],
+          "l": "das",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Könnten wir",
+          "b": [
+            5,
+            4,
+            10,
+            11
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "Könnten wir",
+          "gb": "আমরা কি করতে পারি",
+          "ge": "could we",
+          "n": ""
+        },
+        {
+          "t": "für die Zukunft",
+          "b": [
+            3
+          ],
+          "e": [
+            9,
+            10,
+            11
+          ],
+          "l": "für die Zukunft",
+          "gb": "সামনে",
+          "ge": "for the future",
+          "n": ""
+        },
+        {
+          "t": "eine klare Absprache",
+          "b": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "e": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "l": "Absprache",
+          "gb": "একটা স্পষ্ট আগাম সমঝোতা",
+          "ge": "make a clear arrangement",
+          "n": ""
+        },
+        {
+          "t": "treffen?",
+          "b": [],
+          "e": [],
+          "l": "treffen",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Dann",
+          "b": [
+            12
+          ],
+          "e": [
+            12
+          ],
+          "l": "Dann",
+          "gb": "তাহলে",
+          "ge": "Then",
+          "n": ""
+        },
+        {
+          "t": "könnte ich",
+          "b": [
+            13,
+            19
+          ],
+          "e": [
+            13,
+            14
+          ],
+          "l": "könnte ich",
+          "gb": "আমি পারব",
+          "ge": "I could",
+          "n": ""
+        },
+        {
+          "t": "meine Arbeit",
+          "b": [
+            14,
+            15
+          ],
+          "e": [
+            16,
+            17
+          ],
+          "l": "meine Arbeit",
+          "gb": "আমার কাজ",
+          "ge": "my work",
+          "n": ""
+        },
+        {
+          "t": "besser planen.",
+          "b": [
+            16,
+            17,
+            18
+          ],
+          "e": [
+            15,
+            18
+          ],
+          "l": "besser planen",
+          "gb": "ভালো পরিকল্পনা করতে",
+          "ge": "plan better",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Herr Braun",
+      "bn": [
+        "ভালো",
+        "প্রস্তাব।",
+        "আমি",
+        "আপনাকে",
+        "অন্তত",
+        "এক",
+        "দিন",
+        "আগে",
+        "জানাব।",
+        "আর",
+        "আপনার",
+        "কোনো",
+        "কাজ",
+        "নিয়ে",
+        "সমস্যা",
+        "হলে",
+        "আপনিও",
+        "সরাসরি",
+        "আমাকে",
+        "বলুন।"
+      ],
+      "en": [
+        "Good",
+        "suggestion.",
+        "I",
+        "will",
+        "inform",
+        "you",
+        "at",
+        "least",
+        "one",
+        "day",
+        "in",
+        "advance.",
+        "And",
+        "if",
+        "you",
+        "have",
+        "problems",
+        "with",
+        "a",
+        "task,",
+        "please",
+        "tell",
+        "me",
+        "directly",
+        "too."
+      ],
+      "de": [
+        {
+          "t": "Guter Vorschlag.",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Guter Vorschlag",
+          "gb": "ভালো প্রস্তাব",
+          "ge": "Good suggestion",
+          "n": ""
+        },
+        {
+          "t": "Ich informiere",
+          "b": [
+            2,
+            8
+          ],
+          "e": [
+            2,
+            3,
+            4
+          ],
+          "l": "Ich informiere",
+          "gb": "আমি জানাব",
+          "ge": "I will inform",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [
+            3
+          ],
+          "e": [
+            5
+          ],
+          "l": "Sie",
+          "gb": "আপনাকে",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "mindestens",
+          "b": [
+            4
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "mindestens",
+          "gb": "অন্তত",
+          "ge": "at least",
+          "n": ""
+        },
+        {
+          "t": "einen Tag vorher.",
+          "b": [
+            5,
+            6,
+            7
+          ],
+          "e": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "l": "einen Tag vorher",
+          "gb": "এক দিন আগে",
+          "ge": "one day in advance",
+          "n": ""
+        },
+        {
+          "t": "Und",
+          "b": [
+            9
+          ],
+          "e": [
+            12
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "wenn Sie",
+          "b": [
+            10
+          ],
+          "e": [
+            13,
+            14
+          ],
+          "l": "wenn Sie",
+          "gb": "আপনার",
+          "ge": "if you",
+          "n": ""
+        },
+        {
+          "t": "Probleme haben,",
+          "b": [
+            14,
+            15
+          ],
+          "e": [
+            15,
+            16
+          ],
+          "l": "Probleme haben",
+          "gb": "সমস্যা হলে",
+          "ge": "have problems",
+          "n": ""
+        },
+        {
+          "t": "sagen Sie",
+          "b": [
+            19
+          ],
+          "e": [
+            20,
+            21
+          ],
+          "l": "sagen Sie",
+          "gb": "বলুন",
+          "ge": "please tell",
+          "n": ""
+        },
+        {
+          "t": "es mir",
+          "b": [
+            18
+          ],
+          "e": [
+            22
+          ],
+          "l": "es mir",
+          "gb": "আমাকে",
+          "ge": "me",
+          "n": ""
+        },
+        {
+          "t": "direkt.",
+          "b": [
+            17
+          ],
+          "e": [
+            23,
+            24
+          ],
+          "l": "direkt",
+          "gb": "সরাসরি",
+          "ge": "directly too",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "অনেক",
+        "ধন্যবাদ।",
+        "আপনার",
+        "বোঝাপড়া",
+        "আমার",
+        "কাছে",
+        "সহায়ক।"
+      ],
+      "en": [
+        "Thank",
+        "you",
+        "very",
+        "much.",
+        "Your",
+        "understanding",
+        "is",
+        "helpful",
+        "to",
+        "me."
+      ],
+      "de": [
+        {
+          "t": "Vielen Dank.",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "l": "Vielen Dank",
+          "gb": "অনেক ধন্যবাদ",
+          "ge": "Thank you very much",
+          "n": ""
+        },
+        {
+          "t": "Ihr Verständnis",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "Verständnis",
+          "gb": "আপনার বোঝাপড়া",
+          "ge": "Your understanding",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            6
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "hilfreich",
+          "b": [
+            6
+          ],
+          "e": [
+            7
+          ],
+          "l": "hilfreich",
+          "gb": "সহায়ক",
+          "ge": "helpful",
+          "n": ""
+        },
+        {
+          "t": "für mich.",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            8,
+            9
+          ],
+          "l": "für mich",
+          "gb": "আমার কাছে",
+          "ge": "to me",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "Kritik höflich äußern",
+      "head": [
+        "Unhöflich",
+        "Höflich (Ich-Botschaft / Konjunktiv II)"
+      ],
+      "rows": [
+        [
+          "Sie haben mich nicht informiert!",
+          "Ich hätte mir gewünscht, früher informiert zu werden."
+        ],
+        [
+          "Das ist falsch!",
+          "Ich sehe das etwas anders. Könnten wir das noch einmal ansehen?"
+        ],
+        [
+          "Sie machen immer Fehler.",
+          "Mir ist aufgefallen, dass hier ein Fehler passiert ist."
+        ],
+        [
+          "Hört auf damit!",
+          "Es wäre hilfreich, wenn wir das anders machen würden."
+        ]
+      ],
+      "note": "Ich-Botschaft: আপনার অনুভূতি/প্রয়োজন বলুন, অন্যকে দোষ দেবেন না। „Es wäre schön/hilfreich, wenn …“ ভদ্র অনুরোধ।"
+    },
+    {
+      "type": "table",
+      "title": "Konjunktiv II der Vergangenheit",
+      "head": [
+        "Verb",
+        "Form",
+        "Beispiel"
+      ],
+      "rows": [
+        [
+          "wünschen",
+          "ich hätte … gewünscht",
+          "Ich hätte mir gewünscht, dass man mich informiert."
+        ],
+        [
+          "sagen + sollen",
+          "ich hätte … sagen sollen",
+          "Ich hätte es früher sagen sollen."
+        ],
+        [
+          "kommen",
+          "ich wäre … gekommen",
+          "Ich wäre gekommen, wenn ich Bescheid gewusst hätte."
+        ],
+        [
+          "können",
+          "ich hätte … können",
+          "Ich hätte helfen können."
+        ]
+      ],
+      "note": "অতীতের অসম্পূর্ণ সম্ভাবনা বা আফসোস। „Wenn ich es gewusst hätte, wäre ich gekommen.“ (জানলে আসতাম)।"
+    },
+    {
+      "type": "table",
+      "title": "Konflikte lösen: Schritte",
+      "head": [
+        "Schritt",
+        "Satz"
+      ],
+      "rows": [
+        [
+          "Gesprächsbereitschaft",
+          "Haben Sie kurz Zeit? Ich möchte etwas ansprechen."
+        ],
+        [
+          "Situation beschreiben",
+          "Letzte Woche wurde mir plötzlich eine andere Aufgabe gegeben."
+        ],
+        [
+          "Gefühl / Wirkung",
+          "Das hat mich in Schwierigkeiten gebracht."
+        ],
+        [
+          "Wunsch / Bitte",
+          "Ich hätte mir gewünscht, vorher informiert zu werden."
+        ],
+        [
+          "Lösung vorschlagen",
+          "Könnten wir eine klare Absprache treffen?"
+        ],
+        [
+          "Abschluss",
+          "Vielen Dank für Ihr Verständnis."
+        ]
+      ],
+      "note": "ধাপগুলো সাজিয়ে বললে সংঘাত না বেড়ে সমাধান সহজ হয়। শেষে ধন্যবাদ জানাতে ভুলবেন না।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "der Konflikt",
+      "options": [
+        "সহানুভূতি",
+        "দ্বন্দ্ব",
+        "অভিযোগ",
+        "স্পষ্ট"
+      ],
+      "answer": 1,
+      "why": "der Konflikt = দ্বন্দ্ব।",
+      "word": "konflikt"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "ansprechen",
+      "options": [
+        "কথা তোলা",
+        "দায়িত্বের এখতিয়ার",
+        "উর্ধ্বতন কর্মকর্তা",
+        "সমাধান"
+      ],
+      "answer": 0,
+      "why": "ansprechen = কথা তোলা।",
+      "word": "ansprechen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "die Absprache",
+      "options": [
+        "সমাধান",
+        "স্পষ্ট",
+        "দ্বন্দ্ব",
+        "আগাম সমঝোতা"
+      ],
+      "answer": 3,
+      "why": "die Absprache = আগাম সমঝোতা।",
+      "word": "absprache"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Zuständigkeit",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Zuständigkeit। বহুবচন: die Zuständigkeiten।",
+      "word": "zustaendigkeit"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Ich hätte es früher sagen sollen“ মানে কী?",
+      "options": [
+        "আমার আগে বলা উচিত ছিল",
+        "আমি আগে বলেছি",
+        "আমি পরে বলব",
+        "আমি বলতে পারি না"
+      ],
+      "answer": 0,
+      "why": "hätte … sollen = should have।",
+      "word": "wuenschen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ich wäre gekommen, wenn ich Bescheid ___.",
+      "options": [
+        "gewusst hätte",
+        "wusste hätte",
+        "weiß hätte",
+        "hätte gewusst"
+      ],
+      "answer": 0,
+      "why": "Nebensatz: Partizip + hätte।",
+      "word": "klaeren"
+    },
+    {
+      "type": "mcq",
+      "prompt": "কোনটি Ich-Botschaft?",
+      "options": [
+        "Ich hätte mir gewünscht, früher informiert zu werden.",
+        "Du informierst mich nie.",
+        "Das ist dein Fehler.",
+        "Ihr seid immer zu spät."
+      ],
+      "answer": 0,
+      "why": "আমার অনুভূতি বলা।",
+      "word": "vorwurf"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Verständnis“ মানে কী?",
+      "options": [
+        "সহানুভূতি, বোধ",
+        "পরীক্ষা",
+        "টাকা",
+        "ঘুম"
+      ],
+      "answer": 0,
+      "why": "das Verständnis।",
+      "word": "verstaendnis"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„hilfreich“ এর অর্থ কী?",
+      "options": [
+        "সহায়ক",
+        "কঠিন",
+        "ধীর",
+        "দামি"
+      ],
+      "answer": 0,
+      "why": "hilfreich।",
+      "word": "hilfreich"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „আমি কিছু বলতে চাই।“",
+      "tiles": [
+        "ansprechen.",
+        "etwas",
+        "Ich möchte"
+      ],
+      "answer": [
+        "Ich möchte",
+        "etwas",
+        "ansprechen."
+      ],
+      "why": "Modalverb + Infinitiv।",
+      "word": "ansprechen"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

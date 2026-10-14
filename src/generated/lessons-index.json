@@ -1566,5 +1566,61 @@
     "status": "draft",
     "minutes": 18,
     "words": 12
+  },
+  {
+    "id": "b1-u07-l01",
+    "level": "B1",
+    "unit": 7,
+    "lesson": 1,
+    "title": {
+      "bn": "কাজের দৈনন্দিন জীবন ও শিফট",
+      "en": "My working day and shift work",
+      "de": "Mein Arbeitsalltag"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u07-l02",
+    "level": "B1",
+    "unit": 7,
+    "lesson": 2,
+    "title": {
+      "bn": "কাজের দ্বন্দ্ব ও ভদ্র সমালোচনা",
+      "en": "Handling conflict and giving feedback",
+      "de": "Ein Gespräch mit dem Chef"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u07-l03",
+    "level": "B1",
+    "unit": 7,
+    "lesson": 3,
+    "title": {
+      "bn": "টিম মিটিং ও কার্যবিবরণী (Protokoll)",
+      "en": "The team meeting and the minutes",
+      "de": "Die Teambesprechung"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u07-l04",
+    "level": "B1",
+    "unit": 7,
+    "lesson": 4,
+    "title": {
+      "bn": "অসুস্থতা, ছুটি ও চাকরি ছাড়া: অধিকার ও দায়িত্ব",
+      "en": "Sick leave, holiday, termination: rights and duties",
+      "de": "Krank, Urlaub, Kündigung"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
   }
 ]
