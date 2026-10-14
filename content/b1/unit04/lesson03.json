@@ -1,0 +1,1259 @@
+{
+  "level": "B1",
+  "unit": 4,
+  "minutes": 18,
+  "lesson": 3,
+  "id": "b1-u04-l03",
+  "title": {
+    "de": "Arbeiten und weiterlernen",
+    "bn": "কাজের পাশাপাশি পড়াশোনা: während, seit, bis, solange",
+    "en": "Working and continuing to learn"
+  },
+  "hook": {
+    "de": "Man lernt nie aus.",
+    "who": "Redensart",
+    "bn": "শেখার শেষ নেই।",
+    "en": "You never stop learning."
+  },
+  "goals": [
+    "Fortbildung, Weiterbildung, Umschulung unterscheiden",
+    "während, seit, bis, solange, sobald",
+    "Passiv: Die Hälfte wird übernommen",
+    "Bildungsurlaub, Kosten, Zeit"
+  ],
+  "words": [
+    {
+      "id": "fortbildung",
+      "de": "Fortbildung",
+      "art": "die",
+      "pl": "die Fortbildungen",
+      "pos": "বিশেষ্য",
+      "bn": "পেশাগত প্রশিক্ষণ (বর্তমান কাজে)",
+      "en": "professional training"
+    },
+    {
+      "id": "umschulung",
+      "de": "Umschulung",
+      "art": "die",
+      "pl": "die Umschulungen",
+      "pos": "বিশেষ্য",
+      "bn": "নতুন পেশায় পুনঃপ্রশিক্ষণ",
+      "en": "retraining"
+    },
+    {
+      "id": "abendkurs",
+      "de": "Abendkurs",
+      "art": "der",
+      "pl": "die Abendkurse",
+      "pos": "বিশেষ্য",
+      "bn": "সন্ধ্যার কোর্স",
+      "en": "evening course"
+    },
+    {
+      "id": "elektrotechnik",
+      "de": "Elektrotechnik",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "ইলেকট্রোটেকনিক",
+      "en": "electrical engineering"
+    },
+    {
+      "id": "tagsueber",
+      "de": "tagsüber",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "দিনের বেলা",
+      "en": "during the day"
+    },
+    {
+      "id": "solange",
+      "de": "solange",
+      "pos": "সংযোজক",
+      "bn": "যতক্ষণ/যতদিন",
+      "en": "as long as"
+    },
+    {
+      "id": "freizeit",
+      "de": "Freizeit",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "অবসর সময়",
+      "en": "free time"
+    },
+    {
+      "id": "uebernehmen",
+      "de": "übernehmen",
+      "pos": "ক্রিয়া · hat übernommen",
+      "bn": "বহন করা (খরচ)",
+      "en": "to take over, to bear"
+    },
+    {
+      "id": "arbeitgeber",
+      "de": "Arbeitgeber",
+      "art": "der",
+      "pl": "die Arbeitgeber",
+      "pos": "বিশেষ্য",
+      "bn": "নিয়োগকর্তা",
+      "en": "employer"
+    },
+    {
+      "id": "bildungsurlaub",
+      "de": "Bildungsurlaub",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "শিক্ষা-ছুটি (বেতনসহ)",
+      "en": "educational leave"
+    },
+    {
+      "id": "kollege",
+      "de": "Kollege",
+      "art": "der",
+      "pl": "die Kollegen",
+      "pos": "বিশেষ্য",
+      "bn": "সহকর্মী",
+      "en": "colleague"
+    },
+    {
+      "id": "pruefung",
+      "de": "Prüfung",
+      "art": "die",
+      "pl": "die Prüfungen",
+      "pos": "বিশেষ্য",
+      "bn": "পরীক্ষা",
+      "en": "exam"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Tom",
+      "bn": [
+        "তোমাকে",
+        "ক্লান্ত",
+        "দেখাচ্ছে।"
+      ],
+      "en": [
+        "You",
+        "look",
+        "tired."
+      ],
+      "de": [
+        {
+          "t": "Du",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Du",
+          "gb": "তোমাকে",
+          "ge": "You",
+          "n": ""
+        },
+        {
+          "t": "siehst",
+          "b": [
+            2
+          ],
+          "e": [
+            1
+          ],
+          "l": "siehst",
+          "gb": "দেখাচ্ছে",
+          "ge": "look",
+          "n": ""
+        },
+        {
+          "t": "müde",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "müde",
+          "gb": "ক্লান্ত",
+          "ge": "tired",
+          "n": ""
+        },
+        {
+          "t": "aus.",
+          "b": [],
+          "e": [],
+          "l": "aus",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "তিন",
+        "মাস",
+        "ধরে",
+        "আমি",
+        "ইলেকট্রোটেকনিকের",
+        "একটি",
+        "সন্ধ্যার",
+        "কোর্স",
+        "করছি,",
+        "আর",
+        "দিনের",
+        "বেলা",
+        "কাজ",
+        "করি।"
+      ],
+      "en": [
+        "For",
+        "three",
+        "months",
+        "I",
+        "have",
+        "been",
+        "taking",
+        "an",
+        "evening",
+        "course",
+        "in",
+        "electrical",
+        "engineering,",
+        "and",
+        "I",
+        "work",
+        "during",
+        "the",
+        "day."
+      ],
+      "de": [
+        {
+          "t": "Seit drei Monaten",
+          "b": [
+            0,
+            1,
+            2
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "Seit drei Monaten",
+          "gb": "তিন মাস ধরে",
+          "ge": "For three months",
+          "n": ""
+        },
+        {
+          "t": "besuche ich",
+          "b": [
+            3,
+            8
+          ],
+          "e": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "l": "besuche ich",
+          "gb": "আমি করছি",
+          "ge": "I have been taking",
+          "n": ""
+        },
+        {
+          "t": "einen Abendkurs",
+          "b": [
+            5,
+            6,
+            7
+          ],
+          "e": [
+            7,
+            8,
+            9
+          ],
+          "l": "Abendkurs",
+          "gb": "একটি সন্ধ্যার কোর্স",
+          "ge": "an evening course",
+          "n": ""
+        },
+        {
+          "t": "in Elektrotechnik,",
+          "b": [
+            4
+          ],
+          "e": [
+            10,
+            11,
+            12
+          ],
+          "l": "in Elektrotechnik",
+          "gb": "ইলেকট্রোটেকনিকের",
+          "ge": "in electrical engineering",
+          "n": ""
+        },
+        {
+          "t": "während",
+          "b": [
+            9
+          ],
+          "e": [
+            13
+          ],
+          "l": "während",
+          "gb": "আর",
+          "ge": "and",
+          "n": "während = যখন (একই সময়ে); Nebensatz oder + Genitiv"
+        },
+        {
+          "t": "ich",
+          "b": [
+            3
+          ],
+          "e": [
+            14
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "tagsüber",
+          "b": [
+            10,
+            11
+          ],
+          "e": [
+            16,
+            17,
+            18
+          ],
+          "l": "tagsüber",
+          "gb": "দিনের বেলা",
+          "ge": "during the day",
+          "n": ""
+        },
+        {
+          "t": "arbeite.",
+          "b": [
+            12,
+            13
+          ],
+          "e": [
+            15
+          ],
+          "l": "arbeite",
+          "gb": "কাজ করি",
+          "ge": "work",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Tom",
+      "bn": [
+        "কোর্স",
+        "কতদিন",
+        "চলবে?"
+      ],
+      "en": [
+        "How",
+        "long",
+        "does",
+        "the",
+        "course",
+        "last?"
+      ],
+      "de": [
+        {
+          "t": "Wie lange",
+          "b": [
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Wie lange",
+          "gb": "কতদিন",
+          "ge": "How long",
+          "n": ""
+        },
+        {
+          "t": "dauert",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "dauert",
+          "gb": "চলবে",
+          "ge": "does",
+          "n": ""
+        },
+        {
+          "t": "der Kurs?",
+          "b": [
+            0
+          ],
+          "e": [
+            3,
+            4,
+            5
+          ],
+          "l": "der Kurs",
+          "gb": "কোর্স",
+          "ge": "the course last",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "গ্রীষ্ম",
+        "পর্যন্ত।",
+        "কোর্স",
+        "যতদিন",
+        "চলে,",
+        "আমার",
+        "অবসর",
+        "খুব",
+        "কম।"
+      ],
+      "en": [
+        "Until",
+        "the",
+        "summer.",
+        "As",
+        "long",
+        "as",
+        "the",
+        "course",
+        "runs,",
+        "I",
+        "have",
+        "little",
+        "free",
+        "time."
+      ],
+      "de": [
+        {
+          "t": "Bis zum Sommer.",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "Bis zum Sommer",
+          "gb": "গ্রীষ্ম পর্যন্ত",
+          "ge": "Until the summer",
+          "n": ""
+        },
+        {
+          "t": "Solange",
+          "b": [
+            3
+          ],
+          "e": [
+            3,
+            4,
+            5
+          ],
+          "l": "solange",
+          "gb": "যতদিন",
+          "ge": "As long as",
+          "n": ""
+        },
+        {
+          "t": "der Kurs",
+          "b": [
+            2
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "der Kurs",
+          "gb": "কোর্স",
+          "ge": "the course",
+          "n": ""
+        },
+        {
+          "t": "läuft,",
+          "b": [
+            4
+          ],
+          "e": [
+            8
+          ],
+          "l": "läuft",
+          "gb": "চলে",
+          "ge": "runs",
+          "n": ""
+        },
+        {
+          "t": "habe ich",
+          "b": [
+            5
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "habe ich",
+          "gb": "আমার",
+          "ge": "I have",
+          "n": ""
+        },
+        {
+          "t": "wenig Freizeit.",
+          "b": [
+            6,
+            7,
+            8
+          ],
+          "e": [
+            11,
+            12,
+            13
+          ],
+          "l": "Freizeit",
+          "gb": "অবসর খুব কম",
+          "ge": "little free time",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Tom",
+      "bn": [
+        "কেন",
+        "তুমি",
+        "এটা",
+        "করছ?"
+      ],
+      "en": [
+        "Why",
+        "are",
+        "you",
+        "doing",
+        "it?"
+      ],
+      "de": [
+        {
+          "t": "Warum",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Warum",
+          "gb": "কেন",
+          "ge": "Why",
+          "n": ""
+        },
+        {
+          "t": "machst",
+          "b": [
+            3
+          ],
+          "e": [
+            1
+          ],
+          "l": "machst",
+          "gb": "করছ",
+          "ge": "are",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "das?",
+          "b": [
+            2
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "das",
+          "gb": "এটা",
+          "ge": "doing it",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "কারণ",
+        "প্রশিক্ষণের",
+        "পর",
+        "আমি",
+        "আরও",
+        "দায়িত্ব",
+        "নিতে",
+        "আর",
+        "বেশি",
+        "আয়",
+        "করতে",
+        "পারব।"
+      ],
+      "en": [
+        "Because",
+        "after",
+        "the",
+        "training",
+        "I",
+        "will",
+        "be",
+        "able",
+        "to",
+        "take",
+        "on",
+        "more",
+        "responsibility",
+        "and",
+        "earn",
+        "more."
+      ],
+      "de": [
+        {
+          "t": "Weil",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Weil",
+          "gb": "কারণ",
+          "ge": "Because",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "nach der Fortbildung",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            1,
+            2,
+            3
+          ],
+          "l": "Fortbildung",
+          "gb": "প্রশিক্ষণের পর",
+          "ge": "after the training",
+          "n": ""
+        },
+        {
+          "t": "mehr Verantwortung",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            11,
+            12
+          ],
+          "l": "mehr Verantwortung",
+          "gb": "আরও দায়িত্ব",
+          "ge": "more responsibility",
+          "n": ""
+        },
+        {
+          "t": "übernehmen",
+          "b": [
+            6
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "übernehmen",
+          "gb": "নিতে",
+          "ge": "take on",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            7
+          ],
+          "e": [
+            13
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "mehr verdienen",
+          "b": [
+            8,
+            9,
+            10
+          ],
+          "e": [
+            14,
+            15
+          ],
+          "l": "mehr verdienen",
+          "gb": "বেশি আয় করতে",
+          "ge": "earn more",
+          "n": ""
+        },
+        {
+          "t": "kann.",
+          "b": [
+            11
+          ],
+          "e": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "l": "kann",
+          "gb": "পারব",
+          "ge": "will be able to",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Tom",
+      "bn": [
+        "কোম্পানি",
+        "কি",
+        "কিছু",
+        "খরচ",
+        "দেয়?"
+      ],
+      "en": [
+        "Does",
+        "the",
+        "company",
+        "pay",
+        "something",
+        "towards",
+        "it?"
+      ],
+      "de": [
+        {
+          "t": "Zahlt",
+          "b": [
+            4
+          ],
+          "e": [
+            0
+          ],
+          "l": "Zahlt",
+          "gb": "দেয়",
+          "ge": "Does",
+          "n": ""
+        },
+        {
+          "t": "die Firma",
+          "b": [
+            0
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "die Firma",
+          "gb": "কোম্পানি",
+          "ge": "the company",
+          "n": ""
+        },
+        {
+          "t": "etwas",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "etwas",
+          "gb": "কিছু",
+          "ge": "something",
+          "n": ""
+        },
+        {
+          "t": "dazu?",
+          "b": [
+            3
+          ],
+          "e": [
+            3,
+            5,
+            6
+          ],
+          "l": "dazu",
+          "gb": "খরচ",
+          "ge": "pay towards it",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "হ্যাঁ,",
+        "খরচের",
+        "অর্ধেক",
+        "নিয়োগকর্তা",
+        "বহন",
+        "করেন।",
+        "তাছাড়া",
+        "আমি",
+        "পাঁচ",
+        "দিনের",
+        "শিক্ষা-ছুটিও",
+        "পাই।"
+      ],
+      "en": [
+        "Yes,",
+        "half",
+        "of",
+        "the",
+        "costs",
+        "are",
+        "borne",
+        "by",
+        "the",
+        "employer.",
+        "In",
+        "addition",
+        "I",
+        "get",
+        "five",
+        "days",
+        "of",
+        "educational",
+        "leave."
+      ],
+      "de": [
+        {
+          "t": "Ja,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ja",
+          "gb": "হ্যাঁ",
+          "ge": "Yes",
+          "n": ""
+        },
+        {
+          "t": "die Hälfte",
+          "b": [
+            2
+          ],
+          "e": [
+            1
+          ],
+          "l": "die Hälfte",
+          "gb": "অর্ধেক",
+          "ge": "half",
+          "n": ""
+        },
+        {
+          "t": "der Kosten",
+          "b": [
+            1
+          ],
+          "e": [
+            2,
+            3,
+            4
+          ],
+          "l": "der Kosten",
+          "gb": "খরচের",
+          "ge": "of the costs",
+          "n": ""
+        },
+        {
+          "t": "wird",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            5
+          ],
+          "l": "wird",
+          "gb": "বহন করেন",
+          "ge": "are",
+          "n": ""
+        },
+        {
+          "t": "vom Arbeitgeber",
+          "b": [
+            3
+          ],
+          "e": [
+            7,
+            8,
+            9
+          ],
+          "l": "Arbeitgeber",
+          "gb": "নিয়োগকর্তা",
+          "ge": "by the employer",
+          "n": ""
+        },
+        {
+          "t": "übernommen.",
+          "b": [],
+          "e": [
+            6
+          ],
+          "l": "übernommen",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "borne",
+          "n": ""
+        },
+        {
+          "t": "Außerdem",
+          "b": [
+            6
+          ],
+          "e": [
+            10,
+            11
+          ],
+          "l": "Außerdem",
+          "gb": "তাছাড়া",
+          "ge": "In addition",
+          "n": ""
+        },
+        {
+          "t": "bekomme ich",
+          "b": [
+            7,
+            11
+          ],
+          "e": [
+            12,
+            13
+          ],
+          "l": "bekomme ich",
+          "gb": "আমি পাই",
+          "ge": "I get",
+          "n": ""
+        },
+        {
+          "t": "fünf Tage",
+          "b": [
+            8,
+            9
+          ],
+          "e": [
+            14,
+            15
+          ],
+          "l": "fünf Tage",
+          "gb": "পাঁচ দিনের",
+          "ge": "five days",
+          "n": ""
+        },
+        {
+          "t": "Bildungsurlaub.",
+          "b": [
+            10
+          ],
+          "e": [
+            16,
+            17,
+            18
+          ],
+          "l": "Bildungsurlaub",
+          "gb": "শিক্ষা-ছুটিও",
+          "ge": "of educational leave",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "Fortbildung, Weiterbildung, Umschulung",
+      "head": [
+        "Begriff",
+        "Bedeutung",
+        "Beispiel"
+      ],
+      "rows": [
+        [
+          "Fortbildung / Weiterbildung",
+          "দক্ষতা বাড়ানো, একই পেশায়",
+          "Abendkurs in Elektrotechnik"
+        ],
+        [
+          "Umschulung",
+          "নতুন পেশার প্রশিক্ষণ",
+          "vom Verkäufer zum Pflegehelfer"
+        ],
+        [
+          "Bildungsurlaub",
+          "কাজ থেকে বেতনসহ ছুটি, শিক্ষার জন্য (রাজ্যভেদে, সাধারণত বছরে ৫ দিন)",
+          "Sprachkurs oder Seminar"
+        ],
+        [
+          "Abschluss / Zertifikat",
+          "প্রমাণ",
+          "Zertifikat nach bestandener Prüfung"
+        ]
+      ],
+      "note": "কিছু ক্ষেত্রে সরকার (Agentur für Arbeit / Jobcenter) খরচ দেয় (Bildungsgutschein), তবে শর্ত আছে। সুযোগ ও নিয়ম সম্পর্কে স্থানীয় অফিসে জিজ্ঞাসা করুন।"
+    },
+    {
+      "type": "table",
+      "title": "Zeitliche Konjunktionen im Vergleich",
+      "head": [
+        "Konjunktion",
+        "Bedeutung",
+        "Beispiel"
+      ],
+      "rows": [
+        [
+          "während",
+          "একই সময়ে",
+          "Während ich arbeite, lerne ich abends."
+        ],
+        [
+          "seit(dem)",
+          "শুরু থেকে এখনো",
+          "Seit ich den Kurs mache, habe ich weniger Zeit."
+        ],
+        [
+          "bis",
+          "শেষ সীমা",
+          "Ich lerne, bis die Prüfung vorbei ist."
+        ],
+        [
+          "solange",
+          "যতক্ষণ চলে",
+          "Solange der Kurs läuft, habe ich wenig Freizeit."
+        ],
+        [
+          "sobald",
+          "যেই …",
+          "Sobald ich das Zertifikat habe, bewerbe ich mich."
+        ],
+        [
+          "bevor / nachdem",
+          "আগে / পরে",
+          "Nachdem ich die Prüfung bestanden hatte, …"
+        ]
+      ],
+      "note": "সবগুলো Nebensatz (ক্রিয়া শেষে)। während + Genitiv (Präposition): „während des Kurses“।"
+    },
+    {
+      "type": "table",
+      "title": "Passiv: Kosten übernehmen",
+      "head": [
+        "Aktiv",
+        "Passiv"
+      ],
+      "rows": [
+        [
+          "Der Arbeitgeber übernimmt die Hälfte.",
+          "Die Hälfte wird vom Arbeitgeber übernommen."
+        ],
+        [
+          "Man bezahlt die Gebühren.",
+          "Die Gebühren werden bezahlt."
+        ],
+        [
+          "Der Staat fördert die Weiterbildung.",
+          "Die Weiterbildung wird vom Staat gefördert."
+        ]
+      ],
+      "note": "Agens (কে করছে) = von + Dativ: vom Arbeitgeber, vom Staat।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "die Fortbildung",
+      "options": [
+        "শিক্ষা-ছুটি",
+        "পেশাগত প্রশিক্ষণ",
+        "পরীক্ষা",
+        "সন্ধ্যার কোর্স"
+      ],
+      "answer": 1,
+      "why": "die Fortbildung = পেশাগত প্রশিক্ষণ।",
+      "word": "fortbildung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "die Umschulung",
+      "options": [
+        "নিয়োগকর্তা",
+        "পরীক্ষা",
+        "ইলেকট্রোটেকনিক",
+        "নতুন পেশায় পুনঃপ্রশিক্ষণ"
+      ],
+      "answer": 3,
+      "why": "die Umschulung = নতুন পেশায় পুনঃপ্রশিক্ষণ।",
+      "word": "umschulung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "solange",
+      "options": [
+        "পরীক্ষা",
+        "যতক্ষণ/যতদিন",
+        "সন্ধ্যার কোর্স",
+        "অবসর সময়"
+      ],
+      "answer": 1,
+      "why": "solange = যতক্ষণ/যতদিন।",
+      "word": "solange"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Freizeit",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Freizeit।",
+      "word": "freizeit"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক সংযোজক বেছে নিন",
+      "sub": "___ der Kurs läuft, habe ich wenig Freizeit.",
+      "options": [
+        "Solange",
+        "Weil",
+        "Dass",
+        "Ob"
+      ],
+      "answer": 0,
+      "why": "যতদিন চলে = solange।",
+      "word": "solange"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক বাক্য কোনটি?",
+      "options": [
+        "Während ich arbeite, lerne ich abends.",
+        "Während ich arbeite, ich lerne abends.",
+        "Während arbeite ich, lerne ich abends.",
+        "Während ich arbeite lerne, ich abends."
+      ],
+      "answer": 0,
+      "why": "während-Satz আগে → ক্রিয়া প্রথমে।",
+      "word": "tagsueber"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Die Hälfte wird vom Arbeitgeber ___.“",
+      "options": [
+        "übernommen",
+        "übernimmt",
+        "übernehmen",
+        "übernahm"
+      ],
+      "answer": 0,
+      "why": "Passiv: Partizip II।",
+      "word": "uebernehmen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Bildungsurlaub“ কী?",
+      "options": [
+        "শিক্ষার জন্য ছুটি",
+        "ভ্রমণ-ছুটি",
+        "অসুস্থতার ছুটি",
+        "নোটিশ"
+      ],
+      "answer": 0,
+      "why": "Urlaub für Bildung।",
+      "word": "bildungsurlaub"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Fortbildung আর Umschulung — পার্থক্য কী?",
+      "options": [
+        "একই পেশায় দক্ষতা বাড়ানো বনাম নতুন পেশা",
+        "একই জিনিস",
+        "ছোট বনাম বড় কোর্স",
+        "দেশে বনাম বিদেশে"
+      ],
+      "answer": 0,
+      "why": "Umschulung = new profession।",
+      "word": "umschulung"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „যতদিন কোর্স চলে, আমার অবসর কম।“",
+      "tiles": [
+        "wenig Freizeit.",
+        "läuft,",
+        "Solange",
+        "habe ich",
+        "der Kurs"
+      ],
+      "answer": [
+        "Solange",
+        "der Kurs",
+        "läuft,",
+        "habe ich",
+        "wenig Freizeit."
+      ],
+      "why": "solange-Satz আগে → ক্রিয়া প্রথমে।",
+      "word": "freizeit"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

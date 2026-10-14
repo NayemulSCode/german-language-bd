@@ -1,0 +1,1515 @@
+{
+  "level": "B1",
+  "unit": 4,
+  "minutes": 18,
+  "lesson": 4,
+  "id": "b1-u04-l04",
+  "title": {
+    "de": "Lernen lernen",
+    "bn": "কীভাবে ভালোভাবে শেখা যায়",
+    "en": "Learning how to learn"
+  },
+  "hook": {
+    "de": "Wer rastet, der rostet.",
+    "who": "Sprichwort",
+    "bn": "যে থেমে থাকে, সে মরচে ধরে।",
+    "en": "Use it or lose it."
+  },
+  "goals": [
+    "Lerntypen und Lerngewohnheiten beschreiben",
+    "brauchen … zu, scheinen … zu, lassen",
+    "konzentrieren, merken, Ablenkung",
+    "Ratschläge zum Lernen geben und annehmen"
+  ],
+  "words": [
+    {
+      "id": "lerntyp",
+      "de": "Lerntyp",
+      "art": "der",
+      "pl": "die Lerntypen",
+      "pos": "বিশেষ্য",
+      "bn": "শেখার ধরন",
+      "en": "learning type"
+    },
+    {
+      "id": "visuell",
+      "de": "visuell",
+      "pos": "বিশেষণ",
+      "bn": "দেখে শেখা-ভিত্তিক",
+      "en": "visual"
+    },
+    {
+      "id": "auditiv",
+      "de": "auditiv",
+      "pos": "বিশেষণ",
+      "bn": "শুনে শেখা-ভিত্তিক",
+      "en": "auditory"
+    },
+    {
+      "id": "gedaechtnis",
+      "de": "Gedächtnis",
+      "art": "das",
+      "pos": "বিশেষ্য",
+      "bn": "স্মৃতিশক্তি",
+      "en": "memory"
+    },
+    {
+      "id": "sich_merken",
+      "de": "sich merken",
+      "pos": "ক্রিয়া · hat sich gemerkt",
+      "bn": "মনে রাখা",
+      "en": "to remember"
+    },
+    {
+      "id": "sich_konzentrieren",
+      "de": "sich konzentrieren",
+      "pos": "ক্রিয়া · hat sich konzentriert",
+      "bn": "মনোযোগ দেওয়া",
+      "en": "to concentrate"
+    },
+    {
+      "id": "ablenkung",
+      "de": "Ablenkung",
+      "art": "die",
+      "pl": "die Ablenkungen",
+      "pos": "বিশেষ্য",
+      "bn": "মনোযোগ নষ্ট হওয়া",
+      "en": "distraction"
+    },
+    {
+      "id": "ausdauer",
+      "de": "Ausdauer",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "অধ্যবসায়",
+      "en": "perseverance"
+    },
+    {
+      "id": "rueckschlag",
+      "de": "Rückschlag",
+      "art": "der",
+      "pl": "die Rückschläge",
+      "pos": "বিশেষ্য",
+      "bn": "ধাক্কা, ব্যর্থতা",
+      "en": "setback"
+    },
+    {
+      "id": "erfolgserlebnis",
+      "de": "Erfolgserlebnis",
+      "art": "das",
+      "pl": "die Erfolgserlebnisse",
+      "pos": "বিশেষ্য",
+      "bn": "সাফল্যের অনুভূতি",
+      "en": "sense of achievement"
+    },
+    {
+      "id": "gewohnheit",
+      "de": "Gewohnheit",
+      "art": "die",
+      "pl": "die Gewohnheiten",
+      "pos": "বিশেষ্য",
+      "bn": "অভ্যাস",
+      "en": "habit"
+    },
+    {
+      "id": "regelmaessig",
+      "de": "regelmäßig",
+      "pos": "বিশেষণ",
+      "bn": "নিয়মিত",
+      "en": "regular"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Lena",
+      "bn": [
+        "তুমি",
+        "কি",
+        "জানো",
+        "তুমি",
+        "কোন",
+        "ধরনের",
+        "শিক্ষার্থী?",
+        "কেউ",
+        "দেখে",
+        "ভালো",
+        "শেখে,",
+        "কেউ",
+        "শুনে।"
+      ],
+      "en": [
+        "Do",
+        "you",
+        "know",
+        "what",
+        "type",
+        "of",
+        "learner",
+        "you",
+        "are?",
+        "Some",
+        "learn",
+        "well",
+        "by",
+        "seeing,",
+        "others",
+        "by",
+        "listening."
+      ],
+      "de": [
+        {
+          "t": "Weißt du",
+          "b": [
+            0,
+            1,
+            2
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "Weißt du",
+          "gb": "তুমি কি জানো",
+          "ge": "Do you know",
+          "n": ""
+        },
+        {
+          "t": "schon,",
+          "b": [],
+          "e": [],
+          "l": "schon",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "welcher Lerntyp",
+          "b": [
+            4,
+            5,
+            6
+          ],
+          "e": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "l": "Lerntyp",
+          "gb": "কোন ধরনের শিক্ষার্থী",
+          "ge": "what type of learner",
+          "n": ""
+        },
+        {
+          "t": "du bist?",
+          "b": [
+            3
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "du bist",
+          "gb": "তুমি",
+          "ge": "you are",
+          "n": ""
+        },
+        {
+          "t": "Manche",
+          "b": [
+            7
+          ],
+          "e": [
+            9
+          ],
+          "l": "Manche",
+          "gb": "কেউ",
+          "ge": "Some",
+          "n": ""
+        },
+        {
+          "t": "lernen",
+          "b": [
+            10
+          ],
+          "e": [
+            10
+          ],
+          "l": "lernen",
+          "gb": "শেখে",
+          "ge": "learn",
+          "n": ""
+        },
+        {
+          "t": "visuell,",
+          "b": [
+            8
+          ],
+          "e": [
+            12,
+            13
+          ],
+          "l": "visuell",
+          "gb": "দেখে",
+          "ge": "by seeing",
+          "n": ""
+        },
+        {
+          "t": "andere",
+          "b": [
+            11
+          ],
+          "e": [
+            14
+          ],
+          "l": "andere",
+          "gb": "কেউ",
+          "ge": "others",
+          "n": ""
+        },
+        {
+          "t": "auditiv.",
+          "b": [
+            12
+          ],
+          "e": [
+            15,
+            16
+          ],
+          "l": "auditiv",
+          "gb": "শুনে",
+          "ge": "by listening",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "মনে",
+        "হয়",
+        "শুনে",
+        "শিখি।",
+        "আমি",
+        "যখন",
+        "শব্দ",
+        "জোরে",
+        "বলি,",
+        "ওগুলো",
+        "ভালো",
+        "মনে",
+        "থাকে।"
+      ],
+      "en": [
+        "I",
+        "think",
+        "I",
+        "learn",
+        "by",
+        "listening.",
+        "When",
+        "I",
+        "say",
+        "words",
+        "aloud,",
+        "I",
+        "remember",
+        "them",
+        "better."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "scheine",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            1
+          ],
+          "l": "scheine",
+          "gb": "মনে হয়",
+          "ge": "think",
+          "n": ""
+        },
+        {
+          "t": "eher",
+          "b": [],
+          "e": [],
+          "l": "eher",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "auditiv",
+          "b": [
+            3
+          ],
+          "e": [
+            3,
+            4,
+            5
+          ],
+          "l": "auditiv",
+          "gb": "শুনে",
+          "ge": "learn by listening",
+          "n": ""
+        },
+        {
+          "t": "zu lernen.",
+          "b": [
+            4
+          ],
+          "e": [],
+          "l": "zu lernen",
+          "gb": "শিখি",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Wenn",
+          "b": [
+            6
+          ],
+          "e": [
+            6
+          ],
+          "l": "Wenn",
+          "gb": "যখন",
+          "ge": "When",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            5
+          ],
+          "e": [
+            2
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "Wörter",
+          "b": [
+            7
+          ],
+          "e": [
+            9
+          ],
+          "l": "Wörter",
+          "gb": "শব্দ",
+          "ge": "words",
+          "n": ""
+        },
+        {
+          "t": "laut sage,",
+          "b": [
+            8,
+            9
+          ],
+          "e": [
+            8,
+            10
+          ],
+          "l": "laut sage",
+          "gb": "জোরে বলি",
+          "ge": "say aloud",
+          "n": ""
+        },
+        {
+          "t": "merke ich",
+          "b": [
+            12,
+            13
+          ],
+          "e": [
+            7,
+            12
+          ],
+          "l": "merke ich",
+          "gb": "মনে থাকে",
+          "ge": "I remember",
+          "n": ""
+        },
+        {
+          "t": "sie mir",
+          "b": [
+            10
+          ],
+          "e": [
+            13
+          ],
+          "l": "sie mir",
+          "gb": "ওগুলো",
+          "ge": "them",
+          "n": ""
+        },
+        {
+          "t": "besser.",
+          "b": [
+            11
+          ],
+          "e": [
+            14
+          ],
+          "l": "sich merken",
+          "gb": "ভালো",
+          "ge": "better",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "ভালো।",
+        "তাহলে",
+        "তোমাকে",
+        "সবকিছু",
+        "লিখে",
+        "রাখতে",
+        "হবে",
+        "না।",
+        "রেকর্ড",
+        "করে",
+        "শুনলেও",
+        "চলে।"
+      ],
+      "en": [
+        "Good.",
+        "Then",
+        "you",
+        "do",
+        "not",
+        "need",
+        "to",
+        "write",
+        "everything",
+        "down.",
+        "Recording",
+        "and",
+        "listening",
+        "works",
+        "too."
+      ],
+      "de": [
+        {
+          "t": "Gut.",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Gut",
+          "gb": "ভালো",
+          "ge": "Good",
+          "n": ""
+        },
+        {
+          "t": "Dann",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "Dann",
+          "gb": "তাহলে",
+          "ge": "Then",
+          "n": ""
+        },
+        {
+          "t": "brauchst du",
+          "b": [
+            2
+          ],
+          "e": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "l": "brauchst du",
+          "gb": "তোমাকে",
+          "ge": "you do not need",
+          "n": ""
+        },
+        {
+          "t": "nicht",
+          "b": [
+            7
+          ],
+          "e": [],
+          "l": "nicht",
+          "gb": "না",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "alles",
+          "b": [
+            3
+          ],
+          "e": [
+            8
+          ],
+          "l": "alles",
+          "gb": "সবকিছু",
+          "ge": "everything",
+          "n": ""
+        },
+        {
+          "t": "aufzuschreiben.",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "aufzuschreiben",
+          "gb": "লিখে রাখতে",
+          "ge": "to write",
+          "n": "brauchen + nicht + zu + Infinitiv = করার দরকার নেই"
+        },
+        {
+          "t": "Du kannst",
+          "b": [
+            11
+          ],
+          "e": [
+            13
+          ],
+          "l": "Du kannst",
+          "gb": "চলে",
+          "ge": "works",
+          "n": ""
+        },
+        {
+          "t": "es auch",
+          "b": [
+            8,
+            9
+          ],
+          "e": [
+            10
+          ],
+          "l": "es auch",
+          "gb": "রেকর্ড করে",
+          "ge": "Recording",
+          "n": ""
+        },
+        {
+          "t": "aufnehmen",
+          "b": [],
+          "e": [],
+          "l": "aufnehmen",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [],
+          "e": [
+            11
+          ],
+          "l": "und",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "anhören.",
+          "b": [
+            10
+          ],
+          "e": [
+            12
+          ],
+          "l": "anhören",
+          "gb": "শুনলেও",
+          "ge": "listening",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "কিন্তু",
+        "আমার",
+        "মনোযোগ",
+        "রাখা",
+        "কঠিন।",
+        "আমার",
+        "ফোনে",
+        "সারাক্ষণ",
+        "বার্তা",
+        "আসে।"
+      ],
+      "en": [
+        "But",
+        "it",
+        "is",
+        "hard",
+        "for",
+        "me",
+        "to",
+        "concentrate.",
+        "Messages",
+        "keep",
+        "coming",
+        "in",
+        "on",
+        "my",
+        "phone."
+      ],
+      "de": [
+        {
+          "t": "Aber",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Aber",
+          "gb": "কিন্তু",
+          "ge": "But",
+          "n": ""
+        },
+        {
+          "t": "es fällt mir",
+          "b": [
+            1
+          ],
+          "e": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "l": "es fällt mir",
+          "gb": "আমার",
+          "ge": "it is hard for me",
+          "n": ""
+        },
+        {
+          "t": "schwer,",
+          "b": [
+            4
+          ],
+          "e": [],
+          "l": "schwer",
+          "gb": "কঠিন",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "mich",
+          "b": [],
+          "e": [],
+          "l": "mich",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "zu konzentrieren.",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "sich konzentrieren",
+          "gb": "মনোযোগ রাখা",
+          "ge": "to concentrate",
+          "n": ""
+        },
+        {
+          "t": "Auf meinem Handy",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            12,
+            13,
+            14
+          ],
+          "l": "Auf meinem Handy",
+          "gb": "আমার ফোনে",
+          "ge": "on my phone",
+          "n": ""
+        },
+        {
+          "t": "kommen",
+          "b": [
+            9
+          ],
+          "e": [
+            10
+          ],
+          "l": "kommen",
+          "gb": "আসে",
+          "ge": "coming",
+          "n": ""
+        },
+        {
+          "t": "ständig",
+          "b": [
+            7
+          ],
+          "e": [
+            9
+          ],
+          "l": "ständig",
+          "gb": "সারাক্ষণ",
+          "ge": "keep",
+          "n": ""
+        },
+        {
+          "t": "Nachrichten",
+          "b": [
+            8
+          ],
+          "e": [
+            8
+          ],
+          "l": "Nachrichten",
+          "gb": "বার্তা",
+          "ge": "Messages",
+          "n": ""
+        },
+        {
+          "t": "an.",
+          "b": [],
+          "e": [
+            11
+          ],
+          "l": "an",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "in",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "তাহলে",
+        "ফোনটা",
+        "অন্য",
+        "ঘরে",
+        "রেখো।",
+        "বিঘ্ন",
+        "কম",
+        "থাকলে",
+        "তুমি",
+        "দ্রুত",
+        "বেশি",
+        "শিখবে।"
+      ],
+      "en": [
+        "Then",
+        "leave",
+        "the",
+        "phone",
+        "in",
+        "another",
+        "room.",
+        "With",
+        "less",
+        "distraction",
+        "you",
+        "will",
+        "learn",
+        "more",
+        "quickly."
+      ],
+      "de": [
+        {
+          "t": "Dann",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Dann",
+          "gb": "তাহলে",
+          "ge": "Then",
+          "n": ""
+        },
+        {
+          "t": "lass",
+          "b": [
+            4
+          ],
+          "e": [
+            1
+          ],
+          "l": "lass",
+          "gb": "রেখো",
+          "ge": "leave",
+          "n": ""
+        },
+        {
+          "t": "das Handy",
+          "b": [
+            1
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "das Handy",
+          "gb": "ফোনটা",
+          "ge": "the phone",
+          "n": ""
+        },
+        {
+          "t": "in einem anderen Zimmer.",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            4,
+            5,
+            6
+          ],
+          "l": "in einem anderen Zimmer",
+          "gb": "অন্য ঘরে",
+          "ge": "in another room",
+          "n": "lassen (Imperativ) = রেখে দাও"
+        },
+        {
+          "t": "Mit weniger Ablenkung",
+          "b": [
+            5,
+            6,
+            7
+          ],
+          "e": [
+            7,
+            8,
+            9
+          ],
+          "l": "Ablenkung",
+          "gb": "বিঘ্ন কম থাকলে",
+          "ge": "With less distraction",
+          "n": ""
+        },
+        {
+          "t": "lernst du",
+          "b": [
+            8,
+            11
+          ],
+          "e": [
+            10,
+            11,
+            12
+          ],
+          "l": "lernst du",
+          "gb": "তুমি শিখবে",
+          "ge": "you will learn",
+          "n": ""
+        },
+        {
+          "t": "schneller",
+          "b": [
+            9
+          ],
+          "e": [
+            13,
+            14
+          ],
+          "l": "schneller",
+          "gb": "দ্রুত",
+          "ge": "more quickly",
+          "n": ""
+        },
+        {
+          "t": "mehr.",
+          "b": [
+            10
+          ],
+          "e": [],
+          "l": "mehr",
+          "gb": "বেশি",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আর",
+        "যখন",
+        "আমি",
+        "হতাশ",
+        "হই,",
+        "যেমন",
+        "কোনো",
+        "পরীক্ষায়",
+        "খারাপ",
+        "করলে?"
+      ],
+      "en": [
+        "And",
+        "when",
+        "I",
+        "get",
+        "discouraged,",
+        "for",
+        "example",
+        "when",
+        "I",
+        "do",
+        "badly",
+        "in",
+        "an",
+        "exam?"
+      ],
+      "de": [
+        {
+          "t": "Und",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "wenn",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "wenn",
+          "gb": "যখন",
+          "ge": "when",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "entmutigt bin,",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "entmutigt bin",
+          "gb": "হতাশ হই",
+          "ge": "get discouraged",
+          "n": ""
+        },
+        {
+          "t": "zum Beispiel",
+          "b": [
+            5
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "zum Beispiel",
+          "gb": "যেমন",
+          "ge": "for example",
+          "n": ""
+        },
+        {
+          "t": "nach einer schlechten Prüfung?",
+          "b": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "e": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "l": "nach einer schlechten Prüfung",
+          "gb": "কোনো পরীক্ষায় খারাপ করলে",
+          "ge": "when I do badly in an exam",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "ধাক্কা",
+        "স্বাভাবিক।",
+        "অধ্যবসায়",
+        "লাগে।",
+        "ছোট",
+        "ছোট",
+        "সাফল্য",
+        "লিখে",
+        "রাখো,",
+        "তাতে",
+        "তুমি",
+        "অনুপ্রাণিত",
+        "থাকবে।"
+      ],
+      "en": [
+        "Setbacks",
+        "are",
+        "normal.",
+        "You",
+        "need",
+        "perseverance.",
+        "Write",
+        "down",
+        "small",
+        "successes,",
+        "so",
+        "you",
+        "stay",
+        "motivated."
+      ],
+      "de": [
+        {
+          "t": "Rückschläge",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Rückschlag",
+          "gb": "ধাক্কা",
+          "ge": "Setbacks",
+          "n": ""
+        },
+        {
+          "t": "sind",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "sind",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "are",
+          "n": ""
+        },
+        {
+          "t": "normal.",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "normal",
+          "gb": "স্বাভাবিক",
+          "ge": "normal",
+          "n": ""
+        },
+        {
+          "t": "Man braucht",
+          "b": [
+            3
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "Man braucht",
+          "gb": "লাগে",
+          "ge": "You need",
+          "n": ""
+        },
+        {
+          "t": "Ausdauer.",
+          "b": [
+            2
+          ],
+          "e": [
+            5
+          ],
+          "l": "Ausdauer",
+          "gb": "অধ্যবসায়",
+          "ge": "perseverance",
+          "n": ""
+        },
+        {
+          "t": "Schreib",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "Schreib",
+          "gb": "লিখে রাখো",
+          "ge": "Write down",
+          "n": ""
+        },
+        {
+          "t": "kleine Erfolgserlebnisse",
+          "b": [
+            4,
+            5,
+            6
+          ],
+          "e": [
+            8,
+            9
+          ],
+          "l": "Erfolgserlebnis",
+          "gb": "ছোট ছোট সাফল্য",
+          "ge": "small successes",
+          "n": ""
+        },
+        {
+          "t": "auf,",
+          "b": [],
+          "e": [],
+          "l": "auf",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "dann",
+          "b": [
+            9
+          ],
+          "e": [
+            10
+          ],
+          "l": "dann",
+          "gb": "তাতে",
+          "ge": "so",
+          "n": ""
+        },
+        {
+          "t": "bleibst du",
+          "b": [
+            12
+          ],
+          "e": [
+            11,
+            12
+          ],
+          "l": "bleibst du",
+          "gb": "থাকবে",
+          "ge": "you stay",
+          "n": ""
+        },
+        {
+          "t": "motiviert.",
+          "b": [
+            11
+          ],
+          "e": [
+            13
+          ],
+          "l": "motiviert",
+          "gb": "অনুপ্রাণিত",
+          "ge": "motivated",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "zu-Infinitiv: brauchen, scheinen, es fällt mir schwer",
+      "head": [
+        "Ausdruck",
+        "Beispiel",
+        "Bedeutung"
+      ],
+      "rows": [
+        [
+          "nicht brauchen … zu",
+          "Du brauchst nicht alles aufzuschreiben.",
+          "সব লিখে রাখার দরকার নেই"
+        ],
+        [
+          "scheinen … zu",
+          "Ich scheine eher auditiv zu lernen.",
+          "মনে হয় আমি …"
+        ],
+        [
+          "es fällt mir schwer … zu",
+          "Es fällt mir schwer, mich zu konzentrieren.",
+          "আমার … করা কঠিন"
+        ],
+        [
+          "versuchen / vergessen … zu",
+          "Ich versuche, jeden Tag zu lernen.",
+          "চেষ্টা করি / ভুলে যাই"
+        ],
+        [
+          "Lust / Zeit haben … zu",
+          "Hast du Zeit, mir zu helfen?",
+          "সময় আছে কি?"
+        ]
+      ],
+      "note": "brauchen mit nicht = müssen mit nicht-এর নেতিবাচক („nicht brauchen zu“ = দরকার নেই)। Modalverb ছাড়া, তাই zu লাগে।"
+    },
+    {
+      "type": "table",
+      "title": "lassen — drei Bedeutungen",
+      "head": [
+        "Bedeutung",
+        "Beispiel"
+      ],
+      "rows": [
+        [
+          "দেওয়া, অনুমতি",
+          "Lass mich helfen. / Lass uns anfangen."
+        ],
+        [
+          "করিয়ে নেওয়া",
+          "Ich lasse mein Zeugnis übersetzen."
+        ],
+        [
+          "ফেলে রাখা",
+          "Lass das Handy im Zimmer."
+        ],
+        [
+          "Imperativ",
+          "Lass! / Lasst! / Lassen Sie!"
+        ]
+      ],
+      "note": "lassen + Infinitiv (ohne zu)। Perfekt: „Ich habe es machen lassen.“ (Ersatzinfinitiv)"
+    },
+    {
+      "type": "table",
+      "title": "Lernstrategien",
+      "head": [
+        "Typ",
+        "Strategie"
+      ],
+      "rows": [
+        [
+          "visuell",
+          "Farben, Zeichnungen, Karteikarten"
+        ],
+        [
+          "auditiv",
+          "laut sprechen, aufnehmen, Hörtexte"
+        ],
+        [
+          "motorisch",
+          "aufschreiben, Rollenspiele, spazieren gehen und Vokabeln wiederholen"
+        ],
+        [
+          "alle",
+          "regelmäßig wiederholen, Pausen machen, Ablenkung vermeiden"
+        ]
+      ],
+      "note": "বেশিরভাগ মানুষ মিশ্র ধরনের। আপনার জন্য কোনটি কার্যকর তা পরীক্ষা করে দেখুন। নিয়মিত অল্প অল্প শেখা বড় একদিনের পড়ার চেয়ে ভালো।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "die Ablenkung",
+      "options": [
+        "মনোযোগ নষ্ট হওয়া",
+        "শুনে শেখা-ভিত্তিক",
+        "মনে রাখা",
+        "অধ্যবসায়"
+      ],
+      "answer": 0,
+      "why": "die Ablenkung = মনোযোগ নষ্ট হওয়া।",
+      "word": "ablenkung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "das Gedächtnis",
+      "options": [
+        "শুনে শেখা-ভিত্তিক",
+        "মনোযোগ নষ্ট হওয়া",
+        "সাফল্যের অনুভূতি",
+        "স্মৃতিশক্তি"
+      ],
+      "answer": 3,
+      "why": "das Gedächtnis = স্মৃতিশক্তি।",
+      "word": "gedaechtnis"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "die Ausdauer",
+      "options": [
+        "মনে রাখা",
+        "ধাক্কা",
+        "নিয়মিত",
+        "অধ্যবসায়"
+      ],
+      "answer": 3,
+      "why": "die Ausdauer = অধ্যবসায়।",
+      "word": "ausdauer"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Gewohnheit",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Gewohnheit। বহুবচন: die Gewohnheiten।",
+      "word": "gewohnheit"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক বাক্য কোনটি?",
+      "options": [
+        "Es fällt mir schwer, mich zu konzentrieren.",
+        "Es fällt mir schwer, mich konzentrieren.",
+        "Es fällt schwer mir, zu mich konzentrieren.",
+        "Es mir schwer fällt, konzentrieren zu mich."
+      ],
+      "answer": 0,
+      "why": "zu + Infinitiv শেষে।",
+      "word": "sich_konzentrieren"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Du brauchst nicht alles aufzuschreiben.“ মানে কী?",
+      "options": [
+        "সব লিখে রাখার দরকার নেই",
+        "সব লিখতেই হবে",
+        "কিছুই লিখো না",
+        "পরে লিখো"
+      ],
+      "answer": 0,
+      "why": "nicht brauchen zu।",
+      "word": "sich_merken"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„lassen“ + Infinitiv: „Ich lasse mein Zeugnis ___.“",
+      "options": [
+        "übersetzen",
+        "zu übersetzen",
+        "übersetzt",
+        "übersetzte"
+      ],
+      "answer": 0,
+      "why": "lassen ohne zu।",
+      "word": "lerntyp"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„auditiv“ মানে কী?",
+      "options": [
+        "শুনে শেখা",
+        "দেখে শেখা",
+        "লিখে শেখা",
+        "কাজ করে শেখা"
+      ],
+      "answer": 0,
+      "why": "Audio-।",
+      "word": "auditiv"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Rückschlag“ কী?",
+      "options": [
+        "ধাক্কা, ব্যর্থতা",
+        "পুরস্কার",
+        "ছুটি",
+        "পরীক্ষা"
+      ],
+      "answer": 0,
+      "why": "der Rückschlag।",
+      "word": "rueckschlag"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „আমার মনোযোগ রাখা কঠিন।“",
+      "tiles": [
+        "schwer,",
+        "zu konzentrieren.",
+        "es fällt",
+        "mir",
+        "mich"
+      ],
+      "answer": [
+        "es fällt",
+        "mir",
+        "schwer,",
+        "mich",
+        "zu konzentrieren."
+      ],
+      "why": "Es fällt mir schwer, … zu …",
+      "word": "sich_konzentrieren"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

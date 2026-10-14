@@ -1,0 +1,1462 @@
+{
+  "level": "B1",
+  "unit": 4,
+  "minutes": 18,
+  "lesson": 1,
+  "id": "b1-u04-l01",
+  "title": {
+    "de": "Das deutsche Schulsystem",
+    "bn": "জার্মানির স্কুলব্যবস্থা",
+    "en": "The German school system"
+  },
+  "hook": {
+    "de": "Nicht für die Schule, sondern für das Leben lernen wir.",
+    "who": "Seneca (nach)",
+    "bn": "আমরা স্কুলের জন্য নয়, জীবনের জন্য শিখি।",
+    "en": "We learn not for school, but for life."
+  },
+  "goals": [
+    "Schulformen: Grundschule, Hauptschule, Realschule, Gymnasium, Gesamtschule",
+    "Relativsatz mit Präposition: die Schule, auf die …",
+    "Abitur und duale Ausbildung",
+    "Bundesländer: Unterschiede"
+  ],
+  "words": [
+    {
+      "id": "schulsystem",
+      "de": "Schulsystem",
+      "art": "das",
+      "pos": "বিশেষ্য",
+      "bn": "স্কুলব্যবস্থা",
+      "en": "school system"
+    },
+    {
+      "id": "grundschule",
+      "de": "Grundschule",
+      "art": "die",
+      "pl": "die Grundschulen",
+      "pos": "বিশেষ্য",
+      "bn": "প্রাথমিক বিদ্যালয়",
+      "en": "primary school"
+    },
+    {
+      "id": "gymnasium",
+      "de": "Gymnasium",
+      "art": "das",
+      "pl": "die Gymnasien",
+      "pos": "বিশেষ্য",
+      "bn": "উচ্চ-মাধ্যমিক (একাডেমিক) স্কুল",
+      "en": "academic secondary school"
+    },
+    {
+      "id": "realschule",
+      "de": "Realschule",
+      "art": "die",
+      "pl": "die Realschulen",
+      "pos": "বিশেষ্য",
+      "bn": "মাঝারি মাধ্যমিক স্কুল",
+      "en": "intermediate secondary school"
+    },
+    {
+      "id": "hauptschule",
+      "de": "Hauptschule",
+      "art": "die",
+      "pl": "die Hauptschulen",
+      "pos": "বিশেষ্য",
+      "bn": "প্রাথমিক মাধ্যমিক স্কুল",
+      "en": "lower secondary school"
+    },
+    {
+      "id": "gesamtschule",
+      "de": "Gesamtschule",
+      "art": "die",
+      "pl": "die Gesamtschulen",
+      "pos": "বিশেষ্য",
+      "bn": "সমন্বিত স্কুল",
+      "en": "comprehensive school"
+    },
+    {
+      "id": "abitur",
+      "de": "Abitur",
+      "art": "das",
+      "pos": "বিশেষ্য",
+      "bn": "আবিটুর (উচ্চ-মাধ্যমিক সমাপ্তি পরীক্ষা)",
+      "en": "school-leaving exam for university entry"
+    },
+    {
+      "id": "berufsschule",
+      "de": "Berufsschule",
+      "art": "die",
+      "pl": "die Berufsschulen",
+      "pos": "বিশেষ্য",
+      "bn": "বৃত্তিমূলক স্কুল",
+      "en": "vocational school"
+    },
+    {
+      "id": "schulpflicht",
+      "de": "Schulpflicht",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "স্কুলে যাওয়া বাধ্যতামূলক",
+      "en": "compulsory schooling"
+    },
+    {
+      "id": "note",
+      "de": "Note",
+      "art": "die",
+      "pl": "die Noten",
+      "pos": "বিশেষ্য",
+      "bn": "নম্বর, গ্রেড",
+      "en": "grade"
+    },
+    {
+      "id": "empfehlung",
+      "de": "Empfehlung",
+      "art": "die",
+      "pl": "die Empfehlungen",
+      "pos": "বিশেষ্য",
+      "bn": "সুপারিশ",
+      "en": "recommendation"
+    },
+    {
+      "id": "klasse",
+      "de": "Klasse",
+      "art": "die",
+      "pl": "die Klassen",
+      "pos": "বিশেষ্য",
+      "bn": "শ্রেণি",
+      "en": "class, grade"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Saheb",
+      "bn": [
+        "লেনা,",
+        "জার্মান",
+        "স্কুলব্যবস্থা",
+        "আমি",
+        "পুরোপুরি",
+        "বুঝি",
+        "না।",
+        "এটা",
+        "কীভাবে",
+        "সাজানো?"
+      ],
+      "en": [
+        "Lena,",
+        "I",
+        "do",
+        "not",
+        "quite",
+        "understand",
+        "the",
+        "German",
+        "school",
+        "system.",
+        "How",
+        "is",
+        "it",
+        "structured?"
+      ],
+      "de": [
+        {
+          "t": "Lena,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Lena",
+          "gb": "লেনা",
+          "ge": "Lena",
+          "n": ""
+        },
+        {
+          "t": "das deutsche Schulsystem",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "l": "Schulsystem",
+          "gb": "জার্মান স্কুলব্যবস্থা",
+          "ge": "the German school system",
+          "n": ""
+        },
+        {
+          "t": "verstehe ich",
+          "b": [
+            3,
+            5
+          ],
+          "e": [
+            1,
+            2,
+            3
+          ],
+          "l": "verstehe ich",
+          "gb": "আমি বুঝি",
+          "ge": "I do not",
+          "n": ""
+        },
+        {
+          "t": "nicht ganz.",
+          "b": [
+            6,
+            4
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "nicht ganz",
+          "gb": "না পুরোপুরি",
+          "ge": "quite understand",
+          "n": ""
+        },
+        {
+          "t": "Wie ist es",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            10,
+            11,
+            12
+          ],
+          "l": "Wie ist es",
+          "gb": "এটা কীভাবে",
+          "ge": "How is it",
+          "n": ""
+        },
+        {
+          "t": "aufgebaut?",
+          "b": [
+            9
+          ],
+          "e": [
+            13
+          ],
+          "l": "aufgebaut",
+          "gb": "সাজানো",
+          "ge": "structured",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "প্রথমে",
+        "সব",
+        "শিশু",
+        "প্রাথমিক",
+        "বিদ্যালয়ে",
+        "যায়,",
+        "যা",
+        "সাধারণত",
+        "চার",
+        "বছরের।"
+      ],
+      "en": [
+        "First",
+        "all",
+        "children",
+        "go",
+        "to",
+        "primary",
+        "school,",
+        "which",
+        "usually",
+        "lasts",
+        "four",
+        "years."
+      ],
+      "de": [
+        {
+          "t": "Zuerst",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Zuerst",
+          "gb": "প্রথমে",
+          "ge": "First",
+          "n": ""
+        },
+        {
+          "t": "gehen",
+          "b": [
+            5
+          ],
+          "e": [
+            3
+          ],
+          "l": "gehen",
+          "gb": "যায়",
+          "ge": "go",
+          "n": ""
+        },
+        {
+          "t": "alle Kinder",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "alle Kinder",
+          "gb": "সব শিশু",
+          "ge": "all children",
+          "n": ""
+        },
+        {
+          "t": "in die Grundschule,",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            4,
+            5,
+            6
+          ],
+          "l": "Grundschule",
+          "gb": "প্রাথমিক বিদ্যালয়ে",
+          "ge": "to primary school",
+          "n": ""
+        },
+        {
+          "t": "die",
+          "b": [
+            6
+          ],
+          "e": [
+            7
+          ],
+          "l": "die",
+          "gb": "যা",
+          "ge": "which",
+          "n": ""
+        },
+        {
+          "t": "meistens",
+          "b": [
+            7
+          ],
+          "e": [
+            8
+          ],
+          "l": "meistens",
+          "gb": "সাধারণত",
+          "ge": "usually",
+          "n": ""
+        },
+        {
+          "t": "vier Jahre",
+          "b": [
+            8,
+            9
+          ],
+          "e": [
+            10,
+            11
+          ],
+          "l": "vier Jahre",
+          "gb": "চার বছরের",
+          "ge": "four years",
+          "n": ""
+        },
+        {
+          "t": "dauert.",
+          "b": [],
+          "e": [
+            9
+          ],
+          "l": "dauert",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "lasts",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আর",
+        "তারপর?"
+      ],
+      "en": [
+        "And",
+        "after",
+        "that?"
+      ],
+      "de": [
+        {
+          "t": "Und",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "danach?",
+          "b": [
+            1
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "danach",
+          "gb": "তারপর",
+          "ge": "after that",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "তারপর",
+        "বিভিন্ন",
+        "ধরনের",
+        "স্কুল",
+        "আছে:",
+        "Hauptschule,",
+        "Realschule,",
+        "Gymnasium",
+        "আর",
+        "Gesamtschule।",
+        "শিশু",
+        "কোন",
+        "স্কুলে",
+        "যাবে,",
+        "তা",
+        "নম্বর",
+        "আর",
+        "শিক্ষকদের",
+        "সুপারিশের",
+        "ওপর",
+        "নির্ভর",
+        "করে।"
+      ],
+      "en": [
+        "After",
+        "that",
+        "there",
+        "are",
+        "different",
+        "types",
+        "of",
+        "school:",
+        "Hauptschule,",
+        "Realschule,",
+        "Gymnasium",
+        "and",
+        "Gesamtschule.",
+        "Which",
+        "school",
+        "a",
+        "child",
+        "goes",
+        "to",
+        "depends",
+        "on",
+        "grades",
+        "and",
+        "the",
+        "teachers’",
+        "recommendation."
+      ],
+      "de": [
+        {
+          "t": "Danach gibt es",
+          "b": [
+            0,
+            4
+          ],
+          "e": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "l": "Danach gibt es",
+          "gb": "তারপর আছে",
+          "ge": "After that there are",
+          "n": ""
+        },
+        {
+          "t": "verschiedene Schulformen:",
+          "b": [
+            1,
+            2,
+            3
+          ],
+          "e": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "l": "verschiedene Schulformen",
+          "gb": "বিভিন্ন ধরনের স্কুল",
+          "ge": "different types of school",
+          "n": ""
+        },
+        {
+          "t": "Hauptschule,",
+          "b": [
+            5
+          ],
+          "e": [
+            8
+          ],
+          "l": "Hauptschule",
+          "gb": "Hauptschule",
+          "ge": "Hauptschule",
+          "n": ""
+        },
+        {
+          "t": "Realschule,",
+          "b": [
+            6
+          ],
+          "e": [
+            9
+          ],
+          "l": "Realschule",
+          "gb": "Realschule",
+          "ge": "Realschule",
+          "n": ""
+        },
+        {
+          "t": "Gymnasium",
+          "b": [
+            7
+          ],
+          "e": [
+            10
+          ],
+          "l": "Gymnasium",
+          "gb": "Gymnasium",
+          "ge": "Gymnasium",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            8
+          ],
+          "e": [
+            11
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "Gesamtschule.",
+          "b": [
+            9
+          ],
+          "e": [
+            12
+          ],
+          "l": "Gesamtschule",
+          "gb": "Gesamtschule",
+          "ge": "Gesamtschule",
+          "n": ""
+        },
+        {
+          "t": "Die Schule,",
+          "b": [
+            3
+          ],
+          "e": [
+            13,
+            14
+          ],
+          "l": "Die Schule",
+          "gb": "স্কুল",
+          "ge": "Which school",
+          "n": ""
+        },
+        {
+          "t": "auf die",
+          "b": [],
+          "e": [
+            15,
+            16
+          ],
+          "l": "auf die",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "a child",
+          "n": ""
+        },
+        {
+          "t": "ein Kind",
+          "b": [
+            10
+          ],
+          "e": [
+            17,
+            18
+          ],
+          "l": "ein Kind",
+          "gb": "শিশু",
+          "ge": "goes to",
+          "n": ""
+        },
+        {
+          "t": "geht,",
+          "b": [
+            13
+          ],
+          "e": [],
+          "l": "geht",
+          "gb": "যাবে",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "hängt",
+          "b": [
+            20,
+            21
+          ],
+          "e": [
+            19
+          ],
+          "l": "hängt",
+          "gb": "নির্ভর করে",
+          "ge": "depends",
+          "n": ""
+        },
+        {
+          "t": "von den Noten",
+          "b": [
+            15
+          ],
+          "e": [
+            20,
+            21
+          ],
+          "l": "Note",
+          "gb": "নম্বর",
+          "ge": "on grades",
+          "n": ""
+        },
+        {
+          "t": "und der Empfehlung",
+          "b": [
+            16,
+            18
+          ],
+          "e": [
+            22,
+            23,
+            25
+          ],
+          "l": "Empfehlung",
+          "gb": "আর সুপারিশের",
+          "ge": "and the recommendation",
+          "n": ""
+        },
+        {
+          "t": "der Lehrer ab.",
+          "b": [
+            17,
+            19
+          ],
+          "e": [
+            6,
+            23,
+            24
+          ],
+          "l": "der Lehrer ab",
+          "gb": "শিক্ষকদের ওপর",
+          "ge": "of the teachers",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আর",
+        "কোথায়",
+        "আবিটুর",
+        "দেওয়া",
+        "যায়?"
+      ],
+      "en": [
+        "And",
+        "where",
+        "can",
+        "one",
+        "take",
+        "the",
+        "Abitur?"
+      ],
+      "de": [
+        {
+          "t": "Und",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "wo",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "wo",
+          "gb": "কোথায়",
+          "ge": "where",
+          "n": ""
+        },
+        {
+          "t": "macht man",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            2,
+            3,
+            4
+          ],
+          "l": "macht man",
+          "gb": "দেওয়া যায়",
+          "ge": "can one take",
+          "n": ""
+        },
+        {
+          "t": "das Abitur?",
+          "b": [
+            2
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "Abitur",
+          "gb": "আবিটুর",
+          "ge": "the Abitur",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "আবিটুর",
+        "হয়",
+        "Gymnasium",
+        "বা",
+        "Gesamtschule-তে।",
+        "বিশ্ববিদ্যালয়ে",
+        "পড়ার",
+        "জন্য",
+        "সাধারণত",
+        "এটা",
+        "লাগে।"
+      ],
+      "en": [
+        "The",
+        "Abitur",
+        "is",
+        "taken",
+        "at",
+        "a",
+        "Gymnasium",
+        "or",
+        "a",
+        "Gesamtschule.",
+        "It",
+        "is",
+        "usually",
+        "required",
+        "to",
+        "study",
+        "at",
+        "a",
+        "university."
+      ],
+      "de": [
+        {
+          "t": "Das Abitur",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Das Abitur",
+          "gb": "আবিটুর",
+          "ge": "The Abitur",
+          "n": ""
+        },
+        {
+          "t": "macht man",
+          "b": [
+            1
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "macht man",
+          "gb": "হয়",
+          "ge": "is taken",
+          "n": ""
+        },
+        {
+          "t": "am Gymnasium",
+          "b": [
+            2
+          ],
+          "e": [
+            4,
+            5,
+            6
+          ],
+          "l": "am Gymnasium",
+          "gb": "Gymnasium",
+          "ge": "at a Gymnasium",
+          "n": ""
+        },
+        {
+          "t": "oder",
+          "b": [
+            3
+          ],
+          "e": [
+            7
+          ],
+          "l": "oder",
+          "gb": "বা",
+          "ge": "or",
+          "n": ""
+        },
+        {
+          "t": "an der Gesamtschule.",
+          "b": [
+            4
+          ],
+          "e": [
+            8,
+            9
+          ],
+          "l": "an der Gesamtschule",
+          "gb": "Gesamtschule-তে",
+          "ge": "a Gesamtschule",
+          "n": ""
+        },
+        {
+          "t": "Es ist",
+          "b": [
+            9
+          ],
+          "e": [
+            10,
+            11
+          ],
+          "l": "Es ist",
+          "gb": "এটা",
+          "ge": "It is",
+          "n": ""
+        },
+        {
+          "t": "die Voraussetzung,",
+          "b": [
+            10
+          ],
+          "e": [
+            13
+          ],
+          "l": "die Voraussetzung",
+          "gb": "লাগে",
+          "ge": "required",
+          "n": ""
+        },
+        {
+          "t": "um",
+          "b": [
+            7
+          ],
+          "e": [
+            14
+          ],
+          "l": "um",
+          "gb": "জন্য",
+          "ge": "to",
+          "n": ""
+        },
+        {
+          "t": "an einer Universität",
+          "b": [
+            5
+          ],
+          "e": [
+            16,
+            17,
+            18
+          ],
+          "l": "an einer Universität",
+          "gb": "বিশ্ববিদ্যালয়ে",
+          "ge": "at a university",
+          "n": ""
+        },
+        {
+          "t": "zu studieren.",
+          "b": [
+            6
+          ],
+          "e": [
+            15
+          ],
+          "l": "zu studieren",
+          "gb": "পড়ার",
+          "ge": "study",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "প্রশিক্ষণের",
+        "মাধ্যমেও",
+        "কি",
+        "যাওয়া",
+        "যায়?"
+      ],
+      "en": [
+        "Is",
+        "there",
+        "also",
+        "a",
+        "route",
+        "via",
+        "vocational",
+        "training?"
+      ],
+      "de": [
+        {
+          "t": "Gibt es",
+          "b": [],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Gibt es",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "Is there",
+          "n": ""
+        },
+        {
+          "t": "auch",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "auch",
+          "gb": "কি",
+          "ge": "also",
+          "n": ""
+        },
+        {
+          "t": "den Weg",
+          "b": [],
+          "e": [
+            3,
+            4
+          ],
+          "l": "den Weg",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "a route",
+          "n": ""
+        },
+        {
+          "t": "über eine Ausbildung?",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            5,
+            6,
+            7
+          ],
+          "l": "über eine Ausbildung",
+          "gb": "প্রশিক্ষণের মাধ্যমেও",
+          "ge": "via vocational training",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "হ্যাঁ,",
+        "দ্বৈত",
+        "প্রশিক্ষণ",
+        "খুব",
+        "পরিচিত:",
+        "মানুষ",
+        "কোম্পানিতে",
+        "শেখে",
+        "আর",
+        "সপ্তাহের",
+        "কয়েকদিন",
+        "বৃত্তিমূলক",
+        "স্কুলে",
+        "যায়।"
+      ],
+      "en": [
+        "Yes,",
+        "the",
+        "dual",
+        "training",
+        "is",
+        "very",
+        "well",
+        "known:",
+        "people",
+        "learn",
+        "in",
+        "a",
+        "company",
+        "and",
+        "go",
+        "to",
+        "vocational",
+        "school",
+        "on",
+        "some",
+        "days."
+      ],
+      "de": [
+        {
+          "t": "Ja,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ja",
+          "gb": "হ্যাঁ",
+          "ge": "Yes",
+          "n": ""
+        },
+        {
+          "t": "die duale Ausbildung",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            1,
+            2,
+            3
+          ],
+          "l": "die duale Ausbildung",
+          "gb": "দ্বৈত প্রশিক্ষণ",
+          "ge": "the dual training",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            4
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "sehr bekannt:",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            5,
+            6,
+            7
+          ],
+          "l": "sehr bekannt",
+          "gb": "খুব পরিচিত",
+          "ge": "very well known",
+          "n": ""
+        },
+        {
+          "t": "Man lernt",
+          "b": [
+            5,
+            7
+          ],
+          "e": [
+            8,
+            9
+          ],
+          "l": "Man lernt",
+          "gb": "মানুষ শেখে",
+          "ge": "people learn",
+          "n": ""
+        },
+        {
+          "t": "im Betrieb",
+          "b": [
+            6
+          ],
+          "e": [
+            10,
+            11,
+            12
+          ],
+          "l": "im Betrieb",
+          "gb": "কোম্পানিতে",
+          "ge": "in a company",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            8
+          ],
+          "e": [
+            13
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "geht",
+          "b": [
+            13
+          ],
+          "e": [
+            14
+          ],
+          "l": "geht",
+          "gb": "যায়",
+          "ge": "go",
+          "n": ""
+        },
+        {
+          "t": "an einigen Tagen",
+          "b": [
+            9,
+            10
+          ],
+          "e": [
+            18,
+            19,
+            20
+          ],
+          "l": "an einigen Tagen",
+          "gb": "সপ্তাহের কয়েকদিন",
+          "ge": "on some days",
+          "n": ""
+        },
+        {
+          "t": "in die Berufsschule.",
+          "b": [
+            11,
+            12
+          ],
+          "e": [
+            15,
+            16,
+            17
+          ],
+          "l": "Berufsschule",
+          "gb": "বৃত্তিমূলক স্কুলে",
+          "ge": "to vocational school",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "Schulformen (Überblick)",
+      "head": [
+        "Schulform",
+        "Dauer / Ziel",
+        "danach"
+      ],
+      "rows": [
+        [
+          "Grundschule",
+          "meist Klasse 1–4",
+          "weiterführende Schule"
+        ],
+        [
+          "Hauptschule",
+          "bis Klasse 9 (10)",
+          "meist Ausbildung"
+        ],
+        [
+          "Realschule",
+          "bis Klasse 10",
+          "Ausbildung oder weiter zur Oberstufe"
+        ],
+        [
+          "Gymnasium",
+          "bis Klasse 12/13 mit Abitur",
+          "Studium oder Ausbildung"
+        ],
+        [
+          "Gesamtschule",
+          "bis Klasse 10 oder mit Abitur",
+          "je nach Abschluss"
+        ],
+        [
+          "Berufsschule",
+          "neben der Ausbildung im Betrieb",
+          "Gesellenbrief / Berufsabschluss"
+        ]
+      ],
+      "note": "শিক্ষা রাজ্যের (Bundesland) দায়িত্ব; স্কুলের নাম, সময়কাল, নিয়ম রাজ্যভেদে আলাদা। স্কুলে যাওয়া সাধারণত ৯–১০ বছর বাধ্যতামূলক (Schulpflicht)। এটি সাধারণ ধারণা মাত্র।"
+    },
+    {
+      "type": "table",
+      "title": "Relativsatz mit Präposition",
+      "head": [
+        "Hauptsatz",
+        "Relativsatz"
+      ],
+      "rows": [
+        [
+          "Das ist die Schule,",
+          "auf die mein Sohn geht."
+        ],
+        [
+          "Der Betrieb,",
+          "in dem er die Ausbildung macht, ist groß."
+        ],
+        [
+          "Das ist die Lehrerin,",
+          "mit der ich gesprochen habe."
+        ],
+        [
+          "Die Noten,",
+          "von denen die Empfehlung abhängt, sind wichtig."
+        ]
+      ],
+      "note": "Präposition + Relativpronomen (Kasus nach Präposition)। Dativ-Formen: dem (m/n), der (f), denen (Pl.)। Akkusativ: den, das, die, die।"
+    },
+    {
+      "type": "table",
+      "title": "abhängen von + Dativ",
+      "head": [
+        "Beispiel",
+        "Bedeutung"
+      ],
+      "rows": [
+        [
+          "Es hängt von den Noten ab.",
+          "এটা নম্বরের ওপর নির্ভর করে।"
+        ],
+        [
+          "Das hängt vom Bundesland ab.",
+          "এটা রাজ্যের ওপর নির্ভর করে।"
+        ],
+        [
+          "Ob ich komme, hängt vom Wetter ab.",
+          "আমি আসব কিনা আবহাওয়ার ওপর নির্ভর করে।"
+        ]
+      ],
+      "note": "abhängen (trennbar) + von + Dativ। ob-Satz-এর সাথে ব্যবহার করা যায়।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "die Grundschule",
+      "options": [
+        "আবিটুর",
+        "স্কুলে যাওয়া বাধ্যতামূলক",
+        "সুপারিশ",
+        "প্রাথমিক বিদ্যালয়"
+      ],
+      "answer": 3,
+      "why": "die Grundschule = প্রাথমিক বিদ্যালয়।",
+      "word": "grundschule"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "die Schulpflicht",
+      "options": [
+        "শ্রেণি",
+        "স্কুলে যাওয়া বাধ্যতামূলক",
+        "উচ্চ-মাধ্যমিক",
+        "সমন্বিত স্কুল"
+      ],
+      "answer": 1,
+      "why": "die Schulpflicht = স্কুলে যাওয়া বাধ্যতামূলক।",
+      "word": "schulpflicht"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "die Empfehlung",
+      "options": [
+        "সমন্বিত স্কুল",
+        "স্কুলে যাওয়া বাধ্যতামূলক",
+        "সুপারিশ",
+        "স্কুলব্যবস্থা"
+      ],
+      "answer": 2,
+      "why": "die Empfehlung = সুপারিশ।",
+      "word": "empfehlung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Berufsschule",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Berufsschule। বহুবচন: die Berufsschulen।",
+      "word": "berufsschule"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Abitur-এর সাথে কী সম্পর্ক?",
+      "options": [
+        "বিশ্ববিদ্যালয়ে ভর্তির সাধারণ যোগ্যতা",
+        "চাকরির আবেদনপত্র",
+        "ভিসা",
+        "বিমা"
+      ],
+      "answer": 0,
+      "why": "Abitur = Hochschulzugang।",
+      "word": "abitur"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Das ist die Schule, auf ___ mein Sohn geht.",
+      "options": [
+        "die",
+        "der",
+        "dem",
+        "das"
+      ],
+      "answer": 0,
+      "why": "auf die Schule (Akk) → auf die।",
+      "word": "gymnasium"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Der Betrieb, in ___ er arbeitet, ist groß.",
+      "options": [
+        "dem",
+        "den",
+        "der",
+        "die"
+      ],
+      "answer": 0,
+      "why": "in dem Betrieb (Dativ m)।",
+      "word": "klasse"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„duale Ausbildung“ বলতে কী বোঝায়?",
+      "options": [
+        "কোম্পানি ও বৃত্তিমূলক স্কুল একসাথে",
+        "শুধু স্কুল",
+        "শুধু অনলাইন",
+        "বিদেশে শেখা"
+      ],
+      "answer": 0,
+      "why": "Betrieb + Berufsschule।",
+      "word": "berufsschule"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Das hängt ___ den Noten ab.“",
+      "options": [
+        "von",
+        "bei",
+        "mit",
+        "für"
+      ],
+      "answer": 0,
+      "why": "abhängen von + Dativ।",
+      "word": "note"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „এটা নম্বরের ওপর নির্ভর করে।“",
+      "tiles": [
+        "ab.",
+        "Noten",
+        "hängt",
+        "von den",
+        "Das"
+      ],
+      "answer": [
+        "Das",
+        "hängt",
+        "von den",
+        "Noten",
+        "ab."
+      ],
+      "why": "abhängen: trennbar।",
+      "word": "note"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

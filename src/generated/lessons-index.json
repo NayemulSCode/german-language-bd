@@ -1342,5 +1342,117 @@
     "status": "draft",
     "minutes": 18,
     "words": 12
+  },
+  {
+    "id": "b1-u03-l01",
+    "level": "B1",
+    "unit": 3,
+    "lesson": 1,
+    "title": {
+      "bn": "জলবায়ু পরিবর্তন: কারণ ও ফল",
+      "en": "Causes and effects of climate change",
+      "de": "Ursachen und Folgen des Klimawandels"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u03-l02",
+    "level": "B1",
+    "unit": 3,
+    "lesson": 2,
+    "title": {
+      "bn": "বিদ্যুৎ ও গরম বাঁচানোর পরামর্শ",
+      "en": "How can I save energy?",
+      "de": "Wie kann ich Energie sparen?"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u03-l03",
+    "level": "B1",
+    "unit": 3,
+    "lesson": 3,
+    "title": {
+      "bn": "যাতায়াত ও পরিবেশ: zwar … aber, je … desto",
+      "en": "Car, bus or bike? Mobility and the environment",
+      "de": "Auto, Bus oder Fahrrad?"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u03-l04",
+    "level": "B1",
+    "unit": 3,
+    "lesson": 4,
+    "title": {
+      "bn": "আলোচনা: Passiv mit Modalverb, Pro und Contra",
+      "en": "Debate: passive with modal verbs",
+      "de": "Sollten Plastiktüten verboten werden?"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u04-l01",
+    "level": "B1",
+    "unit": 4,
+    "lesson": 1,
+    "title": {
+      "bn": "জার্মানির স্কুলব্যবস্থা",
+      "en": "The German school system",
+      "de": "Das deutsche Schulsystem"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u04-l02",
+    "level": "B1",
+    "unit": 4,
+    "lesson": 2,
+    "title": {
+      "bn": "জার্মানিতে উচ্চশিক্ষা",
+      "en": "Studying in Germany",
+      "de": "Studieren in Deutschland"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u04-l03",
+    "level": "B1",
+    "unit": 4,
+    "lesson": 3,
+    "title": {
+      "bn": "কাজের পাশাপাশি পড়াশোনা: während, seit, bis, solange",
+      "en": "Working and continuing to learn",
+      "de": "Arbeiten und weiterlernen"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u04-l04",
+    "level": "B1",
+    "unit": 4,
+    "lesson": 4,
+    "title": {
+      "bn": "কীভাবে ভালোভাবে শেখা যায়",
+      "en": "Learning how to learn",
+      "de": "Lernen lernen"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
   }
 ]

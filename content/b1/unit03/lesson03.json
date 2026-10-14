@@ -1,0 +1,1367 @@
+{
+  "level": "B1",
+  "unit": 3,
+  "minutes": 18,
+  "lesson": 3,
+  "id": "b1-u03-l03",
+  "title": {
+    "de": "Auto, Bus oder Fahrrad?",
+    "bn": "যাতায়াত ও পরিবেশ: zwar … aber, je … desto",
+    "en": "Car, bus or bike? Mobility and the environment"
+  },
+  "hook": {
+    "de": "Der Weg ist das Ziel.",
+    "who": "Redensart",
+    "bn": "পথটাই লক্ষ্য।",
+    "en": "The journey is the destination."
+  },
+  "goals": [
+    "Verkehrsmittel vergleichen: Vor- und Nachteile",
+    "zwar … aber, je … desto, entweder … oder, weder … noch",
+    "Elektroauto, Fahrgemeinschaft, öffentliche Verkehrsmittel",
+    "am besten + Verb"
+  ],
+  "words": [
+    {
+      "id": "verkehrsmittel",
+      "de": "Verkehrsmittel",
+      "art": "das",
+      "pl": "die Verkehrsmittel",
+      "pos": "বিশেষ্য",
+      "bn": "যানবাহন (মাধ্যম)",
+      "en": "means of transport"
+    },
+    {
+      "id": "oeffentlich",
+      "de": "öffentlich",
+      "pos": "বিশেষণ",
+      "bn": "সর্বসাধারণের",
+      "en": "public"
+    },
+    {
+      "id": "abgase",
+      "de": "Abgase",
+      "art": "die",
+      "pos": "বিশেষ্য, বহুবচন",
+      "bn": "নির্গত ধোঁয়া",
+      "en": "exhaust fumes"
+    },
+    {
+      "id": "fahrgemeinschaft",
+      "de": "Fahrgemeinschaft",
+      "art": "die",
+      "pl": "die Fahrgemeinschaften",
+      "pos": "বিশেষ্য",
+      "bn": "একসাথে গাড়ি চালিয়ে যাওয়া (কারপুল)",
+      "en": "carpool"
+    },
+    {
+      "id": "elektroauto",
+      "de": "Elektroauto",
+      "art": "das",
+      "pl": "die Elektroautos",
+      "pos": "বিশেষ্য",
+      "bn": "বৈদ্যুতিক গাড়ি",
+      "en": "electric car"
+    },
+    {
+      "id": "klimafreundlich",
+      "de": "klimafreundlich",
+      "pos": "বিশেষণ",
+      "bn": "জলবায়ু-বান্ধব",
+      "en": "climate-friendly"
+    },
+    {
+      "id": "bequem",
+      "de": "bequem",
+      "pos": "বিশেষণ",
+      "bn": "আরামদায়ক",
+      "en": "convenient, comfortable"
+    },
+    {
+      "id": "alternative",
+      "de": "Alternative",
+      "art": "die",
+      "pl": "die Alternativen",
+      "pos": "বিশেষ্য",
+      "bn": "বিকল্প",
+      "en": "alternative"
+    },
+    {
+      "id": "kaum",
+      "de": "kaum",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "প্রায় নেই",
+      "en": "hardly"
+    },
+    {
+      "id": "herstellen",
+      "de": "herstellen",
+      "pos": "ক্রিয়া · hat hergestellt",
+      "bn": "তৈরি করা",
+      "en": "to manufacture"
+    },
+    {
+      "id": "batterie",
+      "de": "Batterie",
+      "art": "die",
+      "pl": "die Batterien",
+      "pos": "বিশেষ্য",
+      "bn": "ব্যাটারি",
+      "en": "battery"
+    },
+    {
+      "id": "fahrradweg",
+      "de": "Fahrradweg",
+      "art": "der",
+      "pl": "die Fahrradwege",
+      "pos": "বিশেষ্য",
+      "bn": "সাইকেল লেন",
+      "en": "cycle path"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Lena",
+      "bn": [
+        "আমি",
+        "এখন",
+        "শুধু",
+        "সাইকেল",
+        "আর",
+        "গণপরিবহনে",
+        "চলি।"
+      ],
+      "en": [
+        "I",
+        "now",
+        "only",
+        "travel",
+        "by",
+        "bike",
+        "and",
+        "public",
+        "transport."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "fahre",
+          "b": [
+            6
+          ],
+          "e": [
+            3
+          ],
+          "l": "fahre",
+          "gb": "চলি",
+          "ge": "travel",
+          "n": ""
+        },
+        {
+          "t": "jetzt",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "jetzt",
+          "gb": "এখন",
+          "ge": "now",
+          "n": ""
+        },
+        {
+          "t": "nur noch",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "nur noch",
+          "gb": "শুধু",
+          "ge": "only",
+          "n": ""
+        },
+        {
+          "t": "mit dem Fahrrad",
+          "b": [
+            3
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "mit dem Fahrrad",
+          "gb": "সাইকেল",
+          "ge": "by bike",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            4
+          ],
+          "e": [
+            6
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "den öffentlichen Verkehrsmitteln.",
+          "b": [
+            5
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "Verkehrsmittel",
+          "gb": "গণপরিবহনে",
+          "ge": "public transport",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "কেন?",
+        "গাড়ি",
+        "তো",
+        "আরও",
+        "আরামদায়ক।"
+      ],
+      "en": [
+        "Why?",
+        "A",
+        "car",
+        "is",
+        "surely",
+        "more",
+        "comfortable."
+      ],
+      "de": [
+        {
+          "t": "Warum?",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Warum",
+          "gb": "কেন",
+          "ge": "Why",
+          "n": ""
+        },
+        {
+          "t": "Ein Auto",
+          "b": [
+            1
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "Ein Auto",
+          "gb": "গাড়ি",
+          "ge": "A car",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "doch",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "doch",
+          "gb": "তো",
+          "ge": "surely",
+          "n": ""
+        },
+        {
+          "t": "bequemer.",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "bequem",
+          "gb": "আরও আরামদায়ক",
+          "ge": "more comfortable",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "আরামদায়ক",
+        "অবশ্য,",
+        "কিন্তু",
+        "ওটা",
+        "আরও",
+        "দামি",
+        "আর",
+        "পরিবেশের",
+        "জন্য",
+        "খারাপ।",
+        "যত",
+        "বেশি",
+        "গাড়ি",
+        "চলে,",
+        "তত",
+        "বেশি",
+        "ধোঁয়া",
+        "হয়।"
+      ],
+      "en": [
+        "Comfortable,",
+        "yes,",
+        "but",
+        "it",
+        "is",
+        "also",
+        "more",
+        "expensive",
+        "and",
+        "bad",
+        "for",
+        "the",
+        "environment.",
+        "The",
+        "more",
+        "cars",
+        "drive,",
+        "the",
+        "more",
+        "exhaust",
+        "fumes",
+        "there",
+        "are."
+      ],
+      "de": [
+        {
+          "t": "Zwar",
+          "b": [
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "zwar",
+          "gb": "অবশ্য",
+          "ge": "Comfortable yes",
+          "n": ""
+        },
+        {
+          "t": "ist es",
+          "b": [
+            3
+          ],
+          "e": [
+            2,
+            3,
+            4
+          ],
+          "l": "ist es",
+          "gb": "ওটা",
+          "ge": "but it is",
+          "n": ""
+        },
+        {
+          "t": "bequemer,",
+          "b": [
+            0
+          ],
+          "e": [],
+          "l": "bequemer",
+          "gb": "আরামদায়ক",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "aber",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "aber",
+          "gb": "কিন্তু",
+          "ge": "but",
+          "n": ""
+        },
+        {
+          "t": "auch teurer",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            5,
+            6,
+            7
+          ],
+          "l": "auch teurer",
+          "gb": "আরও দামি",
+          "ge": "also more expensive",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            6
+          ],
+          "e": [
+            8
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "schlecht",
+          "b": [],
+          "e": [
+            9
+          ],
+          "l": "schlecht",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "bad",
+          "n": ""
+        },
+        {
+          "t": "für die Umwelt.",
+          "b": [
+            7,
+            8,
+            9
+          ],
+          "e": [
+            10,
+            11,
+            12
+          ],
+          "l": "für die Umwelt",
+          "gb": "পরিবেশের জন্য খারাপ",
+          "ge": "for the environment",
+          "n": ""
+        },
+        {
+          "t": "Je mehr Autos",
+          "b": [
+            10,
+            11,
+            12
+          ],
+          "e": [
+            13,
+            14,
+            15
+          ],
+          "l": "Je mehr Autos",
+          "gb": "যত বেশি গাড়ি",
+          "ge": "The more cars",
+          "n": ""
+        },
+        {
+          "t": "fahren,",
+          "b": [
+            13
+          ],
+          "e": [
+            16
+          ],
+          "l": "fahren",
+          "gb": "চলে",
+          "ge": "drive",
+          "n": ""
+        },
+        {
+          "t": "desto mehr Abgase",
+          "b": [
+            14,
+            15,
+            16
+          ],
+          "e": [
+            17,
+            18,
+            19,
+            20
+          ],
+          "l": "Abgase",
+          "gb": "তত বেশি ধোঁয়া",
+          "ge": "the more exhaust fumes",
+          "n": ""
+        },
+        {
+          "t": "gibt es.",
+          "b": [
+            17
+          ],
+          "e": [
+            21,
+            22
+          ],
+          "l": "gibt es",
+          "gb": "হয়",
+          "ge": "there are",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "ঠিক।",
+        "কিন্তু",
+        "গ্রামাঞ্চলে",
+        "প্রায়",
+        "কোনো",
+        "বাস",
+        "নেই।"
+      ],
+      "en": [
+        "True.",
+        "But",
+        "in",
+        "the",
+        "countryside",
+        "there",
+        "are",
+        "hardly",
+        "any",
+        "buses."
+      ],
+      "de": [
+        {
+          "t": "Stimmt.",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Stimmt",
+          "gb": "ঠিক",
+          "ge": "True",
+          "n": ""
+        },
+        {
+          "t": "Aber",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "Aber",
+          "gb": "কিন্তু",
+          "ge": "But",
+          "n": ""
+        },
+        {
+          "t": "auf dem Land",
+          "b": [
+            2
+          ],
+          "e": [
+            2,
+            3,
+            4
+          ],
+          "l": "auf dem Land",
+          "gb": "গ্রামাঞ্চলে",
+          "ge": "in the countryside",
+          "n": ""
+        },
+        {
+          "t": "gibt es",
+          "b": [
+            6
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "gibt es",
+          "gb": "নেই",
+          "ge": "there are",
+          "n": ""
+        },
+        {
+          "t": "kaum",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            7
+          ],
+          "l": "kaum",
+          "gb": "প্রায় কোনো",
+          "ge": "hardly",
+          "n": ""
+        },
+        {
+          "t": "Busse.",
+          "b": [
+            5
+          ],
+          "e": [
+            8,
+            9
+          ],
+          "l": "Busse",
+          "gb": "বাস",
+          "ge": "any buses",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "ওটা",
+        "একটা",
+        "সমস্যা।",
+        "একটি",
+        "বিকল্প",
+        "হতে",
+        "পারে",
+        "কারপুল।"
+      ],
+      "en": [
+        "That",
+        "is",
+        "a",
+        "problem.",
+        "One",
+        "alternative",
+        "could",
+        "be",
+        "a",
+        "carpool."
+      ],
+      "de": [
+        {
+          "t": "Das",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Das",
+          "gb": "ওটা",
+          "ge": "That",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "ein Problem.",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "ein Problem",
+          "gb": "একটা সমস্যা",
+          "ge": "a problem",
+          "n": ""
+        },
+        {
+          "t": "Eine Alternative",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "Alternative",
+          "gb": "একটি বিকল্প",
+          "ge": "One alternative",
+          "n": ""
+        },
+        {
+          "t": "wäre",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "wäre",
+          "gb": "হতে পারে",
+          "ge": "could be",
+          "n": ""
+        },
+        {
+          "t": "eine Fahrgemeinschaft.",
+          "b": [
+            7
+          ],
+          "e": [
+            8,
+            9
+          ],
+          "l": "Fahrgemeinschaft",
+          "gb": "কারপুল",
+          "ge": "a carpool",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আর",
+        "বৈদ্যুতিক",
+        "গাড়ির",
+        "কী?",
+        "সেগুলো",
+        "আরও",
+        "জলবায়ু-বান্ধব,",
+        "তাই",
+        "না?"
+      ],
+      "en": [
+        "And",
+        "what",
+        "about",
+        "electric",
+        "cars?",
+        "They",
+        "are",
+        "more",
+        "climate-friendly,",
+        "aren’t",
+        "they?"
+      ],
+      "de": [
+        {
+          "t": "Und",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "wie ist das",
+          "b": [
+            3
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "wie ist das",
+          "gb": "কী",
+          "ge": "what about",
+          "n": ""
+        },
+        {
+          "t": "mit Elektroautos?",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "Elektroauto",
+          "gb": "বৈদ্যুতিক গাড়ির",
+          "ge": "electric cars",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "Sie",
+          "gb": "সেগুলো",
+          "ge": "They",
+          "n": ""
+        },
+        {
+          "t": "sind",
+          "b": [],
+          "e": [
+            6
+          ],
+          "l": "sind",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "are",
+          "n": ""
+        },
+        {
+          "t": "klimafreundlicher,",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "klimafreundlich",
+          "gb": "আরও জলবায়ু-বান্ধব",
+          "ge": "more climate-friendly",
+          "n": ""
+        },
+        {
+          "t": "oder?",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "oder",
+          "gb": "তাই না",
+          "ge": "aren’t they",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "ওরা",
+        "কম",
+        "ধোঁয়া",
+        "ছাড়ে,",
+        "কিন্তু",
+        "ওগুলো",
+        "দামি,",
+        "আর",
+        "ব্যাটারি",
+        "তৈরি",
+        "করতে",
+        "হয়।",
+        "সবচেয়ে",
+        "ভালো",
+        "হলো",
+        "একেবারে",
+        "কম",
+        "গাড়ি",
+        "চালানো।"
+      ],
+      "en": [
+        "They",
+        "produce",
+        "less",
+        "exhaust,",
+        "but",
+        "they",
+        "are",
+        "expensive",
+        "and",
+        "the",
+        "battery",
+        "has",
+        "to",
+        "be",
+        "manufactured.",
+        "The",
+        "best",
+        "thing",
+        "is",
+        "to",
+        "drive",
+        "a",
+        "car",
+        "much",
+        "less."
+      ],
+      "de": [
+        {
+          "t": "Sie verursachen",
+          "b": [
+            0,
+            3
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Sie verursachen",
+          "gb": "ওরা ছাড়ে",
+          "ge": "They produce",
+          "n": ""
+        },
+        {
+          "t": "weniger Abgase,",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "weniger Abgase",
+          "gb": "কম ধোঁয়া",
+          "ge": "less exhaust",
+          "n": ""
+        },
+        {
+          "t": "aber",
+          "b": [
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "aber",
+          "gb": "কিন্তু",
+          "ge": "but",
+          "n": ""
+        },
+        {
+          "t": "sie sind",
+          "b": [
+            5
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "sie sind",
+          "gb": "ওগুলো",
+          "ge": "they are",
+          "n": ""
+        },
+        {
+          "t": "teuer,",
+          "b": [
+            6
+          ],
+          "e": [
+            7
+          ],
+          "l": "teuer",
+          "gb": "দামি",
+          "ge": "expensive",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            7
+          ],
+          "e": [
+            8
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "die Batterie",
+          "b": [
+            8
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "Batterie",
+          "gb": "ব্যাটারি",
+          "ge": "the battery",
+          "n": ""
+        },
+        {
+          "t": "muss",
+          "b": [
+            11
+          ],
+          "e": [
+            11,
+            12,
+            13
+          ],
+          "l": "muss",
+          "gb": "হয়",
+          "ge": "has to be",
+          "n": ""
+        },
+        {
+          "t": "hergestellt",
+          "b": [
+            9,
+            10
+          ],
+          "e": [
+            14
+          ],
+          "l": "herstellen",
+          "gb": "তৈরি করতে",
+          "ge": "manufactured",
+          "n": ""
+        },
+        {
+          "t": "werden.",
+          "b": [],
+          "e": [],
+          "l": "werden",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Am besten",
+          "b": [
+            12,
+            13,
+            14
+          ],
+          "e": [
+            15,
+            16,
+            17,
+            18
+          ],
+          "l": "Am besten",
+          "gb": "সবচেয়ে ভালো হলো",
+          "ge": "The best thing is",
+          "n": ""
+        },
+        {
+          "t": "fährt man",
+          "b": [
+            18
+          ],
+          "e": [
+            19,
+            20
+          ],
+          "l": "fährt man",
+          "gb": "চালানো",
+          "ge": "to drive",
+          "n": ""
+        },
+        {
+          "t": "weniger Auto.",
+          "b": [
+            15,
+            16,
+            17
+          ],
+          "e": [
+            21,
+            22,
+            23,
+            24
+          ],
+          "l": "weniger Auto",
+          "gb": "একেবারে কম গাড়ি",
+          "ge": "a car much less",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "Konnektoren zum Abwägen",
+      "head": [
+        "Struktur",
+        "Bedeutung",
+        "Beispiel"
+      ],
+      "rows": [
+        [
+          "zwar … aber …",
+          "অবশ্য … কিন্তু …",
+          "Das Auto ist zwar bequem, aber teuer."
+        ],
+        [
+          "einerseits … andererseits …",
+          "একদিকে … অন্যদিকে …",
+          "Einerseits ist es schnell, andererseits ist es laut."
+        ],
+        [
+          "entweder … oder …",
+          "হয় … নয়তো …",
+          "Entweder fahre ich mit dem Bus oder mit dem Rad."
+        ],
+        [
+          "weder … noch …",
+          "না … না …",
+          "Ich habe weder ein Auto noch ein Fahrrad."
+        ],
+        [
+          "sowohl … als auch …",
+          "দুটোই …",
+          "Sie fährt sowohl Rad als auch Bus."
+        ],
+        [
+          "je … desto …",
+          "যত … তত …",
+          "Je mehr Autos, desto mehr Abgase."
+        ]
+      ],
+      "note": "entweder/weder-এর পর ক্রিয়া সাধারণ স্থানে; je-বাক্য Nebensatz (ক্রিয়া শেষে)।"
+    },
+    {
+      "type": "table",
+      "title": "Vergleiche mit Verkehrsmitteln",
+      "head": [
+        "Verkehrsmittel",
+        "Vorteile",
+        "Nachteile"
+      ],
+      "rows": [
+        [
+          "Fahrrad",
+          "billig, gesund, klimafreundlich",
+          "wetterabhängig, begrenzte Reichweite"
+        ],
+        [
+          "Bus / Bahn",
+          "günstig, kein Parkplatz nötig",
+          "feste Zeiten, manchmal voll"
+        ],
+        [
+          "Auto",
+          "bequem, flexibel",
+          "teuer, Abgase, Stau"
+        ],
+        [
+          "Elektroauto",
+          "weniger lokale Abgase",
+          "hoher Preis, Batterieherstellung"
+        ],
+        [
+          "Fahrgemeinschaft",
+          "Kosten teilen",
+          "Absprache nötig"
+        ]
+      ],
+      "note": "Vor- und Nachteile aufzählen: „Ein Vorteil ist, dass …“, „Ein Nachteil ist, dass …“। am besten = সবচেয়ে ভালোভাবে।"
+    },
+    {
+      "type": "text",
+      "title": "am besten + Verb",
+      "text": "„Am besten fährt man mit dem Rad.“ = সবচেয়ে ভালো হলো সাইকেলে যাওয়া। „Am schnellsten ist die Bahn.“ „Am billigsten ist es, zu Fuß zu gehen.“ — Superlativ-এর am + -sten রূপ ক্রিয়ার সাথে (Prädikat) ব্যবহার হয়।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "die Fahrgemeinschaft",
+      "options": [
+        "বৈদ্যুতিক গাড়ি",
+        "আরামদায়ক",
+        "একসাথে গাড়ি চালিয়ে যাওয়া",
+        "প্রায় নেই"
+      ],
+      "answer": 2,
+      "why": "die Fahrgemeinschaft = একসাথে গাড়ি চালিয়ে যাওয়া।",
+      "word": "fahrgemeinschaft"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "die Abgase",
+      "options": [
+        "প্রায় নেই",
+        "নির্গত ধোঁয়া",
+        "সাইকেল লেন",
+        "একসাথে গাড়ি চালিয়ে যাওয়া"
+      ],
+      "answer": 1,
+      "why": "die Abgase = নির্গত ধোঁয়া।",
+      "word": "abgase"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "klimafreundlich",
+      "options": [
+        "ব্যাটারি",
+        "সর্বসাধারণের",
+        "জলবায়ু-বান্ধব",
+        "বৈদ্যুতিক গাড়ি"
+      ],
+      "answer": 2,
+      "why": "klimafreundlich = জলবায়ু-বান্ধব।",
+      "word": "klimafreundlich"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Alternative",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Alternative। বহুবচন: die Alternativen।",
+      "word": "alternative"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক বাক্য কোনটি?",
+      "options": [
+        "Je mehr Autos fahren, desto mehr Abgase gibt es.",
+        "Je mehr Autos fahren, desto gibt es mehr Abgase.",
+        "Je mehr fahren Autos, desto mehr Abgase gibt es.",
+        "Je mehr Autos fahren desto mehr gibt Abgase es."
+      ],
+      "answer": 0,
+      "why": "je-Satz, desto + Hauptsatz।",
+      "word": "abgase"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„weder … noch“ মানে কী?",
+      "options": [
+        "না … না …",
+        "হয় … নয়তো …",
+        "যত … তত …",
+        "অবশ্য … কিন্তু …"
+      ],
+      "answer": 0,
+      "why": "weder … noch।",
+      "word": "kaum"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Entweder fahre ich mit dem Bus ___ mit dem Rad.",
+      "options": [
+        "oder",
+        "noch",
+        "aber",
+        "weil"
+      ],
+      "answer": 0,
+      "why": "entweder … oder।",
+      "word": "bequem"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„zwar … aber“ কীসের জন্য?",
+      "options": [
+        "বিপরীত ভাব দেখাতে",
+        "কারণ বলতে",
+        "সময় বলতে",
+        "প্রশ্ন করতে"
+      ],
+      "answer": 0,
+      "why": "Konzession।",
+      "word": "alternative"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„am besten“ কী ধরনের রূপ?",
+      "options": [
+        "Superlativ",
+        "Komparativ",
+        "Positiv",
+        "Partizip"
+      ],
+      "answer": 0,
+      "why": "gut – besser – am besten।",
+      "word": "elektroauto"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „গাড়ি আরামদায়ক, কিন্তু দামি।“",
+      "tiles": [
+        "bequem,",
+        "ist",
+        "aber",
+        "teuer.",
+        "zwar",
+        "Das Auto"
+      ],
+      "answer": [
+        "Das Auto",
+        "ist",
+        "zwar",
+        "bequem,",
+        "aber",
+        "teuer."
+      ],
+      "why": "zwar … aber …",
+      "word": "bequem"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

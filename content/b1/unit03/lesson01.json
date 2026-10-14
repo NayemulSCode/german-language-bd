@@ -1,0 +1,1401 @@
+{
+  "level": "B1",
+  "unit": 3,
+  "minutes": 18,
+  "lesson": 1,
+  "id": "b1-u03-l01",
+  "title": {
+    "de": "Ursachen und Folgen des Klimawandels",
+    "bn": "জলবায়ু পরিবর্তন: কারণ ও ফল",
+    "en": "Causes and effects of climate change"
+  },
+  "hook": {
+    "de": "Es gibt keinen Planeten B.",
+    "who": "Slogan",
+    "bn": "পৃথিবীর বিকল্প নেই।",
+    "en": "There is no planet B."
+  },
+  "goals": [
+    "কারণ ও ফল: deshalb, deswegen, daher, dadurch",
+    "wegen + Genitiv",
+    "Passiv Präteritum: wurden überschwemmt",
+    "Wortschatz: Klimawandel, Treibhausgas, Meeresspiegel"
+  ],
+  "words": [
+    {
+      "id": "klimawandel",
+      "de": "Klimawandel",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "জলবায়ু পরিবর্তন",
+      "en": "climate change"
+    },
+    {
+      "id": "ursache",
+      "de": "Ursache",
+      "art": "die",
+      "pl": "die Ursachen",
+      "pos": "বিশেষ্য",
+      "bn": "কারণ",
+      "en": "cause"
+    },
+    {
+      "id": "folge",
+      "de": "Folge",
+      "art": "die",
+      "pl": "die Folgen",
+      "pos": "বিশেষ্য",
+      "bn": "ফল, পরিণতি",
+      "en": "consequence"
+    },
+    {
+      "id": "treibhausgas",
+      "de": "Treibhausgas",
+      "art": "das",
+      "pl": "die Treibhausgase",
+      "pos": "বিশেষ্য",
+      "bn": "গ্রিনহাউস গ্যাস",
+      "en": "greenhouse gas"
+    },
+    {
+      "id": "steigen",
+      "de": "steigen",
+      "pos": "ক্রিয়া · ist gestiegen",
+      "bn": "বাড়া, ওঠা",
+      "en": "to rise"
+    },
+    {
+      "id": "ueberschwemmung",
+      "de": "Überschwemmung",
+      "art": "die",
+      "pl": "die Überschwemmungen",
+      "pos": "বিশেষ্য",
+      "bn": "বন্যা",
+      "en": "flood"
+    },
+    {
+      "id": "duerre",
+      "de": "Dürre",
+      "art": "die",
+      "pl": "die Dürren",
+      "pos": "বিশেষ্য",
+      "bn": "খরা",
+      "en": "drought"
+    },
+    {
+      "id": "gletscher",
+      "de": "Gletscher",
+      "art": "der",
+      "pl": "die Gletscher",
+      "pos": "বিশেষ্য",
+      "bn": "হিমবাহ",
+      "en": "glacier"
+    },
+    {
+      "id": "schmelzen",
+      "de": "schmelzen",
+      "pos": "ক্রিয়া · ist geschmolzen",
+      "bn": "গলে যাওয়া",
+      "en": "to melt"
+    },
+    {
+      "id": "meeresspiegel",
+      "de": "Meeresspiegel",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "সমুদ্রপৃষ্ঠের উচ্চতা",
+      "en": "sea level"
+    },
+    {
+      "id": "erneuerbar",
+      "de": "erneuerbar",
+      "pos": "বিশেষণ",
+      "bn": "নবায়নযোগ্য",
+      "en": "renewable"
+    },
+    {
+      "id": "betroffen",
+      "de": "betroffen",
+      "pos": "বিশেষণ",
+      "bn": "ক্ষতিগ্রস্ত",
+      "en": "affected"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Lena",
+      "bn": [
+        "তুমি",
+        "কি",
+        "খবর",
+        "দেখেছ?",
+        "প্রবল",
+        "বৃষ্টির",
+        "কারণে",
+        "বেশ",
+        "কয়েকটি",
+        "গ্রাম",
+        "প্লাবিত",
+        "হয়েছিল।"
+      ],
+      "en": [
+        "Did",
+        "you",
+        "see",
+        "the",
+        "news?",
+        "Because",
+        "of",
+        "the",
+        "heavy",
+        "rain,",
+        "several",
+        "villages",
+        "were",
+        "flooded."
+      ],
+      "de": [
+        {
+          "t": "Hast du",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Hast du",
+          "gb": "তুমি কি",
+          "ge": "Did you",
+          "n": ""
+        },
+        {
+          "t": "die Nachrichten",
+          "b": [
+            2
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "die Nachrichten",
+          "gb": "খবর",
+          "ge": "the news",
+          "n": ""
+        },
+        {
+          "t": "gesehen?",
+          "b": [
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "gesehen",
+          "gb": "দেখেছ",
+          "ge": "see",
+          "n": ""
+        },
+        {
+          "t": "Wegen",
+          "b": [
+            6
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "wegen",
+          "gb": "কারণে",
+          "ge": "Because of",
+          "n": "wegen + Genitiv: wegen der Regenfälle"
+        },
+        {
+          "t": "der starken Regenfälle",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            7,
+            8,
+            9
+          ],
+          "l": "der starken Regenfälle",
+          "gb": "প্রবল বৃষ্টির",
+          "ge": "the heavy rain",
+          "n": ""
+        },
+        {
+          "t": "wurden",
+          "b": [
+            11
+          ],
+          "e": [
+            12
+          ],
+          "l": "wurden",
+          "gb": "হয়েছিল",
+          "ge": "were",
+          "n": ""
+        },
+        {
+          "t": "mehrere Dörfer",
+          "b": [
+            7,
+            8,
+            9
+          ],
+          "e": [
+            10,
+            11
+          ],
+          "l": "mehrere Dörfer",
+          "gb": "বেশ কয়েকটি গ্রাম",
+          "ge": "several villages",
+          "n": ""
+        },
+        {
+          "t": "überschwemmt.",
+          "b": [
+            10
+          ],
+          "e": [
+            13
+          ],
+          "l": "Überschwemmung",
+          "gb": "প্লাবিত",
+          "ge": "flooded",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "এটা",
+        "আমি",
+        "বাংলাদেশ",
+        "থেকে",
+        "চিনি।",
+        "সেখানে",
+        "প্রায়ই",
+        "বন্যা",
+        "হয়।",
+        "জলবায়ু",
+        "বদলাচ্ছে,",
+        "তাই",
+        "বন্যা",
+        "আরও",
+        "ঘন",
+        "ঘন",
+        "হচ্ছে।"
+      ],
+      "en": [
+        "I",
+        "know",
+        "that",
+        "from",
+        "Bangladesh.",
+        "There",
+        "are",
+        "often",
+        "floods",
+        "there.",
+        "The",
+        "climate",
+        "is",
+        "changing,",
+        "so",
+        "they",
+        "are",
+        "becoming",
+        "more",
+        "frequent."
+      ],
+      "de": [
+        {
+          "t": "Das",
+          "b": [
+            0
+          ],
+          "e": [
+            2
+          ],
+          "l": "Das",
+          "gb": "এটা",
+          "ge": "that",
+          "n": ""
+        },
+        {
+          "t": "kenne ich",
+          "b": [
+            1,
+            4
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "kenne ich",
+          "gb": "আমি চিনি",
+          "ge": "I know",
+          "n": ""
+        },
+        {
+          "t": "aus Bangladesch.",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "aus Bangladesch",
+          "gb": "বাংলাদেশ থেকে",
+          "ge": "from Bangladesh",
+          "n": ""
+        },
+        {
+          "t": "Dort gibt es",
+          "b": [
+            5
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "Dort gibt es",
+          "gb": "সেখানে",
+          "ge": "There are",
+          "n": ""
+        },
+        {
+          "t": "oft",
+          "b": [
+            6
+          ],
+          "e": [
+            7
+          ],
+          "l": "oft",
+          "gb": "প্রায়ই",
+          "ge": "often",
+          "n": ""
+        },
+        {
+          "t": "Überschwemmungen.",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            8,
+            9
+          ],
+          "l": "Überschwemmung",
+          "gb": "বন্যা হয়",
+          "ge": "floods there",
+          "n": ""
+        },
+        {
+          "t": "Das Klima",
+          "b": [
+            9
+          ],
+          "e": [
+            10,
+            11
+          ],
+          "l": "Das Klima",
+          "gb": "জলবায়ু",
+          "ge": "The climate",
+          "n": ""
+        },
+        {
+          "t": "verändert sich,",
+          "b": [
+            10
+          ],
+          "e": [
+            12,
+            13
+          ],
+          "l": "verändert sich",
+          "gb": "বদলাচ্ছে",
+          "ge": "is changing",
+          "n": ""
+        },
+        {
+          "t": "deshalb",
+          "b": [
+            11
+          ],
+          "e": [
+            14
+          ],
+          "l": "deshalb",
+          "gb": "তাই",
+          "ge": "so",
+          "n": ""
+        },
+        {
+          "t": "werden",
+          "b": [
+            16
+          ],
+          "e": [
+            15,
+            16,
+            17
+          ],
+          "l": "werden",
+          "gb": "হচ্ছে",
+          "ge": "they are becoming",
+          "n": ""
+        },
+        {
+          "t": "sie",
+          "b": [
+            12
+          ],
+          "e": [],
+          "l": "sie",
+          "gb": "বন্যা",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "häufiger.",
+          "b": [
+            13,
+            14,
+            15
+          ],
+          "e": [
+            18,
+            19
+          ],
+          "l": "häufiger",
+          "gb": "আরও ঘন ঘন",
+          "ge": "more frequent",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "এর",
+        "কারণগুলো",
+        "কী?"
+      ],
+      "en": [
+        "What",
+        "are",
+        "the",
+        "causes?"
+      ],
+      "de": [
+        {
+          "t": "Was",
+          "b": [
+            2
+          ],
+          "e": [
+            0
+          ],
+          "l": "Was",
+          "gb": "কী",
+          "ge": "What",
+          "n": ""
+        },
+        {
+          "t": "sind",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "sind",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "are",
+          "n": ""
+        },
+        {
+          "t": "die Ursachen?",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "Ursache",
+          "gb": "এর কারণগুলো",
+          "ge": "the causes",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "প্রধানত",
+        "গ্রিনহাউস",
+        "গ্যাস।",
+        "সেগুলো",
+        "যানবাহন,",
+        "শিল্প",
+        "আর",
+        "কয়লা",
+        "থেকে",
+        "পাওয়া",
+        "বিদ্যুতের",
+        "কারণে",
+        "তৈরি",
+        "হয়।",
+        "এর",
+        "ফলে",
+        "তাপমাত্রা",
+        "বাড়ে।"
+      ],
+      "en": [
+        "Mainly",
+        "greenhouse",
+        "gases.",
+        "They",
+        "are",
+        "produced",
+        "by",
+        "traffic,",
+        "industry",
+        "and",
+        "energy",
+        "from",
+        "coal.",
+        "As",
+        "a",
+        "result",
+        "the",
+        "temperature",
+        "rises."
+      ],
+      "de": [
+        {
+          "t": "Hauptsächlich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Hauptsächlich",
+          "gb": "প্রধানত",
+          "ge": "Mainly",
+          "n": ""
+        },
+        {
+          "t": "Treibhausgase.",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "Treibhausgas",
+          "gb": "গ্রিনহাউস গ্যাস",
+          "ge": "greenhouse gases",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "Sie",
+          "gb": "সেগুলো",
+          "ge": "They",
+          "n": ""
+        },
+        {
+          "t": "entstehen",
+          "b": [
+            12,
+            13
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "entstehen",
+          "gb": "তৈরি হয়",
+          "ge": "are produced",
+          "n": ""
+        },
+        {
+          "t": "durch Verkehr,",
+          "b": [
+            4
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "durch Verkehr",
+          "gb": "যানবাহন",
+          "ge": "by traffic",
+          "n": ""
+        },
+        {
+          "t": "Industrie",
+          "b": [
+            5
+          ],
+          "e": [
+            8
+          ],
+          "l": "Industrie",
+          "gb": "শিল্প",
+          "ge": "industry",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            6
+          ],
+          "e": [
+            9
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "Energie aus Kohle.",
+          "b": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "e": [
+            10,
+            11,
+            12
+          ],
+          "l": "Energie aus Kohle",
+          "gb": "কয়লা থেকে পাওয়া বিদ্যুতের কারণে",
+          "ge": "energy from coal",
+          "n": ""
+        },
+        {
+          "t": "Dadurch",
+          "b": [
+            14,
+            15
+          ],
+          "e": [
+            13,
+            14,
+            15
+          ],
+          "l": "dadurch",
+          "gb": "এর ফলে",
+          "ge": "As a result",
+          "n": ""
+        },
+        {
+          "t": "steigt",
+          "b": [
+            17
+          ],
+          "e": [
+            18
+          ],
+          "l": "steigen",
+          "gb": "বাড়ে",
+          "ge": "rises",
+          "n": ""
+        },
+        {
+          "t": "die Temperatur.",
+          "b": [
+            16
+          ],
+          "e": [
+            16,
+            17
+          ],
+          "l": "die Temperatur",
+          "gb": "তাপমাত্রা",
+          "ge": "the temperature",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "আর",
+        "এর",
+        "কী",
+        "কী",
+        "ফল",
+        "হয়?"
+      ],
+      "en": [
+        "And",
+        "what",
+        "consequences",
+        "does",
+        "that",
+        "have?"
+      ],
+      "de": [
+        {
+          "t": "Und",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "welche",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            1
+          ],
+          "l": "welche",
+          "gb": "কী কী",
+          "ge": "what",
+          "n": ""
+        },
+        {
+          "t": "Folgen",
+          "b": [
+            4
+          ],
+          "e": [
+            2
+          ],
+          "l": "Folge",
+          "gb": "ফল",
+          "ge": "consequences",
+          "n": ""
+        },
+        {
+          "t": "hat das?",
+          "b": [
+            5
+          ],
+          "e": [
+            3,
+            4,
+            5
+          ],
+          "l": "hat das",
+          "gb": "হয়",
+          "ge": "does that have",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "হিমবাহ",
+        "গলে",
+        "যায়,",
+        "সমুদ্রপৃষ্ঠ",
+        "বাড়ে,",
+        "আর",
+        "খরা",
+        "বেশি",
+        "হয়।",
+        "বাংলাদেশের",
+        "মতো",
+        "দেশগুলো",
+        "বিশেষভাবে",
+        "ক্ষতিগ্রস্ত।"
+      ],
+      "en": [
+        "Glaciers",
+        "melt,",
+        "the",
+        "sea",
+        "level",
+        "rises",
+        "and",
+        "there",
+        "are",
+        "more",
+        "droughts.",
+        "Countries",
+        "like",
+        "Bangladesh",
+        "are",
+        "especially",
+        "affected."
+      ],
+      "de": [
+        {
+          "t": "Gletscher",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Gletscher",
+          "gb": "হিমবাহ",
+          "ge": "Glaciers",
+          "n": ""
+        },
+        {
+          "t": "schmelzen,",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            1
+          ],
+          "l": "schmelzen",
+          "gb": "গলে যায়",
+          "ge": "melt",
+          "n": ""
+        },
+        {
+          "t": "der Meeresspiegel",
+          "b": [
+            3
+          ],
+          "e": [
+            2,
+            3,
+            4
+          ],
+          "l": "Meeresspiegel",
+          "gb": "সমুদ্রপৃষ্ঠ",
+          "ge": "the sea level",
+          "n": ""
+        },
+        {
+          "t": "steigt",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "steigt",
+          "gb": "বাড়ে",
+          "ge": "rises",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            5
+          ],
+          "e": [
+            6
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "es gibt",
+          "b": [
+            8
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "es gibt",
+          "gb": "হয়",
+          "ge": "there are",
+          "n": ""
+        },
+        {
+          "t": "mehr Dürren.",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "Dürre",
+          "gb": "খরা বেশি",
+          "ge": "more droughts",
+          "n": ""
+        },
+        {
+          "t": "Besonders",
+          "b": [
+            12
+          ],
+          "e": [
+            15
+          ],
+          "l": "Besonders",
+          "gb": "বিশেষভাবে",
+          "ge": "especially",
+          "n": ""
+        },
+        {
+          "t": "Länder",
+          "b": [
+            11
+          ],
+          "e": [
+            11
+          ],
+          "l": "Länder",
+          "gb": "দেশগুলো",
+          "ge": "Countries",
+          "n": ""
+        },
+        {
+          "t": "wie Bangladesch",
+          "b": [
+            9,
+            10
+          ],
+          "e": [
+            12,
+            13
+          ],
+          "l": "wie Bangladesch",
+          "gb": "বাংলাদেশের মতো",
+          "ge": "like Bangladesh",
+          "n": ""
+        },
+        {
+          "t": "sind",
+          "b": [],
+          "e": [
+            14
+          ],
+          "l": "sind",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "are",
+          "n": ""
+        },
+        {
+          "t": "betroffen.",
+          "b": [
+            13
+          ],
+          "e": [
+            16
+          ],
+          "l": "betroffen",
+          "gb": "ক্ষতিগ্রস্ত",
+          "ge": "affected",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "সেজন্য",
+        "আমাদের",
+        "কম",
+        "শক্তি",
+        "ব্যবহার",
+        "করতে",
+        "আর",
+        "নবায়নযোগ্য",
+        "শক্তি",
+        "কাজে",
+        "লাগাতে",
+        "হবে।"
+      ],
+      "en": [
+        "That",
+        "is",
+        "why",
+        "we",
+        "must",
+        "use",
+        "less",
+        "energy",
+        "and",
+        "use",
+        "renewable",
+        "energies."
+      ],
+      "de": [
+        {
+          "t": "Deswegen",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "deshalb",
+          "gb": "সেজন্য",
+          "ge": "That is why",
+          "n": ""
+        },
+        {
+          "t": "müssen",
+          "b": [
+            11
+          ],
+          "e": [
+            4
+          ],
+          "l": "müssen",
+          "gb": "হবে",
+          "ge": "must",
+          "n": ""
+        },
+        {
+          "t": "wir",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "wir",
+          "gb": "আমাদের",
+          "ge": "we",
+          "n": ""
+        },
+        {
+          "t": "weniger Energie",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            5,
+            6,
+            7
+          ],
+          "l": "weniger Energie",
+          "gb": "কম শক্তি",
+          "ge": "use less energy",
+          "n": ""
+        },
+        {
+          "t": "verbrauchen",
+          "b": [
+            4,
+            5
+          ],
+          "e": [],
+          "l": "verbrauchen",
+          "gb": "ব্যবহার করতে",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            6
+          ],
+          "e": [
+            8
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "erneuerbare Energien",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            10,
+            11
+          ],
+          "l": "erneuerbar",
+          "gb": "নবায়নযোগ্য শক্তি",
+          "ge": "renewable energies",
+          "n": ""
+        },
+        {
+          "t": "nutzen.",
+          "b": [
+            9,
+            10
+          ],
+          "e": [
+            9
+          ],
+          "l": "nutzen",
+          "gb": "কাজে লাগাতে",
+          "ge": "use",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "Ursache und Folge: Konnektoren",
+      "head": [
+        "Konnektor",
+        "Typ",
+        "Beispiel"
+      ],
+      "rows": [
+        [
+          "weil",
+          "Nebensatz (Grund)",
+          "Die Temperatur steigt, weil es mehr Treibhausgase gibt."
+        ],
+        [
+          "deshalb / deswegen / daher / darum",
+          "Hauptsatz (Folge), Verb 2.",
+          "Es gibt mehr Treibhausgase. Deshalb steigt die Temperatur."
+        ],
+        [
+          "dadurch",
+          "Hauptsatz (Folge/Mittel)",
+          "Es werden Gase freigesetzt. Dadurch steigt die Temperatur."
+        ],
+        [
+          "folglich",
+          "Hauptsatz (Schlussfolgerung)",
+          "Die Gletscher schmelzen; folglich steigt der Meeresspiegel."
+        ],
+        [
+          "wegen + Genitiv",
+          "Präposition (Grund)",
+          "Wegen der starken Regenfälle gab es Überschwemmungen."
+        ]
+      ],
+      "note": "deshalb/daher/darum ক্রিয়াবিশেষণ: বাক্যের শুরুতে এলে ক্রিয়া ২য় স্থানে। weil Nebensatz: ক্রিয়া শেষে।"
+    },
+    {
+      "type": "table",
+      "title": "wegen + Genitiv",
+      "head": [
+        "",
+        "m",
+        "n",
+        "f",
+        "Plural"
+      ],
+      "rows": [
+        [
+          "Nominativ",
+          "der Regen",
+          "das Wetter",
+          "die Dürre",
+          "die Folgen"
+        ],
+        [
+          "wegen + Genitiv",
+          "wegen des Regens",
+          "wegen des Wetters",
+          "wegen der Dürre",
+          "wegen der Folgen"
+        ]
+      ],
+      "note": "কথায় প্রায়ই wegen + Dativ: „wegen dem Wetter“ — লেখায় Genitiv ঠিক।"
+    },
+    {
+      "type": "table",
+      "title": "Passiv Präteritum",
+      "head": [
+        "Präsens",
+        "Präteritum"
+      ],
+      "rows": [
+        [
+          "Dörfer werden überschwemmt.",
+          "Dörfer wurden überschwemmt."
+        ],
+        [
+          "Das Haus wird zerstört.",
+          "Das Haus wurde zerstört."
+        ],
+        [
+          "Menschen werden evakuiert.",
+          "Menschen wurden evakuiert."
+        ]
+      ],
+      "note": "wurde / wurden + Partizip II — সংবাদ ও প্রতিবেদনে খুব প্রচলিত।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "der Klimawandel",
+      "options": [
+        "জলবায়ু পরিবর্তন",
+        "সমুদ্রপৃষ্ঠের উচ্চতা",
+        "ক্ষতিগ্রস্ত",
+        "ফল"
+      ],
+      "answer": 0,
+      "why": "der Klimawandel = জলবায়ু পরিবর্তন।",
+      "word": "klimawandel"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "die Überschwemmung",
+      "options": [
+        "বন্যা",
+        "ক্ষতিগ্রস্ত",
+        "ফল",
+        "খরা"
+      ],
+      "answer": 0,
+      "why": "die Überschwemmung = বন্যা।",
+      "word": "ueberschwemmung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "erneuerbar",
+      "options": [
+        "বাড়া",
+        "হিমবাহ",
+        "ক্ষতিগ্রস্ত",
+        "নবায়নযোগ্য"
+      ],
+      "answer": 3,
+      "why": "erneuerbar = নবায়নযোগ্য।",
+      "word": "erneuerbar"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Ursache",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Ursache। বহুবচন: die Ursachen।",
+      "word": "ursache"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক বাক্য কোনটি?",
+      "options": [
+        "Deshalb steigt die Temperatur.",
+        "Deshalb die Temperatur steigt.",
+        "Deshalb steigt Temperatur die.",
+        "Die Temperatur deshalb steigt."
+      ],
+      "answer": 0,
+      "why": "deshalb + ক্রিয়া ২য়।",
+      "word": "steigen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Wegen ___ Regens gab es eine Überschwemmung.",
+      "options": [
+        "des",
+        "der",
+        "dem",
+        "den"
+      ],
+      "answer": 0,
+      "why": "wegen + Genitiv: des Regens।",
+      "word": "ursache"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Passiv Präteritum কোনটি?",
+      "options": [
+        "Dörfer wurden überschwemmt.",
+        "Dörfer werden überschwemmt.",
+        "Dörfer sind überschwemmt worden.",
+        "Man überschwemmt Dörfer."
+      ],
+      "answer": 0,
+      "why": "wurden + Partizip II।",
+      "word": "ueberschwemmung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Meeresspiegel“ মানে কী?",
+      "options": [
+        "সমুদ্রপৃষ্ঠের উচ্চতা",
+        "সমুদ্রের জীব",
+        "সমুদ্র-ভ্রমণ",
+        "নদীর পানি"
+      ],
+      "answer": 0,
+      "why": "Spiegel = surface/level।",
+      "word": "meeresspiegel"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Folge“ এর অর্থ কী?",
+      "options": [
+        "পরিণতি, ফল",
+        "কারণ",
+        "শুরু",
+        "নিয়ম"
+      ],
+      "answer": 0,
+      "why": "die Folge।",
+      "word": "folge"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „সেজন্য তাপমাত্রা বাড়ে।“",
+      "tiles": [
+        "die Temperatur.",
+        "steigt",
+        "Deshalb"
+      ],
+      "answer": [
+        "Deshalb",
+        "steigt",
+        "die Temperatur."
+      ],
+      "why": "Deshalb + Verb।",
+      "word": "klimawandel"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}
