@@ -31,6 +31,7 @@ export interface Progress {
   startUnit: number // A1 units before this one are open without being passed (set by the placement test)
   unlockAll: boolean // every lesson open, no strict order
   placed: boolean // the placement test has been taken
+  startUnitA2: number // 0 = the A2 placement test has not been taken; otherwise A1 and A2 units before this one are open
   // learning data (merged by union / max)
   xp: number // always derived from lessons, see computeXp
   lessons: Record<string, LessonProgress>
@@ -40,7 +41,7 @@ export interface Progress {
 }
 
 export const emptyProgress = (): Progress => ({
-  lang: 'both', slow: false, theme: 'system', goal: 50, name: '', examDate: '', startUnit: 1, unlockAll: false, placed: false,
+  lang: 'both', slow: false, theme: 'system', goal: 50, name: '', examDate: '', startUnit: 1, unlockAll: false, placed: false, startUnitA2: 0,
   xp: 0, lessons: {}, srs: {}, activity: {}, updatedAt: 0,
 })
 
@@ -71,6 +72,7 @@ export function sanitizeProgress(raw: unknown): Progress {
   if (isInt(r.startUnit, 99) && r.startUnit >= 1) out.startUnit = r.startUnit
   out.unlockAll = r.unlockAll === true
   out.placed = r.placed === true
+  if (isInt(r.startUnitA2, 99)) out.startUnitA2 = r.startUnitA2
   if (isNum(r.updatedAt, FAR_FUTURE)) out.updatedAt = r.updatedAt
   if (r.lessons && typeof r.lessons === 'object') {
     for (const [id, v] of Object.entries(r.lessons as Record<string, unknown>)) {

@@ -11,11 +11,10 @@ import { EXAMS, loadRecords } from '../lib/exam'
 
 export function CourseScreen() {
   const { lessonProgress, progress } = useApp()
-  const [level, setLevel] = useState<string>('A1')
+  const states = lessonStates(LESSONS, (id) => lessonProgress(id).passed, { startUnit: progress.startUnit, startUnitA2: progress.startUnitA2, unlockAll: progress.unlockAll })
+  const [level, setLevel] = useState<string>(() => LESSONS.find((l) => states.get(l.id) === 'now')?.level ?? 'A1')
   const [open, setOpen] = useState<Set<number>>(new Set())
   const [sheet, setSheet] = useState<LessonMeta | null>(null)
-
-  const states = lessonStates(LESSONS, (id) => lessonProgress(id).passed, { startUnit: progress.startUnit, unlockAll: progress.unlockAll })
   const info = LEVELS[level]
   const units = groupUnits(LESSONS, level)
   const built = units.length > 0
@@ -26,7 +25,7 @@ export function CourseScreen() {
   // open the unit that holds the next lesson the first time the screen shows
   useEffect(() => {
     const now = LESSONS.find((l) => states.get(l.id) === 'now')
-    if (now && now.level === 'A1') setOpen(new Set([now.unit]))
+    if (now && now.level === level) setOpen(new Set([now.unit]))
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
@@ -48,7 +47,10 @@ export function CourseScreen() {
     <>
       <div className="eyebrow bn">কোর্স ম্যাপ</div>
       <h1 style={{ fontSize: 30, marginTop: 4 }}>শূন্য থেকে B1</h1>
-      <a className="btn sm ghost bn" href="#placement" style={{ marginTop: 12 }}>{progress.placed ? 'প্লেসমেন্ট টেস্ট আবার দিন' : 'কোথা থেকে শুরু করবেন? প্লেসমেন্ট টেস্ট'}</a>
+      <div className="row" style={{ marginTop: 12, gap: 8, flexWrap: 'wrap' }}>
+        <a className="btn sm ghost bn" href="#placement">{progress.placed ? 'A1 প্লেসমেন্ট টেস্ট আবার দিন' : 'কোথা থেকে শুরু করবেন? A1 প্লেসমেন্ট টেস্ট'}</a>
+        {LESSONS.some((l) => l.level === 'A2') && <a className="btn sm ghost bn" href="#placement/a2">{progress.startUnitA2 > 0 ? 'A2 প্লেসমেন্ট টেস্ট আবার দিন' : 'A1 জানা আছে? A2 প্লেসমেন্ট টেস্ট'}</a>}
+      </div>
       {EXAMS.filter((ex) => ex.level === level).map((ex) => {
         const rec = loadRecords()[ex.id]
         return (

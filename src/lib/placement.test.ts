@@ -27,6 +27,22 @@ describe('pickQuestions', () => {
   })
 })
 
+describe('pickQuestions for A2', () => {
+  const dirA2 = new URL('../../content/a2/', import.meta.url).pathname
+  const a2 = readdirSync(dirA2).sort().flatMap((u) => readdirSync(join(dirA2, u)).sort().map((f) => Lesson.parse(JSON.parse(readFileSync(join(dirA2, u, f), 'utf8')))))
+  const items = pickQuestions(a2, 'A2')
+  it('asks two non-listening questions for each of the twelve A2 units', () => {
+    expect(items.map((i) => i.unit)).toEqual(Array.from({ length: 12 }, (_, k) => [k + 1, k + 1]).flat())
+    expect(items.every((i) => i.q.type !== 'listen')).toBe(true)
+  })
+  it('ignores A1 lessons', () => {
+    expect(pickQuestions(lessons, 'A2')).toEqual([])
+  })
+  it('starts at the last unit when all are right', () => {
+    expect(placementResult(items, items.map(() => true)).startUnit).toBe(12)
+  })
+})
+
 describe('placementResult', () => {
   const items = pickQuestions(lessons)
   const answers = (wrongAt: number[]) => items.map((_, i) => !wrongAt.includes(i))
@@ -53,6 +69,12 @@ describe('lessonStates with placement and unlock-all', () => {
 
   it('units before the placement are open, the placed unit is "now", the rest locked', () => {
     expect(states({ startUnit: 3 })).toEqual(['open', 'open', 'open', 'now', 'locked'])
+  })
+  it('an A2 placement opens all of A1 and the earlier A2 units', () => {
+    const M = (id: string, level: string, unit: number) => ({ id, level, unit, lesson: 1, title: { de: '', bn: '', en: '' }, status: 'draft', minutes: 5, words: 1 }) as LessonMeta
+    const LL = [M('a1-u01-l01', 'A1', 1), M('a1-u02-l01', 'A1', 2), M('a2-u01-l01', 'A2', 1), M('a2-u02-l01', 'A2', 2), M('a2-u03-l01', 'A2', 3)]
+    expect([...lessonStates(LL, () => false, { startUnitA2: 2 }).values()]).toEqual(['open', 'open', 'open', 'now', 'locked'])
+    expect([...lessonStates(LL, () => false, { startUnitA2: 0 }).values()]).toEqual(['now', 'locked', 'locked', 'locked', 'locked'])
   })
   it('passed lessons stay done and progress continues from the placed unit', () => {
     expect(states({ startUnit: 3 }, ['a1-u03-l01'])).toEqual(['open', 'open', 'open', 'done', 'now'])

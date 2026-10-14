@@ -20,7 +20,7 @@ export function HomeScreen() {
   const weekday = new Date(now).toLocaleDateString('bn-BD', { weekday: 'long' })
   const dueCount = useMemo(() => Object.values(progress.srs).filter((c) => c.due <= now).length, [progress.srs, now])
 
-  const states = lessonStates(LESSONS, (id) => lessonProgress(id).passed, { startUnit: progress.startUnit, unlockAll: progress.unlockAll })
+  const states = lessonStates(LESSONS, (id) => lessonProgress(id).passed, { startUnit: progress.startUnit, startUnitA2: progress.startUnitA2, unlockAll: progress.unlockAll })
   const next = LESSONS.find((l) => states.get(l.id) === 'now')
   const unitLessons = next ? LESSONS.filter((l) => l.level === next.level && l.unit === next.unit) : []
   const unitPassed = unitLessons.filter((l) => lessonProgress(l.id).passed).length
