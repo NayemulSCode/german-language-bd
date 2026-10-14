@@ -1622,5 +1622,285 @@
     "status": "draft",
     "minutes": 18,
     "words": 12
+  },
+  {
+    "id": "b1-u08-l01",
+    "level": "B1",
+    "unit": 8,
+    "lesson": 1,
+    "title": {
+      "bn": "বৈচিত্র্যময় সমাজে একসাথে থাকা",
+      "en": "Living together in a diverse society",
+      "de": "Zusammenleben in einer vielfältigen Gesellschaft"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u08-l02",
+    "level": "B1",
+    "unit": 8,
+    "lesson": 2,
+    "title": {
+      "bn": "স্বেচ্ছাসেবা ও ক্লাব-সংগঠন",
+      "en": "Volunteering and clubs",
+      "de": "Ehrenamt und Vereine"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u08-l03",
+    "level": "B1",
+    "unit": 8,
+    "lesson": 3,
+    "title": {
+      "bn": "পরিবার, কিটা ও সমানাধিকার",
+      "en": "Family, daycare and equality",
+      "de": "Familie, Kita und Gleichberechtigung"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u08-l04",
+    "level": "B1",
+    "unit": 8,
+    "lesson": 4,
+    "title": {
+      "bn": "বাড়ির নিয়ম ও প্রতিবেশীর সাথে ভদ্র সম্পর্ক",
+      "en": "House rules and good neighbours",
+      "de": "Hausordnung und gute Nachbarschaft"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u09-l01",
+    "level": "B1",
+    "unit": 9,
+    "lesson": 1,
+    "title": {
+      "bn": "টাকা ও মাসিক বাজেট",
+      "en": "Money and budget",
+      "de": "Geld und Budget"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u09-l02",
+    "level": "B1",
+    "unit": 9,
+    "lesson": 2,
+    "title": {
+      "bn": "বিজ্ঞাপন ও কেনার সিদ্ধান্ত",
+      "en": "Advertising and buying decisions",
+      "de": "Werbung und Kaufentscheidungen"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u09-l03",
+    "level": "B1",
+    "unit": 9,
+    "lesson": 3,
+    "title": {
+      "bn": "অনলাইন কেনাকাটা ও ভোক্তার অধিকার",
+      "en": "Online shopping and consumer rights",
+      "de": "Online-Handel und Verbraucherrechte"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u09-l04",
+    "level": "B1",
+    "unit": 9,
+    "lesson": 4,
+    "title": {
+      "bn": "টেকসই ভোগ: কম কিনি, ভাবি বেশি",
+      "en": "Sustainable consumption",
+      "de": "Nachhaltig konsumieren"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u10-l01",
+    "level": "B1",
+    "unit": 10,
+    "lesson": 1,
+    "title": {
+      "bn": "জার্মান ইতিহাসের সংক্ষিপ্ত চিত্র",
+      "en": "German history in outline",
+      "de": "Deutsche Geschichte im Überblick"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u10-l02",
+    "level": "B1",
+    "unit": 10,
+    "lesson": 2,
+    "title": {
+      "bn": "বিভক্তি ও দেয়াল ভাঙা",
+      "en": "Division and the fall of the Wall",
+      "de": "Teilung und Mauerfall"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u10-l03",
+    "level": "B1",
+    "unit": 10,
+    "lesson": 3,
+    "title": {
+      "bn": "ইউরোপীয় ইউনিয়ন",
+      "en": "The European Union",
+      "de": "Die Europäische Union"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u10-l04",
+    "level": "B1",
+    "unit": 10,
+    "lesson": 4,
+    "title": {
+      "bn": "অভিবাসনের ইতিহাস: গেস্টওয়ার্কার ও আজকের দিন",
+      "en": "Migration history: guest workers and today",
+      "de": "Migrationsgeschichte: Gastarbeiter und Heute"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u11-l01",
+    "level": "B1",
+    "unit": 11,
+    "lesson": 1,
+    "title": {
+      "bn": "উৎসব ও ঐতিহ্য",
+      "en": "Festivals and traditions",
+      "de": "Feste und Traditionen"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u11-l02",
+    "level": "B1",
+    "unit": 11,
+    "lesson": 2,
+    "title": {
+      "bn": "সিনেমা, বই ও সংগীত",
+      "en": "Cinema, books and music",
+      "de": "Kino, Bücher und Musik"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u11-l03",
+    "level": "B1",
+    "unit": 11,
+    "lesson": 3,
+    "title": {
+      "bn": "খাবার ও খাওয়ার সংস্কৃতি",
+      "en": "Food and eating culture",
+      "de": "Essen und Esskultur"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u11-l04",
+    "level": "B1",
+    "unit": 11,
+    "lesson": 4,
+    "title": {
+      "bn": "কালচারাল শক ও ভিন্ন সংস্কৃতির যোগাযোগ",
+      "en": "Culture shock and intercultural communication",
+      "de": "Kulturschock und Kommunikation"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u12-l01",
+    "level": "B1",
+    "unit": 12,
+    "lesson": 1,
+    "title": {
+      "bn": "ভবিষ্যতের পরিকল্পনা",
+      "en": "Plans for the future",
+      "de": "Pläne für die Zukunft"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u12-l02",
+    "level": "B1",
+    "unit": 12,
+    "lesson": 2,
+    "title": {
+      "bn": "জার্মানিতে দীর্ঘমেয়াদে থাকা",
+      "en": "Living in Germany long-term",
+      "de": "Dauerhaft in Deutschland leben"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u12-l03",
+    "level": "B1",
+    "unit": 12,
+    "lesson": 3,
+    "title": {
+      "bn": "জার্মান শেখা চালিয়ে যাওয়া ও B1 পরীক্ষা",
+      "en": "Learning on and the B1 exam",
+      "de": "Deutsch weiterlernen und die B1-Prüfung"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u12-l04",
+    "level": "B1",
+    "unit": 12,
+    "lesson": 4,
+    "title": {
+      "bn": "পেছনে তাকানো: জার্মান ভাষার সাথে আমার পথ",
+      "en": "Looking back: my path with German",
+      "de": "Rückblick: Mein Weg mit Deutsch"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
   }
 ]
