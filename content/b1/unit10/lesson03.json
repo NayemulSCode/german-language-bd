@@ -1,0 +1,1628 @@
+{
+  "level": "B1",
+  "unit": 10,
+  "minutes": 18,
+  "lesson": 3,
+  "id": "b1-u10-l03",
+  "title": {
+    "de": "Die Europäische Union",
+    "bn": "ইউরোপীয় ইউনিয়ন",
+    "en": "The European Union"
+  },
+  "hook": {
+    "de": "In Vielfalt geeint.",
+    "who": "Motto der EU",
+    "bn": "বৈচিত্র্যে ঐক্য।",
+    "en": "United in diversity."
+  },
+  "goals": [
+    "EU: Gründung, Euro, Schengen, Freizügigkeit",
+    "Vor- und Nachteile abwägen",
+    "Passiv und Relativsätze in Sachtexten",
+    "Zahlen und Jahreszahlen in Berichten"
+  ],
+  "words": [
+    {
+      "id": "mitgliedstaat",
+      "de": "Mitgliedstaat",
+      "art": "der",
+      "pl": "die Mitgliedstaaten",
+      "pos": "বিশেষ্য",
+      "bn": "সদস্য রাষ্ট্র",
+      "en": "member state"
+    },
+    {
+      "id": "vertrag",
+      "de": "Vertrag",
+      "art": "der",
+      "pl": "die Verträge",
+      "pos": "বিশেষ্য",
+      "bn": "চুক্তি",
+      "en": "treaty, contract"
+    },
+    {
+      "id": "waehrung",
+      "de": "Währung",
+      "art": "die",
+      "pl": "die Währungen",
+      "pos": "বিশেষ্য",
+      "bn": "মুদ্রা",
+      "en": "currency"
+    },
+    {
+      "id": "binnenmarkt",
+      "de": "Binnenmarkt",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "অভ্যন্তরীণ বাজার",
+      "en": "single market"
+    },
+    {
+      "id": "freizuegigkeit",
+      "de": "Freizügigkeit",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "চলাচলের স্বাধীনতা",
+      "en": "freedom of movement"
+    },
+    {
+      "id": "parlament",
+      "de": "Parlament",
+      "art": "das",
+      "pl": "die Parlamente",
+      "pos": "বিশেষ্য",
+      "bn": "সংসদ",
+      "en": "parliament"
+    },
+    {
+      "id": "wahl",
+      "de": "Wahl",
+      "art": "die",
+      "pl": "die Wahlen",
+      "pos": "বিশেষ্য",
+      "bn": "নির্বাচন",
+      "en": "election"
+    },
+    {
+      "id": "abstimmen",
+      "de": "abstimmen",
+      "pos": "ক্রিয়া · hat abgestimmt",
+      "bn": "ভোট দেওয়া",
+      "en": "to vote"
+    },
+    {
+      "id": "beitreten",
+      "de": "beitreten",
+      "pos": "ক্রিয়া · ist beigetreten (Dat.)",
+      "bn": "যোগ দেওয়া (সদস্য হওয়া)",
+      "en": "to join"
+    },
+    {
+      "id": "zusammenarbeit",
+      "de": "Zusammenarbeit",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "সহযোগিতা",
+      "en": "cooperation"
+    },
+    {
+      "id": "kompromiss",
+      "de": "Kompromiss",
+      "art": "der",
+      "pl": "die Kompromisse",
+      "pos": "বিশেষ্য",
+      "bn": "আপস",
+      "en": "compromise"
+    },
+    {
+      "id": "buerger",
+      "de": "Bürger",
+      "art": "der",
+      "pl": "die Bürger",
+      "pos": "বিশেষ্য",
+      "bn": "নাগরিক",
+      "en": "citizen"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Tom",
+      "bn": [
+        "সাহেব,",
+        "তুমি",
+        "কি",
+        "জানো",
+        "EU-তে",
+        "কতজন",
+        "সদস্য",
+        "আছে?",
+        "আমি",
+        "প্রতিবার",
+        "সংখ্যাটা",
+        "ভুলে",
+        "যাই।"
+      ],
+      "en": [
+        "Saheb,",
+        "do",
+        "you",
+        "know",
+        "how",
+        "many",
+        "members",
+        "the",
+        "EU",
+        "has?",
+        "I",
+        "forget",
+        "the",
+        "number",
+        "every",
+        "time."
+      ],
+      "de": [
+        {
+          "t": "Saheb,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Saheb",
+          "gb": "সাহেব",
+          "ge": "Saheb",
+          "n": ""
+        },
+        {
+          "t": "weißt du,",
+          "b": [
+            1,
+            2,
+            3
+          ],
+          "e": [
+            1,
+            2,
+            3
+          ],
+          "l": "weißt du",
+          "gb": "তুমি কি জানো",
+          "ge": "do you know",
+          "n": ""
+        },
+        {
+          "t": "wie viele Mitglieder",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            4,
+            5,
+            6
+          ],
+          "l": "wie viele Mitglieder",
+          "gb": "কতজন সদস্য",
+          "ge": "how many members",
+          "n": ""
+        },
+        {
+          "t": "die EU hat?",
+          "b": [
+            4,
+            7
+          ],
+          "e": [
+            7,
+            8,
+            9
+          ],
+          "l": "die EU hat",
+          "gb": "EU-তে আছে",
+          "ge": "the EU has",
+          "n": ""
+        },
+        {
+          "t": "Ich vergesse",
+          "b": [
+            8,
+            11,
+            12
+          ],
+          "e": [
+            10,
+            11
+          ],
+          "l": "Ich vergesse",
+          "gb": "আমি ভুলে যাই",
+          "ge": "I forget",
+          "n": ""
+        },
+        {
+          "t": "die Zahl",
+          "b": [
+            10
+          ],
+          "e": [
+            12,
+            13
+          ],
+          "l": "die Zahl",
+          "gb": "সংখ্যাটা",
+          "ge": "the number",
+          "n": ""
+        },
+        {
+          "t": "jedes Mal.",
+          "b": [
+            9
+          ],
+          "e": [
+            14,
+            15
+          ],
+          "l": "jedes Mal",
+          "gb": "প্রতিবার",
+          "ge": "every time",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "নিশ্চিত",
+        "নই।",
+        "আমি",
+        "জানি",
+        "যে",
+        "অনেকগুলো",
+        "ইউরোপীয়",
+        "দেশ",
+        "আছে,",
+        "প্রায়",
+        "সাতাশটি।",
+        "সংখ্যা",
+        "বদলাতে",
+        "পারে,",
+        "তাই",
+        "অফিসিয়াল",
+        "সাইট",
+        "দেখা",
+        "ভালো।"
+      ],
+      "en": [
+        "I",
+        "am",
+        "not",
+        "sure.",
+        "I",
+        "know",
+        "that",
+        "there",
+        "are",
+        "many",
+        "European",
+        "countries,",
+        "about",
+        "twenty-seven.",
+        "The",
+        "number",
+        "can",
+        "change,",
+        "so",
+        "it",
+        "is",
+        "good",
+        "to",
+        "check",
+        "the",
+        "official",
+        "site."
+      ],
+      "de": [
+        {
+          "t": "Ich bin nicht sicher.",
+          "b": [
+            0,
+            1,
+            2
+          ],
+          "e": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "l": "Ich bin nicht sicher",
+          "gb": "আমি নিশ্চিত নই",
+          "ge": "I am not sure",
+          "n": ""
+        },
+        {
+          "t": "Ich weiß,",
+          "b": [
+            3,
+            4,
+            5
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "Ich weiß",
+          "gb": "আমি জানি যে",
+          "ge": "I know",
+          "n": ""
+        },
+        {
+          "t": "dass es viele europäische Länder gibt,",
+          "b": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "e": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "l": "dass es viele europäische Länder gibt",
+          "gb": "অনেকগুলো ইউরোপীয় দেশ আছে",
+          "ge": "that there are many European countries",
+          "n": ""
+        },
+        {
+          "t": "ungefähr 27.",
+          "b": [
+            10,
+            11
+          ],
+          "e": [
+            12,
+            13
+          ],
+          "l": "ungefähr 27",
+          "gb": "প্রায় সাতাশটি",
+          "ge": "about twenty-seven",
+          "n": ""
+        },
+        {
+          "t": "Die Zahl kann sich ändern,",
+          "b": [
+            12,
+            13,
+            14
+          ],
+          "e": [
+            14,
+            15,
+            16,
+            17
+          ],
+          "l": "Die Zahl kann sich ändern",
+          "gb": "সংখ্যা বদলাতে পারে",
+          "ge": "The number can change",
+          "n": ""
+        },
+        {
+          "t": "also schau lieber",
+          "b": [
+            15
+          ],
+          "e": [
+            18,
+            19,
+            20,
+            21
+          ],
+          "l": "also schau lieber",
+          "gb": "তাই",
+          "ge": "so it is good",
+          "n": ""
+        },
+        {
+          "t": "auf der offiziellen Seite nach.",
+          "b": [
+            16,
+            17,
+            18,
+            19
+          ],
+          "e": [
+            22,
+            23,
+            24,
+            25,
+            26
+          ],
+          "l": "auf der offiziellen Seite nach",
+          "gb": "অফিসিয়াল সাইট দেখা ভালো",
+          "ge": "to check the official site",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Tom",
+      "bn": [
+        "ঠিক।",
+        "আমি",
+        "গত",
+        "সপ্তাহে",
+        "ইতিহাসের",
+        "কোর্সে",
+        "শিখলাম:",
+        "১৯৫৭",
+        "সালে",
+        "রোমে",
+        "কয়েকটি",
+        "দেশ",
+        "চুক্তি",
+        "করেছিল।",
+        "সেখান",
+        "থেকেই",
+        "আজকের",
+        "ইউনিয়নের",
+        "শুরু।"
+      ],
+      "en": [
+        "Right.",
+        "Last",
+        "week",
+        "in",
+        "the",
+        "history",
+        "course",
+        "I",
+        "learned",
+        "that",
+        "in",
+        "1957",
+        "several",
+        "countries",
+        "signed",
+        "treaties",
+        "in",
+        "Rome.",
+        "Today’s",
+        "union",
+        "began",
+        "there."
+      ],
+      "de": [
+        {
+          "t": "Stimmt.",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Stimmt",
+          "gb": "ঠিক",
+          "ge": "Right",
+          "n": ""
+        },
+        {
+          "t": "Letzte Woche",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "Letzte Woche",
+          "gb": "গত সপ্তাহে",
+          "ge": "Last week",
+          "n": ""
+        },
+        {
+          "t": "habe ich im Kurs gelernt:",
+          "b": [
+            4,
+            5,
+            6
+          ],
+          "e": [
+            3,
+            4,
+            6,
+            7,
+            8,
+            9
+          ],
+          "l": "habe ich im Kurs gelernt",
+          "gb": "ইতিহাসের কোর্সে শিখলাম",
+          "ge": "in the course I learned that",
+          "n": ""
+        },
+        {
+          "t": "1957 haben",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            10,
+            11
+          ],
+          "l": "1957 haben",
+          "gb": "১৯৫৭ সালে",
+          "ge": "in 1957",
+          "n": ""
+        },
+        {
+          "t": "einige Länder in Rom",
+          "b": [
+            9,
+            10,
+            11
+          ],
+          "e": [
+            12,
+            13,
+            16,
+            17
+          ],
+          "l": "einige Länder in Rom",
+          "gb": "রোমে কয়েকটি দেশ",
+          "ge": "several countries in Rome",
+          "n": ""
+        },
+        {
+          "t": "Verträge geschlossen.",
+          "b": [
+            12,
+            13
+          ],
+          "e": [
+            14,
+            15
+          ],
+          "l": "Verträge geschlossen",
+          "gb": "চুক্তি করেছিল",
+          "ge": "signed treaties",
+          "n": ""
+        },
+        {
+          "t": "Dort begann",
+          "b": [
+            14,
+            15
+          ],
+          "e": [
+            18,
+            19,
+            20
+          ],
+          "l": "Dort begann",
+          "gb": "সেখান থেকেই",
+          "ge": "Today’s union began",
+          "n": ""
+        },
+        {
+          "t": "die heutige Union.",
+          "b": [
+            16,
+            17,
+            18
+          ],
+          "e": [
+            21
+          ],
+          "l": "die heutige Union",
+          "gb": "আজকের ইউনিয়নের শুরু",
+          "ge": "there",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আর",
+        "আজ",
+        "এমন",
+        "কী",
+        "সুবিধা",
+        "আছে,",
+        "যা",
+        "সাধারণ",
+        "মানুষ",
+        "দেখে?"
+      ],
+      "en": [
+        "And",
+        "what",
+        "advantages",
+        "are",
+        "there",
+        "today",
+        "that",
+        "ordinary",
+        "people",
+        "see?"
+      ],
+      "de": [
+        {
+          "t": "Und welche Vorteile",
+          "b": [
+            0,
+            3,
+            4
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "Und welche Vorteile",
+          "gb": "আর কী সুবিধা",
+          "ge": "And what advantages",
+          "n": ""
+        },
+        {
+          "t": "gibt es heute,",
+          "b": [
+            5
+          ],
+          "e": [
+            3,
+            4,
+            5
+          ],
+          "l": "gibt es heute",
+          "gb": "আছে",
+          "ge": "are there today",
+          "n": ""
+        },
+        {
+          "t": "die normale Menschen",
+          "b": [
+            6,
+            7,
+            8
+          ],
+          "e": [
+            6,
+            7,
+            8
+          ],
+          "l": "die normale Menschen",
+          "gb": "যা সাধারণ মানুষ",
+          "ge": "that ordinary people",
+          "n": ""
+        },
+        {
+          "t": "sehen?",
+          "b": [
+            9
+          ],
+          "e": [
+            9
+          ],
+          "l": "sehen",
+          "gb": "দেখে",
+          "ge": "see",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Tom",
+      "bn": [
+        "অনেক:",
+        "যেমন",
+        "অনেক",
+        "দেশে",
+        "একই",
+        "মুদ্রা,",
+        "ইউরো,",
+        "২০০২",
+        "সালে",
+        "নগদ",
+        "হিসেবে",
+        "চালু",
+        "হয়েছিল।",
+        "আর",
+        "অনেক",
+        "জায়গায়",
+        "সীমান্ত",
+        "পেরোনো",
+        "সহজ,",
+        "কারণ",
+        "শেনজেন",
+        "এলাকা",
+        "আছে।",
+        "ইইউ-নাগরিকরা",
+        "আরেক",
+        "দেশে",
+        "থাকতে",
+        "ও",
+        "কাজ",
+        "করতে",
+        "পারে।"
+      ],
+      "en": [
+        "Many:",
+        "for",
+        "example",
+        "the",
+        "same",
+        "currency,",
+        "the",
+        "euro,",
+        "in",
+        "many",
+        "countries,",
+        "introduced",
+        "as",
+        "cash",
+        "in",
+        "2002.",
+        "And",
+        "crossing",
+        "borders",
+        "is",
+        "easy",
+        "in",
+        "many",
+        "places",
+        "because",
+        "of",
+        "the",
+        "Schengen",
+        "area.",
+        "EU",
+        "citizens",
+        "can",
+        "live",
+        "and",
+        "work",
+        "in",
+        "another",
+        "country."
+      ],
+      "de": [
+        {
+          "t": "Viele:",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Viele",
+          "gb": "অনেক",
+          "ge": "Many",
+          "n": ""
+        },
+        {
+          "t": "zum Beispiel",
+          "b": [
+            1
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "zum Beispiel",
+          "gb": "যেমন",
+          "ge": "for example",
+          "n": ""
+        },
+        {
+          "t": "dieselbe Währung,",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            3,
+            4,
+            5
+          ],
+          "l": "dieselbe Währung",
+          "gb": "একই মুদ্রা",
+          "ge": "the same currency",
+          "n": ""
+        },
+        {
+          "t": "der Euro,",
+          "b": [
+            6
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "der Euro",
+          "gb": "ইউরো",
+          "ge": "the euro",
+          "n": ""
+        },
+        {
+          "t": "in vielen Ländern,",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            8,
+            9,
+            10
+          ],
+          "l": "in vielen Ländern",
+          "gb": "অনেক দেশে",
+          "ge": "in many countries",
+          "n": ""
+        },
+        {
+          "t": "seit 2002",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "l": "seit 2002",
+          "gb": "২০০২ সালে",
+          "ge": "introduced as cash in 2002",
+          "n": ""
+        },
+        {
+          "t": "als Bargeld.",
+          "b": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "e": [],
+          "l": "als Bargeld",
+          "gb": "নগদ হিসেবে চালু হয়েছিল",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Und an vielen Orten",
+          "b": [
+            13,
+            14,
+            15
+          ],
+          "e": [
+            16,
+            21,
+            22,
+            23
+          ],
+          "l": "Und an vielen Orten",
+          "gb": "আর অনেক জায়গায়",
+          "ge": "And in many places",
+          "n": ""
+        },
+        {
+          "t": "ist es leicht,",
+          "b": [
+            18
+          ],
+          "e": [
+            19,
+            20
+          ],
+          "l": "ist es leicht",
+          "gb": "সহজ",
+          "ge": "is easy",
+          "n": ""
+        },
+        {
+          "t": "Grenzen zu überqueren,",
+          "b": [
+            16,
+            17
+          ],
+          "e": [
+            17,
+            18
+          ],
+          "l": "Grenzen zu überqueren",
+          "gb": "সীমান্ত পেরোনো",
+          "ge": "crossing borders",
+          "n": ""
+        },
+        {
+          "t": "wegen des Schengen-Raums.",
+          "b": [
+            19,
+            20,
+            21,
+            22
+          ],
+          "e": [
+            24,
+            25,
+            26,
+            27,
+            28
+          ],
+          "l": "wegen des Schengen-Raums",
+          "gb": "কারণ শেনজেন এলাকা আছে",
+          "ge": "because of the Schengen area",
+          "n": ""
+        },
+        {
+          "t": "EU-Bürger können",
+          "b": [
+            23
+          ],
+          "e": [
+            29,
+            30,
+            31
+          ],
+          "l": "EU-Bürger können",
+          "gb": "ইইউ-নাগরিকরা",
+          "ge": "EU citizens can",
+          "n": ""
+        },
+        {
+          "t": "in einem anderen Land",
+          "b": [
+            24,
+            25
+          ],
+          "e": [
+            35,
+            36,
+            37
+          ],
+          "l": "in einem anderen Land",
+          "gb": "আরেক দেশে",
+          "ge": "in another country",
+          "n": ""
+        },
+        {
+          "t": "leben und arbeiten.",
+          "b": [
+            26,
+            27,
+            28,
+            29,
+            30
+          ],
+          "e": [
+            32,
+            33,
+            34
+          ],
+          "l": "leben und arbeiten",
+          "gb": "থাকতে ও কাজ করতে পারে",
+          "ge": "live and work",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "তাহলে",
+        "সবাই",
+        "কি",
+        "খুশি?",
+        "আমি",
+        "টিভিতে",
+        "দেখেছি,",
+        "কিছু",
+        "মানুষ",
+        "ইইউ-র",
+        "সমালোচনা",
+        "করে।"
+      ],
+      "en": [
+        "So",
+        "is",
+        "everyone",
+        "happy?",
+        "I",
+        "have",
+        "seen",
+        "on",
+        "TV",
+        "that",
+        "some",
+        "people",
+        "criticise",
+        "the",
+        "EU."
+      ],
+      "de": [
+        {
+          "t": "Sind dann alle zufrieden?",
+          "b": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "e": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "l": "Sind dann alle zufrieden",
+          "gb": "তাহলে সবাই কি খুশি",
+          "ge": "So is everyone happy",
+          "n": ""
+        },
+        {
+          "t": "Ich habe im Fernsehen gesehen,",
+          "b": [
+            4,
+            5,
+            6
+          ],
+          "e": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "l": "Ich habe im Fernsehen gesehen",
+          "gb": "আমি টিভিতে দেখেছি",
+          "ge": "I have seen on TV",
+          "n": ""
+        },
+        {
+          "t": "dass manche Leute",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            9,
+            10,
+            11
+          ],
+          "l": "dass manche Leute",
+          "gb": "কিছু মানুষ",
+          "ge": "that some people",
+          "n": ""
+        },
+        {
+          "t": "die EU kritisieren.",
+          "b": [
+            9,
+            10,
+            11
+          ],
+          "e": [
+            12,
+            13,
+            14
+          ],
+          "l": "die EU kritisieren",
+          "gb": "ইইউ-র সমালোচনা করে",
+          "ge": "criticise the EU",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Tom",
+      "bn": [
+        "না,",
+        "না।",
+        "কেউ",
+        "বলে",
+        "বাসস্থানের",
+        "নিয়ম",
+        "বা",
+        "খরচ",
+        "খুব",
+        "জটিল,",
+        "কেউ",
+        "বলে",
+        "দেশের",
+        "নিজের",
+        "সিদ্ধান্ত",
+        "কমে",
+        "যাচ্ছে।",
+        "অন্যরা",
+        "মনে",
+        "করে",
+        "শান্তি",
+        "ও",
+        "সহযোগিতা",
+        "সবচেয়ে",
+        "বড়",
+        "লাভ।",
+        "অনেক",
+        "বিষয়ে",
+        "আপস",
+        "দরকার",
+        "হয়।"
+      ],
+      "en": [
+        "No,",
+        "no.",
+        "Some",
+        "say",
+        "the",
+        "rules",
+        "or",
+        "costs",
+        "are",
+        "too",
+        "complicated,",
+        "some",
+        "say",
+        "countries’",
+        "own",
+        "decisions",
+        "are",
+        "shrinking.",
+        "Others",
+        "think",
+        "peace",
+        "and",
+        "cooperation",
+        "are",
+        "the",
+        "biggest",
+        "gain.",
+        "On",
+        "many",
+        "issues",
+        "a",
+        "compromise",
+        "is",
+        "needed."
+      ],
+      "de": [
+        {
+          "t": "Nein, nein.",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Nein nein",
+          "gb": "না না",
+          "ge": "No no",
+          "n": ""
+        },
+        {
+          "t": "Manche sagen,",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "Manche sagen",
+          "gb": "কেউ বলে",
+          "ge": "Some say",
+          "n": ""
+        },
+        {
+          "t": "die Regeln oder Kosten",
+          "b": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "e": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "l": "die Regeln oder Kosten",
+          "gb": "বাসস্থানের নিয়ম বা খরচ",
+          "ge": "the rules or costs",
+          "n": ""
+        },
+        {
+          "t": "seien zu kompliziert,",
+          "b": [
+            8,
+            9
+          ],
+          "e": [
+            8,
+            9,
+            10
+          ],
+          "l": "seien zu kompliziert",
+          "gb": "খুব জটিল",
+          "ge": "are too complicated",
+          "n": ""
+        },
+        {
+          "t": "andere sagen,",
+          "b": [
+            10,
+            11
+          ],
+          "e": [
+            11,
+            12
+          ],
+          "l": "andere sagen",
+          "gb": "কেউ বলে",
+          "ge": "some say",
+          "n": ""
+        },
+        {
+          "t": "die Länder entscheiden",
+          "b": [
+            12,
+            13
+          ],
+          "e": [
+            13,
+            14
+          ],
+          "l": "die Länder entscheiden",
+          "gb": "দেশের নিজের",
+          "ge": "countries’ own",
+          "n": ""
+        },
+        {
+          "t": "weniger selbst.",
+          "b": [
+            14,
+            15,
+            16
+          ],
+          "e": [
+            15,
+            16,
+            17
+          ],
+          "l": "weniger selbst",
+          "gb": "সিদ্ধান্ত কমে যাচ্ছে",
+          "ge": "decisions are shrinking",
+          "n": ""
+        },
+        {
+          "t": "Andere meinen,",
+          "b": [
+            17,
+            18,
+            19
+          ],
+          "e": [
+            18,
+            19
+          ],
+          "l": "Andere meinen",
+          "gb": "অন্যরা মনে করে",
+          "ge": "Others think",
+          "n": ""
+        },
+        {
+          "t": "Frieden und Zusammenarbeit",
+          "b": [
+            20,
+            21,
+            22
+          ],
+          "e": [
+            20,
+            21,
+            22
+          ],
+          "l": "Frieden und Zusammenarbeit",
+          "gb": "শান্তি ও সহযোগিতা",
+          "ge": "peace and cooperation",
+          "n": ""
+        },
+        {
+          "t": "seien der größte Gewinn.",
+          "b": [
+            23,
+            24,
+            25
+          ],
+          "e": [
+            23,
+            24,
+            25,
+            26
+          ],
+          "l": "seien der größte Gewinn",
+          "gb": "সবচেয়ে বড় লাভ",
+          "ge": "are the biggest gain",
+          "n": ""
+        },
+        {
+          "t": "Bei vielen Themen",
+          "b": [
+            26,
+            27
+          ],
+          "e": [
+            27,
+            28,
+            29
+          ],
+          "l": "Bei vielen Themen",
+          "gb": "অনেক বিষয়ে",
+          "ge": "On many issues",
+          "n": ""
+        },
+        {
+          "t": "braucht man Kompromisse.",
+          "b": [
+            28,
+            29,
+            30
+          ],
+          "e": [
+            30,
+            31,
+            32,
+            33
+          ],
+          "l": "Kompromiss",
+          "gb": "আপস দরকার হয়",
+          "ge": "a compromise is needed",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "EU — Überblick (Zahlen bitte prüfen)",
+      "head": [
+        "Thema",
+        "Kurz erklärt"
+      ],
+      "rows": [
+        [
+          "1957",
+          "Römische Verträge — Grundlage der heutigen EU"
+        ],
+        [
+          "Euro",
+          "Bargeld seit 2002 in vielen, aber nicht allen Mitgliedstaaten"
+        ],
+        [
+          "Schengen",
+          "Reisen zwischen vielen Ländern oft ohne feste Grenzkontrollen"
+        ],
+        [
+          "Binnenmarkt",
+          "Waren, Dienste, Kapital, Personen bewegen sich frei (Freizügigkeit)"
+        ],
+        [
+          "Europäisches Parlament",
+          "Bürger wählen alle fünf Jahre die Abgeordneten"
+        ],
+        [
+          "Mitgliedstaaten",
+          "ungefähr 27; Zahl und Regeln auf der offiziellen EU-Seite prüfen"
+        ]
+      ],
+      "note": "এখানকার তথ্য সরলীকৃত; EU-এর নিয়ম ও সদস্য-তালিকা বদলাতে পারে। নিশ্চিত হতে europa.eu বা বুন্ডেসরেগিরুং-এর সাইট দেখুন। Freizügigkeit সাধারণত EU-নাগরিকদের জন্য; অন্যান্য আবাসিক মর্যাদার জন্য আলাদা নিয়ম।"
+    },
+    {
+      "type": "table",
+      "title": "Indirekte Rede (Konjunktiv I / II)",
+      "head": [
+        "Direkt",
+        "Indirekt"
+      ],
+      "rows": [
+        [
+          "„Die Regeln sind zu kompliziert.“",
+          "Manche sagen, die Regeln seien zu kompliziert."
+        ],
+        [
+          "„Wir verlieren Selbstbestimmung.“",
+          "Andere meinen, man verliere Selbstbestimmung."
+        ],
+        [
+          "„Frieden ist der größte Gewinn.“",
+          "Er sagt, Frieden sei der größte Gewinn."
+        ]
+      ],
+      "note": "B1-এ „seien/sei“ বোঝা যথেষ্ট; বলার সময় „dass“ + normal verb ব্যবহার করা চলে: Manche sagen, dass die Regeln zu kompliziert sind."
+    },
+    {
+      "type": "table",
+      "title": "Vor- und Nachteile abwägen",
+      "head": [
+        "Funktion",
+        "Formulierung"
+      ],
+      "rows": [
+        [
+          "Vorteil",
+          "Ein großer Vorteil ist …"
+        ],
+        [
+          "Nachteil",
+          "Ein Nachteil ist, dass …"
+        ],
+        [
+          "Gegensatz",
+          "Auf der einen Seite …, auf der anderen Seite …"
+        ],
+        [
+          "Kompromiss",
+          "Man muss sich oft auf einen Kompromiss einigen."
+        ]
+      ],
+      "note": "Einigen auf + Akk.; Kompromiss = আপস; Einigung = সমঝোতা।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "der Mitgliedstaat",
+      "options": [
+        "যোগ দেওয়া",
+        "সদস্য রাষ্ট্র",
+        "আপস",
+        "চুক্তি"
+      ],
+      "answer": 1,
+      "why": "der Mitgliedstaat = সদস্য রাষ্ট্র।",
+      "word": "mitgliedstaat"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "die Währung",
+      "options": [
+        "মুদ্রা",
+        "অভ্যন্তরীণ বাজার",
+        "নির্বাচন",
+        "সহযোগিতা"
+      ],
+      "answer": 0,
+      "why": "die Währung = মুদ্রা।",
+      "word": "waehrung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "die Freizügigkeit",
+      "options": [
+        "চলাচলের স্বাধীনতা",
+        "সহযোগিতা",
+        "সদস্য রাষ্ট্র",
+        "অভ্যন্তরীণ বাজার"
+      ],
+      "answer": 0,
+      "why": "die Freizügigkeit = চলাচলের স্বাধীনতা।",
+      "word": "freizuegigkeit"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Parlament",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 2,
+      "why": "das Parlament। বহুবচন: die Parlamente।",
+      "word": "parlament"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Wann wurde der Euro als Bargeld eingeführt?",
+      "options": [
+        "2002",
+        "1957",
+        "1990",
+        "2020"
+      ],
+      "answer": 0,
+      "why": "Euro-Bargeld 2002।",
+      "word": "waehrung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Schengen-Raum“ bedeutet …",
+      "options": [
+        "Reisen oft ohne feste Grenzkontrollen",
+        "nur ein Handelsvertrag",
+        "ein Land",
+        "eine Sprache"
+      ],
+      "answer": 0,
+      "why": "weniger Grenzkontrollen।",
+      "word": "binnenmarkt"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„abstimmen“ heißt …",
+      "options": [
+        "ভোট দেওয়া",
+        "ডাকা",
+        "পালানো",
+        "আঁকা"
+      ],
+      "answer": 0,
+      "why": "abstimmen।",
+      "word": "abstimmen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Welche Aussage ist richtig?",
+      "options": [
+        "Die Zahl der Mitglieder kann sich ändern.",
+        "Die EU hat immer genau 15 Mitglieder.",
+        "Die EU ist ein Land.",
+        "Alle EU-Länder nutzen den Euro."
+      ],
+      "answer": 0,
+      "why": "nicht alle nutzen den Euro।",
+      "word": "mitgliedstaat"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Wer wählt das Europäische Parlament?",
+      "options": [
+        "Die Bürger der Mitgliedstaaten",
+        "Nur Politiker",
+        "Nur Kaiser",
+        "Niemand"
+      ],
+      "answer": 0,
+      "why": "Wahl alle fünf Jahre।",
+      "word": "wahl"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „একটি সুবিধা হলো, একই মুদ্রা থাকা।“",
+      "tiles": [
+        "dieselbe Währung ist.",
+        "Ein Vorteil",
+        "dass es",
+        "ist,"
+      ],
+      "answer": [
+        "Ein Vorteil",
+        "ist,",
+        "dass es",
+        "dieselbe Währung ist."
+      ],
+      "why": "dass-Satz।",
+      "word": "vertrag"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

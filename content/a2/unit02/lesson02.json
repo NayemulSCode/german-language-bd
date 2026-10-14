@@ -1,0 +1,1240 @@
+{
+  "level": "A2",
+  "unit": 2,
+  "minutes": 16,
+  "lesson": 2,
+  "id": "a2-u02-l02",
+  "title": {
+    "de": "Mit dem Bus zur Arbeit",
+    "bn": "Präpositionen mit Dativ",
+    "en": "Prepositions with the dative"
+  },
+  "hook": {
+    "de": "Der Weg ist das Ziel.",
+    "who": "Redensart",
+    "bn": "পথটাই লক্ষ্য।",
+    "en": "The journey is the destination."
+  },
+  "goals": [
+    "সবসময় Dativ: mit, bei, von, zu, aus, nach, seit",
+    "zu dem = zum, zu der = zur, bei dem = beim, von dem = vom",
+    "অফিসের দৈনন্দিন কথা: Besprechung, Termin, Kantine",
+    "seit + Zeit = কতদিন ধরে"
+  ],
+  "words": [
+    {
+      "id": "mit",
+      "de": "mit",
+      "pos": "অব্যয় + Dativ",
+      "bn": "সাথে, দিয়ে",
+      "en": "with, by"
+    },
+    {
+      "id": "bei",
+      "de": "bei",
+      "pos": "অব্যয় + Dativ",
+      "bn": "এর কাছে, এর সাথে (কর্মস্থল)",
+      "en": "at, with"
+    },
+    {
+      "id": "von",
+      "de": "von",
+      "pos": "অব্যয় + Dativ",
+      "bn": "থেকে, এর",
+      "en": "from, of"
+    },
+    {
+      "id": "zu",
+      "de": "zu",
+      "pos": "অব্যয় + Dativ",
+      "bn": "এর কাছে, দিকে",
+      "en": "to"
+    },
+    {
+      "id": "aus",
+      "de": "aus",
+      "pos": "অব্যয় + Dativ",
+      "bn": "থেকে (দেশ, ভিতর থেকে)",
+      "en": "from, out of"
+    },
+    {
+      "id": "seit",
+      "de": "seit",
+      "pos": "অব্যয় + Dativ",
+      "bn": "থেকে (সময়), ধরে",
+      "en": "since, for"
+    },
+    {
+      "id": "besprechung",
+      "de": "Besprechung",
+      "art": "die",
+      "pl": "die Besprechungen",
+      "pos": "বিশেষ্য",
+      "bn": "আলোচনা-সভা, মিটিং",
+      "en": "meeting"
+    },
+    {
+      "id": "termin",
+      "de": "Termin",
+      "art": "der",
+      "pl": "die Termine",
+      "pos": "বিশেষ্য",
+      "bn": "নির্ধারিত সময়, অ্যাপয়েন্টমেন্ট",
+      "en": "appointment"
+    },
+    {
+      "id": "kantine",
+      "de": "Kantine",
+      "art": "die",
+      "pl": "die Kantinen",
+      "pos": "বিশেষ্য",
+      "bn": "ক্যান্টিন",
+      "en": "canteen"
+    },
+    {
+      "id": "mittagspause",
+      "de": "Mittagspause",
+      "art": "die",
+      "pl": "die Mittagspausen",
+      "pos": "বিশেষ্য",
+      "bn": "দুপুরের বিরতি",
+      "en": "lunch break"
+    },
+    {
+      "id": "feierabend",
+      "de": "Feierabend",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "কাজের শেষে ছুটি",
+      "en": "end of the working day"
+    },
+    {
+      "id": "firma",
+      "de": "Firma",
+      "art": "die",
+      "pl": "die Firmen",
+      "pos": "বিশেষ্য",
+      "bn": "কোম্পানি",
+      "en": "company"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Tom",
+      "bn": [
+        "তুমি",
+        "কীভাবে",
+        "কাজে",
+        "আসো,",
+        "সাহেব?"
+      ],
+      "en": [
+        "How",
+        "do",
+        "you",
+        "come",
+        "to",
+        "work,",
+        "Saheb?"
+      ],
+      "de": [
+        {
+          "t": "Wie",
+          "b": [
+            1
+          ],
+          "e": [
+            0
+          ],
+          "l": "Wie",
+          "gb": "কীভাবে",
+          "ge": "How",
+          "n": ""
+        },
+        {
+          "t": "kommst",
+          "b": [
+            3
+          ],
+          "e": [
+            1,
+            2,
+            3
+          ],
+          "l": "kommst",
+          "gb": "আসো",
+          "ge": "do you come",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            0
+          ],
+          "e": [],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "zur",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "zu",
+          "gb": "কাজে",
+          "ge": "to",
+          "n": "zu der = zur"
+        },
+        {
+          "t": "Arbeit,",
+          "b": [
+            2
+          ],
+          "e": [
+            5
+          ],
+          "l": "Arbeit",
+          "gb": "কাজে",
+          "ge": "work",
+          "n": ""
+        },
+        {
+          "t": "Saheb?",
+          "s": "Saheb",
+          "b": [
+            4
+          ],
+          "e": [
+            6
+          ],
+          "l": "Saheb",
+          "gb": "সাহেব",
+          "ge": "Saheb",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "বাসে",
+        "আসি।",
+        "আমি",
+        "এই",
+        "কোম্পানিতে",
+        "এক",
+        "মাস",
+        "ধরে",
+        "কাজ",
+        "করছি।"
+      ],
+      "en": [
+        "I",
+        "come",
+        "by",
+        "bus.",
+        "I",
+        "have",
+        "been",
+        "working",
+        "at",
+        "this",
+        "company",
+        "for",
+        "a",
+        "month."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "fahre",
+          "b": [
+            2
+          ],
+          "e": [
+            1
+          ],
+          "l": "fahre",
+          "gb": "আসি",
+          "ge": "come",
+          "n": ""
+        },
+        {
+          "t": "mit",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "mit",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "by",
+          "n": ""
+        },
+        {
+          "t": "dem",
+          "b": [],
+          "e": [],
+          "l": "dem",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Bus.",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "Bus",
+          "gb": "বাসে",
+          "ge": "bus",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "arbeite",
+          "b": [
+            9,
+            10
+          ],
+          "e": [
+            5,
+            6,
+            7
+          ],
+          "l": "arbeite",
+          "gb": "কাজ করছি",
+          "ge": "have been working",
+          "n": ""
+        },
+        {
+          "t": "seit",
+          "b": [
+            8
+          ],
+          "e": [
+            11
+          ],
+          "l": "seit",
+          "gb": "ধরে",
+          "ge": "for",
+          "n": "seit + Dativ: seit einem Monat"
+        },
+        {
+          "t": "einem",
+          "b": [
+            6
+          ],
+          "e": [
+            12
+          ],
+          "l": "einem",
+          "gb": "এক",
+          "ge": "a",
+          "n": ""
+        },
+        {
+          "t": "Monat",
+          "b": [
+            7
+          ],
+          "e": [
+            13
+          ],
+          "l": "Monat",
+          "gb": "মাস",
+          "ge": "month",
+          "n": ""
+        },
+        {
+          "t": "bei",
+          "b": [],
+          "e": [
+            8
+          ],
+          "l": "bei",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "at",
+          "n": ""
+        },
+        {
+          "t": "der",
+          "b": [],
+          "e": [
+            9
+          ],
+          "l": "der",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "this",
+          "n": ""
+        },
+        {
+          "t": "Firma.",
+          "b": [
+            5
+          ],
+          "e": [
+            10
+          ],
+          "l": "Firma",
+          "gb": "কোম্পানিতে",
+          "ge": "company",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Tom",
+      "bn": [
+        "তুমি",
+        "কোথা",
+        "থেকে",
+        "এসেছ?"
+      ],
+      "en": [
+        "Where",
+        "are",
+        "you",
+        "from?"
+      ],
+      "de": [
+        {
+          "t": "Woher",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            0
+          ],
+          "l": "Woher",
+          "gb": "কোথা থেকে",
+          "ge": "Where",
+          "n": ""
+        },
+        {
+          "t": "kommst",
+          "b": [
+            3
+          ],
+          "e": [
+            1
+          ],
+          "l": "kommst",
+          "gb": "এসেছ",
+          "ge": "are",
+          "n": ""
+        },
+        {
+          "t": "du?",
+          "b": [
+            0
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you from",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "বাংলাদেশ",
+        "থেকে",
+        "এসেছি।"
+      ],
+      "en": [
+        "I",
+        "come",
+        "from",
+        "Bangladesh."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "komme",
+          "b": [
+            3
+          ],
+          "e": [
+            1
+          ],
+          "l": "komme",
+          "gb": "এসেছি",
+          "ge": "come",
+          "n": ""
+        },
+        {
+          "t": "aus",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "aus",
+          "gb": "থেকে",
+          "ge": "from",
+          "n": ""
+        },
+        {
+          "t": "Bangladesch.",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "Bangladesch",
+          "gb": "বাংলাদেশ",
+          "ge": "Bangladesh",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Tom",
+      "bn": [
+        "আমাদের",
+        "দশটায়",
+        "বসের",
+        "সাথে",
+        "একটা",
+        "মিটিং",
+        "আছে।"
+      ],
+      "en": [
+        "We",
+        "have",
+        "a",
+        "meeting",
+        "with",
+        "the",
+        "boss",
+        "at",
+        "ten."
+      ],
+      "de": [
+        {
+          "t": "Wir",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Wir",
+          "gb": "আমাদের",
+          "ge": "We",
+          "n": ""
+        },
+        {
+          "t": "haben",
+          "b": [
+            6
+          ],
+          "e": [
+            1
+          ],
+          "l": "haben",
+          "gb": "আছে",
+          "ge": "have",
+          "n": ""
+        },
+        {
+          "t": "um",
+          "b": [],
+          "e": [
+            7
+          ],
+          "l": "um",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "at",
+          "n": ""
+        },
+        {
+          "t": "zehn",
+          "b": [
+            1
+          ],
+          "e": [
+            8
+          ],
+          "l": "zehn",
+          "gb": "দশটায়",
+          "ge": "ten",
+          "n": ""
+        },
+        {
+          "t": "eine",
+          "b": [
+            4
+          ],
+          "e": [
+            2
+          ],
+          "l": "eine",
+          "gb": "একটা",
+          "ge": "a",
+          "n": ""
+        },
+        {
+          "t": "Besprechung",
+          "b": [
+            5
+          ],
+          "e": [
+            3
+          ],
+          "l": "Besprechung",
+          "gb": "মিটিং",
+          "ge": "meeting",
+          "n": ""
+        },
+        {
+          "t": "mit",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "mit",
+          "gb": "সাথে",
+          "ge": "with",
+          "n": ""
+        },
+        {
+          "t": "dem",
+          "b": [],
+          "e": [
+            5
+          ],
+          "l": "dem",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "Chef.",
+          "b": [
+            2
+          ],
+          "e": [
+            6
+          ],
+          "l": "Chef",
+          "gb": "বসের",
+          "ge": "boss",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Tom",
+      "bn": [
+        "দুপুরের",
+        "বিরতিতে",
+        "আমি",
+        "ক্যান্টিনে",
+        "যাই।"
+      ],
+      "en": [
+        "In",
+        "the",
+        "lunch",
+        "break",
+        "I",
+        "go",
+        "to",
+        "the",
+        "canteen."
+      ],
+      "de": [
+        {
+          "t": "In",
+          "b": [],
+          "e": [
+            0
+          ],
+          "l": "In",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "In",
+          "n": ""
+        },
+        {
+          "t": "der",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "der",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "Mittagspause",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "Mittagspause",
+          "gb": "দুপুরের বিরতিতে",
+          "ge": "lunch break",
+          "n": ""
+        },
+        {
+          "t": "gehe",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "gehe",
+          "gb": "যাই",
+          "ge": "go",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "in",
+          "b": [],
+          "e": [
+            6
+          ],
+          "l": "in",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "to",
+          "n": ""
+        },
+        {
+          "t": "die",
+          "b": [],
+          "e": [
+            7
+          ],
+          "l": "die",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "Kantine.",
+          "b": [
+            3
+          ],
+          "e": [
+            8
+          ],
+          "l": "Kantine",
+          "gb": "ক্যান্টিনে",
+          "ge": "canteen",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "কাজের",
+        "শেষে",
+        "বাসায়",
+        "ফিরি।",
+        "আর",
+        "কাল",
+        "আমার",
+        "ডাক্তারের",
+        "কাছে",
+        "একটা",
+        "অ্যাপয়েন্টমেন্ট",
+        "আছে।"
+      ],
+      "en": [
+        "I",
+        "go",
+        "home",
+        "after",
+        "work.",
+        "And",
+        "tomorrow",
+        "I",
+        "have",
+        "an",
+        "appointment",
+        "with",
+        "the",
+        "doctor."
+      ],
+      "de": [
+        {
+          "t": "Nach",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "nach",
+          "gb": "শেষে",
+          "ge": "after",
+          "n": ""
+        },
+        {
+          "t": "der",
+          "b": [],
+          "e": [],
+          "l": "der",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Arbeit",
+          "b": [
+            1
+          ],
+          "e": [
+            4
+          ],
+          "l": "Arbeit",
+          "gb": "কাজের",
+          "ge": "work",
+          "n": ""
+        },
+        {
+          "t": "fahre",
+          "b": [
+            4
+          ],
+          "e": [
+            1
+          ],
+          "l": "fahre",
+          "gb": "ফিরি",
+          "ge": "go",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "nach Hause.",
+          "b": [
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "nach Hause",
+          "gb": "বাসায়",
+          "ge": "home",
+          "n": ""
+        },
+        {
+          "t": "Morgen",
+          "b": [
+            6
+          ],
+          "e": [
+            6
+          ],
+          "l": "Morgen",
+          "gb": "কাল",
+          "ge": "tomorrow",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [
+            12
+          ],
+          "e": [
+            8
+          ],
+          "l": "habe",
+          "gb": "আছে",
+          "ge": "have",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            7
+          ],
+          "e": [],
+          "l": "ich",
+          "gb": "আমার",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "einen",
+          "b": [
+            10
+          ],
+          "e": [
+            9
+          ],
+          "l": "einen",
+          "gb": "একটা",
+          "ge": "an",
+          "n": ""
+        },
+        {
+          "t": "Termin",
+          "b": [
+            11
+          ],
+          "e": [
+            10
+          ],
+          "l": "Termin",
+          "gb": "অ্যাপয়েন্টমেন্ট",
+          "ge": "appointment",
+          "n": ""
+        },
+        {
+          "t": "beim",
+          "b": [
+            9
+          ],
+          "e": [
+            11
+          ],
+          "l": "bei",
+          "gb": "কাছে",
+          "ge": "with",
+          "n": "bei dem = beim"
+        },
+        {
+          "t": "Arzt.",
+          "b": [
+            8
+          ],
+          "e": [
+            12,
+            13
+          ],
+          "l": "Arzt",
+          "gb": "ডাক্তারের",
+          "ge": "the doctor",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "এই ৭টি অব্যয়ের পরে সবসময় Dativ",
+      "head": [
+        "Präposition",
+        "অর্থ",
+        "উদাহরণ"
+      ],
+      "rows": [
+        [
+          "mit",
+          "সাথে, দিয়ে",
+          "mit dem Bus, mit meiner Frau"
+        ],
+        [
+          "bei",
+          "কাছে, কর্মস্থলে",
+          "bei der Firma, beim Arzt"
+        ],
+        [
+          "von",
+          "থেকে, এর",
+          "von dem Chef = vom Chef"
+        ],
+        [
+          "zu",
+          "দিকে, কাছে",
+          "zur Arbeit, zum Arzt"
+        ],
+        [
+          "aus",
+          "থেকে (দেশ)",
+          "aus Bangladesch, aus dem Haus"
+        ],
+        [
+          "nach",
+          "পরে; (শহর) -এ",
+          "nach der Arbeit, nach Berlin"
+        ],
+        [
+          "seit",
+          "ধরে",
+          "seit einem Monat"
+        ]
+      ],
+      "note": "মনে রাখার ছড়া: „aus, bei, mit, nach, seit, von, zu — Dativ immer, nur du!“"
+    },
+    {
+      "type": "table",
+      "title": "সংক্ষেপ (Kontraktion)",
+      "head": [
+        "পূর্ণ রূপ",
+        "সংক্ষেপ"
+      ],
+      "rows": [
+        [
+          "zu dem",
+          "zum"
+        ],
+        [
+          "zu der",
+          "zur"
+        ],
+        [
+          "bei dem",
+          "beim"
+        ],
+        [
+          "von dem",
+          "vom"
+        ]
+      ],
+      "note": "Ich gehe zum Arzt. / Ich fahre zur Arbeit. / Er ist beim Chef. / Das ist vom Chef."
+    },
+    {
+      "type": "text",
+      "title": "seit নাকি vor?",
+      "text": "seit + Dativ = এখনও চলছে: „Ich wohne seit zwei Monaten in Berlin“ (এখনো থাকি)। vor + Dativ = শেষ হয়ে গেছে, কত আগে: „Ich bin vor zwei Monaten angekommen“ (দুই মাস আগে পৌঁছেছি)।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "der Termin",
+      "options": [
+        "নির্ধারিত সময়",
+        "সাথে",
+        "থেকে",
+        "ক্যান্টিন"
+      ],
+      "answer": 0,
+      "why": "der Termin = নির্ধারিত সময়।",
+      "word": "termin"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "seit",
+      "options": [
+        "সাথে",
+        "থেকে",
+        "নির্ধারিত সময়",
+        "কাজের শেষে ছুটি"
+      ],
+      "answer": 1,
+      "why": "seit = থেকে।",
+      "word": "seit"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "die Besprechung",
+      "options": [
+        "দুপুরের বিরতি",
+        "সাথে",
+        "নির্ধারিত সময়",
+        "আলোচনা-সভা"
+      ],
+      "answer": 3,
+      "why": "die Besprechung = আলোচনা-সভা।",
+      "word": "besprechung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Kantine",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Kantine। বহুবচন: die Kantinen।",
+      "word": "kantine"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ich fahre mit ___ Bus.",
+      "options": [
+        "dem",
+        "den",
+        "der",
+        "die"
+      ],
+      "answer": 0,
+      "why": "mit + Dativ: mit dem Bus।",
+      "word": "mit"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ich arbeite seit ___ Monat hier.",
+      "options": [
+        "einem",
+        "einen",
+        "ein",
+        "eine"
+      ],
+      "answer": 0,
+      "why": "seit + Dativ: seit einem Monat।",
+      "word": "seit"
+    },
+    {
+      "type": "mcq",
+      "prompt": "zu dem = ?",
+      "options": [
+        "zum",
+        "zur",
+        "beim",
+        "vom"
+      ],
+      "answer": 0,
+      "why": "zu dem → zum।",
+      "word": "zu"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ich komme ___ Bangladesch.",
+      "options": [
+        "aus",
+        "bei",
+        "nach",
+        "mit"
+      ],
+      "answer": 0,
+      "why": "Herkunftsland: aus + Land।",
+      "word": "aus"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ich fahre ___ Arbeit.",
+      "options": [
+        "zur",
+        "zum",
+        "zu den",
+        "bei"
+      ],
+      "answer": 0,
+      "why": "die Arbeit (f) → zur Arbeit।",
+      "word": "zu"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „আমি এক মাস ধরে এই কোম্পানিতে কাজ করছি।“",
+      "tiles": [
+        "Monat",
+        "Ich",
+        "seit",
+        "arbeite",
+        "einem",
+        "bei",
+        "der",
+        "Firma."
+      ],
+      "answer": [
+        "Ich",
+        "arbeite",
+        "seit",
+        "einem",
+        "Monat",
+        "bei",
+        "der",
+        "Firma."
+      ],
+      "why": "seit einem Monat, bei der Firma — beide Dativ।",
+      "word": "firma"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

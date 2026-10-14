@@ -1,12 +1,12 @@
 import { useEffect, useState } from 'react'
 
-export type RouteName = 'home' | 'course' | 'review' | 'dict' | 'me' | 'lesson' | 'placement'
+export type RouteName = 'home' | 'course' | 'review' | 'dict' | 'me' | 'lesson' | 'placement' | 'exam'
 export interface Route {
   name: RouteName
-  param: string // lesson id for "lesson"
+  param: string // lesson id for "lesson", exam id for "exam"
 }
 
-const NAMES: RouteName[] = ['home', 'course', 'review', 'dict', 'me', 'lesson', 'placement']
+const NAMES: RouteName[] = ['home', 'course', 'review', 'dict', 'me', 'lesson', 'placement', 'exam']
 
 export function parseHash(hash: string): Route {
   const [name = '', param = ''] = hash.replace(/^#\/?/, '').split('/')

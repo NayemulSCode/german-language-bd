@@ -1,0 +1,68 @@
+[
+  {
+    "id": "a1-mock-01",
+    "level": "A1",
+    "title": {
+      "de": "Modelltest A1 — Start Deutsch 1",
+      "bn": "A1 মক পরীক্ষা ১",
+      "en": "A1 mock exam 1"
+    },
+    "questions": 20,
+    "minutes": 45
+  },
+  {
+    "id": "a1-mock-02",
+    "level": "A1",
+    "title": {
+      "de": "Modelltest A1 (2) — Start Deutsch 1",
+      "bn": "A1 মক পরীক্ষা ২",
+      "en": "A1 mock exam 2"
+    },
+    "questions": 20,
+    "minutes": 45
+  },
+  {
+    "id": "a2-mock-01",
+    "level": "A2",
+    "title": {
+      "de": "Modelltest A2 — Goethe-Zertifikat A2",
+      "bn": "A2 মক পরীক্ষা ১",
+      "en": "A2 mock exam 1"
+    },
+    "questions": 24,
+    "minutes": 60
+  },
+  {
+    "id": "a2-mock-02",
+    "level": "A2",
+    "title": {
+      "de": "Modelltest A2 (2) — Goethe-Zertifikat A2",
+      "bn": "A2 মক পরীক্ষা ২",
+      "en": "A2 mock exam 2"
+    },
+    "questions": 24,
+    "minutes": 60
+  },
+  {
+    "id": "b1-mock-01",
+    "level": "B1",
+    "title": {
+      "de": "Modelltest B1 — Goethe-Zertifikat B1",
+      "bn": "B1 মক পরীক্ষা ১",
+      "en": "B1 mock exam 1"
+    },
+    "questions": 24,
+    "minutes": 105
+  },
+  {
+    "id": "b1-mock-02",
+    "level": "B1",
+    "title": {
+      "de": "Modelltest B1 (2) — Goethe-Zertifikat B1",
+      "bn": "B1 মক পরীক্ষা ২",
+      "en": "B1 mock exam 2"
+    },
+    "questions": 23,
+    "minutes": 105
+  }
+]

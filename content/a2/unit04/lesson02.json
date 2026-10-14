@@ -1,0 +1,1190 @@
+{
+  "level": "A2",
+  "unit": 4,
+  "minutes": 16,
+  "lesson": 2,
+  "id": "a2-u04-l02",
+  "title": {
+    "de": "Ich fühle mich nicht gut",
+    "bn": "reflexive Verben: sich fühlen, sich freuen",
+    "en": "Reflexive verbs: I don’t feel well"
+  },
+  "hook": {
+    "de": "Erkenne dich selbst.",
+    "who": "Delphi",
+    "bn": "নিজেকে জানো।",
+    "en": "Know thyself."
+  },
+  "goals": [
+    "Reflexivpronomen: mich, dich, sich, uns, euch, sich",
+    "sich fühlen, sich erkälten, sich ausruhen, sich waschen, sich setzen",
+    "Perfekt mit reflexiven Verben",
+    "sich freuen auf / über"
+  ],
+  "words": [
+    {
+      "id": "sich_fuehlen",
+      "de": "sich fühlen",
+      "pos": "ক্রিয়া · hat sich gefühlt",
+      "bn": "অনুভব করা",
+      "en": "to feel"
+    },
+    {
+      "id": "sich_erkaelten",
+      "de": "sich erkälten",
+      "pos": "ক্রিয়া · hat sich erkältet",
+      "bn": "ঠান্ডা লাগা",
+      "en": "to catch a cold"
+    },
+    {
+      "id": "sich_ausruhen",
+      "de": "sich ausruhen",
+      "pos": "ক্রিয়া · hat sich ausgeruht",
+      "bn": "বিশ্রাম নেওয়া",
+      "en": "to rest"
+    },
+    {
+      "id": "sich_waschen",
+      "de": "sich waschen",
+      "pos": "ক্রিয়া · wäscht sich",
+      "bn": "নিজেকে ধোয়া",
+      "en": "to wash oneself"
+    },
+    {
+      "id": "sich_setzen",
+      "de": "sich setzen",
+      "pos": "ক্রিয়া · hat sich gesetzt",
+      "bn": "বসা",
+      "en": "to sit down"
+    },
+    {
+      "id": "sich_freuen",
+      "de": "sich freuen",
+      "pos": "ক্রিয়া · hat sich gefreut",
+      "bn": "খুশি হওয়া",
+      "en": "to be happy"
+    },
+    {
+      "id": "sich_treffen",
+      "de": "sich treffen",
+      "pos": "ক্রিয়া · trifft sich",
+      "bn": "দেখা করা",
+      "en": "to meet"
+    },
+    {
+      "id": "sich_interessieren",
+      "de": "sich interessieren",
+      "pos": "ক্রিয়া · hat sich interessiert",
+      "bn": "আগ্রহী হওয়া",
+      "en": "to be interested"
+    },
+    {
+      "id": "sich_entschuldigen",
+      "de": "sich entschuldigen",
+      "pos": "ক্রিয়া · hat sich entschuldigt",
+      "bn": "ক্ষমা চাওয়া",
+      "en": "to apologise"
+    },
+    {
+      "id": "muede",
+      "de": "müde",
+      "pos": "বিশেষণ",
+      "bn": "ক্লান্ত",
+      "en": "tired"
+    },
+    {
+      "id": "besser",
+      "de": "besser",
+      "pos": "বিশেষণ (Komparativ)",
+      "bn": "ভালো (তুলনায়)",
+      "en": "better"
+    },
+    {
+      "id": "gesund",
+      "de": "gesund",
+      "pos": "বিশেষণ",
+      "bn": "সুস্থ",
+      "en": "healthy"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Muna",
+      "bn": [
+        "সাহেব,",
+        "তুমি",
+        "ফ্যাকাশে",
+        "দেখাচ্ছ।",
+        "তোমার",
+        "কেমন",
+        "লাগছে?"
+      ],
+      "en": [
+        "Saheb,",
+        "you",
+        "look",
+        "pale.",
+        "How",
+        "do",
+        "you",
+        "feel?"
+      ],
+      "de": [
+        {
+          "t": "Saheb,",
+          "s": "Saheb",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Saheb",
+          "gb": "সাহেব",
+          "ge": "Saheb",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "siehst",
+          "b": [
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "siehst",
+          "gb": "দেখাচ্ছ",
+          "ge": "look",
+          "n": ""
+        },
+        {
+          "t": "blass",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "blass",
+          "gb": "ফ্যাকাশে",
+          "ge": "pale",
+          "n": ""
+        },
+        {
+          "t": "aus.",
+          "b": [],
+          "e": [],
+          "l": "aus",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Wie",
+          "b": [
+            5
+          ],
+          "e": [
+            4
+          ],
+          "l": "Wie",
+          "gb": "কেমন",
+          "ge": "How",
+          "n": ""
+        },
+        {
+          "t": "fühlst",
+          "b": [
+            6
+          ],
+          "e": [
+            7
+          ],
+          "l": "sich fühlen",
+          "gb": "লাগছে",
+          "ge": "feel",
+          "n": "sich fühlen: Reflexivpronomen immer mitgeben"
+        },
+        {
+          "t": "du",
+          "b": [
+            4
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "du",
+          "gb": "তোমার",
+          "ge": "do you",
+          "n": ""
+        },
+        {
+          "t": "dich?",
+          "b": [],
+          "e": [],
+          "l": "du",
+          "gb": "নিজেকে",
+          "ge": "yourself",
+          "n": "du → dich (Reflexivpronomen, Akkusativ)"
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমার",
+        "ভালো",
+        "লাগছে",
+        "না।",
+        "আমার",
+        "ঠান্ডা",
+        "লেগেছে।"
+      ],
+      "en": [
+        "I",
+        "do",
+        "not",
+        "feel",
+        "well.",
+        "I",
+        "have",
+        "caught",
+        "a",
+        "cold."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমার",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "fühle",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "sich fühlen",
+          "gb": "লাগছে",
+          "ge": "feel",
+          "n": ""
+        },
+        {
+          "t": "mich",
+          "b": [],
+          "e": [],
+          "l": "ich",
+          "gb": "নিজেকে",
+          "ge": "myself",
+          "n": "ich → mich"
+        },
+        {
+          "t": "nicht",
+          "b": [
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "nicht",
+          "gb": "না",
+          "ge": "not",
+          "n": ""
+        },
+        {
+          "t": "gut.",
+          "b": [
+            1
+          ],
+          "e": [
+            4
+          ],
+          "l": "gut",
+          "gb": "ভালো",
+          "ge": "well",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "Ich",
+          "gb": "আমার",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [
+            6
+          ],
+          "e": [
+            6
+          ],
+          "l": "habe",
+          "gb": "লেগেছে",
+          "ge": "have",
+          "n": ""
+        },
+        {
+          "t": "mich",
+          "b": [],
+          "e": [],
+          "l": "ich",
+          "gb": "নিজেকে",
+          "ge": "myself",
+          "n": ""
+        },
+        {
+          "t": "erkältet.",
+          "b": [
+            5
+          ],
+          "e": [
+            7,
+            8,
+            9
+          ],
+          "l": "sich erkälten",
+          "gb": "ঠান্ডা",
+          "ge": "caught a cold",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "তাহলে",
+        "তুমি",
+        "বাসায়",
+        "বিশ্রাম",
+        "নাও!",
+        "বসো,",
+        "আমি",
+        "চা",
+        "বানাচ্ছি।"
+      ],
+      "en": [
+        "Then",
+        "rest",
+        "at",
+        "home!",
+        "Sit",
+        "down,",
+        "I",
+        "will",
+        "make",
+        "tea."
+      ],
+      "de": [
+        {
+          "t": "Dann",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Dann",
+          "gb": "তাহলে",
+          "ge": "Then",
+          "n": ""
+        },
+        {
+          "t": "ruh",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            1
+          ],
+          "l": "sich ausruhen",
+          "gb": "বিশ্রাম নাও",
+          "ge": "rest",
+          "n": ""
+        },
+        {
+          "t": "dich",
+          "b": [],
+          "e": [],
+          "l": "du",
+          "gb": "নিজেকে",
+          "ge": "yourself",
+          "n": ""
+        },
+        {
+          "t": "zu Hause",
+          "b": [
+            2
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "zu Hause",
+          "gb": "বাসায়",
+          "ge": "at home",
+          "n": ""
+        },
+        {
+          "t": "aus!",
+          "b": [],
+          "e": [],
+          "l": "aus",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Setz",
+          "b": [
+            5
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "sich setzen",
+          "gb": "বসো",
+          "ge": "Sit down",
+          "n": "Imperativ: Setz dich! / Setzen Sie sich!"
+        },
+        {
+          "t": "dich,",
+          "b": [],
+          "e": [],
+          "l": "du",
+          "gb": "নিজেকে",
+          "ge": "yourself",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            6
+          ],
+          "e": [
+            6
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "koche",
+          "b": [
+            8
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "koche",
+          "gb": "বানাচ্ছি",
+          "ge": "will make",
+          "n": ""
+        },
+        {
+          "t": "Tee.",
+          "b": [
+            7
+          ],
+          "e": [
+            9
+          ],
+          "l": "Tee",
+          "gb": "চা",
+          "ge": "tea",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "ধন্যবাদ।",
+        "কাল",
+        "আমরা",
+        "কি",
+        "দেখা",
+        "করছি",
+        "না?"
+      ],
+      "en": [
+        "Thanks.",
+        "Aren’t",
+        "we",
+        "meeting",
+        "tomorrow?"
+      ],
+      "de": [
+        {
+          "t": "Danke.",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Danke",
+          "gb": "ধন্যবাদ",
+          "ge": "Thanks",
+          "n": ""
+        },
+        {
+          "t": "Treffen",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            3
+          ],
+          "l": "sich treffen",
+          "gb": "দেখা করছি",
+          "ge": "meeting",
+          "n": ""
+        },
+        {
+          "t": "wir",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "wir",
+          "gb": "আমরা",
+          "ge": "we",
+          "n": ""
+        },
+        {
+          "t": "uns",
+          "b": [],
+          "e": [],
+          "l": "wir",
+          "gb": "একে অপরকে",
+          "ge": "each other",
+          "n": "wir → uns"
+        },
+        {
+          "t": "nicht",
+          "b": [
+            6
+          ],
+          "e": [
+            1
+          ],
+          "l": "nicht",
+          "gb": "না",
+          "ge": "Aren’t",
+          "n": ""
+        },
+        {
+          "t": "morgen?",
+          "b": [
+            1
+          ],
+          "e": [
+            4
+          ],
+          "l": "morgen",
+          "gb": "কাল",
+          "ge": "tomorrow",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "হ্যাঁ,",
+        "কিন্তু",
+        "আমরা",
+        "পরে",
+        "দেখা",
+        "করব।",
+        "আগে",
+        "সুস্থ",
+        "হও!"
+      ],
+      "en": [
+        "Yes,",
+        "but",
+        "we",
+        "will",
+        "meet",
+        "later.",
+        "Get",
+        "well",
+        "first!"
+      ],
+      "de": [
+        {
+          "t": "Ja,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ja",
+          "gb": "হ্যাঁ",
+          "ge": "Yes",
+          "n": ""
+        },
+        {
+          "t": "aber",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "aber",
+          "gb": "কিন্তু",
+          "ge": "but",
+          "n": ""
+        },
+        {
+          "t": "wir",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "wir",
+          "gb": "আমরা",
+          "ge": "we",
+          "n": ""
+        },
+        {
+          "t": "treffen",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "treffen",
+          "gb": "দেখা করব",
+          "ge": "will meet",
+          "n": ""
+        },
+        {
+          "t": "uns",
+          "b": [],
+          "e": [],
+          "l": "wir",
+          "gb": "একে অপরকে",
+          "ge": "each other",
+          "n": ""
+        },
+        {
+          "t": "später.",
+          "b": [
+            3
+          ],
+          "e": [
+            5
+          ],
+          "l": "später",
+          "gb": "পরে",
+          "ge": "later",
+          "n": ""
+        },
+        {
+          "t": "Werde",
+          "b": [
+            8
+          ],
+          "e": [
+            6
+          ],
+          "l": "werden",
+          "gb": "হও",
+          "ge": "Get",
+          "n": ""
+        },
+        {
+          "t": "erst",
+          "b": [
+            6
+          ],
+          "e": [
+            8
+          ],
+          "l": "erst",
+          "gb": "আগে",
+          "ge": "first",
+          "n": ""
+        },
+        {
+          "t": "mal",
+          "b": [],
+          "e": [],
+          "l": "mal",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "gesund!",
+          "b": [
+            7
+          ],
+          "e": [
+            7
+          ],
+          "l": "gesund",
+          "gb": "সুস্থ",
+          "ge": "well",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "পুরোনো",
+        "শহরে",
+        "যাওয়ার",
+        "জন্য",
+        "অপেক্ষা",
+        "করছি।",
+        "আমি",
+        "শহর",
+        "নিয়ে",
+        "আগ্রহী।"
+      ],
+      "en": [
+        "I",
+        "am",
+        "looking",
+        "forward",
+        "to",
+        "going",
+        "to",
+        "the",
+        "old",
+        "town.",
+        "I",
+        "am",
+        "interested",
+        "in",
+        "the",
+        "city."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "freue",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            1,
+            2,
+            3
+          ],
+          "l": "sich freuen",
+          "gb": "অপেক্ষা করছি",
+          "ge": "am looking forward",
+          "n": ""
+        },
+        {
+          "t": "mich",
+          "b": [],
+          "e": [],
+          "l": "ich",
+          "gb": "নিজেকে",
+          "ge": "myself",
+          "n": ""
+        },
+        {
+          "t": "auf",
+          "b": [
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "auf",
+          "gb": "জন্য",
+          "ge": "to",
+          "n": "sich freuen auf + Akkusativ = সামনের কিছুর জন্য খুশি"
+        },
+        {
+          "t": "die Altstadt.",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            7,
+            8,
+            9
+          ],
+          "l": "die Altstadt",
+          "gb": "পুরোনো শহরে",
+          "ge": "the old town",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            7
+          ],
+          "e": [
+            10
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "interessiere",
+          "b": [
+            10
+          ],
+          "e": [
+            11,
+            12
+          ],
+          "l": "sich interessieren",
+          "gb": "আগ্রহী",
+          "ge": "am interested",
+          "n": ""
+        },
+        {
+          "t": "mich",
+          "b": [],
+          "e": [],
+          "l": "ich",
+          "gb": "নিজেকে",
+          "ge": "myself",
+          "n": ""
+        },
+        {
+          "t": "für",
+          "b": [
+            9
+          ],
+          "e": [
+            13
+          ],
+          "l": "für",
+          "gb": "নিয়ে",
+          "ge": "in",
+          "n": "sich interessieren für + Akkusativ"
+        },
+        {
+          "t": "die Stadt.",
+          "b": [
+            8
+          ],
+          "e": [
+            14,
+            15
+          ],
+          "l": "die Stadt",
+          "gb": "শহর",
+          "ge": "the city",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "Reflexivpronomen (Akkusativ)",
+      "head": [
+        "Person",
+        "Pronomen",
+        "Beispiel"
+      ],
+      "rows": [
+        [
+          "ich",
+          "mich",
+          "Ich fühle mich gut."
+        ],
+        [
+          "du",
+          "dich",
+          "Du setzt dich."
+        ],
+        [
+          "er/sie/es",
+          "sich",
+          "Er ruht sich aus."
+        ],
+        [
+          "wir",
+          "uns",
+          "Wir treffen uns."
+        ],
+        [
+          "ihr",
+          "euch",
+          "Ihr freut euch."
+        ],
+        [
+          "sie/Sie",
+          "sich",
+          "Sie entschuldigen sich."
+        ]
+      ],
+      "note": "শুধু er/sie/es/sie/Sie-র জন্য „sich“; বাকিরা Akkusativ-pronomen-এর মতো (mich, dich, uns, euch)।"
+    },
+    {
+      "type": "table",
+      "title": "প্রচলিত reflexive ক্রিয়া",
+      "head": [
+        "Verb",
+        "অর্থ",
+        "উদাহরণ"
+      ],
+      "rows": [
+        [
+          "sich fühlen",
+          "অনুভব করা",
+          "Ich fühle mich müde."
+        ],
+        [
+          "sich erkälten",
+          "ঠান্ডা লাগা",
+          "Er hat sich erkältet."
+        ],
+        [
+          "sich ausruhen",
+          "বিশ্রাম নেওয়া",
+          "Ruh dich aus!"
+        ],
+        [
+          "sich setzen",
+          "বসা",
+          "Setzen Sie sich bitte."
+        ],
+        [
+          "sich treffen",
+          "দেখা করা",
+          "Wir treffen uns um acht."
+        ],
+        [
+          "sich freuen auf",
+          "জন্য অপেক্ষা করা",
+          "Ich freue mich auf den Urlaub."
+        ],
+        [
+          "sich interessieren für",
+          "আগ্রহী হওয়া",
+          "Ich interessiere mich für Musik."
+        ]
+      ],
+      "note": "Perfekt: haben + sich + Partizip: „Ich habe mich erkältet.“ Reflexivpronomen প্রায় সবসময় ক্রিয়ার পরে বসে।"
+    },
+    {
+      "type": "text",
+      "title": "sich freuen auf vs. über",
+      "text": "„Ich freue mich auf den Urlaub“ = ভবিষ্যতের জন্য খুশি (এখনও আসেনি)। „Ich freue mich über das Geschenk“ = যা পেয়েছি তার জন্য খুশি। দুটোই Akkusativ।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "müde",
+      "options": [
+        "দেখা করা",
+        "ক্ষমা চাওয়া",
+        "সুস্থ",
+        "ক্লান্ত"
+      ],
+      "answer": 3,
+      "why": "müde = ক্লান্ত।",
+      "word": "muede"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "sich ausruhen",
+      "options": [
+        "বসা",
+        "আগ্রহী হওয়া",
+        "ভালো",
+        "বিশ্রাম নেওয়া"
+      ],
+      "answer": 3,
+      "why": "sich ausruhen = বিশ্রাম নেওয়া।",
+      "word": "sich_ausruhen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "sich freuen",
+      "options": [
+        "খুশি হওয়া",
+        "দেখা করা",
+        "ক্লান্ত",
+        "অনুভব করা"
+      ],
+      "answer": 0,
+      "why": "sich freuen = খুশি হওয়া।",
+      "word": "sich_freuen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "gesund",
+      "options": [
+        "ক্ষমা চাওয়া",
+        "অনুভব করা",
+        "নিজেকে ধোয়া",
+        "সুস্থ"
+      ],
+      "answer": 3,
+      "why": "gesund = সুস্থ।",
+      "word": "gesund"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ich fühle ___ nicht gut.",
+      "options": [
+        "mich",
+        "mir",
+        "ich",
+        "sich"
+      ],
+      "answer": 0,
+      "why": "ich → mich (Reflexiv)।",
+      "word": "sich_fuehlen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Er ruht ___ aus.",
+      "options": [
+        "sich",
+        "dich",
+        "uns",
+        "mich"
+      ],
+      "answer": 0,
+      "why": "er → sich।",
+      "word": "sich_ausruhen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Wir treffen ___ morgen.",
+      "options": [
+        "uns",
+        "euch",
+        "dich",
+        "sich"
+      ],
+      "answer": 0,
+      "why": "wir → uns।",
+      "word": "sich_treffen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ich freue mich ___ den Urlaub.",
+      "options": [
+        "auf",
+        "über",
+        "von",
+        "zu"
+      ],
+      "answer": 0,
+      "why": "ভবিষ্যতের জন্য: sich freuen auf।",
+      "word": "sich_freuen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক Perfekt কোনটি?",
+      "options": [
+        "Ich habe mich erkältet.",
+        "Ich bin mich erkältet.",
+        "Ich habe erkältet mich.",
+        "Ich habe mir erkältet."
+      ],
+      "answer": 0,
+      "why": "haben + mich + Partizip।",
+      "word": "sich_erkaelten"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „আমি ক্লান্ত বোধ করছি।“",
+      "tiles": [
+        "müde.",
+        "fühle",
+        "mich",
+        "Ich"
+      ],
+      "answer": [
+        "Ich",
+        "fühle",
+        "mich",
+        "müde."
+      ],
+      "why": "sich fühlen + Adjektiv।",
+      "word": "muede"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

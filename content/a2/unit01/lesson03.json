@@ -1,0 +1,1223 @@
+{
+  "level": "A2",
+  "unit": 1,
+  "minutes": 16,
+  "lesson": 3,
+  "id": "a2-u01-l03",
+  "title": {
+    "de": "Wie war dein Wochenende?",
+    "bn": "ভাঙা ও অভাঙা ক্রিয়ার Perfekt",
+    "en": "Separable and inseparable verbs in the perfect"
+  },
+  "hook": {
+    "de": "Was du heute kannst besorgen, das verschiebe nicht auf morgen.",
+    "who": "Sprichwort",
+    "bn": "আজ যা করতে পারো, কালকের জন্য ফেলে রেখো না।",
+    "en": "Never put off until tomorrow what you can do today."
+  },
+  "goals": [
+    "ভাঙা ক্রিয়ার Partizip: aufgestanden, eingekauft",
+    "অভাঙা ক্রিয়ায় ge- নেই: vergessen, bekommen",
+    "সপ্তাহান্তের গল্প বলা",
+    "Wie war …? দিয়ে অভিজ্ঞতা জিজ্ঞাসা"
+  ],
+  "words": [
+    {
+      "id": "aufstehen",
+      "de": "aufstehen",
+      "pos": "ক্রিয়া · ist aufgestanden",
+      "bn": "ঘুম থেকে ওঠা",
+      "en": "to get up"
+    },
+    {
+      "id": "einkaufen",
+      "de": "einkaufen",
+      "pos": "ক্রিয়া · hat eingekauft",
+      "bn": "বাজার করা",
+      "en": "to go shopping"
+    },
+    {
+      "id": "anrufen",
+      "de": "anrufen",
+      "pos": "ক্রিয়া · hat angerufen",
+      "bn": "ফোন করা",
+      "en": "to call"
+    },
+    {
+      "id": "fernsehen",
+      "de": "fernsehen",
+      "pos": "ক্রিয়া · hat ferngesehen",
+      "bn": "টিভি দেখা",
+      "en": "to watch TV"
+    },
+    {
+      "id": "aufraeumen",
+      "de": "aufräumen",
+      "pos": "ক্রিয়া · hat aufgeräumt",
+      "bn": "গোছানো",
+      "en": "to tidy up"
+    },
+    {
+      "id": "mitbringen",
+      "de": "mitbringen",
+      "pos": "ক্রিয়া · hat mitgebracht",
+      "bn": "সঙ্গে আনা",
+      "en": "to bring along"
+    },
+    {
+      "id": "vergessen",
+      "de": "vergessen",
+      "pos": "ক্রিয়া · hat vergessen",
+      "bn": "ভুলে যাওয়া",
+      "en": "to forget"
+    },
+    {
+      "id": "bekommen",
+      "de": "bekommen",
+      "pos": "ক্রিয়া · hat bekommen",
+      "bn": "পাওয়া",
+      "en": "to get, to receive"
+    },
+    {
+      "id": "schluessel",
+      "de": "Schlüssel",
+      "art": "der",
+      "pl": "die Schlüssel",
+      "pos": "বিশেষ্য",
+      "bn": "চাবি",
+      "en": "key"
+    },
+    {
+      "id": "vermieterin",
+      "de": "Vermieterin",
+      "art": "die",
+      "pl": "die Vermieterinnen",
+      "pos": "বিশেষ্য",
+      "bn": "বাড়িওয়ালি",
+      "en": "landlady"
+    },
+    {
+      "id": "neu",
+      "de": "neu",
+      "pos": "বিশেষণ",
+      "bn": "নতুন",
+      "en": "new"
+    },
+    {
+      "id": "frueh",
+      "de": "früh",
+      "pos": "বিশেষণ",
+      "bn": "সকাল সকাল, আগে",
+      "en": "early"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Lena",
+      "bn": [
+        "তোমার",
+        "সপ্তাহান্ত",
+        "কেমন",
+        "ছিল?"
+      ],
+      "en": [
+        "How",
+        "was",
+        "your",
+        "weekend?"
+      ],
+      "de": [
+        {
+          "t": "Wie",
+          "b": [
+            2
+          ],
+          "e": [
+            0
+          ],
+          "l": "Wie",
+          "gb": "কেমন",
+          "ge": "How",
+          "n": ""
+        },
+        {
+          "t": "war",
+          "b": [
+            3
+          ],
+          "e": [
+            1
+          ],
+          "l": "sein",
+          "gb": "ছিল",
+          "ge": "was",
+          "n": "war = sein-এর অতীত (পরের লেসনে পুরো রূপ)"
+        },
+        {
+          "t": "dein",
+          "b": [
+            0
+          ],
+          "e": [
+            2
+          ],
+          "l": "dein",
+          "gb": "তোমার",
+          "ge": "your",
+          "n": ""
+        },
+        {
+          "t": "Wochenende?",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "Wochenende",
+          "gb": "সপ্তাহান্ত",
+          "ge": "weekend",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "চমৎকার!",
+        "শনিবার",
+        "আমি",
+        "সকাল",
+        "সকাল",
+        "উঠেছি",
+        "আর",
+        "বাজার",
+        "করেছি।"
+      ],
+      "en": [
+        "Nice!",
+        "On",
+        "Saturday",
+        "I",
+        "got",
+        "up",
+        "early",
+        "and",
+        "went",
+        "shopping."
+      ],
+      "de": [
+        {
+          "t": "Schön!",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Schön",
+          "gb": "চমৎকার",
+          "ge": "Nice",
+          "n": ""
+        },
+        {
+          "t": "Am",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "Am",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "On",
+          "n": ""
+        },
+        {
+          "t": "Samstag",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "Samstag",
+          "gb": "শনিবার",
+          "ge": "Saturday",
+          "n": ""
+        },
+        {
+          "t": "bin",
+          "b": [],
+          "e": [],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "früh",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            6
+          ],
+          "l": "früh",
+          "gb": "সকাল সকাল",
+          "ge": "early",
+          "n": ""
+        },
+        {
+          "t": "aufgestanden",
+          "b": [
+            5
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "aufstehen",
+          "gb": "উঠেছি",
+          "ge": "got up",
+          "n": "auf + ge + standen: ge মাঝখানে বসে"
+        },
+        {
+          "t": "und",
+          "b": [
+            6
+          ],
+          "e": [
+            7
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [],
+          "e": [],
+          "l": "haben",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "eingekauft.",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            8,
+            9
+          ],
+          "l": "einkaufen",
+          "gb": "বাজার করেছি",
+          "ge": "went shopping",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "তুমি",
+        "কি",
+        "রান্নাও",
+        "করেছ?"
+      ],
+      "en": [
+        "Did",
+        "you",
+        "cook",
+        "too?"
+      ],
+      "de": [
+        {
+          "t": "Hast",
+          "b": [],
+          "e": [
+            0
+          ],
+          "l": "haben",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "Did",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "auch",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "auch",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "too",
+          "n": ""
+        },
+        {
+          "t": "gekocht?",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "kochen",
+          "gb": "রান্নাও",
+          "ge": "cook",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "হ্যাঁ,",
+        "আমি",
+        "মাকে",
+        "ফোন",
+        "করেছি",
+        "আর",
+        "ভাত",
+        "রান্না",
+        "করেছি।"
+      ],
+      "en": [
+        "Yes,",
+        "I",
+        "called",
+        "my",
+        "mother",
+        "and",
+        "cooked",
+        "rice."
+      ],
+      "de": [
+        {
+          "t": "Ja,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ja",
+          "gb": "হ্যাঁ",
+          "ge": "Yes",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [],
+          "e": [],
+          "l": "haben",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "meine",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "meine",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "my",
+          "n": ""
+        },
+        {
+          "t": "Mutter",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "Mutter",
+          "gb": "মাকে",
+          "ge": "mother",
+          "n": ""
+        },
+        {
+          "t": "angerufen",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            2
+          ],
+          "l": "anrufen",
+          "gb": "ফোন করেছি",
+          "ge": "called",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            5
+          ],
+          "e": [
+            5
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "Reis",
+          "b": [
+            6
+          ],
+          "e": [
+            7
+          ],
+          "l": "Reis",
+          "gb": "ভাত",
+          "ge": "rice",
+          "n": ""
+        },
+        {
+          "t": "gekocht.",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            6
+          ],
+          "l": "kochen",
+          "gb": "রান্না করেছি",
+          "ge": "cooked",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "আর",
+        "রবিবার?",
+        "তুমি",
+        "কি",
+        "টিভি",
+        "দেখেছ?"
+      ],
+      "en": [
+        "And",
+        "on",
+        "Sunday?",
+        "Did",
+        "you",
+        "watch",
+        "TV?"
+      ],
+      "de": [
+        {
+          "t": "Und",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "am",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "am",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "on",
+          "n": ""
+        },
+        {
+          "t": "Sonntag?",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "Sonntag",
+          "gb": "রবিবার",
+          "ge": "Sunday",
+          "n": ""
+        },
+        {
+          "t": "Hast",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "haben",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "Did",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "ferngesehen?",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            6
+          ],
+          "l": "fernsehen",
+          "gb": "টিভি দেখেছ",
+          "ge": "TV",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "না,",
+        "আমি",
+        "আমার",
+        "ফ্ল্যাট",
+        "গুছিয়েছি।",
+        "কিন্তু",
+        "আমি",
+        "আমার",
+        "চাবি",
+        "ভুলে",
+        "গেছি!"
+      ],
+      "en": [
+        "No,",
+        "I",
+        "tidied",
+        "my",
+        "flat.",
+        "But",
+        "I",
+        "forgot",
+        "my",
+        "key!"
+      ],
+      "de": [
+        {
+          "t": "Nein,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Nein",
+          "gb": "না",
+          "ge": "No",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [],
+          "e": [],
+          "l": "haben",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "meine",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "meine",
+          "gb": "আমার",
+          "ge": "my",
+          "n": ""
+        },
+        {
+          "t": "Wohnung",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "Wohnung",
+          "gb": "ফ্ল্যাট",
+          "ge": "flat",
+          "n": ""
+        },
+        {
+          "t": "aufgeräumt.",
+          "b": [
+            4
+          ],
+          "e": [
+            2
+          ],
+          "l": "aufräumen",
+          "gb": "গুছিয়েছি",
+          "ge": "tidied",
+          "n": ""
+        },
+        {
+          "t": "Aber",
+          "b": [
+            5
+          ],
+          "e": [
+            5
+          ],
+          "l": "Aber",
+          "gb": "কিন্তু",
+          "ge": "But",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            6
+          ],
+          "e": [
+            6
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [],
+          "e": [],
+          "l": "haben",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "meinen",
+          "b": [
+            7
+          ],
+          "e": [
+            8
+          ],
+          "l": "mein",
+          "gb": "আমার",
+          "ge": "my",
+          "n": "der Schlüssel (Akkusativ) → meinen"
+        },
+        {
+          "t": "Schlüssel",
+          "b": [
+            8
+          ],
+          "e": [
+            9
+          ],
+          "l": "Schlüssel",
+          "gb": "চাবি",
+          "ge": "key",
+          "n": ""
+        },
+        {
+          "t": "vergessen!",
+          "b": [
+            9,
+            10
+          ],
+          "e": [
+            7
+          ],
+          "l": "vergessen",
+          "gb": "ভুলে গেছি",
+          "ge": "forgot",
+          "n": "ver- দিয়ে শুরু: Partizip-এ ge- নেই"
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "ইশ!",
+        "তুমি",
+        "কি",
+        "নতুন",
+        "চাবি",
+        "পেয়েছ?"
+      ],
+      "en": [
+        "Oh",
+        "no!",
+        "Did",
+        "you",
+        "get",
+        "a",
+        "new",
+        "key?"
+      ],
+      "de": [
+        {
+          "t": "Oh nein!",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Oh nein",
+          "gb": "ইশ",
+          "ge": "Oh no",
+          "n": ""
+        },
+        {
+          "t": "Hast",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "haben",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "Did",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "einen",
+          "b": [],
+          "e": [
+            5
+          ],
+          "l": "ein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "a",
+          "n": ""
+        },
+        {
+          "t": "neuen",
+          "b": [
+            3
+          ],
+          "e": [
+            6
+          ],
+          "l": "neu",
+          "gb": "নতুন",
+          "ge": "new",
+          "n": "der Schlüssel (Akkusativ) → einen neuen"
+        },
+        {
+          "t": "Schlüssel",
+          "b": [
+            4
+          ],
+          "e": [
+            7
+          ],
+          "l": "Schlüssel",
+          "gb": "চাবি",
+          "ge": "key",
+          "n": ""
+        },
+        {
+          "t": "bekommen?",
+          "b": [
+            5
+          ],
+          "e": [
+            4
+          ],
+          "l": "bekommen",
+          "gb": "পেয়েছ",
+          "ge": "get",
+          "n": "be- দিয়ে শুরু: ge- নেই"
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "হ্যাঁ,",
+        "বাড়িওয়ালি",
+        "ওটা",
+        "সঙ্গে",
+        "এনেছেন।"
+      ],
+      "en": [
+        "Yes,",
+        "the",
+        "landlady",
+        "brought",
+        "it."
+      ],
+      "de": [
+        {
+          "t": "Ja,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ja",
+          "gb": "হ্যাঁ",
+          "ge": "Yes",
+          "n": ""
+        },
+        {
+          "t": "die",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "die",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "Vermieterin",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "Vermieterin",
+          "gb": "বাড়িওয়ালি",
+          "ge": "landlady",
+          "n": ""
+        },
+        {
+          "t": "hat",
+          "b": [],
+          "e": [],
+          "l": "haben",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "ihn",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "er",
+          "gb": "ওটা (der Schlüssel)",
+          "ge": "it (der Schlüssel)",
+          "n": "Akkusativ: er → ihn"
+        },
+        {
+          "t": "mitgebracht.",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            3
+          ],
+          "l": "mitbringen",
+          "gb": "সঙ্গে এনেছেন",
+          "ge": "brought",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "ভাঙা ক্রিয়া: ge- বসে উপসর্গ ও মূলের মাঝখানে",
+      "head": [
+        "Infinitiv",
+        "Partizip II",
+        "Perfekt-বাক্য"
+      ],
+      "rows": [
+        [
+          "aufstehen",
+          "aufgestanden",
+          "Ich bin früh aufgestanden."
+        ],
+        [
+          "einkaufen",
+          "eingekauft",
+          "Ich habe eingekauft."
+        ],
+        [
+          "anrufen",
+          "angerufen",
+          "Ich habe sie angerufen."
+        ],
+        [
+          "fernsehen",
+          "ferngesehen",
+          "Er hat ferngesehen."
+        ],
+        [
+          "aufräumen",
+          "aufgeräumt",
+          "Sie hat aufgeräumt."
+        ],
+        [
+          "mitbringen",
+          "mitgebracht",
+          "Er hat Brot mitgebracht."
+        ]
+      ],
+      "note": "সূত্র: auf-ge-räumt, ein-ge-kauft। উচ্চারণে জোর পড়ে উপসর্গে: AUFgeräumt।"
+    },
+    {
+      "type": "table",
+      "title": "অভাঙা ক্রিয়া: ge- বসে না",
+      "head": [
+        "Infinitiv",
+        "Partizip II"
+      ],
+      "rows": [
+        [
+          "bekommen",
+          "bekommen"
+        ],
+        [
+          "vergessen",
+          "vergessen"
+        ],
+        [
+          "verstehen",
+          "verstanden"
+        ],
+        [
+          "besuchen",
+          "besucht"
+        ],
+        [
+          "bezahlen",
+          "bezahlt"
+        ],
+        [
+          "erklären",
+          "erklärt"
+        ]
+      ],
+      "note": "be-, ver-, ent-, er-, zer-, ge- দিয়ে শুরু হলে উপসর্গ ভাঙে না এবং Partizip-এ ge- বসে না। এখানে জোর পড়ে মূল অংশে: verSTEhen।"
+    },
+    {
+      "type": "text",
+      "title": "Wie war …?",
+      "text": "„Wie war dein Wochenende?“ / „Wie war die Reise?“ — অভিজ্ঞতা জিজ্ঞাসার প্রচলিত প্রশ্ন (war = „ছিল“)। উত্তরে: „Schön!“, „Super!“, „Nicht so gut.“ এরপর Perfekt-এ বিস্তারিত বলুন।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "der Schlüssel",
+      "options": [
+        "চাবি",
+        "বাজার করা",
+        "টিভি দেখা",
+        "সঙ্গে আনা"
+      ],
+      "answer": 0,
+      "why": "der Schlüssel = চাবি।",
+      "word": "schluessel"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "vergessen",
+      "options": [
+        "ভুলে যাওয়া",
+        "সঙ্গে আনা",
+        "বাড়িওয়ালি",
+        "ঘুম থেকে ওঠা"
+      ],
+      "answer": 0,
+      "why": "vergessen = ভুলে যাওয়া।",
+      "word": "vergessen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "mitbringen",
+      "options": [
+        "বাড়িওয়ালি",
+        "ঘুম থেকে ওঠা",
+        "সঙ্গে আনা",
+        "টিভি দেখা"
+      ],
+      "answer": 2,
+      "why": "mitbringen = সঙ্গে আনা।",
+      "word": "mitbringen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Vermieterin",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Vermieterin। বহুবচন: die Vermieterinnen।",
+      "word": "vermieterin"
+    },
+    {
+      "type": "mcq",
+      "prompt": "aufräumen-এর Partizip II কী?",
+      "options": [
+        "aufgeräumt",
+        "geaufräumt",
+        "aufräumt",
+        "aufgeräumen"
+      ],
+      "answer": 0,
+      "why": "ভাঙা ক্রিয়া: auf + ge + räumt।",
+      "word": "aufraeumen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "bekommen-এর Partizip II কী?",
+      "options": [
+        "bekommen",
+        "gebekommen",
+        "bekomgen",
+        "bekomm"
+      ],
+      "answer": 0,
+      "why": "be- দিয়ে শুরু, তাই ge- নেই।",
+      "word": "bekommen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ich habe meine Mutter ___.",
+      "options": [
+        "angerufen",
+        "gerufen",
+        "anrufen",
+        "angerufst"
+      ],
+      "answer": 0,
+      "why": "anrufen → angerufen।",
+      "word": "anrufen"
+    },
+    {
+      "type": "order",
+      "prompt": "শব্দ সাজিয়ে বাক্য বানান: „আমি ফ্ল্যাট গুছিয়েছি।“",
+      "tiles": [
+        "aufgeräumt.",
+        "Wohnung",
+        "die",
+        "habe",
+        "Ich"
+      ],
+      "answer": [
+        "Ich",
+        "habe",
+        "die",
+        "Wohnung",
+        "aufgeräumt."
+      ],
+      "why": "Ich habe die Wohnung aufgeräumt।",
+      "word": "aufraeumen"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

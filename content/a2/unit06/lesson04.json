@@ -1,0 +1,1326 @@
+{
+  "level": "A2",
+  "unit": 6,
+  "minutes": 16,
+  "lesson": 4,
+  "id": "a2-u06-l04",
+  "title": {
+    "de": "Was würdest du tun, wenn …?",
+    "bn": "ইচ্ছা ও কল্পনা: hätte, wäre, würde",
+    "en": "Wishes and dreams: hätte, wäre, würde"
+  },
+  "hook": {
+    "de": "Wenn das Wörtchen „wenn“ nicht wär, wär mein Vater Millionär.",
+    "who": "Redensart",
+    "bn": "„যদি“ শব্দটা না থাকত, আমার বাবা কোটিপতি হতেন — ইচ্ছার কথা।",
+    "en": "If “if” and “and” were pots and pans, there’d be no work for tinkers."
+  },
+  "goals": [
+    "কাল্পনিক শর্ত: Wenn ich … hätte, würde ich …",
+    "hätte, wäre, könnte, würde + Infinitiv",
+    "ইচ্ছা: Ich wäre gern …, Ich hätte gern …",
+    "পরামর্শ: Du solltest …"
+  ],
+  "words": [
+    {
+      "id": "wunsch",
+      "de": "Wunsch",
+      "art": "der",
+      "pl": "die Wünsche",
+      "pos": "বিশেষ্য",
+      "bn": "ইচ্ছা",
+      "en": "wish"
+    },
+    {
+      "id": "traum",
+      "de": "Traum",
+      "art": "der",
+      "pl": "die Träume",
+      "pos": "বিশেষ্য",
+      "bn": "স্বপ্ন",
+      "en": "dream"
+    },
+    {
+      "id": "wuenschen",
+      "de": "wünschen",
+      "pos": "ক্রিয়া · hat gewünscht",
+      "bn": "ইচ্ছা করা, কামনা করা",
+      "en": "to wish"
+    },
+    {
+      "id": "reich",
+      "de": "reich",
+      "pos": "বিশেষণ",
+      "bn": "ধনী",
+      "en": "rich"
+    },
+    {
+      "id": "gewinnen",
+      "de": "gewinnen",
+      "pos": "ক্রিয়া · hat gewonnen",
+      "bn": "জেতা",
+      "en": "to win"
+    },
+    {
+      "id": "million",
+      "de": "Million",
+      "art": "die",
+      "pl": "die Millionen",
+      "pos": "বিশেষ্য",
+      "bn": "মিলিয়ন",
+      "en": "million"
+    },
+    {
+      "id": "meer",
+      "de": "Meer",
+      "art": "das",
+      "pl": "die Meere",
+      "pos": "বিশেষ্য",
+      "bn": "সমুদ্র",
+      "en": "sea"
+    },
+    {
+      "id": "welt",
+      "de": "Welt",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "পৃথিবী, বিশ্ব",
+      "en": "world"
+    },
+    {
+      "id": "reisen",
+      "de": "reisen",
+      "pos": "ক্রিয়া · ist gereist",
+      "bn": "ভ্রমণ করা",
+      "en": "to travel"
+    },
+    {
+      "id": "weiterarbeiten",
+      "de": "weiterarbeiten",
+      "pos": "ক্রিয়া · hat weitergearbeitet",
+      "bn": "কাজ চালিয়ে যাওয়া",
+      "en": "to keep working"
+    },
+    {
+      "id": "unterwegs",
+      "de": "unterwegs",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "পথে, ভ্রমণে",
+      "en": "on the road"
+    },
+    {
+      "id": "toll",
+      "de": "toll",
+      "pos": "বিশেষণ",
+      "bn": "দারুণ",
+      "en": "great"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Muna",
+      "bn": [
+        "তোমার",
+        "কাছে",
+        "এক",
+        "মিলিয়ন",
+        "ইউরো",
+        "থাকলে",
+        "তুমি",
+        "কী",
+        "করতে?"
+      ],
+      "en": [
+        "What",
+        "would",
+        "you",
+        "do",
+        "if",
+        "you",
+        "had",
+        "a",
+        "million",
+        "euros?"
+      ],
+      "de": [
+        {
+          "t": "Was",
+          "b": [
+            7
+          ],
+          "e": [
+            0
+          ],
+          "l": "Was",
+          "gb": "কী",
+          "ge": "What",
+          "n": ""
+        },
+        {
+          "t": "würdest",
+          "b": [
+            8
+          ],
+          "e": [
+            1
+          ],
+          "l": "würden",
+          "gb": "করতে",
+          "ge": "would",
+          "n": "würde + Infinitiv = কাল্পনিক ক্রিয়া"
+        },
+        {
+          "t": "du",
+          "b": [
+            6
+          ],
+          "e": [
+            2
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "tun,",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "tun",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "do",
+          "n": ""
+        },
+        {
+          "t": "wenn",
+          "b": [
+            5
+          ],
+          "e": [
+            4
+          ],
+          "l": "wenn",
+          "gb": "থাকলে",
+          "ge": "if",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            0
+          ],
+          "e": [
+            5
+          ],
+          "l": "du",
+          "gb": "তোমার",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "eine Million Euro",
+          "b": [
+            2,
+            3,
+            4
+          ],
+          "e": [
+            7,
+            8,
+            9
+          ],
+          "l": "Million",
+          "gb": "এক মিলিয়ন ইউরো",
+          "ge": "a million euros",
+          "n": ""
+        },
+        {
+          "t": "hättest?",
+          "b": [],
+          "e": [
+            6
+          ],
+          "l": "haben",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "had",
+          "n": "haben → hätte (Konjunktiv II)"
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমার",
+        "কাছে",
+        "এক",
+        "মিলিয়ন",
+        "থাকলে",
+        "আমি",
+        "আমার",
+        "পরিবারকে",
+        "জার্মানিতে",
+        "নিমন্ত্রণ",
+        "করতাম।"
+      ],
+      "en": [
+        "If",
+        "I",
+        "had",
+        "a",
+        "million,",
+        "I",
+        "would",
+        "invite",
+        "my",
+        "family",
+        "to",
+        "Germany."
+      ],
+      "de": [
+        {
+          "t": "Wenn",
+          "b": [
+            4
+          ],
+          "e": [
+            0
+          ],
+          "l": "Wenn",
+          "gb": "থাকলে",
+          "ge": "If",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "ich",
+          "gb": "আমার",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "eine Million",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "eine Million",
+          "gb": "এক মিলিয়ন",
+          "ge": "a million",
+          "n": ""
+        },
+        {
+          "t": "hätte,",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "haben",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "had",
+          "n": ""
+        },
+        {
+          "t": "würde",
+          "b": [
+            10
+          ],
+          "e": [
+            6
+          ],
+          "l": "würde",
+          "gb": "করতাম",
+          "ge": "would",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            5
+          ],
+          "e": [
+            5
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "meine",
+          "b": [
+            6
+          ],
+          "e": [
+            8
+          ],
+          "l": "meine",
+          "gb": "আমার",
+          "ge": "my",
+          "n": ""
+        },
+        {
+          "t": "Familie",
+          "b": [
+            7
+          ],
+          "e": [
+            9
+          ],
+          "l": "Familie",
+          "gb": "পরিবারকে",
+          "ge": "family",
+          "n": ""
+        },
+        {
+          "t": "nach Deutschland",
+          "b": [
+            8
+          ],
+          "e": [
+            10,
+            11
+          ],
+          "l": "nach Deutschland",
+          "gb": "জার্মানিতে",
+          "ge": "to Germany",
+          "n": ""
+        },
+        {
+          "t": "einladen.",
+          "b": [
+            9
+          ],
+          "e": [
+            7
+          ],
+          "l": "einladen",
+          "gb": "নিমন্ত্রণ",
+          "ge": "invite",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "সুন্দর!",
+        "আর",
+        "তুমি",
+        "কি",
+        "কাজ",
+        "চালিয়ে",
+        "যেতে?"
+      ],
+      "en": [
+        "Lovely!",
+        "And",
+        "would",
+        "you",
+        "keep",
+        "working?"
+      ],
+      "de": [
+        {
+          "t": "Schön!",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Schön",
+          "gb": "সুন্দর",
+          "ge": "Lovely",
+          "n": ""
+        },
+        {
+          "t": "Und",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "würdest",
+          "b": [
+            6
+          ],
+          "e": [
+            2
+          ],
+          "l": "würden",
+          "gb": "যেতে",
+          "ge": "would",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "weiterarbeiten?",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "weiterarbeiten",
+          "gb": "কাজ চালিয়ে",
+          "ge": "keep working",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "হ্যাঁ,",
+        "আমি",
+        "কাজ",
+        "চালিয়ে",
+        "যেতাম,",
+        "কারণ",
+        "কাজ",
+        "আমার",
+        "ভালো",
+        "লাগে।"
+      ],
+      "en": [
+        "Yes,",
+        "I",
+        "would",
+        "keep",
+        "working",
+        "because",
+        "I",
+        "enjoy",
+        "work."
+      ],
+      "de": [
+        {
+          "t": "Ja,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ja",
+          "gb": "হ্যাঁ",
+          "ge": "Yes",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "würde",
+          "b": [
+            4
+          ],
+          "e": [
+            2
+          ],
+          "l": "würden",
+          "gb": "যেতাম",
+          "ge": "would",
+          "n": ""
+        },
+        {
+          "t": "weiterarbeiten,",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "weiterarbeiten",
+          "gb": "কাজ চালিয়ে",
+          "ge": "keep working",
+          "n": ""
+        },
+        {
+          "t": "weil",
+          "b": [
+            5
+          ],
+          "e": [
+            5
+          ],
+          "l": "weil",
+          "gb": "কারণ",
+          "ge": "because",
+          "n": ""
+        },
+        {
+          "t": "mir",
+          "b": [
+            7
+          ],
+          "e": [
+            6
+          ],
+          "l": "mir",
+          "gb": "আমার",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "Arbeit",
+          "b": [
+            6
+          ],
+          "e": [
+            8
+          ],
+          "l": "Arbeit",
+          "gb": "কাজ",
+          "ge": "work",
+          "n": ""
+        },
+        {
+          "t": "Spaß",
+          "b": [
+            8
+          ],
+          "e": [
+            7
+          ],
+          "l": "Spaß",
+          "gb": "ভালো",
+          "ge": "enjoy",
+          "n": ""
+        },
+        {
+          "t": "macht.",
+          "b": [
+            9
+          ],
+          "e": [],
+          "l": "macht",
+          "gb": "লাগে",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "আমি",
+        "পৃথিবী",
+        "ঘুরতাম।",
+        "আমি",
+        "এক",
+        "বছর",
+        "পথে",
+        "থাকতে",
+        "চাইতাম।"
+      ],
+      "en": [
+        "I",
+        "would",
+        "travel",
+        "around",
+        "the",
+        "world.",
+        "I",
+        "would",
+        "like",
+        "to",
+        "be",
+        "on",
+        "the",
+        "road",
+        "for",
+        "a",
+        "year."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "würde",
+          "b": [
+            2
+          ],
+          "e": [
+            1
+          ],
+          "l": "würden",
+          "gb": "ঘুরতাম",
+          "ge": "would",
+          "n": ""
+        },
+        {
+          "t": "um die Welt",
+          "b": [
+            1
+          ],
+          "e": [
+            3,
+            4,
+            5
+          ],
+          "l": "Welt",
+          "gb": "পৃথিবী",
+          "ge": "around the world",
+          "n": ""
+        },
+        {
+          "t": "reisen.",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "reisen",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "travel",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            3
+          ],
+          "e": [
+            6
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "wäre",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            7,
+            8,
+            9,
+            10
+          ],
+          "l": "sein",
+          "gb": "থাকতে চাইতাম",
+          "ge": "would like to be",
+          "n": "sein → wäre (Konjunktiv II)"
+        },
+        {
+          "t": "gern",
+          "b": [],
+          "e": [],
+          "l": "gern",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "ein Jahr",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            14,
+            15,
+            16
+          ],
+          "l": "ein Jahr",
+          "gb": "এক বছর",
+          "ge": "for a year",
+          "n": ""
+        },
+        {
+          "t": "unterwegs.",
+          "b": [
+            6
+          ],
+          "e": [
+            11,
+            12,
+            13
+          ],
+          "l": "unterwegs",
+          "gb": "পথে",
+          "ge": "on the road",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "দারুণ",
+        "হতো!",
+        "আমিও",
+        "সমুদ্রের",
+        "ধারে",
+        "থাকতে",
+        "চাইতাম।"
+      ],
+      "en": [
+        "That",
+        "would",
+        "be",
+        "great!",
+        "I",
+        "would",
+        "also",
+        "like",
+        "to",
+        "be",
+        "by",
+        "the",
+        "sea."
+      ],
+      "de": [
+        {
+          "t": "Das",
+          "b": [],
+          "e": [
+            0
+          ],
+          "l": "Das",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "That",
+          "n": ""
+        },
+        {
+          "t": "wäre",
+          "b": [
+            1
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "sein",
+          "gb": "হতো",
+          "ge": "would be",
+          "n": ""
+        },
+        {
+          "t": "toll!",
+          "b": [
+            0
+          ],
+          "e": [
+            3
+          ],
+          "l": "toll",
+          "gb": "দারুণ",
+          "ge": "great",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "Ich",
+          "gb": "আমিও",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "wäre",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            5,
+            7
+          ],
+          "l": "wäre",
+          "gb": "থাকতে চাইতাম",
+          "ge": "would like",
+          "n": ""
+        },
+        {
+          "t": "auch",
+          "b": [],
+          "e": [
+            6
+          ],
+          "l": "auch",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "also",
+          "n": ""
+        },
+        {
+          "t": "gern",
+          "b": [],
+          "e": [],
+          "l": "gern",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "am Meer.",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "l": "Meer",
+          "gb": "সমুদ্রের ধারে",
+          "ge": "to be by the sea",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "দুঃখের",
+        "বিষয়,",
+        "আমাদের",
+        "কোনো",
+        "মিলিয়ন",
+        "নেই,",
+        "কিন্তু",
+        "আমাদের",
+        "স্বপ্ন",
+        "আছে।"
+      ],
+      "en": [
+        "Unfortunately",
+        "we",
+        "do",
+        "not",
+        "have",
+        "a",
+        "million,",
+        "but",
+        "we",
+        "have",
+        "dreams."
+      ],
+      "de": [
+        {
+          "t": "Leider",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0
+          ],
+          "l": "leider",
+          "gb": "দুঃখের বিষয়",
+          "ge": "Unfortunately",
+          "n": ""
+        },
+        {
+          "t": "haben",
+          "b": [
+            5
+          ],
+          "e": [
+            4
+          ],
+          "l": "haben",
+          "gb": "নেই",
+          "ge": "have",
+          "n": ""
+        },
+        {
+          "t": "wir",
+          "b": [
+            2
+          ],
+          "e": [
+            1
+          ],
+          "l": "wir",
+          "gb": "আমাদের",
+          "ge": "we",
+          "n": ""
+        },
+        {
+          "t": "keine Million,",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "keine Million",
+          "gb": "কোনো মিলিয়ন",
+          "ge": "a million",
+          "n": ""
+        },
+        {
+          "t": "aber",
+          "b": [
+            6
+          ],
+          "e": [
+            7
+          ],
+          "l": "aber",
+          "gb": "কিন্তু",
+          "ge": "but",
+          "n": ""
+        },
+        {
+          "t": "wir",
+          "b": [
+            7
+          ],
+          "e": [
+            8
+          ],
+          "l": "wir",
+          "gb": "আমাদের",
+          "ge": "we",
+          "n": ""
+        },
+        {
+          "t": "haben",
+          "b": [
+            9
+          ],
+          "e": [
+            9
+          ],
+          "l": "haben",
+          "gb": "আছে",
+          "ge": "have",
+          "n": ""
+        },
+        {
+          "t": "Träume.",
+          "b": [
+            8
+          ],
+          "e": [
+            10
+          ],
+          "l": "Traum",
+          "gb": "স্বপ্ন",
+          "ge": "dreams",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "Konjunktiv II: wichtigste Formen",
+      "head": [
+        "Infinitiv",
+        "Konjunktiv II",
+        "বাংলা"
+      ],
+      "rows": [
+        [
+          "haben",
+          "ich hätte · du hättest · er hätte · wir hätten",
+          "থাকত"
+        ],
+        [
+          "sein",
+          "ich wäre · du wärst · er wäre · wir wären",
+          "হতো"
+        ],
+        [
+          "können",
+          "ich könnte · du könntest",
+          "পারতাম"
+        ],
+        [
+          "werden",
+          "ich würde · du würdest · er würde · wir würden",
+          "করতাম (+ Infinitiv)"
+        ],
+        [
+          "sollen",
+          "du solltest",
+          "তোমার উচিত"
+        ],
+        [
+          "müssen",
+          "ich müsste",
+          "আমাকে করতে হতো"
+        ]
+      ],
+      "note": "বাকি সব ক্রিয়ায় „würde + Infinitiv“: ich würde reisen, du würdest arbeiten। hätte/wäre/könnte সরাসরি ব্যবহার হয়।"
+    },
+    {
+      "type": "order",
+      "title": "কাল্পনিক শর্ত",
+      "text": "বাস্তবে নেই, কল্পনায় আছে — Konjunktiv II। wenn-Satz-এ ক্রিয়া শেষে, মূল বাক্যে würde + Infinitiv।",
+      "de": [
+        {
+          "t": "Wenn ich eine Million"
+        },
+        {
+          "t": "hätte,",
+          "v": true
+        },
+        {
+          "t": "würde",
+          "v": true
+        },
+        {
+          "t": "ich reisen."
+        }
+      ],
+      "bn": [
+        {
+          "t": "আমার এক মিলিয়ন"
+        },
+        {
+          "t": "থাকলে,",
+          "v": true
+        },
+        {
+          "t": "আমি ঘুরতাম।"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Alltagssätze",
+      "head": [
+        "কাজ",
+        "বাক্য"
+      ],
+      "rows": [
+        [
+          "ইচ্ছা",
+          "Ich hätte gern einen Tee. / Ich wäre gern reich."
+        ],
+        [
+          "ভদ্র অনুরোধ",
+          "Könnten Sie mir helfen? / Würden Sie das bitte wiederholen?"
+        ],
+        [
+          "পরামর্শ",
+          "Du solltest mehr schlafen. / An deiner Stelle würde ich zum Arzt gehen."
+        ],
+        [
+          "কল্পনা",
+          "Das wäre toll! / Wenn ich Zeit hätte, würde ich kommen."
+        ]
+      ],
+      "note": "wirklich/real: „Wenn es regnet, bleibe ich“ (বাস্তব সম্ভাবনা, Präsens)। irreal: „Wenn ich reich wäre, …“ (কল্পনা, Konjunktiv II)।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "der Traum",
+      "options": [
+        "স্বপ্ন",
+        "পথে",
+        "ইচ্ছা",
+        "ধনী"
+      ],
+      "answer": 0,
+      "why": "der Traum = স্বপ্ন।",
+      "word": "traum"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "der Wunsch",
+      "options": [
+        "ইচ্ছা করা",
+        "মিলিয়ন",
+        "ভ্রমণ করা",
+        "ইচ্ছা"
+      ],
+      "answer": 3,
+      "why": "der Wunsch = ইচ্ছা।",
+      "word": "wunsch"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "unterwegs",
+      "options": [
+        "সমুদ্র",
+        "কাজ চালিয়ে যাওয়া",
+        "পথে",
+        "স্বপ্ন"
+      ],
+      "answer": 2,
+      "why": "unterwegs = পথে।",
+      "word": "unterwegs"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Welt",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Welt।",
+      "word": "welt"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Wenn ich Zeit ___, würde ich kommen.",
+      "options": [
+        "hätte",
+        "habe",
+        "hatte",
+        "haben"
+      ],
+      "answer": 0,
+      "why": "কল্পনা: ich hätte।",
+      "word": "million"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ich ___ gern reich.",
+      "options": [
+        "wäre",
+        "bin",
+        "war",
+        "sei"
+      ],
+      "answer": 0,
+      "why": "কল্পনা: ich wäre।",
+      "word": "toll"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ich ___ gern um die Welt reisen.",
+      "options": [
+        "würde",
+        "werde",
+        "wurde",
+        "wirst"
+      ],
+      "answer": 0,
+      "why": "würde + Infinitiv।",
+      "word": "reisen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Das wäre toll!“ মানে কী?",
+      "options": [
+        "সেটা দারুণ হতো!",
+        "সেটা দারুণ ছিল!",
+        "সেটা দারুণ হবে!",
+        "সেটা দারুণ নয়!"
+      ],
+      "answer": 0,
+      "why": "Konjunktiv II = কাল্পনিক।",
+      "word": "toll"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক বাক্য কোনটি?",
+      "options": [
+        "Wenn ich reich wäre, würde ich reisen.",
+        "Wenn ich reich bin, ich würde reisen.",
+        "Wenn ich wäre reich, würde ich reisen.",
+        "Wenn wäre ich reich, ich reisen würde."
+      ],
+      "answer": 0,
+      "why": "wenn-Satz আগে → মূল বাক্যে ক্রিয়া প্রথমে।",
+      "word": "reich"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „আমি সমুদ্রের ধারে থাকতে চাইতাম।“",
+      "tiles": [
+        "gern",
+        "am Meer.",
+        "wäre",
+        "Ich"
+      ],
+      "answer": [
+        "Ich",
+        "wäre",
+        "gern",
+        "am Meer."
+      ],
+      "why": "wäre gern + Ort।",
+      "word": "meer"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

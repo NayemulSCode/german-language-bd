@@ -1,0 +1,386 @@
+{
+  "id": "a1-mock-02",
+  "level": "A1",
+  "title": {
+    "de": "Modelltest A1 (2) — Start Deutsch 1",
+    "bn": "A1 মক পরীক্ষা ২",
+    "en": "A1 mock exam 2"
+  },
+  "passMark": 0.6,
+  "parts": [
+    {
+      "kind": "hoeren",
+      "title": "Hören — শোনা",
+      "instructions": "প্রতিটি অংশ শুনুন এবং সঠিক উত্তর বেছে নিন। আসল পরীক্ষায় প্রতিটি অংশ ২ বার চালানো হয়; এখানে যতবার খুশি শুনতে পারবেন, কিন্তু চেষ্টা করুন সর্বোচ্চ ২ বার।",
+      "minutes": 20,
+      "questions": [
+        {
+          "type": "listen",
+          "prompt": "Bis wohin fährt der Bus heute?",
+          "say": "Achtung, eine Durchsage: Der Bus Linie vierzehn fährt heute nicht bis zum Bahnhof, sondern nur bis zum Marktplatz.",
+          "options": [
+            "Bis zur Schule",
+            "Bis zum Bahnhof",
+            "Bis zum Marktplatz"
+          ],
+          "answer": 2,
+          "why": "„nur bis zum Marktplatz“।"
+        },
+        {
+          "type": "listen",
+          "prompt": "Was kostet das zusammen?",
+          "say": "Guten Tag. Ich hätte gern ein Kilo Tomaten und zwei Gurken, bitte. — Das macht vier Euro zwanzig.",
+          "options": [
+            "4,20 €",
+            "14,20 €",
+            "4,02 €"
+          ],
+          "answer": 0,
+          "why": "vier Euro zwanzig = 4,20 €।"
+        },
+        {
+          "type": "listen",
+          "prompt": "Warum kommt Paul nicht?",
+          "say": "Hallo, hier ist Paul. Ich kann heute nicht zum Fußball kommen. Mein Bein tut weh. Bis nächste Woche!",
+          "options": [
+            "Sein Bein tut weh.",
+            "Er hat keine Zeit.",
+            "Es regnet."
+          ],
+          "answer": 0,
+          "why": "„Mein Bein tut weh“।"
+        },
+        {
+          "type": "listen",
+          "prompt": "Wann regnet es?",
+          "say": "Das Wetter heute: Am Morgen ist es kalt, nur drei Grad. Am Mittag wird es wärmer, es hat zehn Grad. Am Abend regnet es.",
+          "options": [
+            "Am Abend",
+            "Am Morgen",
+            "Am Mittag"
+          ],
+          "answer": 0,
+          "why": "Am Abend regnet es।"
+        },
+        {
+          "type": "listen",
+          "prompt": "Wo ist das Hotel?",
+          "say": "Entschuldigung, wo ist das Hotel Sonne? — Gehen Sie hier die erste Straße rechts. Das Hotel ist dann links, neben dem Supermarkt.",
+          "options": [
+            "Neben der Bank, rechts",
+            "Vor dem Bahnhof",
+            "Neben dem Supermarkt, links"
+          ],
+          "answer": 2,
+          "why": "erste Straße rechts, dann links neben dem Supermarkt।"
+        },
+        {
+          "type": "listen",
+          "prompt": "Was soll man mitbringen?",
+          "say": "Der Deutschkurs beginnt am Dienstag um acht Uhr dreißig. Bitte bringen Sie ein Heft und einen Stift mit.",
+          "options": [
+            "Ein Buch",
+            "Ein Heft und einen Stift",
+            "Ein Wörterbuch"
+          ],
+          "answer": 1,
+          "why": "„ein Heft und einen Stift“।"
+        },
+        {
+          "type": "listen",
+          "prompt": "Wie viele Kinder hat Maria?",
+          "say": "Ich heiße Maria. Ich bin vierzig Jahre alt und komme aus Spanien. Ich habe zwei Kinder: einen Sohn und eine Tochter.",
+          "options": [
+            "Vier",
+            "Eins",
+            "Zwei"
+          ],
+          "answer": 2,
+          "why": "einen Sohn und eine Tochter = zwei।"
+        },
+        {
+          "type": "listen",
+          "prompt": "Wann ist der Termin?",
+          "say": "Guten Tag, hier ist die Praxis von Frau Doktor Schneider. Ihr Termin ist am Donnerstag um fünfzehn Uhr.",
+          "options": [
+            "Donnerstag, 5 Uhr",
+            "Dienstag, 15 Uhr",
+            "Donnerstag, 15 Uhr"
+          ],
+          "answer": 2,
+          "why": "Donnerstag um fünfzehn Uhr।"
+        },
+        {
+          "type": "listen",
+          "prompt": "Wie kommt die Person zur Arbeit?",
+          "say": "Mein Tag: Ich stehe um halb sieben auf. Ich trinke Tee und esse Brot. Um Viertel nach sieben gehe ich zu Fuß zur Arbeit.",
+          "options": [
+            "Mit dem Bus",
+            "Mit dem Fahrrad",
+            "Zu Fuß"
+          ],
+          "answer": 2,
+          "why": "„gehe ich zu Fuß“।"
+        },
+        {
+          "type": "listen",
+          "prompt": "Was bestellt der Gast?",
+          "say": "Im Café: Was möchten Sie trinken? — Einen Orangensaft, bitte. — Und etwas zu essen? — Ja, ein Stück Kuchen.",
+          "options": [
+            "Wasser und Salat",
+            "Orangensaft und Kuchen",
+            "Kaffee und Brot"
+          ],
+          "answer": 1,
+          "why": "Orangensaft + Kuchen।"
+        }
+      ]
+    },
+    {
+      "kind": "lesen",
+      "title": "Lesen — পড়া",
+      "instructions": "প্রতিটি ছোট লেখা পড়ে সঠিক উত্তর বেছে নিন। Richtig = ঠিক, Falsch = ভুল।",
+      "minutes": 25,
+      "questions": [
+        {
+          "type": "mcq",
+          "prompt": "Wann ist der Supermarkt am Samstag geöffnet?",
+          "passage": "Supermarkt Frisch\nÖffnungszeiten:\nMo–Sa: 8.00–20.00 Uhr\nSonntag: geschlossen",
+          "options": [
+            "Von 8 bis 13 Uhr",
+            "Gar nicht",
+            "Von 8 bis 20 Uhr"
+          ],
+          "answer": 2,
+          "why": "Mo–Sa 8–20 Uhr।"
+        },
+        {
+          "type": "mcq",
+          "prompt": "Was soll Lisa mitbringen?",
+          "passage": "Hallo Lisa,\nam Sonntag mache ich ein Picknick im Park. Kommst du auch? Ich bringe Brot und Käse mit. Du kannst Obst mitbringen.\nLiebe Grüße\nAnna",
+          "options": [
+            "Brot",
+            "Käse",
+            "Obst"
+          ],
+          "answer": 2,
+          "why": "„Du kannst Obst mitbringen“।"
+        },
+        {
+          "type": "mcq",
+          "prompt": "Wann kann man anrufen?",
+          "passage": "Zu verkaufen:\nFahrrad, blau, sehr gut. 80 Euro.\nTelefon: 0172 345 678 (ab 18 Uhr)",
+          "options": [
+            "Nie",
+            "Am Morgen",
+            "Ab 18 Uhr"
+          ],
+          "answer": 2,
+          "why": "„ab 18 Uhr“।"
+        },
+        {
+          "type": "mcq",
+          "prompt": "Das Fahrrad kostet 80 Euro.",
+          "passage": "Zu verkaufen:\nFahrrad, blau, sehr gut. 80 Euro.\nTelefon: 0172 345 678 (ab 18 Uhr)",
+          "options": [
+            "Richtig",
+            "Falsch"
+          ],
+          "answer": 0,
+          "why": "80 Euro।"
+        },
+        {
+          "type": "mcq",
+          "prompt": "Wann ist der Kurs?",
+          "passage": "Deutschkurs A1\nMontag und Mittwoch, 18.00–20.30 Uhr\nRaum 5\nKosten: 60 Euro im Monat",
+          "options": [
+            "Montag und Mittwoch am Abend",
+            "Dienstag und Donnerstag am Morgen",
+            "Jeden Tag"
+          ],
+          "answer": 0,
+          "why": "Mo und Mi, 18–20.30।"
+        },
+        {
+          "type": "mcq",
+          "prompt": "Der Kurs ist am Freitag.",
+          "passage": "Deutschkurs A1\nMontag und Mittwoch, 18.00–20.30 Uhr\nRaum 5\nKosten: 60 Euro im Monat",
+          "options": [
+            "Richtig",
+            "Falsch"
+          ],
+          "answer": 1,
+          "why": "Freitag nicht genannt।"
+        },
+        {
+          "type": "mcq",
+          "prompt": "Wie ist das Wetter in München?",
+          "passage": "Lieber Ahmed,\nich bin jetzt in München. Die Stadt ist schön, aber das Wetter ist schlecht: Es regnet jeden Tag. Morgen fahre ich nach Salzburg. Dort ist es hoffentlich besser.\nBis bald!\nEmre",
+          "options": [
+            "Die Sonne scheint.",
+            "Es ist heiß.",
+            "Es regnet."
+          ],
+          "answer": 2,
+          "why": "„Es regnet jeden Tag“।"
+        },
+        {
+          "type": "mcq",
+          "prompt": "Emre fährt morgen nach Salzburg.",
+          "passage": "Lieber Ahmed,\nich bin jetzt in München. Die Stadt ist schön, aber das Wetter ist schlecht: Es regnet jeden Tag. Morgen fahre ich nach Salzburg. Dort ist es hoffentlich besser.\nBis bald!\nEmre",
+          "options": [
+            "Richtig",
+            "Falsch"
+          ],
+          "answer": 0,
+          "why": "„Morgen fahre ich nach Salzburg“।"
+        },
+        {
+          "type": "mcq",
+          "prompt": "Was steht in der Anzeige?",
+          "passage": "Wohnung zu vermieten\n1 Zimmer, Küche, Bad, 30 m²\nMiete: 450 Euro\nHaustiere: nein",
+          "options": [
+            "Die Miete ist 540 Euro.",
+            "Man darf einen Hund haben.",
+            "Die Wohnung hat ein Zimmer."
+          ],
+          "answer": 2,
+          "why": "1 Zimmer; Haustiere nein; 450 €।"
+        },
+        {
+          "type": "mcq",
+          "prompt": "Wie lange darf man ein Buch behalten?",
+          "passage": "Bibliothek\nBücher: 3 Wochen\nFilme: 1 Woche\nRückgabe: bitte pünktlich!",
+          "options": [
+            "Drei Wochen",
+            "Einen Monat",
+            "Eine Woche"
+          ],
+          "answer": 0,
+          "why": "Bücher: 3 Wochen।"
+        }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "title": "Schreiben, Teil 1 — Formular",
+      "taskBn": "আপনি একটি লাইব্রেরি কার্ডের জন্য আবেদন করছেন। ফর্মটি নিজের তথ্য দিয়ে পূরণ করুন (কাগজে লিখুন)।",
+      "taskDe": "Name · Vorname · Geburtsort · Nationalität · Adresse · E-Mail · Beruf",
+      "minWords": 0,
+      "model": "Name: Rahman\nVorname: Saheb\nGeburtsort: Dhaka\nNationalität: bangladeschisch\nAdresse: Lindenstraße 12, 50667 Köln\nE-Mail: saheb@example.com\nBeruf: Verkäufer",
+      "checklist": [
+        "Name = পদবি, Vorname = প্রথম নাম",
+        "Geburtsort = শহর",
+        "ঠিকানা: রাস্তা + নম্বর, তারপর পোস্টকোড + শহর",
+        "E-Mail ঠিকভাবে লিখেছি",
+        "Beruf একটি শব্দে লিখেছি"
+      ]
+    },
+    {
+      "title": "Schreiben, Teil 2 — Kurze Nachricht",
+      "taskBn": "আপনার প্রতিবেশী Frau Berger-কে লিখুন: আপনি শনিবার বাসায় নেই; তিনি কি আপনার প্যাকেট নিতে পারবেন? ২–৩ বাক্যে লিখুন।",
+      "taskDe": "Schreiben Sie an Frau Berger: Sie sind am Samstag nicht zu Hause. Bitten Sie sie, ein Paket anzunehmen. Schreiben Sie 2–3 Sätze.",
+      "minWords": 20,
+      "model": "Liebe Frau Berger,\nich bin am Samstag nicht zu Hause. Können Sie bitte ein Paket für mich annehmen? Vielen Dank!\nViele Grüße\nSaheb Rahman",
+      "checklist": [
+        "শুরুতে „Liebe Frau Berger,“",
+        "কারণ লিখেছি (nicht zu Hause)",
+        "ভদ্র অনুরোধ (Können Sie bitte …?)",
+        "ধন্যবাদ (Vielen Dank)",
+        "শেষে Gruß + নিজের নাম",
+        "ক্রিয়া ২য় স্থানে"
+      ]
+    }
+  ],
+  "speaking": [
+    {
+      "title": "Sprechen, Teil 1 — Sich vorstellen",
+      "instructions": "প্রতিটি শব্দ দেখে একটি পূর্ণ বাক্য জোরে বলুন। তারপর নমুনা শুনে মিলিয়ে নিন।",
+      "prompts": [
+        {
+          "de": "Name?",
+          "bn": "আপনার নাম কী?",
+          "model": "Ich heiße Saheb Rahman."
+        },
+        {
+          "de": "Alter?",
+          "bn": "আপনার বয়স কত?",
+          "model": "Ich bin sechsundzwanzig Jahre alt."
+        },
+        {
+          "de": "Land?",
+          "bn": "আপনি কোন দেশ থেকে এসেছেন?",
+          "model": "Ich komme aus Bangladesch."
+        },
+        {
+          "de": "Wohnort?",
+          "bn": "আপনি কোথায় থাকেন?",
+          "model": "Ich wohne in Köln."
+        },
+        {
+          "de": "Beruf?",
+          "bn": "আপনার পেশা কী?",
+          "model": "Ich bin Verkäufer."
+        },
+        {
+          "de": "Familie?",
+          "bn": "আপনার পরিবারে কে কে আছে?",
+          "model": "Ich habe zwei Brüder und eine Schwester."
+        }
+      ]
+    },
+    {
+      "title": "Sprechen, Teil 2 — Fragen stellen und antworten",
+      "instructions": "কার্ডের শব্দ দিয়ে একটি প্রশ্ন বানান। অন্য কেউ (বা আপনি নিজে) উত্তর দিন।",
+      "prompts": [
+        {
+          "de": "Bus — ?",
+          "bn": "বাস: কখন আসে?",
+          "model": "Wann kommt der Bus? — Um zehn Uhr."
+        },
+        {
+          "de": "Mittagessen — ?",
+          "bn": "দুপুরের খাবার: কী খাও?",
+          "model": "Was isst du zum Mittagessen? — Reis und Fisch."
+        },
+        {
+          "de": "Wochenende — ?",
+          "bn": "সপ্তাহান্ত: কী করো?",
+          "model": "Was machst du am Wochenende? — Ich besuche Freunde."
+        },
+        {
+          "de": "Brot — ?",
+          "bn": "রুটি: কত দাম?",
+          "model": "Was kostet das Brot? — Zwei Euro."
+        }
+      ]
+    },
+    {
+      "title": "Sprechen, Teil 3 — Bitten und Reagieren",
+      "instructions": "ভদ্রভাবে অনুরোধ করুন; অনুরোধ শুনলে সাড়া দিন (Ja, gern! / Tut mir leid …)।",
+      "prompts": [
+        {
+          "de": "Tür auf",
+          "bn": "দরজা খুলতে বলুন",
+          "model": "Können Sie bitte die Tür öffnen?"
+        },
+        {
+          "de": "Salz geben",
+          "bn": "লবণ দিতে বলুন",
+          "model": "Kann ich bitte das Salz haben?"
+        },
+        {
+          "de": "Langsamer sprechen",
+          "bn": "আস্তে বলতে বলুন",
+          "model": "Können Sie bitte langsamer sprechen?"
+        },
+        {
+          "de": "Zahlen",
+          "bn": "বিল চান",
+          "model": "Die Rechnung, bitte."
+        }
+      ]
+    }
+  ]
+}

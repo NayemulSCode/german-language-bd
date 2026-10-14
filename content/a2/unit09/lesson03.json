@@ -1,0 +1,1084 @@
+{
+  "level": "A2",
+  "unit": 9,
+  "minutes": 16,
+  "lesson": 3,
+  "id": "a2-u09-l03",
+  "title": {
+    "de": "Wie war die Wanderung?",
+    "bn": "ভ্রমণের গল্প: Perfekt ও Präteritum",
+    "en": "Telling about a hike: perfect and preterite"
+  },
+  "hook": {
+    "de": "Der Weg ist das Ziel.",
+    "who": "Konfuzius zugeschrieben",
+    "bn": "পথটাই গন্তব্য।",
+    "en": "The journey is the destination."
+  },
+  "goals": [
+    "কথায় Perfekt, লেখায় Präteritum",
+    "মূল Präteritum-রূপ: ging, fuhr, kam, sah, aß, blieb",
+    "ভ্রমণ-বিবরণ লেখার ছক",
+    "শব্দ: Wanderung, Gipfel, Aussicht, Picknick"
+  ],
+  "words": [
+    {
+      "id": "wanderung",
+      "de": "Wanderung",
+      "art": "die",
+      "pl": "die Wanderungen",
+      "pos": "বিশেষ্য",
+      "bn": "হাইকিং, পায়ে হেঁটে ভ্রমণ",
+      "en": "hike"
+    },
+    {
+      "id": "wandern",
+      "de": "wandern",
+      "pos": "ক্রিয়া · ist gewandert",
+      "bn": "হাইকিং করা",
+      "en": "to hike"
+    },
+    {
+      "id": "gipfel",
+      "de": "Gipfel",
+      "art": "der",
+      "pl": "die Gipfel",
+      "pos": "বিশেষ্য",
+      "bn": "চূড়া",
+      "en": "summit"
+    },
+    {
+      "id": "aussicht",
+      "de": "Aussicht",
+      "art": "die",
+      "pl": "die Aussichten",
+      "pos": "বিশেষ্য",
+      "bn": "দৃশ্য (উঁচু থেকে)",
+      "en": "view"
+    },
+    {
+      "id": "picknick",
+      "de": "Picknick",
+      "art": "das",
+      "pl": "die Picknicks",
+      "pos": "বিশেষ্য",
+      "bn": "পিকনিক",
+      "en": "picnic"
+    },
+    {
+      "id": "anstrengend",
+      "de": "anstrengend",
+      "pos": "বিশেষণ",
+      "bn": "কষ্টকর, ক্লান্তিকর",
+      "en": "strenuous"
+    },
+    {
+      "id": "wunderschoen",
+      "de": "wunderschön",
+      "pos": "বিশেষণ",
+      "bn": "অপূর্ব সুন্দর",
+      "en": "beautiful"
+    },
+    {
+      "id": "fantastisch",
+      "de": "fantastisch",
+      "pos": "বিশেষণ",
+      "bn": "চমৎকার",
+      "en": "fantastic"
+    },
+    {
+      "id": "weg",
+      "de": "Weg",
+      "art": "der",
+      "pl": "die Wege",
+      "pos": "বিশেষ্য",
+      "bn": "পথ",
+      "en": "path, way"
+    },
+    {
+      "id": "einschlafen",
+      "de": "einschlafen",
+      "pos": "ক্রিয়া · ist eingeschlafen",
+      "bn": "ঘুমিয়ে পড়া",
+      "en": "to fall asleep"
+    },
+    {
+      "id": "sofort",
+      "de": "sofort",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "সাথে সাথে",
+      "en": "immediately"
+    },
+    {
+      "id": "pause",
+      "de": "Pause",
+      "art": "die",
+      "pl": "die Pausen",
+      "pos": "বিশেষ্য",
+      "bn": "বিরতি",
+      "en": "break"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Saheb",
+      "bn": [
+        "শনিবারের",
+        "তোমাদের",
+        "হাইকিং",
+        "কেমন",
+        "ছিল?"
+      ],
+      "en": [
+        "How",
+        "was",
+        "your",
+        "hike",
+        "on",
+        "Saturday?"
+      ],
+      "de": [
+        {
+          "t": "Wie",
+          "b": [
+            3
+          ],
+          "e": [
+            0
+          ],
+          "l": "Wie",
+          "gb": "কেমন",
+          "ge": "How",
+          "n": ""
+        },
+        {
+          "t": "war",
+          "b": [
+            4
+          ],
+          "e": [
+            1
+          ],
+          "l": "sein",
+          "gb": "ছিল",
+          "ge": "was",
+          "n": ""
+        },
+        {
+          "t": "eure",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "eure",
+          "gb": "তোমাদের",
+          "ge": "your",
+          "n": ""
+        },
+        {
+          "t": "Wanderung",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "Wanderung",
+          "gb": "হাইকিং",
+          "ge": "hike",
+          "n": ""
+        },
+        {
+          "t": "am Samstag?",
+          "b": [
+            0
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "am Samstag",
+          "gb": "শনিবারের",
+          "ge": "on Saturday",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "কষ্টকর,",
+        "কিন্তু",
+        "অপূর্ব",
+        "সুন্দর!",
+        "আমরা",
+        "সকাল",
+        "আটটায়",
+        "ট্রেনে",
+        "পাহাড়ে",
+        "গিয়েছি।"
+      ],
+      "en": [
+        "Strenuous,",
+        "but",
+        "beautiful!",
+        "We",
+        "went",
+        "to",
+        "the",
+        "mountain",
+        "by",
+        "train",
+        "at",
+        "eight",
+        "in",
+        "the",
+        "morning."
+      ],
+      "de": [
+        {
+          "t": "Anstrengend,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "anstrengend",
+          "gb": "কষ্টকর",
+          "ge": "Strenuous",
+          "n": ""
+        },
+        {
+          "t": "aber",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "aber",
+          "gb": "কিন্তু",
+          "ge": "but",
+          "n": ""
+        },
+        {
+          "t": "wunderschön!",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "wunderschön",
+          "gb": "অপূর্ব সুন্দর",
+          "ge": "beautiful",
+          "n": ""
+        },
+        {
+          "t": "Wir",
+          "b": [
+            4
+          ],
+          "e": [
+            3
+          ],
+          "l": "Wir",
+          "gb": "আমরা",
+          "ge": "We",
+          "n": ""
+        },
+        {
+          "t": "sind",
+          "b": [
+            9
+          ],
+          "e": [
+            4
+          ],
+          "l": "sind",
+          "gb": "গিয়েছি",
+          "ge": "went",
+          "n": ""
+        },
+        {
+          "t": "um acht Uhr",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            10,
+            11,
+            12,
+            6,
+            14
+          ],
+          "l": "um acht Uhr",
+          "gb": "সকাল আটটায়",
+          "ge": "at eight in the morning",
+          "n": ""
+        },
+        {
+          "t": "mit dem Zug",
+          "b": [
+            7
+          ],
+          "e": [
+            8,
+            9
+          ],
+          "l": "mit dem Zug",
+          "gb": "ট্রেনে",
+          "ge": "by train",
+          "n": ""
+        },
+        {
+          "t": "zum Berg",
+          "b": [
+            8
+          ],
+          "e": [
+            5,
+            13,
+            7
+          ],
+          "l": "zum Berg",
+          "gb": "পাহাড়ে",
+          "ge": "to the mountain",
+          "n": ""
+        },
+        {
+          "t": "gefahren.",
+          "b": [],
+          "e": [],
+          "l": "fahren",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "তোমরা",
+        "কতক্ষণ",
+        "হেঁটেছ?"
+      ],
+      "en": [
+        "How",
+        "long",
+        "did",
+        "you",
+        "hike?"
+      ],
+      "de": [
+        {
+          "t": "Wie lange",
+          "b": [
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Wie lange",
+          "gb": "কতক্ষণ",
+          "ge": "How long",
+          "n": ""
+        },
+        {
+          "t": "seid",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "seid",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "did",
+          "n": ""
+        },
+        {
+          "t": "ihr",
+          "b": [
+            0
+          ],
+          "e": [
+            3
+          ],
+          "l": "ihr",
+          "gb": "তোমরা",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "gewandert?",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "wandern",
+          "gb": "হেঁটেছ",
+          "ge": "hike",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "চার",
+        "ঘণ্টা।",
+        "চূড়ায়",
+        "আমরা",
+        "একটি",
+        "পিকনিক",
+        "করেছি।"
+      ],
+      "en": [
+        "Four",
+        "hours.",
+        "At",
+        "the",
+        "summit",
+        "we",
+        "had",
+        "a",
+        "picnic."
+      ],
+      "de": [
+        {
+          "t": "Vier Stunden.",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Vier Stunden",
+          "gb": "চার ঘণ্টা",
+          "ge": "Four hours",
+          "n": ""
+        },
+        {
+          "t": "Auf dem Gipfel",
+          "b": [
+            2
+          ],
+          "e": [
+            2,
+            3,
+            4
+          ],
+          "l": "Gipfel",
+          "gb": "চূড়ায়",
+          "ge": "At the summit",
+          "n": ""
+        },
+        {
+          "t": "haben",
+          "b": [],
+          "e": [
+            6
+          ],
+          "l": "haben",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "had",
+          "n": ""
+        },
+        {
+          "t": "wir",
+          "b": [
+            3
+          ],
+          "e": [
+            5
+          ],
+          "l": "wir",
+          "gb": "আমরা",
+          "ge": "we",
+          "n": ""
+        },
+        {
+          "t": "ein Picknick",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "Picknick",
+          "gb": "একটি পিকনিক",
+          "ge": "a picnic",
+          "n": ""
+        },
+        {
+          "t": "gemacht.",
+          "b": [
+            6
+          ],
+          "e": [],
+          "l": "gemacht",
+          "gb": "করেছি",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আর",
+        "দৃশ্যটা?"
+      ],
+      "en": [
+        "And",
+        "the",
+        "view?"
+      ],
+      "de": [
+        {
+          "t": "Und",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "die Aussicht?",
+          "b": [
+            1
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "Aussicht",
+          "gb": "দৃশ্যটা",
+          "ge": "the view",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "চমৎকার!",
+        "আমরা",
+        "পুরো",
+        "হ্রদ",
+        "আর",
+        "বন",
+        "দেখেছি।"
+      ],
+      "en": [
+        "Fantastic!",
+        "We",
+        "saw",
+        "the",
+        "whole",
+        "lake",
+        "and",
+        "the",
+        "forests."
+      ],
+      "de": [
+        {
+          "t": "Fantastisch!",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "fantastisch",
+          "gb": "চমৎকার",
+          "ge": "Fantastic",
+          "n": ""
+        },
+        {
+          "t": "Wir",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "Wir",
+          "gb": "আমরা",
+          "ge": "We",
+          "n": ""
+        },
+        {
+          "t": "haben",
+          "b": [],
+          "e": [],
+          "l": "haben",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "den ganzen See",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            3,
+            4,
+            5
+          ],
+          "l": "den ganzen See",
+          "gb": "পুরো হ্রদ",
+          "ge": "the whole lake",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            4
+          ],
+          "e": [
+            6
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "die Wälder",
+          "b": [
+            5
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "die Wälder",
+          "gb": "বন",
+          "ge": "the forests",
+          "n": ""
+        },
+        {
+          "t": "gesehen.",
+          "b": [
+            6
+          ],
+          "e": [
+            2
+          ],
+          "l": "sehen",
+          "gb": "দেখেছি",
+          "ge": "saw",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "তোমরা",
+        "কি",
+        "ক্লান্ত",
+        "ছিলে?"
+      ],
+      "en": [
+        "Were",
+        "you",
+        "tired?"
+      ],
+      "de": [
+        {
+          "t": "Wart",
+          "b": [
+            3
+          ],
+          "e": [
+            0
+          ],
+          "l": "sein",
+          "gb": "ছিলে",
+          "ge": "Were",
+          "n": ""
+        },
+        {
+          "t": "ihr",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "ihr",
+          "gb": "তোমরা",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "müde?",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "müde",
+          "gb": "ক্লান্ত",
+          "ge": "tired",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "হ্যাঁ,",
+        "সন্ধ্যায়",
+        "আমরা",
+        "সাথে",
+        "সাথে",
+        "ঘুমিয়ে",
+        "পড়েছি।"
+      ],
+      "en": [
+        "Yes,",
+        "in",
+        "the",
+        "evening",
+        "we",
+        "fell",
+        "asleep",
+        "immediately."
+      ],
+      "de": [
+        {
+          "t": "Ja,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ja",
+          "gb": "হ্যাঁ",
+          "ge": "Yes",
+          "n": ""
+        },
+        {
+          "t": "abends",
+          "b": [
+            1
+          ],
+          "e": [
+            1,
+            2,
+            3
+          ],
+          "l": "abends",
+          "gb": "সন্ধ্যায়",
+          "ge": "in the evening",
+          "n": ""
+        },
+        {
+          "t": "sind",
+          "b": [
+            6
+          ],
+          "e": [
+            5
+          ],
+          "l": "sein",
+          "gb": "পড়েছি",
+          "ge": "fell",
+          "n": ""
+        },
+        {
+          "t": "wir",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "wir",
+          "gb": "আমরা",
+          "ge": "we",
+          "n": ""
+        },
+        {
+          "t": "sofort",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            7
+          ],
+          "l": "sofort",
+          "gb": "সাথে সাথে",
+          "ge": "immediately",
+          "n": ""
+        },
+        {
+          "t": "eingeschlafen.",
+          "b": [
+            5
+          ],
+          "e": [
+            6
+          ],
+          "l": "einschlafen",
+          "gb": "ঘুমিয়ে",
+          "ge": "asleep",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "কথায় Perfekt, লেখায় Präteritum",
+      "head": [
+        "Infinitiv",
+        "Perfekt (কথায়)",
+        "Präteritum (লেখায়)"
+      ],
+      "rows": [
+        [
+          "gehen",
+          "ist gegangen",
+          "ging"
+        ],
+        [
+          "fahren",
+          "ist gefahren",
+          "fuhr"
+        ],
+        [
+          "kommen",
+          "ist gekommen",
+          "kam"
+        ],
+        [
+          "sehen",
+          "hat gesehen",
+          "sah"
+        ],
+        [
+          "essen",
+          "hat gegessen",
+          "aß"
+        ],
+        [
+          "bleiben",
+          "ist geblieben",
+          "blieb"
+        ],
+        [
+          "machen",
+          "hat gemacht",
+          "machte"
+        ],
+        [
+          "wandern",
+          "ist gewandert",
+          "wanderte"
+        ]
+      ],
+      "note": "নিয়মিত: Stamm + -te (machte, wanderte)। অনিয়মিত: স্বর বদলায় (ging, fuhr, sah)। এই A2 স্তরে Präteritum পড়ে চিনতে পারলেই চলে; B1-এ আরও ব্যবহার করবেন।"
+    },
+    {
+      "type": "text",
+      "title": "ছোট Reisebericht (Präteritum)",
+      "text": "Am Samstag fuhren wir mit dem Zug zum Berg. Der Weg war steil, aber die Aussicht war fantastisch. Auf dem Gipfel machten wir ein Picknick und sahen den ganzen See. Abends kamen wir müde nach Hause und schliefen sofort ein. — একই ঘটনা কথায় বলতে: „Wir sind mit dem Zug zum Berg gefahren …“"
+    },
+    {
+      "type": "table",
+      "title": "ভ্রমণ-বিবরণ লেখার ছক",
+      "head": [
+        "অংশ",
+        "জার্মান"
+      ],
+      "rows": [
+        [
+          "কখন/কোথায়",
+          "Am Samstag fuhren wir …"
+        ],
+        [
+          "কী দেখলেন",
+          "Dort sahen wir …"
+        ],
+        [
+          "অনুভূতি",
+          "Es war anstrengend, aber wunderschön."
+        ],
+        [
+          "শেষ",
+          "Abends kamen wir nach Hause."
+        ]
+      ],
+      "note": "sein ও haben এবং মডালভার্ব ছাড়া সাধারণ কথায় Perfekt; war / hatte সবসময় Präteritum।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "der Gipfel",
+      "options": [
+        "পথ",
+        "সাথে সাথে",
+        "চূড়া",
+        "হাইকিং"
+      ],
+      "answer": 2,
+      "why": "der Gipfel = চূড়া।",
+      "word": "gipfel"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "anstrengend",
+      "options": [
+        "সাথে সাথে",
+        "হাইকিং করা",
+        "কষ্টকর",
+        "পিকনিক"
+      ],
+      "answer": 2,
+      "why": "anstrengend = কষ্টকর।",
+      "word": "anstrengend"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "einschlafen",
+      "options": [
+        "কষ্টকর",
+        "ঘুমিয়ে পড়া",
+        "পথ",
+        "হাইকিং"
+      ],
+      "answer": 1,
+      "why": "einschlafen = ঘুমিয়ে পড়া।",
+      "word": "einschlafen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Aussicht",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Aussicht। বহুবচন: die Aussichten।",
+      "word": "aussicht"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„fuhr“ কোন ক্রিয়ার Präteritum?",
+      "options": [
+        "fahren",
+        "fragen",
+        "finden",
+        "fühlen"
+      ],
+      "answer": 0,
+      "why": "fahren → fuhr।",
+      "word": "wandern"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„ging“ কোন ক্রিয়ার Präteritum?",
+      "options": [
+        "gehen",
+        "geben",
+        "gewinnen",
+        "gefallen"
+      ],
+      "answer": 0,
+      "why": "gehen → ging।",
+      "word": "weg"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক Perfekt কোনটি?",
+      "options": [
+        "Wir sind gewandert.",
+        "Wir haben gewandert.",
+        "Wir sind wandern.",
+        "Wir wandern gewesen."
+      ],
+      "answer": 0,
+      "why": "wandern → sein।",
+      "word": "wandern"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Wir machten ein Picknick“ কোন কাল?",
+      "options": [
+        "Präteritum",
+        "Perfekt",
+        "Futur",
+        "Präsens"
+      ],
+      "answer": 0,
+      "why": "machte = Präteritum।",
+      "word": "picknick"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„wunderschön“ মানে কী?",
+      "options": [
+        "অপূর্ব সুন্দর",
+        "খুব কঠিন",
+        "অনেক ছোট",
+        "বিপজ্জনক"
+      ],
+      "answer": 0,
+      "why": "wunderschön।",
+      "word": "wunderschoen"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „আমরা সাথে সাথে ঘুমিয়ে পড়েছি।“",
+      "tiles": [
+        "eingeschlafen.",
+        "sofort",
+        "sind",
+        "Wir"
+      ],
+      "answer": [
+        "Wir",
+        "sind",
+        "sofort",
+        "eingeschlafen."
+      ],
+      "why": "einschlafen → sein।",
+      "word": "einschlafen"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

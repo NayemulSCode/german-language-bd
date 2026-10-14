@@ -1,0 +1,1388 @@
+{
+  "level": "B1",
+  "unit": 7,
+  "minutes": 18,
+  "lesson": 1,
+  "id": "b1-u07-l01",
+  "title": {
+    "de": "Mein Arbeitsalltag",
+    "bn": "কাজের দৈনন্দিন জীবন ও শিফট",
+    "en": "My working day and shift work"
+  },
+  "hook": {
+    "de": "Erst die Arbeit, dann das Vergnügen.",
+    "who": "Sprichwort",
+    "bn": "আগে কাজ, তারপর আনন্দ।",
+    "en": "Work first, play later."
+  },
+  "goals": [
+    "Schicht, Gleitzeit, Pause, Feierabend",
+    "während + Genitiv / seitdem / bevor",
+    "Relativsatz mit Genitiv: dessen, deren",
+    "Belastung und Ausgleich beschreiben"
+  ],
+  "words": [
+    {
+      "id": "schicht",
+      "de": "Schicht",
+      "art": "die",
+      "pl": "die Schichten",
+      "pos": "বিশেষ্য",
+      "bn": "শিফট",
+      "en": "shift"
+    },
+    {
+      "id": "fruehschicht",
+      "de": "Frühschicht",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "সকালের শিফট",
+      "en": "early shift"
+    },
+    {
+      "id": "spaetschicht",
+      "de": "Spätschicht",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "বিকেল-সন্ধ্যার শিফট",
+      "en": "late shift"
+    },
+    {
+      "id": "gleitzeit",
+      "de": "Gleitzeit",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "নমনীয় কাজের সময়",
+      "en": "flexitime"
+    },
+    {
+      "id": "belastung",
+      "de": "Belastung",
+      "art": "die",
+      "pl": "die Belastungen",
+      "pos": "বিশেষ্য",
+      "bn": "চাপ, বোঝা",
+      "en": "strain, load"
+    },
+    {
+      "id": "ausgleich",
+      "de": "Ausgleich",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "ভারসাম্য, বিনিময়",
+      "en": "balance, compensation"
+    },
+    {
+      "id": "erholung",
+      "de": "Erholung",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "বিশ্রাম, সুস্থ হওয়া",
+      "en": "recovery, rest"
+    },
+    {
+      "id": "anstrengend",
+      "de": "anstrengend",
+      "pos": "বিশেষণ",
+      "bn": "কষ্টকর",
+      "en": "exhausting"
+    },
+    {
+      "id": "rhythmus",
+      "de": "Rhythmus",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "ছন্দ, নিয়ম",
+      "en": "rhythm"
+    },
+    {
+      "id": "kollegin",
+      "de": "Kollegin",
+      "art": "die",
+      "pl": "die Kolleginnen",
+      "pos": "বিশেষ্য",
+      "bn": "সহকর্মী (নারী)",
+      "en": "colleague (f)"
+    },
+    {
+      "id": "sich_gewoehnen",
+      "de": "sich gewöhnen",
+      "pos": "ক্রিয়া · hat sich gewöhnt (an + Akk.)",
+      "bn": "অভ্যস্ত হওয়া",
+      "en": "to get used to"
+    },
+    {
+      "id": "feierabend",
+      "de": "Feierabend",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "কাজ শেষে ছুটি",
+      "en": "end of the working day"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Lena",
+      "bn": [
+        "তোমার",
+        "কাজের",
+        "দিন",
+        "কেমন",
+        "কাটে,",
+        "সাহেব?"
+      ],
+      "en": [
+        "What",
+        "does",
+        "your",
+        "working",
+        "day",
+        "look",
+        "like,",
+        "Saheb?"
+      ],
+      "de": [
+        {
+          "t": "Wie sieht",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            0
+          ],
+          "l": "Wie sieht",
+          "gb": "কেমন কাটে",
+          "ge": "What",
+          "n": ""
+        },
+        {
+          "t": "dein Arbeitsalltag",
+          "b": [
+            0,
+            1,
+            2
+          ],
+          "e": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "l": "dein Arbeitsalltag",
+          "gb": "তোমার কাজের দিন",
+          "ge": "does your working day",
+          "n": ""
+        },
+        {
+          "t": "aus,",
+          "b": [],
+          "e": [
+            5
+          ],
+          "l": "aus",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "look",
+          "n": ""
+        },
+        {
+          "t": "Saheb?",
+          "b": [
+            5
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "Saheb",
+          "gb": "সাহেব",
+          "ge": "like Saheb",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "শিফটে",
+        "কাজ",
+        "করি:",
+        "এক",
+        "সপ্তাহ",
+        "সকালে,",
+        "এক",
+        "সপ্তাহ",
+        "বিকেলে।",
+        "সকালের",
+        "শিফট",
+        "ভোর",
+        "পাঁচটায়",
+        "শুরু",
+        "হয়।"
+      ],
+      "en": [
+        "I",
+        "work",
+        "in",
+        "shifts:",
+        "one",
+        "week",
+        "early,",
+        "one",
+        "week",
+        "late.",
+        "The",
+        "early",
+        "shift",
+        "starts",
+        "at",
+        "five",
+        "in",
+        "the",
+        "morning."
+      ],
+      "de": [
+        {
+          "t": "Ich arbeite",
+          "b": [
+            0,
+            2,
+            3
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Ich arbeite",
+          "gb": "আমি কাজ করি",
+          "ge": "I work",
+          "n": ""
+        },
+        {
+          "t": "in Schichten:",
+          "b": [
+            1
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "Schicht",
+          "gb": "শিফটে",
+          "ge": "in shifts",
+          "n": ""
+        },
+        {
+          "t": "eine Woche",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "eine Woche",
+          "gb": "এক সপ্তাহ",
+          "ge": "one week",
+          "n": ""
+        },
+        {
+          "t": "Frühschicht,",
+          "b": [
+            6
+          ],
+          "e": [
+            6
+          ],
+          "l": "Frühschicht",
+          "gb": "সকালে",
+          "ge": "early",
+          "n": ""
+        },
+        {
+          "t": "eine Woche",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "eine Woche",
+          "gb": "এক সপ্তাহ",
+          "ge": "one week",
+          "n": ""
+        },
+        {
+          "t": "Spätschicht.",
+          "b": [
+            9
+          ],
+          "e": [
+            9
+          ],
+          "l": "Spätschicht",
+          "gb": "বিকেলে",
+          "ge": "late",
+          "n": ""
+        },
+        {
+          "t": "Die Frühschicht",
+          "b": [
+            10,
+            11
+          ],
+          "e": [
+            10,
+            11,
+            12
+          ],
+          "l": "Die Frühschicht",
+          "gb": "সকালের শিফট",
+          "ge": "The early shift",
+          "n": ""
+        },
+        {
+          "t": "beginnt",
+          "b": [
+            14,
+            15
+          ],
+          "e": [
+            13
+          ],
+          "l": "beginnt",
+          "gb": "শুরু হয়",
+          "ge": "starts",
+          "n": ""
+        },
+        {
+          "t": "um fünf Uhr.",
+          "b": [
+            12,
+            13
+          ],
+          "e": [
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "l": "um fünf Uhr",
+          "gb": "ভোর পাঁচটায়",
+          "ge": "at five in the morning",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "ওটা",
+        "তো",
+        "কষ্টকর!",
+        "তুমি",
+        "কি",
+        "অভ্যস্ত",
+        "হয়ে",
+        "গেছ?"
+      ],
+      "en": [
+        "That",
+        "must",
+        "be",
+        "exhausting!",
+        "Have",
+        "you",
+        "got",
+        "used",
+        "to",
+        "it?"
+      ],
+      "de": [
+        {
+          "t": "Das ist",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Das ist",
+          "gb": "ওটা",
+          "ge": "That",
+          "n": ""
+        },
+        {
+          "t": "ja",
+          "b": [
+            1
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "ja",
+          "gb": "তো",
+          "ge": "must be",
+          "n": ""
+        },
+        {
+          "t": "anstrengend!",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "anstrengend",
+          "gb": "কষ্টকর",
+          "ge": "exhausting",
+          "n": ""
+        },
+        {
+          "t": "Hast du dich",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "Hast du dich",
+          "gb": "তুমি কি",
+          "ge": "Have you",
+          "n": ""
+        },
+        {
+          "t": "schon daran",
+          "b": [
+            5
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "schon daran",
+          "gb": "অভ্যস্ত",
+          "ge": "got used",
+          "n": ""
+        },
+        {
+          "t": "gewöhnt?",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            8,
+            9
+          ],
+          "l": "sich gewöhnen",
+          "gb": "হয়ে গেছ",
+          "ge": "to it",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আস্তে",
+        "আস্তে।",
+        "প্রথম",
+        "মাসে",
+        "আমার",
+        "ঘুমের",
+        "ছন্দ",
+        "ঠিক",
+        "ছিল",
+        "না।",
+        "এখন",
+        "সকালের",
+        "শিফটের",
+        "আগের",
+        "সন্ধ্যায়",
+        "আমি",
+        "আগে",
+        "ঘুমাতে",
+        "যাই।"
+      ],
+      "en": [
+        "Gradually.",
+        "In",
+        "the",
+        "first",
+        "month",
+        "my",
+        "sleep",
+        "rhythm",
+        "was",
+        "not",
+        "right.",
+        "Now,",
+        "on",
+        "the",
+        "evening",
+        "before",
+        "an",
+        "early",
+        "shift,",
+        "I",
+        "go",
+        "to",
+        "bed",
+        "earlier."
+      ],
+      "de": [
+        {
+          "t": "Langsam.",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0
+          ],
+          "l": "Langsam",
+          "gb": "আস্তে আস্তে",
+          "ge": "Gradually",
+          "n": ""
+        },
+        {
+          "t": "Im ersten Monat",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "l": "Im ersten Monat",
+          "gb": "প্রথম মাসে",
+          "ge": "In the first month",
+          "n": ""
+        },
+        {
+          "t": "war",
+          "b": [
+            8,
+            9
+          ],
+          "e": [
+            8
+          ],
+          "l": "war",
+          "gb": "ছিল না",
+          "ge": "was",
+          "n": ""
+        },
+        {
+          "t": "mein Schlafrhythmus",
+          "b": [
+            4,
+            5,
+            6
+          ],
+          "e": [
+            5,
+            6,
+            7
+          ],
+          "l": "Rhythmus",
+          "gb": "আমার ঘুমের ছন্দ",
+          "ge": "my sleep rhythm",
+          "n": ""
+        },
+        {
+          "t": "nicht gut.",
+          "b": [
+            7
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "nicht gut",
+          "gb": "ঠিক",
+          "ge": "not right",
+          "n": ""
+        },
+        {
+          "t": "Jetzt",
+          "b": [
+            10
+          ],
+          "e": [
+            11
+          ],
+          "l": "Jetzt",
+          "gb": "এখন",
+          "ge": "Now",
+          "n": ""
+        },
+        {
+          "t": "gehe ich",
+          "b": [
+            15,
+            18
+          ],
+          "e": [
+            19,
+            20
+          ],
+          "l": "gehe ich",
+          "gb": "আমি যাই",
+          "ge": "I go",
+          "n": ""
+        },
+        {
+          "t": "am Abend vor der Frühschicht",
+          "b": [
+            11,
+            12,
+            13,
+            14
+          ],
+          "e": [
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "l": "am Abend vor der Frühschicht",
+          "gb": "সকালের শিফটের আগের সন্ধ্যায়",
+          "ge": "on the evening before an early shift",
+          "n": ""
+        },
+        {
+          "t": "früher",
+          "b": [
+            16
+          ],
+          "e": [
+            23
+          ],
+          "l": "früher",
+          "gb": "আগে",
+          "ge": "earlier",
+          "n": ""
+        },
+        {
+          "t": "schlafen.",
+          "b": [
+            17
+          ],
+          "e": [
+            21,
+            22
+          ],
+          "l": "schlafen",
+          "gb": "ঘুমাতে",
+          "ge": "to bed",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "আর",
+        "অবসরে",
+        "তুমি",
+        "কী",
+        "করে",
+        "বিশ্রাম",
+        "নাও?"
+      ],
+      "en": [
+        "And",
+        "how",
+        "do",
+        "you",
+        "relax",
+        "in",
+        "your",
+        "free",
+        "time?"
+      ],
+      "de": [
+        {
+          "t": "Und",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "wie",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            1
+          ],
+          "l": "wie",
+          "gb": "কী করে",
+          "ge": "how",
+          "n": ""
+        },
+        {
+          "t": "erholst du dich",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            2,
+            3,
+            4
+          ],
+          "l": "erholst du dich",
+          "gb": "বিশ্রাম নাও",
+          "ge": "do you relax",
+          "n": ""
+        },
+        {
+          "t": "in deiner Freizeit?",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "l": "Erholung",
+          "gb": "অবসরে তুমি",
+          "ge": "in your free time",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "ফুটবল",
+        "খেলি",
+        "বা",
+        "পার্কে",
+        "হাঁটি।",
+        "শিফট",
+        "শেষে",
+        "আমি",
+        "নিজের",
+        "জন্য",
+        "সময়",
+        "রাখি।",
+        "সেটা",
+        "আমার",
+        "ভারসাম্য।"
+      ],
+      "en": [
+        "I",
+        "play",
+        "football",
+        "or",
+        "walk",
+        "in",
+        "the",
+        "park.",
+        "After",
+        "my",
+        "shift",
+        "I",
+        "make",
+        "time",
+        "for",
+        "myself.",
+        "That",
+        "is",
+        "my",
+        "balance."
+      ],
+      "de": [
+        {
+          "t": "Ich spiele",
+          "b": [
+            7,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Ich spiele",
+          "gb": "আমি খেলি",
+          "ge": "I play",
+          "n": ""
+        },
+        {
+          "t": "Fußball",
+          "b": [
+            0
+          ],
+          "e": [
+            2
+          ],
+          "l": "Fußball",
+          "gb": "ফুটবল",
+          "ge": "football",
+          "n": ""
+        },
+        {
+          "t": "oder",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "oder",
+          "gb": "বা",
+          "ge": "or",
+          "n": ""
+        },
+        {
+          "t": "gehe im Park",
+          "b": [
+            3
+          ],
+          "e": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "l": "gehe im Park",
+          "gb": "পার্কে",
+          "ge": "walk in the park",
+          "n": ""
+        },
+        {
+          "t": "spazieren.",
+          "b": [
+            4
+          ],
+          "e": [],
+          "l": "spazieren",
+          "gb": "হাঁটি",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Nach Feierabend",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            8,
+            9,
+            10
+          ],
+          "l": "Nach Feierabend",
+          "gb": "শিফট শেষে",
+          "ge": "After my shift",
+          "n": ""
+        },
+        {
+          "t": "nehme ich mir",
+          "b": [
+            7,
+            11
+          ],
+          "e": [
+            11,
+            12
+          ],
+          "l": "nehme ich mir",
+          "gb": "আমি রাখি",
+          "ge": "I make",
+          "n": ""
+        },
+        {
+          "t": "Zeit für mich.",
+          "b": [
+            8,
+            9,
+            10
+          ],
+          "e": [
+            13,
+            14,
+            15
+          ],
+          "l": "Zeit für mich",
+          "gb": "নিজের জন্য সময়",
+          "ge": "time for myself",
+          "n": ""
+        },
+        {
+          "t": "Das ist",
+          "b": [
+            12
+          ],
+          "e": [
+            16,
+            17
+          ],
+          "l": "Das ist",
+          "gb": "সেটা",
+          "ge": "That is",
+          "n": ""
+        },
+        {
+          "t": "mein Ausgleich.",
+          "b": [
+            13,
+            14
+          ],
+          "e": [
+            18,
+            19
+          ],
+          "l": "Ausgleich",
+          "gb": "আমার ভারসাম্য",
+          "ge": "my balance",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "আমার",
+        "সহকর্মী,",
+        "যার",
+        "স্বামীও",
+        "শিফটে",
+        "কাজ",
+        "করেন,",
+        "বলে:",
+        "পরিবারের",
+        "জন্য",
+        "সময়",
+        "পাওয়া",
+        "সবচেয়ে",
+        "কঠিন।"
+      ],
+      "en": [
+        "My",
+        "colleague,",
+        "whose",
+        "husband",
+        "also",
+        "works",
+        "in",
+        "shifts,",
+        "says:",
+        "finding",
+        "time",
+        "for",
+        "the",
+        "family",
+        "is",
+        "the",
+        "hardest",
+        "part."
+      ],
+      "de": [
+        {
+          "t": "Meine Kollegin,",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Kollegin",
+          "gb": "আমার সহকর্মী",
+          "ge": "My colleague",
+          "n": ""
+        },
+        {
+          "t": "deren Mann",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "der",
+          "gb": "যার স্বামীও",
+          "ge": "whose husband",
+          "n": "Relativpronomen im Genitiv: deren (f/Pl.), dessen (m/n)"
+        },
+        {
+          "t": "auch",
+          "b": [],
+          "e": [
+            4
+          ],
+          "l": "auch",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "also",
+          "n": ""
+        },
+        {
+          "t": "in Schichten arbeitet,",
+          "b": [
+            4,
+            5,
+            6
+          ],
+          "e": [
+            5,
+            6,
+            7
+          ],
+          "l": "in Schichten arbeitet",
+          "gb": "শিফটে কাজ করেন",
+          "ge": "works in shifts",
+          "n": ""
+        },
+        {
+          "t": "sagt:",
+          "b": [
+            7
+          ],
+          "e": [
+            8
+          ],
+          "l": "sagt",
+          "gb": "বলে",
+          "ge": "says",
+          "n": ""
+        },
+        {
+          "t": "Zeit",
+          "b": [
+            10
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "Zeit",
+          "gb": "সময়",
+          "ge": "finding time",
+          "n": ""
+        },
+        {
+          "t": "für die Familie",
+          "b": [
+            8,
+            9
+          ],
+          "e": [
+            11,
+            12,
+            13
+          ],
+          "l": "für die Familie",
+          "gb": "পরিবারের জন্য",
+          "ge": "for the family",
+          "n": ""
+        },
+        {
+          "t": "zu finden",
+          "b": [
+            11
+          ],
+          "e": [],
+          "l": "zu finden",
+          "gb": "পাওয়া",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            14
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "am schwersten.",
+          "b": [
+            12,
+            13
+          ],
+          "e": [
+            15,
+            16,
+            17
+          ],
+          "l": "am schwersten",
+          "gb": "সবচেয়ে কঠিন",
+          "ge": "the hardest part",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "Arbeitszeitmodelle",
+      "head": [
+        "Modell",
+        "Bedeutung"
+      ],
+      "rows": [
+        [
+          "Vollzeit / Teilzeit",
+          "পূর্ণ / খণ্ডকালীন"
+        ],
+        [
+          "Schichtarbeit",
+          "শিফটে কাজ (Früh-, Spät-, Nachtschicht)"
+        ],
+        [
+          "Gleitzeit",
+          "কাজ শুরু/শেষের সময় নমনীয় (Kernzeit আবশ্যিক)"
+        ],
+        [
+          "Homeoffice",
+          "বাসা থেকে কাজ"
+        ],
+        [
+          "Überstunden",
+          "অতিরিক্ত ঘণ্টা"
+        ],
+        [
+          "Minijob",
+          "কম আয়ের চাকরি (সীমা নির্দিষ্ট)"
+        ]
+      ],
+      "note": "সাপ্তাহিক কাজের সময় ও বিরতির নিয়ম আইন ও চুক্তি দ্বারা নির্ধারিত; Arbeitszeitgesetz-এ সাধারণ সীমা আছে। নির্দিষ্ট সীমা সর্বদা অফিশিয়াল সূত্রে দেখুন।"
+    },
+    {
+      "type": "table",
+      "title": "Relativpronomen im Genitiv",
+      "head": [
+        "Nomen-Geschlecht",
+        "Pronomen",
+        "Beispiel"
+      ],
+      "rows": [
+        [
+          "m / n",
+          "dessen",
+          "Mein Kollege, dessen Frau in Schichten arbeitet, sagt …"
+        ],
+        [
+          "f / Plural",
+          "deren",
+          "Meine Kollegin, deren Mann Pfleger ist, sagt …"
+        ],
+        [
+          "Plural",
+          "deren",
+          "Die Kollegen, deren Kinder klein sind, brauchen flexible Zeiten."
+        ]
+      ],
+      "note": "Genitiv-Relativpronomen = যার/যাদের। এর পর আর্টিকেল বসে না: dessen Frau, deren Mann।"
+    },
+    {
+      "type": "table",
+      "title": "Zeitliche Präpositionen mit Genitiv",
+      "head": [
+        "Präposition",
+        "Beispiel"
+      ],
+      "rows": [
+        [
+          "während + Gen.",
+          "Während der Schicht darf man nicht telefonieren."
+        ],
+        [
+          "wegen + Gen.",
+          "Wegen der Spätschicht komme ich erst um 23 Uhr nach Hause."
+        ],
+        [
+          "innerhalb + Gen.",
+          "Innerhalb einer Woche wechselt die Schicht."
+        ],
+        [
+          "außerhalb + Gen.",
+          "Außerhalb der Arbeitszeit ist man nicht erreichbar."
+        ]
+      ],
+      "note": "Gen.-Präpositionen লিখিত ভাষায় প্রচলিত; কথায় প্রায়ই Dativ (wegen dem …)।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "die Schicht",
+      "options": [
+        "বিশ্রাম",
+        "ছন্দ",
+        "অভ্যস্ত হওয়া",
+        "শিফট"
+      ],
+      "answer": 3,
+      "why": "die Schicht = শিফট।",
+      "word": "schicht"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "die Gleitzeit",
+      "options": [
+        "শিফট",
+        "চাপ",
+        "নমনীয় কাজের সময়",
+        "কষ্টকর"
+      ],
+      "answer": 2,
+      "why": "die Gleitzeit = নমনীয় কাজের সময়।",
+      "word": "gleitzeit"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "die Erholung",
+      "options": [
+        "নমনীয় কাজের সময়",
+        "কষ্টকর",
+        "অভ্যস্ত হওয়া",
+        "বিশ্রাম"
+      ],
+      "answer": 3,
+      "why": "die Erholung = বিশ্রাম।",
+      "word": "erholung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Belastung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Belastung। বহুবচন: die Belastungen।",
+      "word": "belastung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Meine Kollegin, ___ Mann auch Schicht arbeitet, ist müde.",
+      "options": [
+        "deren",
+        "dessen",
+        "die",
+        "der"
+      ],
+      "answer": 0,
+      "why": "Kollegin (f) → deren Mann।",
+      "word": "kollegin"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Mein Kollege, ___ Frau Ärztin ist, arbeitet viel.",
+      "options": [
+        "dessen",
+        "deren",
+        "den",
+        "dem"
+      ],
+      "answer": 0,
+      "why": "Kollege (m) → dessen Frau।",
+      "word": "schicht"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„während der Schicht“ — কোন কেস?",
+      "options": [
+        "Genitiv",
+        "Dativ",
+        "Akkusativ",
+        "Nominativ"
+      ],
+      "answer": 0,
+      "why": "während + Genitiv।",
+      "word": "fruehschicht"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Gleitzeit“ কী?",
+      "options": [
+        "নমনীয় কাজের সময়",
+        "রাতের শিফট",
+        "অতিরিক্ত বেতন",
+        "ছুটি"
+      ],
+      "answer": 0,
+      "why": "gleiten = glide।",
+      "word": "gleitzeit"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„sich gewöhnen an“ কোন কেস নেয়?",
+      "options": [
+        "Akkusativ",
+        "Dativ",
+        "Genitiv",
+        "Nominativ"
+      ],
+      "answer": 0,
+      "why": "sich gewöhnen an + Akk.",
+      "word": "sich_gewoehnen"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „আমি এক সপ্তাহ সকালের শিফটে কাজ করি।“",
+      "tiles": [
+        "Frühschicht.",
+        "eine Woche",
+        "Ich arbeite",
+        "in der"
+      ],
+      "answer": [
+        "Ich arbeite",
+        "eine Woche",
+        "in der",
+        "Frühschicht."
+      ],
+      "why": "Zeit vor Ort।",
+      "word": "fruehschicht"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

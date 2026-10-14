@@ -1,0 +1,1308 @@
+{
+  "level": "A2",
+  "unit": 8,
+  "minutes": 16,
+  "lesson": 2,
+  "id": "a2-u08-l02",
+  "title": {
+    "de": "Es ist wichtig, jeden Tag zu lernen",
+    "bn": "Infinitiv mit zu: শেখার কৌশল",
+    "en": "Infinitive with zu: learning strategies"
+  },
+  "hook": {
+    "de": "Aller Anfang ist schwer.",
+    "who": "Sprichwort",
+    "bn": "সব শুরুই কঠিন।",
+    "en": "All beginnings are hard."
+  },
+  "goals": [
+    "zu + Infinitiv: Ich versuche, jeden Tag zu lernen",
+    "Es ist wichtig / schwer / leicht, … zu …",
+    "trennbar: aufzustehen, anzufangen",
+    "শেখার টিপস: Vokabeln, Aussprache, Fehler"
+  ],
+  "words": [
+    {
+      "id": "vokabel",
+      "de": "Vokabel",
+      "art": "die",
+      "pl": "die Vokabeln",
+      "pos": "বিশেষ্য",
+      "bn": "শব্দ (শেখার জন্য)",
+      "en": "vocabulary item"
+    },
+    {
+      "id": "wiederholen",
+      "de": "wiederholen",
+      "pos": "ক্রিয়া · hat wiederholt",
+      "bn": "পুনরাবৃত্তি করা",
+      "en": "to repeat"
+    },
+    {
+      "id": "ueben",
+      "de": "üben",
+      "pos": "ক্রিয়া · hat geübt",
+      "bn": "অনুশীলন করা",
+      "en": "to practise"
+    },
+    {
+      "id": "fehler",
+      "de": "Fehler",
+      "art": "der",
+      "pl": "die Fehler",
+      "pos": "বিশেষ্য",
+      "bn": "ভুল",
+      "en": "mistake"
+    },
+    {
+      "id": "korrigieren",
+      "de": "korrigieren",
+      "pos": "ক্রিয়া · hat korrigiert",
+      "bn": "শুধরে দেওয়া",
+      "en": "to correct"
+    },
+    {
+      "id": "aussprache",
+      "de": "Aussprache",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "উচ্চারণ",
+      "en": "pronunciation"
+    },
+    {
+      "id": "grammatik",
+      "de": "Grammatik",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "ব্যাকরণ",
+      "en": "grammar"
+    },
+    {
+      "id": "uebung",
+      "de": "Übung",
+      "art": "die",
+      "pl": "die Übungen",
+      "pos": "বিশেষ্য",
+      "bn": "অনুশীলনী",
+      "en": "exercise"
+    },
+    {
+      "id": "versuchen",
+      "de": "versuchen",
+      "pos": "ক্রিয়া · hat versucht",
+      "bn": "চেষ্টা করা",
+      "en": "to try"
+    },
+    {
+      "id": "aufhoeren",
+      "de": "aufhören",
+      "pos": "ক্রিয়া · hat aufgehört",
+      "bn": "থামা, বন্ধ করা",
+      "en": "to stop"
+    },
+    {
+      "id": "leicht",
+      "de": "leicht",
+      "pos": "বিশেষণ",
+      "bn": "সহজ",
+      "en": "easy"
+    },
+    {
+      "id": "schwer",
+      "de": "schwer",
+      "pos": "বিশেষণ",
+      "bn": "কঠিন",
+      "en": "difficult"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Lehrerin",
+      "bn": [
+        "শুভ",
+        "দিন,",
+        "সাহেব।",
+        "জার্মান",
+        "কেমন",
+        "চলছে?"
+      ],
+      "en": [
+        "Good",
+        "day,",
+        "Saheb.",
+        "How",
+        "is",
+        "German",
+        "going?"
+      ],
+      "de": [
+        {
+          "t": "Guten Tag,",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Guten Tag",
+          "gb": "শুভ দিন",
+          "ge": "Good day",
+          "n": ""
+        },
+        {
+          "t": "Saheb.",
+          "s": "Saheb",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "Saheb",
+          "gb": "সাহেব",
+          "ge": "Saheb",
+          "n": ""
+        },
+        {
+          "t": "Wie",
+          "b": [
+            4
+          ],
+          "e": [
+            3
+          ],
+          "l": "Wie",
+          "gb": "কেমন",
+          "ge": "How",
+          "n": ""
+        },
+        {
+          "t": "läuft",
+          "b": [
+            5
+          ],
+          "e": [
+            4
+          ],
+          "l": "läuft",
+          "gb": "চলছে",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "dein",
+          "b": [],
+          "e": [],
+          "l": "dein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Deutsch?",
+          "b": [
+            3
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "Deutsch",
+          "gb": "জার্মান",
+          "ge": "German going",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "ভালো,",
+        "কিন্তু",
+        "আমার",
+        "জন্য",
+        "ব্যাকরণ",
+        "কঠিন।",
+        "আমি",
+        "প্রতিদিন",
+        "শব্দ",
+        "শিখি।"
+      ],
+      "en": [
+        "Good,",
+        "but",
+        "grammar",
+        "is",
+        "difficult",
+        "for",
+        "me.",
+        "I",
+        "learn",
+        "vocabulary",
+        "every",
+        "day."
+      ],
+      "de": [
+        {
+          "t": "Gut,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Gut",
+          "gb": "ভালো",
+          "ge": "Good",
+          "n": ""
+        },
+        {
+          "t": "aber",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "aber",
+          "gb": "কিন্তু",
+          "ge": "but",
+          "n": ""
+        },
+        {
+          "t": "Grammatik",
+          "b": [
+            4
+          ],
+          "e": [
+            2
+          ],
+          "l": "Grammatik",
+          "gb": "ব্যাকরণ",
+          "ge": "grammar",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "schwer",
+          "b": [
+            5
+          ],
+          "e": [
+            4
+          ],
+          "l": "schwer",
+          "gb": "কঠিন",
+          "ge": "difficult",
+          "n": ""
+        },
+        {
+          "t": "für mich.",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "für mich",
+          "gb": "আমার জন্য",
+          "ge": "for me",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            6
+          ],
+          "e": [
+            7
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "lerne",
+          "b": [
+            9
+          ],
+          "e": [
+            8
+          ],
+          "l": "lerne",
+          "gb": "শিখি",
+          "ge": "learn",
+          "n": ""
+        },
+        {
+          "t": "jeden Tag",
+          "b": [
+            7
+          ],
+          "e": [
+            10,
+            11
+          ],
+          "l": "jeden Tag",
+          "gb": "প্রতিদিন",
+          "ge": "every day",
+          "n": ""
+        },
+        {
+          "t": "Vokabeln.",
+          "b": [
+            8
+          ],
+          "e": [
+            9
+          ],
+          "l": "Vokabel",
+          "gb": "শব্দ",
+          "ge": "vocabulary",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lehrerin",
+      "bn": [
+        "প্রতিদিন",
+        "শেখা",
+        "গুরুত্বপূর্ণ।",
+        "আর",
+        "ভুল",
+        "করতে",
+        "ভয়",
+        "পাবেন",
+        "না।"
+      ],
+      "en": [
+        "It",
+        "is",
+        "important",
+        "to",
+        "learn",
+        "every",
+        "day.",
+        "And",
+        "do",
+        "not",
+        "be",
+        "afraid",
+        "to",
+        "make",
+        "mistakes."
+      ],
+      "de": [
+        {
+          "t": "Es",
+          "b": [],
+          "e": [
+            0
+          ],
+          "l": "Es",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "It",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "wichtig,",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "wichtig",
+          "gb": "গুরুত্বপূর্ণ",
+          "ge": "important",
+          "n": ""
+        },
+        {
+          "t": "jeden Tag",
+          "b": [
+            0
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "jeden Tag",
+          "gb": "প্রতিদিন",
+          "ge": "every day",
+          "n": ""
+        },
+        {
+          "t": "zu lernen.",
+          "b": [
+            1
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "zu lernen",
+          "gb": "শেখা",
+          "ge": "to learn",
+          "n": "zu + Infinitiv am Ende: zu lernen"
+        },
+        {
+          "t": "Haben",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            8,
+            9,
+            10
+          ],
+          "l": "Haben",
+          "gb": "পাবেন না",
+          "ge": "do not be",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [],
+          "e": [],
+          "l": "Sie",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "keine Angst,",
+          "b": [
+            6
+          ],
+          "e": [
+            11
+          ],
+          "l": "keine Angst",
+          "gb": "ভয়",
+          "ge": "afraid",
+          "n": ""
+        },
+        {
+          "t": "Fehler",
+          "b": [
+            4
+          ],
+          "e": [
+            14
+          ],
+          "l": "Fehler",
+          "gb": "ভুল",
+          "ge": "mistakes",
+          "n": ""
+        },
+        {
+          "t": "zu machen.",
+          "b": [
+            5
+          ],
+          "e": [
+            12,
+            13
+          ],
+          "l": "zu machen",
+          "gb": "করতে",
+          "ge": "to make",
+          "n": "Angst haben, … zu …"
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "চেষ্টা",
+        "করি",
+        "প্রতি",
+        "সন্ধ্যায়",
+        "আধা",
+        "ঘণ্টা",
+        "অনুশীলন",
+        "করতে।"
+      ],
+      "en": [
+        "I",
+        "try",
+        "to",
+        "practise",
+        "for",
+        "half",
+        "an",
+        "hour",
+        "every",
+        "evening."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "versuche,",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            1
+          ],
+          "l": "versuchen",
+          "gb": "চেষ্টা করি",
+          "ge": "try",
+          "n": ""
+        },
+        {
+          "t": "jeden Abend",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            8,
+            9
+          ],
+          "l": "jeden Abend",
+          "gb": "প্রতি সন্ধ্যায়",
+          "ge": "every evening",
+          "n": ""
+        },
+        {
+          "t": "eine halbe Stunde",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "l": "eine halbe Stunde",
+          "gb": "আধা ঘণ্টা",
+          "ge": "for half an hour",
+          "n": ""
+        },
+        {
+          "t": "zu üben.",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "üben",
+          "gb": "অনুশীলন করতে",
+          "ge": "to practise",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lehrerin",
+      "bn": [
+        "ভালো!",
+        "আপনি",
+        "কি",
+        "উচ্চারণও",
+        "অনুশীলন",
+        "করেন?",
+        "জোরে",
+        "পড়া",
+        "সাহায্য",
+        "করে।"
+      ],
+      "en": [
+        "Good!",
+        "Do",
+        "you",
+        "also",
+        "practise",
+        "pronunciation?",
+        "Reading",
+        "aloud",
+        "helps."
+      ],
+      "de": [
+        {
+          "t": "Gut!",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Gut",
+          "gb": "ভালো",
+          "ge": "Good",
+          "n": ""
+        },
+        {
+          "t": "Üben",
+          "b": [
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "Üben",
+          "gb": "অনুশীলন",
+          "ge": "practise",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "Sie",
+          "gb": "আপনি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "auch",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "auch",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "also",
+          "n": ""
+        },
+        {
+          "t": "die Aussprache?",
+          "b": [
+            3
+          ],
+          "e": [
+            5
+          ],
+          "l": "Aussprache",
+          "gb": "উচ্চারণও",
+          "ge": "pronunciation",
+          "n": ""
+        },
+        {
+          "t": "Lautes Lesen",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "Lautes Lesen",
+          "gb": "জোরে পড়া",
+          "ge": "Reading aloud",
+          "n": "lautes Lesen = জোরে পড়া"
+        },
+        {
+          "t": "hilft.",
+          "b": [
+            8,
+            9
+          ],
+          "e": [
+            8
+          ],
+          "l": "helfen",
+          "gb": "সাহায্য করে",
+          "ge": "helps",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "শুরু",
+        "করছি",
+        "জোরে",
+        "পড়তে,",
+        "এবং",
+        "ভুলগুলো",
+        "নোট",
+        "করে",
+        "রাখি।"
+      ],
+      "en": [
+        "I",
+        "am",
+        "starting",
+        "to",
+        "read",
+        "aloud,",
+        "and",
+        "I",
+        "note",
+        "down",
+        "the",
+        "mistakes."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "fange",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "anfangen",
+          "gb": "শুরু করছি",
+          "ge": "am starting",
+          "n": ""
+        },
+        {
+          "t": "gerade",
+          "b": [],
+          "e": [],
+          "l": "gerade",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "an,",
+          "b": [],
+          "e": [],
+          "l": "an",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "laut",
+          "b": [
+            3
+          ],
+          "e": [
+            5
+          ],
+          "l": "laut",
+          "gb": "জোরে",
+          "ge": "aloud",
+          "n": ""
+        },
+        {
+          "t": "zu lesen,",
+          "b": [
+            4
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "zu lesen",
+          "gb": "পড়তে",
+          "ge": "to read",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            5
+          ],
+          "e": [
+            6
+          ],
+          "l": "und",
+          "gb": "এবং",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "notiere",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            7,
+            8,
+            9
+          ],
+          "l": "notiere",
+          "gb": "নোট করে",
+          "ge": "I note down",
+          "n": ""
+        },
+        {
+          "t": "die Fehler.",
+          "b": [
+            6
+          ],
+          "e": [
+            10,
+            11
+          ],
+          "l": "die Fehler",
+          "gb": "ভুলগুলো",
+          "ge": "the mistakes",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lehrerin",
+      "bn": [
+        "দারুণ!",
+        "আমি",
+        "আপনাকে",
+        "ভুল",
+        "শুধরে",
+        "দেব।",
+        "অনুশীলনী",
+        "করা",
+        "বন্ধ",
+        "করবেন",
+        "না!"
+      ],
+      "en": [
+        "Great!",
+        "I",
+        "will",
+        "correct",
+        "your",
+        "mistakes.",
+        "Do",
+        "not",
+        "stop",
+        "doing",
+        "the",
+        "exercises!"
+      ],
+      "de": [
+        {
+          "t": "Toll!",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Toll",
+          "gb": "দারুণ",
+          "ge": "Great",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "korrigiere",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "korrigieren",
+          "gb": "শুধরে দেব",
+          "ge": "will correct",
+          "n": ""
+        },
+        {
+          "t": "Ihre Fehler.",
+          "b": [
+            3
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "Ihre Fehler",
+          "gb": "ভুল",
+          "ge": "your mistakes",
+          "n": ""
+        },
+        {
+          "t": "Hören",
+          "b": [
+            8
+          ],
+          "e": [
+            6,
+            7,
+            8
+          ],
+          "l": "aufhören",
+          "gb": "বন্ধ",
+          "ge": "Do not stop",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [
+            9,
+            10
+          ],
+          "e": [],
+          "l": "Sie",
+          "gb": "করবেন না",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "nicht",
+          "b": [],
+          "e": [
+            7
+          ],
+          "l": "nicht",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "not",
+          "n": ""
+        },
+        {
+          "t": "auf,",
+          "b": [],
+          "e": [],
+          "l": "auf",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Übungen",
+          "b": [
+            6
+          ],
+          "e": [
+            10,
+            11
+          ],
+          "l": "Übung",
+          "gb": "অনুশীলনী",
+          "ge": "the exercises",
+          "n": ""
+        },
+        {
+          "t": "zu machen!",
+          "b": [
+            7
+          ],
+          "e": [
+            9
+          ],
+          "l": "zu machen",
+          "gb": "করা",
+          "ge": "doing",
+          "n": "aufhören + zu + Infinitiv"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "order",
+      "title": "zu + Infinitiv: বাক্যের শেষে",
+      "text": "কিছু ক্রিয়া, বিশেষণ ও বাক্যাংশের পর „zu + Infinitiv“ আসে। কমা সাধারণত বসে।",
+      "de": [
+        {
+          "t": "Es ist wichtig,"
+        },
+        {
+          "t": "jeden Tag"
+        },
+        {
+          "t": "zu lernen.",
+          "v": true
+        }
+      ],
+      "bn": [
+        {
+          "t": "প্রতিদিন"
+        },
+        {
+          "t": "শেখা",
+          "v": true
+        },
+        {
+          "t": "গুরুত্বপূর্ণ।"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "কোন শব্দের পরে zu + Infinitiv?",
+      "head": [
+        "গ্রুপ",
+        "উদাহরণ"
+      ],
+      "rows": [
+        [
+          "Es ist + Adjektiv",
+          "Es ist leicht / schwer / wichtig, Deutsch zu lernen."
+        ],
+        [
+          "versuchen, vergessen, anfangen, aufhören",
+          "Ich versuche, jeden Tag zu üben."
+        ],
+        [
+          "Lust / Zeit / Angst haben",
+          "Ich habe keine Zeit, ins Kino zu gehen."
+        ],
+        [
+          "beginnen, planen, hoffen",
+          "Ich plane, nach Berlin zu fahren."
+        ]
+      ],
+      "note": "Modalverben (müssen, können, wollen, dürfen, sollen) → kein zu: „Ich kann Deutsch sprechen.“"
+    },
+    {
+      "type": "table",
+      "title": "trennbare Verben: zu in der Mitte",
+      "head": [
+        "Infinitiv",
+        "mit zu"
+      ],
+      "rows": [
+        [
+          "aufstehen",
+          "aufzustehen"
+        ],
+        [
+          "anfangen",
+          "anzufangen"
+        ],
+        [
+          "einkaufen",
+          "einzukaufen"
+        ],
+        [
+          "mitbringen",
+          "mitzubringen"
+        ],
+        [
+          "aufhören",
+          "aufzuhören"
+        ]
+      ],
+      "note": "Es ist schwer, früh aufzustehen. · Ich vergesse nie, die Hausaufgaben mitzubringen."
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "die Vokabel",
+      "options": [
+        "শুধরে দেওয়া",
+        "ব্যাকরণ",
+        "চেষ্টা করা",
+        "শব্দ"
+      ],
+      "answer": 3,
+      "why": "die Vokabel = শব্দ।",
+      "word": "vokabel"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "der Fehler",
+      "options": [
+        "ব্যাকরণ",
+        "ভুল",
+        "থামা",
+        "শব্দ"
+      ],
+      "answer": 1,
+      "why": "der Fehler = ভুল।",
+      "word": "fehler"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "versuchen",
+      "options": [
+        "সহজ",
+        "পুনরাবৃত্তি করা",
+        "শুধরে দেওয়া",
+        "চেষ্টা করা"
+      ],
+      "answer": 3,
+      "why": "versuchen = চেষ্টা করা।",
+      "word": "versuchen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Aussprache",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Aussprache।",
+      "word": "aussprache"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক বাক্য কোনটি?",
+      "options": [
+        "Ich versuche, jeden Tag zu lernen.",
+        "Ich versuche, jeden Tag lernen.",
+        "Ich versuche, zu jeden Tag lernen.",
+        "Ich versuche jeden Tag zu, lernen."
+      ],
+      "answer": 0,
+      "why": "zu + Infinitiv শেষে।",
+      "word": "versuchen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Es ist schwer, früh ___.",
+      "options": [
+        "aufzustehen",
+        "zu aufstehen",
+        "auf zu stehen",
+        "aufstehen zu"
+      ],
+      "answer": 0,
+      "why": "trennbar: auf-zu-stehen।",
+      "word": "schwer"
+    },
+    {
+      "type": "mcq",
+      "prompt": "কোন বাক্যে zu লাগে না?",
+      "options": [
+        "Ich kann gut singen.",
+        "Ich habe Lust zu singen.",
+        "Ich versuche zu singen.",
+        "Es ist schön zu singen."
+      ],
+      "answer": 0,
+      "why": "Modalverb → ohne zu।",
+      "word": "leicht"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Haben Sie keine Angst, Fehler ___.",
+      "options": [
+        "zu machen",
+        "machen zu",
+        "machen",
+        "zu mache"
+      ],
+      "answer": 0,
+      "why": "Angst haben, … zu machen।",
+      "word": "fehler"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Grammatik“ কী?",
+      "options": [
+        "ব্যাকরণ",
+        "উচ্চারণ",
+        "শব্দ",
+        "অনুশীলনী"
+      ],
+      "answer": 0,
+      "why": "die Grammatik।",
+      "word": "grammatik"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „প্রতিদিন শেখা গুরুত্বপূর্ণ।“",
+      "tiles": [
+        "zu lernen.",
+        "ist",
+        "Es",
+        "jeden Tag",
+        "wichtig,"
+      ],
+      "answer": [
+        "Es",
+        "ist",
+        "wichtig,",
+        "jeden Tag",
+        "zu lernen."
+      ],
+      "why": "Es ist wichtig, … zu …",
+      "word": "uebung"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

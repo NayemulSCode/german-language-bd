@@ -1,0 +1,1179 @@
+{
+  "level": "A2",
+  "unit": 8,
+  "minutes": 16,
+  "lesson": 3,
+  "id": "a2-u08-l03",
+  "title": {
+    "de": "Ich lerne, um die Prüfung zu bestehen",
+    "bn": "উদ্দেশ্য: um … zu এবং damit",
+    "en": "Purpose: um … zu and damit"
+  },
+  "hook": {
+    "de": "Ohne Fleiß kein Preis.",
+    "who": "Sprichwort",
+    "bn": "পরিশ্রম ছাড়া পুরস্কার নেই।",
+    "en": "No pain, no gain."
+  },
+  "goals": [
+    "um … zu + Infinitiv (একই কর্তা)",
+    "damit-Satz (আলাদা বা একই কর্তা)",
+    "পরীক্ষার চারটি অংশ: Lesen, Hören, Schreiben, Sprechen",
+    "পরীক্ষার শব্দ: bestehen, Ergebnis, Zertifikat"
+  ],
+  "words": [
+    {
+      "id": "pruefung",
+      "de": "Prüfung",
+      "art": "die",
+      "pl": "die Prüfungen",
+      "pos": "বিশেষ্য",
+      "bn": "পরীক্ষা",
+      "en": "exam"
+    },
+    {
+      "id": "bestehen",
+      "de": "bestehen",
+      "pos": "ক্রিয়া · hat bestanden",
+      "bn": "পাস করা",
+      "en": "to pass"
+    },
+    {
+      "id": "durchfallen",
+      "de": "durchfallen",
+      "pos": "ক্রিয়া · ist durchgefallen",
+      "bn": "ফেল করা",
+      "en": "to fail"
+    },
+    {
+      "id": "ergebnis",
+      "de": "Ergebnis",
+      "art": "das",
+      "pl": "die Ergebnisse",
+      "pos": "বিশেষ্য",
+      "bn": "ফলাফল",
+      "en": "result"
+    },
+    {
+      "id": "zertifikat",
+      "de": "Zertifikat",
+      "art": "das",
+      "pl": "die Zertifikate",
+      "pos": "বিশেষ্য",
+      "bn": "সনদ",
+      "en": "certificate"
+    },
+    {
+      "id": "wortschatz",
+      "de": "Wortschatz",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "শব্দভান্ডার",
+      "en": "vocabulary"
+    },
+    {
+      "id": "hoeren",
+      "de": "Hören",
+      "art": "das",
+      "pos": "বিশেষ্য (Prüfungsteil)",
+      "bn": "শোনা (পরীক্ষার অংশ)",
+      "en": "listening"
+    },
+    {
+      "id": "lesen",
+      "de": "Lesen",
+      "art": "das",
+      "pos": "বিশেষ্য (Prüfungsteil)",
+      "bn": "পড়া (পরীক্ষার অংশ)",
+      "en": "reading"
+    },
+    {
+      "id": "schreiben",
+      "de": "Schreiben",
+      "art": "das",
+      "pos": "বিশেষ্য (Prüfungsteil)",
+      "bn": "লেখা (পরীক্ষার অংশ)",
+      "en": "writing"
+    },
+    {
+      "id": "sprechen",
+      "de": "Sprechen",
+      "art": "das",
+      "pos": "বিশেষ্য (Prüfungsteil)",
+      "bn": "বলা (পরীক্ষার অংশ)",
+      "en": "speaking"
+    },
+    {
+      "id": "schriftlich",
+      "de": "schriftlich",
+      "pos": "বিশেষণ",
+      "bn": "লিখিত",
+      "en": "written"
+    },
+    {
+      "id": "muendlich",
+      "de": "mündlich",
+      "pos": "বিশেষণ",
+      "bn": "মৌখিক",
+      "en": "oral"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Muna",
+      "bn": [
+        "তুমি",
+        "এত",
+        "জার্মান",
+        "শিখছ",
+        "কেন?"
+      ],
+      "en": [
+        "Why",
+        "are",
+        "you",
+        "learning",
+        "so",
+        "much",
+        "German?"
+      ],
+      "de": [
+        {
+          "t": "Warum",
+          "b": [
+            4
+          ],
+          "e": [
+            0
+          ],
+          "l": "Warum",
+          "gb": "কেন",
+          "ge": "Why",
+          "n": ""
+        },
+        {
+          "t": "lernst",
+          "b": [
+            3
+          ],
+          "e": [
+            1,
+            2,
+            3
+          ],
+          "l": "lernst",
+          "gb": "শিখছ",
+          "ge": "are you learning",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            0
+          ],
+          "e": [],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "so viel",
+          "b": [
+            1
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "so viel",
+          "gb": "এত",
+          "ge": "so much",
+          "n": ""
+        },
+        {
+          "t": "Deutsch?",
+          "b": [
+            2
+          ],
+          "e": [
+            6
+          ],
+          "l": "Deutsch",
+          "gb": "জার্মান",
+          "ge": "German",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "জার্মানিতে",
+        "কাজ",
+        "করার",
+        "জন্য",
+        "জার্মান",
+        "শিখছি।"
+      ],
+      "en": [
+        "I",
+        "am",
+        "learning",
+        "German",
+        "in",
+        "order",
+        "to",
+        "work",
+        "in",
+        "Germany."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "lerne",
+          "b": [
+            6
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "lerne",
+          "gb": "শিখছি",
+          "ge": "am learning",
+          "n": ""
+        },
+        {
+          "t": "Deutsch,",
+          "b": [
+            5
+          ],
+          "e": [
+            3
+          ],
+          "l": "Deutsch",
+          "gb": "জার্মান",
+          "ge": "German",
+          "n": ""
+        },
+        {
+          "t": "um",
+          "b": [
+            4
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "um",
+          "gb": "জন্য",
+          "ge": "in order",
+          "n": "um … zu + Infinitiv = উদ্দেশ্য (… করার জন্য)"
+        },
+        {
+          "t": "in Deutschland",
+          "b": [
+            1
+          ],
+          "e": [
+            8,
+            9
+          ],
+          "l": "in Deutschland",
+          "gb": "জার্মানিতে",
+          "ge": "in Germany",
+          "n": ""
+        },
+        {
+          "t": "zu arbeiten.",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "arbeiten",
+          "gb": "কাজ করার",
+          "ge": "to work",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "আর",
+        "তোমার",
+        "শব্দভান্ডার",
+        "বাড়াতে",
+        "তুমি",
+        "কী",
+        "করো?"
+      ],
+      "en": [
+        "And",
+        "what",
+        "do",
+        "you",
+        "do",
+        "so",
+        "that",
+        "your",
+        "vocabulary",
+        "gets",
+        "bigger?"
+      ],
+      "de": [
+        {
+          "t": "Und",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "was",
+          "b": [
+            5
+          ],
+          "e": [
+            1
+          ],
+          "l": "was",
+          "gb": "কী",
+          "ge": "what",
+          "n": ""
+        },
+        {
+          "t": "machst",
+          "b": [
+            6
+          ],
+          "e": [
+            2
+          ],
+          "l": "machst",
+          "gb": "করো",
+          "ge": "do",
+          "n": ""
+        },
+        {
+          "t": "du,",
+          "b": [
+            4
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you do",
+          "n": ""
+        },
+        {
+          "t": "damit",
+          "b": [
+            3
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "damit",
+          "gb": "বাড়াতে",
+          "ge": "so that",
+          "n": "damit = যাতে (Nebensatz, ক্রিয়া শেষে)"
+        },
+        {
+          "t": "dein",
+          "b": [
+            1
+          ],
+          "e": [
+            7
+          ],
+          "l": "dein",
+          "gb": "তোমার",
+          "ge": "your",
+          "n": ""
+        },
+        {
+          "t": "Wortschatz",
+          "b": [
+            2
+          ],
+          "e": [
+            8
+          ],
+          "l": "Wortschatz",
+          "gb": "শব্দভান্ডার",
+          "ge": "vocabulary",
+          "n": ""
+        },
+        {
+          "t": "größer",
+          "b": [],
+          "e": [
+            10
+          ],
+          "l": "größer",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "bigger",
+          "n": ""
+        },
+        {
+          "t": "wird?",
+          "b": [],
+          "e": [
+            9
+          ],
+          "l": "wird",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "gets",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "প্রবন্ধ",
+        "পড়ি,",
+        "যাতে",
+        "নতুন",
+        "শব্দ",
+        "শিখতে",
+        "পারি।"
+      ],
+      "en": [
+        "I",
+        "read",
+        "articles",
+        "so",
+        "that",
+        "I",
+        "can",
+        "learn",
+        "new",
+        "words."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "lese",
+          "b": [
+            2
+          ],
+          "e": [
+            1
+          ],
+          "l": "lese",
+          "gb": "পড়ি",
+          "ge": "read",
+          "n": ""
+        },
+        {
+          "t": "Artikel,",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "Artikel",
+          "gb": "প্রবন্ধ",
+          "ge": "articles",
+          "n": ""
+        },
+        {
+          "t": "damit",
+          "b": [
+            3
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "damit",
+          "gb": "যাতে",
+          "ge": "so that",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [],
+          "e": [
+            5
+          ],
+          "l": "ich",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "neue",
+          "b": [
+            4
+          ],
+          "e": [
+            8
+          ],
+          "l": "neue",
+          "gb": "নতুন",
+          "ge": "new",
+          "n": ""
+        },
+        {
+          "t": "Wörter",
+          "b": [
+            5
+          ],
+          "e": [
+            9
+          ],
+          "l": "Wörter",
+          "gb": "শব্দ",
+          "ge": "words",
+          "n": ""
+        },
+        {
+          "t": "lerne.",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "lernen",
+          "gb": "শিখতে পারি",
+          "ge": "can learn",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "তোমার",
+        "পরীক্ষা",
+        "কবে?"
+      ],
+      "en": [
+        "When",
+        "is",
+        "your",
+        "exam?"
+      ],
+      "de": [
+        {
+          "t": "Wann",
+          "b": [
+            2
+          ],
+          "e": [
+            0
+          ],
+          "l": "Wann",
+          "gb": "কবে",
+          "ge": "When",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "deine",
+          "b": [
+            0
+          ],
+          "e": [
+            2
+          ],
+          "l": "deine",
+          "gb": "তোমার",
+          "ge": "your",
+          "n": ""
+        },
+        {
+          "t": "Prüfung?",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "Prüfung",
+          "gb": "পরীক্ষা",
+          "ge": "exam",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "জুলাইয়ে।",
+        "এতে",
+        "চারটি",
+        "অংশ",
+        "আছে:",
+        "শোনা,",
+        "পড়া,",
+        "লেখা",
+        "আর",
+        "বলা।"
+      ],
+      "en": [
+        "In",
+        "July.",
+        "It",
+        "has",
+        "four",
+        "parts:",
+        "listening,",
+        "reading,",
+        "writing",
+        "and",
+        "speaking."
+      ],
+      "de": [
+        {
+          "t": "Im Juli.",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Im Juli",
+          "gb": "জুলাইয়ে",
+          "ge": "In July",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "Sie",
+          "gb": "এতে",
+          "ge": "It",
+          "n": ""
+        },
+        {
+          "t": "hat",
+          "b": [
+            4
+          ],
+          "e": [
+            3
+          ],
+          "l": "hat",
+          "gb": "আছে",
+          "ge": "has",
+          "n": ""
+        },
+        {
+          "t": "vier Teile:",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "vier Teile",
+          "gb": "চারটি অংশ",
+          "ge": "four parts",
+          "n": ""
+        },
+        {
+          "t": "Hören,",
+          "b": [
+            5
+          ],
+          "e": [
+            6
+          ],
+          "l": "Hören",
+          "gb": "শোনা",
+          "ge": "listening",
+          "n": ""
+        },
+        {
+          "t": "Lesen,",
+          "b": [
+            6
+          ],
+          "e": [
+            7
+          ],
+          "l": "Lesen",
+          "gb": "পড়া",
+          "ge": "reading",
+          "n": ""
+        },
+        {
+          "t": "Schreiben",
+          "b": [
+            7
+          ],
+          "e": [
+            8
+          ],
+          "l": "Schreiben",
+          "gb": "লেখা",
+          "ge": "writing",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            8
+          ],
+          "e": [
+            9
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "Sprechen.",
+          "b": [
+            9
+          ],
+          "e": [
+            10
+          ],
+          "l": "Sprechen",
+          "gb": "বলা",
+          "ge": "speaking",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "পরীক্ষায়",
+        "পাস",
+        "করার",
+        "জন্য",
+        "তোমাকে",
+        "অনেক",
+        "অনুশীলন",
+        "করতে",
+        "হবে।"
+      ],
+      "en": [
+        "You",
+        "have",
+        "to",
+        "practise",
+        "a",
+        "lot",
+        "in",
+        "order",
+        "to",
+        "pass",
+        "the",
+        "exam."
+      ],
+      "de": [
+        {
+          "t": "Du",
+          "b": [
+            4
+          ],
+          "e": [
+            0
+          ],
+          "l": "Du",
+          "gb": "তোমাকে",
+          "ge": "You",
+          "n": ""
+        },
+        {
+          "t": "musst",
+          "b": [
+            8
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "musst",
+          "gb": "হবে",
+          "ge": "have to",
+          "n": ""
+        },
+        {
+          "t": "viel",
+          "b": [
+            5
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "viel",
+          "gb": "অনেক",
+          "ge": "a lot",
+          "n": ""
+        },
+        {
+          "t": "üben,",
+          "b": [
+            6
+          ],
+          "e": [
+            3
+          ],
+          "l": "üben",
+          "gb": "অনুশীলন",
+          "ge": "practise",
+          "n": ""
+        },
+        {
+          "t": "um",
+          "b": [
+            3
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "um",
+          "gb": "জন্য",
+          "ge": "in order",
+          "n": ""
+        },
+        {
+          "t": "die Prüfung",
+          "b": [
+            0
+          ],
+          "e": [
+            10,
+            11
+          ],
+          "l": "Prüfung",
+          "gb": "পরীক্ষায়",
+          "ge": "the exam",
+          "n": ""
+        },
+        {
+          "t": "zu bestehen.",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            8,
+            9
+          ],
+          "l": "bestehen",
+          "gb": "পাস করার",
+          "ge": "to pass",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "um … zu und damit",
+      "head": [
+        "",
+        "um … zu",
+        "damit"
+      ],
+      "rows": [
+        [
+          "কর্তা",
+          "একই কর্তা",
+          "একই বা আলাদা কর্তা"
+        ],
+        [
+          "ক্রিয়া",
+          "Infinitiv (zu)",
+          "সংযুক্ত ক্রিয়া, শেষে"
+        ],
+        [
+          "উদাহরণ",
+          "Ich lerne, um die Prüfung zu bestehen.",
+          "Ich lerne, damit ich die Prüfung bestehe."
+        ],
+        [
+          "আলাদা কর্তা",
+          "— (ব্যবহার হয় না)",
+          "Ich erkläre es, damit du es verstehst."
+        ]
+      ],
+      "note": "um … zu = „… করার জন্য“। damit = „যাতে“। কর্তা আলাদা হলে শুধু damit।"
+    },
+    {
+      "type": "order",
+      "title": "um … zu: Infinitiv শেষে",
+      "text": "um-সহ বাক্যাংশ কমা দিয়ে আলাদা। zu + Infinitiv একদম শেষে।",
+      "de": [
+        {
+          "t": "Ich lerne,"
+        },
+        {
+          "t": "um"
+        },
+        {
+          "t": "in Deutschland"
+        },
+        {
+          "t": "zu arbeiten.",
+          "v": true
+        }
+      ],
+      "bn": [
+        {
+          "t": "আমি শিখছি"
+        },
+        {
+          "t": "জার্মানিতে"
+        },
+        {
+          "t": "কাজ করার জন্য।",
+          "v": true
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Goethe-Zertifikat: চারটি অংশ",
+      "head": [
+        "জার্মান",
+        "বাংলা",
+        "কী করতে হয়"
+      ],
+      "rows": [
+        [
+          "Lesen",
+          "পড়া",
+          "ছোট লেখা পড়ে প্রশ্নের উত্তর"
+        ],
+        [
+          "Hören",
+          "শোনা",
+          "ঘোষণা বা কথোপকথন শুনে উত্তর"
+        ],
+        [
+          "Schreiben",
+          "লেখা",
+          "ছোট ইমেইল বা বার্তা লেখা"
+        ],
+        [
+          "Sprechen",
+          "বলা",
+          "নিজের সম্পর্কে বলা, প্রশ্ন করা, আলোচনা"
+        ]
+      ],
+      "note": "পরীক্ষা ও তারিখ সময়ে সময়ে বদলায় — Goethe-Institut বা Telc-এর ওয়েবসাইটে দেখে নিন।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "die Prüfung",
+      "options": [
+        "ফেল করা",
+        "সনদ",
+        "শোনা",
+        "পরীক্ষা"
+      ],
+      "answer": 3,
+      "why": "die Prüfung = পরীক্ষা।",
+      "word": "pruefung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "bestehen",
+      "options": [
+        "মৌখিক",
+        "পাস করা",
+        "ফলাফল",
+        "শোনা"
+      ],
+      "answer": 1,
+      "why": "bestehen = পাস করা।",
+      "word": "bestehen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "das Ergebnis",
+      "options": [
+        "পাস করা",
+        "শব্দভান্ডার",
+        "ফলাফল",
+        "লেখা"
+      ],
+      "answer": 2,
+      "why": "das Ergebnis = ফলাফল।",
+      "word": "ergebnis"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Zertifikat",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 2,
+      "why": "das Zertifikat। বহুবচন: die Zertifikate।",
+      "word": "zertifikat"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক বাক্য কোনটি?",
+      "options": [
+        "Ich lerne, um die Prüfung zu bestehen.",
+        "Ich lerne, um die Prüfung bestehen.",
+        "Ich lerne, um zu die Prüfung bestehen.",
+        "Ich lerne um, die Prüfung zu bestehen."
+      ],
+      "answer": 0,
+      "why": "um … zu + Infinitiv।",
+      "word": "bestehen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক সংযোজক বেছে নিন (আলাদা কর্তা)",
+      "sub": "Ich erkläre es, ___ du es verstehst.",
+      "options": [
+        "damit",
+        "um",
+        "weil",
+        "obwohl"
+      ],
+      "answer": 0,
+      "why": "আলাদা কর্তা → damit।",
+      "word": "wortschatz"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক বাক্য কোনটি?",
+      "options": [
+        "Ich lese, damit ich neue Wörter lerne.",
+        "Ich lese, damit lerne ich neue Wörter.",
+        "Ich lese, damit ich lerne neue Wörter.",
+        "Ich lese damit, ich neue Wörter lerne."
+      ],
+      "answer": 0,
+      "why": "damit-Satz: ক্রিয়া শেষে।",
+      "word": "wortschatz"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„durchfallen“ মানে কী?",
+      "options": [
+        "ফেল করা",
+        "পাস করা",
+        "শিখা",
+        "ভুলে যাওয়া"
+      ],
+      "answer": 0,
+      "why": "durchfallen = fail।",
+      "word": "durchfallen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Prüfungsteil „Sprechen“ মানে?",
+      "options": [
+        "বলা",
+        "লেখা",
+        "পড়া",
+        "শোনা"
+      ],
+      "answer": 0,
+      "why": "sprechen = speak।",
+      "word": "sprechen"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „আমি কাজ করার জন্য জার্মান শিখছি।“",
+      "tiles": [
+        "zu arbeiten.",
+        "Deutsch,",
+        "lerne",
+        "Ich",
+        "um"
+      ],
+      "answer": [
+        "Ich",
+        "lerne",
+        "Deutsch,",
+        "um",
+        "zu arbeiten."
+      ],
+      "why": "um … zu arbeiten।",
+      "word": "pruefung"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

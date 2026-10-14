@@ -1,0 +1,1398 @@
+{
+  "level": "A2",
+  "unit": 12,
+  "minutes": 16,
+  "lesson": 4,
+  "id": "a2-u12-l04",
+  "title": {
+    "de": "Geschafft! Rückblick auf A2",
+    "bn": "A2-এর রিভিউ ও পরবর্তী ধাপ",
+    "en": "Done! A2 review and what comes next"
+  },
+  "hook": {
+    "de": "Auch der längste Weg beginnt mit dem ersten Schritt.",
+    "who": "Konfuzius zugeschrieben",
+    "bn": "দীর্ঘতম পথও প্রথম পদক্ষেপ দিয়ে শুরু হয়।",
+    "en": "Even the longest journey begins with a first step."
+  },
+  "goals": [
+    "A2-র প্রধান বিষয়গুলোর রিভিউ",
+    "নিজের অগ্রগতি জার্মানে বলা",
+    "Goethe-Zertifikat A2-র কাঠামো",
+    "পরবর্তী লক্ষ্য: B1"
+  ],
+  "words": [
+    {
+      "id": "rueckblick",
+      "de": "Rückblick",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "পিছনে ফিরে দেখা",
+      "en": "review, look back"
+    },
+    {
+      "id": "stolz",
+      "de": "stolz",
+      "pos": "বিশেষণ",
+      "bn": "গর্বিত",
+      "en": "proud"
+    },
+    {
+      "id": "angst",
+      "de": "Angst",
+      "art": "die",
+      "pl": "die Ängste",
+      "pos": "বিশেষ্য",
+      "bn": "ভয়",
+      "en": "fear"
+    },
+    {
+      "id": "vergangenheit",
+      "de": "Vergangenheit",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "অতীত",
+      "en": "past"
+    },
+    {
+      "id": "vereinbaren",
+      "de": "vereinbaren",
+      "pos": "ক্রিয়া · hat vereinbart",
+      "bn": "ঠিক করা (সময়, চুক্তি)",
+      "en": "to arrange"
+    },
+    {
+      "id": "geschafft",
+      "de": "geschafft",
+      "pos": "বিশেষণ",
+      "bn": "সম্পন্ন, পেরেছি",
+      "en": "done, managed"
+    },
+    {
+      "id": "wiederholung",
+      "de": "Wiederholung",
+      "art": "die",
+      "pl": "die Wiederholungen",
+      "pos": "বিশেষ্য",
+      "bn": "পুনরাবৃত্তি",
+      "en": "revision"
+    },
+    {
+      "id": "pruefungsvorbereitung",
+      "de": "Prüfungsvorbereitung",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "পরীক্ষার প্রস্তুতি",
+      "en": "exam preparation"
+    },
+    {
+      "id": "mut",
+      "de": "Mut",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "সাহস",
+      "en": "courage"
+    },
+    {
+      "id": "erfolg",
+      "de": "Erfolg",
+      "art": "der",
+      "pl": "die Erfolge",
+      "pos": "বিশেষ্য",
+      "bn": "সাফল্য",
+      "en": "success"
+    },
+    {
+      "id": "sich_bewerben",
+      "de": "sich bewerben",
+      "pos": "ক্রিয়া · bewirbt sich, hat sich beworben",
+      "bn": "আবেদন করা (চাকরি)",
+      "en": "to apply (for a job)"
+    },
+    {
+      "id": "fortschritt",
+      "de": "Fortschritt",
+      "art": "der",
+      "pl": "die Fortschritte",
+      "pos": "বিশেষ্য",
+      "bn": "অগ্রগতি",
+      "en": "progress"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Lena",
+      "bn": [
+        "সাহেব,",
+        "তুমি",
+        "A2",
+        "প্রায়",
+        "শেষ",
+        "করে",
+        "ফেলেছ!",
+        "কেমন",
+        "লাগছে?"
+      ],
+      "en": [
+        "Saheb,",
+        "you",
+        "have",
+        "almost",
+        "finished",
+        "A2!",
+        "How",
+        "do",
+        "you",
+        "feel?"
+      ],
+      "de": [
+        {
+          "t": "Saheb,",
+          "s": "Saheb",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Saheb",
+          "gb": "সাহেব",
+          "ge": "Saheb",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "hast",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "hast",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "have",
+          "n": ""
+        },
+        {
+          "t": "A2",
+          "b": [
+            2
+          ],
+          "e": [
+            5
+          ],
+          "l": "A2",
+          "gb": "A2",
+          "ge": "A2",
+          "n": ""
+        },
+        {
+          "t": "fast",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "fast",
+          "gb": "প্রায়",
+          "ge": "almost",
+          "n": ""
+        },
+        {
+          "t": "geschafft!",
+          "b": [
+            4,
+            5,
+            6
+          ],
+          "e": [
+            4
+          ],
+          "l": "geschafft",
+          "gb": "শেষ করে ফেলেছ",
+          "ge": "finished",
+          "n": ""
+        },
+        {
+          "t": "Wie",
+          "b": [
+            7
+          ],
+          "e": [
+            6
+          ],
+          "l": "Wie",
+          "gb": "কেমন",
+          "ge": "How",
+          "n": ""
+        },
+        {
+          "t": "fühlst",
+          "b": [
+            8
+          ],
+          "e": [
+            9
+          ],
+          "l": "sich fühlen",
+          "gb": "লাগছে",
+          "ge": "feel",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [],
+          "e": [
+            7,
+            8
+          ],
+          "l": "du",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "do you",
+          "n": ""
+        },
+        {
+          "t": "dich?",
+          "b": [],
+          "e": [],
+          "l": "dich",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "গর্বিত,",
+        "কিন্তু",
+        "পরীক্ষাকে",
+        "আমি",
+        "একটু",
+        "ভয়ও",
+        "পাই।"
+      ],
+      "en": [
+        "I",
+        "am",
+        "proud,",
+        "but",
+        "I",
+        "am",
+        "also",
+        "a",
+        "little",
+        "afraid",
+        "of",
+        "the",
+        "exam."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "bin",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "bin",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "am",
+          "n": ""
+        },
+        {
+          "t": "stolz,",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "stolz",
+          "gb": "গর্বিত",
+          "ge": "proud",
+          "n": ""
+        },
+        {
+          "t": "aber",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "aber",
+          "gb": "কিন্তু",
+          "ge": "but",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            5
+          ],
+          "l": "habe",
+          "gb": "ভয়ও পাই",
+          "ge": "am",
+          "n": ""
+        },
+        {
+          "t": "auch",
+          "b": [],
+          "e": [
+            6
+          ],
+          "l": "auch",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "also",
+          "n": ""
+        },
+        {
+          "t": "ein bisschen",
+          "b": [
+            5
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "ein bisschen",
+          "gb": "একটু",
+          "ge": "a little",
+          "n": ""
+        },
+        {
+          "t": "Angst",
+          "b": [],
+          "e": [
+            9
+          ],
+          "l": "Angst",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "afraid",
+          "n": ""
+        },
+        {
+          "t": "vor der Prüfung.",
+          "b": [
+            3
+          ],
+          "e": [
+            10,
+            11,
+            12
+          ],
+          "l": "Prüfung",
+          "gb": "পরীক্ষাকে",
+          "ge": "of the exam",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "সেটা",
+        "স্বাভাবিক।",
+        "তুমি",
+        "কী",
+        "কী",
+        "শিখেছ?"
+      ],
+      "en": [
+        "That",
+        "is",
+        "normal.",
+        "What",
+        "have",
+        "you",
+        "learned?"
+      ],
+      "de": [
+        {
+          "t": "Das",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Das",
+          "gb": "সেটা",
+          "ge": "That",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "normal.",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "normal",
+          "gb": "স্বাভাবিক",
+          "ge": "normal",
+          "n": ""
+        },
+        {
+          "t": "Was",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "Was",
+          "gb": "কী",
+          "ge": "What",
+          "n": ""
+        },
+        {
+          "t": "hast",
+          "b": [],
+          "e": [
+            4
+          ],
+          "l": "hast",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "have",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            2
+          ],
+          "e": [
+            5
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "alles",
+          "b": [
+            4
+          ],
+          "e": [],
+          "l": "alles",
+          "gb": "কী",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "gelernt?",
+          "b": [
+            5
+          ],
+          "e": [
+            6
+          ],
+          "l": "lernen",
+          "gb": "শিখেছ",
+          "ge": "learned",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "এখন",
+        "অতীত",
+        "নিয়ে",
+        "কথা",
+        "বলতে,",
+        "একটি",
+        "সময়",
+        "ঠিক",
+        "করতে,",
+        "একটি",
+        "অ্যাকাউন্ট",
+        "খুলতে",
+        "আর",
+        "একটি",
+        "ইমেইল",
+        "লিখতে",
+        "পারি।"
+      ],
+      "en": [
+        "I",
+        "can",
+        "now",
+        "talk",
+        "about",
+        "the",
+        "past,",
+        "arrange",
+        "an",
+        "appointment,",
+        "open",
+        "an",
+        "account",
+        "and",
+        "write",
+        "an",
+        "email."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "kann",
+          "b": [
+            17
+          ],
+          "e": [
+            1
+          ],
+          "l": "kann",
+          "gb": "পারি",
+          "ge": "can",
+          "n": ""
+        },
+        {
+          "t": "jetzt",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "jetzt",
+          "gb": "এখন",
+          "ge": "now",
+          "n": ""
+        },
+        {
+          "t": "über die Vergangenheit",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "l": "Vergangenheit",
+          "gb": "অতীত নিয়ে",
+          "ge": "talk about the past",
+          "n": ""
+        },
+        {
+          "t": "sprechen,",
+          "b": [
+            4,
+            5
+          ],
+          "e": [],
+          "l": "sprechen",
+          "gb": "কথা বলতে",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "einen Termin",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            7,
+            8,
+            9
+          ],
+          "l": "einen Termin",
+          "gb": "একটি সময়",
+          "ge": "arrange an appointment",
+          "n": ""
+        },
+        {
+          "t": "vereinbaren,",
+          "b": [
+            8,
+            9
+          ],
+          "e": [],
+          "l": "vereinbaren",
+          "gb": "ঠিক করতে",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "ein Konto",
+          "b": [
+            10,
+            11
+          ],
+          "e": [
+            10,
+            11,
+            12
+          ],
+          "l": "ein Konto",
+          "gb": "একটি অ্যাকাউন্ট",
+          "ge": "open an account",
+          "n": ""
+        },
+        {
+          "t": "eröffnen",
+          "b": [
+            12
+          ],
+          "e": [],
+          "l": "eröffnen",
+          "gb": "খুলতে",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            13
+          ],
+          "e": [
+            13
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "eine E-Mail",
+          "b": [
+            14,
+            15
+          ],
+          "e": [
+            14,
+            15,
+            16
+          ],
+          "l": "eine E-Mail",
+          "gb": "একটি ইমেইল",
+          "ge": "write an email",
+          "n": ""
+        },
+        {
+          "t": "schreiben.",
+          "b": [
+            16
+          ],
+          "e": [],
+          "l": "schreiben",
+          "gb": "লিখতে",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "আর",
+        "তোমার",
+        "পরবর্তী",
+        "লক্ষ্য",
+        "কী?"
+      ],
+      "en": [
+        "And",
+        "what",
+        "is",
+        "your",
+        "next",
+        "goal?"
+      ],
+      "de": [
+        {
+          "t": "Und",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "was",
+          "b": [
+            4
+          ],
+          "e": [
+            1
+          ],
+          "l": "was",
+          "gb": "কী",
+          "ge": "what",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "dein",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "dein",
+          "gb": "তোমার",
+          "ge": "your",
+          "n": ""
+        },
+        {
+          "t": "nächstes",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "nächstes",
+          "gb": "পরবর্তী",
+          "ge": "next",
+          "n": ""
+        },
+        {
+          "t": "Ziel?",
+          "b": [
+            3
+          ],
+          "e": [
+            5
+          ],
+          "l": "Ziel",
+          "gb": "লক্ষ্য",
+          "ge": "goal",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "B1।",
+        "আমি",
+        "B1",
+        "পাস",
+        "করলে",
+        "চাকরির",
+        "আবেদন",
+        "করব।"
+      ],
+      "en": [
+        "B1.",
+        "If",
+        "I",
+        "pass",
+        "B1,",
+        "I",
+        "will",
+        "apply",
+        "for",
+        "jobs."
+      ],
+      "de": [
+        {
+          "t": "B1.",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "B1",
+          "gb": "B1",
+          "ge": "B1",
+          "n": ""
+        },
+        {
+          "t": "Wenn",
+          "b": [
+            4
+          ],
+          "e": [
+            1
+          ],
+          "l": "Wenn",
+          "gb": "করলে",
+          "ge": "If",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "B1",
+          "b": [
+            2
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "B1",
+          "gb": "B1",
+          "ge": "pass B1",
+          "n": ""
+        },
+        {
+          "t": "schaffe,",
+          "b": [
+            3
+          ],
+          "e": [],
+          "l": "schaffen",
+          "gb": "পাস",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "werde",
+          "b": [
+            7
+          ],
+          "e": [
+            6
+          ],
+          "l": "werde",
+          "gb": "করব",
+          "ge": "will",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            1
+          ],
+          "e": [
+            5
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "mich",
+          "b": [],
+          "e": [],
+          "l": "mich",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "bewerben.",
+          "b": [
+            6
+          ],
+          "e": [
+            7,
+            8,
+            9
+          ],
+          "l": "sich bewerben",
+          "gb": "আবেদন",
+          "ge": "apply for jobs",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "আমি",
+        "নিশ্চিত",
+        "যে",
+        "তুমি",
+        "পারবে।",
+        "সাফল্য",
+        "কামনা",
+        "করি!"
+      ],
+      "en": [
+        "I",
+        "am",
+        "sure",
+        "that",
+        "you",
+        "will",
+        "make",
+        "it.",
+        "Good",
+        "luck!"
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "bin",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "bin",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "am",
+          "n": ""
+        },
+        {
+          "t": "sicher,",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "sicher",
+          "gb": "নিশ্চিত",
+          "ge": "sure",
+          "n": ""
+        },
+        {
+          "t": "dass",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "dass",
+          "gb": "যে",
+          "ge": "that",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "es",
+          "b": [],
+          "e": [
+            7
+          ],
+          "l": "es",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "it",
+          "n": ""
+        },
+        {
+          "t": "schaffst.",
+          "b": [
+            4
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "schaffst",
+          "gb": "পারবে",
+          "ge": "will make",
+          "n": ""
+        },
+        {
+          "t": "Viel Erfolg!",
+          "b": [
+            5,
+            6,
+            7
+          ],
+          "e": [
+            8,
+            9
+          ],
+          "l": "Erfolg",
+          "gb": "সাফল্য কামনা করি",
+          "ge": "Good luck",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "A2 auf einen Blick",
+      "head": [
+        "Thema",
+        "Beispiel",
+        "Unit"
+      ],
+      "rows": [
+        [
+          "Perfekt (haben/sein)",
+          "Ich habe gelernt. Ich bin gefahren.",
+          "1"
+        ],
+        [
+          "Präteritum: sein, haben, Modalverben",
+          "Ich war müde. Ich konnte nicht kommen.",
+          "1"
+        ],
+        [
+          "Dativ und Dativ-Präpositionen",
+          "Ich helfe dir. Mit dem Bus zur Arbeit.",
+          "2"
+        ],
+        [
+          "weil, denn, obwohl, dass, wenn",
+          "Ich komme, weil ich Zeit habe.",
+          "2, 6, 4, 3"
+        ],
+        [
+          "Wechselpräpositionen",
+          "Ich lege das Buch auf den Tisch.",
+          "3"
+        ],
+        [
+          "Komparativ / Superlativ",
+          "billiger als · am billigsten",
+          "3"
+        ],
+        [
+          "reflexive Verben",
+          "Ich fühle mich nicht gut.",
+          "4"
+        ],
+        [
+          "Imperativ",
+          "Nehmen Sie die Tablette!",
+          "4"
+        ],
+        [
+          "Adjektivendungen",
+          "eine kleine Wohnung · die junge Frau",
+          "5, 11"
+        ],
+        [
+          "Relativsätze",
+          "die Wohnung, die ich suche",
+          "5"
+        ],
+        [
+          "Konjunktiv II (Wünsche, Bitten)",
+          "Ich hätte gern … · Könnten Sie …?",
+          "2, 6"
+        ],
+        [
+          "Passiv Präsens",
+          "Die Straße wird repariert.",
+          "7, 10"
+        ],
+        [
+          "um … zu / damit",
+          "Ich lerne, um zu arbeiten.",
+          "8"
+        ],
+        [
+          "je … desto",
+          "Je mehr, desto besser.",
+          "7"
+        ]
+      ],
+      "note": "এই তালিকা দেখে যেসব বিষয়ে আত্মবিশ্বাস নেই, সেই ইউনিটের লেসন আবার করুন।"
+    },
+    {
+      "type": "table",
+      "title": "Goethe-Zertifikat A2 — Struktur (Überblick)",
+      "head": [
+        "Teil",
+        "Aufgabe",
+        "Hinweis"
+      ],
+      "rows": [
+        [
+          "Lesen",
+          "Kurze Texte, Anzeigen, E-Mails",
+          "ca. 30 Min."
+        ],
+        [
+          "Hören",
+          "Ansagen, Gespräche",
+          "ca. 30 Min."
+        ],
+        [
+          "Schreiben",
+          "Zwei kurze Nachrichten",
+          "ca. 30 Min."
+        ],
+        [
+          "Sprechen",
+          "Sich vorstellen, Fragen, gemeinsam planen",
+          "ca. 15 Min. (zu zweit)"
+        ]
+      ],
+      "note": "Zeiten und Aufgaben können sich ändern — bitte die Seite des Goethe-Instituts lesen und Modelltests üben."
+    },
+    {
+      "type": "text",
+      "title": "Was kommt nach A2?",
+      "text": "B1 (selbstständige Sprachverwendung): längere Texte verstehen, Meinungen begründen, Probleme im Alltag lösen. Viele Ausbildungsbetriebe erwarten B1 oder B2. Tipp: Schreibe jeden Tag drei Sätze, höre jeden Tag zehn Minuten Deutsch und sprich mit Menschen — auch mit Fehlern."
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "der Fortschritt",
+      "options": [
+        "ঠিক করা",
+        "অগ্রগতি",
+        "পুনরাবৃত্তি",
+        "সাহস"
+      ],
+      "answer": 1,
+      "why": "der Fortschritt = অগ্রগতি।",
+      "word": "fortschritt"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "stolz",
+      "options": [
+        "সম্পন্ন",
+        "গর্বিত",
+        "সাহস",
+        "অগ্রগতি"
+      ],
+      "answer": 1,
+      "why": "stolz = গর্বিত।",
+      "word": "stolz"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "die Wiederholung",
+      "options": [
+        "পিছনে ফিরে দেখা",
+        "অতীত",
+        "পরীক্ষার প্রস্তুতি",
+        "পুনরাবৃত্তি"
+      ],
+      "answer": 3,
+      "why": "die Wiederholung = পুনরাবৃত্তি।",
+      "word": "wiederholung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Prüfungsvorbereitung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Prüfungsvorbereitung।",
+      "word": "pruefungsvorbereitung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Ich habe gelernt“ ist welche Zeitform?",
+      "options": [
+        "Perfekt",
+        "Futur",
+        "Präsens",
+        "Imperativ"
+      ],
+      "answer": 0,
+      "why": "haben + Partizip II।",
+      "word": "geschafft"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক বাক্য কোনটি?",
+      "options": [
+        "Wenn ich B1 schaffe, werde ich mich bewerben.",
+        "Wenn ich B1 schaffe, ich werde mich bewerben.",
+        "Wenn schaffe ich B1, werde ich mich bewerben.",
+        "Wenn ich schaffe B1, werde ich mich bewerben."
+      ],
+      "answer": 0,
+      "why": "wenn-Satz → ক্রিয়া শেষে; তারপর ক্রিয়া প্রথমে।",
+      "word": "sich_bewerben"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Goethe A2-তে কয়টি পরীক্ষার অংশ?",
+      "options": [
+        "চারটি",
+        "দুটি",
+        "ছয়টি",
+        "একটি"
+      ],
+      "answer": 0,
+      "why": "Lesen, Hören, Schreiben, Sprechen।",
+      "word": "pruefungsvorbereitung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Viel Erfolg!“ কখন বলা হয়?",
+      "options": [
+        "পরীক্ষার আগে শুভেচ্ছায়",
+        "অসুস্থের জন্য",
+        "জন্মদিনে",
+        "বিদায়ে ফোনে"
+      ],
+      "answer": 0,
+      "why": "Viel Erfolg।",
+      "word": "erfolg"
+    },
+    {
+      "type": "mcq",
+      "prompt": "B1 এর পরে সাধারণত কী করতে পারবেন?",
+      "options": [
+        "লম্বা লেখা বুঝে মতামত দিতে",
+        "শুধু নিজের নাম বলতে",
+        "কিছুই বুঝতে না",
+        "শুধু পড়তে"
+      ],
+      "answer": 0,
+      "why": "selbstständige Sprachverwendung।",
+      "word": "fortschritt"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „আমি গর্বিত, কিন্তু আমার একটু ভয় আছে।“",
+      "tiles": [
+        "Angst.",
+        "stolz,",
+        "ich habe",
+        "aber",
+        "ein bisschen",
+        "Ich bin"
+      ],
+      "answer": [
+        "Ich bin",
+        "stolz,",
+        "aber",
+        "ich habe",
+        "ein bisschen",
+        "Angst."
+      ],
+      "why": "Angst haben।",
+      "word": "stolz"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

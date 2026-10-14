@@ -12,13 +12,14 @@ import { DictionaryScreen } from './screens/Dictionary'
 import { ProfileScreen } from './screens/Profile'
 import { LessonScreen } from './screens/Lesson'
 import { PlacementScreen } from './screens/Placement'
+import { ExamScreen } from './screens/Exam'
 
-const TABS: [Exclude<RouteName, 'lesson' | 'placement'>, string][] = [['home', 'হোম'], ['course', 'কোর্স'], ['review', 'রিভিউ'], ['dict', 'ডিকশনারি'], ['me', 'প্রোফাইল']]
+const TABS: [Exclude<RouteName, 'lesson' | 'placement' | 'exam'>, string][] = [['home', 'হোম'], ['course', 'কোর্স'], ['review', 'রিভিউ'], ['dict', 'ডিকশনারি'], ['me', 'প্রোফাইল']]
 
 export function App() {
   const route = useRoute()
   const { progress } = useApp()
-  const inLesson = route.name === 'lesson' || route.name === 'placement'
+  const inLesson = route.name === 'lesson' || route.name === 'placement' || route.name === 'exam'
   const days = streak(progress.activity)
 
   // lessons run full-screen: the CSS hides the top bar and tabs
@@ -52,7 +53,8 @@ export function App() {
         {route.name === 'dict' && <DictionaryScreen />}
         {route.name === 'me' && <ProfileScreen />}
         {route.name === 'lesson' && <LessonScreen id={route.param} />}
-        {route.name === 'placement' && <PlacementScreen />}
+        {route.name === 'placement' && <PlacementScreen level={route.param === 'b1' ? 'B1' : route.param === 'a2' ? 'A2' : 'A1'} />}
+        {route.name === 'exam' && <ExamScreen id={route.param || 'a1-mock-01'} />}
       </main>
       <Toast />
     </>

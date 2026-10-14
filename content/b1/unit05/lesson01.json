@@ -1,0 +1,1463 @@
+{
+  "level": "B1",
+  "unit": 5,
+  "minutes": 18,
+  "lesson": 1,
+  "id": "b1-u05-l01",
+  "title": {
+    "de": "Technik am Arbeitsplatz",
+    "bn": "কর্মক্ষেত্রে কম্পিউটার ও সফটওয়্যার",
+    "en": "Technology at the workplace"
+  },
+  "hook": {
+    "de": "Technik ist ein guter Diener, aber ein schlechter Herr.",
+    "who": "Redensart",
+    "bn": "প্রযুক্তি ভালো সেবক, কিন্তু খারাপ মনিব।",
+    "en": "Technology is a good servant but a bad master."
+  },
+  "goals": [
+    "Fachwörter: Programm, Datei, speichern, installieren",
+    "Passiv mit Modalverb: kann installiert werden",
+    "Anweisungen verstehen und geben",
+    "Nominalisierung: die Installation, die Speicherung"
+  ],
+  "words": [
+    {
+      "id": "betriebssystem",
+      "de": "Betriebssystem",
+      "art": "das",
+      "pl": "die Betriebssysteme",
+      "pos": "বিশেষ্য",
+      "bn": "অপারেটিং সিস্টেম",
+      "en": "operating system"
+    },
+    {
+      "id": "programm",
+      "de": "Programm",
+      "art": "das",
+      "pl": "die Programme",
+      "pos": "বিশেষ্য",
+      "bn": "প্রোগ্রাম",
+      "en": "programme"
+    },
+    {
+      "id": "datei",
+      "de": "Datei",
+      "art": "die",
+      "pl": "die Dateien",
+      "pos": "বিশেষ্য",
+      "bn": "ফাইল",
+      "en": "file"
+    },
+    {
+      "id": "speichern",
+      "de": "speichern",
+      "pos": "ক্রিয়া · hat gespeichert",
+      "bn": "সংরক্ষণ করা",
+      "en": "to save, to store"
+    },
+    {
+      "id": "installieren",
+      "de": "installieren",
+      "pos": "ক্রিয়া · hat installiert",
+      "bn": "ইনস্টল করা",
+      "en": "to install"
+    },
+    {
+      "id": "update",
+      "de": "Update",
+      "art": "das",
+      "pl": "die Updates",
+      "pos": "বিশেষ্য",
+      "bn": "আপডেট",
+      "en": "update"
+    },
+    {
+      "id": "bildschirm",
+      "de": "Bildschirm",
+      "art": "der",
+      "pl": "die Bildschirme",
+      "pos": "বিশেষ্য",
+      "bn": "স্ক্রিন",
+      "en": "screen"
+    },
+    {
+      "id": "netzwerk",
+      "de": "Netzwerk",
+      "art": "das",
+      "pl": "die Netzwerke",
+      "pos": "বিশেষ্য",
+      "bn": "নেটওয়ার্ক",
+      "en": "network"
+    },
+    {
+      "id": "zugang",
+      "de": "Zugang",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "প্রবেশাধিকার",
+      "en": "access"
+    },
+    {
+      "id": "anwendung",
+      "de": "Anwendung",
+      "art": "die",
+      "pl": "die Anwendungen",
+      "pos": "বিশেষ্য",
+      "bn": "অ্যাপ্লিকেশন",
+      "en": "application"
+    },
+    {
+      "id": "nutzen",
+      "de": "nutzen",
+      "pos": "ক্রিয়া · hat genutzt",
+      "bn": "ব্যবহার করা",
+      "en": "to use"
+    },
+    {
+      "id": "anleitung",
+      "de": "Anleitung",
+      "art": "die",
+      "pl": "die Anleitungen",
+      "pos": "বিশেষ্য",
+      "bn": "নির্দেশিকা",
+      "en": "instructions"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Frau Hoffmann",
+      "bn": [
+        "মিস্টার",
+        "রহমান,",
+        "আজ",
+        "আপনি",
+        "আমাদের",
+        "নতুন",
+        "প্রোগ্রাম",
+        "শিখবেন।",
+        "এর",
+        "সাহায্যে",
+        "কাজের",
+        "তালিকা",
+        "করা",
+        "যায়।"
+      ],
+      "en": [
+        "Mr",
+        "Rahman,",
+        "today",
+        "you",
+        "will",
+        "learn",
+        "our",
+        "new",
+        "programme.",
+        "With",
+        "it,",
+        "work",
+        "orders",
+        "can",
+        "be",
+        "created."
+      ],
+      "de": [
+        {
+          "t": "Herr Rahman,",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Herr Rahman",
+          "gb": "মিস্টার রহমান",
+          "ge": "Mr Rahman",
+          "n": ""
+        },
+        {
+          "t": "heute",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "heute",
+          "gb": "আজ",
+          "ge": "today",
+          "n": ""
+        },
+        {
+          "t": "lernen Sie",
+          "b": [
+            3,
+            7
+          ],
+          "e": [
+            3,
+            4,
+            5
+          ],
+          "l": "lernen Sie",
+          "gb": "আপনি শিখবেন",
+          "ge": "you will learn",
+          "n": ""
+        },
+        {
+          "t": "unser neues Programm",
+          "b": [
+            4,
+            5,
+            6
+          ],
+          "e": [
+            6,
+            7,
+            8
+          ],
+          "l": "Programm",
+          "gb": "আমাদের নতুন প্রোগ্রাম",
+          "ge": "our new programme",
+          "n": ""
+        },
+        {
+          "t": "Damit",
+          "b": [
+            8,
+            9
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "Damit",
+          "gb": "এর সাহায্যে",
+          "ge": "With it",
+          "n": ""
+        },
+        {
+          "t": "können",
+          "b": [
+            13
+          ],
+          "e": [
+            13
+          ],
+          "l": "können",
+          "gb": "যায়",
+          "ge": "can",
+          "n": ""
+        },
+        {
+          "t": "Arbeitsaufträge",
+          "b": [
+            10,
+            11
+          ],
+          "e": [
+            11,
+            12
+          ],
+          "l": "Arbeitsaufträge",
+          "gb": "কাজের তালিকা",
+          "ge": "work orders",
+          "n": ""
+        },
+        {
+          "t": "erstellt",
+          "b": [
+            12
+          ],
+          "e": [
+            14,
+            15
+          ],
+          "l": "erstellt",
+          "gb": "করা",
+          "ge": "be created",
+          "n": ""
+        },
+        {
+          "t": "werden.",
+          "b": [],
+          "e": [],
+          "l": "werden",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": "Passiv mit Modalverb: können + Partizip II + werden"
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "প্রোগ্রামটা",
+        "কি",
+        "আমার",
+        "কম্পিউটারে",
+        "ইনস্টল",
+        "করা",
+        "আছে?"
+      ],
+      "en": [
+        "Is",
+        "the",
+        "programme",
+        "installed",
+        "on",
+        "my",
+        "computer?"
+      ],
+      "de": [
+        {
+          "t": "Ist",
+          "b": [],
+          "e": [
+            0
+          ],
+          "l": "Ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "Is",
+          "n": ""
+        },
+        {
+          "t": "das Programm",
+          "b": [
+            0
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "das Programm",
+          "gb": "প্রোগ্রামটা",
+          "ge": "the programme",
+          "n": ""
+        },
+        {
+          "t": "auf meinem Computer",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            4,
+            5,
+            6
+          ],
+          "l": "auf meinem Computer",
+          "gb": "আমার কম্পিউটারে",
+          "ge": "on my computer",
+          "n": ""
+        },
+        {
+          "t": "installiert?",
+          "b": [
+            4,
+            5,
+            6
+          ],
+          "e": [
+            3
+          ],
+          "l": "installieren",
+          "gb": "ইনস্টল করা আছে",
+          "ge": "installed",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Frau Hoffmann",
+      "bn": [
+        "না,",
+        "এটা",
+        "এখনও",
+        "ইনস্টল",
+        "করতে",
+        "হবে।",
+        "ইনস্টলেশনের",
+        "পর",
+        "একটি",
+        "আপডেট",
+        "দেওয়া",
+        "হবে।",
+        "সেজন্য",
+        "নেটওয়ার্কে",
+        "প্রবেশাধিকার",
+        "লাগবে।"
+      ],
+      "en": [
+        "No,",
+        "it",
+        "still",
+        "has",
+        "to",
+        "be",
+        "installed.",
+        "After",
+        "the",
+        "installation",
+        "an",
+        "update",
+        "will",
+        "be",
+        "done.",
+        "For",
+        "that",
+        "you",
+        "need",
+        "access",
+        "to",
+        "the",
+        "network."
+      ],
+      "de": [
+        {
+          "t": "Nein,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Nein",
+          "gb": "না",
+          "ge": "No",
+          "n": ""
+        },
+        {
+          "t": "es muss",
+          "b": [
+            1
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "es muss",
+          "gb": "এটা",
+          "ge": "it still",
+          "n": ""
+        },
+        {
+          "t": "noch",
+          "b": [
+            2
+          ],
+          "e": [
+            3,
+            4,
+            5
+          ],
+          "l": "noch",
+          "gb": "এখনও",
+          "ge": "has to be",
+          "n": ""
+        },
+        {
+          "t": "installiert",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            6
+          ],
+          "l": "installiert",
+          "gb": "ইনস্টল করতে",
+          "ge": "installed",
+          "n": ""
+        },
+        {
+          "t": "werden.",
+          "b": [
+            5
+          ],
+          "e": [],
+          "l": "werden",
+          "gb": "হবে",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Nach der Installation",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            7,
+            8,
+            9
+          ],
+          "l": "Nach der Installation",
+          "gb": "ইনস্টলেশনের পর",
+          "ge": "After the installation",
+          "n": ""
+        },
+        {
+          "t": "wird",
+          "b": [
+            10,
+            11
+          ],
+          "e": [
+            12,
+            13
+          ],
+          "l": "wird",
+          "gb": "দেওয়া হবে",
+          "ge": "will be",
+          "n": ""
+        },
+        {
+          "t": "ein Update",
+          "b": [
+            8,
+            9
+          ],
+          "e": [
+            10,
+            11
+          ],
+          "l": "Update",
+          "gb": "একটি আপডেট",
+          "ge": "an update",
+          "n": ""
+        },
+        {
+          "t": "durchgeführt.",
+          "b": [],
+          "e": [
+            14
+          ],
+          "l": "durchgeführt",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "done",
+          "n": ""
+        },
+        {
+          "t": "Dafür brauchen Sie",
+          "b": [
+            12,
+            15
+          ],
+          "e": [
+            15,
+            16,
+            17,
+            18
+          ],
+          "l": "Dafür brauchen Sie",
+          "gb": "সেজন্য লাগবে",
+          "ge": "For that you need",
+          "n": ""
+        },
+        {
+          "t": "Zugang",
+          "b": [
+            14
+          ],
+          "e": [
+            19
+          ],
+          "l": "Zugang",
+          "gb": "প্রবেশাধিকার",
+          "ge": "access",
+          "n": ""
+        },
+        {
+          "t": "zum Netzwerk.",
+          "b": [
+            13
+          ],
+          "e": [
+            20,
+            21,
+            22
+          ],
+          "l": "Netzwerk",
+          "gb": "নেটওয়ার্কে",
+          "ge": "to the network",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আর",
+        "ফাইল",
+        "কোথায়",
+        "সংরক্ষণ",
+        "করব?"
+      ],
+      "en": [
+        "And",
+        "where",
+        "do",
+        "I",
+        "save",
+        "the",
+        "files?"
+      ],
+      "de": [
+        {
+          "t": "Und",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "wo",
+          "b": [
+            2
+          ],
+          "e": [
+            1
+          ],
+          "l": "wo",
+          "gb": "কোথায়",
+          "ge": "where",
+          "n": ""
+        },
+        {
+          "t": "speichere ich",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            2,
+            3,
+            4
+          ],
+          "l": "speichere ich",
+          "gb": "সংরক্ষণ করব",
+          "ge": "do I save",
+          "n": ""
+        },
+        {
+          "t": "die Dateien?",
+          "b": [
+            1
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "Datei",
+          "gb": "ফাইল",
+          "ge": "the files",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Frau Hoffmann",
+      "bn": [
+        "সব",
+        "ফাইল",
+        "সার্ভারে",
+        "সংরক্ষণ",
+        "করা",
+        "উচিত,",
+        "নিজের",
+        "কম্পিউটারে",
+        "নয়।",
+        "তাহলে",
+        "অন্যরাও",
+        "সেগুলো",
+        "ব্যবহার",
+        "করতে",
+        "পারবেন।"
+      ],
+      "en": [
+        "All",
+        "files",
+        "should",
+        "be",
+        "saved",
+        "on",
+        "the",
+        "server,",
+        "not",
+        "on",
+        "your",
+        "own",
+        "computer.",
+        "Then",
+        "others",
+        "can",
+        "use",
+        "them",
+        "too."
+      ],
+      "de": [
+        {
+          "t": "Alle Dateien",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Alle Dateien",
+          "gb": "সব ফাইল",
+          "ge": "All files",
+          "n": ""
+        },
+        {
+          "t": "sollten",
+          "b": [
+            5
+          ],
+          "e": [
+            2
+          ],
+          "l": "sollten",
+          "gb": "উচিত",
+          "ge": "should",
+          "n": ""
+        },
+        {
+          "t": "auf dem Server",
+          "b": [
+            2
+          ],
+          "e": [
+            5,
+            6,
+            7
+          ],
+          "l": "auf dem Server",
+          "gb": "সার্ভারে",
+          "ge": "on the server",
+          "n": ""
+        },
+        {
+          "t": "gespeichert",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "speichern",
+          "gb": "সংরক্ষণ করা",
+          "ge": "be saved",
+          "n": ""
+        },
+        {
+          "t": "werden,",
+          "b": [],
+          "e": [],
+          "l": "werden",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "nicht",
+          "b": [
+            8
+          ],
+          "e": [
+            8
+          ],
+          "l": "nicht",
+          "gb": "নয়",
+          "ge": "not",
+          "n": ""
+        },
+        {
+          "t": "auf Ihrem Computer.",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "l": "auf Ihrem Computer",
+          "gb": "নিজের কম্পিউটারে",
+          "ge": "on your own computer",
+          "n": ""
+        },
+        {
+          "t": "Dann",
+          "b": [
+            9
+          ],
+          "e": [
+            13
+          ],
+          "l": "Dann",
+          "gb": "তাহলে",
+          "ge": "Then",
+          "n": ""
+        },
+        {
+          "t": "können",
+          "b": [
+            14
+          ],
+          "e": [
+            15
+          ],
+          "l": "können",
+          "gb": "পারবেন",
+          "ge": "can",
+          "n": ""
+        },
+        {
+          "t": "auch andere",
+          "b": [
+            10
+          ],
+          "e": [
+            14
+          ],
+          "l": "auch andere",
+          "gb": "অন্যরাও",
+          "ge": "others",
+          "n": ""
+        },
+        {
+          "t": "sie",
+          "b": [
+            11
+          ],
+          "e": [
+            17
+          ],
+          "l": "sie",
+          "gb": "সেগুলো",
+          "ge": "them",
+          "n": ""
+        },
+        {
+          "t": "nutzen.",
+          "b": [
+            12,
+            13
+          ],
+          "e": [
+            16
+          ],
+          "l": "nutzen",
+          "gb": "ব্যবহার করতে",
+          "ge": "use",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "এর",
+        "জন্য",
+        "কি",
+        "কোনো",
+        "নির্দেশিকা",
+        "আছে?",
+        "আমি",
+        "প্রথমে",
+        "নিয়মগুলো",
+        "পড়তে",
+        "চাই।"
+      ],
+      "en": [
+        "Is",
+        "there",
+        "a",
+        "set",
+        "of",
+        "instructions",
+        "for",
+        "it?",
+        "I",
+        "would",
+        "like",
+        "to",
+        "read",
+        "the",
+        "rules",
+        "first."
+      ],
+      "de": [
+        {
+          "t": "Gibt es",
+          "b": [
+            5,
+            2
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Gibt es",
+          "gb": "আছে কি",
+          "ge": "Is there",
+          "n": ""
+        },
+        {
+          "t": "dafür",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "dafür",
+          "gb": "এর জন্য",
+          "ge": "for it",
+          "n": ""
+        },
+        {
+          "t": "eine Anleitung?",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "l": "Anleitung",
+          "gb": "কোনো নির্দেশিকা",
+          "ge": "a set of instructions",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            6
+          ],
+          "e": [
+            8
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "möchte",
+          "b": [
+            10
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "möchte",
+          "gb": "চাই",
+          "ge": "would like",
+          "n": ""
+        },
+        {
+          "t": "zuerst",
+          "b": [
+            7
+          ],
+          "e": [
+            15
+          ],
+          "l": "zuerst",
+          "gb": "প্রথমে",
+          "ge": "first",
+          "n": ""
+        },
+        {
+          "t": "die Regeln",
+          "b": [
+            8
+          ],
+          "e": [
+            13,
+            14
+          ],
+          "l": "die Regeln",
+          "gb": "নিয়মগুলো",
+          "ge": "the rules",
+          "n": ""
+        },
+        {
+          "t": "lesen.",
+          "b": [
+            9
+          ],
+          "e": [
+            11,
+            12
+          ],
+          "l": "lesen",
+          "gb": "পড়তে",
+          "ge": "to read",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Frau Hoffmann",
+      "bn": [
+        "হ্যাঁ,",
+        "ইন্ট্রানেটে",
+        "একটি",
+        "নির্দেশিকা",
+        "আছে।",
+        "সেখানে",
+        "ইনস্টলেশন",
+        "ও",
+        "ব্যবহার",
+        "ধাপে",
+        "ধাপে",
+        "বোঝানো",
+        "হয়েছে।"
+      ],
+      "en": [
+        "Yes,",
+        "there",
+        "are",
+        "instructions",
+        "on",
+        "the",
+        "intranet.",
+        "There,",
+        "installation",
+        "and",
+        "use",
+        "are",
+        "explained",
+        "step",
+        "by",
+        "step."
+      ],
+      "de": [
+        {
+          "t": "Ja,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ja",
+          "gb": "হ্যাঁ",
+          "ge": "Yes",
+          "n": ""
+        },
+        {
+          "t": "im Intranet",
+          "b": [
+            1
+          ],
+          "e": [
+            4,
+            5,
+            6
+          ],
+          "l": "im Intranet",
+          "gb": "ইন্ট্রানেটে",
+          "ge": "on the intranet",
+          "n": ""
+        },
+        {
+          "t": "gibt es",
+          "b": [
+            4
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "gibt es",
+          "gb": "আছে",
+          "ge": "there are",
+          "n": ""
+        },
+        {
+          "t": "eine Anleitung.",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "eine Anleitung",
+          "gb": "একটি নির্দেশিকা",
+          "ge": "instructions",
+          "n": ""
+        },
+        {
+          "t": "Dort",
+          "b": [
+            5
+          ],
+          "e": [
+            7
+          ],
+          "l": "Dort",
+          "gb": "সেখানে",
+          "ge": "There",
+          "n": ""
+        },
+        {
+          "t": "werden",
+          "b": [
+            12
+          ],
+          "e": [
+            11
+          ],
+          "l": "werden",
+          "gb": "হয়েছে",
+          "ge": "are",
+          "n": ""
+        },
+        {
+          "t": "Installation",
+          "b": [
+            6
+          ],
+          "e": [
+            8
+          ],
+          "l": "Installation",
+          "gb": "ইনস্টলেশন",
+          "ge": "installation",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            7
+          ],
+          "e": [
+            9
+          ],
+          "l": "und",
+          "gb": "ও",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "Nutzung",
+          "b": [
+            8
+          ],
+          "e": [
+            10
+          ],
+          "l": "Nutzung",
+          "gb": "ব্যবহার",
+          "ge": "use",
+          "n": ""
+        },
+        {
+          "t": "Schritt für Schritt",
+          "b": [
+            9,
+            10
+          ],
+          "e": [
+            13,
+            14,
+            15
+          ],
+          "l": "Schritt für Schritt",
+          "gb": "ধাপে ধাপে",
+          "ge": "step by step",
+          "n": ""
+        },
+        {
+          "t": "erklärt.",
+          "b": [
+            11
+          ],
+          "e": [
+            12
+          ],
+          "l": "erklärt",
+          "gb": "বোঝানো",
+          "ge": "explained",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "IT-Wortschatz im Büro",
+      "head": [
+        "Wort",
+        "Bedeutung",
+        "Beispiel"
+      ],
+      "rows": [
+        [
+          "das Betriebssystem",
+          "অপারেটিং সিস্টেম",
+          "Windows, macOS, Linux"
+        ],
+        [
+          "das Programm / die Anwendung",
+          "প্রোগ্রাম / অ্যাপ",
+          "Das Programm startet nicht."
+        ],
+        [
+          "die Datei / der Ordner",
+          "ফাইল / ফোল্ডার",
+          "Speichern Sie die Datei im Ordner „Projekte“."
+        ],
+        [
+          "das Update",
+          "আপডেট",
+          "Das Update wird installiert."
+        ],
+        [
+          "der Zugang / das Passwort",
+          "প্রবেশাধিকার / পাসওয়ার্ড",
+          "Ich habe keinen Zugang."
+        ],
+        [
+          "der Bildschirm / die Tastatur / die Maus",
+          "স্ক্রিন / কীবোর্ড / মাউস",
+          "Der Bildschirm ist schwarz."
+        ]
+      ],
+      "note": "Anglizismen: das Update, der Server, das Intranet; Artikel দেখে মুখস্থ করুন।"
+    },
+    {
+      "type": "table",
+      "title": "Passiv mit Modalverb (Wiederholung und Ausbau)",
+      "head": [
+        "Aktiv",
+        "Passiv"
+      ],
+      "rows": [
+        [
+          "Man kann Arbeitsaufträge erstellen.",
+          "Arbeitsaufträge können erstellt werden."
+        ],
+        [
+          "Man muss das Programm installieren.",
+          "Das Programm muss installiert werden."
+        ],
+        [
+          "Man sollte alle Dateien speichern.",
+          "Alle Dateien sollten gespeichert werden."
+        ],
+        [
+          "Man darf das nicht löschen.",
+          "Das darf nicht gelöscht werden."
+        ]
+      ],
+      "note": "Modalverb + Partizip II + werden। Im Nebensatz: „…, dass das Programm installiert werden muss.“"
+    },
+    {
+      "type": "table",
+      "title": "Nominalisierung (-ung)",
+      "head": [
+        "Verb",
+        "Nomen",
+        "Beispiel"
+      ],
+      "rows": [
+        [
+          "installieren",
+          "die Installation",
+          "Nach der Installation …"
+        ],
+        [
+          "speichern",
+          "die Speicherung",
+          "die Speicherung der Daten"
+        ],
+        [
+          "nutzen",
+          "die Nutzung",
+          "Die Nutzung ist kostenlos."
+        ],
+        [
+          "erklären",
+          "die Erklärung",
+          "eine Erklärung im Intranet"
+        ],
+        [
+          "anmelden",
+          "die Anmeldung",
+          "Die Anmeldung erfolgt mit Passwort."
+        ]
+      ],
+      "note": "Arbeits- ও আনুষ্ঠানিক লেখায় Nomen-Stil খুব বেশি। -ung-শব্দ সবসময় die।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "das Betriebssystem",
+      "options": [
+        "অপারেটিং সিস্টেম",
+        "সংরক্ষণ করা",
+        "আপডেট",
+        "নেটওয়ার্ক"
+      ],
+      "answer": 0,
+      "why": "das Betriebssystem = অপারেটিং সিস্টেম।",
+      "word": "betriebssystem"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "speichern",
+      "options": [
+        "আপডেট",
+        "সংরক্ষণ করা",
+        "প্রবেশাধিকার",
+        "নির্দেশিকা"
+      ],
+      "answer": 1,
+      "why": "speichern = সংরক্ষণ করা।",
+      "word": "speichern"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "der Zugang",
+      "options": [
+        "আপডেট",
+        "প্রবেশাধিকার",
+        "অ্যাপ্লিকেশন",
+        "অপারেটিং সিস্টেম"
+      ],
+      "answer": 1,
+      "why": "der Zugang = প্রবেশাধিকার।",
+      "word": "zugang"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Datei",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Datei। বহুবচন: die Dateien।",
+      "word": "datei"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক বাক্য কোনটি?",
+      "options": [
+        "Das Programm muss installiert werden.",
+        "Das Programm muss werden installiert.",
+        "Das Programm installiert werden muss.",
+        "Muss das Programm werden installiert."
+      ],
+      "answer": 0,
+      "why": "Modalverb ২য়, Partizip + werden শেষে।",
+      "word": "installieren"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„die Installation“ কোন ক্রিয়া থেকে?",
+      "options": [
+        "installieren",
+        "speichern",
+        "nutzen",
+        "erklären"
+      ],
+      "answer": 0,
+      "why": "installieren → die Installation।",
+      "word": "installieren"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Nominalisierung -ung কোন আর্টিকেল?",
+      "options": [
+        "die",
+        "der",
+        "das",
+        "den"
+      ],
+      "answer": 0,
+      "why": "-ung → die।",
+      "word": "anwendung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Update“ এর আর্টিকেল কী?",
+      "options": [
+        "das",
+        "der",
+        "die",
+        "den"
+      ],
+      "answer": 0,
+      "why": "das Update।",
+      "word": "update"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Netzwerk“ মানে কী?",
+      "options": [
+        "নেটওয়ার্ক",
+        "পাসওয়ার্ড",
+        "কীবোর্ড",
+        "ফাইল"
+      ],
+      "answer": 0,
+      "why": "das Netzwerk।",
+      "word": "netzwerk"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „সব ফাইল সংরক্ষণ করা উচিত।“",
+      "tiles": [
+        "werden.",
+        "sollten",
+        "gespeichert",
+        "Alle Dateien"
+      ],
+      "answer": [
+        "Alle Dateien",
+        "sollten",
+        "gespeichert",
+        "werden."
+      ],
+      "why": "sollten + Partizip II + werden।",
+      "word": "speichern"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

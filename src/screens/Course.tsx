@@ -7,14 +7,14 @@ import { bn } from '../lib/format'
 import { toast } from '../lib/toast'
 import { go } from '../router'
 import { Icon } from '../components/Icon'
+import { EXAMS, loadRecords } from '../lib/exam'
 
 export function CourseScreen() {
   const { lessonProgress, progress } = useApp()
-  const [level, setLevel] = useState<string>('A1')
+  const states = lessonStates(LESSONS, (id) => lessonProgress(id).passed, { startUnit: progress.startUnit, startUnitA2: progress.startUnitA2, startUnitB1: progress.startUnitB1, unlockAll: progress.unlockAll })
+  const [level, setLevel] = useState<string>(() => LESSONS.find((l) => states.get(l.id) === 'now')?.level ?? 'A1')
   const [open, setOpen] = useState<Set<number>>(new Set())
   const [sheet, setSheet] = useState<LessonMeta | null>(null)
-
-  const states = lessonStates(LESSONS, (id) => lessonProgress(id).passed, { startUnit: progress.startUnit, unlockAll: progress.unlockAll })
   const info = LEVELS[level]
   const units = groupUnits(LESSONS, level)
   const built = units.length > 0
@@ -25,7 +25,7 @@ export function CourseScreen() {
   // open the unit that holds the next lesson the first time the screen shows
   useEffect(() => {
     const now = LESSONS.find((l) => states.get(l.id) === 'now')
-    if (now && now.level === 'A1') setOpen(new Set([now.unit]))
+    if (now && now.level === level) setOpen(new Set([now.unit]))
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
@@ -47,7 +47,24 @@ export function CourseScreen() {
     <>
       <div className="eyebrow bn">কোর্স ম্যাপ</div>
       <h1 style={{ fontSize: 30, marginTop: 4 }}>শূন্য থেকে B1</h1>
-      <a className="btn sm ghost bn" href="#placement" style={{ marginTop: 12 }}>{progress.placed ? 'প্লেসমেন্ট টেস্ট আবার দিন' : 'কোথা থেকে শুরু করবেন? প্লেসমেন্ট টেস্ট'}</a>
+      <div className="row" style={{ marginTop: 12, gap: 8, flexWrap: 'wrap' }}>
+        <a className="btn sm ghost bn" href="#placement">{progress.placed ? 'A1 প্লেসমেন্ট টেস্ট আবার দিন' : 'কোথা থেকে শুরু করবেন? A1 প্লেসমেন্ট টেস্ট'}</a>
+        {LESSONS.some((l) => l.level === 'A2') && <a className="btn sm ghost bn" href="#placement/a2">{progress.startUnitA2 > 0 ? 'A2 প্লেসমেন্ট টেস্ট আবার দিন' : 'A1 জানা আছে? A2 প্লেসমেন্ট টেস্ট'}</a>}
+        {LESSONS.some((l) => l.level === 'B1') && <a className="btn sm ghost bn" href="#placement/b1">{progress.startUnitB1 > 0 ? 'B1 প্লেসমেন্ট টেস্ট আবার দিন' : 'A2 জানা আছে? B1 প্লেসমেন্ট টেস্ট'}</a>}
+      </div>
+      {EXAMS.filter((ex) => ex.level === level).map((ex) => {
+        const rec = loadRecords()[ex.id]
+        return (
+          <a key={ex.id} className="card row" href={`#exam/${ex.id}`} style={{ textDecoration: 'none', marginTop: 12 }}>
+            <div className="grow">
+              <div className="eyebrow bn">মক পরীক্ষা</div>
+              <div className="bn" style={{ fontWeight: 700, marginTop: 2 }}>{ex.title.bn}</div>
+              <div className="muted bn" style={{ fontSize: 14 }}>{bn(ex.questions)}টি প্রশ্ন + লেখা ও বলা · প্রায় {bn(ex.minutes + 35)} মিনিট{rec ? ` · সেরা ফল ${bn(Math.round(rec.best * 100))}%` : ''}</div>
+            </div>
+            <span className="btn sm ghost bn">{rec ? 'আবার' : 'শুরু'}</span>
+          </a>
+        )
+      })}
       <div className="levels" role="group" aria-label="লেভেল" style={{ gridTemplateColumns: `repeat(${LEVEL_ORDER.length},1fr)` }}>
         {LEVEL_ORDER.map((k) => (
           <button key={k} className="lv" aria-pressed={k === level} onClick={() => { setLevel(k); setOpen(new Set()) }}>
@@ -103,22 +120,22 @@ export function CourseScreen() {
           )
         })}
 
-        {!built && info.planned.map(([de, b], i) => (
+        {info.planned.slice(units.length).map(([de, b], i) => (
           <div key={de} className="unit soon">
             <div className="hd">
-              <span className="n num" style={{ width: 44, height: 44, borderRadius: 12, display: 'grid', placeItems: 'center', background: 'var(--paper)', border: '1px solid var(--line)', fontFamily: 'var(--display)', fontWeight: 800, color: 'var(--muted)' }}>{bn(i + 1)}</span>
+              <span className="n num" style={{ width: 44, height: 44, borderRadius: 12, display: 'grid', placeItems: 'center', background: 'var(--paper)', border: '1px solid var(--line)', fontFamily: 'var(--display)', fontWeight: 800, color: 'var(--muted)' }}>{bn(units.length + i + 1)}</span>
               <span><span className="t">{de}</span><br /><span className="s bn">{b}</span></span>
               <span className="tag bn">শীঘ্রই</span>
             </div>
           </div>
         ))}
 
-        <div className="card exam">
+        {!EXAMS.some((ex) => ex.level === level) && <div className="card exam">
           <div className="eyebrow bn">লেভেলের শেষে</div>
           <h3 style={{ fontSize: 20, marginTop: 4 }}>{level} মক এক্সাম</h3>
           <p className="muted bn" style={{ margin: '4px 0 0' }}>Goethe-Zertifikat {level}-এর ফরম্যাট ধরে পূর্ণ পরীক্ষা। সব ইউনিট শেষ হলে খুলবে — এটি শীঘ্রই আসছে।</p>
           <div className="mods"><span>Lesen</span><span>Hören</span><span>Schreiben</span><span>Sprechen</span></div>
-        </div>
+        </div>}
       </div>
 
       {sheet && <LessonSheet lesson={sheet} done={states.get(sheet.id) === 'done'} onClose={() => setSheet(null)} />}

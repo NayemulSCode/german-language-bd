@@ -1,0 +1,1471 @@
+{
+  "level": "B1",
+  "unit": 6,
+  "minutes": 18,
+  "lesson": 2,
+  "id": "b1-u06-l02",
+  "title": {
+    "de": "Da stimme ich zu — da nicht",
+    "bn": "সম্মতি, আপত্তি ও আংশিক একমত হওয়া",
+    "en": "Agreeing and disagreeing politely"
+  },
+  "hook": {
+    "de": "Über Geschmack lässt sich nicht streiten.",
+    "who": "Sprichwort",
+    "bn": "রুচি নিয়ে তর্ক চলে না।",
+    "en": "There is no accounting for taste."
+  },
+  "goals": [
+    "zustimmen / widersprechen / teilweise zustimmen",
+    "höflich anderer Meinung sein: Das sehe ich anders, weil …",
+    "zwar … aber, allerdings, immerhin",
+    "Thema: Homeoffice"
+  ],
+  "words": [
+    {
+      "id": "zustimmen",
+      "de": "zustimmen",
+      "pos": "ক্রিয়া · hat zugestimmt (+ Dativ)",
+      "bn": "সম্মতি জানানো",
+      "en": "to agree"
+    },
+    {
+      "id": "widersprechen",
+      "de": "widersprechen",
+      "pos": "ক্রিয়া · widerspricht, hat widersprochen (+ Dativ)",
+      "bn": "বিরোধিতা করা",
+      "en": "to contradict"
+    },
+    {
+      "id": "einverstanden",
+      "de": "einverstanden",
+      "pos": "বিশেষণ",
+      "bn": "একমত",
+      "en": "in agreement"
+    },
+    {
+      "id": "homeoffice",
+      "de": "Homeoffice",
+      "art": "das",
+      "pos": "বিশেষ্য",
+      "bn": "বাসা থেকে কাজ",
+      "en": "working from home"
+    },
+    {
+      "id": "austausch",
+      "de": "Austausch",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "আদান-প্রদান",
+      "en": "exchange"
+    },
+    {
+      "id": "produktiv",
+      "de": "produktiv",
+      "pos": "বিশেষণ",
+      "bn": "উৎপাদনশীল",
+      "en": "productive"
+    },
+    {
+      "id": "einsam",
+      "de": "einsam",
+      "pos": "বিশেষণ",
+      "bn": "একা, নিঃসঙ্গ",
+      "en": "lonely"
+    },
+    {
+      "id": "vereinbarkeit",
+      "de": "Vereinbarkeit",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "সমন্বয় (কাজ ও পরিবার)",
+      "en": "compatibility, work-life balance"
+    },
+    {
+      "id": "pendeln",
+      "de": "Pendeln",
+      "art": "das",
+      "pos": "বিশেষ্য",
+      "bn": "যাতায়াত (কর্মস্থলে)",
+      "en": "commuting"
+    },
+    {
+      "id": "allerdings",
+      "de": "allerdings",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "তবে, অবশ্য",
+      "en": "however, admittedly"
+    },
+    {
+      "id": "immerhin",
+      "de": "immerhin",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "অন্তত",
+      "en": "at least"
+    },
+    {
+      "id": "gegenargument",
+      "de": "Gegenargument",
+      "art": "das",
+      "pl": "die Gegenargumente",
+      "pos": "বিশেষ্য",
+      "bn": "পাল্টা যুক্তি",
+      "en": "counter-argument"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Tom",
+      "bn": [
+        "আমি",
+        "মনে",
+        "করি",
+        "সপ্তাহে",
+        "অন্তত",
+        "তিন",
+        "দিন",
+        "বাসা",
+        "থেকে",
+        "কাজ",
+        "করা",
+        "উচিত।",
+        "এতে",
+        "আমি",
+        "আরও",
+        "উৎপাদনশীল।"
+      ],
+      "en": [
+        "I",
+        "think",
+        "everyone",
+        "should",
+        "work",
+        "from",
+        "home",
+        "at",
+        "least",
+        "three",
+        "days",
+        "a",
+        "week.",
+        "I",
+        "am",
+        "more",
+        "productive",
+        "that",
+        "way."
+      ],
+      "de": [
+        {
+          "t": "Ich finde,",
+          "b": [
+            0,
+            1,
+            2
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Ich finde",
+          "gb": "আমি মনে করি",
+          "ge": "I think",
+          "n": ""
+        },
+        {
+          "t": "man sollte",
+          "b": [
+            11
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "man sollte",
+          "gb": "উচিত",
+          "ge": "everyone should",
+          "n": ""
+        },
+        {
+          "t": "mindestens",
+          "b": [
+            4
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "mindestens",
+          "gb": "অন্তত",
+          "ge": "at least",
+          "n": ""
+        },
+        {
+          "t": "dreimal pro Woche",
+          "b": [
+            3,
+            5,
+            6
+          ],
+          "e": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "l": "dreimal pro Woche",
+          "gb": "সপ্তাহে তিন দিন",
+          "ge": "three days a week",
+          "n": ""
+        },
+        {
+          "t": "im Homeoffice",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "im Homeoffice",
+          "gb": "বাসা থেকে",
+          "ge": "from home",
+          "n": ""
+        },
+        {
+          "t": "arbeiten.",
+          "b": [
+            9,
+            10
+          ],
+          "e": [
+            4
+          ],
+          "l": "Homeoffice",
+          "gb": "কাজ করা",
+          "ge": "work",
+          "n": ""
+        },
+        {
+          "t": "Da bin ich",
+          "b": [
+            12,
+            13
+          ],
+          "e": [
+            13,
+            14
+          ],
+          "l": "Da bin ich",
+          "gb": "এতে আমি",
+          "ge": "I am",
+          "n": ""
+        },
+        {
+          "t": "produktiver.",
+          "b": [
+            14,
+            15
+          ],
+          "e": [
+            15,
+            16,
+            17,
+            18
+          ],
+          "l": "produktiv",
+          "gb": "আরও উৎপাদনশীল",
+          "ge": "more productive that way",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "সেটা",
+        "আমি",
+        "কিছুটা",
+        "বুঝি।",
+        "আমি",
+        "আংশিক",
+        "একমত:",
+        "ভ্রমণের",
+        "সময়",
+        "বাঁচে,",
+        "অবশ্য",
+        "সহকর্মীদের",
+        "সাথে",
+        "কথা",
+        "কমে",
+        "যায়।"
+      ],
+      "en": [
+        "I",
+        "understand",
+        "that",
+        "to",
+        "some",
+        "extent.",
+        "I",
+        "partly",
+        "agree:",
+        "you",
+        "save",
+        "commuting",
+        "time,",
+        "but",
+        "there",
+        "is",
+        "less",
+        "talk",
+        "with",
+        "colleagues."
+      ],
+      "de": [
+        {
+          "t": "Das kann ich",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "Das kann ich",
+          "gb": "সেটা আমি",
+          "ge": "I understand that",
+          "n": ""
+        },
+        {
+          "t": "teilweise",
+          "b": [
+            2
+          ],
+          "e": [
+            3,
+            4,
+            5
+          ],
+          "l": "teilweise",
+          "gb": "কিছুটা",
+          "ge": "to some extent",
+          "n": ""
+        },
+        {
+          "t": "verstehen.",
+          "b": [
+            3
+          ],
+          "e": [],
+          "l": "verstehen",
+          "gb": "বুঝি",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Ich stimme",
+          "b": [
+            4,
+            6
+          ],
+          "e": [
+            6,
+            8
+          ],
+          "l": "Ich stimme",
+          "gb": "আমি একমত",
+          "ge": "I agree",
+          "n": ""
+        },
+        {
+          "t": "dir",
+          "b": [],
+          "e": [],
+          "l": "dir",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "zu:",
+          "b": [],
+          "e": [],
+          "l": "zu",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Man spart",
+          "b": [
+            9
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "Man spart",
+          "gb": "বাঁচে",
+          "ge": "you save",
+          "n": ""
+        },
+        {
+          "t": "Pendelzeit,",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            11,
+            12
+          ],
+          "l": "Pendeln",
+          "gb": "ভ্রমণের সময়",
+          "ge": "commuting time",
+          "n": ""
+        },
+        {
+          "t": "allerdings",
+          "b": [
+            10
+          ],
+          "e": [
+            13
+          ],
+          "l": "allerdings",
+          "gb": "অবশ্য",
+          "ge": "but",
+          "n": ""
+        },
+        {
+          "t": "gibt es",
+          "b": [
+            14,
+            15
+          ],
+          "e": [
+            14,
+            15
+          ],
+          "l": "gibt es",
+          "gb": "কমে যায়",
+          "ge": "there is",
+          "n": ""
+        },
+        {
+          "t": "weniger Austausch",
+          "b": [
+            13,
+            14,
+            15
+          ],
+          "e": [
+            16,
+            17
+          ],
+          "l": "weniger Austausch",
+          "gb": "কথা কমে যায়",
+          "ge": "less talk",
+          "n": ""
+        },
+        {
+          "t": "mit Kollegen.",
+          "b": [
+            11,
+            12
+          ],
+          "e": [
+            18,
+            19
+          ],
+          "l": "mit Kollegen",
+          "gb": "সহকর্মীদের সাথে",
+          "ge": "with colleagues",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Tom",
+      "bn": [
+        "কিন্তু",
+        "আমরা",
+        "তো",
+        "ভিডিও",
+        "কলে",
+        "কথা",
+        "বলতে",
+        "পারি।",
+        "তাছাড়া",
+        "অফিসে",
+        "ঘণ্টায়",
+        "ঘণ্টায়",
+        "বিঘ্ন",
+        "ঘটে।"
+      ],
+      "en": [
+        "But",
+        "we",
+        "can",
+        "talk",
+        "in",
+        "video",
+        "calls.",
+        "Besides,",
+        "there",
+        "are",
+        "interruptions",
+        "every",
+        "hour",
+        "at",
+        "the",
+        "office."
+      ],
+      "de": [
+        {
+          "t": "Aber",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Aber",
+          "gb": "কিন্তু",
+          "ge": "But",
+          "n": ""
+        },
+        {
+          "t": "wir können",
+          "b": [
+            1,
+            2,
+            7
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "wir können",
+          "gb": "আমরা তো পারি",
+          "ge": "we can",
+          "n": ""
+        },
+        {
+          "t": "doch",
+          "b": [],
+          "e": [],
+          "l": "doch",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "in Videocalls",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            4,
+            5,
+            6
+          ],
+          "l": "in Videocalls",
+          "gb": "ভিডিও কলে",
+          "ge": "in video calls",
+          "n": ""
+        },
+        {
+          "t": "sprechen.",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            3
+          ],
+          "l": "sprechen",
+          "gb": "কথা বলতে",
+          "ge": "talk",
+          "n": ""
+        },
+        {
+          "t": "Außerdem",
+          "b": [
+            8
+          ],
+          "e": [
+            7
+          ],
+          "l": "Außerdem",
+          "gb": "তাছাড়া",
+          "ge": "Besides",
+          "n": ""
+        },
+        {
+          "t": "gibt es",
+          "b": [
+            13
+          ],
+          "e": [
+            8,
+            9
+          ],
+          "l": "gibt es",
+          "gb": "ঘটে",
+          "ge": "there are",
+          "n": ""
+        },
+        {
+          "t": "im Büro",
+          "b": [
+            9
+          ],
+          "e": [
+            13,
+            14,
+            15
+          ],
+          "l": "im Büro",
+          "gb": "অফিসে",
+          "ge": "at the office",
+          "n": ""
+        },
+        {
+          "t": "ständig",
+          "b": [
+            10,
+            11
+          ],
+          "e": [
+            11,
+            12
+          ],
+          "l": "ständig",
+          "gb": "ঘণ্টায় ঘণ্টায়",
+          "ge": "every hour",
+          "n": ""
+        },
+        {
+          "t": "Unterbrechungen.",
+          "b": [
+            12
+          ],
+          "e": [
+            10
+          ],
+          "l": "Unterbrechungen",
+          "gb": "বিঘ্ন",
+          "ge": "interruptions",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "সেটা",
+        "আমি",
+        "ভিন্নভাবে",
+        "দেখি।",
+        "ভিডিও",
+        "কল",
+        "সরাসরি",
+        "দেখা",
+        "হওয়ার",
+        "বিকল্প",
+        "নয়।",
+        "আমার",
+        "ক্ষেত্রে,",
+        "আমি",
+        "বাসায়",
+        "একা",
+        "মনে",
+        "করি",
+        "আর",
+        "জার্মান",
+        "বলার",
+        "সুযোগ",
+        "কমে",
+        "যায়।"
+      ],
+      "en": [
+        "I",
+        "see",
+        "that",
+        "differently.",
+        "Video",
+        "calls",
+        "are",
+        "not",
+        "a",
+        "substitute",
+        "for",
+        "meeting",
+        "in",
+        "person.",
+        "In",
+        "my",
+        "case,",
+        "I",
+        "feel",
+        "lonely",
+        "at",
+        "home",
+        "and",
+        "there",
+        "are",
+        "fewer",
+        "chances",
+        "to",
+        "speak",
+        "German."
+      ],
+      "de": [
+        {
+          "t": "Das sehe ich",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Das sehe ich",
+          "gb": "সেটা আমি",
+          "ge": "I see",
+          "n": ""
+        },
+        {
+          "t": "anders.",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "anders",
+          "gb": "ভিন্নভাবে দেখি",
+          "ge": "that differently",
+          "n": ""
+        },
+        {
+          "t": "Videocalls",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "Videocalls",
+          "gb": "ভিডিও কল",
+          "ge": "Video calls",
+          "n": ""
+        },
+        {
+          "t": "ersetzen",
+          "b": [
+            9,
+            10
+          ],
+          "e": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "l": "ersetzen",
+          "gb": "বিকল্প নয়",
+          "ge": "are not a substitute",
+          "n": ""
+        },
+        {
+          "t": "kein persönliches Treffen.",
+          "b": [
+            6,
+            7,
+            8
+          ],
+          "e": [
+            10,
+            11,
+            12,
+            13
+          ],
+          "l": "kein persönliches Treffen",
+          "gb": "সরাসরি দেখা হওয়ার",
+          "ge": "for meeting in person",
+          "n": ""
+        },
+        {
+          "t": "Bei mir",
+          "b": [
+            11,
+            12
+          ],
+          "e": [
+            14,
+            15,
+            16
+          ],
+          "l": "Bei mir",
+          "gb": "আমার ক্ষেত্রে",
+          "ge": "In my case",
+          "n": ""
+        },
+        {
+          "t": "kommt dazu,",
+          "b": [],
+          "e": [],
+          "l": "kommt dazu",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "dass ich mich",
+          "b": [
+            13
+          ],
+          "e": [
+            17,
+            18
+          ],
+          "l": "dass ich mich",
+          "gb": "আমি",
+          "ge": "I feel",
+          "n": ""
+        },
+        {
+          "t": "zu Hause",
+          "b": [
+            14
+          ],
+          "e": [
+            20,
+            21
+          ],
+          "l": "zu Hause",
+          "gb": "বাসায়",
+          "ge": "at home",
+          "n": ""
+        },
+        {
+          "t": "einsam fühle",
+          "b": [
+            15,
+            16,
+            17
+          ],
+          "e": [
+            19
+          ],
+          "l": "einsam",
+          "gb": "একা মনে করি",
+          "ge": "lonely",
+          "n": ""
+        },
+        {
+          "t": "und weniger Deutsch spreche.",
+          "b": [
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "e": [
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29
+          ],
+          "l": "und weniger Deutsch spreche",
+          "gb": "আর জার্মান বলার সুযোগ কমে যায়",
+          "ge": "and there are fewer chances to speak German",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Tom",
+      "bn": [
+        "ঠিক,",
+        "সেটা",
+        "একটা",
+        "ভালো",
+        "পাল্টা",
+        "যুক্তি।",
+        "অন্তত",
+        "আমরা",
+        "একটা",
+        "সমঝোতা",
+        "করতে",
+        "পারি:",
+        "দুই",
+        "দিন",
+        "বাসায়,",
+        "তিন",
+        "দিন",
+        "অফিসে।"
+      ],
+      "en": [
+        "True,",
+        "that",
+        "is",
+        "a",
+        "good",
+        "counter-argument.",
+        "At",
+        "least",
+        "we",
+        "can",
+        "reach",
+        "a",
+        "compromise:",
+        "two",
+        "days",
+        "at",
+        "home,",
+        "three",
+        "days",
+        "at",
+        "the",
+        "office."
+      ],
+      "de": [
+        {
+          "t": "Stimmt,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Stimmt",
+          "gb": "ঠিক",
+          "ge": "True",
+          "n": ""
+        },
+        {
+          "t": "das ist",
+          "b": [
+            1
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "das ist",
+          "gb": "সেটা",
+          "ge": "that is",
+          "n": ""
+        },
+        {
+          "t": "ein gutes Gegenargument.",
+          "b": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "e": [
+            3,
+            4,
+            5
+          ],
+          "l": "Gegenargument",
+          "gb": "একটা ভালো পাল্টা যুক্তি",
+          "ge": "a good counter-argument",
+          "n": ""
+        },
+        {
+          "t": "Immerhin",
+          "b": [
+            6
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "immerhin",
+          "gb": "অন্তত",
+          "ge": "At least",
+          "n": ""
+        },
+        {
+          "t": "können wir",
+          "b": [
+            7,
+            11
+          ],
+          "e": [
+            8,
+            9
+          ],
+          "l": "können wir",
+          "gb": "আমরা পারি",
+          "ge": "we can",
+          "n": ""
+        },
+        {
+          "t": "einen Kompromiss",
+          "b": [
+            9
+          ],
+          "e": [
+            10,
+            11,
+            12
+          ],
+          "l": "einen Kompromiss",
+          "gb": "সমঝোতা",
+          "ge": "reach a compromise",
+          "n": ""
+        },
+        {
+          "t": "finden:",
+          "b": [
+            10
+          ],
+          "e": [],
+          "l": "finden",
+          "gb": "করতে",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "zwei Tage",
+          "b": [
+            12,
+            13
+          ],
+          "e": [
+            13,
+            14
+          ],
+          "l": "zwei Tage",
+          "gb": "দুই দিন",
+          "ge": "two days",
+          "n": ""
+        },
+        {
+          "t": "zu Hause,",
+          "b": [
+            14
+          ],
+          "e": [
+            15,
+            16
+          ],
+          "l": "zu Hause",
+          "gb": "বাসায়",
+          "ge": "at home",
+          "n": ""
+        },
+        {
+          "t": "drei im Büro.",
+          "b": [
+            15,
+            16,
+            17
+          ],
+          "e": [
+            17,
+            18,
+            19,
+            20,
+            21
+          ],
+          "l": "drei im Büro",
+          "gb": "তিন দিন অফিসে",
+          "ge": "three days at the office",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "ওটার",
+        "সাথে",
+        "আমি",
+        "একমত।",
+        "ওটা",
+        "আমার",
+        "কাছে",
+        "একটা",
+        "ভালো",
+        "সমাধান",
+        "মনে",
+        "হয়।"
+      ],
+      "en": [
+        "I",
+        "agree",
+        "with",
+        "that.",
+        "That",
+        "seems",
+        "a",
+        "good",
+        "solution",
+        "to",
+        "me."
+      ],
+      "de": [
+        {
+          "t": "Damit",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "Damit",
+          "gb": "ওটার সাথে",
+          "ge": "with that",
+          "n": ""
+        },
+        {
+          "t": "bin ich",
+          "b": [
+            2
+          ],
+          "e": [
+            0
+          ],
+          "l": "bin ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "einverstanden.",
+          "b": [
+            3
+          ],
+          "e": [
+            1
+          ],
+          "l": "einverstanden",
+          "gb": "একমত",
+          "ge": "agree",
+          "n": ""
+        },
+        {
+          "t": "Das",
+          "b": [
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "Das",
+          "gb": "ওটা",
+          "ge": "That",
+          "n": ""
+        },
+        {
+          "t": "scheint",
+          "b": [
+            10,
+            11
+          ],
+          "e": [
+            5
+          ],
+          "l": "scheint",
+          "gb": "মনে হয়",
+          "ge": "seems",
+          "n": ""
+        },
+        {
+          "t": "mir",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "mir",
+          "gb": "আমার কাছে",
+          "ge": "to me",
+          "n": ""
+        },
+        {
+          "t": "eine gute Lösung.",
+          "b": [
+            7,
+            8,
+            9
+          ],
+          "e": [
+            6,
+            7,
+            8
+          ],
+          "l": "eine gute Lösung",
+          "gb": "একটা ভালো সমাধান",
+          "ge": "a good solution",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "Zustimmen, widersprechen, teilweise zustimmen",
+      "head": [
+        "Funktion",
+        "Formulierung"
+      ],
+      "rows": [
+        [
+          "volle Zustimmung",
+          "Da stimme ich dir zu. / Das sehe ich genauso. / Da hast du völlig recht."
+        ],
+        [
+          "teilweise Zustimmung",
+          "Das stimmt zum Teil, aber … / Ich bin teilweise einverstanden."
+        ],
+        [
+          "höflicher Widerspruch",
+          "Das sehe ich anders, weil … / Da bin ich anderer Meinung."
+        ],
+        [
+          "starker Widerspruch",
+          "Das stimmt so nicht. / Da muss ich widersprechen."
+        ],
+        [
+          "Kompromiss",
+          "Wie wäre es, wenn …? / Ein Kompromiss wäre, …"
+        ]
+      ],
+      "note": "zustimmen/widersprechen + Dativ: „Ich stimme dir zu.“ „Ich widerspreche ihm.“ Zustimmung immer mit „zu“ ক্রিয়ার শেষে।"
+    },
+    {
+      "type": "table",
+      "title": "Konnektoren der Einschränkung",
+      "head": [
+        "Konnektor",
+        "Beispiel"
+      ],
+      "rows": [
+        [
+          "zwar … aber",
+          "Homeoffice ist zwar bequem, aber man ist oft allein."
+        ],
+        [
+          "allerdings",
+          "Man spart Zeit, allerdings gibt es weniger Austausch."
+        ],
+        [
+          "immerhin",
+          "Immerhin kann man Pendelzeit sparen."
+        ],
+        [
+          "trotzdem",
+          "Es ist anstrengend. Trotzdem mag ich es."
+        ],
+        [
+          "dennoch",
+          "Dennoch möchte ich ins Büro gehen."
+        ]
+      ],
+      "note": "allerdings/immerhin/trotzdem ক্রিয়াবিশেষণ — বাক্যের শুরুতে বসলে ক্রিয়া ২য় স্থানে।"
+    },
+    {
+      "type": "table",
+      "title": "Homeoffice — Argumente",
+      "head": [
+        "Dafür",
+        "Dagegen"
+      ],
+      "rows": [
+        [
+          "kein Pendeln, Zeit und Geld gespart",
+          "weniger persönlicher Kontakt"
+        ],
+        [
+          "flexible Arbeitszeit",
+          "Trennung von Arbeit und Privatleben schwierig"
+        ],
+        [
+          "ruhiger, mehr Konzentration",
+          "Technik und Internet müssen funktionieren"
+        ],
+        [
+          "bessere Vereinbarkeit von Beruf und Familie",
+          "Gefahr der Einsamkeit"
+        ]
+      ],
+      "note": "যুক্তি দেওয়ার সময় ব্যক্তিগত অভিজ্ঞতা যোগ করুন: „Bei mir ist das so: …“"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "das Homeoffice",
+      "options": [
+        "পাল্টা যুক্তি",
+        "বিরোধিতা করা",
+        "বাসা থেকে কাজ",
+        "আদান-প্রদান"
+      ],
+      "answer": 2,
+      "why": "das Homeoffice = বাসা থেকে কাজ।",
+      "word": "homeoffice"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "widersprechen",
+      "options": [
+        "একমত",
+        "বিরোধিতা করা",
+        "উৎপাদনশীল",
+        "যাতায়াত"
+      ],
+      "answer": 1,
+      "why": "widersprechen = বিরোধিতা করা।",
+      "word": "widersprechen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "allerdings",
+      "options": [
+        "বিরোধিতা করা",
+        "আদান-প্রদান",
+        "সমন্বয়",
+        "তবে"
+      ],
+      "answer": 3,
+      "why": "allerdings = তবে।",
+      "word": "allerdings"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Vereinbarkeit",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Vereinbarkeit।",
+      "word": "vereinbarkeit"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ich stimme ___ zu.",
+      "options": [
+        "dir",
+        "dich",
+        "du",
+        "dein"
+      ],
+      "answer": 0,
+      "why": "zustimmen + Dativ।",
+      "word": "zustimmen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Das sehe ich anders“ কী বোঝায়?",
+      "options": [
+        "আমি ভিন্ন মত পোষণ করি",
+        "আমি একমত",
+        "আমি বুঝতে পারছি না",
+        "আমি দেখতে পাচ্ছি না"
+      ],
+      "answer": 0,
+      "why": "höflicher Widerspruch।",
+      "word": "widersprechen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„teilweise einverstanden“ মানে কী?",
+      "options": [
+        "আংশিক একমত",
+        "পুরো একমত",
+        "মোটেও একমত নয়",
+        "রাজি নই"
+      ],
+      "answer": 0,
+      "why": "teilweise = partly।",
+      "word": "einverstanden"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক বাক্য কোনটি?",
+      "options": [
+        "Homeoffice ist zwar bequem, aber man ist oft allein.",
+        "Homeoffice zwar ist bequem, aber ist man oft allein.",
+        "Zwar Homeoffice bequem ist, aber man allein oft ist.",
+        "Homeoffice ist bequem zwar, man aber allein oft ist."
+      ],
+      "answer": 0,
+      "why": "zwar … aber।",
+      "word": "allerdings"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„immerhin“ মানে কী?",
+      "options": [
+        "অন্তত",
+        "কখনো না",
+        "সবসময়",
+        "কেন"
+      ],
+      "answer": 0,
+      "why": "immerhin = at least।",
+      "word": "immerhin"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „আমি তোমার সাথে একমত।“",
+      "tiles": [
+        "dir",
+        "ich",
+        "zu.",
+        "stimme",
+        "Da"
+      ],
+      "answer": [
+        "Da",
+        "stimme",
+        "ich",
+        "dir",
+        "zu."
+      ],
+      "why": "zustimmen: trennbar।",
+      "word": "zustimmen"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

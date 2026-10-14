@@ -1,0 +1,1505 @@
+{
+  "level": "A2",
+  "unit": 10,
+  "minutes": 16,
+  "lesson": 1,
+  "id": "a2-u10-l01",
+  "title": {
+    "de": "Anmeldung beim Bürgeramt",
+    "bn": "বাসস্থান নিবন্ধন (Anmeldung)",
+    "en": "Registering your address"
+  },
+  "hook": {
+    "de": "Ordnung muss sein.",
+    "who": "Redensart",
+    "bn": "নিয়মকানুন মেনে চলতে হয়।",
+    "en": "There must be order."
+  },
+  "goals": [
+    "জার্মানিতে ঠিকানা নিবন্ধন করতে হয় (সাধারণত ১৪ দিনের মধ্যে)",
+    "ফর্মের শব্দ: Name, Vorname, Geburtsdatum, Staatsangehörigkeit, Familienstand",
+    "Sie-Imperativ: Füllen Sie das Formular aus",
+    "কী কাগজপত্র আনবেন"
+  ],
+  "words": [
+    {
+      "id": "buergeramt",
+      "de": "Bürgeramt",
+      "art": "das",
+      "pl": "die Bürgerämter",
+      "pos": "বিশেষ্য",
+      "bn": "নাগরিক সেবা অফিস",
+      "en": "citizens’ office"
+    },
+    {
+      "id": "wohnsitz",
+      "de": "Wohnsitz",
+      "art": "der",
+      "pl": "die Wohnsitze",
+      "pos": "বিশেষ্য",
+      "bn": "বাসস্থান",
+      "en": "place of residence"
+    },
+    {
+      "id": "formular",
+      "de": "Formular",
+      "art": "das",
+      "pl": "die Formulare",
+      "pos": "বিশেষ্য",
+      "bn": "ফর্ম",
+      "en": "form"
+    },
+    {
+      "id": "ausfuellen",
+      "de": "ausfüllen",
+      "pos": "ক্রিয়া · hat ausgefüllt",
+      "bn": "ফর্ম পূরণ করা",
+      "en": "to fill in"
+    },
+    {
+      "id": "meldebescheinigung",
+      "de": "Meldebescheinigung",
+      "art": "die",
+      "pl": "die Meldebescheinigungen",
+      "pos": "বিশেষ্য",
+      "bn": "নিবন্ধনের প্রমাণপত্র",
+      "en": "registration certificate"
+    },
+    {
+      "id": "wohnungsgeberbestaetigung",
+      "de": "Wohnungsgeberbestätigung",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "বাড়িওয়ালার সনদ",
+      "en": "landlord confirmation"
+    },
+    {
+      "id": "staatsangehoerigkeit",
+      "de": "Staatsangehörigkeit",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "নাগরিকত্ব",
+      "en": "nationality"
+    },
+    {
+      "id": "geburtsdatum",
+      "de": "Geburtsdatum",
+      "art": "das",
+      "pos": "বিশেষ্য",
+      "bn": "জন্মতারিখ",
+      "en": "date of birth"
+    },
+    {
+      "id": "ledig",
+      "de": "ledig",
+      "pos": "বিশেষণ",
+      "bn": "অবিবাহিত",
+      "en": "single (unmarried)"
+    },
+    {
+      "id": "verheiratet",
+      "de": "verheiratet",
+      "pos": "বিশেষণ",
+      "bn": "বিবাহিত",
+      "en": "married"
+    },
+    {
+      "id": "unterschrift",
+      "de": "Unterschrift",
+      "art": "die",
+      "pl": "die Unterschriften",
+      "pos": "বিশেষ্য",
+      "bn": "স্বাক্ষর",
+      "en": "signature"
+    },
+    {
+      "id": "innerhalb",
+      "de": "innerhalb",
+      "pos": "অব্যয়",
+      "bn": "এর মধ্যে",
+      "en": "within"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Beamtin",
+      "bn": [
+        "শুভ",
+        "দিন।",
+        "আমি",
+        "আপনার",
+        "জন্য",
+        "কী",
+        "করতে",
+        "পারি?"
+      ],
+      "en": [
+        "Good",
+        "day.",
+        "What",
+        "can",
+        "I",
+        "do",
+        "for",
+        "you?"
+      ],
+      "de": [
+        {
+          "t": "Guten Tag.",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Guten Tag",
+          "gb": "শুভ দিন",
+          "ge": "Good day",
+          "n": ""
+        },
+        {
+          "t": "Was",
+          "b": [
+            5
+          ],
+          "e": [
+            2
+          ],
+          "l": "Was",
+          "gb": "কী",
+          "ge": "What",
+          "n": ""
+        },
+        {
+          "t": "kann",
+          "b": [
+            7
+          ],
+          "e": [
+            3
+          ],
+          "l": "kann",
+          "gb": "পারি",
+          "ge": "can",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "für Sie",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "für Sie",
+          "gb": "আপনার জন্য",
+          "ge": "for you",
+          "n": ""
+        },
+        {
+          "t": "tun?",
+          "b": [],
+          "e": [
+            5
+          ],
+          "l": "tun",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "do",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "শুভ",
+        "দিন,",
+        "আমি",
+        "আমার",
+        "বাসস্থান",
+        "নিবন্ধন",
+        "করতে",
+        "চাই।",
+        "আমি",
+        "এক",
+        "সপ্তাহ",
+        "আগে",
+        "এসে",
+        "উঠেছি।"
+      ],
+      "en": [
+        "Good",
+        "day,",
+        "I",
+        "would",
+        "like",
+        "to",
+        "register",
+        "my",
+        "address.",
+        "I",
+        "moved",
+        "in",
+        "a",
+        "week",
+        "ago."
+      ],
+      "de": [
+        {
+          "t": "Guten Tag,",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Guten Tag",
+          "gb": "শুভ দিন",
+          "ge": "Good day",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "möchte",
+          "b": [
+            7
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "möchte",
+          "gb": "চাই",
+          "ge": "would like",
+          "n": ""
+        },
+        {
+          "t": "meinen",
+          "b": [
+            3
+          ],
+          "e": [
+            7
+          ],
+          "l": "meinen",
+          "gb": "আমার",
+          "ge": "my",
+          "n": ""
+        },
+        {
+          "t": "Wohnsitz",
+          "b": [
+            4
+          ],
+          "e": [
+            8
+          ],
+          "l": "Wohnsitz",
+          "gb": "বাসস্থান",
+          "ge": "address",
+          "n": ""
+        },
+        {
+          "t": "anmelden.",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "sich anmelden",
+          "gb": "নিবন্ধন করতে",
+          "ge": "to register",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            8
+          ],
+          "e": [
+            9
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "bin",
+          "b": [],
+          "e": [],
+          "l": "bin",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "vor einer Woche",
+          "b": [
+            9,
+            10,
+            11
+          ],
+          "e": [
+            12,
+            13,
+            14
+          ],
+          "l": "vor einer Woche",
+          "gb": "এক সপ্তাহ আগে",
+          "ge": "a week ago",
+          "n": ""
+        },
+        {
+          "t": "eingezogen.",
+          "b": [
+            13
+          ],
+          "e": [
+            10,
+            11
+          ],
+          "l": "einziehen",
+          "gb": "উঠেছি",
+          "ge": "moved in",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Beamtin",
+      "bn": [
+        "ভালো,",
+        "কারণ",
+        "চৌদ্দ",
+        "দিনের",
+        "মধ্যে",
+        "নিবন্ধন",
+        "করতে",
+        "হয়।",
+        "আপনার",
+        "সাথে",
+        "পাসপোর্ট",
+        "আছে?"
+      ],
+      "en": [
+        "Good,",
+        "because",
+        "you",
+        "have",
+        "to",
+        "register",
+        "within",
+        "fourteen",
+        "days.",
+        "Do",
+        "you",
+        "have",
+        "your",
+        "passport",
+        "with",
+        "you?"
+      ],
+      "de": [
+        {
+          "t": "Das",
+          "b": [],
+          "e": [],
+          "l": "Das",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "ist gut,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "ist gut",
+          "gb": "ভালো",
+          "ge": "Good",
+          "n": ""
+        },
+        {
+          "t": "denn",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "denn",
+          "gb": "কারণ",
+          "ge": "because",
+          "n": ""
+        },
+        {
+          "t": "man",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "man",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "muss",
+          "b": [
+            7
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "muss",
+          "gb": "হয়",
+          "ge": "have to",
+          "n": ""
+        },
+        {
+          "t": "sich",
+          "b": [],
+          "e": [],
+          "l": "sich",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "innerhalb von",
+          "b": [
+            4
+          ],
+          "e": [
+            6
+          ],
+          "l": "innerhalb",
+          "gb": "মধ্যে",
+          "ge": "within",
+          "n": ""
+        },
+        {
+          "t": "vierzehn Tagen",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "vierzehn Tagen",
+          "gb": "চৌদ্দ দিনের",
+          "ge": "fourteen days",
+          "n": ""
+        },
+        {
+          "t": "anmelden.",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            5
+          ],
+          "l": "sich anmelden",
+          "gb": "নিবন্ধন করতে",
+          "ge": "register",
+          "n": ""
+        },
+        {
+          "t": "Haben",
+          "b": [
+            11
+          ],
+          "e": [
+            9
+          ],
+          "l": "Haben",
+          "gb": "আছে",
+          "ge": "Do",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [
+            8
+          ],
+          "e": [
+            10
+          ],
+          "l": "Sie",
+          "gb": "আপনার",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "Ihren Reisepass",
+          "b": [
+            10
+          ],
+          "e": [
+            11,
+            12,
+            13
+          ],
+          "l": "Reisepass",
+          "gb": "পাসপোর্ট",
+          "ge": "have your passport",
+          "n": ""
+        },
+        {
+          "t": "dabei?",
+          "b": [
+            9
+          ],
+          "e": [
+            14,
+            15
+          ],
+          "l": "dabei",
+          "gb": "সাথে",
+          "ge": "with you",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "হ্যাঁ,",
+        "এই",
+        "যে।",
+        "আর",
+        "আমার",
+        "কাছে",
+        "বাড়িওয়ালার",
+        "কাছ",
+        "থেকে",
+        "সনদও",
+        "আছে।"
+      ],
+      "en": [
+        "Yes,",
+        "here",
+        "it",
+        "is.",
+        "And",
+        "I",
+        "also",
+        "have",
+        "the",
+        "confirmation",
+        "from",
+        "my",
+        "landlord."
+      ],
+      "de": [
+        {
+          "t": "Ja,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ja",
+          "gb": "হ্যাঁ",
+          "ge": "Yes",
+          "n": ""
+        },
+        {
+          "t": "hier.",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            1,
+            2,
+            3
+          ],
+          "l": "hier",
+          "gb": "এই যে",
+          "ge": "here it is",
+          "n": ""
+        },
+        {
+          "t": "Und",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "ich",
+          "gb": "আমার",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [
+            10
+          ],
+          "e": [
+            7
+          ],
+          "l": "habe",
+          "gb": "আছে",
+          "ge": "have",
+          "n": ""
+        },
+        {
+          "t": "auch",
+          "b": [],
+          "e": [
+            6
+          ],
+          "l": "auch",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "also",
+          "n": ""
+        },
+        {
+          "t": "die Bestätigung",
+          "b": [
+            9
+          ],
+          "e": [
+            8,
+            9
+          ],
+          "l": "Wohnungsgeberbestätigung",
+          "gb": "সনদও",
+          "ge": "the confirmation",
+          "n": ""
+        },
+        {
+          "t": "von meinem Vermieter.",
+          "b": [
+            6,
+            7,
+            8
+          ],
+          "e": [
+            10,
+            11,
+            12
+          ],
+          "l": "Vermieter",
+          "gb": "বাড়িওয়ালার কাছ থেকে",
+          "ge": "from my landlord",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Beamtin",
+      "bn": [
+        "খুব",
+        "ভালো।",
+        "দয়া",
+        "করে",
+        "এই",
+        "ফর্ম",
+        "পূরণ",
+        "করুন:",
+        "পদবি,",
+        "নাম,",
+        "জন্মতারিখ,",
+        "নাগরিকত্ব",
+        "আর",
+        "বৈবাহিক",
+        "অবস্থা।"
+      ],
+      "en": [
+        "Very",
+        "good.",
+        "Please",
+        "fill",
+        "in",
+        "this",
+        "form:",
+        "surname,",
+        "first",
+        "name,",
+        "date",
+        "of",
+        "birth,",
+        "nationality",
+        "and",
+        "marital",
+        "status."
+      ],
+      "de": [
+        {
+          "t": "Sehr gut.",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Sehr gut",
+          "gb": "খুব ভালো",
+          "ge": "Very good",
+          "n": ""
+        },
+        {
+          "t": "Füllen",
+          "b": [
+            6
+          ],
+          "e": [
+            3
+          ],
+          "l": "ausfüllen",
+          "gb": "পূরণ",
+          "ge": "fill",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [
+            7
+          ],
+          "e": [],
+          "l": "Sie",
+          "gb": "করুন",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "bitte",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "bitte",
+          "gb": "দয়া করে",
+          "ge": "Please",
+          "n": ""
+        },
+        {
+          "t": "dieses Formular",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            4,
+            5,
+            6
+          ],
+          "l": "Formular",
+          "gb": "এই ফর্ম",
+          "ge": "in this form",
+          "n": ""
+        },
+        {
+          "t": "aus:",
+          "b": [],
+          "e": [],
+          "l": "aus",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Name,",
+          "b": [
+            8
+          ],
+          "e": [
+            7
+          ],
+          "l": "Name",
+          "gb": "পদবি",
+          "ge": "surname",
+          "n": ""
+        },
+        {
+          "t": "Vorname,",
+          "b": [
+            9
+          ],
+          "e": [
+            8,
+            9
+          ],
+          "l": "Vorname",
+          "gb": "নাম",
+          "ge": "first name",
+          "n": ""
+        },
+        {
+          "t": "Geburtsdatum,",
+          "b": [
+            10
+          ],
+          "e": [
+            10,
+            11,
+            12
+          ],
+          "l": "Geburtsdatum",
+          "gb": "জন্মতারিখ",
+          "ge": "date of birth",
+          "n": ""
+        },
+        {
+          "t": "Staatsangehörigkeit",
+          "b": [
+            11
+          ],
+          "e": [
+            13
+          ],
+          "l": "Staatsangehörigkeit",
+          "gb": "নাগরিকত্ব",
+          "ge": "nationality",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            12
+          ],
+          "e": [
+            14
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "Familienstand.",
+          "b": [
+            13,
+            14
+          ],
+          "e": [
+            15,
+            16
+          ],
+          "l": "Familienstand",
+          "gb": "বৈবাহিক অবস্থা",
+          "ge": "marital status",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "„Familienstand“",
+        "মানে",
+        "কী?",
+        "আমাকে",
+        "কি",
+        "„ledig“",
+        "লিখতে",
+        "হবে",
+        "নাকি",
+        "„verheiratet“?"
+      ],
+      "en": [
+        "What",
+        "does",
+        "“Familienstand”",
+        "mean?",
+        "Do",
+        "I",
+        "have",
+        "to",
+        "write",
+        "“ledig”",
+        "or",
+        "“verheiratet”?"
+      ],
+      "de": [
+        {
+          "t": "Was",
+          "b": [
+            2
+          ],
+          "e": [
+            0
+          ],
+          "l": "Was",
+          "gb": "কী",
+          "ge": "What",
+          "n": ""
+        },
+        {
+          "t": "bedeutet",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "bedeutet",
+          "gb": "মানে",
+          "ge": "does",
+          "n": ""
+        },
+        {
+          "t": "„Familienstand“?",
+          "s": "Familienstand",
+          "b": [
+            0
+          ],
+          "e": [
+            2
+          ],
+          "l": "„Familienstand“",
+          "gb": "„Familienstand“",
+          "ge": "“Familienstand”",
+          "n": ""
+        },
+        {
+          "t": "Muss",
+          "b": [
+            7
+          ],
+          "e": [
+            4
+          ],
+          "l": "Muss",
+          "gb": "হবে",
+          "ge": "Do",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            3
+          ],
+          "e": [
+            5
+          ],
+          "l": "ich",
+          "gb": "আমাকে",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "„ledig“",
+          "b": [
+            5
+          ],
+          "e": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "l": "ledig",
+          "gb": "„ledig“",
+          "ge": "have to write “ledig”",
+          "n": ""
+        },
+        {
+          "t": "oder",
+          "b": [
+            8
+          ],
+          "e": [
+            10
+          ],
+          "l": "oder",
+          "gb": "নাকি",
+          "ge": "or",
+          "n": ""
+        },
+        {
+          "t": "„verheiratet“",
+          "b": [
+            9
+          ],
+          "e": [
+            11
+          ],
+          "l": "verheiratet",
+          "gb": "„verheiratet“",
+          "ge": "“verheiratet”",
+          "n": ""
+        },
+        {
+          "t": "schreiben?",
+          "b": [
+            6
+          ],
+          "e": [
+            8
+          ],
+          "l": "schreiben",
+          "gb": "লিখতে",
+          "ge": "write",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Beamtin",
+      "bn": [
+        "ঠিক।",
+        "আপনি",
+        "কি",
+        "অবিবাহিত?",
+        "তাহলে",
+        "„ledig“",
+        "লিখুন",
+        "আর",
+        "নিচে",
+        "সই",
+        "করুন।"
+      ],
+      "en": [
+        "Exactly.",
+        "Are",
+        "you",
+        "single?",
+        "Then",
+        "write",
+        "“ledig”",
+        "and",
+        "sign",
+        "at",
+        "the",
+        "bottom."
+      ],
+      "de": [
+        {
+          "t": "Genau.",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Genau",
+          "gb": "ঠিক",
+          "ge": "Exactly",
+          "n": ""
+        },
+        {
+          "t": "Sind",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "Sind",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "Are",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "Sie",
+          "gb": "আপনি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "ledig?",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "ledig",
+          "gb": "অবিবাহিত",
+          "ge": "single",
+          "n": ""
+        },
+        {
+          "t": "Dann",
+          "b": [
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "Dann",
+          "gb": "তাহলে",
+          "ge": "Then",
+          "n": ""
+        },
+        {
+          "t": "schreiben",
+          "b": [
+            6
+          ],
+          "e": [
+            5
+          ],
+          "l": "schreiben",
+          "gb": "লিখুন",
+          "ge": "write",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [],
+          "e": [],
+          "l": "Sie",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "„ledig“",
+          "b": [
+            5
+          ],
+          "e": [
+            6
+          ],
+          "l": "„ledig“",
+          "gb": "„ledig“",
+          "ge": "“ledig”",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            7
+          ],
+          "e": [
+            7
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "unterschreiben",
+          "b": [
+            9,
+            10
+          ],
+          "e": [
+            8
+          ],
+          "l": "unterschreiben",
+          "gb": "সই করুন",
+          "ge": "sign",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [],
+          "e": [],
+          "l": "Sie",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "unten.",
+          "b": [
+            8
+          ],
+          "e": [
+            9,
+            10,
+            11
+          ],
+          "l": "unten",
+          "gb": "নিচে",
+          "ge": "at the bottom",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "ফর্মের সাধারণ ঘর",
+      "head": [
+        "জার্মান",
+        "বাংলা"
+      ],
+      "rows": [
+        [
+          "Name / Familienname",
+          "পদবি / পারিবারিক নাম"
+        ],
+        [
+          "Vorname",
+          "প্রথম নাম"
+        ],
+        [
+          "Geburtsdatum",
+          "জন্মতারিখ"
+        ],
+        [
+          "Geburtsort",
+          "জন্মস্থান"
+        ],
+        [
+          "Staatsangehörigkeit",
+          "নাগরিকত্ব"
+        ],
+        [
+          "Familienstand (ledig / verheiratet / geschieden)",
+          "বৈবাহিক অবস্থা"
+        ],
+        [
+          "Anschrift / Adresse",
+          "ঠিকানা"
+        ],
+        [
+          "Unterschrift",
+          "স্বাক্ষর"
+        ]
+      ],
+      "note": "জার্মান ফর্মে „Name“ বা „Nachname“ মানে পরিবারের নাম, „Vorname“ মানে প্রথম নাম। বাংলাভাষীদের নামের বেলায় কোনটা কোথায় যাবে ঠিক করে নিন — পাসপোর্টের সাথে মিলিয়ে।"
+    },
+    {
+      "type": "table",
+      "title": "Anmeldung: কী কী লাগে?",
+      "head": [
+        "কাগজ",
+        "কীসের জন্য"
+      ],
+      "rows": [
+        [
+          "Reisepass / Personalausweis",
+          "পরিচয়ের প্রমাণ"
+        ],
+        [
+          "Wohnungsgeberbestätigung",
+          "বাড়িওয়ালার সনদ (আপনি যে ওখানে থাকেন)"
+        ],
+        [
+          "ausgefülltes Formular",
+          "পূরণ করা নিবন্ধন-ফর্ম"
+        ],
+        [
+          "Mietvertrag (manchmal)",
+          "ভাড়াচুক্তি"
+        ]
+      ],
+      "note": "নিয়ম: নতুন বাসায় ওঠার পর সাধারণত ১৪ দিনের মধ্যে নিবন্ধন করতে হয়। অ্যাপয়েন্টমেন্ট আগে থেকে অনলাইনে নিতে হতে পারে — শহরের ওয়েবসাইট দেখুন। মেলডেবেশাইনিগুং (Meldebescheinigung) ব্যাংক, চাকরি ও ভাড়ায় লাগে।"
+    },
+    {
+      "type": "text",
+      "title": "Imperativ (Sie) অফিসে",
+      "text": "„Füllen Sie das Formular aus.“ · „Unterschreiben Sie bitte hier.“ · „Warten Sie bitte im Flur.“ · „Bringen Sie alle Unterlagen mit.“ — Sie-Imperativ ভদ্র নির্দেশ: ক্রিয়া + Sie। ভাঙা ক্রিয়ার উপসর্গ শেষে (füllen … aus)।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "das Formular",
+      "options": [
+        "এর মধ্যে",
+        "বাসস্থান",
+        "নিবন্ধনের প্রমাণপত্র",
+        "ফর্ম"
+      ],
+      "answer": 3,
+      "why": "das Formular = ফর্ম।",
+      "word": "formular"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "ausfüllen",
+      "options": [
+        "স্বাক্ষর",
+        "ফর্ম পূরণ করা",
+        "বাসস্থান",
+        "বাড়িওয়ালার সনদ"
+      ],
+      "answer": 1,
+      "why": "ausfüllen = ফর্ম পূরণ করা।",
+      "word": "ausfuellen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "die Staatsangehörigkeit",
+      "options": [
+        "বাসস্থান",
+        "নাগরিকত্ব",
+        "নিবন্ধনের প্রমাণপত্র",
+        "অবিবাহিত"
+      ],
+      "answer": 1,
+      "why": "die Staatsangehörigkeit = নাগরিকত্ব।",
+      "word": "staatsangehoerigkeit"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Meldebescheinigung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Meldebescheinigung। বহুবচন: die Meldebescheinigungen।",
+      "word": "meldebescheinigung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„ledig“ মানে কী?",
+      "options": [
+        "অবিবাহিত",
+        "বিবাহিত",
+        "বিধবা",
+        "ছাত্র"
+      ],
+      "answer": 0,
+      "why": "ledig = single।",
+      "word": "ledig"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক বাক্য কোনটি?",
+      "options": [
+        "Füllen Sie das Formular aus.",
+        "Sie füllen aus das Formular.",
+        "Füllen aus Sie das Formular.",
+        "Aus füllen Sie das Formular."
+      ],
+      "answer": 0,
+      "why": "Sie-Imperativ: ভাঙা উপসর্গ শেষে।",
+      "word": "ausfuellen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Anmeldung কত দিনের মধ্যে করতে হয়?",
+      "options": [
+        "সাধারণত ১৪ দিন",
+        "১ দিন",
+        "১ বছর",
+        "৬ মাস"
+      ],
+      "answer": 0,
+      "why": "innerhalb von 14 Tagen।",
+      "word": "innerhalb"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "innerhalb von vierzehn ___",
+      "options": [
+        "Tagen",
+        "Tage",
+        "Tag",
+        "Tags"
+      ],
+      "answer": 0,
+      "why": "innerhalb von + Dativ Plural।",
+      "word": "innerhalb"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Unterschrift-এর আর্টিকেল কী?",
+      "options": [
+        "die",
+        "der",
+        "das",
+        "den"
+      ],
+      "answer": 0,
+      "why": "die Unterschrift।",
+      "word": "unterschrift"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „দয়া করে এখানে সই করুন।“",
+      "tiles": [
+        "hier.",
+        "bitte",
+        "Unterschreiben",
+        "Sie"
+      ],
+      "answer": [
+        "Unterschreiben",
+        "Sie",
+        "bitte",
+        "hier."
+      ],
+      "why": "Imperativ (Sie)।",
+      "word": "unterschrift"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

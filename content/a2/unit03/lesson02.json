@@ -1,0 +1,1080 @@
+{
+  "level": "A2",
+  "unit": 3,
+  "minutes": 16,
+  "lesson": 2,
+  "id": "a2-u03-l02",
+  "title": {
+    "de": "Eine Fahrkarte nach München",
+    "bn": "স্টেশনে: টিকিট, প্ল্যাটফর্ম, ট্রেন বদল",
+    "en": "At the station: tickets, platforms and changes"
+  },
+  "hook": {
+    "de": "Wer reist, der lebt.",
+    "who": "Redensart",
+    "bn": "যে ভ্রমণ করে সে-ই সত্যিই বাঁচে।",
+    "en": "Whoever travels, lives."
+  },
+  "goals": [
+    "টিকিট কেনা: einfach / hin und zurück",
+    "অফিশিয়াল সময়: vierzehn Uhr fünfunddreißig",
+    "Gleis, Abfahrt, Ankunft, umsteigen",
+    "Wann fährt …? Von welchem Gleis?"
+  ],
+  "words": [
+    {
+      "id": "fahrkarte",
+      "de": "Fahrkarte",
+      "art": "die",
+      "pl": "die Fahrkarten",
+      "pos": "বিশেষ্য",
+      "bn": "ট্রেন বা বাসের টিকিট",
+      "en": "ticket"
+    },
+    {
+      "id": "einfach",
+      "de": "einfach",
+      "pos": "বিশেষণ/ক্রিয়াবিশেষণ",
+      "bn": "এক পথের (টিকিট)",
+      "en": "one-way"
+    },
+    {
+      "id": "hin_und_zurueck",
+      "de": "hin und zurück",
+      "pos": "অভিব্যক্তি",
+      "bn": "আসা-যাওয়ার",
+      "en": "return"
+    },
+    {
+      "id": "gleis",
+      "de": "Gleis",
+      "art": "das",
+      "pl": "die Gleise",
+      "pos": "বিশেষ্য",
+      "bn": "প্ল্যাটফর্ম, লাইন",
+      "en": "platform, track"
+    },
+    {
+      "id": "abfahrt",
+      "de": "Abfahrt",
+      "art": "die",
+      "pl": "die Abfahrten",
+      "pos": "বিশেষ্য",
+      "bn": "ছাড়ার সময়",
+      "en": "departure"
+    },
+    {
+      "id": "ankunft",
+      "de": "Ankunft",
+      "art": "die",
+      "pl": "die Ankünfte",
+      "pos": "বিশেষ্য",
+      "bn": "পৌঁছানোর সময়",
+      "en": "arrival"
+    },
+    {
+      "id": "umsteigen",
+      "de": "umsteigen",
+      "pos": "ক্রিয়া · ist umgestiegen",
+      "bn": "ট্রেন/বাস বদলানো",
+      "en": "to change (trains)"
+    },
+    {
+      "id": "reservieren",
+      "de": "reservieren",
+      "pos": "ক্রিয়া · hat reserviert",
+      "bn": "আগে থেকে ঠিক করে রাখা",
+      "en": "to reserve"
+    },
+    {
+      "id": "verbindung",
+      "de": "Verbindung",
+      "art": "die",
+      "pl": "die Verbindungen",
+      "pos": "বিশেষ্য",
+      "bn": "যোগাযোগ, ট্রেনের সংযোগ",
+      "en": "connection"
+    },
+    {
+      "id": "schalter",
+      "de": "Schalter",
+      "art": "der",
+      "pl": "die Schalter",
+      "pos": "বিশেষ্য",
+      "bn": "কাউন্টার",
+      "en": "counter"
+    },
+    {
+      "id": "direkt",
+      "de": "direkt",
+      "pos": "বিশেষণ",
+      "bn": "সরাসরি",
+      "en": "direct"
+    },
+    {
+      "id": "platz",
+      "de": "Platz",
+      "art": "der",
+      "pl": "die Plätze",
+      "pos": "বিশেষ্য",
+      "bn": "আসন, জায়গা",
+      "en": "seat, place"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Saheb",
+      "bn": [
+        "শুভ",
+        "দিন,",
+        "আমি",
+        "মিউনিখের",
+        "একটি",
+        "টিকিট",
+        "চাই।"
+      ],
+      "en": [
+        "Good",
+        "day,",
+        "I",
+        "would",
+        "like",
+        "a",
+        "ticket",
+        "to",
+        "Munich."
+      ],
+      "de": [
+        {
+          "t": "Guten Tag,",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Guten Tag",
+          "gb": "শুভ দিন",
+          "ge": "Good day",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "möchte",
+          "b": [
+            6
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "möchte",
+          "gb": "চাই",
+          "ge": "would like",
+          "n": ""
+        },
+        {
+          "t": "eine",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "eine",
+          "gb": "একটি",
+          "ge": "a",
+          "n": ""
+        },
+        {
+          "t": "Fahrkarte",
+          "b": [
+            5
+          ],
+          "e": [
+            6
+          ],
+          "l": "Fahrkarte",
+          "gb": "টিকিট",
+          "ge": "ticket",
+          "n": ""
+        },
+        {
+          "t": "nach",
+          "b": [],
+          "e": [
+            7
+          ],
+          "l": "nach",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "to",
+          "n": ""
+        },
+        {
+          "t": "München.",
+          "b": [
+            3
+          ],
+          "e": [
+            8
+          ],
+          "l": "München",
+          "gb": "মিউনিখের",
+          "ge": "Munich",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Beamter",
+      "bn": [
+        "এক",
+        "পথের",
+        "নাকি",
+        "আসা-যাওয়ার?"
+      ],
+      "en": [
+        "One",
+        "way",
+        "or",
+        "return?"
+      ],
+      "de": [
+        {
+          "t": "Einfach",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "einfach",
+          "gb": "এক পথের",
+          "ge": "One way",
+          "n": ""
+        },
+        {
+          "t": "oder",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "oder",
+          "gb": "নাকি",
+          "ge": "or",
+          "n": ""
+        },
+        {
+          "t": "hin und zurück?",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "hin und zurück",
+          "gb": "আসা-যাওয়ার",
+          "ge": "return",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আসা-যাওয়ার,",
+        "দয়া",
+        "করে।",
+        "পরের",
+        "ট্রেন",
+        "কখন",
+        "ছাড়ে?"
+      ],
+      "en": [
+        "Return,",
+        "please.",
+        "When",
+        "does",
+        "the",
+        "next",
+        "train",
+        "leave?"
+      ],
+      "de": [
+        {
+          "t": "Hin und zurück,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "hin und zurück",
+          "gb": "আসা-যাওয়ার",
+          "ge": "Return",
+          "n": ""
+        },
+        {
+          "t": "bitte.",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            1
+          ],
+          "l": "bitte",
+          "gb": "দয়া করে",
+          "ge": "please",
+          "n": ""
+        },
+        {
+          "t": "Wann",
+          "b": [
+            5
+          ],
+          "e": [
+            2
+          ],
+          "l": "Wann",
+          "gb": "কখন",
+          "ge": "When",
+          "n": ""
+        },
+        {
+          "t": "fährt",
+          "b": [
+            6
+          ],
+          "e": [
+            3
+          ],
+          "l": "fährt",
+          "gb": "ছাড়ে",
+          "ge": "does",
+          "n": ""
+        },
+        {
+          "t": "der",
+          "b": [],
+          "e": [
+            4
+          ],
+          "l": "der",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "nächste",
+          "b": [
+            3
+          ],
+          "e": [
+            5
+          ],
+          "l": "nächste",
+          "gb": "পরের",
+          "ge": "next",
+          "n": ""
+        },
+        {
+          "t": "Zug?",
+          "b": [
+            4
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "Zug",
+          "gb": "ট্রেন",
+          "ge": "train leave",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Beamter",
+      "bn": [
+        "চৌদ্দটা",
+        "পঁয়ত্রিশে,",
+        "সাত",
+        "নম্বর",
+        "প্ল্যাটফর্ম",
+        "থেকে।"
+      ],
+      "en": [
+        "At",
+        "14:35,",
+        "from",
+        "platform",
+        "seven."
+      ],
+      "de": [
+        {
+          "t": "Um",
+          "b": [],
+          "e": [
+            0
+          ],
+          "l": "Um",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "At",
+          "n": ""
+        },
+        {
+          "t": "vierzehn Uhr fünfunddreißig,",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "vierzehn Uhr fünfunddreißig",
+          "gb": "চৌদ্দটা পঁয়ত্রিশে",
+          "ge": "1435",
+          "n": "অফিশিয়াল সময়: ১৪:৩৫ = vierzehn Uhr fünfunddreißig"
+        },
+        {
+          "t": "von",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "von",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "from",
+          "n": ""
+        },
+        {
+          "t": "Gleis",
+          "b": [
+            4
+          ],
+          "e": [
+            3
+          ],
+          "l": "Gleis",
+          "gb": "প্ল্যাটফর্ম",
+          "ge": "platform",
+          "n": ""
+        },
+        {
+          "t": "sieben.",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "sieben",
+          "gb": "সাত নম্বর",
+          "ge": "seven",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমাকে",
+        "কি",
+        "ট্রেন",
+        "বদলাতে",
+        "হবে?"
+      ],
+      "en": [
+        "Do",
+        "I",
+        "have",
+        "to",
+        "change",
+        "trains?"
+      ],
+      "de": [
+        {
+          "t": "Muss",
+          "b": [
+            4
+          ],
+          "e": [
+            0
+          ],
+          "l": "Muss",
+          "gb": "হবে",
+          "ge": "Do",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "ich",
+          "gb": "আমাকে",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "umsteigen?",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "umsteigen",
+          "gb": "ট্রেন বদলাতে",
+          "ge": "change trains",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Beamter",
+      "bn": [
+        "হ্যাঁ,",
+        "নুরেমবার্গে।",
+        "আপনার",
+        "দশ",
+        "মিনিট",
+        "সময়",
+        "থাকবে।"
+      ],
+      "en": [
+        "Yes,",
+        "in",
+        "Nuremberg.",
+        "You",
+        "will",
+        "have",
+        "ten",
+        "minutes."
+      ],
+      "de": [
+        {
+          "t": "Ja,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ja",
+          "gb": "হ্যাঁ",
+          "ge": "Yes",
+          "n": ""
+        },
+        {
+          "t": "in",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "in",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "in",
+          "n": ""
+        },
+        {
+          "t": "Nürnberg.",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "Nürnberg",
+          "gb": "নুরেমবার্গে",
+          "ge": "Nuremberg",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "Sie",
+          "gb": "আপনার",
+          "ge": "You",
+          "n": ""
+        },
+        {
+          "t": "haben",
+          "b": [
+            6
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "haben",
+          "gb": "থাকবে",
+          "ge": "will have",
+          "n": ""
+        },
+        {
+          "t": "zehn",
+          "b": [
+            3
+          ],
+          "e": [
+            6
+          ],
+          "l": "zehn",
+          "gb": "দশ",
+          "ge": "ten",
+          "n": ""
+        },
+        {
+          "t": "Minuten",
+          "b": [
+            4
+          ],
+          "e": [
+            7
+          ],
+          "l": "Minuten",
+          "gb": "মিনিট",
+          "ge": "minutes",
+          "n": ""
+        },
+        {
+          "t": "Zeit.",
+          "b": [
+            5
+          ],
+          "e": [],
+          "l": "Zeit",
+          "gb": "সময়",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "দাম",
+        "কত?"
+      ],
+      "en": [
+        "How",
+        "much",
+        "is",
+        "it?"
+      ],
+      "de": [
+        {
+          "t": "Was",
+          "b": [
+            1
+          ],
+          "e": [
+            0
+          ],
+          "l": "Was",
+          "gb": "কত",
+          "ge": "How",
+          "n": ""
+        },
+        {
+          "t": "kostet",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "kostet",
+          "gb": "দাম",
+          "ge": "much",
+          "n": ""
+        },
+        {
+          "t": "das?",
+          "b": [],
+          "e": [
+            2,
+            3
+          ],
+          "l": "das",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is it",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Beamter",
+      "bn": [
+        "একশো",
+        "কুড়ি",
+        "ইউরো।",
+        "আপনি",
+        "কি",
+        "একটি",
+        "আসন",
+        "রিজার্ভ",
+        "করতে",
+        "চান?"
+      ],
+      "en": [
+        "One",
+        "hundred",
+        "and",
+        "twenty",
+        "euros.",
+        "Would",
+        "you",
+        "like",
+        "to",
+        "reserve",
+        "a",
+        "seat?"
+      ],
+      "de": [
+        {
+          "t": "Hundertzwanzig",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "l": "Hundertzwanzig",
+          "gb": "একশো কুড়ি",
+          "ge": "One hundred and twenty",
+          "n": ""
+        },
+        {
+          "t": "Euro.",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "Euro",
+          "gb": "ইউরো",
+          "ge": "euros",
+          "n": ""
+        },
+        {
+          "t": "Möchten",
+          "b": [
+            9
+          ],
+          "e": [
+            5,
+            6,
+            7
+          ],
+          "l": "Möchten",
+          "gb": "চান",
+          "ge": "Would you like",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [
+            3
+          ],
+          "e": [],
+          "l": "Sie",
+          "gb": "আপনি",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "einen",
+          "b": [
+            5
+          ],
+          "e": [
+            10
+          ],
+          "l": "einen",
+          "gb": "একটি",
+          "ge": "a",
+          "n": ""
+        },
+        {
+          "t": "Platz",
+          "b": [
+            6
+          ],
+          "e": [
+            11
+          ],
+          "l": "Platz",
+          "gb": "আসন",
+          "ge": "seat",
+          "n": ""
+        },
+        {
+          "t": "reservieren?",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            8,
+            9
+          ],
+          "l": "reservieren",
+          "gb": "রিজার্ভ করতে",
+          "ge": "to reserve",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "অফিশিয়াল সময় (ট্রেন, টিভি, অফিস)",
+      "head": [
+        "সাধারণ কথায়",
+        "অফিশিয়াল"
+      ],
+      "rows": [
+        [
+          "halb drei nachmittags",
+          "vierzehn Uhr dreißig (14:30)"
+        ],
+        [
+          "Viertel nach drei",
+          "fünfzehn Uhr fünfzehn (15:15)"
+        ],
+        [
+          "zehn vor sechs abends",
+          "siebzehn Uhr fünfzig (17:50)"
+        ],
+        [
+          "acht Uhr morgens",
+          "acht Uhr (8:00)"
+        ]
+      ],
+      "note": "ট্রেনের সময় ২৪ ঘণ্টায়: „vierzehn Uhr fünfunddreißig“। সাধারণ কথায় „halb drei“ ইত্যাদি।"
+    },
+    {
+      "type": "table",
+      "title": "স্টেশনে দরকারি প্রশ্ন",
+      "head": [
+        "জার্মান",
+        "বাংলা"
+      ],
+      "rows": [
+        [
+          "Wann fährt der nächste Zug nach …?",
+          "পরের … -এর ট্রেন কখন ছাড়ে?"
+        ],
+        [
+          "Von welchem Gleis fährt er?",
+          "কোন প্ল্যাটফর্ম থেকে ছাড়ে?"
+        ],
+        [
+          "Wann kommt der Zug an?",
+          "ট্রেন কখন পৌঁছায়?"
+        ],
+        [
+          "Muss ich umsteigen?",
+          "আমাকে কি ট্রেন বদলাতে হবে?"
+        ],
+        [
+          "Gibt es eine direkte Verbindung?",
+          "সরাসরি কোনো ট্রেন আছে?"
+        ],
+        [
+          "Hat der Zug Verspätung?",
+          "ট্রেন কি দেরি করছে?"
+        ]
+      ],
+      "note": "Verbindung = শুধু „সংযোগ“ নয়, ট্রেনের রুটের বিকল্পও বোঝায়।"
+    },
+    {
+      "type": "text",
+      "title": "trennbare Verben: abfahren, ankommen, umsteigen",
+      "text": "Der Zug fährt um 14:35 Uhr ab. / Der Zug kommt um 18:10 Uhr an. / Ich steige in Nürnberg um. — উপসর্গ (ab, an, um) বাক্যের শেষে যায়। Modalverb-সহ: „Ich muss in Nürnberg umsteigen“ (পুরো ক্রিয়া শেষে)।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "das Gleis",
+      "options": [
+        "ট্রেন/বাস বদলানো",
+        "যোগাযোগ",
+        "সরাসরি",
+        "প্ল্যাটফর্ম"
+      ],
+      "answer": 3,
+      "why": "das Gleis = প্ল্যাটফর্ম।",
+      "word": "gleis"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "umsteigen",
+      "options": [
+        "সরাসরি",
+        "এক পথের",
+        "ছাড়ার সময়",
+        "ট্রেন/বাস বদলানো"
+      ],
+      "answer": 3,
+      "why": "umsteigen = ট্রেন/বাস বদলানো।",
+      "word": "umsteigen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "die Abfahrt",
+      "options": [
+        "আগে থেকে ঠিক করে রাখা",
+        "ছাড়ার সময়",
+        "সরাসরি",
+        "এক পথের"
+      ],
+      "answer": 1,
+      "why": "die Abfahrt = ছাড়ার সময়।",
+      "word": "abfahrt"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Fahrkarte",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Fahrkarte। বহুবচন: die Fahrkarten।",
+      "word": "fahrkarte"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„hin und zurück“ মানে কী?",
+      "options": [
+        "আসা-যাওয়া",
+        "এক পথ",
+        "সরাসরি",
+        "দেরি"
+      ],
+      "answer": 0,
+      "why": "hin und zurück = return।",
+      "word": "hin_und_zurueck"
+    },
+    {
+      "type": "mcq",
+      "prompt": "14:35 Uhr অফিশিয়াল ভাবে কীভাবে বলে?",
+      "options": [
+        "vierzehn Uhr fünfunddreißig",
+        "halb drei",
+        "Viertel nach zwei",
+        "zwei Uhr fünf"
+      ],
+      "answer": 0,
+      "why": "২৪ ঘণ্টা পদ্ধতি।",
+      "word": "abfahrt"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Der Zug fährt um 14:35 Uhr ___.",
+      "options": [
+        "ab",
+        "an",
+        "um",
+        "aus"
+      ],
+      "answer": 0,
+      "why": "abfahren → fährt … ab।",
+      "word": "abfahrt"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক বাক্য কোনটি?",
+      "options": [
+        "Ich muss in Nürnberg umsteigen.",
+        "Ich muss umsteigen in Nürnberg.",
+        "Ich umsteigen muss in Nürnberg.",
+        "Ich muss in Nürnberg steigen um."
+      ],
+      "answer": 0,
+      "why": "Modalverb ২য়, পুরো ক্রিয়া শেষে।",
+      "word": "umsteigen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Gleis-এর আর্টিকেল কী?",
+      "options": [
+        "das",
+        "der",
+        "die",
+        "den"
+      ],
+      "answer": 0,
+      "why": "das Gleis।",
+      "word": "gleis"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „পরের ট্রেন কখন ছাড়ে?“",
+      "tiles": [
+        "Zug?",
+        "fährt",
+        "der",
+        "Wann",
+        "nächste"
+      ],
+      "answer": [
+        "Wann",
+        "fährt",
+        "der",
+        "nächste",
+        "Zug?"
+      ],
+      "why": "W-Frage: ক্রিয়া ২য় স্থানে।",
+      "word": "gleis"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

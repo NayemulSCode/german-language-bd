@@ -1,0 +1,1534 @@
+{
+  "level": "B1",
+  "unit": 3,
+  "minutes": 18,
+  "lesson": 4,
+  "id": "b1-u03-l04",
+  "title": {
+    "de": "Sollten Plastiktüten verboten werden?",
+    "bn": "আলোচনা: Passiv mit Modalverb, Pro und Contra",
+    "en": "Debate: passive with modal verbs"
+  },
+  "hook": {
+    "de": "Jeder Mensch kann einen Unterschied machen.",
+    "who": "Redensart",
+    "bn": "প্রতিটি মানুষই পরিবর্তন আনতে পারে।",
+    "en": "Everyone can make a difference."
+  },
+  "goals": [
+    "Passiv mit Modalverb: sollten verboten werden",
+    "Pro und Contra: Dafür spricht … / Dagegen spricht …",
+    "Kompromisse vorschlagen",
+    "Plastik und Verpackungen reduzieren"
+  ],
+  "words": [
+    {
+      "id": "plastiktuete",
+      "de": "Plastiktüte",
+      "art": "die",
+      "pl": "die Plastiktüten",
+      "pos": "বিশেষ্য",
+      "bn": "প্লাস্টিক ব্যাগ",
+      "en": "plastic bag"
+    },
+    {
+      "id": "verbieten",
+      "de": "verbieten",
+      "pos": "ক্রিয়া · hat verboten",
+      "bn": "নিষিদ্ধ করা",
+      "en": "to ban"
+    },
+    {
+      "id": "verbot",
+      "de": "Verbot",
+      "art": "das",
+      "pl": "die Verbote",
+      "pos": "বিশেষ্য",
+      "bn": "নিষেধাজ্ঞা",
+      "en": "ban"
+    },
+    {
+      "id": "vorteil",
+      "de": "Vorteil",
+      "art": "der",
+      "pl": "die Vorteile",
+      "pos": "বিশেষ্য",
+      "bn": "সুবিধা",
+      "en": "advantage"
+    },
+    {
+      "id": "nachteil",
+      "de": "Nachteil",
+      "art": "der",
+      "pl": "die Nachteile",
+      "pos": "বিশেষ্য",
+      "bn": "অসুবিধা",
+      "en": "disadvantage"
+    },
+    {
+      "id": "argument",
+      "de": "Argument",
+      "art": "das",
+      "pl": "die Argumente",
+      "pos": "বিশেষ্য",
+      "bn": "যুক্তি",
+      "en": "argument"
+    },
+    {
+      "id": "verpackung",
+      "de": "Verpackung",
+      "art": "die",
+      "pl": "die Verpackungen",
+      "pos": "বিশেষ্য",
+      "bn": "প্যাকেজিং",
+      "en": "packaging"
+    },
+    {
+      "id": "reduzieren",
+      "de": "reduzieren",
+      "pos": "ক্রিয়া · hat reduziert",
+      "bn": "কমানো",
+      "en": "to reduce"
+    },
+    {
+      "id": "vermeiden",
+      "de": "vermeiden",
+      "pos": "ক্রিয়া · hat vermieden",
+      "bn": "এড়ানো",
+      "en": "to avoid"
+    },
+    {
+      "id": "kompromiss",
+      "de": "Kompromiss",
+      "art": "der",
+      "pl": "die Kompromisse",
+      "pos": "বিশেষ্য",
+      "bn": "আপস",
+      "en": "compromise"
+    },
+    {
+      "id": "mehrwegflasche",
+      "de": "Mehrwegflasche",
+      "art": "die",
+      "pl": "die Mehrwegflaschen",
+      "pos": "বিশেষ্য",
+      "bn": "পুনর্ব্যবহারযোগ্য বোতল",
+      "en": "reusable bottle"
+    },
+    {
+      "id": "verrotten",
+      "de": "verrotten",
+      "pos": "ক্রিয়া · ist verrottet",
+      "bn": "পচে যাওয়া",
+      "en": "to rot"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Lena",
+      "bn": [
+        "আমার",
+        "মতে",
+        "প্লাস্টিক",
+        "ব্যাগ",
+        "একেবারে",
+        "নিষিদ্ধ",
+        "করা",
+        "উচিত।"
+      ],
+      "en": [
+        "In",
+        "my",
+        "opinion,",
+        "plastic",
+        "bags",
+        "should",
+        "be",
+        "banned",
+        "completely."
+      ],
+      "de": [
+        {
+          "t": "Ich finde,",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "Ich finde",
+          "gb": "আমার মতে",
+          "ge": "In my opinion",
+          "n": ""
+        },
+        {
+          "t": "Plastiktüten",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "Plastiktüte",
+          "gb": "প্লাস্টিক ব্যাগ",
+          "ge": "plastic bags",
+          "n": ""
+        },
+        {
+          "t": "sollten",
+          "b": [
+            7
+          ],
+          "e": [
+            5
+          ],
+          "l": "sollten",
+          "gb": "উচিত",
+          "ge": "should",
+          "n": ""
+        },
+        {
+          "t": "ganz",
+          "b": [
+            4
+          ],
+          "e": [
+            8
+          ],
+          "l": "ganz",
+          "gb": "একেবারে",
+          "ge": "completely",
+          "n": ""
+        },
+        {
+          "t": "verboten",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "verbieten",
+          "gb": "নিষিদ্ধ করা",
+          "ge": "be banned",
+          "n": "Passiv mit Modalverb: sollten verboten werden"
+        },
+        {
+          "t": "werden.",
+          "b": [],
+          "e": [],
+          "l": "werden",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "কেন?",
+        "ওগুলো",
+        "সস্তা",
+        "আর",
+        "হালকা।",
+        "এটা",
+        "তো",
+        "একটি",
+        "সুবিধা।"
+      ],
+      "en": [
+        "Why?",
+        "They",
+        "are",
+        "cheap",
+        "and",
+        "light.",
+        "That",
+        "is",
+        "an",
+        "advantage",
+        "after",
+        "all."
+      ],
+      "de": [
+        {
+          "t": "Warum?",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Warum",
+          "gb": "কেন",
+          "ge": "Why",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "Sie",
+          "gb": "ওগুলো",
+          "ge": "They",
+          "n": ""
+        },
+        {
+          "t": "sind",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "sind",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "are",
+          "n": ""
+        },
+        {
+          "t": "billig",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "billig",
+          "gb": "সস্তা",
+          "ge": "cheap",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "leicht.",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "leicht",
+          "gb": "হালকা",
+          "ge": "light",
+          "n": ""
+        },
+        {
+          "t": "Das",
+          "b": [
+            5
+          ],
+          "e": [
+            6
+          ],
+          "l": "Das",
+          "gb": "এটা",
+          "ge": "That",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            7
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "doch",
+          "b": [
+            6
+          ],
+          "e": [
+            10,
+            11
+          ],
+          "l": "doch",
+          "gb": "তো",
+          "ge": "after all",
+          "n": ""
+        },
+        {
+          "t": "ein Vorteil.",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            8,
+            9
+          ],
+          "l": "Vorteil",
+          "gb": "একটি সুবিধা",
+          "ge": "an advantage",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "কিন্তু",
+        "এর",
+        "বিপক্ষে",
+        "যুক্তি",
+        "হলো,",
+        "ওগুলো",
+        "প্রকৃতিতে",
+        "অনেক",
+        "বছর",
+        "থাকে",
+        "আর",
+        "সহজে",
+        "পচে",
+        "না।"
+      ],
+      "en": [
+        "But",
+        "against",
+        "that",
+        "speaks",
+        "the",
+        "fact",
+        "that",
+        "they",
+        "stay",
+        "in",
+        "nature",
+        "for",
+        "many",
+        "years",
+        "and",
+        "do",
+        "not",
+        "rot",
+        "easily."
+      ],
+      "de": [
+        {
+          "t": "Dagegen",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "Dagegen",
+          "gb": "এর বিপক্ষে",
+          "ge": "against that",
+          "n": ""
+        },
+        {
+          "t": "spricht",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            3
+          ],
+          "l": "spricht",
+          "gb": "যুক্তি হলো",
+          "ge": "speaks",
+          "n": ""
+        },
+        {
+          "t": "aber,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "aber",
+          "gb": "কিন্তু",
+          "ge": "But",
+          "n": ""
+        },
+        {
+          "t": "dass",
+          "b": [],
+          "e": [
+            4,
+            5,
+            6
+          ],
+          "l": "dass",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the fact that",
+          "n": ""
+        },
+        {
+          "t": "sie",
+          "b": [
+            5
+          ],
+          "e": [
+            7
+          ],
+          "l": "sie",
+          "gb": "ওগুলো",
+          "ge": "they",
+          "n": ""
+        },
+        {
+          "t": "sehr lange",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            11,
+            12,
+            13
+          ],
+          "l": "sehr lange",
+          "gb": "অনেক বছর",
+          "ge": "for many years",
+          "n": ""
+        },
+        {
+          "t": "in der Natur",
+          "b": [
+            6
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "in der Natur",
+          "gb": "প্রকৃতিতে",
+          "ge": "in nature",
+          "n": ""
+        },
+        {
+          "t": "bleiben",
+          "b": [
+            9
+          ],
+          "e": [
+            8
+          ],
+          "l": "bleiben",
+          "gb": "থাকে",
+          "ge": "stay",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            10
+          ],
+          "e": [
+            14
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "kaum",
+          "b": [
+            11
+          ],
+          "e": [
+            15,
+            16,
+            17
+          ],
+          "l": "verrotten",
+          "gb": "সহজে",
+          "ge": "do not rot",
+          "n": ""
+        },
+        {
+          "t": "verrotten.",
+          "b": [
+            12,
+            13
+          ],
+          "e": [
+            18
+          ],
+          "l": "verrotten",
+          "gb": "পচে না",
+          "ge": "easily",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "একদিকে",
+        "তুমি",
+        "ঠিক",
+        "বলছ।",
+        "অন্যদিকে",
+        "অনেকের",
+        "বহন",
+        "করার",
+        "জন্য",
+        "ওগুলো",
+        "লাগে।",
+        "ছোট",
+        "একটা",
+        "ফি",
+        "নেওয়া",
+        "যেতে",
+        "পারে।"
+      ],
+      "en": [
+        "On",
+        "the",
+        "one",
+        "hand",
+        "you",
+        "are",
+        "right.",
+        "On",
+        "the",
+        "other",
+        "hand",
+        "many",
+        "people",
+        "need",
+        "them",
+        "for",
+        "carrying.",
+        "A",
+        "small",
+        "fee",
+        "could",
+        "be",
+        "charged."
+      ],
+      "de": [
+        {
+          "t": "Einerseits",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "l": "Einerseits",
+          "gb": "একদিকে",
+          "ge": "On the one hand",
+          "n": ""
+        },
+        {
+          "t": "hast du recht.",
+          "b": [
+            1,
+            2,
+            3
+          ],
+          "e": [
+            4,
+            5,
+            6
+          ],
+          "l": "hast du recht",
+          "gb": "তুমি ঠিক বলছ",
+          "ge": "you are right",
+          "n": ""
+        },
+        {
+          "t": "Andererseits",
+          "b": [
+            4
+          ],
+          "e": [
+            7,
+            8,
+            9,
+            10
+          ],
+          "l": "Andererseits",
+          "gb": "অন্যদিকে",
+          "ge": "On the other hand",
+          "n": ""
+        },
+        {
+          "t": "brauchen",
+          "b": [
+            10
+          ],
+          "e": [
+            13
+          ],
+          "l": "brauchen",
+          "gb": "লাগে",
+          "ge": "need",
+          "n": ""
+        },
+        {
+          "t": "viele Menschen",
+          "b": [
+            5
+          ],
+          "e": [
+            11,
+            12
+          ],
+          "l": "viele Menschen",
+          "gb": "অনেকের",
+          "ge": "many people",
+          "n": ""
+        },
+        {
+          "t": "sie",
+          "b": [
+            9
+          ],
+          "e": [
+            14
+          ],
+          "l": "sie",
+          "gb": "ওগুলো",
+          "ge": "them",
+          "n": ""
+        },
+        {
+          "t": "zum Tragen.",
+          "b": [
+            6,
+            7,
+            8
+          ],
+          "e": [
+            15,
+            16
+          ],
+          "l": "zum Tragen",
+          "gb": "বহন করার জন্য",
+          "ge": "for carrying",
+          "n": ""
+        },
+        {
+          "t": "Man könnte",
+          "b": [
+            14,
+            15,
+            16
+          ],
+          "e": [
+            20,
+            21
+          ],
+          "l": "Man könnte",
+          "gb": "নেওয়া যেতে পারে",
+          "ge": "could be",
+          "n": ""
+        },
+        {
+          "t": "eine kleine Gebühr",
+          "b": [
+            11,
+            12,
+            13
+          ],
+          "e": [
+            17,
+            18,
+            19
+          ],
+          "l": "eine kleine Gebühr",
+          "gb": "ছোট একটা ফি",
+          "ge": "A small fee",
+          "n": ""
+        },
+        {
+          "t": "verlangen.",
+          "b": [],
+          "e": [
+            22
+          ],
+          "l": "verlangen",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "charged",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "ওটা",
+        "একটা",
+        "ভালো",
+        "আপস।",
+        "আর",
+        "কয়েক",
+        "বছর",
+        "ধরে",
+        "জার্মানিতে",
+        "পাতলা",
+        "প্লাস্টিক",
+        "ব্যাগ",
+        "নিষিদ্ধ।"
+      ],
+      "en": [
+        "That",
+        "is",
+        "a",
+        "good",
+        "compromise.",
+        "And",
+        "for",
+        "some",
+        "years",
+        "now,",
+        "thin",
+        "plastic",
+        "bags",
+        "have",
+        "been",
+        "banned",
+        "in",
+        "Germany."
+      ],
+      "de": [
+        {
+          "t": "Das",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Das",
+          "gb": "ওটা",
+          "ge": "That",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "ein guter Kompromiss.",
+          "b": [
+            1,
+            2,
+            3
+          ],
+          "e": [
+            2,
+            3,
+            4
+          ],
+          "l": "Kompromiss",
+          "gb": "একটা ভালো আপস",
+          "ge": "a good compromise",
+          "n": ""
+        },
+        {
+          "t": "Seit einigen Jahren",
+          "b": [
+            5,
+            6,
+            7
+          ],
+          "e": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "l": "Seit einigen Jahren",
+          "gb": "কয়েক বছর ধরে",
+          "ge": "for some years now",
+          "n": ""
+        },
+        {
+          "t": "sind",
+          "b": [
+            12
+          ],
+          "e": [
+            13,
+            14
+          ],
+          "l": "sind",
+          "gb": "নিষিদ্ধ",
+          "ge": "have been",
+          "n": ""
+        },
+        {
+          "t": "dünne Plastiktüten",
+          "b": [
+            9,
+            10,
+            11
+          ],
+          "e": [
+            10,
+            11,
+            12
+          ],
+          "l": "dünne Plastiktüten",
+          "gb": "পাতলা প্লাস্টিক ব্যাগ",
+          "ge": "thin plastic bags",
+          "n": ""
+        },
+        {
+          "t": "in Deutschland",
+          "b": [
+            8
+          ],
+          "e": [
+            16,
+            17
+          ],
+          "l": "in Deutschland",
+          "gb": "জার্মানিতে",
+          "ge": "in Germany",
+          "n": ""
+        },
+        {
+          "t": "verboten.",
+          "b": [],
+          "e": [
+            15
+          ],
+          "l": "Verbot",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "banned",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "ওটা",
+        "আমি",
+        "জানতাম",
+        "না।",
+        "কিন্তু",
+        "প্যাকেজিংয়ের",
+        "কী",
+        "হবে?",
+        "ওগুলোও",
+        "কমানো",
+        "উচিত।"
+      ],
+      "en": [
+        "I",
+        "did",
+        "not",
+        "know",
+        "that.",
+        "But",
+        "what",
+        "about",
+        "packaging?",
+        "It",
+        "should",
+        "be",
+        "reduced",
+        "as",
+        "well."
+      ],
+      "de": [
+        {
+          "t": "Das",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "Das",
+          "gb": "ওটা",
+          "ge": "I did not",
+          "n": ""
+        },
+        {
+          "t": "wusste ich",
+          "b": [
+            1,
+            2,
+            3
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "wusste ich",
+          "gb": "আমি জানতাম না",
+          "ge": "know that",
+          "n": ""
+        },
+        {
+          "t": "nicht.",
+          "b": [],
+          "e": [],
+          "l": "nicht",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Aber",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "Aber",
+          "gb": "কিন্তু",
+          "ge": "But",
+          "n": ""
+        },
+        {
+          "t": "was ist",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "was ist",
+          "gb": "কী হবে",
+          "ge": "what about",
+          "n": ""
+        },
+        {
+          "t": "mit Verpackungen?",
+          "b": [
+            5
+          ],
+          "e": [
+            8
+          ],
+          "l": "Verpackung",
+          "gb": "প্যাকেজিংয়ের",
+          "ge": "packaging",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [
+            8
+          ],
+          "e": [
+            9
+          ],
+          "l": "Sie",
+          "gb": "ওগুলোও",
+          "ge": "It",
+          "n": ""
+        },
+        {
+          "t": "müssten",
+          "b": [
+            10
+          ],
+          "e": [
+            10
+          ],
+          "l": "müssten",
+          "gb": "উচিত",
+          "ge": "should",
+          "n": ""
+        },
+        {
+          "t": "auch",
+          "b": [],
+          "e": [
+            13,
+            14
+          ],
+          "l": "auch",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "as well",
+          "n": ""
+        },
+        {
+          "t": "reduziert",
+          "b": [
+            9
+          ],
+          "e": [
+            11,
+            12
+          ],
+          "l": "reduzieren",
+          "gb": "কমানো",
+          "ge": "be reduced",
+          "n": ""
+        },
+        {
+          "t": "werden.",
+          "b": [],
+          "e": [],
+          "l": "werden",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "ঠিক।",
+        "প্যাকেজিং",
+        "এড়ানো",
+        "যায়,",
+        "যদি",
+        "কেউ",
+        "পুনর্ব্যবহারযোগ্য",
+        "বোতল",
+        "আর",
+        "খোলা",
+        "পণ্য",
+        "কেনে।"
+      ],
+      "en": [
+        "Exactly.",
+        "Packaging",
+        "can",
+        "be",
+        "avoided",
+        "if",
+        "people",
+        "buy",
+        "reusable",
+        "bottles",
+        "and",
+        "loose",
+        "goods."
+      ],
+      "de": [
+        {
+          "t": "Genau.",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Genau",
+          "gb": "ঠিক",
+          "ge": "Exactly",
+          "n": ""
+        },
+        {
+          "t": "Verpackungen",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "Verpackungen",
+          "gb": "প্যাকেজিং",
+          "ge": "Packaging",
+          "n": ""
+        },
+        {
+          "t": "können",
+          "b": [
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "können",
+          "gb": "যায়",
+          "ge": "can",
+          "n": ""
+        },
+        {
+          "t": "vermieden",
+          "b": [
+            2
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "vermeiden",
+          "gb": "এড়ানো",
+          "ge": "be avoided",
+          "n": ""
+        },
+        {
+          "t": "werden,",
+          "b": [],
+          "e": [],
+          "l": "werden",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "wenn",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "wenn",
+          "gb": "যদি",
+          "ge": "if",
+          "n": ""
+        },
+        {
+          "t": "man",
+          "b": [
+            5
+          ],
+          "e": [
+            6
+          ],
+          "l": "man",
+          "gb": "কেউ",
+          "ge": "people",
+          "n": ""
+        },
+        {
+          "t": "Mehrwegflaschen",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            8,
+            9
+          ],
+          "l": "Mehrwegflasche",
+          "gb": "পুনর্ব্যবহারযোগ্য বোতল",
+          "ge": "reusable bottles",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            8
+          ],
+          "e": [
+            10
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "lose Ware",
+          "b": [
+            9,
+            10
+          ],
+          "e": [
+            11,
+            12
+          ],
+          "l": "lose Ware",
+          "gb": "খোলা পণ্য",
+          "ge": "loose goods",
+          "n": ""
+        },
+        {
+          "t": "kauft.",
+          "b": [
+            11
+          ],
+          "e": [
+            7
+          ],
+          "l": "kauft",
+          "gb": "কেনে",
+          "ge": "buy",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "Passiv mit Modalverb",
+      "head": [
+        "Aktiv",
+        "Passiv"
+      ],
+      "rows": [
+        [
+          "Man sollte Plastiktüten verbieten.",
+          "Plastiktüten sollten verboten werden."
+        ],
+        [
+          "Man muss Verpackungen reduzieren.",
+          "Verpackungen müssen reduziert werden."
+        ],
+        [
+          "Man kann Müll vermeiden.",
+          "Müll kann vermieden werden."
+        ],
+        [
+          "Man darf das nicht wegwerfen.",
+          "Das darf nicht weggeworfen werden."
+        ]
+      ],
+      "note": "Modalverb (konjugiert) + Partizip II + werden (Infinitiv)। Nebensatz: „…, dass Plastiktüten verboten werden sollten.“"
+    },
+    {
+      "type": "table",
+      "title": "Pro und Contra argumentieren",
+      "head": [
+        "Funktion",
+        "Formulierung"
+      ],
+      "rows": [
+        [
+          "Meinung",
+          "Ich finde, … / Meiner Meinung nach … / Ich bin der Ansicht, dass …"
+        ],
+        [
+          "Dafür",
+          "Dafür spricht, dass … / Ein Vorteil ist, dass …"
+        ],
+        [
+          "Dagegen",
+          "Dagegen spricht, dass … / Ein Nachteil ist, dass …"
+        ],
+        [
+          "Abwägen",
+          "Einerseits …, andererseits …"
+        ],
+        [
+          "Kompromiss",
+          "Man könnte … / Ein guter Kompromiss wäre …"
+        ],
+        [
+          "Zustimmen",
+          "Das stimmt. / Da hast du recht."
+        ],
+        [
+          "Widersprechen",
+          "Das sehe ich anders. / Ich bin nicht sicher, ob das stimmt."
+        ]
+      ],
+      "note": "পূর্ণ বাক্য ব্যবহার করুন; একটি যুক্তির পর কারণ দিন (weil …)। অন্যের কথা শেষ হওয়ার পর উত্তর দিন।"
+    },
+    {
+      "type": "table",
+      "title": "Wie vermeidet man Plastikmüll?",
+      "head": [
+        "Alltag",
+        "Tipp"
+      ],
+      "rows": [
+        [
+          "Einkaufen",
+          "Stoffbeutel mitnehmen"
+        ],
+        [
+          "Getränke",
+          "Mehrwegflaschen statt Einwegflaschen"
+        ],
+        [
+          "Lebensmittel",
+          "lose Ware, Papier statt Plastik"
+        ],
+        [
+          "Zu Hause",
+          "Leitungswasser, Behälter wiederverwenden"
+        ]
+      ],
+      "note": "জার্মানিতে বোতলের Pfand ও Mülltrennung আগেই শিখেছেন (A2 Unit 9)। এখানে সেটাকে যুক্তিতে ব্যবহার করুন।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "der Kompromiss",
+      "options": [
+        "নিষেধাজ্ঞা",
+        "অসুবিধা",
+        "প্যাকেজিং",
+        "আপস"
+      ],
+      "answer": 3,
+      "why": "der Kompromiss = আপস।",
+      "word": "kompromiss"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "reduzieren",
+      "options": [
+        "কমানো",
+        "পুনর্ব্যবহারযোগ্য বোতল",
+        "নিষিদ্ধ করা",
+        "অসুবিধা"
+      ],
+      "answer": 0,
+      "why": "reduzieren = কমানো।",
+      "word": "reduzieren"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "vermeiden",
+      "options": [
+        "পচে যাওয়া",
+        "নিষেধাজ্ঞা",
+        "এড়ানো",
+        "যুক্তি"
+      ],
+      "answer": 2,
+      "why": "vermeiden = এড়ানো।",
+      "word": "vermeiden"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Verpackung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Verpackung। বহুবচন: die Verpackungen।",
+      "word": "verpackung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Passiv mit Modalverb কোনটি?",
+      "options": [
+        "Plastiktüten sollten verboten werden.",
+        "Plastiktüten werden verboten.",
+        "Man sollte Plastiktüten verbieten.",
+        "Plastiktüten sind verboten."
+      ],
+      "answer": 0,
+      "why": "sollten + Partizip II + werden।",
+      "word": "verbieten"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Dagegen spricht, dass …“ কী বোঝায়?",
+      "options": [
+        "বিপক্ষে যুক্তি",
+        "পক্ষে যুক্তি",
+        "প্রশ্ন",
+        "ধন্যবাদ"
+      ],
+      "answer": 0,
+      "why": "Contra-Argument।",
+      "word": "argument"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক বাক্য কোনটি?",
+      "options": [
+        "Verpackungen müssen reduziert werden.",
+        "Verpackungen müssen werden reduziert.",
+        "Verpackungen reduziert müssen werden.",
+        "Müssen reduziert Verpackungen werden."
+      ],
+      "answer": 0,
+      "why": "Modalverb ২য়, Partizip + werden শেষে।",
+      "word": "verpackung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„einerseits … andererseits“ কীসের জন্য?",
+      "options": [
+        "দুই দিক তুলনা",
+        "শুধু সম্মতি",
+        "শুধু কারণ",
+        "সময়"
+      ],
+      "answer": 0,
+      "why": "abwägen।",
+      "word": "vorteil"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Kompromiss“ কী?",
+      "options": [
+        "আপস",
+        "বিরোধ",
+        "নিয়ম",
+        "আদেশ"
+      ],
+      "answer": 0,
+      "why": "der Kompromiss।",
+      "word": "kompromiss"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „প্যাকেজিং কমানো উচিত।“",
+      "tiles": [
+        "werden.",
+        "sollten",
+        "Verpackungen",
+        "reduziert"
+      ],
+      "answer": [
+        "Verpackungen",
+        "sollten",
+        "reduziert",
+        "werden."
+      ],
+      "why": "Passiv mit Modalverb।",
+      "word": "reduzieren"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

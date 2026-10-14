@@ -1,0 +1,1315 @@
+{
+  "level": "A2",
+  "unit": 12,
+  "minutes": 16,
+  "lesson": 3,
+  "id": "a2-u12-l03",
+  "title": {
+    "de": "Mein Lebenslauf",
+    "bn": "সিভি (Lebenslauf) লেখা",
+    "en": "Writing a German CV"
+  },
+  "hook": {
+    "de": "Der erste Eindruck zählt.",
+    "who": "Redensart",
+    "bn": "প্রথম ছাপই গুরুত্বপূর্ণ।",
+    "en": "The first impression counts."
+  },
+  "goals": [
+    "জার্মান সিভির ছক: tabellarisch",
+    "persönliche Daten, Berufserfahrung, Ausbildung, Sprachkenntnisse",
+    "von … bis …, seit …",
+    "বছর বলা: zweitausendeinundzwanzig"
+  ],
+  "words": [
+    {
+      "id": "lebenslauf",
+      "de": "Lebenslauf",
+      "art": "der",
+      "pl": "die Lebensläufe",
+      "pos": "বিশেষ্য",
+      "bn": "সিভি, জীবনবৃত্তান্ত",
+      "en": "CV, résumé"
+    },
+    {
+      "id": "tabellarisch",
+      "de": "tabellarisch",
+      "pos": "বিশেষণ",
+      "bn": "ছকে সাজানো",
+      "en": "in tabular form"
+    },
+    {
+      "id": "persoenlich",
+      "de": "persönlich",
+      "pos": "বিশেষণ",
+      "bn": "ব্যক্তিগত",
+      "en": "personal"
+    },
+    {
+      "id": "daten",
+      "de": "Daten",
+      "art": "die",
+      "pos": "বিশেষ্য, বহুবচন",
+      "bn": "তথ্য",
+      "en": "data, details"
+    },
+    {
+      "id": "muttersprache",
+      "de": "Muttersprache",
+      "art": "die",
+      "pl": "die Muttersprachen",
+      "pos": "বিশেষ্য",
+      "bn": "মাতৃভাষা",
+      "en": "mother tongue"
+    },
+    {
+      "id": "fliessend",
+      "de": "fließend",
+      "pos": "বিশেষণ",
+      "bn": "সাবলীল",
+      "en": "fluent"
+    },
+    {
+      "id": "hobby",
+      "de": "Hobby",
+      "art": "das",
+      "pl": "die Hobbys",
+      "pos": "বিশেষ্য",
+      "bn": "শখ",
+      "en": "hobby"
+    },
+    {
+      "id": "neu",
+      "de": "neu",
+      "pos": "বিশেষণ",
+      "bn": "নতুন",
+      "en": "new"
+    },
+    {
+      "id": "oben",
+      "de": "oben",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "উপরে",
+      "en": "at the top, above"
+    },
+    {
+      "id": "optional",
+      "de": "optional",
+      "pos": "বিশেষণ",
+      "bn": "ঐচ্ছিক",
+      "en": "optional"
+    },
+    {
+      "id": "ort",
+      "de": "Ort",
+      "art": "der",
+      "pl": "die Orte",
+      "pos": "বিশেষ্য",
+      "bn": "স্থান",
+      "en": "place"
+    },
+    {
+      "id": "bewerbung",
+      "de": "Bewerbung",
+      "art": "die",
+      "pl": "die Bewerbungen",
+      "pos": "বিশেষ্য",
+      "bn": "চাকরির আবেদন",
+      "en": "job application"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Lena",
+      "bn": [
+        "জার্মান",
+        "সিভি",
+        "ছকে",
+        "সাজানো",
+        "থাকে।"
+      ],
+      "en": [
+        "A",
+        "German",
+        "CV",
+        "is",
+        "in",
+        "tabular",
+        "form."
+      ],
+      "de": [
+        {
+          "t": "Ein deutscher",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Ein deutscher",
+          "gb": "জার্মান",
+          "ge": "A German",
+          "n": ""
+        },
+        {
+          "t": "Lebenslauf",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "Lebenslauf",
+          "gb": "সিভি",
+          "ge": "CV",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "tabellarisch.",
+          "b": [
+            2,
+            3,
+            4
+          ],
+          "e": [
+            4,
+            5,
+            6
+          ],
+          "l": "tabellarisch",
+          "gb": "ছকে সাজানো থাকে",
+          "ge": "in tabular form",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "প্রথমে",
+        "কী",
+        "আসে?"
+      ],
+      "en": [
+        "What",
+        "comes",
+        "first?"
+      ],
+      "de": [
+        {
+          "t": "Was",
+          "b": [
+            1
+          ],
+          "e": [
+            0
+          ],
+          "l": "Was",
+          "gb": "কী",
+          "ge": "What",
+          "n": ""
+        },
+        {
+          "t": "kommt",
+          "b": [
+            2
+          ],
+          "e": [
+            1
+          ],
+          "l": "kommt",
+          "gb": "আসে",
+          "ge": "comes",
+          "n": ""
+        },
+        {
+          "t": "zuerst?",
+          "b": [
+            0
+          ],
+          "e": [
+            2
+          ],
+          "l": "zuerst",
+          "gb": "প্রথমে",
+          "ge": "first",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "প্রথমে",
+        "ব্যক্তিগত",
+        "তথ্য:",
+        "নাম,",
+        "ঠিকানা",
+        "আর",
+        "জন্মতারিখ।"
+      ],
+      "en": [
+        "First",
+        "the",
+        "personal",
+        "details:",
+        "name,",
+        "address",
+        "and",
+        "date",
+        "of",
+        "birth."
+      ],
+      "de": [
+        {
+          "t": "Zuerst",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Zuerst",
+          "gb": "প্রথমে",
+          "ge": "First",
+          "n": ""
+        },
+        {
+          "t": "kommen",
+          "b": [],
+          "e": [],
+          "l": "kommen",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "die persönlichen Daten:",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            1,
+            2,
+            3
+          ],
+          "l": "persönlich",
+          "gb": "ব্যক্তিগত তথ্য",
+          "ge": "the personal details",
+          "n": ""
+        },
+        {
+          "t": "Name,",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "Name",
+          "gb": "নাম",
+          "ge": "name",
+          "n": ""
+        },
+        {
+          "t": "Adresse",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "Adresse",
+          "gb": "ঠিকানা",
+          "ge": "address",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            5
+          ],
+          "e": [
+            6
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "Geburtsdatum.",
+          "b": [
+            6
+          ],
+          "e": [
+            7,
+            8,
+            9
+          ],
+          "l": "Geburtsdatum",
+          "gb": "জন্মতারিখ",
+          "ge": "date of birth",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "এরপর",
+        "কাজের",
+        "অভিজ্ঞতা",
+        "ও",
+        "শিক্ষা।",
+        "সবচেয়ে",
+        "নতুন",
+        "পদটি",
+        "উপরে",
+        "থাকে।"
+      ],
+      "en": [
+        "Then",
+        "work",
+        "experience",
+        "and",
+        "education.",
+        "The",
+        "newest",
+        "position",
+        "is",
+        "at",
+        "the",
+        "top."
+      ],
+      "de": [
+        {
+          "t": "Dann",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Dann",
+          "gb": "এরপর",
+          "ge": "Then",
+          "n": ""
+        },
+        {
+          "t": "kommen",
+          "b": [],
+          "e": [],
+          "l": "kommen",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Berufserfahrung",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "Berufserfahrung",
+          "gb": "কাজের অভিজ্ঞতা",
+          "ge": "work experience",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "und",
+          "gb": "ও",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "Ausbildung.",
+          "b": [
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "Ausbildung",
+          "gb": "শিক্ষা",
+          "ge": "education",
+          "n": ""
+        },
+        {
+          "t": "Die neueste",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "neu",
+          "gb": "সবচেয়ে নতুন",
+          "ge": "The newest",
+          "n": ""
+        },
+        {
+          "t": "Stelle",
+          "b": [
+            7
+          ],
+          "e": [
+            7
+          ],
+          "l": "Stelle",
+          "gb": "পদটি",
+          "ge": "position",
+          "n": ""
+        },
+        {
+          "t": "steht",
+          "b": [
+            9
+          ],
+          "e": [
+            8
+          ],
+          "l": "steht",
+          "gb": "থাকে",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "oben.",
+          "b": [
+            8
+          ],
+          "e": [
+            9,
+            10,
+            11
+          ],
+          "l": "oben",
+          "gb": "উপরে",
+          "ge": "at the top",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "২০২১",
+        "থেকে",
+        "২০২৪",
+        "পর্যন্ত",
+        "একটি",
+        "কোম্পানিতে",
+        "টেকনিশিয়ান",
+        "ছিলাম।"
+      ],
+      "en": [
+        "From",
+        "2021",
+        "to",
+        "2024",
+        "I",
+        "was",
+        "a",
+        "technician",
+        "at",
+        "a",
+        "company."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            4
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "war",
+          "b": [
+            8
+          ],
+          "e": [
+            5
+          ],
+          "l": "war",
+          "gb": "ছিলাম",
+          "ge": "was",
+          "n": ""
+        },
+        {
+          "t": "von 2021",
+          "b": [
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "von 2021",
+          "gb": "২০২১",
+          "ge": "From 2021",
+          "n": "2021 = zweitausendeinundzwanzig"
+        },
+        {
+          "t": "bis 2024",
+          "b": [
+            2,
+            3,
+            4
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "bis 2024",
+          "gb": "থেকে ২০২৪ পর্যন্ত",
+          "ge": "to 2024",
+          "n": ""
+        },
+        {
+          "t": "Techniker",
+          "b": [
+            7
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "Techniker",
+          "gb": "টেকনিশিয়ান",
+          "ge": "a technician",
+          "n": ""
+        },
+        {
+          "t": "bei einer Firma.",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            8,
+            9,
+            10
+          ],
+          "l": "bei einer Firma",
+          "gb": "একটি কোম্পানিতে",
+          "ge": "at a company",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "লেখো:",
+        "„২০২১–২০২৪:",
+        "টেকনিশিয়ান,",
+        "কোম্পানি",
+        "XY“।",
+        "তারপর",
+        "তোমার",
+        "ভাষাজ্ঞান",
+        "আসে।"
+      ],
+      "en": [
+        "Write:",
+        "“2021–2024:",
+        "Technician,",
+        "Company",
+        "XY”.",
+        "Then",
+        "your",
+        "language",
+        "skills",
+        "follow."
+      ],
+      "de": [
+        {
+          "t": "Schreib:",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Schreib",
+          "gb": "লেখো",
+          "ge": "Write",
+          "n": ""
+        },
+        {
+          "t": "„2021–2024:",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "„2021–2024",
+          "gb": "„২০২১–২০২৪",
+          "ge": "“2021–2024",
+          "n": ""
+        },
+        {
+          "t": "Techniker,",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "Techniker",
+          "gb": "টেকনিশিয়ান",
+          "ge": "Technician",
+          "n": ""
+        },
+        {
+          "t": "Firma XY“.",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "Firma XY“",
+          "gb": "কোম্পানি XY“",
+          "ge": "Company XY”",
+          "n": ""
+        },
+        {
+          "t": "Dann",
+          "b": [
+            5
+          ],
+          "e": [
+            5
+          ],
+          "l": "Dann",
+          "gb": "তারপর",
+          "ge": "Then",
+          "n": ""
+        },
+        {
+          "t": "kommen",
+          "b": [
+            8
+          ],
+          "e": [
+            9
+          ],
+          "l": "kommen",
+          "gb": "আসে",
+          "ge": "follow",
+          "n": ""
+        },
+        {
+          "t": "deine Sprachkenntnisse.",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            6,
+            7,
+            8
+          ],
+          "l": "Sprachkenntnisse",
+          "gb": "তোমার ভাষাজ্ঞান",
+          "ge": "your language skills",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "বাংলা",
+        "আমার",
+        "মাতৃভাষা,",
+        "ইংরেজি",
+        "আমি",
+        "সাবলীলভাবে",
+        "বলি",
+        "আর",
+        "জার্মান",
+        "A2",
+        "স্তরে।"
+      ],
+      "en": [
+        "Bengali",
+        "is",
+        "my",
+        "mother",
+        "tongue,",
+        "I",
+        "speak",
+        "English",
+        "fluently",
+        "and",
+        "German",
+        "at",
+        "level",
+        "A2."
+      ],
+      "de": [
+        {
+          "t": "Bengalisch",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Bengalisch",
+          "gb": "বাংলা",
+          "ge": "Bengali",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "meine Muttersprache,",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            2,
+            3,
+            4
+          ],
+          "l": "Muttersprache",
+          "gb": "আমার মাতৃভাষা",
+          "ge": "my mother tongue",
+          "n": ""
+        },
+        {
+          "t": "Englisch",
+          "b": [
+            3
+          ],
+          "e": [
+            7
+          ],
+          "l": "Englisch",
+          "gb": "ইংরেজি",
+          "ge": "English",
+          "n": ""
+        },
+        {
+          "t": "spreche",
+          "b": [
+            6
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "spreche",
+          "gb": "বলি",
+          "ge": "I speak",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            4
+          ],
+          "e": [],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "fließend",
+          "b": [
+            5
+          ],
+          "e": [
+            8
+          ],
+          "l": "fließend",
+          "gb": "সাবলীলভাবে",
+          "ge": "fluently",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            7
+          ],
+          "e": [
+            9
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "Deutsch",
+          "b": [
+            8
+          ],
+          "e": [
+            10
+          ],
+          "l": "Deutsch",
+          "gb": "জার্মান",
+          "ge": "German",
+          "n": ""
+        },
+        {
+          "t": "auf Niveau A2.",
+          "b": [
+            9,
+            10
+          ],
+          "e": [
+            11,
+            12,
+            13
+          ],
+          "l": "auf Niveau A2",
+          "gb": "A2 স্তরে",
+          "ge": "at level A2",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "শেষে",
+        "স্থান,",
+        "তারিখ",
+        "আর",
+        "তোমার",
+        "সই",
+        "থাকে।",
+        "শখ",
+        "ঐচ্ছিক।"
+      ],
+      "en": [
+        "At",
+        "the",
+        "end",
+        "come",
+        "place,",
+        "date",
+        "and",
+        "your",
+        "signature.",
+        "Hobbies",
+        "are",
+        "optional."
+      ],
+      "de": [
+        {
+          "t": "Am Ende",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "Am Ende",
+          "gb": "শেষে",
+          "ge": "At the end",
+          "n": ""
+        },
+        {
+          "t": "stehen",
+          "b": [
+            6
+          ],
+          "e": [
+            3
+          ],
+          "l": "stehen",
+          "gb": "থাকে",
+          "ge": "come",
+          "n": ""
+        },
+        {
+          "t": "Ort,",
+          "b": [
+            1
+          ],
+          "e": [
+            4
+          ],
+          "l": "Ort",
+          "gb": "স্থান",
+          "ge": "place",
+          "n": ""
+        },
+        {
+          "t": "Datum",
+          "b": [
+            2
+          ],
+          "e": [
+            5
+          ],
+          "l": "Datum",
+          "gb": "তারিখ",
+          "ge": "date",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            3
+          ],
+          "e": [
+            6
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "deine Unterschrift.",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "deine Unterschrift",
+          "gb": "তোমার সই",
+          "ge": "your signature",
+          "n": ""
+        },
+        {
+          "t": "Hobbys",
+          "b": [
+            7
+          ],
+          "e": [
+            9
+          ],
+          "l": "Hobby",
+          "gb": "শখ",
+          "ge": "Hobbies",
+          "n": ""
+        },
+        {
+          "t": "sind",
+          "b": [],
+          "e": [
+            10
+          ],
+          "l": "sind",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "are",
+          "n": ""
+        },
+        {
+          "t": "optional.",
+          "b": [
+            8
+          ],
+          "e": [
+            11
+          ],
+          "l": "optional",
+          "gb": "ঐচ্ছিক",
+          "ge": "optional",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "Aufbau eines tabellarischen Lebenslaufs",
+      "head": [
+        "Abschnitt",
+        "Inhalt"
+      ],
+      "rows": [
+        [
+          "Persönliche Daten",
+          "Name, Adresse, Telefon, E-Mail, Geburtsdatum, Staatsangehörigkeit"
+        ],
+        [
+          "Berufserfahrung",
+          "von … bis …: Position, Firma, Ort (neueste zuerst)"
+        ],
+        [
+          "Ausbildung / Studium",
+          "von … bis …: Abschluss, Institution"
+        ],
+        [
+          "Sprachkenntnisse",
+          "Muttersprache; Deutsch A2; Englisch fließend"
+        ],
+        [
+          "Weitere Kenntnisse",
+          "Computer, Führerschein usw."
+        ],
+        [
+          "Hobbys (optional)",
+          "1–2 Hobbys"
+        ],
+        [
+          "Ort, Datum, Unterschrift",
+          "am Ende"
+        ]
+      ],
+      "note": "Foto ist in Deutschland nicht Pflicht. Der Lebenslauf sollte 1–2 Seiten lang sein, klar und ohne Lücken. Zertifikate (z. B. Goethe A2) als Anlage beilegen."
+    },
+    {
+      "type": "table",
+      "title": "Jahreszahlen sagen",
+      "head": [
+        "Zahl",
+        "sagen"
+      ],
+      "rows": [
+        [
+          "2021",
+          "zweitausendeinundzwanzig"
+        ],
+        [
+          "2024",
+          "zweitausendvierundzwanzig"
+        ],
+        [
+          "1999",
+          "neunzehnhundertneunundneunzig"
+        ],
+        [
+          "2010",
+          "zweitausendzehn"
+        ]
+      ],
+      "note": "ab 2000: zweitausend… · 1900–1999: neunzehnhundert… (oder tausendneunhundert…)। „im Jahr 2024“ / „von 2021 bis 2024“।"
+    },
+    {
+      "type": "table",
+      "title": "Sprachniveau beschreiben",
+      "head": [
+        "Niveau",
+        "Beschreibung"
+      ],
+      "rows": [
+        [
+          "Muttersprache",
+          "Bengalisch – Muttersprache"
+        ],
+        [
+          "fließend",
+          "Englisch – fließend (C1)"
+        ],
+        [
+          "gute Kenntnisse",
+          "Deutsch – gute Kenntnisse (B1)"
+        ],
+        [
+          "Grundkenntnisse",
+          "Deutsch – Grundkenntnisse (A2)"
+        ]
+      ],
+      "note": "নিজেকে ইচ্ছামতো বাড়িয়ে লিখবেন না — ইন্টারভিউতে জার্মান বলতে বলা হতে পারে। সঠিক স্তর ও সনদের কথা লিখুন।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "der Lebenslauf",
+      "options": [
+        "স্থান",
+        "ছকে সাজানো",
+        "সিভি",
+        "তথ্য"
+      ],
+      "answer": 2,
+      "why": "der Lebenslauf = সিভি।",
+      "word": "lebenslauf"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "die Muttersprache",
+      "options": [
+        "উপরে",
+        "চাকরির আবেদন",
+        "মাতৃভাষা",
+        "ব্যক্তিগত"
+      ],
+      "answer": 2,
+      "why": "die Muttersprache = মাতৃভাষা।",
+      "word": "muttersprache"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "fließend",
+      "options": [
+        "ছকে সাজানো",
+        "সাবলীল",
+        "মাতৃভাষা",
+        "উপরে"
+      ],
+      "answer": 1,
+      "why": "fließend = সাবলীল।",
+      "word": "fliessend"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Bewerbung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Bewerbung। বহুবচন: die Bewerbungen।",
+      "word": "bewerbung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "2021 জার্মানে কীভাবে বলে?",
+      "options": [
+        "zweitausendeinundzwanzig",
+        "zwanzigeinundzwanzig",
+        "tausendeinundzwanzig",
+        "zweihunderteinundzwanzig"
+      ],
+      "answer": 0,
+      "why": "ab 2000: zweitausend…।",
+      "word": "daten"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সিভিতে কোন পদ আগে লিখবেন?",
+      "options": [
+        "সবচেয়ে নতুন পদ",
+        "সবচেয়ে পুরনো পদ",
+        "যেটা পছন্দ",
+        "কোনোটাই না"
+      ],
+      "answer": 0,
+      "why": "neueste zuerst।",
+      "word": "neu"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„tabellarisch“ মানে কী?",
+      "options": [
+        "ছকে সাজানো",
+        "হাতে লেখা",
+        "ছবি-সহ",
+        "লম্বা"
+      ],
+      "answer": 0,
+      "why": "Tabelle = ছক।",
+      "word": "tabellarisch"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„von 2021 bis 2024“ মানে কী?",
+      "options": [
+        "২০২১ থেকে ২০২৪ পর্যন্ত",
+        "২০২১ আগে",
+        "২০২৪ পরে",
+        "প্রতি বছর"
+      ],
+      "answer": 0,
+      "why": "von … bis …।",
+      "word": "ort"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„optional“ মানে কী?",
+      "options": [
+        "ঐচ্ছিক",
+        "বাধ্যতামূলক",
+        "নিষিদ্ধ",
+        "দ্রুত"
+      ],
+      "answer": 0,
+      "why": "optional।",
+      "word": "optional"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „আমি ২০২১ থেকে ২০২৪ পর্যন্ত টেকনিশিয়ান ছিলাম।“",
+      "tiles": [
+        "Techniker.",
+        "war",
+        "bis 2024",
+        "Ich",
+        "von 2021"
+      ],
+      "answer": [
+        "Ich",
+        "war",
+        "von 2021",
+        "bis 2024",
+        "Techniker."
+      ],
+      "why": "von … bis …",
+      "word": "lebenslauf"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

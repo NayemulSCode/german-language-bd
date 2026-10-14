@@ -1,0 +1,1193 @@
+{
+  "level": "A2",
+  "unit": 6,
+  "minutes": 16,
+  "lesson": 1,
+  "id": "a2-u06-l01",
+  "title": {
+    "de": "Ich lade dich ein",
+    "bn": "নিমন্ত্রণ: দাওয়াত দেওয়া, রাজি হওয়া, না করা",
+    "en": "Invitations: inviting, accepting, declining"
+  },
+  "hook": {
+    "de": "Gäste sind das Salz des Hauses.",
+    "who": "Redensart",
+    "bn": "অতিথি ঘরের লবণের মতো — স্বাদ আনে।",
+    "en": "Guests are the salt of the house."
+  },
+  "goals": [
+    "Datum বলা: am zwanzigsten Mai",
+    "einladen zu + Dativ: zu meinem Geburtstag",
+    "zusagen / absagen",
+    "trennbare Verben: einladen, anfangen, mitbringen"
+  ],
+  "words": [
+    {
+      "id": "einladen",
+      "de": "einladen",
+      "pos": "ক্রিয়া · lädt ein, hat eingeladen",
+      "bn": "নিমন্ত্রণ করা",
+      "en": "to invite"
+    },
+    {
+      "id": "einladung",
+      "de": "Einladung",
+      "art": "die",
+      "pl": "die Einladungen",
+      "pos": "বিশেষ্য",
+      "bn": "নিমন্ত্রণ",
+      "en": "invitation"
+    },
+    {
+      "id": "geburtstag",
+      "de": "Geburtstag",
+      "art": "der",
+      "pl": "die Geburtstage",
+      "pos": "বিশেষ্য",
+      "bn": "জন্মদিন",
+      "en": "birthday"
+    },
+    {
+      "id": "feiern",
+      "de": "feiern",
+      "pos": "ক্রিয়া · hat gefeiert",
+      "bn": "উদযাপন করা",
+      "en": "to celebrate"
+    },
+    {
+      "id": "party",
+      "de": "Party",
+      "art": "die",
+      "pl": "die Partys",
+      "pos": "বিশেষ্য",
+      "bn": "পার্টি",
+      "en": "party"
+    },
+    {
+      "id": "gast",
+      "de": "Gast",
+      "art": "der",
+      "pl": "die Gäste",
+      "pos": "বিশেষ্য",
+      "bn": "অতিথি",
+      "en": "guest"
+    },
+    {
+      "id": "zusagen",
+      "de": "zusagen",
+      "pos": "ক্রিয়া · hat zugesagt",
+      "bn": "সম্মতি জানানো",
+      "en": "to accept (an invitation)"
+    },
+    {
+      "id": "absagen",
+      "de": "absagen",
+      "pos": "ক্রিয়া · hat abgesagt",
+      "bn": "না করে দেওয়া",
+      "en": "to decline, to cancel"
+    },
+    {
+      "id": "anfangen",
+      "de": "anfangen",
+      "pos": "ক্রিয়া · fängt an, hat angefangen",
+      "bn": "শুরু হওয়া/করা",
+      "en": "to begin"
+    },
+    {
+      "id": "getraenk",
+      "de": "Getränk",
+      "art": "das",
+      "pl": "die Getränke",
+      "pos": "বিশেষ্য",
+      "bn": "পানীয়",
+      "en": "drink"
+    },
+    {
+      "id": "kuchen",
+      "de": "Kuchen",
+      "art": "der",
+      "pl": "die Kuchen",
+      "pos": "বিশেষ্য",
+      "bn": "কেক",
+      "en": "cake"
+    },
+    {
+      "id": "datum",
+      "de": "Datum",
+      "art": "das",
+      "pl": "die Daten",
+      "pos": "বিশেষ্য",
+      "bn": "তারিখ",
+      "en": "date"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Lena",
+      "bn": [
+        "সাহেব,",
+        "আমি",
+        "২০শে",
+        "মে",
+        "আমার",
+        "জন্মদিন",
+        "পালন",
+        "করছি।"
+      ],
+      "en": [
+        "Saheb,",
+        "I",
+        "am",
+        "celebrating",
+        "my",
+        "birthday",
+        "on",
+        "the",
+        "twentieth",
+        "of",
+        "May."
+      ],
+      "de": [
+        {
+          "t": "Saheb,",
+          "s": "Saheb",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Saheb",
+          "gb": "সাহেব",
+          "ge": "Saheb",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "feiere",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "feiern",
+          "gb": "পালন করছি",
+          "ge": "am celebrating",
+          "n": ""
+        },
+        {
+          "t": "am",
+          "b": [],
+          "e": [
+            6
+          ],
+          "l": "am",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "on",
+          "n": ""
+        },
+        {
+          "t": "zwanzigsten Mai",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            7,
+            8,
+            9,
+            10
+          ],
+          "l": "zwanzigsten Mai",
+          "gb": "২০শে মে",
+          "ge": "the twentieth of May",
+          "n": "am + Ordnungszahl + -en: am zwanzigsten Mai"
+        },
+        {
+          "t": "meinen",
+          "b": [
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "meinen",
+          "gb": "আমার",
+          "ge": "my",
+          "n": ""
+        },
+        {
+          "t": "Geburtstag.",
+          "b": [
+            5
+          ],
+          "e": [
+            5
+          ],
+          "l": "Geburtstag",
+          "gb": "জন্মদিন",
+          "ge": "birthday",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "আমি",
+        "তোমাকে",
+        "নিমন্ত্রণ",
+        "করতে",
+        "চাই।",
+        "তোমার",
+        "কি",
+        "সময়",
+        "আছে?"
+      ],
+      "en": [
+        "I",
+        "would",
+        "like",
+        "to",
+        "invite",
+        "you.",
+        "Do",
+        "you",
+        "have",
+        "time?"
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "möchte",
+          "b": [
+            4
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "möchte",
+          "gb": "চাই",
+          "ge": "would like",
+          "n": ""
+        },
+        {
+          "t": "dich",
+          "b": [
+            1
+          ],
+          "e": [
+            5
+          ],
+          "l": "dich",
+          "gb": "তোমাকে",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "gern",
+          "b": [],
+          "e": [],
+          "l": "gern",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "einladen.",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "einladen",
+          "gb": "নিমন্ত্রণ করতে",
+          "ge": "to invite",
+          "n": ""
+        },
+        {
+          "t": "Hast",
+          "b": [
+            8
+          ],
+          "e": [
+            6
+          ],
+          "l": "Hast",
+          "gb": "আছে",
+          "ge": "Do",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            5
+          ],
+          "e": [
+            7
+          ],
+          "l": "du",
+          "gb": "তোমার",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "Zeit?",
+          "b": [
+            7
+          ],
+          "e": [
+            8,
+            9
+          ],
+          "l": "Zeit",
+          "gb": "সময়",
+          "ge": "have time",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "অবশ্যই!",
+        "পার্টি",
+        "কয়টায়",
+        "শুরু",
+        "হয়?"
+      ],
+      "en": [
+        "Gladly!",
+        "What",
+        "time",
+        "does",
+        "the",
+        "party",
+        "start?"
+      ],
+      "de": [
+        {
+          "t": "Gern!",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Gern",
+          "gb": "অবশ্যই",
+          "ge": "Gladly",
+          "n": ""
+        },
+        {
+          "t": "Um wie viel Uhr",
+          "b": [
+            2
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "Um wie viel Uhr",
+          "gb": "কয়টায়",
+          "ge": "What time",
+          "n": ""
+        },
+        {
+          "t": "fängt",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            6
+          ],
+          "l": "anfangen",
+          "gb": "শুরু হয়",
+          "ge": "start",
+          "n": "anfangen → fängt … an (trennbar)"
+        },
+        {
+          "t": "die",
+          "b": [],
+          "e": [
+            4
+          ],
+          "l": "die",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "Party",
+          "b": [
+            1
+          ],
+          "e": [
+            5
+          ],
+          "l": "Party",
+          "gb": "পার্টি",
+          "ge": "party",
+          "n": ""
+        },
+        {
+          "t": "an?",
+          "b": [],
+          "e": [],
+          "l": "an",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "সন্ধ্যা",
+        "সাতটায়।",
+        "তুমি",
+        "একজন",
+        "বন্ধুকেও",
+        "নিয়ে",
+        "আসতে",
+        "পারো।"
+      ],
+      "en": [
+        "At",
+        "seven",
+        "in",
+        "the",
+        "evening.",
+        "You",
+        "can",
+        "also",
+        "bring",
+        "a",
+        "friend."
+      ],
+      "de": [
+        {
+          "t": "Um",
+          "b": [],
+          "e": [
+            0
+          ],
+          "l": "Um",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "At",
+          "n": ""
+        },
+        {
+          "t": "sieben Uhr",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "sieben Uhr",
+          "gb": "সাতটায়",
+          "ge": "seven",
+          "n": ""
+        },
+        {
+          "t": "abends.",
+          "b": [
+            0
+          ],
+          "e": [
+            2,
+            3,
+            4
+          ],
+          "l": "abends",
+          "gb": "সন্ধ্যা",
+          "ge": "in the evening",
+          "n": ""
+        },
+        {
+          "t": "Du",
+          "b": [
+            2
+          ],
+          "e": [
+            5
+          ],
+          "l": "Du",
+          "gb": "তুমি",
+          "ge": "You",
+          "n": ""
+        },
+        {
+          "t": "kannst",
+          "b": [
+            7
+          ],
+          "e": [
+            6
+          ],
+          "l": "kannst",
+          "gb": "পারো",
+          "ge": "can",
+          "n": ""
+        },
+        {
+          "t": "auch",
+          "b": [],
+          "e": [
+            7
+          ],
+          "l": "auch",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "also",
+          "n": ""
+        },
+        {
+          "t": "einen Freund",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "einen Freund",
+          "gb": "একজন বন্ধুকেও",
+          "ge": "a friend",
+          "n": ""
+        },
+        {
+          "t": "mitbringen.",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            8
+          ],
+          "l": "mitbringen",
+          "gb": "নিয়ে আসতে",
+          "ge": "bring",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "নিমন্ত্রণের",
+        "জন্য",
+        "ধন্যবাদ!",
+        "আমি",
+        "কি",
+        "কিছু",
+        "আনব?"
+      ],
+      "en": [
+        "Thanks",
+        "for",
+        "the",
+        "invitation!",
+        "Shall",
+        "I",
+        "bring",
+        "something?"
+      ],
+      "de": [
+        {
+          "t": "Danke",
+          "b": [
+            2
+          ],
+          "e": [
+            0
+          ],
+          "l": "Danke",
+          "gb": "ধন্যবাদ",
+          "ge": "Thanks",
+          "n": ""
+        },
+        {
+          "t": "für",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "für",
+          "gb": "জন্য",
+          "ge": "for",
+          "n": ""
+        },
+        {
+          "t": "die",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "die",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "Einladung!",
+          "b": [
+            0
+          ],
+          "e": [
+            3
+          ],
+          "l": "Einladung",
+          "gb": "নিমন্ত্রণের",
+          "ge": "invitation",
+          "n": ""
+        },
+        {
+          "t": "Soll",
+          "b": [
+            6
+          ],
+          "e": [
+            4
+          ],
+          "l": "sollen",
+          "gb": "আনব",
+          "ge": "Shall",
+          "n": "Soll ich …? = আমি কি করব? (প্রস্তাব/অনুমতি চাওয়া)"
+        },
+        {
+          "t": "ich",
+          "b": [
+            3
+          ],
+          "e": [
+            5
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "etwas",
+          "b": [
+            5
+          ],
+          "e": [
+            7
+          ],
+          "l": "etwas",
+          "gb": "কিছু",
+          "ge": "something",
+          "n": ""
+        },
+        {
+          "t": "mitbringen?",
+          "b": [],
+          "e": [
+            6
+          ],
+          "l": "mitbringen",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "bring",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "দয়া",
+        "করে",
+        "পানীয়",
+        "এনো।",
+        "আমি",
+        "একটি",
+        "কেক",
+        "বানাব।"
+      ],
+      "en": [
+        "Please",
+        "bring",
+        "drinks.",
+        "I",
+        "will",
+        "make",
+        "a",
+        "cake."
+      ],
+      "de": [
+        {
+          "t": "Bring",
+          "b": [
+            3
+          ],
+          "e": [
+            1
+          ],
+          "l": "mitbringen",
+          "gb": "এনো",
+          "ge": "bring",
+          "n": ""
+        },
+        {
+          "t": "bitte",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0
+          ],
+          "l": "bitte",
+          "gb": "দয়া করে",
+          "ge": "Please",
+          "n": ""
+        },
+        {
+          "t": "Getränke",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "Getränk",
+          "gb": "পানীয়",
+          "ge": "drinks",
+          "n": ""
+        },
+        {
+          "t": "mit.",
+          "b": [],
+          "e": [],
+          "l": "mit",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            4
+          ],
+          "e": [
+            3
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "mache",
+          "b": [
+            7
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "mache",
+          "gb": "বানাব",
+          "ge": "will make",
+          "n": ""
+        },
+        {
+          "t": "einen",
+          "b": [
+            5
+          ],
+          "e": [
+            6
+          ],
+          "l": "einen",
+          "gb": "একটি",
+          "ge": "a",
+          "n": ""
+        },
+        {
+          "t": "Kuchen.",
+          "b": [
+            6
+          ],
+          "e": [
+            7
+          ],
+          "l": "Kuchen",
+          "gb": "কেক",
+          "ge": "cake",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "খুশি",
+        "হয়ে",
+        "রাজি,",
+        "আর",
+        "সময়মতো",
+        "আসব।"
+      ],
+      "en": [
+        "I",
+        "gladly",
+        "accept,",
+        "and",
+        "I",
+        "will",
+        "arrive",
+        "on",
+        "time."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "sage",
+          "b": [
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "zusagen",
+          "gb": "রাজি",
+          "ge": "accept",
+          "n": "zusagen: Ich sage zu. (trennbar)"
+        },
+        {
+          "t": "gern",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            1
+          ],
+          "l": "gern",
+          "gb": "খুশি হয়ে",
+          "ge": "gladly",
+          "n": ""
+        },
+        {
+          "t": "zu,",
+          "b": [],
+          "e": [],
+          "l": "zu",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            4
+          ],
+          "e": [
+            3
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "komme",
+          "b": [
+            6
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "komme",
+          "gb": "আসব",
+          "ge": "will arrive",
+          "n": ""
+        },
+        {
+          "t": "pünktlich.",
+          "b": [
+            5
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "pünktlich",
+          "gb": "সময়মতো",
+          "ge": "on time",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "তারিখ বলা ও লেখা",
+      "head": [
+        "তারিখ",
+        "জার্মানে বলুন",
+        "বাংলা"
+      ],
+      "rows": [
+        [
+          "1. Mai",
+          "am ersten Mai",
+          "পহেলা মে"
+        ],
+        [
+          "3. Oktober",
+          "am dritten Oktober",
+          "৩রা অক্টোবর"
+        ],
+        [
+          "20. Mai",
+          "am zwanzigsten Mai",
+          "২০শে মে"
+        ],
+        [
+          "31. Dezember",
+          "am einunddreißigsten Dezember",
+          "৩১শে ডিসেম্বর"
+        ]
+      ],
+      "note": "am + Ordnungszahl + -en। লেখায়: „20.05.2026“ বা „den 20. Mai“। বছর: „im Jahr zweitausendsechsundzwanzig“।"
+    },
+    {
+      "type": "table",
+      "title": "নিমন্ত্রণ ও উত্তর",
+      "head": [
+        "কাজ",
+        "বাক্য"
+      ],
+      "rows": [
+        [
+          "নিমন্ত্রণ",
+          "Ich lade dich zu meinem Geburtstag ein."
+        ],
+        [
+          "রাজি হওয়া",
+          "Vielen Dank, ich komme gern! / Ich sage zu."
+        ],
+        [
+          "না করা",
+          "Leider kann ich nicht kommen, weil ich arbeiten muss. / Ich muss leider absagen."
+        ],
+        [
+          "কিছু আনব কিনা",
+          "Soll ich etwas mitbringen?"
+        ],
+        [
+          "শুরুর সময়",
+          "Um wie viel Uhr fängt die Party an?"
+        ]
+      ],
+      "note": "einladen zu + Dativ: „zu meinem Geburtstag, zu einer Party, zum Essen“। না করার সময় কারণ বলুন (weil …) এবং দুঃখ প্রকাশ করুন (leider)।"
+    },
+    {
+      "type": "text",
+      "title": "ভাঙা ক্রিয়ার সারসংক্ষেপ",
+      "text": "einladen → Ich lade dich ein. · anfangen → Die Party fängt um sieben an. · mitbringen → Bring Getränke mit! · zusagen → Ich sage zu. · absagen → Ich muss absagen. — উপসর্গ বাক্যের শেষে। Modalverb-সহ: „Ich möchte dich einladen“ (পুরো ক্রিয়া শেষে)।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "die Einladung",
+      "options": [
+        "উদযাপন করা",
+        "অতিথি",
+        "নিমন্ত্রণ",
+        "না করে দেওয়া"
+      ],
+      "answer": 2,
+      "why": "die Einladung = নিমন্ত্রণ।",
+      "word": "einladung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "zusagen",
+      "options": [
+        "সম্মতি জানানো",
+        "না করে দেওয়া",
+        "কেক",
+        "নিমন্ত্রণ"
+      ],
+      "answer": 0,
+      "why": "zusagen = সম্মতি জানানো।",
+      "word": "zusagen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "absagen",
+      "options": [
+        "পানীয়",
+        "নিমন্ত্রণ করা",
+        "না করে দেওয়া",
+        "উদযাপন করা"
+      ],
+      "answer": 2,
+      "why": "absagen = না করে দেওয়া।",
+      "word": "absagen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Party",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Party। বহুবচন: die Partys।",
+      "word": "party"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ich lade dich ___ meinem Geburtstag ein.",
+      "options": [
+        "zu",
+        "für",
+        "bei",
+        "mit"
+      ],
+      "answer": 0,
+      "why": "einladen zu + Dativ।",
+      "word": "einladen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„am zwanzigsten Mai“ কোন তারিখ?",
+      "options": [
+        "২০শে মে",
+        "২রা মে",
+        "১২ মে",
+        "২০ মাস"
+      ],
+      "answer": 0,
+      "why": "zwanzigste = ২০তম।",
+      "word": "datum"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক বাক্য কোনটি?",
+      "options": [
+        "Die Party fängt um sieben Uhr an.",
+        "Die Party anfängt um sieben Uhr.",
+        "Die Party fängt an um sieben Uhr.",
+        "Die Party fangt um sieben Uhr an."
+      ],
+      "answer": 0,
+      "why": "উপসর্গ an শেষে।",
+      "word": "anfangen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Soll ich etwas mitbringen?“ মানে কী?",
+      "options": [
+        "আমি কি কিছু আনব?",
+        "আমি কিছু আনব না",
+        "কিছু আনো",
+        "আমি কী শিখব?"
+      ],
+      "answer": 0,
+      "why": "Soll ich …? = প্রস্তাব।",
+      "word": "getraenk"
+    },
+    {
+      "type": "mcq",
+      "prompt": "না করার সময় কোনটি ভদ্র?",
+      "options": [
+        "Leider kann ich nicht kommen.",
+        "Ich komme nicht.",
+        "Nein, danke nicht.",
+        "Das ist egal."
+      ],
+      "answer": 0,
+      "why": "Leider + কারণ।",
+      "word": "absagen"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „আমি তোমাকে জন্মদিনে নিমন্ত্রণ করছি।“",
+      "tiles": [
+        "Geburtstag",
+        "ein.",
+        "dich",
+        "zu meinem",
+        "lade",
+        "Ich"
+      ],
+      "answer": [
+        "Ich",
+        "lade",
+        "dich",
+        "zu meinem",
+        "Geburtstag",
+        "ein."
+      ],
+      "why": "einladen zu + Dativ; উপসর্গ শেষে।",
+      "word": "einladen"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

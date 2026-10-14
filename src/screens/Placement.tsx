@@ -9,7 +9,7 @@ import { QuestionBody, isReady, isRight } from '../components/Question'
 import { go } from '../router'
 
 /** A short mixed test over all A1 units: no feedback while answering, then a recommended starting unit. */
-export function PlacementScreen() {
+export function PlacementScreen({ level = 'A1' }: { level?: 'A1' | 'A2' | 'B1' }) {
   const { setSettings } = useApp()
   const [items, setItems] = useState<PlacementItem[] | null>(null)
   const [started, setStarted] = useState(false)
@@ -19,14 +19,14 @@ export function PlacementScreen() {
   const [correct, setCorrect] = useState<boolean[]>([])
 
   useEffect(() => {
-    loadAllLessons().then((ls) => setItems(pickQuestions(ls)))
-  }, [])
+    loadAllLessons().then((ls) => setItems(pickQuestions(ls, level)))
+  }, [level])
 
   const header = (
     <header className="lbar">
       <div className="lbar-top">
         <a className="lclose" href="#course" aria-label="বন্ধ করে কোর্সে ফিরুন"><Icon name="close" /></a>
-        <span className="lvl">A1</span>
+        <span className="lvl">{level}</span>
         <span className="lbar-title">প্লেসমেন্ট টেস্ট</span>
       </div>
     </header>
@@ -42,10 +42,10 @@ export function PlacementScreen() {
           <h1 style={{ fontSize: 28 }} className="bn">কোথা থেকে শুরু করবেন?</h1>
           <div className="panel" style={{ marginTop: 14 }}>
             <ul className="goals bn">
-              <li>{bn(items.length)}টি প্রশ্ন, প্রায় ৫ মিনিট — সব ১০টি ইউনিট থেকে।</li>
+              <li>{bn(items.length)}টি প্রশ্ন, প্রায় ৫ মিনিট — সব {bn(new Set(items.map((x) => x.unit)).size)}টি ইউনিট থেকে।</li>
               <li>প্রতিটি উত্তরের পর ঠিক-ভুল দেখানো হবে না।</li>
               <li>না জানলে অনুমান না করে „জানি না“ চাপুন — তাতে ঠিক জায়গাটা বোঝা যায়।</li>
-              <li>এতে আপনার XP বা লেসনের অবস্থা বদলাবে না; শুধু আগের ইউনিটগুলো খুলে যাবে।</li>
+              <li>এতে আপনার XP বা লেসনের অবস্থা বদলাবে না; শুধু আগের ইউনিটগুলো খুলে যাবে।{level === 'A2' && ' A2 টেস্টে আপনার সব A1 লেসনও খুলে যাবে।'}{level === 'B1' && ' B1 টেস্টে আপনার সব A1 ও A2 লেসনও খুলে যাবে।'}</li>
             </ul>
           </div>
           <div className="actions"><button className="btn bn" onClick={() => setStarted(true)}>শুরু করি</button></div>
@@ -56,9 +56,9 @@ export function PlacementScreen() {
 
   if (i >= items.length) {
     const r = placementResult(items, correct)
-    const t = UNIT_TITLES[`A1-${r.startUnit}`]
+    const t = UNIT_TITLES[`${level}-${r.startUnit}`]
     const apply = (unit: number) => {
-      setSettings({ startUnit: unit, placed: true })
+      setSettings(level === 'B1' ? { startUnitB1: unit } : level === 'A2' ? { startUnitA2: unit } : { startUnit: unit, placed: true })
       go('#course')
     }
     return (
@@ -71,7 +71,7 @@ export function PlacementScreen() {
           <p className="bn" style={{ margin: '4px 0 0' }}>
             {r.perfect ? 'আপনি প্রায় সবই জানেন! শেষ ইউনিট থেকে শুরু করে ঝালিয়ে নিন।' : `${t?.bn ?? 'এই ইউনিট'} থেকে শুরু করা ভালো। আগের ইউনিটগুলো খোলা থাকবে — চাইলে দেখে নিতে পারবেন।`}
           </p>
-          <div className="meter bn" style={{ gridTemplateColumns: 'repeat(10,1fr)' }} aria-label="ইউনিট অনুযায়ী ফল">
+          <div className="meter bn" style={{ gridTemplateColumns: `repeat(${r.perUnit.length},1fr)` }} aria-label="ইউনিট অনুযায়ী ফল">
             {r.perUnit.map((u) => (
               <div key={u.unit} title={`ইউনিট ${u.unit}: ${u.correct}/${u.total}`}>
                 <i><u style={{ width: `${(u.correct / u.total) * 100}%`, background: u.correct === u.total ? 'var(--good)' : 'var(--accent)' }} /></i>

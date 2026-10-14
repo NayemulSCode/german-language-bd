@@ -20,7 +20,7 @@ export function HomeScreen() {
   const weekday = new Date(now).toLocaleDateString('bn-BD', { weekday: 'long' })
   const dueCount = useMemo(() => Object.values(progress.srs).filter((c) => c.due <= now).length, [progress.srs, now])
 
-  const states = lessonStates(LESSONS, (id) => lessonProgress(id).passed, { startUnit: progress.startUnit, unlockAll: progress.unlockAll })
+  const states = lessonStates(LESSONS, (id) => lessonProgress(id).passed, { startUnit: progress.startUnit, startUnitA2: progress.startUnitA2, startUnitB1: progress.startUnitB1, unlockAll: progress.unlockAll })
   const next = LESSONS.find((l) => states.get(l.id) === 'now')
   const unitLessons = next ? LESSONS.filter((l) => l.level === next.level && l.unit === next.unit) : []
   const unitPassed = unitLessons.filter((l) => lessonProgress(l.id).passed).length
@@ -59,8 +59,8 @@ export function HomeScreen() {
       ) : (
         <div className="card continue">
           <div className="eyebrow bn">সব লেসন শেষ</div>
-          <h2>A1 সম্পূর্ণ!</h2>
-          <div className="bn" style={{ opacity: 0.85 }}>রিভিউ করে শব্দগুলো পাকা করুন। A2 শীঘ্রই আসছে।</div>
+          <h2>{LESSONS.some((l) => l.level !== 'A1') ? 'এখন পর্যন্ত সব শেষ!' : 'A1 সম্পূর্ণ!'}</h2>
+          <div className="bn" style={{ opacity: 0.85 }}>রিভিউ করে শব্দগুলো পাকা করুন। নতুন লেসন শীঘ্রই আসছে।</div>
           <button className="btn bn" onClick={() => go('#review')}><Icon name="play" /> রিভিউ</button>
         </div>
       )}

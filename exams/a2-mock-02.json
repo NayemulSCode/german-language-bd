@@ -1,0 +1,417 @@
+{
+  "id": "a2-mock-02",
+  "level": "A2",
+  "title": {
+    "de": "Modelltest A2 (2) — Goethe-Zertifikat A2",
+    "bn": "A2 মক পরীক্ষা ২",
+    "en": "A2 mock exam 2"
+  },
+  "passMark": 0.6,
+  "parts": [
+    {
+      "kind": "hoeren",
+      "title": "Hören — শোনা",
+      "instructions": "প্রতিটি অংশ শুনুন এবং সঠিক উত্তর বেছে নিন। আসল পরীক্ষায় প্রতিটি অংশ ১–২ বার চালানো হয়; এখানে যতবার খুশি শুনতে পারবেন, কিন্তু চেষ্টা করুন সর্বোচ্চ ২ বার।",
+      "minutes": 30,
+      "questions": [
+        {
+          "type": "listen",
+          "prompt": "Wo kann man heute Fahrkarten kaufen?",
+          "say": "Achtung, eine wichtige Durchsage: Der Fahrkartenautomat am Eingang ist leider defekt. Fahrkarten kaufen Sie bitte am Automaten auf Bahnsteig zwei oder im Reisezentrum. Wir bitten um Verständnis.",
+          "options": [
+            "Nur im Zug",
+            "Am Eingang",
+            "Auf Bahnsteig zwei oder im Reisezentrum"
+          ],
+          "answer": 2,
+          "why": "Automat am Eingang defekt → Bahnsteig zwei / Reisezentrum।"
+        },
+        {
+          "type": "listen",
+          "prompt": "Was erfährt der Kunde?",
+          "say": "Guten Tag, hier ist die Autowerkstatt Bauer. Ihr Auto ist fertig. Die Reparatur hat 240 Euro gekostet. Sie können es bis 17 Uhr abholen. Wir haben bis 18 Uhr geöffnet.",
+          "options": [
+            "Sein Auto ist zu teuer.",
+            "Er muss noch eine Woche warten.",
+            "Sein Auto ist fertig und kann abgeholt werden."
+          ],
+          "answer": 2,
+          "why": "Auto ist fertig, abholen bis 17 Uhr।"
+        },
+        {
+          "type": "listen",
+          "prompt": "Wann kommt die Person morgen an?",
+          "say": "Hallo Mama, ich bin es. Ich komme morgen nicht um zwölf, sondern erst um drei, weil mein Zug Verspätung hat. Kannst du bitte das Mittagessen später machen? Ich freue mich schon sehr!",
+          "options": [
+            "Um zwölf Uhr",
+            "Um drei Uhr",
+            "Um fünf Uhr"
+          ],
+          "answer": 1,
+          "why": "„erst um drei“।"
+        },
+        {
+          "type": "listen",
+          "prompt": "Wo bleibt das Wetter am Sonntag schön?",
+          "say": "Das Wetter am Wochenende: Am Samstag ist es im ganzen Land trocken und sonnig mit bis zu 25 Grad. Am Sonntag ziehen im Westen Wolken auf, am Abend gibt es Gewitter. Im Osten bleibt es den ganzen Tag schön.",
+          "options": [
+            "Im Süden",
+            "Im Westen",
+            "Im Osten"
+          ],
+          "answer": 2,
+          "why": "„Im Osten bleibt es … schön“।"
+        },
+        {
+          "type": "listen",
+          "prompt": "Wie kommt man zum Museum?",
+          "say": "Entschuldigung, wie komme ich zum Museum? — Das ist nicht weit. Sie nehmen die Straßenbahn Linie sechs bis zur Haltestelle Theater. Von dort sind es nur zwei Minuten zu Fuß. Das Museum ist neben der Post.",
+          "options": [
+            "Mit dem Bus Linie sechzehn",
+            "Nur mit dem Auto",
+            "Mit der Straßenbahn Linie sechs"
+          ],
+          "answer": 2,
+          "why": "Linie sechs bis Theater।"
+        },
+        {
+          "type": "listen",
+          "prompt": "Was darf die Person heute nicht tun?",
+          "say": "Ich war heute beim Zahnarzt. Ich hatte seit zwei Tagen starke Schmerzen. Der Zahnarzt hat gesagt, ich brauche eine Füllung. Nächsten Dienstag muss ich wiederkommen. Heute darf ich nichts Heißes trinken.",
+          "options": [
+            "Etwas Heißes trinken",
+            "Arbeiten",
+            "Telefonieren"
+          ],
+          "answer": 0,
+          "why": "„nichts Heißes trinken“।"
+        },
+        {
+          "type": "listen",
+          "prompt": "Was möchte die Kundin?",
+          "say": "Guten Tag, ich möchte gern eine Hose umtauschen. Sie ist zu groß. Ich habe sie gestern gekauft und den Kassenbon dabei. — Kein Problem. Wollen Sie eine andere Größe oder das Geld zurück? — Eine kleinere Größe, bitte.",
+          "options": [
+            "Eine andere Farbe",
+            "Das Geld zurückbekommen",
+            "Die Hose in kleinerer Größe"
+          ],
+          "answer": 2,
+          "why": "„Eine kleinere Größe“।"
+        },
+        {
+          "type": "listen",
+          "prompt": "Was braucht die Person unbedingt?",
+          "say": "Ich suche eine Wohnung in der Nähe meiner Arbeit. Sie soll mindestens zwei Zimmer haben und höchstens 650 Euro kosten. Ein Garten ist mir nicht wichtig, aber ich brauche einen Platz für mein Fahrrad.",
+          "options": [
+            "Einen Platz für das Fahrrad",
+            "Drei Zimmer",
+            "Einen Garten"
+          ],
+          "answer": 0,
+          "why": "„einen Platz für mein Fahrrad“।"
+        },
+        {
+          "type": "listen",
+          "prompt": "Wer darf dienstags bis neun Uhr schwimmen?",
+          "say": "Willkommen im Schwimmbad! Das Hallenbad ist täglich von sieben bis einundzwanzig Uhr geöffnet. Dienstags und donnerstags ist bis neun Uhr nur für Frauen reserviert. Kinder unter sechs Jahren dürfen nur mit Erwachsenen ins Wasser.",
+          "options": [
+            "Nur Kinder",
+            "Nur Frauen",
+            "Alle"
+          ],
+          "answer": 1,
+          "why": "„nur für Frauen reserviert“।"
+        },
+        {
+          "type": "listen",
+          "prompt": "Was macht Tarek am Wochenende oft?",
+          "say": "Hallo, mein Name ist Tarek. Ich bin Krankenpfleger und arbeite im Schichtdienst. Das ist anstrengend, aber ich helfe gern Menschen. Am Wochenende habe ich oft frei, dann gehe ich mit meiner Familie spazieren oder wir besuchen Freunde.",
+          "options": [
+            "Er lernt Deutsch.",
+            "Er arbeitet.",
+            "Er geht mit der Familie spazieren."
+          ],
+          "answer": 2,
+          "why": "„gehe ich mit meiner Familie spazieren“।"
+        },
+        {
+          "type": "listen",
+          "prompt": "Was ist im Preis nicht enthalten?",
+          "say": "Liebe Gäste, unser Restaurant bietet heute ein besonderes Menü: Als Vorspeise eine Tomatensuppe, als Hauptgericht Fisch mit Reis und Gemüse, als Nachtisch Eis. Das Menü kostet zwölf Euro fünfzig. Getränke sind nicht im Preis enthalten.",
+          "options": [
+            "Die Getränke",
+            "Die Vorspeise",
+            "Der Nachtisch"
+          ],
+          "answer": 0,
+          "why": "„Getränke sind nicht im Preis enthalten“।"
+        },
+        {
+          "type": "listen",
+          "prompt": "Wann treffen sich die beiden?",
+          "say": "Du, Jonas, ich habe zwei Karten für das Konzert am Freitag. Eigentlich wollte Lisa mitkommen, aber sie muss arbeiten. Hast du Lust? Das Konzert beginnt um 20 Uhr. Wir könnten uns um halb acht vor der Halle treffen.",
+          "options": [
+            "Um 19.30 Uhr",
+            "Um 20 Uhr",
+            "Um 20.30 Uhr"
+          ],
+          "answer": 0,
+          "why": "halb acht = 19.30।"
+        }
+      ]
+    },
+    {
+      "kind": "lesen",
+      "title": "Lesen — পড়া",
+      "instructions": "প্রতিটি লেখা পড়ে সঠিক উত্তর বেছে নিন। Richtig = ঠিক, Falsch = ভুল।",
+      "minutes": 30,
+      "questions": [
+        {
+          "type": "mcq",
+          "prompt": "Was findet am 8. Juni statt?",
+          "passage": "Liebe Mieterinnen und Mieter,\nam Samstag, den 8. Juni, findet von 14 bis 18 Uhr unser Hoffest statt. Es gibt Kaffee und Kuchen, und wer möchte, kann etwas zum Grillen mitbringen. Getränke stellt die Hausverwaltung. Bitte tragen Sie sich bis Mittwoch in die Liste im Treppenhaus ein, damit wir genug Stühle haben. Bei Regen feiern wir im Gemeinschaftsraum.\nIhr Hausmeister Herr Brandt",
+          "options": [
+            "Ein Hoffest",
+            "Ein Flohmarkt",
+            "Eine Mieterversammlung"
+          ],
+          "answer": 0,
+          "why": "„Hoffest“।"
+        },
+        {
+          "type": "mcq",
+          "prompt": "Die Hausverwaltung stellt die Getränke.",
+          "passage": "Liebe Mieterinnen und Mieter,\nam Samstag, den 8. Juni, findet von 14 bis 18 Uhr unser Hoffest statt. Es gibt Kaffee und Kuchen, und wer möchte, kann etwas zum Grillen mitbringen. Getränke stellt die Hausverwaltung. Bitte tragen Sie sich bis Mittwoch in die Liste im Treppenhaus ein, damit wir genug Stühle haben. Bei Regen feiern wir im Gemeinschaftsraum.\nIhr Hausmeister Herr Brandt",
+          "options": [
+            "Richtig",
+            "Falsch"
+          ],
+          "answer": 0,
+          "why": "„Getränke stellt die Hausverwaltung“।"
+        },
+        {
+          "type": "mcq",
+          "prompt": "Bei Regen fällt das Fest aus.",
+          "passage": "Liebe Mieterinnen und Mieter,\nam Samstag, den 8. Juni, findet von 14 bis 18 Uhr unser Hoffest statt. Es gibt Kaffee und Kuchen, und wer möchte, kann etwas zum Grillen mitbringen. Getränke stellt die Hausverwaltung. Bitte tragen Sie sich bis Mittwoch in die Liste im Treppenhaus ein, damit wir genug Stühle haben. Bei Regen feiern wir im Gemeinschaftsraum.\nIhr Hausmeister Herr Brandt",
+          "options": [
+            "Richtig",
+            "Falsch"
+          ],
+          "answer": 1,
+          "why": "Bei Regen im Gemeinschaftsraum।"
+        },
+        {
+          "type": "mcq",
+          "prompt": "Warum hat Leon nicht geantwortet?",
+          "passage": "Hallo Sara,\nvielen Dank für deine Nachricht! Ich war letzte Woche leider krank und habe deshalb nicht geantwortet. Jetzt geht es mir wieder besser. Am Wochenende habe ich noch nichts vor. Wollen wir ins Kino gehen? Im Cinema läuft ein neuer Film mit deinem Lieblingsschauspieler. Die Vorstellung ist um 19 Uhr, und wir könnten vorher noch etwas essen.\nBis bald!\nLeon",
+          "options": [
+            "Er war krank.",
+            "Er war im Urlaub.",
+            "Er hatte keine Zeit."
+          ],
+          "answer": 0,
+          "why": "„leider krank“।"
+        },
+        {
+          "type": "mcq",
+          "prompt": "Leon möchte mit Sara ins Kino gehen.",
+          "passage": "Hallo Sara,\nvielen Dank für deine Nachricht! Ich war letzte Woche leider krank und habe deshalb nicht geantwortet. Jetzt geht es mir wieder besser. Am Wochenende habe ich noch nichts vor. Wollen wir ins Kino gehen? Im Cinema läuft ein neuer Film mit deinem Lieblingsschauspieler. Die Vorstellung ist um 19 Uhr, und wir könnten vorher noch etwas essen.\nBis bald!\nLeon",
+          "options": [
+            "Richtig",
+            "Falsch"
+          ],
+          "answer": 0,
+          "why": "„Wollen wir ins Kino gehen?“"
+        },
+        {
+          "type": "mcq",
+          "prompt": "Wie lange dauern größere Reparaturen meistens?",
+          "passage": "Fahrradwerkstatt Rad & Tat\nWir reparieren alle Fahrräder, auch E-Bikes. Kleine Reparaturen (zum Beispiel Licht oder Bremsen) machen wir sofort, während Sie warten. Für größere Reparaturen brauchen wir meistens zwei bis drei Tage. Einen Kostenvoranschlag bekommen Sie kostenlos. Öffnungszeiten: Mo–Fr 9–18 Uhr, Sa 9–13 Uhr. Gebrauchte Fahrräder verkaufen wir ab 90 Euro.",
+          "options": [
+            "Zwei Wochen",
+            "Eine Stunde",
+            "Zwei bis drei Tage"
+          ],
+          "answer": 2,
+          "why": "„zwei bis drei Tage“।"
+        },
+        {
+          "type": "mcq",
+          "prompt": "Den Kostenvoranschlag muss man bezahlen.",
+          "passage": "Fahrradwerkstatt Rad & Tat\nWir reparieren alle Fahrräder, auch E-Bikes. Kleine Reparaturen (zum Beispiel Licht oder Bremsen) machen wir sofort, während Sie warten. Für größere Reparaturen brauchen wir meistens zwei bis drei Tage. Einen Kostenvoranschlag bekommen Sie kostenlos. Öffnungszeiten: Mo–Fr 9–18 Uhr, Sa 9–13 Uhr. Gebrauchte Fahrräder verkaufen wir ab 90 Euro.",
+          "options": [
+            "Richtig",
+            "Falsch"
+          ],
+          "answer": 1,
+          "why": "er ist kostenlos।"
+        },
+        {
+          "type": "mcq",
+          "prompt": "Die Werkstatt ist am Samstag bis 13 Uhr offen.",
+          "passage": "Fahrradwerkstatt Rad & Tat\nWir reparieren alle Fahrräder, auch E-Bikes. Kleine Reparaturen (zum Beispiel Licht oder Bremsen) machen wir sofort, während Sie warten. Für größere Reparaturen brauchen wir meistens zwei bis drei Tage. Einen Kostenvoranschlag bekommen Sie kostenlos. Öffnungszeiten: Mo–Fr 9–18 Uhr, Sa 9–13 Uhr. Gebrauchte Fahrräder verkaufen wir ab 90 Euro.",
+          "options": [
+            "Richtig",
+            "Falsch"
+          ],
+          "answer": 0,
+          "why": "Sa 9–13 Uhr।"
+        },
+        {
+          "type": "mcq",
+          "prompt": "Was müssen die Teilnehmer mitbringen?",
+          "passage": "Betreff: Ihre Anmeldung zum Kochkurs\nSehr geehrte Frau Aydin,\nvielen Dank für Ihre Anmeldung zum Kochkurs „Italienisch kochen“. Der Kurs beginnt am 12. September um 18.30 Uhr in der Schulküche. Bitte bringen Sie eine Schürze und eine Dose für die Reste mit. Die Kursgebühr von 56 Euro überweisen Sie bitte bis zum 1. September. Wenn Sie nicht teilnehmen können, informieren Sie uns bitte mindestens eine Woche vorher.\nMit freundlichen Grüßen\nVolkshochschule",
+          "options": [
+            "Ein Messer",
+            "Eine Schürze und eine Dose",
+            "Eine Pfanne"
+          ],
+          "answer": 1,
+          "why": "„Schürze und eine Dose“।"
+        },
+        {
+          "type": "mcq",
+          "prompt": "Bis wann muss die Kursgebühr überwiesen werden?",
+          "passage": "Betreff: Ihre Anmeldung zum Kochkurs\nSehr geehrte Frau Aydin,\nvielen Dank für Ihre Anmeldung zum Kochkurs „Italienisch kochen“. Der Kurs beginnt am 12. September um 18.30 Uhr in der Schulküche. Bitte bringen Sie eine Schürze und eine Dose für die Reste mit. Die Kursgebühr von 56 Euro überweisen Sie bitte bis zum 1. September. Wenn Sie nicht teilnehmen können, informieren Sie uns bitte mindestens eine Woche vorher.\nMit freundlichen Grüßen\nVolkshochschule",
+          "options": [
+            "Bis zum 1. September",
+            "Bis zum 1. Oktober",
+            "Bis zum 12. September"
+          ],
+          "answer": 0,
+          "why": "bis zum 1. September।"
+        },
+        {
+          "type": "mcq",
+          "prompt": "Wer nicht teilnehmen kann, soll mindestens eine Woche vorher Bescheid sagen.",
+          "passage": "Betreff: Ihre Anmeldung zum Kochkurs\nSehr geehrte Frau Aydin,\nvielen Dank für Ihre Anmeldung zum Kochkurs „Italienisch kochen“. Der Kurs beginnt am 12. September um 18.30 Uhr in der Schulküche. Bitte bringen Sie eine Schürze und eine Dose für die Reste mit. Die Kursgebühr von 56 Euro überweisen Sie bitte bis zum 1. September. Wenn Sie nicht teilnehmen können, informieren Sie uns bitte mindestens eine Woche vorher.\nMit freundlichen Grüßen\nVolkshochschule",
+          "options": [
+            "Richtig",
+            "Falsch"
+          ],
+          "answer": 0,
+          "why": "mindestens eine Woche vorher।"
+        },
+        {
+          "type": "mcq",
+          "prompt": "Was ist über die Beratung richtig?",
+          "passage": "Neu in der Stadt?\nDas Willkommensbüro hilft Ihnen bei Fragen zu Wohnung, Arbeit, Schule und Deutschkursen. Die Beratung ist kostenlos und auch auf Englisch, Arabisch und Türkisch möglich. Termine bekommen Sie telefonisch oder im Internet.",
+          "options": [
+            "Sie gibt es nur auf Deutsch.",
+            "Sie kostet 10 Euro.",
+            "Sie ist kostenlos."
+          ],
+          "answer": 2,
+          "why": "„kostenlos“।"
+        }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "title": "Schreiben, Teil 1 — Kurze Nachricht",
+      "taskBn": "আপনি আপনার সহকর্মী Herr Koch-কে লিখছেন: কাল আপনি দেরিতে অফিসে আসবেন (ডাক্তারের কাছে যেতে হবে)। জিজ্ঞাসা করুন, সকালের মিটিংয়ে কেউ আপনার জন্য নোট নিতে পারবে কি না। প্রায় ৩০–৪০ শব্দ লিখুন।",
+      "taskDe": "Schreiben Sie an Herrn Koch: Sie kommen morgen später ins Büro (Arzttermin). Fragen Sie, ob jemand in der Besprechung Notizen für Sie machen kann. Schreiben Sie 30–40 Wörter.",
+      "minWords": 30,
+      "model": "Sehr geehrter Herr Koch,\nich komme morgen leider später ins Büro, weil ich einen Arzttermin habe. Ich bin ab 11 Uhr da. Kann bitte jemand in der Besprechung Notizen für mich machen? Vielen Dank für Ihr Verständnis.\nMit freundlichen Grüßen\nSaheb Rahman",
+      "checklist": [
+        "Anrede (Sehr geehrter Herr Koch,)",
+        "Grund genannt (weil ich einen Arzttermin habe)",
+        "Zeit genannt (ab 11 Uhr)",
+        "Frage gestellt (Kann bitte jemand …?)",
+        "Dank + formeller Gruß",
+        "Verb im Nebensatz am Ende"
+      ]
+    },
+    {
+      "title": "Schreiben, Teil 2 — E-Mail an einen Freund",
+      "taskBn": "আপনার বন্ধু Daniel-এর জন্মদিন আসছে। তাকে লিখুন: শুভেচ্ছা জানান; বলুন আপনি পার্টিতে আসতে পারবেন (বা পারবেন না) ও কারণ; জিজ্ঞাসা করুন আপনি কী উপহার আনবেন। প্রায় ৪০–৫০ শব্দ লিখুন।",
+      "taskDe": "Daniel hat Geburtstag. Schreiben Sie ihm: Gratulieren Sie. Sagen Sie, ob Sie zur Feier kommen können, und nennen Sie den Grund. Fragen Sie, was Daniel sich wünscht. Schreiben Sie 40–50 Wörter.",
+      "minWords": 40,
+      "model": "Lieber Daniel,\nalles Gute zum Geburtstag! Ich wünsche dir viel Glück und Gesundheit. Ich komme sehr gern zu deiner Feier, aber ich kann erst um 20 Uhr da sein, weil ich bis 19 Uhr arbeiten muss. Was wünschst du dir als Geschenk? Ich möchte dir eine Freude machen.\nBis bald!\nSaheb",
+      "checklist": [
+        "Anrede und Glückwunsch (Alles Gute zum Geburtstag!)",
+        "Zusage/Absage mit Grund (… weil ich arbeiten muss)",
+        "Frage zum Geschenk (Was wünschst du dir?)",
+        "Gruß am Ende + Name",
+        "Konnektor benutzt (aber, weil)",
+        "ca. 40–50 Wörter"
+      ]
+    }
+  ],
+  "speaking": [
+    {
+      "title": "Sprechen, Teil 1 — Über sich sprechen",
+      "instructions": "প্রতিটি কার্ডের বিষয় নিয়ে ২–৩টি বাক্য বলুন (প্রায় ৩০ সেকেন্ড)। তারপর নমুনা মিলিয়ে নিন।",
+      "prompts": [
+        {
+          "de": "Familie und Freunde",
+          "bn": "আপনার পরিবার ও বন্ধুরা",
+          "model": "Meine Familie lebt in Bangladesch. Ich habe zwei Brüder und eine Schwester. Hier in Deutschland habe ich einige Freunde aus meinem Sprachkurs."
+        },
+        {
+          "de": "Ein typischer Tag",
+          "bn": "আপনার সাধারণ একটি দিন",
+          "model": "Ich stehe um sechs Uhr auf und frühstücke. Dann fahre ich zur Arbeit. Abends lerne ich Deutsch und koche etwas."
+        },
+        {
+          "de": "Essen und Trinken",
+          "bn": "আপনার প্রিয় খাবার",
+          "model": "Ich esse gern Reis mit Fisch und Gemüse. In Deutschland esse ich auch Brot mit Käse. Zum Frühstück trinke ich Tee."
+        },
+        {
+          "de": "Urlaub und Reisen",
+          "bn": "ভ্রমণের অভিজ্ঞতা",
+          "model": "Letztes Jahr bin ich nach Hamburg gefahren. Ich habe den Hafen gesehen und viele Fotos gemacht. Das war sehr schön."
+        }
+      ]
+    },
+    {
+      "title": "Sprechen, Teil 2 — Etwas gemeinsam planen",
+      "instructions": "আপনি ও আপনার বন্ধু একটি ছোট পরিকল্পনা করছেন। প্রস্তাব দিন, প্রশ্ন করুন, সম্মত হন ও ঠিক করুন।",
+      "prompts": [
+        {
+          "de": "Deutschkurs-Fest — Wann? Was essen wir? Wer bringt was mit?",
+          "bn": "কোর্সের পার্টি — কখন, কী খাবার, কে কী আনবে?",
+          "model": "Wie wäre es mit Freitag nach dem Kurs? Wir können im Klassenzimmer feiern. Ich bringe Kuchen mit, und du bringst bitte Getränke mit. Passt das? — Ja, gern."
+        },
+        {
+          "de": "Kinobesuch — Welcher Film? Wann? Wo treffen wir uns?",
+          "bn": "সিনেমা — কোন ছবি, কখন, কোথায় দেখা?",
+          "model": "Sollen wir am Samstag ins Kino gehen? Der neue Film beginnt um 19 Uhr. Wir können uns um halb sieben vor dem Kino treffen. Was meinst du? — Gute Idee."
+        },
+        {
+          "de": "Wochenendausflug — Wohin? Wie? Was nehmen wir mit?",
+          "bn": "সপ্তাহান্তের ভ্রমণ — কোথায়, কীভাবে, কী নেব?",
+          "model": "Wir könnten am Sonntag in den Wald fahren. Mit dem Bus ist es günstig. Ich nehme Getränke mit, und du nimmst etwas zu essen mit. Einverstanden?"
+        }
+      ]
+    },
+    {
+      "title": "Sprechen, Teil 3 — Bitten und Reagieren",
+      "instructions": "ভদ্রভাবে অনুরোধ বা প্রস্তাব করুন; অনুরোধ শুনলে সাড়া দিন (Ja, gern! / Tut mir leid, aber …)।",
+      "prompts": [
+        {
+          "de": "Hilfe im Supermarkt",
+          "bn": "দোকানে কিছু খুঁজে না পেলে সাহায্য চান",
+          "model": "Entschuldigung, ich suche Reis. Können Sie mir bitte helfen? Wo finde ich ihn?"
+        },
+        {
+          "de": "Termin vereinbaren",
+          "bn": "ডাক্তারের অ্যাপয়েন্টমেন্ট নিন",
+          "model": "Guten Tag, ich möchte gern einen Termin vereinbaren. Haben Sie nächste Woche etwas frei, am besten am Vormittag?"
+        },
+        {
+          "de": "Etwas ablehnen",
+          "bn": "ভদ্রভাবে না বলুন",
+          "model": "Vielen Dank, aber ich kann leider nicht kommen, weil ich arbeiten muss. Vielleicht ein anderes Mal?"
+        },
+        {
+          "de": "Nachfragen",
+          "bn": "বুঝতে না পারলে জিজ্ঞাসা করুন",
+          "model": "Entschuldigung, ich habe das nicht verstanden. Könnten Sie das bitte noch einmal sagen?"
+        }
+      ]
+    }
+  ]
+}

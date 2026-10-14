@@ -5,13 +5,18 @@ export type LessonState = 'done' | 'now' | 'open' | 'locked'
 
 export interface StateOptions {
   startUnit?: number // A1 units below this are open (placement result)
+  startUnitA2?: number // A2 placement: when set (≥ 1), all of A1 and the A2 units below this are open
+  startUnitB1?: number // B1 placement: when set (≥ 1), all of A1 and A2 and the B1 units below this are open
   unlockAll?: boolean // nothing is locked
 }
 
 export function lessonStates(lessons: LessonMeta[], passed: (id: string) => boolean, opts: StateOptions = {}): Map<string, LessonState> {
   const out = new Map<string, LessonState>()
   const start = opts.startUnit ?? 1
-  const skipped = (l: LessonMeta) => l.level === 'A1' && l.unit < start
+  const a2 = opts.startUnitA2 && opts.startUnitA2 >= 1 ? opts.startUnitA2 : 0
+  const b1 = opts.startUnitB1 && opts.startUnitB1 >= 1 ? opts.startUnitB1 : 0
+  const skipped = (l: LessonMeta) =>
+    (l.level === 'A1' && (a2 > 0 || b1 > 0 || l.unit < start)) || (l.level === 'A2' && (b1 > 0 || l.unit < a2)) || (l.level === 'B1' && l.unit < b1)
   let foundNow = false
   for (const l of lessons) {
     if (passed(l.id)) out.set(l.id, 'done')

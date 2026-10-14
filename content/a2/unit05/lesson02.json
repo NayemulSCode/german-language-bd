@@ -1,0 +1,1321 @@
+{
+  "level": "A2",
+  "unit": 5,
+  "minutes": 16,
+  "lesson": 2,
+  "id": "a2-u05-l02",
+  "title": {
+    "de": "Ich suche eine kleine, helle Wohnung",
+    "bn": "বিশেষণের শেষে -e, -en, -es, -er",
+    "en": "Adjective endings after ein-"
+  },
+  "hook": {
+    "de": "Kleine Geschenke erhalten die Freundschaft.",
+    "who": "Sprichwort",
+    "bn": "ছোট উপহারেই বন্ধুত্ব টেকে।",
+    "en": "Small gifts keep friendship alive."
+  },
+  "goals": [
+    "ein + Adjektiv + Nomen: ein kleiner Balkon, eine kleine Küche, ein kleines Zimmer",
+    "Akkusativ: einen kleinen Balkon",
+    "Dativ: mit einem großen Balkon",
+    "বাসার বর্ণনা: hell, ruhig, nett, neu"
+  ],
+  "words": [
+    {
+      "id": "suchen",
+      "de": "suchen",
+      "pos": "ক্রিয়া · hat gesucht",
+      "bn": "খোঁজা",
+      "en": "to look for"
+    },
+    {
+      "id": "hell",
+      "de": "hell",
+      "pos": "বিশেষণ",
+      "bn": "আলোকিত",
+      "en": "bright"
+    },
+    {
+      "id": "ruhig",
+      "de": "ruhig",
+      "pos": "বিশেষণ",
+      "bn": "শান্ত",
+      "en": "quiet"
+    },
+    {
+      "id": "nett",
+      "de": "nett",
+      "pos": "বিশেষণ",
+      "bn": "ভদ্র, ভালো",
+      "en": "nice, kind"
+    },
+    {
+      "id": "neu",
+      "de": "neu",
+      "pos": "বিশেষণ",
+      "bn": "নতুন",
+      "en": "new"
+    },
+    {
+      "id": "schoen",
+      "de": "schön",
+      "pos": "বিশেষণ",
+      "bn": "সুন্দর",
+      "en": "beautiful"
+    },
+    {
+      "id": "blick",
+      "de": "Blick",
+      "art": "der",
+      "pl": "die Blicke",
+      "pos": "বিশেষ্য",
+      "bn": "দৃশ্য, তাকানো",
+      "en": "view, glance"
+    },
+    {
+      "id": "nachbar",
+      "de": "Nachbar",
+      "art": "der",
+      "pl": "die Nachbarn",
+      "pos": "বিশেষ্য",
+      "bn": "প্রতিবেশী",
+      "en": "neighbour"
+    },
+    {
+      "id": "makler",
+      "de": "Makler",
+      "art": "der",
+      "pl": "die Makler",
+      "pos": "বিশেষ্য",
+      "bn": "এজেন্ট, দালাল",
+      "en": "estate agent"
+    },
+    {
+      "id": "wohnung",
+      "de": "Wohnung",
+      "art": "die",
+      "pl": "die Wohnungen",
+      "pos": "বিশেষ্য",
+      "bn": "ফ্ল্যাট",
+      "en": "flat"
+    },
+    {
+      "id": "haus",
+      "de": "Haus",
+      "art": "das",
+      "pl": "die Häuser",
+      "pos": "বিশেষ্য",
+      "bn": "বাড়ি",
+      "en": "house"
+    },
+    {
+      "id": "keller",
+      "de": "Keller",
+      "art": "der",
+      "pl": "die Keller",
+      "pos": "বিশেষ্য",
+      "bn": "বেসমেন্ট",
+      "en": "cellar"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Makler",
+      "bn": [
+        "আপনি",
+        "কেমন",
+        "ফ্ল্যাট",
+        "খুঁজছেন?"
+      ],
+      "en": [
+        "What",
+        "kind",
+        "of",
+        "flat",
+        "are",
+        "you",
+        "looking",
+        "for?"
+      ],
+      "de": [
+        {
+          "t": "Was für eine",
+          "b": [
+            1
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "Was für eine",
+          "gb": "কেমন",
+          "ge": "What kind of",
+          "n": "Was für ein(e) …? = কেমন ধরনের …?"
+        },
+        {
+          "t": "Wohnung",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "Wohnung",
+          "gb": "ফ্ল্যাট",
+          "ge": "flat",
+          "n": ""
+        },
+        {
+          "t": "suchen",
+          "b": [
+            3
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "suchen",
+          "gb": "খুঁজছেন",
+          "ge": "looking for",
+          "n": ""
+        },
+        {
+          "t": "Sie?",
+          "b": [
+            0
+          ],
+          "e": [
+            5
+          ],
+          "l": "Sie",
+          "gb": "আপনি",
+          "ge": "you",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "একটি",
+        "ছোট,",
+        "আলোকিত",
+        "ফ্ল্যাট",
+        "খুঁজছি।"
+      ],
+      "en": [
+        "I",
+        "am",
+        "looking",
+        "for",
+        "a",
+        "small,",
+        "bright",
+        "flat."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "suche",
+          "b": [
+            5
+          ],
+          "e": [
+            1,
+            2,
+            3
+          ],
+          "l": "suchen",
+          "gb": "খুঁজছি",
+          "ge": "am looking for",
+          "n": ""
+        },
+        {
+          "t": "eine",
+          "b": [
+            1
+          ],
+          "e": [
+            4
+          ],
+          "l": "eine",
+          "gb": "একটি",
+          "ge": "a",
+          "n": ""
+        },
+        {
+          "t": "kleine,",
+          "b": [
+            2
+          ],
+          "e": [
+            5
+          ],
+          "l": "klein",
+          "gb": "ছোট",
+          "ge": "small",
+          "n": "eine + f → kleine (-e)"
+        },
+        {
+          "t": "helle",
+          "b": [
+            3
+          ],
+          "e": [
+            6
+          ],
+          "l": "hell",
+          "gb": "আলোকিত",
+          "ge": "bright",
+          "n": ""
+        },
+        {
+          "t": "Wohnung.",
+          "b": [
+            4
+          ],
+          "e": [
+            7
+          ],
+          "l": "Wohnung",
+          "gb": "ফ্ল্যাট",
+          "ge": "flat",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Makler",
+      "bn": [
+        "আমার",
+        "কাছে",
+        "একটি",
+        "নতুন",
+        "ফ্ল্যাট",
+        "আছে।",
+        "ওতে",
+        "একটি",
+        "বড়",
+        "রুম",
+        "আর",
+        "একটি",
+        "ছোট",
+        "রান্নাঘর",
+        "আছে।"
+      ],
+      "en": [
+        "I",
+        "have",
+        "a",
+        "new",
+        "flat.",
+        "It",
+        "has",
+        "a",
+        "big",
+        "room",
+        "and",
+        "a",
+        "small",
+        "kitchen."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমার",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [
+            5
+          ],
+          "e": [
+            1
+          ],
+          "l": "habe",
+          "gb": "আছে",
+          "ge": "have",
+          "n": ""
+        },
+        {
+          "t": "eine",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "eine",
+          "gb": "একটি",
+          "ge": "a",
+          "n": ""
+        },
+        {
+          "t": "neue",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "neu",
+          "gb": "নতুন",
+          "ge": "new",
+          "n": ""
+        },
+        {
+          "t": "Wohnung.",
+          "b": [
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "Wohnung",
+          "gb": "ফ্ল্যাট",
+          "ge": "flat",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [
+            6
+          ],
+          "e": [
+            5
+          ],
+          "l": "Sie",
+          "gb": "ওতে",
+          "ge": "It",
+          "n": ""
+        },
+        {
+          "t": "hat",
+          "b": [
+            14
+          ],
+          "e": [
+            6
+          ],
+          "l": "hat",
+          "gb": "আছে",
+          "ge": "has",
+          "n": ""
+        },
+        {
+          "t": "ein",
+          "b": [
+            7
+          ],
+          "e": [
+            7
+          ],
+          "l": "ein",
+          "gb": "একটি",
+          "ge": "a",
+          "n": ""
+        },
+        {
+          "t": "großes",
+          "b": [
+            8
+          ],
+          "e": [
+            8
+          ],
+          "l": "groß",
+          "gb": "বড়",
+          "ge": "big",
+          "n": "ein + n → großes (-es)"
+        },
+        {
+          "t": "Zimmer",
+          "b": [
+            9
+          ],
+          "e": [
+            9
+          ],
+          "l": "Zimmer",
+          "gb": "রুম",
+          "ge": "room",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            10
+          ],
+          "e": [
+            10
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "eine",
+          "b": [
+            11
+          ],
+          "e": [
+            11
+          ],
+          "l": "eine",
+          "gb": "একটি",
+          "ge": "a",
+          "n": ""
+        },
+        {
+          "t": "kleine",
+          "b": [
+            12
+          ],
+          "e": [
+            12
+          ],
+          "l": "kleine",
+          "gb": "ছোট",
+          "ge": "small",
+          "n": ""
+        },
+        {
+          "t": "Küche.",
+          "b": [
+            13
+          ],
+          "e": [
+            13
+          ],
+          "l": "Küche",
+          "gb": "রান্নাঘর",
+          "ge": "kitchen",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "বারান্দাও",
+        "আছে?"
+      ],
+      "en": [
+        "Is",
+        "there",
+        "a",
+        "balcony",
+        "too?"
+      ],
+      "de": [
+        {
+          "t": "Gibt",
+          "b": [
+            1
+          ],
+          "e": [
+            0
+          ],
+          "l": "Gibt",
+          "gb": "আছে",
+          "ge": "Is",
+          "n": ""
+        },
+        {
+          "t": "es",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "es",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "there",
+          "n": ""
+        },
+        {
+          "t": "auch",
+          "b": [],
+          "e": [
+            4
+          ],
+          "l": "auch",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "too",
+          "n": ""
+        },
+        {
+          "t": "einen",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "einen",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "a",
+          "n": ""
+        },
+        {
+          "t": "Balkon?",
+          "b": [
+            0
+          ],
+          "e": [
+            3
+          ],
+          "l": "Balkon",
+          "gb": "বারান্দাও",
+          "ge": "balcony",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Makler",
+      "bn": [
+        "হ্যাঁ,",
+        "সুন্দর",
+        "দৃশ্য",
+        "সহ",
+        "একটি",
+        "ছোট",
+        "বারান্দা।"
+      ],
+      "en": [
+        "Yes,",
+        "a",
+        "small",
+        "balcony",
+        "with",
+        "a",
+        "nice",
+        "view."
+      ],
+      "de": [
+        {
+          "t": "Ja,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ja",
+          "gb": "হ্যাঁ",
+          "ge": "Yes",
+          "n": ""
+        },
+        {
+          "t": "einen",
+          "b": [
+            4
+          ],
+          "e": [
+            1
+          ],
+          "l": "einen",
+          "gb": "একটি",
+          "ge": "a",
+          "n": ""
+        },
+        {
+          "t": "kleinen",
+          "b": [
+            5
+          ],
+          "e": [
+            2
+          ],
+          "l": "klein",
+          "gb": "ছোট",
+          "ge": "small",
+          "n": "einen + m (Akkusativ) → kleinen (-en)"
+        },
+        {
+          "t": "Balkon",
+          "b": [
+            6
+          ],
+          "e": [
+            3
+          ],
+          "l": "Balkon",
+          "gb": "বারান্দা",
+          "ge": "balcony",
+          "n": ""
+        },
+        {
+          "t": "mit",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "mit",
+          "gb": "সহ",
+          "ge": "with",
+          "n": ""
+        },
+        {
+          "t": "einem",
+          "b": [],
+          "e": [
+            5
+          ],
+          "l": "einem",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "a",
+          "n": ""
+        },
+        {
+          "t": "schönen",
+          "b": [
+            1
+          ],
+          "e": [
+            6
+          ],
+          "l": "schön",
+          "gb": "সুন্দর",
+          "ge": "nice",
+          "n": "mit + Dativ: einem schönen (-en)"
+        },
+        {
+          "t": "Blick.",
+          "b": [
+            2
+          ],
+          "e": [
+            7
+          ],
+          "l": "Blick",
+          "gb": "দৃশ্য",
+          "ge": "view",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আর",
+        "প্রতিবেশীরা?",
+        "এটা",
+        "কি",
+        "শান্ত",
+        "বাড়ি?"
+      ],
+      "en": [
+        "And",
+        "the",
+        "neighbours?",
+        "Is",
+        "it",
+        "a",
+        "quiet",
+        "house?"
+      ],
+      "de": [
+        {
+          "t": "Und",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "die",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "die",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "Nachbarn?",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "Nachbar",
+          "gb": "প্রতিবেশীরা",
+          "ge": "neighbours",
+          "n": ""
+        },
+        {
+          "t": "Ist",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "Ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "Is",
+          "n": ""
+        },
+        {
+          "t": "das",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "das",
+          "gb": "এটা",
+          "ge": "it",
+          "n": ""
+        },
+        {
+          "t": "ein",
+          "b": [],
+          "e": [
+            5
+          ],
+          "l": "ein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "a",
+          "n": ""
+        },
+        {
+          "t": "ruhiges",
+          "b": [
+            4
+          ],
+          "e": [
+            6
+          ],
+          "l": "ruhig",
+          "gb": "শান্ত",
+          "ge": "quiet",
+          "n": ""
+        },
+        {
+          "t": "Haus?",
+          "b": [
+            5
+          ],
+          "e": [
+            7
+          ],
+          "l": "Haus",
+          "gb": "বাড়ি",
+          "ge": "house",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Makler",
+      "bn": [
+        "হ্যাঁ,",
+        "এটি",
+        "ভালো",
+        "প্রতিবেশীদের",
+        "সাথে",
+        "একটি",
+        "শান্ত",
+        "বাড়ি।"
+      ],
+      "en": [
+        "Yes,",
+        "it",
+        "is",
+        "a",
+        "quiet",
+        "house",
+        "with",
+        "nice",
+        "neighbours."
+      ],
+      "de": [
+        {
+          "t": "Ja,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ja",
+          "gb": "হ্যাঁ",
+          "ge": "Yes",
+          "n": ""
+        },
+        {
+          "t": "es",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "es",
+          "gb": "এটি",
+          "ge": "it",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "ein",
+          "b": [
+            5
+          ],
+          "e": [
+            3
+          ],
+          "l": "ein",
+          "gb": "একটি",
+          "ge": "a",
+          "n": ""
+        },
+        {
+          "t": "ruhiges",
+          "b": [
+            6
+          ],
+          "e": [
+            4
+          ],
+          "l": "ruhiges",
+          "gb": "শান্ত",
+          "ge": "quiet",
+          "n": ""
+        },
+        {
+          "t": "Haus",
+          "b": [
+            7
+          ],
+          "e": [
+            5
+          ],
+          "l": "Haus",
+          "gb": "বাড়ি",
+          "ge": "house",
+          "n": ""
+        },
+        {
+          "t": "mit",
+          "b": [
+            4
+          ],
+          "e": [
+            6
+          ],
+          "l": "mit",
+          "gb": "সাথে",
+          "ge": "with",
+          "n": ""
+        },
+        {
+          "t": "netten",
+          "b": [
+            2
+          ],
+          "e": [
+            7
+          ],
+          "l": "nett",
+          "gb": "ভালো",
+          "ge": "nice",
+          "n": "mit + Dativ Plural, ohne Artikel: netten (-en)"
+        },
+        {
+          "t": "Nachbarn.",
+          "b": [
+            3
+          ],
+          "e": [
+            8
+          ],
+          "l": "Nachbarn",
+          "gb": "প্রতিবেশীদের",
+          "ge": "neighbours",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "ফ্ল্যাটটা",
+        "দেখতে",
+        "চাই।"
+      ],
+      "en": [
+        "I",
+        "would",
+        "like",
+        "to",
+        "see",
+        "the",
+        "flat."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "möchte",
+          "b": [
+            3
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "möchte",
+          "gb": "চাই",
+          "ge": "would like",
+          "n": ""
+        },
+        {
+          "t": "die",
+          "b": [],
+          "e": [
+            5
+          ],
+          "l": "die",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "Wohnung",
+          "b": [
+            1
+          ],
+          "e": [
+            6
+          ],
+          "l": "Wohnung",
+          "gb": "ফ্ল্যাটটা",
+          "ge": "flat",
+          "n": ""
+        },
+        {
+          "t": "gern",
+          "b": [],
+          "e": [],
+          "l": "gern",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "sehen.",
+          "b": [
+            2
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "sehen",
+          "gb": "দেখতে",
+          "ge": "to see",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "Adjektiv nach ein-: Nominativ ও Akkusativ",
+      "head": [
+        "",
+        "m",
+        "n",
+        "f",
+        "Plural"
+      ],
+      "rows": [
+        [
+          "Nominativ",
+          "ein kleiner Balkon",
+          "ein kleines Zimmer",
+          "eine kleine Küche",
+          "keine kleinen Zimmer"
+        ],
+        [
+          "Akkusativ",
+          "einen kleinen Balkon",
+          "ein kleines Zimmer",
+          "eine kleine Küche",
+          "keine kleinen Zimmer"
+        ]
+      ],
+      "note": "মনে রাখুন: ein-এর কোনো শেষ নেই (m Nom., n Nom./Akk.), তাই বিশেষণ -er / -es নিয়ে লিঙ্গ দেখায়। বাকি সব জায়গায় -e বা -en।"
+    },
+    {
+      "type": "table",
+      "title": "Dativ: বিশেষণের শেষে সবসময় -en",
+      "head": [
+        "m",
+        "n",
+        "f",
+        "Plural"
+      ],
+      "rows": [
+        [
+          "mit einem kleinen Balkon",
+          "mit einem großen Zimmer",
+          "mit einer kleinen Küche",
+          "mit netten Nachbarn"
+        ]
+      ],
+      "note": "Dativ-এ প্রায় সবসময় -en: einem kleinen, einer kleinen, netten। Plural-Nomen-এ Dativ-এ -n।"
+    },
+    {
+      "type": "table",
+      "title": "বাসার বর্ণনায় কাজের বিশেষণ",
+      "head": [
+        "Adjektiv",
+        "বাংলা",
+        "উদাহরণ"
+      ],
+      "rows": [
+        [
+          "hell",
+          "আলোকিত",
+          "eine helle Wohnung"
+        ],
+        [
+          "dunkel",
+          "অন্ধকার",
+          "ein dunkles Zimmer"
+        ],
+        [
+          "ruhig",
+          "শান্ত",
+          "ein ruhiges Haus"
+        ],
+        [
+          "laut",
+          "কোলাহলপূর্ণ",
+          "eine laute Straße"
+        ],
+        [
+          "neu / alt",
+          "নতুন / পুরোনো",
+          "ein neuer Aufzug"
+        ],
+        [
+          "günstig / teuer",
+          "কম / বেশি দামি",
+          "eine günstige Miete"
+        ]
+      ],
+      "note": "Prädikat: „Die Wohnung ist hell“ — শেষ ছাড়াই (ক্রিয়ার পরে)।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "der Makler",
+      "options": [
+        "বেসমেন্ট",
+        "এজেন্ট",
+        "আলোকিত",
+        "ভদ্র"
+      ],
+      "answer": 1,
+      "why": "der Makler = এজেন্ট।",
+      "word": "makler"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "hell",
+      "options": [
+        "এজেন্ট",
+        "আলোকিত",
+        "বেসমেন্ট",
+        "ভদ্র"
+      ],
+      "answer": 1,
+      "why": "hell = আলোকিত।",
+      "word": "hell"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "nett",
+      "options": [
+        "ফ্ল্যাট",
+        "খোঁজা",
+        "নতুন",
+        "ভদ্র"
+      ],
+      "answer": 3,
+      "why": "nett = ভদ্র।",
+      "word": "nett"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Wohnung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Wohnung। বহুবচন: die Wohnungen।",
+      "word": "wohnung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ich suche eine ___ Wohnung.",
+      "options": [
+        "kleine",
+        "kleiner",
+        "kleines",
+        "kleinen"
+      ],
+      "answer": 0,
+      "why": "eine Wohnung (f) → eine kleine।",
+      "word": "wohnung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Die Wohnung hat ein ___ Zimmer.",
+      "options": [
+        "großes",
+        "große",
+        "großer",
+        "großen"
+      ],
+      "answer": 0,
+      "why": "ein Zimmer (n) → ein großes।",
+      "word": "haus"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন (Akkusativ)",
+      "sub": "Ich nehme einen ___ Balkon.",
+      "options": [
+        "kleinen",
+        "kleiner",
+        "kleine",
+        "kleines"
+      ],
+      "answer": 0,
+      "why": "einen + m (Akk) → -en।",
+      "word": "wohnung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন (Dativ)",
+      "sub": "Sie wohnt in einem ___ Haus.",
+      "options": [
+        "schönen",
+        "schöne",
+        "schönes",
+        "schöner"
+      ],
+      "answer": 0,
+      "why": "mit einem → -en।",
+      "word": "blick"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„ruhig“ মানে কী?",
+      "options": [
+        "শান্ত",
+        "জোরে",
+        "সুন্দর",
+        "ছোট"
+      ],
+      "answer": 0,
+      "why": "ruhig = quiet।",
+      "word": "ruhig"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „আমি একটি ছোট, আলোকিত ফ্ল্যাট খুঁজছি।“",
+      "tiles": [
+        "helle",
+        "suche",
+        "eine",
+        "Wohnung.",
+        "kleine,",
+        "Ich"
+      ],
+      "answer": [
+        "Ich",
+        "suche",
+        "eine",
+        "kleine,",
+        "helle",
+        "Wohnung."
+      ],
+      "why": "eine kleine, helle Wohnung।",
+      "word": "suchen"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

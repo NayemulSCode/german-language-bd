@@ -1,0 +1,1135 @@
+{
+  "level": "A2",
+  "unit": 8,
+  "minutes": 16,
+  "lesson": 4,
+  "id": "a2-u08-l04",
+  "title": {
+    "de": "Mein Lernplan",
+    "bn": "পড়ার পরিকল্পনা: zuerst, danach, zum Schluss",
+    "en": "My study plan: order and frequency"
+  },
+  "hook": {
+    "de": "Steter Tropfen höhlt den Stein.",
+    "who": "Sprichwort",
+    "bn": "ফোঁটা ফোঁটা পানি পাথরও ক্ষয় করে।",
+    "en": "Constant dripping wears away the stone."
+  },
+  "goals": [
+    "ক্রম: zuerst, dann, danach, zum Schluss",
+    "কতবার: nie, selten, manchmal, oft, immer",
+    "ক্রিয়া ২য় স্থানে — Inversion",
+    "নিজের পড়ার পরিকল্পনা বলা"
+  ],
+  "words": [
+    {
+      "id": "lernplan",
+      "de": "Lernplan",
+      "art": "der",
+      "pl": "die Lernpläne",
+      "pos": "বিশেষ্য",
+      "bn": "পড়ার পরিকল্পনা",
+      "en": "study plan"
+    },
+    {
+      "id": "zuerst",
+      "de": "zuerst",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "প্রথমে",
+      "en": "first"
+    },
+    {
+      "id": "danach",
+      "de": "danach",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "তারপর",
+      "en": "afterwards"
+    },
+    {
+      "id": "zum_schluss",
+      "de": "zum Schluss",
+      "pos": "অভিব্যক্তি",
+      "bn": "শেষে",
+      "en": "finally, at the end"
+    },
+    {
+      "id": "immer",
+      "de": "immer",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "সবসময়",
+      "en": "always"
+    },
+    {
+      "id": "oft",
+      "de": "oft",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "প্রায়ই",
+      "en": "often"
+    },
+    {
+      "id": "manchmal",
+      "de": "manchmal",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "কখনো কখনো",
+      "en": "sometimes"
+    },
+    {
+      "id": "nie",
+      "de": "nie",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "কখনো না",
+      "en": "never"
+    },
+    {
+      "id": "tandempartner",
+      "de": "Tandempartner",
+      "art": "der",
+      "pl": "die Tandempartner",
+      "pos": "বিশেষ্য",
+      "bn": "ভাষা-বিনিময় সঙ্গী",
+      "en": "language exchange partner"
+    },
+    {
+      "id": "aufschreiben",
+      "de": "aufschreiben",
+      "pos": "ক্রিয়া · hat aufgeschrieben",
+      "bn": "লিখে রাখা",
+      "en": "to write down"
+    },
+    {
+      "id": "schnell",
+      "de": "schnell",
+      "pos": "বিশেষণ",
+      "bn": "দ্রুত",
+      "en": "fast, quickly"
+    },
+    {
+      "id": "satz",
+      "de": "Satz",
+      "art": "der",
+      "pl": "die Sätze",
+      "pos": "বিশেষ্য",
+      "bn": "বাক্য",
+      "en": "sentence"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Lena",
+      "bn": [
+        "তোমার",
+        "কি",
+        "পড়ার",
+        "কোনো",
+        "পরিকল্পনা",
+        "আছে?"
+      ],
+      "en": [
+        "Do",
+        "you",
+        "have",
+        "a",
+        "study",
+        "plan?"
+      ],
+      "de": [
+        {
+          "t": "Hast",
+          "b": [
+            5
+          ],
+          "e": [
+            0
+          ],
+          "l": "Hast",
+          "gb": "আছে",
+          "ge": "Do",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "du",
+          "gb": "তোমার",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "einen Lernplan?",
+          "b": [
+            2,
+            4
+          ],
+          "e": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "l": "Lernplan",
+          "gb": "পড়ার পরিকল্পনা",
+          "ge": "have a study plan",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "হ্যাঁ।",
+        "প্রথমে",
+        "আমি",
+        "শব্দ",
+        "পুনরাবৃত্তি",
+        "করি,",
+        "তারপর",
+        "অনুশীলনী",
+        "করি।"
+      ],
+      "en": [
+        "Yes.",
+        "First",
+        "I",
+        "repeat",
+        "the",
+        "vocabulary,",
+        "then",
+        "I",
+        "do",
+        "exercises."
+      ],
+      "de": [
+        {
+          "t": "Ja.",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ja",
+          "gb": "হ্যাঁ",
+          "ge": "Yes",
+          "n": ""
+        },
+        {
+          "t": "Zuerst",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "zuerst",
+          "gb": "প্রথমে",
+          "ge": "First",
+          "n": "Zuerst … → ক্রিয়া ২য় স্থানে (Inversion)"
+        },
+        {
+          "t": "wiederhole",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            3
+          ],
+          "l": "wiederholen",
+          "gb": "পুনরাবৃত্তি করি",
+          "ge": "repeat",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "die Vokabeln,",
+          "b": [
+            3
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "die Vokabeln",
+          "gb": "শব্দ",
+          "ge": "the vocabulary",
+          "n": ""
+        },
+        {
+          "t": "dann",
+          "b": [
+            6
+          ],
+          "e": [
+            6
+          ],
+          "l": "dann",
+          "gb": "তারপর",
+          "ge": "then",
+          "n": ""
+        },
+        {
+          "t": "mache",
+          "b": [
+            8
+          ],
+          "e": [
+            8
+          ],
+          "l": "mache",
+          "gb": "করি",
+          "ge": "do",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [],
+          "e": [
+            7
+          ],
+          "l": "ich",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "Übungen.",
+          "b": [
+            7
+          ],
+          "e": [
+            9
+          ],
+          "l": "Übungen",
+          "gb": "অনুশীলনী",
+          "ge": "exercises",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "আর",
+        "তারপর?",
+        "কতবার",
+        "তুমি",
+        "কথা",
+        "বলার",
+        "অনুশীলন",
+        "করো?"
+      ],
+      "en": [
+        "And",
+        "then?",
+        "How",
+        "often",
+        "do",
+        "you",
+        "practise",
+        "speaking?"
+      ],
+      "de": [
+        {
+          "t": "Und",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "danach?",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "danach",
+          "gb": "তারপর",
+          "ge": "then",
+          "n": ""
+        },
+        {
+          "t": "Wie oft",
+          "b": [
+            2
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "Wie oft",
+          "gb": "কতবার",
+          "ge": "How often",
+          "n": ""
+        },
+        {
+          "t": "übst",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            4
+          ],
+          "l": "übst",
+          "gb": "অনুশীলন করো",
+          "ge": "do",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            3
+          ],
+          "e": [
+            5
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "Sprechen?",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "Sprechen",
+          "gb": "কথা বলার",
+          "ge": "practise speaking",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "সপ্তাহে",
+        "দুবার,",
+        "কখনো",
+        "কখনো",
+        "আরও",
+        "বেশি।"
+      ],
+      "en": [
+        "Twice",
+        "a",
+        "week,",
+        "sometimes",
+        "more."
+      ],
+      "de": [
+        {
+          "t": "Zweimal",
+          "b": [
+            1
+          ],
+          "e": [
+            0
+          ],
+          "l": "Zweimal",
+          "gb": "দুবার",
+          "ge": "Twice",
+          "n": ""
+        },
+        {
+          "t": "pro Woche,",
+          "b": [
+            0
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "pro Woche",
+          "gb": "সপ্তাহে",
+          "ge": "a week",
+          "n": ""
+        },
+        {
+          "t": "manchmal",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "manchmal",
+          "gb": "কখনো কখনো",
+          "ge": "sometimes",
+          "n": ""
+        },
+        {
+          "t": "auch",
+          "b": [],
+          "e": [],
+          "l": "auch",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "öfter.",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            4
+          ],
+          "l": "öfter",
+          "gb": "আরও বেশি",
+          "ge": "more",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "আমি",
+        "কখনো",
+        "একা",
+        "অনুশীলন",
+        "করি",
+        "না।",
+        "আমার",
+        "একজন",
+        "ট্যান্ডেম",
+        "পার্টনার",
+        "আছে।"
+      ],
+      "en": [
+        "I",
+        "never",
+        "practise",
+        "alone.",
+        "I",
+        "have",
+        "a",
+        "tandem",
+        "partner."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "übe",
+          "b": [
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "übe",
+          "gb": "অনুশীলন",
+          "ge": "practise",
+          "n": ""
+        },
+        {
+          "t": "nie",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "nie",
+          "gb": "কখনো",
+          "ge": "never",
+          "n": ""
+        },
+        {
+          "t": "allein.",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "allein",
+          "gb": "একা",
+          "ge": "alone",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            6
+          ],
+          "e": [
+            4
+          ],
+          "l": "Ich",
+          "gb": "আমার",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [
+            10
+          ],
+          "e": [
+            5
+          ],
+          "l": "habe",
+          "gb": "আছে",
+          "ge": "have",
+          "n": ""
+        },
+        {
+          "t": "einen",
+          "b": [
+            7
+          ],
+          "e": [
+            6
+          ],
+          "l": "einen",
+          "gb": "একজন",
+          "ge": "a",
+          "n": ""
+        },
+        {
+          "t": "Tandempartner.",
+          "b": [
+            8,
+            9
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "Tandempartner",
+          "gb": "ট্যান্ডেম পার্টনার",
+          "ge": "tandem partner",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "ভালো",
+        "ধারণা!",
+        "শেষে",
+        "আমি",
+        "সবসময়",
+        "তিনটি",
+        "বাক্য",
+        "লিখে",
+        "রাখি।"
+      ],
+      "en": [
+        "Good",
+        "idea!",
+        "At",
+        "the",
+        "end",
+        "I",
+        "always",
+        "write",
+        "down",
+        "three",
+        "sentences."
+      ],
+      "de": [
+        {
+          "t": "Gute Idee!",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Gute Idee",
+          "gb": "ভালো ধারণা",
+          "ge": "Good idea",
+          "n": ""
+        },
+        {
+          "t": "Zum Schluss",
+          "b": [
+            2
+          ],
+          "e": [
+            2,
+            3,
+            4
+          ],
+          "l": "zum Schluss",
+          "gb": "শেষে",
+          "ge": "At the end",
+          "n": ""
+        },
+        {
+          "t": "schreibe",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "schreibe",
+          "gb": "লিখে রাখি",
+          "ge": "write down",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            3
+          ],
+          "e": [
+            5
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "immer",
+          "b": [
+            4
+          ],
+          "e": [
+            6
+          ],
+          "l": "immer",
+          "gb": "সবসময়",
+          "ge": "always",
+          "n": ""
+        },
+        {
+          "t": "drei Sätze",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "Satz",
+          "gb": "তিনটি বাক্য",
+          "ge": "three sentences",
+          "n": ""
+        },
+        {
+          "t": "auf.",
+          "b": [],
+          "e": [],
+          "l": "auf",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "প্রতিদিন",
+        "অনুশীলন",
+        "করলে",
+        "তুমি",
+        "তাড়াতাড়ি",
+        "ভালো",
+        "হবে।"
+      ],
+      "en": [
+        "If",
+        "you",
+        "practise",
+        "every",
+        "day,",
+        "you",
+        "will",
+        "get",
+        "better",
+        "quickly."
+      ],
+      "de": [
+        {
+          "t": "Wenn",
+          "b": [
+            2
+          ],
+          "e": [
+            0
+          ],
+          "l": "Wenn",
+          "gb": "করলে",
+          "ge": "If",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            3
+          ],
+          "e": [
+            1
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "jeden Tag",
+          "b": [
+            0
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "jeden Tag",
+          "gb": "প্রতিদিন",
+          "ge": "every day",
+          "n": ""
+        },
+        {
+          "t": "übst,",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "übst",
+          "gb": "অনুশীলন",
+          "ge": "practise",
+          "n": ""
+        },
+        {
+          "t": "wirst",
+          "b": [
+            6
+          ],
+          "e": [
+            6
+          ],
+          "l": "wirst",
+          "gb": "হবে",
+          "ge": "will",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            3
+          ],
+          "e": [
+            5
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "schnell",
+          "b": [
+            4
+          ],
+          "e": [
+            9
+          ],
+          "l": "schnell",
+          "gb": "তাড়াতাড়ি",
+          "ge": "quickly",
+          "n": ""
+        },
+        {
+          "t": "besser.",
+          "b": [
+            5
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "besser",
+          "gb": "ভালো",
+          "ge": "get better",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "ক্রম বলার শব্দ",
+      "head": [
+        "শব্দ",
+        "অর্থ",
+        "উদাহরণ"
+      ],
+      "rows": [
+        [
+          "zuerst",
+          "প্রথমে",
+          "Zuerst wiederhole ich Vokabeln."
+        ],
+        [
+          "dann / danach",
+          "তারপর",
+          "Dann mache ich Übungen."
+        ],
+        [
+          "später",
+          "পরে",
+          "Später spreche ich mit meinem Partner."
+        ],
+        [
+          "zum Schluss",
+          "শেষে",
+          "Zum Schluss schreibe ich Sätze auf."
+        ]
+      ],
+      "note": "এগুলো বাক্যের শুরুতে এলে ক্রিয়া ২য় স্থানে, কর্তা তার পরে — „Dann mache ich …“ (not „Dann ich mache“)।"
+    },
+    {
+      "type": "table",
+      "title": "কতবার? (Häufigkeit)",
+      "head": [
+        "শব্দ",
+        "অর্থ",
+        "শতাংশ"
+      ],
+      "rows": [
+        [
+          "nie",
+          "কখনো না",
+          "০%"
+        ],
+        [
+          "selten",
+          "কদাচিৎ",
+          "১০–২০%"
+        ],
+        [
+          "manchmal",
+          "কখনো কখনো",
+          "৪০%"
+        ],
+        [
+          "oft",
+          "প্রায়ই",
+          "৭০%"
+        ],
+        [
+          "meistens",
+          "বেশিরভাগ সময়",
+          "৯০%"
+        ],
+        [
+          "immer",
+          "সবসময়",
+          "১০০%"
+        ]
+      ],
+      "note": "Ich übe oft allein. · Ich bin nie müde. — এগুলো সাধারণত ক্রিয়ার পরে বসে।"
+    },
+    {
+      "type": "text",
+      "title": "আপনার নিজের Lernplan লিখুন",
+      "text": "উদাহরণ: „Zuerst höre ich zehn Minuten einen Podcast. Dann lerne ich zehn neue Vokabeln. Danach mache ich eine Grammatikübung. Zum Schluss schreibe ich drei Sätze auf. Ich übe fünfmal pro Woche.“ — প্রতিদিন ২০–৩০ মিনিটও দীর্ঘ সময়ে অনেক কাজ করে।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "der Lernplan",
+      "options": [
+        "কখনো না",
+        "পড়ার পরিকল্পনা",
+        "লিখে রাখা",
+        "বাক্য"
+      ],
+      "answer": 1,
+      "why": "der Lernplan = পড়ার পরিকল্পনা।",
+      "word": "lernplan"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "zuerst",
+      "options": [
+        "প্রথমে",
+        "প্রায়ই",
+        "ভাষা-বিনিময় সঙ্গী",
+        "বাক্য"
+      ],
+      "answer": 0,
+      "why": "zuerst = প্রথমে।",
+      "word": "zuerst"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "nie",
+      "options": [
+        "কখনো না",
+        "প্রথমে",
+        "সবসময়",
+        "ভাষা-বিনিময় সঙ্গী"
+      ],
+      "answer": 0,
+      "why": "nie = কখনো না।",
+      "word": "nie"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Satz",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 0,
+      "why": "der Satz। বহুবচন: die Sätze।",
+      "word": "satz"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক বাক্য কোনটি?",
+      "options": [
+        "Dann mache ich Übungen.",
+        "Dann ich mache Übungen.",
+        "Dann Übungen mache ich.",
+        "Ich dann Übungen mache."
+      ],
+      "answer": 0,
+      "why": "ক্রম-শব্দের পর ক্রিয়া ২য়।",
+      "word": "danach"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„nie“ মানে কী?",
+      "options": [
+        "কখনো না",
+        "সবসময়",
+        "প্রায়ই",
+        "আজ"
+      ],
+      "answer": 0,
+      "why": "nie = never।",
+      "word": "nie"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„manchmal“ এর অর্থ কী?",
+      "options": [
+        "কখনো কখনো",
+        "সবসময়",
+        "কখনো না",
+        "প্রতিদিন"
+      ],
+      "answer": 0,
+      "why": "manchmal = sometimes।",
+      "word": "manchmal"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Zuerst lerne ich, dann ___ ich Übungen.",
+      "options": [
+        "mache",
+        "machen",
+        "macht",
+        "gemacht"
+      ],
+      "answer": 0,
+      "why": "ich + machen → mache।",
+      "word": "zum_schluss"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„zum Schluss“ বাক্যের কোথায় বসে?",
+      "options": [
+        "শুরুতে (তখন ক্রিয়া ২য়)",
+        "কখনোই না",
+        "শেষে ক্রিয়ার পরে",
+        "ক্রিয়ার আগে ছাড়া"
+      ],
+      "answer": 0,
+      "why": "Zum Schluss schreibe ich …",
+      "word": "zum_schluss"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „প্রথমে আমি শব্দ পুনরাবৃত্তি করি।“",
+      "tiles": [
+        "ich",
+        "Zuerst",
+        "wiederhole",
+        "Vokabeln.",
+        "die"
+      ],
+      "answer": [
+        "Zuerst",
+        "wiederhole",
+        "ich",
+        "die",
+        "Vokabeln."
+      ],
+      "why": "Zuerst + ক্রিয়া + কর্তা।",
+      "word": "zuerst"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

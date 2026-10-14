@@ -1,0 +1,1371 @@
+{
+  "level": "A2",
+  "unit": 2,
+  "minutes": 16,
+  "lesson": 1,
+  "id": "a2-u02-l01",
+  "title": {
+    "de": "Können Sie mir helfen?",
+    "bn": "Dativ: mir, dir, ihm, ihr",
+    "en": "Can you help me? The dative case"
+  },
+  "hook": {
+    "de": "Eine Hand wäscht die andere.",
+    "who": "Sprichwort",
+    "bn": "এক হাত অন্য হাতকে ধোয় — পরস্পরের সাহায্য।",
+    "en": "One hand washes the other."
+  },
+  "goals": [
+    "Dativ-সর্বনাম: mir, dir, ihm, ihr, uns, euch, ihnen",
+    "যে ক্রিয়ার সাথে Dativ বসে: helfen, geben, zeigen, schicken, gehören, gefallen",
+    "Dativ-এর আর্টিকেল: dem, der, den",
+    "অফিসে সাহায্য চাওয়া"
+  ],
+  "words": [
+    {
+      "id": "helfen",
+      "de": "helfen",
+      "pos": "ক্রিয়া · hilft, hat geholfen (+ Dativ)",
+      "bn": "সাহায্য করা",
+      "en": "to help"
+    },
+    {
+      "id": "geben",
+      "de": "geben",
+      "pos": "ক্রিয়া · gibt, hat gegeben",
+      "bn": "দেওয়া",
+      "en": "to give"
+    },
+    {
+      "id": "zeigen",
+      "de": "zeigen",
+      "pos": "ক্রিয়া · hat gezeigt",
+      "bn": "দেখানো",
+      "en": "to show"
+    },
+    {
+      "id": "schicken",
+      "de": "schicken",
+      "pos": "ক্রিয়া · hat geschickt",
+      "bn": "পাঠানো",
+      "en": "to send"
+    },
+    {
+      "id": "gehoeren",
+      "de": "gehören",
+      "pos": "ক্রিয়া · hat gehört (+ Dativ)",
+      "bn": "কারও হওয়া, মালিকানা",
+      "en": "to belong to"
+    },
+    {
+      "id": "gefallen",
+      "de": "gefallen",
+      "pos": "ক্রিয়া · gefällt, hat gefallen",
+      "bn": "পছন্দ হওয়া",
+      "en": "to please, to like"
+    },
+    {
+      "id": "erklaeren",
+      "de": "erklären",
+      "pos": "ক্রিয়া · hat erklärt",
+      "bn": "বুঝিয়ে বলা",
+      "en": "to explain"
+    },
+    {
+      "id": "kollege",
+      "de": "Kollege",
+      "art": "der",
+      "pl": "die Kollegen",
+      "pos": "বিশেষ্য",
+      "bn": "সহকর্মী (পুরুষ)",
+      "en": "colleague"
+    },
+    {
+      "id": "kollegin",
+      "de": "Kollegin",
+      "art": "die",
+      "pl": "die Kolleginnen",
+      "pos": "বিশেষ্য",
+      "bn": "সহকর্মী (নারী)",
+      "en": "colleague (f)"
+    },
+    {
+      "id": "chef",
+      "de": "Chef",
+      "art": "der",
+      "pl": "die Chefs",
+      "pos": "বিশেষ্য",
+      "bn": "বস, প্রধান",
+      "en": "boss"
+    },
+    {
+      "id": "passwort",
+      "de": "Passwort",
+      "art": "das",
+      "pl": "die Passwörter",
+      "pos": "বিশেষ্য",
+      "bn": "পাসওয়ার্ড",
+      "en": "password"
+    },
+    {
+      "id": "schreibtisch",
+      "de": "Schreibtisch",
+      "art": "der",
+      "pl": "die Schreibtische",
+      "pos": "বিশেষ্য",
+      "bn": "ডেস্ক",
+      "en": "desk"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Saheb",
+      "bn": [
+        "মাফ",
+        "করবেন,",
+        "আপনি",
+        "কি",
+        "আমাকে",
+        "সাহায্য",
+        "করতে",
+        "পারেন?"
+      ],
+      "en": [
+        "Excuse",
+        "me,",
+        "can",
+        "you",
+        "help",
+        "me?"
+      ],
+      "de": [
+        {
+          "t": "Entschuldigung,",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Entschuldigung",
+          "gb": "মাফ করবেন",
+          "ge": "Excuse me",
+          "n": ""
+        },
+        {
+          "t": "können",
+          "b": [
+            7
+          ],
+          "e": [
+            2
+          ],
+          "l": "können",
+          "gb": "পারেন",
+          "ge": "can",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "Sie",
+          "gb": "আপনি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "mir",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "ich",
+          "gb": "আমাকে (Dativ)",
+          "ge": "me (Dativ)",
+          "n": "ich → mir (Dativ)"
+        },
+        {
+          "t": "helfen?",
+          "b": [
+            5
+          ],
+          "e": [
+            4
+          ],
+          "l": "helfen",
+          "gb": "সাহায্য",
+          "ge": "help",
+          "n": "helfen সবসময় Dativ-এর সাথে: jemandem helfen"
+        }
+      ]
+    },
+    {
+      "who": "Frau Weber",
+      "bn": [
+        "অবশ্যই!",
+        "আপনার",
+        "কী",
+        "দরকার?"
+      ],
+      "en": [
+        "Of",
+        "course!",
+        "What",
+        "do",
+        "you",
+        "need?"
+      ],
+      "de": [
+        {
+          "t": "Natürlich!",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Natürlich",
+          "gb": "অবশ্যই",
+          "ge": "Of course",
+          "n": ""
+        },
+        {
+          "t": "Was",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "Was",
+          "gb": "কী",
+          "ge": "What",
+          "n": ""
+        },
+        {
+          "t": "brauchen",
+          "b": [
+            3
+          ],
+          "e": [
+            5
+          ],
+          "l": "brauchen",
+          "gb": "দরকার",
+          "ge": "need",
+          "n": ""
+        },
+        {
+          "t": "Sie?",
+          "b": [
+            1
+          ],
+          "e": [
+            4
+          ],
+          "l": "Sie",
+          "gb": "আপনার",
+          "ge": "you",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "কম্পিউটারের",
+        "পাসওয়ার্ড",
+        "আমার",
+        "দরকার।",
+        "আপনি",
+        "কি",
+        "সেটা",
+        "আমাকে",
+        "দিতে",
+        "পারেন?"
+      ],
+      "en": [
+        "I",
+        "need",
+        "the",
+        "password",
+        "for",
+        "the",
+        "computer.",
+        "Can",
+        "you",
+        "give",
+        "it",
+        "to",
+        "me?"
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            2
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমার",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "brauche",
+          "b": [
+            3
+          ],
+          "e": [
+            1
+          ],
+          "l": "brauche",
+          "gb": "দরকার",
+          "ge": "need",
+          "n": ""
+        },
+        {
+          "t": "das",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "das",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "Passwort",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "Passwort",
+          "gb": "পাসওয়ার্ড",
+          "ge": "password",
+          "n": ""
+        },
+        {
+          "t": "für",
+          "b": [],
+          "e": [
+            4
+          ],
+          "l": "für",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "for",
+          "n": ""
+        },
+        {
+          "t": "den",
+          "b": [],
+          "e": [
+            5
+          ],
+          "l": "den",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "Computer.",
+          "b": [
+            0
+          ],
+          "e": [
+            6
+          ],
+          "l": "Computer",
+          "gb": "কম্পিউটারের",
+          "ge": "computer",
+          "n": ""
+        },
+        {
+          "t": "Können",
+          "b": [
+            9
+          ],
+          "e": [
+            7
+          ],
+          "l": "Können",
+          "gb": "পারেন",
+          "ge": "Can",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [
+            4
+          ],
+          "e": [
+            8
+          ],
+          "l": "Sie",
+          "gb": "আপনি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "es",
+          "b": [
+            6
+          ],
+          "e": [
+            10
+          ],
+          "l": "es",
+          "gb": "সেটা",
+          "ge": "it",
+          "n": ""
+        },
+        {
+          "t": "mir",
+          "b": [
+            7
+          ],
+          "e": [
+            11,
+            12
+          ],
+          "l": "ich",
+          "gb": "আমাকে",
+          "ge": "to me",
+          "n": ""
+        },
+        {
+          "t": "geben?",
+          "b": [
+            8
+          ],
+          "e": [
+            9
+          ],
+          "l": "geben",
+          "gb": "দিতে",
+          "ge": "give",
+          "n": "Dativ (mir) আগে, Akkusativ (es) — es আগে আসে: Sie geben es mir"
+        }
+      ]
+    },
+    {
+      "who": "Frau Weber",
+      "bn": [
+        "হ্যাঁ,",
+        "আমি",
+        "এখনই",
+        "আপনাকে",
+        "ইমেইলে",
+        "পাঠাচ্ছি।"
+      ],
+      "en": [
+        "Yes,",
+        "I",
+        "will",
+        "send",
+        "it",
+        "to",
+        "you",
+        "by",
+        "email",
+        "right",
+        "away."
+      ],
+      "de": [
+        {
+          "t": "Ja,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ja",
+          "gb": "হ্যাঁ",
+          "ge": "Yes",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "schicke",
+          "b": [
+            5
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "schicke",
+          "gb": "পাঠাচ্ছি",
+          "ge": "will send",
+          "n": ""
+        },
+        {
+          "t": "es",
+          "b": [],
+          "e": [
+            4
+          ],
+          "l": "es",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "it",
+          "n": ""
+        },
+        {
+          "t": "Ihnen",
+          "b": [
+            3
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "Sie",
+          "gb": "আপনাকে (Dativ)",
+          "ge": "to you (Dativ, formal)",
+          "n": "Sie → Ihnen (höflich, বড় I)"
+        },
+        {
+          "t": "gleich.",
+          "b": [
+            2
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "gleich",
+          "gb": "এখনই",
+          "ge": "right away",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "ধন্যবাদ!",
+        "আর",
+        "এই",
+        "ডেস্কটা",
+        "কার?"
+      ],
+      "en": [
+        "Thanks!",
+        "And",
+        "whose",
+        "desk",
+        "is",
+        "this?"
+      ],
+      "de": [
+        {
+          "t": "Danke!",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Danke",
+          "gb": "ধন্যবাদ",
+          "ge": "Thanks",
+          "n": ""
+        },
+        {
+          "t": "Und",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "wem",
+          "b": [
+            4
+          ],
+          "e": [
+            2
+          ],
+          "l": "wer",
+          "gb": "কার",
+          "ge": "whose",
+          "n": "wer → wem (Dativ): Wem gehört …? = কার (জিনিস)?"
+        },
+        {
+          "t": "gehört",
+          "b": [],
+          "e": [
+            4
+          ],
+          "l": "gehören",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "der",
+          "b": [],
+          "e": [],
+          "l": "der",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Schreibtisch?",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "Schreibtisch",
+          "gb": "ডেস্কটা",
+          "ge": "desk",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Frau Weber",
+      "bn": [
+        "ওটা",
+        "বসের,",
+        "কিন্তু",
+        "উনি",
+        "আজ",
+        "নেই।",
+        "আপনার",
+        "ডেস্ক",
+        "ওখানে।"
+      ],
+      "en": [
+        "It",
+        "belongs",
+        "to",
+        "the",
+        "boss,",
+        "but",
+        "he",
+        "is",
+        "not",
+        "here",
+        "today.",
+        "Your",
+        "desk",
+        "is",
+        "over",
+        "there."
+      ],
+      "de": [
+        {
+          "t": "Er",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Er",
+          "gb": "ওটা",
+          "ge": "It",
+          "n": ""
+        },
+        {
+          "t": "gehört",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "gehören",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "belongs",
+          "n": ""
+        },
+        {
+          "t": "dem",
+          "b": [],
+          "e": [
+            2,
+            3
+          ],
+          "l": "der",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "to the",
+          "n": "der Chef → dem Chef (Dativ)"
+        },
+        {
+          "t": "Chef,",
+          "b": [
+            1
+          ],
+          "e": [
+            4
+          ],
+          "l": "Chef",
+          "gb": "বসের",
+          "ge": "boss",
+          "n": ""
+        },
+        {
+          "t": "aber",
+          "b": [
+            2
+          ],
+          "e": [
+            5
+          ],
+          "l": "aber",
+          "gb": "কিন্তু",
+          "ge": "but",
+          "n": ""
+        },
+        {
+          "t": "er",
+          "b": [
+            3
+          ],
+          "e": [
+            6
+          ],
+          "l": "er",
+          "gb": "উনি",
+          "ge": "he",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            7
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "heute",
+          "b": [
+            4
+          ],
+          "e": [
+            10
+          ],
+          "l": "heute",
+          "gb": "আজ",
+          "ge": "today",
+          "n": ""
+        },
+        {
+          "t": "nicht",
+          "b": [
+            5
+          ],
+          "e": [
+            8
+          ],
+          "l": "nicht",
+          "gb": "নেই",
+          "ge": "not",
+          "n": ""
+        },
+        {
+          "t": "da.",
+          "b": [],
+          "e": [
+            9
+          ],
+          "l": "da",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "here",
+          "n": ""
+        },
+        {
+          "t": "Ihr",
+          "b": [
+            6
+          ],
+          "e": [
+            11
+          ],
+          "l": "Ihr",
+          "gb": "আপনার",
+          "ge": "Your",
+          "n": ""
+        },
+        {
+          "t": "Platz",
+          "b": [
+            7
+          ],
+          "e": [
+            12
+          ],
+          "l": "Platz",
+          "gb": "ডেস্ক",
+          "ge": "desk",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            13
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "dort.",
+          "b": [
+            8
+          ],
+          "e": [
+            14,
+            15
+          ],
+          "l": "dort",
+          "gb": "ওখানে",
+          "ge": "over there",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Frau Weber",
+      "bn": [
+        "আপনার",
+        "কি",
+        "কাজটা",
+        "ভালো",
+        "লাগছে?"
+      ],
+      "en": [
+        "Do",
+        "you",
+        "like",
+        "the",
+        "job?"
+      ],
+      "de": [
+        {
+          "t": "Gefällt",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            0
+          ],
+          "l": "gefallen",
+          "gb": "ভালো লাগছে",
+          "ge": "Do",
+          "n": ""
+        },
+        {
+          "t": "Ihnen",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "Sie",
+          "gb": "আপনার",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "die",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "die",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "Arbeit?",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "Arbeit",
+          "gb": "কাজটা",
+          "ge": "job",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "হ্যাঁ,",
+        "আমার",
+        "খুব",
+        "ভালো",
+        "লাগছে।",
+        "সহকর্মীরা",
+        "সবসময়",
+        "আমাকে",
+        "সাহায্য",
+        "করেন।"
+      ],
+      "en": [
+        "Yes,",
+        "I",
+        "like",
+        "it",
+        "a",
+        "lot.",
+        "The",
+        "colleagues",
+        "always",
+        "help",
+        "me."
+      ],
+      "de": [
+        {
+          "t": "Ja,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ja",
+          "gb": "হ্যাঁ",
+          "ge": "Yes",
+          "n": ""
+        },
+        {
+          "t": "sie",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "sie",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "it",
+          "n": "sie = die Arbeit"
+        },
+        {
+          "t": "gefällt",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            2
+          ],
+          "l": "gefallen",
+          "gb": "ভালো লাগছে",
+          "ge": "like",
+          "n": ""
+        },
+        {
+          "t": "mir",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "ich",
+          "gb": "আমার",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "sehr.",
+          "b": [
+            2
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "sehr",
+          "gb": "খুব",
+          "ge": "a lot",
+          "n": ""
+        },
+        {
+          "t": "Die",
+          "b": [
+            5
+          ],
+          "e": [
+            6
+          ],
+          "l": "Die",
+          "gb": "সহকর্মীরা",
+          "ge": "The",
+          "n": ""
+        },
+        {
+          "t": "Kollegen",
+          "b": [
+            5
+          ],
+          "e": [
+            7
+          ],
+          "l": "Kollegen",
+          "gb": "সহকর্মীরা",
+          "ge": "colleagues",
+          "n": ""
+        },
+        {
+          "t": "helfen",
+          "b": [
+            8
+          ],
+          "e": [
+            9
+          ],
+          "l": "helfen",
+          "gb": "সাহায্য",
+          "ge": "help",
+          "n": ""
+        },
+        {
+          "t": "mir",
+          "b": [
+            7
+          ],
+          "e": [
+            10
+          ],
+          "l": "ich",
+          "gb": "আমাকে",
+          "ge": "me",
+          "n": ""
+        },
+        {
+          "t": "immer.",
+          "b": [
+            6
+          ],
+          "e": [
+            8
+          ],
+          "l": "immer",
+          "gb": "সবসময়",
+          "ge": "always",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "Personalpronomen: Nominativ → Dativ",
+      "head": [
+        "Nominativ",
+        "Dativ",
+        "বাংলা"
+      ],
+      "rows": [
+        [
+          "ich",
+          "mir",
+          "আমাকে / আমার"
+        ],
+        [
+          "du",
+          "dir",
+          "তোমাকে"
+        ],
+        [
+          "er",
+          "ihm",
+          "তাকে (পুরুষ)"
+        ],
+        [
+          "sie",
+          "ihr",
+          "তাকে (নারী)"
+        ],
+        [
+          "es",
+          "ihm",
+          "এটিকে"
+        ],
+        [
+          "wir",
+          "uns",
+          "আমাদের"
+        ],
+        [
+          "ihr",
+          "euch",
+          "তোমাদের"
+        ],
+        [
+          "sie / Sie",
+          "ihnen / Ihnen",
+          "তাদের / আপনাকে"
+        ]
+      ],
+      "note": "Dativ = „কাকে“ প্রশ্নের উত্তর (বাংলার „কে-কে / র-কে“ দেওয়া, দেখানো, সাহায্য করা)।"
+    },
+    {
+      "type": "table",
+      "title": "এই ক্রিয়াগুলোর পরে সবসময় Dativ",
+      "head": [
+        "Verb",
+        "উদাহরণ"
+      ],
+      "rows": [
+        [
+          "helfen",
+          "Ich helfe dir."
+        ],
+        [
+          "gehören",
+          "Das Buch gehört mir."
+        ],
+        [
+          "gefallen",
+          "Die Wohnung gefällt mir."
+        ],
+        [
+          "geben",
+          "Er gibt mir das Passwort."
+        ],
+        [
+          "zeigen",
+          "Sie zeigt ihm den Weg."
+        ],
+        [
+          "schicken",
+          "Ich schicke Ihnen eine E-Mail."
+        ],
+        [
+          "erklären",
+          "Sie erklärt uns die Regel."
+        ]
+      ],
+      "note": "helfen, gehören, gefallen শুধু Dativ নেয়। geben, zeigen, schicken, erklären: কাকে (Dativ) + কী (Akkusativ)।"
+    },
+    {
+      "type": "table",
+      "title": "Dativ-আর্টিকেল",
+      "head": [
+        "",
+        "m",
+        "n",
+        "f",
+        "Plural"
+      ],
+      "rows": [
+        [
+          "Nominativ",
+          "der Chef",
+          "das Kind",
+          "die Kollegin",
+          "die Kollegen"
+        ],
+        [
+          "Dativ",
+          "dem Chef",
+          "dem Kind",
+          "der Kollegin",
+          "den Kollegen(-n)"
+        ]
+      ],
+      "note": "Plural-Dativ-এ বিশেষ্যের শেষে -n যোগ হয় (den Kollegen, den Freunden)। Pronomen আগে: „Ich gebe es ihm“; দুটোই বিশেষ্য হলে Dativ আগে: „Ich gebe dem Chef das Passwort“।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "helfen",
+      "options": [
+        "দেখানো",
+        "কারও হওয়া",
+        "বুঝিয়ে বলা",
+        "সাহায্য করা"
+      ],
+      "answer": 3,
+      "why": "helfen = সাহায্য করা।",
+      "word": "helfen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "gehören",
+      "options": [
+        "বুঝিয়ে বলা",
+        "পাসওয়ার্ড",
+        "কারও হওয়া",
+        "দেওয়া"
+      ],
+      "answer": 2,
+      "why": "gehören = কারও হওয়া।",
+      "word": "gehoeren"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "schicken",
+      "options": [
+        "কারও হওয়া",
+        "সহকর্মী",
+        "পাঠানো",
+        "ডেস্ক"
+      ],
+      "answer": 2,
+      "why": "schicken = পাঠানো।",
+      "word": "schicken"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Passwort",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 2,
+      "why": "das Passwort। বহুবচন: die Passwörter।",
+      "word": "passwort"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Kannst du ___ helfen?",
+      "options": [
+        "mir",
+        "mich",
+        "ich",
+        "mein"
+      ],
+      "answer": 0,
+      "why": "helfen + Dativ: mir।",
+      "word": "helfen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ich gebe ___ das Buch. (er)",
+      "options": [
+        "ihm",
+        "ihn",
+        "er",
+        "sein"
+      ],
+      "answer": 0,
+      "why": "er → ihm (Dativ)।",
+      "word": "geben"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Das gehört ___ Chef.",
+      "options": [
+        "dem",
+        "den",
+        "der",
+        "das"
+      ],
+      "answer": 0,
+      "why": "der Chef → dem Chef (Dativ)।",
+      "word": "chef"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ich zeige ___ Kollegin den Weg.",
+      "options": [
+        "der",
+        "dem",
+        "die",
+        "den"
+      ],
+      "answer": 0,
+      "why": "die Kollegin → der Kollegin (Dativ f)।",
+      "word": "kollegin"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Sie (höflich) → Dativ কী?",
+      "options": [
+        "Ihnen",
+        "Sie",
+        "Ihr",
+        "ihnen"
+      ],
+      "answer": 0,
+      "why": "Sie → Ihnen (বড় I)।",
+      "word": "schicken"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „আমি আপনাকে এখনই ইমেইল পাঠাচ্ছি।“",
+      "tiles": [
+        "gleich.",
+        "Ihnen",
+        "schicke",
+        "Ich",
+        "eine E-Mail"
+      ],
+      "answer": [
+        "Ich",
+        "schicke",
+        "Ihnen",
+        "eine E-Mail",
+        "gleich."
+      ],
+      "why": "Dativ (Ihnen) আগে, Akkusativ (eine E-Mail) পরে।",
+      "word": "schicken"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

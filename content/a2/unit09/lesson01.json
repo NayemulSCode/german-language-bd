@@ -1,0 +1,1352 @@
+{
+  "level": "A2",
+  "unit": 9,
+  "minutes": 16,
+  "lesson": 1,
+  "id": "a2-u09-l01",
+  "title": {
+    "de": "Das Wetter für morgen",
+    "bn": "আবহাওয়ার খবর বোঝা",
+    "en": "The weather forecast"
+  },
+  "hook": {
+    "de": "Es gibt kein schlechtes Wetter, nur falsche Kleidung.",
+    "who": "Redensart",
+    "bn": "খারাপ আবহাওয়া বলে কিছু নেই, আছে ভুল পোশাক।",
+    "en": "There is no bad weather, only wrong clothing."
+  },
+  "goals": [
+    "আবহাওয়ার রিপোর্ট বোঝা",
+    "দিক: im Norden, im Süden, im Osten, im Westen",
+    "তাপমাত্রা: zehn Grad, minus fünf Grad",
+    "Es wird wärmer / kälter / windig"
+  ],
+  "words": [
+    {
+      "id": "wetterbericht",
+      "de": "Wetterbericht",
+      "art": "der",
+      "pl": "die Wetterberichte",
+      "pos": "বিশেষ্য",
+      "bn": "আবহাওয়ার খবর",
+      "en": "weather report"
+    },
+    {
+      "id": "temperatur",
+      "de": "Temperatur",
+      "art": "die",
+      "pl": "die Temperaturen",
+      "pos": "বিশেষ্য",
+      "bn": "তাপমাত্রা",
+      "en": "temperature"
+    },
+    {
+      "id": "grad",
+      "de": "Grad",
+      "art": "das",
+      "pos": "বিশেষ্য",
+      "bn": "ডিগ্রি",
+      "en": "degree"
+    },
+    {
+      "id": "sonne",
+      "de": "Sonne",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "সূর্য",
+      "en": "sun"
+    },
+    {
+      "id": "wind",
+      "de": "Wind",
+      "art": "der",
+      "pl": "die Winde",
+      "pos": "বিশেষ্য",
+      "bn": "বাতাস",
+      "en": "wind"
+    },
+    {
+      "id": "gewitter",
+      "de": "Gewitter",
+      "art": "das",
+      "pl": "die Gewitter",
+      "pos": "বিশেষ্য",
+      "bn": "বজ্রঝড়",
+      "en": "thunderstorm"
+    },
+    {
+      "id": "regenschirm",
+      "de": "Regenschirm",
+      "art": "der",
+      "pl": "die Regenschirme",
+      "pos": "বিশেষ্য",
+      "bn": "ছাতা",
+      "en": "umbrella"
+    },
+    {
+      "id": "bewoelkt",
+      "de": "bewölkt",
+      "pos": "বিশেষণ",
+      "bn": "মেঘলা",
+      "en": "cloudy"
+    },
+    {
+      "id": "heiss",
+      "de": "heiß",
+      "pos": "বিশেষণ",
+      "bn": "গরম, উত্তপ্ত",
+      "en": "hot"
+    },
+    {
+      "id": "stark",
+      "de": "stark",
+      "pos": "বিশেষণ",
+      "bn": "জোরালো, শক্ত",
+      "en": "strong"
+    },
+    {
+      "id": "norden",
+      "de": "Norden",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "উত্তর",
+      "en": "north"
+    },
+    {
+      "id": "sueden",
+      "de": "Süden",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "দক্ষিণ",
+      "en": "south"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Radio",
+      "bn": [
+        "এখন",
+        "আগামীকালের",
+        "আবহাওয়া।"
+      ],
+      "en": [
+        "And",
+        "now",
+        "the",
+        "weather",
+        "for",
+        "tomorrow."
+      ],
+      "de": [
+        {
+          "t": "Und",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Und",
+          "gb": "এখন",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "jetzt",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "jetzt",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "now",
+          "n": ""
+        },
+        {
+          "t": "das Wetter",
+          "b": [
+            2
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "das Wetter",
+          "gb": "আবহাওয়া",
+          "ge": "the weather",
+          "n": ""
+        },
+        {
+          "t": "für morgen.",
+          "b": [
+            1
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "für morgen",
+          "gb": "আগামীকালের",
+          "ge": "for tomorrow",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Radio",
+      "bn": [
+        "উত্তরে",
+        "আকাশ",
+        "মেঘলা,",
+        "তাপমাত্রা",
+        "প্রায়",
+        "দশ",
+        "ডিগ্রি।"
+      ],
+      "en": [
+        "In",
+        "the",
+        "north",
+        "it",
+        "is",
+        "cloudy,",
+        "with",
+        "temperatures",
+        "around",
+        "ten",
+        "degrees."
+      ],
+      "de": [
+        {
+          "t": "Im Norden",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "Norden",
+          "gb": "উত্তরে",
+          "ge": "In the north",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            3,
+            4
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "it is",
+          "n": ""
+        },
+        {
+          "t": "es",
+          "b": [],
+          "e": [],
+          "l": "es",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "bewölkt,",
+          "b": [
+            2
+          ],
+          "e": [
+            5
+          ],
+          "l": "bewölkt",
+          "gb": "মেঘলা",
+          "ge": "cloudy",
+          "n": ""
+        },
+        {
+          "t": "mit",
+          "b": [],
+          "e": [
+            6
+          ],
+          "l": "mit",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "with",
+          "n": ""
+        },
+        {
+          "t": "Temperaturen",
+          "b": [
+            3
+          ],
+          "e": [
+            7
+          ],
+          "l": "Temperatur",
+          "gb": "তাপমাত্রা",
+          "ge": "temperatures",
+          "n": ""
+        },
+        {
+          "t": "um",
+          "b": [
+            4
+          ],
+          "e": [
+            8
+          ],
+          "l": "um",
+          "gb": "প্রায়",
+          "ge": "around",
+          "n": ""
+        },
+        {
+          "t": "zehn Grad.",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "Grad",
+          "gb": "দশ ডিগ্রি",
+          "ge": "ten degrees",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Radio",
+      "bn": [
+        "দক্ষিণে",
+        "রোদ",
+        "উঠবে,",
+        "আর",
+        "তাপমাত্রা",
+        "২০",
+        "ডিগ্রি",
+        "পর্যন্ত",
+        "হবে।"
+      ],
+      "en": [
+        "In",
+        "the",
+        "south",
+        "the",
+        "sun",
+        "is",
+        "shining,",
+        "and",
+        "it",
+        "will",
+        "get",
+        "up",
+        "to",
+        "twenty",
+        "degrees."
+      ],
+      "de": [
+        {
+          "t": "Im Süden",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "Süden",
+          "gb": "দক্ষিণে",
+          "ge": "In the south",
+          "n": ""
+        },
+        {
+          "t": "scheint",
+          "b": [
+            2
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "scheinen",
+          "gb": "উঠবে",
+          "ge": "is shining",
+          "n": ""
+        },
+        {
+          "t": "die Sonne,",
+          "b": [
+            1
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "Sonne",
+          "gb": "রোদ",
+          "ge": "the sun",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            3
+          ],
+          "e": [
+            7
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "es",
+          "b": [],
+          "e": [
+            8
+          ],
+          "l": "es",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "it",
+          "n": ""
+        },
+        {
+          "t": "wird",
+          "b": [
+            8
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "werden",
+          "gb": "হবে",
+          "ge": "will get",
+          "n": ""
+        },
+        {
+          "t": "bis zu",
+          "b": [
+            7
+          ],
+          "e": [
+            11,
+            12
+          ],
+          "l": "bis zu",
+          "gb": "পর্যন্ত",
+          "ge": "up to",
+          "n": ""
+        },
+        {
+          "t": "zwanzig Grad",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            13,
+            14
+          ],
+          "l": "zwanzig Grad",
+          "gb": "২০ ডিগ্রি",
+          "ge": "twenty degrees",
+          "n": ""
+        },
+        {
+          "t": "warm.",
+          "b": [],
+          "e": [],
+          "l": "warm",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Radio",
+      "bn": [
+        "বিকেলে",
+        "পশ্চিমে",
+        "বজ্রঝড়",
+        "হবে,",
+        "আর",
+        "বাতাস",
+        "জোরালো",
+        "হবে।"
+      ],
+      "en": [
+        "In",
+        "the",
+        "afternoon",
+        "there",
+        "will",
+        "be",
+        "a",
+        "thunderstorm",
+        "in",
+        "the",
+        "west,",
+        "and",
+        "the",
+        "wind",
+        "will",
+        "be",
+        "strong."
+      ],
+      "de": [
+        {
+          "t": "Am Nachmittag",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "Am Nachmittag",
+          "gb": "বিকেলে",
+          "ge": "In the afternoon",
+          "n": ""
+        },
+        {
+          "t": "gibt es",
+          "b": [
+            3
+          ],
+          "e": [
+            3,
+            4,
+            5
+          ],
+          "l": "gibt es",
+          "gb": "হবে",
+          "ge": "there will be",
+          "n": ""
+        },
+        {
+          "t": "im Westen",
+          "b": [
+            1
+          ],
+          "e": [
+            8,
+            9,
+            10
+          ],
+          "l": "im Westen",
+          "gb": "পশ্চিমে",
+          "ge": "in the west",
+          "n": ""
+        },
+        {
+          "t": "ein Gewitter,",
+          "b": [
+            2
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "Gewitter",
+          "gb": "বজ্রঝড়",
+          "ge": "a thunderstorm",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            4
+          ],
+          "e": [
+            11
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "der Wind",
+          "b": [
+            5
+          ],
+          "e": [
+            12,
+            13
+          ],
+          "l": "Wind",
+          "gb": "বাতাস",
+          "ge": "the wind",
+          "n": ""
+        },
+        {
+          "t": "wird",
+          "b": [
+            7
+          ],
+          "e": [
+            14,
+            15
+          ],
+          "l": "wird",
+          "gb": "হবে",
+          "ge": "will be",
+          "n": ""
+        },
+        {
+          "t": "stark.",
+          "b": [
+            6
+          ],
+          "e": [
+            16
+          ],
+          "l": "stark",
+          "gb": "জোরালো",
+          "ge": "strong",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "লেনা,",
+        "সে",
+        "কী",
+        "বলল?",
+        "আমি",
+        "সব",
+        "বুঝিনি।"
+      ],
+      "en": [
+        "Lena,",
+        "what",
+        "did",
+        "he",
+        "say?",
+        "I",
+        "did",
+        "not",
+        "understand",
+        "everything."
+      ],
+      "de": [
+        {
+          "t": "Lena,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Lena",
+          "gb": "লেনা",
+          "ge": "Lena",
+          "n": ""
+        },
+        {
+          "t": "was",
+          "b": [
+            2
+          ],
+          "e": [
+            1
+          ],
+          "l": "was",
+          "gb": "কী",
+          "ge": "what",
+          "n": ""
+        },
+        {
+          "t": "hat",
+          "b": [
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "hat",
+          "gb": "বলল",
+          "ge": "did",
+          "n": ""
+        },
+        {
+          "t": "er",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "er",
+          "gb": "সে",
+          "ge": "he",
+          "n": ""
+        },
+        {
+          "t": "gesagt?",
+          "b": [],
+          "e": [
+            4
+          ],
+          "l": "gesagt",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "say",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [],
+          "e": [],
+          "l": "habe",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "nicht",
+          "b": [],
+          "e": [
+            7
+          ],
+          "l": "nicht",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "not",
+          "n": ""
+        },
+        {
+          "t": "alles",
+          "b": [
+            5
+          ],
+          "e": [
+            9
+          ],
+          "l": "alles",
+          "gb": "সব",
+          "ge": "everything",
+          "n": ""
+        },
+        {
+          "t": "verstanden.",
+          "b": [
+            6
+          ],
+          "e": [
+            8
+          ],
+          "l": "verstanden",
+          "gb": "বুঝিনি",
+          "ge": "understand",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "কাল",
+        "রোদ",
+        "থাকবে,",
+        "কিন্তু",
+        "বিকেলে",
+        "বজ্রঝড়",
+        "হবে।",
+        "একটি",
+        "ছাতা",
+        "সঙ্গে",
+        "নাও!"
+      ],
+      "en": [
+        "Tomorrow",
+        "it",
+        "will",
+        "be",
+        "sunny,",
+        "but",
+        "there",
+        "will",
+        "be",
+        "a",
+        "thunderstorm",
+        "in",
+        "the",
+        "afternoon.",
+        "Take",
+        "an",
+        "umbrella!"
+      ],
+      "de": [
+        {
+          "t": "Morgen",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Morgen",
+          "gb": "কাল",
+          "ge": "Tomorrow",
+          "n": ""
+        },
+        {
+          "t": "scheint",
+          "b": [
+            2
+          ],
+          "e": [
+            1,
+            2,
+            3
+          ],
+          "l": "scheint",
+          "gb": "থাকবে",
+          "ge": "it will be",
+          "n": ""
+        },
+        {
+          "t": "die Sonne,",
+          "b": [
+            1
+          ],
+          "e": [
+            4
+          ],
+          "l": "die Sonne",
+          "gb": "রোদ",
+          "ge": "sunny",
+          "n": ""
+        },
+        {
+          "t": "aber",
+          "b": [
+            3
+          ],
+          "e": [
+            5
+          ],
+          "l": "aber",
+          "gb": "কিন্তু",
+          "ge": "but",
+          "n": ""
+        },
+        {
+          "t": "am Nachmittag",
+          "b": [
+            4
+          ],
+          "e": [
+            11,
+            12,
+            13
+          ],
+          "l": "am Nachmittag",
+          "gb": "বিকেলে",
+          "ge": "in the afternoon",
+          "n": ""
+        },
+        {
+          "t": "gibt es",
+          "b": [
+            6
+          ],
+          "e": [
+            6,
+            7,
+            8
+          ],
+          "l": "gibt es",
+          "gb": "হবে",
+          "ge": "there will be",
+          "n": ""
+        },
+        {
+          "t": "ein Gewitter.",
+          "b": [
+            5
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "ein Gewitter",
+          "gb": "বজ্রঝড়",
+          "ge": "a thunderstorm",
+          "n": ""
+        },
+        {
+          "t": "Nimm",
+          "b": [
+            10
+          ],
+          "e": [
+            14
+          ],
+          "l": "Nimm",
+          "gb": "নাও",
+          "ge": "Take",
+          "n": ""
+        },
+        {
+          "t": "einen Regenschirm",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            15,
+            16
+          ],
+          "l": "Regenschirm",
+          "gb": "একটি ছাতা",
+          "ge": "an umbrella",
+          "n": ""
+        },
+        {
+          "t": "mit!",
+          "b": [
+            9
+          ],
+          "e": [],
+          "l": "mit",
+          "gb": "সঙ্গে",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "ধন্যবাদ!",
+        "বাংলাদেশে",
+        "সাধারণত",
+        "আরও",
+        "গরম।",
+        "এখানে",
+        "দশ",
+        "ডিগ্রিই",
+        "আমার",
+        "কাছে",
+        "ঠান্ডা।"
+      ],
+      "en": [
+        "Thanks!",
+        "In",
+        "Bangladesh",
+        "it",
+        "is",
+        "usually",
+        "hotter.",
+        "Here",
+        "ten",
+        "degrees",
+        "is",
+        "already",
+        "cold",
+        "for",
+        "me."
+      ],
+      "de": [
+        {
+          "t": "Danke!",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Danke",
+          "gb": "ধন্যবাদ",
+          "ge": "Thanks",
+          "n": ""
+        },
+        {
+          "t": "In Bangladesch",
+          "b": [
+            1
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "In Bangladesch",
+          "gb": "বাংলাদেশে",
+          "ge": "In Bangladesh",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            3,
+            4
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "it is",
+          "n": ""
+        },
+        {
+          "t": "es",
+          "b": [],
+          "e": [],
+          "l": "es",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "meistens",
+          "b": [
+            2
+          ],
+          "e": [
+            5
+          ],
+          "l": "meistens",
+          "gb": "সাধারণত",
+          "ge": "usually",
+          "n": ""
+        },
+        {
+          "t": "heißer.",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            6
+          ],
+          "l": "heiß",
+          "gb": "আরও গরম",
+          "ge": "hotter",
+          "n": ""
+        },
+        {
+          "t": "Hier",
+          "b": [
+            5
+          ],
+          "e": [
+            7
+          ],
+          "l": "Hier",
+          "gb": "এখানে",
+          "ge": "Here",
+          "n": ""
+        },
+        {
+          "t": "sind",
+          "b": [],
+          "e": [
+            10
+          ],
+          "l": "sind",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "zehn Grad",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            8,
+            9
+          ],
+          "l": "zehn Grad",
+          "gb": "দশ ডিগ্রিই",
+          "ge": "ten degrees",
+          "n": ""
+        },
+        {
+          "t": "schon",
+          "b": [],
+          "e": [
+            11
+          ],
+          "l": "schon",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "already",
+          "n": ""
+        },
+        {
+          "t": "kalt",
+          "b": [
+            10
+          ],
+          "e": [
+            12
+          ],
+          "l": "kalt",
+          "gb": "ঠান্ডা",
+          "ge": "cold",
+          "n": ""
+        },
+        {
+          "t": "für mich.",
+          "b": [
+            8,
+            9
+          ],
+          "e": [
+            13,
+            14
+          ],
+          "l": "für mich",
+          "gb": "আমার কাছে",
+          "ge": "for me",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "আবহাওয়ার শব্দ",
+      "head": [
+        "জার্মান",
+        "বাংলা"
+      ],
+      "rows": [
+        [
+          "Es ist sonnig / bewölkt / windig",
+          "রোদেলা / মেঘলা / বাতাসময়"
+        ],
+        [
+          "Es regnet / schneit",
+          "বৃষ্টি / বরফ পড়ছে"
+        ],
+        [
+          "Die Sonne scheint.",
+          "রোদ উঠেছে।"
+        ],
+        [
+          "Es gibt ein Gewitter.",
+          "বজ্রঝড় হবে।"
+        ],
+        [
+          "Es wird kälter / wärmer.",
+          "ঠান্ডা / গরম হচ্ছে।"
+        ],
+        [
+          "Es ist zehn Grad warm.",
+          "তাপমাত্রা দশ ডিগ্রি।"
+        ],
+        [
+          "Es sind minus fünf Grad.",
+          "মাইনাস পাঁচ ডিগ্রি।"
+        ]
+      ],
+      "note": "জার্মানিতে সেলসিয়াস ব্যবহার হয়। „minus fünf Grad“ = −৫°C। শীতে প্রায় শূন্যের কাছাকাছি, গ্রীষ্মে ২০–৩০ ডিগ্রি।"
+    },
+    {
+      "type": "table",
+      "title": "দিক (Himmelsrichtungen)",
+      "head": [
+        "জার্মান",
+        "বাংলা",
+        "বাক্য"
+      ],
+      "rows": [
+        [
+          "der Norden",
+          "উত্তর",
+          "im Norden ist es kalt"
+        ],
+        [
+          "der Süden",
+          "দক্ষিণ",
+          "im Süden scheint die Sonne"
+        ],
+        [
+          "der Osten",
+          "পূর্ব",
+          "im Osten regnet es"
+        ],
+        [
+          "der Westen",
+          "পশ্চিম",
+          "im Westen ist es windig"
+        ]
+      ],
+      "note": "im + Norden/Süden/Osten/Westen (Dativ)। Wo? → im Norden। Wohin? → in den Norden।"
+    },
+    {
+      "type": "text",
+      "title": "আবহাওয়ার রিপোর্ট বুঝতে",
+      "text": "রিপোর্টে সাধারণত: প্রথমে অঞ্চল (im Norden), তারপর অবস্থা (bewölkt), তারপর তাপমাত্রা (bis zu 20 Grad)। „Es gibt“ + Akkusativ = „হবে/আছে“। দরকারি শব্দ: Regenschirm, Jacke, Handschuhe, Mütze।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "das Gewitter",
+      "options": [
+        "বজ্রঝড়",
+        "ডিগ্রি",
+        "বাতাস",
+        "মেঘলা"
+      ],
+      "answer": 0,
+      "why": "das Gewitter = বজ্রঝড়।",
+      "word": "gewitter"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "bewölkt",
+      "options": [
+        "ডিগ্রি",
+        "বজ্রঝড়",
+        "জোরালো",
+        "মেঘলা"
+      ],
+      "answer": 3,
+      "why": "bewölkt = মেঘলা।",
+      "word": "bewoelkt"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "heiß",
+      "options": [
+        "দক্ষিণ",
+        "ডিগ্রি",
+        "গরম",
+        "বজ্রঝড়"
+      ],
+      "answer": 2,
+      "why": "heiß = গরম।",
+      "word": "heiss"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Regenschirm",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 0,
+      "why": "der Regenschirm। বহুবচন: die Regenschirme।",
+      "word": "regenschirm"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Es sind minus fünf Grad“ মানে কী?",
+      "options": [
+        "তাপমাত্রা −৫°C",
+        "তাপমাত্রা +৫°C",
+        "পাঁচ জন",
+        "পাঁচ মিনিট"
+      ],
+      "answer": 0,
+      "why": "minus = −।",
+      "word": "grad"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„im Süden“ মানে কী?",
+      "options": [
+        "দক্ষিণে",
+        "উত্তরে",
+        "পূর্বে",
+        "পশ্চিমে"
+      ],
+      "answer": 0,
+      "why": "Süden = south।",
+      "word": "sueden"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক বাক্য কোনটি?",
+      "options": [
+        "Es gibt ein Gewitter.",
+        "Es gibt einem Gewitter.",
+        "Es ist ein Gewitter gibt.",
+        "Gibt es Gewitter ein."
+      ],
+      "answer": 0,
+      "why": "es gibt + Akkusativ।",
+      "word": "gewitter"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Morgen wird es ___.",
+      "options": [
+        "wärmer",
+        "warm",
+        "wärmste",
+        "am wärmsten"
+      ],
+      "answer": 0,
+      "why": "Es wird … Komparativ।",
+      "word": "temperatur"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„stark“ মানে কী?",
+      "options": [
+        "জোরালো",
+        "দুর্বল",
+        "ঠান্ডা",
+        "ধীর"
+      ],
+      "answer": 0,
+      "why": "stark = strong।",
+      "word": "stark"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „দক্ষিণে রোদ উঠেছে।“",
+      "tiles": [
+        "die Sonne.",
+        "scheint",
+        "Im Süden"
+      ],
+      "answer": [
+        "Im Süden",
+        "scheint",
+        "die Sonne."
+      ],
+      "why": "Ortsangabe zuerst → Verb 2.",
+      "word": "sonne"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

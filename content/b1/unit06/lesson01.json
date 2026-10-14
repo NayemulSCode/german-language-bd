@@ -1,0 +1,1648 @@
+{
+  "level": "B1",
+  "unit": 6,
+  "minutes": 18,
+  "lesson": 1,
+  "id": "b1-u06-l01",
+  "title": {
+    "de": "Ich bin der Meinung, dass …",
+    "bn": "নিজের মত প্রকাশ ও যুক্তি দেওয়া",
+    "en": "Expressing and justifying opinions"
+  },
+  "hook": {
+    "de": "Jedem das Seine.",
+    "who": "Redensart",
+    "bn": "প্রত্যেকের নিজস্ব দৃষ্টিভঙ্গি।",
+    "en": "To each their own."
+  },
+  "goals": [
+    "Meinungsformeln: Ich finde / meine / bin der Meinung, dass …",
+    "begründen: weil, denn, deshalb, nämlich",
+    "halten für + Akkusativ",
+    "Beispiele geben: zum Beispiel, etwa"
+  ],
+  "words": [
+    {
+      "id": "meinung",
+      "de": "Meinung",
+      "art": "die",
+      "pl": "die Meinungen",
+      "pos": "বিশেষ্য",
+      "bn": "মত",
+      "en": "opinion"
+    },
+    {
+      "id": "ansicht",
+      "de": "Ansicht",
+      "art": "die",
+      "pl": "die Ansichten",
+      "pos": "বিশেষ্য",
+      "bn": "দৃষ্টিভঙ্গি",
+      "en": "view"
+    },
+    {
+      "id": "ueberzeugt",
+      "de": "überzeugt",
+      "pos": "বিশেষণ",
+      "bn": "দৃঢ় বিশ্বাসী",
+      "en": "convinced"
+    },
+    {
+      "id": "halten",
+      "de": "halten",
+      "pos": "ক্রিয়া · hält, hat gehalten (für + Akk.)",
+      "bn": "মনে করা (… বলে)",
+      "en": "to consider (as)"
+    },
+    {
+      "id": "standpunkt",
+      "de": "Standpunkt",
+      "art": "der",
+      "pl": "die Standpunkte",
+      "pos": "বিশেষ্য",
+      "bn": "অবস্থান, দৃষ্টিকোণ",
+      "en": "standpoint"
+    },
+    {
+      "id": "begruenden",
+      "de": "begründen",
+      "pos": "ক্রিয়া · hat begründet",
+      "bn": "কারণ দেখানো",
+      "en": "to justify"
+    },
+    {
+      "id": "grund",
+      "de": "Grund",
+      "art": "der",
+      "pl": "die Gründe",
+      "pos": "বিশেষ্য",
+      "bn": "কারণ",
+      "en": "reason"
+    },
+    {
+      "id": "beispiel",
+      "de": "Beispiel",
+      "art": "das",
+      "pl": "die Beispiele",
+      "pos": "বিশেষ্য",
+      "bn": "উদাহরণ",
+      "en": "example"
+    },
+    {
+      "id": "sinnvoll",
+      "de": "sinnvoll",
+      "pos": "বিশেষণ",
+      "bn": "অর্থপূর্ণ, যুক্তিযুক্ত",
+      "en": "sensible"
+    },
+    {
+      "id": "naemlich",
+      "de": "nämlich",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "কারণ হলো …",
+      "en": "namely, because"
+    },
+    {
+      "id": "unterricht",
+      "de": "Unterricht",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "ক্লাস, পাঠদান",
+      "en": "lessons"
+    },
+    {
+      "id": "erlauben",
+      "de": "erlauben",
+      "pos": "ক্রিয়া · hat erlaubt",
+      "bn": "অনুমতি দেওয়া",
+      "en": "to allow"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Lehrerin",
+      "bn": [
+        "আজ",
+        "আমরা",
+        "এই",
+        "প্রশ্ন",
+        "নিয়ে",
+        "আলোচনা",
+        "করব:",
+        "স্কুলে",
+        "কি",
+        "স্মার্টফোন",
+        "অনুমোদিত",
+        "হওয়া",
+        "উচিত?",
+        "আপনার",
+        "কী",
+        "মত,",
+        "মিস্টার",
+        "রহমান?"
+      ],
+      "en": [
+        "Today",
+        "we",
+        "will",
+        "discuss",
+        "this",
+        "question:",
+        "should",
+        "smartphones",
+        "be",
+        "allowed",
+        "at",
+        "school?",
+        "What",
+        "is",
+        "your",
+        "opinion,",
+        "Mr",
+        "Rahman?"
+      ],
+      "de": [
+        {
+          "t": "Heute",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Heute",
+          "gb": "আজ",
+          "ge": "Today",
+          "n": ""
+        },
+        {
+          "t": "diskutieren wir",
+          "b": [
+            1,
+            5,
+            6
+          ],
+          "e": [
+            1,
+            2,
+            3
+          ],
+          "l": "diskutieren wir",
+          "gb": "আমরা আলোচনা করব",
+          "ge": "we will discuss",
+          "n": ""
+        },
+        {
+          "t": "diese Frage:",
+          "b": [
+            2,
+            3,
+            4
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "diese Frage",
+          "gb": "এই প্রশ্ন নিয়ে",
+          "ge": "this question",
+          "n": ""
+        },
+        {
+          "t": "Sollten",
+          "b": [
+            12
+          ],
+          "e": [
+            6
+          ],
+          "l": "Sollten",
+          "gb": "উচিত",
+          "ge": "should",
+          "n": ""
+        },
+        {
+          "t": "Smartphones",
+          "b": [
+            9
+          ],
+          "e": [
+            7
+          ],
+          "l": "Smartphones",
+          "gb": "স্মার্টফোন",
+          "ge": "smartphones",
+          "n": ""
+        },
+        {
+          "t": "in der Schule",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            10,
+            11
+          ],
+          "l": "in der Schule",
+          "gb": "স্কুলে কি",
+          "ge": "at school",
+          "n": ""
+        },
+        {
+          "t": "erlaubt sein?",
+          "b": [
+            10,
+            11
+          ],
+          "e": [
+            8,
+            9
+          ],
+          "l": "erlauben",
+          "gb": "অনুমোদিত হওয়া",
+          "ge": "be allowed",
+          "n": ""
+        },
+        {
+          "t": "Was",
+          "b": [
+            14
+          ],
+          "e": [
+            12
+          ],
+          "l": "Was",
+          "gb": "কী",
+          "ge": "What",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            13
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "Ihre Meinung,",
+          "b": [
+            13,
+            15
+          ],
+          "e": [
+            14,
+            15
+          ],
+          "l": "Meinung",
+          "gb": "আপনার মত",
+          "ge": "your opinion",
+          "n": ""
+        },
+        {
+          "t": "Herr Rahman?",
+          "b": [
+            16,
+            17
+          ],
+          "e": [
+            16,
+            17
+          ],
+          "l": "Herr Rahman",
+          "gb": "মিস্টার রহমান",
+          "ge": "Mr Rahman",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "মনে",
+        "করি",
+        "স্মার্টফোন",
+        "অনুমোদিত",
+        "হওয়া",
+        "উচিত,",
+        "কারণ",
+        "শিক্ষার্থীরা",
+        "সেটা",
+        "শেখার",
+        "জন্য",
+        "ব্যবহার",
+        "করতে",
+        "পারে।"
+      ],
+      "en": [
+        "I",
+        "am",
+        "of",
+        "the",
+        "opinion",
+        "that",
+        "smartphones",
+        "should",
+        "be",
+        "allowed,",
+        "because",
+        "students",
+        "can",
+        "use",
+        "them",
+        "for",
+        "learning."
+      ],
+      "de": [
+        {
+          "t": "Ich bin",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Ich bin",
+          "gb": "আমি",
+          "ge": "I am",
+          "n": ""
+        },
+        {
+          "t": "der Meinung,",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            2,
+            3,
+            4
+          ],
+          "l": "der Meinung",
+          "gb": "মনে করি",
+          "ge": "of the opinion",
+          "n": ""
+        },
+        {
+          "t": "dass",
+          "b": [],
+          "e": [
+            5
+          ],
+          "l": "dass",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "that",
+          "n": ""
+        },
+        {
+          "t": "Smartphones",
+          "b": [
+            3
+          ],
+          "e": [
+            6
+          ],
+          "l": "Smartphones",
+          "gb": "স্মার্টফোন",
+          "ge": "smartphones",
+          "n": ""
+        },
+        {
+          "t": "erlaubt sein sollten,",
+          "b": [
+            4,
+            5,
+            6
+          ],
+          "e": [
+            7,
+            8,
+            9
+          ],
+          "l": "erlaubt sein sollten",
+          "gb": "অনুমোদিত হওয়া উচিত",
+          "ge": "should be allowed",
+          "n": ""
+        },
+        {
+          "t": "weil",
+          "b": [
+            7
+          ],
+          "e": [
+            10
+          ],
+          "l": "weil",
+          "gb": "কারণ",
+          "ge": "because",
+          "n": ""
+        },
+        {
+          "t": "Schüler",
+          "b": [
+            8
+          ],
+          "e": [
+            11
+          ],
+          "l": "Schüler",
+          "gb": "শিক্ষার্থীরা",
+          "ge": "students",
+          "n": ""
+        },
+        {
+          "t": "sie",
+          "b": [
+            9
+          ],
+          "e": [
+            14
+          ],
+          "l": "sie",
+          "gb": "সেটা",
+          "ge": "them",
+          "n": ""
+        },
+        {
+          "t": "zum Lernen",
+          "b": [
+            10,
+            11
+          ],
+          "e": [
+            15,
+            16
+          ],
+          "l": "zum Lernen",
+          "gb": "শেখার জন্য",
+          "ge": "for learning",
+          "n": ""
+        },
+        {
+          "t": "nutzen",
+          "b": [
+            12
+          ],
+          "e": [
+            12,
+            13
+          ],
+          "l": "nutzen",
+          "gb": "ব্যবহার",
+          "ge": "can use",
+          "n": ""
+        },
+        {
+          "t": "können.",
+          "b": [
+            13,
+            14
+          ],
+          "e": [],
+          "l": "können",
+          "gb": "করতে পারে",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lehrerin",
+      "bn": [
+        "আপনি",
+        "এটা",
+        "কেন",
+        "যুক্তিযুক্ত",
+        "মনে",
+        "করেন?",
+        "আপনি",
+        "কি",
+        "একটি",
+        "উদাহরণ",
+        "দিতে",
+        "পারেন?"
+      ],
+      "en": [
+        "Why",
+        "do",
+        "you",
+        "consider",
+        "that",
+        "sensible?",
+        "Can",
+        "you",
+        "give",
+        "an",
+        "example?"
+      ],
+      "de": [
+        {
+          "t": "Warum",
+          "b": [
+            2
+          ],
+          "e": [
+            0
+          ],
+          "l": "Warum",
+          "gb": "কেন",
+          "ge": "Why",
+          "n": ""
+        },
+        {
+          "t": "halten Sie das",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "l": "halten Sie das",
+          "gb": "আপনি এটা",
+          "ge": "do you consider that",
+          "n": ""
+        },
+        {
+          "t": "für sinnvoll?",
+          "b": [
+            3,
+            4,
+            5
+          ],
+          "e": [
+            5
+          ],
+          "l": "sinnvoll",
+          "gb": "যুক্তিযুক্ত মনে করেন",
+          "ge": "sensible",
+          "n": "halten für + Akkusativ = … বলে মনে করা"
+        },
+        {
+          "t": "Können Sie",
+          "b": [
+            11
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "Können Sie",
+          "gb": "পারেন",
+          "ge": "Can you",
+          "n": ""
+        },
+        {
+          "t": "ein Beispiel",
+          "b": [
+            8,
+            9
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "Beispiel",
+          "gb": "একটি উদাহরণ",
+          "ge": "an example",
+          "n": ""
+        },
+        {
+          "t": "nennen?",
+          "b": [
+            10
+          ],
+          "e": [
+            8
+          ],
+          "l": "nennen",
+          "gb": "দিতে",
+          "ge": "give",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "অবশ্যই।",
+        "যেমন,",
+        "আমি",
+        "অনুবাদ",
+        "অ্যাপ",
+        "ব্যবহার",
+        "করে",
+        "অচেনা",
+        "শব্দ",
+        "সাথে",
+        "সাথে",
+        "খুঁজে",
+        "পাই।",
+        "এতে",
+        "ক্লাসের",
+        "সময়",
+        "বাঁচে।"
+      ],
+      "en": [
+        "Of",
+        "course.",
+        "For",
+        "example,",
+        "I",
+        "use",
+        "a",
+        "translation",
+        "app",
+        "to",
+        "find",
+        "unfamiliar",
+        "words",
+        "immediately.",
+        "That",
+        "saves",
+        "time",
+        "in",
+        "class."
+      ],
+      "de": [
+        {
+          "t": "Gern.",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Gern",
+          "gb": "অবশ্যই",
+          "ge": "Of course",
+          "n": ""
+        },
+        {
+          "t": "Zum Beispiel",
+          "b": [
+            1
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "Zum Beispiel",
+          "gb": "যেমন",
+          "ge": "For example",
+          "n": ""
+        },
+        {
+          "t": "finde ich",
+          "b": [
+            2,
+            11,
+            12
+          ],
+          "e": [
+            4,
+            10
+          ],
+          "l": "finde ich",
+          "gb": "আমি খুঁজে পাই",
+          "ge": "I find",
+          "n": ""
+        },
+        {
+          "t": "mit einer Übersetzungs-App",
+          "b": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "e": [
+            6,
+            7,
+            8
+          ],
+          "l": "mit einer Übersetzungs-App",
+          "gb": "অনুবাদ অ্যাপ ব্যবহার করে",
+          "ge": "a translation app",
+          "n": ""
+        },
+        {
+          "t": "unbekannte Wörter",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            11,
+            12
+          ],
+          "l": "unbekannte Wörter",
+          "gb": "অচেনা শব্দ",
+          "ge": "unfamiliar words",
+          "n": ""
+        },
+        {
+          "t": "sofort.",
+          "b": [
+            9,
+            10
+          ],
+          "e": [
+            13
+          ],
+          "l": "sofort",
+          "gb": "সাথে সাথে",
+          "ge": "immediately",
+          "n": ""
+        },
+        {
+          "t": "Dadurch",
+          "b": [
+            13
+          ],
+          "e": [
+            14
+          ],
+          "l": "Dadurch",
+          "gb": "এতে",
+          "ge": "That",
+          "n": ""
+        },
+        {
+          "t": "spart man",
+          "b": [
+            16
+          ],
+          "e": [
+            15
+          ],
+          "l": "spart man",
+          "gb": "বাঁচে",
+          "ge": "saves",
+          "n": ""
+        },
+        {
+          "t": "Zeit im Unterricht.",
+          "b": [
+            14,
+            15
+          ],
+          "e": [
+            16,
+            17,
+            18
+          ],
+          "l": "Unterricht",
+          "gb": "ক্লাসের সময়",
+          "ge": "time in class",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "আমি",
+        "সম্পূর্ণ",
+        "আলাদা",
+        "মত",
+        "পোষণ",
+        "করি।",
+        "আমার",
+        "ধারণায়,",
+        "ফোন",
+        "সবসময়",
+        "মনোযোগ",
+        "নষ্ট",
+        "করে।",
+        "শিক্ষার্থীরা",
+        "সত্যিই",
+        "কি",
+        "শেখার",
+        "জন্য",
+        "ওটা",
+        "ব্যবহার",
+        "করে?"
+      ],
+      "en": [
+        "I",
+        "hold",
+        "a",
+        "completely",
+        "different",
+        "view.",
+        "In",
+        "my",
+        "view,",
+        "phones",
+        "always",
+        "distract.",
+        "Do",
+        "students",
+        "really",
+        "use",
+        "them",
+        "for",
+        "learning?"
+      ],
+      "de": [
+        {
+          "t": "Ich bin",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich bin",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "völlig anderer",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "l": "völlig anderer",
+          "gb": "সম্পূর্ণ আলাদা",
+          "ge": "hold a completely different",
+          "n": ""
+        },
+        {
+          "t": "Ansicht.",
+          "b": [
+            3,
+            4,
+            5
+          ],
+          "e": [
+            5
+          ],
+          "l": "Ansicht",
+          "gb": "মত পোষণ করি",
+          "ge": "view",
+          "n": ""
+        },
+        {
+          "t": "Meiner Meinung nach",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            6,
+            7,
+            8
+          ],
+          "l": "Meiner Meinung nach",
+          "gb": "আমার ধারণায়",
+          "ge": "In my view",
+          "n": ""
+        },
+        {
+          "t": "lenken Handys",
+          "b": [
+            8
+          ],
+          "e": [
+            9
+          ],
+          "l": "lenken Handys",
+          "gb": "ফোন",
+          "ge": "phones",
+          "n": ""
+        },
+        {
+          "t": "immer ab.",
+          "b": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "e": [
+            10,
+            11
+          ],
+          "l": "immer ab",
+          "gb": "সবসময় মনোযোগ নষ্ট করে",
+          "ge": "always distract",
+          "n": ""
+        },
+        {
+          "t": "Nutzen",
+          "b": [
+            19,
+            20
+          ],
+          "e": [
+            15
+          ],
+          "l": "Nutzen",
+          "gb": "ব্যবহার করে",
+          "ge": "use",
+          "n": ""
+        },
+        {
+          "t": "Schüler sie",
+          "b": [
+            13,
+            18
+          ],
+          "e": [
+            16
+          ],
+          "l": "Schüler sie",
+          "gb": "শিক্ষার্থীরা ওটা",
+          "ge": "them",
+          "n": ""
+        },
+        {
+          "t": "wirklich",
+          "b": [
+            14,
+            15
+          ],
+          "e": [
+            12,
+            13,
+            14
+          ],
+          "l": "wirklich",
+          "gb": "সত্যিই কি",
+          "ge": "Do students really",
+          "n": ""
+        },
+        {
+          "t": "zum Lernen?",
+          "b": [
+            16,
+            17
+          ],
+          "e": [
+            17,
+            18
+          ],
+          "l": "zum Lernen",
+          "gb": "শেখার জন্য",
+          "ge": "for learning",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "ঠিক,",
+        "মনোযোগ",
+        "নষ্ট",
+        "হওয়ার",
+        "ঝুঁকি",
+        "আছে।",
+        "তবে",
+        "আমি",
+        "মনে",
+        "করি,",
+        "শিক্ষকের",
+        "স্পষ্ট",
+        "নিয়ম",
+        "থাকলে",
+        "সুবিধাই",
+        "বেশি।",
+        "কারণ,",
+        "ফোন",
+        "নিষিদ্ধ",
+        "করলেও",
+        "কেউ",
+        "লুকিয়ে",
+        "ব্যবহার",
+        "করবে।"
+      ],
+      "en": [
+        "True,",
+        "there",
+        "is",
+        "a",
+        "risk",
+        "of",
+        "distraction.",
+        "But",
+        "I",
+        "think",
+        "that",
+        "with",
+        "clear",
+        "rules",
+        "from",
+        "the",
+        "teacher",
+        "the",
+        "advantages",
+        "predominate.",
+        "After",
+        "all,",
+        "even",
+        "if",
+        "phones",
+        "are",
+        "banned,",
+        "someone",
+        "will",
+        "use",
+        "them",
+        "secretly."
+      ],
+      "de": [
+        {
+          "t": "Stimmt,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Stimmt",
+          "gb": "ঠিক",
+          "ge": "True",
+          "n": ""
+        },
+        {
+          "t": "es gibt",
+          "b": [
+            5
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "es gibt",
+          "gb": "আছে",
+          "ge": "there is",
+          "n": ""
+        },
+        {
+          "t": "das Risiko",
+          "b": [
+            4
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "das Risiko",
+          "gb": "ঝুঁকি",
+          "ge": "a risk",
+          "n": ""
+        },
+        {
+          "t": "der Ablenkung.",
+          "b": [
+            1,
+            2,
+            3
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "der Ablenkung",
+          "gb": "মনোযোগ নষ্ট হওয়ার",
+          "ge": "of distraction",
+          "n": ""
+        },
+        {
+          "t": "Aber",
+          "b": [
+            6
+          ],
+          "e": [
+            7
+          ],
+          "l": "Aber",
+          "gb": "তবে",
+          "ge": "But",
+          "n": ""
+        },
+        {
+          "t": "ich glaube,",
+          "b": [
+            7,
+            8,
+            9
+          ],
+          "e": [
+            8,
+            9
+          ],
+          "l": "ich glaube",
+          "gb": "আমি মনে করি",
+          "ge": "I think",
+          "n": ""
+        },
+        {
+          "t": "mit klaren Regeln",
+          "b": [
+            11,
+            12,
+            13
+          ],
+          "e": [
+            10,
+            11,
+            12,
+            13
+          ],
+          "l": "mit klaren Regeln",
+          "gb": "স্পষ্ট নিয়ম থাকলে",
+          "ge": "that with clear rules",
+          "n": ""
+        },
+        {
+          "t": "überwiegen",
+          "b": [
+            15
+          ],
+          "e": [
+            19
+          ],
+          "l": "überwiegen",
+          "gb": "বেশি",
+          "ge": "predominate",
+          "n": ""
+        },
+        {
+          "t": "die Vorteile.",
+          "b": [
+            14
+          ],
+          "e": [
+            15,
+            18
+          ],
+          "l": "die Vorteile",
+          "gb": "সুবিধাই",
+          "ge": "the advantages",
+          "n": ""
+        },
+        {
+          "t": "Man würde sie nämlich",
+          "b": [
+            16
+          ],
+          "e": [
+            20,
+            21
+          ],
+          "l": "Man würde sie nämlich",
+          "gb": "কারণ",
+          "ge": "After all",
+          "n": ""
+        },
+        {
+          "t": "sonst heimlich benutzen.",
+          "b": [
+            20,
+            21,
+            22,
+            23
+          ],
+          "e": [
+            27,
+            28,
+            29,
+            30,
+            31
+          ],
+          "l": "nämlich",
+          "gb": "কেউ লুকিয়ে ব্যবহার করবে",
+          "ge": "someone will use them secretly",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lehrerin",
+      "bn": [
+        "ধন্যবাদ,",
+        "দুটো",
+        "যুক্তি-ই",
+        "আকর্ষণীয়।",
+        "আমরা",
+        "এখন",
+        "এই",
+        "শর্তগুলো",
+        "নিয়ে",
+        "আরও",
+        "আলোচনা",
+        "করব।"
+      ],
+      "en": [
+        "Thank",
+        "you,",
+        "both",
+        "arguments",
+        "are",
+        "interesting.",
+        "We",
+        "will",
+        "now",
+        "discuss",
+        "these",
+        "conditions",
+        "further."
+      ],
+      "de": [
+        {
+          "t": "Danke,",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Danke",
+          "gb": "ধন্যবাদ",
+          "ge": "Thank you",
+          "n": ""
+        },
+        {
+          "t": "beide Argumente",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "beide Argumente",
+          "gb": "দুটো যুক্তি-ই",
+          "ge": "both arguments",
+          "n": ""
+        },
+        {
+          "t": "sind",
+          "b": [],
+          "e": [
+            4
+          ],
+          "l": "sind",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "are",
+          "n": ""
+        },
+        {
+          "t": "interessant.",
+          "b": [
+            3
+          ],
+          "e": [
+            5
+          ],
+          "l": "interessant",
+          "gb": "আকর্ষণীয়",
+          "ge": "interesting",
+          "n": ""
+        },
+        {
+          "t": "Wir",
+          "b": [
+            4
+          ],
+          "e": [
+            6
+          ],
+          "l": "Wir",
+          "gb": "আমরা",
+          "ge": "We",
+          "n": ""
+        },
+        {
+          "t": "besprechen",
+          "b": [
+            10,
+            11
+          ],
+          "e": [
+            7,
+            9
+          ],
+          "l": "besprechen",
+          "gb": "আলোচনা করব",
+          "ge": "will discuss",
+          "n": ""
+        },
+        {
+          "t": "jetzt",
+          "b": [
+            5
+          ],
+          "e": [
+            8
+          ],
+          "l": "jetzt",
+          "gb": "এখন",
+          "ge": "now",
+          "n": ""
+        },
+        {
+          "t": "die Bedingungen",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            10,
+            11
+          ],
+          "l": "die Bedingungen",
+          "gb": "এই শর্তগুলো",
+          "ge": "these conditions",
+          "n": ""
+        },
+        {
+          "t": "genauer.",
+          "b": [
+            9
+          ],
+          "e": [
+            12
+          ],
+          "l": "genauer",
+          "gb": "আরও",
+          "ge": "further",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "Meinung äußern",
+      "head": [
+        "Formulierung",
+        "Beispiel",
+        "Stärke"
+      ],
+      "rows": [
+        [
+          "Ich finde, (dass) …",
+          "Ich finde, dass das sinnvoll ist.",
+          "ঘরোয়া"
+        ],
+        [
+          "Ich glaube / meine / denke, …",
+          "Ich meine, wir sollten das erlauben.",
+          "নরম"
+        ],
+        [
+          "Meiner Meinung nach …",
+          "Meiner Meinung nach ist das wichtig.",
+          "নিরপেক্ষ"
+        ],
+        [
+          "Ich bin der Meinung/Ansicht, dass …",
+          "Ich bin der Ansicht, dass …",
+          "আনুষ্ঠানিক"
+        ],
+        [
+          "Ich bin davon überzeugt, dass …",
+          "Ich bin davon überzeugt, dass es hilft.",
+          "জোরালো"
+        ],
+        [
+          "Für mich ist …",
+          "Für mich ist Zeit das Wichtigste.",
+          "ব্যক্তিগত"
+        ],
+        [
+          "Ich halte … für + Adjektiv",
+          "Ich halte das für sinnvoll.",
+          "আনুষ্ঠানিক"
+        ]
+      ],
+      "note": "dass-Satz: ক্রিয়া শেষে। „Meiner Meinung nach“-এর পর ক্রিয়া ২য় স্থানে।"
+    },
+    {
+      "type": "table",
+      "title": "Begründen und Beispiele geben",
+      "head": [
+        "Funktion",
+        "Formulierung"
+      ],
+      "rows": [
+        [
+          "Grund (Nebensatz)",
+          "weil, da: Ich finde das gut, weil es Zeit spart."
+        ],
+        [
+          "Grund (Hauptsatz)",
+          "denn: Ich finde das gut, denn es spart Zeit."
+        ],
+        [
+          "Folge",
+          "deshalb, deswegen: Es spart Zeit. Deshalb finde ich es gut."
+        ],
+        [
+          "Erklärung",
+          "nämlich: Man würde sie nämlich sonst heimlich nutzen."
+        ],
+        [
+          "Beispiel",
+          "zum Beispiel, etwa, beispielsweise"
+        ],
+        [
+          "Einschränkung",
+          "allerdings, jedoch: Das ist sinnvoll, allerdings nur mit Regeln."
+        ]
+      ],
+      "note": "nämlich বাক্যের মাঝখানে বসে এবং আগের কথার কারণ জানায় (প্রশ্ন বা শুরুতে নয়)।"
+    },
+    {
+      "type": "table",
+      "title": "halten für, sich halten an",
+      "head": [
+        "Verb + Präposition",
+        "Beispiel"
+      ],
+      "rows": [
+        [
+          "halten für + Akk.",
+          "Ich halte das für eine gute Idee."
+        ],
+        [
+          "halten von + Dat.",
+          "Was hältst du von dem Vorschlag?"
+        ],
+        [
+          "sich halten an + Akk.",
+          "Wir halten uns an die Regeln."
+        ]
+      ],
+      "note": "halten – hält – hielt – hat gehalten (starkes Verb)। „Was hältst du davon?“ = এ নিয়ে তোমার কী মত?"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "die Meinung",
+      "options": [
+        "মনে করা",
+        "কারণ দেখানো",
+        "মত",
+        "উদাহরণ"
+      ],
+      "answer": 2,
+      "why": "die Meinung = মত।",
+      "word": "meinung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "überzeugt",
+      "options": [
+        "ক্লাস",
+        "দৃষ্টিভঙ্গি",
+        "কারণ দেখানো",
+        "দৃঢ় বিশ্বাসী"
+      ],
+      "answer": 3,
+      "why": "überzeugt = দৃঢ় বিশ্বাসী।",
+      "word": "ueberzeugt"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "nämlich",
+      "options": [
+        "কারণ হলো …",
+        "কারণ দেখানো",
+        "অর্থপূর্ণ",
+        "মত"
+      ],
+      "answer": 0,
+      "why": "nämlich = কারণ হলো …।",
+      "word": "naemlich"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Ansicht",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Ansicht। বহুবচন: die Ansichten।",
+      "word": "ansicht"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক বাক্য কোনটি?",
+      "options": [
+        "Ich bin der Meinung, dass Smartphones erlaubt sein sollten.",
+        "Ich bin der Meinung, dass Smartphones sollten erlaubt sein.",
+        "Ich bin der Meinung dass, Smartphones erlaubt sollten sein.",
+        "Ich der Meinung bin, dass erlaubt sein Smartphones sollten."
+      ],
+      "answer": 0,
+      "why": "dass-Satz: ক্রিয়া শেষে।",
+      "word": "halten"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক অব্যয় বেছে নিন",
+      "sub": "Ich halte das ___ sinnvoll.",
+      "options": [
+        "für",
+        "von",
+        "an",
+        "zu"
+      ],
+      "answer": 0,
+      "why": "halten für + Akk.",
+      "word": "sinnvoll"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Was hältst du ___ dem Vorschlag?“",
+      "options": [
+        "von",
+        "für",
+        "an",
+        "zu"
+      ],
+      "answer": 0,
+      "why": "halten von + Dat.",
+      "word": "standpunkt"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Meiner Meinung nach“ এর পর ক্রিয়া কোথায়?",
+      "options": [
+        "২য় স্থানে",
+        "শেষে",
+        "প্রথমে",
+        "দূরে"
+      ],
+      "answer": 0,
+      "why": "Hauptsatz।",
+      "word": "meinung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„nämlich“ কখন ব্যবহার করবেন?",
+      "options": [
+        "কারণ ব্যাখ্যা করতে",
+        "প্রশ্ন করতে",
+        "ধন্যবাদ দিতে",
+        "সময় বলতে"
+      ],
+      "answer": 0,
+      "why": "Erklärung।",
+      "word": "naemlich"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „আমার ধারণায় এটা যুক্তিযুক্ত।“",
+      "tiles": [
+        "sinnvoll.",
+        "ist",
+        "das",
+        "Meiner Meinung nach"
+      ],
+      "answer": [
+        "Meiner Meinung nach",
+        "ist",
+        "das",
+        "sinnvoll."
+      ],
+      "why": "Meiner Meinung nach + Verb।",
+      "word": "meinung"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

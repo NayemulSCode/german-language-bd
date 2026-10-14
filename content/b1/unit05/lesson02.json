@@ -1,0 +1,1485 @@
+{
+  "level": "B1",
+  "unit": 5,
+  "minutes": 18,
+  "lesson": 2,
+  "id": "b1-u05-l02",
+  "title": {
+    "de": "Künstliche Intelligenz im Alltag",
+    "bn": "কৃত্রিম বুদ্ধিমত্তা ও স্মার্টফোন",
+    "en": "Artificial intelligence in everyday life"
+  },
+  "hook": {
+    "de": "Die Zukunft hat schon begonnen.",
+    "who": "Redensart",
+    "bn": "ভবিষ্যৎ ইতিমধ্যেই শুরু হয়ে গেছে।",
+    "en": "The future has already begun."
+  },
+  "goals": [
+    "Konjunktiv II irreal: Wenn ich kein Handy hätte, …",
+    "Futur I für Prognosen",
+    "Vor- und Nachteile technischer Entwicklung nennen",
+    "Wortschatz: künstliche Intelligenz, Algorithmus, Sprachassistent"
+  ],
+  "words": [
+    {
+      "id": "kuenstliche_intelligenz",
+      "de": "künstliche Intelligenz",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "কৃত্রিম বুদ্ধিমত্তা",
+      "en": "artificial intelligence"
+    },
+    {
+      "id": "algorithmus",
+      "de": "Algorithmus",
+      "art": "der",
+      "pl": "die Algorithmen",
+      "pos": "বিশেষ্য",
+      "bn": "অ্যালগরিদম",
+      "en": "algorithm"
+    },
+    {
+      "id": "sprachassistent",
+      "de": "Sprachassistent",
+      "art": "der",
+      "pl": "die Sprachassistenten",
+      "pos": "বিশেষ্য",
+      "bn": "ভয়েস সহকারী",
+      "en": "voice assistant"
+    },
+    {
+      "id": "entwickeln",
+      "de": "entwickeln",
+      "pos": "ক্রিয়া · hat entwickelt",
+      "bn": "উন্নত করা, গড়ে তোলা",
+      "en": "to develop"
+    },
+    {
+      "id": "nutzer",
+      "de": "Nutzer",
+      "art": "der",
+      "pl": "die Nutzer",
+      "pos": "বিশেষ্য",
+      "bn": "ব্যবহারকারী",
+      "en": "user"
+    },
+    {
+      "id": "automatisch",
+      "de": "automatisch",
+      "pos": "বিশেষণ",
+      "bn": "স্বয়ংক্রিয়",
+      "en": "automatic"
+    },
+    {
+      "id": "uebersetzen",
+      "de": "übersetzen",
+      "pos": "ক্রিয়া · hat übersetzt",
+      "bn": "অনুবাদ করা",
+      "en": "to translate"
+    },
+    {
+      "id": "fortschritt",
+      "de": "Fortschritt",
+      "art": "der",
+      "pl": "die Fortschritte",
+      "pos": "বিশেষ্য",
+      "bn": "অগ্রগতি",
+      "en": "progress"
+    },
+    {
+      "id": "abhaengig",
+      "de": "abhängig",
+      "pos": "বিশেষণ",
+      "bn": "নির্ভরশীল",
+      "en": "dependent"
+    },
+    {
+      "id": "arbeitsplatz",
+      "de": "Arbeitsplatz",
+      "art": "der",
+      "pl": "die Arbeitsplätze",
+      "pos": "বিশেষ্য",
+      "bn": "চাকরি, কর্মস্থল",
+      "en": "job, workplace"
+    },
+    {
+      "id": "ersetzen",
+      "de": "ersetzen",
+      "pos": "ক্রিয়া · hat ersetzt",
+      "bn": "প্রতিস্থাপন করা",
+      "en": "to replace"
+    },
+    {
+      "id": "kritisch",
+      "de": "kritisch",
+      "pos": "বিশেষণ",
+      "bn": "সমালোচনামূলক, সতর্ক",
+      "en": "critical"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Lena",
+      "bn": [
+        "তুমি",
+        "কি",
+        "তোমার",
+        "ফোনে",
+        "শব্দ",
+        "অনুবাদ",
+        "করতে",
+        "কৃত্রিম",
+        "বুদ্ধিমত্তা",
+        "ব্যবহার",
+        "করো?"
+      ],
+      "en": [
+        "Do",
+        "you",
+        "use",
+        "artificial",
+        "intelligence",
+        "on",
+        "your",
+        "phone",
+        "to",
+        "translate",
+        "words?"
+      ],
+      "de": [
+        {
+          "t": "Benutzt du",
+          "b": [
+            0,
+            1,
+            9,
+            10
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "Benutzt du",
+          "gb": "তুমি কি ব্যবহার করো",
+          "ge": "Do you use",
+          "n": ""
+        },
+        {
+          "t": "auf deinem Handy",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            5,
+            6,
+            7
+          ],
+          "l": "auf deinem Handy",
+          "gb": "তোমার ফোনে",
+          "ge": "on your phone",
+          "n": ""
+        },
+        {
+          "t": "künstliche Intelligenz,",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "künstliche Intelligenz",
+          "gb": "কৃত্রিম বুদ্ধিমত্তা",
+          "ge": "artificial intelligence",
+          "n": ""
+        },
+        {
+          "t": "um",
+          "b": [],
+          "e": [
+            8
+          ],
+          "l": "um",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "to",
+          "n": ""
+        },
+        {
+          "t": "Wörter",
+          "b": [
+            4
+          ],
+          "e": [
+            10
+          ],
+          "l": "Wörter",
+          "gb": "শব্দ",
+          "ge": "words",
+          "n": ""
+        },
+        {
+          "t": "zu übersetzen?",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            9
+          ],
+          "l": "übersetzen",
+          "gb": "অনুবাদ করতে",
+          "ge": "translate",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "হ্যাঁ,",
+        "প্রায়",
+        "প্রতিদিন।",
+        "ওটা",
+        "স্বয়ংক্রিয়ভাবে",
+        "অনুবাদ",
+        "করে",
+        "আর",
+        "উচ্চারণও",
+        "শোনায়।",
+        "কিন্তু",
+        "ভুলও",
+        "করে।"
+      ],
+      "en": [
+        "Yes,",
+        "almost",
+        "every",
+        "day.",
+        "It",
+        "translates",
+        "automatically",
+        "and",
+        "also",
+        "plays",
+        "the",
+        "pronunciation.",
+        "But",
+        "it",
+        "also",
+        "makes",
+        "mistakes."
+      ],
+      "de": [
+        {
+          "t": "Ja,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ja",
+          "gb": "হ্যাঁ",
+          "ge": "Yes",
+          "n": ""
+        },
+        {
+          "t": "fast jeden Tag.",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            1,
+            2,
+            3
+          ],
+          "l": "fast jeden Tag",
+          "gb": "প্রায় প্রতিদিন",
+          "ge": "almost every day",
+          "n": ""
+        },
+        {
+          "t": "Es",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "Es",
+          "gb": "ওটা",
+          "ge": "It",
+          "n": ""
+        },
+        {
+          "t": "übersetzt",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            5
+          ],
+          "l": "übersetzt",
+          "gb": "অনুবাদ করে",
+          "ge": "translates",
+          "n": ""
+        },
+        {
+          "t": "automatisch",
+          "b": [
+            4
+          ],
+          "e": [
+            6
+          ],
+          "l": "automatisch",
+          "gb": "স্বয়ংক্রিয়ভাবে",
+          "ge": "automatically",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            7
+          ],
+          "e": [
+            7
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "spielt",
+          "b": [
+            9
+          ],
+          "e": [
+            9
+          ],
+          "l": "spielt",
+          "gb": "শোনায়",
+          "ge": "plays",
+          "n": ""
+        },
+        {
+          "t": "die Aussprache",
+          "b": [
+            8
+          ],
+          "e": [
+            10,
+            11
+          ],
+          "l": "die Aussprache",
+          "gb": "উচ্চারণও",
+          "ge": "the pronunciation",
+          "n": ""
+        },
+        {
+          "t": "ab.",
+          "b": [],
+          "e": [],
+          "l": "ab",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Aber",
+          "b": [
+            10
+          ],
+          "e": [
+            12
+          ],
+          "l": "Aber",
+          "gb": "কিন্তু",
+          "ge": "But",
+          "n": ""
+        },
+        {
+          "t": "es macht",
+          "b": [
+            12
+          ],
+          "e": [
+            13,
+            15
+          ],
+          "l": "es macht",
+          "gb": "করে",
+          "ge": "it makes",
+          "n": ""
+        },
+        {
+          "t": "auch Fehler.",
+          "b": [
+            11
+          ],
+          "e": [
+            8,
+            16
+          ],
+          "l": "auch Fehler",
+          "gb": "ভুলও",
+          "ge": "also mistakes",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "সেজন্য",
+        "আমি",
+        "এটা",
+        "সতর্কভাবে",
+        "ব্যবহার",
+        "করি।",
+        "ওটা",
+        "শুধু",
+        "সাহায্য,",
+        "শিক্ষক",
+        "নয়।"
+      ],
+      "en": [
+        "That",
+        "is",
+        "why",
+        "I",
+        "use",
+        "it",
+        "critically.",
+        "It",
+        "is",
+        "only",
+        "a",
+        "help,",
+        "not",
+        "a",
+        "teacher."
+      ],
+      "de": [
+        {
+          "t": "Deshalb",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "Deshalb",
+          "gb": "সেজন্য",
+          "ge": "That is why",
+          "n": ""
+        },
+        {
+          "t": "nutze ich",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "nutze ich",
+          "gb": "ব্যবহার করি",
+          "ge": "I use",
+          "n": ""
+        },
+        {
+          "t": "es",
+          "b": [
+            2
+          ],
+          "e": [
+            5
+          ],
+          "l": "es",
+          "gb": "এটা",
+          "ge": "it",
+          "n": ""
+        },
+        {
+          "t": "kritisch.",
+          "b": [
+            3
+          ],
+          "e": [
+            6
+          ],
+          "l": "kritisch",
+          "gb": "সতর্কভাবে",
+          "ge": "critically",
+          "n": ""
+        },
+        {
+          "t": "Es ist",
+          "b": [
+            6
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "Es ist",
+          "gb": "ওটা",
+          "ge": "It is",
+          "n": ""
+        },
+        {
+          "t": "nur eine Hilfe,",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            9,
+            10,
+            11
+          ],
+          "l": "nur eine Hilfe",
+          "gb": "শুধু সাহায্য",
+          "ge": "only a help",
+          "n": ""
+        },
+        {
+          "t": "kein Lehrer.",
+          "b": [
+            9,
+            10
+          ],
+          "e": [
+            12,
+            13,
+            14
+          ],
+          "l": "kein Lehrer",
+          "gb": "শিক্ষক নয়",
+          "ge": "not a teacher",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "ঠিক।",
+        "কিন্তু",
+        "আমার",
+        "কাছে",
+        "স্মার্টফোন",
+        "না",
+        "থাকলে",
+        "জার্মানিতে",
+        "জীবন",
+        "অনেক",
+        "কঠিন",
+        "হতো।",
+        "আমি",
+        "পথ",
+        "খুঁজতে",
+        "পারতাম",
+        "না,",
+        "আর",
+        "অনেক",
+        "অ্যাপয়েন্টমেন্ট",
+        "অনলাইনে",
+        "নিতে",
+        "হয়।"
+      ],
+      "en": [
+        "True.",
+        "But",
+        "if",
+        "I",
+        "had",
+        "no",
+        "smartphone,",
+        "life",
+        "in",
+        "Germany",
+        "would",
+        "be",
+        "much",
+        "harder.",
+        "I",
+        "could",
+        "not",
+        "find",
+        "my",
+        "way,",
+        "and",
+        "many",
+        "appointments",
+        "have",
+        "to",
+        "be",
+        "made",
+        "online."
+      ],
+      "de": [
+        {
+          "t": "Stimmt.",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Stimmt",
+          "gb": "ঠিক",
+          "ge": "True",
+          "n": ""
+        },
+        {
+          "t": "Aber",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "Aber",
+          "gb": "কিন্তু",
+          "ge": "But",
+          "n": ""
+        },
+        {
+          "t": "wenn ich",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "wenn ich",
+          "gb": "আমার কাছে",
+          "ge": "if I",
+          "n": ""
+        },
+        {
+          "t": "kein Smartphone",
+          "b": [
+            4
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "kein Smartphone",
+          "gb": "স্মার্টফোন",
+          "ge": "no smartphone",
+          "n": ""
+        },
+        {
+          "t": "hätte,",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            4
+          ],
+          "l": "hätte",
+          "gb": "না থাকলে",
+          "ge": "had",
+          "n": "Konjunktiv II irreal: Wenn ich … hätte, wäre/würde …"
+        },
+        {
+          "t": "wäre",
+          "b": [
+            11
+          ],
+          "e": [
+            10,
+            11
+          ],
+          "l": "wäre",
+          "gb": "হতো",
+          "ge": "would be",
+          "n": ""
+        },
+        {
+          "t": "das Leben",
+          "b": [
+            8
+          ],
+          "e": [
+            7,
+            8,
+            9
+          ],
+          "l": "das Leben",
+          "gb": "জীবন",
+          "ge": "life in Germany",
+          "n": ""
+        },
+        {
+          "t": "in Deutschland",
+          "b": [
+            7
+          ],
+          "e": [],
+          "l": "in Deutschland",
+          "gb": "জার্মানিতে",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "viel schwerer.",
+          "b": [
+            9,
+            10
+          ],
+          "e": [
+            12,
+            13
+          ],
+          "l": "viel schwerer",
+          "gb": "অনেক কঠিন",
+          "ge": "much harder",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            12
+          ],
+          "e": [
+            14
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "könnte",
+          "b": [
+            15,
+            16
+          ],
+          "e": [
+            15,
+            16
+          ],
+          "l": "könnte",
+          "gb": "পারতাম না",
+          "ge": "could not",
+          "n": ""
+        },
+        {
+          "t": "den Weg",
+          "b": [
+            13
+          ],
+          "e": [
+            17,
+            18,
+            19
+          ],
+          "l": "den Weg",
+          "gb": "পথ",
+          "ge": "find my way",
+          "n": ""
+        },
+        {
+          "t": "nicht finden,",
+          "b": [
+            14
+          ],
+          "e": [],
+          "l": "nicht finden",
+          "gb": "খুঁজতে",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            17
+          ],
+          "e": [
+            20
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "viele Termine",
+          "b": [
+            18,
+            19
+          ],
+          "e": [
+            21,
+            22
+          ],
+          "l": "viele Termine",
+          "gb": "অনেক অ্যাপয়েন্টমেন্ট",
+          "ge": "many appointments",
+          "n": ""
+        },
+        {
+          "t": "müssen online",
+          "b": [
+            20
+          ],
+          "e": [
+            23,
+            24,
+            25,
+            26,
+            27
+          ],
+          "l": "müssen online",
+          "gb": "অনলাইনে",
+          "ge": "have to be made online",
+          "n": ""
+        },
+        {
+          "t": "gebucht werden.",
+          "b": [
+            21,
+            22
+          ],
+          "e": [],
+          "l": "gebucht werden",
+          "gb": "নিতে হয়",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "আমার",
+        "মনে",
+        "হয়",
+        "ভবিষ্যতে",
+        "কৃত্রিম",
+        "বুদ্ধিমত্তা",
+        "আরও",
+        "কাজ",
+        "করবে।",
+        "অনেক",
+        "কাজ",
+        "হয়তো",
+        "সহজ",
+        "হবে,",
+        "কিন্তু",
+        "কিছু",
+        "চাকরি",
+        "বদলে",
+        "যাবে।"
+      ],
+      "en": [
+        "I",
+        "think",
+        "that",
+        "in",
+        "the",
+        "future",
+        "artificial",
+        "intelligence",
+        "will",
+        "do",
+        "more",
+        "work.",
+        "Many",
+        "tasks",
+        "will",
+        "perhaps",
+        "become",
+        "easier,",
+        "but",
+        "some",
+        "jobs",
+        "will",
+        "change."
+      ],
+      "de": [
+        {
+          "t": "Ich glaube,",
+          "b": [
+            0,
+            1,
+            2
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Ich glaube",
+          "gb": "আমার মনে হয়",
+          "ge": "I think",
+          "n": ""
+        },
+        {
+          "t": "dass",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "dass",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "that",
+          "n": ""
+        },
+        {
+          "t": "künstliche Intelligenz",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "künstliche Intelligenz",
+          "gb": "কৃত্রিম বুদ্ধিমত্তা",
+          "ge": "artificial intelligence",
+          "n": ""
+        },
+        {
+          "t": "in Zukunft",
+          "b": [
+            3
+          ],
+          "e": [
+            3,
+            4,
+            5
+          ],
+          "l": "in Zukunft",
+          "gb": "ভবিষ্যতে",
+          "ge": "in the future",
+          "n": ""
+        },
+        {
+          "t": "mehr Arbeit",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            10,
+            11
+          ],
+          "l": "mehr Arbeit",
+          "gb": "আরও কাজ",
+          "ge": "more work",
+          "n": ""
+        },
+        {
+          "t": "übernehmen wird.",
+          "b": [
+            8
+          ],
+          "e": [
+            8,
+            9
+          ],
+          "l": "übernehmen wird",
+          "gb": "করবে",
+          "ge": "will do",
+          "n": ""
+        },
+        {
+          "t": "Viele Aufgaben",
+          "b": [
+            9,
+            10
+          ],
+          "e": [
+            12,
+            13
+          ],
+          "l": "Viele Aufgaben",
+          "gb": "অনেক কাজ",
+          "ge": "Many tasks",
+          "n": ""
+        },
+        {
+          "t": "werden",
+          "b": [
+            13
+          ],
+          "e": [
+            14
+          ],
+          "l": "werden",
+          "gb": "হবে",
+          "ge": "will",
+          "n": ""
+        },
+        {
+          "t": "vielleicht",
+          "b": [
+            11
+          ],
+          "e": [
+            15
+          ],
+          "l": "vielleicht",
+          "gb": "হয়তো",
+          "ge": "perhaps",
+          "n": ""
+        },
+        {
+          "t": "einfacher,",
+          "b": [
+            12
+          ],
+          "e": [
+            16,
+            17
+          ],
+          "l": "einfacher",
+          "gb": "সহজ",
+          "ge": "become easier",
+          "n": ""
+        },
+        {
+          "t": "aber",
+          "b": [
+            14
+          ],
+          "e": [
+            18
+          ],
+          "l": "aber",
+          "gb": "কিন্তু",
+          "ge": "but",
+          "n": ""
+        },
+        {
+          "t": "manche Arbeitsplätze",
+          "b": [
+            15,
+            16
+          ],
+          "e": [
+            19,
+            20
+          ],
+          "l": "Arbeitsplatz",
+          "gb": "কিছু চাকরি",
+          "ge": "some jobs",
+          "n": ""
+        },
+        {
+          "t": "werden",
+          "b": [
+            18
+          ],
+          "e": [
+            21
+          ],
+          "l": "werden",
+          "gb": "যাবে",
+          "ge": "will",
+          "n": ""
+        },
+        {
+          "t": "sich verändern.",
+          "b": [
+            17
+          ],
+          "e": [
+            22
+          ],
+          "l": "sich verändern",
+          "gb": "বদলে",
+          "ge": "change",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "তবে",
+        "আমাদের",
+        "যন্ত্রের",
+        "ওপর",
+        "পুরোপুরি",
+        "নির্ভরশীল",
+        "হওয়া",
+        "ঠিক",
+        "নয়।"
+      ],
+      "en": [
+        "However,",
+        "we",
+        "should",
+        "not",
+        "become",
+        "completely",
+        "dependent",
+        "on",
+        "machines."
+      ],
+      "de": [
+        {
+          "t": "Wir",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "Wir",
+          "gb": "আমাদের",
+          "ge": "we",
+          "n": ""
+        },
+        {
+          "t": "sollten",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            2
+          ],
+          "l": "sollten",
+          "gb": "ঠিক নয়",
+          "ge": "should",
+          "n": ""
+        },
+        {
+          "t": "aber",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "aber",
+          "gb": "তবে",
+          "ge": "However",
+          "n": ""
+        },
+        {
+          "t": "nicht",
+          "b": [
+            8
+          ],
+          "e": [
+            3
+          ],
+          "l": "nicht",
+          "gb": "নয়",
+          "ge": "not",
+          "n": ""
+        },
+        {
+          "t": "völlig",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "völlig",
+          "gb": "পুরোপুরি",
+          "ge": "completely",
+          "n": ""
+        },
+        {
+          "t": "von Maschinen",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "von Maschinen",
+          "gb": "যন্ত্রের ওপর",
+          "ge": "on machines",
+          "n": ""
+        },
+        {
+          "t": "abhängig",
+          "b": [
+            5
+          ],
+          "e": [
+            4,
+            6
+          ],
+          "l": "abhängig",
+          "gb": "নির্ভরশীল",
+          "ge": "become dependent",
+          "n": ""
+        },
+        {
+          "t": "werden.",
+          "b": [
+            6
+          ],
+          "e": [],
+          "l": "werden",
+          "gb": "হওয়া",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "Konjunktiv II irreal (Gegenwart)",
+      "head": [
+        "Bedingung (wenn)",
+        "Folge"
+      ],
+      "rows": [
+        [
+          "Wenn ich kein Smartphone hätte,",
+          "wäre das Leben viel schwerer."
+        ],
+        [
+          "Wenn ich mehr Zeit hätte,",
+          "würde ich mehr lernen."
+        ],
+        [
+          "Wenn es keine KI gäbe,",
+          "müssten wir mehr selbst übersetzen."
+        ],
+        [
+          "Wenn ich das wüsste,",
+          "würde ich es dir sagen."
+        ]
+      ],
+      "note": "বাস্তবে যা সত্য নয়, তার কাল্পনিক শর্ত। hätte, wäre, könnte, würde + Infinitiv। „es gäbe“ = es gibt-এর Konjunktiv II; „wüsste“ = wissen-এর।"
+    },
+    {
+      "type": "table",
+      "title": "Futur I für Prognosen",
+      "head": [
+        "Satz",
+        "Bedeutung"
+      ],
+      "rows": [
+        [
+          "KI wird mehr Arbeit übernehmen.",
+          "কৃত্রিম বুদ্ধিমত্তা আরও কাজ করবে (ভবিষ্যদ্বাণী)"
+        ],
+        [
+          "Viele Aufgaben werden einfacher werden.",
+          "অনেক কাজ সহজ হবে"
+        ],
+        [
+          "Manche Berufe werden sich verändern.",
+          "কিছু পেশা বদলাবে"
+        ],
+        [
+          "Das wird nicht passieren.",
+          "এটা ঘটবে না"
+        ]
+      ],
+      "note": "werden + Infinitiv। অনুমান বোঝাতে vielleicht, wahrscheinlich, bestimmt-এর সাথে।"
+    },
+    {
+      "type": "table",
+      "title": "Vor- und Nachteile technischer Entwicklung",
+      "head": [
+        "Vorteil",
+        "Nachteil"
+      ],
+      "rows": [
+        [
+          "schnelle Information",
+          "Abhängigkeit von Geräten"
+        ],
+        [
+          "automatische Übersetzung",
+          "Fehler und falsche Sicherheit"
+        ],
+        [
+          "mehr Effizienz",
+          "Arbeitsplätze verändern sich"
+        ],
+        [
+          "Kontakt über große Entfernung",
+          "weniger persönliche Begegnung"
+        ],
+        [
+          "neue Lernmöglichkeiten",
+          "Datenschutzrisiken"
+        ]
+      ],
+      "note": "Ein Vorteil/Nachteil ist, dass … · Einerseits …, andererseits … · Man sollte kritisch bleiben।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "der Algorithmus",
+      "options": [
+        "প্রতিস্থাপন করা",
+        "কৃত্রিম বুদ্ধিমত্তা",
+        "অ্যালগরিদম",
+        "উন্নত করা"
+      ],
+      "answer": 2,
+      "why": "der Algorithmus = অ্যালগরিদম।",
+      "word": "algorithmus"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "ersetzen",
+      "options": [
+        "কৃত্রিম বুদ্ধিমত্তা",
+        "প্রতিস্থাপন করা",
+        "উন্নত করা",
+        "অনুবাদ করা"
+      ],
+      "answer": 1,
+      "why": "ersetzen = প্রতিস্থাপন করা।",
+      "word": "ersetzen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "abhängig",
+      "options": [
+        "কৃত্রিম বুদ্ধিমত্তা",
+        "উন্নত করা",
+        "নির্ভরশীল",
+        "অনুবাদ করা"
+      ],
+      "answer": 2,
+      "why": "abhängig = নির্ভরশীল।",
+      "word": "abhaengig"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Sprachassistent",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 0,
+      "why": "der Sprachassistent। বহুবচন: die Sprachassistenten।",
+      "word": "sprachassistent"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Wenn ich mehr Zeit ___, würde ich mehr lernen.",
+      "options": [
+        "hätte",
+        "habe",
+        "hatte",
+        "haben"
+      ],
+      "answer": 0,
+      "why": "irreal: Wenn ich … hätte।",
+      "word": "entwickeln"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ohne Smartphone ___ das Leben schwerer.",
+      "options": [
+        "wäre",
+        "bin",
+        "war",
+        "sei"
+      ],
+      "answer": 0,
+      "why": "Wenn …, wäre das Leben schwerer।",
+      "word": "fortschritt"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Futur I কোনটি?",
+      "options": [
+        "KI wird mehr Arbeit übernehmen.",
+        "KI übernimmt Arbeit.",
+        "KI hat Arbeit übernommen.",
+        "KI übernahm Arbeit."
+      ],
+      "answer": 0,
+      "why": "werden + Infinitiv।",
+      "word": "ersetzen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„kritisch nutzen“ মানে কী?",
+      "options": [
+        "সতর্কভাবে ব্যবহার করা",
+        "বেশি ব্যবহার করা",
+        "ব্যবহার না করা",
+        "দ্রুত ব্যবহার করা"
+      ],
+      "answer": 0,
+      "why": "kritisch = critical।",
+      "word": "kritisch"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„automatisch“ মানে কী?",
+      "options": [
+        "স্বয়ংক্রিয়",
+        "হাতে করা",
+        "ধীর",
+        "ব্যয়বহুল"
+      ],
+      "answer": 0,
+      "why": "automatisch।",
+      "word": "automatisch"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „আমার স্মার্টফোন না থাকলে জীবন কঠিন হতো।“",
+      "tiles": [
+        "wäre",
+        "das Leben",
+        "hätte,",
+        "wenn ich",
+        "schwerer.",
+        "kein Smartphone"
+      ],
+      "answer": [
+        "wenn ich",
+        "kein Smartphone",
+        "hätte,",
+        "wäre",
+        "das Leben",
+        "schwerer."
+      ],
+      "why": "wenn-Satz আগে → ক্রিয়া প্রথমে।",
+      "word": "arbeitsplatz"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

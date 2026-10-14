@@ -7,7 +7,7 @@ Screens: **Home** (daily goal, continue, review count, exam countdown, word of t
 a lesson sheet), **Review** (spaced-repetition flashcards), **Dictionary** (search German, Bangla or English),
 **Profile** (stats, themes incl. a warm night mode, goals, account). On phones the tabs sit at the bottom, on wide screens in a sidebar.
 
-Placement: a 20-question test (2 per A1 unit, no feedback) recommends a starting unit. Earlier units stay open to practise
+Placement: a 20-question test (2 per A1 unit, no feedback) recommends a starting unit; a separate 24-question A2 test (`#placement/a2`) does the same for A2 and opens all of A1, and a B1 test (`#placement/b1`) opens A1 and A2. Earlier units stay open to practise
 without being marked passed or giving XP; Profile has an "unlock all lessons" switch for free browsing.
 
 Review works like this: missed quiz words are due immediately; passing a lesson adds all its words, first review the next day.
@@ -79,7 +79,7 @@ Clips already in the manifest are kept, so reruns only do new text. Until clips 
 
 - **Phase 0 (done):** React/Vite app, lesson JSON schema + validator, Lesson 1 converted, PWA.
 - **Phase 1 (content done, audio pending):** audio pipeline built; all of A1 (Units 1–10, 40 lessons) written as drafts. Still to do: run the "Build audio" workflow, native-speaker review.
-- **Phase 2 (login and sync built, needs your Supabase project):** Supabase auth (Google/email) and progress sync. Done: spaced-repetition review, placement test. Still to do: A1 mock exam.
+- **Phase 2 (login and sync built, needs your Supabase project):** Supabase auth (Google/email) and progress sync. Done: spaced-repetition review, placement test, A1, A2 and B1 mock exams (`exams/`, validated by `npm run validate`; add `a1-mock-02.json`, `b1-mock-02.json` etc. for more).
 - **Phase 3–4:** A2 and B1 content, listening/reading/writing/speaking exercise types, leaderboard.
 - **Later:** move the database to a self-hosted server once there is an audience (Postgres dump/restore; only the storage adapter changes).
 

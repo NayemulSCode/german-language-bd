@@ -1,0 +1,1541 @@
+{
+  "level": "B1",
+  "unit": 2,
+  "minutes": 18,
+  "lesson": 4,
+  "id": "b1-u02-l04",
+  "title": {
+    "de": "Widerspruch einlegen",
+    "bn": "সিদ্ধান্তের বিরুদ্ধে আপত্তি জানানো",
+    "en": "Objecting to an official decision"
+  },
+  "hook": {
+    "de": "Wer schweigt, stimmt zu.",
+    "who": "Sprichwort",
+    "bn": "যে চুপ থাকে, সে সম্মতি দেয়।",
+    "en": "Silence implies consent."
+  },
+  "goals": [
+    "Bescheid verstehen: Ablehnung, Begründung, Frist",
+    "Widerspruch fristgerecht einlegen",
+    "höfliche, klare Beschwerde: zwar … aber, trotzdem",
+    "Passiv Präteritum: wurde abgelehnt"
+  ],
+  "words": [
+    {
+      "id": "bescheid",
+      "de": "Bescheid",
+      "art": "der",
+      "pl": "die Bescheide",
+      "pos": "বিশেষ্য",
+      "bn": "অফিশিয়াল সিদ্ধান্তপত্র",
+      "en": "official notice/decision"
+    },
+    {
+      "id": "ablehnung",
+      "de": "Ablehnung",
+      "art": "die",
+      "pl": "die Ablehnungen",
+      "pos": "বিশেষ্য",
+      "bn": "প্রত্যাখ্যান",
+      "en": "rejection"
+    },
+    {
+      "id": "begruendung",
+      "de": "Begründung",
+      "art": "die",
+      "pl": "die Begründungen",
+      "pos": "বিশেষ্য",
+      "bn": "যুক্তি, কারণ ব্যাখ্যা",
+      "en": "reasoning"
+    },
+    {
+      "id": "einlegen",
+      "de": "einlegen",
+      "pos": "ক্রিয়া · hat eingelegt",
+      "bn": "জমা দেওয়া (আপত্তি)",
+      "en": "to lodge (an objection)"
+    },
+    {
+      "id": "fristgerecht",
+      "de": "fristgerecht",
+      "pos": "বিশেষণ",
+      "bn": "সময়মতো",
+      "en": "within the deadline"
+    },
+    {
+      "id": "entscheidung",
+      "de": "Entscheidung",
+      "art": "die",
+      "pl": "die Entscheidungen",
+      "pos": "বিশেষ্য",
+      "bn": "সিদ্ধান্ত",
+      "en": "decision"
+    },
+    {
+      "id": "fehlerhaft",
+      "de": "fehlerhaft",
+      "pos": "বিশেষণ",
+      "bn": "ভুলে ভরা",
+      "en": "incorrect"
+    },
+    {
+      "id": "pruefen",
+      "de": "prüfen",
+      "pos": "ক্রিয়া · hat geprüft",
+      "bn": "যাচাই করা",
+      "en": "to check"
+    },
+    {
+      "id": "trotzdem",
+      "de": "trotzdem",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "তবুও",
+      "en": "nevertheless"
+    },
+    {
+      "id": "zwar",
+      "de": "zwar",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "অবশ্য (…, কিন্তু …)",
+      "en": "admittedly"
+    },
+    {
+      "id": "beratungsstelle",
+      "de": "Beratungsstelle",
+      "art": "die",
+      "pl": "die Beratungsstellen",
+      "pos": "বিশেষ্য",
+      "bn": "পরামর্শ কেন্দ্র",
+      "en": "advice centre"
+    },
+    {
+      "id": "rechtsbehelfsbelehrung",
+      "de": "Rechtsbehelfsbelehrung",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "আপত্তির নিয়ম-ঘোষণা (কীভাবে আপত্তি করা যায়)",
+      "en": "notice of right of appeal"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "একটি",
+        "চিঠি",
+        "পেয়েছি।",
+        "আমার",
+        "আবেদন",
+        "প্রত্যাখ্যাত",
+        "হয়েছে।",
+        "আমি",
+        "বুঝতে",
+        "পারছি",
+        "না",
+        "কেন।"
+      ],
+      "en": [
+        "I",
+        "received",
+        "a",
+        "letter.",
+        "My",
+        "application",
+        "was",
+        "rejected.",
+        "I",
+        "do",
+        "not",
+        "understand",
+        "why."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [
+            3
+          ],
+          "e": [
+            1
+          ],
+          "l": "habe",
+          "gb": "পেয়েছি",
+          "ge": "received",
+          "n": ""
+        },
+        {
+          "t": "einen Brief",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "einen Brief",
+          "gb": "একটি চিঠি",
+          "ge": "a letter",
+          "n": ""
+        },
+        {
+          "t": "bekommen.",
+          "b": [],
+          "e": [],
+          "l": "bekommen",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Mein Antrag",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "Mein Antrag",
+          "gb": "আমার আবেদন",
+          "ge": "My application",
+          "n": ""
+        },
+        {
+          "t": "wurde",
+          "b": [
+            7
+          ],
+          "e": [
+            6
+          ],
+          "l": "werden",
+          "gb": "হয়েছে",
+          "ge": "was",
+          "n": "Passiv Präteritum: wurde abgelehnt"
+        },
+        {
+          "t": "abgelehnt.",
+          "b": [
+            6
+          ],
+          "e": [
+            7
+          ],
+          "l": "ablehnen",
+          "gb": "প্রত্যাখ্যাত",
+          "ge": "rejected",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            8
+          ],
+          "e": [
+            8
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "verstehe",
+          "b": [
+            9,
+            10,
+            11
+          ],
+          "e": [
+            9,
+            10,
+            11
+          ],
+          "l": "verstehe",
+          "gb": "বুঝতে পারছি না",
+          "ge": "do not understand",
+          "n": ""
+        },
+        {
+          "t": "nicht,",
+          "b": [],
+          "e": [],
+          "l": "nicht",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "warum.",
+          "b": [
+            12
+          ],
+          "e": [
+            12
+          ],
+          "l": "warum",
+          "gb": "কেন",
+          "ge": "why",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Herr Weber",
+      "bn": [
+        "আমাকে",
+        "দেখতে",
+        "দিন।",
+        "প্রত্যাখ্যানের",
+        "কারণ",
+        "কী",
+        "বলা",
+        "হয়েছে?"
+      ],
+      "en": [
+        "Let",
+        "me",
+        "have",
+        "a",
+        "look.",
+        "What",
+        "reason",
+        "is",
+        "given",
+        "for",
+        "the",
+        "rejection?"
+      ],
+      "de": [
+        {
+          "t": "Lassen Sie",
+          "b": [
+            2
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Lassen Sie",
+          "gb": "দিন",
+          "ge": "Let me",
+          "n": ""
+        },
+        {
+          "t": "mich",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "mich",
+          "gb": "আমাকে",
+          "ge": "me",
+          "n": ""
+        },
+        {
+          "t": "mal sehen.",
+          "b": [
+            1
+          ],
+          "e": [
+            2,
+            3,
+            4
+          ],
+          "l": "mal sehen",
+          "gb": "দেখতে",
+          "ge": "have a look",
+          "n": ""
+        },
+        {
+          "t": "Welche Begründung",
+          "b": [
+            5,
+            4
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "Welche Begründung",
+          "gb": "কী কারণ",
+          "ge": "What reason",
+          "n": ""
+        },
+        {
+          "t": "steht",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "steht",
+          "gb": "বলা হয়েছে",
+          "ge": "is given",
+          "n": ""
+        },
+        {
+          "t": "zur Ablehnung",
+          "b": [
+            3
+          ],
+          "e": [
+            9,
+            10,
+            11
+          ],
+          "l": "Ablehnung",
+          "gb": "প্রত্যাখ্যানের",
+          "ge": "for the rejection",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "এখানে",
+        "লেখা",
+        "আছে,",
+        "আমার",
+        "স্বাস্থ্যবিমার",
+        "প্রমাণ",
+        "নেই।",
+        "কিন্তু",
+        "আমি",
+        "ওটা",
+        "জমা",
+        "দিয়েছিলাম!"
+      ],
+      "en": [
+        "It",
+        "says",
+        "here",
+        "that",
+        "proof",
+        "of",
+        "my",
+        "health",
+        "insurance",
+        "is",
+        "missing.",
+        "But",
+        "I",
+        "had",
+        "submitted",
+        "it!"
+      ],
+      "de": [
+        {
+          "t": "Hier steht,",
+          "b": [
+            0,
+            1,
+            2
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "Hier steht",
+          "gb": "এখানে লেখা আছে",
+          "ge": "It says here",
+          "n": ""
+        },
+        {
+          "t": "dass",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "dass",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "that",
+          "n": ""
+        },
+        {
+          "t": "der Nachweis",
+          "b": [
+            5
+          ],
+          "e": [
+            4
+          ],
+          "l": "der Nachweis",
+          "gb": "প্রমাণ",
+          "ge": "proof",
+          "n": ""
+        },
+        {
+          "t": "über meine Krankenversicherung",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "l": "über meine Krankenversicherung",
+          "gb": "আমার স্বাস্থ্যবিমার",
+          "ge": "of my health insurance",
+          "n": ""
+        },
+        {
+          "t": "fehlt.",
+          "b": [
+            6
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "fehlt",
+          "gb": "নেই",
+          "ge": "is missing",
+          "n": ""
+        },
+        {
+          "t": "Aber",
+          "b": [
+            7
+          ],
+          "e": [
+            11
+          ],
+          "l": "Aber",
+          "gb": "কিন্তু",
+          "ge": "But",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            8
+          ],
+          "e": [
+            12
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "hatte",
+          "b": [],
+          "e": [
+            13
+          ],
+          "l": "hatte",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "had",
+          "n": ""
+        },
+        {
+          "t": "ihn",
+          "b": [
+            9
+          ],
+          "e": [
+            15
+          ],
+          "l": "ihn",
+          "gb": "ওটা",
+          "ge": "it",
+          "n": ""
+        },
+        {
+          "t": "eingereicht!",
+          "b": [
+            10,
+            11
+          ],
+          "e": [
+            14
+          ],
+          "l": "einreichen",
+          "gb": "জমা দিয়েছিলাম",
+          "ge": "submitted",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Herr Weber",
+      "bn": [
+        "তাহলে",
+        "সিদ্ধান্তটি",
+        "সম্ভবত",
+        "ভুল।",
+        "আপনার",
+        "আপত্তি",
+        "জানানো",
+        "উচিত।",
+        "চিঠির",
+        "নিচে",
+        "লেখা",
+        "আছে",
+        "কত",
+        "দিনের",
+        "মধ্যে।"
+      ],
+      "en": [
+        "Then",
+        "the",
+        "decision",
+        "is",
+        "probably",
+        "incorrect.",
+        "You",
+        "should",
+        "lodge",
+        "an",
+        "objection.",
+        "At",
+        "the",
+        "bottom",
+        "of",
+        "the",
+        "letter",
+        "it",
+        "says",
+        "within",
+        "what",
+        "period."
+      ],
+      "de": [
+        {
+          "t": "Dann",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Dann",
+          "gb": "তাহলে",
+          "ge": "Then",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "die Entscheidung",
+          "b": [
+            1
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "Entscheidung",
+          "gb": "সিদ্ধান্তটি",
+          "ge": "the decision",
+          "n": ""
+        },
+        {
+          "t": "wahrscheinlich",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "wahrscheinlich",
+          "gb": "সম্ভবত",
+          "ge": "probably",
+          "n": ""
+        },
+        {
+          "t": "fehlerhaft.",
+          "b": [
+            3
+          ],
+          "e": [
+            5
+          ],
+          "l": "fehlerhaft",
+          "gb": "ভুল",
+          "ge": "incorrect",
+          "n": ""
+        },
+        {
+          "t": "Sie sollten",
+          "b": [
+            7
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "Sie sollten",
+          "gb": "উচিত",
+          "ge": "You should",
+          "n": ""
+        },
+        {
+          "t": "Widerspruch",
+          "b": [
+            5
+          ],
+          "e": [
+            8,
+            9,
+            10
+          ],
+          "l": "Widerspruch",
+          "gb": "আপত্তি",
+          "ge": "lodge an objection",
+          "n": ""
+        },
+        {
+          "t": "einlegen.",
+          "b": [
+            6
+          ],
+          "e": [],
+          "l": "einlegen",
+          "gb": "জানানো",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Unten im Brief",
+          "b": [
+            8,
+            9
+          ],
+          "e": [
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "l": "Unten im Brief",
+          "gb": "চিঠির নিচে",
+          "ge": "At the bottom of the letter",
+          "n": ""
+        },
+        {
+          "t": "steht,",
+          "b": [
+            10,
+            11
+          ],
+          "e": [
+            17,
+            18
+          ],
+          "l": "steht",
+          "gb": "লেখা আছে",
+          "ge": "it says",
+          "n": ""
+        },
+        {
+          "t": "innerhalb welcher Frist.",
+          "b": [
+            12,
+            13,
+            14
+          ],
+          "e": [
+            19,
+            20,
+            21
+          ],
+          "l": "Rechtsbehelfsbelehrung",
+          "gb": "কত দিনের মধ্যে",
+          "ge": "within what period",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "ওখানে",
+        "লেখা",
+        "আছে:",
+        "এক",
+        "মাস।",
+        "আমি",
+        "কীভাবে",
+        "এটা",
+        "লিখব?"
+      ],
+      "en": [
+        "It",
+        "says",
+        "there:",
+        "one",
+        "month.",
+        "How",
+        "do",
+        "I",
+        "write",
+        "it?"
+      ],
+      "de": [
+        {
+          "t": "Dort steht:",
+          "b": [
+            0,
+            1,
+            2
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "Dort steht",
+          "gb": "ওখানে লেখা আছে",
+          "ge": "It says there",
+          "n": ""
+        },
+        {
+          "t": "ein Monat.",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "ein Monat",
+          "gb": "এক মাস",
+          "ge": "one month",
+          "n": ""
+        },
+        {
+          "t": "Wie",
+          "b": [
+            6
+          ],
+          "e": [
+            5
+          ],
+          "l": "Wie",
+          "gb": "কীভাবে",
+          "ge": "How",
+          "n": ""
+        },
+        {
+          "t": "schreibe",
+          "b": [
+            8
+          ],
+          "e": [
+            6,
+            7,
+            8
+          ],
+          "l": "schreibe",
+          "gb": "লিখব",
+          "ge": "do I write",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            5
+          ],
+          "e": [],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "das?",
+          "b": [
+            7
+          ],
+          "e": [
+            9
+          ],
+          "l": "das",
+          "gb": "এটা",
+          "ge": "it",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Herr Weber",
+      "bn": [
+        "সংক্ষেপে",
+        "ও",
+        "ভদ্রভাবে:",
+        "আপনি",
+        "অবশ্য",
+        "প্রমাণ",
+        "জমা",
+        "দিয়েছেন,",
+        "তবুও",
+        "সিদ্ধান্তে",
+        "বলা",
+        "হয়েছে",
+        "ওটা",
+        "নেই।",
+        "অনুগ্রহ",
+        "করে",
+        "পুনরায়",
+        "যাচাই",
+        "করুন।"
+      ],
+      "en": [
+        "Briefly",
+        "and",
+        "politely:",
+        "you",
+        "did",
+        "submit",
+        "the",
+        "proof,",
+        "nevertheless",
+        "the",
+        "decision",
+        "says",
+        "it",
+        "is",
+        "missing.",
+        "Please",
+        "check",
+        "again."
+      ],
+      "de": [
+        {
+          "t": "Kurz",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Kurz",
+          "gb": "সংক্ষেপে",
+          "ge": "Briefly",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "und",
+          "gb": "ও",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "höflich:",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "höflich",
+          "gb": "ভদ্রভাবে",
+          "ge": "politely",
+          "n": ""
+        },
+        {
+          "t": "Sie haben",
+          "b": [
+            3
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "Sie haben",
+          "gb": "আপনি",
+          "ge": "you did",
+          "n": ""
+        },
+        {
+          "t": "zwar",
+          "b": [
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "zwar",
+          "gb": "অবশ্য",
+          "ge": "did",
+          "n": ""
+        },
+        {
+          "t": "den Nachweis",
+          "b": [
+            5
+          ],
+          "e": [
+            5,
+            6,
+            7
+          ],
+          "l": "den Nachweis",
+          "gb": "প্রমাণ",
+          "ge": "submit the proof",
+          "n": ""
+        },
+        {
+          "t": "eingereicht,",
+          "b": [
+            6,
+            7
+          ],
+          "e": [],
+          "l": "eingereicht",
+          "gb": "জমা দিয়েছেন",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "trotzdem",
+          "b": [
+            8
+          ],
+          "e": [
+            8
+          ],
+          "l": "trotzdem",
+          "gb": "তবুও",
+          "ge": "nevertheless",
+          "n": ""
+        },
+        {
+          "t": "steht",
+          "b": [
+            10,
+            11
+          ],
+          "e": [
+            9,
+            10,
+            11
+          ],
+          "l": "steht",
+          "gb": "বলা হয়েছে",
+          "ge": "the decision says",
+          "n": ""
+        },
+        {
+          "t": "in der Entscheidung,",
+          "b": [
+            9
+          ],
+          "e": [],
+          "l": "in der Entscheidung",
+          "gb": "সিদ্ধান্তে",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "er fehle.",
+          "b": [
+            12,
+            13
+          ],
+          "e": [
+            12,
+            13,
+            14
+          ],
+          "l": "er fehle",
+          "gb": "ওটা নেই",
+          "ge": "it is missing",
+          "n": ""
+        },
+        {
+          "t": "Bitte",
+          "b": [
+            14,
+            15
+          ],
+          "e": [
+            15
+          ],
+          "l": "Bitte",
+          "gb": "অনুগ্রহ করে",
+          "ge": "Please",
+          "n": ""
+        },
+        {
+          "t": "prüfen Sie",
+          "b": [
+            17,
+            18
+          ],
+          "e": [
+            16
+          ],
+          "l": "prüfen Sie",
+          "gb": "যাচাই করুন",
+          "ge": "check",
+          "n": ""
+        },
+        {
+          "t": "das erneut.",
+          "b": [
+            16
+          ],
+          "e": [
+            17
+          ],
+          "l": "prüfen",
+          "gb": "পুনরায়",
+          "ge": "again",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "ধন্যবাদ।",
+        "আমি",
+        "আজই",
+        "লিখব।",
+        "আর",
+        "কি",
+        "পরামর্শ",
+        "কেন্দ্রে",
+        "যাওয়া",
+        "ভালো",
+        "হবে?"
+      ],
+      "en": [
+        "Thank",
+        "you.",
+        "I",
+        "will",
+        "write",
+        "it",
+        "today.",
+        "And",
+        "would",
+        "it",
+        "be",
+        "good",
+        "to",
+        "go",
+        "to",
+        "an",
+        "advice",
+        "centre?"
+      ],
+      "de": [
+        {
+          "t": "Danke.",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Danke",
+          "gb": "ধন্যবাদ",
+          "ge": "Thank you",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "schreibe",
+          "b": [
+            3
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "schreibe",
+          "gb": "লিখব",
+          "ge": "will write",
+          "n": ""
+        },
+        {
+          "t": "es",
+          "b": [],
+          "e": [
+            5
+          ],
+          "l": "es",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "it",
+          "n": ""
+        },
+        {
+          "t": "noch heute.",
+          "b": [
+            2
+          ],
+          "e": [
+            6
+          ],
+          "l": "noch heute",
+          "gb": "আজই",
+          "ge": "today",
+          "n": ""
+        },
+        {
+          "t": "Wäre es",
+          "b": [
+            9,
+            10
+          ],
+          "e": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "l": "Wäre es",
+          "gb": "ভালো হবে",
+          "ge": "would it be good",
+          "n": ""
+        },
+        {
+          "t": "auch",
+          "b": [
+            4,
+            5
+          ],
+          "e": [],
+          "l": "auch",
+          "gb": "আর কি",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "gut,",
+          "b": [],
+          "e": [],
+          "l": "gut",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "zu einer Beratungsstelle",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "l": "Beratungsstelle",
+          "gb": "পরামর্শ কেন্দ্রে",
+          "ge": "to go to an advice centre",
+          "n": ""
+        },
+        {
+          "t": "zu gehen?",
+          "b": [
+            8
+          ],
+          "e": [],
+          "l": "zu gehen",
+          "gb": "যাওয়া",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "Einen Bescheid lesen",
+      "head": [
+        "Teil",
+        "Was steht dort?"
+      ],
+      "rows": [
+        [
+          "Betreff / Aktenzeichen",
+          "কোন বিষয়, কোন নম্বর (সবসময় উল্লেখ করুন)"
+        ],
+        [
+          "Entscheidung",
+          "bewilligt (অনুমোদিত) / abgelehnt (প্রত্যাখ্যাত)"
+        ],
+        [
+          "Begründung",
+          "কেন এই সিদ্ধান্ত"
+        ],
+        [
+          "Rechtsbehelfsbelehrung",
+          "আপত্তির নিয়ম ও সময়সীমা (z. B. ein Monat)"
+        ],
+        [
+          "Frist",
+          "সময়সীমা শুরু হয় চিঠি পাওয়ার পর"
+        ]
+      ],
+      "note": "আপত্তির সময়সীমা মিস করবেন না। সাধারণত লিখিত হতে হয়; ইমেইল বৈধ কিনা, কোথায় পাঠাতে হবে — চিঠিতে লেখা থাকে। বুঝতে না পারলে অবশ্যই পরামর্শ কেন্দ্রে যান।"
+    },
+    {
+      "type": "table",
+      "title": "Struktur eines Widerspruchs",
+      "head": [
+        "Teil",
+        "Beispiel"
+      ],
+      "rows": [
+        [
+          "Betreff",
+          "Widerspruch gegen den Bescheid vom 12.05.2026, Aktenzeichen …"
+        ],
+        [
+          "Einleitung",
+          "hiermit lege ich fristgerecht Widerspruch gegen den oben genannten Bescheid ein."
+        ],
+        [
+          "Begründung",
+          "Der Nachweis wurde am … eingereicht. Die Ablehnung ist daher fehlerhaft."
+        ],
+        [
+          "Bitte",
+          "Bitte prüfen Sie den Antrag erneut."
+        ],
+        [
+          "Gruß, Unterschrift, Anlagen",
+          "Mit freundlichen Grüßen · Anlage: Kopie des Nachweises"
+        ]
+      ],
+      "note": "শান্ত, তথ্যভিত্তিক ভাষা ব্যবহার করুন। প্রমাণের কপি (z. B. জমার রসিদ) সংযুক্ত করুন।"
+    },
+    {
+      "type": "table",
+      "title": "zwar … aber / trotzdem",
+      "head": [
+        "Struktur",
+        "Beispiel"
+      ],
+      "rows": [
+        [
+          "zwar … aber …",
+          "Ich habe zwar den Nachweis eingereicht, aber er wurde nicht beachtet."
+        ],
+        [
+          "trotzdem",
+          "Ich habe ihn eingereicht. Trotzdem wurde der Antrag abgelehnt."
+        ],
+        [
+          "obwohl",
+          "Der Antrag wurde abgelehnt, obwohl ich den Nachweis eingereicht habe."
+        ]
+      ],
+      "note": "trotzdem ক্রিয়াবিশেষণ: বাক্যের শুরুতে এলে ক্রিয়া ২য় স্থানে (Trotzdem wurde …)। obwohl Nebensatz: ক্রিয়া শেষে।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "der Bescheid",
+      "options": [
+        "জমা দেওয়া",
+        "সিদ্ধান্ত",
+        "অফিশিয়াল সিদ্ধান্তপত্র",
+        "যাচাই করা"
+      ],
+      "answer": 2,
+      "why": "der Bescheid = অফিশিয়াল সিদ্ধান্তপত্র।",
+      "word": "bescheid"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "die Begründung",
+      "options": [
+        "যুক্তি",
+        "তবুও",
+        "আপত্তির নিয়ম-ঘোষণা",
+        "জমা দেওয়া"
+      ],
+      "answer": 0,
+      "why": "die Begründung = যুক্তি।",
+      "word": "begruendung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "fristgerecht",
+      "options": [
+        "যুক্তি",
+        "সময়মতো",
+        "ভুলে ভরা",
+        "অবশ্য"
+      ],
+      "answer": 1,
+      "why": "fristgerecht = সময়মতো।",
+      "word": "fristgerecht"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Entscheidung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Entscheidung। বহুবচন: die Entscheidungen।",
+      "word": "entscheidung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Passiv Präteritum কোনটি?",
+      "options": [
+        "Der Antrag wurde abgelehnt.",
+        "Der Antrag ist abgelehnt worden.",
+        "Man lehnt den Antrag ab.",
+        "Der Antrag lehnt ab."
+      ],
+      "answer": 0,
+      "why": "wurde + Partizip II।",
+      "word": "ablehnung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Widerspruch einlegen“ মানে কী?",
+      "options": [
+        "আপত্তি জমা দেওয়া",
+        "আবেদন শুরু করা",
+        "টাকা দেওয়া",
+        "ফর্ম পড়া"
+      ],
+      "answer": 0,
+      "why": "Widerspruch einlegen।",
+      "word": "einlegen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক বাক্য কোনটি?",
+      "options": [
+        "Ich habe zwar den Nachweis eingereicht, aber er fehlt im Bescheid.",
+        "Ich habe zwar den Nachweis eingereicht, aber fehlt er im Bescheid.",
+        "Zwar habe ich eingereicht den Nachweis, aber er fehlt.",
+        "Ich zwar habe eingereicht, aber er fehlt."
+      ],
+      "answer": 0,
+      "why": "zwar … aber: সাধারণ বাক্যক্রম।",
+      "word": "zwar"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Rechtsbehelfsbelehrung“ কী জানায়?",
+      "options": [
+        "কীভাবে ও কতদিনের মধ্যে আপত্তি করা যায়",
+        "কত টাকা দিতে হবে",
+        "কোথায় থাকতে হবে",
+        "কে সই করেছে"
+      ],
+      "answer": 0,
+      "why": "আপত্তির নিয়ম-ঘোষণা।",
+      "word": "rechtsbehelfsbelehrung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„trotzdem“ এর পর ক্রিয়া কোথায়?",
+      "options": [
+        "২য় স্থানে (বাক্যের শুরুতে হলে)",
+        "শেষে",
+        "শুরুতে",
+        "দূরে"
+      ],
+      "answer": 0,
+      "why": "Trotzdem wurde …",
+      "word": "trotzdem"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „অনুগ্রহ করে এটা আবার যাচাই করুন।“",
+      "tiles": [
+        "das",
+        "Sie",
+        "erneut.",
+        "Bitte",
+        "prüfen"
+      ],
+      "answer": [
+        "Bitte",
+        "prüfen",
+        "Sie",
+        "das",
+        "erneut."
+      ],
+      "why": "Imperativ (Sie)।",
+      "word": "pruefen"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

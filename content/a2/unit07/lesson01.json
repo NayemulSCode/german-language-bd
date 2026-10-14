@@ -1,0 +1,1356 @@
+{
+  "level": "A2",
+  "unit": 7,
+  "minutes": 16,
+  "lesson": 1,
+  "id": "a2-u07-l01",
+  "title": {
+    "de": "Ich warte auf einen Anruf",
+    "bn": "Verben mit Präposition: warten auf, denken an",
+    "en": "Verbs with prepositions"
+  },
+  "hook": {
+    "de": "Geduld bringt Rosen.",
+    "who": "Sprichwort",
+    "bn": "ধৈর্যের ফল মিষ্টি।",
+    "en": "Patience brings roses."
+  },
+  "goals": [
+    "কিছু ক্রিয়ার সাথে নির্দিষ্ট অব্যয় বসে: warten auf, denken an",
+    "অব্যয়ের পর Akkusativ বা Dativ",
+    "প্রশ্ন: Auf wen? Worauf?",
+    "ফোন ও ইন্টারনেটের শব্দ"
+  ],
+  "words": [
+    {
+      "id": "handy",
+      "de": "Handy",
+      "art": "das",
+      "pl": "die Handys",
+      "pos": "বিশেষ্য",
+      "bn": "মোবাইল ফোন",
+      "en": "mobile phone"
+    },
+    {
+      "id": "wlan",
+      "de": "WLAN",
+      "art": "das",
+      "pos": "বিশেষ্য",
+      "bn": "ওয়াইফাই",
+      "en": "Wi-Fi"
+    },
+    {
+      "id": "akku",
+      "de": "Akku",
+      "art": "der",
+      "pl": "die Akkus",
+      "pos": "বিশেষ্য",
+      "bn": "ব্যাটারি",
+      "en": "battery"
+    },
+    {
+      "id": "anruf",
+      "de": "Anruf",
+      "art": "der",
+      "pl": "die Anrufe",
+      "pos": "বিশেষ্য",
+      "bn": "ফোনকল",
+      "en": "phone call"
+    },
+    {
+      "id": "netz",
+      "de": "Netz",
+      "art": "das",
+      "pl": "die Netze",
+      "pos": "বিশেষ্য",
+      "bn": "নেটওয়ার্ক",
+      "en": "network"
+    },
+    {
+      "id": "aufladen",
+      "de": "aufladen",
+      "pos": "ক্রিয়া · lädt auf, hat aufgeladen",
+      "bn": "চার্জ দেওয়া",
+      "en": "to charge"
+    },
+    {
+      "id": "herunterladen",
+      "de": "herunterladen",
+      "pos": "ক্রিয়া · hat heruntergeladen",
+      "bn": "ডাউনলোড করা",
+      "en": "to download"
+    },
+    {
+      "id": "telefonieren",
+      "de": "telefonieren",
+      "pos": "ক্রিয়া · hat telefoniert",
+      "bn": "ফোনে কথা বলা",
+      "en": "to phone"
+    },
+    {
+      "id": "warten",
+      "de": "warten",
+      "pos": "ক্রিয়া · hat gewartet",
+      "bn": "অপেক্ষা করা",
+      "en": "to wait"
+    },
+    {
+      "id": "sich_aergern",
+      "de": "sich ärgern",
+      "pos": "ক্রিয়া · hat sich geärgert",
+      "bn": "বিরক্ত হওয়া",
+      "en": "to be annoyed"
+    },
+    {
+      "id": "denken",
+      "de": "denken",
+      "pos": "ক্রিয়া · hat gedacht",
+      "bn": "ভাবা, মনে করা",
+      "en": "to think"
+    },
+    {
+      "id": "langsam",
+      "de": "langsam",
+      "pos": "বিশেষণ",
+      "bn": "ধীর",
+      "en": "slow"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমার",
+        "ফোন",
+        "কাজ",
+        "করছে",
+        "না।",
+        "ব্যাটারি",
+        "খালি।"
+      ],
+      "en": [
+        "My",
+        "phone",
+        "is",
+        "not",
+        "working.",
+        "The",
+        "battery",
+        "is",
+        "empty."
+      ],
+      "de": [
+        {
+          "t": "Mein",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Mein",
+          "gb": "আমার",
+          "ge": "My",
+          "n": ""
+        },
+        {
+          "t": "Handy",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "Handy",
+          "gb": "ফোন",
+          "ge": "phone",
+          "n": ""
+        },
+        {
+          "t": "funktioniert",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "funktioniert",
+          "gb": "কাজ",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "nicht.",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "nicht",
+          "gb": "করছে না",
+          "ge": "not working",
+          "n": ""
+        },
+        {
+          "t": "Der",
+          "b": [],
+          "e": [
+            5
+          ],
+          "l": "Der",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "The",
+          "n": ""
+        },
+        {
+          "t": "Akku",
+          "b": [
+            5
+          ],
+          "e": [
+            6
+          ],
+          "l": "Akku",
+          "gb": "ব্যাটারি",
+          "ge": "battery",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            7
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "leer.",
+          "b": [
+            6
+          ],
+          "e": [
+            8
+          ],
+          "l": "leer",
+          "gb": "খালি",
+          "ge": "empty",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "ওটা",
+        "চার্জ",
+        "দাও!",
+        "আমার",
+        "কাছে",
+        "একটি",
+        "চার্জার",
+        "আছে।"
+      ],
+      "en": [
+        "Charge",
+        "it!",
+        "I",
+        "have",
+        "a",
+        "charger."
+      ],
+      "de": [
+        {
+          "t": "Lade",
+          "b": [
+            1
+          ],
+          "e": [
+            0
+          ],
+          "l": "aufladen",
+          "gb": "চার্জ",
+          "ge": "Charge",
+          "n": ""
+        },
+        {
+          "t": "es",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "es",
+          "gb": "ওটা",
+          "ge": "it",
+          "n": ""
+        },
+        {
+          "t": "doch",
+          "b": [],
+          "e": [],
+          "l": "doch",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "auf!",
+          "b": [
+            2
+          ],
+          "e": [],
+          "l": "auf",
+          "gb": "দাও",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "Ich",
+          "gb": "আমার",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [
+            7
+          ],
+          "e": [
+            3
+          ],
+          "l": "habe",
+          "gb": "আছে",
+          "ge": "have",
+          "n": ""
+        },
+        {
+          "t": "ein",
+          "b": [
+            5
+          ],
+          "e": [
+            4
+          ],
+          "l": "ein",
+          "gb": "একটি",
+          "ge": "a",
+          "n": ""
+        },
+        {
+          "t": "Ladegerät.",
+          "b": [
+            6
+          ],
+          "e": [
+            5
+          ],
+          "l": "Ladegerät",
+          "gb": "চার্জার",
+          "ge": "charger",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "ধন্যবাদ!",
+        "আমি",
+        "একটি",
+        "জরুরি",
+        "ফোনের",
+        "অপেক্ষা",
+        "করছি।"
+      ],
+      "en": [
+        "Thanks!",
+        "I",
+        "am",
+        "waiting",
+        "for",
+        "an",
+        "important",
+        "call."
+      ],
+      "de": [
+        {
+          "t": "Danke!",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Danke",
+          "gb": "ধন্যবাদ",
+          "ge": "Thanks",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "warte",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "warten",
+          "gb": "অপেক্ষা করছি",
+          "ge": "am waiting",
+          "n": ""
+        },
+        {
+          "t": "auf",
+          "b": [],
+          "e": [
+            4
+          ],
+          "l": "auf",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "for",
+          "n": "warten auf + Akkusativ"
+        },
+        {
+          "t": "einen",
+          "b": [
+            2
+          ],
+          "e": [
+            5
+          ],
+          "l": "einen",
+          "gb": "একটি",
+          "ge": "an",
+          "n": ""
+        },
+        {
+          "t": "wichtigen",
+          "b": [
+            3
+          ],
+          "e": [
+            6
+          ],
+          "l": "wichtig",
+          "gb": "জরুরি",
+          "ge": "important",
+          "n": ""
+        },
+        {
+          "t": "Anruf.",
+          "b": [
+            4
+          ],
+          "e": [
+            7
+          ],
+          "l": "Anruf",
+          "gb": "ফোনের",
+          "ge": "call",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "তুমি",
+        "কার",
+        "জন্য",
+        "অপেক্ষা",
+        "করছ?"
+      ],
+      "en": [
+        "Who",
+        "are",
+        "you",
+        "waiting",
+        "for?"
+      ],
+      "de": [
+        {
+          "t": "Auf",
+          "b": [],
+          "e": [
+            4
+          ],
+          "l": "Auf",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "for",
+          "n": ""
+        },
+        {
+          "t": "wen",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            0
+          ],
+          "l": "wer",
+          "gb": "কার জন্য",
+          "ge": "Who",
+          "n": "Auf wen? = কার জন্য? (warten auf + Akk.)"
+        },
+        {
+          "t": "wartest",
+          "b": [
+            3
+          ],
+          "e": [
+            1
+          ],
+          "l": "warten",
+          "gb": "অপেক্ষা",
+          "ge": "are",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            0
+          ],
+          "e": [
+            2
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "denn?",
+          "b": [
+            4
+          ],
+          "e": [
+            3
+          ],
+          "l": "denn",
+          "gb": "করছ",
+          "ge": "waiting",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমার",
+        "বসের",
+        "জন্য।",
+        "আমি",
+        "ধীর",
+        "ওয়াইফাইয়ের",
+        "উপর",
+        "বিরক্ত।"
+      ],
+      "en": [
+        "For",
+        "my",
+        "boss.",
+        "I",
+        "am",
+        "annoyed",
+        "about",
+        "the",
+        "slow",
+        "Wi-Fi."
+      ],
+      "de": [
+        {
+          "t": "Auf",
+          "b": [],
+          "e": [
+            0
+          ],
+          "l": "Auf",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "For",
+          "n": ""
+        },
+        {
+          "t": "meinen",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "meinen",
+          "gb": "আমার",
+          "ge": "my",
+          "n": ""
+        },
+        {
+          "t": "Chef.",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "Chef",
+          "gb": "বসের জন্য",
+          "ge": "boss",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "ärgere",
+          "b": [
+            7
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "sich ärgern",
+          "gb": "বিরক্ত",
+          "ge": "am annoyed",
+          "n": ""
+        },
+        {
+          "t": "mich",
+          "b": [],
+          "e": [],
+          "l": "ich",
+          "gb": "নিজেকে",
+          "ge": "myself",
+          "n": ""
+        },
+        {
+          "t": "über",
+          "b": [
+            6
+          ],
+          "e": [
+            6
+          ],
+          "l": "über",
+          "gb": "উপর",
+          "ge": "about",
+          "n": "sich ärgern über + Akkusativ"
+        },
+        {
+          "t": "das",
+          "b": [],
+          "e": [
+            7
+          ],
+          "l": "das",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "langsame",
+          "b": [
+            4
+          ],
+          "e": [
+            8
+          ],
+          "l": "langsam",
+          "gb": "ধীর",
+          "ge": "slow",
+          "n": ""
+        },
+        {
+          "t": "WLAN.",
+          "b": [
+            5
+          ],
+          "e": [
+            9
+          ],
+          "l": "WLAN",
+          "gb": "ওয়াইফাইয়ের",
+          "ge": "Wi-Fi",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "তুমি",
+        "কার",
+        "সাথে",
+        "বেশি",
+        "ফোনে",
+        "কথা",
+        "বলো?"
+      ],
+      "en": [
+        "Who",
+        "do",
+        "you",
+        "phone",
+        "most",
+        "often?"
+      ],
+      "de": [
+        {
+          "t": "Mit wem",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            0
+          ],
+          "l": "Mit wem",
+          "gb": "কার সাথে",
+          "ge": "Who",
+          "n": "Mit wem? = কার সাথে? (telefonieren mit + Dativ)"
+        },
+        {
+          "t": "telefonierst",
+          "b": [
+            4,
+            5,
+            6
+          ],
+          "e": [
+            1
+          ],
+          "l": "telefonieren",
+          "gb": "ফোনে কথা বলো",
+          "ge": "do",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            0
+          ],
+          "e": [
+            2
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "am meisten?",
+          "b": [
+            3
+          ],
+          "e": [
+            3,
+            4,
+            5
+          ],
+          "l": "am meisten",
+          "gb": "বেশি",
+          "ge": "phone most often",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমার",
+        "পরিবারের",
+        "সাথে।",
+        "আমি",
+        "প্রায়ই",
+        "ওদের",
+        "কথা",
+        "ভাবি।"
+      ],
+      "en": [
+        "With",
+        "my",
+        "family.",
+        "I",
+        "often",
+        "think",
+        "of",
+        "them."
+      ],
+      "de": [
+        {
+          "t": "Mit",
+          "b": [
+            2
+          ],
+          "e": [
+            0
+          ],
+          "l": "Mit",
+          "gb": "সাথে",
+          "ge": "With",
+          "n": ""
+        },
+        {
+          "t": "meiner",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "meiner",
+          "gb": "আমার",
+          "ge": "my",
+          "n": ""
+        },
+        {
+          "t": "Familie.",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "Familie",
+          "gb": "পরিবারের",
+          "ge": "family",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "denke",
+          "b": [
+            7
+          ],
+          "e": [
+            5
+          ],
+          "l": "denken",
+          "gb": "ভাবি",
+          "ge": "think",
+          "n": ""
+        },
+        {
+          "t": "oft",
+          "b": [
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "oft",
+          "gb": "প্রায়ই",
+          "ge": "often",
+          "n": ""
+        },
+        {
+          "t": "an",
+          "b": [
+            6
+          ],
+          "e": [
+            6
+          ],
+          "l": "an",
+          "gb": "কথা",
+          "ge": "of",
+          "n": "denken an + Akkusativ"
+        },
+        {
+          "t": "sie.",
+          "b": [
+            5
+          ],
+          "e": [
+            7
+          ],
+          "l": "sie",
+          "gb": "ওদের",
+          "ge": "them",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "আমি",
+        "বুঝি।",
+        "একটি",
+        "অ্যাপ",
+        "ডাউনলোড",
+        "করো,",
+        "তাহলে",
+        "ইন্টারনেটে",
+        "বিনামূল্যে",
+        "ফোন",
+        "করতে",
+        "পারবে।"
+      ],
+      "en": [
+        "I",
+        "understand.",
+        "Download",
+        "an",
+        "app,",
+        "then",
+        "you",
+        "can",
+        "phone",
+        "for",
+        "free",
+        "over",
+        "the",
+        "internet."
+      ],
+      "de": [
+        {
+          "t": "Das",
+          "b": [],
+          "e": [],
+          "l": "Das",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "verstehe",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "verstehe",
+          "gb": "বুঝি",
+          "ge": "understand",
+          "n": ""
+        },
+        {
+          "t": "ich.",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "Lade",
+          "b": [
+            4
+          ],
+          "e": [
+            2
+          ],
+          "l": "herunterladen",
+          "gb": "ডাউনলোড",
+          "ge": "Download",
+          "n": ""
+        },
+        {
+          "t": "eine App",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "eine App",
+          "gb": "একটি অ্যাপ",
+          "ge": "an app",
+          "n": ""
+        },
+        {
+          "t": "herunter,",
+          "b": [
+            5
+          ],
+          "e": [],
+          "l": "herunter",
+          "gb": "করো",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "dann",
+          "b": [
+            6
+          ],
+          "e": [
+            5
+          ],
+          "l": "dann",
+          "gb": "তাহলে",
+          "ge": "then",
+          "n": ""
+        },
+        {
+          "t": "kannst",
+          "b": [
+            11
+          ],
+          "e": [
+            7
+          ],
+          "l": "kannst",
+          "gb": "পারবে",
+          "ge": "can",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [],
+          "e": [
+            6
+          ],
+          "l": "du",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "kostenlos",
+          "b": [
+            8
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "kostenlos",
+          "gb": "বিনামূল্যে",
+          "ge": "for free",
+          "n": ""
+        },
+        {
+          "t": "telefonieren.",
+          "b": [
+            9,
+            10
+          ],
+          "e": [
+            8
+          ],
+          "l": "telefonieren",
+          "gb": "ফোন করতে",
+          "ge": "phone",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "ক্রিয়া + নির্দিষ্ট অব্যয় (Akkusativ)",
+      "head": [
+        "Verb + Präposition",
+        "প্রশ্ন",
+        "উদাহরণ"
+      ],
+      "rows": [
+        [
+          "warten auf",
+          "Auf wen? / Worauf?",
+          "Ich warte auf einen Anruf."
+        ],
+        [
+          "denken an",
+          "An wen? / Woran?",
+          "Ich denke an meine Familie."
+        ],
+        [
+          "sich ärgern über",
+          "Über wen? / Worüber?",
+          "Ich ärgere mich über das WLAN."
+        ],
+        [
+          "sich freuen auf/über",
+          "Worauf? / Worüber?",
+          "Ich freue mich auf das Wochenende."
+        ],
+        [
+          "sich interessieren für",
+          "Wofür?",
+          "Ich interessiere mich für Musik."
+        ],
+        [
+          "sprechen über",
+          "Worüber?",
+          "Wir sprechen über das Wetter."
+        ]
+      ],
+      "note": "অব্যয়টি ক্রিয়ার সাথে মুখস্থ করুন — অর্থ থেকে অনুমান করা যায় না। প্রশ্নে ব্যক্তি: „Auf wen?“, বস্তু: „Worauf?“ (wo + auf)।"
+    },
+    {
+      "type": "table",
+      "title": "ক্রিয়া + অব্যয় (Dativ)",
+      "head": [
+        "Verb + Präposition",
+        "প্রশ্ন",
+        "উদাহরণ"
+      ],
+      "rows": [
+        [
+          "telefonieren mit",
+          "Mit wem?",
+          "Ich telefoniere mit meiner Mutter."
+        ],
+        [
+          "sprechen mit",
+          "Mit wem?",
+          "Ich spreche mit dem Chef."
+        ],
+        [
+          "träumen von",
+          "Wovon?",
+          "Er träumt von einem Haus."
+        ],
+        [
+          "fragen nach",
+          "Wonach?",
+          "Sie fragt nach dem Weg."
+        ],
+        [
+          "abhängen von",
+          "Wovon?",
+          "Es hängt vom Wetter ab."
+        ]
+      ],
+      "note": "mit, von, nach সবসময় Dativ। auf, an, über, für → এই ক্রিয়াগুলোতে Akkusativ।"
+    },
+    {
+      "type": "table",
+      "title": "Pronominaladverbien: darauf, daran, darüber",
+      "head": [
+        "প্রশ্ন",
+        "উত্তর"
+      ],
+      "rows": [
+        [
+          "Worauf wartest du?",
+          "Ich warte darauf."
+        ],
+        [
+          "Woran denkst du?",
+          "Ich denke daran."
+        ],
+        [
+          "Worüber ärgerst du dich?",
+          "Ich ärgere mich darüber."
+        ],
+        [
+          "Mit wem telefonierst du?",
+          "Mit meiner Familie. (ব্যক্তি = mit + Dativ)"
+        ]
+      ],
+      "note": "বস্তু হলে da(r) + অব্যয় (darauf, daran, darüber); ব্যক্তি হলে অব্যয় + Pronomen (auf ihn, an sie)।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "der Akku",
+      "options": [
+        "মোবাইল ফোন",
+        "ফোনকল",
+        "চার্জ দেওয়া",
+        "ব্যাটারি"
+      ],
+      "answer": 3,
+      "why": "der Akku = ব্যাটারি।",
+      "word": "akku"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "aufladen",
+      "options": [
+        "নেটওয়ার্ক",
+        "অপেক্ষা করা",
+        "ধীর",
+        "চার্জ দেওয়া"
+      ],
+      "answer": 3,
+      "why": "aufladen = চার্জ দেওয়া।",
+      "word": "aufladen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "herunterladen",
+      "options": [
+        "বিরক্ত হওয়া",
+        "মোবাইল ফোন",
+        "ফোনকল",
+        "ডাউনলোড করা"
+      ],
+      "answer": 3,
+      "why": "herunterladen = ডাউনলোড করা।",
+      "word": "herunterladen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Anruf",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 0,
+      "why": "der Anruf। বহুবচন: die Anrufe।",
+      "word": "anruf"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক অব্যয় বেছে নিন",
+      "sub": "Ich warte ___ einen Anruf.",
+      "options": [
+        "auf",
+        "an",
+        "über",
+        "mit"
+      ],
+      "answer": 0,
+      "why": "warten auf।",
+      "word": "warten"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক অব্যয় বেছে নিন",
+      "sub": "Ich denke oft ___ meine Familie.",
+      "options": [
+        "an",
+        "auf",
+        "für",
+        "bei"
+      ],
+      "answer": 0,
+      "why": "denken an।",
+      "word": "denken"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক অব্যয় বেছে নিন",
+      "sub": "Ich ärgere mich ___ das WLAN.",
+      "options": [
+        "über",
+        "an",
+        "auf",
+        "mit"
+      ],
+      "answer": 0,
+      "why": "sich ärgern über।",
+      "word": "sich_aergern"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ich telefoniere mit ___ Familie.",
+      "options": [
+        "meiner",
+        "meine",
+        "meinen",
+        "mein"
+      ],
+      "answer": 0,
+      "why": "mit + Dativ f: meiner।",
+      "word": "telefonieren"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Worauf wartest du?“ এর উত্তর কোনটি?",
+      "options": [
+        "Ich warte darauf.",
+        "Ich warte dafür.",
+        "Ich warte daran.",
+        "Ich warte darüber."
+      ],
+      "answer": 0,
+      "why": "warten auf → darauf।",
+      "word": "warten"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „আমি একটি ফোনের অপেক্ষা করছি।“",
+      "tiles": [
+        "einen",
+        "Anruf.",
+        "auf",
+        "warte",
+        "Ich"
+      ],
+      "answer": [
+        "Ich",
+        "warte",
+        "auf",
+        "einen",
+        "Anruf."
+      ],
+      "why": "warten auf + Akkusativ।",
+      "word": "anruf"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

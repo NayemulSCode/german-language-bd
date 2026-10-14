@@ -1,0 +1,1734 @@
+{
+  "level": "B1",
+  "unit": 12,
+  "minutes": 18,
+  "lesson": 2,
+  "id": "b1-u12-l02",
+  "title": {
+    "de": "Dauerhaft in Deutschland leben",
+    "bn": "জার্মানিতে দীর্ঘমেয়াদে থাকা",
+    "en": "Living in Germany long-term"
+  },
+  "hook": {
+    "de": "Heimat ist da, wo man sich zu Hause fühlt.",
+    "who": "Redensart",
+    "bn": "ঘর সেখানেই, যেখানে মন বসে।",
+    "en": "Home is where you feel at home."
+  },
+  "goals": [
+    "Aufenthaltstitel und Niederlassung verstehen (allgemein)",
+    "Einbürgerung: Voraussetzungen (hedged)",
+    "Behördengespräch: Fragen stellen",
+    "Passiv und Modalverben in offiziellen Texten"
+  ],
+  "words": [
+    {
+      "id": "aufenthaltstitel",
+      "de": "Aufenthaltstitel",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "বসবাসের অনুমতি (বিভিন্ন ধরনের)",
+      "en": "residence permit"
+    },
+    {
+      "id": "niederlassungserlaubnis",
+      "de": "Niederlassungserlaubnis",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "স্থায়ী বসবাসের অনুমতি",
+      "en": "settlement permit"
+    },
+    {
+      "id": "einbuergerung",
+      "de": "Einbürgerung",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "নাগরিকত্ব প্রদান",
+      "en": "naturalisation"
+    },
+    {
+      "id": "staatsangehoerigkeit",
+      "de": "Staatsangehörigkeit",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "জাতীয়তা",
+      "en": "nationality"
+    },
+    {
+      "id": "voraussetzung",
+      "de": "Voraussetzung",
+      "art": "die",
+      "pl": "die Voraussetzungen",
+      "pos": "বিশেষ্য",
+      "bn": "শর্ত, পূর্বশর্ত",
+      "en": "requirement"
+    },
+    {
+      "id": "nachweis",
+      "de": "Nachweis",
+      "art": "der",
+      "pl": "die Nachweise",
+      "pos": "বিশেষ্য",
+      "bn": "প্রমাণ",
+      "en": "proof, evidence"
+    },
+    {
+      "id": "einbuergerungstest",
+      "de": "Einbürgerungstest",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "নাগরিকত্ব পরীক্ষা",
+      "en": "naturalisation test"
+    },
+    {
+      "id": "lebensunterhalt",
+      "de": "Lebensunterhalt",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "জীবিকা-খরচ",
+      "en": "living expenses"
+    },
+    {
+      "id": "beantragen",
+      "de": "beantragen",
+      "pos": "ক্রিয়া · hat beantragt",
+      "bn": "আবেদন করা",
+      "en": "to apply for"
+    },
+    {
+      "id": "auslaenderbehoerde",
+      "de": "Ausländerbehörde",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "বিদেশি-বিষয়ক অফিস",
+      "en": "immigration office"
+    },
+    {
+      "id": "verlaengern",
+      "de": "verlängern",
+      "pos": "ক্রিয়া · hat verlängert",
+      "bn": "মেয়াদ বাড়ানো",
+      "en": "to extend"
+    },
+    {
+      "id": "beratungsstelle",
+      "de": "Beratungsstelle",
+      "art": "die",
+      "pl": "die Beratungsstellen",
+      "pos": "বিশেষ্য",
+      "bn": "পরামর্শ কেন্দ্র",
+      "en": "advice centre"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Saheb",
+      "bn": [
+        "ফ্রাউ",
+        "হফম্যান,",
+        "আমার",
+        "ভিসা",
+        "সীমিত",
+        "মেয়াদের।",
+        "আমি",
+        "দীর্ঘদিন",
+        "এখানে",
+        "থাকতে",
+        "চাই।",
+        "কী",
+        "পদ্ধতি",
+        "আছে?"
+      ],
+      "en": [
+        "Frau",
+        "Hoffmann,",
+        "my",
+        "visa",
+        "is",
+        "limited.",
+        "I",
+        "want",
+        "to",
+        "stay",
+        "here",
+        "long-term.",
+        "What",
+        "are",
+        "the",
+        "procedures?"
+      ],
+      "de": [
+        {
+          "t": "Frau Hoffmann,",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Frau Hoffmann",
+          "gb": "ফ্রাউ হফম্যান",
+          "ge": "Frau Hoffmann",
+          "n": ""
+        },
+        {
+          "t": "mein Visum",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "mein Visum",
+          "gb": "আমার ভিসা",
+          "ge": "my visa",
+          "n": ""
+        },
+        {
+          "t": "ist befristet.",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "ist befristet",
+          "gb": "সীমিত মেয়াদের",
+          "ge": "is limited",
+          "n": ""
+        },
+        {
+          "t": "Ich möchte",
+          "b": [
+            6
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "Ich möchte",
+          "gb": "আমি",
+          "ge": "I want",
+          "n": ""
+        },
+        {
+          "t": "lange hier leben.",
+          "b": [
+            7,
+            8,
+            9,
+            10
+          ],
+          "e": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "l": "lange hier leben",
+          "gb": "দীর্ঘদিন এখানে থাকতে চাই",
+          "ge": "to stay here long-term",
+          "n": ""
+        },
+        {
+          "t": "Welche Verfahren gibt es?",
+          "b": [
+            11,
+            12,
+            13
+          ],
+          "e": [
+            12,
+            13,
+            14,
+            15
+          ],
+          "l": "Welche Verfahren gibt es",
+          "gb": "কী পদ্ধতি আছে",
+          "ge": "What are the procedures",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Frau Hoffmann",
+      "bn": [
+        "আমি",
+        "আইনি",
+        "পরামর্শ",
+        "দিতে",
+        "পারি",
+        "না,",
+        "কারণ",
+        "নিয়মগুলো",
+        "ব্যক্তিগত",
+        "অবস্থার",
+        "ওপর",
+        "নির্ভর",
+        "করে।",
+        "সাধারণভাবে:",
+        "আপনার",
+        "একটি",
+        "Aufenthaltstitel",
+        "থাকে,",
+        "আর",
+        "সেটা",
+        "সময়মতো",
+        "বাড়াতে",
+        "হয়।",
+        "কিছু",
+        "শর্ত",
+        "পূরণ",
+        "হলে",
+        "পরে",
+        "স্থায়ী",
+        "অনুমতি",
+        "পাওয়া",
+        "সম্ভব।"
+      ],
+      "en": [
+        "I",
+        "cannot",
+        "give",
+        "legal",
+        "advice",
+        "because",
+        "the",
+        "rules",
+        "depend",
+        "on",
+        "personal",
+        "circumstances.",
+        "In",
+        "general",
+        "you",
+        "have",
+        "a",
+        "residence",
+        "permit",
+        "and",
+        "must",
+        "extend",
+        "it",
+        "on",
+        "time.",
+        "If",
+        "certain",
+        "conditions",
+        "are",
+        "met,",
+        "a",
+        "permanent",
+        "permit",
+        "may",
+        "be",
+        "possible",
+        "later."
+      ],
+      "de": [
+        {
+          "t": "Ich darf keine Rechtsberatung geben,",
+          "b": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "e": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "l": "Ich darf keine Rechtsberatung geben",
+          "gb": "আমি আইনি পরামর্শ দিতে পারি না",
+          "ge": "I cannot give legal advice",
+          "n": ""
+        },
+        {
+          "t": "weil die Regeln",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            5,
+            6,
+            7
+          ],
+          "l": "weil die Regeln",
+          "gb": "কারণ নিয়মগুলো",
+          "ge": "because the rules",
+          "n": ""
+        },
+        {
+          "t": "von der persönlichen Lage abhängen.",
+          "b": [
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "e": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "l": "von der persönlichen Lage abhängen",
+          "gb": "ব্যক্তিগত অবস্থার ওপর নির্ভর করে",
+          "ge": "depend on personal circumstances",
+          "n": ""
+        },
+        {
+          "t": "Allgemein gilt:",
+          "b": [
+            13
+          ],
+          "e": [
+            12,
+            13
+          ],
+          "l": "Allgemein gilt",
+          "gb": "সাধারণভাবে",
+          "ge": "In general",
+          "n": ""
+        },
+        {
+          "t": "Man hat einen Aufenthaltstitel,",
+          "b": [
+            14,
+            15,
+            16,
+            17
+          ],
+          "e": [
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "l": "Man hat einen Aufenthaltstitel",
+          "gb": "আপনার একটি Aufenthaltstitel থাকে",
+          "ge": "you have a residence permit",
+          "n": ""
+        },
+        {
+          "t": "und der muss rechtzeitig",
+          "b": [
+            18,
+            19,
+            20
+          ],
+          "e": [
+            19,
+            20
+          ],
+          "l": "und der muss rechtzeitig",
+          "gb": "আর সেটা সময়মতো",
+          "ge": "and must",
+          "n": ""
+        },
+        {
+          "t": "verlängert werden.",
+          "b": [
+            21,
+            22
+          ],
+          "e": [
+            21,
+            22,
+            23,
+            24
+          ],
+          "l": "verlängert werden",
+          "gb": "বাড়াতে হয়",
+          "ge": "extend it on time",
+          "n": ""
+        },
+        {
+          "t": "Wenn bestimmte Voraussetzungen",
+          "b": [
+            23,
+            24
+          ],
+          "e": [
+            25,
+            26,
+            27
+          ],
+          "l": "Wenn bestimmte Voraussetzungen",
+          "gb": "কিছু শর্ত",
+          "ge": "If certain conditions",
+          "n": ""
+        },
+        {
+          "t": "erfüllt sind,",
+          "b": [
+            25,
+            26
+          ],
+          "e": [
+            28,
+            29
+          ],
+          "l": "erfüllt sind",
+          "gb": "পূরণ হলে",
+          "ge": "are met",
+          "n": ""
+        },
+        {
+          "t": "ist später eine dauerhafte Erlaubnis möglich.",
+          "b": [
+            27,
+            28,
+            29,
+            30,
+            31
+          ],
+          "e": [
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36
+          ],
+          "l": "ist später eine dauerhafte Erlaubnis möglich",
+          "gb": "পরে স্থায়ী অনুমতি পাওয়া সম্ভব",
+          "ge": "a permanent permit may be possible later",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "সেই",
+        "শর্তগুলো",
+        "কী",
+        "কী?"
+      ],
+      "en": [
+        "What",
+        "are",
+        "those",
+        "conditions?"
+      ],
+      "de": [
+        {
+          "t": "Welche Voraussetzungen",
+          "b": [
+            1,
+            2,
+            3
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Welche Voraussetzungen",
+          "gb": "শর্তগুলো কী কী",
+          "ge": "What are",
+          "n": ""
+        },
+        {
+          "t": "sind das?",
+          "b": [
+            0
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "sind das",
+          "gb": "সেই",
+          "ge": "those conditions",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Frau Hoffmann",
+      "bn": [
+        "উদাহরণ",
+        "হিসেবে",
+        "প্রায়ই",
+        "বলা",
+        "হয়:",
+        "কয়েক",
+        "বছর",
+        "এখানে",
+        "বসবাস,",
+        "নিজের",
+        "জীবিকা",
+        "নিজে",
+        "চালানো,",
+        "জার্মান",
+        "ভাষার",
+        "যথেষ্ট",
+        "জ্ঞান,",
+        "বীমা",
+        "এবং",
+        "পেনশন-অবদানের",
+        "প্রমাণ।",
+        "সঠিক",
+        "বিস্তারিত",
+        "অফিসিয়াল",
+        "সাইটে",
+        "বা",
+        "Ausländerbehörde-তে",
+        "দেখে",
+        "নিন।"
+      ],
+      "en": [
+        "As",
+        "examples",
+        "it",
+        "is",
+        "often",
+        "said:",
+        "several",
+        "years",
+        "of",
+        "residence",
+        "here,",
+        "supporting",
+        "yourself,",
+        "enough",
+        "knowledge",
+        "of",
+        "German,",
+        "and",
+        "proof",
+        "of",
+        "insurance",
+        "and",
+        "pension",
+        "contributions.",
+        "Check",
+        "the",
+        "exact",
+        "details",
+        "on",
+        "the",
+        "official",
+        "site",
+        "or",
+        "at",
+        "the",
+        "immigration",
+        "office."
+      ],
+      "de": [
+        {
+          "t": "Als Beispiele nennt man oft:",
+          "b": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "e": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "l": "Als Beispiele nennt man oft",
+          "gb": "উদাহরণ হিসেবে প্রায়ই বলা হয়",
+          "ge": "As examples it is often said",
+          "n": ""
+        },
+        {
+          "t": "mehrere Jahre Aufenthalt,",
+          "b": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "e": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "l": "mehrere Jahre Aufenthalt",
+          "gb": "কয়েক বছর এখানে বসবাস",
+          "ge": "several years of residence",
+          "n": ""
+        },
+        {
+          "t": "den Lebensunterhalt",
+          "b": [
+            9,
+            10
+          ],
+          "e": [
+            11
+          ],
+          "l": "den Lebensunterhalt",
+          "gb": "নিজের জীবিকা",
+          "ge": "supporting",
+          "n": ""
+        },
+        {
+          "t": "selbst sichern,",
+          "b": [
+            11,
+            12
+          ],
+          "e": [
+            12
+          ],
+          "l": "selbst sichern",
+          "gb": "নিজে চালানো",
+          "ge": "yourself",
+          "n": ""
+        },
+        {
+          "t": "genug Deutschkenntnisse,",
+          "b": [
+            13,
+            14,
+            15,
+            16
+          ],
+          "e": [
+            13,
+            14,
+            15,
+            16
+          ],
+          "l": "genug Deutschkenntnisse",
+          "gb": "জার্মান ভাষার যথেষ্ট জ্ঞান",
+          "ge": "enough knowledge of German",
+          "n": ""
+        },
+        {
+          "t": "Versicherung und Nachweise",
+          "b": [
+            17,
+            18,
+            20
+          ],
+          "e": [
+            18,
+            19,
+            20
+          ],
+          "l": "Versicherung und Nachweise",
+          "gb": "বীমা এবং প্রমাণ",
+          "ge": "proof of insurance",
+          "n": ""
+        },
+        {
+          "t": "über Rentenbeiträge.",
+          "b": [
+            19
+          ],
+          "e": [
+            17,
+            22,
+            23
+          ],
+          "l": "über Rentenbeiträge",
+          "gb": "পেনশন-অবদানের",
+          "ge": "and pension contributions",
+          "n": ""
+        },
+        {
+          "t": "Die genauen Details",
+          "b": [
+            21,
+            22
+          ],
+          "e": [
+            24,
+            25,
+            26,
+            27
+          ],
+          "l": "Die genauen Details",
+          "gb": "সঠিক বিস্তারিত",
+          "ge": "Check the exact details",
+          "n": ""
+        },
+        {
+          "t": "prüft man auf der offiziellen Seite",
+          "b": [
+            23,
+            24
+          ],
+          "e": [
+            28,
+            29,
+            30,
+            31
+          ],
+          "l": "prüft man auf der offiziellen Seite",
+          "gb": "অফিসিয়াল সাইটে",
+          "ge": "on the official site",
+          "n": ""
+        },
+        {
+          "t": "oder bei der Ausländerbehörde.",
+          "b": [
+            25,
+            26,
+            27,
+            28
+          ],
+          "e": [
+            32,
+            33,
+            34,
+            35,
+            36
+          ],
+          "l": "oder bei der Ausländerbehörde",
+          "gb": "বা Ausländerbehörde-তে দেখে নিন",
+          "ge": "or at the immigration office",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আর",
+        "নাগরিকত্ব?",
+        "সেটা",
+        "কি",
+        "সম্ভব?"
+      ],
+      "en": [
+        "And",
+        "citizenship?",
+        "Is",
+        "that",
+        "possible?"
+      ],
+      "de": [
+        {
+          "t": "Und die Einbürgerung?",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Und die Einbürgerung",
+          "gb": "আর নাগরিকত্ব",
+          "ge": "And citizenship",
+          "n": ""
+        },
+        {
+          "t": "Ist die möglich?",
+          "b": [
+            2,
+            3,
+            4
+          ],
+          "e": [
+            2,
+            3,
+            4
+          ],
+          "l": "Ist die möglich",
+          "gb": "সেটা কি সম্ভব",
+          "ge": "Is that possible",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Frau Hoffmann",
+      "bn": [
+        "হ্যাঁ,",
+        "নির্দিষ্ট",
+        "শর্ত",
+        "পূরণ",
+        "করলে",
+        "সম্ভব।",
+        "এখানে",
+        "নিয়ম",
+        "সময়ে",
+        "সময়ে",
+        "বদলেছে,",
+        "তাই",
+        "শুধুই",
+        "সাম্প্রতিক",
+        "নিয়ম",
+        "মানা",
+        "উচিত।",
+        "সাধারণত",
+        "আবেদনকারীকে",
+        "ভাষার",
+        "প্রমাণ",
+        "দিতে",
+        "হয়",
+        "এবং",
+        "নাগরিকত্ব",
+        "পরীক্ষা",
+        "দিতে",
+        "হয়,",
+        "যেখানে",
+        "সমাজ,",
+        "আইন",
+        "ও",
+        "ইতিহাস",
+        "সম্পর্কে",
+        "প্রশ্ন",
+        "থাকে।"
+      ],
+      "en": [
+        "Yes,",
+        "it",
+        "is",
+        "possible",
+        "if",
+        "certain",
+        "conditions",
+        "are",
+        "met.",
+        "The",
+        "rules",
+        "have",
+        "changed",
+        "from",
+        "time",
+        "to",
+        "time,",
+        "so",
+        "only",
+        "the",
+        "current",
+        "rules",
+        "should",
+        "be",
+        "followed.",
+        "Applicants",
+        "usually",
+        "have",
+        "to",
+        "prove",
+        "their",
+        "language",
+        "skills",
+        "and",
+        "take",
+        "a",
+        "naturalisation",
+        "test",
+        "with",
+        "questions",
+        "on",
+        "society,",
+        "law",
+        "and",
+        "history."
+      ],
+      "de": [
+        {
+          "t": "Ja, es ist möglich,",
+          "b": [
+            0,
+            5
+          ],
+          "e": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "l": "Ja es ist möglich",
+          "gb": "হ্যাঁ সম্ভব",
+          "ge": "Yes it is possible",
+          "n": ""
+        },
+        {
+          "t": "wenn man bestimmte Bedingungen erfüllt.",
+          "b": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "e": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "l": "wenn man bestimmte Bedingungen erfüllt",
+          "gb": "নির্দিষ্ট শর্ত পূরণ করলে",
+          "ge": "if certain conditions are met",
+          "n": ""
+        },
+        {
+          "t": "Die Regeln haben sich",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            9,
+            10,
+            11
+          ],
+          "l": "Die Regeln haben sich",
+          "gb": "এখানে নিয়ম",
+          "ge": "The rules have",
+          "n": ""
+        },
+        {
+          "t": "im Laufe der Zeit geändert,",
+          "b": [
+            8,
+            9,
+            10
+          ],
+          "e": [
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "l": "im Laufe der Zeit geändert",
+          "gb": "সময়ে সময়ে বদলেছে",
+          "ge": "changed from time to time",
+          "n": ""
+        },
+        {
+          "t": "deshalb sollte man",
+          "b": [
+            11
+          ],
+          "e": [
+            17
+          ],
+          "l": "deshalb sollte man",
+          "gb": "তাই",
+          "ge": "so",
+          "n": ""
+        },
+        {
+          "t": "nur die aktuellen Regeln",
+          "b": [
+            12,
+            13,
+            14
+          ],
+          "e": [
+            18,
+            19,
+            20,
+            21
+          ],
+          "l": "nur die aktuellen Regeln",
+          "gb": "শুধুই সাম্প্রতিক নিয়ম",
+          "ge": "only the current rules",
+          "n": ""
+        },
+        {
+          "t": "beachten.",
+          "b": [
+            15,
+            16
+          ],
+          "e": [
+            22,
+            23,
+            24
+          ],
+          "l": "beachten",
+          "gb": "মানা উচিত",
+          "ge": "should be followed",
+          "n": ""
+        },
+        {
+          "t": "Meist muss man",
+          "b": [
+            17,
+            18
+          ],
+          "e": [
+            25,
+            26,
+            27,
+            28
+          ],
+          "l": "Meist muss man",
+          "gb": "সাধারণত আবেদনকারীকে",
+          "ge": "Applicants usually have to",
+          "n": ""
+        },
+        {
+          "t": "Sprachkenntnisse nachweisen",
+          "b": [
+            19,
+            20,
+            21,
+            22
+          ],
+          "e": [
+            29,
+            30,
+            31,
+            32
+          ],
+          "l": "Sprachkenntnisse nachweisen",
+          "gb": "ভাষার প্রমাণ দিতে হয়",
+          "ge": "prove their language skills",
+          "n": ""
+        },
+        {
+          "t": "und einen Einbürgerungstest ablegen,",
+          "b": [
+            23,
+            24,
+            25,
+            26,
+            27
+          ],
+          "e": [
+            33,
+            34,
+            35,
+            36,
+            37
+          ],
+          "l": "und einen Einbürgerungstest ablegen",
+          "gb": "এবং নাগরিকত্ব পরীক্ষা দিতে হয়",
+          "ge": "and take a naturalisation test",
+          "n": ""
+        },
+        {
+          "t": "mit Fragen zu Gesellschaft, Recht und Geschichte.",
+          "b": [
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35
+          ],
+          "e": [
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44
+          ],
+          "l": "mit Fragen zu Gesellschaft Recht und Geschichte",
+          "gb": "যেখানে সমাজ আইন ও ইতিহাস সম্পর্কে প্রশ্ন থাকে",
+          "ge": "with questions on society law and history",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "কোথায়",
+        "নির্ভরযোগ্য",
+        "তথ্য",
+        "পাব?",
+        "আমি",
+        "ভুল",
+        "তথ্যে",
+        "ভয়",
+        "পাই।"
+      ],
+      "en": [
+        "Where",
+        "will",
+        "I",
+        "find",
+        "reliable",
+        "information?",
+        "I",
+        "am",
+        "afraid",
+        "of",
+        "wrong",
+        "information."
+      ],
+      "de": [
+        {
+          "t": "Wo finde ich",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "l": "Wo finde ich",
+          "gb": "আমি কোথায়",
+          "ge": "Where will I find",
+          "n": ""
+        },
+        {
+          "t": "verlässliche Informationen?",
+          "b": [
+            2,
+            3,
+            4
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "verlässliche Informationen",
+          "gb": "নির্ভরযোগ্য তথ্য পাব",
+          "ge": "reliable information",
+          "n": ""
+        },
+        {
+          "t": "Ich habe Angst",
+          "b": [
+            5,
+            8,
+            9
+          ],
+          "e": [
+            6,
+            7,
+            8
+          ],
+          "l": "Ich habe Angst",
+          "gb": "আমি ভয় পাই",
+          "ge": "I am afraid",
+          "n": ""
+        },
+        {
+          "t": "vor falschen Informationen.",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            9,
+            10,
+            11
+          ],
+          "l": "vor falschen Informationen",
+          "gb": "ভুল তথ্যে",
+          "ge": "of wrong information",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Frau Hoffmann",
+      "bn": [
+        "প্রথমে",
+        "অফিসিয়াল",
+        "সরকারি",
+        "সাইট",
+        "দেখুন।",
+        "তারপর",
+        "একটা",
+        "সরকারি-স্বীকৃত",
+        "পরামর্শ",
+        "কেন্দ্রে,",
+        "যেমন",
+        "Migrationsberatung,",
+        "যান;",
+        "সেখানে",
+        "অনেক",
+        "সময়",
+        "বিনামূল্যে",
+        "সাহায্য",
+        "পাওয়া",
+        "যায়।",
+        "কখনো",
+        "ভুয়া",
+        "এজেন্ট",
+        "বা",
+        "অনলাইনের",
+        "গুজবের",
+        "ওপর",
+        "ভরসা",
+        "করবেন",
+        "না।"
+      ],
+      "en": [
+        "First",
+        "look",
+        "at",
+        "official",
+        "government",
+        "sites.",
+        "Then",
+        "go",
+        "to",
+        "a",
+        "recognised",
+        "advice",
+        "centre,",
+        "such",
+        "as",
+        "the",
+        "Migrationsberatung,",
+        "where",
+        "help",
+        "is",
+        "often",
+        "free.",
+        "Never",
+        "rely",
+        "on",
+        "fake",
+        "agents",
+        "or",
+        "online",
+        "rumours."
+      ],
+      "de": [
+        {
+          "t": "Schauen Sie zuerst",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Schauen Sie zuerst",
+          "gb": "প্রথমে",
+          "ge": "First look",
+          "n": ""
+        },
+        {
+          "t": "auf offizielle Seiten",
+          "b": [
+            1,
+            2,
+            3
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "auf offizielle Seiten",
+          "gb": "অফিসিয়াল সরকারি সাইট",
+          "ge": "at official",
+          "n": ""
+        },
+        {
+          "t": "von Behörden.",
+          "b": [
+            4
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "von Behörden",
+          "gb": "দেখুন",
+          "ge": "government sites",
+          "n": ""
+        },
+        {
+          "t": "Dann gehen Sie",
+          "b": [
+            5,
+            12
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "Dann gehen Sie",
+          "gb": "তারপর যান",
+          "ge": "Then go",
+          "n": ""
+        },
+        {
+          "t": "zu einer anerkannten Beratungsstelle,",
+          "b": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "e": [
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "l": "zu einer anerkannten Beratungsstelle",
+          "gb": "একটা সরকারি-স্বীকৃত পরামর্শ কেন্দ্রে",
+          "ge": "to a recognised advice centre",
+          "n": ""
+        },
+        {
+          "t": "zum Beispiel zur Migrationsberatung;",
+          "b": [
+            10,
+            11
+          ],
+          "e": [
+            13,
+            14,
+            15,
+            16
+          ],
+          "l": "zum Beispiel zur Migrationsberatung",
+          "gb": "যেমন Migrationsberatung",
+          "ge": "such as the Migrationsberatung",
+          "n": ""
+        },
+        {
+          "t": "dort bekommt man oft",
+          "b": [
+            13,
+            14,
+            15
+          ],
+          "e": [
+            17,
+            18,
+            19,
+            20
+          ],
+          "l": "dort bekommt man oft",
+          "gb": "সেখানে অনেক সময়",
+          "ge": "where help is often",
+          "n": ""
+        },
+        {
+          "t": "kostenlos Hilfe.",
+          "b": [
+            16,
+            17,
+            18,
+            19
+          ],
+          "e": [
+            21
+          ],
+          "l": "kostenlos Hilfe",
+          "gb": "বিনামূল্যে সাহায্য পাওয়া যায়",
+          "ge": "free",
+          "n": ""
+        },
+        {
+          "t": "Verlassen Sie sich nie",
+          "b": [
+            27,
+            28,
+            29
+          ],
+          "e": [
+            22,
+            23
+          ],
+          "l": "Verlassen Sie sich nie",
+          "gb": "ভরসা করবেন না",
+          "ge": "Never rely",
+          "n": ""
+        },
+        {
+          "t": "auf falsche Agenten oder Gerüchte im Netz.",
+          "b": [
+            21,
+            22,
+            23,
+            24,
+            25,
+            26
+          ],
+          "e": [
+            24,
+            25,
+            26,
+            27,
+            28,
+            29
+          ],
+          "l": "auf falsche Agenten oder Gerüchte im Netz",
+          "gb": "ভুয়া এজেন্ট বা অনলাইনের গুজবের ওপর",
+          "ge": "on fake agents or online rumours",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "Aufenthalt — Überblick (nur allgemein)",
+      "head": [
+        "Begriff",
+        "Bedeutung"
+      ],
+      "rows": [
+        [
+          "Aufenthaltstitel",
+          "Erlaubnis zum Aufenthalt (z. B. zum Studium, zur Arbeit, Familie)"
+        ],
+        [
+          "befristet",
+          "für eine bestimmte Zeit; muss verlängert werden"
+        ],
+        [
+          "Niederlassungserlaubnis",
+          "dauerhafte Aufenthaltserlaubnis, Bedingungen vorhanden"
+        ],
+        [
+          "Einbürgerung",
+          "Erwerb der deutschen Staatsangehörigkeit, Bedingungen vorhanden"
+        ],
+        [
+          "Ausländerbehörde",
+          "zuständige Behörde für Aufenthaltsfragen"
+        ],
+        [
+          "Beratungsstelle",
+          "Hilfe: z. B. Migrationsberatung, Verbraucherzentrale (je nach Thema)"
+        ]
+      ],
+      "note": "এটি আইনি পরামর্শ নয়। নিয়ম, ফি, সময়সীমা ও শর্ত বদলায় এবং আপনার ব্যক্তিগত অবস্থার ওপর নির্ভর করে। সবসময় অফিসিয়াল সাইট বা অনুমোদিত পরামর্শদাতা (Fachberatung) যাচাই করুন।"
+    },
+    {
+      "type": "table",
+      "title": "Behördensprache verstehen",
+      "head": [
+        "Begriff",
+        "Einfach gesagt"
+      ],
+      "rows": [
+        [
+          "beantragen",
+          "einen Antrag stellen"
+        ],
+        [
+          "Voraussetzung",
+          "Bedingung, die erfüllt sein muss"
+        ],
+        [
+          "Nachweis",
+          "Dokument als Beweis"
+        ],
+        [
+          "fristgerecht",
+          "innerhalb der Frist"
+        ],
+        [
+          "bescheinigen",
+          "schriftlich bestätigen"
+        ],
+        [
+          "zuständig",
+          "verantwortlich für diese Aufgabe"
+        ]
+      ],
+      "note": "অচেনা শব্দ থাকলে নির্দ্বিধায় জিজ্ঞাসা করুন: „Könnten Sie das bitte einfacher erklären?“"
+    },
+    {
+      "type": "table",
+      "title": "Passiv + Modalverb in offiziellen Texten",
+      "head": [
+        "Beispiel",
+        "Erklärung"
+      ],
+      "rows": [
+        [
+          "Der Aufenthaltstitel muss verlängert werden.",
+          "Pflicht"
+        ],
+        [
+          "Die Unterlagen können online hochgeladen werden.",
+          "Möglichkeit"
+        ],
+        [
+          "Der Antrag darf nicht vergessen werden.",
+          "Verbot / Warnung"
+        ],
+        [
+          "Der Test soll bestanden werden.",
+          "Erwartung"
+        ]
+      ],
+      "note": "Modalverb + Partizip II + werden। প্রশাসনিক লেখায় খুব বেশি।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "die Einbürgerung",
+      "options": [
+        "বিদেশি-বিষয়ক অফিস",
+        "পরামর্শ কেন্দ্র",
+        "স্থায়ী বসবাসের অনুমতি",
+        "নাগরিকত্ব প্রদান"
+      ],
+      "answer": 3,
+      "why": "die Einbürgerung = নাগরিকত্ব প্রদান।",
+      "word": "einbuergerung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "die Voraussetzung",
+      "options": [
+        "বসবাসের অনুমতি",
+        "জাতীয়তা",
+        "শর্ত",
+        "জীবিকা-খরচ"
+      ],
+      "answer": 2,
+      "why": "die Voraussetzung = শর্ত।",
+      "word": "voraussetzung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "der Nachweis",
+      "options": [
+        "পরামর্শ কেন্দ্র",
+        "প্রমাণ",
+        "নাগরিকত্ব প্রদান",
+        "নাগরিকত্ব পরীক্ষা"
+      ],
+      "answer": 1,
+      "why": "der Nachweis = প্রমাণ।",
+      "word": "nachweis"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Staatsangehörigkeit",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Staatsangehörigkeit।",
+      "word": "staatsangehoerigkeit"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„beantragen“ bedeutet …",
+      "options": [
+        "আবেদন করা",
+        "ফেরত দেওয়া",
+        "কেনা",
+        "ভুলে যাওয়া"
+      ],
+      "answer": 0,
+      "why": "einen Antrag stellen।",
+      "word": "beantragen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Was ist richtig?",
+      "options": [
+        "Der Aufenthaltstitel muss rechtzeitig verlängert werden.",
+        "Man muss nie etwas verlängern.",
+        "Das Visum gilt für immer.",
+        "Niemand braucht Papiere."
+      ],
+      "answer": 0,
+      "why": "Modalverb + Passiv।",
+      "word": "verlaengern"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Wo findet man verlässliche Informationen?",
+      "options": [
+        "bei offiziellen Behörden und anerkannten Beratungsstellen",
+        "bei Gerüchten im Netz",
+        "bei unbekannten Agenten",
+        "nirgends"
+      ],
+      "answer": 0,
+      "why": "offizielle Quellen।",
+      "word": "beratungsstelle"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Welche Aussage ist angemessen?",
+      "options": [
+        "Ich darf keine Rechtsberatung geben.",
+        "Ich garantiere dir den Pass.",
+        "Das ist ganz einfach.",
+        "Das stimmt immer."
+      ],
+      "answer": 0,
+      "why": "hedged।",
+      "word": "aufenthaltstitel"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Lebensunterhalt“ bedeutet …",
+      "options": [
+        "জীবিকা-খরচ",
+        "ছুটি",
+        "ঋণ",
+        "ভাড়া"
+      ],
+      "answer": 0,
+      "why": "Lebensunterhalt।",
+      "word": "lebensunterhalt"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „ওটা সময়মতো বাড়াতে হবে।“",
+      "tiles": [
+        "muss",
+        "werden.",
+        "verlängert",
+        "Er",
+        "rechtzeitig"
+      ],
+      "answer": [
+        "Er",
+        "muss",
+        "rechtzeitig",
+        "verlängert",
+        "werden."
+      ],
+      "why": "Modalverb + Passiv।",
+      "word": "auslaenderbehoerde"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

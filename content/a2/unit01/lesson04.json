@@ -1,0 +1,1274 @@
+{
+  "level": "A2",
+  "unit": 1,
+  "minutes": 16,
+  "lesson": 4,
+  "id": "a2-u01-l04",
+  "title": {
+    "de": "Früher und heute",
+    "bn": "war, hatte, konnte — Präteritum",
+    "en": "Then and now: preterite of sein, haben and modals"
+  },
+  "hook": {
+    "de": "Früher war alles besser.",
+    "who": "Redensart",
+    "bn": "আগে সবকিছুই ভালো ছিল — এমন কথা সবাই বলে।",
+    "en": "The good old days."
+  },
+  "goals": [
+    "sein ও haben-এর অতীত: war, hatte",
+    "Modalverben-এর অতীত: konnte, wollte, musste",
+    "ছোটবেলার কথা বলা: Als Kind …",
+    "Perfekt আর Präteritum কখন কোনটা"
+  ],
+  "words": [
+    {
+      "id": "frueher",
+      "de": "früher",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "আগে, আগের দিনে",
+      "en": "formerly, in the past"
+    },
+    {
+      "id": "damals",
+      "de": "damals",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "তখন (অতীতে)",
+      "en": "back then"
+    },
+    {
+      "id": "als",
+      "de": "als",
+      "pos": "সংযোজক",
+      "bn": "যখন (অতীতের একবারের সময়)",
+      "en": "when (once, in the past)"
+    },
+    {
+      "id": "kindheit",
+      "de": "Kindheit",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "শৈশব",
+      "en": "childhood"
+    },
+    {
+      "id": "heimat",
+      "de": "Heimat",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "মাতৃভূমি, নিজের দেশ",
+      "en": "homeland"
+    },
+    {
+      "id": "vermissen",
+      "de": "vermissen",
+      "pos": "ক্রিয়া",
+      "bn": "মিস করা, অভাব বোধ করা",
+      "en": "to miss"
+    },
+    {
+      "id": "erinnerung",
+      "de": "Erinnerung",
+      "art": "die",
+      "pl": "die Erinnerungen",
+      "pos": "বিশেষ্য",
+      "bn": "স্মৃতি",
+      "en": "memory"
+    },
+    {
+      "id": "garten",
+      "de": "Garten",
+      "art": "der",
+      "pl": "die Gärten",
+      "pos": "বিশেষ্য",
+      "bn": "বাগান",
+      "en": "garden"
+    },
+    {
+      "id": "jung",
+      "de": "jung",
+      "pos": "বিশেষণ",
+      "bn": "তরুণ, অল্পবয়সী",
+      "en": "young"
+    },
+    {
+      "id": "laut",
+      "de": "laut",
+      "pos": "বিশেষণ",
+      "bn": "কোলাহলপূর্ণ, জোরে",
+      "en": "loud"
+    },
+    {
+      "id": "ruhig",
+      "de": "ruhig",
+      "pos": "বিশেষণ",
+      "bn": "শান্ত",
+      "en": "quiet"
+    },
+    {
+      "id": "grosseltern",
+      "de": "Großeltern",
+      "art": "die",
+      "pos": "বিশেষ্য, শুধু বহুবচন",
+      "bn": "দাদা-দাদি / নানা-নানি",
+      "en": "grandparents"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Lena",
+      "bn": [
+        "ঢাকায়",
+        "কেমন",
+        "ছিল?"
+      ],
+      "en": [
+        "How",
+        "was",
+        "it",
+        "in",
+        "Dhaka?"
+      ],
+      "de": [
+        {
+          "t": "Wie",
+          "b": [
+            1
+          ],
+          "e": [
+            0
+          ],
+          "l": "Wie",
+          "gb": "কেমন",
+          "ge": "How",
+          "n": ""
+        },
+        {
+          "t": "war",
+          "b": [
+            2
+          ],
+          "e": [
+            1
+          ],
+          "l": "sein",
+          "gb": "ছিল",
+          "ge": "was",
+          "n": ""
+        },
+        {
+          "t": "es",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "es",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "it",
+          "n": ""
+        },
+        {
+          "t": "in",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "in",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "in",
+          "n": ""
+        },
+        {
+          "t": "Dhaka?",
+          "s": "Dhaka",
+          "b": [
+            0
+          ],
+          "e": [
+            4
+          ],
+          "l": "Dhaka",
+          "gb": "ঢাকায়",
+          "ge": "Dhaka",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "হইচইয়ের,",
+        "কিন্তু",
+        "সুন্দর!",
+        "আমি",
+        "সেখানে",
+        "শিক্ষার্থী",
+        "ছিলাম।"
+      ],
+      "en": [
+        "Loud,",
+        "but",
+        "nice!",
+        "I",
+        "was",
+        "a",
+        "student",
+        "there."
+      ],
+      "de": [
+        {
+          "t": "Laut,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "laut",
+          "gb": "হইচইয়ের",
+          "ge": "Loud",
+          "n": ""
+        },
+        {
+          "t": "aber",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "aber",
+          "gb": "কিন্তু",
+          "ge": "but",
+          "n": ""
+        },
+        {
+          "t": "schön!",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "schön",
+          "gb": "সুন্দর",
+          "ge": "nice",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "war",
+          "b": [
+            6
+          ],
+          "e": [
+            4
+          ],
+          "l": "sein",
+          "gb": "ছিলাম",
+          "ge": "was",
+          "n": "ich war — Präteritum"
+        },
+        {
+          "t": "dort",
+          "b": [
+            4
+          ],
+          "e": [
+            7
+          ],
+          "l": "dort",
+          "gb": "সেখানে",
+          "ge": "there",
+          "n": ""
+        },
+        {
+          "t": "Student.",
+          "b": [
+            5
+          ],
+          "e": [
+            6
+          ],
+          "l": "Student",
+          "gb": "শিক্ষার্থী",
+          "ge": "student",
+          "n": "পেশার আগে ein বসে না"
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "আর",
+        "আগে?",
+        "তখন",
+        "তুমি",
+        "কোথায়",
+        "থাকতে?"
+      ],
+      "en": [
+        "And",
+        "before?",
+        "Where",
+        "did",
+        "you",
+        "live",
+        "back",
+        "then?"
+      ],
+      "de": [
+        {
+          "t": "Und",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "früher?",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "früher",
+          "gb": "আগে",
+          "ge": "before",
+          "n": ""
+        },
+        {
+          "t": "Wo",
+          "b": [
+            4
+          ],
+          "e": [
+            2
+          ],
+          "l": "Wo",
+          "gb": "কোথায়",
+          "ge": "Where",
+          "n": ""
+        },
+        {
+          "t": "hast",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "haben",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "did",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "damals",
+          "b": [
+            2
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "damals",
+          "gb": "তখন",
+          "ge": "back then",
+          "n": ""
+        },
+        {
+          "t": "gewohnt?",
+          "b": [
+            5
+          ],
+          "e": [
+            5
+          ],
+          "l": "wohnen",
+          "gb": "থাকতে",
+          "ge": "live",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "ছোটবেলায়",
+        "আমার",
+        "একটি",
+        "বাগান",
+        "আর",
+        "অনেক",
+        "বন্ধু",
+        "ছিল।"
+      ],
+      "en": [
+        "As",
+        "a",
+        "child",
+        "I",
+        "had",
+        "a",
+        "garden",
+        "and",
+        "many",
+        "friends."
+      ],
+      "de": [
+        {
+          "t": "Als",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "als",
+          "gb": "ছোটবেলায়",
+          "ge": "As",
+          "n": ""
+        },
+        {
+          "t": "Kind",
+          "b": [
+            0
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "Kind",
+          "gb": "ছোটবেলায়",
+          "ge": "a child",
+          "n": "Als Kind = ছোটবেলায় (যখন ছোট ছিলাম)"
+        },
+        {
+          "t": "hatte",
+          "b": [
+            7
+          ],
+          "e": [
+            4
+          ],
+          "l": "haben",
+          "gb": "ছিল",
+          "ge": "had",
+          "n": "ich hatte — Präteritum von haben"
+        },
+        {
+          "t": "ich",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "ich",
+          "gb": "আমার",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "einen",
+          "b": [
+            2
+          ],
+          "e": [
+            5
+          ],
+          "l": "ein",
+          "gb": "একটি",
+          "ge": "a",
+          "n": ""
+        },
+        {
+          "t": "Garten",
+          "b": [
+            3
+          ],
+          "e": [
+            6
+          ],
+          "l": "Garten",
+          "gb": "বাগান",
+          "ge": "garden",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            4
+          ],
+          "e": [
+            7
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "viele",
+          "b": [
+            5
+          ],
+          "e": [
+            8
+          ],
+          "l": "viele",
+          "gb": "অনেক",
+          "ge": "many",
+          "n": ""
+        },
+        {
+          "t": "Freunde.",
+          "b": [
+            6
+          ],
+          "e": [
+            9
+          ],
+          "l": "Freunde",
+          "gb": "বন্ধু",
+          "ge": "friends",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "তুমি",
+        "কি",
+        "ঢাকাকে",
+        "মিস",
+        "করো?"
+      ],
+      "en": [
+        "Do",
+        "you",
+        "miss",
+        "Dhaka?"
+      ],
+      "de": [
+        {
+          "t": "Vermisst",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            2
+          ],
+          "l": "vermissen",
+          "gb": "মিস করো",
+          "ge": "miss",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "Dhaka?",
+          "s": "Dhaka",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "Dhaka",
+          "gb": "ঢাকাকে",
+          "ge": "Dhaka",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "হ্যাঁ,",
+        "আমি",
+        "আমার",
+        "পরিবার",
+        "আর",
+        "আমার",
+        "মাতৃভূমিকে",
+        "মিস",
+        "করি।"
+      ],
+      "en": [
+        "Yes,",
+        "I",
+        "miss",
+        "my",
+        "family",
+        "and",
+        "my",
+        "homeland."
+      ],
+      "de": [
+        {
+          "t": "Ja,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ja",
+          "gb": "হ্যাঁ",
+          "ge": "Yes",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "vermisse",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            2
+          ],
+          "l": "vermissen",
+          "gb": "মিস করি",
+          "ge": "miss",
+          "n": ""
+        },
+        {
+          "t": "meine",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "mein",
+          "gb": "আমার",
+          "ge": "my",
+          "n": ""
+        },
+        {
+          "t": "Familie",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "Familie",
+          "gb": "পরিবার",
+          "ge": "family",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "meine",
+          "b": [
+            5
+          ],
+          "e": [
+            6
+          ],
+          "l": "mein",
+          "gb": "আমার",
+          "ge": "my",
+          "n": ""
+        },
+        {
+          "t": "Heimat.",
+          "b": [
+            6
+          ],
+          "e": [
+            7
+          ],
+          "l": "Heimat",
+          "gb": "মাতৃভূমিকে",
+          "ge": "homeland",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "ছোটবেলায়",
+        "আমি",
+        "সাঁতার",
+        "কাটতে",
+        "পারতাম",
+        "না।",
+        "আর",
+        "তুমি?"
+      ],
+      "en": [
+        "As",
+        "a",
+        "child",
+        "I",
+        "could",
+        "not",
+        "swim.",
+        "And",
+        "you?"
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "konnte",
+          "b": [
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "können",
+          "gb": "পারতাম",
+          "ge": "could",
+          "n": "können → ich konnte (Umlaut নেই)"
+        },
+        {
+          "t": "als",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "als",
+          "gb": "ছোটবেলায়",
+          "ge": "As",
+          "n": ""
+        },
+        {
+          "t": "Kind",
+          "b": [
+            0
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "Kind",
+          "gb": "ছোটবেলায়",
+          "ge": "a child",
+          "n": ""
+        },
+        {
+          "t": "nicht",
+          "b": [
+            5
+          ],
+          "e": [
+            5
+          ],
+          "l": "nicht",
+          "gb": "না",
+          "ge": "not",
+          "n": ""
+        },
+        {
+          "t": "schwimmen.",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            6
+          ],
+          "l": "schwimmen",
+          "gb": "সাঁতার কাটতে",
+          "ge": "swim",
+          "n": ""
+        },
+        {
+          "t": "Und",
+          "b": [
+            6
+          ],
+          "e": [
+            7
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "du?",
+          "b": [
+            7
+          ],
+          "e": [
+            8
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "সাঁতার",
+        "জানতাম।",
+        "কিন্তু",
+        "আমাকে",
+        "প্রায়ই",
+        "পড়তে",
+        "হতো।"
+      ],
+      "en": [
+        "I",
+        "could",
+        "swim.",
+        "But",
+        "I",
+        "often",
+        "had",
+        "to",
+        "study."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "konnte",
+          "b": [
+            2
+          ],
+          "e": [
+            1
+          ],
+          "l": "können",
+          "gb": "জানতাম",
+          "ge": "could",
+          "n": ""
+        },
+        {
+          "t": "schwimmen.",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "schwimmen",
+          "gb": "সাঁতার",
+          "ge": "swim",
+          "n": ""
+        },
+        {
+          "t": "Aber",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "Aber",
+          "gb": "কিন্তু",
+          "ge": "But",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "ich",
+          "gb": "আমাকে",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "musste",
+          "b": [
+            7
+          ],
+          "e": [
+            6
+          ],
+          "l": "müssen",
+          "gb": "হতো",
+          "ge": "had",
+          "n": "müssen → ich musste"
+        },
+        {
+          "t": "oft",
+          "b": [
+            5
+          ],
+          "e": [
+            5
+          ],
+          "l": "oft",
+          "gb": "প্রায়ই",
+          "ge": "often",
+          "n": ""
+        },
+        {
+          "t": "lernen.",
+          "b": [
+            6
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "lernen",
+          "gb": "পড়তে",
+          "ge": "to study",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "conjugation",
+      "intro": "sein ও haben-এর Präteritum। ich ও er/sie/es একই রূপ।",
+      "verbs": [
+        "sein",
+        "haben"
+      ],
+      "note": "Wie war es? — Es war schön. / Ich hatte keine Zeit.",
+      "rows": [
+        {
+          "pron": "ich",
+          "stems": [
+            "war",
+            "hatte"
+          ],
+          "ends": [
+            "",
+            ""
+          ],
+          "bn": "আমি ছিলাম / আমার ছিল"
+        },
+        {
+          "pron": "du",
+          "stems": [
+            "war",
+            "hatte"
+          ],
+          "ends": [
+            "st",
+            "st"
+          ],
+          "bn": "তুমি ছিলে / তোমার ছিল"
+        },
+        {
+          "pron": "er / sie / es",
+          "stems": [
+            "war",
+            "hatte"
+          ],
+          "ends": [
+            "",
+            ""
+          ],
+          "bn": "সে ছিল / তার ছিল"
+        },
+        {
+          "pron": "wir",
+          "stems": [
+            "war",
+            "hatte"
+          ],
+          "ends": [
+            "en",
+            "n"
+          ],
+          "bn": "আমরা ছিলাম"
+        },
+        {
+          "pron": "ihr",
+          "stems": [
+            "war",
+            "hatte"
+          ],
+          "ends": [
+            "t",
+            "t"
+          ],
+          "bn": "তোমরা ছিলে"
+        },
+        {
+          "pron": "sie / Sie",
+          "stems": [
+            "war",
+            "hatte"
+          ],
+          "ends": [
+            "en",
+            "n"
+          ],
+          "bn": "তারা / আপনি ছিলেন"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Modalverben im Präteritum",
+      "head": [
+        "Infinitiv",
+        "ich / er",
+        "wir / sie"
+      ],
+      "rows": [
+        [
+          "können",
+          "konnte",
+          "konnten"
+        ],
+        [
+          "wollen",
+          "wollte",
+          "wollten"
+        ],
+        [
+          "müssen",
+          "musste",
+          "mussten"
+        ],
+        [
+          "dürfen",
+          "durfte",
+          "durften"
+        ],
+        [
+          "sollen",
+          "sollte",
+          "sollten"
+        ]
+      ],
+      "note": "Umlaut থাকে না: können → konnte, müssen → musste। ich ও er একই রূপ।"
+    },
+    {
+      "type": "text",
+      "title": "Perfekt নাকি Präteritum?",
+      "text": "মুখের কথায়: sein, haben ও Modalverben-এ Präteritum (war, hatte, konnte, wollte, musste), বাকি প্রায় সব ক্রিয়ায় Perfekt (Ich habe gelernt, ich bin gefahren)। লেখায় ও গল্পে বেশিরভাগ ক্রিয়ায় Präteritum চলে — সেটা B1-এ শিখবেন। „als“ = যখন, অতীতের একবারের ঘটনা বা সময়: „Als Kind …“, „Als ich in Dhaka war …“।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "die Heimat",
+      "options": [
+        "আগে",
+        "যখন",
+        "মিস করা",
+        "মাতৃভূমি"
+      ],
+      "answer": 3,
+      "why": "die Heimat = মাতৃভূমি।",
+      "word": "heimat"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "vermissen",
+      "options": [
+        "মিস করা",
+        "শৈশব",
+        "বাগান",
+        "শান্ত"
+      ],
+      "answer": 0,
+      "why": "vermissen = মিস করা।",
+      "word": "vermissen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "früher",
+      "options": [
+        "দাদা-দাদি / নানা-নানি",
+        "শৈশব",
+        "স্মৃতি",
+        "আগে"
+      ],
+      "answer": 3,
+      "why": "früher = আগে।",
+      "word": "frueher"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Erinnerung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Erinnerung। বহুবচন: die Erinnerungen।",
+      "word": "erinnerung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ich ___ gestern müde.",
+      "options": [
+        "war",
+        "bin",
+        "habe",
+        "hatte"
+      ],
+      "answer": 0,
+      "why": "গতকাল = অতীত: ich war।",
+      "word": "frueher"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Als Kind ___ ich einen Garten.",
+      "options": [
+        "hatte",
+        "war",
+        "habe",
+        "hattest"
+      ],
+      "answer": 0,
+      "why": "haben-এর অতীত: ich hatte।",
+      "word": "kindheit"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Du ___ damals jung.",
+      "options": [
+        "warst",
+        "war",
+        "bist",
+        "waren"
+      ],
+      "answer": 0,
+      "why": "du + sein (অতীত) → warst।",
+      "word": "damals"
+    },
+    {
+      "type": "order",
+      "prompt": "শব্দ সাজিয়ে বাক্য বানান: „ছোটবেলায় আমার একটি বাগান ছিল।“",
+      "tiles": [
+        "Garten.",
+        "einen",
+        "ich",
+        "hatte",
+        "Kind",
+        "Als"
+      ],
+      "answer": [
+        "Als",
+        "Kind",
+        "hatte",
+        "ich",
+        "einen",
+        "Garten."
+      ],
+      "why": "Als Kind hatte ich einen Garten।",
+      "word": "garten"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

@@ -1,0 +1,1408 @@
+{
+  "level": "A2",
+  "unit": 10,
+  "minutes": 16,
+  "lesson": 3,
+  "id": "a2-u10-l03",
+  "title": {
+    "de": "Ein Konto eröffnen",
+    "bn": "ব্যাংক অ্যাকাউন্ট খোলা",
+    "en": "Opening a bank account"
+  },
+  "hook": {
+    "de": "Wer den Pfennig nicht ehrt, ist des Talers nicht wert.",
+    "who": "Sprichwort",
+    "bn": "যে সামান্য পয়সার মূল্য দেয় না, সে বড় অঙ্কেরও যোগ্য নয়।",
+    "en": "Take care of the pennies and the pounds will take care of themselves."
+  },
+  "goals": [
+    "Girokonto খোলার কথা বলা",
+    "IBAN, PIN, Überweisung, Gebühr",
+    "abheben (ভাঙা ক্রিয়া), überweisen (অভাঙা)",
+    "বিদেশে টাকা পাঠানোর প্রশ্ন"
+  ],
+  "words": [
+    {
+      "id": "girokonto",
+      "de": "Girokonto",
+      "art": "das",
+      "pl": "die Girokonten",
+      "pos": "বিশেষ্য",
+      "bn": "চলতি হিসাব (বেতন, বিল)",
+      "en": "current account"
+    },
+    {
+      "id": "eroeffnen",
+      "de": "eröffnen",
+      "pos": "ক্রিয়া · hat eröffnet",
+      "bn": "খোলা (হিসাব)",
+      "en": "to open (an account)"
+    },
+    {
+      "id": "iban",
+      "de": "IBAN",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "আইবিএএন (আন্তর্জাতিক হিসাব নম্বর)",
+      "en": "IBAN"
+    },
+    {
+      "id": "ueberweisung",
+      "de": "Überweisung",
+      "art": "die",
+      "pl": "die Überweisungen",
+      "pos": "বিশেষ্য",
+      "bn": "ট্রান্সফার",
+      "en": "transfer"
+    },
+    {
+      "id": "ueberweisen",
+      "de": "überweisen",
+      "pos": "ক্রিয়া · hat überwiesen",
+      "bn": "ট্রান্সফার করা",
+      "en": "to transfer"
+    },
+    {
+      "id": "abheben",
+      "de": "abheben",
+      "pos": "ক্রিয়া · hat abgehoben",
+      "bn": "টাকা তোলা",
+      "en": "to withdraw"
+    },
+    {
+      "id": "einzahlen",
+      "de": "einzahlen",
+      "pos": "ক্রিয়া · hat eingezahlt",
+      "bn": "জমা দেওয়া",
+      "en": "to pay in"
+    },
+    {
+      "id": "gebuehr",
+      "de": "Gebühr",
+      "art": "die",
+      "pl": "die Gebühren",
+      "pos": "বিশেষ্য",
+      "bn": "ফি",
+      "en": "fee"
+    },
+    {
+      "id": "kontoauszug",
+      "de": "Kontoauszug",
+      "art": "der",
+      "pl": "die Kontoauszüge",
+      "pos": "বিশেষ্য",
+      "bn": "হিসাব বিবরণী",
+      "en": "bank statement"
+    },
+    {
+      "id": "pin",
+      "de": "PIN",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "পিন নম্বর",
+      "en": "PIN"
+    },
+    {
+      "id": "bankkarte",
+      "de": "Bankkarte",
+      "art": "die",
+      "pl": "die Bankkarten",
+      "pos": "বিশেষ্য",
+      "bn": "ব্যাংক কার্ড",
+      "en": "bank card"
+    },
+    {
+      "id": "bargeld",
+      "de": "Bargeld",
+      "art": "das",
+      "pos": "বিশেষ্য",
+      "bn": "নগদ টাকা",
+      "en": "cash"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Saheb",
+      "bn": [
+        "শুভ",
+        "দিন,",
+        "আমি",
+        "একটি",
+        "Girokonto",
+        "খুলতে",
+        "চাই।"
+      ],
+      "en": [
+        "Good",
+        "day,",
+        "I",
+        "would",
+        "like",
+        "to",
+        "open",
+        "a",
+        "current",
+        "account."
+      ],
+      "de": [
+        {
+          "t": "Guten Tag,",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Guten Tag",
+          "gb": "শুভ দিন",
+          "ge": "Good day",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "möchte",
+          "b": [
+            6
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "möchte",
+          "gb": "চাই",
+          "ge": "would like",
+          "n": ""
+        },
+        {
+          "t": "ein Girokonto",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            7,
+            8,
+            9
+          ],
+          "l": "Girokonto",
+          "gb": "একটি Girokonto",
+          "ge": "a current account",
+          "n": ""
+        },
+        {
+          "t": "eröffnen.",
+          "b": [
+            5
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "eröffnen",
+          "gb": "খুলতে",
+          "ge": "to open",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Berater",
+      "bn": [
+        "অবশ্যই।",
+        "আপনার",
+        "সাথে",
+        "পাসপোর্ট",
+        "আর",
+        "নিবন্ধনের",
+        "প্রমাণপত্র",
+        "আছে?"
+      ],
+      "en": [
+        "Of",
+        "course.",
+        "Do",
+        "you",
+        "have",
+        "your",
+        "passport",
+        "and",
+        "registration",
+        "certificate",
+        "with",
+        "you?"
+      ],
+      "de": [
+        {
+          "t": "Gern.",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Gern",
+          "gb": "অবশ্যই",
+          "ge": "Of course",
+          "n": ""
+        },
+        {
+          "t": "Haben",
+          "b": [
+            7
+          ],
+          "e": [
+            2
+          ],
+          "l": "Haben",
+          "gb": "আছে",
+          "ge": "Do",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "Sie",
+          "gb": "আপনার",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "Ihren Reisepass",
+          "b": [
+            3
+          ],
+          "e": [
+            4,
+            5,
+            6
+          ],
+          "l": "Ihren Reisepass",
+          "gb": "পাসপোর্ট",
+          "ge": "have your passport",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            4
+          ],
+          "e": [
+            7
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "die Meldebescheinigung",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            8,
+            9
+          ],
+          "l": "Meldebescheinigung",
+          "gb": "নিবন্ধনের প্রমাণপত্র",
+          "ge": "registration certificate",
+          "n": ""
+        },
+        {
+          "t": "dabei?",
+          "b": [
+            2
+          ],
+          "e": [
+            10,
+            11
+          ],
+          "l": "dabei",
+          "gb": "সাথে",
+          "ge": "with you",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "হ্যাঁ,",
+        "দুটোই",
+        "আছে।",
+        "মাসে",
+        "এই",
+        "অ্যাকাউন্টের",
+        "ফি",
+        "কত?"
+      ],
+      "en": [
+        "Yes,",
+        "I",
+        "have",
+        "both.",
+        "How",
+        "much",
+        "is",
+        "the",
+        "monthly",
+        "fee",
+        "for",
+        "this",
+        "account?"
+      ],
+      "de": [
+        {
+          "t": "Ja,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ja",
+          "gb": "হ্যাঁ",
+          "ge": "Yes",
+          "n": ""
+        },
+        {
+          "t": "beides.",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            1,
+            2,
+            3
+          ],
+          "l": "beides",
+          "gb": "দুটোই আছে",
+          "ge": "I have both",
+          "n": ""
+        },
+        {
+          "t": "Wie hoch",
+          "b": [
+            7
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "Wie hoch",
+          "gb": "কত",
+          "ge": "How much",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            6
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "die Gebühr",
+          "b": [
+            6
+          ],
+          "e": [
+            7,
+            9
+          ],
+          "l": "Gebühr",
+          "gb": "ফি",
+          "ge": "the fee",
+          "n": ""
+        },
+        {
+          "t": "für dieses Konto",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            10,
+            11,
+            12
+          ],
+          "l": "für dieses Konto",
+          "gb": "এই অ্যাকাউন্টের",
+          "ge": "for this account",
+          "n": ""
+        },
+        {
+          "t": "im Monat?",
+          "b": [
+            3
+          ],
+          "e": [
+            8
+          ],
+          "l": "im Monat",
+          "gb": "মাসে",
+          "ge": "monthly",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Berater",
+      "bn": [
+        "এই",
+        "অ্যাকাউন্টে",
+        "মাসে",
+        "চার",
+        "ইউরো",
+        "ফি",
+        "আছে।",
+        "এর",
+        "জন্য",
+        "আপনি",
+        "একটি",
+        "ব্যাংক",
+        "কার্ড",
+        "পাবেন।"
+      ],
+      "en": [
+        "This",
+        "account",
+        "has",
+        "a",
+        "fee",
+        "of",
+        "four",
+        "euros",
+        "per",
+        "month.",
+        "For",
+        "that",
+        "you",
+        "receive",
+        "a",
+        "bank",
+        "card."
+      ],
+      "de": [
+        {
+          "t": "Das Konto",
+          "b": [
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Das Konto",
+          "gb": "অ্যাকাউন্টে",
+          "ge": "This account",
+          "n": ""
+        },
+        {
+          "t": "hat",
+          "b": [
+            6
+          ],
+          "e": [
+            2
+          ],
+          "l": "hat",
+          "gb": "আছে",
+          "ge": "has",
+          "n": ""
+        },
+        {
+          "t": "eine Gebühr",
+          "b": [
+            5
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "eine Gebühr",
+          "gb": "ফি",
+          "ge": "a fee",
+          "n": ""
+        },
+        {
+          "t": "von vier Euro",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            5,
+            6,
+            7
+          ],
+          "l": "von vier Euro",
+          "gb": "চার ইউরো",
+          "ge": "of four euros",
+          "n": ""
+        },
+        {
+          "t": "im Monat.",
+          "b": [
+            2
+          ],
+          "e": [
+            8,
+            9
+          ],
+          "l": "im Monat",
+          "gb": "মাসে",
+          "ge": "per month",
+          "n": ""
+        },
+        {
+          "t": "Dafür",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            10,
+            11
+          ],
+          "l": "Dafür",
+          "gb": "এর জন্য",
+          "ge": "For that",
+          "n": ""
+        },
+        {
+          "t": "bekommen",
+          "b": [
+            13
+          ],
+          "e": [
+            13
+          ],
+          "l": "bekommen",
+          "gb": "পাবেন",
+          "ge": "receive",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [
+            9
+          ],
+          "e": [
+            12
+          ],
+          "l": "Sie",
+          "gb": "আপনি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "eine Bankkarte.",
+          "b": [
+            10,
+            11,
+            12
+          ],
+          "e": [
+            14,
+            15,
+            16
+          ],
+          "l": "Bankkarte",
+          "gb": "একটি ব্যাংক কার্ড",
+          "ge": "a bank card",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "কি",
+        "কার্ড",
+        "দিয়ে",
+        "সব",
+        "জায়গায়",
+        "দাম",
+        "দিতে",
+        "আর",
+        "নগদ",
+        "তুলতে",
+        "পারব?"
+      ],
+      "en": [
+        "Can",
+        "I",
+        "pay",
+        "with",
+        "the",
+        "card",
+        "everywhere",
+        "and",
+        "withdraw",
+        "cash?"
+      ],
+      "de": [
+        {
+          "t": "Kann",
+          "b": [
+            11
+          ],
+          "e": [
+            0
+          ],
+          "l": "Kann",
+          "gb": "পারব",
+          "ge": "Can",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "mit der Karte",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            3,
+            4,
+            5
+          ],
+          "l": "mit der Karte",
+          "gb": "কার্ড দিয়ে",
+          "ge": "with the card",
+          "n": ""
+        },
+        {
+          "t": "überall",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            6
+          ],
+          "l": "überall",
+          "gb": "সব জায়গায়",
+          "ge": "everywhere",
+          "n": ""
+        },
+        {
+          "t": "bezahlen",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            2
+          ],
+          "l": "bezahlen",
+          "gb": "দাম দিতে",
+          "ge": "pay",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            8
+          ],
+          "e": [
+            7
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "Bargeld",
+          "b": [
+            9
+          ],
+          "e": [
+            9
+          ],
+          "l": "Bargeld",
+          "gb": "নগদ",
+          "ge": "cash",
+          "n": ""
+        },
+        {
+          "t": "abheben?",
+          "b": [
+            10
+          ],
+          "e": [
+            8
+          ],
+          "l": "abheben",
+          "gb": "তুলতে",
+          "ge": "withdraw",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Berater",
+      "bn": [
+        "প্রায়",
+        "সব",
+        "জায়গায়",
+        "পারবেন।",
+        "এটিএম",
+        "থেকে",
+        "টাকা",
+        "তোলা",
+        "যায়।",
+        "আপনার",
+        "পিন",
+        "ডাকযোগে",
+        "আসবে।"
+      ],
+      "en": [
+        "Almost",
+        "everywhere.",
+        "You",
+        "can",
+        "withdraw",
+        "money",
+        "from",
+        "an",
+        "ATM.",
+        "Your",
+        "PIN",
+        "will",
+        "arrive",
+        "by",
+        "post."
+      ],
+      "de": [
+        {
+          "t": "Fast überall.",
+          "b": [
+            0,
+            1,
+            2
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Fast überall",
+          "gb": "প্রায় সব জায়গায়",
+          "ge": "Almost everywhere",
+          "n": ""
+        },
+        {
+          "t": "Am Automaten",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            6,
+            7,
+            8
+          ],
+          "l": "Am Automaten",
+          "gb": "এটিএম থেকে",
+          "ge": "from an ATM",
+          "n": ""
+        },
+        {
+          "t": "können",
+          "b": [
+            8
+          ],
+          "e": [
+            3
+          ],
+          "l": "können",
+          "gb": "যায়",
+          "ge": "can",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "Sie",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "You",
+          "n": ""
+        },
+        {
+          "t": "Geld",
+          "b": [
+            6
+          ],
+          "e": [
+            5
+          ],
+          "l": "Geld",
+          "gb": "টাকা",
+          "ge": "money",
+          "n": ""
+        },
+        {
+          "t": "abheben.",
+          "b": [
+            7
+          ],
+          "e": [
+            4
+          ],
+          "l": "abheben",
+          "gb": "তোলা",
+          "ge": "withdraw",
+          "n": ""
+        },
+        {
+          "t": "Ihre PIN",
+          "b": [
+            9,
+            10
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "PIN",
+          "gb": "আপনার পিন",
+          "ge": "Your PIN",
+          "n": ""
+        },
+        {
+          "t": "bekommen Sie",
+          "b": [
+            12
+          ],
+          "e": [
+            11,
+            12
+          ],
+          "l": "bekommen Sie",
+          "gb": "আসবে",
+          "ge": "will arrive",
+          "n": ""
+        },
+        {
+          "t": "per Post.",
+          "b": [
+            11
+          ],
+          "e": [
+            13,
+            14
+          ],
+          "l": "per Post",
+          "gb": "ডাকযোগে",
+          "ge": "by post",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আর",
+        "আমি",
+        "বাংলাদেশে",
+        "টাকা",
+        "কীভাবে",
+        "পাঠাব?"
+      ],
+      "en": [
+        "And",
+        "how",
+        "do",
+        "I",
+        "send",
+        "money",
+        "to",
+        "Bangladesh?"
+      ],
+      "de": [
+        {
+          "t": "Und",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "wie",
+          "b": [
+            4
+          ],
+          "e": [
+            1
+          ],
+          "l": "wie",
+          "gb": "কীভাবে",
+          "ge": "how",
+          "n": ""
+        },
+        {
+          "t": "überweise",
+          "b": [
+            5
+          ],
+          "e": [
+            2,
+            3,
+            4
+          ],
+          "l": "überweisen",
+          "gb": "পাঠাব",
+          "ge": "do I send",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            1
+          ],
+          "e": [],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Geld",
+          "b": [
+            3
+          ],
+          "e": [
+            5
+          ],
+          "l": "Geld",
+          "gb": "টাকা",
+          "ge": "money",
+          "n": ""
+        },
+        {
+          "t": "nach Bangladesch?",
+          "b": [
+            2
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "nach Bangladesch",
+          "gb": "বাংলাদেশে",
+          "ge": "to Bangladesh",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Berater",
+      "bn": [
+        "এর",
+        "জন্য",
+        "আপনার",
+        "প্রাপক",
+        "ব্যাংকের",
+        "BIC",
+        "আর",
+        "অ্যাকাউন্ট",
+        "নম্বর",
+        "লাগবে।"
+      ],
+      "en": [
+        "For",
+        "that",
+        "you",
+        "need",
+        "the",
+        "BIC",
+        "and",
+        "the",
+        "account",
+        "number",
+        "of",
+        "the",
+        "recipient’s",
+        "bank."
+      ],
+      "de": [
+        {
+          "t": "Dafür",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Dafür",
+          "gb": "এর জন্য",
+          "ge": "For that",
+          "n": ""
+        },
+        {
+          "t": "brauchen",
+          "b": [
+            9
+          ],
+          "e": [
+            3
+          ],
+          "l": "brauchen",
+          "gb": "লাগবে",
+          "ge": "need",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "Sie",
+          "gb": "আপনার",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "den BIC",
+          "b": [
+            5
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "den BIC",
+          "gb": "BIC",
+          "ge": "the BIC",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            6
+          ],
+          "e": [
+            6
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "die Kontonummer",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            8,
+            9
+          ],
+          "l": "die Kontonummer",
+          "gb": "অ্যাকাউন্ট নম্বর",
+          "ge": "account number",
+          "n": ""
+        },
+        {
+          "t": "der Empfängerbank.",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            10,
+            7,
+            12,
+            13
+          ],
+          "l": "der Empfängerbank",
+          "gb": "প্রাপক ব্যাংকের",
+          "ge": "of the recipient’s bank",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "ব্যাংকের শব্দ",
+      "head": [
+        "জার্মান",
+        "বাংলা"
+      ],
+      "rows": [
+        [
+          "das Girokonto",
+          "চলতি হিসাব (দৈনন্দিন লেনদেন)"
+        ],
+        [
+          "die IBAN",
+          "আন্তর্জাতিক হিসাব নম্বর (জার্মানিতে DE + ২০ সংখ্যা)"
+        ],
+        [
+          "die Überweisung",
+          "ট্রান্সফার"
+        ],
+        [
+          "Geld abheben / einzahlen",
+          "টাকা তোলা / জমা দেওয়া"
+        ],
+        [
+          "die Gebühr",
+          "ফি"
+        ],
+        [
+          "der Kontoauszug",
+          "হিসাব বিবরণী"
+        ],
+        [
+          "die PIN",
+          "পিন"
+        ],
+        [
+          "das Online-Banking",
+          "অনলাইন ব্যাংকিং"
+        ]
+      ],
+      "note": "ব্যাংক বেছে নেওয়ার সময় মাসিক ফি, এটিএম ফি, ও বিদেশে পাঠানোর খরচ তুলনা করুন। নিজের IBAN ও PIN কাউকে দেবেন না।"
+    },
+    {
+      "type": "table",
+      "title": "abheben (ভাঙা) আর überweisen (অভাঙা)",
+      "head": [
+        "",
+        "Präsens",
+        "Perfekt"
+      ],
+      "rows": [
+        [
+          "abheben",
+          "Ich hebe Geld ab.",
+          "Ich habe Geld abgehoben."
+        ],
+        [
+          "einzahlen",
+          "Ich zahle Geld ein.",
+          "Ich habe Geld eingezahlt."
+        ],
+        [
+          "überweisen",
+          "Ich überweise das Geld.",
+          "Ich habe das Geld überwiesen."
+        ],
+        [
+          "eröffnen",
+          "Ich eröffne ein Konto.",
+          "Ich habe ein Konto eröffnet."
+        ]
+      ],
+      "note": "über-, er- দিয়ে শুরু ক্রিয়ায় ge- বসে না (überwiesen, eröffnet)। ab-, ein- ভাঙা: abgehoben, eingezahlt।"
+    },
+    {
+      "type": "text",
+      "title": "বিদেশে টাকা পাঠানো",
+      "text": "বাংলাদেশে পাঠাতে সাধারণত প্রাপক ব্যাংকের SWIFT/BIC কোড এবং অ্যাকাউন্ট নম্বর লাগে (IBAN নয়)। ফি ও বিনিময় হার ব্যাংক ও সেবাভেদে আলাদা — পাঠানোর আগে তুলনা করে নিন এবং নিয়ম (ঘোষণার সীমা ইত্যাদি) যাচাই করুন।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "das Girokonto",
+      "options": [
+        "ট্রান্সফার",
+        "টাকা তোলা",
+        "ফি",
+        "চলতি হিসাব"
+      ],
+      "answer": 3,
+      "why": "das Girokonto = চলতি হিসাব।",
+      "word": "girokonto"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "abheben",
+      "options": [
+        "খোলা",
+        "টাকা তোলা",
+        "ট্রান্সফার করা",
+        "হিসাব বিবরণী"
+      ],
+      "answer": 1,
+      "why": "abheben = টাকা তোলা।",
+      "word": "abheben"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "die Überweisung",
+      "options": [
+        "চলতি হিসাব",
+        "ট্রান্সফার করা",
+        "ফি",
+        "ট্রান্সফার"
+      ],
+      "answer": 3,
+      "why": "die Überweisung = ট্রান্সফার।",
+      "word": "ueberweisung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Gebühr",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Gebühr। বহুবচন: die Gebühren।",
+      "word": "gebuehr"
+    },
+    {
+      "type": "mcq",
+      "prompt": "überweisen-এর Partizip II কী?",
+      "options": [
+        "überwiesen",
+        "übergewiesen",
+        "geüberwiesen",
+        "überweist"
+      ],
+      "answer": 0,
+      "why": "über- ভাঙে না।",
+      "word": "ueberweisen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "abheben-এর Partizip II কী?",
+      "options": [
+        "abgehoben",
+        "geabheben",
+        "abhoben",
+        "abhebt"
+      ],
+      "answer": 0,
+      "why": "ab-ge-hoben।",
+      "word": "abheben"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক বাক্য কোনটি?",
+      "options": [
+        "Ich hebe Geld ab.",
+        "Ich abhebe Geld.",
+        "Ich hebe ab Geld.",
+        "Ich Geld hebe ab."
+      ],
+      "answer": 0,
+      "why": "ভাঙা ক্রিয়া: ab শেষে।",
+      "word": "abheben"
+    },
+    {
+      "type": "mcq",
+      "prompt": "IBAN কী?",
+      "options": [
+        "আন্তর্জাতিক হিসাব নম্বর",
+        "ব্যাংক কার্ডের পিন",
+        "ফি",
+        "চেক"
+      ],
+      "answer": 0,
+      "why": "IBAN।",
+      "word": "iban"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Gebühr“ মানে কী?",
+      "options": [
+        "ফি",
+        "ঋণ",
+        "সুদ",
+        "বেতন"
+      ],
+      "answer": 0,
+      "why": "die Gebühr।",
+      "word": "gebuehr"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „আমি একটি Girokonto খুলতে চাই।“",
+      "tiles": [
+        "Girokonto",
+        "möchte",
+        "eröffnen.",
+        "ein",
+        "Ich"
+      ],
+      "answer": [
+        "Ich",
+        "möchte",
+        "ein",
+        "Girokonto",
+        "eröffnen."
+      ],
+      "why": "Modalverb ২য়, Infinitiv শেষে।",
+      "word": "eroeffnen"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

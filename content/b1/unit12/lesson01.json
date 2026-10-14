@@ -1,0 +1,1469 @@
+{
+  "level": "B1",
+  "unit": 12,
+  "minutes": 18,
+  "lesson": 1,
+  "id": "b1-u12-l01",
+  "title": {
+    "de": "Pläne für die Zukunft",
+    "bn": "ভবিষ্যতের পরিকল্পনা",
+    "en": "Plans for the future"
+  },
+  "hook": {
+    "de": "Wer ein Ziel hat, findet den Weg.",
+    "who": "Redensart",
+    "bn": "যার লক্ষ্য আছে, সে পথ খুঁজে পায়।",
+    "en": "Whoever has a goal finds the way."
+  },
+  "goals": [
+    "Ziele und Wünsche formulieren",
+    "Futur I und werden + Infinitiv",
+    "wenn … dann, falls, sobald",
+    "in fünf Jahren: Pläne beschreiben"
+  ],
+  "words": [
+    {
+      "id": "ziel",
+      "de": "Ziel",
+      "art": "das",
+      "pl": "die Ziele",
+      "pos": "বিশেষ্য",
+      "bn": "লক্ষ্য",
+      "en": "goal"
+    },
+    {
+      "id": "zukunft",
+      "de": "Zukunft",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "ভবিষ্যৎ",
+      "en": "future"
+    },
+    {
+      "id": "traum",
+      "de": "Traum",
+      "art": "der",
+      "pl": "die Träume",
+      "pos": "বিশেষ্য",
+      "bn": "স্বপ্ন",
+      "en": "dream"
+    },
+    {
+      "id": "plan",
+      "de": "Plan",
+      "art": "der",
+      "pl": "die Pläne",
+      "pos": "বিশেষ্য",
+      "bn": "পরিকল্পনা",
+      "en": "plan"
+    },
+    {
+      "id": "erreichen",
+      "de": "erreichen",
+      "pos": "ক্রিয়া · hat erreicht",
+      "bn": "অর্জন করা",
+      "en": "to achieve"
+    },
+    {
+      "id": "sich_vorstellen",
+      "de": "sich vorstellen",
+      "pos": "ক্রিয়া · hat sich vorgestellt",
+      "bn": "কল্পনা করা",
+      "en": "to imagine"
+    },
+    {
+      "id": "schritt",
+      "de": "Schritt",
+      "art": "der",
+      "pl": "die Schritte",
+      "pos": "বিশেষ্য",
+      "bn": "ধাপ, পদক্ষেপ",
+      "en": "step"
+    },
+    {
+      "id": "karriere",
+      "de": "Karriere",
+      "art": "die",
+      "pl": "die Karrieren",
+      "pos": "বিশেষ্য",
+      "bn": "ক্যারিয়ার",
+      "en": "career"
+    },
+    {
+      "id": "eigen",
+      "de": "eigen",
+      "pos": "বিশেষণ",
+      "bn": "নিজস্ব",
+      "en": "own"
+    },
+    {
+      "id": "selbststaendigkeit",
+      "de": "Selbstständigkeit",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "স্বনির্ভরতা / নিজের ব্যবসা",
+      "en": "self-employment"
+    },
+    {
+      "id": "verwirklichen",
+      "de": "verwirklichen",
+      "pos": "ক্রিয়া · hat verwirklicht",
+      "bn": "বাস্তবে রূপ দেওয়া",
+      "en": "to realise"
+    },
+    {
+      "id": "geduld",
+      "de": "Geduld",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "ধৈর্য",
+      "en": "patience"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Frau Hoffmann",
+      "bn": [
+        "সাহেব,",
+        "আপনি",
+        "পাঁচ",
+        "বছর",
+        "পর",
+        "নিজেকে",
+        "কোথায়",
+        "দেখেন?"
+      ],
+      "en": [
+        "Saheb,",
+        "where",
+        "do",
+        "you",
+        "see",
+        "yourself",
+        "in",
+        "five",
+        "years?"
+      ],
+      "de": [
+        {
+          "t": "Saheb,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Saheb",
+          "gb": "সাহেব",
+          "ge": "Saheb",
+          "n": ""
+        },
+        {
+          "t": "wo sehen Sie sich",
+          "b": [
+            1,
+            5,
+            6,
+            7
+          ],
+          "e": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "l": "wo sehen Sie sich",
+          "gb": "আপনি নিজেকে কোথায় দেখেন",
+          "ge": "where do you see yourself",
+          "n": ""
+        },
+        {
+          "t": "in fünf Jahren?",
+          "b": [
+            2,
+            3,
+            4
+          ],
+          "e": [
+            6,
+            7,
+            8
+          ],
+          "l": "in fünf Jahren",
+          "gb": "পাঁচ বছর পর",
+          "ge": "in five years",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "ভালো",
+        "প্রশ্ন।",
+        "আমি",
+        "আশা",
+        "করি",
+        "আমি",
+        "তখন",
+        "ভালো",
+        "জার্মান",
+        "বলব,",
+        "একটা",
+        "স্থায়ী",
+        "চাকরি",
+        "করব",
+        "এবং",
+        "নিজের",
+        "একটা",
+        "ছোট",
+        "ফ্ল্যাটে",
+        "থাকব।"
+      ],
+      "en": [
+        "Good",
+        "question.",
+        "I",
+        "hope",
+        "that",
+        "by",
+        "then",
+        "I",
+        "will",
+        "speak",
+        "good",
+        "German,",
+        "have",
+        "a",
+        "permanent",
+        "job",
+        "and",
+        "live",
+        "in",
+        "a",
+        "small",
+        "flat",
+        "of",
+        "my",
+        "own."
+      ],
+      "de": [
+        {
+          "t": "Gute Frage.",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Gute Frage",
+          "gb": "ভালো প্রশ্ন",
+          "ge": "Good question",
+          "n": ""
+        },
+        {
+          "t": "Ich hoffe,",
+          "b": [
+            2,
+            3,
+            4
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "Ich hoffe",
+          "gb": "আমি আশা করি",
+          "ge": "I hope",
+          "n": ""
+        },
+        {
+          "t": "dass ich dann",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "l": "dass ich dann",
+          "gb": "আমি তখন",
+          "ge": "that by then I",
+          "n": ""
+        },
+        {
+          "t": "gut Deutsch sprechen werde,",
+          "b": [
+            7,
+            8,
+            9
+          ],
+          "e": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "l": "gut Deutsch sprechen werde",
+          "gb": "ভালো জার্মান বলব",
+          "ge": "will speak good German",
+          "n": ""
+        },
+        {
+          "t": "eine feste Stelle habe",
+          "b": [
+            10,
+            11,
+            12,
+            13
+          ],
+          "e": [
+            12,
+            13,
+            14,
+            15
+          ],
+          "l": "eine feste Stelle habe",
+          "gb": "একটা স্থায়ী চাকরি করব",
+          "ge": "have a permanent job",
+          "n": ""
+        },
+        {
+          "t": "und in einer kleinen,",
+          "b": [
+            14,
+            17
+          ],
+          "e": [
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "l": "und in einer kleinen",
+          "gb": "এবং ছোট",
+          "ge": "and live in a small",
+          "n": ""
+        },
+        {
+          "t": "eigenen Wohnung lebe.",
+          "b": [
+            15,
+            16,
+            18,
+            19
+          ],
+          "e": [
+            21,
+            22,
+            23,
+            24
+          ],
+          "l": "eigen",
+          "gb": "নিজের একটা ফ্ল্যাটে থাকব",
+          "ge": "flat of my own",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Frau Hoffmann",
+      "bn": [
+        "চমৎকার",
+        "লক্ষ্য।",
+        "আপনি",
+        "কীভাবে",
+        "সেখানে",
+        "পৌঁছাবেন?",
+        "কী",
+        "কী",
+        "ধাপ",
+        "ঠিক",
+        "করেছেন?"
+      ],
+      "en": [
+        "Excellent",
+        "goals.",
+        "How",
+        "will",
+        "you",
+        "get",
+        "there?",
+        "Which",
+        "steps",
+        "have",
+        "you",
+        "decided",
+        "on?"
+      ],
+      "de": [
+        {
+          "t": "Schöne Ziele.",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Schöne Ziele",
+          "gb": "চমৎকার লক্ষ্য",
+          "ge": "Excellent goals",
+          "n": ""
+        },
+        {
+          "t": "Wie werden Sie",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            2,
+            3,
+            4
+          ],
+          "l": "Wie werden Sie",
+          "gb": "আপনি কীভাবে",
+          "ge": "How will you",
+          "n": ""
+        },
+        {
+          "t": "dahin kommen?",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "dahin kommen",
+          "gb": "সেখানে পৌঁছাবেন",
+          "ge": "get there",
+          "n": ""
+        },
+        {
+          "t": "Welche Schritte",
+          "b": [
+            6,
+            7,
+            8
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "Welche Schritte",
+          "gb": "কী কী ধাপ",
+          "ge": "Which steps",
+          "n": ""
+        },
+        {
+          "t": "haben Sie geplant?",
+          "b": [
+            9,
+            10
+          ],
+          "e": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "l": "haben Sie geplant",
+          "gb": "ঠিক করেছেন",
+          "ge": "have you decided on",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "প্রথমে",
+        "আমি",
+        "বি-ওয়ান",
+        "পরীক্ষা",
+        "পাশ",
+        "করব।",
+        "তারপর",
+        "যদি",
+        "আমার",
+        "একটা",
+        "ভালো",
+        "প্রশিক্ষণ",
+        "বা",
+        "চাকরি",
+        "পাওয়ার",
+        "সুযোগ",
+        "আসে,",
+        "আমি",
+        "তা",
+        "নেব।",
+        "একটু",
+        "একটু",
+        "করে",
+        "এগোব।"
+      ],
+      "en": [
+        "First",
+        "I",
+        "will",
+        "pass",
+        "the",
+        "B1",
+        "exam.",
+        "Then",
+        "if",
+        "a",
+        "good",
+        "chance",
+        "for",
+        "training",
+        "or",
+        "a",
+        "job",
+        "comes",
+        "up,",
+        "I",
+        "will",
+        "take",
+        "it.",
+        "I",
+        "will",
+        "move",
+        "forward",
+        "bit",
+        "by",
+        "bit."
+      ],
+      "de": [
+        {
+          "t": "Zuerst werde ich",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "Zuerst werde ich",
+          "gb": "প্রথমে আমি",
+          "ge": "First I will",
+          "n": ""
+        },
+        {
+          "t": "die B1-Prüfung bestehen.",
+          "b": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "e": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "l": "die B1-Prüfung bestehen",
+          "gb": "বি-ওয়ান পরীক্ষা পাশ করব",
+          "ge": "pass the B1 exam",
+          "n": ""
+        },
+        {
+          "t": "Dann, wenn sich",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "Dann wenn sich",
+          "gb": "তারপর যদি",
+          "ge": "Then if",
+          "n": ""
+        },
+        {
+          "t": "eine Chance auf Ausbildung",
+          "b": [
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "e": [
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "l": "eine Chance auf Ausbildung",
+          "gb": "একটা ভালো প্রশিক্ষণ বা চাকরি",
+          "ge": "a good chance for training",
+          "n": ""
+        },
+        {
+          "t": "oder Arbeit ergibt,",
+          "b": [
+            14,
+            15,
+            16
+          ],
+          "e": [
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "l": "oder Arbeit ergibt",
+          "gb": "পাওয়ার সুযোগ আসে",
+          "ge": "or a job comes up",
+          "n": ""
+        },
+        {
+          "t": "werde ich sie nutzen.",
+          "b": [
+            17,
+            18,
+            19
+          ],
+          "e": [
+            19,
+            20,
+            21,
+            22
+          ],
+          "l": "werde ich sie nutzen",
+          "gb": "আমি তা নেব",
+          "ge": "I will take it",
+          "n": ""
+        },
+        {
+          "t": "Schritt für Schritt.",
+          "b": [
+            20,
+            21,
+            22,
+            23
+          ],
+          "e": [
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29
+          ],
+          "l": "Schritt",
+          "gb": "একটু একটু করে এগোব",
+          "ge": "I will move forward bit by bit",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Frau Hoffmann",
+      "bn": [
+        "খুব",
+        "ভালো।",
+        "ধৈর্য",
+        "একটা",
+        "বড়",
+        "ভূমিকা",
+        "রাখে।",
+        "কিছু",
+        "জিনিস",
+        "কয়েক",
+        "বছরেও",
+        "আসে",
+        "না।",
+        "আপনার",
+        "কি",
+        "নিজের",
+        "ব্যবসা",
+        "করারও",
+        "ইচ্ছা",
+        "আছে?"
+      ],
+      "en": [
+        "Very",
+        "good.",
+        "Patience",
+        "plays",
+        "a",
+        "big",
+        "role.",
+        "Some",
+        "things",
+        "do",
+        "not",
+        "come",
+        "even",
+        "after",
+        "several",
+        "years.",
+        "Do",
+        "you",
+        "also",
+        "wish",
+        "to",
+        "start",
+        "your",
+        "own",
+        "business?"
+      ],
+      "de": [
+        {
+          "t": "Sehr gut.",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Sehr gut",
+          "gb": "খুব ভালো",
+          "ge": "Very good",
+          "n": ""
+        },
+        {
+          "t": "Geduld spielt",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "Geduld spielt",
+          "gb": "ধৈর্য",
+          "ge": "Patience",
+          "n": ""
+        },
+        {
+          "t": "eine große Rolle.",
+          "b": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "e": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "l": "eine große Rolle",
+          "gb": "একটা বড় ভূমিকা রাখে",
+          "ge": "plays a big role",
+          "n": ""
+        },
+        {
+          "t": "Manches dauert",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "Manches dauert",
+          "gb": "কিছু জিনিস",
+          "ge": "Some things",
+          "n": ""
+        },
+        {
+          "t": "auch Jahre.",
+          "b": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "e": [
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "l": "auch Jahre",
+          "gb": "কয়েক বছরেও আসে না",
+          "ge": "do not come even after several years",
+          "n": ""
+        },
+        {
+          "t": "Möchten Sie auch",
+          "b": [
+            13,
+            14
+          ],
+          "e": [
+            16,
+            17,
+            18,
+            19
+          ],
+          "l": "Möchten Sie auch",
+          "gb": "আপনার কি",
+          "ge": "Do you also wish",
+          "n": ""
+        },
+        {
+          "t": "selbstständig werden?",
+          "b": [
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "e": [
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "l": "selbstständig werden",
+          "gb": "নিজের ব্যবসা করারও ইচ্ছা আছে",
+          "ge": "to start your own business",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "হয়তো।",
+        "আমি",
+        "এখনও",
+        "ভাবছি।",
+        "আগে",
+        "আমাকে",
+        "এখানকার",
+        "নিয়মকানুন",
+        "ভালো",
+        "করে",
+        "জানতে",
+        "হবে।",
+        "যদি",
+        "আমার",
+        "ভালো",
+        "একটা",
+        "ধারণা",
+        "থাকে,",
+        "আমি",
+        "আগামী",
+        "বছর",
+        "কোনো",
+        "পরামর্শ",
+        "কেন্দ্রে",
+        "যাব।"
+      ],
+      "en": [
+        "Maybe.",
+        "I",
+        "am",
+        "still",
+        "thinking.",
+        "First",
+        "I",
+        "need",
+        "to",
+        "learn",
+        "the",
+        "rules",
+        "here",
+        "well.",
+        "If",
+        "I",
+        "have",
+        "a",
+        "good",
+        "idea,",
+        "I",
+        "will",
+        "go",
+        "to",
+        "an",
+        "advice",
+        "centre",
+        "next",
+        "year."
+      ],
+      "de": [
+        {
+          "t": "Vielleicht.",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Vielleicht",
+          "gb": "হয়তো",
+          "ge": "Maybe",
+          "n": ""
+        },
+        {
+          "t": "Ich überlege noch.",
+          "b": [
+            1,
+            2,
+            3
+          ],
+          "e": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "l": "Ich überlege noch",
+          "gb": "আমি এখনও ভাবছি",
+          "ge": "I am still thinking",
+          "n": ""
+        },
+        {
+          "t": "Zuerst muss ich",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            5,
+            6,
+            7
+          ],
+          "l": "Zuerst muss ich",
+          "gb": "আগে আমাকে",
+          "ge": "First I need",
+          "n": ""
+        },
+        {
+          "t": "die Regeln hier",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "l": "die Regeln hier",
+          "gb": "এখানকার নিয়মকানুন",
+          "ge": "to learn the rules here",
+          "n": ""
+        },
+        {
+          "t": "gut kennenlernen.",
+          "b": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "e": [
+            13
+          ],
+          "l": "gut kennenlernen",
+          "gb": "ভালো করে জানতে হবে",
+          "ge": "well",
+          "n": ""
+        },
+        {
+          "t": "Wenn ich eine gute Idee habe,",
+          "b": [
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "e": [
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "l": "Wenn ich eine gute Idee habe",
+          "gb": "যদি আমার ভালো একটা ধারণা থাকে",
+          "ge": "If I have a good idea",
+          "n": ""
+        },
+        {
+          "t": "gehe ich nächstes Jahr",
+          "b": [
+            18,
+            19,
+            20
+          ],
+          "e": [
+            20,
+            21,
+            22,
+            27,
+            28
+          ],
+          "l": "gehe ich nächstes Jahr",
+          "gb": "আমি আগামী বছর",
+          "ge": "I will go next year",
+          "n": ""
+        },
+        {
+          "t": "zu einer Beratungsstelle.",
+          "b": [
+            21,
+            22,
+            23,
+            24
+          ],
+          "e": [
+            23,
+            24,
+            25,
+            26
+          ],
+          "l": "zu einer Beratungsstelle",
+          "gb": "কোনো পরামর্শ কেন্দ্রে যাব",
+          "ge": "to an advice centre",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Frau Hoffmann",
+      "bn": [
+        "এটা",
+        "একটা",
+        "বুদ্ধিমান",
+        "পরিকল্পনা।",
+        "আপনার",
+        "স্বপ্ন",
+        "বড়",
+        "আর",
+        "আপনি",
+        "বাস্তববাদী:",
+        "এটাই",
+        "সবচেয়ে",
+        "ভালো",
+        "মিশ্রণ।",
+        "আমি",
+        "বিশ্বাস",
+        "করি",
+        "আপনি",
+        "তা",
+        "পারবেন।"
+      ],
+      "en": [
+        "That",
+        "is",
+        "a",
+        "wise",
+        "plan.",
+        "Your",
+        "dream",
+        "is",
+        "big",
+        "and",
+        "you",
+        "are",
+        "realistic:",
+        "that",
+        "is",
+        "the",
+        "best",
+        "mix.",
+        "I",
+        "believe",
+        "you",
+        "can",
+        "do",
+        "it."
+      ],
+      "de": [
+        {
+          "t": "Das ist ein kluger Plan.",
+          "b": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "e": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "l": "Das ist ein kluger Plan",
+          "gb": "এটা একটা বুদ্ধিমান পরিকল্পনা",
+          "ge": "That is a wise plan",
+          "n": ""
+        },
+        {
+          "t": "Ihr Traum ist groß,",
+          "b": [
+            4,
+            5,
+            6
+          ],
+          "e": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "l": "Ihr Traum ist groß",
+          "gb": "আপনার স্বপ্ন বড়",
+          "ge": "Your dream is big",
+          "n": ""
+        },
+        {
+          "t": "und Sie sind realistisch:",
+          "b": [
+            7,
+            8,
+            9
+          ],
+          "e": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "l": "und Sie sind realistisch",
+          "gb": "আর আপনি বাস্তববাদী",
+          "ge": "and you are realistic",
+          "n": ""
+        },
+        {
+          "t": "Das ist die beste Mischung.",
+          "b": [
+            10,
+            11,
+            12,
+            13
+          ],
+          "e": [
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "l": "Das ist die beste Mischung",
+          "gb": "এটাই সবচেয়ে ভালো মিশ্রণ",
+          "ge": "that is the best mix",
+          "n": ""
+        },
+        {
+          "t": "Ich glaube,",
+          "b": [
+            14,
+            15,
+            16
+          ],
+          "e": [
+            18,
+            19
+          ],
+          "l": "Ich glaube",
+          "gb": "আমি বিশ্বাস করি",
+          "ge": "I believe",
+          "n": ""
+        },
+        {
+          "t": "Sie schaffen das.",
+          "b": [
+            17,
+            18,
+            19
+          ],
+          "e": [
+            20,
+            21,
+            22,
+            23
+          ],
+          "l": "Sie schaffen das",
+          "gb": "আপনি তা পারবেন",
+          "ge": "you can do it",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "Futur I",
+      "head": [
+        "Person",
+        "werden + Infinitiv"
+      ],
+      "rows": [
+        [
+          "ich",
+          "werde sprechen"
+        ],
+        [
+          "du",
+          "wirst sprechen"
+        ],
+        [
+          "er/sie/es",
+          "wird sprechen"
+        ],
+        [
+          "wir",
+          "werden sprechen"
+        ],
+        [
+          "ihr",
+          "werdet sprechen"
+        ],
+        [
+          "sie/Sie",
+          "werden sprechen"
+        ]
+      ],
+      "note": "Futur I = Plan, Vorhersage, Vermutung; aber Alltag: Präsens + Zeitangabe („Ich spreche nächstes Jahr besser.“)। Futur I বেশি লেখায় ও জোর দিতে।"
+    },
+    {
+      "type": "table",
+      "title": "wenn, falls, sobald, bevor",
+      "head": [
+        "Wort",
+        "Beispiel"
+      ],
+      "rows": [
+        [
+          "wenn",
+          "Wenn ich die Prüfung bestehe, suche ich eine Stelle."
+        ],
+        [
+          "falls",
+          "Falls ich Hilfe brauche, frage ich im Kurs."
+        ],
+        [
+          "sobald",
+          "Sobald ich B1 habe, bewerbe ich mich."
+        ],
+        [
+          "bevor",
+          "Bevor ich ein Geschäft gründe, informiere ich mich."
+        ],
+        [
+          "nachdem",
+          "Nachdem ich B1 bestanden habe, bewerbe ich mich."
+        ]
+      ],
+      "note": "Nebensatz → Verb am Ende; folgt der Hauptsatz, kommt das Verb direkt nach dem Komma (Inversion)।"
+    },
+    {
+      "type": "table",
+      "title": "Ziele formulieren",
+      "head": [
+        "Funktion",
+        "Formulierung"
+      ],
+      "rows": [
+        [
+          "Wunsch",
+          "Ich würde gern … / Ich wünsche mir, dass …"
+        ],
+        [
+          "Plan",
+          "Ich habe vor, … zu … / Ich plane, … zu …"
+        ],
+        [
+          "Voraussetzung",
+          "Dafür muss ich zuerst …"
+        ],
+        [
+          "Zeit",
+          "In einem Jahr / In fünf Jahren / Bis dahin …"
+        ],
+        [
+          "Zweifel",
+          "Das hängt davon ab, ob … / Ich bin nicht sicher, ob …"
+        ]
+      ],
+      "note": "SMART লক্ষ্য: নির্দিষ্ট, মাপযোগ্য, সময়সীমা সহ। যেমন: „In sechs Monaten will ich B1 bestehen.“"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "die Zukunft",
+      "options": [
+        "ভবিষ্যৎ",
+        "স্বপ্ন",
+        "অর্জন করা",
+        "ধাপ"
+      ],
+      "answer": 0,
+      "why": "die Zukunft = ভবিষ্যৎ।",
+      "word": "zukunft"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "verwirklichen",
+      "options": [
+        "বাস্তবে রূপ দেওয়া",
+        "নিজস্ব",
+        "লক্ষ্য",
+        "পরিকল্পনা"
+      ],
+      "answer": 0,
+      "why": "verwirklichen = বাস্তবে রূপ দেওয়া।",
+      "word": "verwirklichen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "die Geduld",
+      "options": [
+        "স্বপ্ন",
+        "কল্পনা করা",
+        "নিজস্ব",
+        "ধৈর্য"
+      ],
+      "answer": 3,
+      "why": "die Geduld = ধৈর্য।",
+      "word": "geduld"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Karriere",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Karriere। বহুবচন: die Karrieren।",
+      "word": "karriere"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ich ___ die Prüfung bestehen.",
+      "options": [
+        "werde",
+        "wird",
+        "werden",
+        "wirst"
+      ],
+      "answer": 0,
+      "why": "ich → werde।",
+      "word": "erreichen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Er ___ eine Ausbildung machen.",
+      "options": [
+        "wird",
+        "werde",
+        "werdet",
+        "wirst"
+      ],
+      "answer": 0,
+      "why": "er → wird।",
+      "word": "plan"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Sobald ich B1 habe, …“ bedeutet …",
+      "options": [
+        "যেই আমি B1 পাব, …",
+        "আমি কখনও B1 পাব না",
+        "আগে B1 লাগবে না",
+        "B1 পুরোনো"
+      ],
+      "answer": 0,
+      "why": "sobald = as soon as।",
+      "word": "ziel"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Welcher Satz ist korrekt?",
+      "options": [
+        "Wenn ich die Prüfung bestehe, suche ich eine Stelle.",
+        "Wenn ich bestehe die Prüfung, ich suche eine Stelle.",
+        "Wenn ich die Prüfung bestehe, ich suche eine Stelle.",
+        "Ich suche eine Stelle, wenn bestehe ich die Prüfung."
+      ],
+      "answer": 0,
+      "why": "Nebensatz + Inversion।",
+      "word": "schritt"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Selbstständigkeit“ bedeutet …",
+      "options": [
+        "স্বনির্ভরতা/নিজের ব্যবসা",
+        "শুধু পড়াশোনা",
+        "ছুটি",
+        "কর"
+      ],
+      "answer": 0,
+      "why": "selbstständig sein।",
+      "word": "selbststaendigkeit"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „যদি আমি পাশ করি, আমি একটি চাকরি খুঁজব।“",
+      "tiles": [
+        "suche",
+        "ich",
+        "Wenn ich bestehe,",
+        "eine Stelle."
+      ],
+      "answer": [
+        "Wenn ich bestehe,",
+        "suche",
+        "ich",
+        "eine Stelle."
+      ],
+      "why": "Nebensatz zuerst → Inversion।",
+      "word": "traum"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

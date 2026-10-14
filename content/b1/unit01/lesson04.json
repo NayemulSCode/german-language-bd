@@ -1,0 +1,1616 @@
+{
+  "level": "B1",
+  "unit": 1,
+  "minutes": 18,
+  "lesson": 4,
+  "id": "b1-u01-l04",
+  "title": {
+    "de": "Der Arbeitsvertrag",
+    "bn": "চাকরির চুক্তি, বেতন ও কর",
+    "en": "The employment contract"
+  },
+  "hook": {
+    "de": "Vertrauen ist gut, Kontrolle ist besser.",
+    "who": "Redensart",
+    "bn": "বিশ্বাস ভালো, যাচাই আরও ভালো।",
+    "en": "Trust is good, control is better."
+  },
+  "goals": [
+    "Arbeitsvertrag-এর শব্দ: Probezeit, Kündigung, Urlaubstage",
+    "brutto / netto, Steuern, Sozialversicherung",
+    "Passiv: werden abgezogen",
+    "nachdem-Sätze"
+  ],
+  "words": [
+    {
+      "id": "arbeitsvertrag",
+      "de": "Arbeitsvertrag",
+      "art": "der",
+      "pl": "die Arbeitsverträge",
+      "pos": "বিশেষ্য",
+      "bn": "চাকরির চুক্তি",
+      "en": "employment contract"
+    },
+    {
+      "id": "probezeit",
+      "de": "Probezeit",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "পরীক্ষামূলক সময়",
+      "en": "probation period"
+    },
+    {
+      "id": "kuendigung",
+      "de": "Kündigung",
+      "art": "die",
+      "pl": "die Kündigungen",
+      "pos": "বিশেষ্য",
+      "bn": "চাকরি ছাড়া বা ছাঁটাই",
+      "en": "notice of termination"
+    },
+    {
+      "id": "brutto",
+      "de": "brutto",
+      "pos": "বিশেষণ/ক্রিয়াবিশেষণ",
+      "bn": "কর কাটার আগে",
+      "en": "gross"
+    },
+    {
+      "id": "netto",
+      "de": "netto",
+      "pos": "বিশেষণ/ক্রিয়াবিশেষণ",
+      "bn": "কর কাটার পরে",
+      "en": "net"
+    },
+    {
+      "id": "steuer",
+      "de": "Steuer",
+      "art": "die",
+      "pl": "die Steuern",
+      "pos": "বিশেষ্য",
+      "bn": "কর",
+      "en": "tax"
+    },
+    {
+      "id": "sozialversicherung",
+      "de": "Sozialversicherung",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "সামাজিক বিমা",
+      "en": "social insurance"
+    },
+    {
+      "id": "urlaubstag",
+      "de": "Urlaubstag",
+      "art": "der",
+      "pl": "die Urlaubstage",
+      "pos": "বিশেষ্য",
+      "bn": "ছুটির দিন",
+      "en": "day of leave"
+    },
+    {
+      "id": "ueberstunde",
+      "de": "Überstunde",
+      "art": "die",
+      "pl": "die Überstunden",
+      "pos": "বিশেষ্য",
+      "bn": "অতিরিক্ত ঘণ্টা",
+      "en": "overtime hour"
+    },
+    {
+      "id": "tarifvertrag",
+      "de": "Tarifvertrag",
+      "art": "der",
+      "pl": "die Tarifverträge",
+      "pos": "বিশেষ্য",
+      "bn": "যৌথ চুক্তি (শিল্প/ইউনিয়ন)",
+      "en": "collective agreement"
+    },
+    {
+      "id": "lohnabrechnung",
+      "de": "Lohnabrechnung",
+      "art": "die",
+      "pl": "die Lohnabrechnungen",
+      "pos": "বিশেষ্য",
+      "bn": "বেতনের হিসাব (পে-স্লিপ)",
+      "en": "payslip"
+    },
+    {
+      "id": "abziehen",
+      "de": "abziehen",
+      "pos": "ক্রিয়া · hat abgezogen",
+      "bn": "কেটে নেওয়া",
+      "en": "to deduct"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Frau Hoffmann",
+      "bn": [
+        "অভিনন্দন,",
+        "মিস্টার",
+        "রহমান!",
+        "আমরা",
+        "আপনাকে",
+        "পদটি",
+        "দিতে",
+        "চাই।"
+      ],
+      "en": [
+        "Congratulations,",
+        "Mr",
+        "Rahman!",
+        "We",
+        "would",
+        "like",
+        "to",
+        "offer",
+        "you",
+        "the",
+        "position."
+      ],
+      "de": [
+        {
+          "t": "Herzlichen Glückwunsch,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Herzlichen Glückwunsch",
+          "gb": "অভিনন্দন",
+          "ge": "Congratulations",
+          "n": ""
+        },
+        {
+          "t": "Herr Rahman!",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "Herr Rahman",
+          "gb": "মিস্টার রহমান",
+          "ge": "Mr Rahman",
+          "n": ""
+        },
+        {
+          "t": "Wir",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "Wir",
+          "gb": "আমরা",
+          "ge": "We",
+          "n": ""
+        },
+        {
+          "t": "würden",
+          "b": [
+            7
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "würden",
+          "gb": "চাই",
+          "ge": "would like",
+          "n": ""
+        },
+        {
+          "t": "Ihnen",
+          "b": [
+            4
+          ],
+          "e": [
+            6,
+            7,
+            8
+          ],
+          "l": "Ihnen",
+          "gb": "আপনাকে",
+          "ge": "to offer you",
+          "n": ""
+        },
+        {
+          "t": "gern",
+          "b": [],
+          "e": [],
+          "l": "gern",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "die Stelle",
+          "b": [
+            5
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "die Stelle",
+          "gb": "পদটি",
+          "ge": "the position",
+          "n": ""
+        },
+        {
+          "t": "anbieten.",
+          "b": [
+            6
+          ],
+          "e": [],
+          "l": "anbieten",
+          "gb": "দিতে",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "অনেক",
+        "ধন্যবাদ!",
+        "আমি",
+        "খুব",
+        "খুশি।",
+        "আমি",
+        "কি",
+        "চুক্তিটা",
+        "আগে",
+        "শান্তভাবে",
+        "পড়তে",
+        "পারি?"
+      ],
+      "en": [
+        "Thank",
+        "you",
+        "very",
+        "much!",
+        "I",
+        "am",
+        "very",
+        "happy.",
+        "Can",
+        "I",
+        "read",
+        "the",
+        "contract",
+        "in",
+        "peace",
+        "first?"
+      ],
+      "de": [
+        {
+          "t": "Vielen Dank!",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "l": "Vielen Dank",
+          "gb": "অনেক ধন্যবাদ",
+          "ge": "Thank you very much",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "freue mich",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "freue mich",
+          "gb": "খুশি",
+          "ge": "am",
+          "n": ""
+        },
+        {
+          "t": "sehr.",
+          "b": [
+            3
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "sehr",
+          "gb": "খুব",
+          "ge": "very happy",
+          "n": ""
+        },
+        {
+          "t": "Kann",
+          "b": [
+            11
+          ],
+          "e": [
+            8
+          ],
+          "l": "Kann",
+          "gb": "পারি",
+          "ge": "Can",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            5
+          ],
+          "e": [
+            9
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "den Arbeitsvertrag",
+          "b": [
+            7
+          ],
+          "e": [
+            11,
+            12
+          ],
+          "l": "Arbeitsvertrag",
+          "gb": "চুক্তিটা",
+          "ge": "the contract",
+          "n": ""
+        },
+        {
+          "t": "vorher",
+          "b": [
+            8
+          ],
+          "e": [
+            15
+          ],
+          "l": "vorher",
+          "gb": "আগে",
+          "ge": "first",
+          "n": ""
+        },
+        {
+          "t": "in Ruhe",
+          "b": [
+            9
+          ],
+          "e": [
+            13,
+            14
+          ],
+          "l": "in Ruhe",
+          "gb": "শান্তভাবে",
+          "ge": "in peace",
+          "n": ""
+        },
+        {
+          "t": "lesen?",
+          "b": [
+            10
+          ],
+          "e": [
+            10
+          ],
+          "l": "lesen",
+          "gb": "পড়তে",
+          "ge": "read",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Frau Hoffmann",
+      "bn": [
+        "অবশ্যই।",
+        "চুক্তিতে",
+        "লেখা",
+        "আছে",
+        "যে",
+        "প্রথম",
+        "ছয়",
+        "মাস",
+        "পরীক্ষামূলক",
+        "সময়।",
+        "এই",
+        "সময়ে",
+        "নোটিশের",
+        "মেয়াদ",
+        "দুই",
+        "সপ্তাহ।"
+      ],
+      "en": [
+        "Of",
+        "course.",
+        "The",
+        "contract",
+        "says",
+        "that",
+        "the",
+        "first",
+        "six",
+        "months",
+        "are",
+        "a",
+        "probation",
+        "period.",
+        "During",
+        "this",
+        "time",
+        "the",
+        "notice",
+        "period",
+        "is",
+        "two",
+        "weeks."
+      ],
+      "de": [
+        {
+          "t": "Natürlich.",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Natürlich",
+          "gb": "অবশ্যই",
+          "ge": "Of course",
+          "n": ""
+        },
+        {
+          "t": "Im Vertrag",
+          "b": [
+            1
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "Im Vertrag",
+          "gb": "চুক্তিতে",
+          "ge": "The contract",
+          "n": ""
+        },
+        {
+          "t": "steht,",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "steht",
+          "gb": "লেখা আছে",
+          "ge": "says",
+          "n": ""
+        },
+        {
+          "t": "dass",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "dass",
+          "gb": "যে",
+          "ge": "that",
+          "n": ""
+        },
+        {
+          "t": "die ersten sechs Monate",
+          "b": [
+            5,
+            6,
+            7
+          ],
+          "e": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "l": "die ersten sechs Monate",
+          "gb": "প্রথম ছয় মাস",
+          "ge": "the first six months",
+          "n": ""
+        },
+        {
+          "t": "die Probezeit",
+          "b": [
+            8,
+            9
+          ],
+          "e": [
+            11,
+            12,
+            13
+          ],
+          "l": "Probezeit",
+          "gb": "পরীক্ষামূলক সময়",
+          "ge": "a probation period",
+          "n": ""
+        },
+        {
+          "t": "sind.",
+          "b": [],
+          "e": [
+            10
+          ],
+          "l": "sind",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "are",
+          "n": ""
+        },
+        {
+          "t": "In dieser Zeit",
+          "b": [
+            10,
+            11
+          ],
+          "e": [
+            14,
+            15,
+            16
+          ],
+          "l": "In dieser Zeit",
+          "gb": "এই সময়ে",
+          "ge": "During this time",
+          "n": ""
+        },
+        {
+          "t": "beträgt",
+          "b": [],
+          "e": [
+            20
+          ],
+          "l": "beträgt",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "die Kündigungsfrist",
+          "b": [
+            12,
+            13
+          ],
+          "e": [
+            17,
+            18,
+            19
+          ],
+          "l": "Kündigung",
+          "gb": "নোটিশের মেয়াদ",
+          "ge": "the notice period",
+          "n": ""
+        },
+        {
+          "t": "zwei Wochen.",
+          "b": [
+            14,
+            15
+          ],
+          "e": [
+            21,
+            22
+          ],
+          "l": "zwei Wochen",
+          "gb": "দুই সপ্তাহ",
+          "ge": "two weeks",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আর",
+        "আমার",
+        "কয়দিন",
+        "ছুটি",
+        "আছে?"
+      ],
+      "en": [
+        "And",
+        "how",
+        "many",
+        "days",
+        "of",
+        "leave",
+        "do",
+        "I",
+        "have?"
+      ],
+      "de": [
+        {
+          "t": "Und",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "wie viele",
+          "b": [
+            2
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "wie viele",
+          "gb": "কয়দিন",
+          "ge": "how many",
+          "n": ""
+        },
+        {
+          "t": "Urlaubstage",
+          "b": [
+            3
+          ],
+          "e": [
+            3,
+            4,
+            5
+          ],
+          "l": "Urlaubstag",
+          "gb": "ছুটি",
+          "ge": "days of leave",
+          "n": ""
+        },
+        {
+          "t": "habe ich?",
+          "b": [
+            1,
+            4
+          ],
+          "e": [
+            6,
+            7,
+            8
+          ],
+          "l": "habe ich",
+          "gb": "আমার আছে",
+          "ge": "do I have",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Frau Hoffmann",
+      "bn": [
+        "আপনার",
+        "বছরে",
+        "ছাব্বিশ",
+        "দিন",
+        "ছুটি।",
+        "আইন",
+        "অনুযায়ী",
+        "পাঁচ",
+        "দিনের",
+        "সপ্তাহে",
+        "ন্যূনতম",
+        "বিশ",
+        "দিন।"
+      ],
+      "en": [
+        "You",
+        "have",
+        "twenty-six",
+        "days",
+        "of",
+        "leave",
+        "per",
+        "year.",
+        "By",
+        "law",
+        "it",
+        "is",
+        "at",
+        "least",
+        "twenty",
+        "days",
+        "for",
+        "a",
+        "five-day",
+        "week."
+      ],
+      "de": [
+        {
+          "t": "Sie haben",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Sie haben",
+          "gb": "আপনার",
+          "ge": "You have",
+          "n": ""
+        },
+        {
+          "t": "sechsundzwanzig Urlaubstage",
+          "b": [
+            2,
+            3,
+            4
+          ],
+          "e": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "l": "sechsundzwanzig Urlaubstage",
+          "gb": "ছাব্বিশ দিন ছুটি",
+          "ge": "twenty-six days of leave",
+          "n": ""
+        },
+        {
+          "t": "pro Jahr.",
+          "b": [
+            1
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "pro Jahr",
+          "gb": "বছরে",
+          "ge": "per year",
+          "n": ""
+        },
+        {
+          "t": "Gesetzlich",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            8,
+            9
+          ],
+          "l": "Gesetzlich",
+          "gb": "আইন অনুযায়ী",
+          "ge": "By law",
+          "n": ""
+        },
+        {
+          "t": "sind es",
+          "b": [],
+          "e": [
+            10,
+            11
+          ],
+          "l": "sind es",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "it is",
+          "n": ""
+        },
+        {
+          "t": "mindestens",
+          "b": [
+            10
+          ],
+          "e": [
+            12,
+            13
+          ],
+          "l": "mindestens",
+          "gb": "ন্যূনতম",
+          "ge": "at least",
+          "n": ""
+        },
+        {
+          "t": "zwanzig",
+          "b": [
+            11
+          ],
+          "e": [
+            14,
+            15
+          ],
+          "l": "zwanzig",
+          "gb": "বিশ",
+          "ge": "twenty days",
+          "n": ""
+        },
+        {
+          "t": "bei einer Fünf-Tage-Woche.",
+          "b": [
+            7,
+            8,
+            9
+          ],
+          "e": [
+            16,
+            17,
+            18,
+            19
+          ],
+          "l": "bei einer Fünf-Tage-Woche",
+          "gb": "পাঁচ দিনের সপ্তাহে",
+          "ge": "for a five-day week",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "বেতনটা",
+        "ব্রুটো",
+        "নাকি",
+        "নেটো?"
+      ],
+      "en": [
+        "Is",
+        "the",
+        "salary",
+        "gross",
+        "or",
+        "net?"
+      ],
+      "de": [
+        {
+          "t": "Ist",
+          "b": [],
+          "e": [
+            0
+          ],
+          "l": "Ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "Is",
+          "n": ""
+        },
+        {
+          "t": "das Gehalt",
+          "b": [
+            0
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "das Gehalt",
+          "gb": "বেতনটা",
+          "ge": "the salary",
+          "n": ""
+        },
+        {
+          "t": "brutto",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "brutto",
+          "gb": "ব্রুটো",
+          "ge": "gross",
+          "n": ""
+        },
+        {
+          "t": "oder",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "oder",
+          "gb": "নাকি",
+          "ge": "or",
+          "n": ""
+        },
+        {
+          "t": "netto?",
+          "b": [
+            3
+          ],
+          "e": [
+            5
+          ],
+          "l": "netto",
+          "gb": "নেটো",
+          "ge": "net",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Frau Hoffmann",
+      "bn": [
+        "চুক্তির",
+        "বেতন",
+        "ব্রুটো।",
+        "তা",
+        "থেকে",
+        "কর",
+        "আর",
+        "সামাজিক",
+        "বিমা",
+        "কেটে",
+        "নেওয়া",
+        "হয়।",
+        "তাই",
+        "নেটোতে",
+        "আপনি",
+        "কম",
+        "পাবেন।"
+      ],
+      "en": [
+        "The",
+        "salary",
+        "in",
+        "the",
+        "contract",
+        "is",
+        "gross.",
+        "Taxes",
+        "and",
+        "social",
+        "insurance",
+        "are",
+        "deducted",
+        "from",
+        "it.",
+        "So",
+        "you",
+        "will",
+        "receive",
+        "less",
+        "net."
+      ],
+      "de": [
+        {
+          "t": "Das Gehalt",
+          "b": [
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Das Gehalt",
+          "gb": "বেতন",
+          "ge": "The salary",
+          "n": ""
+        },
+        {
+          "t": "im Vertrag",
+          "b": [
+            0
+          ],
+          "e": [
+            2,
+            3,
+            4
+          ],
+          "l": "im Vertrag",
+          "gb": "চুক্তির",
+          "ge": "in the contract",
+          "n": ""
+        },
+        {
+          "t": "ist brutto.",
+          "b": [
+            2
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "ist brutto",
+          "gb": "ব্রুটো",
+          "ge": "is gross",
+          "n": ""
+        },
+        {
+          "t": "Davon",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            13,
+            14
+          ],
+          "l": "Davon",
+          "gb": "তা থেকে",
+          "ge": "from it",
+          "n": ""
+        },
+        {
+          "t": "werden",
+          "b": [
+            10,
+            11
+          ],
+          "e": [
+            11
+          ],
+          "l": "werden",
+          "gb": "নেওয়া হয়",
+          "ge": "are",
+          "n": ""
+        },
+        {
+          "t": "Steuern",
+          "b": [
+            5
+          ],
+          "e": [
+            7
+          ],
+          "l": "Steuer",
+          "gb": "কর",
+          "ge": "Taxes",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            6
+          ],
+          "e": [
+            8
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "Sozialversicherung",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "Sozialversicherung",
+          "gb": "সামাজিক বিমা",
+          "ge": "social insurance",
+          "n": ""
+        },
+        {
+          "t": "abgezogen.",
+          "b": [
+            9
+          ],
+          "e": [
+            12
+          ],
+          "l": "abziehen",
+          "gb": "কেটে",
+          "ge": "deducted",
+          "n": ""
+        },
+        {
+          "t": "Netto",
+          "b": [
+            13
+          ],
+          "e": [
+            20
+          ],
+          "l": "Netto",
+          "gb": "নেটোতে",
+          "ge": "net",
+          "n": ""
+        },
+        {
+          "t": "bekommen Sie",
+          "b": [
+            14,
+            16
+          ],
+          "e": [
+            16,
+            17,
+            18
+          ],
+          "l": "bekommen Sie",
+          "gb": "আপনি পাবেন",
+          "ge": "you will receive",
+          "n": ""
+        },
+        {
+          "t": "also weniger.",
+          "b": [
+            12,
+            15
+          ],
+          "e": [
+            15,
+            19
+          ],
+          "l": "also weniger",
+          "gb": "তাই কম",
+          "ge": "So less",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "বুঝেছি।",
+        "আমাকে",
+        "কি",
+        "ওভারটাইম",
+        "করতে",
+        "হবে?"
+      ],
+      "en": [
+        "I",
+        "see.",
+        "Do",
+        "I",
+        "have",
+        "to",
+        "work",
+        "overtime?"
+      ],
+      "de": [
+        {
+          "t": "Verstehe.",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Verstehe",
+          "gb": "বুঝেছি",
+          "ge": "I see",
+          "n": ""
+        },
+        {
+          "t": "Muss",
+          "b": [
+            5
+          ],
+          "e": [
+            2
+          ],
+          "l": "Muss",
+          "gb": "হবে",
+          "ge": "Do",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "ich",
+          "gb": "আমাকে",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "Überstunden",
+          "b": [
+            3
+          ],
+          "e": [
+            7
+          ],
+          "l": "Überstunde",
+          "gb": "ওভারটাইম",
+          "ge": "overtime",
+          "n": ""
+        },
+        {
+          "t": "machen?",
+          "b": [
+            4
+          ],
+          "e": [
+            6
+          ],
+          "l": "machen",
+          "gb": "করতে",
+          "ge": "work",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Frau Hoffmann",
+      "bn": [
+        "ওভারটাইম",
+        "হয়",
+        "টাকায়",
+        "মেটানো",
+        "হয়,",
+        "নয়তো",
+        "ছুটি",
+        "দিয়ে",
+        "সমন্বয়",
+        "করা",
+        "হয়।"
+      ],
+      "en": [
+        "Overtime",
+        "is",
+        "either",
+        "paid",
+        "or",
+        "compensated",
+        "with",
+        "time",
+        "off."
+      ],
+      "de": [
+        {
+          "t": "Überstunden",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Überstunden",
+          "gb": "ওভারটাইম",
+          "ge": "Overtime",
+          "n": ""
+        },
+        {
+          "t": "werden",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "werden",
+          "gb": "হয়",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "bezahlt",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "bezahlt",
+          "gb": "টাকায় মেটানো",
+          "ge": "paid",
+          "n": ""
+        },
+        {
+          "t": "oder",
+          "b": [
+            5
+          ],
+          "e": [
+            4
+          ],
+          "l": "oder",
+          "gb": "নয়তো",
+          "ge": "or",
+          "n": ""
+        },
+        {
+          "t": "mit Freizeit",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            6,
+            7,
+            8
+          ],
+          "l": "mit Freizeit",
+          "gb": "ছুটি দিয়ে",
+          "ge": "with time off",
+          "n": ""
+        },
+        {
+          "t": "ausgeglichen.",
+          "b": [
+            8,
+            9,
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "ausgeglichen",
+          "gb": "সমন্বয় করা হয়",
+          "ge": "compensated",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "Wichtige Begriffe im Arbeitsvertrag",
+      "head": [
+        "Begriff",
+        "Bedeutung"
+      ],
+      "rows": [
+        [
+          "Probezeit",
+          "সাধারণত সর্বোচ্চ ৬ মাস; নোটিশের মেয়াদ সাধারণত ২ সপ্তাহ"
+        ],
+        [
+          "Kündigungsfrist",
+          "চাকরি ছাড়তে বা ছাঁটাইয়ে নোটিশ কত আগে দিতে হয়"
+        ],
+        [
+          "Arbeitszeit",
+          "সপ্তাহে কত ঘণ্টা (z. B. 38,5 Stunden)"
+        ],
+        [
+          "Urlaubsanspruch",
+          "বছরে ছুটির দিন"
+        ],
+        [
+          "Tarifvertrag",
+          "শিল্প/ইউনিয়নের সাথে সম্মত মজুরি ও শর্ত"
+        ],
+        [
+          "Gehalt brutto / netto",
+          "কর কাটার আগে / পরে"
+        ]
+      ],
+      "note": "চুক্তি সই করার আগে ভালো করে পড়ুন; বুঝতে না পারলে বন্ধু বা পরামর্শ কেন্দ্রের (z. B. Gewerkschaft, Beratungsstelle) সাহায্য নিন। এটি আইনি পরামর্শ নয়।"
+    },
+    {
+      "type": "table",
+      "title": "Abzüge vom Bruttogehalt (Überblick)",
+      "head": [
+        "Abzug",
+        "Zweck"
+      ],
+      "rows": [
+        [
+          "Lohnsteuer",
+          "আয়কর"
+        ],
+        [
+          "Krankenversicherung",
+          "স্বাস্থ্যবিমা"
+        ],
+        [
+          "Pflegeversicherung",
+          "দীর্ঘমেয়াদি সেবা বিমা"
+        ],
+        [
+          "Rentenversicherung",
+          "পেনশন"
+        ],
+        [
+          "Arbeitslosenversicherung",
+          "বেকারত্ব বিমা"
+        ]
+      ],
+      "note": "এই অংশ বেতন থেকে কাটা হয়, আর নিয়োগকর্তাও একটি অংশ দেন। শতাংশ ও নিয়ম বদলায় — Lohnabrechnung (পে-স্লিপ) দেখে বুঝে নিন।"
+    },
+    {
+      "type": "table",
+      "title": "Passiv: Abzüge und Zahlungen",
+      "head": [
+        "Aktiv",
+        "Passiv"
+      ],
+      "rows": [
+        [
+          "Man zieht Steuern ab.",
+          "Steuern werden abgezogen."
+        ],
+        [
+          "Man bezahlt Überstunden.",
+          "Überstunden werden bezahlt."
+        ],
+        [
+          "Der Arbeitgeber zahlt das Gehalt am Monatsende.",
+          "Das Gehalt wird am Monatsende gezahlt."
+        ]
+      ],
+      "note": "wird/werden + Partizip II। ভাঙা ক্রিয়া: abziehen → abgezogen।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "der Arbeitsvertrag",
+      "options": [
+        "পরীক্ষামূলক সময়",
+        "কর কাটার আগে",
+        "চাকরির চুক্তি",
+        "কর"
+      ],
+      "answer": 2,
+      "why": "der Arbeitsvertrag = চাকরির চুক্তি।",
+      "word": "arbeitsvertrag"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "die Probezeit",
+      "options": [
+        "বেতনের হিসাব",
+        "চাকরি ছাড়া বা ছাঁটাই",
+        "কর",
+        "পরীক্ষামূলক সময়"
+      ],
+      "answer": 3,
+      "why": "die Probezeit = পরীক্ষামূলক সময়।",
+      "word": "probezeit"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "die Überstunde",
+      "options": [
+        "কর কাটার আগে",
+        "অতিরিক্ত ঘণ্টা",
+        "সামাজিক বিমা",
+        "বেতনের হিসাব"
+      ],
+      "answer": 1,
+      "why": "die Überstunde = অতিরিক্ত ঘণ্টা।",
+      "word": "ueberstunde"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Lohnabrechnung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Lohnabrechnung। বহুবচন: die Lohnabrechnungen।",
+      "word": "lohnabrechnung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„brutto“ মানে কী?",
+      "options": [
+        "কর কাটার আগের অঙ্ক",
+        "কর কাটার পরের অঙ্ক",
+        "বোনাস",
+        "ছুটি"
+      ],
+      "answer": 0,
+      "why": "brutto = gross।",
+      "word": "brutto"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Steuern ___ vom Gehalt abgezogen.",
+      "options": [
+        "werden",
+        "wird",
+        "worden",
+        "wurde"
+      ],
+      "answer": 0,
+      "why": "Plural: Steuern werden abgezogen।",
+      "word": "abziehen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Probezeit-এ নোটিশের মেয়াদ সাধারণত কত?",
+      "options": [
+        "দুই সপ্তাহ",
+        "এক বছর",
+        "এক দিন",
+        "কোনো মেয়াদ নেই"
+      ],
+      "answer": 0,
+      "why": "Kündigungsfrist in der Probezeit।",
+      "word": "kuendigung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Sozialversicherung-এ কোনটি পড়ে?",
+      "options": [
+        "Rentenversicherung",
+        "Handyvertrag",
+        "Mietvertrag",
+        "Lieferschein"
+      ],
+      "answer": 0,
+      "why": "Rente = পেনশন।",
+      "word": "sozialversicherung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Tarifvertrag“ কী?",
+      "options": [
+        "যৌথ মজুরি-চুক্তি",
+        "ভাড়াচুক্তি",
+        "ঋণ-চুক্তি",
+        "বিমার সনদ"
+      ],
+      "answer": 0,
+      "why": "Tarif = rates।",
+      "word": "tarifvertrag"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „ওভারটাইম টাকায় মেটানো হয়।“",
+      "tiles": [
+        "bezahlt.",
+        "Überstunden",
+        "werden"
+      ],
+      "answer": [
+        "Überstunden",
+        "werden",
+        "bezahlt."
+      ],
+      "why": "Passiv: werden + Partizip II।",
+      "word": "ueberstunde"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

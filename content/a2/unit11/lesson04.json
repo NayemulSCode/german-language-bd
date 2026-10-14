@@ -1,0 +1,1202 @@
+{
+  "level": "A2",
+  "unit": 11,
+  "minutes": 16,
+  "lesson": 4,
+  "id": "a2-u11-l04",
+  "title": {
+    "de": "Lieber Tom, …",
+    "bn": "বন্ধুকে ইমেইল লেখা",
+    "en": "Writing an email to a friend"
+  },
+  "hook": {
+    "de": "Briefe sind die Brücken zwischen Menschen.",
+    "who": "Redensart",
+    "bn": "চিঠি মানুষের মধ্যে সেতু।",
+    "en": "Letters are bridges between people."
+  },
+  "goals": [
+    "অনানুষ্ঠানিক ইমেইলের ছক: Anrede, Einleitung, Hauptteil, Schluss",
+    "Lieber / Liebe + নাম",
+    "দরকারি বাক্য: Vielen Dank für …, Ich würde mich freuen, wenn …",
+    "Viele Grüße · Bis bald"
+  ],
+  "words": [
+    {
+      "id": "anrede",
+      "de": "Anrede",
+      "art": "die",
+      "pl": "die Anreden",
+      "pos": "বিশেষ্য",
+      "bn": "সম্বোধন",
+      "en": "salutation"
+    },
+    {
+      "id": "einleitung",
+      "de": "Einleitung",
+      "art": "die",
+      "pl": "die Einleitungen",
+      "pos": "বিশেষ্য",
+      "bn": "ভূমিকা",
+      "en": "introduction"
+    },
+    {
+      "id": "schluss",
+      "de": "Schluss",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "শেষ",
+      "en": "end"
+    },
+    {
+      "id": "erzaehlen",
+      "de": "erzählen",
+      "pos": "ক্রিয়া · hat erzählt",
+      "bn": "গল্প বলা, জানানো",
+      "en": "to tell"
+    },
+    {
+      "id": "neuigkeit",
+      "de": "Neuigkeit",
+      "art": "die",
+      "pl": "die Neuigkeiten",
+      "pos": "বিশেষ্য",
+      "bn": "নতুন খবর",
+      "en": "news"
+    },
+    {
+      "id": "gruss",
+      "de": "Gruß",
+      "art": "der",
+      "pl": "die Grüße",
+      "pos": "বিশেষ্য",
+      "bn": "শুভেচ্ছা",
+      "en": "greeting"
+    },
+    {
+      "id": "antworten",
+      "de": "antworten",
+      "pos": "ক্রিয়া · hat geantwortet (+ Dativ)",
+      "bn": "উত্তর দেওয়া",
+      "en": "to answer"
+    },
+    {
+      "id": "postkarte",
+      "de": "Postkarte",
+      "art": "die",
+      "pl": "die Postkarten",
+      "pos": "বিশেষ্য",
+      "bn": "পোস্টকার্ড",
+      "en": "postcard"
+    },
+    {
+      "id": "lieb",
+      "de": "lieb",
+      "pos": "বিশেষণ",
+      "bn": "প্রিয়",
+      "en": "dear"
+    },
+    {
+      "id": "bald",
+      "de": "bald",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "শীঘ্রই",
+      "en": "soon"
+    },
+    {
+      "id": "absatz",
+      "de": "Absatz",
+      "art": "der",
+      "pl": "die Absätze",
+      "pos": "বিশেষ্য",
+      "bn": "অনুচ্ছেদ",
+      "en": "paragraph"
+    },
+    {
+      "id": "beginnen",
+      "de": "beginnen",
+      "pos": "ক্রিয়া · hat begonnen",
+      "bn": "শুরু করা",
+      "en": "to begin"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "টমকে",
+        "একটি",
+        "ইমেইল",
+        "লিখছি।",
+        "কীভাবে",
+        "শুরু",
+        "করব?"
+      ],
+      "en": [
+        "I",
+        "am",
+        "writing",
+        "an",
+        "email",
+        "to",
+        "Tom.",
+        "How",
+        "do",
+        "I",
+        "begin?"
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "schreibe",
+          "b": [
+            4
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "schreibe",
+          "gb": "লিখছি",
+          "ge": "am writing",
+          "n": ""
+        },
+        {
+          "t": "Tom",
+          "s": "Tom",
+          "b": [
+            1
+          ],
+          "e": [
+            6
+          ],
+          "l": "Tom",
+          "gb": "টমকে",
+          "ge": "Tom",
+          "n": ""
+        },
+        {
+          "t": "eine E-Mail.",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "eine E-Mail",
+          "gb": "একটি ইমেইল",
+          "ge": "an email",
+          "n": ""
+        },
+        {
+          "t": "Wie",
+          "b": [
+            5
+          ],
+          "e": [
+            7
+          ],
+          "l": "Wie",
+          "gb": "কীভাবে",
+          "ge": "How",
+          "n": ""
+        },
+        {
+          "t": "beginne",
+          "b": [
+            6
+          ],
+          "e": [
+            8
+          ],
+          "l": "beginnen",
+          "gb": "শুরু",
+          "ge": "do",
+          "n": ""
+        },
+        {
+          "t": "ich?",
+          "b": [
+            7
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "ich",
+          "gb": "করব",
+          "ge": "I begin",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "তুমি",
+        "লিখবে:",
+        "„Lieber",
+        "Tom,“।",
+        "বন্ধুর",
+        "জন্য",
+        "„Lieber“,",
+        "বান্ধবীর",
+        "জন্য",
+        "„Liebe“।"
+      ],
+      "en": [
+        "You",
+        "write:",
+        "“Lieber",
+        "Tom,”.",
+        "For",
+        "a",
+        "male",
+        "friend",
+        "“Lieber”,",
+        "for",
+        "a",
+        "female",
+        "friend",
+        "“Liebe”."
+      ],
+      "de": [
+        {
+          "t": "Du",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Du",
+          "gb": "তুমি",
+          "ge": "You",
+          "n": ""
+        },
+        {
+          "t": "schreibst:",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "schreibst",
+          "gb": "লিখবে",
+          "ge": "write",
+          "n": ""
+        },
+        {
+          "t": "„Lieber Tom,“.",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "Anrede",
+          "gb": "„Lieber Tom“",
+          "ge": "“Lieber Tom”",
+          "n": ""
+        },
+        {
+          "t": "Für einen Freund",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "l": "Für einen Freund",
+          "gb": "বন্ধুর জন্য",
+          "ge": "For a male friend",
+          "n": ""
+        },
+        {
+          "t": "„Lieber“,",
+          "b": [
+            6
+          ],
+          "e": [
+            8
+          ],
+          "l": "lieb",
+          "gb": "„Lieber“",
+          "ge": "“Lieber”",
+          "n": ""
+        },
+        {
+          "t": "für eine Freundin",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "l": "für eine Freundin",
+          "gb": "বান্ধবীর জন্য",
+          "ge": "for a female friend",
+          "n": ""
+        },
+        {
+          "t": "„Liebe“.",
+          "b": [
+            9
+          ],
+          "e": [
+            13
+          ],
+          "l": "„Liebe“",
+          "gb": "„Liebe“",
+          "ge": "“Liebe”",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "তারপর:",
+        "তোমার",
+        "বার্তার",
+        "জন্য",
+        "অনেক",
+        "ধন্যবাদ।",
+        "আমি",
+        "খুব",
+        "খুশি",
+        "হয়েছি।"
+      ],
+      "en": [
+        "Then:",
+        "“Thank",
+        "you",
+        "very",
+        "much",
+        "for",
+        "your",
+        "message.",
+        "I",
+        "was",
+        "very",
+        "happy.”"
+      ],
+      "de": [
+        {
+          "t": "Dann:",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Dann",
+          "gb": "তারপর",
+          "ge": "Then",
+          "n": ""
+        },
+        {
+          "t": "„Vielen Dank",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "l": "Einleitung",
+          "gb": "অনেক ধন্যবাদ",
+          "ge": "“Thank you very much",
+          "n": ""
+        },
+        {
+          "t": "für deine Nachricht.",
+          "b": [
+            1,
+            2,
+            3
+          ],
+          "e": [
+            5,
+            6,
+            7
+          ],
+          "l": "für deine Nachricht",
+          "gb": "তোমার বার্তার জন্য",
+          "ge": "for your message",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            6
+          ],
+          "e": [
+            8
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [],
+          "e": [],
+          "l": "habe",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "mich",
+          "b": [],
+          "e": [],
+          "l": "mich",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "sehr",
+          "b": [
+            7
+          ],
+          "e": [
+            10
+          ],
+          "l": "sehr",
+          "gb": "খুব",
+          "ge": "very",
+          "n": ""
+        },
+        {
+          "t": "gefreut.“",
+          "b": [
+            8,
+            9
+          ],
+          "e": [
+            11
+          ],
+          "l": "sich freuen",
+          "gb": "খুশি হয়েছি",
+          "ge": "happy”",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "ভালো।",
+        "এরপর",
+        "কিছু",
+        "নতুন",
+        "খবর",
+        "জানাও,",
+        "যেমন",
+        "তোমার",
+        "জার্মান",
+        "কোর্স",
+        "কেমন।"
+      ],
+      "en": [
+        "Good.",
+        "After",
+        "that",
+        "you",
+        "tell",
+        "something",
+        "new,",
+        "for",
+        "example",
+        "how",
+        "your",
+        "German",
+        "course",
+        "is."
+      ],
+      "de": [
+        {
+          "t": "Gut.",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Gut",
+          "gb": "ভালো",
+          "ge": "Good",
+          "n": ""
+        },
+        {
+          "t": "Danach",
+          "b": [
+            1
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "Danach",
+          "gb": "এরপর",
+          "ge": "After that",
+          "n": ""
+        },
+        {
+          "t": "erzählst",
+          "b": [
+            5
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "erzählen",
+          "gb": "জানাও",
+          "ge": "you tell",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [],
+          "e": [],
+          "l": "du",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "etwas Neues,",
+          "b": [
+            2,
+            3,
+            4
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "Neuigkeit",
+          "gb": "কিছু নতুন খবর",
+          "ge": "something new",
+          "n": ""
+        },
+        {
+          "t": "zum Beispiel,",
+          "b": [
+            6
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "zum Beispiel",
+          "gb": "যেমন",
+          "ge": "for example",
+          "n": ""
+        },
+        {
+          "t": "wie",
+          "b": [
+            10
+          ],
+          "e": [
+            9
+          ],
+          "l": "wie",
+          "gb": "কেমন",
+          "ge": "how",
+          "n": ""
+        },
+        {
+          "t": "dein Deutschkurs",
+          "b": [
+            7,
+            8,
+            9
+          ],
+          "e": [
+            10,
+            11,
+            12
+          ],
+          "l": "dein Deutschkurs",
+          "gb": "তোমার জার্মান কোর্স",
+          "ge": "your German course",
+          "n": ""
+        },
+        {
+          "t": "ist.",
+          "b": [],
+          "e": [
+            13
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "„আমার",
+        "কোর্স",
+        "দারুণ,",
+        "কিন্তু",
+        "ব্যাকরণ",
+        "কঠিন।“",
+        "আর",
+        "শেষে",
+        "কী",
+        "লিখব?"
+      ],
+      "en": [
+        "“My",
+        "course",
+        "is",
+        "great,",
+        "but",
+        "grammar",
+        "is",
+        "difficult.”",
+        "And",
+        "what",
+        "do",
+        "I",
+        "write",
+        "at",
+        "the",
+        "end?"
+      ],
+      "de": [
+        {
+          "t": "„Mein Kurs",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "„Mein Kurs",
+          "gb": "„আমার কোর্স",
+          "ge": "“My course",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "super,",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "super",
+          "gb": "দারুণ",
+          "ge": "great",
+          "n": ""
+        },
+        {
+          "t": "aber",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "aber",
+          "gb": "কিন্তু",
+          "ge": "but",
+          "n": ""
+        },
+        {
+          "t": "die Grammatik",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "die Grammatik",
+          "gb": "ব্যাকরণ",
+          "ge": "grammar",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            6
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "schwer.“",
+          "b": [
+            5
+          ],
+          "e": [
+            7
+          ],
+          "l": "schwer“",
+          "gb": "কঠিন“",
+          "ge": "difficult”",
+          "n": ""
+        },
+        {
+          "t": "Und",
+          "b": [
+            6
+          ],
+          "e": [
+            8
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "am Ende?",
+          "b": [
+            7
+          ],
+          "e": [
+            13,
+            14,
+            15
+          ],
+          "l": "Schluss",
+          "gb": "শেষে",
+          "ge": "at the end",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "আমি",
+        "খুশি",
+        "হব,",
+        "যদি",
+        "তুমি",
+        "শীঘ্রই",
+        "লেখো।",
+        "অনেক",
+        "শুভেচ্ছা,",
+        "সাহেব।"
+      ],
+      "en": [
+        "“I",
+        "would",
+        "be",
+        "happy",
+        "if",
+        "you",
+        "wrote",
+        "soon.",
+        "Best",
+        "wishes,",
+        "Saheb.”"
+      ],
+      "de": [
+        {
+          "t": "„Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "„Ich",
+          "gb": "আমি",
+          "ge": "“I",
+          "n": ""
+        },
+        {
+          "t": "würde",
+          "b": [
+            2
+          ],
+          "e": [
+            1
+          ],
+          "l": "würde",
+          "gb": "হব",
+          "ge": "would",
+          "n": ""
+        },
+        {
+          "t": "mich",
+          "b": [],
+          "e": [],
+          "l": "mich",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "freuen,",
+          "b": [
+            1
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "sich freuen",
+          "gb": "খুশি",
+          "ge": "be happy",
+          "n": ""
+        },
+        {
+          "t": "wenn",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "wenn",
+          "gb": "যদি",
+          "ge": "if",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "bald",
+          "b": [
+            5
+          ],
+          "e": [
+            7
+          ],
+          "l": "bald",
+          "gb": "শীঘ্রই",
+          "ge": "soon",
+          "n": ""
+        },
+        {
+          "t": "schreibst.",
+          "b": [
+            6
+          ],
+          "e": [
+            6
+          ],
+          "l": "schreibst",
+          "gb": "লেখো",
+          "ge": "wrote",
+          "n": ""
+        },
+        {
+          "t": "Viele Grüße,",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            8,
+            9
+          ],
+          "l": "Gruß",
+          "gb": "অনেক শুভেচ্ছা",
+          "ge": "Best wishes",
+          "n": ""
+        },
+        {
+          "t": "Saheb.“",
+          "s": "Saheb",
+          "b": [
+            9
+          ],
+          "e": [
+            10
+          ],
+          "l": "Saheb“",
+          "gb": "সাহেব",
+          "ge": "Saheb”",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "অনানুষ্ঠানিক ইমেইলের ছক",
+      "head": [
+        "অংশ",
+        "উদাহরণ"
+      ],
+      "rows": [
+        [
+          "Anrede",
+          "Lieber Tom, / Liebe Lena,"
+        ],
+        [
+          "Einleitung",
+          "Vielen Dank für deine Nachricht. Ich habe mich sehr gefreut."
+        ],
+        [
+          "Hauptteil",
+          "Mein Kurs ist super, aber die Grammatik ist schwer. …"
+        ],
+        [
+          "Bitte / Frage",
+          "Hast du Lust, am Samstag etwas zu unternehmen?"
+        ],
+        [
+          "Schluss",
+          "Ich würde mich freuen, wenn du bald schreibst."
+        ],
+        [
+          "Gruß",
+          "Viele Grüße / Liebe Grüße / Bis bald, Saheb"
+        ]
+      ],
+      "note": "বন্ধুকে „du“, ফর্মাল চিঠিতে „Sie“ (Sehr geehrte …, Mit freundlichen Grüßen)। ইমেইলে সাধারণত নামের পর কমা, তারপর ছোট হাতের অক্ষর দিয়ে শুরু।"
+    },
+    {
+      "type": "table",
+      "title": "দরকারি বাক্যাংশ",
+      "head": [
+        "জার্মান",
+        "বাংলা"
+      ],
+      "rows": [
+        [
+          "Vielen Dank für …",
+          "… এর জন্য অনেক ধন্যবাদ"
+        ],
+        [
+          "Wie geht es dir?",
+          "কেমন আছো?"
+        ],
+        [
+          "Ich wollte dir erzählen, dass …",
+          "আমি তোমাকে জানাতে চেয়েছিলাম যে …"
+        ],
+        [
+          "Ich würde mich freuen, wenn …",
+          "… হলে আমি খুশি হব"
+        ],
+        [
+          "Schreib mir bald!",
+          "শীঘ্রই লেখো!"
+        ],
+        [
+          "Bis bald!",
+          "শীঘ্রই দেখা হবে!"
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "title": "আপনার প্রথম ইমেইল",
+      "text": "ছোট ইমেইল লেখার অনুশীলন করুন: ৪–৫ বাক্য, প্রতিটি অনুচ্ছেদ আলাদা। „Ich habe …“ (Perfekt), „Ich möchte …“ (ইচ্ছা), „weil …“ (কারণ)। Goethe A2-র Schreiben-অংশে সাধারণত এমন একটি ছোট বার্তা লিখতে হয়।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "die Neuigkeit",
+      "options": [
+        "উত্তর দেওয়া",
+        "প্রিয়",
+        "নতুন খবর",
+        "অনুচ্ছেদ"
+      ],
+      "answer": 2,
+      "why": "die Neuigkeit = নতুন খবর।",
+      "word": "neuigkeit"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "erzählen",
+      "options": [
+        "নতুন খবর",
+        "পোস্টকার্ড",
+        "গল্প বলা",
+        "অনুচ্ছেদ"
+      ],
+      "answer": 2,
+      "why": "erzählen = গল্প বলা।",
+      "word": "erzaehlen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "die Postkarte",
+      "options": [
+        "শুরু করা",
+        "পোস্টকার্ড",
+        "শেষ",
+        "শুভেচ্ছা"
+      ],
+      "answer": 1,
+      "why": "die Postkarte = পোস্টকার্ড।",
+      "word": "postkarte"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Anrede",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Anrede। বহুবচন: die Anreden।",
+      "word": "anrede"
+    },
+    {
+      "type": "mcq",
+      "prompt": "বান্ধবীকে চিঠির শুরুতে কী লিখবেন?",
+      "options": [
+        "Liebe Lena,",
+        "Lieber Lena,",
+        "Sehr geehrte Lena,",
+        "Hallo Lena Frau,"
+      ],
+      "answer": 0,
+      "why": "f → Liebe।",
+      "word": "lieb"
+    },
+    {
+      "type": "mcq",
+      "prompt": "বন্ধু (পুরুষ)-কে কী লিখবেন?",
+      "options": [
+        "Lieber Tom,",
+        "Liebe Tom,",
+        "Sehr geehrter Tom,",
+        "Hallo Herr Tom,"
+      ],
+      "answer": 0,
+      "why": "m → Lieber।",
+      "word": "lieb"
+    },
+    {
+      "type": "mcq",
+      "prompt": "বিদায়ে কী লিখবেন?",
+      "options": [
+        "Viele Grüße",
+        "Sehr geehrte Damen und Herren",
+        "Guten Morgen",
+        "Danke für nichts"
+      ],
+      "answer": 0,
+      "why": "অনানুষ্ঠানিক সমাপ্তি।",
+      "word": "gruss"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক বাক্য কোনটি?",
+      "options": [
+        "Ich würde mich freuen, wenn du bald schreibst.",
+        "Ich würde mich freuen, wenn du schreibst bald.",
+        "Ich würde freuen mich, wenn du bald schreibst.",
+        "Ich mich würde freuen wenn, du bald schreibst."
+      ],
+      "answer": 0,
+      "why": "wenn-Satz: ক্রিয়া শেষে।",
+      "word": "bald"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„antworten“ কোন কেস নেয়?",
+      "options": [
+        "Dativ",
+        "Akkusativ",
+        "Genitiv",
+        "কোনোটি নয়"
+      ],
+      "answer": 0,
+      "why": "jemandem antworten।",
+      "word": "antworten"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „তোমার বার্তার জন্য অনেক ধন্যবাদ।“",
+      "tiles": [
+        "deine Nachricht.",
+        "Vielen Dank",
+        "für"
+      ],
+      "answer": [
+        "Vielen Dank",
+        "für",
+        "deine Nachricht."
+      ],
+      "why": "Dank für + Akkusativ।",
+      "word": "einleitung"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

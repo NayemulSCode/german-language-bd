@@ -1,0 +1,1169 @@
+{
+  "level": "A2",
+  "unit": 11,
+  "minutes": 16,
+  "lesson": 1,
+  "id": "a2-u11-l01",
+  "title": {
+    "de": "Wie sieht sie aus?",
+    "bn": "চেহারা ও স্বভাবের বর্ণনা",
+    "en": "Describing people: looks and character"
+  },
+  "hook": {
+    "de": "Der Ton macht die Musik.",
+    "who": "Redensart",
+    "bn": "কীভাবে বলা হলো, সেটাই আসল।",
+    "en": "It is how you say it."
+  },
+  "goals": [
+    "Aussehen: groß, schlank, lange dunkle Haare",
+    "Charakter: nett, lustig, hilfsbereit, schüchtern",
+    "Adjektiv nach der/die/das: die junge Frau",
+    "Wie sieht … aus? · tragen"
+  ],
+  "words": [
+    {
+      "id": "dunkel",
+      "de": "dunkel",
+      "pos": "বিশেষণ",
+      "bn": "কালো, অন্ধকার",
+      "en": "dark"
+    },
+    {
+      "id": "aussehen",
+      "de": "aussehen",
+      "pos": "ক্রিয়া · sieht aus, hat ausgesehen",
+      "bn": "দেখতে লাগা",
+      "en": "to look (like)"
+    },
+    {
+      "id": "schlank",
+      "de": "schlank",
+      "pos": "বিশেষণ",
+      "bn": "ছিমছাম, পাতলা",
+      "en": "slim"
+    },
+    {
+      "id": "haare",
+      "de": "Haare",
+      "art": "die",
+      "pos": "বিশেষ্য, বহুবচন",
+      "bn": "চুল",
+      "en": "hair"
+    },
+    {
+      "id": "augen",
+      "de": "Augen",
+      "art": "die",
+      "pos": "বিশেষ্য, বহুবচন",
+      "bn": "চোখ",
+      "en": "eyes"
+    },
+    {
+      "id": "brille",
+      "de": "Brille",
+      "art": "die",
+      "pl": "die Brillen",
+      "pos": "বিশেষ্য",
+      "bn": "চশমা",
+      "en": "glasses"
+    },
+    {
+      "id": "tragen",
+      "de": "tragen",
+      "pos": "ক্রিয়া · trägt, hat getragen",
+      "bn": "পরা, বহন করা",
+      "en": "to wear, to carry"
+    },
+    {
+      "id": "lustig",
+      "de": "lustig",
+      "pos": "বিশেষণ",
+      "bn": "মজার, আমুদে",
+      "en": "funny"
+    },
+    {
+      "id": "hilfsbereit",
+      "de": "hilfsbereit",
+      "pos": "বিশেষণ",
+      "bn": "সাহায্যপ্রবণ",
+      "en": "helpful"
+    },
+    {
+      "id": "schuechtern",
+      "de": "schüchtern",
+      "pos": "বিশেষণ",
+      "bn": "লাজুক",
+      "en": "shy"
+    },
+    {
+      "id": "ehrlich",
+      "de": "ehrlich",
+      "pos": "বিশেষণ",
+      "bn": "সৎ",
+      "en": "honest"
+    },
+    {
+      "id": "charakter",
+      "de": "Charakter",
+      "art": "der",
+      "pl": "die Charaktere",
+      "pos": "বিশেষ্য",
+      "bn": "স্বভাব",
+      "en": "character"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Lena",
+      "bn": [
+        "তোমার",
+        "বান্ধবী",
+        "মুনা",
+        "দেখতে",
+        "কেমন?"
+      ],
+      "en": [
+        "What",
+        "does",
+        "your",
+        "friend",
+        "Muna",
+        "look",
+        "like?"
+      ],
+      "de": [
+        {
+          "t": "Wie",
+          "b": [
+            4
+          ],
+          "e": [
+            0
+          ],
+          "l": "Wie",
+          "gb": "কেমন",
+          "ge": "What",
+          "n": ""
+        },
+        {
+          "t": "sieht",
+          "b": [
+            3
+          ],
+          "e": [
+            1
+          ],
+          "l": "aussehen",
+          "gb": "দেখতে",
+          "ge": "does",
+          "n": ""
+        },
+        {
+          "t": "deine Freundin",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "deine Freundin",
+          "gb": "তোমার বান্ধবী",
+          "ge": "your friend",
+          "n": ""
+        },
+        {
+          "t": "Muna",
+          "s": "Muna",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "Muna",
+          "gb": "মুনা",
+          "ge": "Muna",
+          "n": ""
+        },
+        {
+          "t": "aus?",
+          "b": [],
+          "e": [
+            5,
+            6
+          ],
+          "l": "aus",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "look like",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "ও",
+        "লম্বা",
+        "আর",
+        "ছিমছাম।",
+        "ওর",
+        "লম্বা,",
+        "কালো",
+        "চুল",
+        "আর",
+        "বাদামি",
+        "চোখ।"
+      ],
+      "en": [
+        "She",
+        "is",
+        "tall",
+        "and",
+        "slim.",
+        "She",
+        "has",
+        "long,",
+        "dark",
+        "hair",
+        "and",
+        "brown",
+        "eyes."
+      ],
+      "de": [
+        {
+          "t": "Sie",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Sie",
+          "gb": "ও",
+          "ge": "She",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "groß",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "groß",
+          "gb": "লম্বা",
+          "ge": "tall",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "schlank.",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "schlank",
+          "gb": "ছিমছাম",
+          "ge": "slim",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "Sie",
+          "gb": "ওর",
+          "ge": "She",
+          "n": ""
+        },
+        {
+          "t": "hat",
+          "b": [],
+          "e": [
+            6
+          ],
+          "l": "hat",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "has",
+          "n": ""
+        },
+        {
+          "t": "lange,",
+          "b": [
+            5
+          ],
+          "e": [
+            7
+          ],
+          "l": "lange",
+          "gb": "লম্বা",
+          "ge": "long",
+          "n": ""
+        },
+        {
+          "t": "dunkle",
+          "b": [
+            6
+          ],
+          "e": [
+            8
+          ],
+          "l": "dunkle",
+          "gb": "কালো",
+          "ge": "dark",
+          "n": "ohne Artikel, Plural → Endung -e: lange, dunkle Haare"
+        },
+        {
+          "t": "Haare",
+          "b": [
+            7
+          ],
+          "e": [
+            9
+          ],
+          "l": "Haare",
+          "gb": "চুল",
+          "ge": "hair",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            8
+          ],
+          "e": [
+            10
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "braune Augen.",
+          "b": [
+            9,
+            10
+          ],
+          "e": [
+            11,
+            12
+          ],
+          "l": "Augen",
+          "gb": "বাদামি চোখ",
+          "ge": "brown eyes",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "ও",
+        "কি",
+        "চশমা",
+        "পরে?"
+      ],
+      "en": [
+        "Does",
+        "she",
+        "wear",
+        "glasses?"
+      ],
+      "de": [
+        {
+          "t": "Trägt",
+          "b": [
+            3
+          ],
+          "e": [
+            0
+          ],
+          "l": "tragen",
+          "gb": "পরে",
+          "ge": "Does",
+          "n": ""
+        },
+        {
+          "t": "sie",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "sie",
+          "gb": "ও",
+          "ge": "she",
+          "n": ""
+        },
+        {
+          "t": "eine Brille?",
+          "b": [
+            2
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "Brille",
+          "gb": "চশমা",
+          "ge": "wear glasses",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "হ্যাঁ,",
+        "কালো",
+        "চশমা",
+        "পরে।",
+        "চশমাওয়ালা",
+        "তরুণীটাই",
+        "মুনা।"
+      ],
+      "en": [
+        "Yes,",
+        "she",
+        "wears",
+        "black",
+        "glasses.",
+        "The",
+        "young",
+        "woman",
+        "with",
+        "the",
+        "glasses",
+        "is",
+        "Muna."
+      ],
+      "de": [
+        {
+          "t": "Ja,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ja",
+          "gb": "হ্যাঁ",
+          "ge": "Yes",
+          "n": ""
+        },
+        {
+          "t": "sie",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "sie",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "she",
+          "n": ""
+        },
+        {
+          "t": "trägt",
+          "b": [
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "trägt",
+          "gb": "পরে",
+          "ge": "wears",
+          "n": ""
+        },
+        {
+          "t": "eine schwarze Brille.",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "eine schwarze Brille",
+          "gb": "কালো চশমা",
+          "ge": "black glasses",
+          "n": ""
+        },
+        {
+          "t": "Die junge Frau",
+          "b": [
+            5
+          ],
+          "e": [
+            5,
+            6,
+            7
+          ],
+          "l": "Die junge Frau",
+          "gb": "তরুণীটাই",
+          "ge": "The young woman",
+          "n": "die + Adjektiv-e: die junge Frau"
+        },
+        {
+          "t": "mit der Brille",
+          "b": [
+            4
+          ],
+          "e": [
+            8,
+            9,
+            10
+          ],
+          "l": "mit der Brille",
+          "gb": "চশমাওয়ালা",
+          "ge": "with the glasses",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            11
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "Muna.",
+          "s": "Muna",
+          "b": [
+            6
+          ],
+          "e": [
+            12
+          ],
+          "l": "Muna",
+          "gb": "মুনা",
+          "ge": "Muna",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "আর",
+        "ও",
+        "কেমন",
+        "মানুষ?",
+        "ও",
+        "কি",
+        "ভালো?"
+      ],
+      "en": [
+        "And",
+        "what",
+        "is",
+        "she",
+        "like?",
+        "Is",
+        "she",
+        "nice?"
+      ],
+      "de": [
+        {
+          "t": "Und",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "wie",
+          "b": [
+            2
+          ],
+          "e": [
+            1
+          ],
+          "l": "wie",
+          "gb": "কেমন",
+          "ge": "what",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "ist",
+          "gb": "মানুষ",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "sie?",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "sie",
+          "gb": "ও",
+          "ge": "she",
+          "n": ""
+        },
+        {
+          "t": "Ist",
+          "b": [],
+          "e": [
+            5
+          ],
+          "l": "Ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "Is",
+          "n": ""
+        },
+        {
+          "t": "sie",
+          "b": [
+            4
+          ],
+          "e": [
+            6
+          ],
+          "l": "sie",
+          "gb": "ও",
+          "ge": "she",
+          "n": ""
+        },
+        {
+          "t": "nett?",
+          "b": [
+            6
+          ],
+          "e": [
+            7
+          ],
+          "l": "nett",
+          "gb": "ভালো",
+          "ge": "nice",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "ও",
+        "খুব",
+        "সাহায্যপ্রবণ",
+        "আর",
+        "মজার।",
+        "কিন্তু",
+        "কখনো",
+        "কখনো",
+        "লাজুক।"
+      ],
+      "en": [
+        "She",
+        "is",
+        "very",
+        "helpful",
+        "and",
+        "funny.",
+        "But",
+        "sometimes",
+        "shy."
+      ],
+      "de": [
+        {
+          "t": "Sie",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Sie",
+          "gb": "ও",
+          "ge": "She",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "sehr",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "sehr",
+          "gb": "খুব",
+          "ge": "very",
+          "n": ""
+        },
+        {
+          "t": "hilfsbereit",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "hilfsbereit",
+          "gb": "সাহায্যপ্রবণ",
+          "ge": "helpful",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "lustig.",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "lustig",
+          "gb": "মজার",
+          "ge": "funny",
+          "n": ""
+        },
+        {
+          "t": "Aber",
+          "b": [
+            5
+          ],
+          "e": [
+            6
+          ],
+          "l": "Aber",
+          "gb": "কিন্তু",
+          "ge": "But",
+          "n": ""
+        },
+        {
+          "t": "manchmal",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            7
+          ],
+          "l": "manchmal",
+          "gb": "কখনো কখনো",
+          "ge": "sometimes",
+          "n": ""
+        },
+        {
+          "t": "schüchtern.",
+          "b": [
+            8
+          ],
+          "e": [
+            8
+          ],
+          "l": "schüchtern",
+          "gb": "লাজুক",
+          "ge": "shy",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "তাহলে",
+        "আমি",
+        "ওকে",
+        "নিশ্চয়ই",
+        "চিনতে",
+        "পারব!"
+      ],
+      "en": [
+        "Then",
+        "I",
+        "will",
+        "certainly",
+        "recognise",
+        "her!"
+      ],
+      "de": [
+        {
+          "t": "Dann",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Dann",
+          "gb": "তাহলে",
+          "ge": "Then",
+          "n": ""
+        },
+        {
+          "t": "erkenne",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            2,
+            4
+          ],
+          "l": "erkenne",
+          "gb": "চিনতে পারব",
+          "ge": "will recognise",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "sie",
+          "b": [
+            2
+          ],
+          "e": [
+            5
+          ],
+          "l": "sie",
+          "gb": "ওকে",
+          "ge": "her",
+          "n": ""
+        },
+        {
+          "t": "bestimmt!",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "bestimmt",
+          "gb": "নিশ্চয়ই",
+          "ge": "certainly",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "Adjektiv nach dem bestimmten Artikel (der/die/das)",
+      "head": [
+        "",
+        "m",
+        "n",
+        "f",
+        "Plural"
+      ],
+      "rows": [
+        [
+          "Nominativ",
+          "der junge Mann",
+          "das kleine Kind",
+          "die junge Frau",
+          "die jungen Leute"
+        ],
+        [
+          "Akkusativ",
+          "den jungen Mann",
+          "das kleine Kind",
+          "die junge Frau",
+          "die jungen Leute"
+        ]
+      ],
+      "note": "Nach der/die/das: Nominativ ও Akkusativ f/n -e; Akkusativ m ও Plural -en। Dativ সবসময় -en: mit der jungen Frau, mit dem netten Mann।"
+    },
+    {
+      "type": "table",
+      "title": "Plural ohne Artikel",
+      "head": [
+        "জার্মান",
+        "বাংলা"
+      ],
+      "rows": [
+        [
+          "lange, dunkle Haare",
+          "লম্বা কালো চুল"
+        ],
+        [
+          "braune Augen",
+          "বাদামি চোখ"
+        ],
+        [
+          "nette Kollegen",
+          "ভালো সহকর্মী"
+        ],
+        [
+          "mit netten Kollegen (Dativ)",
+          "ভালো সহকর্মীদের সাথে"
+        ]
+      ],
+      "note": "Nominativ/Akkusativ Plural: -e। Dativ Plural: -en।"
+    },
+    {
+      "type": "table",
+      "title": "চেহারা ও স্বভাবের শব্দ",
+      "head": [
+        "Aussehen",
+        "Charakter"
+      ],
+      "rows": [
+        [
+          "groß / klein",
+          "nett / freundlich"
+        ],
+        [
+          "schlank / dick",
+          "lustig / ernst"
+        ],
+        [
+          "jung / alt",
+          "hilfsbereit"
+        ],
+        [
+          "dunkle / helle Haare",
+          "ehrlich"
+        ],
+        [
+          "braune / blaue Augen",
+          "schüchtern / offen"
+        ],
+        [
+          "eine Brille tragen",
+          "ruhig / laut"
+        ]
+      ],
+      "note": "Wie sieht er/sie aus? → চেহারা। Wie ist er/sie? → স্বভাব। „aussehen“ trennbar: „Sie sieht gut aus.“"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "die Brille",
+      "options": [
+        "সাহায্যপ্রবণ",
+        "সৎ",
+        "কালো",
+        "চশমা"
+      ],
+      "answer": 3,
+      "why": "die Brille = চশমা।",
+      "word": "brille"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "schüchtern",
+      "options": [
+        "সৎ",
+        "দেখতে লাগা",
+        "চোখ",
+        "লাজুক"
+      ],
+      "answer": 3,
+      "why": "schüchtern = লাজুক।",
+      "word": "schuechtern"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "hilfsbereit",
+      "options": [
+        "সাহায্যপ্রবণ",
+        "সৎ",
+        "দেখতে লাগা",
+        "চোখ"
+      ],
+      "answer": 0,
+      "why": "hilfsbereit = সাহায্যপ্রবণ।",
+      "word": "hilfsbereit"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Charakter",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 0,
+      "why": "der Charakter। বহুবচন: die Charaktere।",
+      "word": "charakter"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Die ___ Frau mit der Brille ist Muna.",
+      "options": [
+        "junge",
+        "junger",
+        "jungen",
+        "junges"
+      ],
+      "answer": 0,
+      "why": "die Frau (f, Nom.) → die junge Frau।",
+      "word": "aussehen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ich kenne den ___ Mann.",
+      "options": [
+        "jungen",
+        "junge",
+        "junger",
+        "junges"
+      ],
+      "answer": 0,
+      "why": "den Mann (m, Akk.) → den jungen Mann।",
+      "word": "tragen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Sie hat ___ Augen.",
+      "options": [
+        "braune",
+        "braunen",
+        "brauner",
+        "braunes"
+      ],
+      "answer": 0,
+      "why": "Plural ohne Artikel, Nom./Akk. → -e।",
+      "word": "augen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Wie sieht sie aus?“ কী জানতে চায়?",
+      "options": [
+        "চেহারা",
+        "স্বভাব",
+        "বয়স",
+        "নাম"
+      ],
+      "answer": 0,
+      "why": "aussehen = look like।",
+      "word": "aussehen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„lustig“ মানে কী?",
+      "options": [
+        "মজার",
+        "রাগী",
+        "ক্লান্ত",
+        "লম্বা"
+      ],
+      "answer": 0,
+      "why": "lustig = funny।",
+      "word": "lustig"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „ও খুব সাহায্যপ্রবণ আর মজার।“",
+      "tiles": [
+        "hilfsbereit",
+        "sehr",
+        "ist",
+        "Sie",
+        "und lustig."
+      ],
+      "answer": [
+        "Sie",
+        "ist",
+        "sehr",
+        "hilfsbereit",
+        "und lustig."
+      ],
+      "why": "sein + Adjektiv।",
+      "word": "hilfsbereit"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

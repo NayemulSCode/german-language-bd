@@ -1,0 +1,1528 @@
+{
+  "level": "B1",
+  "unit": 2,
+  "minutes": 18,
+  "lesson": 3,
+  "id": "b1-u02-l03",
+  "title": {
+    "de": "Versicherungen: Was brauche ich wirklich?",
+    "bn": "বিমা: কোনটা সত্যিই দরকার? (falls, hätte … sollen)",
+    "en": "Insurance: what do I really need?"
+  },
+  "hook": {
+    "de": "Vorsicht ist besser als Nachsicht.",
+    "who": "Sprichwort",
+    "bn": "সাবধান থাকা ভালো, পরে আফসোসের চেয়ে।",
+    "en": "Better safe than sorry."
+  },
+  "goals": [
+    "Versicherungsarten: Kranken-, Haftpflicht-, Hausratversicherung",
+    "falls + Nebensatz",
+    "Konjunktiv II der Vergangenheit: Ich hätte … abschließen sollen",
+    "Beitrag, Schaden, Leistung"
+  ],
+  "words": [
+    {
+      "id": "haftpflichtversicherung",
+      "de": "Haftpflichtversicherung",
+      "art": "die",
+      "pl": "die Haftpflichtversicherungen",
+      "pos": "বিশেষ্য",
+      "bn": "দায় বিমা (অন্যের ক্ষতির জন্য)",
+      "en": "liability insurance"
+    },
+    {
+      "id": "hausratversicherung",
+      "de": "Hausratversicherung",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "ঘরের জিনিসপত্রের বিমা",
+      "en": "home contents insurance"
+    },
+    {
+      "id": "krankenkasse",
+      "de": "Krankenkasse",
+      "art": "die",
+      "pl": "die Krankenkassen",
+      "pos": "বিশেষ্য",
+      "bn": "স্বাস্থ্যবিমা কোম্পানি",
+      "en": "health insurance fund"
+    },
+    {
+      "id": "gesetzlich",
+      "de": "gesetzlich",
+      "pos": "বিশেষণ",
+      "bn": "আইনানুগ, বাধ্যতামূলক",
+      "en": "statutory"
+    },
+    {
+      "id": "beitrag",
+      "de": "Beitrag",
+      "art": "der",
+      "pl": "die Beiträge",
+      "pos": "বিশেষ্য",
+      "bn": "মাসিক/বার্ষিক কিস্তি",
+      "en": "premium, contribution"
+    },
+    {
+      "id": "schaden",
+      "de": "Schaden",
+      "art": "der",
+      "pl": "die Schäden",
+      "pos": "বিশেষ্য",
+      "bn": "ক্ষতি",
+      "en": "damage"
+    },
+    {
+      "id": "abschliessen",
+      "de": "abschließen",
+      "pos": "ক্রিয়া · hat abgeschlossen",
+      "bn": "চুক্তি করা (বিমা ইত্যাদি)",
+      "en": "to take out (a contract)"
+    },
+    {
+      "id": "versichern",
+      "de": "versichern",
+      "pos": "ক্রিয়া · hat versichert",
+      "bn": "বিমা করানো",
+      "en": "to insure"
+    },
+    {
+      "id": "falls",
+      "de": "falls",
+      "pos": "সংযোজক",
+      "bn": "যদি (সম্ভাবনায়)",
+      "en": "in case, if"
+    },
+    {
+      "id": "leistung",
+      "de": "Leistung",
+      "art": "die",
+      "pl": "die Leistungen",
+      "pos": "বিশেষ্য",
+      "bn": "সুবিধা, প্রদত্ত সেবা",
+      "en": "benefit, service"
+    },
+    {
+      "id": "selbstbeteiligung",
+      "de": "Selbstbeteiligung",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "নিজের দেওয়া অংশ",
+      "en": "excess"
+    },
+    {
+      "id": "bereuen",
+      "de": "bereuen",
+      "pos": "ক্রিয়া · hat bereut",
+      "bn": "অনুতাপ করা",
+      "en": "to regret"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Berater",
+      "bn": [
+        "শুভ",
+        "দিন।",
+        "আপনি",
+        "কোন",
+        "বিমা",
+        "নিয়ে",
+        "জানতে",
+        "চান?"
+      ],
+      "en": [
+        "Good",
+        "day.",
+        "What",
+        "insurance",
+        "would",
+        "you",
+        "like",
+        "to",
+        "know",
+        "about?"
+      ],
+      "de": [
+        {
+          "t": "Guten Tag.",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Guten Tag",
+          "gb": "শুভ দিন",
+          "ge": "Good day",
+          "n": ""
+        },
+        {
+          "t": "Über welche Versicherung",
+          "b": [
+            3,
+            4,
+            5
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "Über welche Versicherung",
+          "gb": "কোন বিমা নিয়ে",
+          "ge": "What insurance",
+          "n": ""
+        },
+        {
+          "t": "möchten",
+          "b": [
+            7
+          ],
+          "e": [
+            4
+          ],
+          "l": "möchten",
+          "gb": "চান",
+          "ge": "would",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [
+            2
+          ],
+          "e": [
+            5
+          ],
+          "l": "Sie",
+          "gb": "আপনি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "sich informieren?",
+          "b": [
+            6
+          ],
+          "e": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "l": "sich informieren",
+          "gb": "জানতে",
+          "ge": "like to know about",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "নতুন,",
+        "তাই",
+        "কোনটা",
+        "সত্যিই",
+        "দরকার",
+        "তা",
+        "জানি",
+        "না।",
+        "স্বাস্থ্যবিমা",
+        "তো",
+        "বাধ্যতামূলক,",
+        "তাই",
+        "না?"
+      ],
+      "en": [
+        "I",
+        "am",
+        "new,",
+        "so",
+        "I",
+        "do",
+        "not",
+        "know",
+        "which",
+        "one",
+        "is",
+        "really",
+        "necessary.",
+        "Health",
+        "insurance",
+        "is",
+        "compulsory,",
+        "isn’t",
+        "it?"
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "bin",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "bin",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "am",
+          "n": ""
+        },
+        {
+          "t": "neu,",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "neu",
+          "gb": "নতুন",
+          "ge": "new",
+          "n": ""
+        },
+        {
+          "t": "deshalb",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "deshalb",
+          "gb": "তাই",
+          "ge": "so",
+          "n": ""
+        },
+        {
+          "t": "weiß ich nicht,",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "l": "weiß ich nicht",
+          "gb": "জানি না",
+          "ge": "I do not know",
+          "n": ""
+        },
+        {
+          "t": "welche",
+          "b": [
+            3
+          ],
+          "e": [
+            8,
+            9
+          ],
+          "l": "welche",
+          "gb": "কোনটা",
+          "ge": "which one",
+          "n": ""
+        },
+        {
+          "t": "wirklich",
+          "b": [
+            4
+          ],
+          "e": [
+            11
+          ],
+          "l": "wirklich",
+          "gb": "সত্যিই",
+          "ge": "really",
+          "n": ""
+        },
+        {
+          "t": "nötig",
+          "b": [
+            5
+          ],
+          "e": [
+            10,
+            12
+          ],
+          "l": "nötig",
+          "gb": "দরকার",
+          "ge": "is necessary",
+          "n": ""
+        },
+        {
+          "t": "ist.",
+          "b": [
+            6
+          ],
+          "e": [],
+          "l": "ist",
+          "gb": "তা",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Die Krankenversicherung",
+          "b": [
+            9
+          ],
+          "e": [
+            13,
+            14
+          ],
+          "l": "Krankenkasse",
+          "gb": "স্বাস্থ্যবিমা",
+          "ge": "Health insurance",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            15
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "Pflicht,",
+          "b": [
+            11
+          ],
+          "e": [
+            16
+          ],
+          "l": "Pflicht",
+          "gb": "বাধ্যতামূলক",
+          "ge": "compulsory",
+          "n": ""
+        },
+        {
+          "t": "oder?",
+          "b": [
+            12,
+            13
+          ],
+          "e": [
+            17,
+            18
+          ],
+          "l": "oder",
+          "gb": "তাই না",
+          "ge": "isn’t it",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Berater",
+      "bn": [
+        "হ্যাঁ।",
+        "জার্মানিতে",
+        "সবারই",
+        "স্বাস্থ্যবিমা",
+        "থাকতে",
+        "হয়",
+        "—",
+        "আইনানুগ",
+        "কোনো",
+        "কাসে",
+        "বা",
+        "প্রাইভেট।",
+        "অন্য",
+        "বিমা",
+        "বাধ্যতামূলক",
+        "নয়,",
+        "তবে",
+        "কিছু",
+        "খুব",
+        "দরকারি।"
+      ],
+      "en": [
+        "Yes.",
+        "In",
+        "Germany",
+        "everyone",
+        "must",
+        "have",
+        "health",
+        "insurance",
+        "—",
+        "a",
+        "statutory",
+        "fund",
+        "or",
+        "private.",
+        "Other",
+        "insurance",
+        "is",
+        "not",
+        "compulsory,",
+        "but",
+        "some",
+        "is",
+        "very",
+        "useful."
+      ],
+      "de": [
+        {
+          "t": "Ja.",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ja",
+          "gb": "হ্যাঁ",
+          "ge": "Yes",
+          "n": ""
+        },
+        {
+          "t": "In Deutschland",
+          "b": [
+            1
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "In Deutschland",
+          "gb": "জার্মানিতে",
+          "ge": "In Germany",
+          "n": ""
+        },
+        {
+          "t": "muss",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            4
+          ],
+          "l": "muss",
+          "gb": "থাকতে হয়",
+          "ge": "must",
+          "n": ""
+        },
+        {
+          "t": "jeder",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "jeder",
+          "gb": "সবারই",
+          "ge": "everyone",
+          "n": ""
+        },
+        {
+          "t": "krankenversichert",
+          "b": [
+            3
+          ],
+          "e": [
+            5,
+            6,
+            7
+          ],
+          "l": "krankenversichert",
+          "gb": "স্বাস্থ্যবিমা",
+          "ge": "have health insurance",
+          "n": ""
+        },
+        {
+          "t": "sein",
+          "b": [],
+          "e": [],
+          "l": "sein",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "gesetzlich",
+          "b": [
+            7
+          ],
+          "e": [
+            9,
+            10,
+            11
+          ],
+          "l": "gesetzlich",
+          "gb": "আইনানুগ",
+          "ge": "a statutory fund",
+          "n": ""
+        },
+        {
+          "t": "oder",
+          "b": [
+            10
+          ],
+          "e": [
+            12
+          ],
+          "l": "oder",
+          "gb": "বা",
+          "ge": "or",
+          "n": ""
+        },
+        {
+          "t": "privat.",
+          "b": [
+            11
+          ],
+          "e": [
+            13
+          ],
+          "l": "privat",
+          "gb": "প্রাইভেট",
+          "ge": "private",
+          "n": ""
+        },
+        {
+          "t": "Andere Versicherungen",
+          "b": [
+            12,
+            13
+          ],
+          "e": [
+            14,
+            15
+          ],
+          "l": "Andere Versicherungen",
+          "gb": "অন্য বিমা",
+          "ge": "Other insurance",
+          "n": ""
+        },
+        {
+          "t": "sind",
+          "b": [],
+          "e": [
+            16
+          ],
+          "l": "sind",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "freiwillig,",
+          "b": [
+            14,
+            15
+          ],
+          "e": [
+            17,
+            18
+          ],
+          "l": "freiwillig",
+          "gb": "বাধ্যতামূলক নয়",
+          "ge": "not compulsory",
+          "n": ""
+        },
+        {
+          "t": "aber",
+          "b": [
+            16
+          ],
+          "e": [
+            19
+          ],
+          "l": "aber",
+          "gb": "তবে",
+          "ge": "but",
+          "n": ""
+        },
+        {
+          "t": "manche",
+          "b": [
+            17
+          ],
+          "e": [
+            20
+          ],
+          "l": "manche",
+          "gb": "কিছু",
+          "ge": "some",
+          "n": ""
+        },
+        {
+          "t": "sind",
+          "b": [],
+          "e": [
+            21
+          ],
+          "l": "sind",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "sehr nützlich.",
+          "b": [
+            18,
+            19
+          ],
+          "e": [
+            22,
+            23
+          ],
+          "l": "sehr nützlich",
+          "gb": "খুব দরকারি",
+          "ge": "very useful",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "যেমন",
+        "কোনটা?"
+      ],
+      "en": [
+        "For",
+        "example",
+        "which?"
+      ],
+      "de": [
+        {
+          "t": "Zum Beispiel",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Zum Beispiel",
+          "gb": "যেমন",
+          "ge": "For example",
+          "n": ""
+        },
+        {
+          "t": "welche?",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "welche",
+          "gb": "কোনটা",
+          "ge": "which",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Berater",
+      "bn": [
+        "দায়",
+        "বিমা।",
+        "যদি",
+        "আপনি",
+        "কারও",
+        "ক্ষতি",
+        "করে",
+        "ফেলেন,",
+        "তখন",
+        "ওটা",
+        "খরচ",
+        "দেয়।",
+        "এর",
+        "মাসিক",
+        "কিস্তি",
+        "তুলনামূলক",
+        "কম।"
+      ],
+      "en": [
+        "Liability",
+        "insurance.",
+        "If",
+        "you",
+        "damage",
+        "something",
+        "of",
+        "someone",
+        "else,",
+        "it",
+        "pays.",
+        "The",
+        "monthly",
+        "premium",
+        "is",
+        "relatively",
+        "low."
+      ],
+      "de": [
+        {
+          "t": "Die Haftpflichtversicherung.",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Haftpflichtversicherung",
+          "gb": "দায় বিমা",
+          "ge": "Liability insurance",
+          "n": ""
+        },
+        {
+          "t": "Falls",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "falls",
+          "gb": "যদি",
+          "ge": "If",
+          "n": "falls = in dem Fall, dass …; Nebensatz, Verb am Ende"
+        },
+        {
+          "t": "Sie",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "Sie",
+          "gb": "আপনি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "jemandem",
+          "b": [
+            4
+          ],
+          "e": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "l": "jemandem",
+          "gb": "কারও",
+          "ge": "something of someone else",
+          "n": ""
+        },
+        {
+          "t": "einen Schaden",
+          "b": [
+            5
+          ],
+          "e": [
+            4
+          ],
+          "l": "einen Schaden",
+          "gb": "ক্ষতি",
+          "ge": "damage",
+          "n": ""
+        },
+        {
+          "t": "verursachen,",
+          "b": [
+            6,
+            7
+          ],
+          "e": [],
+          "l": "Schaden",
+          "gb": "করে ফেলেন",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "zahlt",
+          "b": [
+            10,
+            11
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "zahlt",
+          "gb": "খরচ দেয়",
+          "ge": "it pays",
+          "n": ""
+        },
+        {
+          "t": "sie.",
+          "b": [
+            9
+          ],
+          "e": [],
+          "l": "sie",
+          "gb": "ওটা",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Der Beitrag",
+          "b": [
+            14
+          ],
+          "e": [
+            11,
+            13
+          ],
+          "l": "Der Beitrag",
+          "gb": "কিস্তি",
+          "ge": "The premium",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            14
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "relativ niedrig.",
+          "b": [
+            15,
+            16
+          ],
+          "e": [
+            15,
+            16
+          ],
+          "l": "Beitrag",
+          "gb": "তুলনামূলক কম",
+          "ge": "relatively low",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "যদি",
+        "আগে",
+        "একটা",
+        "নিতাম!",
+        "গত",
+        "মাসে",
+        "আমি",
+        "এক",
+        "বন্ধুর",
+        "ল্যাপটপ",
+        "ভেঙে",
+        "ফেলেছিলাম।"
+      ],
+      "en": [
+        "I",
+        "should",
+        "have",
+        "taken",
+        "one",
+        "earlier!",
+        "Last",
+        "month",
+        "I",
+        "broke",
+        "a",
+        "friend’s",
+        "laptop."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "hätte",
+          "b": [
+            1
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "hätte",
+          "gb": "যদি",
+          "ge": "should have",
+          "n": ""
+        },
+        {
+          "t": "früher",
+          "b": [
+            2
+          ],
+          "e": [
+            5
+          ],
+          "l": "früher",
+          "gb": "আগে",
+          "ge": "earlier",
+          "n": ""
+        },
+        {
+          "t": "eine",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "eine",
+          "gb": "একটা",
+          "ge": "one",
+          "n": ""
+        },
+        {
+          "t": "abschließen sollen!",
+          "b": [
+            4
+          ],
+          "e": [
+            3
+          ],
+          "l": "abschließen",
+          "gb": "নিতাম",
+          "ge": "taken",
+          "n": "Konjunktiv II Vergangenheit: hätte + Infinitiv + sollen"
+        },
+        {
+          "t": "Letzten Monat",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "Letzten Monat",
+          "gb": "গত মাসে",
+          "ge": "Last month",
+          "n": ""
+        },
+        {
+          "t": "habe ich",
+          "b": [
+            7
+          ],
+          "e": [
+            8
+          ],
+          "l": "habe ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "den Laptop",
+          "b": [
+            10
+          ],
+          "e": [
+            12
+          ],
+          "l": "den Laptop",
+          "gb": "ল্যাপটপ",
+          "ge": "laptop",
+          "n": ""
+        },
+        {
+          "t": "eines Freundes",
+          "b": [
+            8,
+            9
+          ],
+          "e": [
+            10,
+            11
+          ],
+          "l": "eines Freundes",
+          "gb": "এক বন্ধুর",
+          "ge": "a friend’s",
+          "n": ""
+        },
+        {
+          "t": "kaputt gemacht.",
+          "b": [
+            11,
+            12
+          ],
+          "e": [
+            9
+          ],
+          "l": "kaputt gemacht",
+          "gb": "ভেঙে ফেলেছিলাম",
+          "ge": "broke",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Berater",
+      "bn": [
+        "এখনো",
+        "দেরি",
+        "হয়নি।",
+        "কিন্তু",
+        "মনে",
+        "রাখবেন:",
+        "আগে",
+        "ঘটে",
+        "যাওয়া",
+        "ক্ষতি",
+        "সাধারণত",
+        "বিমায়",
+        "পড়ে",
+        "না।"
+      ],
+      "en": [
+        "It",
+        "is",
+        "not",
+        "too",
+        "late.",
+        "But",
+        "remember:",
+        "damage",
+        "that",
+        "happened",
+        "earlier",
+        "is",
+        "usually",
+        "not",
+        "covered."
+      ],
+      "de": [
+        {
+          "t": "Es ist",
+          "b": [
+            2
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Es ist",
+          "gb": "হয়নি",
+          "ge": "It is",
+          "n": ""
+        },
+        {
+          "t": "noch nicht",
+          "b": [
+            0
+          ],
+          "e": [
+            2
+          ],
+          "l": "noch nicht",
+          "gb": "এখনো",
+          "ge": "not",
+          "n": ""
+        },
+        {
+          "t": "zu spät.",
+          "b": [
+            1
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "zu spät",
+          "gb": "দেরি",
+          "ge": "too late",
+          "n": ""
+        },
+        {
+          "t": "Aber",
+          "b": [
+            3
+          ],
+          "e": [
+            5
+          ],
+          "l": "Aber",
+          "gb": "কিন্তু",
+          "ge": "But",
+          "n": ""
+        },
+        {
+          "t": "bedenken Sie:",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            6
+          ],
+          "l": "bedenken Sie",
+          "gb": "মনে রাখবেন",
+          "ge": "remember",
+          "n": ""
+        },
+        {
+          "t": "Schäden,",
+          "b": [
+            9
+          ],
+          "e": [
+            7
+          ],
+          "l": "Schäden",
+          "gb": "ক্ষতি",
+          "ge": "damage",
+          "n": ""
+        },
+        {
+          "t": "die schon passiert sind,",
+          "b": [
+            6,
+            7,
+            8
+          ],
+          "e": [
+            8,
+            9,
+            10
+          ],
+          "l": "die schon passiert sind",
+          "gb": "আগে ঘটে যাওয়া",
+          "ge": "that happened earlier",
+          "n": ""
+        },
+        {
+          "t": "sind",
+          "b": [
+            12,
+            13
+          ],
+          "e": [
+            11
+          ],
+          "l": "sind",
+          "gb": "পড়ে না",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "in der Regel",
+          "b": [
+            10
+          ],
+          "e": [
+            12
+          ],
+          "l": "in der Regel",
+          "gb": "সাধারণত",
+          "ge": "usually",
+          "n": ""
+        },
+        {
+          "t": "nicht versichert.",
+          "b": [
+            11
+          ],
+          "e": [
+            13,
+            14
+          ],
+          "l": "nicht versichert",
+          "gb": "বিমায়",
+          "ge": "not covered",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "Versicherungen in Deutschland (Überblick)",
+      "head": [
+        "Versicherung",
+        "Wofür?",
+        "Pflicht?"
+      ],
+      "rows": [
+        [
+          "Krankenversicherung",
+          "Arztkosten, Krankenhaus",
+          "ja (gesetzlich oder privat)"
+        ],
+        [
+          "Pflegeversicherung",
+          "Pflegebedürftigkeit",
+          "ja"
+        ],
+        [
+          "Haftpflichtversicherung",
+          "Schäden bei anderen",
+          "nein, aber sehr empfohlen"
+        ],
+        [
+          "Hausratversicherung",
+          "Möbel, Elektronik (Einbruch, Brand)",
+          "nein"
+        ],
+        [
+          "Rechtsschutzversicherung",
+          "Anwalts- und Gerichtskosten",
+          "nein"
+        ],
+        [
+          "Berufsunfähigkeitsversicherung",
+          "Einkommen bei Berufsunfähigkeit",
+          "nein"
+        ]
+      ],
+      "note": "কোন বিমা আপনার জন্য দরকার, তা আপনার পরিস্থিতির ওপর নির্ভর করে। কোম্পানিগুলো তুলনা করুন, শর্ত (Selbstbeteiligung, Leistungen) পড়ুন। এটি আর্থিক পরামর্শ নয়।"
+    },
+    {
+      "type": "table",
+      "title": "falls / wenn / ob",
+      "head": [
+        "Wort",
+        "Gebrauch",
+        "Beispiel"
+      ],
+      "rows": [
+        [
+          "falls",
+          "সম্ভাবনা (মনে রেখে)",
+          "Falls etwas passiert, rufen Sie mich an."
+        ],
+        [
+          "wenn",
+          "শর্ত বা পুনরাবৃত্ত",
+          "Wenn ich Zeit habe, helfe ich dir."
+        ],
+        [
+          "ob",
+          "হ্যাঁ/না-প্রশ্ন",
+          "Ich weiß nicht, ob ich versichert bin."
+        ]
+      ],
+      "note": "falls ও wenn প্রায় একই; falls একটু বেশি অনিশ্চিত („যদি কখনো …“)।"
+    },
+    {
+      "type": "table",
+      "title": "Konjunktiv II der Vergangenheit",
+      "head": [
+        "Form",
+        "Beispiel",
+        "Bedeutung"
+      ],
+      "rows": [
+        [
+          "hätte + Partizip II",
+          "Ich hätte früher gefragt.",
+          "আমি আগে জিজ্ঞাসা করতাম (আসলে করিনি)"
+        ],
+        [
+          "wäre + Partizip II",
+          "Ich wäre früher gekommen.",
+          "আমি আগে আসতাম (আসলে আসিনি)"
+        ],
+        [
+          "hätte + Infinitiv + Modalverb",
+          "Ich hätte es abschließen sollen.",
+          "আমার ওটা করা উচিত ছিল"
+        ]
+      ],
+      "note": "অতীতের অসম্পূর্ণ সুযোগের কথা বলার জন্য: আফসোস, সমালোচনা, ক্ষমা চাওয়া। „Ich hätte … sollen“ = করা উচিত ছিল।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "die Haftpflichtversicherung",
+      "options": [
+        "স্বাস্থ্যবিমা কোম্পানি",
+        "দায় বিমা",
+        "মাসিক/বার্ষিক কিস্তি",
+        "চুক্তি করা"
+      ],
+      "answer": 1,
+      "why": "die Haftpflichtversicherung = দায় বিমা।",
+      "word": "haftpflichtversicherung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "der Beitrag",
+      "options": [
+        "মাসিক/বার্ষিক কিস্তি",
+        "নিজের দেওয়া অংশ",
+        "ঘরের জিনিসপত্রের বিমা",
+        "ক্ষতি"
+      ],
+      "answer": 0,
+      "why": "der Beitrag = মাসিক/বার্ষিক কিস্তি।",
+      "word": "beitrag"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "die Selbstbeteiligung",
+      "options": [
+        "ক্ষতি",
+        "যদি",
+        "নিজের দেওয়া অংশ",
+        "দায় বিমা"
+      ],
+      "answer": 2,
+      "why": "die Selbstbeteiligung = নিজের দেওয়া অংশ।",
+      "word": "selbstbeteiligung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Leistung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Leistung। বহুবচন: die Leistungen।",
+      "word": "leistung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক বাক্য কোনটি?",
+      "options": [
+        "Falls etwas passiert, rufe ich Sie an.",
+        "Falls etwas passiert, ich rufe Sie an.",
+        "Falls passiert etwas, rufe ich Sie an.",
+        "Falls etwas passiert rufe ich, Sie an."
+      ],
+      "answer": 0,
+      "why": "falls-Satz আগে → ক্রিয়া প্রথমে।",
+      "word": "falls"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Ich hätte früher fragen sollen.“ মানে কী?",
+      "options": [
+        "আমার আগে জিজ্ঞাসা করা উচিত ছিল",
+        "আমি আগে জিজ্ঞাসা করেছি",
+        "আমি পরে জিজ্ঞাসা করব",
+        "আমি জিজ্ঞাসা করতে পারি না"
+      ],
+      "answer": 0,
+      "why": "hätte … sollen।",
+      "word": "bereuen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "কোন বিমা বাধ্যতামূলক?",
+      "options": [
+        "Krankenversicherung",
+        "Hausratversicherung",
+        "Haftpflichtversicherung",
+        "Rechtsschutz"
+      ],
+      "answer": 0,
+      "why": "জার্মানিতে স্বাস্থ্যবিমা আবশ্যক।",
+      "word": "krankenkasse"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Haftpflichtversicherung কীসের জন্য?",
+      "options": [
+        "অন্যের ক্ষতির খরচ",
+        "নিজের ডাক্তারের খরচ",
+        "বাড়িভাড়া",
+        "ছুটি"
+      ],
+      "answer": 0,
+      "why": "Haftpflicht = liability।",
+      "word": "haftpflichtversicherung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ich ___ eine Versicherung abschließen sollen.",
+      "options": [
+        "hätte",
+        "habe",
+        "hatte",
+        "haben"
+      ],
+      "answer": 0,
+      "why": "Konjunktiv II: ich hätte।",
+      "word": "abschliessen"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „আমার আগে বিমা নেওয়া উচিত ছিল।“",
+      "tiles": [
+        "abschließen",
+        "früher",
+        "Ich",
+        "sollen.",
+        "eine Versicherung",
+        "hätte"
+      ],
+      "answer": [
+        "Ich",
+        "hätte",
+        "früher",
+        "eine Versicherung",
+        "abschließen",
+        "sollen."
+      ],
+      "why": "hätte + Infinitiv + sollen।",
+      "word": "abschliessen"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

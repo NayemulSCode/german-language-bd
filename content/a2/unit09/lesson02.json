@@ -1,0 +1,1280 @@
+{
+  "level": "A2",
+  "unit": 9,
+  "minutes": 16,
+  "lesson": 2,
+  "id": "a2-u09-l02",
+  "title": {
+    "de": "Meine liebste Jahreszeit",
+    "bn": "ঋতু ও প্রকৃতি",
+    "en": "Seasons and nature"
+  },
+  "hook": {
+    "de": "Jede Jahreszeit hat ihren Reiz.",
+    "who": "Redensart",
+    "bn": "প্রতিটি ঋতুর নিজস্ব সৌন্দর্য আছে।",
+    "en": "Every season has its charm."
+  },
+  "goals": [
+    "চার ঋতু: Frühling, Sommer, Herbst, Winter",
+    "im Frühling, im Sommer …",
+    "noch nie + Perfekt",
+    "প্রকৃতির শব্দ: See, Berg, Wald"
+  ],
+  "words": [
+    {
+      "id": "jahreszeit",
+      "de": "Jahreszeit",
+      "art": "die",
+      "pl": "die Jahreszeiten",
+      "pos": "বিশেষ্য",
+      "bn": "ঋতু",
+      "en": "season"
+    },
+    {
+      "id": "fruehling",
+      "de": "Frühling",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "বসন্ত",
+      "en": "spring"
+    },
+    {
+      "id": "sommer",
+      "de": "Sommer",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "গ্রীষ্ম",
+      "en": "summer"
+    },
+    {
+      "id": "herbst",
+      "de": "Herbst",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "শরৎ",
+      "en": "autumn"
+    },
+    {
+      "id": "winter",
+      "de": "Winter",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "শীত",
+      "en": "winter"
+    },
+    {
+      "id": "see",
+      "de": "See",
+      "art": "der",
+      "pl": "die Seen",
+      "pos": "বিশেষ্য",
+      "bn": "হ্রদ",
+      "en": "lake"
+    },
+    {
+      "id": "berg",
+      "de": "Berg",
+      "art": "der",
+      "pl": "die Berge",
+      "pos": "বিশেষ্য",
+      "bn": "পাহাড়",
+      "en": "mountain"
+    },
+    {
+      "id": "wald",
+      "de": "Wald",
+      "art": "der",
+      "pl": "die Wälder",
+      "pos": "বিশেষ্য",
+      "bn": "বন",
+      "en": "forest"
+    },
+    {
+      "id": "blatt",
+      "de": "Blatt",
+      "art": "das",
+      "pl": "die Blätter",
+      "pos": "বিশেষ্য",
+      "bn": "পাতা",
+      "en": "leaf"
+    },
+    {
+      "id": "schnee",
+      "de": "Schnee",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "বরফ (তুষার)",
+      "en": "snow"
+    },
+    {
+      "id": "bunt",
+      "de": "bunt",
+      "pos": "বিশেষণ",
+      "bn": "রঙিন",
+      "en": "colourful"
+    },
+    {
+      "id": "bluehen",
+      "de": "blühen",
+      "pos": "ক্রিয়া · hat geblüht",
+      "bn": "ফোটা (ফুল)",
+      "en": "to bloom"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Lena",
+      "bn": [
+        "তুমি",
+        "কোন",
+        "ঋতু",
+        "সবচেয়ে",
+        "বেশি",
+        "পছন্দ",
+        "করো?"
+      ],
+      "en": [
+        "Which",
+        "season",
+        "do",
+        "you",
+        "like",
+        "most?"
+      ],
+      "de": [
+        {
+          "t": "Welche",
+          "b": [
+            1
+          ],
+          "e": [
+            0
+          ],
+          "l": "Welche",
+          "gb": "কোন",
+          "ge": "Which",
+          "n": ""
+        },
+        {
+          "t": "Jahreszeit",
+          "b": [
+            2
+          ],
+          "e": [
+            1
+          ],
+          "l": "Jahreszeit",
+          "gb": "ঋতু",
+          "ge": "season",
+          "n": ""
+        },
+        {
+          "t": "magst",
+          "b": [
+            5
+          ],
+          "e": [
+            2
+          ],
+          "l": "magst",
+          "gb": "পছন্দ",
+          "ge": "do",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            0
+          ],
+          "e": [
+            3
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "am liebsten?",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "am liebsten",
+          "gb": "সবচেয়ে বেশি",
+          "ge": "like most",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "বসন্ত",
+        "সবচেয়ে",
+        "বেশি",
+        "পছন্দ",
+        "করি।",
+        "তখন",
+        "ফুল",
+        "ফোটে,",
+        "আর",
+        "দিন",
+        "গরম",
+        "হতে",
+        "থাকে।"
+      ],
+      "en": [
+        "I",
+        "like",
+        "spring",
+        "best.",
+        "Then",
+        "the",
+        "flowers",
+        "bloom",
+        "and",
+        "it",
+        "gets",
+        "warmer."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "mag",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            1
+          ],
+          "l": "mag",
+          "gb": "পছন্দ করি",
+          "ge": "like",
+          "n": ""
+        },
+        {
+          "t": "den Frühling",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "Frühling",
+          "gb": "বসন্ত",
+          "ge": "spring",
+          "n": ""
+        },
+        {
+          "t": "am liebsten.",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "am liebsten",
+          "gb": "সবচেয়ে বেশি",
+          "ge": "best",
+          "n": ""
+        },
+        {
+          "t": "Dann",
+          "b": [
+            6
+          ],
+          "e": [
+            4
+          ],
+          "l": "Dann",
+          "gb": "তখন",
+          "ge": "Then",
+          "n": ""
+        },
+        {
+          "t": "blühen",
+          "b": [
+            8
+          ],
+          "e": [
+            7
+          ],
+          "l": "blühen",
+          "gb": "ফোটে",
+          "ge": "bloom",
+          "n": ""
+        },
+        {
+          "t": "die Blumen,",
+          "b": [
+            7
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "die Blumen",
+          "gb": "ফুল",
+          "ge": "the flowers",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            9
+          ],
+          "e": [
+            8
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "es",
+          "b": [],
+          "e": [
+            9
+          ],
+          "l": "es",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "it",
+          "n": ""
+        },
+        {
+          "t": "wird",
+          "b": [
+            12,
+            13
+          ],
+          "e": [
+            10
+          ],
+          "l": "wird",
+          "gb": "হতে থাকে",
+          "ge": "gets",
+          "n": ""
+        },
+        {
+          "t": "wärmer.",
+          "b": [
+            11
+          ],
+          "e": [
+            11
+          ],
+          "l": "wärmer",
+          "gb": "গরম",
+          "ge": "warmer",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "আমি",
+        "গ্রীষ্ম",
+        "পছন্দ",
+        "করি।",
+        "গ্রীষ্মে",
+        "আমি",
+        "প্রায়ই",
+        "হ্রদে",
+        "যাই।"
+      ],
+      "en": [
+        "I",
+        "like",
+        "summer.",
+        "In",
+        "summer",
+        "I",
+        "often",
+        "go",
+        "to",
+        "the",
+        "lake."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "mag",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            1
+          ],
+          "l": "mag",
+          "gb": "পছন্দ করি",
+          "ge": "like",
+          "n": ""
+        },
+        {
+          "t": "den Sommer.",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "Sommer",
+          "gb": "গ্রীষ্ম",
+          "ge": "summer",
+          "n": ""
+        },
+        {
+          "t": "Im Sommer",
+          "b": [
+            4
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "Im Sommer",
+          "gb": "গ্রীষ্মে",
+          "ge": "In summer",
+          "n": "im Frühling, im Sommer, im Herbst, im Winter"
+        },
+        {
+          "t": "fahre",
+          "b": [
+            8
+          ],
+          "e": [
+            7
+          ],
+          "l": "fahre",
+          "gb": "যাই",
+          "ge": "go",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            5
+          ],
+          "e": [
+            5
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "oft",
+          "b": [
+            6
+          ],
+          "e": [
+            6
+          ],
+          "l": "oft",
+          "gb": "প্রায়ই",
+          "ge": "often",
+          "n": ""
+        },
+        {
+          "t": "an den See.",
+          "b": [
+            7
+          ],
+          "e": [
+            8,
+            9,
+            10
+          ],
+          "l": "See",
+          "gb": "হ্রদে",
+          "ge": "to the lake",
+          "n": "wohin? → an den See (Akkusativ)"
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আর",
+        "শরতে?",
+        "বাংলাদেশে",
+        "এখানকার",
+        "মতো",
+        "এত",
+        "ঋতু",
+        "নেই।"
+      ],
+      "en": [
+        "And",
+        "in",
+        "autumn?",
+        "In",
+        "Bangladesh",
+        "there",
+        "are",
+        "not",
+        "as",
+        "many",
+        "seasons",
+        "as",
+        "here."
+      ],
+      "de": [
+        {
+          "t": "Und",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "im Herbst?",
+          "b": [
+            1
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "Herbst",
+          "gb": "শরতে",
+          "ge": "in autumn",
+          "n": ""
+        },
+        {
+          "t": "In Bangladesch",
+          "b": [
+            2
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "In Bangladesch",
+          "gb": "বাংলাদেশে",
+          "ge": "In Bangladesh",
+          "n": ""
+        },
+        {
+          "t": "gibt es",
+          "b": [
+            7
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "gibt es",
+          "gb": "নেই",
+          "ge": "there are",
+          "n": ""
+        },
+        {
+          "t": "nicht",
+          "b": [],
+          "e": [
+            7
+          ],
+          "l": "nicht",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "not",
+          "n": ""
+        },
+        {
+          "t": "so viele",
+          "b": [
+            5
+          ],
+          "e": [
+            8,
+            9
+          ],
+          "l": "so viele",
+          "gb": "এত",
+          "ge": "as many",
+          "n": ""
+        },
+        {
+          "t": "Jahreszeiten",
+          "b": [
+            6
+          ],
+          "e": [
+            10
+          ],
+          "l": "Jahreszeiten",
+          "gb": "ঋতু",
+          "ge": "seasons",
+          "n": ""
+        },
+        {
+          "t": "wie",
+          "b": [
+            4
+          ],
+          "e": [
+            11
+          ],
+          "l": "wie",
+          "gb": "মতো",
+          "ge": "as",
+          "n": ""
+        },
+        {
+          "t": "hier.",
+          "b": [
+            3
+          ],
+          "e": [
+            12
+          ],
+          "l": "hier",
+          "gb": "এখানকার",
+          "ge": "here",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "শরতে",
+        "পাতাগুলো",
+        "রঙিন",
+        "হয়,",
+        "আর",
+        "শীতে",
+        "বরফ",
+        "পড়ে।"
+      ],
+      "en": [
+        "In",
+        "autumn",
+        "the",
+        "leaves",
+        "become",
+        "colourful,",
+        "and",
+        "in",
+        "winter",
+        "snow",
+        "falls."
+      ],
+      "de": [
+        {
+          "t": "Im Herbst",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Im Herbst",
+          "gb": "শরতে",
+          "ge": "In autumn",
+          "n": ""
+        },
+        {
+          "t": "werden",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "werden",
+          "gb": "হয়",
+          "ge": "become",
+          "n": ""
+        },
+        {
+          "t": "die Blätter",
+          "b": [
+            1
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "Blatt",
+          "gb": "পাতাগুলো",
+          "ge": "the leaves",
+          "n": ""
+        },
+        {
+          "t": "bunt,",
+          "b": [
+            2
+          ],
+          "e": [
+            5
+          ],
+          "l": "bunt",
+          "gb": "রঙিন",
+          "ge": "colourful",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            4
+          ],
+          "e": [
+            6
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "im Winter",
+          "b": [
+            5
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "Winter",
+          "gb": "শীতে",
+          "ge": "in winter",
+          "n": ""
+        },
+        {
+          "t": "fällt",
+          "b": [
+            7
+          ],
+          "e": [
+            10
+          ],
+          "l": "fällt",
+          "gb": "পড়ে",
+          "ge": "falls",
+          "n": ""
+        },
+        {
+          "t": "Schnee.",
+          "b": [
+            6
+          ],
+          "e": [
+            9
+          ],
+          "l": "Schnee",
+          "gb": "বরফ",
+          "ge": "snow",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "কখনো",
+        "বরফ",
+        "দেখিনি!"
+      ],
+      "en": [
+        "I",
+        "have",
+        "never",
+        "seen",
+        "snow!"
+      ],
+      "de": [
+        {
+          "t": "Schnee",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "Schnee",
+          "gb": "বরফ",
+          "ge": "snow",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "habe",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "have",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "noch nie",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "noch nie",
+          "gb": "কখনো",
+          "ge": "never",
+          "n": "noch nie + Perfekt = এখনো কখনো করিনি"
+        },
+        {
+          "t": "gesehen!",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "gesehen",
+          "gb": "দেখিনি",
+          "ge": "seen",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "তাহলে",
+        "শীতে",
+        "আমরা",
+        "পাহাড়ে",
+        "যাব!",
+        "তোমাকে",
+        "গরম",
+        "জামা",
+        "কিনতে",
+        "হবে।"
+      ],
+      "en": [
+        "Then",
+        "in",
+        "winter",
+        "we",
+        "will",
+        "go",
+        "to",
+        "the",
+        "mountains!",
+        "You",
+        "will",
+        "have",
+        "to",
+        "buy",
+        "warm",
+        "clothes."
+      ],
+      "de": [
+        {
+          "t": "Dann",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Dann",
+          "gb": "তাহলে",
+          "ge": "Then",
+          "n": ""
+        },
+        {
+          "t": "fahren",
+          "b": [
+            4
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "fahren",
+          "gb": "যাব",
+          "ge": "will go",
+          "n": ""
+        },
+        {
+          "t": "wir",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "wir",
+          "gb": "আমরা",
+          "ge": "we",
+          "n": ""
+        },
+        {
+          "t": "im Winter",
+          "b": [
+            1
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "im Winter",
+          "gb": "শীতে",
+          "ge": "in winter",
+          "n": ""
+        },
+        {
+          "t": "in die Berge!",
+          "b": [
+            3
+          ],
+          "e": [
+            6,
+            7,
+            8
+          ],
+          "l": "Berg",
+          "gb": "পাহাড়ে",
+          "ge": "to the mountains",
+          "n": ""
+        },
+        {
+          "t": "Du",
+          "b": [
+            5
+          ],
+          "e": [
+            9
+          ],
+          "l": "Du",
+          "gb": "তোমাকে",
+          "ge": "You",
+          "n": ""
+        },
+        {
+          "t": "musst",
+          "b": [
+            9
+          ],
+          "e": [
+            10,
+            11,
+            12
+          ],
+          "l": "musst",
+          "gb": "হবে",
+          "ge": "will have to",
+          "n": ""
+        },
+        {
+          "t": "warme Kleidung",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            14,
+            15
+          ],
+          "l": "warme Kleidung",
+          "gb": "গরম জামা",
+          "ge": "warm clothes",
+          "n": ""
+        },
+        {
+          "t": "kaufen.",
+          "b": [
+            8
+          ],
+          "e": [
+            13
+          ],
+          "l": "kaufen",
+          "gb": "কিনতে",
+          "ge": "buy",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "ঋতু ও মাস",
+      "head": [
+        "Jahreszeit",
+        "Monate",
+        "বাংলা"
+      ],
+      "rows": [
+        [
+          "der Frühling",
+          "März, April, Mai",
+          "বসন্ত"
+        ],
+        [
+          "der Sommer",
+          "Juni, Juli, August",
+          "গ্রীষ্ম"
+        ],
+        [
+          "der Herbst",
+          "September, Oktober, November",
+          "শরৎ"
+        ],
+        [
+          "der Winter",
+          "Dezember, Januar, Februar",
+          "শীত"
+        ]
+      ],
+      "note": "im Frühling, im Sommer, im Herbst, im Winter · im Januar, im Februar … (im = in dem)। „Im Winter ist es dunkel“ — শীতে দিন ছোট, বিকেল ৪টায় অন্ধকার হতে পারে।"
+    },
+    {
+      "type": "table",
+      "title": "wo? / wohin? — প্রকৃতির জায়গা",
+      "head": [
+        "",
+        "wo? (Dativ)",
+        "wohin? (Akkusativ)"
+      ],
+      "rows": [
+        [
+          "der See",
+          "am See",
+          "an den See"
+        ],
+        [
+          "der Berg",
+          "auf dem Berg / in den Bergen",
+          "auf den Berg / in die Berge"
+        ],
+        [
+          "der Wald",
+          "im Wald",
+          "in den Wald"
+        ],
+        [
+          "das Meer",
+          "am Meer",
+          "ans Meer"
+        ],
+        [
+          "der Park",
+          "im Park",
+          "in den Park"
+        ]
+      ],
+      "note": "Wechselpräpositionen (Unit 3): wo? → Dativ, wohin? → Akkusativ।"
+    },
+    {
+      "type": "text",
+      "title": "noch nie + Perfekt",
+      "text": "„Ich habe noch nie Schnee gesehen.“ = আমি এখনো কখনো বরফ দেখিনি। „Ich bin noch nie geflogen.“ — অভিজ্ঞতা না থাকার কথা বলতে noch nie + Perfekt। উল্টো: „schon einmal“ — „Hast du schon einmal Schnee gesehen?“"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "der Frühling",
+      "options": [
+        "হ্রদ",
+        "বসন্ত",
+        "বন",
+        "বরফ"
+      ],
+      "answer": 1,
+      "why": "der Frühling = বসন্ত।",
+      "word": "fruehling"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "blühen",
+      "options": [
+        "হ্রদ",
+        "ফোটা",
+        "পাতা",
+        "ঋতু"
+      ],
+      "answer": 1,
+      "why": "blühen = ফোটা।",
+      "word": "bluehen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "bunt",
+      "options": [
+        "রঙিন",
+        "ঋতু",
+        "শরৎ",
+        "পাহাড়"
+      ],
+      "answer": 0,
+      "why": "bunt = রঙিন।",
+      "word": "bunt"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ See",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 0,
+      "why": "der See। বহুবচন: die Seen।",
+      "word": "see"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "___ Sommer fahre ich oft an den See.",
+      "options": [
+        "im",
+        "am",
+        "in",
+        "um"
+      ],
+      "answer": 0,
+      "why": "im + Jahreszeit।",
+      "word": "sommer"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন (wohin?)",
+      "sub": "Wir fahren an ___ See.",
+      "options": [
+        "den",
+        "dem",
+        "der",
+        "die"
+      ],
+      "answer": 0,
+      "why": "wohin? → Akkusativ।",
+      "word": "see"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„noch nie gesehen“ মানে কী?",
+      "options": [
+        "এখনো কখনো দেখিনি",
+        "আজ দেখেছি",
+        "সবসময় দেখি",
+        "কাল দেখব"
+      ],
+      "answer": 0,
+      "why": "noch nie = never yet।",
+      "word": "schnee"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Dezember কোন ঋতুতে?",
+      "options": [
+        "Winter",
+        "Sommer",
+        "Frühling",
+        "Herbst"
+      ],
+      "answer": 0,
+      "why": "Dezember, Januar, Februar।",
+      "word": "winter"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Wald“ এর আর্টিকেল কী?",
+      "options": [
+        "der",
+        "die",
+        "das",
+        "den"
+      ],
+      "answer": 0,
+      "why": "der Wald।",
+      "word": "wald"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „আমি কখনো বরফ দেখিনি।“",
+      "tiles": [
+        "gesehen.",
+        "noch nie",
+        "Ich",
+        "habe",
+        "Schnee"
+      ],
+      "answer": [
+        "Ich",
+        "habe",
+        "noch nie",
+        "Schnee",
+        "gesehen."
+      ],
+      "why": "noch nie vor dem Objekt/Partizip।",
+      "word": "schnee"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

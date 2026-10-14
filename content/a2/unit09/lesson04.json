@@ -1,0 +1,1179 @@
+{
+  "level": "A2",
+  "unit": 9,
+  "minutes": 16,
+  "lesson": 4,
+  "id": "a2-u09-l04",
+  "title": {
+    "de": "Wohin kommt der Müll?",
+    "bn": "মূল্যবান ময়লা আলাদা করা (Mülltrennung)",
+    "en": "Waste separation and the environment"
+  },
+  "hook": {
+    "de": "Jeder kehre vor seiner eigenen Tür.",
+    "who": "Sprichwort",
+    "bn": "প্রত্যেকে নিজের দরজার সামনে ঝাড়ু দিক।",
+    "en": "Everyone should sweep in front of their own door."
+  },
+  "goals": [
+    "জার্মানির Mülltrennung: gelb, blau, braun, Restmüll",
+    "Pfand: বোতল ফেরত দিয়ে টাকা ফেরত",
+    "müssen / dürfen: নিয়ম বলা",
+    "Umwelt: Energie sparen, weniger Plastik"
+  ],
+  "words": [
+    {
+      "id": "muell",
+      "de": "Müll",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "ময়লা, আবর্জনা",
+      "en": "rubbish"
+    },
+    {
+      "id": "muelltrennung",
+      "de": "Mülltrennung",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "ময়লা আলাদা করা",
+      "en": "waste separation"
+    },
+    {
+      "id": "plastik",
+      "de": "Plastik",
+      "art": "das",
+      "pos": "বিশেষ্য",
+      "bn": "প্লাস্টিক",
+      "en": "plastic"
+    },
+    {
+      "id": "papier",
+      "de": "Papier",
+      "art": "das",
+      "pos": "বিশেষ্য",
+      "bn": "কাগজ",
+      "en": "paper"
+    },
+    {
+      "id": "glas",
+      "de": "Glas",
+      "art": "das",
+      "pos": "বিশেষ্য",
+      "bn": "কাচ",
+      "en": "glass"
+    },
+    {
+      "id": "biomuell",
+      "de": "Biomüll",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "জৈব ময়লা (খাবার ইত্যাদি)",
+      "en": "organic waste"
+    },
+    {
+      "id": "tonne",
+      "de": "Tonne",
+      "art": "die",
+      "pl": "die Tonnen",
+      "pos": "বিশেষ্য",
+      "bn": "ময়লা ফেলার বড় পাত্র",
+      "en": "bin"
+    },
+    {
+      "id": "pfand",
+      "de": "Pfand",
+      "art": "das",
+      "pos": "বিশেষ্য",
+      "bn": "বোতলের জামানত",
+      "en": "bottle deposit"
+    },
+    {
+      "id": "flasche",
+      "de": "Flasche",
+      "art": "die",
+      "pl": "die Flaschen",
+      "pos": "বিশেষ্য",
+      "bn": "বোতল",
+      "en": "bottle"
+    },
+    {
+      "id": "umwelt",
+      "de": "Umwelt",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "পরিবেশ",
+      "en": "environment"
+    },
+    {
+      "id": "sparen",
+      "de": "sparen",
+      "pos": "ক্রিয়া · hat gespart",
+      "bn": "সাশ্রয় করা",
+      "en": "to save"
+    },
+    {
+      "id": "energie",
+      "de": "Energie",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "শক্তি, বিদ্যুৎ",
+      "en": "energy"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Saheb",
+      "bn": [
+        "এই",
+        "বোতলটা",
+        "কোথায়",
+        "যাবে?"
+      ],
+      "en": [
+        "Where",
+        "does",
+        "this",
+        "bottle",
+        "go?"
+      ],
+      "de": [
+        {
+          "t": "Wohin",
+          "b": [
+            2
+          ],
+          "e": [
+            0
+          ],
+          "l": "Wohin",
+          "gb": "কোথায়",
+          "ge": "Where",
+          "n": ""
+        },
+        {
+          "t": "kommt",
+          "b": [
+            3
+          ],
+          "e": [
+            1
+          ],
+          "l": "kommt",
+          "gb": "যাবে",
+          "ge": "does",
+          "n": ""
+        },
+        {
+          "t": "diese",
+          "b": [
+            0
+          ],
+          "e": [
+            2
+          ],
+          "l": "diese",
+          "gb": "এই",
+          "ge": "this",
+          "n": ""
+        },
+        {
+          "t": "Flasche?",
+          "b": [
+            1
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "Flasche",
+          "gb": "বোতলটা",
+          "ge": "bottle go",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "জামানতের",
+        "বোতল",
+        "তুমি",
+        "সুপারমার্কেটে",
+        "ফেরত",
+        "দাও।",
+        "এর",
+        "জন্য",
+        "তুমি",
+        "জামানত",
+        "ফেরত",
+        "পাও।"
+      ],
+      "en": [
+        "You",
+        "take",
+        "deposit",
+        "bottles",
+        "back",
+        "to",
+        "the",
+        "supermarket.",
+        "For",
+        "that",
+        "you",
+        "get",
+        "the",
+        "deposit",
+        "back."
+      ],
+      "de": [
+        {
+          "t": "Pfandflaschen",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "Pfand",
+          "gb": "জামানতের বোতল",
+          "ge": "deposit bottles",
+          "n": ""
+        },
+        {
+          "t": "bringst",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            1
+          ],
+          "l": "bringst",
+          "gb": "ফেরত দাও",
+          "ge": "take",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            2
+          ],
+          "e": [
+            0
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "You",
+          "n": ""
+        },
+        {
+          "t": "in den Supermarkt",
+          "b": [
+            3
+          ],
+          "e": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "l": "in den Supermarkt",
+          "gb": "সুপারমার্কেটে",
+          "ge": "back to the supermarket",
+          "n": ""
+        },
+        {
+          "t": "zurück.",
+          "b": [],
+          "e": [],
+          "l": "zurück",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Dafür",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            8,
+            9
+          ],
+          "l": "Dafür",
+          "gb": "এর জন্য",
+          "ge": "For that",
+          "n": ""
+        },
+        {
+          "t": "bekommst",
+          "b": [
+            11
+          ],
+          "e": [
+            11
+          ],
+          "l": "bekommst",
+          "gb": "পাও",
+          "ge": "get",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            8
+          ],
+          "e": [
+            10
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "Pfand.",
+          "b": [
+            9
+          ],
+          "e": [
+            12,
+            13,
+            14
+          ],
+          "l": "Pfand",
+          "gb": "জামানত",
+          "ge": "the deposit back",
+          "n": "Pfand: সাধারণত ২৫ সেন্ট প্রতি Einwegflasche (প্লাস্টিক)"
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আর",
+        "কাগজ?"
+      ],
+      "en": [
+        "And",
+        "the",
+        "paper?"
+      ],
+      "de": [
+        {
+          "t": "Und",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "das Papier?",
+          "b": [
+            1
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "Papier",
+          "gb": "কাগজ",
+          "ge": "the paper",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "কাগজ",
+        "নীল",
+        "ডাস্টবিনে",
+        "যায়,",
+        "প্লাস্টিক",
+        "হলুদটায়।"
+      ],
+      "en": [
+        "Paper",
+        "goes",
+        "into",
+        "the",
+        "blue",
+        "bin,",
+        "plastic",
+        "into",
+        "the",
+        "yellow",
+        "one."
+      ],
+      "de": [
+        {
+          "t": "Papier",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Papier",
+          "gb": "কাগজ",
+          "ge": "Paper",
+          "n": ""
+        },
+        {
+          "t": "kommt",
+          "b": [
+            3
+          ],
+          "e": [
+            1
+          ],
+          "l": "kommt",
+          "gb": "যায়",
+          "ge": "goes",
+          "n": ""
+        },
+        {
+          "t": "in die blaue Tonne,",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "l": "Tonne",
+          "gb": "নীল ডাস্টবিনে",
+          "ge": "into the blue bin",
+          "n": ""
+        },
+        {
+          "t": "Plastik",
+          "b": [
+            4
+          ],
+          "e": [
+            6
+          ],
+          "l": "Plastik",
+          "gb": "প্লাস্টিক",
+          "ge": "plastic",
+          "n": ""
+        },
+        {
+          "t": "in die gelbe.",
+          "b": [
+            5
+          ],
+          "e": [
+            7,
+            8,
+            9,
+            10
+          ],
+          "l": "in die gelbe",
+          "gb": "হলুদটায়",
+          "ge": "into the yellow one",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আর",
+        "ফল",
+        "ও",
+        "সবজির",
+        "খোসা?"
+      ],
+      "en": [
+        "And",
+        "fruit",
+        "and",
+        "vegetable",
+        "peel?"
+      ],
+      "de": [
+        {
+          "t": "Und",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "Obst-",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "Obst-",
+          "gb": "ফল",
+          "ge": "fruit",
+          "n": ""
+        },
+        {
+          "t": "und Gemüsereste?",
+          "b": [
+            2,
+            3,
+            4
+          ],
+          "e": [
+            2,
+            3,
+            4
+          ],
+          "l": "und Gemüsereste",
+          "gb": "ও সবজির খোসা",
+          "ge": "and vegetable peel",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "সেগুলো",
+        "বাদামি",
+        "ডাস্টবিনে,",
+        "জৈব",
+        "ময়লায়",
+        "যায়।",
+        "বাকি",
+        "সবকিছু",
+        "সাধারণ",
+        "ময়লায়।",
+        "জার্মানিতে",
+        "ময়লা",
+        "আলাদা",
+        "করতে",
+        "হয়।"
+      ],
+      "en": [
+        "They",
+        "go",
+        "into",
+        "the",
+        "brown",
+        "bin,",
+        "the",
+        "organic",
+        "waste.",
+        "Everything",
+        "else",
+        "goes",
+        "into",
+        "the",
+        "general",
+        "waste.",
+        "In",
+        "Germany",
+        "you",
+        "have",
+        "to",
+        "separate",
+        "rubbish."
+      ],
+      "de": [
+        {
+          "t": "Sie",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Sie",
+          "gb": "সেগুলো",
+          "ge": "They",
+          "n": ""
+        },
+        {
+          "t": "kommen",
+          "b": [
+            5
+          ],
+          "e": [
+            1
+          ],
+          "l": "kommen",
+          "gb": "যায়",
+          "ge": "go",
+          "n": ""
+        },
+        {
+          "t": "in die braune Tonne,",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "l": "in die braune Tonne",
+          "gb": "বাদামি ডাস্টবিনে",
+          "ge": "into the brown bin",
+          "n": ""
+        },
+        {
+          "t": "in den Biomüll.",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            6,
+            7,
+            8
+          ],
+          "l": "Biomüll",
+          "gb": "জৈব ময়লায়",
+          "ge": "the organic waste",
+          "n": ""
+        },
+        {
+          "t": "Alles andere",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "Alles andere",
+          "gb": "বাকি সবকিছু",
+          "ge": "Everything else",
+          "n": ""
+        },
+        {
+          "t": "gehört",
+          "b": [],
+          "e": [
+            11
+          ],
+          "l": "gehört",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "goes",
+          "n": ""
+        },
+        {
+          "t": "in den Restmüll.",
+          "b": [
+            8,
+            9
+          ],
+          "e": [
+            12,
+            13,
+            14,
+            15
+          ],
+          "l": "in den Restmüll",
+          "gb": "সাধারণ ময়লায়",
+          "ge": "into the general waste",
+          "n": ""
+        },
+        {
+          "t": "In Deutschland",
+          "b": [
+            10
+          ],
+          "e": [
+            16,
+            17
+          ],
+          "l": "In Deutschland",
+          "gb": "জার্মানিতে",
+          "ge": "In Germany",
+          "n": ""
+        },
+        {
+          "t": "muss",
+          "b": [
+            14
+          ],
+          "e": [
+            18,
+            19,
+            20
+          ],
+          "l": "muss",
+          "gb": "হয়",
+          "ge": "you have to",
+          "n": ""
+        },
+        {
+          "t": "man",
+          "b": [],
+          "e": [],
+          "l": "man",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "den Müll",
+          "b": [
+            11
+          ],
+          "e": [
+            22
+          ],
+          "l": "Müll",
+          "gb": "ময়লা",
+          "ge": "rubbish",
+          "n": ""
+        },
+        {
+          "t": "trennen.",
+          "b": [
+            12,
+            13
+          ],
+          "e": [
+            21
+          ],
+          "l": "Mülltrennung",
+          "gb": "আলাদা করতে",
+          "ge": "separate",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "পরিবেশের",
+        "জন্য",
+        "এটা",
+        "গুরুত্বপূর্ণ।",
+        "আমি",
+        "বিদ্যুৎ",
+        "বাঁচাতে",
+        "আর",
+        "কম",
+        "প্লাস্টিক",
+        "কিনতে",
+        "চাই।"
+      ],
+      "en": [
+        "That",
+        "is",
+        "important",
+        "for",
+        "the",
+        "environment.",
+        "I",
+        "want",
+        "to",
+        "save",
+        "energy",
+        "and",
+        "buy",
+        "less",
+        "plastic."
+      ],
+      "de": [
+        {
+          "t": "Das",
+          "b": [
+            2
+          ],
+          "e": [
+            0
+          ],
+          "l": "Das",
+          "gb": "এটা",
+          "ge": "That",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "wichtig",
+          "b": [
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "wichtig",
+          "gb": "গুরুত্বপূর্ণ",
+          "ge": "important",
+          "n": ""
+        },
+        {
+          "t": "für die Umwelt.",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            3,
+            4,
+            5
+          ],
+          "l": "Umwelt",
+          "gb": "পরিবেশের জন্য",
+          "ge": "for the environment",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            4
+          ],
+          "e": [
+            6
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "möchte",
+          "b": [
+            11
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "möchte",
+          "gb": "চাই",
+          "ge": "want to",
+          "n": ""
+        },
+        {
+          "t": "Energie",
+          "b": [
+            5
+          ],
+          "e": [
+            10
+          ],
+          "l": "Energie",
+          "gb": "বিদ্যুৎ",
+          "ge": "energy",
+          "n": ""
+        },
+        {
+          "t": "sparen",
+          "b": [
+            6
+          ],
+          "e": [
+            9
+          ],
+          "l": "sparen",
+          "gb": "বাঁচাতে",
+          "ge": "save",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            7
+          ],
+          "e": [
+            11
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "weniger",
+          "b": [
+            8
+          ],
+          "e": [
+            13
+          ],
+          "l": "weniger",
+          "gb": "কম",
+          "ge": "less",
+          "n": ""
+        },
+        {
+          "t": "Plastik",
+          "b": [
+            9
+          ],
+          "e": [
+            14
+          ],
+          "l": "Plastik",
+          "gb": "প্লাস্টিক",
+          "ge": "plastic",
+          "n": ""
+        },
+        {
+          "t": "kaufen.",
+          "b": [
+            10
+          ],
+          "e": [
+            12
+          ],
+          "l": "kaufen",
+          "gb": "কিনতে",
+          "ge": "buy",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "জার্মানির ডাস্টবিনের রঙ",
+      "head": [
+        "রঙ",
+        "জার্মান",
+        "কী ফেলবেন"
+      ],
+      "rows": [
+        [
+          "হলুদ",
+          "gelbe Tonne / gelber Sack",
+          "প্লাস্টিক, ধাতব প্যাকেজ"
+        ],
+        [
+          "নীল",
+          "blaue Tonne",
+          "কাগজ, কার্টন"
+        ],
+        [
+          "বাদামি",
+          "braune Tonne (Biomüll)",
+          "খাবারের অবশিষ্ট, উদ্ভিদ"
+        ],
+        [
+          "কালো/ধূসর",
+          "Restmüll",
+          "বাকি সবকিছু"
+        ],
+        [
+          "কাচ-পাত্র",
+          "Altglas-Container",
+          "বোতল ও কাচ (রঙ অনুযায়ী)"
+        ]
+      ],
+      "note": "রঙ ও নিয়ম শহরভেদে একটু আলাদা হতে পারে — বাড়িওয়ালা বা Hausverwaltung-এর নোটিশ দেখুন। Pfandflaschen (Pfand-চিহ্নযুক্ত) সুপারমার্কেটে ফেরত দেবেন।"
+    },
+    {
+      "type": "table",
+      "title": "নিয়ম বলার ক্রিয়া",
+      "head": [
+        "Verb",
+        "উদাহরণ"
+      ],
+      "rows": [
+        [
+          "müssen",
+          "Man muss den Müll trennen."
+        ],
+        [
+          "dürfen",
+          "Man darf Plastik nicht in den Biomüll werfen."
+        ],
+        [
+          "sollen",
+          "Du sollst Flaschen zurückbringen."
+        ],
+        [
+          "können",
+          "Man kann Energie sparen."
+        ]
+      ],
+      "note": "man = সাধারণভাবে মানুষ (কর্তা)। Modalverb ২য় স্থানে, Infinitiv শেষে। nicht dürfen = নিষিদ্ধ; nicht müssen = করতে হবে না (ভিন্ন অর্থ)।"
+    },
+    {
+      "type": "text",
+      "title": "weniger / mehr",
+      "text": "„Ich kaufe weniger Plastik.“ = কম প্লাস্টিক কিনি। „Ich spare mehr Energie.“ = আরও বেশি বিদ্যুৎ বাঁচাই। viel – mehr – am meisten · wenig – weniger – am wenigsten।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "das Pfand",
+      "options": [
+        "প্লাস্টিক",
+        "কাচ",
+        "বোতলের জামানত",
+        "ময়লা ফেলার বড় পাত্র"
+      ],
+      "answer": 2,
+      "why": "das Pfand = বোতলের জামানত।",
+      "word": "pfand"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "die Mülltrennung",
+      "options": [
+        "সাশ্রয় করা",
+        "প্লাস্টিক",
+        "জৈব ময়লা",
+        "ময়লা আলাদা করা"
+      ],
+      "answer": 3,
+      "why": "die Mülltrennung = ময়লা আলাদা করা।",
+      "word": "muelltrennung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "sparen",
+      "options": [
+        "ময়লা ফেলার বড় পাত্র",
+        "পরিবেশ",
+        "ময়লা আলাদা করা",
+        "সাশ্রয় করা"
+      ],
+      "answer": 3,
+      "why": "sparen = সাশ্রয় করা।",
+      "word": "sparen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Tonne",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Tonne। বহুবচন: die Tonnen।",
+      "word": "tonne"
+    },
+    {
+      "type": "mcq",
+      "prompt": "কাগজ কোন ডাস্টবিনে যায়?",
+      "options": [
+        "blaue Tonne",
+        "gelbe Tonne",
+        "braune Tonne",
+        "Restmüll"
+      ],
+      "answer": 0,
+      "why": "Papier → blau।",
+      "word": "papier"
+    },
+    {
+      "type": "mcq",
+      "prompt": "প্লাস্টিক কোথায়?",
+      "options": [
+        "gelbe Tonne",
+        "blaue Tonne",
+        "braune Tonne",
+        "Altglas"
+      ],
+      "answer": 0,
+      "why": "Plastik → gelb।",
+      "word": "plastik"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Pfand কী?",
+      "options": [
+        "বোতলের জামানত",
+        "জরিমানা",
+        "ডাস্টবিন",
+        "পুনর্ব্যবহার"
+      ],
+      "answer": 0,
+      "why": "ফেরত দিলে টাকা ফেরত।",
+      "word": "pfand"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক বাক্য কোনটি?",
+      "options": [
+        "Man muss den Müll trennen.",
+        "Man muss trennen den Müll.",
+        "Man trennen muss den Müll.",
+        "Muss man den trennen Müll."
+      ],
+      "answer": 0,
+      "why": "Modalverb ২য়, Infinitiv শেষে।",
+      "word": "muell"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„weniger Plastik“ মানে কী?",
+      "options": [
+        "কম প্লাস্টিক",
+        "বেশি প্লাস্টিক",
+        "কোনো প্লাস্টিক নয়",
+        "প্লাস্টিকের বোতল"
+      ],
+      "answer": 0,
+      "why": "weniger = less।",
+      "word": "umwelt"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „জার্মানিতে ময়লা আলাদা করতে হয়।“",
+      "tiles": [
+        "trennen.",
+        "In Deutschland",
+        "den Müll",
+        "muss",
+        "man"
+      ],
+      "answer": [
+        "In Deutschland",
+        "muss",
+        "man",
+        "den Müll",
+        "trennen."
+      ],
+      "why": "Ortsangabe vor muss।",
+      "word": "muelltrennung"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

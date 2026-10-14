@@ -31,7 +31,7 @@ export function mergeProgress(a: Progress, b: Progress): Progress {
   const newer = b.updatedAt > a.updatedAt ? b : a
   return {
     lang: newer.lang, slow: newer.slow, theme: newer.theme, goal: newer.goal, name: newer.name, examDate: newer.examDate,
-    startUnit: newer.startUnit, unlockAll: newer.unlockAll, placed: newer.placed,
+    startUnit: newer.startUnit, unlockAll: newer.unlockAll, placed: newer.placed, startUnitA2: newer.startUnitA2, startUnitB1: newer.startUnitB1,
     lessons, srs, activity,
     updatedAt: Math.max(a.updatedAt, b.updatedAt),
     xp: computeXp(lessons),
@@ -41,7 +41,7 @@ export function mergeProgress(a: Progress, b: Progress): Progress {
 /** What counts as "the same" for sync purposes (ignores updatedAt, which changes on every local edit). */
 export function progressKey(p: Progress): string {
   const sorted = <T,>(o: Record<string, T>) => Object.keys(o).sort().map((k) => [k, o[k]])
-  return JSON.stringify([p.lang, p.slow, p.theme, p.goal, p.name, p.examDate, p.startUnit, p.unlockAll, p.placed, sorted(p.lessons), sorted(p.srs), sorted(p.activity)])
+  return JSON.stringify([p.lang, p.slow, p.theme, p.goal, p.name, p.examDate, p.startUnit, p.unlockAll, p.placed, p.startUnitA2, p.startUnitB1, sorted(p.lessons), sorted(p.srs), sorted(p.activity)])
 }
 
 /** Pull → merge → push. Returns the merged progress; pushes only when the server copy is missing or different. */

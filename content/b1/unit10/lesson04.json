@@ -1,0 +1,1676 @@
+{
+  "level": "B1",
+  "unit": 10,
+  "minutes": 18,
+  "lesson": 4,
+  "id": "b1-u10-l04",
+  "title": {
+    "de": "Migrationsgeschichte: Gastarbeiter und Heute",
+    "bn": "অভিবাসনের ইতিহাস: গেস্টওয়ার্কার ও আজকের দিন",
+    "en": "Migration history: guest workers and today"
+  },
+  "hook": {
+    "de": "Wir riefen Arbeitskräfte, und es kamen Menschen.",
+    "who": "Max Frisch (sinngemäß)",
+    "bn": "আমরা কর্মী ডেকেছিলাম, আর এল মানুষ।",
+    "en": "We called for workers, and people came."
+  },
+  "goals": [
+    "Anwerbung, Gastarbeiter, Familiennachzug",
+    "Präteritum und Perfekt im Bericht",
+    "Migrationsgeschichte erzählen",
+    "Wörter für Integration und Identität"
+  ],
+  "words": [
+    {
+      "id": "gastarbeiter",
+      "de": "Gastarbeiter",
+      "art": "der",
+      "pl": "die Gastarbeiter",
+      "pos": "বিশেষ্য",
+      "bn": "অতিথি শ্রমিক (ঐতিহাসিক শব্দ)",
+      "en": "guest worker (historical term)"
+    },
+    {
+      "id": "anwerbung",
+      "de": "Anwerbung",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "শ্রমিক সংগ্রহ (চুক্তি অনুযায়ী)",
+      "en": "recruitment"
+    },
+    {
+      "id": "einwanderung",
+      "de": "Einwanderung",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "অভিবাসন (ভিতরে আসা)",
+      "en": "immigration"
+    },
+    {
+      "id": "familiennachzug",
+      "de": "Familiennachzug",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "পরিবারের সদস্যদের আনা",
+      "en": "family reunification"
+    },
+    {
+      "id": "herkunft",
+      "de": "Herkunft",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "উৎপত্তি, পটভূমি",
+      "en": "origin, background"
+    },
+    {
+      "id": "identitaet",
+      "de": "Identität",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "পরিচয়",
+      "en": "identity"
+    },
+    {
+      "id": "integration",
+      "de": "Integration",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "একীকরণ, মিশে যাওয়া",
+      "en": "integration"
+    },
+    {
+      "id": "vorurteil",
+      "de": "Vorurteil",
+      "art": "das",
+      "pl": "die Vorurteile",
+      "pos": "বিশেষ্য",
+      "bn": "পূর্বসংস্কার",
+      "en": "prejudice"
+    },
+    {
+      "id": "fachkraft",
+      "de": "Fachkraft",
+      "art": "die",
+      "pl": "die Fachkräfte",
+      "pos": "বিশেষ্য",
+      "bn": "দক্ষ কর্মী",
+      "en": "skilled worker"
+    },
+    {
+      "id": "wirtschaftswunder",
+      "de": "Wirtschaftswunder",
+      "art": "das",
+      "pos": "বিশেষ্য",
+      "bn": "অর্থনৈতিক বিস্ময় (যুদ্ধ-পরবর্তী প্রবৃদ্ধি)",
+      "en": "economic miracle"
+    },
+    {
+      "id": "einwandern",
+      "de": "einwandern",
+      "pos": "ক্রিয়া · ist eingewandert",
+      "bn": "অভিবাসন করা",
+      "en": "to immigrate"
+    },
+    {
+      "id": "dazugehoeren",
+      "de": "dazugehören",
+      "pos": "ক্রিয়া · hat dazugehört",
+      "bn": "অংশ হওয়া",
+      "en": "to belong"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Saheb",
+      "bn": [
+        "লেনা,",
+        "তোমার",
+        "বন্ধু",
+        "মেটিনের",
+        "দাদা",
+        "তুরস্ক",
+        "থেকে",
+        "এসেছিলেন,",
+        "তাই",
+        "না?",
+        "সেই",
+        "সময়ে",
+        "কী",
+        "হয়েছিল?"
+      ],
+      "en": [
+        "Lena,",
+        "your",
+        "friend",
+        "Metin’s",
+        "grandfather",
+        "came",
+        "from",
+        "Turkey,",
+        "didn’t",
+        "he?",
+        "What",
+        "happened",
+        "at",
+        "that",
+        "time?"
+      ],
+      "de": [
+        {
+          "t": "Lena,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Lena",
+          "gb": "লেনা",
+          "ge": "Lena",
+          "n": ""
+        },
+        {
+          "t": "der Opa deines Freundes Metin",
+          "b": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "e": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "l": "der Opa deines Freundes Metin",
+          "gb": "তোমার বন্ধু মেটিনের দাদা",
+          "ge": "your friend Metin’s grandfather",
+          "n": ""
+        },
+        {
+          "t": "kam doch aus der Türkei,",
+          "b": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "e": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "l": "kam doch aus der Türkei",
+          "gb": "তুরস্ক থেকে এসেছিলেন তাই না",
+          "ge": "came from Turkey didn’t he",
+          "n": ""
+        },
+        {
+          "t": "oder?",
+          "b": [],
+          "e": [],
+          "l": "oder",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Was war",
+          "b": [
+            12,
+            13
+          ],
+          "e": [
+            10,
+            11
+          ],
+          "l": "Was war",
+          "gb": "কী হয়েছিল",
+          "ge": "What happened",
+          "n": ""
+        },
+        {
+          "t": "damals los?",
+          "b": [
+            10,
+            11
+          ],
+          "e": [
+            12,
+            13,
+            14
+          ],
+          "l": "damals los",
+          "gb": "সেই সময়ে",
+          "ge": "at that time",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "হ্যাঁ।",
+        "১৯৫০-এর",
+        "দশকে",
+        "পশ্চিম",
+        "জার্মানির",
+        "অর্থনীতি",
+        "দ্রুত",
+        "বাড়ছিল,",
+        "আর",
+        "পর্যাপ্ত",
+        "শ্রমিক",
+        "ছিল",
+        "না।",
+        "তাই",
+        "সরকার",
+        "অন্য",
+        "দেশের",
+        "সাথে",
+        "চুক্তি",
+        "করেছিল",
+        "এবং",
+        "১৯৫৫",
+        "থেকে",
+        "১৯৭৩",
+        "পর্যন্ত",
+        "শ্রমিকদের",
+        "ডেকেছিল।"
+      ],
+      "en": [
+        "Yes.",
+        "In",
+        "the",
+        "1950s",
+        "the",
+        "West",
+        "German",
+        "economy",
+        "was",
+        "growing",
+        "fast",
+        "and",
+        "there",
+        "were",
+        "not",
+        "enough",
+        "workers.",
+        "So",
+        "the",
+        "government",
+        "made",
+        "agreements",
+        "with",
+        "other",
+        "countries",
+        "and",
+        "recruited",
+        "workers",
+        "from",
+        "1955",
+        "to",
+        "1973."
+      ],
+      "de": [
+        {
+          "t": "Ja.",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ja",
+          "gb": "হ্যাঁ",
+          "ge": "Yes",
+          "n": ""
+        },
+        {
+          "t": "In den 1950er-Jahren",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            1,
+            2,
+            3
+          ],
+          "l": "In den 1950er-Jahren",
+          "gb": "১৯৫০-এর দশকে",
+          "ge": "In the 1950s",
+          "n": ""
+        },
+        {
+          "t": "wuchs die Wirtschaft",
+          "b": [
+            5,
+            6,
+            7
+          ],
+          "e": [
+            4,
+            7,
+            8,
+            9,
+            10
+          ],
+          "l": "wuchs die Wirtschaft",
+          "gb": "অর্থনীতি দ্রুত বাড়ছিল",
+          "ge": "the economy was growing fast",
+          "n": ""
+        },
+        {
+          "t": "in Westdeutschland schnell,",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "in Westdeutschland schnell",
+          "gb": "পশ্চিম জার্মানির",
+          "ge": "West German",
+          "n": ""
+        },
+        {
+          "t": "und es gab",
+          "b": [
+            8
+          ],
+          "e": [
+            11,
+            12,
+            13
+          ],
+          "l": "und es gab",
+          "gb": "আর",
+          "ge": "and there were",
+          "n": ""
+        },
+        {
+          "t": "nicht genug Arbeiter.",
+          "b": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "e": [
+            14,
+            15,
+            16
+          ],
+          "l": "nicht genug Arbeiter",
+          "gb": "পর্যাপ্ত শ্রমিক ছিল না",
+          "ge": "not enough workers",
+          "n": ""
+        },
+        {
+          "t": "Deshalb schloss",
+          "b": [
+            13
+          ],
+          "e": [
+            17
+          ],
+          "l": "Deshalb schloss",
+          "gb": "তাই",
+          "ge": "So",
+          "n": ""
+        },
+        {
+          "t": "die Regierung",
+          "b": [
+            14
+          ],
+          "e": [
+            18,
+            19
+          ],
+          "l": "die Regierung",
+          "gb": "সরকার",
+          "ge": "the government",
+          "n": ""
+        },
+        {
+          "t": "Abkommen mit anderen Ländern",
+          "b": [
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "e": [
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "l": "Abkommen mit anderen Ländern",
+          "gb": "অন্য দেশের সাথে চুক্তি করেছিল",
+          "ge": "made agreements with other countries",
+          "n": ""
+        },
+        {
+          "t": "und warb",
+          "b": [
+            20,
+            26
+          ],
+          "e": [
+            25,
+            26
+          ],
+          "l": "und warb",
+          "gb": "এবং ডেকেছিল",
+          "ge": "and recruited",
+          "n": ""
+        },
+        {
+          "t": "von 1955 bis 1973",
+          "b": [
+            21,
+            22,
+            23,
+            24
+          ],
+          "e": [
+            28,
+            29,
+            30,
+            31
+          ],
+          "l": "von 1955 bis 1973",
+          "gb": "১৯৫৫ থেকে ১৯৭৩ পর্যন্ত",
+          "ge": "from 1955 to 1973",
+          "n": ""
+        },
+        {
+          "t": "Arbeitskräfte an.",
+          "b": [
+            25
+          ],
+          "e": [
+            27
+          ],
+          "l": "Anwerbung",
+          "gb": "শ্রমিকদের",
+          "ge": "workers",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "সবাই",
+        "কি",
+        "অল্প",
+        "সময়ের",
+        "জন্য",
+        "এসেছিল?"
+      ],
+      "en": [
+        "Did",
+        "everyone",
+        "come",
+        "only",
+        "for",
+        "a",
+        "short",
+        "time?"
+      ],
+      "de": [
+        {
+          "t": "Sind alle",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Sind alle",
+          "gb": "সবাই কি",
+          "ge": "Did everyone",
+          "n": ""
+        },
+        {
+          "t": "nur für kurze Zeit",
+          "b": [
+            2,
+            3,
+            4
+          ],
+          "e": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "l": "nur für kurze Zeit",
+          "gb": "অল্প সময়ের জন্য",
+          "ge": "only for a short time",
+          "n": ""
+        },
+        {
+          "t": "gekommen?",
+          "b": [
+            5
+          ],
+          "e": [
+            2
+          ],
+          "l": "gekommen",
+          "gb": "এসেছিল",
+          "ge": "come",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "অনেকেই",
+        "ভেবেছিল",
+        "তাই।",
+        "সরকারও",
+        "সেটাই",
+        "ভেবেছিল;",
+        "তারা",
+        "„অতিথি",
+        "শ্রমিক“",
+        "শব্দ",
+        "ব্যবহার",
+        "করত।",
+        "কিন্তু",
+        "অনেকেই",
+        "থেকে",
+        "গিয়েছিল,",
+        "পরে",
+        "তাদের",
+        "পরিবারকে",
+        "আনতে",
+        "পারল,",
+        "আর",
+        "তাদের",
+        "সন্তানরা",
+        "এই",
+        "দেশেই",
+        "বড়",
+        "হলো।"
+      ],
+      "en": [
+        "Many",
+        "thought",
+        "so.",
+        "The",
+        "government",
+        "also",
+        "thought",
+        "so;",
+        "they",
+        "used",
+        "the",
+        "word",
+        "“guest",
+        "workers”.",
+        "But",
+        "many",
+        "stayed,",
+        "later",
+        "could",
+        "bring",
+        "their",
+        "families,",
+        "and",
+        "their",
+        "children",
+        "grew",
+        "up",
+        "in",
+        "this",
+        "country."
+      ],
+      "de": [
+        {
+          "t": "Viele dachten das.",
+          "b": [
+            0,
+            1,
+            2
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "Viele dachten das",
+          "gb": "অনেকেই ভেবেছিল তাই",
+          "ge": "Many thought so",
+          "n": ""
+        },
+        {
+          "t": "Auch der Staat",
+          "b": [
+            3
+          ],
+          "e": [
+            3,
+            4,
+            5
+          ],
+          "l": "Auch der Staat",
+          "gb": "সরকারও",
+          "ge": "The government also",
+          "n": ""
+        },
+        {
+          "t": "dachte das;",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "dachte das",
+          "gb": "সেটাই ভেবেছিল",
+          "ge": "thought so",
+          "n": ""
+        },
+        {
+          "t": "man sprach von",
+          "b": [
+            6,
+            9,
+            10,
+            11
+          ],
+          "e": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "l": "man sprach von",
+          "gb": "তারা শব্দ ব্যবহার করত",
+          "ge": "they used the word",
+          "n": ""
+        },
+        {
+          "t": "„Gastarbeitern“.",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            12,
+            13
+          ],
+          "l": "„Gastarbeitern“",
+          "gb": "„অতিথি শ্রমিক“",
+          "ge": "“guest workers”",
+          "n": ""
+        },
+        {
+          "t": "Aber viele blieben,",
+          "b": [
+            12,
+            13,
+            14,
+            15
+          ],
+          "e": [
+            14,
+            15,
+            16
+          ],
+          "l": "Aber viele blieben",
+          "gb": "কিন্তু অনেকেই থেকে গিয়েছিল",
+          "ge": "But many stayed",
+          "n": ""
+        },
+        {
+          "t": "holten später",
+          "b": [
+            16
+          ],
+          "e": [
+            17,
+            18,
+            19
+          ],
+          "l": "holten später",
+          "gb": "পরে",
+          "ge": "later could bring",
+          "n": ""
+        },
+        {
+          "t": "ihre Familien nach",
+          "b": [
+            17,
+            18,
+            19,
+            20
+          ],
+          "e": [
+            20,
+            21
+          ],
+          "l": "Familiennachzug",
+          "gb": "তাদের পরিবারকে আনতে পারল",
+          "ge": "their families",
+          "n": ""
+        },
+        {
+          "t": "und ihre Kinder",
+          "b": [
+            21,
+            22,
+            23
+          ],
+          "e": [
+            22,
+            23,
+            24
+          ],
+          "l": "und ihre Kinder",
+          "gb": "আর তাদের সন্তানরা",
+          "ge": "and their children",
+          "n": ""
+        },
+        {
+          "t": "wuchsen hier auf.",
+          "b": [
+            24,
+            25,
+            26,
+            27
+          ],
+          "e": [
+            25,
+            26,
+            27,
+            28,
+            29
+          ],
+          "l": "wuchsen hier auf",
+          "gb": "এই দেশেই বড় হলো",
+          "ge": "grew up in this country",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "মেটিন",
+        "নিজেকে",
+        "কী",
+        "বলে?",
+        "তুর্কি,",
+        "না",
+        "জার্মান?"
+      ],
+      "en": [
+        "What",
+        "does",
+        "Metin",
+        "call",
+        "themself?",
+        "Turkish,",
+        "or",
+        "German?"
+      ],
+      "de": [
+        {
+          "t": "Wie nennt sich",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Wie nennt sich",
+          "gb": "মেটিন নিজেকে",
+          "ge": "What does",
+          "n": ""
+        },
+        {
+          "t": "Metin selbst?",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            2,
+            3,
+            4
+          ],
+          "l": "Metin selbst",
+          "gb": "কী বলে",
+          "ge": "Metin call themself",
+          "n": ""
+        },
+        {
+          "t": "Türkisch oder deutsch?",
+          "b": [
+            4,
+            5,
+            6
+          ],
+          "e": [
+            5,
+            6,
+            7
+          ],
+          "l": "Türkisch oder deutsch",
+          "gb": "তুর্কি না জার্মান",
+          "ge": "Turkish or German",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "এটা",
+        "ব্যক্তিগত",
+        "প্রশ্ন,",
+        "প্রত্যেকে",
+        "আলাদা",
+        "উত্তর",
+        "দেয়।",
+        "অনেকের",
+        "পরিচয়",
+        "দুই",
+        "দেশেই",
+        "থাকে।",
+        "আর",
+        "কেউ",
+        "যদি",
+        "এখানে",
+        "জন্মায়,",
+        "তবু",
+        "প্রায়ই",
+        "শুনে,",
+        "„তুমি",
+        "কোথা",
+        "থেকে",
+        "এসেছ?“",
+        "—",
+        "এটা",
+        "অনেকের",
+        "কাছে",
+        "কষ্টের।"
+      ],
+      "en": [
+        "That",
+        "is",
+        "a",
+        "personal",
+        "question,",
+        "and",
+        "everyone",
+        "answers",
+        "differently.",
+        "Many",
+        "have",
+        "an",
+        "identity",
+        "tied",
+        "to",
+        "both",
+        "countries.",
+        "And",
+        "even",
+        "if",
+        "someone",
+        "is",
+        "born",
+        "here,",
+        "they",
+        "often",
+        "still",
+        "hear,",
+        "“Where",
+        "are",
+        "you",
+        "from?”",
+        "—",
+        "that",
+        "hurts",
+        "many",
+        "people."
+      ],
+      "de": [
+        {
+          "t": "Das ist eine persönliche Frage,",
+          "b": [
+            0,
+            1,
+            2
+          ],
+          "e": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "l": "Das ist eine persönliche Frage",
+          "gb": "এটা ব্যক্তিগত প্রশ্ন",
+          "ge": "That is a personal question",
+          "n": ""
+        },
+        {
+          "t": "jeder antwortet anders.",
+          "b": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "e": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "l": "jeder antwortet anders",
+          "gb": "প্রত্যেকে আলাদা উত্তর দেয়",
+          "ge": "and everyone answers differently",
+          "n": ""
+        },
+        {
+          "t": "Viele fühlen sich",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "l": "Viele fühlen sich",
+          "gb": "অনেকের পরিচয়",
+          "ge": "Many have an identity",
+          "n": ""
+        },
+        {
+          "t": "beiden Ländern zugehörig.",
+          "b": [
+            9,
+            10,
+            11
+          ],
+          "e": [
+            13,
+            14,
+            15,
+            16
+          ],
+          "l": "beiden Ländern zugehörig",
+          "gb": "দুই দেশেই থাকে",
+          "ge": "tied to both countries",
+          "n": ""
+        },
+        {
+          "t": "Und selbst wenn jemand",
+          "b": [
+            12,
+            13,
+            14
+          ],
+          "e": [
+            17,
+            18,
+            19,
+            20
+          ],
+          "l": "Und selbst wenn jemand",
+          "gb": "আর কেউ যদি",
+          "ge": "And even if someone",
+          "n": ""
+        },
+        {
+          "t": "hier geboren ist,",
+          "b": [
+            15,
+            16
+          ],
+          "e": [
+            21,
+            22,
+            23
+          ],
+          "l": "hier geboren ist",
+          "gb": "এখানে জন্মায়",
+          "ge": "is born here",
+          "n": ""
+        },
+        {
+          "t": "hört er oft trotzdem:",
+          "b": [
+            17,
+            18,
+            19
+          ],
+          "e": [
+            24,
+            25,
+            26,
+            27
+          ],
+          "l": "hört er oft trotzdem",
+          "gb": "তবু প্রায়ই শুনে",
+          "ge": "they often still hear",
+          "n": ""
+        },
+        {
+          "t": "„Woher kommst du?“",
+          "b": [
+            20,
+            21,
+            22,
+            23
+          ],
+          "e": [
+            28,
+            29,
+            30,
+            31
+          ],
+          "l": "„Woher kommst du“",
+          "gb": "„তুমি কোথা থেকে এসেছ“",
+          "ge": "“Where are you from”",
+          "n": ""
+        },
+        {
+          "t": "Das verletzt viele.",
+          "b": [
+            25,
+            26,
+            27,
+            28
+          ],
+          "e": [
+            33,
+            34,
+            35,
+            36
+          ],
+          "l": "Das verletzt viele",
+          "gb": "এটা অনেকের কাছে কষ্টের",
+          "ge": "that hurts many people",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "তা",
+        "বুঝি।",
+        "তাহলে",
+        "আমি",
+        "কী",
+        "করে",
+        "সম্মানজনকভাবে",
+        "জিজ্ঞাসা",
+        "করতে",
+        "পারি?"
+      ],
+      "en": [
+        "I",
+        "understand.",
+        "So",
+        "how",
+        "can",
+        "I",
+        "ask",
+        "respectfully?"
+      ],
+      "de": [
+        {
+          "t": "Das verstehe ich.",
+          "b": [
+            0,
+            1,
+            2
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Das verstehe ich",
+          "gb": "আমি তা বুঝি",
+          "ge": "I understand",
+          "n": ""
+        },
+        {
+          "t": "Wie kann ich also",
+          "b": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "e": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "l": "Wie kann ich also",
+          "gb": "তাহলে আমি কী করে",
+          "ge": "So how can I",
+          "n": ""
+        },
+        {
+          "t": "respektvoll fragen?",
+          "b": [
+            7,
+            8,
+            9,
+            10
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "respektvoll fragen",
+          "gb": "সম্মানজনকভাবে জিজ্ঞাসা করতে পারি",
+          "ge": "ask respectfully",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "আগ্রহ",
+        "দেখাও,",
+        "কিন্তু",
+        "অনুমান",
+        "কোরো",
+        "না।",
+        "যেমন:",
+        "„তোমার",
+        "পরিবারের",
+        "গল্প",
+        "কী?“",
+        "জিজ্ঞাসা",
+        "করা",
+        "যায়,",
+        "যদি",
+        "তুমি",
+        "শুনতে",
+        "প্রস্তুত",
+        "থাকো।",
+        "আর",
+        "মনে",
+        "রেখো:",
+        "দলে",
+        "পড়া",
+        "মানে",
+        "পরিচয়",
+        "হারানো",
+        "নয়।"
+      ],
+      "en": [
+        "Show",
+        "interest,",
+        "but",
+        "do",
+        "not",
+        "assume.",
+        "For",
+        "example",
+        "you",
+        "can",
+        "ask,",
+        "“What",
+        "is",
+        "your",
+        "family’s",
+        "story?”",
+        "if",
+        "you",
+        "are",
+        "ready",
+        "to",
+        "listen.",
+        "And",
+        "remember:",
+        "belonging",
+        "to",
+        "a",
+        "group",
+        "does",
+        "not",
+        "mean",
+        "losing",
+        "your",
+        "identity."
+      ],
+      "de": [
+        {
+          "t": "Zeig Interesse,",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Zeig Interesse",
+          "gb": "আগ্রহ দেখাও",
+          "ge": "Show interest",
+          "n": ""
+        },
+        {
+          "t": "aber nimm nichts an.",
+          "b": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "e": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "l": "aber nimm nichts an",
+          "gb": "কিন্তু অনুমান কোরো না",
+          "ge": "but do not assume",
+          "n": ""
+        },
+        {
+          "t": "Du kannst zum Beispiel fragen:",
+          "b": [
+            6,
+            11,
+            12,
+            13
+          ],
+          "e": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "l": "Du kannst zum Beispiel fragen",
+          "gb": "যেমন জিজ্ঞাসা করা যায়",
+          "ge": "For example you can ask",
+          "n": ""
+        },
+        {
+          "t": "„Was ist die Geschichte",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            11,
+            12
+          ],
+          "l": "„Was ist die Geschichte",
+          "gb": "„তোমার পরিবারের",
+          "ge": "“What is",
+          "n": ""
+        },
+        {
+          "t": "deiner Familie?“,",
+          "b": [
+            9,
+            10
+          ],
+          "e": [
+            13,
+            14,
+            15
+          ],
+          "l": "deiner Familie“",
+          "gb": "গল্প কী“",
+          "ge": "your family’s story”",
+          "n": ""
+        },
+        {
+          "t": "wenn du bereit bist",
+          "b": [
+            14,
+            15
+          ],
+          "e": [
+            16,
+            17,
+            18,
+            19
+          ],
+          "l": "wenn du bereit bist",
+          "gb": "যদি তুমি",
+          "ge": "if you are ready",
+          "n": ""
+        },
+        {
+          "t": "zuzuhören.",
+          "b": [
+            16,
+            17,
+            18
+          ],
+          "e": [
+            20,
+            21
+          ],
+          "l": "zuzuhören",
+          "gb": "শুনতে প্রস্তুত থাকো",
+          "ge": "to listen",
+          "n": ""
+        },
+        {
+          "t": "Und merk dir:",
+          "b": [
+            19,
+            20,
+            21
+          ],
+          "e": [
+            22,
+            23
+          ],
+          "l": "Und merk dir",
+          "gb": "আর মনে রেখো",
+          "ge": "And remember",
+          "n": ""
+        },
+        {
+          "t": "Dazugehören heißt nicht,",
+          "b": [
+            22,
+            23,
+            24,
+            27
+          ],
+          "e": [
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30
+          ],
+          "l": "Dazugehören heißt nicht",
+          "gb": "দলে পড়া মানে নয়",
+          "ge": "belonging to a group does not mean",
+          "n": ""
+        },
+        {
+          "t": "die Identität zu verlieren.",
+          "b": [
+            25,
+            26
+          ],
+          "e": [
+            31,
+            32,
+            33
+          ],
+          "l": "dazugehören",
+          "gb": "পরিচয় হারানো",
+          "ge": "losing your identity",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "Migration nach Deutschland — Überblick (vereinfacht)",
+      "head": [
+        "Zeit",
+        "Stichwort"
+      ],
+      "rows": [
+        [
+          "1955–1973",
+          "Anwerbeabkommen (z. B. mit Italien, Spanien, Türkei, Jugoslawien u. a.)"
+        ],
+        [
+          "1973",
+          "Anwerbestopp; viele blieben, Familiennachzug"
+        ],
+        [
+          "1990er",
+          "Aussiedler, Flüchtlinge aus Krisenregionen"
+        ],
+        [
+          "2000er",
+          "Neues Staatsangehörigkeits- und Zuwanderungsrecht"
+        ],
+        [
+          "heute",
+          "Fachkräfteeinwanderung, Studium, Familie, Flucht"
+        ]
+      ],
+      "note": "এটি সংক্ষিপ্ত ও সরলীকৃত ইতিহাস; প্রকৃত ঘটনা অনেক জটিল। Deutsche Rentenversicherung-এর মতো সরকারি বা ইতিহাসভিত্তিক সাইট (যেমন bpb.de, DOMiD) ভালো উৎস। নাম ও বছর যাচাই করে নিন।"
+    },
+    {
+      "type": "table",
+      "title": "Präteritum vs. Perfekt im Bericht",
+      "head": [
+        "Situation",
+        "Beispiel"
+      ],
+      "rows": [
+        [
+          "Geschichte / Bericht",
+          "Man warb Arbeiter an. Viele blieben."
+        ],
+        [
+          "Gespräch (mündlich)",
+          "Viele sind geblieben. Sie haben ihre Familien geholt."
+        ],
+        [
+          "Modal / sein / haben",
+          "Sie wollten kurz bleiben. Es gab nicht genug Arbeiter."
+        ]
+      ],
+      "note": "লিখিত ইতিহাসে Präteritum, কথায় সাধারণত Perfekt। sein, haben, Modalverben প্রায় সবসময় Präteritum।"
+    },
+    {
+      "type": "table",
+      "title": "Respektvoll fragen und sprechen",
+      "head": [
+        "Besser",
+        "Weniger gut"
+      ],
+      "rows": [
+        [
+          "Was ist die Geschichte deiner Familie?",
+          "Woher kommst du wirklich?"
+        ],
+        [
+          "Wo bist du aufgewachsen?",
+          "Wann gehst du zurück?"
+        ],
+        [
+          "Mit Menschen sprechen",
+          "Über Menschen verallgemeinern"
+        ],
+        [
+          "Zuhören",
+          "Annahmen machen"
+        ]
+      ],
+      "note": "„Gastarbeiter“ ঐতিহাসিক শব্দ; আজ „Arbeitsmigranten“ বা „Menschen mit Einwanderungsgeschichte“ প্রায়ই বলা হয়। ব্যক্তি নিজে কী বলতে চান, তা সম্মান করুন।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "die Einwanderung",
+      "options": [
+        "উৎপত্তি",
+        "একীকরণ",
+        "অভিবাসন",
+        "দক্ষ কর্মী"
+      ],
+      "answer": 2,
+      "why": "die Einwanderung = অভিবাসন।",
+      "word": "einwanderung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "der Familiennachzug",
+      "options": [
+        "পরিবারের সদস্যদের আনা",
+        "পরিচয়",
+        "দক্ষ কর্মী",
+        "অংশ হওয়া"
+      ],
+      "answer": 0,
+      "why": "der Familiennachzug = পরিবারের সদস্যদের আনা।",
+      "word": "familiennachzug"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "das Vorurteil",
+      "options": [
+        "পূর্বসংস্কার",
+        "পরিচয়",
+        "অর্থনৈতিক বিস্ময়",
+        "অতিথি শ্রমিক"
+      ],
+      "answer": 0,
+      "why": "das Vorurteil = পূর্বসংস্কার।",
+      "word": "vorurteil"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Integration",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Integration।",
+      "word": "integration"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Anwerbung von Arbeitskräften fand statt …",
+      "options": [
+        "1955 bis 1973",
+        "1871 bis 1900",
+        "1990 bis 2000",
+        "2010 bis 2020"
+      ],
+      "answer": 0,
+      "why": "1955–1973 (West)।",
+      "word": "anwerbung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Familiennachzug“ bedeutet …",
+      "options": [
+        "Familienmitglieder holen",
+        "Haus bauen",
+        "Schule wechseln",
+        "Reisen"
+      ],
+      "answer": 0,
+      "why": "Familie nachholen।",
+      "word": "familiennachzug"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Gastarbeiter“ ist heute …",
+      "options": [
+        "ein historischer Begriff",
+        "eine Stelle bei Tom",
+        "ein Gesetz",
+        "ein Verein"
+      ],
+      "answer": 0,
+      "why": "historischer Begriff।",
+      "word": "gastarbeiter"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Was ist respektvoller?",
+      "options": [
+        "Was ist die Geschichte deiner Familie?",
+        "Woher kommst du wirklich?",
+        "Wann gehst du zurück?",
+        "Du bist doch kein Deutscher."
+      ],
+      "answer": 0,
+      "why": "neugierig, nicht annehmend।",
+      "word": "identitaet"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Welches Verb passt zu „Familie“?",
+      "options": [
+        "nachholen",
+        "nachschlafen",
+        "nachlaufen",
+        "nachspülen"
+      ],
+      "answer": 0,
+      "why": "die Familie nachholen।",
+      "word": "dazugehoeren"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „অনেকেই থেকে গিয়েছিল।“",
+      "tiles": [
+        "blieben.",
+        "viele",
+        "Aber"
+      ],
+      "answer": [
+        "Aber",
+        "viele",
+        "blieben."
+      ],
+      "why": "Satzanfang: Aber।",
+      "word": "einwandern"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

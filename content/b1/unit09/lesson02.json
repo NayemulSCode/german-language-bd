@@ -1,0 +1,1473 @@
+{
+  "level": "B1",
+  "unit": 9,
+  "minutes": 18,
+  "lesson": 2,
+  "id": "b1-u09-l02",
+  "title": {
+    "de": "Werbung und Kaufentscheidungen",
+    "bn": "বিজ্ঞাপন ও কেনার সিদ্ধান্ত",
+    "en": "Advertising and buying decisions"
+  },
+  "hook": {
+    "de": "Wer die Wahl hat, hat die Qual.",
+    "who": "Sprichwort",
+    "bn": "যার হাতে বেছে নেওয়ার সুযোগ, তার কষ্টও বেশি।",
+    "en": "Spoilt for choice."
+  },
+  "goals": [
+    "Werbung kritisch bewerten",
+    "Produkte vergleichen: Preis-Leistung, Qualität",
+    "Komparativ und Superlativ wiederholen",
+    "Indirekte Fragen: Ich frage mich, ob …"
+  ],
+  "words": [
+    {
+      "id": "werbung",
+      "de": "Werbung",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "বিজ্ঞাপন",
+      "en": "advertising"
+    },
+    {
+      "id": "angebot",
+      "de": "Angebot",
+      "art": "das",
+      "pl": "die Angebote",
+      "pos": "বিশেষ্য",
+      "bn": "অফার / সুবিধা",
+      "en": "offer"
+    },
+    {
+      "id": "qualitaet",
+      "de": "Qualität",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "মান",
+      "en": "quality"
+    },
+    {
+      "id": "preis_leistungs_verhaeltnis",
+      "de": "Preis-Leistungs-Verhältnis",
+      "art": "das",
+      "pos": "বিশেষ্য",
+      "bn": "দামের তুলনায় মান",
+      "en": "value for money"
+    },
+    {
+      "id": "vergleichen",
+      "de": "vergleichen",
+      "pos": "ক্রিয়া · hat verglichen",
+      "bn": "তুলনা করা",
+      "en": "to compare"
+    },
+    {
+      "id": "ueberzeugen",
+      "de": "überzeugen",
+      "pos": "ক্রিয়া · hat überzeugt",
+      "bn": "বোঝানো, রাজি করানো",
+      "en": "to convince"
+    },
+    {
+      "id": "garantie",
+      "de": "Garantie",
+      "art": "die",
+      "pl": "die Garantien",
+      "pos": "বিশেষ্য",
+      "bn": "গ্যারান্টি",
+      "en": "warranty, guarantee"
+    },
+    {
+      "id": "rabatt",
+      "de": "Rabatt",
+      "art": "der",
+      "pl": "die Rabatte",
+      "pos": "বিশেষ্য",
+      "bn": "ডিসকাউন্ট",
+      "en": "discount"
+    },
+    {
+      "id": "verbraucher",
+      "de": "Verbraucher",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "ভোক্তা",
+      "en": "consumer"
+    },
+    {
+      "id": "kundenbewertung",
+      "de": "Kundenbewertung",
+      "art": "die",
+      "pl": "die Kundenbewertungen",
+      "pos": "বিশেষ্য",
+      "bn": "গ্রাহকের রিভিউ",
+      "en": "customer review"
+    },
+    {
+      "id": "verfuehren",
+      "de": "verführen",
+      "pos": "ক্রিয়া · hat verführt",
+      "bn": "প্রলুব্ধ করা",
+      "en": "to tempt"
+    },
+    {
+      "id": "guenstig",
+      "de": "günstig",
+      "pos": "বিশেষণ",
+      "bn": "সস্তা, সুবিধাজনক",
+      "en": "cheap, favourable"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Saheb",
+      "bn": [
+        "টম,",
+        "আমার",
+        "একটা",
+        "নতুন",
+        "ফোন",
+        "লাগবে।",
+        "দোকানে",
+        "লেখা:",
+        "„সবচেয়ে",
+        "সস্তা",
+        "দাম,",
+        "শুধু",
+        "আজ!“",
+        "এটা",
+        "কি",
+        "সত্যি",
+        "ভালো",
+        "অফার?"
+      ],
+      "en": [
+        "Tom,",
+        "I",
+        "need",
+        "a",
+        "new",
+        "phone.",
+        "The",
+        "shop",
+        "says:",
+        "“Lowest",
+        "price,",
+        "today",
+        "only!”",
+        "Is",
+        "this",
+        "really",
+        "a",
+        "good",
+        "offer?"
+      ],
+      "de": [
+        {
+          "t": "Tom,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Tom",
+          "gb": "টম",
+          "ge": "Tom",
+          "n": ""
+        },
+        {
+          "t": "ich brauche",
+          "b": [
+            1
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "ich brauche",
+          "gb": "আমার",
+          "ge": "I need",
+          "n": ""
+        },
+        {
+          "t": "ein neues Handy.",
+          "b": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "e": [
+            3,
+            4,
+            5
+          ],
+          "l": "ein neues Handy",
+          "gb": "একটা নতুন ফোন লাগবে",
+          "ge": "a new phone",
+          "n": ""
+        },
+        {
+          "t": "Im Laden steht:",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            6,
+            7,
+            8
+          ],
+          "l": "Im Laden steht",
+          "gb": "দোকানে লেখা",
+          "ge": "The shop says",
+          "n": ""
+        },
+        {
+          "t": "„Niedrigster Preis,",
+          "b": [
+            8,
+            9,
+            10
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "„Niedrigster Preis",
+          "gb": "„সবচেয়ে সস্তা দাম",
+          "ge": "“Lowest price",
+          "n": ""
+        },
+        {
+          "t": "nur heute!“",
+          "b": [
+            11,
+            12
+          ],
+          "e": [
+            11,
+            12
+          ],
+          "l": "nur heute“",
+          "gb": "শুধু আজ“",
+          "ge": "today only”",
+          "n": ""
+        },
+        {
+          "t": "Ist das wirklich",
+          "b": [
+            13,
+            14,
+            15
+          ],
+          "e": [
+            13,
+            14,
+            15
+          ],
+          "l": "Ist das wirklich",
+          "gb": "এটা কি সত্যি",
+          "ge": "Is this really",
+          "n": ""
+        },
+        {
+          "t": "ein gutes Angebot?",
+          "b": [
+            16,
+            17
+          ],
+          "e": [
+            16,
+            17,
+            18
+          ],
+          "l": "Angebot",
+          "gb": "ভালো অফার",
+          "ge": "a good offer",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Tom",
+      "bn": [
+        "সাবধান।",
+        "এমন",
+        "বিজ্ঞাপন",
+        "প্রায়ই",
+        "তাড়া",
+        "দেওয়ার",
+        "জন্য",
+        "লেখা",
+        "হয়।",
+        "আগে",
+        "অন্য",
+        "দোকান",
+        "আর",
+        "অনলাইনের",
+        "দাম",
+        "তুলনা",
+        "করো।"
+      ],
+      "en": [
+        "Be",
+        "careful.",
+        "Ads",
+        "like",
+        "that",
+        "are",
+        "often",
+        "written",
+        "to",
+        "rush",
+        "you.",
+        "First",
+        "compare",
+        "prices",
+        "in",
+        "other",
+        "shops",
+        "and",
+        "online."
+      ],
+      "de": [
+        {
+          "t": "Vorsicht.",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Vorsicht",
+          "gb": "সাবধান",
+          "ge": "Be careful",
+          "n": ""
+        },
+        {
+          "t": "Solche Werbung",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            2,
+            3,
+            4
+          ],
+          "l": "Solche Werbung",
+          "gb": "এমন বিজ্ঞাপন",
+          "ge": "Ads like that",
+          "n": ""
+        },
+        {
+          "t": "soll oft",
+          "b": [
+            3
+          ],
+          "e": [
+            5,
+            6,
+            7
+          ],
+          "l": "soll oft",
+          "gb": "প্রায়ই",
+          "ge": "are often written",
+          "n": ""
+        },
+        {
+          "t": "Druck machen.",
+          "b": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "e": [
+            8,
+            9,
+            10
+          ],
+          "l": "Druck machen",
+          "gb": "তাড়া দেওয়ার জন্য লেখা হয়",
+          "ge": "to rush you",
+          "n": ""
+        },
+        {
+          "t": "Vergleiche erst",
+          "b": [
+            9,
+            15,
+            16
+          ],
+          "e": [
+            11,
+            12
+          ],
+          "l": "Vergleiche erst",
+          "gb": "আগে তুলনা করো",
+          "ge": "First compare",
+          "n": ""
+        },
+        {
+          "t": "die Preise",
+          "b": [
+            14
+          ],
+          "e": [
+            13
+          ],
+          "l": "die Preise",
+          "gb": "দাম",
+          "ge": "prices",
+          "n": ""
+        },
+        {
+          "t": "in anderen Läden",
+          "b": [
+            10,
+            11
+          ],
+          "e": [
+            14,
+            15,
+            16
+          ],
+          "l": "in anderen Läden",
+          "gb": "অন্য দোকান",
+          "ge": "in other shops",
+          "n": ""
+        },
+        {
+          "t": "und online.",
+          "b": [
+            12,
+            13
+          ],
+          "e": [
+            17,
+            18
+          ],
+          "l": "vergleichen",
+          "gb": "আর অনলাইনের",
+          "ge": "and online",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "দেখলাম",
+        "একটা",
+        "সস্তা",
+        "ফোনের",
+        "ব্যাটারি",
+        "সবচেয়ে",
+        "দুর্বল,",
+        "কিন্তু",
+        "ক্যামেরা",
+        "বেশ",
+        "ভালো।",
+        "আমি",
+        "জানি",
+        "না",
+        "কোনটা",
+        "বেছে",
+        "নেব।"
+      ],
+      "en": [
+        "I",
+        "saw",
+        "that",
+        "a",
+        "cheap",
+        "phone",
+        "has",
+        "the",
+        "weakest",
+        "battery",
+        "but",
+        "quite",
+        "a",
+        "good",
+        "camera.",
+        "I",
+        "do",
+        "not",
+        "know",
+        "which",
+        "one",
+        "to",
+        "choose."
+      ],
+      "de": [
+        {
+          "t": "Ich habe gesehen,",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Ich habe gesehen",
+          "gb": "আমি দেখলাম",
+          "ge": "I saw",
+          "n": ""
+        },
+        {
+          "t": "dass ein billiges Handy",
+          "b": [
+            2,
+            3,
+            4
+          ],
+          "e": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "l": "dass ein billiges Handy",
+          "gb": "একটা সস্তা ফোনের",
+          "ge": "that a cheap phone",
+          "n": ""
+        },
+        {
+          "t": "den schwächsten Akku hat,",
+          "b": [
+            5,
+            6,
+            7
+          ],
+          "e": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "l": "den schwächsten Akku hat",
+          "gb": "ব্যাটারি সবচেয়ে দুর্বল",
+          "ge": "has the weakest battery",
+          "n": ""
+        },
+        {
+          "t": "aber",
+          "b": [
+            8
+          ],
+          "e": [
+            10
+          ],
+          "l": "aber",
+          "gb": "কিন্তু",
+          "ge": "but",
+          "n": ""
+        },
+        {
+          "t": "eine ziemlich gute Kamera.",
+          "b": [
+            9,
+            10,
+            11
+          ],
+          "e": [
+            11,
+            12,
+            13,
+            14
+          ],
+          "l": "eine ziemlich gute Kamera",
+          "gb": "ক্যামেরা বেশ ভালো",
+          "ge": "quite a good camera",
+          "n": ""
+        },
+        {
+          "t": "Ich weiß nicht,",
+          "b": [
+            12,
+            13,
+            14
+          ],
+          "e": [
+            15,
+            16,
+            17,
+            18
+          ],
+          "l": "Ich weiß nicht",
+          "gb": "আমি জানি না",
+          "ge": "I do not know",
+          "n": ""
+        },
+        {
+          "t": "welches ich nehmen soll.",
+          "b": [
+            15,
+            16,
+            17
+          ],
+          "e": [
+            19,
+            20,
+            21,
+            22
+          ],
+          "l": "welches ich nehmen soll",
+          "gb": "কোনটা বেছে নেব",
+          "ge": "which one to choose",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Tom",
+      "bn": [
+        "ঠিক",
+        "আছে।",
+        "তাহলে",
+        "ঠিক",
+        "করো",
+        "কোনটা",
+        "তোমার",
+        "কাছে",
+        "বেশি",
+        "জরুরি:",
+        "দাম,",
+        "ব্যাটারি",
+        "না",
+        "ক্যামেরা।",
+        "তারপর",
+        "কাস্টমার",
+        "রিভিউ",
+        "আর",
+        "গ্যারান্টির",
+        "সময়",
+        "দেখো।"
+      ],
+      "en": [
+        "Okay.",
+        "Then",
+        "decide",
+        "which",
+        "is",
+        "more",
+        "important",
+        "to",
+        "you:",
+        "price,",
+        "battery",
+        "or",
+        "camera.",
+        "Then",
+        "look",
+        "at",
+        "customer",
+        "reviews",
+        "and",
+        "the",
+        "warranty",
+        "period."
+      ],
+      "de": [
+        {
+          "t": "Gut.",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0
+          ],
+          "l": "Gut",
+          "gb": "ঠিক আছে",
+          "ge": "Okay",
+          "n": ""
+        },
+        {
+          "t": "Dann entscheide,",
+          "b": [
+            2,
+            3,
+            4
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "Dann entscheide",
+          "gb": "তাহলে ঠিক করো",
+          "ge": "Then decide",
+          "n": ""
+        },
+        {
+          "t": "was dir wichtiger ist:",
+          "b": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "e": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "l": "was dir wichtiger ist",
+          "gb": "কোনটা তোমার কাছে বেশি জরুরি",
+          "ge": "which is more important to you",
+          "n": ""
+        },
+        {
+          "t": "Preis,",
+          "b": [
+            10
+          ],
+          "e": [
+            9
+          ],
+          "l": "Preis",
+          "gb": "দাম",
+          "ge": "price",
+          "n": ""
+        },
+        {
+          "t": "Akku oder Kamera.",
+          "b": [
+            11,
+            12,
+            13
+          ],
+          "e": [
+            10,
+            11,
+            12
+          ],
+          "l": "Akku oder Kamera",
+          "gb": "ব্যাটারি না ক্যামেরা",
+          "ge": "battery or camera",
+          "n": ""
+        },
+        {
+          "t": "Dann schau dir",
+          "b": [
+            14,
+            20
+          ],
+          "e": [
+            13,
+            14,
+            15
+          ],
+          "l": "Dann schau dir",
+          "gb": "তারপর দেখো",
+          "ge": "Then look at",
+          "n": ""
+        },
+        {
+          "t": "die Kundenbewertungen",
+          "b": [
+            15,
+            16
+          ],
+          "e": [
+            16,
+            17
+          ],
+          "l": "die Kundenbewertungen",
+          "gb": "কাস্টমার রিভিউ",
+          "ge": "customer reviews",
+          "n": ""
+        },
+        {
+          "t": "und die Garantiezeit an.",
+          "b": [
+            17,
+            18,
+            19
+          ],
+          "e": [
+            18,
+            19,
+            20,
+            21
+          ],
+          "l": "Kundenbewertung",
+          "gb": "আর গ্যারান্টির সময়",
+          "ge": "and the warranty period",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "রিভিউ",
+        "কি",
+        "সবসময়",
+        "নির্ভরযোগ্য?",
+        "আমি",
+        "মাঝে",
+        "মাঝে",
+        "ভাবি,",
+        "ওগুলো",
+        "আসল",
+        "কি",
+        "না।"
+      ],
+      "en": [
+        "Are",
+        "reviews",
+        "always",
+        "reliable?",
+        "Sometimes",
+        "I",
+        "wonder",
+        "whether",
+        "they",
+        "are",
+        "real."
+      ],
+      "de": [
+        {
+          "t": "Sind Bewertungen",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Sind Bewertungen",
+          "gb": "রিভিউ কি",
+          "ge": "Are reviews",
+          "n": ""
+        },
+        {
+          "t": "immer zuverlässig?",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "immer zuverlässig",
+          "gb": "সবসময় নির্ভরযোগ্য",
+          "ge": "always reliable",
+          "n": ""
+        },
+        {
+          "t": "Ich frage mich manchmal,",
+          "b": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "e": [
+            4,
+            5,
+            6
+          ],
+          "l": "Ich frage mich manchmal",
+          "gb": "আমি মাঝে মাঝে ভাবি",
+          "ge": "Sometimes I wonder",
+          "n": ""
+        },
+        {
+          "t": "ob sie echt sind.",
+          "b": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "e": [
+            7,
+            8,
+            9,
+            10
+          ],
+          "l": "ob sie echt sind",
+          "gb": "ওগুলো আসল কি না",
+          "ge": "whether they are real",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Tom",
+      "bn": [
+        "সবসময়",
+        "না।",
+        "অনেক",
+        "দিক",
+        "খুঁটিয়ে",
+        "পড়ো,",
+        "শুধু",
+        "তারকা",
+        "নয়।",
+        "ভালো",
+        "ও",
+        "খারাপ—দুই",
+        "ধরনের",
+        "মন্তব্য",
+        "মিলিয়ে",
+        "দেখো।",
+        "আর",
+        "বন্ধুদের",
+        "জিজ্ঞাসা",
+        "করতে",
+        "পারো।"
+      ],
+      "en": [
+        "Not",
+        "always.",
+        "Read",
+        "in",
+        "detail,",
+        "not",
+        "just",
+        "the",
+        "stars.",
+        "Compare",
+        "both",
+        "good",
+        "and",
+        "bad",
+        "comments.",
+        "And",
+        "you",
+        "can",
+        "ask",
+        "friends."
+      ],
+      "de": [
+        {
+          "t": "Nicht immer.",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Nicht immer",
+          "gb": "সবসময় না",
+          "ge": "Not always",
+          "n": ""
+        },
+        {
+          "t": "Lies genau,",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            2,
+            3,
+            4
+          ],
+          "l": "Lies genau",
+          "gb": "খুঁটিয়ে পড়ো",
+          "ge": "Read in detail",
+          "n": ""
+        },
+        {
+          "t": "nicht nur die Sterne.",
+          "b": [
+            6,
+            7,
+            8
+          ],
+          "e": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "l": "nicht nur die Sterne",
+          "gb": "শুধু তারকা নয়",
+          "ge": "not just the stars",
+          "n": ""
+        },
+        {
+          "t": "Vergleiche gute",
+          "b": [
+            9
+          ],
+          "e": [
+            9,
+            11
+          ],
+          "l": "Vergleiche gute",
+          "gb": "ভালো",
+          "ge": "Compare good",
+          "n": ""
+        },
+        {
+          "t": "und schlechte Kommentare.",
+          "b": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "e": [
+            12,
+            13,
+            14
+          ],
+          "l": "und schlechte Kommentare",
+          "gb": "ও খারাপ—দুই ধরনের মন্তব্য মিলিয়ে দেখো",
+          "ge": "and bad comments",
+          "n": ""
+        },
+        {
+          "t": "Und du kannst",
+          "b": [
+            16
+          ],
+          "e": [
+            15,
+            16,
+            17
+          ],
+          "l": "Und du kannst",
+          "gb": "আর",
+          "ge": "And you can",
+          "n": ""
+        },
+        {
+          "t": "Freunde fragen.",
+          "b": [
+            17,
+            18,
+            19
+          ],
+          "e": [
+            18,
+            19
+          ],
+          "l": "Freunde fragen",
+          "gb": "বন্ধুদের জিজ্ঞাসা করতে",
+          "ge": "ask friends",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "ধন্যবাদ।",
+        "আমি",
+        "আজ",
+        "কিনব",
+        "না।",
+        "আগে",
+        "ভালো",
+        "করে",
+        "তুলনা",
+        "করব,",
+        "তারপর",
+        "সিদ্ধান্ত",
+        "নেব।",
+        "প্রলোভনে",
+        "পড়া",
+        "সহজ।"
+      ],
+      "en": [
+        "Thanks.",
+        "I",
+        "will",
+        "not",
+        "buy",
+        "today.",
+        "First",
+        "I",
+        "will",
+        "compare",
+        "properly,",
+        "then",
+        "decide.",
+        "It",
+        "is",
+        "easy",
+        "to",
+        "be",
+        "tempted."
+      ],
+      "de": [
+        {
+          "t": "Danke.",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Danke",
+          "gb": "ধন্যবাদ",
+          "ge": "Thanks",
+          "n": ""
+        },
+        {
+          "t": "Ich kaufe heute nichts.",
+          "b": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "e": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "l": "Ich kaufe heute nichts",
+          "gb": "আমি আজ কিনব না",
+          "ge": "I will not buy today",
+          "n": ""
+        },
+        {
+          "t": "Erst vergleiche ich",
+          "b": [
+            5,
+            8,
+            9
+          ],
+          "e": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "l": "Erst vergleiche ich",
+          "gb": "আগে তুলনা করব",
+          "ge": "First I will compare",
+          "n": ""
+        },
+        {
+          "t": "gründlich,",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            10
+          ],
+          "l": "gründlich",
+          "gb": "ভালো করে",
+          "ge": "properly",
+          "n": ""
+        },
+        {
+          "t": "dann entscheide ich.",
+          "b": [
+            10,
+            11,
+            12
+          ],
+          "e": [
+            11,
+            12
+          ],
+          "l": "dann entscheide ich",
+          "gb": "তারপর সিদ্ধান্ত নেব",
+          "ge": "then decide",
+          "n": ""
+        },
+        {
+          "t": "Man lässt sich",
+          "b": [
+            13,
+            14
+          ],
+          "e": [
+            13,
+            14,
+            15
+          ],
+          "l": "Man lässt sich",
+          "gb": "প্রলোভনে পড়া",
+          "ge": "It is easy",
+          "n": ""
+        },
+        {
+          "t": "leicht verführen.",
+          "b": [
+            15
+          ],
+          "e": [
+            16,
+            17,
+            18
+          ],
+          "l": "verführen",
+          "gb": "সহজ",
+          "ge": "to be tempted",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "Vergleichen: Komparativ und Superlativ",
+      "head": [
+        "Grundform",
+        "Komparativ",
+        "Superlativ"
+      ],
+      "rows": [
+        [
+          "billig",
+          "billiger",
+          "am billigsten"
+        ],
+        [
+          "teuer",
+          "teurer",
+          "am teuersten"
+        ],
+        [
+          "gut",
+          "besser",
+          "am besten"
+        ],
+        [
+          "gern",
+          "lieber",
+          "am liebsten"
+        ],
+        [
+          "viel",
+          "mehr",
+          "am meisten"
+        ]
+      ],
+      "note": "Nomen vor: das billigste Handy, der schwächste Akku (Superlativ + Endung)। তুলনা: größer als …; gleich: so groß wie …।"
+    },
+    {
+      "type": "table",
+      "title": "Indirekte Fragen",
+      "head": [
+        "Direkt",
+        "Indirekt"
+      ],
+      "rows": [
+        [
+          "Sind Bewertungen echt?",
+          "Ich frage mich, ob Bewertungen echt sind."
+        ],
+        [
+          "Welches Handy ist besser?",
+          "Ich weiß nicht, welches Handy besser ist."
+        ],
+        [
+          "Wie viel kostet das?",
+          "Können Sie mir sagen, wie viel das kostet?"
+        ],
+        [
+          "Wo gibt es Rabatt?",
+          "Ich möchte wissen, wo es Rabatt gibt."
+        ]
+      ],
+      "note": "W-Fragen: Fragewort + Verb am Ende; Ja/Nein-Fragen: ob + Verb am Ende।"
+    },
+    {
+      "type": "table",
+      "title": "Werbung kritisch lesen",
+      "head": [
+        "Trick",
+        "Frage an mich"
+      ],
+      "rows": [
+        [
+          "„nur heute“",
+          "Ist der Druck echt? Stimmt der Vergleichspreis?"
+        ],
+        [
+          "„bis zu 50 %“",
+          "Wie viele Produkte sind wirklich so billig?"
+        ],
+        [
+          "„gratis“",
+          "Was muss ich dafür bezahlen oder abgeben?"
+        ],
+        [
+          "Sterne-Bewertung",
+          "Wie viele Bewertungen? Sind schlechte dabei?"
+        ],
+        [
+          "Prominente",
+          "Wird die Person bezahlt?"
+        ]
+      ],
+      "note": "অনলাইনে ও দোকানে ঠিক একই নীতি: তুলনা করুন, সময় নিন, শর্ত পড়ুন। Verbraucherzentrale সাহায্য করে।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "die Qualität",
+      "options": [
+        "বিজ্ঞাপন",
+        "মান",
+        "দামের তুলনায় মান",
+        "বোঝানো"
+      ],
+      "answer": 1,
+      "why": "die Qualität = মান।",
+      "word": "qualitaet"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "überzeugen",
+      "options": [
+        "বোঝানো",
+        "ডিসকাউন্ট",
+        "প্রলুব্ধ করা",
+        "অফার / সুবিধা"
+      ],
+      "answer": 0,
+      "why": "überzeugen = বোঝানো।",
+      "word": "ueberzeugen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "der Rabatt",
+      "options": [
+        "প্রলুব্ধ করা",
+        "ডিসকাউন্ট",
+        "অফার / সুবিধা",
+        "তুলনা করা"
+      ],
+      "answer": 1,
+      "why": "der Rabatt = ডিসকাউন্ট।",
+      "word": "rabatt"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Werbung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Werbung।",
+      "word": "werbung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Dieses Handy ist ___ als das andere.",
+      "options": [
+        "besser",
+        "gutter",
+        "guter",
+        "mehr gut"
+      ],
+      "answer": 0,
+      "why": "gut → besser → am besten।",
+      "word": "guenstig"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Dieses Handy ist ___.",
+      "options": [
+        "am billigsten",
+        "am billigstes",
+        "billigsten",
+        "am billiger"
+      ],
+      "answer": 0,
+      "why": "Superlativ।",
+      "word": "guenstig"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক বাক্য কোনটি?",
+      "options": [
+        "Ich frage mich, ob die Bewertungen echt sind.",
+        "Ich frage mich, ob sind die Bewertungen echt.",
+        "Ich frage mich, die Bewertungen ob echt sind.",
+        "Ich frage mich, ob die Bewertungen sind echt."
+      ],
+      "answer": 0,
+      "why": "ob + Verb am Ende।",
+      "word": "kundenbewertung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„nur heute!“ প্রায়ই কী করে?",
+      "options": [
+        "তাড়া দেয়, সিদ্ধান্তে চাপ দেয়",
+        "মান বাড়ায়",
+        "দাম কমায় সবসময়",
+        "কিছুই না"
+      ],
+      "answer": 0,
+      "why": "Druck machen।",
+      "word": "angebot"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Preis-Leistungs-Verhältnis“ মানে কী?",
+      "options": [
+        "দামের তুলনায় মান",
+        "শুধু দাম",
+        "পরিবহন খরচ",
+        "রঙ"
+      ],
+      "answer": 0,
+      "why": "Preis vs. Leistung।",
+      "word": "preis_leistungs_verhaeltnis"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „আমি জানি না, কোন ফোনটা ভালো।“",
+      "tiles": [
+        "besser ist.",
+        "Ich weiß nicht,",
+        "welches Handy"
+      ],
+      "answer": [
+        "Ich weiß nicht,",
+        "welches Handy",
+        "besser ist."
+      ],
+      "why": "indirekte W-Frage।",
+      "word": "vergleichen"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

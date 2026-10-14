@@ -1,0 +1,1454 @@
+{
+  "level": "A2",
+  "unit": 10,
+  "minutes": 16,
+  "lesson": 2,
+  "id": "a2-u10-l02",
+  "title": {
+    "de": "Mein Visum läuft ab",
+    "bn": "ভিসা ও আবাসিক অনুমতি বাড়ানো",
+    "en": "Extending a visa or residence permit"
+  },
+  "hook": {
+    "de": "Vorbeugen ist besser als heilen.",
+    "who": "Sprichwort",
+    "bn": "আগে থেকে প্রস্তুতি নেওয়াই ভালো।",
+    "en": "Prevention is better than cure."
+  },
+  "goals": [
+    "Antrag stellen / verlängern / ablaufen",
+    "কাগজপত্রের তালিকা বোঝা ও বলা",
+    "fehlen, gültig, Nachweis",
+    "Passiv mit werden: wird bearbeitet"
+  ],
+  "words": [
+    {
+      "id": "auslaenderbehoerde",
+      "de": "Ausländerbehörde",
+      "art": "die",
+      "pl": "die Ausländerbehörden",
+      "pos": "বিশেষ্য",
+      "bn": "বিদেশিদের বিষয়ক অফিস",
+      "en": "immigration office"
+    },
+    {
+      "id": "aufenthaltstitel",
+      "de": "Aufenthaltstitel",
+      "art": "der",
+      "pl": "die Aufenthaltstitel",
+      "pos": "বিশেষ্য",
+      "bn": "আবাসিক অনুমতি",
+      "en": "residence permit"
+    },
+    {
+      "id": "visum",
+      "de": "Visum",
+      "art": "das",
+      "pl": "die Visa",
+      "pos": "বিশেষ্য",
+      "bn": "ভিসা",
+      "en": "visa"
+    },
+    {
+      "id": "antrag",
+      "de": "Antrag",
+      "art": "der",
+      "pl": "die Anträge",
+      "pos": "বিশেষ্য",
+      "bn": "আবেদন",
+      "en": "application"
+    },
+    {
+      "id": "beantragen",
+      "de": "beantragen",
+      "pos": "ক্রিয়া · hat beantragt",
+      "bn": "আবেদন করা",
+      "en": "to apply for"
+    },
+    {
+      "id": "verlaengern",
+      "de": "verlängern",
+      "pos": "ক্রিয়া · hat verlängert",
+      "bn": "বাড়ানো (মেয়াদ)",
+      "en": "to extend"
+    },
+    {
+      "id": "unterlagen",
+      "de": "Unterlagen",
+      "art": "die",
+      "pos": "বিশেষ্য, বহুবচন",
+      "bn": "কাগজপত্র",
+      "en": "documents"
+    },
+    {
+      "id": "gueltig",
+      "de": "gültig",
+      "pos": "বিশেষণ",
+      "bn": "বৈধ, মেয়াদ আছে",
+      "en": "valid"
+    },
+    {
+      "id": "ablaufen",
+      "de": "ablaufen",
+      "pos": "ক্রিয়া · läuft ab, ist abgelaufen",
+      "bn": "মেয়াদ শেষ হওয়া",
+      "en": "to expire"
+    },
+    {
+      "id": "nachweis",
+      "de": "Nachweis",
+      "art": "der",
+      "pl": "die Nachweise",
+      "pos": "বিশেষ্য",
+      "bn": "প্রমাণ",
+      "en": "proof"
+    },
+    {
+      "id": "krankenversicherung",
+      "de": "Krankenversicherung",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "স্বাস্থ্যবিমা",
+      "en": "health insurance"
+    },
+    {
+      "id": "passfoto",
+      "de": "Passfoto",
+      "art": "das",
+      "pl": "die Passfotos",
+      "pos": "বিশেষ্য",
+      "bn": "পাসপোর্ট-সাইজের ছবি",
+      "en": "passport photo"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Saheb",
+      "bn": [
+        "শুভ",
+        "দিন,",
+        "আমার",
+        "ভিসার",
+        "মেয়াদ",
+        "তিন",
+        "মাস",
+        "পরে",
+        "শেষ",
+        "হচ্ছে।",
+        "আমি",
+        "ওটা",
+        "বাড়াতে",
+        "চাই।"
+      ],
+      "en": [
+        "Good",
+        "day,",
+        "my",
+        "visa",
+        "expires",
+        "in",
+        "three",
+        "months.",
+        "I",
+        "would",
+        "like",
+        "to",
+        "extend",
+        "it."
+      ],
+      "de": [
+        {
+          "t": "Guten Tag,",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Guten Tag",
+          "gb": "শুভ দিন",
+          "ge": "Good day",
+          "n": ""
+        },
+        {
+          "t": "mein",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "mein",
+          "gb": "আমার",
+          "ge": "my",
+          "n": ""
+        },
+        {
+          "t": "Visum",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "Visum",
+          "gb": "ভিসার",
+          "ge": "visa",
+          "n": ""
+        },
+        {
+          "t": "läuft",
+          "b": [
+            8
+          ],
+          "e": [
+            4
+          ],
+          "l": "ablaufen",
+          "gb": "শেষ",
+          "ge": "expires",
+          "n": ""
+        },
+        {
+          "t": "in drei Monaten",
+          "b": [
+            5,
+            6,
+            7
+          ],
+          "e": [
+            5,
+            6,
+            7
+          ],
+          "l": "in drei Monaten",
+          "gb": "তিন মাস পরে",
+          "ge": "in three months",
+          "n": ""
+        },
+        {
+          "t": "ab.",
+          "b": [
+            9
+          ],
+          "e": [],
+          "l": "ab",
+          "gb": "হচ্ছে",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            10
+          ],
+          "e": [
+            8
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "möchte",
+          "b": [
+            13
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "möchte",
+          "gb": "চাই",
+          "ge": "would like",
+          "n": ""
+        },
+        {
+          "t": "es",
+          "b": [
+            11
+          ],
+          "e": [
+            11
+          ],
+          "l": "es",
+          "gb": "ওটা",
+          "ge": "to",
+          "n": ""
+        },
+        {
+          "t": "verlängern.",
+          "b": [
+            12
+          ],
+          "e": [
+            12,
+            13
+          ],
+          "l": "verlängern",
+          "gb": "বাড়াতে",
+          "ge": "extend it",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Beamter",
+      "bn": [
+        "তাহলে",
+        "আপনাকে",
+        "আবেদন",
+        "করতে",
+        "হবে।",
+        "আপনার",
+        "কি",
+        "অ্যাপয়েন্টমেন্ট",
+        "আছে?"
+      ],
+      "en": [
+        "Then",
+        "you",
+        "have",
+        "to",
+        "submit",
+        "an",
+        "application.",
+        "Do",
+        "you",
+        "have",
+        "an",
+        "appointment?"
+      ],
+      "de": [
+        {
+          "t": "Dann",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Dann",
+          "gb": "তাহলে",
+          "ge": "Then",
+          "n": ""
+        },
+        {
+          "t": "müssen",
+          "b": [
+            4
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "müssen",
+          "gb": "হবে",
+          "ge": "have to",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "Sie",
+          "gb": "আপনাকে",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "einen Antrag",
+          "b": [
+            2
+          ],
+          "e": [
+            4,
+            5,
+            6
+          ],
+          "l": "Antrag",
+          "gb": "আবেদন",
+          "ge": "submit an application",
+          "n": ""
+        },
+        {
+          "t": "stellen.",
+          "b": [
+            3
+          ],
+          "e": [],
+          "l": "stellen",
+          "gb": "করতে",
+          "ge": "(no counterpart)",
+          "n": "einen Antrag stellen = আবেদন করা"
+        },
+        {
+          "t": "Haben",
+          "b": [
+            8
+          ],
+          "e": [
+            7
+          ],
+          "l": "Haben",
+          "gb": "আছে",
+          "ge": "Do",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [
+            5
+          ],
+          "e": [
+            8
+          ],
+          "l": "Sie",
+          "gb": "আপনার",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "einen Termin?",
+          "b": [
+            7
+          ],
+          "e": [
+            9,
+            10,
+            11
+          ],
+          "l": "einen Termin",
+          "gb": "অ্যাপয়েন্টমেন্ট",
+          "ge": "have an appointment",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "হ্যাঁ,",
+        "দশটায়।",
+        "আমার",
+        "কোন",
+        "কাগজপত্র",
+        "লাগবে?"
+      ],
+      "en": [
+        "Yes,",
+        "at",
+        "ten.",
+        "Which",
+        "documents",
+        "do",
+        "I",
+        "need?"
+      ],
+      "de": [
+        {
+          "t": "Ja,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ja",
+          "gb": "হ্যাঁ",
+          "ge": "Yes",
+          "n": ""
+        },
+        {
+          "t": "um zehn Uhr.",
+          "b": [
+            1
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "um zehn Uhr",
+          "gb": "দশটায়",
+          "ge": "at ten",
+          "n": ""
+        },
+        {
+          "t": "Welche",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "Welche",
+          "gb": "কোন",
+          "ge": "Which",
+          "n": ""
+        },
+        {
+          "t": "Unterlagen",
+          "b": [
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "Unterlagen",
+          "gb": "কাগজপত্র",
+          "ge": "documents",
+          "n": ""
+        },
+        {
+          "t": "brauche",
+          "b": [
+            5
+          ],
+          "e": [
+            5,
+            6,
+            7
+          ],
+          "l": "brauche",
+          "gb": "লাগবে",
+          "ge": "do I need",
+          "n": ""
+        },
+        {
+          "t": "ich?",
+          "b": [
+            2
+          ],
+          "e": [],
+          "l": "ich",
+          "gb": "আমার",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Beamter",
+      "bn": [
+        "আপনার",
+        "পাসপোর্ট,",
+        "একটি",
+        "পাসপোর্ট-সাইজের",
+        "ছবি,",
+        "ভাড়াচুক্তি",
+        "আর",
+        "স্বাস্থ্যবিমার",
+        "প্রমাণ",
+        "লাগবে।"
+      ],
+      "en": [
+        "You",
+        "need",
+        "your",
+        "passport,",
+        "a",
+        "passport",
+        "photo,",
+        "the",
+        "rental",
+        "contract",
+        "and",
+        "proof",
+        "of",
+        "your",
+        "health",
+        "insurance."
+      ],
+      "de": [
+        {
+          "t": "Sie",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Sie",
+          "gb": "আপনার",
+          "ge": "You",
+          "n": ""
+        },
+        {
+          "t": "brauchen",
+          "b": [
+            9
+          ],
+          "e": [
+            1
+          ],
+          "l": "brauchen",
+          "gb": "লাগবে",
+          "ge": "need",
+          "n": ""
+        },
+        {
+          "t": "Ihren Reisepass,",
+          "b": [
+            1
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "Reisepass",
+          "gb": "পাসপোর্ট",
+          "ge": "your passport",
+          "n": ""
+        },
+        {
+          "t": "ein Passfoto,",
+          "b": [
+            2,
+            3,
+            4
+          ],
+          "e": [
+            4,
+            5,
+            6
+          ],
+          "l": "Passfoto",
+          "gb": "একটি পাসপোর্ট-সাইজের ছবি",
+          "ge": "a passport photo",
+          "n": ""
+        },
+        {
+          "t": "den Mietvertrag",
+          "b": [
+            5
+          ],
+          "e": [
+            7,
+            8,
+            9
+          ],
+          "l": "Mietvertrag",
+          "gb": "ভাড়াচুক্তি",
+          "ge": "the rental contract",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            6
+          ],
+          "e": [
+            10
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "einen Nachweis",
+          "b": [
+            8
+          ],
+          "e": [
+            11
+          ],
+          "l": "Nachweis",
+          "gb": "প্রমাণ",
+          "ge": "proof",
+          "n": ""
+        },
+        {
+          "t": "über",
+          "b": [],
+          "e": [
+            12
+          ],
+          "l": "über",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "of",
+          "n": ""
+        },
+        {
+          "t": "Ihre Krankenversicherung.",
+          "b": [
+            7
+          ],
+          "e": [
+            13,
+            14,
+            15
+          ],
+          "l": "Krankenversicherung",
+          "gb": "স্বাস্থ্যবিমার",
+          "ge": "your health insurance",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমার",
+        "সবকিছু",
+        "আছে,",
+        "শুধু",
+        "ছবিটা",
+        "নেই।"
+      ],
+      "en": [
+        "I",
+        "have",
+        "everything,",
+        "only",
+        "the",
+        "photo",
+        "is",
+        "missing."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমার",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [
+            2
+          ],
+          "e": [
+            1
+          ],
+          "l": "habe",
+          "gb": "আছে",
+          "ge": "have",
+          "n": ""
+        },
+        {
+          "t": "alles",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "alles",
+          "gb": "সবকিছু",
+          "ge": "everything",
+          "n": ""
+        },
+        {
+          "t": "dabei,",
+          "b": [],
+          "e": [],
+          "l": "dabei",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "nur",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "nur",
+          "gb": "শুধু",
+          "ge": "only",
+          "n": ""
+        },
+        {
+          "t": "das Foto",
+          "b": [
+            4
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "das Foto",
+          "gb": "ছবিটা",
+          "ge": "the photo",
+          "n": ""
+        },
+        {
+          "t": "fehlt.",
+          "b": [
+            5
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "fehlen",
+          "gb": "নেই",
+          "ge": "is missing",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Beamter",
+      "bn": [
+        "সমস্যা",
+        "নেই,",
+        "নিচতলায়",
+        "একটি",
+        "মেশিন",
+        "আছে।",
+        "আপনার",
+        "আবেদন",
+        "দুই",
+        "থেকে",
+        "চার",
+        "সপ্তাহের",
+        "মধ্যে",
+        "প্রক্রিয়া",
+        "করা",
+        "হবে।"
+      ],
+      "en": [
+        "No",
+        "problem,",
+        "there",
+        "is",
+        "a",
+        "machine",
+        "on",
+        "the",
+        "ground",
+        "floor.",
+        "Your",
+        "application",
+        "will",
+        "be",
+        "processed",
+        "within",
+        "two",
+        "to",
+        "four",
+        "weeks."
+      ],
+      "de": [
+        {
+          "t": "Kein Problem,",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Kein Problem",
+          "gb": "সমস্যা নেই",
+          "ge": "No problem",
+          "n": ""
+        },
+        {
+          "t": "im Erdgeschoss",
+          "b": [
+            2
+          ],
+          "e": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "l": "im Erdgeschoss",
+          "gb": "নিচতলায়",
+          "ge": "on the ground floor",
+          "n": ""
+        },
+        {
+          "t": "gibt es",
+          "b": [
+            5
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "gibt es",
+          "gb": "আছে",
+          "ge": "there is",
+          "n": ""
+        },
+        {
+          "t": "einen Automaten.",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "einen Automaten",
+          "gb": "একটি মেশিন",
+          "ge": "a machine",
+          "n": ""
+        },
+        {
+          "t": "Ihr Antrag",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            10,
+            11
+          ],
+          "l": "Antrag",
+          "gb": "আপনার আবেদন",
+          "ge": "Your application",
+          "n": ""
+        },
+        {
+          "t": "wird",
+          "b": [
+            15
+          ],
+          "e": [
+            12,
+            13
+          ],
+          "l": "wird",
+          "gb": "হবে",
+          "ge": "will be",
+          "n": ""
+        },
+        {
+          "t": "in zwei bis vier Wochen",
+          "b": [
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "e": [
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "l": "in zwei bis vier Wochen",
+          "gb": "দুই থেকে চার সপ্তাহের মধ্যে",
+          "ge": "within two to four weeks",
+          "n": ""
+        },
+        {
+          "t": "bearbeitet.",
+          "b": [
+            13,
+            14
+          ],
+          "e": [
+            14
+          ],
+          "l": "bearbeiten",
+          "gb": "প্রক্রিয়া করা",
+          "ge": "processed",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আর",
+        "ফলাফল",
+        "আমি",
+        "কীভাবে",
+        "পাব?"
+      ],
+      "en": [
+        "And",
+        "how",
+        "will",
+        "I",
+        "get",
+        "the",
+        "result?"
+      ],
+      "de": [
+        {
+          "t": "Und",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "wie",
+          "b": [
+            3
+          ],
+          "e": [
+            1
+          ],
+          "l": "wie",
+          "gb": "কীভাবে",
+          "ge": "how",
+          "n": ""
+        },
+        {
+          "t": "bekomme",
+          "b": [
+            4
+          ],
+          "e": [
+            2,
+            3,
+            4
+          ],
+          "l": "bekomme",
+          "gb": "পাব",
+          "ge": "will I get",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            2
+          ],
+          "e": [],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "das Ergebnis?",
+          "b": [
+            1
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "das Ergebnis",
+          "gb": "ফলাফল",
+          "ge": "the result",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Beamter",
+      "bn": [
+        "আপনাকে",
+        "চিঠিতে",
+        "জানানো",
+        "হবে।",
+        "দয়া",
+        "করে",
+        "আপনার",
+        "বর্তমান",
+        "ঠিকানা",
+        "লিখুন।"
+      ],
+      "en": [
+        "You",
+        "will",
+        "be",
+        "informed",
+        "by",
+        "letter.",
+        "Please",
+        "enter",
+        "your",
+        "current",
+        "address."
+      ],
+      "de": [
+        {
+          "t": "Sie",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Sie",
+          "gb": "আপনাকে",
+          "ge": "You",
+          "n": ""
+        },
+        {
+          "t": "werden",
+          "b": [
+            3
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "werden",
+          "gb": "হবে",
+          "ge": "will be",
+          "n": ""
+        },
+        {
+          "t": "per Brief",
+          "b": [
+            1
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "per Brief",
+          "gb": "চিঠিতে",
+          "ge": "by letter",
+          "n": ""
+        },
+        {
+          "t": "informiert.",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "Information",
+          "gb": "জানানো",
+          "ge": "informed",
+          "n": ""
+        },
+        {
+          "t": "Geben",
+          "b": [
+            9
+          ],
+          "e": [
+            7
+          ],
+          "l": "Geben",
+          "gb": "লিখুন",
+          "ge": "enter",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [],
+          "e": [],
+          "l": "Sie",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "bitte",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            6
+          ],
+          "l": "bitte",
+          "gb": "দয়া করে",
+          "ge": "Please",
+          "n": ""
+        },
+        {
+          "t": "Ihre aktuelle Adresse",
+          "b": [
+            6,
+            7,
+            8
+          ],
+          "e": [
+            8,
+            9,
+            10
+          ],
+          "l": "aktuell",
+          "gb": "আপনার বর্তমান ঠিকানা",
+          "ge": "your current address",
+          "n": ""
+        },
+        {
+          "t": "an.",
+          "b": [],
+          "e": [],
+          "l": "an",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "আবাসিক অনুমতির সাধারণ শব্দ",
+      "head": [
+        "জার্মান",
+        "বাংলা"
+      ],
+      "rows": [
+        [
+          "das Visum",
+          "ভিসা"
+        ],
+        [
+          "der Aufenthaltstitel",
+          "আবাসিক অনুমতি (কার্ড)"
+        ],
+        [
+          "einen Antrag stellen / beantragen",
+          "আবেদন করা"
+        ],
+        [
+          "verlängern",
+          "মেয়াদ বাড়ানো"
+        ],
+        [
+          "Das Visum läuft ab.",
+          "ভিসার মেয়াদ শেষ হচ্ছে।"
+        ],
+        [
+          "gültig bis …",
+          "… পর্যন্ত বৈধ"
+        ],
+        [
+          "die Ausländerbehörde",
+          "বিদেশি-বিষয়ক অফিস"
+        ]
+      ],
+      "note": "কোন অফিস দেখে ও কী কাগজ লাগবে তা শহর ও আবেদনের ধরনের ওপর নির্ভর করে — শহরের Ausländerbehörde বা Make it in Germany-র ওয়েবসাইটে দেখে নিন। মেয়াদ শেষের কয়েক মাস আগেই আবেদন করুন।"
+    },
+    {
+      "type": "table",
+      "title": "কাগজপত্রের সাধারণ তালিকা",
+      "head": [
+        "জার্মান",
+        "বাংলা"
+      ],
+      "rows": [
+        [
+          "gültiger Reisepass",
+          "বৈধ পাসপোর্ট"
+        ],
+        [
+          "biometrisches Passfoto",
+          "বায়োমেট্রিক ছবি"
+        ],
+        [
+          "Mietvertrag",
+          "ভাড়াচুক্তি"
+        ],
+        [
+          "Nachweis über die Krankenversicherung",
+          "স্বাস্থ্যবিমার প্রমাণ"
+        ],
+        [
+          "Nachweis über das Einkommen",
+          "আয়ের প্রমাণ"
+        ],
+        [
+          "Meldebescheinigung",
+          "নিবন্ধনের প্রমাণপত্র"
+        ]
+      ],
+      "note": "Nachweis über + Akkusativ। fehlen + Dativ: „Mir fehlt das Foto.“ / „Das Foto fehlt.“"
+    },
+    {
+      "type": "table",
+      "title": "Passiv in der Behörde",
+      "head": [
+        "Aktiv",
+        "Passiv"
+      ],
+      "rows": [
+        [
+          "Wir bearbeiten Ihren Antrag.",
+          "Ihr Antrag wird bearbeitet."
+        ],
+        [
+          "Wir informieren Sie per Brief.",
+          "Sie werden per Brief informiert."
+        ],
+        [
+          "Man prüft die Unterlagen.",
+          "Die Unterlagen werden geprüft."
+        ]
+      ],
+      "note": "Ämter benutzen oft das Passiv. wird/werden + Partizip II।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "der Antrag",
+      "options": [
+        "আবেদন",
+        "আবাসিক অনুমতি",
+        "আবেদন করা",
+        "কাগজপত্র"
+      ],
+      "answer": 0,
+      "why": "der Antrag = আবেদন।",
+      "word": "antrag"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "ablaufen",
+      "options": [
+        "কাগজপত্র",
+        "মেয়াদ শেষ হওয়া",
+        "স্বাস্থ্যবিমা",
+        "আবাসিক অনুমতি"
+      ],
+      "answer": 1,
+      "why": "ablaufen = মেয়াদ শেষ হওয়া।",
+      "word": "ablaufen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "die Unterlagen",
+      "options": [
+        "আবেদন",
+        "বৈধ",
+        "কাগজপত্র",
+        "স্বাস্থ্যবিমা"
+      ],
+      "answer": 2,
+      "why": "die Unterlagen = কাগজপত্র।",
+      "word": "unterlagen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Krankenversicherung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Krankenversicherung।",
+      "word": "krankenversicherung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„einen Antrag stellen“ মানে কী?",
+      "options": [
+        "আবেদন করা",
+        "আবেদন বাতিল করা",
+        "ফর্ম ছিঁড়ে ফেলা",
+        "টাকা দেওয়া"
+      ],
+      "answer": 0,
+      "why": "Antrag stellen।",
+      "word": "beantragen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ihr Antrag ___ bearbeitet.",
+      "options": [
+        "wird",
+        "werden",
+        "werde",
+        "wurde"
+      ],
+      "answer": 0,
+      "why": "Singular Passiv: wird bearbeitet।",
+      "word": "antrag"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Sie ___ per Brief informiert.",
+      "options": [
+        "werden",
+        "wird",
+        "wirst",
+        "worden"
+      ],
+      "answer": 0,
+      "why": "Sie (formal) → werden informiert।",
+      "word": "unterlagen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Das Visum läuft ab“ মানে কী?",
+      "options": [
+        "ভিসার মেয়াদ শেষ হচ্ছে",
+        "ভিসা বাড়ছে",
+        "ভিসা পাওয়া গেছে",
+        "ভিসা বাতিল হয়েছে"
+      ],
+      "answer": 0,
+      "why": "ablaufen = expire।",
+      "word": "visum"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„fehlen“ কী?",
+      "options": [
+        "নেই, অভাব আছে",
+        "পাওয়া",
+        "দেওয়া",
+        "পড়া"
+      ],
+      "answer": 0,
+      "why": "Das Foto fehlt।",
+      "word": "passfoto"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „আপনার আবেদন প্রক্রিয়া করা হবে।“",
+      "tiles": [
+        "wird",
+        "bearbeitet.",
+        "Antrag",
+        "Ihr"
+      ],
+      "answer": [
+        "Ihr",
+        "Antrag",
+        "wird",
+        "bearbeitet."
+      ],
+      "why": "werden + Partizip II।",
+      "word": "antrag"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

@@ -1,0 +1,1462 @@
+{
+  "level": "A2",
+  "unit": 11,
+  "minutes": 16,
+  "lesson": 2,
+  "id": "a2-u11-l02",
+  "title": {
+    "de": "Es tut mir leid",
+    "bn": "অনুভূতি, ঝগড়া ও ক্ষমা",
+    "en": "Feelings, disagreements and apologies"
+  },
+  "hook": {
+    "de": "Der Klügere gibt nach.",
+    "who": "Sprichwort",
+    "bn": "বুদ্ধিমান ছাড় দেয়।",
+    "en": "The wiser one gives way."
+  },
+  "goals": [
+    "অনুভূতি: wütend, traurig, glücklich, enttäuscht",
+    "ক্ষমা চাওয়া: Es tut mir leid · Entschuldigung",
+    "nicht nur … sondern auch",
+    "Ich freue mich, dass …"
+  ],
+  "words": [
+    {
+      "id": "wuetend",
+      "de": "wütend",
+      "pos": "বিশেষণ",
+      "bn": "রাগান্বিত",
+      "en": "angry"
+    },
+    {
+      "id": "traurig",
+      "de": "traurig",
+      "pos": "বিশেষণ",
+      "bn": "দুঃখিত",
+      "en": "sad"
+    },
+    {
+      "id": "gluecklich",
+      "de": "glücklich",
+      "pos": "বিশেষণ",
+      "bn": "সুখী",
+      "en": "happy"
+    },
+    {
+      "id": "enttaeuscht",
+      "de": "enttäuscht",
+      "pos": "বিশেষণ",
+      "bn": "হতাশ",
+      "en": "disappointed"
+    },
+    {
+      "id": "streit",
+      "de": "Streit",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "ঝগড়া",
+      "en": "argument"
+    },
+    {
+      "id": "sich_streiten",
+      "de": "sich streiten",
+      "pos": "ক্রিয়া · hat sich gestritten",
+      "bn": "ঝগড়া করা",
+      "en": "to argue"
+    },
+    {
+      "id": "verzeihen",
+      "de": "verzeihen",
+      "pos": "ক্রিয়া · hat verziehen",
+      "bn": "ক্ষমা করা",
+      "en": "to forgive"
+    },
+    {
+      "id": "missverstaendnis",
+      "de": "Missverständnis",
+      "art": "das",
+      "pl": "die Missverständnisse",
+      "pos": "বিশেষ্য",
+      "bn": "ভুল বোঝাবুঝি",
+      "en": "misunderstanding"
+    },
+    {
+      "id": "sondern",
+      "de": "sondern",
+      "pos": "সংযোজক",
+      "bn": "বরং, কিন্তু (নেতিবাচকের পর)",
+      "en": "but rather"
+    },
+    {
+      "id": "leidtun",
+      "de": "leidtun",
+      "pos": "ক্রিয়া · Es tut mir leid",
+      "bn": "দুঃখিত হওয়া",
+      "en": "to be sorry"
+    },
+    {
+      "id": "wieder",
+      "de": "wieder",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "আবার",
+      "en": "again"
+    },
+    {
+      "id": "lassen",
+      "de": "lassen",
+      "pos": "ক্রিয়া · lässt, hat gelassen",
+      "bn": "দেওয়া, ছেড়ে দেওয়া",
+      "en": "to let"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Tom",
+      "bn": [
+        "তুমি",
+        "গতকাল",
+        "আমাকে",
+        "ফোন",
+        "করোনি।",
+        "আমি",
+        "রেগে",
+        "গিয়েছিলাম।"
+      ],
+      "en": [
+        "You",
+        "did",
+        "not",
+        "call",
+        "me",
+        "yesterday.",
+        "I",
+        "was",
+        "angry."
+      ],
+      "de": [
+        {
+          "t": "Du",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Du",
+          "gb": "তুমি",
+          "ge": "You",
+          "n": ""
+        },
+        {
+          "t": "hast",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "hast",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "did",
+          "n": ""
+        },
+        {
+          "t": "mich",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "mich",
+          "gb": "আমাকে",
+          "ge": "me",
+          "n": ""
+        },
+        {
+          "t": "gestern",
+          "b": [
+            1
+          ],
+          "e": [
+            5
+          ],
+          "l": "gestern",
+          "gb": "গতকাল",
+          "ge": "yesterday",
+          "n": ""
+        },
+        {
+          "t": "nicht",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "nicht",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "not",
+          "n": ""
+        },
+        {
+          "t": "angerufen.",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            3
+          ],
+          "l": "anrufen",
+          "gb": "ফোন করোনি",
+          "ge": "call",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            5
+          ],
+          "e": [
+            6
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "war",
+          "b": [
+            7
+          ],
+          "e": [
+            7
+          ],
+          "l": "war",
+          "gb": "গিয়েছিলাম",
+          "ge": "was",
+          "n": ""
+        },
+        {
+          "t": "wütend.",
+          "b": [
+            6
+          ],
+          "e": [
+            8
+          ],
+          "l": "wütend",
+          "gb": "রেগে",
+          "ge": "angry",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "দুঃখিত।",
+        "আমি",
+        "তোমাকে",
+        "ফোন",
+        "করতে",
+        "ভুলে",
+        "গিয়েছিলাম।"
+      ],
+      "en": [
+        "I",
+        "am",
+        "sorry.",
+        "I",
+        "forgot",
+        "to",
+        "call",
+        "you."
+      ],
+      "de": [
+        {
+          "t": "Es",
+          "b": [],
+          "e": [],
+          "l": "Es",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "tut",
+          "b": [],
+          "e": [],
+          "l": "tut",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "mir",
+          "b": [],
+          "e": [],
+          "l": "mir",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "leid.",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "leidtun",
+          "gb": "দুঃখিত",
+          "ge": "sorry",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [],
+          "e": [],
+          "l": "habe",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "vergessen,",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            4
+          ],
+          "l": "vergessen",
+          "gb": "ভুলে গিয়েছিলাম",
+          "ge": "forgot",
+          "n": ""
+        },
+        {
+          "t": "dich",
+          "b": [
+            3
+          ],
+          "e": [
+            7
+          ],
+          "l": "dich",
+          "gb": "তোমাকে",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "anzurufen.",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "anrufen",
+          "gb": "ফোন করতে",
+          "ge": "to call",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Tom",
+      "bn": [
+        "আমি",
+        "শুধু",
+        "রাগি",
+        "ছিলাম",
+        "না,",
+        "দুঃখীও",
+        "ছিলাম।",
+        "আমি",
+        "ভেবেছিলাম",
+        "তুমি",
+        "আর",
+        "আমার",
+        "বন্ধু",
+        "নও।"
+      ],
+      "en": [
+        "I",
+        "was",
+        "not",
+        "only",
+        "angry",
+        "but",
+        "also",
+        "sad.",
+        "I",
+        "thought",
+        "you",
+        "were",
+        "no",
+        "longer",
+        "my",
+        "friend."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "war",
+          "b": [
+            3
+          ],
+          "e": [
+            1
+          ],
+          "l": "war",
+          "gb": "ছিলাম",
+          "ge": "was",
+          "n": ""
+        },
+        {
+          "t": "nicht nur",
+          "b": [
+            1
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "nicht nur",
+          "gb": "শুধু",
+          "ge": "not only",
+          "n": ""
+        },
+        {
+          "t": "wütend,",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "wütend",
+          "gb": "রাগি",
+          "ge": "angry",
+          "n": ""
+        },
+        {
+          "t": "sondern",
+          "b": [],
+          "e": [
+            5
+          ],
+          "l": "sondern",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "but",
+          "n": "nicht nur … sondern auch = শুধু … নয়, বরং …ও"
+        },
+        {
+          "t": "auch",
+          "b": [],
+          "e": [
+            6
+          ],
+          "l": "auch",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "also",
+          "n": ""
+        },
+        {
+          "t": "traurig.",
+          "b": [
+            5
+          ],
+          "e": [
+            7
+          ],
+          "l": "traurig",
+          "gb": "দুঃখীও",
+          "ge": "sad",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            7
+          ],
+          "e": [
+            8
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "dachte,",
+          "b": [
+            8
+          ],
+          "e": [
+            9
+          ],
+          "l": "dachte",
+          "gb": "ভেবেছিলাম",
+          "ge": "thought",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            9
+          ],
+          "e": [
+            10
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "bist",
+          "b": [
+            13
+          ],
+          "e": [
+            11
+          ],
+          "l": "bist",
+          "gb": "নও",
+          "ge": "were",
+          "n": ""
+        },
+        {
+          "t": "nicht mehr",
+          "b": [
+            10
+          ],
+          "e": [
+            12,
+            13
+          ],
+          "l": "nicht mehr",
+          "gb": "আর",
+          "ge": "no longer",
+          "n": ""
+        },
+        {
+          "t": "mein Freund.",
+          "b": [
+            11,
+            12
+          ],
+          "e": [
+            14,
+            15
+          ],
+          "l": "mein Freund",
+          "gb": "আমার বন্ধু",
+          "ge": "my friend",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "তা",
+        "সত্যি",
+        "নয়!",
+        "তুমি",
+        "আমার",
+        "কাছে",
+        "খুব",
+        "গুরুত্বপূর্ণ।",
+        "গতকাল",
+        "আমি",
+        "ক্লান্ত",
+        "ছিলাম,",
+        "কারণ",
+        "আমি",
+        "অনেকক্ষণ",
+        "কাজ",
+        "করেছি।"
+      ],
+      "en": [
+        "That",
+        "is",
+        "not",
+        "true!",
+        "You",
+        "are",
+        "very",
+        "important",
+        "to",
+        "me.",
+        "Yesterday",
+        "I",
+        "was",
+        "tired",
+        "because",
+        "I",
+        "worked",
+        "for",
+        "a",
+        "long",
+        "time."
+      ],
+      "de": [
+        {
+          "t": "Das",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Das",
+          "gb": "তা",
+          "ge": "That",
+          "n": ""
+        },
+        {
+          "t": "stimmt",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "stimmt",
+          "gb": "সত্যি",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "nicht!",
+          "b": [
+            2
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "nicht",
+          "gb": "নয়",
+          "ge": "not true",
+          "n": ""
+        },
+        {
+          "t": "Du",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "Du",
+          "gb": "তুমি",
+          "ge": "You",
+          "n": ""
+        },
+        {
+          "t": "bist",
+          "b": [],
+          "e": [
+            5
+          ],
+          "l": "bist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "are",
+          "n": ""
+        },
+        {
+          "t": "mir",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            8,
+            9
+          ],
+          "l": "mir",
+          "gb": "আমার কাছে",
+          "ge": "to me",
+          "n": ""
+        },
+        {
+          "t": "sehr",
+          "b": [
+            6
+          ],
+          "e": [
+            6
+          ],
+          "l": "sehr",
+          "gb": "খুব",
+          "ge": "very",
+          "n": ""
+        },
+        {
+          "t": "wichtig.",
+          "b": [
+            7
+          ],
+          "e": [
+            7
+          ],
+          "l": "wichtig",
+          "gb": "গুরুত্বপূর্ণ",
+          "ge": "important",
+          "n": ""
+        },
+        {
+          "t": "Gestern",
+          "b": [
+            8
+          ],
+          "e": [
+            10
+          ],
+          "l": "Gestern",
+          "gb": "গতকাল",
+          "ge": "Yesterday",
+          "n": ""
+        },
+        {
+          "t": "war",
+          "b": [
+            11
+          ],
+          "e": [
+            12
+          ],
+          "l": "war",
+          "gb": "ছিলাম",
+          "ge": "was",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            9
+          ],
+          "e": [
+            11
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "müde,",
+          "b": [
+            10
+          ],
+          "e": [
+            13
+          ],
+          "l": "müde",
+          "gb": "ক্লান্ত",
+          "ge": "tired",
+          "n": ""
+        },
+        {
+          "t": "weil",
+          "b": [
+            12
+          ],
+          "e": [
+            14
+          ],
+          "l": "weil",
+          "gb": "কারণ",
+          "ge": "because",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            13
+          ],
+          "e": [
+            15
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "lange",
+          "b": [
+            14
+          ],
+          "e": [
+            17,
+            18,
+            19,
+            20
+          ],
+          "l": "lange",
+          "gb": "অনেকক্ষণ",
+          "ge": "for a long time",
+          "n": ""
+        },
+        {
+          "t": "gearbeitet",
+          "b": [
+            15
+          ],
+          "e": [
+            16
+          ],
+          "l": "arbeiten",
+          "gb": "কাজ",
+          "ge": "worked",
+          "n": ""
+        },
+        {
+          "t": "habe.",
+          "b": [
+            16
+          ],
+          "e": [],
+          "l": "habe",
+          "gb": "করেছি",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Tom",
+      "bn": [
+        "ঠিক",
+        "আছে,",
+        "আমি",
+        "বুঝতে",
+        "পারছি।",
+        "এটা",
+        "একটা",
+        "ভুল",
+        "বোঝাবুঝি",
+        "ছিল।"
+      ],
+      "en": [
+        "Okay,",
+        "I",
+        "understand.",
+        "It",
+        "was",
+        "a",
+        "misunderstanding."
+      ],
+      "de": [
+        {
+          "t": "Okay,",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0
+          ],
+          "l": "Okay",
+          "gb": "ঠিক আছে",
+          "ge": "Okay",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            2
+          ],
+          "e": [
+            1
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "verstehe",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            2
+          ],
+          "l": "verstehe",
+          "gb": "বুঝতে পারছি",
+          "ge": "understand",
+          "n": ""
+        },
+        {
+          "t": "das.",
+          "b": [],
+          "e": [],
+          "l": "das",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Es",
+          "b": [
+            5
+          ],
+          "e": [
+            3
+          ],
+          "l": "Es",
+          "gb": "এটা",
+          "ge": "It",
+          "n": ""
+        },
+        {
+          "t": "war",
+          "b": [
+            9
+          ],
+          "e": [
+            4
+          ],
+          "l": "war",
+          "gb": "ছিল",
+          "ge": "was",
+          "n": ""
+        },
+        {
+          "t": "ein Missverständnis.",
+          "b": [
+            6,
+            7,
+            8
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "Missverständnis",
+          "gb": "একটা ভুল বোঝাবুঝি",
+          "ge": "a misunderstanding",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "চলো",
+        "একসাথে",
+        "খেতে",
+        "যাই।",
+        "আমি",
+        "তোমাকে",
+        "নিমন্ত্রণ",
+        "করছি।"
+      ],
+      "en": [
+        "Let",
+        "us",
+        "go",
+        "for",
+        "a",
+        "meal",
+        "together.",
+        "I",
+        "am",
+        "inviting",
+        "you."
+      ],
+      "de": [
+        {
+          "t": "Lass",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "lassen",
+          "gb": "চলো",
+          "ge": "Let",
+          "n": "Lass uns … = চলো আমরা … (প্রস্তাব)"
+        },
+        {
+          "t": "uns",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "uns",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "us",
+          "n": ""
+        },
+        {
+          "t": "zusammen",
+          "b": [
+            1
+          ],
+          "e": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "l": "zusammen",
+          "gb": "একসাথে",
+          "ge": "go for a meal together",
+          "n": ""
+        },
+        {
+          "t": "essen gehen.",
+          "b": [
+            2,
+            3
+          ],
+          "e": [],
+          "l": "essen gehen",
+          "gb": "খেতে যাই",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            4
+          ],
+          "e": [
+            7
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "lade",
+          "b": [
+            6
+          ],
+          "e": [
+            8,
+            9
+          ],
+          "l": "lade",
+          "gb": "নিমন্ত্রণ",
+          "ge": "am inviting",
+          "n": ""
+        },
+        {
+          "t": "dich",
+          "b": [
+            5
+          ],
+          "e": [
+            10
+          ],
+          "l": "dich",
+          "gb": "তোমাকে",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "ein.",
+          "b": [
+            7
+          ],
+          "e": [],
+          "l": "ein",
+          "gb": "করছি",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Tom",
+      "bn": [
+        "আনন্দের",
+        "সাথে!",
+        "আমি",
+        "খুশি",
+        "যে",
+        "আমরা",
+        "আবার",
+        "বন্ধু।"
+      ],
+      "en": [
+        "Gladly!",
+        "I",
+        "am",
+        "glad",
+        "that",
+        "we",
+        "are",
+        "friends",
+        "again."
+      ],
+      "de": [
+        {
+          "t": "Gern!",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0
+          ],
+          "l": "Gern",
+          "gb": "আনন্দের সাথে",
+          "ge": "Gladly",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            2
+          ],
+          "e": [
+            1
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "freue",
+          "b": [
+            3
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "sich freuen",
+          "gb": "খুশি",
+          "ge": "am glad",
+          "n": ""
+        },
+        {
+          "t": "mich,",
+          "b": [],
+          "e": [],
+          "l": "mich",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "dass",
+          "b": [
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "dass",
+          "gb": "যে",
+          "ge": "that",
+          "n": ""
+        },
+        {
+          "t": "wir",
+          "b": [
+            5
+          ],
+          "e": [
+            5
+          ],
+          "l": "wir",
+          "gb": "আমরা",
+          "ge": "we",
+          "n": ""
+        },
+        {
+          "t": "wieder",
+          "b": [
+            6
+          ],
+          "e": [
+            8
+          ],
+          "l": "wieder",
+          "gb": "আবার",
+          "ge": "again",
+          "n": ""
+        },
+        {
+          "t": "Freunde",
+          "b": [
+            7
+          ],
+          "e": [
+            7
+          ],
+          "l": "Freunde",
+          "gb": "বন্ধু",
+          "ge": "friends",
+          "n": ""
+        },
+        {
+          "t": "sind.",
+          "b": [],
+          "e": [
+            6
+          ],
+          "l": "sind",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "are",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "অনুভূতি প্রকাশ",
+      "head": [
+        "জার্মান",
+        "বাংলা"
+      ],
+      "rows": [
+        [
+          "Ich bin wütend / traurig / glücklich / enttäuscht.",
+          "আমি রাগী / দুঃখী / সুখী / হতাশ।"
+        ],
+        [
+          "Ich freue mich, dass …",
+          "আমি খুশি যে …"
+        ],
+        [
+          "Ich ärgere mich über …",
+          "আমি … নিয়ে বিরক্ত।"
+        ],
+        [
+          "Es tut mir leid.",
+          "আমি দুঃখিত।"
+        ],
+        [
+          "Das stimmt nicht!",
+          "তা সত্যি নয়!"
+        ],
+        [
+          "Das war ein Missverständnis.",
+          "এটা একটা ভুল বোঝাবুঝি ছিল।"
+        ]
+      ],
+      "note": "ক্ষমা চাওয়া: „Es tut mir leid“ (আন্তরিক), „Entschuldigung“ / „Entschuldigen Sie“ (ভদ্র)। ক্ষমা করা: „Schon gut.“ / „Kein Problem.“ / „Ich verzeihe dir.“"
+    },
+    {
+      "type": "table",
+      "title": "nicht … sondern",
+      "head": [
+        "জার্মান",
+        "বাংলা"
+      ],
+      "rows": [
+        [
+          "Ich bin nicht wütend, sondern traurig.",
+          "আমি রাগী নই, বরং দুঃখী।"
+        ],
+        [
+          "Er kommt nicht heute, sondern morgen.",
+          "সে আজ নয়, বরং কাল আসবে।"
+        ],
+        [
+          "Ich war nicht nur wütend, sondern auch traurig.",
+          "আমি শুধু রাগিই নই, দুঃখীও ছিলাম।"
+        ]
+      ],
+      "note": "sondern = নেতিবাচক বাক্যের পর „বরং“। aber = সাধারণ বিরোধ। „Ich bin müde, aber ich arbeite.“"
+    },
+    {
+      "type": "text",
+      "title": "Lass uns … / Lass mich …",
+      "text": "„Lass uns essen gehen!“ = চলো আমরা খেতে যাই। „Lass mich helfen.“ = আমাকে সাহায্য করতে দাও। lassen-এর Imperativ: lass! (du), lasst! (ihr), lassen Sie! (Sie)।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "das Missverständnis",
+      "options": [
+        "হতাশ",
+        "ঝগড়া করা",
+        "বরং",
+        "ভুল বোঝাবুঝি"
+      ],
+      "answer": 3,
+      "why": "das Missverständnis = ভুল বোঝাবুঝি।",
+      "word": "missverstaendnis"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "enttäuscht",
+      "options": [
+        "আবার",
+        "দুঃখিত",
+        "ঝগড়া করা",
+        "হতাশ"
+      ],
+      "answer": 3,
+      "why": "enttäuscht = হতাশ।",
+      "word": "enttaeuscht"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "verzeihen",
+      "options": [
+        "দেওয়া",
+        "সুখী",
+        "ঝগড়া করা",
+        "ক্ষমা করা"
+      ],
+      "answer": 3,
+      "why": "verzeihen = ক্ষমা করা।",
+      "word": "verzeihen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Streit",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 0,
+      "why": "der Streit।",
+      "word": "streit"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক সংযোজক বেছে নিন",
+      "sub": "Ich bin nicht wütend, ___ traurig.",
+      "options": [
+        "sondern",
+        "aber",
+        "weil",
+        "oder"
+      ],
+      "answer": 0,
+      "why": "nicht … sondern।",
+      "word": "sondern"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Es tut ___ leid.",
+      "options": [
+        "mir",
+        "mich",
+        "ich",
+        "mein"
+      ],
+      "answer": 0,
+      "why": "Es tut mir leid।",
+      "word": "leidtun"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Lass uns essen gehen!“ মানে কী?",
+      "options": [
+        "চলো খেতে যাই!",
+        "আমাকে খাও!",
+        "খাবার ছেড়ে দাও!",
+        "ওরা খেতে গেছে"
+      ],
+      "answer": 0,
+      "why": "Lass uns …",
+      "word": "lassen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Ich freue mich, dass …“ এর পর ক্রিয়া কোথায়?",
+      "options": [
+        "শেষে",
+        "২য় স্থানে",
+        "প্রথমে",
+        "dass-এর আগে"
+      ],
+      "answer": 0,
+      "why": "dass-Satz।",
+      "word": "gluecklich"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„wütend“ মানে কী?",
+      "options": [
+        "রাগান্বিত",
+        "সুখী",
+        "ক্লান্ত",
+        "ভীত"
+      ],
+      "answer": 0,
+      "why": "wütend = angry।",
+      "word": "wuetend"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „আমি শুধু রাগিই নই, দুঃখীও ছিলাম।“",
+      "tiles": [
+        "wütend,",
+        "sondern auch",
+        "Ich war",
+        "nicht nur",
+        "traurig."
+      ],
+      "answer": [
+        "Ich war",
+        "nicht nur",
+        "wütend,",
+        "sondern auch",
+        "traurig."
+      ],
+      "why": "nicht nur … sondern auch।",
+      "word": "sondern"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

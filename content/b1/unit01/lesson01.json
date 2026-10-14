@@ -1,0 +1,1310 @@
+{
+  "level": "B1",
+  "unit": 1,
+  "minutes": 18,
+  "lesson": 1,
+  "id": "b1-u01-l01",
+  "title": {
+    "de": "Eine Stellenanzeige verstehen",
+    "bn": "চাকরির বিজ্ঞাপন পড়া",
+    "en": "Understanding a job advert"
+  },
+  "hook": {
+    "de": "Wer die Wahl hat, hat die Qual.",
+    "who": "Sprichwort",
+    "bn": "যার বেছে নেওয়ার সুযোগ আছে, তার বাছাই করা কঠিন।",
+    "en": "Spoilt for choice."
+  },
+  "goals": [
+    "Aufgaben, Anforderungen, Wir bieten — বিজ্ঞাপনের তিন অংশ",
+    "erforderlich und wünschenswert আলাদা করা",
+    "Partizip als Adjektiv: eine abgeschlossene Ausbildung",
+    "Genitiv in Anzeigen: die Leitung des Teams"
+  ],
+  "words": [
+    {
+      "id": "stellenanzeige",
+      "de": "Stellenanzeige",
+      "art": "die",
+      "pl": "die Stellenanzeigen",
+      "pos": "বিশেষ্য",
+      "bn": "চাকরির বিজ্ঞাপন",
+      "en": "job advert"
+    },
+    {
+      "id": "aufgabe",
+      "de": "Aufgabe",
+      "art": "die",
+      "pl": "die Aufgaben",
+      "pos": "বিশেষ্য",
+      "bn": "দায়িত্ব, কাজ",
+      "en": "task, duty"
+    },
+    {
+      "id": "anforderung",
+      "de": "Anforderung",
+      "art": "die",
+      "pl": "die Anforderungen",
+      "pos": "বিশেষ্য",
+      "bn": "চাহিদা, শর্ত",
+      "en": "requirement"
+    },
+    {
+      "id": "vollzeit",
+      "de": "Vollzeit",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "পূর্ণকালীন",
+      "en": "full time"
+    },
+    {
+      "id": "teilzeit",
+      "de": "Teilzeit",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "খণ্ডকালীন",
+      "en": "part time"
+    },
+    {
+      "id": "unbefristet",
+      "de": "unbefristet",
+      "pos": "বিশেষণ",
+      "bn": "মেয়াদহীন (স্থায়ী)",
+      "en": "permanent"
+    },
+    {
+      "id": "befristet",
+      "de": "befristet",
+      "pos": "বিশেষণ",
+      "bn": "মেয়াদী (সীমিত সময়ের)",
+      "en": "fixed-term"
+    },
+    {
+      "id": "gehalt",
+      "de": "Gehalt",
+      "art": "das",
+      "pl": "die Gehälter",
+      "pos": "বিশেষ্য",
+      "bn": "বেতন",
+      "en": "salary"
+    },
+    {
+      "id": "erforderlich",
+      "de": "erforderlich",
+      "pos": "বিশেষণ",
+      "bn": "আবশ্যক",
+      "en": "required"
+    },
+    {
+      "id": "wuenschenswert",
+      "de": "wünschenswert",
+      "pos": "বিশেষণ",
+      "bn": "কাম্য, থাকলে ভালো",
+      "en": "desirable"
+    },
+    {
+      "id": "teamfaehig",
+      "de": "teamfähig",
+      "pos": "বিশেষণ",
+      "bn": "দলে কাজ করতে সক্ষম",
+      "en": "able to work in a team"
+    },
+    {
+      "id": "zuverlaessig",
+      "de": "zuverlässig",
+      "pos": "বিশেষণ",
+      "bn": "নির্ভরযোগ্য",
+      "en": "reliable"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Saheb",
+      "bn": [
+        "লেনা,",
+        "এই",
+        "চাকরির",
+        "বিজ্ঞাপনটা",
+        "দেখো।",
+        "কোম্পানি",
+        "একজন",
+        "পূর্ণকালীন",
+        "ইলেকট্রিশিয়ান",
+        "খুঁজছে।"
+      ],
+      "en": [
+        "Lena,",
+        "look",
+        "at",
+        "this",
+        "job",
+        "advert.",
+        "The",
+        "company",
+        "is",
+        "looking",
+        "for",
+        "a",
+        "full-time",
+        "electrician."
+      ],
+      "de": [
+        {
+          "t": "Lena,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Lena",
+          "gb": "লেনা",
+          "ge": "Lena",
+          "n": ""
+        },
+        {
+          "t": "schau",
+          "b": [
+            4
+          ],
+          "e": [
+            1
+          ],
+          "l": "schau",
+          "gb": "দেখো",
+          "ge": "look",
+          "n": ""
+        },
+        {
+          "t": "dir",
+          "b": [],
+          "e": [],
+          "l": "dir",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "diese Stellenanzeige",
+          "b": [
+            1,
+            2,
+            3
+          ],
+          "e": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "l": "Stellenanzeige",
+          "gb": "এই চাকরির বিজ্ঞাপনটা",
+          "ge": "at this job advert",
+          "n": ""
+        },
+        {
+          "t": "an.",
+          "b": [],
+          "e": [],
+          "l": "an",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Die Firma",
+          "b": [
+            5
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "Die Firma",
+          "gb": "কোম্পানি",
+          "ge": "The company",
+          "n": ""
+        },
+        {
+          "t": "sucht",
+          "b": [
+            9
+          ],
+          "e": [
+            8,
+            9,
+            10
+          ],
+          "l": "sucht",
+          "gb": "খুঁজছে",
+          "ge": "is looking for",
+          "n": ""
+        },
+        {
+          "t": "einen Elektriker",
+          "b": [
+            8
+          ],
+          "e": [
+            13
+          ],
+          "l": "einen Elektriker",
+          "gb": "ইলেকট্রিশিয়ান",
+          "ge": "electrician",
+          "n": ""
+        },
+        {
+          "t": "in Vollzeit.",
+          "b": [
+            7
+          ],
+          "e": [
+            12
+          ],
+          "l": "Vollzeit",
+          "gb": "পূর্ণকালীন",
+          "ge": "full-time",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "কাজগুলো",
+        "কী",
+        "কী?"
+      ],
+      "en": [
+        "What",
+        "are",
+        "the",
+        "tasks?"
+      ],
+      "de": [
+        {
+          "t": "Was",
+          "b": [
+            1
+          ],
+          "e": [
+            0
+          ],
+          "l": "Was",
+          "gb": "কী",
+          "ge": "What",
+          "n": ""
+        },
+        {
+          "t": "sind",
+          "b": [
+            2
+          ],
+          "e": [
+            1
+          ],
+          "l": "sind",
+          "gb": "কী",
+          "ge": "are",
+          "n": ""
+        },
+        {
+          "t": "denn",
+          "b": [],
+          "e": [],
+          "l": "denn",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "die Aufgaben?",
+          "b": [
+            0
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "Aufgabe",
+          "gb": "কাজগুলো",
+          "ge": "the tasks",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "ইলেকট্রিক",
+        "যন্ত্র",
+        "বসাতে,",
+        "ত্রুটি",
+        "খুঁজে",
+        "বের",
+        "করতে",
+        "আর",
+        "গ্রাহকদের",
+        "পরামর্শ",
+        "দিতে",
+        "হবে।"
+      ],
+      "en": [
+        "You",
+        "have",
+        "to",
+        "install",
+        "electrical",
+        "devices,",
+        "find",
+        "faults",
+        "and",
+        "advise",
+        "customers."
+      ],
+      "de": [
+        {
+          "t": "Man",
+          "b": [],
+          "e": [
+            0
+          ],
+          "l": "Man",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "You",
+          "n": ""
+        },
+        {
+          "t": "muss",
+          "b": [
+            11
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "muss",
+          "gb": "হবে",
+          "ge": "have to",
+          "n": ""
+        },
+        {
+          "t": "elektrische Geräte",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "elektrische Geräte",
+          "gb": "ইলেকট্রিক যন্ত্র",
+          "ge": "electrical devices",
+          "n": ""
+        },
+        {
+          "t": "installieren,",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "installieren",
+          "gb": "বসাতে",
+          "ge": "install",
+          "n": ""
+        },
+        {
+          "t": "Fehler",
+          "b": [
+            3
+          ],
+          "e": [
+            7
+          ],
+          "l": "Fehler",
+          "gb": "ত্রুটি",
+          "ge": "faults",
+          "n": ""
+        },
+        {
+          "t": "suchen",
+          "b": [
+            4,
+            5,
+            6
+          ],
+          "e": [
+            6
+          ],
+          "l": "suchen",
+          "gb": "খুঁজে বের করতে",
+          "ge": "find",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            7
+          ],
+          "e": [
+            8
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "Kunden",
+          "b": [
+            8
+          ],
+          "e": [
+            10
+          ],
+          "l": "Kunden",
+          "gb": "গ্রাহকদের",
+          "ge": "customers",
+          "n": ""
+        },
+        {
+          "t": "beraten.",
+          "b": [
+            9,
+            10
+          ],
+          "e": [
+            9
+          ],
+          "l": "beraten",
+          "gb": "পরামর্শ দিতে",
+          "ge": "advise",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "আর",
+        "কী",
+        "কী",
+        "চাহিদা",
+        "আছে?"
+      ],
+      "en": [
+        "And",
+        "what",
+        "requirements",
+        "are",
+        "there?"
+      ],
+      "de": [
+        {
+          "t": "Und",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "welche",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            1
+          ],
+          "l": "welche",
+          "gb": "কী কী",
+          "ge": "what",
+          "n": ""
+        },
+        {
+          "t": "Anforderungen",
+          "b": [
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "Anforderung",
+          "gb": "চাহিদা",
+          "ge": "requirements",
+          "n": ""
+        },
+        {
+          "t": "gibt es?",
+          "b": [
+            4
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "gibt es",
+          "gb": "আছে",
+          "ge": "are there",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আবশ্যক",
+        "হলো",
+        "একটি",
+        "সম্পন্ন",
+        "প্রশিক্ষণ",
+        "আর",
+        "ভালো",
+        "জার্মান",
+        "ভাষাজ্ঞান।",
+        "ড্রাইভিং",
+        "লাইসেন্স",
+        "আর",
+        "অভিজ্ঞতা",
+        "থাকলে",
+        "ভালো।"
+      ],
+      "en": [
+        "A",
+        "completed",
+        "training",
+        "and",
+        "good",
+        "German",
+        "skills",
+        "are",
+        "required.",
+        "A",
+        "driving",
+        "licence",
+        "and",
+        "experience",
+        "are",
+        "desirable."
+      ],
+      "de": [
+        {
+          "t": "Erforderlich",
+          "b": [
+            0
+          ],
+          "e": [
+            8
+          ],
+          "l": "erforderlich",
+          "gb": "আবশ্যক",
+          "ge": "required",
+          "n": ""
+        },
+        {
+          "t": "sind",
+          "b": [
+            1
+          ],
+          "e": [
+            7
+          ],
+          "l": "sind",
+          "gb": "হলো",
+          "ge": "are",
+          "n": ""
+        },
+        {
+          "t": "eine abgeschlossene Ausbildung",
+          "b": [
+            2,
+            3,
+            4
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "eine abgeschlossene Ausbildung",
+          "gb": "একটি সম্পন্ন প্রশিক্ষণ",
+          "ge": "A completed training",
+          "n": "Partizip II als Adjektiv: abgeschlossen → eine abgeschlossene Ausbildung"
+        },
+        {
+          "t": "und",
+          "b": [
+            5
+          ],
+          "e": [
+            3
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "gute Deutschkenntnisse.",
+          "b": [
+            6,
+            7,
+            8
+          ],
+          "e": [
+            4,
+            5,
+            6
+          ],
+          "l": "gute Deutschkenntnisse",
+          "gb": "ভালো জার্মান ভাষাজ্ঞান",
+          "ge": "good German skills",
+          "n": ""
+        },
+        {
+          "t": "Wünschenswert",
+          "b": [
+            13,
+            14
+          ],
+          "e": [
+            15
+          ],
+          "l": "wünschenswert",
+          "gb": "থাকলে ভালো",
+          "ge": "desirable",
+          "n": ""
+        },
+        {
+          "t": "sind",
+          "b": [],
+          "e": [
+            14
+          ],
+          "l": "sind",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "are",
+          "n": ""
+        },
+        {
+          "t": "Führerschein",
+          "b": [
+            9,
+            10
+          ],
+          "e": [
+            9,
+            10,
+            11
+          ],
+          "l": "Führerschein",
+          "gb": "ড্রাইভিং লাইসেন্স",
+          "ge": "A driving licence",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            11
+          ],
+          "e": [
+            12
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "Berufserfahrung.",
+          "b": [
+            12
+          ],
+          "e": [
+            13
+          ],
+          "l": "Berufserfahrung",
+          "gb": "অভিজ্ঞতা",
+          "ge": "experience",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "ওটা",
+        "তোমার",
+        "সাথে",
+        "মানায়,",
+        "কারণ",
+        "তোমার",
+        "অভিজ্ঞতা",
+        "আছে।",
+        "বেতনের",
+        "কথা",
+        "কি",
+        "লেখা",
+        "আছে?"
+      ],
+      "en": [
+        "That",
+        "suits",
+        "you,",
+        "because",
+        "you",
+        "have",
+        "experience.",
+        "Does",
+        "it",
+        "say",
+        "anything",
+        "about",
+        "the",
+        "salary?"
+      ],
+      "de": [
+        {
+          "t": "Das",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Das",
+          "gb": "ওটা",
+          "ge": "That",
+          "n": ""
+        },
+        {
+          "t": "passt",
+          "b": [
+            3
+          ],
+          "e": [
+            1
+          ],
+          "l": "passt",
+          "gb": "মানায়",
+          "ge": "suits",
+          "n": ""
+        },
+        {
+          "t": "zu dir,",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "zu dir",
+          "gb": "তোমার সাথে",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "denn",
+          "b": [
+            4
+          ],
+          "e": [
+            3
+          ],
+          "l": "denn",
+          "gb": "কারণ",
+          "ge": "because",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            5
+          ],
+          "e": [
+            4
+          ],
+          "l": "du",
+          "gb": "তোমার",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "hast",
+          "b": [
+            7
+          ],
+          "e": [
+            5
+          ],
+          "l": "hast",
+          "gb": "আছে",
+          "ge": "have",
+          "n": ""
+        },
+        {
+          "t": "Berufserfahrung.",
+          "b": [
+            6
+          ],
+          "e": [
+            6
+          ],
+          "l": "Berufserfahrung",
+          "gb": "অভিজ্ঞতা",
+          "ge": "experience",
+          "n": ""
+        },
+        {
+          "t": "Steht",
+          "b": [
+            11,
+            12
+          ],
+          "e": [
+            7,
+            8,
+            9
+          ],
+          "l": "Steht",
+          "gb": "লেখা আছে",
+          "ge": "Does it say",
+          "n": ""
+        },
+        {
+          "t": "dort",
+          "b": [],
+          "e": [],
+          "l": "dort",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "auch",
+          "b": [],
+          "e": [],
+          "l": "auch",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "etwas",
+          "b": [
+            9
+          ],
+          "e": [
+            10
+          ],
+          "l": "etwas",
+          "gb": "কথা",
+          "ge": "anything",
+          "n": ""
+        },
+        {
+          "t": "über das Gehalt?",
+          "b": [
+            8
+          ],
+          "e": [
+            11,
+            12,
+            13
+          ],
+          "l": "Gehalt",
+          "gb": "বেতনের",
+          "ge": "about the salary",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "না,",
+        "কিন্তু",
+        "পদটি",
+        "স্থায়ী।",
+        "সেটা",
+        "একটা",
+        "বড়",
+        "সুবিধা।"
+      ],
+      "en": [
+        "No,",
+        "but",
+        "the",
+        "position",
+        "is",
+        "permanent.",
+        "That",
+        "is",
+        "a",
+        "big",
+        "advantage."
+      ],
+      "de": [
+        {
+          "t": "Nein,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Nein",
+          "gb": "না",
+          "ge": "No",
+          "n": ""
+        },
+        {
+          "t": "aber",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "aber",
+          "gb": "কিন্তু",
+          "ge": "but",
+          "n": ""
+        },
+        {
+          "t": "die Stelle",
+          "b": [
+            2
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "die Stelle",
+          "gb": "পদটি",
+          "ge": "the position",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            4
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "unbefristet.",
+          "b": [
+            3
+          ],
+          "e": [
+            5
+          ],
+          "l": "unbefristet",
+          "gb": "স্থায়ী",
+          "ge": "permanent",
+          "n": ""
+        },
+        {
+          "t": "Das",
+          "b": [
+            4
+          ],
+          "e": [
+            6
+          ],
+          "l": "Das",
+          "gb": "সেটা",
+          "ge": "That",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            7
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "ein großer Vorteil.",
+          "b": [
+            5,
+            6,
+            7
+          ],
+          "e": [
+            8,
+            9,
+            10
+          ],
+          "l": "ein großer Vorteil",
+          "gb": "একটা বড় সুবিধা",
+          "ge": "a big advantage",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "Aufbau einer Stellenanzeige",
+      "head": [
+        "Abschnitt",
+        "Bedeutung",
+        "Beispiel"
+      ],
+      "rows": [
+        [
+          "Wir suchen …",
+          "কাকে খুঁজছে",
+          "Wir suchen einen Elektriker (m/w/d) in Vollzeit."
+        ],
+        [
+          "Ihre Aufgaben",
+          "আপনার কাজ",
+          "Installation und Wartung elektrischer Anlagen"
+        ],
+        [
+          "Ihr Profil / Anforderungen",
+          "যা থাকতে হবে",
+          "abgeschlossene Ausbildung, gute Deutschkenntnisse"
+        ],
+        [
+          "Wir bieten",
+          "কোম্পানি কী দেয়",
+          "unbefristete Stelle, Weiterbildung, Urlaub"
+        ],
+        [
+          "Bewerbung an …",
+          "কীভাবে আবেদন",
+          "Bitte senden Sie Ihre Unterlagen per E-Mail an …"
+        ]
+      ],
+      "note": "„(m/w/d)“ = männlich / weiblich / divers — এই পদের জন্য যেকোনো লিঙ্গের ব্যক্তি আবেদন করতে পারেন।"
+    },
+    {
+      "type": "table",
+      "title": "Partizip als Adjektiv",
+      "head": [
+        "Verb",
+        "Partizip",
+        "Beispiel"
+      ],
+      "rows": [
+        [
+          "abschließen",
+          "abgeschlossen",
+          "eine abgeschlossene Ausbildung"
+        ],
+        [
+          "erfahren",
+          "erfahren",
+          "ein erfahrener Mitarbeiter"
+        ],
+        [
+          "motivieren",
+          "motiviert",
+          "ein motiviertes Team"
+        ],
+        [
+          "wünschen",
+          "gewünscht",
+          "die gewünschte Qualifikation"
+        ],
+        [
+          "arbeiten (Partizip I)",
+          "arbeitend",
+          "die arbeitende Bevölkerung"
+        ]
+      ],
+      "note": "Partizip II (-t / -en) = সম্পন্ন অর্থে; Partizip I (-d) = চলমান অর্থে (arbeitend = যে কাজ করছে)। বিশেষ্যের আগে Adjektiv-Endung যোগ হয়।"
+    },
+    {
+      "type": "table",
+      "title": "Genitiv in Anzeigen",
+      "head": [
+        "Nominativ",
+        "Genitiv"
+      ],
+      "rows": [
+        [
+          "die Leitung",
+          "die Leitung des Teams"
+        ],
+        [
+          "die Installation",
+          "die Installation elektrischer Anlagen"
+        ],
+        [
+          "der Chef",
+          "die Frau des Chefs"
+        ],
+        [
+          "das Unternehmen",
+          "der Sitz des Unternehmens"
+        ]
+      ],
+      "note": "Genitiv (m/n: des + -s/-es; f/Plural: der) = „-র“। আগে A2-এ চিনেছেন; এখন লেখায় নিজে ব্যবহার করুন।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "die Stellenanzeige",
+      "options": [
+        "চাহিদা",
+        "চাকরির বিজ্ঞাপন",
+        "খণ্ডকালীন",
+        "মেয়াদী"
+      ],
+      "answer": 1,
+      "why": "die Stellenanzeige = চাকরির বিজ্ঞাপন।",
+      "word": "stellenanzeige"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "befristet",
+      "options": [
+        "মেয়াদী",
+        "পূর্ণকালীন",
+        "বেতন",
+        "দলে কাজ করতে সক্ষম"
+      ],
+      "answer": 0,
+      "why": "befristet = মেয়াদী।",
+      "word": "befristet"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "wünschenswert",
+      "options": [
+        "খণ্ডকালীন",
+        "কাম্য",
+        "বেতন",
+        "নির্ভরযোগ্য"
+      ],
+      "answer": 1,
+      "why": "wünschenswert = কাম্য।",
+      "word": "wuenschenswert"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Anforderung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Anforderung। বহুবচন: die Anforderungen।",
+      "word": "anforderung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„unbefristet“ মানে কী?",
+      "options": [
+        "মেয়াদহীন, স্থায়ী",
+        "মেয়াদী",
+        "খণ্ডকালীন",
+        "বিনা বেতনে"
+      ],
+      "answer": 0,
+      "why": "unbefristet = permanent।",
+      "word": "unbefristet"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„erforderlich“ আর „wünschenswert“ — পার্থক্য কী?",
+      "options": [
+        "আবশ্যক বনাম থাকলে ভালো",
+        "একই অর্থ",
+        "দামি বনাম সস্তা",
+        "নতুন বনাম পুরোনো"
+      ],
+      "answer": 0,
+      "why": "erforderlich = শর্ত; wünschenswert = বাড়তি সুবিধা।",
+      "word": "erforderlich"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Wir erwarten eine ___ Ausbildung.",
+      "options": [
+        "abgeschlossene",
+        "abgeschlossener",
+        "abgeschlossenes",
+        "abgeschlossen"
+      ],
+      "answer": 0,
+      "why": "die Ausbildung (f, Nom./Akk.) → -e।",
+      "word": "aufgabe"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„(m/w/d)“ কী বোঝায়?",
+      "options": [
+        "যেকোনো লিঙ্গের আবেদনকারী",
+        "শুধু পুরুষ",
+        "শুধু নারী",
+        "পূর্ণকালীন"
+      ],
+      "answer": 0,
+      "why": "männlich/weiblich/divers।",
+      "word": "stellenanzeige"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Genitiv: „die Leitung ___ Teams“",
+      "options": [
+        "des",
+        "der",
+        "dem",
+        "den"
+      ],
+      "answer": 0,
+      "why": "das Team → des Teams।",
+      "word": "aufgabe"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „পদটি স্থায়ী।“",
+      "tiles": [
+        "unbefristet.",
+        "ist",
+        "Die Stelle"
+      ],
+      "answer": [
+        "Die Stelle",
+        "ist",
+        "unbefristet."
+      ],
+      "why": "sein + Adjektiv।",
+      "word": "unbefristet"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

@@ -338,3 +338,20 @@ body.in-lesson main{padding:0;max-width:none}
 /* lessons that can be started but are not the next one (placement or unlock-all) */
 .lesson.open .ic{border-color:var(--ink);color:var(--ink)}
 .lesson.open .lt{color:var(--ink)}
+
+/* ---- mock exam ---- */
+.lx .passage{margin-top:12px;padding:12px 14px;border:1px solid var(--line);border-radius:12px;background:var(--surface);font-size:17px;line-height:1.5;white-space:pre-line}
+.lx .passage.model{background:var(--good-soft);border-color:var(--good)}
+.lx .txt{width:100%;margin-top:12px;padding:12px 14px;border:1.5px solid var(--line);border-radius:12px;background:var(--surface);color:var(--ink);font:inherit;font-size:17px;line-height:1.5;resize:vertical}
+.lx .checks{list-style:none;padding:0;margin:8px 0 0;display:grid;gap:8px}
+.lx .checks label{display:flex;gap:10px;align-items:flex-start;font-size:15px;line-height:1.4}
+.lx .checks input{width:20px;height:20px;margin-top:2px;flex:none;accent-color:var(--accent)}
+.lx .speak-list{display:grid;gap:10px;margin-top:12px}
+.lx .speak{border:1px solid var(--line);border-radius:12px;padding:12px 14px;background:var(--surface)}
+.lx .speak.done{border-color:var(--good);background:var(--good-soft)}
+.lx .speak-q{display:flex;flex-direction:column;gap:2px}
+.lx .speak-q b{font-family:var(--display);font-size:20px}
+.lx .speak-a{margin-top:8px;font-size:17px}
+.lx .speak-act{display:flex;gap:10px;align-items:center;margin-top:10px;flex-wrap:wrap}
+.lx .btn.sm{padding:8px 12px;font-size:14px;flex:none;min-width:0}
+.lx .muted{color:var(--muted)}

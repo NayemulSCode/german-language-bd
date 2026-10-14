@@ -88,6 +88,8 @@ export function ProfileScreen() {
         </div>
         <div className="set"><label htmlFor="unlock" className="bn">সব লেসন খোলা রাখুন <span className="muted" style={{ fontSize: 13, display: 'block' }}>ক্রম মানতে হবে না, যেকোনো লেসন শুরু করা যাবে</span></label><input id="unlock" type="checkbox" checked={progress.unlockAll} onChange={(e) => setSettings({ unlockAll: e.target.checked })} style={{ width: 20, height: 20, accentColor: 'var(--accent-ink)' }} /></div>
         <div className="set"><span className="bn">প্লেসমেন্ট টেস্ট {progress.placed ? `· শুরু: ইউনিট ${bn(progress.startUnit)}` : ''}</span><a className="btn sm ghost bn" href="#placement">{progress.placed ? 'আবার দিন' : 'দিন'}</a></div>
+        <div className="set"><span className="bn">A2 প্লেসমেন্ট টেস্ট {progress.startUnitA2 > 0 ? `· শুরু: ইউনিট ${bn(progress.startUnitA2)}` : ''}</span><a className="btn sm ghost bn" href="#placement/a2">{progress.startUnitA2 > 0 ? 'আবার দিন' : 'দিন'}</a></div>
+        <div className="set"><span className="bn">B1 প্লেসমেন্ট টেস্ট {progress.startUnitB1 > 0 ? `· শুরু: ইউনিট ${bn(progress.startUnitB1)}` : ''}</span><a className="btn sm ghost bn" href="#placement/b1">{progress.startUnitB1 > 0 ? 'আবার দিন' : 'দিন'}</a></div>
         <div className="set"><label htmlFor="pname" className="bn">আপনার নাম</label><span className="field"><input id="pname" type="text" maxLength={30} placeholder="যেমন: Saheb" value={progress.name} onChange={(e) => setSettings({ name: e.target.value })} /></span></div>
         <div className="set"><label htmlFor="exam" className="bn">পরীক্ষার তারিখ</label><span className="field"><input id="exam" type="date" value={progress.examDate} onChange={(e) => setSettings({ examDate: e.target.value })} /></span></div>
         <Account />

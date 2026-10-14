@@ -66,6 +66,7 @@ const Mcq = z.object({
   type: z.literal('mcq'),
   prompt: z.string(),
   sub: z.string().optional(),
+  passage: z.string().optional(), // a short German text to read before answering (exam reading tasks)
   subBn: z.boolean().optional(), // sub is Bangla; picking an option plays it in German
   options: z.array(z.string()).min(2),
   answer: z.number().int().min(0),

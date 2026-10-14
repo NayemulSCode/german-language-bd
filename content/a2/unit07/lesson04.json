@@ -1,0 +1,1321 @@
+{
+  "level": "A2",
+  "unit": 7,
+  "minutes": 16,
+  "lesson": 4,
+  "id": "a2-u07-l04",
+  "title": {
+    "de": "Das Handy ist defekt",
+    "bn": "অনলাইন কেনা ও অভিযোগ জানানো",
+    "en": "Online shopping and complaints"
+  },
+  "hook": {
+    "de": "Der Kunde ist König.",
+    "who": "Redensart",
+    "bn": "ক্রেতাই রাজা।",
+    "en": "The customer is king."
+  },
+  "goals": [
+    "অর্ডার ও ডেলিভারির কথা: bestellen, liefern",
+    "অভিযোগ: Ich möchte mich beschweren",
+    "পণ্য ফেরত: zurückschicken, erstatten",
+    "Passiv Präteritum চেনা: wurde geliefert"
+  ],
+  "words": [
+    {
+      "id": "bestellen",
+      "de": "bestellen",
+      "pos": "ক্রিয়া · hat bestellt",
+      "bn": "অর্ডার দেওয়া",
+      "en": "to order"
+    },
+    {
+      "id": "liefern",
+      "de": "liefern",
+      "pos": "ক্রিয়া · hat geliefert",
+      "bn": "সরবরাহ করা",
+      "en": "to deliver"
+    },
+    {
+      "id": "lieferung",
+      "de": "Lieferung",
+      "art": "die",
+      "pl": "die Lieferungen",
+      "pos": "বিশেষ্য",
+      "bn": "ডেলিভারি",
+      "en": "delivery"
+    },
+    {
+      "id": "defekt",
+      "de": "defekt",
+      "pos": "বিশেষণ",
+      "bn": "নষ্ট, ত্রুটিযুক্ত",
+      "en": "defective"
+    },
+    {
+      "id": "rechnung",
+      "de": "Rechnung",
+      "art": "die",
+      "pl": "die Rechnungen",
+      "pos": "বিশেষ্য",
+      "bn": "বিল, ইনভয়েস",
+      "en": "invoice, bill"
+    },
+    {
+      "id": "zurueckschicken",
+      "de": "zurückschicken",
+      "pos": "ক্রিয়া · hat zurückgeschickt",
+      "bn": "ফেরত পাঠানো",
+      "en": "to send back"
+    },
+    {
+      "id": "garantie",
+      "de": "Garantie",
+      "art": "die",
+      "pl": "die Garantien",
+      "pos": "বিশেষ্য",
+      "bn": "গ্যারান্টি, ওয়ারেন্টি",
+      "en": "warranty"
+    },
+    {
+      "id": "kundenservice",
+      "de": "Kundenservice",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "কাস্টমার সার্ভিস",
+      "en": "customer service"
+    },
+    {
+      "id": "ersatz",
+      "de": "Ersatz",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "বদলি জিনিস",
+      "en": "replacement"
+    },
+    {
+      "id": "beschwerde",
+      "de": "Beschwerde",
+      "art": "die",
+      "pl": "die Beschwerden",
+      "pos": "বিশেষ্য",
+      "bn": "অভিযোগ",
+      "en": "complaint"
+    },
+    {
+      "id": "sich_beschweren",
+      "de": "sich beschweren",
+      "pos": "ক্রিয়া · hat sich beschwert",
+      "bn": "অভিযোগ করা",
+      "en": "to complain"
+    },
+    {
+      "id": "erstatten",
+      "de": "erstatten",
+      "pos": "ক্রিয়া · hat erstattet",
+      "bn": "টাকা ফেরত দেওয়া",
+      "en": "to refund"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Kundenservice",
+      "bn": [
+        "কাস্টমার",
+        "সার্ভিস,",
+        "শুভ",
+        "দিন।",
+        "আমি",
+        "আপনাকে",
+        "কীভাবে",
+        "সাহায্য",
+        "করতে",
+        "পারি?"
+      ],
+      "en": [
+        "Customer",
+        "service,",
+        "good",
+        "day.",
+        "How",
+        "can",
+        "I",
+        "help",
+        "you?"
+      ],
+      "de": [
+        {
+          "t": "Kundenservice,",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Kundenservice",
+          "gb": "কাস্টমার সার্ভিস",
+          "ge": "Customer service",
+          "n": ""
+        },
+        {
+          "t": "guten Tag.",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "guten Tag",
+          "gb": "শুভ দিন",
+          "ge": "good day",
+          "n": ""
+        },
+        {
+          "t": "Wie",
+          "b": [
+            6
+          ],
+          "e": [
+            4
+          ],
+          "l": "Wie",
+          "gb": "কীভাবে",
+          "ge": "How",
+          "n": ""
+        },
+        {
+          "t": "kann",
+          "b": [
+            9
+          ],
+          "e": [
+            5
+          ],
+          "l": "kann",
+          "gb": "পারি",
+          "ge": "can",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            4
+          ],
+          "e": [
+            6
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "Ihnen",
+          "b": [
+            5
+          ],
+          "e": [
+            8
+          ],
+          "l": "Ihnen",
+          "gb": "আপনাকে",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "helfen?",
+          "b": [
+            7
+          ],
+          "e": [
+            7
+          ],
+          "l": "helfen",
+          "gb": "সাহায্য",
+          "ge": "help",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "শুভ",
+        "দিন,",
+        "আমি",
+        "এক",
+        "সপ্তাহ",
+        "আগে",
+        "একটি",
+        "ফোন",
+        "অর্ডার",
+        "করেছিলাম।",
+        "ওটা",
+        "আজ",
+        "পৌঁছেছে,",
+        "কিন্তু",
+        "নষ্ট।"
+      ],
+      "en": [
+        "Good",
+        "day,",
+        "I",
+        "ordered",
+        "a",
+        "phone",
+        "a",
+        "week",
+        "ago.",
+        "It",
+        "was",
+        "delivered",
+        "today,",
+        "but",
+        "it",
+        "is",
+        "defective."
+      ],
+      "de": [
+        {
+          "t": "Guten Tag,",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Guten Tag",
+          "gb": "শুভ দিন",
+          "ge": "Good day",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [],
+          "e": [],
+          "l": "habe",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "vor einer Woche",
+          "b": [
+            3,
+            4,
+            5
+          ],
+          "e": [
+            4,
+            7,
+            8
+          ],
+          "l": "vor einer Woche",
+          "gb": "এক সপ্তাহ আগে",
+          "ge": "a week ago",
+          "n": ""
+        },
+        {
+          "t": "ein Handy",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            6,
+            5
+          ],
+          "l": "Handy",
+          "gb": "একটি ফোন",
+          "ge": "a phone",
+          "n": ""
+        },
+        {
+          "t": "bestellt.",
+          "b": [
+            8,
+            9
+          ],
+          "e": [
+            3
+          ],
+          "l": "bestellen",
+          "gb": "অর্ডার করেছিলাম",
+          "ge": "ordered",
+          "n": ""
+        },
+        {
+          "t": "Es",
+          "b": [
+            10
+          ],
+          "e": [
+            9
+          ],
+          "l": "Es",
+          "gb": "ওটা",
+          "ge": "It",
+          "n": ""
+        },
+        {
+          "t": "wurde",
+          "b": [],
+          "e": [
+            10
+          ],
+          "l": "werden",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "was",
+          "n": "wurde geliefert = Passiv Präteritum (ডেলিভারি হয়েছিল)"
+        },
+        {
+          "t": "heute",
+          "b": [
+            11
+          ],
+          "e": [
+            12
+          ],
+          "l": "heute",
+          "gb": "আজ",
+          "ge": "today",
+          "n": ""
+        },
+        {
+          "t": "geliefert,",
+          "b": [
+            12
+          ],
+          "e": [
+            11
+          ],
+          "l": "liefern",
+          "gb": "পৌঁছেছে",
+          "ge": "delivered",
+          "n": ""
+        },
+        {
+          "t": "aber",
+          "b": [
+            13
+          ],
+          "e": [
+            13
+          ],
+          "l": "aber",
+          "gb": "কিন্তু",
+          "ge": "but",
+          "n": ""
+        },
+        {
+          "t": "es",
+          "b": [],
+          "e": [
+            14
+          ],
+          "l": "es",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "it",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            15
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "defekt.",
+          "b": [
+            14
+          ],
+          "e": [
+            16
+          ],
+          "l": "defekt",
+          "gb": "নষ্ট",
+          "ge": "defective",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Kundenservice",
+      "bn": [
+        "দুঃখিত।",
+        "আপনার",
+        "কাছে",
+        "কি",
+        "বিল",
+        "আছে?"
+      ],
+      "en": [
+        "I",
+        "am",
+        "sorry.",
+        "Do",
+        "you",
+        "have",
+        "the",
+        "invoice?"
+      ],
+      "de": [
+        {
+          "t": "Das",
+          "b": [],
+          "e": [],
+          "l": "Das",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "tut",
+          "b": [],
+          "e": [],
+          "l": "tut",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "mir",
+          "b": [],
+          "e": [],
+          "l": "mir",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "leid.",
+          "b": [
+            0
+          ],
+          "e": [
+            2
+          ],
+          "l": "leid",
+          "gb": "দুঃখিত",
+          "ge": "sorry",
+          "n": ""
+        },
+        {
+          "t": "Haben",
+          "b": [
+            5
+          ],
+          "e": [
+            5
+          ],
+          "l": "Haben",
+          "gb": "আছে",
+          "ge": "have",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [
+            1
+          ],
+          "e": [
+            4
+          ],
+          "l": "Sie",
+          "gb": "আপনার",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "die Rechnung?",
+          "b": [
+            4
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "Rechnung",
+          "gb": "বিল",
+          "ge": "the invoice",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "হ্যাঁ,",
+        "বিলের",
+        "নম্বর",
+        "ইমেইলে",
+        "আছে।",
+        "আমি",
+        "ফোনটা",
+        "ফেরত",
+        "পাঠাতে",
+        "চাই।"
+      ],
+      "en": [
+        "Yes,",
+        "the",
+        "invoice",
+        "number",
+        "is",
+        "in",
+        "the",
+        "email.",
+        "I",
+        "would",
+        "like",
+        "to",
+        "send",
+        "the",
+        "phone",
+        "back."
+      ],
+      "de": [
+        {
+          "t": "Ja,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ja",
+          "gb": "হ্যাঁ",
+          "ge": "Yes",
+          "n": ""
+        },
+        {
+          "t": "die Rechnungsnummer",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            1,
+            2,
+            3
+          ],
+          "l": "Rechnung",
+          "gb": "বিলের নম্বর",
+          "ge": "the invoice number",
+          "n": ""
+        },
+        {
+          "t": "steht",
+          "b": [
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "steht",
+          "gb": "আছে",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "in der E-Mail.",
+          "b": [
+            3
+          ],
+          "e": [
+            5,
+            6,
+            7
+          ],
+          "l": "in der E-Mail",
+          "gb": "ইমেইলে",
+          "ge": "in the email",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            5
+          ],
+          "e": [
+            8
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "möchte",
+          "b": [
+            9
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "möchte",
+          "gb": "চাই",
+          "ge": "would like",
+          "n": ""
+        },
+        {
+          "t": "das Handy",
+          "b": [
+            6
+          ],
+          "e": [
+            13,
+            14
+          ],
+          "l": "Handy",
+          "gb": "ফোনটা",
+          "ge": "the phone",
+          "n": ""
+        },
+        {
+          "t": "zurückschicken.",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            12,
+            15
+          ],
+          "l": "zurückschicken",
+          "gb": "ফেরত পাঠাতে",
+          "ge": "send back",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Kundenservice",
+      "bn": [
+        "কোনো",
+        "সমস্যা",
+        "নেই।",
+        "আপনি",
+        "ইমেইলে",
+        "একটি",
+        "লেবেল",
+        "পাবেন।",
+        "টাকা",
+        "সাত",
+        "দিনের",
+        "মধ্যে",
+        "ফেরত",
+        "দেওয়া",
+        "হবে।"
+      ],
+      "en": [
+        "No",
+        "problem.",
+        "You",
+        "will",
+        "receive",
+        "a",
+        "label",
+        "by",
+        "email.",
+        "The",
+        "money",
+        "will",
+        "be",
+        "refunded",
+        "within",
+        "seven",
+        "days."
+      ],
+      "de": [
+        {
+          "t": "Kein Problem.",
+          "b": [
+            0,
+            1,
+            2
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Kein Problem",
+          "gb": "কোনো সমস্যা নেই",
+          "ge": "No problem",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "Sie",
+          "gb": "আপনি",
+          "ge": "You",
+          "n": ""
+        },
+        {
+          "t": "bekommen",
+          "b": [
+            7
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "bekommen",
+          "gb": "পাবেন",
+          "ge": "will receive",
+          "n": ""
+        },
+        {
+          "t": "ein Etikett",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "ein Etikett",
+          "gb": "একটি লেবেল",
+          "ge": "a label",
+          "n": ""
+        },
+        {
+          "t": "per E-Mail.",
+          "b": [
+            4
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "per E-Mail",
+          "gb": "ইমেইলে",
+          "ge": "by email",
+          "n": ""
+        },
+        {
+          "t": "Das Geld",
+          "b": [
+            8
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "Das Geld",
+          "gb": "টাকা",
+          "ge": "The money",
+          "n": ""
+        },
+        {
+          "t": "wird",
+          "b": [
+            14
+          ],
+          "e": [
+            11,
+            12
+          ],
+          "l": "wird",
+          "gb": "হবে",
+          "ge": "will be",
+          "n": ""
+        },
+        {
+          "t": "in sieben Tagen",
+          "b": [
+            9,
+            10,
+            11
+          ],
+          "e": [
+            14,
+            15,
+            16
+          ],
+          "l": "in sieben Tagen",
+          "gb": "সাত দিনের মধ্যে",
+          "ge": "within seven days",
+          "n": ""
+        },
+        {
+          "t": "erstattet.",
+          "b": [
+            12,
+            13
+          ],
+          "e": [
+            13
+          ],
+          "l": "erstatten",
+          "gb": "ফেরত দেওয়া",
+          "ge": "refunded",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "ধন্যবাদ।",
+        "আমি",
+        "টাকার",
+        "চেয়ে",
+        "একটি",
+        "নতুন",
+        "ফোন",
+        "বেশি",
+        "পছন্দ",
+        "করতাম।"
+      ],
+      "en": [
+        "Thank",
+        "you.",
+        "I",
+        "would",
+        "prefer",
+        "a",
+        "new",
+        "phone",
+        "to",
+        "the",
+        "money."
+      ],
+      "de": [
+        {
+          "t": "Danke.",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Danke",
+          "gb": "ধন্যবাদ",
+          "ge": "Thank you",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "hätte",
+          "b": [
+            8,
+            9
+          ],
+          "e": [
+            3
+          ],
+          "l": "haben",
+          "gb": "পছন্দ করতাম",
+          "ge": "would",
+          "n": ""
+        },
+        {
+          "t": "lieber",
+          "b": [
+            7
+          ],
+          "e": [
+            4
+          ],
+          "l": "lieber",
+          "gb": "বেশি",
+          "ge": "prefer",
+          "n": "lieber … als = বেশি পছন্দ … -র চেয়ে"
+        },
+        {
+          "t": "ein neues Handy",
+          "b": [
+            4,
+            5,
+            6
+          ],
+          "e": [
+            5,
+            6,
+            7
+          ],
+          "l": "ein neues Handy",
+          "gb": "একটি নতুন ফোন",
+          "ge": "a new phone",
+          "n": ""
+        },
+        {
+          "t": "als",
+          "b": [
+            3
+          ],
+          "e": [
+            8
+          ],
+          "l": "als",
+          "gb": "চেয়ে",
+          "ge": "to",
+          "n": ""
+        },
+        {
+          "t": "das Geld.",
+          "b": [
+            2
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "das Geld",
+          "gb": "টাকার",
+          "ge": "the money",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Kundenservice",
+      "bn": [
+        "তাহলে",
+        "আমরা",
+        "আপনাকে",
+        "একটি",
+        "বদলি",
+        "ফোন",
+        "পাঠাব।"
+      ],
+      "en": [
+        "Then",
+        "we",
+        "will",
+        "send",
+        "you",
+        "a",
+        "replacement",
+        "phone."
+      ],
+      "de": [
+        {
+          "t": "Dann",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Dann",
+          "gb": "তাহলে",
+          "ge": "Then",
+          "n": ""
+        },
+        {
+          "t": "schicken",
+          "b": [
+            6
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "schicken",
+          "gb": "পাঠাব",
+          "ge": "will send",
+          "n": ""
+        },
+        {
+          "t": "wir",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "wir",
+          "gb": "আমরা",
+          "ge": "we",
+          "n": ""
+        },
+        {
+          "t": "Ihnen",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "Ihnen",
+          "gb": "আপনাকে",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "einen Ersatz.",
+          "b": [
+            3,
+            4,
+            5
+          ],
+          "e": [
+            5,
+            6,
+            7
+          ],
+          "l": "Ersatz",
+          "gb": "একটি বদলি ফোন",
+          "ge": "a replacement phone",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "অভিযোগ ও ফেরতের বাক্য",
+      "head": [
+        "পরিস্থিতি",
+        "বাক্য"
+      ],
+      "rows": [
+        [
+          "সমস্যা জানানো",
+          "Das Gerät ist defekt. / Es funktioniert nicht."
+        ],
+        [
+          "অভিযোগ করা",
+          "Ich möchte mich über die Lieferung beschweren."
+        ],
+        [
+          "ফেরত চাওয়া",
+          "Ich möchte das Handy zurückschicken."
+        ],
+        [
+          "টাকা ফেরত",
+          "Bitte erstatten Sie mir das Geld."
+        ],
+        [
+          "বদলি চাওয়া",
+          "Ich hätte gern einen Ersatz."
+        ],
+        [
+          "প্রমাণ",
+          "Die Rechnungsnummer steht in der E-Mail."
+        ]
+      ],
+      "note": "EU-তে অনলাইন কেনাকাটায় সাধারণত ১৪ দিনের মধ্যে ফেরত দেওয়ার অধিকার (Widerrufsrecht) থাকে; নষ্ট পণ্যে গ্যারান্টি/ওয়ারেন্টি আলাদা। বিক্রেতার শর্ত দেখে নিন।"
+    },
+    {
+      "type": "table",
+      "title": "Passiv Präteritum (শুধু চেনার জন্য)",
+      "head": [
+        "Präsens",
+        "Präteritum"
+      ],
+      "rows": [
+        [
+          "Das Handy wird geliefert.",
+          "Das Handy wurde geliefert."
+        ],
+        [
+          "Die Straße wird repariert.",
+          "Die Straße wurde repariert."
+        ],
+        [
+          "Das Geld wird erstattet.",
+          "Das Geld wurde erstattet."
+        ]
+      ],
+      "note": "wurde / wurden + Partizip II = কাজটা অতীতে করা হয়েছিল। লেখায় ও সংবাদে এটি বেশি দেখা যায়।"
+    },
+    {
+      "type": "text",
+      "title": "lieber … als",
+      "text": "„Ich trinke lieber Tee als Kaffee.“ = কফির চেয়ে চা বেশি পছন্দ। Konjunktiv II-এর সাথে: „Ich hätte lieber ein neues Handy als das Geld.“ — „lieber“ = gern-এর Komparativ।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "die Lieferung",
+      "options": [
+        "ডেলিভারি",
+        "সরবরাহ করা",
+        "বিল",
+        "গ্যারান্টি"
+      ],
+      "answer": 0,
+      "why": "die Lieferung = ডেলিভারি।",
+      "word": "lieferung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "defekt",
+      "options": [
+        "নষ্ট",
+        "গ্যারান্টি",
+        "অভিযোগ",
+        "অর্ডার দেওয়া"
+      ],
+      "answer": 0,
+      "why": "defekt = নষ্ট।",
+      "word": "defekt"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "erstatten",
+      "options": [
+        "বদলি জিনিস",
+        "টাকা ফেরত দেওয়া",
+        "অর্ডার দেওয়া",
+        "নষ্ট"
+      ],
+      "answer": 1,
+      "why": "erstatten = টাকা ফেরত দেওয়া।",
+      "word": "erstatten"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Rechnung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Rechnung। বহুবচন: die Rechnungen।",
+      "word": "rechnung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Das Handy wurde geliefert“ মানে কী?",
+      "options": [
+        "ফোনটা ডেলিভারি হয়েছিল",
+        "ফোনটা ডেলিভারি হবে",
+        "ফোনটা কেউ আনছে না",
+        "ফোনটা ডেলিভারি করুন"
+      ],
+      "answer": 0,
+      "why": "wurde + Partizip = Passiv Präteritum।",
+      "word": "liefern"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ich möchte das Handy ___.",
+      "options": [
+        "zurückschicken",
+        "zurückgeschickt",
+        "schickt zurück",
+        "zurückschickte"
+      ],
+      "answer": 0,
+      "why": "möchte + Infinitiv।",
+      "word": "zurueckschicken"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ich hätte lieber Tee ___ Kaffee.",
+      "options": [
+        "als",
+        "wie",
+        "dass",
+        "ob"
+      ],
+      "answer": 0,
+      "why": "lieber … als।",
+      "word": "ersatz"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Ich möchte mich beschweren“ কখন বলবেন?",
+      "options": [
+        "অভিযোগ জানাতে",
+        "ধন্যবাদ দিতে",
+        "অর্ডার করতে",
+        "বিদায় নিতে"
+      ],
+      "answer": 0,
+      "why": "sich beschweren = অভিযোগ।",
+      "word": "beschwerde"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Widerrufsrecht কী?",
+      "options": [
+        "ফেরত দেওয়ার অধিকার",
+        "বিল দেওয়ার নিয়ম",
+        "অর্ডারের নম্বর",
+        "ডেলিভারির সময়"
+      ],
+      "answer": 0,
+      "why": "সাধারণত ১৪ দিন।",
+      "word": "garantie"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „আমি ফোনটা ফেরত পাঠাতে চাই।“",
+      "tiles": [
+        "zurückschicken.",
+        "das Handy",
+        "möchte",
+        "Ich"
+      ],
+      "answer": [
+        "Ich",
+        "möchte",
+        "das Handy",
+        "zurückschicken."
+      ],
+      "why": "Modalverb ২য়, Infinitiv শেষে।",
+      "word": "zurueckschicken"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

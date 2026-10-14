@@ -558,5 +558,1349 @@
     "status": "draft",
     "minutes": 18,
     "words": 10
+  },
+  {
+    "id": "a2-u01-l01",
+    "level": "A2",
+    "unit": 1,
+    "lesson": 1,
+    "title": {
+      "bn": "গতকাল কী করলে? — Perfekt (haben)",
+      "en": "What did you do yesterday? Perfect tense with haben",
+      "de": "Was hast du gestern gemacht?"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u01-l02",
+    "level": "A2",
+    "unit": 1,
+    "lesson": 2,
+    "title": {
+      "bn": "Perfekt (sein) ও অনিয়মিত ক্রিয়া",
+      "en": "Perfect with sein and irregular verbs",
+      "de": "Ich bin nach Berlin gefahren"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u01-l03",
+    "level": "A2",
+    "unit": 1,
+    "lesson": 3,
+    "title": {
+      "bn": "ভাঙা ও অভাঙা ক্রিয়ার Perfekt",
+      "en": "Separable and inseparable verbs in the perfect",
+      "de": "Wie war dein Wochenende?"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u01-l04",
+    "level": "A2",
+    "unit": 1,
+    "lesson": 4,
+    "title": {
+      "bn": "war, hatte, konnte — Präteritum",
+      "en": "Then and now: preterite of sein, haben and modals",
+      "de": "Früher und heute"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u02-l01",
+    "level": "A2",
+    "unit": 2,
+    "lesson": 1,
+    "title": {
+      "bn": "Dativ: mir, dir, ihm, ihr",
+      "en": "Can you help me? The dative case",
+      "de": "Können Sie mir helfen?"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u02-l02",
+    "level": "A2",
+    "unit": 2,
+    "lesson": 2,
+    "title": {
+      "bn": "Präpositionen mit Dativ",
+      "en": "Prepositions with the dative",
+      "de": "Mit dem Bus zur Arbeit"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u02-l03",
+    "level": "A2",
+    "unit": 2,
+    "lesson": 3,
+    "title": {
+      "bn": "ফোনে ও ইমেইলে ভদ্র অনুরোধ",
+      "en": "Telephoning and polite requests",
+      "de": "Könnte ich bitte Herrn Schmidt sprechen?"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u02-l04",
+    "level": "A2",
+    "unit": 2,
+    "lesson": 4,
+    "title": {
+      "bn": "কারণ বলা: weil-বাক্য",
+      "en": "Giving reasons with weil",
+      "de": "Ich komme zu spät, weil …"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u03-l01",
+    "level": "A2",
+    "unit": 3,
+    "lesson": 1,
+    "title": {
+      "bn": "Wechselpräpositionen: wo? / wohin?",
+      "en": "Two-way prepositions: where? and where to?",
+      "de": "Wo ist mein Reisepass?"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u03-l02",
+    "level": "A2",
+    "unit": 3,
+    "lesson": 2,
+    "title": {
+      "bn": "স্টেশনে: টিকিট, প্ল্যাটফর্ম, ট্রেন বদল",
+      "en": "At the station: tickets, platforms and changes",
+      "de": "Eine Fahrkarte nach München"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u03-l03",
+    "level": "A2",
+    "unit": 3,
+    "lesson": 3,
+    "title": {
+      "bn": "তুলনা: Komparativ ও Superlativ",
+      "en": "Comparing: comparative and superlative",
+      "de": "Das Hotel ist teurer als die Jugendherberge"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u03-l04",
+    "level": "A2",
+    "unit": 3,
+    "lesson": 4,
+    "title": {
+      "bn": "শর্ত ও পরিকল্পনা: wenn, werden",
+      "en": "Conditions and plans: wenn and werden",
+      "de": "Wenn das Wetter schön ist …"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u04-l01",
+    "level": "A2",
+    "unit": 4,
+    "lesson": 1,
+    "title": {
+      "bn": "ডাক্তারের কাছে: অসুখের বর্ণনা",
+      "en": "At the doctor: describing symptoms",
+      "de": "Was fehlt Ihnen?"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u04-l02",
+    "level": "A2",
+    "unit": 4,
+    "lesson": 2,
+    "title": {
+      "bn": "reflexive Verben: sich fühlen, sich freuen",
+      "en": "Reflexive verbs: I don’t feel well",
+      "de": "Ich fühle mich nicht gut"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u04-l03",
+    "level": "A2",
+    "unit": 4,
+    "lesson": 3,
+    "title": {
+      "bn": "ফার্মেসিতে: Imperativ ও ওষুধের নিয়ম",
+      "en": "At the pharmacy: imperative and dosage",
+      "de": "In der Apotheke"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u04-l04",
+    "level": "A2",
+    "unit": 4,
+    "lesson": 4,
+    "title": {
+      "bn": "dass-বাক্য: মতামত ও খবর",
+      "en": "dass-clauses: opinions and reports",
+      "de": "Ich finde, dass Sport wichtig ist"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u05-l01",
+    "level": "A2",
+    "unit": 5,
+    "lesson": 1,
+    "title": {
+      "bn": "বাসার বিজ্ঞাপন: ভাড়া, খরচ, জামানত",
+      "en": "A flat in Berlin: reading rental ads",
+      "de": "Eine Wohnung in Berlin"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u05-l02",
+    "level": "A2",
+    "unit": 5,
+    "lesson": 2,
+    "title": {
+      "bn": "বিশেষণের শেষে -e, -en, -es, -er",
+      "en": "Adjective endings after ein-",
+      "de": "Ich suche eine kleine, helle Wohnung"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u05-l03",
+    "level": "A2",
+    "unit": 5,
+    "lesson": 3,
+    "title": {
+      "bn": "ফ্ল্যাট দেখতে যাওয়া: পরোক্ষ প্রশ্ন (ob, wie, wann)",
+      "en": "The viewing: indirect questions",
+      "de": "Die Besichtigung"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u05-l04",
+    "level": "A2",
+    "unit": 5,
+    "lesson": 4,
+    "title": {
+      "bn": "সমস্যা জানানো ও Relativsatz (der, die, das)",
+      "en": "Reporting problems and relative clauses",
+      "de": "Die Heizung ist kaputt"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u06-l01",
+    "level": "A2",
+    "unit": 6,
+    "lesson": 1,
+    "title": {
+      "bn": "নিমন্ত্রণ: দাওয়াত দেওয়া, রাজি হওয়া, না করা",
+      "en": "Invitations: inviting, accepting, declining",
+      "de": "Ich lade dich ein"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u06-l02",
+    "level": "A2",
+    "unit": 6,
+    "lesson": 2,
+    "title": {
+      "bn": "উপহার: Dativ ও Akkusativ একসাথে",
+      "en": "Gifts: dative and accusative together",
+      "de": "Was schenkst du ihr?"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u06-l03",
+    "level": "A2",
+    "unit": 6,
+    "lesson": 3,
+    "title": {
+      "bn": "উৎসব: obwohl (যদিও)",
+      "en": "Festivals: obwohl (although)",
+      "de": "Feste in Deutschland und Bangladesch"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u06-l04",
+    "level": "A2",
+    "unit": 6,
+    "lesson": 4,
+    "title": {
+      "bn": "ইচ্ছা ও কল্পনা: hätte, wäre, würde",
+      "en": "Wishes and dreams: hätte, wäre, würde",
+      "de": "Was würdest du tun, wenn …?"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u07-l01",
+    "level": "A2",
+    "unit": 7,
+    "lesson": 1,
+    "title": {
+      "bn": "Verben mit Präposition: warten auf, denken an",
+      "en": "Verbs with prepositions",
+      "de": "Ich warte auf einen Anruf"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u07-l02",
+    "level": "A2",
+    "unit": 7,
+    "lesson": 2,
+    "title": {
+      "bn": "খবর: Passiv Präsens (wird gesendet)",
+      "en": "The news: the present passive",
+      "de": "Was steht in der Zeitung?"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u07-l03",
+    "level": "A2",
+    "unit": 7,
+    "lesson": 3,
+    "title": {
+      "bn": "সোশ্যাল মিডিয়া: je … desto",
+      "en": "Social media: the more … the …",
+      "de": "Je mehr, desto besser?"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u07-l04",
+    "level": "A2",
+    "unit": 7,
+    "lesson": 4,
+    "title": {
+      "bn": "অনলাইন কেনা ও অভিযোগ জানানো",
+      "en": "Online shopping and complaints",
+      "de": "Das Handy ist defekt"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u08-l01",
+    "level": "A2",
+    "unit": 8,
+    "lesson": 1,
+    "title": {
+      "bn": "ভাষা কোর্সে ভর্তি হওয়া",
+      "en": "Registering for a German course",
+      "de": "Ich möchte mich für einen Kurs anmelden"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u08-l02",
+    "level": "A2",
+    "unit": 8,
+    "lesson": 2,
+    "title": {
+      "bn": "Infinitiv mit zu: শেখার কৌশল",
+      "en": "Infinitive with zu: learning strategies",
+      "de": "Es ist wichtig, jeden Tag zu lernen"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u08-l03",
+    "level": "A2",
+    "unit": 8,
+    "lesson": 3,
+    "title": {
+      "bn": "উদ্দেশ্য: um … zu এবং damit",
+      "en": "Purpose: um … zu and damit",
+      "de": "Ich lerne, um die Prüfung zu bestehen"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u08-l04",
+    "level": "A2",
+    "unit": 8,
+    "lesson": 4,
+    "title": {
+      "bn": "পড়ার পরিকল্পনা: zuerst, danach, zum Schluss",
+      "en": "My study plan: order and frequency",
+      "de": "Mein Lernplan"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u09-l01",
+    "level": "A2",
+    "unit": 9,
+    "lesson": 1,
+    "title": {
+      "bn": "আবহাওয়ার খবর বোঝা",
+      "en": "The weather forecast",
+      "de": "Das Wetter für morgen"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u09-l02",
+    "level": "A2",
+    "unit": 9,
+    "lesson": 2,
+    "title": {
+      "bn": "ঋতু ও প্রকৃতি",
+      "en": "Seasons and nature",
+      "de": "Meine liebste Jahreszeit"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u09-l03",
+    "level": "A2",
+    "unit": 9,
+    "lesson": 3,
+    "title": {
+      "bn": "ভ্রমণের গল্প: Perfekt ও Präteritum",
+      "en": "Telling about a hike: perfect and preterite",
+      "de": "Wie war die Wanderung?"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u09-l04",
+    "level": "A2",
+    "unit": 9,
+    "lesson": 4,
+    "title": {
+      "bn": "মূল্যবান ময়লা আলাদা করা (Mülltrennung)",
+      "en": "Waste separation and the environment",
+      "de": "Wohin kommt der Müll?"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u10-l01",
+    "level": "A2",
+    "unit": 10,
+    "lesson": 1,
+    "title": {
+      "bn": "বাসস্থান নিবন্ধন (Anmeldung)",
+      "en": "Registering your address",
+      "de": "Anmeldung beim Bürgeramt"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u10-l02",
+    "level": "A2",
+    "unit": 10,
+    "lesson": 2,
+    "title": {
+      "bn": "ভিসা ও আবাসিক অনুমতি বাড়ানো",
+      "en": "Extending a visa or residence permit",
+      "de": "Mein Visum läuft ab"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u10-l03",
+    "level": "A2",
+    "unit": 10,
+    "lesson": 3,
+    "title": {
+      "bn": "ব্যাংক অ্যাকাউন্ট খোলা",
+      "en": "Opening a bank account",
+      "de": "Ein Konto eröffnen"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u10-l04",
+    "level": "A2",
+    "unit": 10,
+    "lesson": 4,
+    "title": {
+      "bn": "অফিসের চিঠি বোঝা: Frist, Unterlagen, Genitiv",
+      "en": "Understanding an official letter",
+      "de": "Ein Brief vom Amt"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u11-l01",
+    "level": "A2",
+    "unit": 11,
+    "lesson": 1,
+    "title": {
+      "bn": "চেহারা ও স্বভাবের বর্ণনা",
+      "en": "Describing people: looks and character",
+      "de": "Wie sieht sie aus?"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u11-l02",
+    "level": "A2",
+    "unit": 11,
+    "lesson": 2,
+    "title": {
+      "bn": "অনুভূতি, ঝগড়া ও ক্ষমা",
+      "en": "Feelings, disagreements and apologies",
+      "de": "Es tut mir leid"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u11-l03",
+    "level": "A2",
+    "unit": 11,
+    "lesson": 3,
+    "title": {
+      "bn": "দেখা করার পরিকল্পনা: প্রস্তাব, সময় ঠিক করা",
+      "en": "Making plans: suggestions and times",
+      "de": "Wie wäre es mit einem Konzert?"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u11-l04",
+    "level": "A2",
+    "unit": 11,
+    "lesson": 4,
+    "title": {
+      "bn": "বন্ধুকে ইমেইল লেখা",
+      "en": "Writing an email to a friend",
+      "de": "Lieber Tom, …"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u12-l01",
+    "level": "A2",
+    "unit": 12,
+    "lesson": 1,
+    "title": {
+      "bn": "ভবিষ্যতের পরিকল্পনা ও লক্ষ্য",
+      "en": "Plans and goals for the future",
+      "de": "Was hast du vor?"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u12-l02",
+    "level": "A2",
+    "unit": 12,
+    "lesson": 2,
+    "title": {
+      "bn": "জার্মানিতে কাজ খোঁজা (Chancenkarte)",
+      "en": "Looking for work in Germany",
+      "de": "Arbeit in Deutschland suchen"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u12-l03",
+    "level": "A2",
+    "unit": 12,
+    "lesson": 3,
+    "title": {
+      "bn": "সিভি (Lebenslauf) লেখা",
+      "en": "Writing a German CV",
+      "de": "Mein Lebenslauf"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "a2-u12-l04",
+    "level": "A2",
+    "unit": 12,
+    "lesson": 4,
+    "title": {
+      "bn": "A2-এর রিভিউ ও পরবর্তী ধাপ",
+      "en": "Done! A2 review and what comes next",
+      "de": "Geschafft! Rückblick auf A2"
+    },
+    "status": "draft",
+    "minutes": 16,
+    "words": 12
+  },
+  {
+    "id": "b1-u01-l01",
+    "level": "B1",
+    "unit": 1,
+    "lesson": 1,
+    "title": {
+      "bn": "চাকরির বিজ্ঞাপন পড়া",
+      "en": "Understanding a job advert",
+      "de": "Eine Stellenanzeige verstehen"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u01-l02",
+    "level": "B1",
+    "unit": 1,
+    "lesson": 2,
+    "title": {
+      "bn": "কভার লেটার (Anschreiben) লেখা",
+      "en": "Writing a cover letter",
+      "de": "Das Anschreiben"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u01-l03",
+    "level": "B1",
+    "unit": 1,
+    "lesson": 3,
+    "title": {
+      "bn": "ইন্টারভিউ: প্রশ্ন ও উত্তর",
+      "en": "The job interview",
+      "de": "Das Vorstellungsgespräch"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u01-l04",
+    "level": "B1",
+    "unit": 1,
+    "lesson": 4,
+    "title": {
+      "bn": "চাকরির চুক্তি, বেতন ও কর",
+      "en": "The employment contract",
+      "de": "Der Arbeitsvertrag"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u02-l01",
+    "level": "B1",
+    "unit": 2,
+    "lesson": 1,
+    "title": {
+      "bn": "সময়ের বাক্য ও Plusquamperfekt",
+      "en": "Temporal clauses and the past perfect",
+      "de": "Nachdem ich gewartet hatte …"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u02-l02",
+    "level": "B1",
+    "unit": 2,
+    "lesson": 2,
+    "title": {
+      "bn": "আবেদন, অনুবাদ ও প্রত্যয়ন",
+      "en": "Applications, translations and certifications",
+      "de": "Anträge und Beglaubigungen"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u02-l03",
+    "level": "B1",
+    "unit": 2,
+    "lesson": 3,
+    "title": {
+      "bn": "বিমা: কোনটা সত্যিই দরকার? (falls, hätte … sollen)",
+      "en": "Insurance: what do I really need?",
+      "de": "Versicherungen: Was brauche ich wirklich?"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u02-l04",
+    "level": "B1",
+    "unit": 2,
+    "lesson": 4,
+    "title": {
+      "bn": "সিদ্ধান্তের বিরুদ্ধে আপত্তি জানানো",
+      "en": "Objecting to an official decision",
+      "de": "Widerspruch einlegen"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u03-l01",
+    "level": "B1",
+    "unit": 3,
+    "lesson": 1,
+    "title": {
+      "bn": "জলবায়ু পরিবর্তন: কারণ ও ফল",
+      "en": "Causes and effects of climate change",
+      "de": "Ursachen und Folgen des Klimawandels"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u03-l02",
+    "level": "B1",
+    "unit": 3,
+    "lesson": 2,
+    "title": {
+      "bn": "বিদ্যুৎ ও গরম বাঁচানোর পরামর্শ",
+      "en": "How can I save energy?",
+      "de": "Wie kann ich Energie sparen?"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u03-l03",
+    "level": "B1",
+    "unit": 3,
+    "lesson": 3,
+    "title": {
+      "bn": "যাতায়াত ও পরিবেশ: zwar … aber, je … desto",
+      "en": "Car, bus or bike? Mobility and the environment",
+      "de": "Auto, Bus oder Fahrrad?"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u03-l04",
+    "level": "B1",
+    "unit": 3,
+    "lesson": 4,
+    "title": {
+      "bn": "আলোচনা: Passiv mit Modalverb, Pro und Contra",
+      "en": "Debate: passive with modal verbs",
+      "de": "Sollten Plastiktüten verboten werden?"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u04-l01",
+    "level": "B1",
+    "unit": 4,
+    "lesson": 1,
+    "title": {
+      "bn": "জার্মানির স্কুলব্যবস্থা",
+      "en": "The German school system",
+      "de": "Das deutsche Schulsystem"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u04-l02",
+    "level": "B1",
+    "unit": 4,
+    "lesson": 2,
+    "title": {
+      "bn": "জার্মানিতে উচ্চশিক্ষা",
+      "en": "Studying in Germany",
+      "de": "Studieren in Deutschland"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u04-l03",
+    "level": "B1",
+    "unit": 4,
+    "lesson": 3,
+    "title": {
+      "bn": "কাজের পাশাপাশি পড়াশোনা: während, seit, bis, solange",
+      "en": "Working and continuing to learn",
+      "de": "Arbeiten und weiterlernen"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u04-l04",
+    "level": "B1",
+    "unit": 4,
+    "lesson": 4,
+    "title": {
+      "bn": "কীভাবে ভালোভাবে শেখা যায়",
+      "en": "Learning how to learn",
+      "de": "Lernen lernen"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u05-l01",
+    "level": "B1",
+    "unit": 5,
+    "lesson": 1,
+    "title": {
+      "bn": "কর্মক্ষেত্রে কম্পিউটার ও সফটওয়্যার",
+      "en": "Technology at the workplace",
+      "de": "Technik am Arbeitsplatz"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u05-l02",
+    "level": "B1",
+    "unit": 5,
+    "lesson": 2,
+    "title": {
+      "bn": "কৃত্রিম বুদ্ধিমত্তা ও স্মার্টফোন",
+      "en": "Artificial intelligence in everyday life",
+      "de": "Künstliche Intelligenz im Alltag"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u05-l03",
+    "level": "B1",
+    "unit": 5,
+    "lesson": 3,
+    "title": {
+      "bn": "সাপোর্ট ও মেরামত: lässt sich, ist zu + Infinitiv",
+      "en": "Support and repairs: passive substitutes",
+      "de": "Der Laptop lässt sich nicht einschalten"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u05-l04",
+    "level": "B1",
+    "unit": 5,
+    "lesson": 4,
+    "title": {
+      "bn": "অনলাইনে নিরাপত্তা ও তথ্য সুরক্ষা",
+      "en": "Staying safe online",
+      "de": "Sicher im Netz"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u06-l01",
+    "level": "B1",
+    "unit": 6,
+    "lesson": 1,
+    "title": {
+      "bn": "নিজের মত প্রকাশ ও যুক্তি দেওয়া",
+      "en": "Expressing and justifying opinions",
+      "de": "Ich bin der Meinung, dass …"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u06-l02",
+    "level": "B1",
+    "unit": 6,
+    "lesson": 2,
+    "title": {
+      "bn": "সম্মতি, আপত্তি ও আংশিক একমত হওয়া",
+      "en": "Agreeing and disagreeing politely",
+      "de": "Da stimme ich zu — da nicht"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u06-l03",
+    "level": "B1",
+    "unit": 6,
+    "lesson": 3,
+    "title": {
+      "bn": "আলোচনায় যুক্তি সাজানো: Pro und Contra",
+      "en": "Structuring a discussion: pros and cons",
+      "de": "Tempolimit auf der Autobahn?"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u06-l04",
+    "level": "B1",
+    "unit": 6,
+    "lesson": 4,
+    "title": {
+      "bn": "পাঠকের চিঠি লেখা: Stellung nehmen",
+      "en": "Writing a letter to the editor",
+      "de": "Ein Leserbrief"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u07-l01",
+    "level": "B1",
+    "unit": 7,
+    "lesson": 1,
+    "title": {
+      "bn": "কাজের দৈনন্দিন জীবন ও শিফট",
+      "en": "My working day and shift work",
+      "de": "Mein Arbeitsalltag"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u07-l02",
+    "level": "B1",
+    "unit": 7,
+    "lesson": 2,
+    "title": {
+      "bn": "কাজের দ্বন্দ্ব ও ভদ্র সমালোচনা",
+      "en": "Handling conflict and giving feedback",
+      "de": "Ein Gespräch mit dem Chef"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u07-l03",
+    "level": "B1",
+    "unit": 7,
+    "lesson": 3,
+    "title": {
+      "bn": "টিম মিটিং ও কার্যবিবরণী (Protokoll)",
+      "en": "The team meeting and the minutes",
+      "de": "Die Teambesprechung"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u07-l04",
+    "level": "B1",
+    "unit": 7,
+    "lesson": 4,
+    "title": {
+      "bn": "অসুস্থতা, ছুটি ও চাকরি ছাড়া: অধিকার ও দায়িত্ব",
+      "en": "Sick leave, holiday, termination: rights and duties",
+      "de": "Krank, Urlaub, Kündigung"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u08-l01",
+    "level": "B1",
+    "unit": 8,
+    "lesson": 1,
+    "title": {
+      "bn": "বৈচিত্র্যময় সমাজে একসাথে থাকা",
+      "en": "Living together in a diverse society",
+      "de": "Zusammenleben in einer vielfältigen Gesellschaft"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u08-l02",
+    "level": "B1",
+    "unit": 8,
+    "lesson": 2,
+    "title": {
+      "bn": "স্বেচ্ছাসেবা ও ক্লাব-সংগঠন",
+      "en": "Volunteering and clubs",
+      "de": "Ehrenamt und Vereine"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u08-l03",
+    "level": "B1",
+    "unit": 8,
+    "lesson": 3,
+    "title": {
+      "bn": "পরিবার, কিটা ও সমানাধিকার",
+      "en": "Family, daycare and equality",
+      "de": "Familie, Kita und Gleichberechtigung"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u08-l04",
+    "level": "B1",
+    "unit": 8,
+    "lesson": 4,
+    "title": {
+      "bn": "বাড়ির নিয়ম ও প্রতিবেশীর সাথে ভদ্র সম্পর্ক",
+      "en": "House rules and good neighbours",
+      "de": "Hausordnung und gute Nachbarschaft"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u09-l01",
+    "level": "B1",
+    "unit": 9,
+    "lesson": 1,
+    "title": {
+      "bn": "টাকা ও মাসিক বাজেট",
+      "en": "Money and budget",
+      "de": "Geld und Budget"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u09-l02",
+    "level": "B1",
+    "unit": 9,
+    "lesson": 2,
+    "title": {
+      "bn": "বিজ্ঞাপন ও কেনার সিদ্ধান্ত",
+      "en": "Advertising and buying decisions",
+      "de": "Werbung und Kaufentscheidungen"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u09-l03",
+    "level": "B1",
+    "unit": 9,
+    "lesson": 3,
+    "title": {
+      "bn": "অনলাইন কেনাকাটা ও ভোক্তার অধিকার",
+      "en": "Online shopping and consumer rights",
+      "de": "Online-Handel und Verbraucherrechte"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u09-l04",
+    "level": "B1",
+    "unit": 9,
+    "lesson": 4,
+    "title": {
+      "bn": "টেকসই ভোগ: কম কিনি, ভাবি বেশি",
+      "en": "Sustainable consumption",
+      "de": "Nachhaltig konsumieren"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u10-l01",
+    "level": "B1",
+    "unit": 10,
+    "lesson": 1,
+    "title": {
+      "bn": "জার্মান ইতিহাসের সংক্ষিপ্ত চিত্র",
+      "en": "German history in outline",
+      "de": "Deutsche Geschichte im Überblick"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u10-l02",
+    "level": "B1",
+    "unit": 10,
+    "lesson": 2,
+    "title": {
+      "bn": "বিভক্তি ও দেয়াল ভাঙা",
+      "en": "Division and the fall of the Wall",
+      "de": "Teilung und Mauerfall"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u10-l03",
+    "level": "B1",
+    "unit": 10,
+    "lesson": 3,
+    "title": {
+      "bn": "ইউরোপীয় ইউনিয়ন",
+      "en": "The European Union",
+      "de": "Die Europäische Union"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u10-l04",
+    "level": "B1",
+    "unit": 10,
+    "lesson": 4,
+    "title": {
+      "bn": "অভিবাসনের ইতিহাস: গেস্টওয়ার্কার ও আজকের দিন",
+      "en": "Migration history: guest workers and today",
+      "de": "Migrationsgeschichte: Gastarbeiter und Heute"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u11-l01",
+    "level": "B1",
+    "unit": 11,
+    "lesson": 1,
+    "title": {
+      "bn": "উৎসব ও ঐতিহ্য",
+      "en": "Festivals and traditions",
+      "de": "Feste und Traditionen"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u11-l02",
+    "level": "B1",
+    "unit": 11,
+    "lesson": 2,
+    "title": {
+      "bn": "সিনেমা, বই ও সংগীত",
+      "en": "Cinema, books and music",
+      "de": "Kino, Bücher und Musik"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u11-l03",
+    "level": "B1",
+    "unit": 11,
+    "lesson": 3,
+    "title": {
+      "bn": "খাবার ও খাওয়ার সংস্কৃতি",
+      "en": "Food and eating culture",
+      "de": "Essen und Esskultur"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u11-l04",
+    "level": "B1",
+    "unit": 11,
+    "lesson": 4,
+    "title": {
+      "bn": "কালচারাল শক ও ভিন্ন সংস্কৃতির যোগাযোগ",
+      "en": "Culture shock and intercultural communication",
+      "de": "Kulturschock und Kommunikation"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u12-l01",
+    "level": "B1",
+    "unit": 12,
+    "lesson": 1,
+    "title": {
+      "bn": "ভবিষ্যতের পরিকল্পনা",
+      "en": "Plans for the future",
+      "de": "Pläne für die Zukunft"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u12-l02",
+    "level": "B1",
+    "unit": 12,
+    "lesson": 2,
+    "title": {
+      "bn": "জার্মানিতে দীর্ঘমেয়াদে থাকা",
+      "en": "Living in Germany long-term",
+      "de": "Dauerhaft in Deutschland leben"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u12-l03",
+    "level": "B1",
+    "unit": 12,
+    "lesson": 3,
+    "title": {
+      "bn": "জার্মান শেখা চালিয়ে যাওয়া ও B1 পরীক্ষা",
+      "en": "Learning on and the B1 exam",
+      "de": "Deutsch weiterlernen und die B1-Prüfung"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u12-l04",
+    "level": "B1",
+    "unit": 12,
+    "lesson": 4,
+    "title": {
+      "bn": "পেছনে তাকানো: জার্মান ভাষার সাথে আমার পথ",
+      "en": "Looking back: my path with German",
+      "de": "Rückblick: Mein Weg mit Deutsch"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
   }
 ]

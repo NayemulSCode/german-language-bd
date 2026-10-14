@@ -1,0 +1,1518 @@
+{
+  "level": "B1",
+  "unit": 10,
+  "minutes": 18,
+  "lesson": 2,
+  "id": "b1-u10-l02",
+  "title": {
+    "de": "Teilung und Mauerfall",
+    "bn": "বিভক্তি ও দেয়াল ভাঙা",
+    "en": "Division and the fall of the Wall"
+  },
+  "hook": {
+    "de": "Wir sind das Volk.",
+    "who": "Parole 1989",
+    "bn": "আমরাই জনগণ।",
+    "en": "We are the people."
+  },
+  "goals": [
+    "über Ereignisse mit Plusquamperfekt berichten",
+    "nachdem / bevor / als mit Vergangenheit",
+    "Zeitzeugen-Bericht verstehen",
+    "Gefühle in der Vergangenheit ausdrücken"
+  ],
+  "words": [
+    {
+      "id": "mauer",
+      "de": "Mauer",
+      "art": "die",
+      "pl": "die Mauern",
+      "pos": "বিশেষ্য",
+      "bn": "দেয়াল",
+      "en": "wall"
+    },
+    {
+      "id": "grenze",
+      "de": "Grenze",
+      "art": "die",
+      "pl": "die Grenzen",
+      "pos": "বিশেষ্য",
+      "bn": "সীমান্ত",
+      "en": "border"
+    },
+    {
+      "id": "wiedervereinigung",
+      "de": "Wiedervereinigung",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "পুনর্মিলন",
+      "en": "reunification"
+    },
+    {
+      "id": "osten",
+      "de": "Osten",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "পূর্ব",
+      "en": "east"
+    },
+    {
+      "id": "westen",
+      "de": "Westen",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "পশ্চিম",
+      "en": "west"
+    },
+    {
+      "id": "demonstration",
+      "de": "Demonstration",
+      "art": "die",
+      "pl": "die Demonstrationen",
+      "pos": "বিশেষ্য",
+      "bn": "বিক্ষোভ/মিছিল",
+      "en": "demonstration"
+    },
+    {
+      "id": "fliehen",
+      "de": "fliehen",
+      "pos": "ক্রিয়া · ist geflohen",
+      "bn": "পালিয়ে যাওয়া",
+      "en": "to flee"
+    },
+    {
+      "id": "trennen",
+      "de": "trennen",
+      "pos": "ক্রিয়া · hat getrennt",
+      "bn": "বিচ্ছিন্ন করা",
+      "en": "to separate"
+    },
+    {
+      "id": "freiheit",
+      "de": "Freiheit",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "স্বাধীনতা",
+      "en": "freedom"
+    },
+    {
+      "id": "familie",
+      "de": "Familie",
+      "art": "die",
+      "pl": "die Familien",
+      "pos": "বিশেষ্য",
+      "bn": "পরিবার",
+      "en": "family"
+    },
+    {
+      "id": "erleichterung",
+      "de": "Erleichterung",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "স্বস্তি",
+      "en": "relief"
+    },
+    {
+      "id": "feiern",
+      "de": "feiern",
+      "pos": "ক্রিয়া · hat gefeiert",
+      "bn": "উদযাপন করা",
+      "en": "to celebrate"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Saheb",
+      "bn": [
+        "ফ্রাউ",
+        "হফম্যান,",
+        "আপনার",
+        "বয়স",
+        "তখন",
+        "কত",
+        "ছিল,",
+        "যখন",
+        "দেয়াল",
+        "ভাঙল?"
+      ],
+      "en": [
+        "Frau",
+        "Hoffmann,",
+        "how",
+        "old",
+        "were",
+        "you",
+        "when",
+        "the",
+        "Wall",
+        "fell?"
+      ],
+      "de": [
+        {
+          "t": "Frau Hoffmann,",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Frau Hoffmann",
+          "gb": "ফ্রাউ হফম্যান",
+          "ge": "Frau Hoffmann",
+          "n": ""
+        },
+        {
+          "t": "wie alt waren Sie,",
+          "b": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "e": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "l": "wie alt waren Sie",
+          "gb": "আপনার বয়স তখন কত ছিল",
+          "ge": "how old were you",
+          "n": ""
+        },
+        {
+          "t": "als die Mauer fiel?",
+          "b": [
+            7,
+            8,
+            9
+          ],
+          "e": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "l": "als die Mauer fiel",
+          "gb": "যখন দেয়াল ভাঙল",
+          "ge": "when the Wall fell",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Frau Hoffmann",
+      "bn": [
+        "আমি",
+        "তখন",
+        "বিশ",
+        "বছরের",
+        "ছিলাম।",
+        "সেদিন,",
+        "৯",
+        "নভেম্বর",
+        "১৯৮৯,",
+        "আমি",
+        "পূর্ব",
+        "বার্লিনে",
+        "ছিলাম।",
+        "আমরা",
+        "টিভিতে",
+        "দেখলাম",
+        "যে",
+        "সীমান্ত",
+        "খুলে",
+        "গেছে।"
+      ],
+      "en": [
+        "I",
+        "was",
+        "twenty",
+        "at",
+        "the",
+        "time.",
+        "That",
+        "day,",
+        "9",
+        "November",
+        "1989,",
+        "I",
+        "was",
+        "in",
+        "East",
+        "Berlin.",
+        "We",
+        "saw",
+        "on",
+        "TV",
+        "that",
+        "the",
+        "border",
+        "had",
+        "opened."
+      ],
+      "de": [
+        {
+          "t": "Ich war damals",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Ich war damals",
+          "gb": "আমি তখন",
+          "ge": "I was",
+          "n": ""
+        },
+        {
+          "t": "zwanzig Jahre alt.",
+          "b": [
+            2,
+            3,
+            4
+          ],
+          "e": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "l": "zwanzig Jahre alt",
+          "gb": "বিশ বছরের ছিলাম",
+          "ge": "twenty at the time",
+          "n": ""
+        },
+        {
+          "t": "An diesem Tag,",
+          "b": [
+            5
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "An diesem Tag",
+          "gb": "সেদিন",
+          "ge": "That day",
+          "n": ""
+        },
+        {
+          "t": "am 9. November 1989,",
+          "b": [
+            6,
+            7,
+            8
+          ],
+          "e": [
+            8,
+            9,
+            10
+          ],
+          "l": "am 9 November 1989",
+          "gb": "৯ নভেম্বর ১৯৮৯",
+          "ge": "9 November 1989",
+          "n": ""
+        },
+        {
+          "t": "war ich in Ostberlin.",
+          "b": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "e": [
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "l": "war ich in Ostberlin",
+          "gb": "আমি পূর্ব বার্লিনে ছিলাম",
+          "ge": "I was in East Berlin",
+          "n": ""
+        },
+        {
+          "t": "Wir sahen im Fernsehen,",
+          "b": [
+            13,
+            14,
+            15
+          ],
+          "e": [
+            16,
+            17,
+            18,
+            19
+          ],
+          "l": "Wir sahen im Fernsehen",
+          "gb": "আমরা টিভিতে দেখলাম",
+          "ge": "We saw on TV",
+          "n": ""
+        },
+        {
+          "t": "dass die Grenze",
+          "b": [
+            16,
+            17
+          ],
+          "e": [
+            20,
+            21,
+            22
+          ],
+          "l": "dass die Grenze",
+          "gb": "যে সীমান্ত",
+          "ge": "that the border",
+          "n": ""
+        },
+        {
+          "t": "geöffnet worden war.",
+          "b": [
+            18,
+            19
+          ],
+          "e": [
+            23,
+            24
+          ],
+          "l": "geöffnet worden war",
+          "gb": "খুলে গেছে",
+          "ge": "had opened",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আপনি",
+        "তখন",
+        "কী",
+        "করলেন?"
+      ],
+      "en": [
+        "What",
+        "did",
+        "you",
+        "do",
+        "then?"
+      ],
+      "de": [
+        {
+          "t": "Was haben Sie",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "Was haben Sie",
+          "gb": "আপনি",
+          "ge": "What did you",
+          "n": ""
+        },
+        {
+          "t": "dann gemacht?",
+          "b": [
+            1,
+            2,
+            3
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "dann gemacht",
+          "gb": "তখন কী করলেন",
+          "ge": "do then",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Frau Hoffmann",
+      "bn": [
+        "প্রথমে",
+        "আমরা",
+        "বিশ্বাস",
+        "করিনি।",
+        "নাগরিকরা",
+        "ভিড়",
+        "করে",
+        "সীমান্তের",
+        "দিকে",
+        "গেল।",
+        "যখন",
+        "আমরা",
+        "পৌঁছালাম,",
+        "তখন",
+        "অনেকেই",
+        "আনন্দে",
+        "কাঁদছিল।",
+        "আমি",
+        "স্বস্তি",
+        "আর",
+        "আনন্দ",
+        "একসাথে",
+        "অনুভব",
+        "করেছিলাম।"
+      ],
+      "en": [
+        "At",
+        "first",
+        "we",
+        "did",
+        "not",
+        "believe",
+        "it.",
+        "Citizens",
+        "crowded",
+        "towards",
+        "the",
+        "border.",
+        "When",
+        "we",
+        "arrived,",
+        "many",
+        "were",
+        "crying",
+        "with",
+        "joy.",
+        "I",
+        "felt",
+        "relief",
+        "and",
+        "happiness",
+        "at",
+        "the",
+        "same",
+        "time."
+      ],
+      "de": [
+        {
+          "t": "Zuerst haben wir",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "Zuerst haben wir",
+          "gb": "প্রথমে আমরা",
+          "ge": "At first we",
+          "n": ""
+        },
+        {
+          "t": "es nicht geglaubt.",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "l": "es nicht geglaubt",
+          "gb": "বিশ্বাস করিনি",
+          "ge": "did not believe it",
+          "n": ""
+        },
+        {
+          "t": "Viele Menschen",
+          "b": [
+            4
+          ],
+          "e": [
+            7
+          ],
+          "l": "Viele Menschen",
+          "gb": "নাগরিকরা",
+          "ge": "Citizens",
+          "n": ""
+        },
+        {
+          "t": "gingen zur Grenze.",
+          "b": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "e": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "l": "gingen zur Grenze",
+          "gb": "ভিড় করে সীমান্তের দিকে গেল",
+          "ge": "crowded towards the border",
+          "n": ""
+        },
+        {
+          "t": "Als wir ankamen,",
+          "b": [
+            10,
+            11,
+            12
+          ],
+          "e": [
+            12,
+            13,
+            14
+          ],
+          "l": "Als wir ankamen",
+          "gb": "যখন আমরা পৌঁছালাম",
+          "ge": "When we arrived",
+          "n": ""
+        },
+        {
+          "t": "weinten viele",
+          "b": [
+            13,
+            14
+          ],
+          "e": [
+            15,
+            16,
+            17
+          ],
+          "l": "weinten viele",
+          "gb": "তখন অনেকেই",
+          "ge": "many were crying",
+          "n": ""
+        },
+        {
+          "t": "vor Freude.",
+          "b": [
+            15,
+            16
+          ],
+          "e": [
+            18,
+            19
+          ],
+          "l": "vor Freude",
+          "gb": "আনন্দে কাঁদছিল",
+          "ge": "with joy",
+          "n": ""
+        },
+        {
+          "t": "Ich fühlte",
+          "b": [
+            17,
+            22,
+            23
+          ],
+          "e": [
+            20,
+            21
+          ],
+          "l": "Ich fühlte",
+          "gb": "আমি অনুভব করেছিলাম",
+          "ge": "I felt",
+          "n": ""
+        },
+        {
+          "t": "Erleichterung und Glück",
+          "b": [
+            18,
+            19,
+            20
+          ],
+          "e": [
+            22,
+            23,
+            24
+          ],
+          "l": "Erleichterung und Glück",
+          "gb": "স্বস্তি আর আনন্দ",
+          "ge": "relief and happiness",
+          "n": ""
+        },
+        {
+          "t": "gleichzeitig.",
+          "b": [
+            21
+          ],
+          "e": [
+            25,
+            26,
+            27,
+            28
+          ],
+          "l": "Erleichterung",
+          "gb": "একসাথে",
+          "ge": "at the same time",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "দেয়াল",
+        "ভাঙার",
+        "আগে",
+        "কি",
+        "পরিবার",
+        "ও",
+        "বন্ধুরা",
+        "আলাদা",
+        "হয়ে",
+        "গিয়েছিল?"
+      ],
+      "en": [
+        "Had",
+        "families",
+        "and",
+        "friends",
+        "been",
+        "separated",
+        "before",
+        "the",
+        "Wall",
+        "fell?"
+      ],
+      "de": [
+        {
+          "t": "Waren Familien",
+          "b": [
+            4
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Waren Familien",
+          "gb": "পরিবার",
+          "ge": "Had families",
+          "n": ""
+        },
+        {
+          "t": "und Freunde",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "und Freunde",
+          "gb": "ও বন্ধুরা",
+          "ge": "and friends",
+          "n": ""
+        },
+        {
+          "t": "vor dem Mauerfall",
+          "b": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "e": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "l": "vor dem Mauerfall",
+          "gb": "দেয়াল ভাঙার আগে কি",
+          "ge": "before the Wall fell",
+          "n": ""
+        },
+        {
+          "t": "getrennt worden?",
+          "b": [
+            7,
+            8,
+            9
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "trennen",
+          "gb": "আলাদা হয়ে গিয়েছিল",
+          "ge": "been separated",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Frau Hoffmann",
+      "bn": [
+        "হ্যাঁ,",
+        "অনেকের",
+        "জন্য।",
+        "১৯৬১",
+        "সালের",
+        "পর",
+        "বহু",
+        "পরিবারকে",
+        "সীমান্ত",
+        "আলাদা",
+        "করে",
+        "দিয়েছিল।",
+        "কেউ",
+        "কেউ",
+        "পালানোর",
+        "চেষ্টা",
+        "করেছিল,",
+        "কিন্তু",
+        "সেটা",
+        "ছিল",
+        "অত্যন্ত",
+        "বিপজ্জনক।",
+        "দেয়াল",
+        "ভাঙার",
+        "পর",
+        "পরিবারগুলো",
+        "আবার",
+        "একত্রিত",
+        "হলো।"
+      ],
+      "en": [
+        "Yes,",
+        "for",
+        "many.",
+        "After",
+        "1961",
+        "the",
+        "border",
+        "had",
+        "separated",
+        "many",
+        "families.",
+        "Some",
+        "tried",
+        "to",
+        "flee,",
+        "but",
+        "it",
+        "was",
+        "extremely",
+        "dangerous.",
+        "After",
+        "the",
+        "Wall",
+        "fell,",
+        "families",
+        "came",
+        "together",
+        "again."
+      ],
+      "de": [
+        {
+          "t": "Ja, für viele.",
+          "b": [
+            0,
+            1,
+            2
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "Ja für viele",
+          "gb": "হ্যাঁ অনেকের জন্য",
+          "ge": "Yes for many",
+          "n": ""
+        },
+        {
+          "t": "Nach 1961",
+          "b": [
+            3,
+            4,
+            5
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "Nach 1961",
+          "gb": "১৯৬১ সালের পর",
+          "ge": "After 1961",
+          "n": ""
+        },
+        {
+          "t": "hatte die Grenze",
+          "b": [
+            8
+          ],
+          "e": [
+            5,
+            6,
+            7
+          ],
+          "l": "hatte die Grenze",
+          "gb": "সীমান্ত",
+          "ge": "the border had",
+          "n": ""
+        },
+        {
+          "t": "viele Familien getrennt.",
+          "b": [
+            6,
+            7,
+            9,
+            10,
+            11
+          ],
+          "e": [
+            8,
+            9,
+            10
+          ],
+          "l": "viele Familien getrennt",
+          "gb": "বহু পরিবারকে আলাদা করে দিয়েছিল",
+          "ge": "separated many families",
+          "n": ""
+        },
+        {
+          "t": "Manche versuchten",
+          "b": [
+            12,
+            13
+          ],
+          "e": [
+            11,
+            12
+          ],
+          "l": "Manche versuchten",
+          "gb": "কেউ কেউ",
+          "ge": "Some tried",
+          "n": ""
+        },
+        {
+          "t": "zu fliehen,",
+          "b": [
+            14,
+            15,
+            16
+          ],
+          "e": [
+            13,
+            14
+          ],
+          "l": "zu fliehen",
+          "gb": "পালানোর চেষ্টা করেছিল",
+          "ge": "to flee",
+          "n": ""
+        },
+        {
+          "t": "aber das war",
+          "b": [
+            17,
+            18,
+            19
+          ],
+          "e": [
+            15,
+            16,
+            17
+          ],
+          "l": "aber das war",
+          "gb": "কিন্তু সেটা ছিল",
+          "ge": "but it was",
+          "n": ""
+        },
+        {
+          "t": "sehr gefährlich.",
+          "b": [
+            20,
+            21
+          ],
+          "e": [
+            18,
+            19
+          ],
+          "l": "sehr gefährlich",
+          "gb": "অত্যন্ত বিপজ্জনক",
+          "ge": "extremely dangerous",
+          "n": ""
+        },
+        {
+          "t": "Nachdem die Mauer gefallen war,",
+          "b": [
+            22,
+            23,
+            24
+          ],
+          "e": [
+            20,
+            21,
+            22,
+            23
+          ],
+          "l": "Nachdem die Mauer gefallen war",
+          "gb": "দেয়াল ভাঙার পর",
+          "ge": "After the Wall fell",
+          "n": ""
+        },
+        {
+          "t": "kamen die Familien",
+          "b": [
+            25
+          ],
+          "e": [
+            24
+          ],
+          "l": "kamen die Familien",
+          "gb": "পরিবারগুলো",
+          "ge": "families",
+          "n": ""
+        },
+        {
+          "t": "wieder zusammen.",
+          "b": [
+            26,
+            27,
+            28
+          ],
+          "e": [
+            25,
+            26,
+            27
+          ],
+          "l": "wieder zusammen",
+          "gb": "আবার একত্রিত হলো",
+          "ge": "came together again",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আর",
+        "১৯৯০",
+        "সালে",
+        "কী",
+        "হলো?"
+      ],
+      "en": [
+        "And",
+        "what",
+        "happened",
+        "in",
+        "1990?"
+      ],
+      "de": [
+        {
+          "t": "Und was geschah",
+          "b": [
+            0,
+            3,
+            4
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "Und was geschah",
+          "gb": "আর কী হলো",
+          "ge": "And what happened",
+          "n": ""
+        },
+        {
+          "t": "1990?",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "1990",
+          "gb": "১৯৯০ সালে",
+          "ge": "in 1990",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Frau Hoffmann",
+      "bn": [
+        "এক",
+        "বছরেরও",
+        "কম",
+        "সময়ে",
+        "আলোচনা",
+        "চলল।",
+        "৩",
+        "অক্টোবর",
+        "১৯৯০-এ",
+        "দুই",
+        "জার্মান",
+        "রাষ্ট্র",
+        "আনুষ্ঠানিকভাবে",
+        "এক",
+        "হলো।",
+        "সেই",
+        "দিন",
+        "এখন",
+        "জাতীয়",
+        "ছুটি,",
+        "„Tag",
+        "der",
+        "Deutschen",
+        "Einheit“।"
+      ],
+      "en": [
+        "Negotiations",
+        "went",
+        "on",
+        "for",
+        "less",
+        "than",
+        "a",
+        "year.",
+        "On",
+        "3",
+        "October",
+        "1990",
+        "the",
+        "two",
+        "German",
+        "states",
+        "officially",
+        "became",
+        "one.",
+        "That",
+        "day",
+        "is",
+        "now",
+        "a",
+        "public",
+        "holiday,",
+        "the",
+        "“Day",
+        "of",
+        "German",
+        "Unity”."
+      ],
+      "de": [
+        {
+          "t": "In weniger als",
+          "b": [
+            0,
+            1,
+            2
+          ],
+          "e": [
+            3,
+            4,
+            5
+          ],
+          "l": "In weniger als",
+          "gb": "এক বছরেরও কম",
+          "ge": "for less than",
+          "n": ""
+        },
+        {
+          "t": "einem Jahr",
+          "b": [
+            3
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "einem Jahr",
+          "gb": "সময়ে",
+          "ge": "a year",
+          "n": ""
+        },
+        {
+          "t": "wurde verhandelt.",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "wurde verhandelt",
+          "gb": "আলোচনা চলল",
+          "ge": "Negotiations went on",
+          "n": ""
+        },
+        {
+          "t": "Am 3. Oktober 1990",
+          "b": [
+            6,
+            7,
+            8
+          ],
+          "e": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "l": "Am 3 Oktober 1990",
+          "gb": "৩ অক্টোবর ১৯৯০-এ",
+          "ge": "On 3 October 1990",
+          "n": ""
+        },
+        {
+          "t": "wurden die beiden",
+          "b": [
+            9
+          ],
+          "e": [
+            12,
+            13
+          ],
+          "l": "wurden die beiden",
+          "gb": "দুই",
+          "ge": "the two",
+          "n": ""
+        },
+        {
+          "t": "deutschen Staaten",
+          "b": [
+            10,
+            11
+          ],
+          "e": [
+            14,
+            15
+          ],
+          "l": "deutschen Staaten",
+          "gb": "জার্মান রাষ্ট্র",
+          "ge": "German states",
+          "n": ""
+        },
+        {
+          "t": "offiziell eins.",
+          "b": [
+            12,
+            13,
+            14
+          ],
+          "e": [
+            16,
+            17,
+            18
+          ],
+          "l": "Wiedervereinigung",
+          "gb": "আনুষ্ঠানিকভাবে এক হলো",
+          "ge": "officially became one",
+          "n": ""
+        },
+        {
+          "t": "Dieser Tag ist heute",
+          "b": [
+            15,
+            16,
+            17
+          ],
+          "e": [
+            19,
+            20,
+            21,
+            22
+          ],
+          "l": "Dieser Tag ist heute",
+          "gb": "সেই দিন এখন",
+          "ge": "That day is now",
+          "n": ""
+        },
+        {
+          "t": "ein Feiertag:",
+          "b": [
+            18,
+            19
+          ],
+          "e": [
+            23,
+            24,
+            25
+          ],
+          "l": "ein Feiertag",
+          "gb": "জাতীয় ছুটি",
+          "ge": "a public holiday",
+          "n": ""
+        },
+        {
+          "t": "der Tag der Deutschen Einheit.",
+          "b": [
+            20,
+            21,
+            22,
+            23
+          ],
+          "e": [
+            26,
+            27,
+            28,
+            29,
+            30
+          ],
+          "l": "der Tag der Deutschen Einheit",
+          "gb": "„Tag der Deutschen Einheit“",
+          "ge": "the “Day of German Unity”",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "Plusquamperfekt (Vorvergangenheit)",
+      "head": [
+        "Form",
+        "Beispiel"
+      ],
+      "rows": [
+        [
+          "hatte / war + Partizip II",
+          "Die Grenze war geöffnet worden."
+        ],
+        [
+          "vor dem Hauptereignis",
+          "Die Grenze hatte Familien getrennt, bevor die Mauer fiel."
+        ],
+        [
+          "mit nachdem",
+          "Nachdem die Mauer gefallen war, kamen die Familien zusammen."
+        ],
+        [
+          "mit als",
+          "Als wir ankamen, hatten viele schon gefeiert."
+        ]
+      ],
+      "note": "Plusquamperfekt = সবচেয়ে আগে ঘটা ঘটনা; Präteritum/Perfekt = পরের ঘটনা। nachdem + Plusquamperfekt, Hauptsatz Präteritum।"
+    },
+    {
+      "type": "table",
+      "title": "Zeitliche Konnektoren in der Vergangenheit",
+      "head": [
+        "Wort",
+        "Beispiel"
+      ],
+      "rows": [
+        [
+          "als",
+          "Als die Mauer fiel, war ich zwanzig."
+        ],
+        [
+          "bevor",
+          "Bevor die Mauer fiel, hatte die Grenze Familien getrennt."
+        ],
+        [
+          "nachdem",
+          "Nachdem die Grenze geöffnet worden war, gingen viele hin."
+        ],
+        [
+          "während",
+          "Während wir warteten, weinten viele."
+        ],
+        [
+          "seitdem",
+          "Seitdem ist der 3. Oktober ein Feiertag."
+        ]
+      ],
+      "note": "als = einmalige Vergangenheit; wenn = Wiederholung. যেমন: Wenn ich Zeit hatte, besuchte ich ..."
+    },
+    {
+      "type": "table",
+      "title": "Gefühle im Rückblick",
+      "head": [
+        "Gefühl",
+        "Satz"
+      ],
+      "rows": [
+        [
+          "Erleichterung",
+          "Ich war erleichtert, als die Grenze offen war."
+        ],
+        [
+          "Freude",
+          "Viele weinten vor Freude."
+        ],
+        [
+          "Unsicherheit",
+          "Wir wussten nicht, was passieren würde."
+        ],
+        [
+          "Hoffnung",
+          "Wir hofften auf ein besseres Leben."
+        ]
+      ],
+      "note": "এটি একটি ব্যক্তিগত বিবরণ; ইতিহাস ও ব্যক্তিগত অভিজ্ঞতা আলাদা মনে রাখুন। বাস্তব জীবনে অন্যের ইতিহাস শুনুন সম্মান নিয়ে।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "die Mauer",
+      "options": [
+        "স্বাধীনতা",
+        "স্বস্তি",
+        "সীমান্ত",
+        "দেয়াল"
+      ],
+      "answer": 3,
+      "why": "die Mauer = দেয়াল।",
+      "word": "mauer"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "die Freiheit",
+      "options": [
+        "পালিয়ে যাওয়া",
+        "স্বস্তি",
+        "সীমান্ত",
+        "স্বাধীনতা"
+      ],
+      "answer": 3,
+      "why": "die Freiheit = স্বাধীনতা।",
+      "word": "freiheit"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "die Erleichterung",
+      "options": [
+        "পূর্ব",
+        "পালিয়ে যাওয়া",
+        "পরিবার",
+        "স্বস্তি"
+      ],
+      "answer": 3,
+      "why": "die Erleichterung = স্বস্তি।",
+      "word": "erleichterung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Grenze",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Grenze। বহুবচন: die Grenzen।",
+      "word": "grenze"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Nachdem die Mauer gefallen ___, kamen die Familien zusammen.",
+      "options": [
+        "war",
+        "ist",
+        "hatte",
+        "wird"
+      ],
+      "answer": 0,
+      "why": "nachdem + Plusquamperfekt।",
+      "word": "trennen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Die Grenze ___ viele Familien getrennt.",
+      "options": [
+        "hatte",
+        "war",
+        "wurde",
+        "hat"
+      ],
+      "answer": 0,
+      "why": "Plusquamperfekt: hatte + PP।",
+      "word": "trennen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Wann fiel die Mauer?",
+      "options": [
+        "9. November 1989",
+        "3. Oktober 1990",
+        "13. August 1961",
+        "8. Mai 1945"
+      ],
+      "answer": 0,
+      "why": "9. November 1989।",
+      "word": "mauer"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Welcher Tag ist „Tag der Deutschen Einheit“?",
+      "options": [
+        "3. Oktober",
+        "9. November",
+        "1. Mai",
+        "24. Dezember"
+      ],
+      "answer": 0,
+      "why": "3. Oktober।",
+      "word": "wiedervereinigung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„fliehen“ bildet das Perfekt mit …",
+      "options": [
+        "sein",
+        "haben",
+        "werden",
+        "können"
+      ],
+      "answer": 0,
+      "why": "ist geflohen।",
+      "word": "fliehen"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „দেয়াল ভাঙার পর পরিবারগুলো আবার একত্রিত হলো।“",
+      "tiles": [
+        "die Familien",
+        "gefallen war,",
+        "Nachdem die Mauer",
+        "wieder zusammen.",
+        "kamen"
+      ],
+      "answer": [
+        "Nachdem die Mauer",
+        "gefallen war,",
+        "kamen",
+        "die Familien",
+        "wieder zusammen."
+      ],
+      "why": "nachdem + Plusquamperfekt।",
+      "word": "osten"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

@@ -1,0 +1,1358 @@
+{
+  "level": "A2",
+  "unit": 6,
+  "minutes": 16,
+  "lesson": 3,
+  "id": "a2-u06-l03",
+  "title": {
+    "de": "Feste in Deutschland und Bangladesch",
+    "bn": "উৎসব: obwohl (যদিও)",
+    "en": "Festivals: obwohl (although)"
+  },
+  "hook": {
+    "de": "Feste soll man feiern, wie sie fallen.",
+    "who": "Sprichwort",
+    "bn": "উৎসব এলে তা উদযাপন করতে হয়।",
+    "en": "Celebrate festivals as they come."
+  },
+  "goals": [
+    "জার্মানির উৎসবগুলো চেনা",
+    "নিজের দেশের উৎসব বর্ণনা করা",
+    "obwohl-বাক্য: ক্রিয়া শেষে",
+    "normalerweise, besonders, traditionell"
+  ],
+  "words": [
+    {
+      "id": "fest",
+      "de": "Fest",
+      "art": "das",
+      "pl": "die Feste",
+      "pos": "বিশেষ্য",
+      "bn": "উৎসব",
+      "en": "festival"
+    },
+    {
+      "id": "feiertag",
+      "de": "Feiertag",
+      "art": "der",
+      "pl": "die Feiertage",
+      "pos": "বিশেষ্য",
+      "bn": "সরকারি ছুটির দিন",
+      "en": "public holiday"
+    },
+    {
+      "id": "tradition",
+      "de": "Tradition",
+      "art": "die",
+      "pl": "die Traditionen",
+      "pos": "বিশেষ্য",
+      "bn": "ঐতিহ্য",
+      "en": "tradition"
+    },
+    {
+      "id": "weihnachten",
+      "de": "Weihnachten",
+      "art": "das",
+      "pos": "বিশেষ্য (neutrum, meist ohne Artikel)",
+      "bn": "বড়দিন",
+      "en": "Christmas"
+    },
+    {
+      "id": "ostern",
+      "de": "Ostern",
+      "art": "das",
+      "pos": "বিশেষ্য (neutrum, meist ohne Artikel)",
+      "bn": "ইস্টার",
+      "en": "Easter"
+    },
+    {
+      "id": "silvester",
+      "de": "Silvester",
+      "art": "das",
+      "pos": "বিশেষ্য",
+      "bn": "বছরের শেষ দিন (৩১ ডিসেম্বর)",
+      "en": "New Year’s Eve"
+    },
+    {
+      "id": "feuerwerk",
+      "de": "Feuerwerk",
+      "art": "das",
+      "pos": "বিশেষ্য",
+      "bn": "আতশবাজি",
+      "en": "fireworks"
+    },
+    {
+      "id": "kerze",
+      "de": "Kerze",
+      "art": "die",
+      "pl": "die Kerzen",
+      "pos": "বিশেষ্য",
+      "bn": "মোমবাতি",
+      "en": "candle"
+    },
+    {
+      "id": "obwohl",
+      "de": "obwohl",
+      "pos": "সংযোজক",
+      "bn": "যদিও",
+      "en": "although"
+    },
+    {
+      "id": "normalerweise",
+      "de": "normalerweise",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "সাধারণত",
+      "en": "normally"
+    },
+    {
+      "id": "besonders",
+      "de": "besonders",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "বিশেষ করে",
+      "en": "especially"
+    },
+    {
+      "id": "allein",
+      "de": "allein",
+      "pos": "বিশেষণ",
+      "bn": "একা",
+      "en": "alone"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Lena",
+      "bn": [
+        "বাংলাদেশে",
+        "আপনারা",
+        "কোন",
+        "কোন",
+        "উৎসব",
+        "উদযাপন",
+        "করেন?"
+      ],
+      "en": [
+        "Which",
+        "festivals",
+        "do",
+        "you",
+        "celebrate",
+        "in",
+        "Bangladesh?"
+      ],
+      "de": [
+        {
+          "t": "Welche",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            0
+          ],
+          "l": "Welche",
+          "gb": "কোন কোন",
+          "ge": "Which",
+          "n": ""
+        },
+        {
+          "t": "Feste",
+          "b": [
+            4
+          ],
+          "e": [
+            1
+          ],
+          "l": "Fest",
+          "gb": "উৎসব",
+          "ge": "festivals",
+          "n": ""
+        },
+        {
+          "t": "feiert",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            4
+          ],
+          "l": "feiern",
+          "gb": "উদযাপন করেন",
+          "ge": "celebrate",
+          "n": ""
+        },
+        {
+          "t": "ihr",
+          "b": [
+            1
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "ihr",
+          "gb": "আপনারা",
+          "ge": "do you",
+          "n": ""
+        },
+        {
+          "t": "in",
+          "b": [],
+          "e": [
+            5
+          ],
+          "l": "in",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "in",
+          "n": ""
+        },
+        {
+          "t": "Bangladesch?",
+          "b": [
+            0
+          ],
+          "e": [
+            6
+          ],
+          "l": "Bangladesch",
+          "gb": "বাংলাদেশে",
+          "ge": "Bangladesh",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমরা",
+        "ঈদ",
+        "ও",
+        "পহেলা",
+        "বৈশাখ",
+        "উদযাপন",
+        "করি।",
+        "ওটা",
+        "আমাদের",
+        "নববর্ষ।"
+      ],
+      "en": [
+        "We",
+        "celebrate",
+        "Eid",
+        "and",
+        "Pohela",
+        "Boishakh.",
+        "That",
+        "is",
+        "our",
+        "New",
+        "Year."
+      ],
+      "de": [
+        {
+          "t": "Wir",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Wir",
+          "gb": "আমরা",
+          "ge": "We",
+          "n": ""
+        },
+        {
+          "t": "feiern",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            1
+          ],
+          "l": "feiern",
+          "gb": "উদযাপন করি",
+          "ge": "celebrate",
+          "n": ""
+        },
+        {
+          "t": "Eid",
+          "s": "Eid",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "Eid",
+          "gb": "ঈদ",
+          "ge": "Eid",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "und",
+          "gb": "ও",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "Pohela Boishakh.",
+          "s": "Pohela Boishakh",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "Pohela Boishakh",
+          "gb": "পহেলা বৈশাখ",
+          "ge": "Pohela Boishakh",
+          "n": ""
+        },
+        {
+          "t": "Das",
+          "b": [
+            7
+          ],
+          "e": [
+            6
+          ],
+          "l": "Das",
+          "gb": "ওটা",
+          "ge": "That",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            7
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "unser",
+          "b": [
+            8
+          ],
+          "e": [
+            8
+          ],
+          "l": "unser",
+          "gb": "আমাদের",
+          "ge": "our",
+          "n": ""
+        },
+        {
+          "t": "Neujahr.",
+          "b": [
+            9
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "Neujahr",
+          "gb": "নববর্ষ",
+          "ge": "New Year",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "জার্মানিতে",
+        "বড়দিন",
+        "সবচেয়ে",
+        "গুরুত্বপূর্ণ",
+        "উৎসব।"
+      ],
+      "en": [
+        "In",
+        "Germany",
+        "Christmas",
+        "is",
+        "the",
+        "most",
+        "important",
+        "festival."
+      ],
+      "de": [
+        {
+          "t": "In",
+          "b": [],
+          "e": [
+            0
+          ],
+          "l": "In",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "In",
+          "n": ""
+        },
+        {
+          "t": "Deutschland",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "Deutschland",
+          "gb": "জার্মানিতে",
+          "ge": "Germany",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "Weihnachten",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "Weihnachten",
+          "gb": "বড়দিন",
+          "ge": "Christmas",
+          "n": ""
+        },
+        {
+          "t": "das",
+          "b": [],
+          "e": [
+            4
+          ],
+          "l": "das",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "wichtigste",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "wichtig",
+          "gb": "সবচেয়ে গুরুত্বপূর্ণ",
+          "ge": "most important",
+          "n": "Superlativ + Endung: das wichtigste Fest"
+        },
+        {
+          "t": "Fest.",
+          "b": [
+            4
+          ],
+          "e": [
+            7
+          ],
+          "l": "Fest",
+          "gb": "উৎসব",
+          "ge": "festival",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "বড়দিনে",
+        "আপনারা",
+        "সাধারণত",
+        "কী",
+        "করেন?"
+      ],
+      "en": [
+        "What",
+        "do",
+        "you",
+        "normally",
+        "do",
+        "at",
+        "Christmas?"
+      ],
+      "de": [
+        {
+          "t": "Was",
+          "b": [
+            3
+          ],
+          "e": [
+            0
+          ],
+          "l": "Was",
+          "gb": "কী",
+          "ge": "What",
+          "n": ""
+        },
+        {
+          "t": "macht",
+          "b": [
+            4
+          ],
+          "e": [
+            1
+          ],
+          "l": "macht",
+          "gb": "করেন",
+          "ge": "do",
+          "n": ""
+        },
+        {
+          "t": "ihr",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "ihr",
+          "gb": "আপনারা",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "normalerweise",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "normalerweise",
+          "gb": "সাধারণত",
+          "ge": "normally",
+          "n": ""
+        },
+        {
+          "t": "an",
+          "b": [],
+          "e": [
+            5
+          ],
+          "l": "an",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "at",
+          "n": ""
+        },
+        {
+          "t": "Weihnachten?",
+          "b": [
+            0
+          ],
+          "e": [
+            6
+          ],
+          "l": "Weihnachten",
+          "gb": "বড়দিনে",
+          "ge": "Christmas",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "আমরা",
+        "পরিবারের",
+        "সাথে",
+        "খাই,",
+        "মোমবাতি",
+        "জ্বালাই",
+        "আর",
+        "একে",
+        "অপরকে",
+        "কিছু",
+        "উপহার",
+        "দিই।"
+      ],
+      "en": [
+        "We",
+        "eat",
+        "with",
+        "the",
+        "family,",
+        "light",
+        "candles",
+        "and",
+        "give",
+        "each",
+        "other",
+        "something."
+      ],
+      "de": [
+        {
+          "t": "Wir",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Wir",
+          "gb": "আমরা",
+          "ge": "We",
+          "n": ""
+        },
+        {
+          "t": "essen",
+          "b": [
+            3
+          ],
+          "e": [
+            1
+          ],
+          "l": "essen",
+          "gb": "খাই",
+          "ge": "eat",
+          "n": ""
+        },
+        {
+          "t": "mit",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "mit",
+          "gb": "সাথে",
+          "ge": "with",
+          "n": ""
+        },
+        {
+          "t": "der Familie,",
+          "b": [
+            1
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "der Familie",
+          "gb": "পরিবারের",
+          "ge": "the family",
+          "n": ""
+        },
+        {
+          "t": "zünden",
+          "b": [
+            5
+          ],
+          "e": [
+            5
+          ],
+          "l": "zünden",
+          "gb": "জ্বালাই",
+          "ge": "light",
+          "n": ""
+        },
+        {
+          "t": "Kerzen",
+          "b": [
+            4
+          ],
+          "e": [
+            6
+          ],
+          "l": "Kerze",
+          "gb": "মোমবাতি",
+          "ge": "candles",
+          "n": ""
+        },
+        {
+          "t": "an",
+          "b": [],
+          "e": [],
+          "l": "an",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            6
+          ],
+          "e": [
+            7
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "schenken",
+          "b": [
+            10,
+            11
+          ],
+          "e": [
+            8
+          ],
+          "l": "schenken",
+          "gb": "উপহার দিই",
+          "ge": "give",
+          "n": ""
+        },
+        {
+          "t": "uns",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "wir",
+          "gb": "একে অপরকে",
+          "ge": "each other",
+          "n": ""
+        },
+        {
+          "t": "etwas.",
+          "b": [
+            9
+          ],
+          "e": [
+            11
+          ],
+          "l": "etwas",
+          "gb": "কিছু",
+          "ge": "something",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "এ",
+        "বছর",
+        "আমি",
+        "একা,",
+        "যদিও",
+        "পরিবারকে",
+        "আমি",
+        "খুব",
+        "মিস",
+        "করি।"
+      ],
+      "en": [
+        "This",
+        "year",
+        "I",
+        "am",
+        "alone,",
+        "although",
+        "I",
+        "miss",
+        "my",
+        "family",
+        "a",
+        "lot."
+      ],
+      "de": [
+        {
+          "t": "Dieses Jahr",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Dieses Jahr",
+          "gb": "এ বছর",
+          "ge": "This year",
+          "n": ""
+        },
+        {
+          "t": "bin",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "bin",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "am",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "allein,",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "allein",
+          "gb": "একা",
+          "ge": "alone",
+          "n": ""
+        },
+        {
+          "t": "obwohl",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "obwohl",
+          "gb": "যদিও",
+          "ge": "although",
+          "n": "obwohl-Satz: ক্রিয়া শেষে"
+        },
+        {
+          "t": "ich",
+          "b": [
+            6
+          ],
+          "e": [
+            6
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "meine",
+          "b": [],
+          "e": [
+            8
+          ],
+          "l": "meine",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "my",
+          "n": ""
+        },
+        {
+          "t": "Familie",
+          "b": [
+            5
+          ],
+          "e": [
+            9
+          ],
+          "l": "Familie",
+          "gb": "পরিবারকে",
+          "ge": "family",
+          "n": ""
+        },
+        {
+          "t": "sehr",
+          "b": [
+            7
+          ],
+          "e": [
+            10,
+            11
+          ],
+          "l": "sehr",
+          "gb": "খুব",
+          "ge": "a lot",
+          "n": ""
+        },
+        {
+          "t": "vermisse.",
+          "b": [
+            8,
+            9
+          ],
+          "e": [
+            7
+          ],
+          "l": "vermissen",
+          "gb": "মিস করি",
+          "ge": "miss",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "তাহলে",
+        "আমাদের",
+        "কাছে",
+        "এসো!",
+        "সিলভেস্টারে",
+        "আমরা",
+        "বন্ধুদের",
+        "সাথে",
+        "আর",
+        "আতশবাজি",
+        "নিয়ে",
+        "উদযাপন",
+        "করি।"
+      ],
+      "en": [
+        "Then",
+        "come",
+        "to",
+        "us!",
+        "On",
+        "New",
+        "Year’s",
+        "Eve",
+        "we",
+        "celebrate",
+        "with",
+        "friends",
+        "and",
+        "fireworks."
+      ],
+      "de": [
+        {
+          "t": "Dann",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Dann",
+          "gb": "তাহলে",
+          "ge": "Then",
+          "n": ""
+        },
+        {
+          "t": "komm",
+          "b": [
+            3
+          ],
+          "e": [
+            1
+          ],
+          "l": "komm",
+          "gb": "এসো",
+          "ge": "come",
+          "n": ""
+        },
+        {
+          "t": "zu",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "zu",
+          "gb": "কাছে",
+          "ge": "to",
+          "n": ""
+        },
+        {
+          "t": "uns!",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "uns",
+          "gb": "আমাদের",
+          "ge": "us",
+          "n": ""
+        },
+        {
+          "t": "Silvester",
+          "b": [
+            4
+          ],
+          "e": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "l": "Silvester",
+          "gb": "সিলভেস্টারে",
+          "ge": "On New Year’s Eve",
+          "n": ""
+        },
+        {
+          "t": "feiern",
+          "b": [
+            11,
+            12
+          ],
+          "e": [
+            9
+          ],
+          "l": "feiern",
+          "gb": "উদযাপন করি",
+          "ge": "celebrate",
+          "n": ""
+        },
+        {
+          "t": "wir",
+          "b": [
+            5
+          ],
+          "e": [
+            8
+          ],
+          "l": "wir",
+          "gb": "আমরা",
+          "ge": "we",
+          "n": ""
+        },
+        {
+          "t": "mit",
+          "b": [
+            7
+          ],
+          "e": [
+            10
+          ],
+          "l": "mit",
+          "gb": "সাথে",
+          "ge": "with",
+          "n": ""
+        },
+        {
+          "t": "Freunden",
+          "b": [
+            6
+          ],
+          "e": [
+            11
+          ],
+          "l": "Freunden",
+          "gb": "বন্ধুদের",
+          "ge": "friends",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            8
+          ],
+          "e": [
+            12
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "mit einem Feuerwerk.",
+          "b": [
+            9,
+            10
+          ],
+          "e": [
+            13
+          ],
+          "l": "Feuerwerk",
+          "gb": "আতশবাজি নিয়ে",
+          "ge": "fireworks",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "জার্মানির সরকারি ছুটি (Feiertage)",
+      "head": [
+        "তারিখ",
+        "ছুটি",
+        "বাংলা"
+      ],
+      "rows": [
+        [
+          "1. Januar",
+          "Neujahr",
+          "নববর্ষ"
+        ],
+        [
+          "März/April",
+          "Karfreitag, Ostermontag",
+          "গুড ফ্রাইডে, ইস্টার সোমবার"
+        ],
+        [
+          "1. Mai",
+          "Tag der Arbeit",
+          "মে দিবস"
+        ],
+        [
+          "3. Oktober",
+          "Tag der Deutschen Einheit",
+          "জার্মান ঐক্য দিবস"
+        ],
+        [
+          "25.–26. Dezember",
+          "Weihnachten",
+          "বড়দিন"
+        ]
+      ],
+      "note": "ছুটি রাজ্যভেদে কিছুটা আলাদা। ছুটির দিনে দোকান ও অফিস বন্ধ থাকে — আগের দিন বাজার করে রাখুন।"
+    },
+    {
+      "type": "order",
+      "title": "obwohl-বাক্য: ক্রিয়া শেষে",
+      "text": "obwohl = যদিও। এটি Nebensatz শুরু করে: ক্রিয়া শেষে। বিপরীত ফল বোঝায়।",
+      "de": [
+        {
+          "t": "Ich bin allein,"
+        },
+        {
+          "t": "obwohl"
+        },
+        {
+          "t": "ich meine Familie sehr"
+        },
+        {
+          "t": "vermisse.",
+          "v": true
+        }
+      ],
+      "bn": [
+        {
+          "t": "আমি একা,"
+        },
+        {
+          "t": "যদিও"
+        },
+        {
+          "t": "পরিবারকে খুব"
+        },
+        {
+          "t": "মিস করি।",
+          "v": true
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "weil / obwohl / wenn / dass — তুলনা",
+      "head": [
+        "সংযোজক",
+        "অর্থ",
+        "উদাহরণ"
+      ],
+      "rows": [
+        [
+          "weil",
+          "কারণ",
+          "Ich bleibe, weil ich müde bin."
+        ],
+        [
+          "obwohl",
+          "বিপরীত",
+          "Ich arbeite, obwohl ich müde bin."
+        ],
+        [
+          "wenn",
+          "শর্ত/যখন",
+          "Wenn es regnet, bleibe ich."
+        ],
+        [
+          "dass",
+          "যে",
+          "Ich weiß, dass du müde bist."
+        ]
+      ],
+      "note": "এই চারটিই Nebensatz: ক্রিয়া একদম শেষে। Nebensatz আগে এলে মূল বাক্যে ক্রিয়া প্রথমে: „Obwohl ich müde bin, arbeite ich.“"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "der Feiertag",
+      "options": [
+        "ঐতিহ্য",
+        "ইস্টার",
+        "সরকারি ছুটির দিন",
+        "আতশবাজি"
+      ],
+      "answer": 2,
+      "why": "der Feiertag = সরকারি ছুটির দিন।",
+      "word": "feiertag"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "obwohl",
+      "options": [
+        "সাধারণত",
+        "যদিও",
+        "উৎসব",
+        "বড়দিন"
+      ],
+      "answer": 1,
+      "why": "obwohl = যদিও।",
+      "word": "obwohl"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "normalerweise",
+      "options": [
+        "সাধারণত",
+        "উৎসব",
+        "বড়দিন",
+        "আতশবাজি"
+      ],
+      "answer": 0,
+      "why": "normalerweise = সাধারণত।",
+      "word": "normalerweise"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Tradition",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Tradition। বহুবচন: die Traditionen।",
+      "word": "tradition"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক সংযোজক বেছে নিন",
+      "sub": "Ich gehe zur Arbeit, ___ ich krank bin.",
+      "options": [
+        "obwohl",
+        "weil",
+        "dass",
+        "denn"
+      ],
+      "answer": 0,
+      "why": "বিপরীত ভাব: যদিও।",
+      "word": "obwohl"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক সংযোজক বেছে নিন",
+      "sub": "Ich feiere, ___ ich Geburtstag habe.",
+      "options": [
+        "weil",
+        "obwohl",
+        "trotzdem",
+        "aber"
+      ],
+      "answer": 0,
+      "why": "কারণ: weil।",
+      "word": "fest"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক বাক্য কোনটি?",
+      "options": [
+        "Obwohl es regnet, gehen wir spazieren.",
+        "Obwohl es regnet, wir gehen spazieren.",
+        "Obwohl regnet es, gehen wir spazieren.",
+        "Obwohl es regnet gehen, wir spazieren."
+      ],
+      "answer": 0,
+      "why": "Nebensatz আগে → মূল বাক্যে ক্রিয়া প্রথমে।",
+      "word": "obwohl"
+    },
+    {
+      "type": "mcq",
+      "prompt": "১ মে-র ছুটির নাম কী?",
+      "options": [
+        "Tag der Arbeit",
+        "Silvester",
+        "Ostern",
+        "Neujahr"
+      ],
+      "answer": 0,
+      "why": "মে দিবস।",
+      "word": "feiertag"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Silvester কখন?",
+      "options": [
+        "৩১ ডিসেম্বর",
+        "১ জানুয়ারি",
+        "২৫ ডিসেম্বর",
+        "৩ অক্টোবর"
+      ],
+      "answer": 0,
+      "why": "বছরের শেষ দিন।",
+      "word": "silvester"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „যদিও আমি ক্লান্ত, আমি কাজ করি।“",
+      "tiles": [
+        "arbeite",
+        "bin,",
+        "ich",
+        "Obwohl",
+        "müde",
+        "ich"
+      ],
+      "answer": [
+        "Obwohl",
+        "ich",
+        "müde",
+        "bin,",
+        "arbeite",
+        "ich"
+      ],
+      "why": "Nebensatz আগে → মূল বাক্য ক্রিয়া দিয়ে শুরু।",
+      "word": "obwohl"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

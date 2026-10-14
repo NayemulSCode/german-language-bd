@@ -1,0 +1,1635 @@
+{
+  "level": "B1",
+  "unit": 8,
+  "minutes": 18,
+  "lesson": 3,
+  "id": "b1-u08-l03",
+  "title": {
+    "de": "Familie, Kita und Gleichberechtigung",
+    "bn": "পরিবার, কিটা ও সমানাধিকার",
+    "en": "Family, daycare and equality"
+  },
+  "hook": {
+    "de": "Kinder sind unsere Zukunft.",
+    "who": "Redensart",
+    "bn": "শিশুরাই আমাদের ভবিষ্যৎ।",
+    "en": "Children are our future."
+  },
+  "goals": [
+    "Elternzeit, Elterngeld, Kita, Rechtsanspruch",
+    "sich kümmern um, aufpassen auf, sich einigen auf",
+    "Passiv und Relativsatz: Das Geld, das vom Staat gezahlt wird",
+    "Rollenverteilung und Gleichberechtigung besprechen"
+  ],
+  "words": [
+    {
+      "id": "elternzeit",
+      "de": "Elternzeit",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "সন্তানের জন্য ছুটি (কর্মস্থল থেকে)",
+      "en": "parental leave"
+    },
+    {
+      "id": "elterngeld",
+      "de": "Elterngeld",
+      "art": "das",
+      "pos": "বিশেষ্য",
+      "bn": "অভিভাবক ভাতা (রাষ্ট্র থেকে)",
+      "en": "parental allowance"
+    },
+    {
+      "id": "kita",
+      "de": "Kita",
+      "art": "die",
+      "pl": "die Kitas",
+      "pos": "বিশেষ্য",
+      "bn": "শিশু-দিবাযত্ন কেন্দ্র",
+      "en": "daycare centre"
+    },
+    {
+      "id": "betreuung",
+      "de": "Betreuung",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "যত্ন, তত্ত্বাবধান",
+      "en": "care, supervision"
+    },
+    {
+      "id": "rechtsanspruch",
+      "de": "Rechtsanspruch",
+      "art": "der",
+      "pl": "die Rechtsansprüche",
+      "pos": "বিশেষ্য",
+      "bn": "আইনি অধিকার",
+      "en": "legal entitlement"
+    },
+    {
+      "id": "gleichberechtigung",
+      "de": "Gleichberechtigung",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "সমানাধিকার",
+      "en": "equal rights"
+    },
+    {
+      "id": "grossfamilie",
+      "de": "Großfamilie",
+      "art": "die",
+      "pl": "die Großfamilien",
+      "pos": "বিশেষ্য",
+      "bn": "যৌথ পরিবার",
+      "en": "extended family"
+    },
+    {
+      "id": "berufstaetig",
+      "de": "berufstätig",
+      "pos": "বিশেষণ",
+      "bn": "কর্মজীবী",
+      "en": "employed"
+    },
+    {
+      "id": "sich_kuemmern",
+      "de": "sich kümmern",
+      "pos": "ক্রিয়া · hat sich gekümmert (um + Akk.)",
+      "bn": "দেখাশোনা করা",
+      "en": "to take care of"
+    },
+    {
+      "id": "aufpassen",
+      "de": "aufpassen",
+      "pos": "ক্রিয়া · hat aufgepasst (auf + Akk.)",
+      "bn": "নজর রাখা",
+      "en": "to look after"
+    },
+    {
+      "id": "kindergeld",
+      "de": "Kindergeld",
+      "art": "das",
+      "pos": "বিশেষ্য",
+      "bn": "শিশু-ভাতা (মাসিক)",
+      "en": "child benefit"
+    },
+    {
+      "id": "rollenverteilung",
+      "de": "Rollenverteilung",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "ভূমিকা-বণ্টন",
+      "en": "division of roles"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Saheb",
+      "bn": [
+        "লেনা,",
+        "তোমার",
+        "বোনের",
+        "তো",
+        "শিগগিরই",
+        "বাচ্চা",
+        "হবে,",
+        "তাই",
+        "না?",
+        "তখন",
+        "কি",
+        "সে",
+        "সন্তানের",
+        "জন্য",
+        "ছুটি",
+        "নেবে?"
+      ],
+      "en": [
+        "Lena,",
+        "your",
+        "sister",
+        "is",
+        "going",
+        "to",
+        "have",
+        "a",
+        "baby",
+        "soon,",
+        "isn’t",
+        "she?",
+        "Will",
+        "she",
+        "take",
+        "parental",
+        "leave",
+        "then?"
+      ],
+      "de": [
+        {
+          "t": "Lena,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Lena",
+          "gb": "লেনা",
+          "ge": "Lena",
+          "n": ""
+        },
+        {
+          "t": "deine Schwester",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "deine Schwester",
+          "gb": "তোমার বোনের",
+          "ge": "your sister",
+          "n": ""
+        },
+        {
+          "t": "bekommt bald",
+          "b": [
+            4
+          ],
+          "e": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "l": "bekommt bald",
+          "gb": "শিগগিরই",
+          "ge": "is going to have",
+          "n": ""
+        },
+        {
+          "t": "ein Baby,",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            7,
+            8,
+            9
+          ],
+          "l": "ein Baby",
+          "gb": "বাচ্চা হবে",
+          "ge": "a baby soon",
+          "n": ""
+        },
+        {
+          "t": "oder?",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            10,
+            11
+          ],
+          "l": "oder",
+          "gb": "তাই না",
+          "ge": "isn’t she",
+          "n": ""
+        },
+        {
+          "t": "Nimmt sie dann",
+          "b": [
+            9,
+            10,
+            11
+          ],
+          "e": [
+            12,
+            13,
+            17
+          ],
+          "l": "Nimmt sie dann",
+          "gb": "তখন কি সে",
+          "ge": "Will she then",
+          "n": ""
+        },
+        {
+          "t": "Elternzeit?",
+          "b": [
+            12,
+            13,
+            14,
+            15
+          ],
+          "e": [
+            14,
+            15,
+            16
+          ],
+          "l": "Elternzeit",
+          "gb": "সন্তানের জন্য ছুটি নেবে",
+          "ge": "take parental leave",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "হ্যাঁ,",
+        "সে",
+        "এক",
+        "বছর",
+        "বাসায়",
+        "থাকবে",
+        "আর",
+        "তার",
+        "স্বামী",
+        "দুই",
+        "মাসের",
+        "ছুটি",
+        "নেবে।",
+        "জার্মানিতে",
+        "বাবা-মা",
+        "দুজনেই",
+        "এই",
+        "ছুটি",
+        "নিতে",
+        "পারেন।"
+      ],
+      "en": [
+        "Yes,",
+        "she",
+        "will",
+        "stay",
+        "at",
+        "home",
+        "for",
+        "a",
+        "year",
+        "and",
+        "her",
+        "husband",
+        "will",
+        "take",
+        "two",
+        "months.",
+        "In",
+        "Germany",
+        "both",
+        "parents",
+        "can",
+        "take",
+        "this",
+        "leave."
+      ],
+      "de": [
+        {
+          "t": "Ja,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ja",
+          "gb": "হ্যাঁ",
+          "ge": "Yes",
+          "n": ""
+        },
+        {
+          "t": "sie bleibt",
+          "b": [
+            1,
+            5
+          ],
+          "e": [
+            1,
+            2,
+            3
+          ],
+          "l": "sie bleibt",
+          "gb": "সে থাকবে",
+          "ge": "she will stay",
+          "n": ""
+        },
+        {
+          "t": "ein Jahr",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            6,
+            7,
+            8
+          ],
+          "l": "ein Jahr",
+          "gb": "এক বছর",
+          "ge": "for a year",
+          "n": ""
+        },
+        {
+          "t": "zu Hause,",
+          "b": [
+            4
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "zu Hause",
+          "gb": "বাসায়",
+          "ge": "at home",
+          "n": ""
+        },
+        {
+          "t": "und ihr Mann",
+          "b": [
+            6,
+            7,
+            8
+          ],
+          "e": [
+            9,
+            10,
+            11
+          ],
+          "l": "und ihr Mann",
+          "gb": "আর তার স্বামী",
+          "ge": "and her husband",
+          "n": ""
+        },
+        {
+          "t": "nimmt",
+          "b": [
+            12
+          ],
+          "e": [
+            12,
+            13
+          ],
+          "l": "nimmt",
+          "gb": "নেবে",
+          "ge": "will take",
+          "n": ""
+        },
+        {
+          "t": "zwei Monate.",
+          "b": [
+            9,
+            10,
+            11
+          ],
+          "e": [
+            14,
+            15
+          ],
+          "l": "zwei Monate",
+          "gb": "দুই মাসের ছুটি",
+          "ge": "two months",
+          "n": ""
+        },
+        {
+          "t": "In Deutschland",
+          "b": [
+            13
+          ],
+          "e": [
+            16,
+            17
+          ],
+          "l": "In Deutschland",
+          "gb": "জার্মানিতে",
+          "ge": "In Germany",
+          "n": ""
+        },
+        {
+          "t": "können",
+          "b": [
+            19
+          ],
+          "e": [
+            20
+          ],
+          "l": "können",
+          "gb": "পারেন",
+          "ge": "can",
+          "n": ""
+        },
+        {
+          "t": "beide Eltern",
+          "b": [
+            14,
+            15
+          ],
+          "e": [
+            18,
+            19
+          ],
+          "l": "beide Eltern",
+          "gb": "বাবা-মা দুজনেই",
+          "ge": "both parents",
+          "n": ""
+        },
+        {
+          "t": "Elternzeit nehmen.",
+          "b": [
+            16,
+            17,
+            18
+          ],
+          "e": [
+            21,
+            22,
+            23
+          ],
+          "l": "Elternzeit nehmen",
+          "gb": "এই ছুটি নিতে",
+          "ge": "take this leave",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "ওই",
+        "সময়ে",
+        "কে",
+        "টাকা",
+        "দেয়?"
+      ],
+      "en": [
+        "Who",
+        "pays",
+        "during",
+        "that",
+        "time?"
+      ],
+      "de": [
+        {
+          "t": "Wer",
+          "b": [
+            2
+          ],
+          "e": [
+            0
+          ],
+          "l": "Wer",
+          "gb": "কে",
+          "ge": "Who",
+          "n": ""
+        },
+        {
+          "t": "bezahlt",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            1
+          ],
+          "l": "bezahlt",
+          "gb": "টাকা দেয়",
+          "ge": "pays",
+          "n": ""
+        },
+        {
+          "t": "das",
+          "b": [],
+          "e": [],
+          "l": "das",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "in dieser Zeit?",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            2,
+            3,
+            4
+          ],
+          "l": "in dieser Zeit",
+          "gb": "ওই সময়ে",
+          "ge": "during that time",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "ছুটির",
+        "সময়",
+        "অনেক",
+        "বাবা-মা",
+        "অভিভাবক",
+        "ভাতা",
+        "পান,",
+        "যা",
+        "রাষ্ট্র",
+        "থেকে",
+        "দেওয়া",
+        "হয়।",
+        "এর",
+        "পরিমাণ",
+        "আগের",
+        "আয়ের",
+        "ওপর",
+        "নির্ভর",
+        "করে।"
+      ],
+      "en": [
+        "During",
+        "leave",
+        "many",
+        "parents",
+        "receive",
+        "parental",
+        "allowance,",
+        "which",
+        "is",
+        "paid",
+        "by",
+        "the",
+        "state.",
+        "The",
+        "amount",
+        "depends",
+        "on",
+        "previous",
+        "income."
+      ],
+      "de": [
+        {
+          "t": "Während der Elternzeit",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Während der Elternzeit",
+          "gb": "ছুটির সময়",
+          "ge": "During leave",
+          "n": ""
+        },
+        {
+          "t": "bekommen",
+          "b": [
+            6
+          ],
+          "e": [
+            4
+          ],
+          "l": "bekommen",
+          "gb": "পান",
+          "ge": "receive",
+          "n": ""
+        },
+        {
+          "t": "viele Eltern",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "viele Eltern",
+          "gb": "অনেক বাবা-মা",
+          "ge": "many parents",
+          "n": ""
+        },
+        {
+          "t": "Elterngeld,",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "Elterngeld",
+          "gb": "অভিভাবক ভাতা",
+          "ge": "parental allowance",
+          "n": ""
+        },
+        {
+          "t": "das",
+          "b": [
+            7
+          ],
+          "e": [
+            7
+          ],
+          "l": "das",
+          "gb": "যা",
+          "ge": "which",
+          "n": ""
+        },
+        {
+          "t": "vom Staat",
+          "b": [
+            8,
+            9
+          ],
+          "e": [
+            10,
+            11,
+            12
+          ],
+          "l": "vom Staat",
+          "gb": "রাষ্ট্র থেকে",
+          "ge": "by the state",
+          "n": ""
+        },
+        {
+          "t": "gezahlt wird.",
+          "b": [
+            10,
+            11
+          ],
+          "e": [
+            8,
+            9
+          ],
+          "l": "gezahlt wird",
+          "gb": "দেওয়া হয়",
+          "ge": "is paid",
+          "n": ""
+        },
+        {
+          "t": "Die Höhe",
+          "b": [
+            12,
+            13
+          ],
+          "e": [
+            13,
+            14
+          ],
+          "l": "Die Höhe",
+          "gb": "এর পরিমাণ",
+          "ge": "The amount",
+          "n": ""
+        },
+        {
+          "t": "hängt vom bisherigen Einkommen ab.",
+          "b": [
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "e": [
+            15,
+            16,
+            17,
+            18
+          ],
+          "l": "hängt vom bisherigen Einkommen ab",
+          "gb": "আগের আয়ের ওপর নির্ভর করে",
+          "ge": "depends on previous income",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আর",
+        "বাবা-মা",
+        "আবার",
+        "কাজে",
+        "ফিরলে",
+        "শিশুর",
+        "দিকে",
+        "কে",
+        "নজর",
+        "রাখে?"
+      ],
+      "en": [
+        "And",
+        "who",
+        "looks",
+        "after",
+        "the",
+        "child",
+        "when",
+        "the",
+        "parents",
+        "go",
+        "back",
+        "to",
+        "work?"
+      ],
+      "de": [
+        {
+          "t": "Und",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "wer",
+          "b": [
+            7
+          ],
+          "e": [
+            1
+          ],
+          "l": "wer",
+          "gb": "কে",
+          "ge": "who",
+          "n": ""
+        },
+        {
+          "t": "passt",
+          "b": [
+            8,
+            9
+          ],
+          "e": [
+            2
+          ],
+          "l": "passt",
+          "gb": "নজর রাখে",
+          "ge": "looks",
+          "n": ""
+        },
+        {
+          "t": "auf das Kind",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            3,
+            4,
+            5
+          ],
+          "l": "auf das Kind",
+          "gb": "শিশুর দিকে",
+          "ge": "after the child",
+          "n": ""
+        },
+        {
+          "t": "auf,",
+          "b": [],
+          "e": [],
+          "l": "auf",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "wenn die Eltern",
+          "b": [
+            1
+          ],
+          "e": [
+            6,
+            7,
+            8
+          ],
+          "l": "wenn die Eltern",
+          "gb": "বাবা-মা",
+          "ge": "when the parents",
+          "n": ""
+        },
+        {
+          "t": "wieder arbeiten?",
+          "b": [
+            2,
+            3,
+            4
+          ],
+          "e": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "l": "wieder arbeiten",
+          "gb": "আবার কাজে ফিরলে",
+          "ge": "go back to work",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "অনেক",
+        "শিশু",
+        "কিটায়",
+        "যায়।",
+        "এক",
+        "বছর",
+        "বয়স",
+        "থেকে",
+        "সেখানে",
+        "জায়গা",
+        "পাওয়ার",
+        "আইনি",
+        "অধিকার",
+        "আছে,",
+        "কিন্তু",
+        "কিছু",
+        "শহরে",
+        "জায়গা",
+        "পাওয়া",
+        "কঠিন।"
+      ],
+      "en": [
+        "Many",
+        "children",
+        "go",
+        "to",
+        "daycare.",
+        "From",
+        "the",
+        "age",
+        "of",
+        "one",
+        "there",
+        "is",
+        "a",
+        "legal",
+        "entitlement",
+        "to",
+        "a",
+        "place",
+        "there,",
+        "but",
+        "in",
+        "some",
+        "cities",
+        "it",
+        "is",
+        "hard",
+        "to",
+        "find",
+        "one."
+      ],
+      "de": [
+        {
+          "t": "Viele Kinder",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Viele Kinder",
+          "gb": "অনেক শিশু",
+          "ge": "Many children",
+          "n": ""
+        },
+        {
+          "t": "gehen in die Kita.",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            2,
+            3,
+            4
+          ],
+          "l": "Kita",
+          "gb": "কিটায় যায়",
+          "ge": "go to daycare",
+          "n": ""
+        },
+        {
+          "t": "Ab dem ersten Geburtstag",
+          "b": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "e": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "l": "Ab dem ersten Geburtstag",
+          "gb": "এক বছর বয়স থেকে",
+          "ge": "From the age of one",
+          "n": ""
+        },
+        {
+          "t": "gibt es",
+          "b": [
+            13
+          ],
+          "e": [
+            10,
+            11
+          ],
+          "l": "gibt es",
+          "gb": "আছে",
+          "ge": "there is",
+          "n": ""
+        },
+        {
+          "t": "einen Rechtsanspruch",
+          "b": [
+            11,
+            12
+          ],
+          "e": [
+            12,
+            13,
+            14
+          ],
+          "l": "Rechtsanspruch",
+          "gb": "আইনি অধিকার",
+          "ge": "a legal entitlement",
+          "n": ""
+        },
+        {
+          "t": "auf einen Platz,",
+          "b": [
+            9,
+            10
+          ],
+          "e": [
+            15,
+            16,
+            17,
+            18
+          ],
+          "l": "auf einen Platz",
+          "gb": "জায়গা পাওয়ার",
+          "ge": "to a place there",
+          "n": ""
+        },
+        {
+          "t": "aber",
+          "b": [
+            14
+          ],
+          "e": [
+            19
+          ],
+          "l": "aber",
+          "gb": "কিন্তু",
+          "ge": "but",
+          "n": ""
+        },
+        {
+          "t": "in manchen Städten",
+          "b": [
+            15,
+            16
+          ],
+          "e": [
+            20,
+            21,
+            22
+          ],
+          "l": "in manchen Städten",
+          "gb": "কিছু শহরে",
+          "ge": "in some cities",
+          "n": ""
+        },
+        {
+          "t": "ist es schwer,",
+          "b": [
+            19
+          ],
+          "e": [
+            23,
+            24,
+            25
+          ],
+          "l": "ist es schwer",
+          "gb": "কঠিন",
+          "ge": "it is hard",
+          "n": ""
+        },
+        {
+          "t": "einen zu finden.",
+          "b": [
+            17,
+            18
+          ],
+          "e": [
+            26,
+            27,
+            28
+          ],
+          "l": "einen zu finden",
+          "gb": "জায়গা পাওয়া",
+          "ge": "to find one",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "বাংলাদেশে",
+        "প্রায়ই",
+        "যৌথ",
+        "পরিবার",
+        "শিশুদের",
+        "দেখাশোনা",
+        "করে।"
+      ],
+      "en": [
+        "In",
+        "Bangladesh",
+        "the",
+        "extended",
+        "family",
+        "often",
+        "takes",
+        "care",
+        "of",
+        "the",
+        "children."
+      ],
+      "de": [
+        {
+          "t": "In Bangladesch",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "In Bangladesch",
+          "gb": "বাংলাদেশে",
+          "ge": "In Bangladesh",
+          "n": ""
+        },
+        {
+          "t": "kümmert sich",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            6,
+            7,
+            8
+          ],
+          "l": "kümmert sich",
+          "gb": "দেখাশোনা করে",
+          "ge": "takes care of",
+          "n": ""
+        },
+        {
+          "t": "oft",
+          "b": [
+            1
+          ],
+          "e": [
+            5
+          ],
+          "l": "oft",
+          "gb": "প্রায়ই",
+          "ge": "often",
+          "n": ""
+        },
+        {
+          "t": "die Großfamilie",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            2,
+            3,
+            4
+          ],
+          "l": "Großfamilie",
+          "gb": "যৌথ পরিবার",
+          "ge": "the extended family",
+          "n": ""
+        },
+        {
+          "t": "um die Kinder.",
+          "b": [
+            4
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "sich kümmern",
+          "gb": "শিশুদের",
+          "ge": "the children",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "ওটা",
+        "অনেক",
+        "বড়",
+        "পার্থক্য।",
+        "এখানে",
+        "সমানাধিকার",
+        "নিয়ে",
+        "অনেক",
+        "আলোচনা",
+        "হয়:",
+        "নারী-পুরুষ",
+        "যেন",
+        "কাজ",
+        "আর",
+        "পরিবার",
+        "ভাগ",
+        "করে",
+        "নিতে",
+        "পারে।"
+      ],
+      "en": [
+        "That",
+        "is",
+        "a",
+        "big",
+        "difference.",
+        "Here",
+        "there",
+        "is",
+        "much",
+        "discussion",
+        "about",
+        "equality:",
+        "men",
+        "and",
+        "women",
+        "should",
+        "be",
+        "able",
+        "to",
+        "share",
+        "work",
+        "and",
+        "family."
+      ],
+      "de": [
+        {
+          "t": "Das ist",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Das ist",
+          "gb": "ওটা",
+          "ge": "That is",
+          "n": ""
+        },
+        {
+          "t": "ein großer Unterschied.",
+          "b": [
+            1,
+            2,
+            3
+          ],
+          "e": [
+            2,
+            3,
+            4
+          ],
+          "l": "ein großer Unterschied",
+          "gb": "অনেক বড় পার্থক্য",
+          "ge": "a big difference",
+          "n": ""
+        },
+        {
+          "t": "Hier",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "Hier",
+          "gb": "এখানে",
+          "ge": "Here",
+          "n": ""
+        },
+        {
+          "t": "diskutiert man",
+          "b": [
+            8,
+            9
+          ],
+          "e": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "l": "diskutiert man",
+          "gb": "আলোচনা হয়",
+          "ge": "there is much discussion",
+          "n": ""
+        },
+        {
+          "t": "viel über",
+          "b": [
+            7
+          ],
+          "e": [
+            10
+          ],
+          "l": "viel über",
+          "gb": "অনেক",
+          "ge": "about",
+          "n": ""
+        },
+        {
+          "t": "Gleichberechtigung:",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            11
+          ],
+          "l": "Gleichberechtigung",
+          "gb": "সমানাধিকার নিয়ে",
+          "ge": "equality",
+          "n": ""
+        },
+        {
+          "t": "Männer und Frauen",
+          "b": [
+            10
+          ],
+          "e": [
+            12,
+            13,
+            14
+          ],
+          "l": "Männer und Frauen",
+          "gb": "নারী-পুরুষ",
+          "ge": "men and women",
+          "n": ""
+        },
+        {
+          "t": "sollen",
+          "b": [
+            11
+          ],
+          "e": [
+            15
+          ],
+          "l": "sollen",
+          "gb": "যেন",
+          "ge": "should",
+          "n": ""
+        },
+        {
+          "t": "Beruf und Familie",
+          "b": [
+            12,
+            13,
+            14
+          ],
+          "e": [
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22
+          ],
+          "l": "Beruf und Familie",
+          "gb": "কাজ আর পরিবার",
+          "ge": "be able to share work and family",
+          "n": ""
+        },
+        {
+          "t": "teilen können.",
+          "b": [
+            15,
+            16,
+            17,
+            18
+          ],
+          "e": [],
+          "l": "teilen können",
+          "gb": "ভাগ করে নিতে পারে",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "Familie und Staat (Überblick, ohne Gewähr)",
+      "head": [
+        "Leistung",
+        "Bedeutung"
+      ],
+      "rows": [
+        [
+          "Elternzeit",
+          "কাজ থেকে ছুটি (চাকরির সুরক্ষাসহ), প্রতিটি সন্তানের জন্য বহু বছর পর্যন্ত সম্ভব"
+        ],
+        [
+          "Elterngeld",
+          "ছুটির সময় রাষ্ট্রীয় আয়-সহায়তা (আগের আয়ের ওপর নির্ভরশীল)"
+        ],
+        [
+          "Kindergeld",
+          "প্রতি মাসে প্রতি সন্তানের জন্য ভাতা (শর্ত আছে)"
+        ],
+        [
+          "Kita-Platz",
+          "এক বছর থেকে আইনি অধিকার; সীমিত জায়গা"
+        ],
+        [
+          "Ganztagsbetreuung",
+          "দিনব্যাপী যত্ন (স্কুলে/হোর্টে)"
+        ]
+      ],
+      "note": "সুবিধার শর্ত, পরিমাণ ও আবেদন পদ্ধতি বদলায় এবং আবাসিক অবস্থার ওপরও নির্ভর করতে পারে। স্থানীয় Jugendamt বা Familienkasse-তে জিজ্ঞাসা করুন।"
+    },
+    {
+      "type": "table",
+      "title": "Verben mit Präposition: Familie",
+      "head": [
+        "Verb + Präposition",
+        "Beispiel"
+      ],
+      "rows": [
+        [
+          "sich kümmern um + Akk.",
+          "Die Großfamilie kümmert sich um die Kinder."
+        ],
+        [
+          "aufpassen auf + Akk.",
+          "Wer passt auf das Kind auf?"
+        ],
+        [
+          "sich einigen auf + Akk.",
+          "Wir haben uns auf eine Lösung geeinigt."
+        ],
+        [
+          "verzichten auf + Akk.",
+          "Er verzichtet auf eine Beförderung."
+        ],
+        [
+          "abhängen von + Dat.",
+          "Die Höhe hängt vom Einkommen ab."
+        ]
+      ],
+      "note": "sich kümmern um ≈ sorgen für। প্রশ্ন: Worum kümmert sie sich? / Um wen kümmert sie sich?"
+    },
+    {
+      "type": "table",
+      "title": "Gleichberechtigung — Formulierungen",
+      "head": [
+        "Funktion",
+        "Satz"
+      ],
+      "rows": [
+        [
+          "Forderung",
+          "Männer und Frauen sollten sich Beruf und Familie teilen können."
+        ],
+        [
+          "Beobachtung",
+          "In vielen Familien arbeiten beide Eltern."
+        ],
+        [
+          "Vergleich",
+          "In Bangladesch betreut oft die Großfamilie die Kinder, in Deutschland die Kita."
+        ],
+        [
+          "Meinung",
+          "Ich finde, dass gute Betreuung wichtig für die Gleichberechtigung ist."
+        ]
+      ],
+      "note": "বিষয়টি ব্যক্তিগত ও সাংস্কৃতিক; বিভিন্ন দৃষ্টিভঙ্গি সম্মান করুন।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "die Elternzeit",
+      "options": [
+        "শিশু-দিবাযত্ন কেন্দ্র",
+        "সন্তানের জন্য ছুটি",
+        "আইনি অধিকার",
+        "যৌথ পরিবার"
+      ],
+      "answer": 1,
+      "why": "die Elternzeit = সন্তানের জন্য ছুটি।",
+      "word": "elternzeit"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "der Rechtsanspruch",
+      "options": [
+        "আইনি অধিকার",
+        "শিশু-দিবাযত্ন কেন্দ্র",
+        "যৌথ পরিবার",
+        "নজর রাখা"
+      ],
+      "answer": 0,
+      "why": "der Rechtsanspruch = আইনি অধিকার।",
+      "word": "rechtsanspruch"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "die Betreuung",
+      "options": [
+        "অভিভাবক ভাতা",
+        "যত্ন",
+        "সমানাধিকার",
+        "দেখাশোনা করা"
+      ],
+      "answer": 1,
+      "why": "die Betreuung = যত্ন।",
+      "word": "betreuung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Kita",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Kita। বহুবচন: die Kitas।",
+      "word": "kita"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক অব্যয় বেছে নিন",
+      "sub": "Die Großfamilie kümmert sich ___ die Kinder.",
+      "options": [
+        "um",
+        "für",
+        "auf",
+        "an"
+      ],
+      "answer": 0,
+      "why": "sich kümmern um + Akk.",
+      "word": "sich_kuemmern"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক অব্যয় বেছে নিন",
+      "sub": "Wer passt ___ das Kind auf?",
+      "options": [
+        "auf",
+        "um",
+        "für",
+        "bei"
+      ],
+      "answer": 0,
+      "why": "aufpassen auf + Akk.",
+      "word": "aufpassen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Elterngeld“ কী?",
+      "options": [
+        "ছুটির সময় রাষ্ট্রীয় আয়-সহায়তা",
+        "শিশুর পকেটমানি",
+        "স্কুল ফি",
+        "কর"
+      ],
+      "answer": 0,
+      "why": "Elterngeld।",
+      "word": "elterngeld"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Rechtsanspruch auf einen Kita-Platz“ — কখন থেকে?",
+      "options": [
+        "এক বছর বয়স থেকে",
+        "জন্মের দিন থেকে",
+        "ছয় বছর থেকে",
+        "আঠারো বছর থেকে"
+      ],
+      "answer": 0,
+      "why": "ab dem ersten Geburtstag।",
+      "word": "kindergeld"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক বাক্য কোনটি?",
+      "options": [
+        "Das Geld, das vom Staat gezahlt wird, heißt Elterngeld.",
+        "Das Geld, das gezahlt vom Staat wird, heißt Elterngeld.",
+        "Das Geld das, vom Staat wird gezahlt, heißt Elterngeld.",
+        "Das Geld, wird vom Staat das gezahlt, heißt Elterngeld."
+      ],
+      "answer": 0,
+      "why": "Relativsatz: Passiv শেষে।",
+      "word": "gleichberechtigung"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „কে শিশুর দিকে নজর রাখে?“",
+      "tiles": [
+        "das Kind",
+        "auf",
+        "passt",
+        "Wer",
+        "auf?"
+      ],
+      "answer": [
+        "Wer",
+        "passt",
+        "auf",
+        "das Kind",
+        "auf?"
+      ],
+      "why": "aufpassen auf: trennbar।",
+      "word": "aufpassen"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

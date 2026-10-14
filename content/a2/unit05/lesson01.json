@@ -1,0 +1,1232 @@
+{
+  "level": "A2",
+  "unit": 5,
+  "minutes": 16,
+  "lesson": 1,
+  "id": "a2-u05-l01",
+  "title": {
+    "de": "Eine Wohnung in Berlin",
+    "bn": "বাসার বিজ্ঞাপন: ভাড়া, খরচ, জামানত",
+    "en": "A flat in Berlin: reading rental ads"
+  },
+  "hook": {
+    "de": "Eigener Herd ist Goldes wert.",
+    "who": "Sprichwort",
+    "bn": "নিজের চুলা সোনার সমান মূল্যবান।",
+    "en": "A home of your own is worth gold."
+  },
+  "goals": [
+    "বিজ্ঞাপনের শব্দ: Kaltmiete, Nebenkosten, Warmmiete, Kaution",
+    "ভাড়ার সংক্ষেপ: 2-Zi-Whg, KM, NK, EBK",
+    "Ordnungszahlen: der erste, zweite, dritte …",
+    "im dritten Stock · ab dem ersten Mai"
+  ],
+  "words": [
+    {
+      "id": "anzeige",
+      "de": "Anzeige",
+      "art": "die",
+      "pl": "die Anzeigen",
+      "pos": "বিশেষ্য",
+      "bn": "বিজ্ঞাপন",
+      "en": "ad, listing"
+    },
+    {
+      "id": "kaltmiete",
+      "de": "Kaltmiete",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "মূল ভাড়া (খরচ ছাড়া)",
+      "en": "base rent"
+    },
+    {
+      "id": "nebenkosten",
+      "de": "Nebenkosten",
+      "pos": "বিশেষ্য, বহুবচন",
+      "bn": "আনুষঙ্গিক খরচ (পানি, গরম, ময়লা)",
+      "en": "additional costs"
+    },
+    {
+      "id": "warmmiete",
+      "de": "Warmmiete",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "মোট ভাড়া (খরচসহ)",
+      "en": "total rent"
+    },
+    {
+      "id": "kaution",
+      "de": "Kaution",
+      "art": "die",
+      "pl": "die Kautionen",
+      "pos": "বিশেষ্য",
+      "bn": "জামানত (ফেরতযোগ্য)",
+      "en": "deposit"
+    },
+    {
+      "id": "stock",
+      "de": "Stock",
+      "art": "der",
+      "pl": "die Stockwerke",
+      "pos": "বিশেষ্য",
+      "bn": "তলা (ফ্লোর)",
+      "en": "floor"
+    },
+    {
+      "id": "aufzug",
+      "de": "Aufzug",
+      "art": "der",
+      "pl": "die Aufzüge",
+      "pos": "বিশেষ্য",
+      "bn": "লিফট",
+      "en": "elevator"
+    },
+    {
+      "id": "balkon",
+      "de": "Balkon",
+      "art": "der",
+      "pl": "die Balkone",
+      "pos": "বিশেষ্য",
+      "bn": "বারান্দা",
+      "en": "balcony"
+    },
+    {
+      "id": "moebliert",
+      "de": "möbliert",
+      "pos": "বিশেষণ",
+      "bn": "আসবাবপত্রসহ",
+      "en": "furnished"
+    },
+    {
+      "id": "frei",
+      "de": "frei",
+      "pos": "বিশেষণ",
+      "bn": "খালি, মুক্ত",
+      "en": "free, vacant"
+    },
+    {
+      "id": "mieter",
+      "de": "Mieter",
+      "art": "der",
+      "pl": "die Mieter",
+      "pos": "বিশেষ্য",
+      "bn": "ভাড়াটিয়া",
+      "en": "tenant"
+    },
+    {
+      "id": "vermieter",
+      "de": "Vermieter",
+      "art": "der",
+      "pl": "die Vermieter",
+      "pos": "বিশেষ্য",
+      "bn": "বাড়িওয়ালা",
+      "en": "landlord"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Muna",
+      "bn": [
+        "দেখো,",
+        "এখানে",
+        "একটি",
+        "বিজ্ঞাপন",
+        "আছে!"
+      ],
+      "en": [
+        "Look,",
+        "here",
+        "is",
+        "an",
+        "ad!"
+      ],
+      "de": [
+        {
+          "t": "Schau mal,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Schau mal",
+          "gb": "দেখো",
+          "ge": "Look",
+          "n": ""
+        },
+        {
+          "t": "hier",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "hier",
+          "gb": "এখানে",
+          "ge": "here",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [
+            4
+          ],
+          "e": [
+            2
+          ],
+          "l": "ist",
+          "gb": "আছে",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "eine",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "eine",
+          "gb": "একটি",
+          "ge": "an",
+          "n": ""
+        },
+        {
+          "t": "Anzeige!",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "Anzeige",
+          "gb": "বিজ্ঞাপন",
+          "ge": "ad",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "দুই",
+        "রুম,",
+        "রান্নাঘর,",
+        "বাথরুম",
+        "আর",
+        "বারান্দা।",
+        "শুনতে",
+        "ভালো!"
+      ],
+      "en": [
+        "Two",
+        "rooms,",
+        "kitchen,",
+        "bathroom",
+        "and",
+        "balcony.",
+        "That",
+        "sounds",
+        "good!"
+      ],
+      "de": [
+        {
+          "t": "Zwei",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Zwei",
+          "gb": "দুই",
+          "ge": "Two",
+          "n": ""
+        },
+        {
+          "t": "Zimmer,",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "Zimmer",
+          "gb": "রুম",
+          "ge": "rooms",
+          "n": ""
+        },
+        {
+          "t": "Küche,",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "Küche",
+          "gb": "রান্নাঘর",
+          "ge": "kitchen",
+          "n": ""
+        },
+        {
+          "t": "Bad",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "Bad",
+          "gb": "বাথরুম",
+          "ge": "bathroom",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "Balkon.",
+          "b": [
+            5
+          ],
+          "e": [
+            5
+          ],
+          "l": "Balkon",
+          "gb": "বারান্দা",
+          "ge": "balcony",
+          "n": ""
+        },
+        {
+          "t": "Das",
+          "b": [],
+          "e": [
+            6
+          ],
+          "l": "Das",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "That",
+          "n": ""
+        },
+        {
+          "t": "klingt",
+          "b": [
+            6
+          ],
+          "e": [
+            7
+          ],
+          "l": "klingt",
+          "gb": "শুনতে",
+          "ge": "sounds",
+          "n": ""
+        },
+        {
+          "t": "gut!",
+          "b": [
+            7
+          ],
+          "e": [
+            8
+          ],
+          "l": "gut",
+          "gb": "ভালো",
+          "ge": "good",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "মূল",
+        "ভাড়া",
+        "৬৫০",
+        "ইউরো,",
+        "আর",
+        "আনুষঙ্গিক",
+        "খরচ",
+        "১৫০",
+        "ইউরো।"
+      ],
+      "en": [
+        "The",
+        "base",
+        "rent",
+        "is",
+        "650",
+        "euros",
+        "and",
+        "the",
+        "extra",
+        "costs",
+        "are",
+        "150",
+        "euros."
+      ],
+      "de": [
+        {
+          "t": "Die",
+          "b": [],
+          "e": [
+            0
+          ],
+          "l": "Die",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "The",
+          "n": ""
+        },
+        {
+          "t": "Kaltmiete",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "Kaltmiete",
+          "gb": "মূল ভাড়া",
+          "ge": "base rent",
+          "n": "kalt = গরম/বিদ্যুৎ/পানির খরচ ছাড়া শুধু বাসার ভাড়া"
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "sechshundertfünfzig Euro,",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "sechshundertfünfzig Euro",
+          "gb": "৬৫০ ইউরো",
+          "ge": "650 euros",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            4
+          ],
+          "e": [
+            6
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "die",
+          "b": [],
+          "e": [
+            7
+          ],
+          "l": "die",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "Nebenkosten",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            8,
+            9
+          ],
+          "l": "Nebenkosten",
+          "gb": "আনুষঙ্গিক খরচ",
+          "ge": "extra costs",
+          "n": ""
+        },
+        {
+          "t": "sind",
+          "b": [],
+          "e": [
+            10
+          ],
+          "l": "sind",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "are",
+          "n": ""
+        },
+        {
+          "t": "hundertfünfzig Euro.",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            11,
+            12
+          ],
+          "l": "hundertfünfzig Euro",
+          "gb": "১৫০ ইউরো",
+          "ge": "150 euros",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "সব",
+        "মিলিয়ে",
+        "আটশো",
+        "ইউরো",
+        "মোট",
+        "ভাড়া।"
+      ],
+      "en": [
+        "Together",
+        "that",
+        "is",
+        "eight",
+        "hundred",
+        "euros",
+        "total",
+        "rent."
+      ],
+      "de": [
+        {
+          "t": "Zusammen",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0
+          ],
+          "l": "Zusammen",
+          "gb": "সব মিলিয়ে",
+          "ge": "Together",
+          "n": ""
+        },
+        {
+          "t": "sind",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "sind",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "das",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "das",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "that",
+          "n": ""
+        },
+        {
+          "t": "achthundert",
+          "b": [
+            2
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "achthundert",
+          "gb": "আটশো",
+          "ge": "eight hundred",
+          "n": ""
+        },
+        {
+          "t": "Euro",
+          "b": [
+            3
+          ],
+          "e": [
+            5
+          ],
+          "l": "Euro",
+          "gb": "ইউরো",
+          "ge": "euros",
+          "n": ""
+        },
+        {
+          "t": "Warmmiete.",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "Warmmiete",
+          "gb": "মোট ভাড়া",
+          "ge": "total rent",
+          "n": "Warmmiete = Kaltmiete + Nebenkosten"
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "তোমাকে",
+        "একটি",
+        "জামানতও",
+        "দিতে",
+        "হবে।"
+      ],
+      "en": [
+        "You",
+        "also",
+        "have",
+        "to",
+        "pay",
+        "a",
+        "deposit."
+      ],
+      "de": [
+        {
+          "t": "Du",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Du",
+          "gb": "তোমাকে",
+          "ge": "You",
+          "n": ""
+        },
+        {
+          "t": "musst",
+          "b": [
+            4
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "musst",
+          "gb": "হবে",
+          "ge": "have to",
+          "n": ""
+        },
+        {
+          "t": "auch",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "auch",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "also",
+          "n": ""
+        },
+        {
+          "t": "eine",
+          "b": [
+            1
+          ],
+          "e": [
+            5
+          ],
+          "l": "eine",
+          "gb": "একটি",
+          "ge": "a",
+          "n": ""
+        },
+        {
+          "t": "Kaution",
+          "b": [
+            2
+          ],
+          "e": [
+            6
+          ],
+          "l": "Kaution",
+          "gb": "জামানতও",
+          "ge": "deposit",
+          "n": "সাধারণত ২–৩ মাসের Kaltmiete; চুক্তি শেষে ফেরত পাওয়া যায়"
+        },
+        {
+          "t": "bezahlen.",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "bezahlen",
+          "gb": "দিতে",
+          "ge": "pay",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "ফ্ল্যাটটা",
+        "কোথায়?",
+        "তৃতীয়",
+        "তলায়?"
+      ],
+      "en": [
+        "Where",
+        "is",
+        "the",
+        "flat?",
+        "On",
+        "the",
+        "third",
+        "floor?"
+      ],
+      "de": [
+        {
+          "t": "Wo",
+          "b": [
+            1
+          ],
+          "e": [
+            0
+          ],
+          "l": "Wo",
+          "gb": "কোথায়",
+          "ge": "Where",
+          "n": ""
+        },
+        {
+          "t": "liegt",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "liegt",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "die",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "die",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "Wohnung?",
+          "b": [
+            0
+          ],
+          "e": [
+            3
+          ],
+          "l": "Wohnung",
+          "gb": "ফ্ল্যাটটা",
+          "ge": "flat",
+          "n": ""
+        },
+        {
+          "t": "Im dritten Stock?",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "l": "Stock",
+          "gb": "তৃতীয় তলায়",
+          "ge": "On the third floor",
+          "n": "im dritten Stock: Ordnungszahl + Dativ (-en)"
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "হ্যাঁ,",
+        "আর",
+        "লিফট",
+        "আছে।",
+        "ওটা",
+        "পহেলা",
+        "মে",
+        "থেকে",
+        "খালি।"
+      ],
+      "en": [
+        "Yes,",
+        "and",
+        "there",
+        "is",
+        "an",
+        "elevator.",
+        "It",
+        "is",
+        "free",
+        "from",
+        "the",
+        "first",
+        "of",
+        "May."
+      ],
+      "de": [
+        {
+          "t": "Ja,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ja",
+          "gb": "হ্যাঁ",
+          "ge": "Yes",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "es",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "es",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "there",
+          "n": ""
+        },
+        {
+          "t": "gibt",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "gibt",
+          "gb": "আছে",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "einen",
+          "b": [],
+          "e": [
+            4
+          ],
+          "l": "einen",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "an",
+          "n": ""
+        },
+        {
+          "t": "Aufzug.",
+          "b": [
+            2
+          ],
+          "e": [
+            5
+          ],
+          "l": "Aufzug",
+          "gb": "লিফট",
+          "ge": "elevator",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [
+            4
+          ],
+          "e": [
+            6
+          ],
+          "l": "Sie",
+          "gb": "ওটা",
+          "ge": "It",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            7
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "ab",
+          "b": [
+            7
+          ],
+          "e": [
+            9
+          ],
+          "l": "ab",
+          "gb": "থেকে",
+          "ge": "from",
+          "n": ""
+        },
+        {
+          "t": "dem",
+          "b": [],
+          "e": [
+            10
+          ],
+          "l": "dem",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "the",
+          "n": ""
+        },
+        {
+          "t": "ersten",
+          "b": [
+            5
+          ],
+          "e": [
+            11
+          ],
+          "l": "ersten",
+          "gb": "পহেলা",
+          "ge": "first",
+          "n": ""
+        },
+        {
+          "t": "Mai",
+          "b": [
+            6
+          ],
+          "e": [
+            13
+          ],
+          "l": "Mai",
+          "gb": "মে",
+          "ge": "May",
+          "n": ""
+        },
+        {
+          "t": "frei.",
+          "b": [
+            8
+          ],
+          "e": [],
+          "l": "frei",
+          "gb": "খালি",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "বিজ্ঞাপনের শব্দ ও সংক্ষেপ",
+      "head": [
+        "সংক্ষেপ",
+        "পূর্ণ রূপ",
+        "অর্থ"
+      ],
+      "rows": [
+        [
+          "2-Zi-Whg",
+          "2-Zimmer-Wohnung",
+          "দুই রুমের ফ্ল্যাট"
+        ],
+        [
+          "KM",
+          "Kaltmiete",
+          "মূল ভাড়া"
+        ],
+        [
+          "NK",
+          "Nebenkosten",
+          "আনুষঙ্গিক খরচ"
+        ],
+        [
+          "WM",
+          "Warmmiete",
+          "মোট ভাড়া"
+        ],
+        [
+          "EBK",
+          "Einbauküche",
+          "বসানো রান্নাঘর"
+        ],
+        [
+          "Kt.",
+          "Kaution",
+          "জামানত"
+        ],
+        [
+          "ab sofort",
+          "ab sofort",
+          "এখনই থেকে"
+        ]
+      ],
+      "note": "জার্মানির বিজ্ঞাপনে সংক্ষেপ অনেক বেশি। Kaltmiete + Nebenkosten = Warmmiete। Strom (বিদ্যুৎ) ও Internet আলাদা হতে পারে।"
+    },
+    {
+      "type": "table",
+      "title": "Ordnungszahlen (প্রথম, দ্বিতীয় …)",
+      "head": [
+        "সংখ্যা",
+        "Ordnungszahl",
+        "বাংলা"
+      ],
+      "rows": [
+        [
+          "1.",
+          "erste",
+          "প্রথম"
+        ],
+        [
+          "2.",
+          "zweite",
+          "দ্বিতীয়"
+        ],
+        [
+          "3.",
+          "dritte",
+          "তৃতীয়"
+        ],
+        [
+          "4.",
+          "vierte",
+          "চতুর্থ"
+        ],
+        [
+          "7.",
+          "siebte",
+          "সপ্তম"
+        ],
+        [
+          "8.",
+          "achte",
+          "অষ্টম"
+        ],
+        [
+          "10.",
+          "zehnte",
+          "দশম"
+        ],
+        [
+          "20.",
+          "zwanzigste",
+          "বিংশ"
+        ]
+      ],
+      "note": "১–১৯: -te (ব্যতিক্রম: erste, dritte, siebte, achte)। ২০ থেকে: -ste। Dativ-এ -en: im dritten Stock, am ersten Mai, ab dem zweiten Juni।"
+    },
+    {
+      "type": "text",
+      "title": "Stockwerke",
+      "text": "জার্মানিতে ভূমিতল = „Erdgeschoss“ (EG), তার উপরের তলা = „der erste Stock“। অর্থাৎ বাংলার „দোতলা“ জার্মানে „erster Stock“। Aufzug নেই এমন বাড়িতে ভারী জিনিস নিয়ে উঠতে সুবিধা-অসুবিধা ভেবে নিন।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "die Kaution",
+      "options": [
+        "জামানত",
+        "তলা",
+        "বারান্দা",
+        "খালি"
+      ],
+      "answer": 0,
+      "why": "die Kaution = জামানত।",
+      "word": "kaution"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "Nebenkosten",
+      "options": [
+        "মোট ভাড়া",
+        "লিফট",
+        "আনুষঙ্গিক খরচ",
+        "খালি"
+      ],
+      "answer": 2,
+      "why": "Nebenkosten = আনুষঙ্গিক খরচ।",
+      "word": "nebenkosten"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "der Aufzug",
+      "options": [
+        "লিফট",
+        "তলা",
+        "খালি",
+        "বিজ্ঞাপন"
+      ],
+      "answer": 0,
+      "why": "der Aufzug = লিফট।",
+      "word": "aufzug"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Anzeige",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Anzeige। বহুবচন: die Anzeigen।",
+      "word": "anzeige"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Warmmiete = ?",
+      "options": [
+        "Kaltmiete + Nebenkosten",
+        "Kaltmiete − Kaution",
+        "শুধু Strom",
+        "Kaution + Strom"
+      ],
+      "answer": 0,
+      "why": "Warmmiete = Kaltmiete + Nebenkosten।",
+      "word": "warmmiete"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„der dritte Stock“ কোনটি?",
+      "options": [
+        "তৃতীয় তলা",
+        "তিন ইউরো",
+        "তিন কক্ষ",
+        "তৃতীয় বাড়ি"
+      ],
+      "answer": 0,
+      "why": "Stock = তলা, dritte = তৃতীয়।",
+      "word": "stock"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Die Wohnung liegt im ___ Stock.",
+      "options": [
+        "dritten",
+        "dritte",
+        "dritter",
+        "drittes"
+      ],
+      "answer": 0,
+      "why": "im + Dativ: -en।",
+      "word": "stock"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Kaution“ কী?",
+      "options": [
+        "জামানত",
+        "মাসিক ভাড়া",
+        "বিদ্যুৎ বিল",
+        "ভাড়াচুক্তি"
+      ],
+      "answer": 0,
+      "why": "ফেরতযোগ্য জামানত।",
+      "word": "kaution"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„möbliert“ মানে কী?",
+      "options": [
+        "আসবাবপত্রসহ",
+        "খালি",
+        "বড়",
+        "সস্তা"
+      ],
+      "answer": 0,
+      "why": "möbliert = furnished।",
+      "word": "moebliert"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „ফ্ল্যাটটা পহেলা মে থেকে খালি।“",
+      "tiles": [
+        "Mai",
+        "frei.",
+        "ab",
+        "dem",
+        "ersten",
+        "ist",
+        "Die Wohnung"
+      ],
+      "answer": [
+        "Die Wohnung",
+        "ist",
+        "ab",
+        "dem",
+        "ersten",
+        "Mai",
+        "frei."
+      ],
+      "why": "ab + Dativ: ab dem ersten Mai।",
+      "word": "frei"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

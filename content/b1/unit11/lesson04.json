@@ -1,0 +1,1487 @@
+{
+  "level": "B1",
+  "unit": 11,
+  "minutes": 18,
+  "lesson": 4,
+  "id": "b1-u11-l04",
+  "title": {
+    "de": "Kulturschock und Kommunikation",
+    "bn": "কালচারাল শক ও ভিন্ন সংস্কৃতির যোগাযোগ",
+    "en": "Culture shock and intercultural communication"
+  },
+  "hook": {
+    "de": "Andere Länder, andere Sitten.",
+    "who": "Sprichwort",
+    "bn": "অন্য দেশে, অন্য রীতি।",
+    "en": "Other countries, other customs."
+  },
+  "goals": [
+    "Kulturunterschiede beschreiben",
+    "Missverständnisse klären",
+    "Konjunktiv II für Vermutungen und Ratschläge",
+    "Erfahrungsbericht schreiben"
+  ],
+  "words": [
+    {
+      "id": "kulturschock",
+      "de": "Kulturschock",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "সংস্কৃতিগত ধাক্কা",
+      "en": "culture shock"
+    },
+    {
+      "id": "unterschied",
+      "de": "Unterschied",
+      "art": "der",
+      "pl": "die Unterschiede",
+      "pos": "বিশেষ্য",
+      "bn": "পার্থক্য",
+      "en": "difference"
+    },
+    {
+      "id": "missverstaendnis",
+      "de": "Missverständnis",
+      "art": "das",
+      "pl": "die Missverständnisse",
+      "pos": "বিশেষ্য",
+      "bn": "ভুল বোঝাবুঝি",
+      "en": "misunderstanding"
+    },
+    {
+      "id": "puenktlich",
+      "de": "pünktlich",
+      "pos": "বিশেষণ",
+      "bn": "সময়ানুবর্তী",
+      "en": "punctual"
+    },
+    {
+      "id": "direkt",
+      "de": "direkt",
+      "pos": "বিশেষণ",
+      "bn": "সরাসরি",
+      "en": "direct"
+    },
+    {
+      "id": "hoeflich",
+      "de": "höflich",
+      "pos": "বিশেষণ",
+      "bn": "ভদ্র",
+      "en": "polite"
+    },
+    {
+      "id": "sitte",
+      "de": "Sitte",
+      "art": "die",
+      "pl": "die Sitten",
+      "pos": "বিশেষ্য",
+      "bn": "রীতি, চালচলন",
+      "en": "custom, manner"
+    },
+    {
+      "id": "sich_anpassen",
+      "de": "sich anpassen",
+      "pos": "ক্রিয়া · hat sich angepasst (an + Akk.)",
+      "bn": "মানিয়ে নেওয়া",
+      "en": "to adapt"
+    },
+    {
+      "id": "erfahrung",
+      "de": "Erfahrung",
+      "art": "die",
+      "pl": "die Erfahrungen",
+      "pos": "বিশেষ্য",
+      "bn": "অভিজ্ঞতা",
+      "en": "experience"
+    },
+    {
+      "id": "heimweh",
+      "de": "Heimweh",
+      "art": "das",
+      "pos": "বিশেষ্য",
+      "bn": "বাড়ির জন্য মন খারাপ",
+      "en": "homesickness"
+    },
+    {
+      "id": "verstaendnis",
+      "de": "Verständnis",
+      "art": "das",
+      "pos": "বিশেষ্য",
+      "bn": "সহানুভূতি, বোঝাপড়া",
+      "en": "understanding"
+    },
+    {
+      "id": "offenheit",
+      "de": "Offenheit",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "খোলামেলা মন",
+      "en": "openness"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Saheb",
+      "bn": [
+        "মুনা,",
+        "আমি",
+        "এখনও",
+        "মাঝে",
+        "মাঝে",
+        "ক্লান্ত",
+        "হয়ে",
+        "পড়ি।",
+        "সবকিছু",
+        "নতুন,",
+        "আর",
+        "আমি",
+        "প্রায়ই",
+        "ভুল",
+        "করি।",
+        "আমার",
+        "কি",
+        "কালচারাল",
+        "শক",
+        "হচ্ছে?"
+      ],
+      "en": [
+        "Muna,",
+        "I",
+        "sometimes",
+        "still",
+        "get",
+        "tired.",
+        "Everything",
+        "is",
+        "new",
+        "and",
+        "I",
+        "often",
+        "make",
+        "mistakes.",
+        "Am",
+        "I",
+        "having",
+        "culture",
+        "shock?"
+      ],
+      "de": [
+        {
+          "t": "Muna,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Muna",
+          "gb": "মুনা",
+          "ge": "Muna",
+          "n": ""
+        },
+        {
+          "t": "ich bin manchmal",
+          "b": [
+            1,
+            3,
+            4
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "ich bin manchmal",
+          "gb": "আমি মাঝে মাঝে",
+          "ge": "I sometimes",
+          "n": ""
+        },
+        {
+          "t": "immer noch müde.",
+          "b": [
+            2,
+            5,
+            6,
+            7
+          ],
+          "e": [
+            3,
+            4,
+            5
+          ],
+          "l": "immer noch müde",
+          "gb": "এখনও ক্লান্ত হয়ে পড়ি",
+          "ge": "still get tired",
+          "n": ""
+        },
+        {
+          "t": "Alles ist neu,",
+          "b": [
+            8,
+            9
+          ],
+          "e": [
+            6,
+            7,
+            8
+          ],
+          "l": "Alles ist neu",
+          "gb": "সবকিছু নতুন",
+          "ge": "Everything is new",
+          "n": ""
+        },
+        {
+          "t": "und ich mache oft Fehler.",
+          "b": [
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "e": [
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "l": "und ich mache oft Fehler",
+          "gb": "আর আমি প্রায়ই ভুল করি",
+          "ge": "and I often make mistakes",
+          "n": ""
+        },
+        {
+          "t": "Habe ich einen Kulturschock?",
+          "b": [
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "e": [
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "l": "Kulturschock",
+          "gb": "আমার কি কালচারাল শক হচ্ছে",
+          "ge": "Am I having culture shock",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "সম্ভবত।",
+        "এটা",
+        "খুবই",
+        "স্বাভাবিক।",
+        "প্রথমে",
+        "সবকিছু",
+        "রোমাঞ্চকর,",
+        "তারপর",
+        "অনেক",
+        "কিছু",
+        "কঠিন",
+        "লাগে।",
+        "কিছুদিন",
+        "পর",
+        "আবার",
+        "ভালো",
+        "লাগতে",
+        "শুরু",
+        "করে।",
+        "এটা",
+        "প্রায়",
+        "সবার",
+        "ক্ষেত্রেই",
+        "ঘটে।"
+      ],
+      "en": [
+        "Probably.",
+        "It",
+        "is",
+        "quite",
+        "normal.",
+        "At",
+        "first",
+        "everything",
+        "is",
+        "exciting,",
+        "then",
+        "many",
+        "things",
+        "feel",
+        "hard.",
+        "After",
+        "some",
+        "time",
+        "you",
+        "start",
+        "feeling",
+        "good",
+        "again.",
+        "This",
+        "happens",
+        "to",
+        "almost",
+        "everyone."
+      ],
+      "de": [
+        {
+          "t": "Vielleicht.",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Vielleicht",
+          "gb": "সম্ভবত",
+          "ge": "Probably",
+          "n": ""
+        },
+        {
+          "t": "Das ist ganz normal.",
+          "b": [
+            1,
+            2,
+            3
+          ],
+          "e": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "l": "Das ist ganz normal",
+          "gb": "এটা খুবই স্বাভাবিক",
+          "ge": "It is quite normal",
+          "n": ""
+        },
+        {
+          "t": "Am Anfang ist alles aufregend,",
+          "b": [
+            4,
+            5,
+            6
+          ],
+          "e": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "l": "Am Anfang ist alles aufregend",
+          "gb": "প্রথমে সবকিছু রোমাঞ্চকর",
+          "ge": "At first everything is exciting",
+          "n": ""
+        },
+        {
+          "t": "dann wird vieles schwer.",
+          "b": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "e": [
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "l": "dann wird vieles schwer",
+          "gb": "তারপর অনেক কিছু কঠিন লাগে",
+          "ge": "then many things feel hard",
+          "n": ""
+        },
+        {
+          "t": "Nach einiger Zeit",
+          "b": [
+            12,
+            13
+          ],
+          "e": [
+            15,
+            16,
+            17
+          ],
+          "l": "Nach einiger Zeit",
+          "gb": "কিছুদিন পর",
+          "ge": "After some time",
+          "n": ""
+        },
+        {
+          "t": "geht es wieder besser.",
+          "b": [
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "e": [
+            18,
+            19,
+            20,
+            21,
+            22
+          ],
+          "l": "geht es wieder besser",
+          "gb": "আবার ভালো লাগতে শুরু করে",
+          "ge": "you start feeling good again",
+          "n": ""
+        },
+        {
+          "t": "Das passiert fast allen.",
+          "b": [
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "e": [
+            23,
+            24,
+            25,
+            26,
+            27
+          ],
+          "l": "Das passiert fast allen",
+          "gb": "এটা প্রায় সবার ক্ষেত্রেই ঘটে",
+          "ge": "This happens to almost everyone",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "কোন",
+        "বিষয়গুলোয়",
+        "সবচেয়ে",
+        "বেশি",
+        "অবাক",
+        "হয়েছি,",
+        "জানো?",
+        "সময়ানুবর্তিতা",
+        "আর",
+        "সরাসরি",
+        "কথা",
+        "বলা।"
+      ],
+      "en": [
+        "Do",
+        "you",
+        "know",
+        "what",
+        "surprised",
+        "me",
+        "most?",
+        "Punctuality",
+        "and",
+        "speaking",
+        "directly."
+      ],
+      "de": [
+        {
+          "t": "Weißt du,",
+          "b": [
+            7
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "Weißt du",
+          "gb": "জানো",
+          "ge": "Do you know",
+          "n": ""
+        },
+        {
+          "t": "was mich am meisten überrascht hat?",
+          "b": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "e": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "l": "was mich am meisten überrascht hat",
+          "gb": "আমি কোন বিষয়গুলোয় সবচেয়ে বেশি অবাক হয়েছি",
+          "ge": "what surprised me most",
+          "n": ""
+        },
+        {
+          "t": "Pünktlichkeit",
+          "b": [
+            8
+          ],
+          "e": [
+            7
+          ],
+          "l": "Pünktlichkeit",
+          "gb": "সময়ানুবর্তিতা",
+          "ge": "Punctuality",
+          "n": ""
+        },
+        {
+          "t": "und direkte Sprache.",
+          "b": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "e": [
+            8,
+            9,
+            10
+          ],
+          "l": "und direkte Sprache",
+          "gb": "আর সরাসরি কথা বলা",
+          "ge": "and speaking directly",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "ঠিক।",
+        "জার্মানিতে",
+        "„পাঁচ",
+        "মিনিট",
+        "দেরি“-ও",
+        "অনেক",
+        "সময়",
+        "অভদ্রতা",
+        "মনে",
+        "হয়।",
+        "আর",
+        "সরাসরি",
+        "কথাকে",
+        "নিরুৎসাহ",
+        "নয়,",
+        "সততা",
+        "ধরা",
+        "হয়।",
+        "যেমন:",
+        "„ওটা",
+        "আমি",
+        "ভালো",
+        "মনে",
+        "করি",
+        "না।“"
+      ],
+      "en": [
+        "Right.",
+        "In",
+        "Germany",
+        "even",
+        "“five",
+        "minutes",
+        "late”",
+        "can",
+        "often",
+        "seem",
+        "impolite.",
+        "And",
+        "direct",
+        "speech",
+        "is",
+        "seen",
+        "as",
+        "honesty,",
+        "not",
+        "discouragement.",
+        "For",
+        "example:",
+        "“I",
+        "do",
+        "not",
+        "think",
+        "that",
+        "is",
+        "good.”"
+      ],
+      "de": [
+        {
+          "t": "Stimmt.",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Stimmt",
+          "gb": "ঠিক",
+          "ge": "Right",
+          "n": ""
+        },
+        {
+          "t": "In Deutschland wirken",
+          "b": [
+            1
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "In Deutschland wirken",
+          "gb": "জার্মানিতে",
+          "ge": "In Germany",
+          "n": ""
+        },
+        {
+          "t": "schon fünf Minuten Verspätung",
+          "b": [
+            2,
+            3,
+            4
+          ],
+          "e": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "l": "schon fünf Minuten Verspätung",
+          "gb": "“পাঁচ মিনিট দেরি”-ও",
+          "ge": "even five minutes late",
+          "n": ""
+        },
+        {
+          "t": "oft unhöflich.",
+          "b": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "e": [
+            7,
+            8,
+            9,
+            10
+          ],
+          "l": "oft unhöflich",
+          "gb": "অনেক সময় অভদ্রতা মনে হয়",
+          "ge": "can often seem impolite",
+          "n": ""
+        },
+        {
+          "t": "Und direkte Worte",
+          "b": [
+            10,
+            11,
+            12
+          ],
+          "e": [
+            11,
+            12,
+            13
+          ],
+          "l": "Und direkte Worte",
+          "gb": "আর সরাসরি কথাকে",
+          "ge": "And direct speech",
+          "n": ""
+        },
+        {
+          "t": "gelten als Ehrlichkeit,",
+          "b": [
+            15,
+            16,
+            17
+          ],
+          "e": [
+            14,
+            15,
+            16,
+            17
+          ],
+          "l": "gelten als Ehrlichkeit",
+          "gb": "সততা ধরা হয়",
+          "ge": "is seen as honesty",
+          "n": ""
+        },
+        {
+          "t": "nicht als Unfreundlichkeit.",
+          "b": [
+            13,
+            14
+          ],
+          "e": [
+            18,
+            19
+          ],
+          "l": "nicht als Unfreundlichkeit",
+          "gb": "নিরুৎসাহ নয়",
+          "ge": "not discouragement",
+          "n": ""
+        },
+        {
+          "t": "Zum Beispiel:",
+          "b": [
+            18
+          ],
+          "e": [
+            20,
+            21
+          ],
+          "l": "Zum Beispiel",
+          "gb": "যেমন",
+          "ge": "For example",
+          "n": ""
+        },
+        {
+          "t": "„Das finde ich nicht gut.“",
+          "b": [
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "e": [
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28
+          ],
+          "l": "„Das finde ich nicht gut“",
+          "gb": "„ওটা আমি ভালো মনে করি না“",
+          "ge": "“I do not think that is good”",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "কিন্তু",
+        "আমার",
+        "সংস্কৃতিতে",
+        "সরাসরি",
+        "„না“",
+        "বলা",
+        "অভদ্রতা।",
+        "আমি",
+        "সাধারণত",
+        "ঘুরিয়ে",
+        "বলি।"
+      ],
+      "en": [
+        "But",
+        "in",
+        "my",
+        "culture",
+        "a",
+        "direct",
+        "“no”",
+        "is",
+        "rude.",
+        "I",
+        "usually",
+        "say",
+        "it",
+        "indirectly."
+      ],
+      "de": [
+        {
+          "t": "Aber in meiner Kultur",
+          "b": [
+            0,
+            1,
+            2
+          ],
+          "e": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "l": "Aber in meiner Kultur",
+          "gb": "কিন্তু আমার সংস্কৃতিতে",
+          "ge": "But in my culture",
+          "n": ""
+        },
+        {
+          "t": "ist ein direktes „Nein“",
+          "b": [
+            3,
+            4,
+            5
+          ],
+          "e": [
+            4,
+            5,
+            6
+          ],
+          "l": "ist ein direktes „Nein“",
+          "gb": "সরাসরি „না“ বলা",
+          "ge": "a direct “no”",
+          "n": ""
+        },
+        {
+          "t": "unhöflich.",
+          "b": [
+            6
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "unhöflich",
+          "gb": "অভদ্রতা",
+          "ge": "is rude",
+          "n": ""
+        },
+        {
+          "t": "Ich sage es meistens",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "l": "Ich sage es meistens",
+          "gb": "আমি সাধারণত",
+          "ge": "I usually say it",
+          "n": ""
+        },
+        {
+          "t": "indirekt.",
+          "b": [
+            9,
+            10
+          ],
+          "e": [
+            13
+          ],
+          "l": "indirekt",
+          "gb": "ঘুরিয়ে বলি",
+          "ge": "indirectly",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "দুটোই",
+        "বোঝা",
+        "যায়।",
+        "যদি",
+        "তুমি",
+        "ঘুরিয়ে",
+        "বলো,",
+        "কেউ",
+        "কেউ",
+        "হয়তো",
+        "না",
+        "বুঝে",
+        "হ্যাঁ",
+        "ধরে",
+        "নেবে।",
+        "ভদ্র",
+        "থেকে",
+        "স্পষ্ট",
+        "হওয়া",
+        "সম্ভব:",
+        "„তা",
+        "আমার",
+        "জন্য",
+        "মুশকিল,",
+        "দুঃখিত।“"
+      ],
+      "en": [
+        "Both",
+        "are",
+        "understandable.",
+        "If",
+        "you",
+        "say",
+        "it",
+        "indirectly,",
+        "some",
+        "people",
+        "may",
+        "not",
+        "understand",
+        "and",
+        "may",
+        "take",
+        "it",
+        "as",
+        "yes.",
+        "It",
+        "is",
+        "possible",
+        "to",
+        "be",
+        "polite",
+        "and",
+        "clear:",
+        "“That",
+        "is",
+        "difficult",
+        "for",
+        "me,",
+        "sorry.”"
+      ],
+      "de": [
+        {
+          "t": "Beides ist verständlich.",
+          "b": [
+            0,
+            1,
+            2
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "Beides ist verständlich",
+          "gb": "দুটোই বোঝা যায়",
+          "ge": "Both are understandable",
+          "n": ""
+        },
+        {
+          "t": "Wenn du es indirekt sagst,",
+          "b": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "e": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "l": "Wenn du es indirekt sagst",
+          "gb": "যদি তুমি ঘুরিয়ে বলো",
+          "ge": "If you say it indirectly",
+          "n": ""
+        },
+        {
+          "t": "verstehen es manche nicht",
+          "b": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "e": [
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "l": "verstehen es manche nicht",
+          "gb": "কেউ কেউ হয়তো না বুঝে",
+          "ge": "some people may not understand",
+          "n": ""
+        },
+        {
+          "t": "und nehmen es als Ja.",
+          "b": [
+            12,
+            13,
+            14
+          ],
+          "e": [
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "l": "und nehmen es als Ja",
+          "gb": "হ্যাঁ ধরে নেবে",
+          "ge": "and may take it as yes",
+          "n": ""
+        },
+        {
+          "t": "Man kann höflich und klar sein:",
+          "b": [
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "e": [
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26
+          ],
+          "l": "Man kann höflich und klar sein",
+          "gb": "ভদ্র থেকে স্পষ্ট হওয়া সম্ভব",
+          "ge": "It is possible to be polite and clear",
+          "n": ""
+        },
+        {
+          "t": "„Das ist für mich schwierig,",
+          "b": [
+            20,
+            21,
+            22,
+            23
+          ],
+          "e": [
+            27,
+            28,
+            29,
+            30,
+            31
+          ],
+          "l": "„Das ist für mich schwierig",
+          "gb": "„তা আমার জন্য মুশকিল",
+          "ge": "“That is difficult for me",
+          "n": ""
+        },
+        {
+          "t": "tut mir leid.“",
+          "b": [
+            24
+          ],
+          "e": [
+            32
+          ],
+          "l": "tut mir leid“",
+          "gb": "দুঃখিত“",
+          "ge": "sorry”",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "ধন্যবাদ।",
+        "আমি",
+        "চেষ্টা",
+        "করব।",
+        "আমি",
+        "আরও",
+        "শিখেছি",
+        "যে",
+        "দুই",
+        "সংস্কৃতিই",
+        "ভালো;",
+        "আমাকে",
+        "শুধু",
+        "মানিয়ে",
+        "নিতে",
+        "হবে,",
+        "নিজেকে",
+        "হারাতে",
+        "নয়।"
+      ],
+      "en": [
+        "Thank",
+        "you.",
+        "I",
+        "will",
+        "try.",
+        "I",
+        "have",
+        "also",
+        "learned",
+        "that",
+        "both",
+        "cultures",
+        "are",
+        "good;",
+        "I",
+        "only",
+        "need",
+        "to",
+        "adapt,",
+        "not",
+        "to",
+        "lose",
+        "myself."
+      ],
+      "de": [
+        {
+          "t": "Danke. Ich versuche es.",
+          "b": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "e": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "l": "Danke Ich versuche es",
+          "gb": "ধন্যবাদ আমি চেষ্টা করব",
+          "ge": "Thank you I will try",
+          "n": ""
+        },
+        {
+          "t": "Ich habe auch gelernt,",
+          "b": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "e": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "l": "Ich habe auch gelernt",
+          "gb": "আমি আরও শিখেছি যে",
+          "ge": "I have also learned that",
+          "n": ""
+        },
+        {
+          "t": "dass beide Kulturen gut sind;",
+          "b": [
+            8,
+            9,
+            10
+          ],
+          "e": [
+            10,
+            11,
+            12,
+            13
+          ],
+          "l": "dass beide Kulturen gut sind",
+          "gb": "দুই সংস্কৃতিই ভালো",
+          "ge": "both cultures are good",
+          "n": ""
+        },
+        {
+          "t": "ich muss mich nur anpassen,",
+          "b": [
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "e": [
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "l": "ich muss mich nur anpassen",
+          "gb": "আমাকে শুধু মানিয়ে নিতে হবে",
+          "ge": "I only need to adapt",
+          "n": ""
+        },
+        {
+          "t": "nicht mich selbst verlieren.",
+          "b": [
+            16,
+            17,
+            18
+          ],
+          "e": [
+            19,
+            20,
+            21,
+            22
+          ],
+          "l": "sich anpassen",
+          "gb": "নিজেকে হারাতে নয়",
+          "ge": "not to lose myself",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "Kulturunterschiede — Beispiele (vereinfacht)",
+      "head": [
+        "Thema",
+        "Typisch in Deutschland",
+        "Gegenüberstellung"
+      ],
+      "rows": [
+        [
+          "Zeit",
+          "Pünktlichkeit wichtig; Termine feste Zeit",
+          "Anderswo: flexibel"
+        ],
+        [
+          "Sprechen",
+          "direkt, sachlich; Kritik kann offen sein",
+          "Anderswo: indirekt, höflich ausweichend"
+        ],
+        [
+          "Privatsphäre",
+          "Privates oft getrennt von Arbeit/Öffentlichkeit",
+          "Anderswo: Familie nah, offene Türen"
+        ],
+        [
+          "Gastgeschenk",
+          "Blumen, Wein oder Süßes üblich",
+          "Je nach Kultur andere Gesten"
+        ],
+        [
+          "Anrede",
+          "Sie / du — Anfang meist Sie",
+          "Anderswo: Titel, Alter, Rang"
+        ]
+      ],
+      "note": "এগুলো সাধারণ প্রবণতা, কোনো ব্যক্তিকে সংজ্ঞায়িত করে না। প্রত্যেক ব্যক্তি ও পরিবার ভিন্ন। সংস্কৃতি জানার লক্ষ্য বোঝা, মূল্য বিচার নয়।"
+    },
+    {
+      "type": "table",
+      "title": "Ratschläge mit Konjunktiv II",
+      "head": [
+        "Funktion",
+        "Beispiel"
+      ],
+      "rows": [
+        [
+          "Ratschlag",
+          "Du solltest offen über deine Gefühle sprechen."
+        ],
+        [
+          "Vorschlag",
+          "Du könntest einen Kurs besuchen, um Leute kennenzulernen."
+        ],
+        [
+          "Vermutung",
+          "Es wäre möglich, dass du einen Kulturschock hast."
+        ],
+        [
+          "Wunsch",
+          "Ich wünschte, ich könnte besser Deutsch sprechen."
+        ]
+      ],
+      "note": "sollte / könnte / wäre / würde + Infinitiv — ভদ্র ও নরম।"
+    },
+    {
+      "type": "table",
+      "title": "Missverständnisse klären",
+      "head": [
+        "Situation",
+        "Formulierung"
+      ],
+      "rows": [
+        [
+          "Nachfragen",
+          "Habe ich Sie richtig verstanden? Meinen Sie, dass …?"
+        ],
+        [
+          "Bitten",
+          "Könnten Sie das bitte anders erklären?"
+        ],
+        [
+          "Ausdrücken",
+          "Ich möchte nicht unhöflich sein, aber …"
+        ],
+        [
+          "Entschuldigen",
+          "Entschuldigung, das war ein Missverständnis."
+        ],
+        [
+          "Dank",
+          "Danke für Ihre Geduld."
+        ]
+      ],
+      "note": "ভুল বোঝাবুঝিতে শান্তভাবে প্রশ্ন করা, নিজের শব্দে পুনরাবৃত্তি করা ভালো পদ্ধতি।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "der Kulturschock",
+      "options": [
+        "ভুল বোঝাবুঝি",
+        "সংস্কৃতিগত ধাক্কা",
+        "সরাসরি",
+        "রীতি"
+      ],
+      "answer": 1,
+      "why": "der Kulturschock = সংস্কৃতিগত ধাক্কা।",
+      "word": "kulturschock"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "das Missverständnis",
+      "options": [
+        "রীতি",
+        "বাড়ির জন্য মন খারাপ",
+        "সংস্কৃতিগত ধাক্কা",
+        "ভুল বোঝাবুঝি"
+      ],
+      "answer": 3,
+      "why": "das Missverständnis = ভুল বোঝাবুঝি।",
+      "word": "missverstaendnis"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "das Heimweh",
+      "options": [
+        "বাড়ির জন্য মন খারাপ",
+        "ভুল বোঝাবুঝি",
+        "ভদ্র",
+        "অভিজ্ঞতা"
+      ],
+      "answer": 0,
+      "why": "das Heimweh = বাড়ির জন্য মন খারাপ।",
+      "word": "heimweh"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Erfahrung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Erfahrung। বহুবচন: die Erfahrungen।",
+      "word": "erfahrung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Was ist ein guter Rat?",
+      "options": [
+        "Du solltest offen über deine Gefühle sprechen.",
+        "Du musst alles verstecken.",
+        "Du kannst nichts ändern.",
+        "Du darfst nicht fragen."
+      ],
+      "answer": 0,
+      "why": "sollte + Infinitiv।",
+      "word": "offenheit"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Habe ich Sie richtig verstanden?“ ist …",
+      "options": [
+        "eine höfliche Nachfrage",
+        "eine Beleidigung",
+        "ein Befehl",
+        "ein Dank"
+      ],
+      "answer": 0,
+      "why": "nachfragen।",
+      "word": "verstaendnis"
+    },
+    {
+      "type": "mcq",
+      "prompt": "In Deutschland ist Pünktlichkeit …",
+      "options": [
+        "oft sehr wichtig",
+        "nie wichtig",
+        "verboten",
+        "nur sonntags wichtig"
+      ],
+      "answer": 0,
+      "why": "oft wichtig, nicht immer।",
+      "word": "puenktlich"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Welche Aussage ist angemessen?",
+      "options": [
+        "Das ist für mich schwierig, tut mir leid.",
+        "Du bist dumm.",
+        "Das gefällt mir nicht, lass mich!",
+        "Nein, nie!"
+      ],
+      "answer": 0,
+      "why": "höflich und klar।",
+      "word": "hoeflich"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„sich anpassen“ heißt …",
+      "options": [
+        "মানিয়ে নেওয়া",
+        "ভুলে যাওয়া",
+        "পালিয়ে যাওয়া",
+        "হারানো"
+      ],
+      "answer": 0,
+      "why": "sich anpassen।",
+      "word": "sich_anpassen"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „তুমি একটা কোর্সে যেতে পারো।“",
+      "tiles": [
+        "könntest",
+        "einen Kurs",
+        "besuchen.",
+        "Du"
+      ],
+      "answer": [
+        "Du",
+        "könntest",
+        "einen Kurs",
+        "besuchen."
+      ],
+      "why": "Konjunktiv II।",
+      "word": "unterschied"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}
