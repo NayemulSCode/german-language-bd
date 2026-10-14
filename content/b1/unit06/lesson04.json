@@ -1,0 +1,1327 @@
+{
+  "level": "B1",
+  "unit": 6,
+  "minutes": 18,
+  "lesson": 4,
+  "id": "b1-u06-l04",
+  "title": {
+    "de": "Ein Leserbrief",
+    "bn": "পাঠকের চিঠি লেখা: Stellung nehmen",
+    "en": "Writing a letter to the editor"
+  },
+  "hook": {
+    "de": "Wer schreibt, der bleibt.",
+    "who": "Redensart",
+    "bn": "যা লেখা থাকে, তা টিকে থাকে।",
+    "en": "The written word remains."
+  },
+  "goals": [
+    "Aufbau eines Leserbriefs",
+    "Nomen-Verb-Verbindungen: Stellung nehmen, Kritik üben, Rücksicht nehmen",
+    "formelle Wendungen, Relativsätze",
+    "Meinung höflich und klar schreiben"
+  ],
+  "words": [
+    {
+      "id": "leserbrief",
+      "de": "Leserbrief",
+      "art": "der",
+      "pl": "die Leserbriefe",
+      "pos": "বিশেষ্য",
+      "bn": "পাঠকের চিঠি",
+      "en": "letter to the editor"
+    },
+    {
+      "id": "stellung",
+      "de": "Stellung",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "অবস্থান",
+      "en": "position"
+    },
+    {
+      "id": "kritik",
+      "de": "Kritik",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "সমালোচনা",
+      "en": "criticism"
+    },
+    {
+      "id": "ruecksicht",
+      "de": "Rücksicht",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "বিবেচনা",
+      "en": "consideration"
+    },
+    {
+      "id": "verfuegung",
+      "de": "Verfügung",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "ব্যবহারের জন্য উপলব্ধ",
+      "en": "disposal"
+    },
+    {
+      "id": "entscheidung",
+      "de": "Entscheidung",
+      "art": "die",
+      "pl": "die Entscheidungen",
+      "pos": "বিশেষ্য",
+      "bn": "সিদ্ধান্ত",
+      "en": "decision"
+    },
+    {
+      "id": "treffen",
+      "de": "treffen",
+      "pos": "ক্রিয়া · trifft, hat getroffen",
+      "bn": "নেওয়া (সিদ্ধান্ত); দেখা করা",
+      "en": "to make (a decision); to meet"
+    },
+    {
+      "id": "redaktion",
+      "de": "Redaktion",
+      "art": "die",
+      "pl": "die Redaktionen",
+      "pos": "বিশেষ্য",
+      "bn": "সম্পাদকীয় বিভাগ",
+      "en": "editorial office"
+    },
+    {
+      "id": "bezug",
+      "de": "Bezug",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "প্রসঙ্গ",
+      "en": "reference"
+    },
+    {
+      "id": "artikel",
+      "de": "Artikel",
+      "art": "der",
+      "pl": "die Artikel",
+      "pos": "বিশেষ্য",
+      "bn": "প্রবন্ধ",
+      "en": "article"
+    },
+    {
+      "id": "anliegen",
+      "de": "Anliegen",
+      "art": "das",
+      "pl": "die Anliegen",
+      "pos": "বিশেষ্য",
+      "bn": "উদ্বেগ, দাবি",
+      "en": "concern"
+    },
+    {
+      "id": "beruecksichtigen",
+      "de": "berücksichtigen",
+      "pos": "ক্রিয়া · hat berücksichtigt",
+      "bn": "বিবেচনায় নেওয়া",
+      "en": "to take into account"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "স্থানীয়",
+        "পত্রিকায়",
+        "আমাদের",
+        "বাস",
+        "লাইন",
+        "কমানো",
+        "নিয়ে",
+        "একটি",
+        "পাঠকের",
+        "চিঠি",
+        "লিখতে",
+        "চাই।",
+        "তুমি",
+        "কি",
+        "আমাকে",
+        "সাহায্য",
+        "করবে?"
+      ],
+      "en": [
+        "I",
+        "would",
+        "like",
+        "to",
+        "write",
+        "a",
+        "letter",
+        "to",
+        "the",
+        "editor",
+        "of",
+        "the",
+        "local",
+        "newspaper",
+        "about",
+        "the",
+        "reduction",
+        "of",
+        "our",
+        "bus",
+        "lines.",
+        "Will",
+        "you",
+        "help",
+        "me?"
+      ],
+      "de": [
+        {
+          "t": "Ich möchte",
+          "b": [
+            0,
+            12
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "Ich möchte",
+          "gb": "আমি চাই",
+          "ge": "I would like",
+          "n": ""
+        },
+        {
+          "t": "der lokalen Zeitung",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            3,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "l": "der lokalen Zeitung",
+          "gb": "স্থানীয় পত্রিকায়",
+          "ge": "to the editor of the local newspaper",
+          "n": ""
+        },
+        {
+          "t": "einen Leserbrief",
+          "b": [
+            8,
+            9,
+            10
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "Leserbrief",
+          "gb": "একটি পাঠকের চিঠি",
+          "ge": "a letter",
+          "n": ""
+        },
+        {
+          "t": "schreiben,",
+          "b": [
+            11
+          ],
+          "e": [
+            4
+          ],
+          "l": "schreiben",
+          "gb": "লিখতে",
+          "ge": "write",
+          "n": ""
+        },
+        {
+          "t": "über die Kürzung",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            14,
+            15,
+            16
+          ],
+          "l": "über die Kürzung",
+          "gb": "কমানো নিয়ে",
+          "ge": "about the reduction",
+          "n": ""
+        },
+        {
+          "t": "unserer Buslinien.",
+          "b": [
+            3,
+            4,
+            5
+          ],
+          "e": [
+            17,
+            18,
+            19,
+            20
+          ],
+          "l": "unserer Buslinien",
+          "gb": "আমাদের বাস লাইন",
+          "ge": "of our bus lines",
+          "n": ""
+        },
+        {
+          "t": "Hilfst du mir?",
+          "b": [
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "e": [
+            21,
+            22,
+            23,
+            24
+          ],
+          "l": "Hilfst du mir",
+          "gb": "তুমি কি আমাকে সাহায্য করবে",
+          "ge": "Will you help me",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "অবশ্যই।",
+        "প্রথমে",
+        "প্রসঙ্গ",
+        "বলো:",
+        "„আপনাদের",
+        "১২",
+        "মে-র",
+        "প্রবন্ধের",
+        "প্রসঙ্গে",
+        "লিখছি।“",
+        "তারপর",
+        "তোমার",
+        "অবস্থান",
+        "জানাও।"
+      ],
+      "en": [
+        "Of",
+        "course.",
+        "First",
+        "give",
+        "the",
+        "reference:",
+        "“I",
+        "am",
+        "writing",
+        "with",
+        "reference",
+        "to",
+        "your",
+        "article",
+        "of",
+        "12",
+        "May.”",
+        "Then",
+        "state",
+        "your",
+        "position."
+      ],
+      "de": [
+        {
+          "t": "Gern.",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Gern",
+          "gb": "অবশ্যই",
+          "ge": "Of course",
+          "n": ""
+        },
+        {
+          "t": "Nenne zuerst",
+          "b": [
+            1,
+            3
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "Nenne zuerst",
+          "gb": "প্রথমে বলো",
+          "ge": "First give",
+          "n": ""
+        },
+        {
+          "t": "den Bezug:",
+          "b": [
+            2
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "Bezug",
+          "gb": "প্রসঙ্গ",
+          "ge": "the reference",
+          "n": ""
+        },
+        {
+          "t": "„Ich schreibe",
+          "b": [
+            4
+          ],
+          "e": [
+            6,
+            7,
+            8
+          ],
+          "l": "„Ich schreibe",
+          "gb": "„আপনাদের",
+          "ge": "“I am writing",
+          "n": ""
+        },
+        {
+          "t": "mit Bezug",
+          "b": [
+            8
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "mit Bezug",
+          "gb": "প্রসঙ্গে",
+          "ge": "with reference",
+          "n": ""
+        },
+        {
+          "t": "auf Ihren Artikel",
+          "b": [
+            7
+          ],
+          "e": [
+            11,
+            12,
+            13
+          ],
+          "l": "Artikel",
+          "gb": "প্রবন্ধের",
+          "ge": "to your article",
+          "n": ""
+        },
+        {
+          "t": "vom 12. Mai.“",
+          "b": [
+            5,
+            6,
+            9
+          ],
+          "e": [
+            14,
+            15,
+            16
+          ],
+          "l": "vom 12 Mai“",
+          "gb": "১২ মে-র লিখছি“",
+          "ge": "of 12 May”",
+          "n": ""
+        },
+        {
+          "t": "Dann",
+          "b": [
+            10
+          ],
+          "e": [
+            17
+          ],
+          "l": "Dann",
+          "gb": "তারপর",
+          "ge": "Then",
+          "n": ""
+        },
+        {
+          "t": "nimm Stellung.",
+          "b": [
+            11,
+            12,
+            13
+          ],
+          "e": [
+            18,
+            19,
+            20
+          ],
+          "l": "Stellung",
+          "gb": "তোমার অবস্থান জানাও",
+          "ge": "state your position",
+          "n": "Stellung nehmen (zu) = অবস্থান জানানো (Nomen-Verb-Verbindung)"
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "লিখব:",
+        "„আমি",
+        "এই",
+        "সিদ্ধান্তের",
+        "কঠোর",
+        "সমালোচনা",
+        "করি,",
+        "কারণ",
+        "এর",
+        "ফলে",
+        "অনেক",
+        "শিক্ষার্থী",
+        "ও",
+        "বয়স্ক",
+        "মানুষ",
+        "প্রভাবিত",
+        "হবেন।“"
+      ],
+      "en": [
+        "I",
+        "will",
+        "write:",
+        "“I",
+        "strongly",
+        "criticise",
+        "this",
+        "decision,",
+        "because",
+        "many",
+        "students",
+        "and",
+        "elderly",
+        "people",
+        "will",
+        "be",
+        "affected.”"
+      ],
+      "de": [
+        {
+          "t": "„Ich übe",
+          "b": [
+            0,
+            7
+          ],
+          "e": [
+            0,
+            4,
+            5
+          ],
+          "l": "„Ich übe",
+          "gb": "„আমি করি",
+          "ge": "“I strongly criticise",
+          "n": "Kritik üben an + Dativ = সমালোচনা করা"
+        },
+        {
+          "t": "scharfe Kritik",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "Kritik",
+          "gb": "কঠোর সমালোচনা",
+          "ge": "this decision",
+          "n": ""
+        },
+        {
+          "t": "an dieser Entscheidung,",
+          "b": [
+            3,
+            4
+          ],
+          "e": [],
+          "l": "an dieser Entscheidung",
+          "gb": "এই সিদ্ধান্তের",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "weil",
+          "b": [
+            8
+          ],
+          "e": [
+            8
+          ],
+          "l": "weil",
+          "gb": "কারণ",
+          "ge": "because",
+          "n": ""
+        },
+        {
+          "t": "viele Schüler",
+          "b": [
+            11,
+            12
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "viele Schüler",
+          "gb": "অনেক শিক্ষার্থী",
+          "ge": "many students",
+          "n": ""
+        },
+        {
+          "t": "und ältere Menschen",
+          "b": [
+            13,
+            14,
+            15
+          ],
+          "e": [
+            11,
+            12,
+            13
+          ],
+          "l": "und ältere Menschen",
+          "gb": "ও বয়স্ক মানুষ",
+          "ge": "and elderly people",
+          "n": ""
+        },
+        {
+          "t": "davon betroffen sind.“",
+          "b": [
+            16,
+            17
+          ],
+          "e": [
+            1,
+            15,
+            16
+          ],
+          "l": "davon betroffen sind“",
+          "gb": "প্রভাবিত হবেন“",
+          "ge": "will be affected”",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "ভালো।",
+        "এখন",
+        "একটি",
+        "সমাধান",
+        "বলো।",
+        "যেমন:",
+        "„আমি",
+        "অনুরোধ",
+        "করছি,",
+        "আপনারা",
+        "যেন",
+        "সমস্ত",
+        "যাত্রী-দলের",
+        "প্রয়োজন",
+        "বিবেচনায়",
+        "নেন।“"
+      ],
+      "en": [
+        "Good.",
+        "Now",
+        "propose",
+        "a",
+        "solution.",
+        "For",
+        "example:",
+        "“I",
+        "ask",
+        "that",
+        "the",
+        "needs",
+        "of",
+        "all",
+        "passenger",
+        "groups",
+        "be",
+        "taken",
+        "into",
+        "account.”"
+      ],
+      "de": [
+        {
+          "t": "Gut.",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Gut",
+          "gb": "ভালো",
+          "ge": "Good",
+          "n": ""
+        },
+        {
+          "t": "Mach jetzt",
+          "b": [
+            1
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "Mach jetzt",
+          "gb": "এখন",
+          "ge": "Now propose",
+          "n": ""
+        },
+        {
+          "t": "einen Vorschlag.",
+          "b": [
+            2,
+            3,
+            4
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "einen Vorschlag",
+          "gb": "একটি সমাধান বলো",
+          "ge": "a solution",
+          "n": ""
+        },
+        {
+          "t": "Zum Beispiel:",
+          "b": [
+            5
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "Zum Beispiel",
+          "gb": "যেমন",
+          "ge": "For example",
+          "n": ""
+        },
+        {
+          "t": "„Ich bitte",
+          "b": [
+            6,
+            7,
+            8
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "„Ich bitte",
+          "gb": "„আমি অনুরোধ করছি",
+          "ge": "“I ask",
+          "n": ""
+        },
+        {
+          "t": "die Verantwortlichen,",
+          "b": [
+            9
+          ],
+          "e": [
+            9
+          ],
+          "l": "die Verantwortlichen",
+          "gb": "আপনারা",
+          "ge": "that",
+          "n": ""
+        },
+        {
+          "t": "die Bedürfnisse",
+          "b": [
+            13
+          ],
+          "e": [
+            10,
+            11
+          ],
+          "l": "die Bedürfnisse",
+          "gb": "প্রয়োজন",
+          "ge": "the needs",
+          "n": ""
+        },
+        {
+          "t": "aller Fahrgäste",
+          "b": [
+            11,
+            12
+          ],
+          "e": [
+            12,
+            13,
+            14,
+            15
+          ],
+          "l": "aller Fahrgäste",
+          "gb": "সমস্ত যাত্রী-দলের",
+          "ge": "of all passenger groups",
+          "n": ""
+        },
+        {
+          "t": "zu berücksichtigen.“",
+          "b": [
+            14,
+            15
+          ],
+          "e": [
+            16,
+            17,
+            18,
+            19
+          ],
+          "l": "berücksichtigen",
+          "gb": "বিবেচনায় নেন“",
+          "ge": "be taken into account”",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আর",
+        "আমি",
+        "কীভাবে",
+        "শেষ",
+        "করব?"
+      ],
+      "en": [
+        "And",
+        "how",
+        "do",
+        "I",
+        "end",
+        "it?"
+      ],
+      "de": [
+        {
+          "t": "Und",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "wie",
+          "b": [
+            2
+          ],
+          "e": [
+            1
+          ],
+          "l": "wie",
+          "gb": "কীভাবে",
+          "ge": "how",
+          "n": ""
+        },
+        {
+          "t": "schließe ich",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            2,
+            3,
+            4
+          ],
+          "l": "schließe ich",
+          "gb": "শেষ করব",
+          "ge": "do I end",
+          "n": ""
+        },
+        {
+          "t": "den Brief ab?",
+          "b": [],
+          "e": [
+            5
+          ],
+          "l": "den Brief ab",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "it",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "ভদ্রভাবে।",
+        "„আমি",
+        "আশা",
+        "করি,",
+        "আমার",
+        "উদ্বেগ",
+        "বিবেচনা",
+        "করা",
+        "হবে।",
+        "অনেক",
+        "শুভেচ্ছাসহ,",
+        "সাহেব",
+        "রহমান।“",
+        "ছোট",
+        "রাখো,",
+        "আর",
+        "উপস্থাপনায়",
+        "সম্মান",
+        "বজায়",
+        "রাখো।"
+      ],
+      "en": [
+        "Politely.",
+        "“I",
+        "hope",
+        "my",
+        "concern",
+        "will",
+        "be",
+        "taken",
+        "into",
+        "account.",
+        "Kind",
+        "regards,",
+        "Saheb",
+        "Rahman.”",
+        "Keep",
+        "it",
+        "short",
+        "and",
+        "stay",
+        "respectful",
+        "in",
+        "tone."
+      ],
+      "de": [
+        {
+          "t": "Höflich.",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Höflich",
+          "gb": "ভদ্রভাবে",
+          "ge": "Politely",
+          "n": ""
+        },
+        {
+          "t": "„Ich hoffe,",
+          "b": [
+            1,
+            2,
+            3
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "„Ich hoffe",
+          "gb": "„আমি আশা করি",
+          "ge": "“I hope",
+          "n": ""
+        },
+        {
+          "t": "dass mein Anliegen",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "Anliegen",
+          "gb": "আমার উদ্বেগ",
+          "ge": "my concern",
+          "n": ""
+        },
+        {
+          "t": "berücksichtigt",
+          "b": [
+            6
+          ],
+          "e": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "l": "berücksichtigt",
+          "gb": "বিবেচনা",
+          "ge": "will be taken into account",
+          "n": ""
+        },
+        {
+          "t": "wird.",
+          "b": [
+            7,
+            8
+          ],
+          "e": [],
+          "l": "wird",
+          "gb": "করা হবে",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Mit freundlichen Grüßen,",
+          "b": [
+            9,
+            10
+          ],
+          "e": [
+            10,
+            11
+          ],
+          "l": "Mit freundlichen Grüßen",
+          "gb": "অনেক শুভেচ্ছাসহ",
+          "ge": "Kind regards",
+          "n": ""
+        },
+        {
+          "t": "Saheb Rahman.“",
+          "b": [
+            11,
+            12
+          ],
+          "e": [
+            12,
+            13
+          ],
+          "l": "Saheb Rahman“",
+          "gb": "সাহেব রহমান“",
+          "ge": "Saheb Rahman”",
+          "n": ""
+        },
+        {
+          "t": "Halte ihn",
+          "b": [
+            13,
+            14
+          ],
+          "e": [
+            14,
+            15,
+            16
+          ],
+          "l": "Halte ihn",
+          "gb": "ছোট রাখো",
+          "ge": "Keep it short",
+          "n": ""
+        },
+        {
+          "t": "kurz",
+          "b": [],
+          "e": [],
+          "l": "kurz",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "und bleibe respektvoll.",
+          "b": [
+            15,
+            17,
+            18,
+            19
+          ],
+          "e": [
+            17,
+            18,
+            19,
+            20,
+            21
+          ],
+          "l": "und bleibe respektvoll",
+          "gb": "আর সম্মান বজায় রাখো",
+          "ge": "and stay respectful in tone",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "Aufbau eines Leserbriefs",
+      "head": [
+        "Teil",
+        "Formulierung"
+      ],
+      "rows": [
+        [
+          "Anrede",
+          "Sehr geehrte Redaktion, / Sehr geehrte Damen und Herren,"
+        ],
+        [
+          "Bezug",
+          "ich schreibe mit Bezug auf Ihren Artikel „…“ vom …"
+        ],
+        [
+          "Position",
+          "Ich möchte dazu Stellung nehmen: Ich bin der Meinung, dass …"
+        ],
+        [
+          "Begründung",
+          "Erstens …, zweitens …, außerdem …"
+        ],
+        [
+          "Vorschlag / Bitte",
+          "Ich schlage vor, … / Ich bitte darum, dass …"
+        ],
+        [
+          "Schluss",
+          "Ich hoffe, dass mein Anliegen berücksichtigt wird. · Mit freundlichen Grüßen"
+        ]
+      ],
+      "note": "পাঠকের চিঠি সংক্ষিপ্ত (প্রায় ১৫০–২৫০ শব্দ), বিনয়ী ও তথ্যভিত্তিক হওয়া উচিত। ব্যক্তিগত আক্রমণ এড়ান।"
+    },
+    {
+      "type": "table",
+      "title": "Nomen-Verb-Verbindungen",
+      "head": [
+        "Verbindung",
+        "Bedeutung",
+        "Beispiel"
+      ],
+      "rows": [
+        [
+          "Stellung nehmen zu + Dat.",
+          "অবস্থান জানানো",
+          "Ich nehme zu dem Artikel Stellung."
+        ],
+        [
+          "Kritik üben an + Dat.",
+          "সমালোচনা করা",
+          "Er übt Kritik an der Entscheidung."
+        ],
+        [
+          "Rücksicht nehmen auf + Akk.",
+          "বিবেচনা করা",
+          "Man sollte auf ältere Menschen Rücksicht nehmen."
+        ],
+        [
+          "zur Verfügung stellen",
+          "ব্যবহারের জন্য দেওয়া",
+          "Die Stadt stellt mehr Busse zur Verfügung."
+        ],
+        [
+          "eine Entscheidung treffen",
+          "সিদ্ধান্ত নেওয়া",
+          "Der Stadtrat hat eine Entscheidung getroffen."
+        ],
+        [
+          "in Betracht ziehen",
+          "বিবেচনায় নেওয়া",
+          "Bitte ziehen Sie das in Betracht."
+        ]
+      ],
+      "note": "Nomen-Verb-Verbindung = বিশেষ্য + নির্দিষ্ট ক্রিয়া; পুরো অভিব্যক্তি মুখস্থ করুন। লিখিত ও আনুষ্ঠানিক ভাষায় বেশি।"
+    },
+    {
+      "type": "table",
+      "title": "Formelle Wendungen",
+      "head": [
+        "informell",
+        "formell"
+      ],
+      "rows": [
+        [
+          "Ich finde das schlecht.",
+          "Ich halte diese Entscheidung für falsch."
+        ],
+        [
+          "Macht das bitte anders.",
+          "Ich bitte Sie, diesen Beschluss zu überdenken."
+        ],
+        [
+          "Das ist ein Problem.",
+          "Dies stellt ein Problem dar."
+        ],
+        [
+          "Ich will etwas sagen.",
+          "Ich möchte dazu Stellung nehmen."
+        ]
+      ],
+      "note": "লিখিত ভাষায় আরও দীর্ঘ ও আনুষ্ঠানিক রূপ, কিন্তু স্পষ্টতা বজায় রাখুন।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "der Leserbrief",
+      "options": [
+        "নেওয়া",
+        "প্রসঙ্গ",
+        "পাঠকের চিঠি",
+        "উদ্বেগ"
+      ],
+      "answer": 2,
+      "why": "der Leserbrief = পাঠকের চিঠি।",
+      "word": "leserbrief"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "berücksichtigen",
+      "options": [
+        "সম্পাদকীয় বিভাগ",
+        "বিবেচনায় নেওয়া",
+        "উদ্বেগ",
+        "সমালোচনা"
+      ],
+      "answer": 1,
+      "why": "berücksichtigen = বিবেচনায় নেওয়া।",
+      "word": "beruecksichtigen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "das Anliegen",
+      "options": [
+        "বিবেচনায় নেওয়া",
+        "সমালোচনা",
+        "সিদ্ধান্ত",
+        "উদ্বেগ"
+      ],
+      "answer": 3,
+      "why": "das Anliegen = উদ্বেগ।",
+      "word": "anliegen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Redaktion",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Redaktion। বহুবচন: die Redaktionen।",
+      "word": "redaktion"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক অব্যয় বেছে নিন",
+      "sub": "Er übt Kritik ___ der Entscheidung.",
+      "options": [
+        "an",
+        "zu",
+        "für",
+        "mit"
+      ],
+      "answer": 0,
+      "why": "Kritik üben an + Dativ।",
+      "word": "kritik"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক অব্যয় বেছে নিন",
+      "sub": "Ich nehme ___ dem Artikel Stellung.",
+      "options": [
+        "zu",
+        "an",
+        "auf",
+        "bei"
+      ],
+      "answer": 0,
+      "why": "Stellung nehmen zu + Dativ।",
+      "word": "stellung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„eine Entscheidung treffen“ মানে কী?",
+      "options": [
+        "সিদ্ধান্ত নেওয়া",
+        "সিদ্ধান্ত বদলানো",
+        "সিদ্ধান্ত লেখা",
+        "সিদ্ধান্ত ভুলে যাওয়া"
+      ],
+      "answer": 0,
+      "why": "Entscheidung treffen।",
+      "word": "entscheidung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "পাঠকের চিঠির শুরুতে কী লিখবেন?",
+      "options": [
+        "Sehr geehrte Redaktion,",
+        "Hallo Leute,",
+        "Tschüss,",
+        "Liebe Oma,"
+      ],
+      "answer": 0,
+      "why": "formelle Anrede।",
+      "word": "bezug"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Rücksicht nehmen auf“ কোন কেস নেয়?",
+      "options": [
+        "Akkusativ",
+        "Dativ",
+        "Genitiv",
+        "Nominativ"
+      ],
+      "answer": 0,
+      "why": "auf + Akk. (hier)।",
+      "word": "ruecksicht"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „আমি আশা করি আমার উদ্বেগ বিবেচনা করা হবে।“",
+      "tiles": [
+        "wird.",
+        "mein Anliegen",
+        "dass",
+        "berücksichtigt",
+        "Ich hoffe,"
+      ],
+      "answer": [
+        "Ich hoffe,",
+        "dass",
+        "mein Anliegen",
+        "berücksichtigt",
+        "wird."
+      ],
+      "why": "dass-Satz: ক্রিয়া শেষে।",
+      "word": "beruecksichtigen"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

@@ -1454,5 +1454,117 @@
     "status": "draft",
     "minutes": 18,
     "words": 12
+  },
+  {
+    "id": "b1-u05-l01",
+    "level": "B1",
+    "unit": 5,
+    "lesson": 1,
+    "title": {
+      "bn": "কর্মক্ষেত্রে কম্পিউটার ও সফটওয়্যার",
+      "en": "Technology at the workplace",
+      "de": "Technik am Arbeitsplatz"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u05-l02",
+    "level": "B1",
+    "unit": 5,
+    "lesson": 2,
+    "title": {
+      "bn": "কৃত্রিম বুদ্ধিমত্তা ও স্মার্টফোন",
+      "en": "Artificial intelligence in everyday life",
+      "de": "Künstliche Intelligenz im Alltag"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u05-l03",
+    "level": "B1",
+    "unit": 5,
+    "lesson": 3,
+    "title": {
+      "bn": "সাপোর্ট ও মেরামত: lässt sich, ist zu + Infinitiv",
+      "en": "Support and repairs: passive substitutes",
+      "de": "Der Laptop lässt sich nicht einschalten"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u05-l04",
+    "level": "B1",
+    "unit": 5,
+    "lesson": 4,
+    "title": {
+      "bn": "অনলাইনে নিরাপত্তা ও তথ্য সুরক্ষা",
+      "en": "Staying safe online",
+      "de": "Sicher im Netz"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u06-l01",
+    "level": "B1",
+    "unit": 6,
+    "lesson": 1,
+    "title": {
+      "bn": "নিজের মত প্রকাশ ও যুক্তি দেওয়া",
+      "en": "Expressing and justifying opinions",
+      "de": "Ich bin der Meinung, dass …"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u06-l02",
+    "level": "B1",
+    "unit": 6,
+    "lesson": 2,
+    "title": {
+      "bn": "সম্মতি, আপত্তি ও আংশিক একমত হওয়া",
+      "en": "Agreeing and disagreeing politely",
+      "de": "Da stimme ich zu — da nicht"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u06-l03",
+    "level": "B1",
+    "unit": 6,
+    "lesson": 3,
+    "title": {
+      "bn": "আলোচনায় যুক্তি সাজানো: Pro und Contra",
+      "en": "Structuring a discussion: pros and cons",
+      "de": "Tempolimit auf der Autobahn?"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u06-l04",
+    "level": "B1",
+    "unit": 6,
+    "lesson": 4,
+    "title": {
+      "bn": "পাঠকের চিঠি লেখা: Stellung nehmen",
+      "en": "Writing a letter to the editor",
+      "de": "Ein Leserbrief"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
   }
 ]

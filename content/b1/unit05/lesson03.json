@@ -1,0 +1,1480 @@
+{
+  "level": "B1",
+  "unit": 5,
+  "minutes": 18,
+  "lesson": 3,
+  "id": "b1-u05-l03",
+  "title": {
+    "de": "Der Laptop lässt sich nicht einschalten",
+    "bn": "সাপোর্ট ও মেরামত: lässt sich, ist zu + Infinitiv",
+    "en": "Support and repairs: passive substitutes"
+  },
+  "hook": {
+    "de": "Probieren geht über Studieren.",
+    "who": "Sprichwort",
+    "bn": "পরীক্ষা করে দেখাই পড়ার চেয়ে ভালো।",
+    "en": "The proof of the pudding is in the eating."
+  },
+  "goals": [
+    "Störung beschreiben: lässt sich nicht, funktioniert nicht",
+    "Passiversatz: sich lassen, sein + zu, -bar",
+    "am Telefon Hilfe holen: Seriennummer, Fehlermeldung",
+    "Reparatur, Kostenvoranschlag, Garantie"
+  ],
+  "words": [
+    {
+      "id": "stoerung",
+      "de": "Störung",
+      "art": "die",
+      "pl": "die Störungen",
+      "pos": "বিশেষ্য",
+      "bn": "ত্রুটি, বিঘ্ন",
+      "en": "fault, disruption"
+    },
+    {
+      "id": "fehlermeldung",
+      "de": "Fehlermeldung",
+      "art": "die",
+      "pl": "die Fehlermeldungen",
+      "pos": "বিশেষ্য",
+      "bn": "এরর মেসেজ",
+      "en": "error message"
+    },
+    {
+      "id": "hotline",
+      "de": "Hotline",
+      "art": "die",
+      "pl": "die Hotlines",
+      "pos": "বিশেষ্য",
+      "bn": "হটলাইন",
+      "en": "hotline"
+    },
+    {
+      "id": "seriennummer",
+      "de": "Seriennummer",
+      "art": "die",
+      "pl": "die Seriennummern",
+      "pos": "বিশেষ্য",
+      "bn": "সিরিয়াল নম্বর",
+      "en": "serial number"
+    },
+    {
+      "id": "einschalten",
+      "de": "einschalten",
+      "pos": "ক্রিয়া · hat eingeschaltet",
+      "bn": "চালু করা",
+      "en": "to switch on"
+    },
+    {
+      "id": "neu_starten",
+      "de": "neu starten",
+      "pos": "ক্রিয়া · hat neu gestartet",
+      "bn": "রিস্টার্ট করা",
+      "en": "to restart"
+    },
+    {
+      "id": "zuruecksetzen",
+      "de": "zurücksetzen",
+      "pos": "ক্রিয়া · hat zurückgesetzt",
+      "bn": "রিসেট করা",
+      "en": "to reset"
+    },
+    {
+      "id": "reparatur",
+      "de": "Reparatur",
+      "art": "die",
+      "pl": "die Reparaturen",
+      "pos": "বিশেষ্য",
+      "bn": "মেরামত",
+      "en": "repair"
+    },
+    {
+      "id": "ersatzteil",
+      "de": "Ersatzteil",
+      "art": "das",
+      "pl": "die Ersatzteile",
+      "pos": "বিশেষ্য",
+      "bn": "খুচরা যন্ত্রাংশ",
+      "en": "spare part"
+    },
+    {
+      "id": "kostenvoranschlag",
+      "de": "Kostenvoranschlag",
+      "art": "der",
+      "pl": "die Kostenvoranschläge",
+      "pos": "বিশেষ্য",
+      "bn": "আনুমানিক খরচের হিসাব",
+      "en": "cost estimate"
+    },
+    {
+      "id": "beheben",
+      "de": "beheben",
+      "pos": "ক্রিয়া · hat behoben",
+      "bn": "সমাধান করা (ত্রুটি)",
+      "en": "to fix, to remedy"
+    },
+    {
+      "id": "reparierbar",
+      "de": "reparierbar",
+      "pos": "বিশেষণ",
+      "bn": "মেরামতযোগ্য",
+      "en": "repairable"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Mitarbeiter",
+      "bn": [
+        "টেকনিক্যাল",
+        "সাপোর্ট,",
+        "শুভ",
+        "দিন।",
+        "আমি",
+        "আপনাকে",
+        "কীভাবে",
+        "সাহায্য",
+        "করতে",
+        "পারি?"
+      ],
+      "en": [
+        "Technical",
+        "support,",
+        "good",
+        "day.",
+        "How",
+        "can",
+        "I",
+        "help",
+        "you?"
+      ],
+      "de": [
+        {
+          "t": "Technischer Support,",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Technischer Support",
+          "gb": "টেকনিক্যাল সাপোর্ট",
+          "ge": "Technical support",
+          "n": ""
+        },
+        {
+          "t": "guten Tag.",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "guten Tag",
+          "gb": "শুভ দিন",
+          "ge": "good day",
+          "n": ""
+        },
+        {
+          "t": "Wie",
+          "b": [
+            6
+          ],
+          "e": [
+            4
+          ],
+          "l": "Wie",
+          "gb": "কীভাবে",
+          "ge": "How",
+          "n": ""
+        },
+        {
+          "t": "kann ich",
+          "b": [
+            9
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "kann ich",
+          "gb": "পারি",
+          "ge": "can I",
+          "n": ""
+        },
+        {
+          "t": "Ihnen",
+          "b": [
+            5
+          ],
+          "e": [
+            8
+          ],
+          "l": "Ihnen",
+          "gb": "আপনাকে",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "helfen?",
+          "b": [
+            7
+          ],
+          "e": [
+            7
+          ],
+          "l": "helfen",
+          "gb": "সাহায্য",
+          "ge": "help",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমার",
+        "ল্যাপটপ",
+        "চালু",
+        "হচ্ছে",
+        "না।",
+        "আমি",
+        "কয়েকবার",
+        "চেষ্টা",
+        "করেছি,",
+        "কিন্তু",
+        "স্ক্রিন",
+        "কালোই",
+        "থাকে।"
+      ],
+      "en": [
+        "My",
+        "laptop",
+        "will",
+        "not",
+        "switch",
+        "on.",
+        "I",
+        "have",
+        "tried",
+        "several",
+        "times,",
+        "but",
+        "the",
+        "screen",
+        "stays",
+        "black."
+      ],
+      "de": [
+        {
+          "t": "Mein Laptop",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Mein Laptop",
+          "gb": "আমার ল্যাপটপ",
+          "ge": "My laptop",
+          "n": ""
+        },
+        {
+          "t": "lässt sich",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "lässt sich",
+          "gb": "হচ্ছে না",
+          "ge": "will not",
+          "n": "sich lassen + Infinitiv = Passiversatz (kann … werden)"
+        },
+        {
+          "t": "nicht",
+          "b": [],
+          "e": [],
+          "l": "nicht",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "einschalten.",
+          "b": [
+            2
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "einschalten",
+          "gb": "চালু",
+          "ge": "switch on",
+          "n": ""
+        },
+        {
+          "t": "Ich habe",
+          "b": [
+            5
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "Ich habe",
+          "gb": "আমি",
+          "ge": "I have",
+          "n": ""
+        },
+        {
+          "t": "es mehrmals",
+          "b": [
+            6
+          ],
+          "e": [
+            8,
+            9,
+            10
+          ],
+          "l": "es mehrmals",
+          "gb": "কয়েকবার",
+          "ge": "tried several times",
+          "n": ""
+        },
+        {
+          "t": "versucht,",
+          "b": [
+            7,
+            8
+          ],
+          "e": [],
+          "l": "versucht",
+          "gb": "চেষ্টা করেছি",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "aber",
+          "b": [
+            9
+          ],
+          "e": [
+            11
+          ],
+          "l": "aber",
+          "gb": "কিন্তু",
+          "ge": "but",
+          "n": ""
+        },
+        {
+          "t": "der Bildschirm",
+          "b": [
+            10
+          ],
+          "e": [
+            12,
+            13
+          ],
+          "l": "der Bildschirm",
+          "gb": "স্ক্রিন",
+          "ge": "the screen",
+          "n": ""
+        },
+        {
+          "t": "bleibt schwarz.",
+          "b": [
+            11,
+            12
+          ],
+          "e": [
+            14,
+            15
+          ],
+          "l": "bleibt schwarz",
+          "gb": "কালোই থাকে",
+          "ge": "stays black",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Mitarbeiter",
+      "bn": [
+        "কোনো",
+        "এরর",
+        "মেসেজ",
+        "আসছে?",
+        "আপনি",
+        "কি",
+        "ডিভাইসটি",
+        "রিস্টার্ট",
+        "করেছেন?"
+      ],
+      "en": [
+        "Is",
+        "there",
+        "any",
+        "error",
+        "message?",
+        "Have",
+        "you",
+        "restarted",
+        "the",
+        "device?"
+      ],
+      "de": [
+        {
+          "t": "Erscheint",
+          "b": [
+            3
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Erscheint",
+          "gb": "আসছে",
+          "ge": "Is there",
+          "n": ""
+        },
+        {
+          "t": "eine Fehlermeldung?",
+          "b": [
+            0,
+            1,
+            2
+          ],
+          "e": [
+            2,
+            3,
+            4
+          ],
+          "l": "Fehlermeldung",
+          "gb": "কোনো এরর মেসেজ",
+          "ge": "any error message",
+          "n": ""
+        },
+        {
+          "t": "Haben Sie",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "Haben Sie",
+          "gb": "আপনি কি",
+          "ge": "Have you",
+          "n": ""
+        },
+        {
+          "t": "das Gerät",
+          "b": [
+            6
+          ],
+          "e": [
+            8,
+            9
+          ],
+          "l": "das Gerät",
+          "gb": "ডিভাইসটি",
+          "ge": "the device",
+          "n": ""
+        },
+        {
+          "t": "neu gestartet?",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            7
+          ],
+          "l": "neu starten",
+          "gb": "রিস্টার্ট করেছেন",
+          "ge": "restarted",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "না,",
+        "ওটা",
+        "তো",
+        "চালু",
+        "হয়",
+        "না।",
+        "আমার",
+        "বন্ধু",
+        "বলেছে",
+        "এখনো",
+        "ওয়ারেন্টি",
+        "আছে।"
+      ],
+      "en": [
+        "No,",
+        "it",
+        "does",
+        "not",
+        "even",
+        "switch",
+        "on.",
+        "My",
+        "friend",
+        "said",
+        "there",
+        "is",
+        "still",
+        "a",
+        "warranty."
+      ],
+      "de": [
+        {
+          "t": "Nein,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Nein",
+          "gb": "না",
+          "ge": "No",
+          "n": ""
+        },
+        {
+          "t": "es geht",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "es geht",
+          "gb": "ওটা",
+          "ge": "it",
+          "n": ""
+        },
+        {
+          "t": "ja nicht",
+          "b": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "ja nicht",
+          "gb": "তো চালু হয় না",
+          "ge": "does not",
+          "n": ""
+        },
+        {
+          "t": "an.",
+          "b": [],
+          "e": [
+            4,
+            5,
+            6
+          ],
+          "l": "an",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "even switch on",
+          "n": ""
+        },
+        {
+          "t": "Mein Freund",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "Mein Freund",
+          "gb": "আমার বন্ধু",
+          "ge": "My friend",
+          "n": ""
+        },
+        {
+          "t": "sagt,",
+          "b": [
+            8
+          ],
+          "e": [
+            9
+          ],
+          "l": "sagt",
+          "gb": "বলেছে",
+          "ge": "said",
+          "n": ""
+        },
+        {
+          "t": "dass",
+          "b": [],
+          "e": [],
+          "l": "dass",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "noch Garantie",
+          "b": [
+            9,
+            10
+          ],
+          "e": [
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "l": "noch Garantie",
+          "gb": "এখনো ওয়ারেন্টি",
+          "ge": "there is still a warranty",
+          "n": ""
+        },
+        {
+          "t": "besteht.",
+          "b": [
+            11
+          ],
+          "e": [],
+          "l": "besteht",
+          "gb": "আছে",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Mitarbeiter",
+      "bn": [
+        "তাহলে",
+        "আমার",
+        "সিরিয়াল",
+        "নম্বর",
+        "আর",
+        "কেনার",
+        "তারিখ",
+        "লাগবে।",
+        "সমস্যা",
+        "সমাধান",
+        "করা",
+        "যায়",
+        "কিনা",
+        "আমরা",
+        "দেখব।"
+      ],
+      "en": [
+        "Then",
+        "I",
+        "need",
+        "the",
+        "serial",
+        "number",
+        "and",
+        "the",
+        "date",
+        "of",
+        "purchase.",
+        "We",
+        "will",
+        "see",
+        "whether",
+        "the",
+        "problem",
+        "can",
+        "be",
+        "fixed."
+      ],
+      "de": [
+        {
+          "t": "Dann brauche ich",
+          "b": [
+            0,
+            7
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "Dann brauche ich",
+          "gb": "তাহলে লাগবে",
+          "ge": "Then I need",
+          "n": ""
+        },
+        {
+          "t": "die Seriennummer",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            3,
+            4,
+            5
+          ],
+          "l": "Seriennummer",
+          "gb": "সিরিয়াল নম্বর",
+          "ge": "the serial number",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            4
+          ],
+          "e": [
+            6
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "das Kaufdatum.",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            7,
+            8,
+            9,
+            10
+          ],
+          "l": "das Kaufdatum",
+          "gb": "কেনার তারিখ",
+          "ge": "the date of purchase",
+          "n": ""
+        },
+        {
+          "t": "Wir prüfen,",
+          "b": [
+            13,
+            14
+          ],
+          "e": [
+            11,
+            12,
+            13
+          ],
+          "l": "Wir prüfen",
+          "gb": "আমরা দেখব",
+          "ge": "We will see",
+          "n": ""
+        },
+        {
+          "t": "ob",
+          "b": [
+            12
+          ],
+          "e": [
+            14
+          ],
+          "l": "ob",
+          "gb": "কিনা",
+          "ge": "whether",
+          "n": ""
+        },
+        {
+          "t": "sich",
+          "b": [],
+          "e": [],
+          "l": "sich",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "das Problem",
+          "b": [
+            8
+          ],
+          "e": [
+            15,
+            16
+          ],
+          "l": "das Problem",
+          "gb": "সমস্যা",
+          "ge": "the problem",
+          "n": ""
+        },
+        {
+          "t": "beheben",
+          "b": [
+            9
+          ],
+          "e": [
+            18,
+            19
+          ],
+          "l": "beheben",
+          "gb": "সমাধান",
+          "ge": "be fixed",
+          "n": ""
+        },
+        {
+          "t": "lässt.",
+          "b": [
+            10,
+            11
+          ],
+          "e": [],
+          "l": "lässt",
+          "gb": "করা যায়",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "এটা",
+        "কি",
+        "মেরামত",
+        "করা",
+        "যাবে?",
+        "আর",
+        "ওটা",
+        "কত",
+        "খরচ",
+        "হবে?"
+      ],
+      "en": [
+        "Can",
+        "it",
+        "be",
+        "repaired?",
+        "And",
+        "how",
+        "much",
+        "will",
+        "it",
+        "cost?"
+      ],
+      "de": [
+        {
+          "t": "Ist",
+          "b": [],
+          "e": [
+            0
+          ],
+          "l": "Ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "Can",
+          "n": ""
+        },
+        {
+          "t": "er",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "er",
+          "gb": "এটা",
+          "ge": "it",
+          "n": ""
+        },
+        {
+          "t": "reparierbar?",
+          "b": [
+            2,
+            3,
+            4
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "reparierbar",
+          "gb": "মেরামত করা যাবে",
+          "ge": "be repaired",
+          "n": ""
+        },
+        {
+          "t": "Und",
+          "b": [
+            5
+          ],
+          "e": [
+            4
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "was",
+          "b": [
+            7
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "was",
+          "gb": "কত",
+          "ge": "how much",
+          "n": ""
+        },
+        {
+          "t": "würde das",
+          "b": [
+            6
+          ],
+          "e": [
+            7
+          ],
+          "l": "würde das",
+          "gb": "ওটা",
+          "ge": "will",
+          "n": ""
+        },
+        {
+          "t": "kosten?",
+          "b": [
+            8,
+            9
+          ],
+          "e": [
+            8,
+            9
+          ],
+          "l": "kosten",
+          "gb": "খরচ হবে",
+          "ge": "it cost",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Mitarbeiter",
+      "bn": [
+        "ওয়ারেন্টিতে",
+        "মেরামত",
+        "বিনামূল্যে।",
+        "আগে",
+        "আমরা",
+        "একটি",
+        "আনুমানিক",
+        "খরচের",
+        "হিসাব",
+        "পাঠাব,",
+        "যদি",
+        "ওয়ারেন্টি",
+        "না",
+        "পাওয়া",
+        "যায়।",
+        "যন্ত্রাংশ",
+        "কয়েক",
+        "দিনের",
+        "মধ্যে",
+        "আনা",
+        "হবে।"
+      ],
+      "en": [
+        "Under",
+        "warranty",
+        "the",
+        "repair",
+        "is",
+        "free.",
+        "If",
+        "the",
+        "warranty",
+        "does",
+        "not",
+        "apply,",
+        "we",
+        "will",
+        "first",
+        "send",
+        "a",
+        "cost",
+        "estimate.",
+        "The",
+        "spare",
+        "part",
+        "will",
+        "be",
+        "delivered",
+        "within",
+        "a",
+        "few",
+        "days."
+      ],
+      "de": [
+        {
+          "t": "Im Garantiefall",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Im Garantiefall",
+          "gb": "ওয়ারেন্টিতে",
+          "ge": "Under warranty",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            4
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "die Reparatur",
+          "b": [
+            1
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "Reparatur",
+          "gb": "মেরামত",
+          "ge": "the repair",
+          "n": ""
+        },
+        {
+          "t": "kostenlos.",
+          "b": [
+            2
+          ],
+          "e": [
+            5
+          ],
+          "l": "kostenlos",
+          "gb": "বিনামূল্যে",
+          "ge": "free",
+          "n": ""
+        },
+        {
+          "t": "Falls",
+          "b": [
+            10
+          ],
+          "e": [
+            6
+          ],
+          "l": "Falls",
+          "gb": "যদি",
+          "ge": "If",
+          "n": ""
+        },
+        {
+          "t": "die Garantie",
+          "b": [
+            11
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "die Garantie",
+          "gb": "ওয়ারেন্টি",
+          "ge": "the warranty",
+          "n": ""
+        },
+        {
+          "t": "nicht gilt,",
+          "b": [
+            12,
+            13,
+            14
+          ],
+          "e": [
+            9,
+            10,
+            11
+          ],
+          "l": "nicht gilt",
+          "gb": "না পাওয়া যায়",
+          "ge": "does not apply",
+          "n": ""
+        },
+        {
+          "t": "schicken wir",
+          "b": [
+            4,
+            9
+          ],
+          "e": [
+            12,
+            13
+          ],
+          "l": "schicken wir",
+          "gb": "আমরা পাঠাব",
+          "ge": "we will",
+          "n": ""
+        },
+        {
+          "t": "Ihnen vorher",
+          "b": [
+            3
+          ],
+          "e": [
+            14,
+            15
+          ],
+          "l": "Ihnen vorher",
+          "gb": "আগে",
+          "ge": "first send",
+          "n": ""
+        },
+        {
+          "t": "einen Kostenvoranschlag.",
+          "b": [
+            6,
+            7,
+            8
+          ],
+          "e": [
+            16,
+            17,
+            18
+          ],
+          "l": "Kostenvoranschlag",
+          "gb": "আনুমানিক খরচের হিসাব",
+          "ge": "a cost estimate",
+          "n": ""
+        },
+        {
+          "t": "Das Ersatzteil",
+          "b": [
+            15
+          ],
+          "e": [
+            19,
+            20,
+            21
+          ],
+          "l": "Ersatzteil",
+          "gb": "যন্ত্রাংশ",
+          "ge": "The spare part",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [
+            19,
+            20
+          ],
+          "e": [
+            22
+          ],
+          "l": "ist",
+          "gb": "আনা হবে",
+          "ge": "will",
+          "n": ""
+        },
+        {
+          "t": "in wenigen Tagen",
+          "b": [
+            16,
+            17,
+            18
+          ],
+          "e": [
+            25,
+            26,
+            27,
+            28
+          ],
+          "l": "in wenigen Tagen",
+          "gb": "কয়েক দিনের মধ্যে",
+          "ge": "within a few days",
+          "n": ""
+        },
+        {
+          "t": "zu liefern.",
+          "b": [],
+          "e": [
+            23,
+            24
+          ],
+          "l": "zu liefern",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "be delivered",
+          "n": "sein + zu + Infinitiv = muss/kann geliefert werden"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "Passiversatzformen",
+      "head": [
+        "Form",
+        "Beispiel",
+        "Bedeutung"
+      ],
+      "rows": [
+        [
+          "sich lassen + Infinitiv",
+          "Der Laptop lässt sich nicht einschalten.",
+          "ল্যাপটপ চালু করা যাচ্ছে না (kann nicht eingeschaltet werden)"
+        ],
+        [
+          "sein + zu + Infinitiv",
+          "Das Ersatzteil ist in wenigen Tagen zu liefern.",
+          "যন্ত্রাংশ কয়েক দিনে আনা যাবে/আনতে হবে"
+        ],
+        [
+          "Adjektiv auf -bar",
+          "Das Gerät ist reparierbar.",
+          "মেরামত করা সম্ভব"
+        ],
+        [
+          "Adjektiv auf -lich",
+          "Das Problem ist lösbar / verständlich.",
+          "সমাধানযোগ্য / বোধগম্য"
+        ],
+        [
+          "man kann …",
+          "Man kann das Problem beheben.",
+          "সমস্যা সমাধান করা যায়"
+        ]
+      ],
+      "note": "Passiversatz = Passiv-এর বিকল্প (বিশেষ করে সম্ভাবনা বোঝাতে)। „lässt sich nicht + Infinitiv“ = সম্ভব নয়।"
+    },
+    {
+      "type": "table",
+      "title": "Eine Störung beschreiben",
+      "head": [
+        "Problem",
+        "Formulierung"
+      ],
+      "rows": [
+        [
+          "Gerät startet nicht",
+          "Das Gerät lässt sich nicht einschalten. / Es startet nicht."
+        ],
+        [
+          "Bildschirm schwarz",
+          "Der Bildschirm bleibt schwarz."
+        ],
+        [
+          "Programm hängt",
+          "Das Programm reagiert nicht mehr."
+        ],
+        [
+          "Internet geht nicht",
+          "Ich habe keine Verbindung."
+        ],
+        [
+          "Fehlermeldung",
+          "Es erscheint die Fehlermeldung „…“."
+        ]
+      ],
+      "note": "সাপোর্টে কল করার সময় সিরিয়াল নম্বর, কেনার তারিখ ও কী ঘটেছে তা তৈরি রাখুন।"
+    },
+    {
+      "type": "table",
+      "title": "Garantie und Reparatur",
+      "head": [
+        "Begriff",
+        "Bedeutung"
+      ],
+      "rows": [
+        [
+          "Garantiefall",
+          "ওয়ারেন্টির আওতায় সমস্যা"
+        ],
+        [
+          "Gewährleistung",
+          "আইনি দায় (বিক্রেতার)"
+        ],
+        [
+          "Kostenvoranschlag",
+          "মেরামতের আগে আনুমানিক খরচ"
+        ],
+        [
+          "Ersatzteil",
+          "প্রতিস্থাপনের যন্ত্রাংশ"
+        ],
+        [
+          "Rücksendung",
+          "পণ্য ফেরত পাঠানো"
+        ]
+      ],
+      "note": "আইনি অধিকার (Gewährleistung) ও প্রস্তুতকারকের ওয়ারেন্টি (Garantie) আলাদা। কেনার রসিদ রেখে দিন।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "die Fehlermeldung",
+      "options": [
+        "মেরামতযোগ্য",
+        "হটলাইন",
+        "চালু করা",
+        "এরর মেসেজ"
+      ],
+      "answer": 3,
+      "why": "die Fehlermeldung = এরর মেসেজ।",
+      "word": "fehlermeldung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "der Kostenvoranschlag",
+      "options": [
+        "মেরামতযোগ্য",
+        "হটলাইন",
+        "আনুমানিক খরচের হিসাব",
+        "রিস্টার্ট করা"
+      ],
+      "answer": 2,
+      "why": "der Kostenvoranschlag = আনুমানিক খরচের হিসাব।",
+      "word": "kostenvoranschlag"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "beheben",
+      "options": [
+        "ত্রুটি",
+        "সমাধান করা",
+        "সিরিয়াল নম্বর",
+        "রিসেট করা"
+      ],
+      "answer": 1,
+      "why": "beheben = সমাধান করা।",
+      "word": "beheben"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Reparatur",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Reparatur। বহুবচন: die Reparaturen।",
+      "word": "reparatur"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Der Laptop lässt sich nicht einschalten“ মানে কী?",
+      "options": [
+        "ল্যাপটপ চালু করা যায় না",
+        "ল্যাপটপ নিজে চালু হয়",
+        "ল্যাপটপ বন্ধ করা হয়েছে",
+        "ল্যাপটপ কেনা হয়নি"
+      ],
+      "answer": 0,
+      "why": "sich lassen + nicht = সম্ভব নয়।",
+      "word": "einschalten"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„reparierbar“ মানে কী?",
+      "options": [
+        "মেরামতযোগ্য",
+        "দামি",
+        "নতুন",
+        "ভাঙা"
+      ],
+      "answer": 0,
+      "why": "-bar = সম্ভব।",
+      "word": "reparierbar"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক বাক্য কোনটি?",
+      "options": [
+        "Das Problem lässt sich beheben.",
+        "Das Problem lässt beheben sich.",
+        "Das Problem sich lässt beheben.",
+        "Das lässt Problem sich beheben."
+      ],
+      "answer": 0,
+      "why": "sich nach lässt।",
+      "word": "beheben"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Garantiefall“ কী?",
+      "options": [
+        "ওয়ারেন্টির আওতায় সমস্যা",
+        "টাকা ফেরত",
+        "বিক্রয়",
+        "ফর্ম"
+      ],
+      "answer": 0,
+      "why": "Garantie + Fall।",
+      "word": "reparatur"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সাপোর্টে কী তৈরি রাখা ভালো?",
+      "options": [
+        "সিরিয়াল নম্বর",
+        "জন্মতারিখ",
+        "ভিসার কপি",
+        "ছবি"
+      ],
+      "answer": 0,
+      "why": "Seriennummer।",
+      "word": "seriennummer"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „সমস্যা সমাধান করা যায়।“",
+      "tiles": [
+        "beheben.",
+        "lässt sich",
+        "Das Problem"
+      ],
+      "answer": [
+        "Das Problem",
+        "lässt sich",
+        "beheben."
+      ],
+      "why": "sich lassen + Infinitiv।",
+      "word": "beheben"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

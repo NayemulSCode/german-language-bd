@@ -1,0 +1,1665 @@
+{
+  "level": "B1",
+  "unit": 5,
+  "minutes": 18,
+  "lesson": 4,
+  "id": "b1-u05-l04",
+  "title": {
+    "de": "Sicher im Netz",
+    "bn": "অনলাইনে নিরাপত্তা ও তথ্য সুরক্ষা",
+    "en": "Staying safe online"
+  },
+  "hook": {
+    "de": "Vorsicht ist die Mutter der Porzellankiste.",
+    "who": "Redensart",
+    "bn": "সাবধানতা ভঙ্গুর জিনিসকে রক্ষা করে।",
+    "en": "Caution is the mother of the china cabinet."
+  },
+  "goals": [
+    "Phishing und Betrug erkennen",
+    "Passwörter, Zwei-Faktor-Authentifizierung",
+    "Warnungen und Regeln: Klicken Sie nicht …, Man sollte nie …",
+    "damit / um … zu / ohne … zu"
+  ],
+  "words": [
+    {
+      "id": "sicherheit",
+      "de": "Sicherheit",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "নিরাপত্তা",
+      "en": "security, safety"
+    },
+    {
+      "id": "betrug",
+      "de": "Betrug",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "প্রতারণা",
+      "en": "fraud"
+    },
+    {
+      "id": "phishing",
+      "de": "Phishing",
+      "art": "das",
+      "pos": "বিশেষ্য",
+      "bn": "ফিশিং (জাল বার্তা দিয়ে তথ্য চুরি)",
+      "en": "phishing"
+    },
+    {
+      "id": "zugangsdaten",
+      "de": "Zugangsdaten",
+      "art": "die",
+      "pos": "বিশেষ্য, বহুবচন",
+      "bn": "লগইন তথ্য",
+      "en": "login credentials"
+    },
+    {
+      "id": "sicherheitsluecke",
+      "de": "Sicherheitslücke",
+      "art": "die",
+      "pl": "die Sicherheitslücken",
+      "pos": "বিশেষ্য",
+      "bn": "নিরাপত্তার ফাঁক",
+      "en": "security hole"
+    },
+    {
+      "id": "verschluesseln",
+      "de": "verschlüsseln",
+      "pos": "ক্রিয়া · hat verschlüsselt",
+      "bn": "এনক্রিপ্ট করা",
+      "en": "to encrypt"
+    },
+    {
+      "id": "einwilligung",
+      "de": "Einwilligung",
+      "art": "die",
+      "pl": "die Einwilligungen",
+      "pos": "বিশেষ্য",
+      "bn": "সম্মতি",
+      "en": "consent"
+    },
+    {
+      "id": "datenschutzerklaerung",
+      "de": "Datenschutzerklärung",
+      "art": "die",
+      "pl": "die Datenschutzerklärungen",
+      "pos": "বিশেষ্য",
+      "bn": "গোপনীয়তা নীতি",
+      "en": "privacy policy"
+    },
+    {
+      "id": "loeschen",
+      "de": "löschen",
+      "pos": "ক্রিয়া · hat gelöscht",
+      "bn": "মুছে ফেলা",
+      "en": "to delete"
+    },
+    {
+      "id": "verdaechtig",
+      "de": "verdächtig",
+      "pos": "বিশেষণ",
+      "bn": "সন্দেহজনক",
+      "en": "suspicious"
+    },
+    {
+      "id": "vertrauen",
+      "de": "vertrauen",
+      "pos": "ক্রিয়া · hat vertraut (+ Dativ)",
+      "bn": "বিশ্বাস করা",
+      "en": "to trust"
+    },
+    {
+      "id": "zwei_faktor_authentifizierung",
+      "de": "Zwei-Faktor-Authentifizierung",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "দুই-ধাপের যাচাই",
+      "en": "two-factor authentication"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Saheb",
+      "bn": [
+        "লেনা,",
+        "আমি",
+        "একটা",
+        "ইমেইল",
+        "পেয়েছি।",
+        "ব্যাংক",
+        "নাকি",
+        "লিখেছে",
+        "যে",
+        "আমাকে",
+        "এখনই",
+        "আমার",
+        "পাসওয়ার্ড",
+        "দিতে",
+        "হবে।",
+        "এটা",
+        "কি",
+        "সত্যি?"
+      ],
+      "en": [
+        "Lena,",
+        "I",
+        "received",
+        "an",
+        "email.",
+        "The",
+        "bank",
+        "allegedly",
+        "wrote",
+        "that",
+        "I",
+        "have",
+        "to",
+        "give",
+        "my",
+        "password",
+        "right",
+        "now.",
+        "Is",
+        "that",
+        "true?"
+      ],
+      "de": [
+        {
+          "t": "Lena,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Lena",
+          "gb": "লেনা",
+          "ge": "Lena",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [
+            4
+          ],
+          "e": [
+            2
+          ],
+          "l": "habe",
+          "gb": "পেয়েছি",
+          "ge": "received",
+          "n": ""
+        },
+        {
+          "t": "eine E-Mail",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "eine E-Mail",
+          "gb": "একটা ইমেইল",
+          "ge": "an email",
+          "n": ""
+        },
+        {
+          "t": "bekommen.",
+          "b": [],
+          "e": [],
+          "l": "bekommen",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Die Bank",
+          "b": [
+            5
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "Die Bank",
+          "gb": "ব্যাংক",
+          "ge": "The bank",
+          "n": ""
+        },
+        {
+          "t": "soll",
+          "b": [
+            6
+          ],
+          "e": [
+            7
+          ],
+          "l": "soll",
+          "gb": "নাকি",
+          "ge": "allegedly",
+          "n": ""
+        },
+        {
+          "t": "geschrieben haben,",
+          "b": [
+            7
+          ],
+          "e": [
+            8
+          ],
+          "l": "geschrieben haben",
+          "gb": "লিখেছে",
+          "ge": "wrote",
+          "n": ""
+        },
+        {
+          "t": "dass",
+          "b": [
+            8
+          ],
+          "e": [
+            9
+          ],
+          "l": "dass",
+          "gb": "যে",
+          "ge": "that",
+          "n": ""
+        },
+        {
+          "t": "ich sofort",
+          "b": [
+            9,
+            10
+          ],
+          "e": [
+            10,
+            11,
+            12
+          ],
+          "l": "ich sofort",
+          "gb": "আমাকে এখনই",
+          "ge": "I have to",
+          "n": ""
+        },
+        {
+          "t": "mein Passwort",
+          "b": [
+            11,
+            12
+          ],
+          "e": [
+            13,
+            14,
+            15
+          ],
+          "l": "mein Passwort",
+          "gb": "আমার পাসওয়ার্ড",
+          "ge": "give my password",
+          "n": ""
+        },
+        {
+          "t": "angeben muss.",
+          "b": [
+            13,
+            14
+          ],
+          "e": [
+            16,
+            17
+          ],
+          "l": "angeben muss",
+          "gb": "দিতে হবে",
+          "ge": "right now",
+          "n": ""
+        },
+        {
+          "t": "Stimmt das?",
+          "b": [
+            15,
+            16,
+            17
+          ],
+          "e": [
+            18,
+            19,
+            20
+          ],
+          "l": "Stimmt das",
+          "gb": "এটা কি সত্যি",
+          "ge": "Is that true",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "সাবধান!",
+        "এটা",
+        "সম্ভবত",
+        "ফিশিং।",
+        "ব্যাংক",
+        "কখনো",
+        "ইমেইলে",
+        "পাসওয়ার্ড",
+        "চায়",
+        "না।",
+        "লিংকে",
+        "ক্লিক",
+        "না",
+        "করে",
+        "ফেলে",
+        "দাও।"
+      ],
+      "en": [
+        "Careful!",
+        "This",
+        "is",
+        "probably",
+        "phishing.",
+        "A",
+        "bank",
+        "never",
+        "asks",
+        "for",
+        "a",
+        "password",
+        "by",
+        "email.",
+        "Delete",
+        "it",
+        "without",
+        "clicking",
+        "on",
+        "the",
+        "link."
+      ],
+      "de": [
+        {
+          "t": "Vorsicht!",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Vorsicht",
+          "gb": "সাবধান",
+          "ge": "Careful",
+          "n": ""
+        },
+        {
+          "t": "Das ist",
+          "b": [
+            1
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "Das ist",
+          "gb": "এটা",
+          "ge": "This is",
+          "n": ""
+        },
+        {
+          "t": "wahrscheinlich",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "wahrscheinlich",
+          "gb": "সম্ভবত",
+          "ge": "probably",
+          "n": ""
+        },
+        {
+          "t": "Phishing.",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "Phishing",
+          "gb": "ফিশিং",
+          "ge": "phishing",
+          "n": ""
+        },
+        {
+          "t": "Eine Bank",
+          "b": [
+            4
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "Eine Bank",
+          "gb": "ব্যাংক",
+          "ge": "A bank",
+          "n": ""
+        },
+        {
+          "t": "fragt",
+          "b": [
+            8,
+            9
+          ],
+          "e": [
+            8
+          ],
+          "l": "fragt",
+          "gb": "চায় না",
+          "ge": "asks",
+          "n": ""
+        },
+        {
+          "t": "nie",
+          "b": [
+            5
+          ],
+          "e": [
+            7
+          ],
+          "l": "nie",
+          "gb": "কখনো",
+          "ge": "never",
+          "n": ""
+        },
+        {
+          "t": "per E-Mail",
+          "b": [
+            6
+          ],
+          "e": [
+            12,
+            13
+          ],
+          "l": "per E-Mail",
+          "gb": "ইমেইলে",
+          "ge": "by email",
+          "n": ""
+        },
+        {
+          "t": "nach dem Passwort.",
+          "b": [
+            7
+          ],
+          "e": [
+            9,
+            10,
+            11
+          ],
+          "l": "nach dem Passwort",
+          "gb": "পাসওয়ার্ড",
+          "ge": "for a password",
+          "n": ""
+        },
+        {
+          "t": "Lösche sie,",
+          "b": [
+            14,
+            15
+          ],
+          "e": [
+            14,
+            15
+          ],
+          "l": "Lösche sie",
+          "gb": "ফেলে দাও",
+          "ge": "Delete it",
+          "n": ""
+        },
+        {
+          "t": "ohne",
+          "b": [
+            12,
+            13
+          ],
+          "e": [
+            16
+          ],
+          "l": "ohne",
+          "gb": "না করে",
+          "ge": "without",
+          "n": ""
+        },
+        {
+          "t": "auf den Link",
+          "b": [
+            10
+          ],
+          "e": [
+            17,
+            18,
+            19,
+            20
+          ],
+          "l": "auf den Link",
+          "gb": "লিংকে",
+          "ge": "clicking on the link",
+          "n": ""
+        },
+        {
+          "t": "zu klicken.",
+          "b": [
+            11
+          ],
+          "e": [],
+          "l": "zu klicken",
+          "gb": "ক্লিক",
+          "ge": "(no counterpart)",
+          "n": "ohne … zu + Infinitiv = … না করে"
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "কীভাবে",
+        "বুঝব",
+        "ওটা",
+        "জাল?"
+      ],
+      "en": [
+        "How",
+        "do",
+        "I",
+        "recognise",
+        "that",
+        "it",
+        "is",
+        "fake?"
+      ],
+      "de": [
+        {
+          "t": "Woran",
+          "b": [
+            1
+          ],
+          "e": [
+            0
+          ],
+          "l": "Woran",
+          "gb": "কীভাবে",
+          "ge": "How",
+          "n": ""
+        },
+        {
+          "t": "erkenne ich,",
+          "b": [
+            2
+          ],
+          "e": [
+            1,
+            2,
+            3
+          ],
+          "l": "erkenne ich",
+          "gb": "বুঝব",
+          "ge": "do I recognise",
+          "n": ""
+        },
+        {
+          "t": "dass",
+          "b": [],
+          "e": [
+            4
+          ],
+          "l": "dass",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "that",
+          "n": ""
+        },
+        {
+          "t": "sie",
+          "b": [
+            3
+          ],
+          "e": [
+            5
+          ],
+          "l": "sie",
+          "gb": "ওটা",
+          "ge": "it",
+          "n": ""
+        },
+        {
+          "t": "gefälscht ist?",
+          "b": [
+            4
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "gefälscht ist",
+          "gb": "জাল",
+          "ge": "is fake",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "অনেক",
+        "লক্ষণ",
+        "আছে:",
+        "সন্দেহজনক",
+        "প্রেরকের",
+        "ঠিকানা,",
+        "ভাষার",
+        "ভুল",
+        "আর",
+        "তাড়াহুড়ো",
+        "করানোর",
+        "চাপ।"
+      ],
+      "en": [
+        "There",
+        "are",
+        "many",
+        "signs:",
+        "a",
+        "suspicious",
+        "sender",
+        "address,",
+        "language",
+        "mistakes",
+        "and",
+        "pressure",
+        "to",
+        "hurry."
+      ],
+      "de": [
+        {
+          "t": "Es gibt",
+          "b": [
+            2
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Es gibt",
+          "gb": "আছে",
+          "ge": "There are",
+          "n": ""
+        },
+        {
+          "t": "viele Anzeichen:",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "viele Anzeichen",
+          "gb": "অনেক লক্ষণ",
+          "ge": "many signs",
+          "n": ""
+        },
+        {
+          "t": "eine verdächtige",
+          "b": [
+            3
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "verdächtig",
+          "gb": "সন্দেহজনক",
+          "ge": "a suspicious",
+          "n": ""
+        },
+        {
+          "t": "Absenderadresse,",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "Absenderadresse",
+          "gb": "প্রেরকের ঠিকানা",
+          "ge": "sender address",
+          "n": ""
+        },
+        {
+          "t": "Sprachfehler",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            8,
+            9
+          ],
+          "l": "Sprachfehler",
+          "gb": "ভাষার ভুল",
+          "ge": "language mistakes",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            8
+          ],
+          "e": [
+            10
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "Druck,",
+          "b": [
+            11
+          ],
+          "e": [
+            11
+          ],
+          "l": "Druck",
+          "gb": "চাপ",
+          "ge": "pressure",
+          "n": ""
+        },
+        {
+          "t": "schnell zu handeln.",
+          "b": [
+            9,
+            10
+          ],
+          "e": [
+            12,
+            13
+          ],
+          "l": "schnell zu handeln",
+          "gb": "তাড়াহুড়ো করানোর",
+          "ge": "to hurry",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমার",
+        "অ্যাকাউন্ট",
+        "রক্ষার",
+        "জন্য",
+        "আমি",
+        "কী",
+        "করতে",
+        "পারি?"
+      ],
+      "en": [
+        "What",
+        "can",
+        "I",
+        "do",
+        "to",
+        "protect",
+        "my",
+        "account?"
+      ],
+      "de": [
+        {
+          "t": "Was",
+          "b": [
+            5
+          ],
+          "e": [
+            0
+          ],
+          "l": "Was",
+          "gb": "কী",
+          "ge": "What",
+          "n": ""
+        },
+        {
+          "t": "kann ich tun,",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            1,
+            2,
+            3
+          ],
+          "l": "kann ich tun",
+          "gb": "করতে পারি",
+          "ge": "can I do",
+          "n": ""
+        },
+        {
+          "t": "um",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "um",
+          "gb": "জন্য",
+          "ge": "to",
+          "n": ""
+        },
+        {
+          "t": "mein Konto",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "mein Konto",
+          "gb": "আমার অ্যাকাউন্ট",
+          "ge": "my account",
+          "n": ""
+        },
+        {
+          "t": "zu schützen?",
+          "b": [
+            2
+          ],
+          "e": [
+            5
+          ],
+          "l": "zu schützen",
+          "gb": "রক্ষার",
+          "ge": "protect",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "শক্ত",
+        "পাসওয়ার্ড",
+        "ব্যবহার",
+        "করো,",
+        "প্রতিটির",
+        "জন্য",
+        "আলাদা,",
+        "আর",
+        "দুই-ধাপের",
+        "যাচাই",
+        "চালু",
+        "করো,",
+        "যাতে",
+        "অন্য",
+        "কেউ",
+        "ঢুকতে",
+        "না",
+        "পারে।"
+      ],
+      "en": [
+        "Use",
+        "strong",
+        "passwords,",
+        "a",
+        "different",
+        "one",
+        "for",
+        "each,",
+        "and",
+        "switch",
+        "on",
+        "two-factor",
+        "authentication",
+        "so",
+        "that",
+        "nobody",
+        "else",
+        "can",
+        "get",
+        "in."
+      ],
+      "de": [
+        {
+          "t": "Benutze",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            0
+          ],
+          "l": "Benutze",
+          "gb": "ব্যবহার করো",
+          "ge": "Use",
+          "n": ""
+        },
+        {
+          "t": "starke Passwörter,",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "starke Passwörter",
+          "gb": "শক্ত পাসওয়ার্ড",
+          "ge": "strong passwords",
+          "n": ""
+        },
+        {
+          "t": "für jedes",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "l": "für jedes",
+          "gb": "প্রতিটির জন্য",
+          "ge": "a different one for each",
+          "n": ""
+        },
+        {
+          "t": "ein anderes,",
+          "b": [
+            6
+          ],
+          "e": [],
+          "l": "ein anderes",
+          "gb": "আলাদা",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            7
+          ],
+          "e": [
+            8
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "aktiviere",
+          "b": [
+            10,
+            11
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "aktiviere",
+          "gb": "চালু করো",
+          "ge": "switch on",
+          "n": ""
+        },
+        {
+          "t": "die Zwei-Faktor-Authentifizierung,",
+          "b": [
+            8,
+            9
+          ],
+          "e": [
+            11,
+            12
+          ],
+          "l": "Zwei-Faktor-Authentifizierung",
+          "gb": "দুই-ধাপের যাচাই",
+          "ge": "two-factor authentication",
+          "n": ""
+        },
+        {
+          "t": "damit",
+          "b": [
+            12
+          ],
+          "e": [
+            13,
+            14
+          ],
+          "l": "damit",
+          "gb": "যাতে",
+          "ge": "so that",
+          "n": ""
+        },
+        {
+          "t": "niemand sonst",
+          "b": [
+            13,
+            14
+          ],
+          "e": [
+            15,
+            16
+          ],
+          "l": "niemand sonst",
+          "gb": "অন্য কেউ",
+          "ge": "nobody else",
+          "n": ""
+        },
+        {
+          "t": "hineinkommen kann.",
+          "b": [
+            15,
+            16,
+            17
+          ],
+          "e": [
+            17,
+            18,
+            19
+          ],
+          "l": "hineinkommen kann",
+          "gb": "ঢুকতে না পারে",
+          "ge": "can get in",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আর",
+        "কোনো",
+        "অ্যাপ",
+        "তথ্য",
+        "চাইলে?",
+        "আমি",
+        "কি",
+        "সবসময়",
+        "সম্মতি",
+        "দেব?"
+      ],
+      "en": [
+        "And",
+        "if",
+        "an",
+        "app",
+        "asks",
+        "for",
+        "data?",
+        "Should",
+        "I",
+        "always",
+        "give",
+        "consent?"
+      ],
+      "de": [
+        {
+          "t": "Und",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "wenn",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "wenn",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "if",
+          "n": ""
+        },
+        {
+          "t": "eine App",
+          "b": [
+            2
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "eine App",
+          "gb": "অ্যাপ",
+          "ge": "an app",
+          "n": ""
+        },
+        {
+          "t": "Daten",
+          "b": [
+            3
+          ],
+          "e": [
+            4,
+            5,
+            6
+          ],
+          "l": "Daten",
+          "gb": "তথ্য",
+          "ge": "asks for data",
+          "n": ""
+        },
+        {
+          "t": "verlangt?",
+          "b": [
+            4
+          ],
+          "e": [],
+          "l": "verlangt",
+          "gb": "চাইলে",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Soll ich",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "Soll ich",
+          "gb": "আমি কি",
+          "ge": "Should I",
+          "n": ""
+        },
+        {
+          "t": "immer",
+          "b": [
+            7
+          ],
+          "e": [
+            9
+          ],
+          "l": "immer",
+          "gb": "সবসময়",
+          "ge": "always",
+          "n": ""
+        },
+        {
+          "t": "zustimmen?",
+          "b": [
+            8,
+            9
+          ],
+          "e": [
+            10,
+            11
+          ],
+          "l": "Einwilligung",
+          "gb": "সম্মতি দেব",
+          "ge": "give consent",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "না।",
+        "আগে",
+        "গোপনীয়তা",
+        "নীতি",
+        "পড়ো,",
+        "আর",
+        "শুধু",
+        "সেই",
+        "তথ্য",
+        "দাও",
+        "যা",
+        "সত্যিই",
+        "দরকার।",
+        "কিছু",
+        "সন্দেহ",
+        "হলে",
+        "অ্যাপটি",
+        "মুছে",
+        "ফেলো।"
+      ],
+      "en": [
+        "No.",
+        "Read",
+        "the",
+        "privacy",
+        "policy",
+        "first",
+        "and",
+        "only",
+        "provide",
+        "the",
+        "data",
+        "that",
+        "is",
+        "really",
+        "needed.",
+        "If",
+        "you",
+        "have",
+        "doubts,",
+        "delete",
+        "the",
+        "app."
+      ],
+      "de": [
+        {
+          "t": "Nein.",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Nein",
+          "gb": "না",
+          "ge": "No",
+          "n": ""
+        },
+        {
+          "t": "Lies",
+          "b": [
+            4
+          ],
+          "e": [
+            1
+          ],
+          "l": "Lies",
+          "gb": "পড়ো",
+          "ge": "Read",
+          "n": ""
+        },
+        {
+          "t": "zuerst",
+          "b": [
+            1
+          ],
+          "e": [
+            5
+          ],
+          "l": "zuerst",
+          "gb": "আগে",
+          "ge": "first",
+          "n": ""
+        },
+        {
+          "t": "die Datenschutzerklärung",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            2,
+            3,
+            4
+          ],
+          "l": "Datenschutzerklärung",
+          "gb": "গোপনীয়তা নীতি",
+          "ge": "the privacy policy",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            5
+          ],
+          "e": [
+            6
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "gib nur die Daten an,",
+          "b": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "e": [
+            7,
+            8,
+            9,
+            10
+          ],
+          "l": "gib nur die Daten an",
+          "gb": "শুধু সেই তথ্য দাও",
+          "ge": "only provide the data",
+          "n": ""
+        },
+        {
+          "t": "die wirklich nötig sind.",
+          "b": [
+            10,
+            11,
+            12
+          ],
+          "e": [
+            11,
+            12,
+            13,
+            14
+          ],
+          "l": "die wirklich nötig sind",
+          "gb": "যা সত্যিই দরকার",
+          "ge": "that is really needed",
+          "n": ""
+        },
+        {
+          "t": "Bei Zweifeln",
+          "b": [
+            14,
+            15
+          ],
+          "e": [
+            15,
+            16,
+            17,
+            18
+          ],
+          "l": "Bei Zweifeln",
+          "gb": "সন্দেহ হলে",
+          "ge": "If you have doubts",
+          "n": ""
+        },
+        {
+          "t": "lösche die App.",
+          "b": [
+            16,
+            17,
+            18
+          ],
+          "e": [
+            19,
+            20,
+            21
+          ],
+          "l": "löschen",
+          "gb": "অ্যাপটি মুছে ফেলো",
+          "ge": "delete the app",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "Phishing erkennen",
+      "head": [
+        "Warnzeichen",
+        "Beispiel",
+        "Was tun?"
+      ],
+      "rows": [
+        [
+          "fremder Absender",
+          "noreply@bank-sicher.example",
+          "Adresse genau prüfen"
+        ],
+        [
+          "Zeitdruck",
+          "„Sofort handeln, sonst Konto gesperrt!“",
+          "nicht reagieren, Bank direkt anrufen"
+        ],
+        [
+          "Rechtschreibfehler",
+          "ungewöhnliche Sätze",
+          "Verdacht"
+        ],
+        [
+          "Link / Anhang",
+          "Klick-Aufforderung",
+          "nicht klicken, Mail löschen"
+        ],
+        [
+          "Passwortabfrage",
+          "per E-Mail oder SMS",
+          "Banken fragen nie danach"
+        ]
+      ],
+      "note": "সন্দেহ হলে আপনার ব্যাংকের অফিশিয়াল ওয়েবসাইট বা অ্যাপে নিজে যান (লিংকে নয়)। ভুক্তভোগী হলে দ্রুত ব্যাংকে জানান ও পুলিশকে জানান।"
+    },
+    {
+      "type": "table",
+      "title": "Sicherheitsregeln als Imperativ und „man“-Sätze",
+      "head": [
+        "Imperativ (du)",
+        "Imperativ (Sie)",
+        "man"
+      ],
+      "rows": [
+        [
+          "Klick nicht auf unbekannte Links!",
+          "Klicken Sie nicht auf unbekannte Links!",
+          "Man sollte nie auf unbekannte Links klicken."
+        ],
+        [
+          "Benutze starke Passwörter!",
+          "Benutzen Sie starke Passwörter!",
+          "Man sollte für jedes Konto ein anderes Passwort haben."
+        ],
+        [
+          "Aktiviere die Zwei-Faktor-Authentifizierung!",
+          "Aktivieren Sie …!",
+          "Man kann das Konto damit besser schützen."
+        ]
+      ],
+      "note": "Imperativ ও man + sollen — দুটোই নিরাপত্তা-নিয়মে প্রচলিত।"
+    },
+    {
+      "type": "table",
+      "title": "Zweck und Art: damit / um … zu / ohne … zu",
+      "head": [
+        "Struktur",
+        "Beispiel"
+      ],
+      "rows": [
+        [
+          "damit (anderes Subjekt)",
+          "Aktiviere die Zwei-Faktor-Authentifizierung, damit niemand sonst hineinkommt."
+        ],
+        [
+          "um … zu (gleiches Subjekt)",
+          "Was kann ich tun, um mein Konto zu schützen?"
+        ],
+        [
+          "ohne … zu",
+          "Lösche die E-Mail, ohne auf den Link zu klicken."
+        ],
+        [
+          "(an)statt … zu",
+          "Statt zu antworten, lösche ich die Nachricht."
+        ]
+      ],
+      "note": "আগের ইউনিটের (A2 U8, B1 U3) নিয়ম মিলিয়ে নিন।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "das Phishing",
+      "options": [
+        "লগইন তথ্য",
+        "এনক্রিপ্ট করা",
+        "গোপনীয়তা নীতি",
+        "ফিশিং"
+      ],
+      "answer": 3,
+      "why": "das Phishing = ফিশিং।",
+      "word": "phishing"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "verdächtig",
+      "options": [
+        "সন্দেহজনক",
+        "প্রতারণা",
+        "নিরাপত্তার ফাঁক",
+        "গোপনীয়তা নীতি"
+      ],
+      "answer": 0,
+      "why": "verdächtig = সন্দেহজনক।",
+      "word": "verdaechtig"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "die Einwilligung",
+      "options": [
+        "দুই-ধাপের যাচাই",
+        "ফিশিং",
+        "সম্মতি",
+        "এনক্রিপ্ট করা"
+      ],
+      "answer": 2,
+      "why": "die Einwilligung = সম্মতি।",
+      "word": "einwilligung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Sicherheitslücke",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Sicherheitslücke। বহুবচন: die Sicherheitslücken।",
+      "word": "sicherheitsluecke"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক বাক্য কোনটি?",
+      "options": [
+        "Lösche die E-Mail, ohne auf den Link zu klicken.",
+        "Lösche die E-Mail, ohne auf den Link klicken.",
+        "Lösche die E-Mail ohne zu den Link klicken auf.",
+        "Lösche ohne die E-Mail zu klicken auf den Link."
+      ],
+      "answer": 0,
+      "why": "ohne … zu + Infinitiv।",
+      "word": "loeschen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক সংযোজক বেছে নিন",
+      "sub": "Aktiviere die Funktion, ___ niemand sonst hineinkommt.",
+      "options": [
+        "damit",
+        "um",
+        "weil",
+        "obwohl"
+      ],
+      "answer": 0,
+      "why": "আলাদা কর্তা: niemand sonst।",
+      "word": "verschluesseln"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Phishing-এর লক্ষণ কোনটি?",
+      "options": [
+        "পাসওয়ার্ড চেয়ে তাড়াহুড়ো করানো ইমেইল",
+        "বন্ধুর শুভেচ্ছা",
+        "বিলের রসিদ",
+        "অফিসের মিটিং"
+      ],
+      "answer": 0,
+      "why": "Passwortabfrage + Zeitdruck।",
+      "word": "betrug"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Zwei-Faktor-Authentifizierung“ কী?",
+      "options": [
+        "দুই ধাপে পরিচয় যাচাই",
+        "দুই পাসওয়ার্ড লেখা",
+        "দুজনের অ্যাকাউন্ট",
+        "দুইবার লগআউট"
+      ],
+      "answer": 0,
+      "why": "zweiter Schritt (z. B. Code)।",
+      "word": "zwei_faktor_authentifizierung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„vertrauen“ কোন কেস নেয়?",
+      "options": [
+        "Dativ",
+        "Akkusativ",
+        "Genitiv",
+        "Nominativ"
+      ],
+      "answer": 0,
+      "why": "jemandem vertrauen।",
+      "word": "vertrauen"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „এই লিংকে ক্লিক করবেন না!“",
+      "tiles": [
+        "nicht",
+        "auf diesen Link!",
+        "Sie",
+        "Klicken"
+      ],
+      "answer": [
+        "Klicken",
+        "Sie",
+        "nicht",
+        "auf diesen Link!"
+      ],
+      "why": "Imperativ (Sie)।",
+      "word": "sicherheit"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

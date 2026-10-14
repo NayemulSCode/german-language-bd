@@ -1,0 +1,1595 @@
+{
+  "level": "B1",
+  "unit": 6,
+  "minutes": 18,
+  "lesson": 3,
+  "id": "b1-u06-l03",
+  "title": {
+    "de": "Tempolimit auf der Autobahn?",
+    "bn": "আলোচনায় যুক্তি সাজানো: Pro und Contra",
+    "en": "Structuring a discussion: pros and cons"
+  },
+  "hook": {
+    "de": "Audiatur et altera pars.",
+    "who": "Lateinisches Sprichwort",
+    "bn": "অন্য পক্ষকেও শোনা হোক।",
+    "en": "Let the other side be heard too."
+  },
+  "goals": [
+    "Argumente ordnen: erstens, zweitens, schließlich",
+    "Befürworter und Kritiker vorstellen",
+    "sowohl … als auch, nicht nur … sondern auch",
+    "auf Argumente reagieren: Das ist zwar richtig, aber …"
+  ],
+  "words": [
+    {
+      "id": "tempolimit",
+      "de": "Tempolimit",
+      "art": "das",
+      "pl": "die Tempolimits",
+      "pos": "বিশেষ্য",
+      "bn": "গতিসীমা",
+      "en": "speed limit"
+    },
+    {
+      "id": "autobahn",
+      "de": "Autobahn",
+      "art": "die",
+      "pl": "die Autobahnen",
+      "pos": "বিশেষ্য",
+      "bn": "অটোবান (মহাসড়ক)",
+      "en": "motorway"
+    },
+    {
+      "id": "unfall",
+      "de": "Unfall",
+      "art": "der",
+      "pl": "die Unfälle",
+      "pos": "বিশেষ্য",
+      "bn": "দুর্ঘটনা",
+      "en": "accident"
+    },
+    {
+      "id": "geschwindigkeit",
+      "de": "Geschwindigkeit",
+      "art": "die",
+      "pl": "die Geschwindigkeiten",
+      "pos": "বিশেষ্য",
+      "bn": "গতি",
+      "en": "speed"
+    },
+    {
+      "id": "begrenzen",
+      "de": "begrenzen",
+      "pos": "ক্রিয়া · hat begrenzt",
+      "bn": "সীমিত করা",
+      "en": "to limit"
+    },
+    {
+      "id": "freiheit",
+      "de": "Freiheit",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "স্বাধীনতা",
+      "en": "freedom"
+    },
+    {
+      "id": "befuerworter",
+      "de": "Befürworter",
+      "art": "der",
+      "pl": "die Befürworter",
+      "pos": "বিশেষ্য",
+      "bn": "সমর্থক",
+      "en": "supporter, advocate"
+    },
+    {
+      "id": "kritiker",
+      "de": "Kritiker",
+      "art": "der",
+      "pl": "die Kritiker",
+      "pos": "বিশেষ্য",
+      "bn": "সমালোচক",
+      "en": "critic"
+    },
+    {
+      "id": "argumentieren",
+      "de": "argumentieren",
+      "pos": "ক্রিয়া · hat argumentiert",
+      "bn": "যুক্তি দেওয়া",
+      "en": "to argue"
+    },
+    {
+      "id": "schliesslich",
+      "de": "schließlich",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "অবশেষে, তাছাড়া",
+      "en": "finally, after all"
+    },
+    {
+      "id": "verkehrssicherheit",
+      "de": "Verkehrssicherheit",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "যান চলাচলের নিরাপত্তা",
+      "en": "road safety"
+    },
+    {
+      "id": "einfuehren",
+      "de": "einführen",
+      "pos": "ক্রিয়া · hat eingeführt",
+      "bn": "চালু করা",
+      "en": "to introduce"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Moderatorin",
+      "bn": [
+        "আজকের",
+        "বিষয়:",
+        "অটোবানে",
+        "কি",
+        "সর্বত্র",
+        "গতিসীমা",
+        "চালু",
+        "করা",
+        "উচিত?",
+        "আমি",
+        "প্রথমে",
+        "সমর্থকদের",
+        "কথা",
+        "শুনতে",
+        "চাই।"
+      ],
+      "en": [
+        "Today’s",
+        "topic:",
+        "should",
+        "a",
+        "speed",
+        "limit",
+        "be",
+        "introduced",
+        "on",
+        "all",
+        "motorways?",
+        "I",
+        "would",
+        "like",
+        "to",
+        "hear",
+        "from",
+        "the",
+        "supporters",
+        "first."
+      ],
+      "de": [
+        {
+          "t": "Unser Thema",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Unser Thema",
+          "gb": "আজকের বিষয়",
+          "ge": "Today’s topic",
+          "n": ""
+        },
+        {
+          "t": "heute:",
+          "b": [],
+          "e": [],
+          "l": "heute",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Sollte",
+          "b": [
+            8
+          ],
+          "e": [
+            2
+          ],
+          "l": "Sollte",
+          "gb": "উচিত",
+          "ge": "should",
+          "n": ""
+        },
+        {
+          "t": "auf allen Autobahnen",
+          "b": [
+            2,
+            3,
+            4
+          ],
+          "e": [
+            8,
+            9,
+            10
+          ],
+          "l": "auf allen Autobahnen",
+          "gb": "অটোবানে কি সর্বত্র",
+          "ge": "on all motorways",
+          "n": ""
+        },
+        {
+          "t": "ein Tempolimit",
+          "b": [
+            5
+          ],
+          "e": [
+            3,
+            4,
+            5
+          ],
+          "l": "Tempolimit",
+          "gb": "গতিসীমা",
+          "ge": "a speed limit",
+          "n": ""
+        },
+        {
+          "t": "eingeführt",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "einführen",
+          "gb": "চালু করা",
+          "ge": "be introduced",
+          "n": ""
+        },
+        {
+          "t": "werden?",
+          "b": [],
+          "e": [],
+          "l": "werden",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Ich möchte",
+          "b": [
+            9,
+            14
+          ],
+          "e": [
+            11,
+            12,
+            13
+          ],
+          "l": "Ich möchte",
+          "gb": "আমি চাই",
+          "ge": "I would like",
+          "n": ""
+        },
+        {
+          "t": "zuerst",
+          "b": [
+            10
+          ],
+          "e": [
+            19
+          ],
+          "l": "zuerst",
+          "gb": "প্রথমে",
+          "ge": "first",
+          "n": ""
+        },
+        {
+          "t": "die Befürworter",
+          "b": [
+            11,
+            12
+          ],
+          "e": [
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "l": "die Befürworter",
+          "gb": "সমর্থকদের কথা",
+          "ge": "to hear from the supporters",
+          "n": ""
+        },
+        {
+          "t": "hören.",
+          "b": [
+            13
+          ],
+          "e": [],
+          "l": "hören",
+          "gb": "শুনতে",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "আমি",
+        "সমর্থক।",
+        "প্রথমত,",
+        "কম",
+        "গতিতে",
+        "দুর্ঘটনা",
+        "কম",
+        "হয়।",
+        "দ্বিতীয়ত,",
+        "কম",
+        "জ্বালানি",
+        "লাগে।",
+        "আর",
+        "শেষে,",
+        "এতে",
+        "পরিবেশেরও",
+        "উপকার",
+        "হয়।"
+      ],
+      "en": [
+        "I",
+        "am",
+        "a",
+        "supporter.",
+        "Firstly,",
+        "there",
+        "are",
+        "fewer",
+        "accidents",
+        "at",
+        "lower",
+        "speeds.",
+        "Secondly,",
+        "less",
+        "fuel",
+        "is",
+        "needed.",
+        "And",
+        "finally,",
+        "the",
+        "environment",
+        "also",
+        "benefits."
+      ],
+      "de": [
+        {
+          "t": "Ich bin",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Ich bin",
+          "gb": "আমি",
+          "ge": "I am",
+          "n": ""
+        },
+        {
+          "t": "Befürworterin.",
+          "b": [
+            1
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "Befürworter",
+          "gb": "সমর্থক",
+          "ge": "a supporter",
+          "n": ""
+        },
+        {
+          "t": "Erstens",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "Erstens",
+          "gb": "প্রথমত",
+          "ge": "Firstly",
+          "n": ""
+        },
+        {
+          "t": "gibt es",
+          "b": [
+            7
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "gibt es",
+          "gb": "হয়",
+          "ge": "there are",
+          "n": ""
+        },
+        {
+          "t": "bei niedrigerer Geschwindigkeit",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            9,
+            10,
+            11
+          ],
+          "l": "Geschwindigkeit",
+          "gb": "কম গতিতে",
+          "ge": "at lower speeds",
+          "n": ""
+        },
+        {
+          "t": "weniger Unfälle.",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "weniger Unfälle",
+          "gb": "দুর্ঘটনা কম",
+          "ge": "fewer accidents",
+          "n": ""
+        },
+        {
+          "t": "Zweitens",
+          "b": [
+            8
+          ],
+          "e": [
+            12
+          ],
+          "l": "Zweitens",
+          "gb": "দ্বিতীয়ত",
+          "ge": "Secondly",
+          "n": ""
+        },
+        {
+          "t": "braucht man",
+          "b": [
+            11
+          ],
+          "e": [
+            15,
+            16
+          ],
+          "l": "braucht man",
+          "gb": "লাগে",
+          "ge": "is needed",
+          "n": ""
+        },
+        {
+          "t": "weniger Sprit.",
+          "b": [
+            9,
+            10
+          ],
+          "e": [
+            13,
+            14
+          ],
+          "l": "weniger Sprit",
+          "gb": "কম জ্বালানি",
+          "ge": "less fuel",
+          "n": ""
+        },
+        {
+          "t": "Und",
+          "b": [
+            12
+          ],
+          "e": [
+            17
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "schließlich",
+          "b": [
+            13
+          ],
+          "e": [
+            18
+          ],
+          "l": "schließlich",
+          "gb": "শেষে",
+          "ge": "finally",
+          "n": ""
+        },
+        {
+          "t": "profitiert auch",
+          "b": [
+            16,
+            17
+          ],
+          "e": [
+            22
+          ],
+          "l": "profitiert auch",
+          "gb": "উপকার হয়",
+          "ge": "benefits",
+          "n": ""
+        },
+        {
+          "t": "die Umwelt.",
+          "b": [
+            15
+          ],
+          "e": [
+            19,
+            20
+          ],
+          "l": "die Umwelt",
+          "gb": "পরিবেশেরও",
+          "ge": "the environment",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Tom",
+      "bn": [
+        "আমি",
+        "সমালোচক।",
+        "আমি",
+        "মনে",
+        "করি,",
+        "দায়িত্বশীল",
+        "চালকদের",
+        "জন্য",
+        "এটা",
+        "অযৌক্তিক।",
+        "বেশিরভাগ",
+        "দুর্ঘটনা",
+        "গতির",
+        "কারণে",
+        "নয়,",
+        "অসতর্কতার",
+        "কারণে",
+        "হয়।"
+      ],
+      "en": [
+        "I",
+        "am",
+        "a",
+        "critic.",
+        "I",
+        "think",
+        "it",
+        "is",
+        "unreasonable",
+        "for",
+        "responsible",
+        "drivers.",
+        "Most",
+        "accidents",
+        "are",
+        "caused",
+        "not",
+        "by",
+        "speed",
+        "but",
+        "by",
+        "inattention."
+      ],
+      "de": [
+        {
+          "t": "Ich bin",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Ich bin",
+          "gb": "আমি",
+          "ge": "I am",
+          "n": ""
+        },
+        {
+          "t": "Kritiker.",
+          "b": [
+            1
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "Kritiker",
+          "gb": "সমালোচক",
+          "ge": "a critic",
+          "n": ""
+        },
+        {
+          "t": "Ich finde,",
+          "b": [
+            2,
+            3,
+            4
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "Ich finde",
+          "gb": "আমি মনে করি",
+          "ge": "I think",
+          "n": ""
+        },
+        {
+          "t": "für verantwortungsvolle Fahrer",
+          "b": [
+            5,
+            6,
+            7
+          ],
+          "e": [
+            9,
+            10,
+            11
+          ],
+          "l": "für verantwortungsvolle Fahrer",
+          "gb": "দায়িত্বশীল চালকদের জন্য",
+          "ge": "for responsible drivers",
+          "n": ""
+        },
+        {
+          "t": "ist das",
+          "b": [
+            8
+          ],
+          "e": [
+            6
+          ],
+          "l": "ist das",
+          "gb": "এটা",
+          "ge": "it",
+          "n": ""
+        },
+        {
+          "t": "unnötig.",
+          "b": [
+            9
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "unnötig",
+          "gb": "অযৌক্তিক",
+          "ge": "is unreasonable",
+          "n": ""
+        },
+        {
+          "t": "Die meisten Unfälle",
+          "b": [
+            10,
+            11
+          ],
+          "e": [
+            12,
+            13
+          ],
+          "l": "Die meisten Unfälle",
+          "gb": "বেশিরভাগ দুর্ঘটনা",
+          "ge": "Most accidents",
+          "n": ""
+        },
+        {
+          "t": "entstehen",
+          "b": [
+            17
+          ],
+          "e": [
+            14,
+            15
+          ],
+          "l": "entstehen",
+          "gb": "হয়",
+          "ge": "are caused",
+          "n": ""
+        },
+        {
+          "t": "nicht nur",
+          "b": [
+            14
+          ],
+          "e": [
+            16
+          ],
+          "l": "nicht nur",
+          "gb": "নয়",
+          "ge": "not",
+          "n": ""
+        },
+        {
+          "t": "durch Geschwindigkeit,",
+          "b": [
+            12,
+            13
+          ],
+          "e": [
+            17,
+            18
+          ],
+          "l": "durch Geschwindigkeit",
+          "gb": "গতির কারণে",
+          "ge": "by speed",
+          "n": ""
+        },
+        {
+          "t": "sondern auch",
+          "b": [],
+          "e": [
+            19,
+            20
+          ],
+          "l": "sondern auch",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "but by",
+          "n": ""
+        },
+        {
+          "t": "durch Unachtsamkeit.",
+          "b": [
+            15,
+            16
+          ],
+          "e": [
+            21
+          ],
+          "l": "durch Unachtsamkeit",
+          "gb": "অসতর্কতার কারণে",
+          "ge": "inattention",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "ওটা",
+        "আংশিক",
+        "সত্য।",
+        "কিন্তু",
+        "অসতর্কতা",
+        "আর",
+        "গতি",
+        "দুটোই",
+        "ঝুঁকি",
+        "বাড়ায়।",
+        "উচ্চ",
+        "গতিতে",
+        "ভুল",
+        "শোধরানোর",
+        "সময়",
+        "কম",
+        "থাকে।"
+      ],
+      "en": [
+        "That",
+        "is",
+        "partly",
+        "true.",
+        "But",
+        "both",
+        "inattention",
+        "and",
+        "speed",
+        "increase",
+        "risk.",
+        "At",
+        "high",
+        "speed",
+        "there",
+        "is",
+        "less",
+        "time",
+        "to",
+        "correct",
+        "mistakes."
+      ],
+      "de": [
+        {
+          "t": "Das ist",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Das ist",
+          "gb": "ওটা",
+          "ge": "That is",
+          "n": ""
+        },
+        {
+          "t": "zum Teil",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "zum Teil",
+          "gb": "আংশিক",
+          "ge": "partly",
+          "n": ""
+        },
+        {
+          "t": "richtig.",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "richtig",
+          "gb": "সত্য",
+          "ge": "true",
+          "n": ""
+        },
+        {
+          "t": "Aber",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "Aber",
+          "gb": "কিন্তু",
+          "ge": "But",
+          "n": ""
+        },
+        {
+          "t": "sowohl Unachtsamkeit",
+          "b": [
+            4
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "sowohl Unachtsamkeit",
+          "gb": "অসতর্কতা",
+          "ge": "both inattention",
+          "n": ""
+        },
+        {
+          "t": "als auch Geschwindigkeit",
+          "b": [
+            5,
+            6,
+            7
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "als auch Geschwindigkeit",
+          "gb": "আর গতি দুটোই",
+          "ge": "and speed",
+          "n": "sowohl … als auch = দুটোই"
+        },
+        {
+          "t": "erhöhen",
+          "b": [
+            9
+          ],
+          "e": [
+            9
+          ],
+          "l": "erhöhen",
+          "gb": "বাড়ায়",
+          "ge": "increase",
+          "n": ""
+        },
+        {
+          "t": "das Risiko.",
+          "b": [
+            8
+          ],
+          "e": [
+            10
+          ],
+          "l": "das Risiko",
+          "gb": "ঝুঁকি",
+          "ge": "risk",
+          "n": ""
+        },
+        {
+          "t": "Bei hoher Geschwindigkeit",
+          "b": [
+            10,
+            11
+          ],
+          "e": [
+            11,
+            12,
+            13
+          ],
+          "l": "Bei hoher Geschwindigkeit",
+          "gb": "উচ্চ গতিতে",
+          "ge": "At high speed",
+          "n": ""
+        },
+        {
+          "t": "bleibt",
+          "b": [
+            16
+          ],
+          "e": [
+            14,
+            15
+          ],
+          "l": "bleibt",
+          "gb": "থাকে",
+          "ge": "there is",
+          "n": ""
+        },
+        {
+          "t": "weniger Zeit,",
+          "b": [
+            14,
+            15
+          ],
+          "e": [
+            16,
+            17
+          ],
+          "l": "weniger Zeit",
+          "gb": "সময় কম",
+          "ge": "less time",
+          "n": ""
+        },
+        {
+          "t": "Fehler zu korrigieren.",
+          "b": [
+            12,
+            13
+          ],
+          "e": [
+            18,
+            19,
+            20
+          ],
+          "l": "Fehler zu korrigieren",
+          "gb": "ভুল শোধরানোর",
+          "ge": "to correct mistakes",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Tom",
+      "bn": [
+        "তবুও,",
+        "স্বাধীনতাও",
+        "গুরুত্বপূর্ণ।",
+        "অনেক",
+        "মানুষ",
+        "সীমিত",
+        "হতে",
+        "চায়",
+        "না।"
+      ],
+      "en": [
+        "Still,",
+        "freedom",
+        "is",
+        "also",
+        "important.",
+        "Many",
+        "people",
+        "do",
+        "not",
+        "want",
+        "to",
+        "be",
+        "limited."
+      ],
+      "de": [
+        {
+          "t": "Trotzdem",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Trotzdem",
+          "gb": "তবুও",
+          "ge": "Still",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "auch",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "auch",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "also",
+          "n": ""
+        },
+        {
+          "t": "Freiheit",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "Freiheit",
+          "gb": "স্বাধীনতাও",
+          "ge": "freedom",
+          "n": ""
+        },
+        {
+          "t": "wichtig.",
+          "b": [
+            2
+          ],
+          "e": [
+            4
+          ],
+          "l": "wichtig",
+          "gb": "গুরুত্বপূর্ণ",
+          "ge": "important",
+          "n": ""
+        },
+        {
+          "t": "Viele Menschen",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "Viele Menschen",
+          "gb": "অনেক মানুষ",
+          "ge": "Many people",
+          "n": ""
+        },
+        {
+          "t": "wollen",
+          "b": [
+            7
+          ],
+          "e": [
+            9
+          ],
+          "l": "wollen",
+          "gb": "চায়",
+          "ge": "want",
+          "n": ""
+        },
+        {
+          "t": "nicht",
+          "b": [
+            8
+          ],
+          "e": [
+            8
+          ],
+          "l": "nicht",
+          "gb": "না",
+          "ge": "not",
+          "n": ""
+        },
+        {
+          "t": "begrenzt",
+          "b": [
+            5
+          ],
+          "e": [
+            12
+          ],
+          "l": "begrenzen",
+          "gb": "সীমিত",
+          "ge": "limited",
+          "n": ""
+        },
+        {
+          "t": "werden.",
+          "b": [
+            6
+          ],
+          "e": [],
+          "l": "werden",
+          "gb": "হতে",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Moderatorin",
+      "bn": [
+        "ধন্যবাদ।",
+        "আমরা",
+        "দেখলাম:",
+        "একদিকে",
+        "নিরাপত্তা",
+        "ও",
+        "পরিবেশ,",
+        "অন্যদিকে",
+        "স্বাধীনতা।",
+        "দর্শকদের",
+        "মধ্যে",
+        "কি",
+        "কেউ",
+        "কিছু",
+        "যোগ",
+        "করতে",
+        "চান?"
+      ],
+      "en": [
+        "Thank",
+        "you.",
+        "We",
+        "have",
+        "seen:",
+        "on",
+        "the",
+        "one",
+        "hand",
+        "safety",
+        "and",
+        "the",
+        "environment,",
+        "on",
+        "the",
+        "other",
+        "freedom.",
+        "Does",
+        "anyone",
+        "in",
+        "the",
+        "audience",
+        "want",
+        "to",
+        "add",
+        "something?"
+      ],
+      "de": [
+        {
+          "t": "Danke.",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Danke",
+          "gb": "ধন্যবাদ",
+          "ge": "Thank you",
+          "n": ""
+        },
+        {
+          "t": "Wir haben gesehen:",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            2,
+            3,
+            4
+          ],
+          "l": "Wir haben gesehen",
+          "gb": "আমরা দেখলাম",
+          "ge": "We have seen",
+          "n": ""
+        },
+        {
+          "t": "Einerseits",
+          "b": [
+            3
+          ],
+          "e": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "l": "Einerseits",
+          "gb": "একদিকে",
+          "ge": "on the one hand",
+          "n": ""
+        },
+        {
+          "t": "Sicherheit",
+          "b": [
+            4
+          ],
+          "e": [
+            9
+          ],
+          "l": "Verkehrssicherheit",
+          "gb": "নিরাপত্তা",
+          "ge": "safety",
+          "n": ""
+        },
+        {
+          "t": "und Umwelt,",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            10,
+            11,
+            12
+          ],
+          "l": "und Umwelt",
+          "gb": "ও পরিবেশ",
+          "ge": "and the environment",
+          "n": ""
+        },
+        {
+          "t": "andererseits",
+          "b": [
+            7
+          ],
+          "e": [
+            13,
+            14,
+            15
+          ],
+          "l": "andererseits",
+          "gb": "অন্যদিকে",
+          "ge": "on the other",
+          "n": ""
+        },
+        {
+          "t": "Freiheit.",
+          "b": [
+            8
+          ],
+          "e": [
+            16
+          ],
+          "l": "Freiheit",
+          "gb": "স্বাধীনতা",
+          "ge": "freedom",
+          "n": ""
+        },
+        {
+          "t": "Möchte",
+          "b": [
+            16
+          ],
+          "e": [
+            17
+          ],
+          "l": "Möchte",
+          "gb": "চান",
+          "ge": "Does",
+          "n": ""
+        },
+        {
+          "t": "jemand",
+          "b": [
+            12
+          ],
+          "e": [
+            18
+          ],
+          "l": "jemand",
+          "gb": "কেউ",
+          "ge": "anyone",
+          "n": ""
+        },
+        {
+          "t": "aus dem Publikum",
+          "b": [
+            9,
+            10
+          ],
+          "e": [
+            19,
+            20,
+            21
+          ],
+          "l": "aus dem Publikum",
+          "gb": "দর্শকদের মধ্যে",
+          "ge": "in the audience",
+          "n": ""
+        },
+        {
+          "t": "etwas ergänzen?",
+          "b": [
+            13,
+            14,
+            15
+          ],
+          "e": [
+            22,
+            23,
+            24,
+            25
+          ],
+          "l": "etwas ergänzen",
+          "gb": "কিছু যোগ করতে",
+          "ge": "want to add something",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "Argumente ordnen",
+      "head": [
+        "Funktion",
+        "Formulierung"
+      ],
+      "rows": [
+        [
+          "Aufzählen",
+          "Erstens …, zweitens …, drittens … / Zunächst … / Außerdem … / Schließlich …"
+        ],
+        [
+          "Gegenüberstellen",
+          "Einerseits …, andererseits … / Auf der einen Seite … auf der anderen …"
+        ],
+        [
+          "Verstärken",
+          "Nicht nur …, sondern auch … / Sowohl … als auch …"
+        ],
+        [
+          "Einschränken",
+          "Das stimmt zwar, aber … / Allerdings …"
+        ],
+        [
+          "Schlussfolgern",
+          "Daher … / Insgesamt … / Zusammenfassend …"
+        ]
+      ],
+      "note": "„nicht nur … sondern auch“-এ প্রথম অংশের পরে ক্রিয়া বসতে পারে; „sowohl … als auch“ মানে দুটোই।"
+    },
+    {
+      "type": "table",
+      "title": "Diskussionsrollen",
+      "head": [
+        "Rolle",
+        "Aufgabe",
+        "Beispielsatz"
+      ],
+      "rows": [
+        [
+          "Moderator/in",
+          "Thema vorstellen, Redezeit, Zusammenfassung",
+          "Ich möchte zuerst die Befürworter hören."
+        ],
+        [
+          "Befürworter/in",
+          "Argumente für den Vorschlag",
+          "Ich bin dafür, weil …"
+        ],
+        [
+          "Kritiker/in",
+          "Argumente dagegen",
+          "Ich bin dagegen, weil …"
+        ],
+        [
+          "Publikum",
+          "Fragen, Ergänzungen",
+          "Ich möchte etwas ergänzen …"
+        ]
+      ],
+      "note": "ভদ্রভাবে বাধা দিন: „Darf ich kurz etwas sagen?“ — অন্যকে শেষ করতে দিন।"
+    },
+    {
+      "type": "table",
+      "title": "Argumentation mit Gründen",
+      "head": [
+        "Satzmuster",
+        "Beispiel"
+      ],
+      "rows": [
+        [
+          "weil / denn",
+          "Ich bin dafür, weil es weniger Unfälle gibt."
+        ],
+        [
+          "nicht nur … sondern auch",
+          "Es schützt nicht nur Menschen, sondern auch die Umwelt."
+        ],
+        [
+          "sowohl … als auch",
+          "Es nützt sowohl der Sicherheit als auch der Umwelt."
+        ],
+        [
+          "dadurch / deshalb",
+          "Dadurch gibt es weniger Unfälle."
+        ]
+      ],
+      "note": "Tempolimit নিয়ে জার্মানিতে প্রকৃত বিতর্ক আছে (সব মহাসড়কে সীমা নেই); এটি বিতর্কের অনুশীলন, রাজনৈতিক অবস্থান নয়।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "das Tempolimit",
+      "options": [
+        "যান চলাচলের নিরাপত্তা",
+        "অটোবান",
+        "গতি",
+        "গতিসীমা"
+      ],
+      "answer": 3,
+      "why": "das Tempolimit = গতিসীমা।",
+      "word": "tempolimit"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "begrenzen",
+      "options": [
+        "চালু করা",
+        "সীমিত করা",
+        "দুর্ঘটনা",
+        "সমর্থক"
+      ],
+      "answer": 1,
+      "why": "begrenzen = সীমিত করা।",
+      "word": "begrenzen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "der Befürworter",
+      "options": [
+        "গতিসীমা",
+        "গতি",
+        "সমর্থক",
+        "সমালোচক"
+      ],
+      "answer": 2,
+      "why": "der Befürworter = সমর্থক।",
+      "word": "befuerworter"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "der Kritiker",
+      "options": [
+        "যান চলাচলের নিরাপত্তা",
+        "অটোবান",
+        "সমালোচক",
+        "সীমিত করা"
+      ],
+      "answer": 2,
+      "why": "der Kritiker = সমালোচক।",
+      "word": "kritiker"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„sowohl … als auch“ মানে কী?",
+      "options": [
+        "দুটোই",
+        "হয় … নয়",
+        "না … না",
+        "যত … তত"
+      ],
+      "answer": 0,
+      "why": "both … and।",
+      "word": "argumentieren"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„einerseits … andererseits“ কী করে?",
+      "options": [
+        "দুই দিক তুলনা করে",
+        "শুধু কারণ বলে",
+        "প্রশ্ন করে",
+        "ধন্যবাদ দেয়"
+      ],
+      "answer": 0,
+      "why": "gegenüberstellen।",
+      "word": "schliesslich"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক বাক্য কোনটি?",
+      "options": [
+        "Es schützt nicht nur Menschen, sondern auch die Umwelt.",
+        "Es schützt nicht nur Menschen sondern, auch die Umwelt.",
+        "Es nicht nur schützt Menschen, sondern die auch Umwelt.",
+        "Nicht nur es schützt Menschen sondern auch Umwelt die."
+      ],
+      "answer": 0,
+      "why": "nicht nur … sondern auch।",
+      "word": "unfall"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Moderator/in-এর কাজ কী?",
+      "options": [
+        "আলোচনা পরিচালনা",
+        "শুধু বিরোধিতা",
+        "শুধু সমর্থন",
+        "নীরব থাকা"
+      ],
+      "answer": 0,
+      "why": "Diskussion leiten।",
+      "word": "einfuehren"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Verkehrssicherheit“ মানে কী?",
+      "options": [
+        "যান চলাচলের নিরাপত্তা",
+        "যানজট",
+        "পরিবহন ভাড়া",
+        "রাস্তা নির্মাণ"
+      ],
+      "answer": 0,
+      "why": "Verkehr + Sicherheit।",
+      "word": "verkehrssicherheit"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „প্রথমত, কম দুর্ঘটনা হয়।“",
+      "tiles": [
+        "gibt es",
+        "Erstens",
+        "weniger Unfälle."
+      ],
+      "answer": [
+        "Erstens",
+        "gibt es",
+        "weniger Unfälle."
+      ],
+      "why": "Erstens + ক্রিয়া ২য়।",
+      "word": "unfall"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}
