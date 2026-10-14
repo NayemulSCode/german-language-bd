@@ -1,0 +1,1689 @@
+{
+  "level": "B1",
+  "unit": 9,
+  "minutes": 18,
+  "lesson": 1,
+  "id": "b1-u09-l01",
+  "title": {
+    "de": "Geld und Budget",
+    "bn": "টাকা ও মাসিক বাজেট",
+    "en": "Money and budget"
+  },
+  "hook": {
+    "de": "Kleinvieh macht auch Mist.",
+    "who": "Sprichwort",
+    "bn": "ছোট ছোট সঞ্চয়ও জমে অনেক হয়।",
+    "en": "Many a little makes a mickle."
+  },
+  "goals": [
+    "Einnahmen, Ausgaben, Fixkosten, sparen",
+    "Konnektoren: obwohl, trotzdem, deshalb",
+    "Budget planen und über Geld sprechen",
+    "Konto, Überweisung, Dauerauftrag"
+  ],
+  "words": [
+    {
+      "id": "einnahmen",
+      "de": "Einnahmen",
+      "art": "die",
+      "pos": "বিশেষ্য (বহুবচন)",
+      "bn": "আয়",
+      "en": "income"
+    },
+    {
+      "id": "ausgaben",
+      "de": "Ausgaben",
+      "art": "die",
+      "pos": "বিশেষ্য (বহুবচন)",
+      "bn": "ব্যয়",
+      "en": "expenses"
+    },
+    {
+      "id": "fixkosten",
+      "de": "Fixkosten",
+      "art": "die",
+      "pos": "বিশেষ্য (বহুবচন)",
+      "bn": "নির্দিষ্ট মাসিক খরচ",
+      "en": "fixed costs"
+    },
+    {
+      "id": "budget",
+      "de": "Budget",
+      "art": "das",
+      "pl": "die Budgets",
+      "pos": "বিশেষ্য",
+      "bn": "বাজেট",
+      "en": "budget"
+    },
+    {
+      "id": "sparen",
+      "de": "sparen",
+      "pos": "ক্রিয়া · hat gespart",
+      "bn": "সঞ্চয় করা",
+      "en": "to save"
+    },
+    {
+      "id": "ueberweisung",
+      "de": "Überweisung",
+      "art": "die",
+      "pl": "die Überweisungen",
+      "pos": "বিশেষ্য",
+      "bn": "ব্যাংক ট্রান্সফার",
+      "en": "bank transfer"
+    },
+    {
+      "id": "dauerauftrag",
+      "de": "Dauerauftrag",
+      "art": "der",
+      "pl": "die Daueraufträge",
+      "pos": "বিশেষ্য",
+      "bn": "স্থায়ী ব্যাংক নির্দেশ",
+      "en": "standing order"
+    },
+    {
+      "id": "schulden",
+      "de": "Schulden",
+      "art": "die",
+      "pos": "বিশেষ্য (বহুবচন)",
+      "bn": "ঋণ",
+      "en": "debts"
+    },
+    {
+      "id": "verdienen",
+      "de": "verdienen",
+      "pos": "ক্রিয়া · hat verdient",
+      "bn": "আয় করা",
+      "en": "to earn"
+    },
+    {
+      "id": "ausgeben",
+      "de": "ausgeben",
+      "pos": "ক্রিয়া · hat ausgegeben",
+      "bn": "খরচ করা",
+      "en": "to spend"
+    },
+    {
+      "id": "leihen",
+      "de": "leihen",
+      "pos": "ক্রিয়া · hat geliehen",
+      "bn": "ধার নেওয়া/দেওয়া",
+      "en": "to borrow, to lend"
+    },
+    {
+      "id": "ruecklage",
+      "de": "Rücklage",
+      "art": "die",
+      "pl": "die Rücklagen",
+      "pos": "বিশেষ্য",
+      "bn": "জরুরি সঞ্চয়",
+      "en": "reserve, savings cushion"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Saheb",
+      "bn": [
+        "লেনা,",
+        "প্রতি",
+        "মাসে",
+        "আমার",
+        "টাকা",
+        "শেষ",
+        "হয়ে",
+        "যায়,",
+        "অথচ",
+        "আমি",
+        "অনেক",
+        "কিছু",
+        "কিনি",
+        "না।",
+        "আমি",
+        "কী",
+        "করব?"
+      ],
+      "en": [
+        "Lena,",
+        "every",
+        "month",
+        "my",
+        "money",
+        "runs",
+        "out,",
+        "although",
+        "I",
+        "do",
+        "not",
+        "buy",
+        "much.",
+        "What",
+        "should",
+        "I",
+        "do?"
+      ],
+      "de": [
+        {
+          "t": "Lena,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Lena",
+          "gb": "লেনা",
+          "ge": "Lena",
+          "n": ""
+        },
+        {
+          "t": "jeden Monat",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "jeden Monat",
+          "gb": "প্রতি মাসে",
+          "ge": "every month",
+          "n": ""
+        },
+        {
+          "t": "ist mein Geld",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "ist mein Geld",
+          "gb": "আমার টাকা",
+          "ge": "my money",
+          "n": ""
+        },
+        {
+          "t": "alle,",
+          "b": [
+            5,
+            6,
+            7
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "alle",
+          "gb": "শেষ হয়ে যায়",
+          "ge": "runs out",
+          "n": ""
+        },
+        {
+          "t": "obwohl",
+          "b": [
+            8
+          ],
+          "e": [
+            7
+          ],
+          "l": "obwohl",
+          "gb": "অথচ",
+          "ge": "although",
+          "n": ""
+        },
+        {
+          "t": "ich nicht viel kaufe.",
+          "b": [
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "e": [
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "l": "ich nicht viel kaufe",
+          "gb": "আমি অনেক কিছু কিনি না",
+          "ge": "I do not buy much",
+          "n": ""
+        },
+        {
+          "t": "Was soll ich tun?",
+          "b": [
+            14,
+            15,
+            16
+          ],
+          "e": [
+            13,
+            14,
+            15,
+            16
+          ],
+          "l": "Was soll ich tun",
+          "gb": "আমি কী করব",
+          "ge": "What should I do",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "প্রথমে",
+        "একটা",
+        "বাজেট",
+        "বানাও:",
+        "তোমার",
+        "আয়",
+        "কত,",
+        "আর",
+        "খরচ",
+        "কত?",
+        "নিয়মিত",
+        "খরচগুলো",
+        "লিখে",
+        "ফেলো।"
+      ],
+      "en": [
+        "First",
+        "make",
+        "a",
+        "budget:",
+        "how",
+        "much",
+        "is",
+        "your",
+        "income",
+        "and",
+        "how",
+        "much",
+        "are",
+        "your",
+        "expenses?",
+        "Write",
+        "down",
+        "the",
+        "regular",
+        "costs."
+      ],
+      "de": [
+        {
+          "t": "Mach zuerst",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Mach zuerst",
+          "gb": "প্রথমে",
+          "ge": "First make",
+          "n": ""
+        },
+        {
+          "t": "ein Budget:",
+          "b": [
+            1,
+            2,
+            3
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "Budget",
+          "gb": "একটা বাজেট বানাও",
+          "ge": "a budget",
+          "n": ""
+        },
+        {
+          "t": "Wie hoch sind",
+          "b": [
+            6
+          ],
+          "e": [
+            4,
+            5,
+            12
+          ],
+          "l": "Wie hoch sind",
+          "gb": "কত",
+          "ge": "how much are",
+          "n": ""
+        },
+        {
+          "t": "deine Einnahmen",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "deine Einnahmen",
+          "gb": "তোমার আয়",
+          "ge": "your income",
+          "n": ""
+        },
+        {
+          "t": "und deine Ausgaben?",
+          "b": [
+            7,
+            8,
+            9
+          ],
+          "e": [
+            9,
+            13,
+            14
+          ],
+          "l": "und deine Ausgaben",
+          "gb": "আর খরচ কত",
+          "ge": "and your expenses",
+          "n": ""
+        },
+        {
+          "t": "Schreib die",
+          "b": [
+            12,
+            13
+          ],
+          "e": [
+            15,
+            16,
+            17
+          ],
+          "l": "Schreib die",
+          "gb": "লিখে ফেলো",
+          "ge": "Write down the",
+          "n": ""
+        },
+        {
+          "t": "regelmäßigen Kosten",
+          "b": [
+            10,
+            11
+          ],
+          "e": [
+            18,
+            19
+          ],
+          "l": "regelmäßigen Kosten",
+          "gb": "নিয়মিত খরচগুলো",
+          "ge": "regular costs",
+          "n": ""
+        },
+        {
+          "t": "auf.",
+          "b": [],
+          "e": [],
+          "l": "auf",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "ঠিক",
+        "আছে।",
+        "ভাড়া,",
+        "ইন্টারনেট",
+        "আর",
+        "বীমা",
+        "প্রতি",
+        "মাসে",
+        "একই",
+        "থাকে।"
+      ],
+      "en": [
+        "All",
+        "right.",
+        "Rent,",
+        "internet",
+        "and",
+        "insurance",
+        "stay",
+        "the",
+        "same",
+        "every",
+        "month."
+      ],
+      "de": [
+        {
+          "t": "Gut.",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Gut",
+          "gb": "ঠিক আছে",
+          "ge": "All right",
+          "n": ""
+        },
+        {
+          "t": "Miete, Internet",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "Miete Internet",
+          "gb": "ভাড়া ইন্টারনেট",
+          "ge": "Rent internet",
+          "n": ""
+        },
+        {
+          "t": "und Versicherung",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "und Versicherung",
+          "gb": "আর বীমা",
+          "ge": "and insurance",
+          "n": ""
+        },
+        {
+          "t": "bleiben jeden Monat",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            6,
+            7,
+            8
+          ],
+          "l": "bleiben jeden Monat",
+          "gb": "প্রতি মাসে",
+          "ge": "stay the same",
+          "n": ""
+        },
+        {
+          "t": "gleich.",
+          "b": [
+            8,
+            9
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "gleich",
+          "gb": "একই থাকে",
+          "ge": "every month",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "ওগুলোকে",
+        "ফিক্সড",
+        "কস্ট",
+        "বলে।",
+        "বাকি",
+        "টাকা",
+        "থেকেই",
+        "খাবার,",
+        "ঘোরাফেরা",
+        "আর",
+        "শখের",
+        "টাকা",
+        "আসে।",
+        "তাই",
+        "যে",
+        "টাকা",
+        "থাকে,",
+        "তার",
+        "একটা",
+        "অংশ",
+        "আগেই",
+        "সরিয়ে",
+        "রাখা",
+        "ভালো।"
+      ],
+      "en": [
+        "Those",
+        "are",
+        "called",
+        "fixed",
+        "costs.",
+        "Food,",
+        "transport",
+        "and",
+        "hobbies",
+        "come",
+        "out",
+        "of",
+        "what",
+        "is",
+        "left.",
+        "So",
+        "it",
+        "is",
+        "good",
+        "to",
+        "put",
+        "part",
+        "of",
+        "what",
+        "remains",
+        "aside",
+        "beforehand."
+      ],
+      "de": [
+        {
+          "t": "Das nennt man",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "Das nennt man",
+          "gb": "ওগুলোকে",
+          "ge": "Those are called",
+          "n": ""
+        },
+        {
+          "t": "Fixkosten.",
+          "b": [
+            1,
+            2,
+            3
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "Fixkosten",
+          "gb": "ফিক্সড কস্ট বলে",
+          "ge": "fixed costs",
+          "n": ""
+        },
+        {
+          "t": "Vom Rest",
+          "b": [
+            4,
+            5,
+            6
+          ],
+          "e": [
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "l": "Vom Rest",
+          "gb": "বাকি টাকা থেকেই",
+          "ge": "out of what is left",
+          "n": ""
+        },
+        {
+          "t": "bezahlst du",
+          "b": [
+            12
+          ],
+          "e": [
+            9
+          ],
+          "l": "bezahlst du",
+          "gb": "আসে",
+          "ge": "come",
+          "n": ""
+        },
+        {
+          "t": "Essen,",
+          "b": [
+            7
+          ],
+          "e": [
+            5
+          ],
+          "l": "Essen",
+          "gb": "খাবার",
+          "ge": "Food",
+          "n": ""
+        },
+        {
+          "t": "Fahrten",
+          "b": [
+            8
+          ],
+          "e": [
+            6
+          ],
+          "l": "Fahrten",
+          "gb": "ঘোরাফেরা",
+          "ge": "transport",
+          "n": ""
+        },
+        {
+          "t": "und Hobbys.",
+          "b": [
+            9,
+            10,
+            11
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "und Hobbys",
+          "gb": "আর শখের টাকা",
+          "ge": "and hobbies",
+          "n": ""
+        },
+        {
+          "t": "Deshalb",
+          "b": [
+            13
+          ],
+          "e": [
+            15
+          ],
+          "l": "Deshalb",
+          "gb": "তাই",
+          "ge": "So",
+          "n": ""
+        },
+        {
+          "t": "ist es gut,",
+          "b": [
+            23
+          ],
+          "e": [
+            16,
+            17,
+            18
+          ],
+          "l": "ist es gut",
+          "gb": "ভালো",
+          "ge": "it is good",
+          "n": ""
+        },
+        {
+          "t": "einen Teil",
+          "b": [
+            18,
+            19
+          ],
+          "e": [
+            19,
+            20,
+            21
+          ],
+          "l": "einen Teil",
+          "gb": "একটা অংশ",
+          "ge": "to put part",
+          "n": ""
+        },
+        {
+          "t": "vorher zur Seite zu legen.",
+          "b": [
+            20,
+            21,
+            22
+          ],
+          "e": [
+            25,
+            26
+          ],
+          "l": "vorher zur Seite zu legen",
+          "gb": "আগেই সরিয়ে রাখা",
+          "ge": "aside beforehand",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "কিন্তু",
+        "আমি",
+        "তো",
+        "বেশি",
+        "আয়",
+        "করি",
+        "না।",
+        "তবু",
+        "কি",
+        "সঞ্চয়",
+        "করা",
+        "সম্ভব?"
+      ],
+      "en": [
+        "But",
+        "I",
+        "do",
+        "not",
+        "earn",
+        "much.",
+        "Is",
+        "saving",
+        "possible",
+        "all",
+        "the",
+        "same?"
+      ],
+      "de": [
+        {
+          "t": "Aber ich",
+          "b": [
+            0,
+            1,
+            2
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Aber ich",
+          "gb": "কিন্তু আমি তো",
+          "ge": "But I",
+          "n": ""
+        },
+        {
+          "t": "verdiene nicht viel.",
+          "b": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "e": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "l": "verdiene nicht viel",
+          "gb": "বেশি আয় করি না",
+          "ge": "do not earn much",
+          "n": ""
+        },
+        {
+          "t": "Ist Sparen",
+          "b": [
+            9,
+            10
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "Ist Sparen",
+          "gb": "সঞ্চয় করা",
+          "ge": "Is saving",
+          "n": ""
+        },
+        {
+          "t": "trotzdem möglich?",
+          "b": [
+            7,
+            8,
+            11
+          ],
+          "e": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "l": "trotzdem möglich",
+          "gb": "তবু কি সম্ভব",
+          "ge": "possible all the same",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "অবশ্যই।",
+        "ছোট",
+        "ছোট",
+        "অঙ্কেও",
+        "চলে।",
+        "ব্যাংকে",
+        "একটা",
+        "স্থায়ী",
+        "নির্দেশ",
+        "দাও,",
+        "তাহলে",
+        "প্রতি",
+        "মাসে",
+        "নিজে",
+        "থেকেই",
+        "কিছু",
+        "টাকা",
+        "আলাদা",
+        "অ্যাকাউন্টে",
+        "চলে",
+        "যাবে।",
+        "এভাবে",
+        "একটা",
+        "জরুরি",
+        "সঞ্চয়",
+        "জমে।"
+      ],
+      "en": [
+        "Of",
+        "course.",
+        "Small",
+        "amounts",
+        "work",
+        "too.",
+        "Set",
+        "up",
+        "a",
+        "standing",
+        "order",
+        "at",
+        "the",
+        "bank,",
+        "then",
+        "some",
+        "money",
+        "will",
+        "go",
+        "to",
+        "a",
+        "separate",
+        "account",
+        "by",
+        "itself",
+        "every",
+        "month.",
+        "That",
+        "way",
+        "an",
+        "emergency",
+        "reserve",
+        "builds",
+        "up."
+      ],
+      "de": [
+        {
+          "t": "Natürlich.",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Natürlich",
+          "gb": "অবশ্যই",
+          "ge": "Of course",
+          "n": ""
+        },
+        {
+          "t": "Auch kleine Beträge",
+          "b": [
+            1,
+            2,
+            3
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "Auch kleine Beträge",
+          "gb": "ছোট ছোট অঙ্কেও",
+          "ge": "Small amounts",
+          "n": ""
+        },
+        {
+          "t": "helfen.",
+          "b": [
+            4
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "helfen",
+          "gb": "চলে",
+          "ge": "work too",
+          "n": ""
+        },
+        {
+          "t": "Richte bei der Bank",
+          "b": [
+            5
+          ],
+          "e": [
+            6,
+            7,
+            11,
+            12,
+            13
+          ],
+          "l": "Richte bei der Bank",
+          "gb": "ব্যাংকে",
+          "ge": "Set up at the bank",
+          "n": ""
+        },
+        {
+          "t": "einen Dauerauftrag ein,",
+          "b": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "e": [
+            8,
+            9,
+            10
+          ],
+          "l": "Dauerauftrag",
+          "gb": "একটা স্থায়ী নির্দেশ দাও",
+          "ge": "a standing order",
+          "n": ""
+        },
+        {
+          "t": "dann geht",
+          "b": [
+            10
+          ],
+          "e": [
+            14
+          ],
+          "l": "dann geht",
+          "gb": "তাহলে",
+          "ge": "then",
+          "n": ""
+        },
+        {
+          "t": "jeden Monat",
+          "b": [
+            11,
+            12
+          ],
+          "e": [
+            25,
+            26
+          ],
+          "l": "jeden Monat",
+          "gb": "প্রতি মাসে",
+          "ge": "every month",
+          "n": ""
+        },
+        {
+          "t": "automatisch Geld",
+          "b": [
+            13,
+            14,
+            15,
+            16
+          ],
+          "e": [
+            15,
+            16,
+            17,
+            18
+          ],
+          "l": "automatisch Geld",
+          "gb": "নিজে থেকেই কিছু টাকা",
+          "ge": "some money will go",
+          "n": ""
+        },
+        {
+          "t": "auf ein anderes Konto.",
+          "b": [
+            17,
+            18
+          ],
+          "e": [
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "l": "auf ein anderes Konto",
+          "gb": "আলাদা অ্যাকাউন্টে",
+          "ge": "to a separate account by itself",
+          "n": ""
+        },
+        {
+          "t": "So entsteht",
+          "b": [
+            21
+          ],
+          "e": [
+            27,
+            28
+          ],
+          "l": "So entsteht",
+          "gb": "এভাবে",
+          "ge": "That way",
+          "n": ""
+        },
+        {
+          "t": "eine Rücklage.",
+          "b": [
+            23,
+            24,
+            25
+          ],
+          "e": [
+            29,
+            30,
+            31,
+            32,
+            33
+          ],
+          "l": "Rücklage",
+          "gb": "জরুরি সঞ্চয় জমে",
+          "ge": "an emergency reserve builds up",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "দেশে",
+        "আত্মীয়দের",
+        "টাকা",
+        "পাঠাই।",
+        "সেটাও",
+        "কি",
+        "লিখে",
+        "রাখব?"
+      ],
+      "en": [
+        "I",
+        "send",
+        "money",
+        "to",
+        "relatives",
+        "at",
+        "home.",
+        "Should",
+        "I",
+        "write",
+        "that",
+        "down",
+        "too?"
+      ],
+      "de": [
+        {
+          "t": "Ich überweise",
+          "b": [
+            0,
+            4
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Ich überweise",
+          "gb": "আমি পাঠাই",
+          "ge": "I send",
+          "n": ""
+        },
+        {
+          "t": "Verwandten",
+          "b": [
+            2
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "Verwandten",
+          "gb": "আত্মীয়দের",
+          "ge": "to relatives",
+          "n": ""
+        },
+        {
+          "t": "in der Heimat",
+          "b": [
+            1
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "in der Heimat",
+          "gb": "দেশে",
+          "ge": "at home",
+          "n": ""
+        },
+        {
+          "t": "Geld.",
+          "b": [
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "Überweisung",
+          "gb": "টাকা",
+          "ge": "money",
+          "n": ""
+        },
+        {
+          "t": "Soll ich das auch",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "Soll ich das auch",
+          "gb": "সেটাও কি",
+          "ge": "Should I",
+          "n": ""
+        },
+        {
+          "t": "aufschreiben?",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "l": "aufschreiben",
+          "gb": "লিখে রাখব",
+          "ge": "write that down too",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "হ্যাঁ,",
+        "অবশ্যই।",
+        "ওটাও",
+        "একটা",
+        "বড়",
+        "খরচ,",
+        "তাই",
+        "বাজেটে",
+        "থাকা",
+        "দরকার।",
+        "আর",
+        "ফি",
+        "ও",
+        "বিনিময়",
+        "হার",
+        "তুলনা",
+        "করে",
+        "দেখো,",
+        "কারণ",
+        "সেবাগুলোতে",
+        "অনেক",
+        "পার্থক্য",
+        "থাকতে",
+        "পারে।"
+      ],
+      "en": [
+        "Yes,",
+        "of",
+        "course.",
+        "That",
+        "is",
+        "also",
+        "a",
+        "big",
+        "expense,",
+        "so",
+        "it",
+        "needs",
+        "to",
+        "be",
+        "in",
+        "the",
+        "budget.",
+        "And",
+        "compare",
+        "fees",
+        "and",
+        "exchange",
+        "rates,",
+        "because",
+        "services",
+        "can",
+        "differ",
+        "a",
+        "lot."
+      ],
+      "de": [
+        {
+          "t": "Ja, unbedingt.",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "Ja unbedingt",
+          "gb": "হ্যাঁ অবশ্যই",
+          "ge": "Yes of course",
+          "n": ""
+        },
+        {
+          "t": "Das ist auch",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            3,
+            4,
+            5
+          ],
+          "l": "Das ist auch",
+          "gb": "ওটাও একটা",
+          "ge": "That is also",
+          "n": ""
+        },
+        {
+          "t": "eine große Ausgabe,",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            6,
+            7,
+            8
+          ],
+          "l": "eine große Ausgabe",
+          "gb": "বড় খরচ",
+          "ge": "a big expense",
+          "n": ""
+        },
+        {
+          "t": "also gehört es",
+          "b": [
+            6,
+            7,
+            8
+          ],
+          "e": [
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "l": "also gehört es",
+          "gb": "তাই বাজেটে থাকা",
+          "ge": "so it needs to be",
+          "n": ""
+        },
+        {
+          "t": "ins Budget.",
+          "b": [
+            9
+          ],
+          "e": [
+            14,
+            15,
+            16
+          ],
+          "l": "ins Budget",
+          "gb": "দরকার",
+          "ge": "in the budget",
+          "n": ""
+        },
+        {
+          "t": "Vergleiche außerdem",
+          "b": [
+            10,
+            15,
+            16,
+            17
+          ],
+          "e": [
+            17,
+            18
+          ],
+          "l": "Vergleiche außerdem",
+          "gb": "আর তুলনা করে দেখো",
+          "ge": "And compare",
+          "n": ""
+        },
+        {
+          "t": "Gebühren und Wechselkurse,",
+          "b": [
+            11,
+            12,
+            13,
+            14
+          ],
+          "e": [
+            19,
+            20,
+            21,
+            22
+          ],
+          "l": "Gebühren und Wechselkurse",
+          "gb": "ফি ও বিনিময় হার",
+          "ge": "fees and exchange rates",
+          "n": ""
+        },
+        {
+          "t": "denn die Anbieter",
+          "b": [
+            18,
+            19
+          ],
+          "e": [
+            23,
+            24
+          ],
+          "l": "denn die Anbieter",
+          "gb": "কারণ সেবাগুলোতে",
+          "ge": "because services",
+          "n": ""
+        },
+        {
+          "t": "unterscheiden sich stark.",
+          "b": [
+            20,
+            21,
+            22,
+            23
+          ],
+          "e": [
+            25,
+            26,
+            27,
+            28
+          ],
+          "l": "unterscheiden sich stark",
+          "gb": "অনেক পার্থক্য থাকতে পারে",
+          "ge": "can differ a lot",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "Mein Monatsbudget (Beispiel)",
+      "head": [
+        "Bereich",
+        "Beispiel"
+      ],
+      "rows": [
+        [
+          "Einnahmen",
+          "Gehalt, Kindergeld, Nebenjob"
+        ],
+        [
+          "Fixkosten",
+          "Miete, Strom, Internet, Versicherung, Handyvertrag"
+        ],
+        [
+          "Variable Ausgaben",
+          "Essen, Kleidung, Freizeit, Fahrkarten"
+        ],
+        [
+          "Sparen",
+          "Rücklage für Notfälle (z. B. drei Monatsausgaben als Ziel)"
+        ],
+        [
+          "Geld in die Heimat",
+          "Überweisungen an die Familie, Gebühren vergleichen"
+        ]
+      ],
+      "note": "এখানকার ধারণা সাধারণ নির্দেশনা মাত্র। আপনার নিজের পরিস্থিতি অনুযায়ী পরিকল্পনা করুন; ঋণ বা বিনিয়োগ নিয়ে সিদ্ধান্তের আগে নির্ভরযোগ্য পরামর্শদাতা (যেমন Verbraucherzentrale) দেখুন।"
+    },
+    {
+      "type": "table",
+      "title": "obwohl, trotzdem, deshalb",
+      "head": [
+        "Wort",
+        "Funktion",
+        "Beispiel"
+      ],
+      "rows": [
+        [
+          "obwohl",
+          "Nebensatz (Gegensatz), Verb am Ende",
+          "Ich kaufe wenig, obwohl mein Geld knapp ist."
+        ],
+        [
+          "trotzdem",
+          "Hauptsatz, Verb direkt danach",
+          "Ich verdiene wenig. Trotzdem spare ich."
+        ],
+        [
+          "deshalb",
+          "Hauptsatz, Folge",
+          "Die Miete ist hoch. Deshalb spare ich beim Essen."
+        ]
+      ],
+      "note": "obwohl → Verb am Ende; trotzdem / deshalb → Verb an Position 2। বাক্য শুরুতে বসলে ক্রিয়া এরপর আসে।"
+    },
+    {
+      "type": "table",
+      "title": "Bankwörter",
+      "head": [
+        "Wort",
+        "Bedeutung"
+      ],
+      "rows": [
+        [
+          "das Konto",
+          "অ্যাকাউন্ট"
+        ],
+        [
+          "die Überweisung",
+          "ট্রান্সফার (an + Akk.)"
+        ],
+        [
+          "der Dauerauftrag",
+          "regelmäßig automatisch gleicher Betrag"
+        ],
+        [
+          "die Lastschrift",
+          "আপনার অনুমতিতে অন্য পক্ষ টাকা তোলে"
+        ],
+        [
+          "die Gebühr",
+          "ফি"
+        ],
+        [
+          "der Kontoauszug",
+          "অ্যাকাউন্ট স্টেটমেন্ট"
+        ]
+      ],
+      "note": "Dauerauftrag = আপনি পাঠান; Lastschrift = অন্য পক্ষ তোলে।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "das Budget",
+      "options": [
+        "বাজেট",
+        "স্থায়ী ব্যাংক নির্দেশ",
+        "আয় করা",
+        "ধার নেওয়া/দেওয়া"
+      ],
+      "answer": 0,
+      "why": "das Budget = বাজেট।",
+      "word": "budget"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "die Fixkosten",
+      "options": [
+        "বাজেট",
+        "স্থায়ী ব্যাংক নির্দেশ",
+        "খরচ করা",
+        "নির্দিষ্ট মাসিক খরচ"
+      ],
+      "answer": 3,
+      "why": "die Fixkosten = নির্দিষ্ট মাসিক খরচ।",
+      "word": "fixkosten"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "die Rücklage",
+      "options": [
+        "ব্যয়",
+        "সঞ্চয় করা",
+        "ঋণ",
+        "জরুরি সঞ্চয়"
+      ],
+      "answer": 3,
+      "why": "die Rücklage = জরুরি সঞ্চয়।",
+      "word": "ruecklage"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Überweisung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Überweisung। বহুবচন: die Überweisungen।",
+      "word": "ueberweisung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক শব্দ বেছে নিন",
+      "sub": "Ich spare, ___ ich wenig verdiene.",
+      "options": [
+        "obwohl",
+        "deshalb",
+        "trotzdem",
+        "weil"
+      ],
+      "answer": 0,
+      "why": "obwohl + Verb am Ende।",
+      "word": "sparen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক শব্দ বেছে নিন",
+      "sub": "Die Miete ist hoch. ___ gebe ich wenig aus.",
+      "options": [
+        "Deshalb",
+        "Obwohl",
+        "Dass",
+        "Ob"
+      ],
+      "answer": 0,
+      "why": "deshalb = ফলাফল।",
+      "word": "ausgeben"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Dauerauftrag“ কী?",
+      "options": [
+        "নিয়মিত স্বয়ংক্রিয় ট্রান্সফার",
+        "ঋণ",
+        "কর",
+        "ক্রেডিট কার্ড"
+      ],
+      "answer": 0,
+      "why": "regelmäßig, gleicher Betrag।",
+      "word": "dauerauftrag"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„verdienen“ মানে কী?",
+      "options": [
+        "আয় করা",
+        "খরচ করা",
+        "ধার নেওয়া",
+        "হারানো"
+      ],
+      "answer": 0,
+      "why": "verdienen।",
+      "word": "verdienen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Welcher Satz ist richtig?",
+      "options": [
+        "Ich verdiene wenig. Trotzdem spare ich.",
+        "Ich verdiene wenig. Trotzdem ich spare.",
+        "Ich verdiene wenig. Spare trotzdem ich.",
+        "Ich verdiene wenig, trotzdem ich spare."
+      ],
+      "answer": 0,
+      "why": "trotzdem + Verb।",
+      "word": "schulden"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „আমি সঞ্চয় করি, যদিও আমার আয় কম।“",
+      "tiles": [
+        "wenig verdiene.",
+        "obwohl",
+        "Ich spare,",
+        "ich"
+      ],
+      "answer": [
+        "Ich spare,",
+        "obwohl",
+        "ich",
+        "wenig verdiene."
+      ],
+      "why": "obwohl → Nebensatz।",
+      "word": "sparen"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

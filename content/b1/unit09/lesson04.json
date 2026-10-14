@@ -1,0 +1,1545 @@
+{
+  "level": "B1",
+  "unit": 9,
+  "minutes": 18,
+  "lesson": 4,
+  "id": "b1-u09-l04",
+  "title": {
+    "de": "Nachhaltig konsumieren",
+    "bn": "টেকসই ভোগ: কম কিনি, ভাবি বেশি",
+    "en": "Sustainable consumption"
+  },
+  "hook": {
+    "de": "Weniger ist manchmal mehr.",
+    "who": "Sprichwort",
+    "bn": "কখনো কম মানেই বেশি।",
+    "en": "Less is sometimes more."
+  },
+  "goals": [
+    "Second Hand, Reparieren, Teilen, Leihen",
+    "Pfand, Mülltrennung, Verpackung",
+    "Argumentieren: einerseits … andererseits",
+    "Passiv Präsens und Perfekt im Alltag"
+  ],
+  "words": [
+    {
+      "id": "nachhaltig",
+      "de": "nachhaltig",
+      "pos": "বিশেষণ",
+      "bn": "টেকসই",
+      "en": "sustainable"
+    },
+    {
+      "id": "second_hand_laden",
+      "de": "Second-Hand-Laden",
+      "art": "der",
+      "pl": "die Second-Hand-Läden",
+      "pos": "বিশেষ্য",
+      "bn": "ব্যবহৃত পণ্যের দোকান",
+      "en": "second-hand shop"
+    },
+    {
+      "id": "reparieren",
+      "de": "reparieren",
+      "pos": "ক্রিয়া · hat repariert",
+      "bn": "মেরামত করা",
+      "en": "to repair"
+    },
+    {
+      "id": "pfand",
+      "de": "Pfand",
+      "art": "das",
+      "pos": "বিশেষ্য",
+      "bn": "বোতল-জামানত",
+      "en": "deposit"
+    },
+    {
+      "id": "verpackung",
+      "de": "Verpackung",
+      "art": "die",
+      "pl": "die Verpackungen",
+      "pos": "বিশেষ্য",
+      "bn": "মোড়ক",
+      "en": "packaging"
+    },
+    {
+      "id": "mehrweg",
+      "de": "Mehrweg",
+      "art": "das",
+      "pos": "বিশেষ্য",
+      "bn": "পুনঃব্যবহারযোগ্য",
+      "en": "reusable (returnable)"
+    },
+    {
+      "id": "abfall",
+      "de": "Abfall",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "আবর্জনা",
+      "en": "waste"
+    },
+    {
+      "id": "tauschen",
+      "de": "tauschen",
+      "pos": "ক্রিয়া · hat getauscht",
+      "bn": "বিনিময় করা",
+      "en": "to swap"
+    },
+    {
+      "id": "teilen",
+      "de": "teilen",
+      "pos": "ক্রিয়া · hat geteilt",
+      "bn": "ভাগ করা",
+      "en": "to share"
+    },
+    {
+      "id": "flohmarkt",
+      "de": "Flohmarkt",
+      "art": "der",
+      "pl": "die Flohmärkte",
+      "pos": "বিশেষ্য",
+      "bn": "ফ্লি মার্কেট",
+      "en": "flea market"
+    },
+    {
+      "id": "verschwendung",
+      "de": "Verschwendung",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "অপচয়",
+      "en": "waste, squandering"
+    },
+    {
+      "id": "regional",
+      "de": "regional",
+      "pos": "বিশেষণ",
+      "bn": "স্থানীয় (এলাকার)",
+      "en": "regional"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Lena",
+      "bn": [
+        "সাহেব,",
+        "আমি",
+        "নতুন",
+        "শীতের",
+        "কোট",
+        "কিনছি",
+        "না।",
+        "আমি",
+        "সেকেন্ড-হ্যান্ড",
+        "দোকানে",
+        "গিয়েছিলাম।",
+        "সেখানে",
+        "ভালো",
+        "কোট",
+        "কম",
+        "দামে",
+        "পাওয়া",
+        "যায়।"
+      ],
+      "en": [
+        "Saheb,",
+        "I",
+        "am",
+        "not",
+        "buying",
+        "a",
+        "new",
+        "winter",
+        "coat.",
+        "I",
+        "went",
+        "to",
+        "the",
+        "second-hand",
+        "shop.",
+        "You",
+        "find",
+        "good",
+        "coats",
+        "there",
+        "cheaply."
+      ],
+      "de": [
+        {
+          "t": "Saheb,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Saheb",
+          "gb": "সাহেব",
+          "ge": "Saheb",
+          "n": ""
+        },
+        {
+          "t": "ich kaufe keinen",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "l": "ich kaufe keinen",
+          "gb": "আমি নতুন",
+          "ge": "I am not buying",
+          "n": ""
+        },
+        {
+          "t": "neuen Wintermantel.",
+          "b": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "e": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "l": "neuen Wintermantel",
+          "gb": "শীতের কোট কিনছি না",
+          "ge": "a new winter coat",
+          "n": ""
+        },
+        {
+          "t": "Ich war im Second-Hand-Laden.",
+          "b": [
+            7,
+            8,
+            9,
+            10
+          ],
+          "e": [
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "l": "Ich war im Second-Hand-Laden",
+          "gb": "আমি সেকেন্ড-হ্যান্ড দোকানে গিয়েছিলাম",
+          "ge": "I went to the second-hand shop",
+          "n": ""
+        },
+        {
+          "t": "Dort findet man",
+          "b": [
+            11,
+            16,
+            17
+          ],
+          "e": [
+            15,
+            16
+          ],
+          "l": "Dort findet man",
+          "gb": "সেখানে পাওয়া যায়",
+          "ge": "You find",
+          "n": ""
+        },
+        {
+          "t": "gute Mäntel",
+          "b": [
+            12,
+            13
+          ],
+          "e": [
+            17,
+            18,
+            19
+          ],
+          "l": "gute Mäntel",
+          "gb": "ভালো কোট",
+          "ge": "good coats there",
+          "n": ""
+        },
+        {
+          "t": "für wenig Geld.",
+          "b": [
+            14,
+            15
+          ],
+          "e": [
+            20
+          ],
+          "l": "für wenig Geld",
+          "gb": "কম দামে",
+          "ge": "cheaply",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "এতে",
+        "দ্বিধায়",
+        "থাকি:",
+        "একদিকে",
+        "টাকা",
+        "বাঁচে,",
+        "অন্যদিকে",
+        "ব্যবহৃত",
+        "জিনিসের",
+        "মান",
+        "নিয়ে",
+        "আমার",
+        "ভয়",
+        "লাগে।"
+      ],
+      "en": [
+        "I",
+        "am",
+        "torn",
+        "about",
+        "it:",
+        "on",
+        "the",
+        "one",
+        "hand",
+        "it",
+        "saves",
+        "money,",
+        "on",
+        "the",
+        "other",
+        "I",
+        "worry",
+        "about",
+        "the",
+        "quality",
+        "of",
+        "used",
+        "things."
+      ],
+      "de": [
+        {
+          "t": "Ich bin da unsicher:",
+          "b": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "e": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "l": "Ich bin da unsicher",
+          "gb": "আমি এতে দ্বিধায় থাকি",
+          "ge": "I am torn about it",
+          "n": ""
+        },
+        {
+          "t": "Einerseits",
+          "b": [
+            4
+          ],
+          "e": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "l": "Einerseits",
+          "gb": "একদিকে",
+          "ge": "on the one hand",
+          "n": ""
+        },
+        {
+          "t": "spart man Geld,",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            9,
+            10,
+            11
+          ],
+          "l": "spart man Geld",
+          "gb": "টাকা বাঁচে",
+          "ge": "it saves money",
+          "n": ""
+        },
+        {
+          "t": "andererseits",
+          "b": [
+            7
+          ],
+          "e": [
+            12,
+            13,
+            14
+          ],
+          "l": "andererseits",
+          "gb": "অন্যদিকে",
+          "ge": "on the other",
+          "n": ""
+        },
+        {
+          "t": "mache ich mir Sorgen",
+          "b": [
+            12,
+            13,
+            14
+          ],
+          "e": [
+            15,
+            16
+          ],
+          "l": "mache ich mir Sorgen",
+          "gb": "আমার ভয় লাগে",
+          "ge": "I worry",
+          "n": ""
+        },
+        {
+          "t": "um die Qualität.",
+          "b": [
+            10,
+            11
+          ],
+          "e": [
+            17,
+            18,
+            19
+          ],
+          "l": "um die Qualität",
+          "gb": "মান নিয়ে",
+          "ge": "about the quality",
+          "n": ""
+        },
+        {
+          "t": "gebrauchter Sachen.",
+          "b": [
+            8,
+            9
+          ],
+          "e": [
+            20,
+            21,
+            22
+          ],
+          "l": "gebrauchter Sachen",
+          "gb": "ব্যবহৃত জিনিসের",
+          "ge": "of used things",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "বুঝি।",
+        "তবে",
+        "অনেক",
+        "কিছু",
+        "মেরামত",
+        "করা",
+        "যায়:",
+        "জামা,",
+        "সাইকেল,",
+        "ফোন।",
+        "আর",
+        "বিনিময়",
+        "বা",
+        "ধার",
+        "নেওয়াও",
+        "চলে।",
+        "সবকিছুই",
+        "কিনতে",
+        "হয়",
+        "না।"
+      ],
+      "en": [
+        "I",
+        "understand.",
+        "But",
+        "many",
+        "things",
+        "can",
+        "be",
+        "repaired:",
+        "clothes,",
+        "bikes,",
+        "phones.",
+        "And",
+        "swapping",
+        "or",
+        "borrowing",
+        "also",
+        "works.",
+        "You",
+        "do",
+        "not",
+        "have",
+        "to",
+        "buy",
+        "everything."
+      ],
+      "de": [
+        {
+          "t": "Verstehe ich.",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Verstehe ich",
+          "gb": "বুঝি",
+          "ge": "I understand",
+          "n": ""
+        },
+        {
+          "t": "Aber vieles",
+          "b": [
+            1,
+            2,
+            3
+          ],
+          "e": [
+            2,
+            3,
+            4
+          ],
+          "l": "Aber vieles",
+          "gb": "তবে অনেক কিছু",
+          "ge": "But many things",
+          "n": ""
+        },
+        {
+          "t": "kann man reparieren:",
+          "b": [
+            4,
+            5,
+            6
+          ],
+          "e": [
+            5,
+            6,
+            7
+          ],
+          "l": "reparieren",
+          "gb": "মেরামত করা যায়",
+          "ge": "can be repaired",
+          "n": ""
+        },
+        {
+          "t": "Kleidung, Fahrräder, Handys.",
+          "b": [
+            7,
+            8,
+            9
+          ],
+          "e": [
+            8,
+            9,
+            10
+          ],
+          "l": "Kleidung Fahrräder Handys",
+          "gb": "জামা সাইকেল ফোন",
+          "ge": "clothes bikes phones",
+          "n": ""
+        },
+        {
+          "t": "Und tauschen",
+          "b": [
+            10,
+            11
+          ],
+          "e": [
+            11,
+            12
+          ],
+          "l": "Und tauschen",
+          "gb": "আর বিনিময়",
+          "ge": "And swapping",
+          "n": ""
+        },
+        {
+          "t": "oder leihen",
+          "b": [
+            12,
+            13,
+            14
+          ],
+          "e": [
+            13,
+            14
+          ],
+          "l": "oder leihen",
+          "gb": "বা ধার নেওয়াও",
+          "ge": "or borrowing",
+          "n": ""
+        },
+        {
+          "t": "geht auch.",
+          "b": [
+            15
+          ],
+          "e": [
+            15,
+            16
+          ],
+          "l": "geht auch",
+          "gb": "চলে",
+          "ge": "also works",
+          "n": ""
+        },
+        {
+          "t": "Man muss nicht alles kaufen.",
+          "b": [
+            16,
+            17,
+            18,
+            19
+          ],
+          "e": [
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "l": "Man muss nicht alles kaufen",
+          "gb": "সবকিছুই কিনতে হয় না",
+          "ge": "You do not have to buy everything",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "বোতলের",
+        "জামানতও",
+        "এখানে",
+        "আমাকে",
+        "অবাক",
+        "করেছে।",
+        "আমি",
+        "প্রথমে",
+        "ভাবিনি",
+        "যে",
+        "টাকা",
+        "ফেরত",
+        "পাওয়া",
+        "যায়।"
+      ],
+      "en": [
+        "The",
+        "bottle",
+        "deposit",
+        "also",
+        "surprised",
+        "me",
+        "here.",
+        "At",
+        "first",
+        "I",
+        "did",
+        "not",
+        "think",
+        "the",
+        "money",
+        "could",
+        "be",
+        "returned."
+      ],
+      "de": [
+        {
+          "t": "Das Flaschenpfand",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "Das Flaschenpfand",
+          "gb": "বোতলের জামানতও",
+          "ge": "The bottle deposit",
+          "n": ""
+        },
+        {
+          "t": "hat mich",
+          "b": [
+            3
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "hat mich",
+          "gb": "আমাকে",
+          "ge": "also surprised",
+          "n": ""
+        },
+        {
+          "t": "hier auch überrascht.",
+          "b": [
+            2,
+            4,
+            5
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "hier auch überrascht",
+          "gb": "এখানে অবাক করেছে",
+          "ge": "me here",
+          "n": ""
+        },
+        {
+          "t": "Ich dachte zuerst nicht,",
+          "b": [
+            6,
+            7,
+            8
+          ],
+          "e": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "l": "Ich dachte zuerst nicht",
+          "gb": "আমি প্রথমে ভাবিনি",
+          "ge": "At first I did not think",
+          "n": ""
+        },
+        {
+          "t": "dass man das Geld",
+          "b": [
+            9,
+            10
+          ],
+          "e": [
+            13,
+            14
+          ],
+          "l": "dass man das Geld",
+          "gb": "যে টাকা",
+          "ge": "the money",
+          "n": ""
+        },
+        {
+          "t": "zurückbekommt.",
+          "b": [
+            11,
+            12,
+            13
+          ],
+          "e": [
+            15,
+            16,
+            17
+          ],
+          "l": "Pfand",
+          "gb": "ফেরত পাওয়া যায়",
+          "ge": "could be returned",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "হ্যাঁ।",
+        "অনেক",
+        "পানীয়ের",
+        "বোতল",
+        "জমা",
+        "দিলে",
+        "টাকা",
+        "ফেরত",
+        "পাওয়া",
+        "যায়,",
+        "আর",
+        "বোতল",
+        "আবার",
+        "ব্যবহার",
+        "বা",
+        "রিসাইকেল",
+        "করা",
+        "হয়।",
+        "দোকানে",
+        "সাধারণত",
+        "যন্ত্র",
+        "থাকে।"
+      ],
+      "en": [
+        "Yes.",
+        "For",
+        "many",
+        "drink",
+        "bottles",
+        "you",
+        "get",
+        "money",
+        "back",
+        "when",
+        "you",
+        "return",
+        "them,",
+        "and",
+        "the",
+        "bottles",
+        "are",
+        "reused",
+        "or",
+        "recycled.",
+        "There",
+        "is",
+        "usually",
+        "a",
+        "machine",
+        "in",
+        "shops."
+      ],
+      "de": [
+        {
+          "t": "Ja.",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ja",
+          "gb": "হ্যাঁ",
+          "ge": "Yes",
+          "n": ""
+        },
+        {
+          "t": "Für viele Flaschen",
+          "b": [
+            1,
+            2,
+            3
+          ],
+          "e": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "l": "Für viele Flaschen",
+          "gb": "অনেক পানীয়ের বোতল",
+          "ge": "For many drink bottles",
+          "n": ""
+        },
+        {
+          "t": "bekommt man Pfand",
+          "b": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "e": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "l": "bekommt man Pfand",
+          "gb": "টাকা ফেরত পাওয়া যায়",
+          "ge": "you get money back",
+          "n": ""
+        },
+        {
+          "t": "zurück,",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "l": "zurück",
+          "gb": "জমা দিলে",
+          "ge": "when you return them",
+          "n": ""
+        },
+        {
+          "t": "und die Flaschen",
+          "b": [
+            10,
+            11
+          ],
+          "e": [
+            13,
+            14,
+            15
+          ],
+          "l": "und die Flaschen",
+          "gb": "আর বোতল",
+          "ge": "and the bottles",
+          "n": ""
+        },
+        {
+          "t": "werden wiederverwendet",
+          "b": [
+            12,
+            13
+          ],
+          "e": [
+            16,
+            17
+          ],
+          "l": "werden wiederverwendet",
+          "gb": "আবার ব্যবহার",
+          "ge": "are reused",
+          "n": ""
+        },
+        {
+          "t": "oder recycelt.",
+          "b": [
+            14,
+            15,
+            16,
+            17
+          ],
+          "e": [
+            18,
+            19
+          ],
+          "l": "oder recycelt",
+          "gb": "বা রিসাইকেল করা হয়",
+          "ge": "or recycled",
+          "n": ""
+        },
+        {
+          "t": "In Geschäften",
+          "b": [
+            18
+          ],
+          "e": [
+            25,
+            26
+          ],
+          "l": "In Geschäften",
+          "gb": "দোকানে",
+          "ge": "in shops",
+          "n": ""
+        },
+        {
+          "t": "steht meist",
+          "b": [
+            19
+          ],
+          "e": [
+            20,
+            21,
+            22
+          ],
+          "l": "steht meist",
+          "gb": "সাধারণত",
+          "ge": "There is usually",
+          "n": ""
+        },
+        {
+          "t": "ein Automat.",
+          "b": [
+            20,
+            21
+          ],
+          "e": [
+            23,
+            24
+          ],
+          "l": "ein Automat",
+          "gb": "যন্ত্র থাকে",
+          "ge": "a machine",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "এখন",
+        "কম",
+        "প্যাকেজিংয়ের",
+        "খাবার",
+        "কিনতে",
+        "চেষ্টা",
+        "করি।",
+        "কিন্তু",
+        "সব",
+        "সময়",
+        "তা",
+        "সম্ভব",
+        "হয়",
+        "না।"
+      ],
+      "en": [
+        "I",
+        "now",
+        "try",
+        "to",
+        "buy",
+        "food",
+        "with",
+        "less",
+        "packaging.",
+        "But",
+        "that",
+        "is",
+        "not",
+        "always",
+        "possible."
+      ],
+      "de": [
+        {
+          "t": "Ich versuche jetzt,",
+          "b": [
+            0,
+            1,
+            6,
+            7
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "Ich versuche jetzt",
+          "gb": "আমি এখন চেষ্টা করি",
+          "ge": "I now try",
+          "n": ""
+        },
+        {
+          "t": "Essen mit weniger",
+          "b": [
+            2
+          ],
+          "e": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "l": "Essen mit weniger",
+          "gb": "কম",
+          "ge": "to buy food with less",
+          "n": ""
+        },
+        {
+          "t": "Verpackung zu kaufen.",
+          "b": [
+            3,
+            4,
+            5
+          ],
+          "e": [
+            8
+          ],
+          "l": "Verpackung zu kaufen",
+          "gb": "প্যাকেজিংয়ের খাবার কিনতে",
+          "ge": "packaging",
+          "n": ""
+        },
+        {
+          "t": "Aber das geht",
+          "b": [
+            8
+          ],
+          "e": [
+            9,
+            10,
+            11
+          ],
+          "l": "Aber das geht",
+          "gb": "কিন্তু",
+          "ge": "But that is",
+          "n": ""
+        },
+        {
+          "t": "nicht immer.",
+          "b": [
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "e": [
+            12,
+            13,
+            14
+          ],
+          "l": "nicht immer",
+          "gb": "সব সময় তা সম্ভব হয় না",
+          "ge": "not always possible",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "একা",
+        "কেউ",
+        "সব",
+        "পাল্টাতে",
+        "পারে",
+        "না।",
+        "কিন্তু",
+        "ছোট",
+        "ছোট",
+        "অভ্যাস",
+        "মিলে",
+        "বড়",
+        "পার্থক্য",
+        "হয়।",
+        "আর",
+        "স্থানীয়,",
+        "মৌসুমি",
+        "ফল-সবজি",
+        "কিনলেও",
+        "পরিবেশের",
+        "উপকার",
+        "হয়।"
+      ],
+      "en": [
+        "No",
+        "one",
+        "can",
+        "change",
+        "everything",
+        "alone.",
+        "But",
+        "small",
+        "habits",
+        "together",
+        "make",
+        "a",
+        "big",
+        "difference.",
+        "Buying",
+        "regional,",
+        "seasonal",
+        "fruit",
+        "and",
+        "vegetables",
+        "also",
+        "helps",
+        "the",
+        "environment."
+      ],
+      "de": [
+        {
+          "t": "Allein kann niemand",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1,
+            2,
+            5
+          ],
+          "l": "Allein kann niemand",
+          "gb": "একা কেউ",
+          "ge": "No one can alone",
+          "n": ""
+        },
+        {
+          "t": "alles ändern.",
+          "b": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "alles ändern",
+          "gb": "সব পাল্টাতে পারে না",
+          "ge": "change everything",
+          "n": ""
+        },
+        {
+          "t": "Aber kleine Gewohnheiten",
+          "b": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "e": [
+            6,
+            7,
+            8
+          ],
+          "l": "Aber kleine Gewohnheiten",
+          "gb": "কিন্তু ছোট ছোট অভ্যাস",
+          "ge": "But small habits",
+          "n": ""
+        },
+        {
+          "t": "zusammen",
+          "b": [
+            10
+          ],
+          "e": [
+            9
+          ],
+          "l": "zusammen",
+          "gb": "মিলে",
+          "ge": "together",
+          "n": ""
+        },
+        {
+          "t": "machen einen großen Unterschied.",
+          "b": [
+            11,
+            12,
+            13
+          ],
+          "e": [
+            10,
+            11,
+            12,
+            13
+          ],
+          "l": "machen einen großen Unterschied",
+          "gb": "বড় পার্থক্য হয়",
+          "ge": "make a big difference",
+          "n": ""
+        },
+        {
+          "t": "Auch regionales",
+          "b": [
+            14,
+            15
+          ],
+          "e": [
+            14,
+            15
+          ],
+          "l": "Auch regionales",
+          "gb": "আর স্থানীয়",
+          "ge": "Buying regional",
+          "n": ""
+        },
+        {
+          "t": "und saisonales Obst",
+          "b": [
+            16
+          ],
+          "e": [
+            16,
+            17
+          ],
+          "l": "und saisonales Obst",
+          "gb": "মৌসুমি",
+          "ge": "seasonal fruit",
+          "n": ""
+        },
+        {
+          "t": "und Gemüse",
+          "b": [
+            17
+          ],
+          "e": [
+            18,
+            19
+          ],
+          "l": "und Gemüse",
+          "gb": "ফল-সবজি",
+          "ge": "and vegetables",
+          "n": ""
+        },
+        {
+          "t": "hilft der Umwelt.",
+          "b": [
+            18,
+            19,
+            20,
+            21
+          ],
+          "e": [
+            20,
+            21,
+            22,
+            23
+          ],
+          "l": "hilft der Umwelt",
+          "gb": "কিনলেও পরিবেশের উপকার হয়",
+          "ge": "also helps the environment",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "Nachhaltig im Alltag",
+      "head": [
+        "Idee",
+        "Beispiel"
+      ],
+      "rows": [
+        [
+          "Second Hand",
+          "Kleidung, Möbel, Bücher gebraucht kaufen"
+        ],
+        [
+          "Reparieren",
+          "Reparatur-Café, Schneiderei, Fahrradwerkstatt"
+        ],
+        [
+          "Teilen / Leihen",
+          "Carsharing, Bibliothek, Nachbarschafts-Tausch"
+        ],
+        [
+          "Pfand",
+          "Flaschen zurückgeben, Mehrwegbecher"
+        ],
+        [
+          "Regional / saisonal",
+          "Wochenmarkt, Obst und Gemüse der Saison"
+        ],
+        [
+          "Müll trennen",
+          "Papier, Glas, Gelber Sack/Tonne, Bio, Restmüll"
+        ]
+      ],
+      "note": "Mülltrennung ও Pfandsystem শহরভেদে একটু আলাদা; আপনার এলাকার Abfallkalender দেখুন। কী কোন বিনে যায় তা না জানলে জিজ্ঞাসা করুন।"
+    },
+    {
+      "type": "table",
+      "title": "einerseits … andererseits",
+      "head": [
+        "Funktion",
+        "Beispiel"
+      ],
+      "rows": [
+        [
+          "Zwei Seiten",
+          "Einerseits spart man Geld, andererseits ist die Qualität unsicher."
+        ],
+        [
+          "Pro und Kontra",
+          "Ein Vorteil ist …, ein Nachteil ist …"
+        ],
+        [
+          "Abwägen",
+          "Ich bin unsicher: Das hat Vor- und Nachteile."
+        ],
+        [
+          "Fazit",
+          "Insgesamt finde ich es sinnvoll, weil …"
+        ]
+      ],
+      "note": "einerseits / andererseits বসলে ক্রিয়া Position 2-এ থাকে। যেমন: Einerseits spart man ..."
+    },
+    {
+      "type": "table",
+      "title": "Passiv im Alltag",
+      "head": [
+        "Zeit",
+        "Beispiel"
+      ],
+      "rows": [
+        [
+          "Präsens",
+          "Die Flaschen werden wiederverwendet."
+        ],
+        [
+          "Perfekt",
+          "Der Pfand wurde zurückgezahlt → Der Pfand ist zurückgezahlt worden."
+        ],
+        [
+          "mit Modalverb",
+          "Vieles kann repariert werden."
+        ],
+        [
+          "Ersatzform",
+          "Man kann vieles reparieren."
+        ]
+      ],
+      "note": "Passiv = werden + Partizip II। কে করছে তা গুরুত্বপূর্ণ না হলে Passiv বা man ব্যবহার করুন।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "nachhaltig",
+      "options": [
+        "অপচয়",
+        "ব্যবহৃত পণ্যের দোকান",
+        "টেকসই",
+        "বোতল-জামানত"
+      ],
+      "answer": 2,
+      "why": "nachhaltig = টেকসই।",
+      "word": "nachhaltig"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "das Pfand",
+      "options": [
+        "টেকসই",
+        "মোড়ক",
+        "বোতল-জামানত",
+        "বিনিময় করা"
+      ],
+      "answer": 2,
+      "why": "das Pfand = বোতল-জামানত।",
+      "word": "pfand"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "die Verschwendung",
+      "options": [
+        "পুনঃব্যবহারযোগ্য",
+        "ভাগ করা",
+        "টেকসই",
+        "অপচয়"
+      ],
+      "answer": 3,
+      "why": "die Verschwendung = অপচয়।",
+      "word": "verschwendung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Verpackung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Verpackung। বহুবচন: die Verpackungen।",
+      "word": "verpackung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক শব্দ বেছে নিন",
+      "sub": "Einerseits spart man Geld, ___ ist die Qualität unsicher.",
+      "options": [
+        "andererseits",
+        "trotzdem",
+        "weil",
+        "dass"
+      ],
+      "answer": 0,
+      "why": "einerseits … andererseits।",
+      "word": "regional"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Pfand“ কী?",
+      "options": [
+        "বোতল ফেরত দিলে টাকা ফেরত",
+        "কর",
+        "ঋণ",
+        "বিমা"
+      ],
+      "answer": 0,
+      "why": "Pfand।",
+      "word": "pfand"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Passiv: „Die Flaschen ___ wiederverwendet.“",
+      "options": [
+        "werden",
+        "wird",
+        "sind",
+        "haben"
+      ],
+      "answer": 0,
+      "why": "werden + PP।",
+      "word": "mehrweg"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Welcher Satz ist Passiv?",
+      "options": [
+        "Vieles kann repariert werden.",
+        "Man repariert vieles.",
+        "Ich repariere vieles.",
+        "Sie reparieren viel."
+      ],
+      "answer": 0,
+      "why": "Modalverb + Partizip + werden।",
+      "word": "reparieren"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Flohmarkt“ ist …",
+      "options": [
+        "Markt für gebrauchte Sachen",
+        "Tiermarkt",
+        "Fischmarkt",
+        "Supermarkt"
+      ],
+      "answer": 0,
+      "why": "Flohmarkt।",
+      "word": "flohmarkt"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „একদিকে সস্তা, অন্যদিকে অনিশ্চিত।“",
+      "tiles": [
+        "andererseits",
+        "Einerseits ist es billig,",
+        "ist es unsicher."
+      ],
+      "answer": [
+        "Einerseits ist es billig,",
+        "andererseits",
+        "ist es unsicher."
+      ],
+      "why": "andererseits + V2।",
+      "word": "tauschen"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

@@ -1,0 +1,1576 @@
+{
+  "level": "B1",
+  "unit": 9,
+  "minutes": 18,
+  "lesson": 3,
+  "id": "b1-u09-l03",
+  "title": {
+    "de": "Online-Handel und Verbraucherrechte",
+    "bn": "অনলাইন কেনাকাটা ও ভোক্তার অধিকার",
+    "en": "Online shopping and consumer rights"
+  },
+  "hook": {
+    "de": "Vertrauen ist gut, Kontrolle ist besser.",
+    "who": "Sprichwort",
+    "bn": "বিশ্বাস ভালো, যাচাই আরও ভালো।",
+    "en": "Trust is good, checking is better."
+  },
+  "goals": [
+    "Bestellung, Lieferung, Rücksendung, Widerruf",
+    "Mängel und Reklamation",
+    "Konjunktiv II und wenn-Sätze (irreal / real)",
+    "Beschwerde höflich formulieren"
+  ],
+  "words": [
+    {
+      "id": "bestellung",
+      "de": "Bestellung",
+      "art": "die",
+      "pl": "die Bestellungen",
+      "pos": "বিশেষ্য",
+      "bn": "অর্ডার",
+      "en": "order"
+    },
+    {
+      "id": "lieferung",
+      "de": "Lieferung",
+      "art": "die",
+      "pl": "die Lieferungen",
+      "pos": "বিশেষ্য",
+      "bn": "ডেলিভারি",
+      "en": "delivery"
+    },
+    {
+      "id": "ruecksendung",
+      "de": "Rücksendung",
+      "art": "die",
+      "pl": "die Rücksendungen",
+      "pos": "বিশেষ্য",
+      "bn": "ফেরত পাঠানো",
+      "en": "return (shipment)"
+    },
+    {
+      "id": "widerruf",
+      "de": "Widerruf",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "চুক্তি বাতিলের অধিকার",
+      "en": "right of withdrawal"
+    },
+    {
+      "id": "mangel",
+      "de": "Mangel",
+      "art": "der",
+      "pl": "die Mängel",
+      "pos": "বিশেষ্য",
+      "bn": "ত্রুটি",
+      "en": "defect"
+    },
+    {
+      "id": "reklamieren",
+      "de": "reklamieren",
+      "pos": "ক্রিয়া · hat reklamiert",
+      "bn": "অভিযোগ করা, পণ্য ফেরত চাওয়া",
+      "en": "to complain (about a defect)"
+    },
+    {
+      "id": "rechnung",
+      "de": "Rechnung",
+      "art": "die",
+      "pl": "die Rechnungen",
+      "pos": "বিশেষ্য",
+      "bn": "ইনভয়েস, বিল",
+      "en": "invoice, bill"
+    },
+    {
+      "id": "kaufbeleg",
+      "de": "Kaufbeleg",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "কেনার রসিদ",
+      "en": "proof of purchase"
+    },
+    {
+      "id": "beschaedigt",
+      "de": "beschädigt",
+      "pos": "বিশেষণ",
+      "bn": "ক্ষতিগ্রস্ত",
+      "en": "damaged"
+    },
+    {
+      "id": "erstattung",
+      "de": "Erstattung",
+      "art": "die",
+      "pl": "die Erstattungen",
+      "pos": "বিশেষ্য",
+      "bn": "টাকা ফেরত",
+      "en": "refund"
+    },
+    {
+      "id": "verbraucherzentrale",
+      "de": "Verbraucherzentrale",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "ভোক্তা পরামর্শ কেন্দ্র",
+      "en": "consumer advice centre"
+    },
+    {
+      "id": "umtauschen",
+      "de": "umtauschen",
+      "pos": "ক্রিয়া · hat umgetauscht",
+      "bn": "বদলে নেওয়া",
+      "en": "to exchange"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Saheb",
+      "bn": [
+        "মুনা,",
+        "আমি",
+        "অনলাইনে",
+        "একটা",
+        "জ্যাকেট",
+        "অর্ডার",
+        "করেছিলাম।",
+        "প্যাকেট",
+        "এসেছে,",
+        "কিন্তু",
+        "জ্যাকেটের",
+        "জিপ",
+        "ভাঙা।"
+      ],
+      "en": [
+        "Muna,",
+        "I",
+        "ordered",
+        "a",
+        "jacket",
+        "online.",
+        "The",
+        "package",
+        "has",
+        "arrived",
+        "but",
+        "the",
+        "zip",
+        "is",
+        "broken."
+      ],
+      "de": [
+        {
+          "t": "Muna,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Muna",
+          "gb": "মুনা",
+          "ge": "Muna",
+          "n": ""
+        },
+        {
+          "t": "ich habe online",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "ich habe online",
+          "gb": "আমি অনলাইনে",
+          "ge": "I ordered",
+          "n": ""
+        },
+        {
+          "t": "eine Jacke bestellt.",
+          "b": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "e": [
+            3,
+            4,
+            5
+          ],
+          "l": "eine Jacke bestellt",
+          "gb": "একটা জ্যাকেট অর্ডার করেছিলাম",
+          "ge": "a jacket online",
+          "n": ""
+        },
+        {
+          "t": "Das Paket ist da,",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "l": "Das Paket ist da",
+          "gb": "প্যাকেট এসেছে",
+          "ge": "The package has arrived",
+          "n": ""
+        },
+        {
+          "t": "aber",
+          "b": [
+            9
+          ],
+          "e": [
+            10
+          ],
+          "l": "aber",
+          "gb": "কিন্তু",
+          "ge": "but",
+          "n": ""
+        },
+        {
+          "t": "der Reißverschluss",
+          "b": [
+            11
+          ],
+          "e": [
+            11,
+            12
+          ],
+          "l": "der Reißverschluss",
+          "gb": "জিপ",
+          "ge": "the zip",
+          "n": ""
+        },
+        {
+          "t": "ist kaputt.",
+          "b": [
+            12
+          ],
+          "e": [
+            13,
+            14
+          ],
+          "l": "ist kaputt",
+          "gb": "ভাঙা",
+          "ge": "is broken",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "ইশ!",
+        "ভয়",
+        "পেয়ো",
+        "না।",
+        "তোমার",
+        "রসিদ",
+        "বা",
+        "অর্ডার-নিশ্চয়তা",
+        "আছে?",
+        "আগে",
+        "ছবি",
+        "তুলে",
+        "রাখো।"
+      ],
+      "en": [
+        "Oh",
+        "no!",
+        "Do",
+        "not",
+        "worry.",
+        "Do",
+        "you",
+        "have",
+        "your",
+        "receipt",
+        "or",
+        "order",
+        "confirmation?",
+        "Take",
+        "pictures",
+        "first."
+      ],
+      "de": [
+        {
+          "t": "Oje!",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Oje",
+          "gb": "ইশ",
+          "ge": "Oh no",
+          "n": ""
+        },
+        {
+          "t": "Keine Sorge.",
+          "b": [
+            1,
+            2,
+            3
+          ],
+          "e": [
+            2,
+            3,
+            4
+          ],
+          "l": "Keine Sorge",
+          "gb": "ভয় পেয়ো না",
+          "ge": "Do not worry",
+          "n": ""
+        },
+        {
+          "t": "Hast du",
+          "b": [
+            4
+          ],
+          "e": [
+            5,
+            6,
+            7
+          ],
+          "l": "Hast du",
+          "gb": "তোমার",
+          "ge": "Do you have",
+          "n": ""
+        },
+        {
+          "t": "eine Rechnung",
+          "b": [
+            5
+          ],
+          "e": [
+            8,
+            9
+          ],
+          "l": "eine Rechnung",
+          "gb": "রসিদ",
+          "ge": "your receipt",
+          "n": ""
+        },
+        {
+          "t": "oder eine Bestätigung?",
+          "b": [
+            6,
+            7,
+            8
+          ],
+          "e": [
+            10,
+            11,
+            12
+          ],
+          "l": "oder eine Bestätigung",
+          "gb": "বা অর্ডার-নিশ্চয়তা আছে",
+          "ge": "or order confirmation",
+          "n": ""
+        },
+        {
+          "t": "Mach zuerst",
+          "b": [
+            9
+          ],
+          "e": [
+            13
+          ],
+          "l": "Mach zuerst",
+          "gb": "আগে",
+          "ge": "Take",
+          "n": ""
+        },
+        {
+          "t": "Fotos.",
+          "b": [
+            10,
+            11,
+            12
+          ],
+          "e": [
+            14,
+            15
+          ],
+          "l": "Fotos",
+          "gb": "ছবি তুলে রাখো",
+          "ge": "pictures first",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আছে।",
+        "এখন",
+        "আমি",
+        "কী",
+        "করতে",
+        "পারি?",
+        "আমি",
+        "কি",
+        "জ্যাকেটটা",
+        "ফেরত",
+        "দিতে",
+        "পারি,",
+        "নাকি",
+        "বদলে",
+        "নিতে",
+        "পারি?"
+      ],
+      "en": [
+        "I",
+        "do.",
+        "What",
+        "can",
+        "I",
+        "do",
+        "now?",
+        "Can",
+        "I",
+        "return",
+        "the",
+        "jacket,",
+        "or",
+        "exchange",
+        "it?"
+      ],
+      "de": [
+        {
+          "t": "Habe ich.",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Habe ich",
+          "gb": "আছে",
+          "ge": "I do",
+          "n": ""
+        },
+        {
+          "t": "Was kann ich jetzt tun?",
+          "b": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "e": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "l": "Was kann ich jetzt tun",
+          "gb": "এখন আমি কী করতে পারি",
+          "ge": "What can I do now",
+          "n": ""
+        },
+        {
+          "t": "Kann ich die Jacke",
+          "b": [
+            6,
+            7,
+            8
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "Kann ich die Jacke",
+          "gb": "আমি কি জ্যাকেটটা",
+          "ge": "Can I",
+          "n": ""
+        },
+        {
+          "t": "zurückschicken",
+          "b": [
+            9,
+            10,
+            11
+          ],
+          "e": [
+            9,
+            10,
+            11
+          ],
+          "l": "zurückschicken",
+          "gb": "ফেরত দিতে পারি",
+          "ge": "return the jacket",
+          "n": ""
+        },
+        {
+          "t": "oder umtauschen?",
+          "b": [
+            12,
+            13,
+            14,
+            15
+          ],
+          "e": [
+            12,
+            13,
+            14
+          ],
+          "l": "umtauschen",
+          "gb": "নাকি বদলে নিতে পারি",
+          "ge": "or exchange it",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "ত্রুটি",
+        "থাকলে",
+        "সাধারণত",
+        "তুমি",
+        "অভিযোগ",
+        "করতে",
+        "পারো:",
+        "বদলে",
+        "নেওয়া,",
+        "মেরামত",
+        "বা",
+        "টাকা",
+        "ফেরত।",
+        "দোকানকে",
+        "লিখে",
+        "জানাও",
+        "এবং",
+        "সময়সীমা",
+        "দাও।"
+      ],
+      "en": [
+        "If",
+        "there",
+        "is",
+        "a",
+        "defect,",
+        "you",
+        "can",
+        "usually",
+        "complain:",
+        "exchange,",
+        "repair",
+        "or",
+        "a",
+        "refund.",
+        "Inform",
+        "the",
+        "shop",
+        "in",
+        "writing",
+        "and",
+        "set",
+        "a",
+        "deadline."
+      ],
+      "de": [
+        {
+          "t": "Bei einem Mangel",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "l": "Bei einem Mangel",
+          "gb": "ত্রুটি থাকলে",
+          "ge": "If there is a defect",
+          "n": ""
+        },
+        {
+          "t": "kannst du",
+          "b": [
+            3
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "kannst du",
+          "gb": "তুমি",
+          "ge": "you can",
+          "n": ""
+        },
+        {
+          "t": "in der Regel",
+          "b": [
+            2
+          ],
+          "e": [
+            7
+          ],
+          "l": "in der Regel",
+          "gb": "সাধারণত",
+          "ge": "usually",
+          "n": ""
+        },
+        {
+          "t": "reklamieren:",
+          "b": [
+            4,
+            5,
+            6
+          ],
+          "e": [
+            8
+          ],
+          "l": "reklamieren",
+          "gb": "অভিযোগ করতে পারো",
+          "ge": "complain",
+          "n": ""
+        },
+        {
+          "t": "Umtausch, Reparatur",
+          "b": [
+            7,
+            8,
+            9
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "Umtausch Reparatur",
+          "gb": "বদলে নেওয়া মেরামত",
+          "ge": "exchange repair",
+          "n": ""
+        },
+        {
+          "t": "oder Erstattung.",
+          "b": [
+            10,
+            11,
+            12
+          ],
+          "e": [
+            11,
+            12,
+            13
+          ],
+          "l": "Erstattung",
+          "gb": "বা টাকা ফেরত",
+          "ge": "or a refund",
+          "n": ""
+        },
+        {
+          "t": "Schreib dem Shop",
+          "b": [
+            13,
+            14,
+            15
+          ],
+          "e": [
+            14,
+            15,
+            16
+          ],
+          "l": "Schreib dem Shop",
+          "gb": "দোকানকে লিখে জানাও",
+          "ge": "Inform the shop",
+          "n": ""
+        },
+        {
+          "t": "und setz eine Frist.",
+          "b": [
+            16,
+            17,
+            18
+          ],
+          "e": [
+            17,
+            18,
+            19,
+            20,
+            21,
+            22
+          ],
+          "l": "und setz eine Frist",
+          "gb": "এবং সময়সীমা দাও",
+          "ge": "in writing and set a deadline",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আর",
+        "যদি",
+        "আমি",
+        "জ্যাকেটটা",
+        "শুধু",
+        "পছন্দ",
+        "না",
+        "করি,",
+        "ধরো",
+        "রং",
+        "ভালো",
+        "লাগল",
+        "না?"
+      ],
+      "en": [
+        "And",
+        "if",
+        "I",
+        "simply",
+        "do",
+        "not",
+        "like",
+        "the",
+        "jacket,",
+        "say",
+        "the",
+        "colour?"
+      ],
+      "de": [
+        {
+          "t": "Und wenn ich",
+          "b": [
+            0,
+            1,
+            2
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "Und wenn ich",
+          "gb": "আর যদি আমি",
+          "ge": "And if I",
+          "n": ""
+        },
+        {
+          "t": "die Jacke nur",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            3
+          ],
+          "l": "die Jacke nur",
+          "gb": "জ্যাকেটটা শুধু",
+          "ge": "simply",
+          "n": ""
+        },
+        {
+          "t": "nicht mag,",
+          "b": [
+            5,
+            6,
+            7
+          ],
+          "e": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "l": "nicht mag",
+          "gb": "পছন্দ না করি",
+          "ge": "do not like the jacket",
+          "n": ""
+        },
+        {
+          "t": "zum Beispiel",
+          "b": [
+            8
+          ],
+          "e": [
+            9
+          ],
+          "l": "zum Beispiel",
+          "gb": "ধরো",
+          "ge": "say",
+          "n": ""
+        },
+        {
+          "t": "wegen der Farbe?",
+          "b": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "e": [
+            10,
+            11
+          ],
+          "l": "wegen der Farbe",
+          "gb": "রং ভালো লাগল না",
+          "ge": "the colour",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "অনলাইন",
+        "কেনাকাটায়",
+        "সাধারণত",
+        "একটা",
+        "প্রত্যাহারের",
+        "সুযোগ",
+        "থাকে,",
+        "মোটামুটি",
+        "চৌদ্দ",
+        "দিনের",
+        "মধ্যে।",
+        "কিন্তু",
+        "শর্ত",
+        "বিক্রেতার",
+        "ওপর",
+        "নির্ভর",
+        "করে,",
+        "তাই",
+        "ওয়েবসাইট",
+        "ভালো",
+        "করে",
+        "পড়ো।"
+      ],
+      "en": [
+        "In",
+        "online",
+        "shopping",
+        "there",
+        "is",
+        "usually",
+        "a",
+        "right",
+        "of",
+        "withdrawal,",
+        "roughly",
+        "within",
+        "fourteen",
+        "days.",
+        "But",
+        "conditions",
+        "depend",
+        "on",
+        "the",
+        "seller,",
+        "so",
+        "read",
+        "the",
+        "website",
+        "carefully."
+      ],
+      "de": [
+        {
+          "t": "Beim Online-Kauf",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "Beim Online-Kauf",
+          "gb": "অনলাইন কেনাকাটায়",
+          "ge": "In online shopping",
+          "n": ""
+        },
+        {
+          "t": "gibt es meist",
+          "b": [
+            2
+          ],
+          "e": [
+            3,
+            4,
+            5
+          ],
+          "l": "gibt es meist",
+          "gb": "সাধারণত",
+          "ge": "there is usually",
+          "n": ""
+        },
+        {
+          "t": "ein Widerrufsrecht,",
+          "b": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "e": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "l": "Widerruf",
+          "gb": "একটা প্রত্যাহারের সুযোগ থাকে",
+          "ge": "a right of withdrawal",
+          "n": ""
+        },
+        {
+          "t": "ungefähr",
+          "b": [
+            7
+          ],
+          "e": [
+            10
+          ],
+          "l": "ungefähr",
+          "gb": "মোটামুটি",
+          "ge": "roughly",
+          "n": ""
+        },
+        {
+          "t": "14 Tage.",
+          "b": [
+            8,
+            9,
+            10
+          ],
+          "e": [
+            11,
+            12,
+            13
+          ],
+          "l": "14 Tage",
+          "gb": "চৌদ্দ দিনের মধ্যে",
+          "ge": "within fourteen days",
+          "n": ""
+        },
+        {
+          "t": "Aber die Bedingungen",
+          "b": [
+            11,
+            12
+          ],
+          "e": [
+            14,
+            15
+          ],
+          "l": "Aber die Bedingungen",
+          "gb": "কিন্তু শর্ত",
+          "ge": "But conditions",
+          "n": ""
+        },
+        {
+          "t": "hängen vom Händler ab,",
+          "b": [
+            13,
+            14,
+            15,
+            16
+          ],
+          "e": [
+            16,
+            17,
+            18,
+            19
+          ],
+          "l": "hängen vom Händler ab",
+          "gb": "বিক্রেতার ওপর নির্ভর করে",
+          "ge": "depend on the seller",
+          "n": ""
+        },
+        {
+          "t": "lies also",
+          "b": [
+            17
+          ],
+          "e": [
+            20,
+            21
+          ],
+          "l": "lies also",
+          "gb": "তাই",
+          "ge": "so read",
+          "n": ""
+        },
+        {
+          "t": "die Seite genau.",
+          "b": [
+            18,
+            19,
+            20,
+            21
+          ],
+          "e": [
+            22,
+            23,
+            24
+          ],
+          "l": "die Seite genau",
+          "gb": "ওয়েবসাইট ভালো করে পড়ো",
+          "ge": "the website carefully",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "যদি",
+        "দোকান",
+        "উত্তর",
+        "না",
+        "দেয়,",
+        "তাহলে",
+        "কি",
+        "আমি",
+        "কারো",
+        "কাছে",
+        "সাহায্য",
+        "পেতে",
+        "পারি?"
+      ],
+      "en": [
+        "If",
+        "the",
+        "shop",
+        "does",
+        "not",
+        "answer,",
+        "can",
+        "I",
+        "get",
+        "help",
+        "from",
+        "someone?"
+      ],
+      "de": [
+        {
+          "t": "Wenn der Shop",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "Wenn der Shop",
+          "gb": "যদি দোকান",
+          "ge": "If the shop",
+          "n": ""
+        },
+        {
+          "t": "nicht antwortet,",
+          "b": [
+            2,
+            3,
+            4
+          ],
+          "e": [
+            3,
+            4,
+            5
+          ],
+          "l": "nicht antwortet",
+          "gb": "উত্তর না দেয়",
+          "ge": "does not answer",
+          "n": ""
+        },
+        {
+          "t": "kann ich mir",
+          "b": [
+            7,
+            6
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "kann ich mir",
+          "gb": "আমি কি",
+          "ge": "can I",
+          "n": ""
+        },
+        {
+          "t": "dann Hilfe holen?",
+          "b": [
+            5,
+            10,
+            11,
+            12
+          ],
+          "e": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "l": "dann Hilfe holen",
+          "gb": "তাহলে সাহায্য পেতে পারি",
+          "ge": "get help from someone",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "হ্যাঁ,",
+        "ভোক্তা",
+        "পরামর্শ",
+        "কেন্দ্রে",
+        "যেতে",
+        "পারো।",
+        "অনেক",
+        "শহরে",
+        "এ",
+        "ধরনের",
+        "সংস্থা",
+        "পরামর্শ",
+        "দেয়;",
+        "কিছু",
+        "পরামর্শ",
+        "বিনামূল্যে",
+        "নয়,",
+        "তাই",
+        "আগে",
+        "জেনে",
+        "নাও।"
+      ],
+      "en": [
+        "Yes,",
+        "you",
+        "can",
+        "go",
+        "to",
+        "the",
+        "consumer",
+        "advice",
+        "centre.",
+        "In",
+        "many",
+        "cities",
+        "such",
+        "organisations",
+        "offer",
+        "advice;",
+        "some",
+        "advice",
+        "is",
+        "not",
+        "free,",
+        "so",
+        "find",
+        "out",
+        "first."
+      ],
+      "de": [
+        {
+          "t": "Ja, du kannst",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "Ja du kannst",
+          "gb": "হ্যাঁ",
+          "ge": "Yes you can",
+          "n": ""
+        },
+        {
+          "t": "zur Verbraucherzentrale",
+          "b": [
+            1,
+            2,
+            3
+          ],
+          "e": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "l": "zur Verbraucherzentrale",
+          "gb": "ভোক্তা পরামর্শ কেন্দ্রে",
+          "ge": "go to the consumer advice centre",
+          "n": ""
+        },
+        {
+          "t": "gehen.",
+          "b": [
+            4,
+            5
+          ],
+          "e": [],
+          "l": "gehen",
+          "gb": "যেতে পারো",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "In vielen Städten",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            9,
+            10,
+            11
+          ],
+          "l": "In vielen Städten",
+          "gb": "অনেক শহরে",
+          "ge": "In many cities",
+          "n": ""
+        },
+        {
+          "t": "gibt es",
+          "b": [
+            8,
+            9
+          ],
+          "e": [
+            12,
+            13
+          ],
+          "l": "gibt es",
+          "gb": "এ ধরনের",
+          "ge": "such organisations",
+          "n": ""
+        },
+        {
+          "t": "Beratung;",
+          "b": [
+            10,
+            11,
+            12
+          ],
+          "e": [
+            14,
+            15
+          ],
+          "l": "Beratung",
+          "gb": "সংস্থা পরামর্শ দেয়",
+          "ge": "offer advice",
+          "n": ""
+        },
+        {
+          "t": "manche Beratung",
+          "b": [
+            13,
+            14
+          ],
+          "e": [
+            16,
+            17
+          ],
+          "l": "manche Beratung",
+          "gb": "কিছু পরামর্শ",
+          "ge": "some advice",
+          "n": ""
+        },
+        {
+          "t": "kostet aber etwas,",
+          "b": [
+            15,
+            16
+          ],
+          "e": [
+            18,
+            19,
+            20
+          ],
+          "l": "kostet aber etwas",
+          "gb": "বিনামূল্যে নয়",
+          "ge": "is not free",
+          "n": ""
+        },
+        {
+          "t": "frag also vorher nach.",
+          "b": [
+            17,
+            18,
+            19,
+            20
+          ],
+          "e": [
+            21,
+            22,
+            23,
+            24
+          ],
+          "l": "frag also vorher nach",
+          "gb": "তাই আগে জেনে নাও",
+          "ge": "so find out first",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "Online einkaufen — Ablauf",
+      "head": [
+        "Schritt",
+        "Wichtig"
+      ],
+      "rows": [
+        [
+          "Bestellen",
+          "Anbieter prüfen (Impressum, Bewertungen), Preis inkl. Versand"
+        ],
+        [
+          "Zahlen",
+          "sichere Zahlungsart; nicht per Vorkasse an Unbekannte"
+        ],
+        [
+          "Lieferung",
+          "Paket prüfen; bei Schaden sofort Foto + melden"
+        ],
+        [
+          "Mangel",
+          "Reklamation: schriftlich, mit Rechnung und Frist"
+        ],
+        [
+          "Widerruf",
+          "meist ca. 14 Tage (Bedingungen vom Händler prüfen)"
+        ],
+        [
+          "Hilfe",
+          "Verbraucherzentrale, Schlichtungsstellen"
+        ]
+      ],
+      "note": "আইনি সময়সীমা ও শর্ত কেস অনুযায়ী ভিন্ন হতে পারে; এখানকার তথ্য সাধারণ নির্দেশনা, চূড়ান্ত পরামর্শ নয়। প্রয়োজনে অফিসিয়াল সাইট বা Verbraucherzentrale দেখুন।"
+    },
+    {
+      "type": "table",
+      "title": "wenn-Sätze: real und irreal",
+      "head": [
+        "Typ",
+        "Beispiel"
+      ],
+      "rows": [
+        [
+          "real (möglich)",
+          "Wenn die Ware kaputt ist, kann ich reklamieren."
+        ],
+        [
+          "irreal (Wunsch)",
+          "Wenn ich mehr Geld hätte, würde ich eine bessere Jacke kaufen."
+        ],
+        [
+          "Bitte",
+          "Wenn Sie mir bitte die Rechnung schicken könnten, …"
+        ],
+        [
+          "Folge",
+          "Wenn der Shop nicht antwortet, hole ich mir Hilfe."
+        ]
+      ],
+      "note": "real → Präsens; irreal → Konjunktiv II (hätte, wäre, würde + Infinitiv)।"
+    },
+    {
+      "type": "table",
+      "title": "Reklamation — Schreiben",
+      "head": [
+        "Teil",
+        "Formulierung"
+      ],
+      "rows": [
+        [
+          "Betreff",
+          "Reklamation: Bestellung Nr. …"
+        ],
+        [
+          "Anrede",
+          "Sehr geehrte Damen und Herren,"
+        ],
+        [
+          "Problem",
+          "die Jacke ist mit einem kaputten Reißverschluss angekommen."
+        ],
+        [
+          "Wunsch",
+          "Ich bitte um Umtausch oder Erstattung."
+        ],
+        [
+          "Frist",
+          "Bitte antworten Sie bis zum …"
+        ],
+        [
+          "Schluss",
+          "Mit freundlichen Grüßen"
+        ]
+      ],
+      "note": "ছবি ও রসিদ সংযুক্ত করুন; ভদ্র কিন্তু স্পষ্ট ভাষা ব্যবহার করুন।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "die Rechnung",
+      "options": [
+        "কেনার রসিদ",
+        "টাকা ফেরত",
+        "বদলে নেওয়া",
+        "ইনভয়েস"
+      ],
+      "answer": 3,
+      "why": "die Rechnung = ইনভয়েস।",
+      "word": "rechnung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "der Mangel",
+      "options": [
+        "ক্ষতিগ্রস্ত",
+        "বদলে নেওয়া",
+        "ত্রুটি",
+        "ফেরত পাঠানো"
+      ],
+      "answer": 2,
+      "why": "der Mangel = ত্রুটি।",
+      "word": "mangel"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "die Erstattung",
+      "options": [
+        "টাকা ফেরত",
+        "ডেলিভারি",
+        "ত্রুটি",
+        "কেনার রসিদ"
+      ],
+      "answer": 0,
+      "why": "die Erstattung = টাকা ফেরত।",
+      "word": "erstattung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Lieferung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Lieferung। বহুবচন: die Lieferungen।",
+      "word": "lieferung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„reklamieren“ কখন ব্যবহৃত হয়?",
+      "options": [
+        "যখন পণ্যে ত্রুটি থাকে",
+        "যখন পছন্দ হয়",
+        "যখন দাম কমে",
+        "যখন ডেলিভারি দেরি হয় না"
+      ],
+      "answer": 0,
+      "why": "Mangel melden।",
+      "word": "reklamieren"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Widerruf“ মানে কী?",
+      "options": [
+        "কেনা চুক্তি বাতিলের অধিকার",
+        "অর্ডার করা",
+        "পণ্য পাঠানো",
+        "টাকা গোনা"
+      ],
+      "answer": 0,
+      "why": "Widerruf = revoke।",
+      "word": "widerruf"
+    },
+    {
+      "type": "mcq",
+      "prompt": "প্রথমে কী করা ভালো, যখন প্যাকেট ক্ষতিগ্রস্ত?",
+      "options": [
+        "ছবি তুলে রাখা এবং জানানো",
+        "ফেলে দেওয়া",
+        "চুপ করা",
+        "আবার অর্ডার"
+      ],
+      "answer": 0,
+      "why": "Fotos + melden।",
+      "word": "beschaedigt"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক বাক্য কোনটি?",
+      "options": [
+        "Wenn ich mehr Geld hätte, würde ich eine bessere Jacke kaufen.",
+        "Wenn ich mehr Geld hatte, würde ich eine bessere Jacke kaufen.",
+        "Wenn ich mehr Geld habe, würde ich kaufen eine bessere Jacke.",
+        "Wenn ich mehr Geld hätte, ich würde kaufen eine bessere Jacke."
+      ],
+      "answer": 0,
+      "why": "Konjunktiv II।",
+      "word": "kaufbeleg"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„umtauschen“ মানে কী?",
+      "options": [
+        "বদলে নেওয়া",
+        "ধার নেওয়া",
+        "রং করা",
+        "ফেলা"
+      ],
+      "answer": 0,
+      "why": "umtauschen।",
+      "word": "umtauschen"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „ত্রুটি থাকলে আপনি অভিযোগ করতে পারেন।“",
+      "tiles": [
+        "Mangel",
+        "kann man",
+        "Bei einem",
+        "reklamieren."
+      ],
+      "answer": [
+        "Bei einem",
+        "Mangel",
+        "kann man",
+        "reklamieren."
+      ],
+      "why": "Inversion nach PP।",
+      "word": "mangel"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}
