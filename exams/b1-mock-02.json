@@ -1,0 +1,415 @@
+{
+  "id": "b1-mock-02",
+  "level": "B1",
+  "title": {
+    "de": "Modelltest B1 (2) — Goethe-Zertifikat B1",
+    "bn": "B1 মক পরীক্ষা ২",
+    "en": "B1 mock exam 2"
+  },
+  "passMark": 0.6,
+  "parts": [
+    {
+      "kind": "hoeren",
+      "title": "Hören — শোনা",
+      "instructions": "প্রতিটি অংশ শুনুন এবং সঠিক উত্তর বেছে নিন। আসল পরীক্ষায় অংশভেদে ১–২ বার চালানো হয়; এখানে যতবার খুশি শুনতে পারবেন, কিন্তু চেষ্টা করুন সর্বোচ্চ ২ বার।",
+      "minutes": 40,
+      "questions": [
+        {
+          "type": "listen",
+          "prompt": "Was soll der Angerufene tun?",
+          "say": "Guten Tag, hier ist Frau Weber vom Jobcenter. Ich rufe an, weil Sie Ihren Termin am Mittwoch leider nicht wahrgenommen haben. Bitte rufen Sie uns bis Freitag zurück und vereinbaren Sie einen neuen Termin. Sonst kann Ihre Unterstützung gekürzt werden.",
+          "options": [
+            "Nichts, der Termin ist schon neu",
+            "Bis Freitag zurückrufen und einen neuen Termin vereinbaren",
+            "Sofort ins Jobcenter kommen"
+          ],
+          "answer": 1,
+          "why": "„bis Freitag zurückrufen … neuen Termin“।"
+        },
+        {
+          "type": "listen",
+          "prompt": "Was bietet die Werkstatt an?",
+          "say": "Dein Fahrrad hat einen Platten? Dann komm doch zu unserer Reparaturwerkstatt im Hinterhof: Jeden Mittwoch zeigen wir dir, wie du es selbst reparieren kannst. Das Werkzeug stellen wir. Du bezahlst nur das Material. Die Teilnahme ist kostenlos, nur eine Spende wird gern gesehen.",
+          "options": [
+            "Hilfe zur Selbsthilfe bei der Fahrradreparatur",
+            "Fahrradkurse für Kinder",
+            "Fahrräder gratis verkaufen"
+          ],
+          "answer": 0,
+          "why": "zeigt, wie man es selbst repariert।"
+        },
+        {
+          "type": "listen",
+          "prompt": "Was macht Elif zurzeit?",
+          "say": "Mein Name ist Elif. Ich habe in der Türkei Zahnmedizin studiert und möchte hier als Zahnärztin arbeiten. Dafür muss ich meine Abschlüsse anerkennen lassen und eine Fachsprachprüfung bestehen. Das dauert lange, aber ich gebe nicht auf. In der Zwischenzeit arbeite ich als Assistentin in einer Praxis.",
+          "options": [
+            "Sie studiert Zahnmedizin.",
+            "Sie arbeitet als Assistentin in einer Praxis.",
+            "Sie arbeitet schon als Zahnärztin."
+          ],
+          "answer": 1,
+          "why": "„arbeite ich als Assistentin“।"
+        },
+        {
+          "type": "listen",
+          "prompt": "Wo fährt der Ersatzbus ab?",
+          "say": "Fahrgäste nach Dresden, bitte beachten Sie: Wegen eines Polizeieinsatzes ist die Strecke zwischen Leipzig und Riesa gesperrt. Reisende nach Dresden werden gebeten, in Leipzig auf einen Ersatzbus umzusteigen. Der Bus fährt am Westausgang ab. Mit erheblichen Verspätungen muss gerechnet werden.",
+          "options": [
+            "In Dresden",
+            "Am Westausgang in Leipzig",
+            "In Riesa"
+          ],
+          "answer": 1,
+          "why": "Westausgang (Leipzig)।"
+        },
+        {
+          "type": "listen",
+          "prompt": "Was ist ein Vorteil eines Repair-Cafés?",
+          "say": "Moderator: Frau Krüger, Sie leiten ein Repair-Café. Was passiert da? — Menschen bringen kaputte Geräte mit, zum Beispiel Toaster oder Radios, und Freiwillige helfen bei der Reparatur. Man wirft weniger weg, spart Geld und lernt etwas dazu. Außerdem entsteht Gemeinschaft: Man kommt ins Gespräch.",
+          "options": [
+            "Man wirft weniger weg und lernt etwas.",
+            "Es ist ein Restaurant.",
+            "Man bekommt neue Geräte."
+          ],
+          "answer": 0,
+          "why": "„weniger wegwirft, spart Geld, lernt dazu“।"
+        },
+        {
+          "type": "listen",
+          "prompt": "Was kann Herr Demir tun, wenn er nicht zu Hause ist?",
+          "say": "Hallo Herr Demir, hier ist die Hausverwaltung. Wir müssen am Montag zwischen acht und zwölf Uhr die Heizung in Ihrer Wohnung überprüfen. Bitte sorgen Sie dafür, dass jemand zu Hause ist, oder geben Sie den Schlüssel bei Frau Lang im Erdgeschoss ab. Danke für Ihre Hilfe.",
+          "options": [
+            "Den Termin ignorieren",
+            "Den Schlüssel bei Frau Lang abgeben",
+            "Die Heizung selbst reparieren"
+          ],
+          "answer": 1,
+          "why": "„Schlüssel bei Frau Lang“।"
+        },
+        {
+          "type": "listen",
+          "prompt": "Warum hat sich die Person angemeldet?",
+          "say": "Ich habe lange darüber nachgedacht, ob ich noch einmal studieren soll. Mit vierzig ist man nicht mehr der Jüngste. Aber dann habe ich gesehen, dass viele Hochschulen Studiengänge für Berufstätige anbieten, abends oder am Wochenende. Das lässt sich gut mit meiner Arbeit verbinden, deshalb habe ich mich angemeldet.",
+          "options": [
+            "Weil das Studium kostenlos ist",
+            "Weil sie ihre Arbeit kündigt",
+            "Weil das Studium neben dem Beruf möglich ist"
+          ],
+          "answer": 2,
+          "why": "abends/am Wochenende, gut mit der Arbeit zu verbinden।"
+        },
+        {
+          "type": "listen",
+          "prompt": "Was schlägt die Person vor?",
+          "say": "Du, ich war gerade im Supermarkt. Sie haben jetzt Mehrwegbecher für Kaffee, mit einem Euro Pfand. Das ist praktisch, du bringst den Becher zurück und bekommst dein Geld. Vielleicht sollten wir im Büro auch solche Becher benutzen, dann gäbe es weniger Müll.",
+          "options": [
+            "Keinen Kaffee mehr zu trinken",
+            "Einen neuen Supermarkt zu suchen",
+            "Mehrwegbecher im Büro zu benutzen"
+          ],
+          "answer": 2,
+          "why": "„im Büro auch solche Becher benutzen“।"
+        },
+        {
+          "type": "listen",
+          "prompt": "Bis wann gilt die alte Telefonnummer?",
+          "say": "Zum Abschluss unseres Programms noch ein Hinweis in eigener Sache: Unsere Redaktion zieht um. Ab dem ersten Juli erreichen Sie uns unter einer neuen Adresse und einer neuen Telefonnummer. Alle Angaben finden Sie auf unserer Internetseite. Die alte Nummer ist nur noch bis Ende Juni gültig.",
+          "options": [
+            "Bis Ende Juni",
+            "Bis zum 1. Juli",
+            "Bis Ende Juli"
+          ],
+          "answer": 0,
+          "why": "„nur noch bis Ende Juni“।"
+        },
+        {
+          "type": "listen",
+          "prompt": "Bis wann kann man die Übersetzung nachreichen?",
+          "say": "Entschuldigung, ich habe eine Frage zur Anmeldung. Muss ich meine Geburtsurkunde übersetzen lassen? — Ja, wenn sie nicht auf Deutsch oder Englisch ist, brauchen wir eine beglaubigte Übersetzung. Sie können sie auch nachreichen, aber nur bis zum Ende des Monats.",
+          "options": [
+            "Gar nicht",
+            "Bis zum Ende des Monats",
+            "Bis zum Ende des Jahres"
+          ],
+          "answer": 1,
+          "why": "„nur bis zum Ende des Monats“।"
+        },
+        {
+          "type": "listen",
+          "prompt": "Wie reagiert die Person auf den Vorschlag?",
+          "say": "Mein Chef hat mir vorgeschlagen, an einer Weiterbildung zum Teamleiter teilzunehmen. Ich freue mich über das Vertrauen, habe aber Bedenken, weil ich dann mehr Verantwortung hätte und weniger Zeit für meine Familie. Ich werde mir das am Wochenende in Ruhe überlegen und dann mit meiner Frau darüber sprechen.",
+          "options": [
+            "Sie freut sich, hat aber Bedenken und will nachdenken.",
+            "Sie sagt sofort zu.",
+            "Sie lehnt sofort ab."
+          ],
+          "answer": 0,
+          "why": "Freude + Bedenken, will überlegen।"
+        }
+      ]
+    },
+    {
+      "kind": "lesen",
+      "title": "Lesen — পড়া",
+      "instructions": "প্রতিটি লেখা পড়ে সঠিক উত্তর বেছে নিন। Richtig = ঠিক, Falsch = ভুল। একই লেখার একাধিক প্রশ্ন থাকতে পারে।",
+      "minutes": 65,
+      "questions": [
+        {
+          "type": "mcq",
+          "prompt": "Worüber informiert die Lehrerin am Elternabend?",
+          "passage": "Liebe Eltern,\nam Elternabend am Donnerstag, den 20. März, um 19 Uhr möchten wir Sie über zwei Themen informieren: die geplante Klassenfahrt im Juni und die neue Regelung zur Handynutzung. Während des Unterrichts müssen Handys künftig ausgeschaltet im Rucksack bleiben; in den Pausen dürfen sie auf dem Schulhof benutzt werden. Für die Klassenfahrt brauchen wir bis Ende März Ihre schriftliche Zustimmung. Falls Sie nicht kommen können, geben Sie bitte Ihrem Kind den Rückmeldebogen mit.\nHerzliche Grüße\nIhre Klassenlehrerin, Frau Schäfer",
+          "options": [
+            "Über neue Lehrer",
+            "Über Noten",
+            "Über die Klassenfahrt und die Handynutzung"
+          ],
+          "answer": 2,
+          "why": "Klassenfahrt + Handyregelung।"
+        },
+        {
+          "type": "mcq",
+          "prompt": "Handys dürfen in den Pausen auf dem Schulhof benutzt werden.",
+          "passage": "Liebe Eltern,\nam Elternabend am Donnerstag, den 20. März, um 19 Uhr möchten wir Sie über zwei Themen informieren: die geplante Klassenfahrt im Juni und die neue Regelung zur Handynutzung. Während des Unterrichts müssen Handys künftig ausgeschaltet im Rucksack bleiben; in den Pausen dürfen sie auf dem Schulhof benutzt werden. Für die Klassenfahrt brauchen wir bis Ende März Ihre schriftliche Zustimmung. Falls Sie nicht kommen können, geben Sie bitte Ihrem Kind den Rückmeldebogen mit.\nHerzliche Grüße\nIhre Klassenlehrerin, Frau Schäfer",
+          "options": [
+            "Richtig",
+            "Falsch"
+          ],
+          "answer": 0,
+          "why": "„in den Pausen … auf dem Schulhof“।"
+        },
+        {
+          "type": "mcq",
+          "prompt": "Die Zustimmung für die Klassenfahrt kann mündlich gegeben werden.",
+          "passage": "Liebe Eltern,\nam Elternabend am Donnerstag, den 20. März, um 19 Uhr möchten wir Sie über zwei Themen informieren: die geplante Klassenfahrt im Juni und die neue Regelung zur Handynutzung. Während des Unterrichts müssen Handys künftig ausgeschaltet im Rucksack bleiben; in den Pausen dürfen sie auf dem Schulhof benutzt werden. Für die Klassenfahrt brauchen wir bis Ende März Ihre schriftliche Zustimmung. Falls Sie nicht kommen können, geben Sie bitte Ihrem Kind den Rückmeldebogen mit.\nHerzliche Grüße\nIhre Klassenlehrerin, Frau Schäfer",
+          "options": [
+            "Richtig",
+            "Falsch"
+          ],
+          "answer": 1,
+          "why": "„schriftliche Zustimmung“।"
+        },
+        {
+          "type": "mcq",
+          "prompt": "Was sagen Befürworter der Vier-Tage-Woche?",
+          "passage": "Pro und Kontra: Vier-Tage-Woche\nImmer mehr Unternehmen testen, ob sich in vier statt fünf Tagen genauso viel arbeiten lässt. Befürworter sagen: Wer ausgeruht ist, arbeitet konzentrierter, und die Firma kann sich als attraktiver Arbeitgeber zeigen. Kritiker wenden ein, dass sich nicht jede Tätigkeit verdichten lässt: In der Pflege oder im Handel müsse immer jemand da sein. Außerdem steigt bei längeren Tagesarbeitszeiten das Risiko, dass die Konzentration nachlässt. Bisherige Tests zeigen ein gemischtes Bild.",
+          "options": [
+            "Man verdient automatisch mehr.",
+            "Man braucht weniger Mitarbeiter.",
+            "Man arbeitet ausgeruht konzentrierter."
+          ],
+          "answer": 2,
+          "why": "ausgeruht → konzentrierter।"
+        },
+        {
+          "type": "mcq",
+          "prompt": "Kritiker sagen, in der Pflege könne man die Arbeit leicht verdichten.",
+          "passage": "Pro und Kontra: Vier-Tage-Woche\nImmer mehr Unternehmen testen, ob sich in vier statt fünf Tagen genauso viel arbeiten lässt. Befürworter sagen: Wer ausgeruht ist, arbeitet konzentrierter, und die Firma kann sich als attraktiver Arbeitgeber zeigen. Kritiker wenden ein, dass sich nicht jede Tätigkeit verdichten lässt: In der Pflege oder im Handel müsse immer jemand da sein. Außerdem steigt bei längeren Tagesarbeitszeiten das Risiko, dass die Konzentration nachlässt. Bisherige Tests zeigen ein gemischtes Bild.",
+          "options": [
+            "Richtig",
+            "Falsch"
+          ],
+          "answer": 1,
+          "why": "Pflege: immer jemand da sein → schwer।"
+        },
+        {
+          "type": "mcq",
+          "prompt": "Warum waren Tim und seine Begleitung gestern im Museum?",
+          "passage": "Hallo Mia,\nich schreibe dir aus dem Urlaub! Wir sind seit drei Tagen an der Ostsee. Das Wetter war leider nicht so gut: Gestern hat es fast den ganzen Tag geregnet, deshalb waren wir im Museum und danach im Café. Heute scheint endlich die Sonne, und wir gehen gleich an den Strand. Die Unterkunft ist einfach, aber sauber, und das Frühstück ist sehr gut. Am Freitag fahren wir zurück. Hast du Lust, mich am Wochenende zu besuchen? Dann zeige ich dir die Fotos.\nLiebe Grüße\nTim",
+          "options": [
+            "Weil es heiß war",
+            "Weil es regnete",
+            "Weil sie Eintritt gewonnen hatten"
+          ],
+          "answer": 1,
+          "why": "„fast den ganzen Tag geregnet“।"
+        },
+        {
+          "type": "mcq",
+          "prompt": "Tim lädt Mia ein, ihn am Wochenende zu besuchen.",
+          "passage": "Hallo Mia,\nich schreibe dir aus dem Urlaub! Wir sind seit drei Tagen an der Ostsee. Das Wetter war leider nicht so gut: Gestern hat es fast den ganzen Tag geregnet, deshalb waren wir im Museum und danach im Café. Heute scheint endlich die Sonne, und wir gehen gleich an den Strand. Die Unterkunft ist einfach, aber sauber, und das Frühstück ist sehr gut. Am Freitag fahren wir zurück. Hast du Lust, mich am Wochenende zu besuchen? Dann zeige ich dir die Fotos.\nLiebe Grüße\nTim",
+          "options": [
+            "Richtig",
+            "Falsch"
+          ],
+          "answer": 0,
+          "why": "„Hast du Lust, mich am Wochenende zu besuchen?“"
+        },
+        {
+          "type": "mcq",
+          "prompt": "Wie viel kostet ein Beet im Stadtteilgarten?",
+          "passage": "Der Stadtteilgarten sucht Verstärkung!\nIm Stadtteilgarten bauen Nachbarn gemeinsam Gemüse und Kräuter an. Jeden Samstag von 10 bis 13 Uhr treffen wir uns zum Gärtnern; Werkzeug ist vorhanden. Ein Beet kann man für 20 Euro im Jahr pachten. Wer lieber nur mithelfen möchte, ist ebenfalls willkommen und darf einen Teil der Ernte mitnehmen. Vorkenntnisse sind nicht nötig. Auch Kinder können mitmachen, wenn sie von Erwachsenen begleitet werden.",
+          "options": [
+            "Nichts",
+            "20 Euro im Jahr",
+            "20 Euro im Monat"
+          ],
+          "answer": 1,
+          "why": "20 Euro im Jahr।"
+        },
+        {
+          "type": "mcq",
+          "prompt": "Man braucht Vorkenntnisse, um mitzumachen.",
+          "passage": "Der Stadtteilgarten sucht Verstärkung!\nIm Stadtteilgarten bauen Nachbarn gemeinsam Gemüse und Kräuter an. Jeden Samstag von 10 bis 13 Uhr treffen wir uns zum Gärtnern; Werkzeug ist vorhanden. Ein Beet kann man für 20 Euro im Jahr pachten. Wer lieber nur mithelfen möchte, ist ebenfalls willkommen und darf einen Teil der Ernte mitnehmen. Vorkenntnisse sind nicht nötig. Auch Kinder können mitmachen, wenn sie von Erwachsenen begleitet werden.",
+          "options": [
+            "Richtig",
+            "Falsch"
+          ],
+          "answer": 1,
+          "why": "„Vorkenntnisse sind nicht nötig“।"
+        },
+        {
+          "type": "mcq",
+          "prompt": "Wie kann man weiterhin Tickets kaufen?",
+          "passage": "Neue App für den öffentlichen Nahverkehr\nVerkehrsbetriebe bieten seit Kurzem eine App an, mit der man Tickets für Bus und Bahn direkt auf dem Smartphone kaufen kann. Das Ticket wird beim Kontrollieren als QR-Code vorgezeigt. Fahrgäste ohne Smartphone können weiter am Automaten oder beim Fahrer kaufen. Kritik gibt es vom Datenschutzbeauftragten: Die App sammle mehr Daten als nötig, etwa Standortdaten. Die Verkehrsbetriebe kündigten an, die Einstellungen zu überarbeiten.",
+          "options": [
+            "Auch am Automaten oder beim Fahrer",
+            "Nur online",
+            "Nur über die App"
+          ],
+          "answer": 0,
+          "why": "Automat oder Fahrer।"
+        },
+        {
+          "type": "mcq",
+          "prompt": "Der Datenschutzbeauftragte kritisiert die Datensammlung der App.",
+          "passage": "Neue App für den öffentlichen Nahverkehr\nVerkehrsbetriebe bieten seit Kurzem eine App an, mit der man Tickets für Bus und Bahn direkt auf dem Smartphone kaufen kann. Das Ticket wird beim Kontrollieren als QR-Code vorgezeigt. Fahrgäste ohne Smartphone können weiter am Automaten oder beim Fahrer kaufen. Kritik gibt es vom Datenschutzbeauftragten: Die App sammle mehr Daten als nötig, etwa Standortdaten. Die Verkehrsbetriebe kündigten an, die Einstellungen zu überarbeiten.",
+          "options": [
+            "Richtig",
+            "Falsch"
+          ],
+          "answer": 0,
+          "why": "„sammle mehr Daten als nötig“।"
+        },
+        {
+          "type": "mcq",
+          "prompt": "Was kündigten die Verkehrsbetriebe an?",
+          "passage": "Neue App für den öffentlichen Nahverkehr\nVerkehrsbetriebe bieten seit Kurzem eine App an, mit der man Tickets für Bus und Bahn direkt auf dem Smartphone kaufen kann. Das Ticket wird beim Kontrollieren als QR-Code vorgezeigt. Fahrgäste ohne Smartphone können weiter am Automaten oder beim Fahrer kaufen. Kritik gibt es vom Datenschutzbeauftragten: Die App sammle mehr Daten als nötig, etwa Standortdaten. Die Verkehrsbetriebe kündigten an, die Einstellungen zu überarbeiten.",
+          "options": [
+            "Die Preise zu senken",
+            "Die App abzuschaffen",
+            "Die Einstellungen zu überarbeiten"
+          ],
+          "answer": 2,
+          "why": "„Einstellungen zu überarbeiten“।"
+        }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "title": "Schreiben, Teil 1 — Persönliche E-Mail",
+      "taskBn": "আপনার বন্ধু Lena একটি নতুন চাকরি পেয়েছে। তাকে লিখুন: অভিনন্দন জানান; জিজ্ঞাসা করুন চাকরিটি কেমন ও কী কাজ; নিজের সাম্প্রতিক খবর জানান; দেখা করার প্রস্তাব দিন। প্রায় ৮০ শব্দ লিখুন।",
+      "taskDe": "Ihre Freundin Lena hat eine neue Stelle bekommen. Gratulieren Sie, fragen Sie nach der Arbeit, berichten Sie kurz von sich und schlagen Sie ein Treffen vor. Schreiben Sie ca. 80 Wörter.",
+      "minWords": 70,
+      "model": "Liebe Lena,\nherzlichen Glückwunsch zu deiner neuen Stelle! Ich habe mich riesig gefreut, als ich es gehört habe. Was genau machst du dort, und wie sind die Kollegen? Bei mir gibt es auch Neuigkeiten: Ich habe gerade meinen Deutschkurs abgeschlossen und bereite mich auf die Prüfung vor. Wie wäre es, wenn wir uns nächste Woche auf einen Kaffee treffen? Dann kannst du mir alles erzählen.\nViele Grüße\nSaheb",
+      "checklist": [
+        "Anrede und Glückwunsch",
+        "Fragen zur Arbeit",
+        "eigene Neuigkeit (Ich habe …)",
+        "Treffpunkt/Zeit vorgeschlagen (Wie wäre es, wenn …)",
+        "freundlicher Schluss",
+        "ca. 70–90 Wörter"
+      ]
+    },
+    {
+      "title": "Schreiben, Teil 2 — Forumsbeitrag (Meinung)",
+      "taskBn": "ফোরামের বিষয়: „Sollten Kinder schon in der Grundschule Programmieren lernen?“ আপনার মত লিখুন: অবস্থান, দুটি যুক্তি, উদাহরণ, উপসংহার। প্রায় ৮০ শব্দ।",
+      "taskDe": "Im Forum wird diskutiert: „Sollten Kinder schon in der Grundschule programmieren lernen?“ Schreiben Sie Ihre Meinung (ca. 80 Wörter): Position, zwei Argumente, ein Beispiel, Schluss.",
+      "minWords": 70,
+      "model": "Ich finde, dass Kinder schon in der Grundschule erste Grundlagen des Programmierens lernen sollten. Einerseits trainiert es das logische Denken, andererseits sind digitale Kenntnisse später im Beruf sehr wichtig. Außerdem macht es Kindern oft Spaß, weil sie schnell Ergebnisse sehen. Zum Beispiel kann man mit einfachen Spielen beginnen. Allerdings sollte der Unterricht nicht zu viel Zeit vor dem Bildschirm bedeuten. Deshalb bin ich für ein kleines Angebot.",
+      "checklist": [
+        "Position klar (Ich finde, dass …)",
+        "zwei Argumente (einerseits … andererseits / außerdem)",
+        "Beispiel (zum Beispiel …)",
+        "Einwand/Einschränkung (allerdings …)",
+        "Schluss (Deshalb …)",
+        "ca. 70–90 Wörter"
+      ]
+    },
+    {
+      "title": "Schreiben, Teil 3 — Formelle Nachricht",
+      "taskBn": "আপনার ভাড়াবাড়ির জানালা বন্ধ হচ্ছে না। বাড়িওয়ালা/Hausverwaltung-কে লিখুন: সমস্যা বর্ণনা করুন; কবে থেকে; মেরামতের অনুরোধ করুন; কখন বাসায় থাকেন তা জানান। প্রায় ৪০ শব্দ, ভদ্র ভাষায় (Sie)।",
+      "taskDe": "Das Fenster in Ihrer Mietwohnung schließt nicht mehr richtig. Schreiben Sie an die Hausverwaltung: Beschreiben Sie das Problem, seit wann es besteht, bitten Sie um Reparatur und nennen Sie, wann Sie zu Hause sind. Ca. 40 Wörter (formell).",
+      "minWords": 35,
+      "model": "Sehr geehrte Damen und Herren,\nseit zwei Wochen schließt das Fenster in meinem Wohnzimmer nicht mehr richtig, sodass es zieht. Könnten Sie bitte einen Handwerker schicken? Ich bin montags bis freitags ab 17 Uhr zu Hause. Vielen Dank im Voraus.\nMit freundlichen Grüßen\nSaheb Rahman",
+      "checklist": [
+        "formelle Anrede",
+        "Problem beschrieben",
+        "Zeitangabe (seit zwei Wochen)",
+        "höfliche Bitte (Könnten Sie bitte …?)",
+        "Erreichbarkeit genannt",
+        "Mit freundlichen Grüßen + Name"
+      ]
+    }
+  ],
+  "speaking": [
+    {
+      "title": "Sprechen, Teil 1 — Gemeinsam etwas planen",
+      "instructions": "আপনি ও আপনার সঙ্গী একসাথে কিছু পরিকল্পনা করছেন। প্রস্তাব দিন, মত জিজ্ঞাসা করুন, প্রতিক্রিয়া দিন ও সিদ্ধান্তে পৌঁছান (প্রায় ৩ মিনিট)।",
+      "prompts": [
+        {
+          "de": "Willkommensfest für neue Nachbarn — Wann? Wo? Essen? Einladung?",
+          "bn": "নতুন প্রতিবেশীদের স্বাগত অনুষ্ঠান — কখন, কোথায়, খাবার, নিমন্ত্রণ?",
+          "model": "Wie wäre es, wenn wir das Fest am Samstag im Hof machen? Wir könnten Zettel an die Haustür hängen. Was meinst du zum Essen? — Jeder bringt etwas mit, oder? — Ja, einverstanden."
+        },
+        {
+          "de": "Geburtstagsgeschenk für die Lehrerin — Was? Wie viel? Wer kauft es?",
+          "bn": "শিক্ষিকার জন্য উপহার — কী, কত খরচ, কে কিনবে?",
+          "model": "Ich schlage vor, dass wir ihr Blumen und eine Karte schenken. Jeder gibt fünf Euro. Ich kaufe die Blumen, und du schreibst die Karte. Was hältst du davon? — Das klingt gut."
+        },
+        {
+          "de": "Gemeinsam lernen für die Prüfung — Wann? Wo? Was üben?",
+          "bn": "পরীক্ষার জন্য একসাথে পড়া — কখন, কোথায়, কী অনুশীলন?",
+          "model": "Hast du Lust, dass wir zusammen lernen? Wir könnten uns zweimal pro Woche in der Bibliothek treffen. Am Montag üben wir Sprechen, am Donnerstag Schreiben. Passt das für dich?"
+        }
+      ]
+    },
+    {
+      "title": "Sprechen, Teil 2 — Ein Thema vorstellen",
+      "instructions": "একটি বিষয় নিয়ে ১–২ মিনিট বলুন: ভূমিকা, নিজের অভিজ্ঞতা, দেশের সাথে তুলনা, সুবিধা-অসুবিধা, উপসংহার। তারপর নমুনা মিলিয়ে নিন।",
+      "prompts": [
+        {
+          "de": "Thema: Sport und Gesundheit",
+          "bn": "খেলাধুলা ও স্বাস্থ্য",
+          "model": "Ich möchte über Sport und Gesundheit sprechen. Ich spiele einmal pro Woche Fußball mit Freunden. In Bangladesch spielt man oft auf der Straße, hier gibt es Vereine. Ein Vorteil ist, dass man fit bleibt und neue Leute kennenlernt. Ein Nachteil ist, dass es Zeit kostet. Insgesamt finde ich Bewegung sehr wichtig."
+        },
+        {
+          "de": "Thema: Lernen mit dem Smartphone",
+          "bn": "স্মার্টফোনে শেখা",
+          "model": "Mein Thema ist das Lernen mit dem Smartphone. Ich benutze Apps für Vokabeln und höre Podcasts. Ein Vorteil ist, dass ich überall üben kann. Ein Nachteil ist, dass man leicht abgelenkt wird. Meiner Meinung nach ist es eine gute Ergänzung zum Kurs, aber kein Ersatz."
+        },
+        {
+          "de": "Thema: Wohnen in der Stadt oder auf dem Land",
+          "bn": "শহরে বনাম গ্রামে থাকা",
+          "model": "Ich spreche über das Wohnen in der Stadt und auf dem Land. In der Stadt gibt es mehr Arbeit und bessere Verkehrsverbindungen, aber die Mieten sind hoch. Auf dem Land ist es ruhiger und billiger, doch man braucht oft ein Auto. Für mich ist die Stadt besser, weil ich viel unterwegs bin."
+        }
+      ]
+    },
+    {
+      "title": "Sprechen, Teil 3 — Reagieren und Nachfragen",
+      "instructions": "অন্যজনের উপস্থাপনার পর প্রশ্ন করুন ও মত জানান। নিজের উপস্থাপনায় প্রশ্নের উত্তর দিন।",
+      "prompts": [
+        {
+          "de": "Eine Frage stellen",
+          "bn": "উপস্থাপনার পর একটি প্রশ্ন করুন",
+          "model": "Danke für Ihren Vortrag. Ich habe eine Frage: Wie oft machen Sie das, und wo haben Sie damit angefangen?"
+        },
+        {
+          "de": "Zustimmen",
+          "bn": "একমত হন ও কারণ দিন",
+          "model": "Da haben Sie recht. Ich sehe das genauso, weil ich selbst ähnliche Erfahrungen gemacht habe."
+        },
+        {
+          "de": "Teilweise widersprechen",
+          "bn": "আংশিক দ্বিমত করুন",
+          "model": "In einem Punkt stimme ich Ihnen zu, aber ich bin nicht sicher, ob das für alle gilt. Ich würde sagen, es kommt auf die Situation an."
+        },
+        {
+          "de": "Um Erklärung bitten",
+          "bn": "ব্যাখ্যা চান",
+          "model": "Entschuldigung, was meinen Sie genau mit diesem Wort? Könnten Sie das bitte mit einem Beispiel erklären?"
+        }
+      ]
+    }
+  ]
+}
