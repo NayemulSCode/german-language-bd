@@ -1,0 +1,1513 @@
+{
+  "level": "B1",
+  "unit": 12,
+  "minutes": 18,
+  "lesson": 4,
+  "id": "b1-u12-l04",
+  "title": {
+    "de": "Rückblick: Mein Weg mit Deutsch",
+    "bn": "পেছনে তাকানো: জার্মান ভাষার সাথে আমার পথ",
+    "en": "Looking back: my path with German"
+  },
+  "hook": {
+    "de": "Der Weg ist das Ziel.",
+    "who": "Konfuzius (zugeschrieben)",
+    "bn": "পথটাই লক্ষ্য।",
+    "en": "The journey is the goal."
+  },
+  "goals": [
+    "Lernweg reflektieren",
+    "Perfekt, Präteritum und Plusquamperfekt kombinieren",
+    "Dank und Wertschätzung ausdrücken",
+    "nächste Schritte planen"
+  ],
+  "words": [
+    {
+      "id": "rueckblick",
+      "de": "Rückblick",
+      "art": "der",
+      "pl": "die Rückblicke",
+      "pos": "বিশেষ্য",
+      "bn": "পেছনে ফিরে দেখা",
+      "en": "review, looking back"
+    },
+    {
+      "id": "weg",
+      "de": "Weg",
+      "art": "der",
+      "pl": "die Wege",
+      "pos": "বিশেষ্য",
+      "bn": "পথ",
+      "en": "way, path"
+    },
+    {
+      "id": "stolz",
+      "de": "stolz",
+      "pos": "বিশেষণ",
+      "bn": "গর্বিত",
+      "en": "proud"
+    },
+    {
+      "id": "dankbar",
+      "de": "dankbar",
+      "pos": "বিশেষণ",
+      "bn": "কৃতজ্ঞ",
+      "en": "grateful"
+    },
+    {
+      "id": "mut",
+      "de": "Mut",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "সাহস",
+      "en": "courage"
+    },
+    {
+      "id": "unterstuetzung",
+      "de": "Unterstützung",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "সহায়তা",
+      "en": "support"
+    },
+    {
+      "id": "bewaeltigen",
+      "de": "bewältigen",
+      "pos": "ক্রিয়া · hat bewältigt",
+      "bn": "সামলানো, উতরে যাওয়া",
+      "en": "to cope with, to manage"
+    },
+    {
+      "id": "herausforderung",
+      "de": "Herausforderung",
+      "art": "die",
+      "pl": "die Herausforderungen",
+      "pos": "বিশেষ্য",
+      "bn": "চ্যালেঞ্জ",
+      "en": "challenge"
+    },
+    {
+      "id": "weitermachen",
+      "de": "weitermachen",
+      "pos": "ক্রিয়া · hat weitergemacht",
+      "bn": "চালিয়ে যাওয়া",
+      "en": "to carry on"
+    },
+    {
+      "id": "anfang",
+      "de": "Anfang",
+      "art": "der",
+      "pl": "die Anfänge",
+      "pos": "বিশেষ্য",
+      "bn": "শুরু",
+      "en": "beginning"
+    },
+    {
+      "id": "ergebnis",
+      "de": "Ergebnis",
+      "art": "das",
+      "pl": "die Ergebnisse",
+      "pos": "বিশেষ্য",
+      "bn": "ফলাফল",
+      "en": "result"
+    },
+    {
+      "id": "erfolg",
+      "de": "Erfolg",
+      "art": "der",
+      "pl": "die Erfolge",
+      "pos": "বিশেষ্য",
+      "bn": "সফলতা",
+      "en": "success"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Lena",
+      "bn": [
+        "সাহেব,",
+        "তুমি",
+        "যখন",
+        "প্রথম",
+        "এসেছিলে,",
+        "তখন",
+        "তুমি",
+        "„Guten",
+        "Tag“",
+        "বলতেও",
+        "ভয়",
+        "পেতে।",
+        "আজ",
+        "তুমি",
+        "লম্বা",
+        "আলাপ",
+        "করো।",
+        "তুমি",
+        "কী",
+        "মনে",
+        "করো?"
+      ],
+      "en": [
+        "Saheb,",
+        "when",
+        "you",
+        "first",
+        "arrived",
+        "you",
+        "were",
+        "even",
+        "afraid",
+        "to",
+        "say",
+        "“Guten",
+        "Tag”.",
+        "Today",
+        "you",
+        "have",
+        "long",
+        "conversations.",
+        "What",
+        "do",
+        "you",
+        "think?"
+      ],
+      "de": [
+        {
+          "t": "Saheb,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Saheb",
+          "gb": "সাহেব",
+          "ge": "Saheb",
+          "n": ""
+        },
+        {
+          "t": "als du ankamst,",
+          "b": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "e": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "l": "als du ankamst",
+          "gb": "তুমি যখন প্রথম এসেছিলে",
+          "ge": "when you first arrived",
+          "n": ""
+        },
+        {
+          "t": "hattest du sogar Angst,",
+          "b": [
+            5,
+            6,
+            10,
+            11
+          ],
+          "e": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "l": "hattest du sogar Angst",
+          "gb": "তখন তুমি ভয় পেতে",
+          "ge": "you were even afraid",
+          "n": ""
+        },
+        {
+          "t": "„Guten Tag“ zu sagen.",
+          "b": [
+            7,
+            8,
+            9
+          ],
+          "e": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "l": "„Guten Tag“ zu sagen",
+          "gb": "„Guten Tag“ বলতেও",
+          "ge": "to say “Guten Tag”",
+          "n": ""
+        },
+        {
+          "t": "Heute führst du",
+          "b": [
+            12,
+            13
+          ],
+          "e": [
+            13,
+            14,
+            15
+          ],
+          "l": "Heute führst du",
+          "gb": "আজ তুমি",
+          "ge": "Today you have",
+          "n": ""
+        },
+        {
+          "t": "lange Gespräche.",
+          "b": [
+            14,
+            15,
+            16
+          ],
+          "e": [
+            16,
+            17
+          ],
+          "l": "lange Gespräche",
+          "gb": "লম্বা আলাপ করো",
+          "ge": "long conversations",
+          "n": ""
+        },
+        {
+          "t": "Was denkst du?",
+          "b": [
+            17,
+            18,
+            19,
+            20
+          ],
+          "e": [
+            18,
+            19,
+            20,
+            21
+          ],
+          "l": "Was denkst du",
+          "gb": "তুমি কী মনে করো",
+          "ge": "What do you think",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "গর্বিত,",
+        "আবার",
+        "কৃতজ্ঞও।",
+        "কত",
+        "জনের",
+        "সাহায্য",
+        "পেয়েছি:",
+        "শিক্ষক,",
+        "বন্ধু,",
+        "প্রতিবেশী।",
+        "তারা",
+        "আমাকে",
+        "ধৈর্য",
+        "ধরে",
+        "শুনেছে।"
+      ],
+      "en": [
+        "I",
+        "am",
+        "proud",
+        "and",
+        "grateful",
+        "too.",
+        "I",
+        "received",
+        "so",
+        "much",
+        "help",
+        "from",
+        "people:",
+        "teachers,",
+        "friends,",
+        "neighbours.",
+        "They",
+        "listened",
+        "to",
+        "me",
+        "patiently."
+      ],
+      "de": [
+        {
+          "t": "Ich bin stolz",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "Ich bin stolz",
+          "gb": "আমি গর্বিত",
+          "ge": "I am proud",
+          "n": ""
+        },
+        {
+          "t": "und auch dankbar.",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            3,
+            4,
+            5
+          ],
+          "l": "und auch dankbar",
+          "gb": "আবার কৃতজ্ঞও",
+          "ge": "and grateful too",
+          "n": ""
+        },
+        {
+          "t": "Ich habe so viel Hilfe bekommen:",
+          "b": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "e": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "l": "Ich habe so viel Hilfe bekommen",
+          "gb": "কত জনের সাহায্য পেয়েছি",
+          "ge": "I received so much help",
+          "n": ""
+        },
+        {
+          "t": "von Lehrern, Freunden, Nachbarn.",
+          "b": [
+            8,
+            9,
+            10
+          ],
+          "e": [
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "l": "von Lehrern Freunden Nachbarn",
+          "gb": "শিক্ষক বন্ধু প্রতিবেশী",
+          "ge": "from people teachers friends neighbours",
+          "n": ""
+        },
+        {
+          "t": "Sie haben mir",
+          "b": [
+            11,
+            12
+          ],
+          "e": [
+            16,
+            17,
+            18,
+            19
+          ],
+          "l": "Sie haben mir",
+          "gb": "তারা আমাকে",
+          "ge": "They listened to me",
+          "n": ""
+        },
+        {
+          "t": "geduldig zugehört.",
+          "b": [
+            13,
+            14,
+            15
+          ],
+          "e": [
+            20
+          ],
+          "l": "geduldig zugehört",
+          "gb": "ধৈর্য ধরে শুনেছে",
+          "ge": "patiently",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "সবচেয়ে",
+        "কঠিন",
+        "কী",
+        "ছিল?"
+      ],
+      "en": [
+        "What",
+        "was",
+        "the",
+        "hardest?"
+      ],
+      "de": [
+        {
+          "t": "Was war",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Was war",
+          "gb": "কী ছিল",
+          "ge": "What was",
+          "n": ""
+        },
+        {
+          "t": "am schwersten?",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "am schwersten",
+          "gb": "সবচেয়ে কঠিন",
+          "ge": "the hardest",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "প্রথম",
+        "মাসগুলোয়",
+        "আমি",
+        "কিছুই",
+        "বুঝতাম",
+        "না।",
+        "আমি",
+        "দোকানে,",
+        "ডাক্তারের",
+        "কাছে,",
+        "অফিসে",
+        "ভয়",
+        "পেতাম।",
+        "এখন",
+        "আমি",
+        "জানি,",
+        "ভুল",
+        "করা",
+        "স্বাভাবিক।",
+        "ভুল",
+        "না",
+        "করলে",
+        "আমি",
+        "কখনো",
+        "শিখতাম",
+        "না।"
+      ],
+      "en": [
+        "In",
+        "the",
+        "first",
+        "months",
+        "I",
+        "understood",
+        "nothing.",
+        "I",
+        "was",
+        "afraid",
+        "in",
+        "shops,",
+        "at",
+        "the",
+        "doctor’s,",
+        "in",
+        "offices.",
+        "Now",
+        "I",
+        "know",
+        "that",
+        "making",
+        "mistakes",
+        "is",
+        "normal.",
+        "If",
+        "I",
+        "had",
+        "not",
+        "made",
+        "mistakes",
+        "I",
+        "would",
+        "never",
+        "have",
+        "learned."
+      ],
+      "de": [
+        {
+          "t": "In den ersten Monaten",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "l": "In den ersten Monaten",
+          "gb": "প্রথম মাসগুলোয়",
+          "ge": "In the first months",
+          "n": ""
+        },
+        {
+          "t": "habe ich nichts verstanden.",
+          "b": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "e": [
+            4,
+            5,
+            6
+          ],
+          "l": "habe ich nichts verstanden",
+          "gb": "আমি কিছুই বুঝতাম না",
+          "ge": "I understood nothing",
+          "n": ""
+        },
+        {
+          "t": "Im Laden, beim Arzt,",
+          "b": [
+            7,
+            8,
+            9
+          ],
+          "e": [
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "l": "Im Laden beim Arzt",
+          "gb": "দোকানে ডাক্তারের কাছে",
+          "ge": "in shops at the doctor’s",
+          "n": ""
+        },
+        {
+          "t": "im Amt hatte ich Angst.",
+          "b": [
+            10,
+            11,
+            12
+          ],
+          "e": [
+            15,
+            16
+          ],
+          "l": "im Amt hatte ich Angst",
+          "gb": "অফিসে ভয় পেতাম",
+          "ge": "in offices",
+          "n": ""
+        },
+        {
+          "t": "Jetzt weiß ich:",
+          "b": [
+            13,
+            6,
+            15
+          ],
+          "e": [
+            17,
+            7,
+            19
+          ],
+          "l": "Jetzt weiß ich",
+          "gb": "এখন আমি জানি",
+          "ge": "Now I know",
+          "n": ""
+        },
+        {
+          "t": "Fehler sind normal.",
+          "b": [
+            16,
+            17,
+            18
+          ],
+          "e": [
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "l": "Fehler sind normal",
+          "gb": "ভুল করা স্বাভাবিক",
+          "ge": "that making mistakes is normal",
+          "n": ""
+        },
+        {
+          "t": "Ohne Fehler",
+          "b": [
+            19,
+            20,
+            21
+          ],
+          "e": [
+            25,
+            18,
+            27,
+            28,
+            29,
+            30
+          ],
+          "l": "Ohne Fehler",
+          "gb": "ভুল না করলে",
+          "ge": "If I had not made mistakes",
+          "n": ""
+        },
+        {
+          "t": "hätte ich nie gelernt.",
+          "b": [
+            14,
+            23,
+            24,
+            25
+          ],
+          "e": [
+            26,
+            32,
+            33,
+            34,
+            35
+          ],
+          "l": "hätte ich nie gelernt",
+          "gb": "আমি কখনো শিখতাম না",
+          "ge": "I would never have learned",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "আমাদের",
+        "সবার",
+        "জন্যই",
+        "সেটা",
+        "সত্যি।",
+        "আর",
+        "পরের",
+        "ধাপ",
+        "কী?"
+      ],
+      "en": [
+        "That",
+        "is",
+        "true",
+        "for",
+        "all",
+        "of",
+        "us.",
+        "And",
+        "what",
+        "is",
+        "the",
+        "next",
+        "step?"
+      ],
+      "de": [
+        {
+          "t": "Das stimmt für uns alle.",
+          "b": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "e": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "l": "Das stimmt für uns alle",
+          "gb": "আমাদের সবার জন্যই সেটা সত্যি",
+          "ge": "That is true for all of us",
+          "n": ""
+        },
+        {
+          "t": "Und was ist",
+          "b": [
+            5,
+            8
+          ],
+          "e": [
+            7,
+            8,
+            9
+          ],
+          "l": "Und was ist",
+          "gb": "আর কী",
+          "ge": "And what is",
+          "n": ""
+        },
+        {
+          "t": "der nächste Schritt?",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            10,
+            11,
+            12
+          ],
+          "l": "der nächste Schritt",
+          "gb": "পরের ধাপ",
+          "ge": "the next step",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "বি-ওয়ান",
+        "পরীক্ষা",
+        "দেব।",
+        "তারপর",
+        "আমি",
+        "চাই",
+        "আমার",
+        "কাজের",
+        "সাথে",
+        "মিলিয়ে",
+        "আরও",
+        "উঁচু",
+        "স্তরে",
+        "শিখতে,",
+        "কারণ",
+        "অনেক",
+        "পেশায়",
+        "বি-টু",
+        "দরকার",
+        "হয়।",
+        "আর",
+        "আমি",
+        "আমার",
+        "সম্প্রদায়ের",
+        "নতুনদের",
+        "সাহায্য",
+        "করতে",
+        "চাই।"
+      ],
+      "en": [
+        "I",
+        "will",
+        "take",
+        "the",
+        "B1",
+        "exam.",
+        "Then",
+        "I",
+        "want",
+        "to",
+        "learn",
+        "at",
+        "a",
+        "higher",
+        "level",
+        "that",
+        "fits",
+        "my",
+        "work,",
+        "because",
+        "many",
+        "professions",
+        "require",
+        "B2.",
+        "And",
+        "I",
+        "want",
+        "to",
+        "help",
+        "newcomers",
+        "in",
+        "my",
+        "community."
+      ],
+      "de": [
+        {
+          "t": "Ich mache die B1-Prüfung.",
+          "b": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "e": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "l": "Ich mache die B1-Prüfung",
+          "gb": "আমি বি-ওয়ান পরীক্ষা দেব",
+          "ge": "I will take the B1 exam",
+          "n": ""
+        },
+        {
+          "t": "Danach möchte ich",
+          "b": [
+            4,
+            5,
+            6
+          ],
+          "e": [
+            6,
+            7,
+            8
+          ],
+          "l": "Danach möchte ich",
+          "gb": "তারপর আমি চাই",
+          "ge": "Then I want",
+          "n": ""
+        },
+        {
+          "t": "auf einem höheren Niveau lernen,",
+          "b": [
+            11,
+            12,
+            13,
+            14
+          ],
+          "e": [
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "l": "auf einem höheren Niveau lernen",
+          "gb": "আরও উঁচু স্তরে শিখতে",
+          "ge": "to learn at a higher level",
+          "n": ""
+        },
+        {
+          "t": "passend zu meiner Arbeit,",
+          "b": [
+            7,
+            8,
+            9,
+            10
+          ],
+          "e": [
+            15,
+            16,
+            17,
+            18
+          ],
+          "l": "passend zu meiner Arbeit",
+          "gb": "আমার কাজের সাথে মিলিয়ে",
+          "ge": "that fits my work",
+          "n": ""
+        },
+        {
+          "t": "denn in vielen Berufen",
+          "b": [
+            15,
+            16,
+            17
+          ],
+          "e": [
+            19,
+            20,
+            21
+          ],
+          "l": "denn in vielen Berufen",
+          "gb": "কারণ অনেক পেশায়",
+          "ge": "because many professions",
+          "n": ""
+        },
+        {
+          "t": "braucht man B2.",
+          "b": [
+            18,
+            19,
+            20
+          ],
+          "e": [
+            22,
+            23
+          ],
+          "l": "braucht man B2",
+          "gb": "বি-টু দরকার হয়",
+          "ge": "require B2",
+          "n": ""
+        },
+        {
+          "t": "Und ich möchte",
+          "b": [
+            21,
+            22,
+            28
+          ],
+          "e": [
+            24,
+            25,
+            26
+          ],
+          "l": "Und ich möchte",
+          "gb": "আর আমি চাই",
+          "ge": "And I want",
+          "n": ""
+        },
+        {
+          "t": "Neuen in meiner Gemeinschaft helfen.",
+          "b": [
+            23,
+            24,
+            25,
+            26,
+            27
+          ],
+          "e": [
+            27,
+            28,
+            29,
+            30,
+            31,
+            32
+          ],
+          "l": "Neuen in meiner Gemeinschaft helfen",
+          "gb": "আমার সম্প্রদায়ের নতুনদের সাহায্য করতে",
+          "ge": "to help newcomers in my community",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "চমৎকার।",
+        "যে",
+        "সাহায্য",
+        "পায়,",
+        "সে",
+        "পরে",
+        "সাহায্য",
+        "করে।",
+        "এটাই",
+        "সম্প্রদায়।",
+        "আমি",
+        "তোমার",
+        "জন্য",
+        "গর্বিত।"
+      ],
+      "en": [
+        "Wonderful.",
+        "Those",
+        "who",
+        "receive",
+        "help",
+        "later",
+        "give",
+        "help",
+        "—",
+        "that",
+        "is",
+        "community.",
+        "I",
+        "am",
+        "proud",
+        "of",
+        "you."
+      ],
+      "de": [
+        {
+          "t": "Wunderbar.",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Wunderbar",
+          "gb": "চমৎকার",
+          "ge": "Wonderful",
+          "n": ""
+        },
+        {
+          "t": "Wer Hilfe bekommt,",
+          "b": [
+            1,
+            2,
+            3
+          ],
+          "e": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "l": "Wer Hilfe bekommt",
+          "gb": "যে সাহায্য পায়",
+          "ge": "Those who receive help",
+          "n": ""
+        },
+        {
+          "t": "hilft später anderen —",
+          "b": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "e": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "l": "hilft später anderen —",
+          "gb": "সে পরে সাহায্য করে",
+          "ge": "later give help —",
+          "n": ""
+        },
+        {
+          "t": "das ist Gemeinschaft.",
+          "b": [
+            8,
+            9
+          ],
+          "e": [
+            9,
+            10,
+            11
+          ],
+          "l": "das ist Gemeinschaft",
+          "gb": "এটাই সম্প্রদায়",
+          "ge": "that is community",
+          "n": ""
+        },
+        {
+          "t": "Ich bin stolz auf dich.",
+          "b": [
+            10,
+            11,
+            12,
+            13
+          ],
+          "e": [
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "l": "Ich bin stolz auf dich",
+          "gb": "আমি তোমার জন্য গর্বিত",
+          "ge": "I am proud of you",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "ধন্যবাদ,",
+        "লেনা।",
+        "আমি",
+        "যা",
+        "করেছি,",
+        "তা",
+        "তোমাদের",
+        "সবার",
+        "সাহায্যে",
+        "সম্ভব",
+        "হয়েছে।",
+        "এখন",
+        "নতুন",
+        "একটা",
+        "অধ্যায়",
+        "শুরু",
+        "হচ্ছে।"
+      ],
+      "en": [
+        "Thank",
+        "you,",
+        "Lena.",
+        "What",
+        "I",
+        "have",
+        "done",
+        "was",
+        "possible",
+        "thanks",
+        "to",
+        "all",
+        "of",
+        "your",
+        "help.",
+        "Now",
+        "a",
+        "new",
+        "chapter",
+        "is",
+        "beginning."
+      ],
+      "de": [
+        {
+          "t": "Danke, Lena.",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "Danke Lena",
+          "gb": "ধন্যবাদ লেনা",
+          "ge": "Thank you Lena",
+          "n": ""
+        },
+        {
+          "t": "Was ich geschafft habe,",
+          "b": [
+            2,
+            3,
+            4
+          ],
+          "e": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "l": "Was ich geschafft habe",
+          "gb": "আমি যা করেছি",
+          "ge": "What I have done",
+          "n": ""
+        },
+        {
+          "t": "war nur mit eurer Hilfe möglich.",
+          "b": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "e": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "l": "war nur mit eurer Hilfe möglich",
+          "gb": "তোমাদের সবার সাহায্যে সম্ভব হয়েছে",
+          "ge": "was possible thanks to all of your help",
+          "n": ""
+        },
+        {
+          "t": "Jetzt beginnt",
+          "b": [
+            11,
+            15,
+            16
+          ],
+          "e": [
+            15
+          ],
+          "l": "Jetzt beginnt",
+          "gb": "এখন শুরু হচ্ছে",
+          "ge": "Now",
+          "n": ""
+        },
+        {
+          "t": "ein neues Kapitel.",
+          "b": [
+            12,
+            13,
+            14
+          ],
+          "e": [
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "l": "ein neues Kapitel",
+          "gb": "নতুন একটা অধ্যায়",
+          "ge": "a new chapter is beginning",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "Rückblick: Vergangenheitsformen",
+      "head": [
+        "Form",
+        "Verwendung",
+        "Beispiel"
+      ],
+      "rows": [
+        [
+          "Perfekt",
+          "gesprochen, Ergebnisse",
+          "Ich habe viel gelernt."
+        ],
+        [
+          "Präteritum",
+          "schriftlich, sein/haben/Modal",
+          "Es war schwer. Ich hatte Angst. Ich wollte aufgeben."
+        ],
+        [
+          "Plusquamperfekt",
+          "Vorvergangenheit",
+          "Bevor ich ankam, hatte ich nie Deutsch gelernt."
+        ]
+      ],
+      "note": "রোজকার কথায় Perfekt; গল্প ও ঘটনার বর্ণনায় Präteritum; আগের ঘটনার জন্য Plusquamperfekt।"
+    },
+    {
+      "type": "table",
+      "title": "Konjunktiv II der Vergangenheit",
+      "head": [
+        "Funktion",
+        "Beispiel"
+      ],
+      "rows": [
+        [
+          "Irreal",
+          "Wenn ich keine Fehler gemacht hätte, hätte ich nie gelernt."
+        ],
+        [
+          "Bedauern",
+          "Ich hätte früher anfangen sollen."
+        ],
+        [
+          "Dank",
+          "Ohne eure Hilfe hätte ich es nicht geschafft."
+        ],
+        [
+          "Vermutung",
+          "Es wäre schwerer gewesen, wenn ich allein gewesen wäre."
+        ]
+      ],
+      "note": "hätte / wäre + Partizip II। অতীতের অবাস্তব শর্ত ও আফসোস প্রকাশের জন্য।"
+    },
+    {
+      "type": "table",
+      "title": "Danke sagen und Wertschätzung zeigen",
+      "head": [
+        "Situation",
+        "Formulierung"
+      ],
+      "rows": [
+        [
+          "Dank",
+          "Vielen Dank für Ihre Unterstützung. / Ich bin Ihnen sehr dankbar."
+        ],
+        [
+          "Wertschätzung",
+          "Ich schätze Ihre Hilfe sehr."
+        ],
+        [
+          "Anerkennung",
+          "Ich bin stolz auf dich / auf euch."
+        ],
+        [
+          "Abschied",
+          "Alles Gute für die Zukunft! / Bis bald!"
+        ],
+        [
+          "Ermutigung",
+          "Bleib dran! / Du schaffst das!"
+        ]
+      ],
+      "note": "কৃতজ্ঞতা জানানো সম্পর্ক মজবুত করে। ইমেইলে: „Herzlichen Dank für Ihre Hilfe.“"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "der Rückblick",
+      "options": [
+        "সহায়তা",
+        "চ্যালেঞ্জ",
+        "পেছনে ফিরে দেখা",
+        "শুরু"
+      ],
+      "answer": 2,
+      "why": "der Rückblick = পেছনে ফিরে দেখা।",
+      "word": "rueckblick"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "die Herausforderung",
+      "options": [
+        "সফলতা",
+        "চ্যালেঞ্জ",
+        "গর্বিত",
+        "সহায়তা"
+      ],
+      "answer": 1,
+      "why": "die Herausforderung = চ্যালেঞ্জ।",
+      "word": "herausforderung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "dankbar",
+      "options": [
+        "কৃতজ্ঞ",
+        "ফলাফল",
+        "পথ",
+        "সহায়তা"
+      ],
+      "answer": 0,
+      "why": "dankbar = কৃতজ্ঞ।",
+      "word": "dankbar"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Erfolg",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 0,
+      "why": "der Erfolg। বহুবচন: die Erfolge।",
+      "word": "erfolg"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ohne eure Hilfe ___ ich es nicht geschafft.",
+      "options": [
+        "hätte",
+        "wäre",
+        "habe",
+        "hatte"
+      ],
+      "answer": 0,
+      "why": "Konjunktiv II der Vergangenheit।",
+      "word": "mut"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Wie sagt man „আমি গর্বিত“?",
+      "options": [
+        "Ich bin stolz.",
+        "Ich bin traurig.",
+        "Ich bin müde.",
+        "Ich bin hungrig."
+      ],
+      "answer": 0,
+      "why": "stolz।",
+      "word": "stolz"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„weitermachen“ bedeutet …",
+      "options": [
+        "চালিয়ে যাওয়া",
+        "থেমে যাওয়া",
+        "ফেরত যাওয়া",
+        "দুঃখ পাওয়া"
+      ],
+      "answer": 0,
+      "why": "weitermachen।",
+      "word": "weitermachen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Vorvergangenheit: „Bevor ich ankam, ___ ich nie Deutsch gelernt.“",
+      "options": [
+        "hatte",
+        "habe",
+        "war",
+        "wurde"
+      ],
+      "answer": 0,
+      "why": "Plusquamperfekt: hatte + PP।",
+      "word": "anfang"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Welche Aussage ist ein Dank?",
+      "options": [
+        "Ich bin Ihnen sehr dankbar.",
+        "Das ist mir egal.",
+        "Ich habe keine Zeit.",
+        "Das ist falsch."
+      ],
+      "answer": 0,
+      "why": "Wertschätzung।",
+      "word": "unterstuetzung"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „আমি আপনার প্রতি অত্যন্ত কৃতজ্ঞ।“",
+      "tiles": [
+        "sehr",
+        "Ich bin",
+        "dankbar.",
+        "Ihnen"
+      ],
+      "answer": [
+        "Ich bin",
+        "Ihnen",
+        "sehr",
+        "dankbar."
+      ],
+      "why": "dankbar + Dativ।",
+      "word": "ergebnis"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}
