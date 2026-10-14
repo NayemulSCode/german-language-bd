@@ -79,7 +79,7 @@ Clips already in the manifest are kept, so reruns only do new text. Until clips 
 
 - **Phase 0 (done):** React/Vite app, lesson JSON schema + validator, Lesson 1 converted, PWA.
 - **Phase 1 (content done, audio pending):** audio pipeline built; all of A1 (Units 1–10, 40 lessons) written as drafts. Still to do: run the "Build audio" workflow, native-speaker review.
-- **Phase 2 (login and sync built, needs your Supabase project):** Supabase auth (Google/email) and progress sync. Done: spaced-repetition review, placement test. Still to do: A1 mock exam.
+- **Phase 2 (login and sync built, needs your Supabase project):** Supabase auth (Google/email) and progress sync. Done: spaced-repetition review, placement test, A1 mock exam (`exams/`, validated by `npm run validate`; add `a1-mock-02.json` etc. for more).
 - **Phase 3–4:** A2 and B1 content, listening/reading/writing/speaking exercise types, leaderboard.
 - **Later:** move the database to a self-hosted server once there is an audience (Postgres dump/restore; only the storage adapter changes).
 
