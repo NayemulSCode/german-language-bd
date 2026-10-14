@@ -63,7 +63,7 @@ export function loadRecords(): Record<string, ExamRecord> {
     const raw = JSON.parse(localStorage.getItem(KEY) || '{}') as Record<string, Partial<ExamRecord>>
     const out: Record<string, ExamRecord> = {}
     for (const [id, r] of Object.entries(raw)) {
-      if (!/^a1-mock-\d{2}$/.test(id) || !r) continue
+      if (!/^a[12]-mock-\d{2}$/.test(id) || !r) continue
       const n = (x: unknown) => (typeof x === 'number' && Number.isFinite(x) && x >= 0 ? x : 0)
       out[id] = { best: Math.min(1, n(r.best)), last: Math.min(1, n(r.last)), attempts: Math.floor(n(r.attempts)), at: n(r.at) }
     }

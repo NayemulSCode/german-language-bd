@@ -1,7 +1,7 @@
 import { z } from 'zod'
 import { Question } from './lesson'
 
-/** A mock exam modelled on the structure of Goethe-Zertifikat Start Deutsch 1 (Hören, Lesen, Schreiben, Sprechen). Not an official test. */
+/** A mock exam modelled on the structure of Goethe-Zertifikat Start Deutsch 1 / Goethe A2 (Hören, Lesen, Schreiben, Sprechen). Not an official test. */
 const Part = z.object({
   kind: z.enum(['hoeren', 'lesen']),
   title: z.string(), // Bangla
@@ -26,8 +26,8 @@ const Speaking = z.object({
 })
 
 export const Exam = z.object({
-  id: z.string().regex(/^a1-mock-\d{2}$/, 'e.g. a1-mock-01'),
-  level: z.literal('A1'),
+  id: z.string().regex(/^a[12]-mock-\d{2}$/, 'e.g. a2-mock-01'),
+  level: z.enum(['A1', 'A2']),
   title: z.object({ de: z.string(), bn: z.string(), en: z.string() }),
   passMark: z.number().min(0).max(1).default(0.6),
   parts: z.array(Part).min(2),

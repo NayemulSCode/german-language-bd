@@ -49,7 +49,7 @@ export function CourseScreen() {
       <div className="eyebrow bn">কোর্স ম্যাপ</div>
       <h1 style={{ fontSize: 30, marginTop: 4 }}>শূন্য থেকে B1</h1>
       <a className="btn sm ghost bn" href="#placement" style={{ marginTop: 12 }}>{progress.placed ? 'প্লেসমেন্ট টেস্ট আবার দিন' : 'কোথা থেকে শুরু করবেন? প্লেসমেন্ট টেস্ট'}</a>
-      {level === 'A1' && EXAMS.map((ex) => {
+      {EXAMS.filter((ex) => ex.level === level).map((ex) => {
         const rec = loadRecords()[ex.id]
         return (
           <a key={ex.id} className="card row" href={`#exam/${ex.id}`} style={{ textDecoration: 'none', marginTop: 12 }}>
@@ -127,12 +127,12 @@ export function CourseScreen() {
           </div>
         ))}
 
-        <div className="card exam">
+        {!EXAMS.some((ex) => ex.level === level) && <div className="card exam">
           <div className="eyebrow bn">লেভেলের শেষে</div>
           <h3 style={{ fontSize: 20, marginTop: 4 }}>{level} মক এক্সাম</h3>
           <p className="muted bn" style={{ margin: '4px 0 0' }}>Goethe-Zertifikat {level}-এর ফরম্যাট ধরে পূর্ণ পরীক্ষা। সব ইউনিট শেষ হলে খুলবে — এটি শীঘ্রই আসছে।</p>
           <div className="mods"><span>Lesen</span><span>Hören</span><span>Schreiben</span><span>Sprechen</span></div>
-        </div>
+        </div>}
       </div>
 
       {sheet && <LessonSheet lesson={sheet} done={states.get(sheet.id) === 'done'} onClose={() => setSheet(null)} />}
