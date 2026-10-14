@@ -1,0 +1,1589 @@
+{
+  "level": "B1",
+  "unit": 10,
+  "minutes": 18,
+  "lesson": 1,
+  "id": "b1-u10-l01",
+  "title": {
+    "de": "Deutsche Geschichte im Überblick",
+    "bn": "জার্মান ইতিহাসের সংক্ষিপ্ত চিত্র",
+    "en": "German history in outline"
+  },
+  "hook": {
+    "de": "Wer die Vergangenheit nicht kennt, versteht die Gegenwart nicht.",
+    "who": "Redensart",
+    "bn": "অতীত না জানলে বর্তমান বোঝা যায় না।",
+    "en": "Without the past, the present makes no sense."
+  },
+  "goals": [
+    "Jahreszahlen und Epochen nennen",
+    "Präteritum: war, hatte, wurde, gab",
+    "Passiv Präteritum: wurde gegründet",
+    "über Vergangenes berichten"
+  ],
+  "words": [
+    {
+      "id": "geschichte",
+      "de": "Geschichte",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "ইতিহাস; গল্প",
+      "en": "history; story"
+    },
+    {
+      "id": "jahrhundert",
+      "de": "Jahrhundert",
+      "art": "das",
+      "pl": "die Jahrhunderte",
+      "pos": "বিশেষ্য",
+      "bn": "শতাব্দী",
+      "en": "century"
+    },
+    {
+      "id": "krieg",
+      "de": "Krieg",
+      "art": "der",
+      "pl": "die Kriege",
+      "pos": "বিশেষ্য",
+      "bn": "যুদ্ধ",
+      "en": "war"
+    },
+    {
+      "id": "frieden",
+      "de": "Frieden",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "শান্তি",
+      "en": "peace"
+    },
+    {
+      "id": "kaiser",
+      "de": "Kaiser",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "সম্রাট",
+      "en": "emperor"
+    },
+    {
+      "id": "republik",
+      "de": "Republik",
+      "art": "die",
+      "pl": "die Republiken",
+      "pos": "বিশেষ্য",
+      "bn": "প্রজাতন্ত্র",
+      "en": "republic"
+    },
+    {
+      "id": "gruenden",
+      "de": "gründen",
+      "pos": "ক্রিয়া · hat gegründet",
+      "bn": "প্রতিষ্ঠা করা",
+      "en": "to found"
+    },
+    {
+      "id": "verfassung",
+      "de": "Verfassung",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "সংবিধান",
+      "en": "constitution"
+    },
+    {
+      "id": "grundgesetz",
+      "de": "Grundgesetz",
+      "art": "das",
+      "pos": "বিশেষ্য",
+      "bn": "জার্মানির মূল আইন (Basic Law)",
+      "en": "Basic Law"
+    },
+    {
+      "id": "epoche",
+      "de": "Epoche",
+      "art": "die",
+      "pl": "die Epochen",
+      "pos": "বিশেষ্য",
+      "bn": "যুগ",
+      "en": "era"
+    },
+    {
+      "id": "erinnerung",
+      "de": "Erinnerung",
+      "art": "die",
+      "pl": "die Erinnerungen",
+      "pos": "বিশেষ্য",
+      "bn": "স্মৃতি; স্মরণ",
+      "en": "memory; remembrance"
+    },
+    {
+      "id": "zeitzeuge",
+      "de": "Zeitzeuge",
+      "art": "der",
+      "pl": "die Zeitzeugen",
+      "pos": "বিশেষ্য",
+      "bn": "প্রত্যক্ষদর্শী",
+      "en": "eyewitness (of an era)"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Saheb",
+      "bn": [
+        "ফ্রাউ",
+        "হফম্যান,",
+        "আমি",
+        "জার্মান",
+        "ইতিহাস",
+        "সম্পর্কে",
+        "একটু",
+        "জানতে",
+        "চাই।",
+        "কোথা",
+        "থেকে",
+        "শুরু",
+        "করব?"
+      ],
+      "en": [
+        "Frau",
+        "Hoffmann,",
+        "I",
+        "would",
+        "like",
+        "to",
+        "learn",
+        "a",
+        "little",
+        "about",
+        "German",
+        "history.",
+        "Where",
+        "should",
+        "I",
+        "start?"
+      ],
+      "de": [
+        {
+          "t": "Frau Hoffmann,",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Frau Hoffmann",
+          "gb": "ফ্রাউ হফম্যান",
+          "ge": "Frau Hoffmann",
+          "n": ""
+        },
+        {
+          "t": "ich möchte",
+          "b": [
+            2
+          ],
+          "e": [
+            2,
+            3,
+            4
+          ],
+          "l": "ich möchte",
+          "gb": "আমি",
+          "ge": "I would like",
+          "n": ""
+        },
+        {
+          "t": "etwas über die",
+          "b": [
+            3,
+            4,
+            5
+          ],
+          "e": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "l": "etwas über die",
+          "gb": "জার্মান ইতিহাস সম্পর্কে",
+          "ge": "to learn a little about",
+          "n": ""
+        },
+        {
+          "t": "deutsche Geschichte",
+          "b": [
+            6
+          ],
+          "e": [
+            10,
+            11
+          ],
+          "l": "deutsche Geschichte",
+          "gb": "একটু",
+          "ge": "German history",
+          "n": ""
+        },
+        {
+          "t": "lernen.",
+          "b": [
+            7,
+            8
+          ],
+          "e": [],
+          "l": "lernen",
+          "gb": "জানতে চাই",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Wo soll ich anfangen?",
+          "b": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "e": [
+            12,
+            13,
+            14,
+            15
+          ],
+          "l": "Wo soll ich anfangen",
+          "gb": "কোথা থেকে শুরু করব",
+          "ge": "Where should I start",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Frau Hoffmann",
+      "bn": [
+        "এটা",
+        "বিশাল",
+        "বিষয়।",
+        "খুব",
+        "সংক্ষেপে:",
+        "আজকের",
+        "জার্মানির",
+        "ইতিহাসে",
+        "অনেক",
+        "ছোট",
+        "রাজ্য",
+        "ছিল,",
+        "পরে",
+        "১৮৭১",
+        "সালে",
+        "জার্মান",
+        "সাম্রাজ্য",
+        "প্রতিষ্ঠিত",
+        "হয়েছিল।"
+      ],
+      "en": [
+        "It",
+        "is",
+        "a",
+        "huge",
+        "subject.",
+        "Very",
+        "briefly:",
+        "in",
+        "the",
+        "history",
+        "of",
+        "today’s",
+        "Germany",
+        "there",
+        "were",
+        "many",
+        "small",
+        "states,",
+        "and",
+        "in",
+        "1871",
+        "the",
+        "German",
+        "Empire",
+        "was",
+        "founded."
+      ],
+      "de": [
+        {
+          "t": "Das ist ein großes Thema.",
+          "b": [
+            0,
+            1,
+            2
+          ],
+          "e": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "l": "Das ist ein großes Thema",
+          "gb": "এটা বিশাল বিষয়",
+          "ge": "It is a huge subject",
+          "n": ""
+        },
+        {
+          "t": "Ganz kurz:",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "Ganz kurz",
+          "gb": "খুব সংক্ষেপে",
+          "ge": "Very briefly",
+          "n": ""
+        },
+        {
+          "t": "Es gab",
+          "b": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "e": [
+            13,
+            14
+          ],
+          "l": "Es gab",
+          "gb": "অনেক ছোট রাজ্য ছিল",
+          "ge": "there were",
+          "n": ""
+        },
+        {
+          "t": "viele kleine Staaten,",
+          "b": [
+            5,
+            6,
+            7
+          ],
+          "e": [
+            15,
+            16,
+            17
+          ],
+          "l": "viele kleine Staaten",
+          "gb": "আজকের জার্মানির ইতিহাসে",
+          "ge": "many small states",
+          "n": ""
+        },
+        {
+          "t": "und 1871",
+          "b": [
+            12,
+            13,
+            14
+          ],
+          "e": [
+            18,
+            7,
+            20
+          ],
+          "l": "und 1871",
+          "gb": "পরে ১৮৭১ সালে",
+          "ge": "and in 1871",
+          "n": ""
+        },
+        {
+          "t": "wurde das Deutsche Reich",
+          "b": [
+            15,
+            16
+          ],
+          "e": [
+            8,
+            22,
+            23
+          ],
+          "l": "wurde das Deutsche Reich",
+          "gb": "জার্মান সাম্রাজ্য",
+          "ge": "the German Empire",
+          "n": ""
+        },
+        {
+          "t": "gegründet.",
+          "b": [
+            17,
+            18
+          ],
+          "e": [
+            24,
+            25
+          ],
+          "l": "gründen",
+          "gb": "প্রতিষ্ঠিত হয়েছিল",
+          "ge": "was founded",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "তারপর",
+        "কী",
+        "ঘটল?"
+      ],
+      "en": [
+        "And",
+        "what",
+        "happened",
+        "then?"
+      ],
+      "de": [
+        {
+          "t": "Was passierte",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "Was passierte",
+          "gb": "কী ঘটল",
+          "ge": "what happened",
+          "n": ""
+        },
+        {
+          "t": "danach?",
+          "b": [
+            0
+          ],
+          "e": [
+            3
+          ],
+          "l": "danach",
+          "gb": "তারপর",
+          "ge": "then",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Frau Hoffmann",
+      "bn": [
+        "বিশ",
+        "শতকে",
+        "দুটি",
+        "বিশ্বযুদ্ধ",
+        "হয়েছিল,",
+        "প্রথমটি",
+        "১৯১৪",
+        "থেকে",
+        "১৯১৮",
+        "এবং",
+        "দ্বিতীয়টি",
+        "১৯৩৯",
+        "থেকে",
+        "১৯৪৫",
+        "পর্যন্ত।",
+        "দ্বিতীয়",
+        "বিশ্বযুদ্ধে",
+        "নাৎসি",
+        "শাসনের",
+        "অধীনে",
+        "বহু",
+        "মানুষ",
+        "নির্যাতিত",
+        "ও",
+        "নিহত",
+        "হয়েছিল।"
+      ],
+      "en": [
+        "In",
+        "the",
+        "twentieth",
+        "century",
+        "there",
+        "were",
+        "two",
+        "world",
+        "wars,",
+        "the",
+        "first",
+        "from",
+        "1914",
+        "to",
+        "1918",
+        "and",
+        "the",
+        "second",
+        "from",
+        "1939",
+        "to",
+        "1945.",
+        "In",
+        "the",
+        "Second",
+        "World",
+        "War,",
+        "under",
+        "Nazi",
+        "rule,",
+        "many",
+        "people",
+        "were",
+        "persecuted",
+        "and",
+        "killed."
+      ],
+      "de": [
+        {
+          "t": "Im 20. Jahrhundert",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "l": "Im 20 Jahrhundert",
+          "gb": "বিশ শতকে",
+          "ge": "In the twentieth century",
+          "n": ""
+        },
+        {
+          "t": "gab es",
+          "b": [
+            4
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "gab es",
+          "gb": "হয়েছিল",
+          "ge": "there were",
+          "n": ""
+        },
+        {
+          "t": "zwei Weltkriege:",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            6,
+            7,
+            8
+          ],
+          "l": "zwei Weltkriege",
+          "gb": "দুটি বিশ্বযুদ্ধ",
+          "ge": "two world wars",
+          "n": ""
+        },
+        {
+          "t": "den ersten",
+          "b": [
+            5
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "den ersten",
+          "gb": "প্রথমটি",
+          "ge": "the first",
+          "n": ""
+        },
+        {
+          "t": "von 1914 bis 1918",
+          "b": [
+            6,
+            7,
+            8
+          ],
+          "e": [
+            11,
+            12,
+            13,
+            14
+          ],
+          "l": "von 1914 bis 1918",
+          "gb": "১৯১৪ থেকে ১৯১৮",
+          "ge": "from 1914 to 1918",
+          "n": ""
+        },
+        {
+          "t": "und den zweiten",
+          "b": [
+            9,
+            10
+          ],
+          "e": [
+            15,
+            16,
+            17
+          ],
+          "l": "und den zweiten",
+          "gb": "এবং দ্বিতীয়টি",
+          "ge": "and the second",
+          "n": ""
+        },
+        {
+          "t": "von 1939 bis 1945.",
+          "b": [
+            11,
+            12,
+            13,
+            14
+          ],
+          "e": [
+            18,
+            19,
+            20,
+            21
+          ],
+          "l": "von 1939 bis 1945",
+          "gb": "১৯৩৯ থেকে ১৯৪৫ পর্যন্ত",
+          "ge": "from 1939 to 1945",
+          "n": ""
+        },
+        {
+          "t": "Unter der NS-Herrschaft",
+          "b": [
+            17,
+            18,
+            19
+          ],
+          "e": [
+            27,
+            28,
+            29
+          ],
+          "l": "Unter der NS-Herrschaft",
+          "gb": "নাৎসি শাসনের অধীনে",
+          "ge": "under Nazi rule",
+          "n": ""
+        },
+        {
+          "t": "wurden viele Menschen",
+          "b": [
+            20,
+            21
+          ],
+          "e": [
+            30,
+            31
+          ],
+          "l": "wurden viele Menschen",
+          "gb": "বহু মানুষ",
+          "ge": "many people",
+          "n": ""
+        },
+        {
+          "t": "verfolgt und ermordet.",
+          "b": [
+            22,
+            23,
+            24,
+            25
+          ],
+          "e": [
+            32,
+            33,
+            34,
+            35
+          ],
+          "l": "verfolgt und ermordet",
+          "gb": "নির্যাতিত ও নিহত হয়েছিল",
+          "ge": "were persecuted and killed",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "এটা",
+        "খুব",
+        "দুঃখজনক।",
+        "জার্মানি",
+        "আজ",
+        "এ",
+        "বিষয়ে",
+        "কীভাবে",
+        "ভাবে?"
+      ],
+      "en": [
+        "That",
+        "is",
+        "very",
+        "sad.",
+        "How",
+        "does",
+        "Germany",
+        "think",
+        "about",
+        "it",
+        "today?"
+      ],
+      "de": [
+        {
+          "t": "Das ist sehr traurig.",
+          "b": [
+            0,
+            1,
+            2
+          ],
+          "e": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "l": "Das ist sehr traurig",
+          "gb": "এটা খুব দুঃখজনক",
+          "ge": "That is very sad",
+          "n": ""
+        },
+        {
+          "t": "Wie geht Deutschland",
+          "b": [
+            3
+          ],
+          "e": [
+            4,
+            5,
+            6
+          ],
+          "l": "Wie geht Deutschland",
+          "gb": "জার্মানি",
+          "ge": "How does Germany",
+          "n": ""
+        },
+        {
+          "t": "heute damit um?",
+          "b": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "e": [
+            7,
+            8,
+            9,
+            10
+          ],
+          "l": "heute damit um",
+          "gb": "আজ এ বিষয়ে কীভাবে ভাবে",
+          "ge": "think about it today",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Frau Hoffmann",
+      "bn": [
+        "এই",
+        "ইতিহাস",
+        "বিদ্যালয়ে",
+        "বিস্তারিতভাবে",
+        "শেখানো",
+        "হয়।",
+        "স্মৃতিস্তম্ভ,",
+        "সংগ্রহশালা",
+        "আর",
+        "প্রত্যক্ষদর্শীদের",
+        "গল্প",
+        "দিয়ে",
+        "মানুষ",
+        "মনে",
+        "রাখে,",
+        "যাতে",
+        "এমন",
+        "কিছু",
+        "আর",
+        "না",
+        "ঘটে।"
+      ],
+      "en": [
+        "This",
+        "history",
+        "is",
+        "taught",
+        "in",
+        "detail",
+        "in",
+        "schools.",
+        "People",
+        "remember",
+        "through",
+        "memorials,",
+        "museums",
+        "and",
+        "eyewitness",
+        "accounts,",
+        "so",
+        "that",
+        "nothing",
+        "like",
+        "it",
+        "happens",
+        "again."
+      ],
+      "de": [
+        {
+          "t": "Diese Geschichte",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Diese Geschichte",
+          "gb": "এই ইতিহাস",
+          "ge": "This history",
+          "n": ""
+        },
+        {
+          "t": "wird in der Schule",
+          "b": [
+            2
+          ],
+          "e": [
+            2,
+            3,
+            4,
+            7
+          ],
+          "l": "wird in der Schule",
+          "gb": "বিদ্যালয়ে",
+          "ge": "is taught in schools",
+          "n": ""
+        },
+        {
+          "t": "ausführlich behandelt.",
+          "b": [
+            3,
+            4,
+            5
+          ],
+          "e": [
+            6,
+            5
+          ],
+          "l": "ausführlich behandelt",
+          "gb": "বিস্তারিতভাবে শেখানো হয়",
+          "ge": "in detail",
+          "n": ""
+        },
+        {
+          "t": "Mit Denkmälern, Museen",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            10,
+            11,
+            12
+          ],
+          "l": "Mit Denkmälern Museen",
+          "gb": "স্মৃতিস্তম্ভ সংগ্রহশালা",
+          "ge": "through memorials museums",
+          "n": ""
+        },
+        {
+          "t": "und Berichten von Zeitzeugen",
+          "b": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "e": [
+            13,
+            14,
+            15
+          ],
+          "l": "und Berichten von Zeitzeugen",
+          "gb": "আর প্রত্যক্ষদর্শীদের গল্প দিয়ে",
+          "ge": "and eyewitness accounts",
+          "n": ""
+        },
+        {
+          "t": "erinnert man sich,",
+          "b": [
+            12,
+            13,
+            14
+          ],
+          "e": [
+            9
+          ],
+          "l": "Erinnerung",
+          "gb": "মানুষ মনে রাখে",
+          "ge": "remember",
+          "n": ""
+        },
+        {
+          "t": "damit so etwas",
+          "b": [
+            15,
+            16,
+            17
+          ],
+          "e": [
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "l": "damit so etwas",
+          "gb": "যাতে এমন কিছু",
+          "ge": "so that nothing like it",
+          "n": ""
+        },
+        {
+          "t": "nie wieder geschieht.",
+          "b": [
+            18,
+            19,
+            20
+          ],
+          "e": [
+            21,
+            22
+          ],
+          "l": "nie wieder geschieht",
+          "gb": "আর না ঘটে",
+          "ge": "happens again",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "তারপরের",
+        "সময়",
+        "নিয়ে",
+        "আজই",
+        "আমি",
+        "আরও",
+        "জানতে",
+        "চাই।",
+        "শেষ",
+        "যুদ্ধের",
+        "পর",
+        "কী",
+        "হলো?"
+      ],
+      "en": [
+        "I",
+        "would",
+        "like",
+        "to",
+        "learn",
+        "more",
+        "about",
+        "the",
+        "time",
+        "after",
+        "that",
+        "today.",
+        "What",
+        "happened",
+        "after",
+        "the",
+        "last",
+        "war?"
+      ],
+      "de": [
+        {
+          "t": "Über die Zeit danach",
+          "b": [
+            0,
+            1,
+            2
+          ],
+          "e": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "l": "Über die Zeit danach",
+          "gb": "তারপরের সময় নিয়ে",
+          "ge": "about the time after that",
+          "n": ""
+        },
+        {
+          "t": "möchte ich heute",
+          "b": [
+            3
+          ],
+          "e": [
+            11
+          ],
+          "l": "möchte ich heute",
+          "gb": "আজই",
+          "ge": "today",
+          "n": ""
+        },
+        {
+          "t": "mehr wissen.",
+          "b": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "e": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "l": "mehr wissen",
+          "gb": "আমি আরও জানতে চাই",
+          "ge": "I would like to learn more",
+          "n": ""
+        },
+        {
+          "t": "Was geschah",
+          "b": [
+            11,
+            12
+          ],
+          "e": [
+            12,
+            13
+          ],
+          "l": "Was geschah",
+          "gb": "কী হলো",
+          "ge": "What happened",
+          "n": ""
+        },
+        {
+          "t": "nach dem Krieg?",
+          "b": [
+            8,
+            9,
+            10
+          ],
+          "e": [
+            14,
+            15,
+            16,
+            17
+          ],
+          "l": "nach dem Krieg",
+          "gb": "শেষ যুদ্ধের পর",
+          "ge": "after the last war",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Frau Hoffmann",
+      "bn": [
+        "১৯৪৯",
+        "সালে",
+        "দেশ",
+        "দুটি",
+        "রাষ্ট্রে",
+        "ভাগ",
+        "হয়েছিল:",
+        "পশ্চিমে",
+        "বুন্ডেসরেপুবলিক",
+        "এবং",
+        "পূর্বে",
+        "ডিডিআর।",
+        "পশ্চিমে",
+        "ওই",
+        "বছরই",
+        "গ্রুন্ডগেজেৎস,",
+        "অর্থাৎ",
+        "মূল",
+        "সাংবিধানিক",
+        "আইন,",
+        "কার্যকর",
+        "হয়।"
+      ],
+      "en": [
+        "In",
+        "1949",
+        "the",
+        "country",
+        "was",
+        "divided",
+        "into",
+        "two",
+        "states:",
+        "the",
+        "Federal",
+        "Republic",
+        "in",
+        "the",
+        "west",
+        "and",
+        "the",
+        "GDR",
+        "in",
+        "the",
+        "east.",
+        "In",
+        "the",
+        "west",
+        "the",
+        "Basic",
+        "Law,",
+        "the",
+        "constitution,",
+        "came",
+        "into",
+        "force",
+        "that",
+        "same",
+        "year."
+      ],
+      "de": [
+        {
+          "t": "1949 wurde das Land",
+          "b": [
+            0,
+            1,
+            2
+          ],
+          "e": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "l": "1949 wurde das Land",
+          "gb": "১৯৪৯ সালে দেশ",
+          "ge": "In 1949 the country",
+          "n": ""
+        },
+        {
+          "t": "in zwei Staaten geteilt:",
+          "b": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "e": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "l": "in zwei Staaten geteilt",
+          "gb": "দুটি রাষ্ট্রে ভাগ হয়েছিল",
+          "ge": "was divided into two states",
+          "n": ""
+        },
+        {
+          "t": "im Westen",
+          "b": [
+            7
+          ],
+          "e": [
+            12,
+            9,
+            14
+          ],
+          "l": "im Westen",
+          "gb": "পশ্চিমে",
+          "ge": "in the west",
+          "n": ""
+        },
+        {
+          "t": "die Bundesrepublik",
+          "b": [
+            8
+          ],
+          "e": [
+            13,
+            10,
+            11
+          ],
+          "l": "die Bundesrepublik",
+          "gb": "বুন্ডেসরেপুবলিক",
+          "ge": "the Federal Republic",
+          "n": ""
+        },
+        {
+          "t": "und im Osten",
+          "b": [
+            9,
+            10
+          ],
+          "e": [
+            15,
+            18,
+            16,
+            20
+          ],
+          "l": "und im Osten",
+          "gb": "এবং পূর্বে",
+          "ge": "and in the east",
+          "n": ""
+        },
+        {
+          "t": "die DDR.",
+          "b": [
+            11
+          ],
+          "e": [
+            19,
+            17
+          ],
+          "l": "die DDR",
+          "gb": "ডিডিআর",
+          "ge": "the GDR",
+          "n": ""
+        },
+        {
+          "t": "Im Westen",
+          "b": [
+            12
+          ],
+          "e": [
+            21,
+            22,
+            23
+          ],
+          "l": "Im Westen",
+          "gb": "পশ্চিমে",
+          "ge": "In the west",
+          "n": ""
+        },
+        {
+          "t": "trat im selben Jahr",
+          "b": [
+            13,
+            14
+          ],
+          "e": [
+            29,
+            30,
+            31,
+            32,
+            33,
+            34
+          ],
+          "l": "trat im selben Jahr",
+          "gb": "ওই বছরই",
+          "ge": "came into force that same year",
+          "n": ""
+        },
+        {
+          "t": "das Grundgesetz",
+          "b": [
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "e": [
+            24,
+            25,
+            26,
+            27,
+            28
+          ],
+          "l": "Grundgesetz",
+          "gb": "গ্রুন্ডগেজেৎস অর্থাৎ মূল সাংবিধানিক আইন",
+          "ge": "the Basic Law the constitution",
+          "n": ""
+        },
+        {
+          "t": "in Kraft.",
+          "b": [
+            20,
+            21
+          ],
+          "e": [],
+          "l": "in Kraft",
+          "gb": "কার্যকর হয়",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "Zeitleiste (Überblick; Details bitte prüfen)",
+      "head": [
+        "Jahr",
+        "Ereignis"
+      ],
+      "rows": [
+        [
+          "1871",
+          "Gründung des Deutschen Reichs (Kaiserreich)"
+        ],
+        [
+          "1914–1918",
+          "Erster Weltkrieg"
+        ],
+        [
+          "1919",
+          "Weimarer Republik (erste deutsche Demokratie)"
+        ],
+        [
+          "1933–1945",
+          "Nationalsozialismus; 1939–1945 Zweiter Weltkrieg"
+        ],
+        [
+          "1949",
+          "Gründung von Bundesrepublik (BRD) und DDR; Grundgesetz"
+        ],
+        [
+          "1961",
+          "Bau der Berliner Mauer (13. August)"
+        ],
+        [
+          "1989",
+          "Fall der Mauer (9. November)"
+        ],
+        [
+          "1990",
+          "Wiedervereinigung (3. Oktober)"
+        ]
+      ],
+      "note": "ইতিহাস অত্যন্ত বড় ও সংবেদনশীল বিষয়; এখানে শুধু সংক্ষিপ্ত রূপরেখা দেওয়া হলো। নির্ভরযোগ্য তথ্যের জন্য মিউজিয়াম, নির্ভরযোগ্য বই ও সরকারি শিক্ষা-সাইট (z. B. bpb.de) দেখুন।"
+    },
+    {
+      "type": "table",
+      "title": "Präteritum — wichtige Formen",
+      "head": [
+        "Infinitiv",
+        "Präteritum",
+        "Beispiel"
+      ],
+      "rows": [
+        [
+          "sein",
+          "war",
+          "Es war ein Krieg."
+        ],
+        [
+          "haben",
+          "hatte",
+          "Das Land hatte viele Staaten."
+        ],
+        [
+          "geben",
+          "gab",
+          "Es gab zwei Weltkriege."
+        ],
+        [
+          "werden",
+          "wurde",
+          "Das Reich wurde gegründet."
+        ],
+        [
+          "geschehen",
+          "geschah",
+          "Was geschah danach?"
+        ],
+        [
+          "teilen",
+          "teilte",
+          "Man teilte das Land."
+        ]
+      ],
+      "note": "গল্প, ইতিহাস ও খবর লেখায় Präteritum বেশি; কথোপকথনে Perfekt।"
+    },
+    {
+      "type": "table",
+      "title": "Passiv Präteritum",
+      "head": [
+        "Aktiv",
+        "Passiv"
+      ],
+      "rows": [
+        [
+          "Man gründete 1871 das Reich.",
+          "Das Reich wurde 1871 gegründet."
+        ],
+        [
+          "Man teilte das Land.",
+          "Das Land wurde geteilt."
+        ],
+        [
+          "Man verfolgte viele Menschen.",
+          "Viele Menschen wurden verfolgt."
+        ]
+      ],
+      "note": "wurde / wurden + Partizip II। সংখ্যাবাচক শব্দ (viele Menschen) → wurden।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "die Geschichte",
+      "options": [
+        "ইতিহাস",
+        "সম্রাট",
+        "প্রতিষ্ঠা করা",
+        "জার্মানির মূল আইন"
+      ],
+      "answer": 0,
+      "why": "die Geschichte = ইতিহাস।",
+      "word": "geschichte"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "die Verfassung",
+      "options": [
+        "শান্তি",
+        "সংবিধান",
+        "প্রতিষ্ঠা করা",
+        "স্মৃতি"
+      ],
+      "answer": 1,
+      "why": "die Verfassung = সংবিধান।",
+      "word": "verfassung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "der Zeitzeuge",
+      "options": [
+        "প্রজাতন্ত্র",
+        "জার্মানির মূল আইন",
+        "প্রত্যক্ষদর্শী",
+        "ইতিহাস"
+      ],
+      "answer": 2,
+      "why": "der Zeitzeuge = প্রত্যক্ষদর্শী।",
+      "word": "zeitzeuge"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Republik",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Republik। বহুবচন: die Republiken।",
+      "word": "republik"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Das Reich ___ 1871 gegründet.",
+      "options": [
+        "wurde",
+        "wurden",
+        "war",
+        "hat"
+      ],
+      "answer": 0,
+      "why": "das Reich → wurde।",
+      "word": "gruenden"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Viele Menschen ___ verfolgt.",
+      "options": [
+        "wurden",
+        "wurde",
+        "sind",
+        "haben"
+      ],
+      "answer": 0,
+      "why": "viele Menschen → wurden।",
+      "word": "krieg"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Wann wurde die Wiedervereinigung?",
+      "options": [
+        "1990",
+        "1961",
+        "1949",
+        "1871"
+      ],
+      "answer": 0,
+      "why": "3. Oktober 1990।",
+      "word": "epoche"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Wann wurde die Berliner Mauer gebaut?",
+      "options": [
+        "1961",
+        "1989",
+        "1945",
+        "1914"
+      ],
+      "answer": 0,
+      "why": "13. August 1961।",
+      "word": "epoche"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Grundgesetz“ ist …",
+      "options": [
+        "Verfassung der Bundesrepublik",
+        "ein Buch über Grammatik",
+        "ein Vertrag der EU",
+        "ein Kaiser"
+      ],
+      "answer": 0,
+      "why": "Verfassung seit 1949।",
+      "word": "grundgesetz"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „দেশটি দুটি রাষ্ট্রে ভাগ হয়েছিল।“",
+      "tiles": [
+        "geteilt.",
+        "in zwei Staaten",
+        "Das Land",
+        "wurde"
+      ],
+      "answer": [
+        "Das Land",
+        "wurde",
+        "in zwei Staaten",
+        "geteilt."
+      ],
+      "why": "Passiv Präteritum।",
+      "word": "frieden"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}
