@@ -1,0 +1,1562 @@
+{
+  "level": "B1",
+  "unit": 11,
+  "minutes": 18,
+  "lesson": 2,
+  "id": "b1-u11-l02",
+  "title": {
+    "de": "Kino, Bücher und Musik",
+    "bn": "সিনেমা, বই ও সংগীত",
+    "en": "Cinema, books and music"
+  },
+  "hook": {
+    "de": "Ohne Musik wäre das Leben ein Irrtum.",
+    "who": "Friedrich Nietzsche",
+    "bn": "সংগীত ছাড়া জীবন একটা ভুল হতো।",
+    "en": "Without music life would be a mistake."
+  },
+  "goals": [
+    "über Filme, Bücher, Musik sprechen",
+    "Inhalt zusammenfassen: Es geht um …",
+    "Meinung und Begründung: Ich fand den Film …, weil …",
+    "Partizip I und II als Adjektiv"
+  ],
+  "words": [
+    {
+      "id": "film",
+      "de": "Film",
+      "art": "der",
+      "pl": "die Filme",
+      "pos": "বিশেষ্য",
+      "bn": "সিনেমা",
+      "en": "film"
+    },
+    {
+      "id": "handlung",
+      "de": "Handlung",
+      "art": "die",
+      "pl": "die Handlungen",
+      "pos": "বিশেষ্য",
+      "bn": "কাহিনি (plot)",
+      "en": "plot"
+    },
+    {
+      "id": "schauspieler",
+      "de": "Schauspieler",
+      "art": "der",
+      "pl": "die Schauspieler",
+      "pos": "বিশেষ্য",
+      "bn": "অভিনেতা",
+      "en": "actor"
+    },
+    {
+      "id": "regisseur",
+      "de": "Regisseur",
+      "art": "der",
+      "pl": "die Regisseure",
+      "pos": "বিশেষ্য",
+      "bn": "পরিচালক",
+      "en": "director"
+    },
+    {
+      "id": "roman",
+      "de": "Roman",
+      "art": "der",
+      "pl": "die Romane",
+      "pos": "বিশেষ্য",
+      "bn": "উপন্যাস",
+      "en": "novel"
+    },
+    {
+      "id": "autor",
+      "de": "Autor",
+      "art": "der",
+      "pl": "die Autoren",
+      "pos": "বিশেষ্য",
+      "bn": "লেখক",
+      "en": "author"
+    },
+    {
+      "id": "spannend",
+      "de": "spannend",
+      "pos": "বিশেষণ",
+      "bn": "উত্তেজনাপূর্ণ",
+      "en": "exciting"
+    },
+    {
+      "id": "langweilig",
+      "de": "langweilig",
+      "pos": "বিশেষণ",
+      "bn": "বিরক্তিকর",
+      "en": "boring"
+    },
+    {
+      "id": "konzert",
+      "de": "Konzert",
+      "art": "das",
+      "pl": "die Konzerte",
+      "pos": "বিশেষ্য",
+      "bn": "কনসার্ট",
+      "en": "concert"
+    },
+    {
+      "id": "kritik",
+      "de": "Kritik",
+      "art": "die",
+      "pl": "die Kritiken",
+      "pos": "বিশেষ্য",
+      "bn": "সমালোচনা, রিভিউ",
+      "en": "review, criticism"
+    },
+    {
+      "id": "empfehlen",
+      "de": "empfehlen",
+      "pos": "ক্রিয়া · hat empfohlen",
+      "bn": "সুপারিশ করা",
+      "en": "to recommend"
+    },
+    {
+      "id": "untertitel",
+      "de": "Untertitel",
+      "art": "die",
+      "pos": "বিশেষ্য (বহুবচন)",
+      "bn": "সাবটাইটেল",
+      "en": "subtitles"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Tom",
+      "bn": [
+        "সাহেব,",
+        "তুমি",
+        "গতকাল",
+        "কি",
+        "সিনেমা",
+        "দেখতে",
+        "গিয়েছিলে?",
+        "আমি",
+        "শুনলাম",
+        "তুমি",
+        "নতুন",
+        "একটা",
+        "জার্মান",
+        "ছবি",
+        "দেখেছ।"
+      ],
+      "en": [
+        "Saheb,",
+        "did",
+        "you",
+        "go",
+        "to",
+        "the",
+        "cinema",
+        "yesterday?",
+        "I",
+        "heard",
+        "you",
+        "watched",
+        "a",
+        "new",
+        "German",
+        "film."
+      ],
+      "de": [
+        {
+          "t": "Saheb,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Saheb",
+          "gb": "সাহেব",
+          "ge": "Saheb",
+          "n": ""
+        },
+        {
+          "t": "warst du gestern",
+          "b": [
+            1,
+            2,
+            3
+          ],
+          "e": [
+            1,
+            2,
+            3
+          ],
+          "l": "warst du gestern",
+          "gb": "তুমি গতকাল কি",
+          "ge": "did you go",
+          "n": ""
+        },
+        {
+          "t": "im Kino?",
+          "b": [
+            4,
+            5,
+            6
+          ],
+          "e": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "l": "im Kino",
+          "gb": "সিনেমা দেখতে গিয়েছিলে",
+          "ge": "to the cinema yesterday",
+          "n": ""
+        },
+        {
+          "t": "Ich habe gehört,",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            8,
+            9
+          ],
+          "l": "Ich habe gehört",
+          "gb": "আমি শুনলাম",
+          "ge": "I heard",
+          "n": ""
+        },
+        {
+          "t": "du hast einen neuen",
+          "b": [
+            9,
+            10,
+            11
+          ],
+          "e": [
+            10,
+            11,
+            12,
+            13
+          ],
+          "l": "du hast einen neuen",
+          "gb": "তুমি নতুন একটা",
+          "ge": "you watched a new",
+          "n": ""
+        },
+        {
+          "t": "deutschen Film gesehen.",
+          "b": [
+            12,
+            13,
+            14
+          ],
+          "e": [
+            14,
+            15
+          ],
+          "l": "deutschen Film gesehen",
+          "gb": "জার্মান ছবি দেখেছ",
+          "ge": "German film",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "হ্যাঁ।",
+        "ছবিটা",
+        "একটা",
+        "পরিবারের",
+        "গল্প,",
+        "যারা",
+        "ভাগ্যের",
+        "জন্য",
+        "একটা",
+        "নতুন",
+        "শহরে",
+        "চলে",
+        "যায়।",
+        "আমি",
+        "বেশিরভাগ",
+        "অংশ",
+        "বুঝেছি,",
+        "কারণ",
+        "সাবটাইটেল",
+        "ছিল।",
+        "অভিনেতারা",
+        "ভালো",
+        "ছিলেন।"
+      ],
+      "en": [
+        "Yes.",
+        "The",
+        "film",
+        "is",
+        "the",
+        "story",
+        "of",
+        "a",
+        "family",
+        "who",
+        "move",
+        "to",
+        "a",
+        "new",
+        "city",
+        "for",
+        "a",
+        "better",
+        "life.",
+        "I",
+        "understood",
+        "most",
+        "of",
+        "it",
+        "because",
+        "there",
+        "were",
+        "subtitles.",
+        "The",
+        "actors",
+        "were",
+        "good."
+      ],
+      "de": [
+        {
+          "t": "Ja.",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ja",
+          "gb": "হ্যাঁ",
+          "ge": "Yes",
+          "n": ""
+        },
+        {
+          "t": "Der Film erzählt",
+          "b": [
+            1
+          ],
+          "e": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "l": "Der Film erzählt",
+          "gb": "ছবিটা",
+          "ge": "The film is the story",
+          "n": ""
+        },
+        {
+          "t": "von einer Familie,",
+          "b": [
+            2,
+            3,
+            4
+          ],
+          "e": [
+            6,
+            7,
+            8
+          ],
+          "l": "von einer Familie",
+          "gb": "একটা পরিবারের গল্প",
+          "ge": "of a family",
+          "n": ""
+        },
+        {
+          "t": "die in eine neue Stadt zieht,",
+          "b": [
+            5,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "e": [
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "l": "die in eine neue Stadt zieht",
+          "gb": "যারা একটা নতুন শহরে চলে যায়",
+          "ge": "who move to a new city",
+          "n": ""
+        },
+        {
+          "t": "um ein besseres Leben zu finden.",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            15,
+            16,
+            17,
+            18
+          ],
+          "l": "um ein besseres Leben zu finden",
+          "gb": "ভাগ্যের জন্য",
+          "ge": "for a better life",
+          "n": ""
+        },
+        {
+          "t": "Ich habe das meiste verstanden,",
+          "b": [
+            13,
+            14,
+            15,
+            16
+          ],
+          "e": [
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "l": "Ich habe das meiste verstanden",
+          "gb": "আমি বেশিরভাগ অংশ বুঝেছি",
+          "ge": "I understood most of it",
+          "n": ""
+        },
+        {
+          "t": "weil es Untertitel gab.",
+          "b": [
+            17,
+            18,
+            19
+          ],
+          "e": [
+            24,
+            25,
+            26,
+            27
+          ],
+          "l": "weil es Untertitel gab",
+          "gb": "কারণ সাবটাইটেল ছিল",
+          "ge": "because there were subtitles",
+          "n": ""
+        },
+        {
+          "t": "Die Schauspieler waren gut.",
+          "b": [
+            20,
+            21,
+            22
+          ],
+          "e": [
+            28,
+            29,
+            30,
+            31
+          ],
+          "l": "Die Schauspieler waren gut",
+          "gb": "অভিনেতারা ভালো ছিলেন",
+          "ge": "The actors were good",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Tom",
+      "bn": [
+        "ছবিটা",
+        "কি",
+        "তোমার",
+        "ভালো",
+        "লেগেছে?",
+        "তুমি",
+        "কি",
+        "তা",
+        "কাউকে",
+        "সুপারিশ",
+        "করবে?"
+      ],
+      "en": [
+        "Did",
+        "you",
+        "like",
+        "the",
+        "film?",
+        "Would",
+        "you",
+        "recommend",
+        "it",
+        "to",
+        "anyone?"
+      ],
+      "de": [
+        {
+          "t": "Hat dir der Film gefallen?",
+          "b": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "e": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "l": "Hat dir der Film gefallen",
+          "gb": "ছবিটা কি তোমার ভালো লেগেছে",
+          "ge": "Did you like the film",
+          "n": ""
+        },
+        {
+          "t": "Würdest du ihn",
+          "b": [
+            5,
+            6,
+            7
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "Würdest du ihn",
+          "gb": "তুমি কি তা",
+          "ge": "Would you",
+          "n": ""
+        },
+        {
+          "t": "jemandem empfehlen?",
+          "b": [
+            8,
+            9,
+            10
+          ],
+          "e": [
+            7,
+            8,
+            9,
+            10
+          ],
+          "l": "jemandem empfehlen",
+          "gb": "কাউকে সুপারিশ করবে",
+          "ge": "recommend it to anyone",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "হ্যাঁ,",
+        "যারা",
+        "শান্ত",
+        "কিন্তু",
+        "আবেগপূর্ণ",
+        "ছবি",
+        "পছন্দ",
+        "করে,",
+        "তাদের",
+        "জন্য।",
+        "শুরুটা",
+        "ধীর",
+        "ছিল,",
+        "কিন্তু",
+        "শেষটা",
+        "ছিল",
+        "খুব",
+        "উত্তেজনাপূর্ণ।",
+        "আমার",
+        "মনে",
+        "হয়",
+        "ছবিটা",
+        "আমাকে",
+        "অনেক",
+        "ভাবিয়েছে।"
+      ],
+      "en": [
+        "Yes,",
+        "for",
+        "people",
+        "who",
+        "like",
+        "quiet",
+        "but",
+        "emotional",
+        "films.",
+        "The",
+        "beginning",
+        "was",
+        "slow,",
+        "but",
+        "the",
+        "end",
+        "was",
+        "very",
+        "exciting.",
+        "I",
+        "think",
+        "the",
+        "film",
+        "made",
+        "me",
+        "think",
+        "a",
+        "lot."
+      ],
+      "de": [
+        {
+          "t": "Ja, für Leute,",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "Ja für Leute",
+          "gb": "হ্যাঁ যারা",
+          "ge": "Yes for people",
+          "n": ""
+        },
+        {
+          "t": "die ruhige,",
+          "b": [
+            2
+          ],
+          "e": [
+            3,
+            4,
+            5
+          ],
+          "l": "die ruhige",
+          "gb": "শান্ত",
+          "ge": "who like quiet",
+          "n": ""
+        },
+        {
+          "t": "aber emotionale Filme mögen.",
+          "b": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "e": [
+            6,
+            7,
+            8
+          ],
+          "l": "aber emotionale Filme mögen",
+          "gb": "কিন্তু আবেগপূর্ণ ছবি পছন্দ করে তাদের জন্য",
+          "ge": "but emotional films",
+          "n": ""
+        },
+        {
+          "t": "Der Anfang war langsam,",
+          "b": [
+            10,
+            11,
+            12
+          ],
+          "e": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "l": "Der Anfang war langsam",
+          "gb": "শুরুটা ধীর ছিল",
+          "ge": "The beginning was slow",
+          "n": ""
+        },
+        {
+          "t": "aber das Ende war sehr spannend.",
+          "b": [
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "e": [
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "l": "aber das Ende war sehr spannend",
+          "gb": "কিন্তু শেষটা ছিল খুব উত্তেজনাপূর্ণ",
+          "ge": "but the end was very exciting",
+          "n": ""
+        },
+        {
+          "t": "Ich finde,",
+          "b": [
+            18,
+            19,
+            20
+          ],
+          "e": [
+            19,
+            20
+          ],
+          "l": "Ich finde",
+          "gb": "আমার মনে হয়",
+          "ge": "I think",
+          "n": ""
+        },
+        {
+          "t": "der Film hat mich",
+          "b": [
+            21,
+            22
+          ],
+          "e": [
+            21,
+            22,
+            23,
+            24
+          ],
+          "l": "der Film hat mich",
+          "gb": "ছবিটা আমাকে",
+          "ge": "the film made me",
+          "n": ""
+        },
+        {
+          "t": "zum Nachdenken gebracht.",
+          "b": [
+            23,
+            24
+          ],
+          "e": [
+            25,
+            26,
+            27
+          ],
+          "l": "zum Nachdenken gebracht",
+          "gb": "অনেক ভাবিয়েছে",
+          "ge": "think a lot",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Tom",
+      "bn": [
+        "আর",
+        "বইয়ের",
+        "কী",
+        "খবর?",
+        "তুমি",
+        "কি",
+        "জার্মান",
+        "বই",
+        "পড়ছ?"
+      ],
+      "en": [
+        "And",
+        "what",
+        "about",
+        "books?",
+        "Are",
+        "you",
+        "reading",
+        "German",
+        "books?"
+      ],
+      "de": [
+        {
+          "t": "Und wie sieht es",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Und wie sieht es",
+          "gb": "আর",
+          "ge": "And what",
+          "n": ""
+        },
+        {
+          "t": "mit Büchern aus?",
+          "b": [
+            1,
+            2,
+            3
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "mit Büchern aus",
+          "gb": "বইয়ের কী খবর",
+          "ge": "about books",
+          "n": ""
+        },
+        {
+          "t": "Liest du",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            4,
+            5,
+            6
+          ],
+          "l": "Liest du",
+          "gb": "তুমি কি",
+          "ge": "Are you reading",
+          "n": ""
+        },
+        {
+          "t": "deutsche Bücher?",
+          "b": [
+            6,
+            7,
+            8
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "deutsche Bücher",
+          "gb": "জার্মান বই পড়ছ",
+          "ge": "German books",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "সহজ",
+        "ভাষার",
+        "উপন্যাস",
+        "দিয়ে",
+        "শুরু",
+        "করেছি।",
+        "প্রথমে",
+        "অনেক",
+        "নতুন",
+        "শব্দ",
+        "ছিল,",
+        "কিন্তু",
+        "গল্পটা",
+        "আমাকে",
+        "এগিয়ে",
+        "নিয়ে",
+        "গেছে।",
+        "এখন",
+        "আমি",
+        "রাতে",
+        "প্রতিদিন",
+        "কয়েক",
+        "পাতা",
+        "পড়ি।"
+      ],
+      "en": [
+        "I",
+        "started",
+        "with",
+        "a",
+        "novel",
+        "in",
+        "simple",
+        "language.",
+        "At",
+        "first",
+        "there",
+        "were",
+        "many",
+        "new",
+        "words,",
+        "but",
+        "the",
+        "story",
+        "kept",
+        "me",
+        "going.",
+        "Now",
+        "I",
+        "read",
+        "a",
+        "few",
+        "pages",
+        "every",
+        "night."
+      ],
+      "de": [
+        {
+          "t": "Ich habe mit einem Roman",
+          "b": [
+            0,
+            3,
+            4
+          ],
+          "e": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "l": "Ich habe mit einem Roman",
+          "gb": "আমি উপন্যাস দিয়ে",
+          "ge": "I started with a novel",
+          "n": ""
+        },
+        {
+          "t": "in einfacher Sprache begonnen.",
+          "b": [
+            1,
+            2,
+            5,
+            6
+          ],
+          "e": [
+            5,
+            6,
+            7
+          ],
+          "l": "in einfacher Sprache begonnen",
+          "gb": "সহজ ভাষার শুরু করেছি",
+          "ge": "in simple language",
+          "n": ""
+        },
+        {
+          "t": "Am Anfang gab es",
+          "b": [
+            7
+          ],
+          "e": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "l": "Am Anfang gab es",
+          "gb": "প্রথমে",
+          "ge": "At first there were",
+          "n": ""
+        },
+        {
+          "t": "viele neue Wörter,",
+          "b": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "e": [
+            12,
+            13,
+            14
+          ],
+          "l": "viele neue Wörter",
+          "gb": "অনেক নতুন শব্দ ছিল",
+          "ge": "many new words",
+          "n": ""
+        },
+        {
+          "t": "aber die Geschichte",
+          "b": [
+            12,
+            13
+          ],
+          "e": [
+            15,
+            16,
+            17
+          ],
+          "l": "aber die Geschichte",
+          "gb": "কিন্তু গল্পটা",
+          "ge": "but the story",
+          "n": ""
+        },
+        {
+          "t": "hat mich weitergebracht.",
+          "b": [
+            14,
+            15,
+            16,
+            17
+          ],
+          "e": [
+            18,
+            19,
+            20
+          ],
+          "l": "hat mich weitergebracht",
+          "gb": "আমাকে এগিয়ে নিয়ে গেছে",
+          "ge": "kept me going",
+          "n": ""
+        },
+        {
+          "t": "Jetzt lese ich",
+          "b": [
+            18,
+            19
+          ],
+          "e": [
+            21,
+            22,
+            23
+          ],
+          "l": "Jetzt lese ich",
+          "gb": "এখন আমি",
+          "ge": "Now I read",
+          "n": ""
+        },
+        {
+          "t": "jeden Abend",
+          "b": [
+            20,
+            21
+          ],
+          "e": [
+            27,
+            28
+          ],
+          "l": "jeden Abend",
+          "gb": "রাতে প্রতিদিন",
+          "ge": "every night",
+          "n": ""
+        },
+        {
+          "t": "ein paar Seiten.",
+          "b": [
+            22,
+            23,
+            24
+          ],
+          "e": [
+            24,
+            25,
+            26
+          ],
+          "l": "ein paar Seiten",
+          "gb": "কয়েক পাতা পড়ি",
+          "ge": "a few pages",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Tom",
+      "bn": [
+        "ভালো",
+        "পদ্ধতি।",
+        "আর",
+        "সংগীত?",
+        "আমরা",
+        "শনিবার",
+        "একটা",
+        "ছোট",
+        "কনসার্টে",
+        "যাচ্ছি।",
+        "তুমি",
+        "কি",
+        "আসবে?"
+      ],
+      "en": [
+        "A",
+        "good",
+        "method.",
+        "And",
+        "music?",
+        "We",
+        "are",
+        "going",
+        "to",
+        "a",
+        "small",
+        "concert",
+        "on",
+        "Saturday.",
+        "Will",
+        "you",
+        "come?"
+      ],
+      "de": [
+        {
+          "t": "Gute Methode.",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "Gute Methode",
+          "gb": "ভালো পদ্ধতি",
+          "ge": "A good method",
+          "n": ""
+        },
+        {
+          "t": "Und Musik?",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "Und Musik",
+          "gb": "আর সংগীত",
+          "ge": "And music",
+          "n": ""
+        },
+        {
+          "t": "Wir gehen am Samstag",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            5,
+            6,
+            7,
+            12,
+            13
+          ],
+          "l": "Wir gehen am Samstag",
+          "gb": "আমরা শনিবার",
+          "ge": "We are going on Saturday",
+          "n": ""
+        },
+        {
+          "t": "zu einem kleinen Konzert.",
+          "b": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "e": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "l": "zu einem kleinen Konzert",
+          "gb": "একটা ছোট কনসার্টে যাচ্ছি",
+          "ge": "to a small concert",
+          "n": ""
+        },
+        {
+          "t": "Kommst du mit?",
+          "b": [
+            10,
+            11,
+            12
+          ],
+          "e": [
+            14,
+            15,
+            16
+          ],
+          "l": "Kommst du mit",
+          "gb": "তুমি কি আসবে",
+          "ge": "Will you come",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "অবশ্যই!",
+        "আমি",
+        "আনন্দিত।",
+        "কিন্তু",
+        "আমি",
+        "টিকিট",
+        "নিতে",
+        "চাই।",
+        "কোথায়",
+        "কিনতে",
+        "হবে?"
+      ],
+      "en": [
+        "Of",
+        "course!",
+        "I",
+        "am",
+        "glad.",
+        "But",
+        "I",
+        "want",
+        "to",
+        "get",
+        "a",
+        "ticket.",
+        "Where",
+        "do",
+        "I",
+        "have",
+        "to",
+        "buy",
+        "it?"
+      ],
+      "de": [
+        {
+          "t": "Natürlich!",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Natürlich",
+          "gb": "অবশ্যই",
+          "ge": "Of course",
+          "n": ""
+        },
+        {
+          "t": "Ich freue mich.",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            2,
+            3,
+            4
+          ],
+          "l": "Ich freue mich",
+          "gb": "আমি আনন্দিত",
+          "ge": "I am glad",
+          "n": ""
+        },
+        {
+          "t": "Aber ich möchte",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            5,
+            6,
+            7
+          ],
+          "l": "Aber ich möchte",
+          "gb": "কিন্তু আমি",
+          "ge": "But I want",
+          "n": ""
+        },
+        {
+          "t": "eine Karte kaufen.",
+          "b": [
+            5,
+            6,
+            7
+          ],
+          "e": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "l": "eine Karte kaufen",
+          "gb": "টিকিট নিতে চাই",
+          "ge": "to get a ticket",
+          "n": ""
+        },
+        {
+          "t": "Wo muss ich",
+          "b": [
+            8
+          ],
+          "e": [
+            12,
+            13,
+            14
+          ],
+          "l": "Wo muss ich",
+          "gb": "কোথায়",
+          "ge": "Where do I",
+          "n": ""
+        },
+        {
+          "t": "sie kaufen?",
+          "b": [
+            9,
+            10
+          ],
+          "e": [
+            15,
+            16,
+            17,
+            18
+          ],
+          "l": "sie kaufen",
+          "gb": "কিনতে হবে",
+          "ge": "have to buy it",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "Einen Film / ein Buch vorstellen",
+      "head": [
+        "Teil",
+        "Formulierung"
+      ],
+      "rows": [
+        [
+          "Titel / Gattung",
+          "Der Film heißt … Es ist ein Drama / eine Komödie / ein Krimi."
+        ],
+        [
+          "Handlung",
+          "Es geht um … / Der Film erzählt von …"
+        ],
+        [
+          "Personen",
+          "Die Hauptfigur ist … Die Schauspieler sind …"
+        ],
+        [
+          "Meinung",
+          "Ich fand den Film spannend, weil …"
+        ],
+        [
+          "Empfehlung",
+          "Ich würde ihn Leuten empfehlen, die … mögen."
+        ]
+      ],
+      "note": "সারাংশে বর্তমানকাল ব্যবহার করুন: „Es geht um …“। নিজের মতামতে Präteritum/Perfekt: „Ich fand …“।"
+    },
+    {
+      "type": "table",
+      "title": "Partizip als Adjektiv",
+      "head": [
+        "Form",
+        "Beispiel"
+      ],
+      "rows": [
+        [
+          "Partizip I (laufend)",
+          "der spannende Film = der Film, der spannend ist"
+        ],
+        [
+          "Partizip II (abgeschlossen)",
+          "das gelesene Buch = das Buch, das gelesen wurde"
+        ],
+        [
+          "mit Endung",
+          "ein berührender Roman / eine gelungene Kritik"
+        ],
+        [
+          "Relativsatz-Ersatz",
+          "Leute, die ruhige Filme mögen → ruhige Filme liebende Leute (selten, schriftlich)"
+        ]
+      ],
+      "note": "B1-এ প্রধানত চেনা ও ব্যবহার: spannend, interessiert, bekannt, begeistert। লেখায় Partizip I = „-end“।"
+    },
+    {
+      "type": "table",
+      "title": "Kulturelle Angebote verstehen",
+      "head": [
+        "Wort",
+        "Bedeutung"
+      ],
+      "rows": [
+        [
+          "Eintritt",
+          "প্রবেশ মূল্য (ticket price)"
+        ],
+        [
+          "Karte / Ticket",
+          "টিকিট"
+        ],
+        [
+          "Vorstellung",
+          "শো, প্রদর্শনী"
+        ],
+        [
+          "Untertitel / OmU",
+          "Originalfassung mit Untertiteln (original language with subtitles)"
+        ],
+        [
+          "Bibliothek",
+          "লাইব্রেরি — Ausweis kostet meist wenig, Anmeldung nötig"
+        ],
+        [
+          "Volkshochschule",
+          "কম খরচে কোর্স, প্রায়ই সংস্কৃতি-কেন্দ্রিক"
+        ]
+      ],
+      "note": "অনেক শহরে ছাত্র/কম আয়ের ছাড় (Ermäßigung) পাওয়া যায়। নিশ্চিত হতে ওয়েবসাইট বা কাউন্টারে জিজ্ঞাসা করুন।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "die Handlung",
+      "options": [
+        "কাহিনি",
+        "বিরক্তিকর",
+        "সমালোচনা",
+        "সাবটাইটেল"
+      ],
+      "answer": 0,
+      "why": "die Handlung = কাহিনি।",
+      "word": "handlung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "der Regisseur",
+      "options": [
+        "সমালোচনা",
+        "পরিচালক",
+        "সিনেমা",
+        "উপন্যাস"
+      ],
+      "answer": 1,
+      "why": "der Regisseur = পরিচালক।",
+      "word": "regisseur"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "empfehlen",
+      "options": [
+        "সমালোচনা",
+        "কাহিনি",
+        "উপন্যাস",
+        "সুপারিশ করা"
+      ],
+      "answer": 3,
+      "why": "empfehlen = সুপারিশ করা।",
+      "word": "empfehlen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Roman",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 0,
+      "why": "der Roman। বহুবচন: die Romane।",
+      "word": "roman"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Es geht um …“ bedeutet …",
+      "options": [
+        "এটি বিষয়ে …",
+        "এটি যাচ্ছে …",
+        "এটি পড়া",
+        "এটি লেখা"
+      ],
+      "answer": 0,
+      "why": "Inhalt nennen।",
+      "word": "handlung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Welches Wort passt?",
+      "sub": "Das Ende war sehr ___.",
+      "options": [
+        "spannend",
+        "langsam",
+        "schwer",
+        "traurig"
+      ],
+      "answer": 0,
+      "why": "der Film war sehr ___.",
+      "word": "spannend"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Untertitel“ heißt …",
+      "options": [
+        "সাবটাইটেল",
+        "শিরোনাম",
+        "চিত্র",
+        "অভিনেতা"
+      ],
+      "answer": 0,
+      "why": "Untertitel।",
+      "word": "untertitel"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Welcher Satz ist eine Meinung?",
+      "options": [
+        "Ich fand den Film spannend, weil das Ende überraschend war.",
+        "Der Film dauert zwei Stunden.",
+        "Der Film wurde 2019 gedreht.",
+        "Der Film läuft im Kino."
+      ],
+      "answer": 0,
+      "why": "Ich fand …, weil …",
+      "word": "kritik"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Schauspieler“ ist …",
+      "options": [
+        "অভিনেতা",
+        "লেখক",
+        "পরিচালক",
+        "দর্শক"
+      ],
+      "answer": 0,
+      "why": "Schauspieler।",
+      "word": "schauspieler"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „ছবিটা একটা পরিবারের গল্প।“",
+      "tiles": [
+        "von einer Familie.",
+        "erzählt",
+        "Der Film"
+      ],
+      "answer": [
+        "Der Film",
+        "erzählt",
+        "von einer Familie."
+      ],
+      "why": "erzählen von।",
+      "word": "film"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

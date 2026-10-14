@@ -1,0 +1,1433 @@
+{
+  "level": "B1",
+  "unit": 11,
+  "minutes": 18,
+  "lesson": 3,
+  "id": "b1-u11-l03",
+  "title": {
+    "de": "Essen und Esskultur",
+    "bn": "খাবার ও খাওয়ার সংস্কৃতি",
+    "en": "Food and eating culture"
+  },
+  "hook": {
+    "de": "Liebe geht durch den Magen.",
+    "who": "Sprichwort",
+    "bn": "ভালোবাসা পেটের পথ দিয়ে যায়।",
+    "en": "The way to the heart is through the stomach."
+  },
+  "goals": [
+    "Essgewohnheiten vergleichen",
+    "Rezept und Zubereitung beschreiben",
+    "Vegetarisch, halal, Allergien erklären",
+    "Passiv Präsens bei Rezepten"
+  ],
+  "words": [
+    {
+      "id": "gewohnheit",
+      "de": "Gewohnheit",
+      "art": "die",
+      "pl": "die Gewohnheiten",
+      "pos": "বিশেষ্য",
+      "bn": "অভ্যাস",
+      "en": "habit"
+    },
+    {
+      "id": "rezept",
+      "de": "Rezept",
+      "art": "das",
+      "pl": "die Rezepte",
+      "pos": "বিশেষ্য",
+      "bn": "রেসিপি; প্রেসক্রিপশন",
+      "en": "recipe; prescription"
+    },
+    {
+      "id": "zutat",
+      "de": "Zutat",
+      "art": "die",
+      "pl": "die Zutaten",
+      "pos": "বিশেষ্য",
+      "bn": "উপকরণ",
+      "en": "ingredient"
+    },
+    {
+      "id": "brot",
+      "de": "Brot",
+      "art": "das",
+      "pos": "বিশেষ্য",
+      "bn": "রুটি",
+      "en": "bread"
+    },
+    {
+      "id": "abendbrot",
+      "de": "Abendbrot",
+      "art": "das",
+      "pos": "বিশেষ্য",
+      "bn": "রাতের হালকা খাবার (রুটি-ভিত্তিক)",
+      "en": "evening meal (bread-based)"
+    },
+    {
+      "id": "vegetarisch",
+      "de": "vegetarisch",
+      "pos": "বিশেষণ",
+      "bn": "নিরামিষ",
+      "en": "vegetarian"
+    },
+    {
+      "id": "halal",
+      "de": "halal",
+      "pos": "বিশেষণ",
+      "bn": "হালাল",
+      "en": "halal"
+    },
+    {
+      "id": "allergie",
+      "de": "Allergie",
+      "art": "die",
+      "pl": "die Allergien",
+      "pos": "বিশেষ্য",
+      "bn": "অ্যালার্জি",
+      "en": "allergy"
+    },
+    {
+      "id": "wuerzen",
+      "de": "würzen",
+      "pos": "ক্রিয়া · hat gewürzt",
+      "bn": "মশলা দেওয়া",
+      "en": "to season"
+    },
+    {
+      "id": "gewuerz",
+      "de": "Gewürz",
+      "art": "das",
+      "pl": "die Gewürze",
+      "pos": "বিশেষ্য",
+      "bn": "মশলা",
+      "en": "spice"
+    },
+    {
+      "id": "zubereiten",
+      "de": "zubereiten",
+      "pos": "ক্রিয়া · hat zubereitet",
+      "bn": "রান্না করা, তৈরি করা",
+      "en": "to prepare"
+    },
+    {
+      "id": "mahlzeit",
+      "de": "Mahlzeit",
+      "art": "die",
+      "pl": "die Mahlzeiten",
+      "pos": "বিশেষ্য",
+      "bn": "খাবার (সময়)",
+      "en": "meal"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Lena",
+      "bn": [
+        "সাহেব,",
+        "তুমি",
+        "এখানে",
+        "কোন",
+        "খাবার",
+        "সবচেয়ে",
+        "অদ্ভুত",
+        "মনে",
+        "করো?",
+        "আমি",
+        "জানতে",
+        "চাই।"
+      ],
+      "en": [
+        "Saheb,",
+        "which",
+        "food",
+        "do",
+        "you",
+        "find",
+        "strangest",
+        "here?",
+        "I",
+        "want",
+        "to",
+        "know."
+      ],
+      "de": [
+        {
+          "t": "Saheb,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Saheb",
+          "gb": "সাহেব",
+          "ge": "Saheb",
+          "n": ""
+        },
+        {
+          "t": "welches Essen",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "welches Essen",
+          "gb": "কোন খাবার",
+          "ge": "which food",
+          "n": ""
+        },
+        {
+          "t": "findest du hier",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            3,
+            4,
+            5
+          ],
+          "l": "findest du hier",
+          "gb": "তুমি এখানে",
+          "ge": "do you find",
+          "n": ""
+        },
+        {
+          "t": "am seltsamsten?",
+          "b": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "am seltsamsten",
+          "gb": "সবচেয়ে অদ্ভুত মনে করো",
+          "ge": "strangest here",
+          "n": ""
+        },
+        {
+          "t": "Ich möchte das wissen.",
+          "b": [
+            9,
+            10,
+            11
+          ],
+          "e": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "l": "Ich möchte das wissen",
+          "gb": "আমি জানতে চাই",
+          "ge": "I want to know",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "প্রথমে",
+        "অবাক",
+        "হয়েছিলাম:",
+        "রাতে",
+        "অনেকেই",
+        "রুটি,",
+        "পনির",
+        "আর",
+        "ঠান্ডা",
+        "মাংস",
+        "খায়,",
+        "রান্না",
+        "করা",
+        "গরম",
+        "খাবার",
+        "নয়।",
+        "আমাদের",
+        "দেশে",
+        "রাতে",
+        "সাধারণত",
+        "ভাত",
+        "আর",
+        "তরকারি।"
+      ],
+      "en": [
+        "At",
+        "first",
+        "I",
+        "was",
+        "surprised:",
+        "in",
+        "the",
+        "evening",
+        "many",
+        "people",
+        "eat",
+        "bread,",
+        "cheese",
+        "and",
+        "cold",
+        "cuts,",
+        "not",
+        "a",
+        "cooked",
+        "hot",
+        "meal.",
+        "In",
+        "our",
+        "country",
+        "in",
+        "the",
+        "evening",
+        "it",
+        "is",
+        "usually",
+        "rice",
+        "and",
+        "curry."
+      ],
+      "de": [
+        {
+          "t": "Zuerst war ich überrascht:",
+          "b": [
+            0,
+            1,
+            2
+          ],
+          "e": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "l": "Zuerst war ich überrascht",
+          "gb": "প্রথমে অবাক হয়েছিলাম",
+          "ge": "At first I was surprised",
+          "n": ""
+        },
+        {
+          "t": "Abends essen viele",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "l": "Abends essen viele",
+          "gb": "রাতে অনেকেই",
+          "ge": "in the evening many people",
+          "n": ""
+        },
+        {
+          "t": "Brot, Käse und Wurst,",
+          "b": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "e": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "l": "Brot Käse und Wurst",
+          "gb": "রুটি পনির আর ঠান্ডা মাংস",
+          "ge": "eat bread cheese and cold cuts",
+          "n": ""
+        },
+        {
+          "t": "kein warmes Essen.",
+          "b": [
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "e": [
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "l": "kein warmes Essen",
+          "gb": "রান্না করা গরম খাবার নয়",
+          "ge": "not a cooked hot meal",
+          "n": ""
+        },
+        {
+          "t": "Bei uns gibt es abends",
+          "b": [
+            16,
+            17,
+            18
+          ],
+          "e": [
+            21,
+            22,
+            23,
+            24,
+            25,
+            26
+          ],
+          "l": "Bei uns gibt es abends",
+          "gb": "আমাদের দেশে রাতে",
+          "ge": "In our country in the evening",
+          "n": ""
+        },
+        {
+          "t": "meistens Reis und Curry.",
+          "b": [
+            19,
+            20,
+            21,
+            22
+          ],
+          "e": [
+            27,
+            28,
+            29,
+            30,
+            31,
+            32
+          ],
+          "l": "meistens Reis und Curry",
+          "gb": "সাধারণত ভাত আর তরকারি",
+          "ge": "it is usually rice and curry",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "ওটাকে",
+        "আমরা",
+        "Abendbrot",
+        "বলি।",
+        "ঐতিহ্যগতভাবে",
+        "দুপুরে",
+        "রান্না",
+        "করা",
+        "খাবার",
+        "খাওয়া",
+        "হয়,",
+        "আর",
+        "রাতে",
+        "হালকা",
+        "কিছু।",
+        "অবশ্য",
+        "অনেক",
+        "পরিবারে",
+        "এখন",
+        "বদল",
+        "হয়েছে।"
+      ],
+      "en": [
+        "We",
+        "call",
+        "that",
+        "Abendbrot.",
+        "Traditionally",
+        "a",
+        "cooked",
+        "meal",
+        "is",
+        "eaten",
+        "at",
+        "midday",
+        "and",
+        "something",
+        "light",
+        "in",
+        "the",
+        "evening.",
+        "Of",
+        "course",
+        "in",
+        "many",
+        "families",
+        "this",
+        "has",
+        "changed",
+        "now."
+      ],
+      "de": [
+        {
+          "t": "Das nennen wir Abendbrot.",
+          "b": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "e": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "l": "Das nennen wir Abendbrot",
+          "gb": "ওটাকে আমরা Abendbrot বলি",
+          "ge": "We call that Abendbrot",
+          "n": ""
+        },
+        {
+          "t": "Traditionell wird",
+          "b": [
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "Traditionell wird",
+          "gb": "ঐতিহ্যগতভাবে",
+          "ge": "Traditionally",
+          "n": ""
+        },
+        {
+          "t": "mittags warm gegessen",
+          "b": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "e": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "l": "mittags warm gegessen",
+          "gb": "দুপুরে রান্না করা খাবার খাওয়া হয়",
+          "ge": "a cooked meal is eaten at midday",
+          "n": ""
+        },
+        {
+          "t": "und abends etwas Leichtes.",
+          "b": [
+            11,
+            12,
+            13,
+            14
+          ],
+          "e": [
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "l": "und abends etwas Leichtes",
+          "gb": "আর রাতে হালকা কিছু",
+          "ge": "and something light in the evening",
+          "n": ""
+        },
+        {
+          "t": "In vielen Familien",
+          "b": [
+            16,
+            17
+          ],
+          "e": [
+            20,
+            21,
+            22
+          ],
+          "l": "In vielen Familien",
+          "gb": "অনেক পরিবারে",
+          "ge": "in many families",
+          "n": ""
+        },
+        {
+          "t": "hat sich das aber geändert.",
+          "b": [
+            15,
+            18,
+            19,
+            20
+          ],
+          "e": [
+            23,
+            24,
+            25,
+            26
+          ],
+          "l": "hat sich das aber geändert",
+          "gb": "অবশ্য এখন বদল হয়েছে",
+          "ge": "this has changed now",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আরেকটা",
+        "বিষয়:",
+        "আমি",
+        "হালাল",
+        "খাই।",
+        "রেস্তোরাঁয়",
+        "আমি",
+        "কীভাবে",
+        "জিজ্ঞাসা",
+        "করব,",
+        "খাবারে",
+        "শূকরের",
+        "মাংস",
+        "আছে",
+        "কি",
+        "না?"
+      ],
+      "en": [
+        "Another",
+        "thing:",
+        "I",
+        "eat",
+        "halal.",
+        "How",
+        "do",
+        "I",
+        "ask",
+        "in",
+        "a",
+        "restaurant",
+        "whether",
+        "the",
+        "food",
+        "contains",
+        "pork?"
+      ],
+      "de": [
+        {
+          "t": "Noch etwas:",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Noch etwas",
+          "gb": "আরেকটা বিষয়",
+          "ge": "Another thing",
+          "n": ""
+        },
+        {
+          "t": "Ich esse halal.",
+          "b": [
+            2,
+            3,
+            4
+          ],
+          "e": [
+            2,
+            3,
+            4
+          ],
+          "l": "Ich esse halal",
+          "gb": "আমি হালাল খাই",
+          "ge": "I eat halal",
+          "n": ""
+        },
+        {
+          "t": "Wie frage ich im Restaurant,",
+          "b": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "e": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "l": "Wie frage ich im Restaurant",
+          "gb": "রেস্তোরাঁয় আমি কীভাবে জিজ্ঞাসা করব",
+          "ge": "How do I ask in a restaurant",
+          "n": ""
+        },
+        {
+          "t": "ob das Essen",
+          "b": [
+            10
+          ],
+          "e": [
+            12,
+            13,
+            14
+          ],
+          "l": "ob das Essen",
+          "gb": "খাবারে",
+          "ge": "whether the food",
+          "n": ""
+        },
+        {
+          "t": "Schweinefleisch enthält?",
+          "b": [
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "e": [
+            15,
+            16
+          ],
+          "l": "Schweinefleisch enthält",
+          "gb": "শূকরের মাংস আছে কি না",
+          "ge": "contains pork",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "তুমি",
+        "বলতে",
+        "পারো:",
+        "„Entschuldigung,",
+        "ist",
+        "in",
+        "diesem",
+        "Gericht",
+        "Schweinefleisch",
+        "oder",
+        "Alkohol?“",
+        "বেশিরভাগ",
+        "রেস্তোরাঁ",
+        "সাহায্য",
+        "করে।",
+        "নিরামিষ",
+        "চাইলেও",
+        "একই",
+        "রকম",
+        "প্রশ্ন",
+        "করা",
+        "যায়।"
+      ],
+      "en": [
+        "You",
+        "can",
+        "say:",
+        "“Excuse",
+        "me,",
+        "is",
+        "there",
+        "pork",
+        "or",
+        "alcohol",
+        "in",
+        "this",
+        "dish?”",
+        "Most",
+        "restaurants",
+        "help.",
+        "You",
+        "can",
+        "ask",
+        "the",
+        "same",
+        "kind",
+        "of",
+        "question",
+        "for",
+        "vegetarian",
+        "food."
+      ],
+      "de": [
+        {
+          "t": "Du kannst sagen:",
+          "b": [
+            0,
+            1,
+            2
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "Du kannst sagen",
+          "gb": "তুমি বলতে পারো",
+          "ge": "You can say",
+          "n": ""
+        },
+        {
+          "t": "„Entschuldigung, ist in diesem Gericht",
+          "b": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "e": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "l": "„Entschuldigung ist in diesem Gericht",
+          "gb": "„Entschuldigung ist in diesem Gericht",
+          "ge": "“Excuse me is there",
+          "n": ""
+        },
+        {
+          "t": "Schweinefleisch oder Alkohol?“",
+          "b": [
+            8,
+            9,
+            10
+          ],
+          "e": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "l": "Schweinefleisch oder Alkohol“",
+          "gb": "Schweinefleisch oder Alkohol“",
+          "ge": "pork or alcohol in this dish”",
+          "n": ""
+        },
+        {
+          "t": "Die meisten Restaurants",
+          "b": [
+            11,
+            12
+          ],
+          "e": [
+            13,
+            14
+          ],
+          "l": "Die meisten Restaurants",
+          "gb": "বেশিরভাগ রেস্তোরাঁ",
+          "ge": "Most restaurants",
+          "n": ""
+        },
+        {
+          "t": "helfen gern.",
+          "b": [
+            13,
+            14
+          ],
+          "e": [
+            15
+          ],
+          "l": "helfen gern",
+          "gb": "সাহায্য করে",
+          "ge": "help",
+          "n": ""
+        },
+        {
+          "t": "Für vegetarisches Essen",
+          "b": [
+            15,
+            16
+          ],
+          "e": [
+            16,
+            17,
+            18
+          ],
+          "l": "Für vegetarisches Essen",
+          "gb": "নিরামিষ চাইলেও",
+          "ge": "You can ask",
+          "n": ""
+        },
+        {
+          "t": "kann man genauso fragen.",
+          "b": [
+            17,
+            18,
+            19,
+            20,
+            21
+          ],
+          "e": [
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26
+          ],
+          "l": "vegetarisch",
+          "gb": "একই রকম প্রশ্ন করা যায়",
+          "ge": "the same kind of question for vegetarian food",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আর",
+        "যদি",
+        "কারো",
+        "অ্যালার্জি",
+        "থাকে?",
+        "আমার",
+        "এক",
+        "বন্ধুর",
+        "বাদামে",
+        "অ্যালার্জি",
+        "আছে।"
+      ],
+      "en": [
+        "And",
+        "if",
+        "someone",
+        "has",
+        "an",
+        "allergy?",
+        "A",
+        "friend",
+        "of",
+        "mine",
+        "is",
+        "allergic",
+        "to",
+        "nuts."
+      ],
+      "de": [
+        {
+          "t": "Und wenn jemand",
+          "b": [
+            0,
+            1,
+            2
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "Und wenn jemand",
+          "gb": "আর যদি কারো",
+          "ge": "And if someone",
+          "n": ""
+        },
+        {
+          "t": "eine Allergie hat?",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            3,
+            4,
+            5
+          ],
+          "l": "eine Allergie hat",
+          "gb": "অ্যালার্জি থাকে",
+          "ge": "has an allergy",
+          "n": ""
+        },
+        {
+          "t": "Ein Freund von mir",
+          "b": [
+            5,
+            6,
+            7
+          ],
+          "e": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "l": "Ein Freund von mir",
+          "gb": "আমার এক বন্ধুর",
+          "ge": "A friend of mine",
+          "n": ""
+        },
+        {
+          "t": "verträgt keine Nüsse.",
+          "b": [
+            8,
+            9,
+            10
+          ],
+          "e": [
+            10,
+            11,
+            12,
+            13
+          ],
+          "l": "verträgt keine Nüsse",
+          "gb": "বাদামে অ্যালার্জি আছে",
+          "ge": "is allergic to nuts",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "তখন",
+        "খুবই",
+        "স্পষ্ট",
+        "করে",
+        "জানানো",
+        "দরকার:",
+        "„Ich",
+        "habe",
+        "eine",
+        "Allergie",
+        "gegen",
+        "Nüsse.“",
+        "অনেক",
+        "রেস্তোরাঁর",
+        "মেনুতে",
+        "অ্যালার্জেনের",
+        "তালিকা",
+        "থাকে,",
+        "আর",
+        "সেটা",
+        "বাধ্যতামূলকও",
+        "হতে",
+        "পারে।",
+        "ফুড",
+        "প্যাকেটেও",
+        "উপাদান",
+        "লেখা",
+        "থাকে।"
+      ],
+      "en": [
+        "Then",
+        "it",
+        "is",
+        "very",
+        "important",
+        "to",
+        "say",
+        "it",
+        "clearly:",
+        "“I",
+        "have",
+        "an",
+        "allergy",
+        "to",
+        "nuts.”",
+        "Many",
+        "restaurant",
+        "menus",
+        "have",
+        "a",
+        "list",
+        "of",
+        "allergens,",
+        "which",
+        "may",
+        "also",
+        "be",
+        "required.",
+        "Food",
+        "packages",
+        "also",
+        "list",
+        "the",
+        "ingredients."
+      ],
+      "de": [
+        {
+          "t": "Dann muss man es",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "l": "Dann muss man es",
+          "gb": "তখন",
+          "ge": "Then it is very important",
+          "n": ""
+        },
+        {
+          "t": "ganz klar sagen:",
+          "b": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "e": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "l": "ganz klar sagen",
+          "gb": "খুবই স্পষ্ট করে জানানো দরকার",
+          "ge": "to say it clearly",
+          "n": ""
+        },
+        {
+          "t": "„Ich habe eine Allergie gegen Nüsse.“",
+          "b": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "e": [
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "l": "„Ich habe eine Allergie gegen Nüsse“",
+          "gb": "„Ich habe eine Allergie gegen Nüsse“",
+          "ge": "“I have an allergy to nuts”",
+          "n": ""
+        },
+        {
+          "t": "Viele Speisekarten",
+          "b": [
+            12,
+            13,
+            14
+          ],
+          "e": [
+            15,
+            16,
+            17
+          ],
+          "l": "Viele Speisekarten",
+          "gb": "অনেক রেস্তোরাঁর মেনুতে",
+          "ge": "Many restaurant menus",
+          "n": ""
+        },
+        {
+          "t": "haben eine Allergenliste,",
+          "b": [
+            15,
+            16,
+            17
+          ],
+          "e": [
+            18,
+            19,
+            20,
+            21,
+            22
+          ],
+          "l": "haben eine Allergenliste",
+          "gb": "অ্যালার্জেনের তালিকা থাকে",
+          "ge": "have a list of allergens",
+          "n": ""
+        },
+        {
+          "t": "und auf Verpackungen",
+          "b": [
+            18,
+            24
+          ],
+          "e": [
+            28,
+            29
+          ],
+          "l": "und auf Verpackungen",
+          "gb": "আর প্যাকেটেও",
+          "ge": "Food packages",
+          "n": ""
+        },
+        {
+          "t": "stehen die Zutaten.",
+          "b": [
+            25,
+            26,
+            27
+          ],
+          "e": [
+            25,
+            31,
+            32,
+            33
+          ],
+          "l": "Zutat",
+          "gb": "উপাদান লেখা থাকে",
+          "ge": "also list the ingredients",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "Mahlzeiten in Deutschland (typisch, nicht überall)",
+      "head": [
+        "Zeit",
+        "Mahlzeit"
+      ],
+      "rows": [
+        [
+          "morgens",
+          "Frühstück: Brot/Brötchen, Marmelade, Käse, Müsli, Kaffee/Tee"
+        ],
+        [
+          "mittags",
+          "Mittagessen: warmes Essen, oft Hauptmahlzeit"
+        ],
+        [
+          "nachmittags",
+          "Kaffee und Kuchen (am Wochenende)"
+        ],
+        [
+          "abends",
+          "Abendbrot / Abendessen: Brot, Käse, Wurst oder warmes Essen"
+        ]
+      ],
+      "note": "এগুলো সাধারণ ধারণা; পরিবার, অঞ্চল ও পছন্দ ভেদে বদলায়। দিনের সময় নয়, মানুষ অনুযায়ী ঠিক করে নিন।"
+    },
+    {
+      "type": "table",
+      "title": "Essen bestellen: Wünsche und Hinweise",
+      "head": [
+        "Situation",
+        "Formulierung"
+      ],
+      "rows": [
+        [
+          "Bestellen",
+          "Ich hätte gern … / Ich nehme …"
+        ],
+        [
+          "Fragen",
+          "Ist in diesem Gericht …? / Ist das vegetarisch / halal?"
+        ],
+        [
+          "Hinweis",
+          "Ich habe eine Allergie gegen …"
+        ],
+        [
+          "Wunsch",
+          "Könnten Sie das ohne … machen?"
+        ],
+        [
+          "Bezahlen",
+          "Zahlen, bitte! / Zusammen oder getrennt?"
+        ]
+      ],
+      "note": "নিরাপত্তার জন্য অ্যালার্জি ও ধর্মীয় বিধান পরিষ্কারভাবে জানান। যারা পরিবেশন করে তারাও সাধারণত সাহায্য করতে ইচ্ছুক।"
+    },
+    {
+      "type": "table",
+      "title": "Passiv im Rezept",
+      "head": [
+        "Aktiv",
+        "Passiv"
+      ],
+      "rows": [
+        [
+          "Man schneidet das Gemüse.",
+          "Das Gemüse wird geschnitten."
+        ],
+        [
+          "Man würzt die Suppe.",
+          "Die Suppe wird gewürzt."
+        ],
+        [
+          "Man kocht den Reis zehn Minuten.",
+          "Der Reis wird zehn Minuten gekocht."
+        ]
+      ],
+      "note": "রেসিপির লেখায় „man“ বা Passiv; কথায় imperative: Schneide das Gemüse!"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "das Gewürz",
+      "options": [
+        "উপকরণ",
+        "রাতের হালকা খাবার",
+        "মশলা",
+        "হালাল"
+      ],
+      "answer": 2,
+      "why": "das Gewürz = মশলা।",
+      "word": "gewuerz"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "die Zutat",
+      "options": [
+        "মশলা দেওয়া",
+        "উপকরণ",
+        "খাবার",
+        "রুটি"
+      ],
+      "answer": 1,
+      "why": "die Zutat = উপকরণ।",
+      "word": "zutat"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "zubereiten",
+      "options": [
+        "মশলা দেওয়া",
+        "অভ্যাস",
+        "রুটি",
+        "রান্না করা"
+      ],
+      "answer": 3,
+      "why": "zubereiten = রান্না করা।",
+      "word": "zubereiten"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Allergie",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Allergie। বহুবচন: die Allergien।",
+      "word": "allergie"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Abendbrot“ ist …",
+      "options": [
+        "রাতের হালকা রুটি-ভিত্তিক খাবার",
+        "সকালের নাস্তা",
+        "মিষ্টি",
+        "চা"
+      ],
+      "answer": 0,
+      "why": "Brot, Käse, Wurst।",
+      "word": "abendbrot"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Was sagst du bei einer Allergie?",
+      "options": [
+        "Ich habe eine Allergie gegen Nüsse.",
+        "Ich mag keine Nüsse, aber ich esse sie.",
+        "Nüsse sind teuer.",
+        "Das schmeckt gut."
+      ],
+      "answer": 0,
+      "why": "klar sagen।",
+      "word": "allergie"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Passiv: „Das Gemüse ___ geschnitten.“",
+      "options": [
+        "wird",
+        "werden",
+        "ist",
+        "hat"
+      ],
+      "answer": 0,
+      "why": "wird + PP।",
+      "word": "wuerzen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Wie fragst du höflich?",
+      "options": [
+        "Ist in diesem Gericht Schweinefleisch?",
+        "Gib mir das Schweinefleisch!",
+        "Warum Schweinefleisch?",
+        "Schweinefleisch ist gut."
+      ],
+      "answer": 0,
+      "why": "höfliche Frage।",
+      "word": "halal"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Mahlzeit“ ist …",
+      "options": [
+        "খাবারের একটা বেলা",
+        "ছুটি",
+        "ঘড়ি",
+        "ডিম"
+      ],
+      "answer": 0,
+      "why": "Mahlzeit।",
+      "word": "mahlzeit"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „সুপ মশলা দিয়ে রান্না করা হয়।“",
+      "tiles": [
+        "gewürzt.",
+        "Die Suppe",
+        "wird"
+      ],
+      "answer": [
+        "Die Suppe",
+        "wird",
+        "gewürzt."
+      ],
+      "why": "Passiv Präsens।",
+      "word": "rezept"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}
