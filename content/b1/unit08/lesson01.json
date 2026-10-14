@@ -1,0 +1,1365 @@
+{
+  "level": "B1",
+  "unit": 8,
+  "minutes": 18,
+  "lesson": 1,
+  "id": "b1-u08-l01",
+  "title": {
+    "de": "Zusammenleben in einer vielfältigen Gesellschaft",
+    "bn": "বৈচিত্র্যময় সমাজে একসাথে থাকা",
+    "en": "Living together in a diverse society"
+  },
+  "hook": {
+    "de": "Vielfalt ist unsere Stärke.",
+    "who": "Redensart",
+    "bn": "বৈচিত্র্যই আমাদের শক্তি।",
+    "en": "Diversity is our strength."
+  },
+  "goals": [
+    "Vielfalt, Vorurteil, Toleranz, Integration",
+    "Genitiv und Relativsätze in längeren Sätzen",
+    "trotzdem, obwohl, dennoch, dagegen",
+    "über Erfahrungen berichten, ohne zu verallgemeinern"
+  ],
+  "words": [
+    {
+      "id": "gesellschaft",
+      "de": "Gesellschaft",
+      "art": "die",
+      "pl": "die Gesellschaften",
+      "pos": "বিশেষ্য",
+      "bn": "সমাজ",
+      "en": "society"
+    },
+    {
+      "id": "vielfalt",
+      "de": "Vielfalt",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "বৈচিত্র্য",
+      "en": "diversity"
+    },
+    {
+      "id": "vorurteil",
+      "de": "Vorurteil",
+      "art": "das",
+      "pl": "die Vorurteile",
+      "pos": "বিশেষ্য",
+      "bn": "পূর্বধারণা",
+      "en": "prejudice"
+    },
+    {
+      "id": "toleranz",
+      "de": "Toleranz",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "সহনশীলতা",
+      "en": "tolerance"
+    },
+    {
+      "id": "integration",
+      "de": "Integration",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "একীভূত হওয়া",
+      "en": "integration"
+    },
+    {
+      "id": "herkunft",
+      "de": "Herkunft",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "উৎস, পটভূমি",
+      "en": "origin, background"
+    },
+    {
+      "id": "zusammenleben",
+      "de": "Zusammenleben",
+      "art": "das",
+      "pos": "বিশেষ্য",
+      "bn": "একসাথে বসবাস",
+      "en": "coexistence"
+    },
+    {
+      "id": "respekt",
+      "de": "Respekt",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "সম্মান",
+      "en": "respect"
+    },
+    {
+      "id": "unterschied",
+      "de": "Unterschied",
+      "art": "der",
+      "pl": "die Unterschiede",
+      "pos": "বিশেষ্য",
+      "bn": "পার্থক্য",
+      "en": "difference"
+    },
+    {
+      "id": "akzeptieren",
+      "de": "akzeptieren",
+      "pos": "ক্রিয়া · hat akzeptiert",
+      "bn": "মেনে নেওয়া",
+      "en": "to accept"
+    },
+    {
+      "id": "begegnung",
+      "de": "Begegnung",
+      "art": "die",
+      "pl": "die Begegnungen",
+      "pos": "বিশেষ্য",
+      "bn": "সাক্ষাৎ, মেলামেশা",
+      "en": "encounter"
+    },
+    {
+      "id": "nachbarschaft",
+      "de": "Nachbarschaft",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "প্রতিবেশী এলাকা",
+      "en": "neighbourhood"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Lena",
+      "bn": [
+        "সাহেব,",
+        "তুমি",
+        "জার্মানিতে",
+        "এসে",
+        "প্রথম",
+        "কী",
+        "কী",
+        "অভিজ্ঞতা",
+        "পেয়েছ?",
+        "আমি",
+        "জানতে",
+        "আগ্রহী।"
+      ],
+      "en": [
+        "Saheb,",
+        "what",
+        "experiences",
+        "did",
+        "you",
+        "have",
+        "when",
+        "you",
+        "first",
+        "came",
+        "to",
+        "Germany?",
+        "I",
+        "am",
+        "interested",
+        "to",
+        "know."
+      ],
+      "de": [
+        {
+          "t": "Saheb,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Saheb",
+          "gb": "সাহেব",
+          "ge": "Saheb",
+          "n": ""
+        },
+        {
+          "t": "welche Erfahrungen",
+          "b": [
+            5,
+            6,
+            7
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "welche Erfahrungen",
+          "gb": "কী কী অভিজ্ঞতা",
+          "ge": "what experiences",
+          "n": ""
+        },
+        {
+          "t": "hast du",
+          "b": [
+            1
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "hast du",
+          "gb": "তুমি",
+          "ge": "did you",
+          "n": ""
+        },
+        {
+          "t": "am Anfang",
+          "b": [
+            4
+          ],
+          "e": [
+            8
+          ],
+          "l": "am Anfang",
+          "gb": "প্রথম",
+          "ge": "first",
+          "n": ""
+        },
+        {
+          "t": "in Deutschland",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            11
+          ],
+          "l": "in Deutschland",
+          "gb": "জার্মানিতে এসে",
+          "ge": "Germany",
+          "n": ""
+        },
+        {
+          "t": "gemacht?",
+          "b": [
+            8
+          ],
+          "e": [
+            5
+          ],
+          "l": "gemacht",
+          "gb": "পেয়েছ",
+          "ge": "have",
+          "n": ""
+        },
+        {
+          "t": "Das interessiert mich.",
+          "b": [
+            9,
+            10,
+            11
+          ],
+          "e": [
+            12,
+            13,
+            14,
+            10,
+            16
+          ],
+          "l": "Das interessiert mich",
+          "gb": "আমি জানতে আগ্রহী",
+          "ge": "I am interested to know",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "অনেক",
+        "মানুষ",
+        "সাহায্য",
+        "করেছে,",
+        "যেমন",
+        "প্রতিবেশীরা,",
+        "যাঁদের",
+        "আমি",
+        "প্রথম",
+        "মাসে",
+        "পরিচিত",
+        "হয়েছি।",
+        "কিন্তু",
+        "কখনো",
+        "কখনো",
+        "আমি",
+        "পূর্বধারণার",
+        "মুখোমুখি",
+        "হয়েছি।"
+      ],
+      "en": [
+        "Many",
+        "people",
+        "helped,",
+        "for",
+        "example",
+        "neighbours",
+        "whom",
+        "I",
+        "met",
+        "in",
+        "the",
+        "first",
+        "month.",
+        "But",
+        "sometimes",
+        "I",
+        "encountered",
+        "prejudice."
+      ],
+      "de": [
+        {
+          "t": "Viele Menschen",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Viele Menschen",
+          "gb": "অনেক মানুষ",
+          "ge": "Many people",
+          "n": ""
+        },
+        {
+          "t": "haben",
+          "b": [],
+          "e": [],
+          "l": "haben",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "geholfen,",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "geholfen",
+          "gb": "সাহায্য করেছে",
+          "ge": "helped",
+          "n": ""
+        },
+        {
+          "t": "zum Beispiel",
+          "b": [
+            4
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "zum Beispiel",
+          "gb": "যেমন",
+          "ge": "for example",
+          "n": ""
+        },
+        {
+          "t": "Nachbarn,",
+          "b": [
+            5
+          ],
+          "e": [
+            5
+          ],
+          "l": "Nachbarn",
+          "gb": "প্রতিবেশীরা",
+          "ge": "neighbours",
+          "n": ""
+        },
+        {
+          "t": "die ich",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "die ich",
+          "gb": "যাঁদের আমি",
+          "ge": "whom I",
+          "n": ""
+        },
+        {
+          "t": "im ersten Monat",
+          "b": [
+            8,
+            9
+          ],
+          "e": [
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "l": "im ersten Monat",
+          "gb": "প্রথম মাসে",
+          "ge": "met in the first month",
+          "n": ""
+        },
+        {
+          "t": "kennengelernt habe.",
+          "b": [
+            10,
+            11
+          ],
+          "e": [],
+          "l": "kennengelernt habe",
+          "gb": "পরিচিত হয়েছি",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Aber",
+          "b": [
+            12
+          ],
+          "e": [
+            13
+          ],
+          "l": "Aber",
+          "gb": "কিন্তু",
+          "ge": "But",
+          "n": ""
+        },
+        {
+          "t": "manchmal",
+          "b": [
+            13,
+            14
+          ],
+          "e": [
+            14
+          ],
+          "l": "manchmal",
+          "gb": "কখনো কখনো",
+          "ge": "sometimes",
+          "n": ""
+        },
+        {
+          "t": "bin ich",
+          "b": [
+            15
+          ],
+          "e": [
+            15
+          ],
+          "l": "bin ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "Vorurteilen",
+          "b": [
+            16
+          ],
+          "e": [
+            17
+          ],
+          "l": "Vorurteil",
+          "gb": "পূর্বধারণার",
+          "ge": "prejudice",
+          "n": ""
+        },
+        {
+          "t": "begegnet.",
+          "b": [
+            17,
+            18
+          ],
+          "e": [
+            16
+          ],
+          "l": "Begegnung",
+          "gb": "মুখোমুখি হয়েছি",
+          "ge": "encountered",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "সেটা",
+        "শুনে",
+        "আমি",
+        "দুঃখিত।",
+        "তুমি",
+        "তখন",
+        "কী",
+        "করেছিলে?"
+      ],
+      "en": [
+        "I",
+        "am",
+        "sorry",
+        "to",
+        "hear",
+        "that.",
+        "What",
+        "did",
+        "you",
+        "do",
+        "then?"
+      ],
+      "de": [
+        {
+          "t": "Das tut mir leid.",
+          "b": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "e": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "l": "Das tut mir leid",
+          "gb": "সেটা শুনে আমি দুঃখিত",
+          "ge": "I am sorry to hear that",
+          "n": ""
+        },
+        {
+          "t": "Was hast du",
+          "b": [
+            4,
+            6
+          ],
+          "e": [
+            6,
+            7,
+            8
+          ],
+          "l": "Was hast du",
+          "gb": "তুমি কী",
+          "ge": "What did you",
+          "n": ""
+        },
+        {
+          "t": "dann gemacht?",
+          "b": [
+            7
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "dann gemacht",
+          "gb": "করেছিলে",
+          "ge": "do then",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "শান্ত",
+        "থাকার",
+        "চেষ্টা",
+        "করেছি।",
+        "আমি",
+        "তাঁদের",
+        "আমার",
+        "সম্পর্কে",
+        "বলেছি,",
+        "আর",
+        "অনেকে",
+        "তখন",
+        "বদলে",
+        "গেছেন।",
+        "সম্মান",
+        "একপেশে",
+        "হয়",
+        "না।"
+      ],
+      "en": [
+        "I",
+        "tried",
+        "to",
+        "stay",
+        "calm.",
+        "I",
+        "told",
+        "them",
+        "about",
+        "myself,",
+        "and",
+        "many",
+        "changed",
+        "their",
+        "minds.",
+        "Respect",
+        "is",
+        "not",
+        "one-sided."
+      ],
+      "de": [
+        {
+          "t": "Ich habe versucht,",
+          "b": [
+            0,
+            3,
+            4
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Ich habe versucht",
+          "gb": "আমি চেষ্টা করেছি",
+          "ge": "I tried",
+          "n": ""
+        },
+        {
+          "t": "ruhig zu bleiben.",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            2,
+            3,
+            4
+          ],
+          "l": "ruhig zu bleiben",
+          "gb": "শান্ত থাকার",
+          "ge": "to stay calm",
+          "n": ""
+        },
+        {
+          "t": "Ich habe",
+          "b": [
+            5
+          ],
+          "e": [
+            5
+          ],
+          "l": "Ich habe",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "ihnen von mir",
+          "b": [
+            6,
+            7,
+            8
+          ],
+          "e": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "l": "ihnen von mir",
+          "gb": "তাঁদের আমার সম্পর্কে",
+          "ge": "told them about myself",
+          "n": ""
+        },
+        {
+          "t": "erzählt,",
+          "b": [
+            9
+          ],
+          "e": [],
+          "l": "erzählt",
+          "gb": "বলেছি",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "und viele",
+          "b": [
+            10,
+            11
+          ],
+          "e": [
+            10,
+            11
+          ],
+          "l": "und viele",
+          "gb": "আর অনেকে",
+          "ge": "and many",
+          "n": ""
+        },
+        {
+          "t": "haben dann",
+          "b": [
+            12
+          ],
+          "e": [],
+          "l": "haben dann",
+          "gb": "তখন",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "ihre Meinung geändert.",
+          "b": [
+            13,
+            14
+          ],
+          "e": [
+            12,
+            13,
+            14
+          ],
+          "l": "ihre Meinung geändert",
+          "gb": "বদলে গেছেন",
+          "ge": "changed their minds",
+          "n": ""
+        },
+        {
+          "t": "Respekt",
+          "b": [
+            15
+          ],
+          "e": [
+            15
+          ],
+          "l": "Respekt",
+          "gb": "সম্মান",
+          "ge": "Respect",
+          "n": ""
+        },
+        {
+          "t": "ist nicht einseitig.",
+          "b": [
+            16,
+            17,
+            18
+          ],
+          "e": [
+            16,
+            17,
+            18
+          ],
+          "l": "ist nicht einseitig",
+          "gb": "একপেশে হয় না",
+          "ge": "is not one-sided",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "ঠিক।",
+        "আমি",
+        "মনে",
+        "করি,",
+        "বৈচিত্র্য",
+        "সমাজকে",
+        "সমৃদ্ধ",
+        "করে,",
+        "যদিও",
+        "এর",
+        "সাথে",
+        "চ্যালেঞ্জও",
+        "আছে।"
+      ],
+      "en": [
+        "True.",
+        "I",
+        "think",
+        "diversity",
+        "enriches",
+        "society,",
+        "although",
+        "it",
+        "also",
+        "comes",
+        "with",
+        "challenges."
+      ],
+      "de": [
+        {
+          "t": "Stimmt.",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Stimmt",
+          "gb": "ঠিক",
+          "ge": "True",
+          "n": ""
+        },
+        {
+          "t": "Ich glaube,",
+          "b": [
+            1,
+            2,
+            3
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "Ich glaube",
+          "gb": "আমি মনে করি",
+          "ge": "I think",
+          "n": ""
+        },
+        {
+          "t": "dass",
+          "b": [],
+          "e": [],
+          "l": "dass",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Vielfalt",
+          "b": [
+            4
+          ],
+          "e": [
+            3
+          ],
+          "l": "Vielfalt",
+          "gb": "বৈচিত্র্য",
+          "ge": "diversity",
+          "n": ""
+        },
+        {
+          "t": "die Gesellschaft",
+          "b": [
+            5
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "Gesellschaft",
+          "gb": "সমাজকে",
+          "ge": "enriches society",
+          "n": ""
+        },
+        {
+          "t": "bereichert,",
+          "b": [
+            6,
+            7
+          ],
+          "e": [],
+          "l": "bereichert",
+          "gb": "সমৃদ্ধ করে",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "obwohl",
+          "b": [
+            8
+          ],
+          "e": [
+            6
+          ],
+          "l": "obwohl",
+          "gb": "যদিও",
+          "ge": "although",
+          "n": ""
+        },
+        {
+          "t": "es auch",
+          "b": [
+            9,
+            10
+          ],
+          "e": [
+            7,
+            8,
+            9
+          ],
+          "l": "es auch",
+          "gb": "এর সাথে",
+          "ge": "it also comes",
+          "n": ""
+        },
+        {
+          "t": "Herausforderungen gibt.",
+          "b": [
+            11,
+            12
+          ],
+          "e": [
+            10,
+            11
+          ],
+          "l": "Herausforderungen gibt",
+          "gb": "চ্যালেঞ্জও আছে",
+          "ge": "with challenges",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "তাই",
+        "মনে",
+        "করি।",
+        "সমাধান",
+        "হলো",
+        "মেলামেশা:",
+        "স্কুলে,",
+        "কর্মক্ষেত্রে,",
+        "এলাকার",
+        "অনুষ্ঠানে।",
+        "তখন",
+        "মানুষের",
+        "মধ্যে",
+        "ভুল",
+        "ধারণা",
+        "কমে।"
+      ],
+      "en": [
+        "I",
+        "think",
+        "so",
+        "too.",
+        "The",
+        "solution",
+        "is",
+        "encounters:",
+        "at",
+        "school,",
+        "at",
+        "work,",
+        "at",
+        "neighbourhood",
+        "events.",
+        "Then",
+        "misconceptions",
+        "between",
+        "people",
+        "decrease."
+      ],
+      "de": [
+        {
+          "t": "Das glaube ich auch.",
+          "b": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "e": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "l": "Das glaube ich auch",
+          "gb": "আমি তাই মনে করি",
+          "ge": "I think so too",
+          "n": ""
+        },
+        {
+          "t": "Die Lösung",
+          "b": [
+            4
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "Die Lösung",
+          "gb": "সমাধান",
+          "ge": "The solution",
+          "n": ""
+        },
+        {
+          "t": "sind Begegnungen:",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "Begegnung",
+          "gb": "হলো মেলামেশা",
+          "ge": "is encounters",
+          "n": ""
+        },
+        {
+          "t": "in der Schule,",
+          "b": [
+            7
+          ],
+          "e": [
+            8,
+            9
+          ],
+          "l": "in der Schule",
+          "gb": "স্কুলে",
+          "ge": "at school",
+          "n": ""
+        },
+        {
+          "t": "bei der Arbeit,",
+          "b": [
+            8
+          ],
+          "e": [
+            10,
+            11
+          ],
+          "l": "bei der Arbeit",
+          "gb": "কর্মক্ষেত্রে",
+          "ge": "at work",
+          "n": ""
+        },
+        {
+          "t": "bei Festen",
+          "b": [
+            10
+          ],
+          "e": [
+            12,
+            13,
+            14
+          ],
+          "l": "bei Festen",
+          "gb": "অনুষ্ঠানে",
+          "ge": "at neighbourhood events",
+          "n": ""
+        },
+        {
+          "t": "in der Nachbarschaft.",
+          "b": [
+            9
+          ],
+          "e": [],
+          "l": "Nachbarschaft",
+          "gb": "এলাকার",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Dann",
+          "b": [
+            11
+          ],
+          "e": [
+            15
+          ],
+          "l": "Dann",
+          "gb": "তখন",
+          "ge": "Then",
+          "n": ""
+        },
+        {
+          "t": "werden",
+          "b": [
+            16
+          ],
+          "e": [
+            19
+          ],
+          "l": "werden",
+          "gb": "কমে",
+          "ge": "decrease",
+          "n": ""
+        },
+        {
+          "t": "Vorurteile",
+          "b": [
+            14,
+            15
+          ],
+          "e": [
+            16
+          ],
+          "l": "Vorurteile",
+          "gb": "ভুল ধারণা",
+          "ge": "misconceptions",
+          "n": ""
+        },
+        {
+          "t": "abgebaut.",
+          "b": [],
+          "e": [],
+          "l": "abgebaut",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "Wortschatz: Zusammenleben",
+      "head": [
+        "Wort",
+        "Bedeutung",
+        "Beispiel"
+      ],
+      "rows": [
+        [
+          "die Vielfalt",
+          "বৈচিত্র্য",
+          "Die Vielfalt der Kulturen bereichert die Stadt."
+        ],
+        [
+          "das Vorurteil",
+          "পূর্বধারণা",
+          "Vorurteile entstehen oft aus Unwissen."
+        ],
+        [
+          "die Toleranz",
+          "সহনশীলতা",
+          "Toleranz bedeutet, andere Meinungen auszuhalten."
+        ],
+        [
+          "die Integration",
+          "একীভূত হওয়া",
+          "Integration ist ein Prozess für beide Seiten."
+        ],
+        [
+          "die Herkunft",
+          "পটভূমি",
+          "Die Herkunft darf kein Grund für Benachteiligung sein."
+        ],
+        [
+          "die Begegnung",
+          "সাক্ষাৎ",
+          "Begegnungen bauen Vorurteile ab."
+        ]
+      ],
+      "note": "বিষয়টি সংবেদনশীল — নিজের অভিজ্ঞতা বলুন, কিন্তু সবাইকে এক ছাঁচে ফেলবেন না (z. B. „einige“, „manche“, „in meinem Fall“)।"
+    },
+    {
+      "type": "table",
+      "title": "Relativsatz im Dativ und mit Präposition",
+      "head": [
+        "Beispiel",
+        "Erklärung"
+      ],
+      "rows": [
+        [
+          "Nachbarn, die ich im ersten Monat kennengelernt habe",
+          "die = Akkusativ Plural"
+        ],
+        [
+          "Nachbarn, denen ich geholfen habe",
+          "denen = Dativ Plural"
+        ],
+        [
+          "Nachbarn, mit denen ich spreche",
+          "Präposition + Relativpronomen"
+        ],
+        [
+          "die Nachbarschaft, in der ich wohne",
+          "in der = Dativ f"
+        ],
+        [
+          "der Mann, dessen Kinder hier zur Schule gehen",
+          "dessen = Genitiv m"
+        ]
+      ],
+      "note": "Dativ Plural Relativpronomen = denen; Genitiv = dessen / deren। প্রথমে লিঙ্গ ও বচন, পরে কেস।"
+    },
+    {
+      "type": "table",
+      "title": "Gegensatz: obwohl, trotzdem, dagegen, jedoch",
+      "head": [
+        "Wort",
+        "Typ",
+        "Beispiel"
+      ],
+      "rows": [
+        [
+          "obwohl",
+          "Nebensatz",
+          "Obwohl es Herausforderungen gibt, ist Vielfalt wertvoll."
+        ],
+        [
+          "trotzdem / dennoch",
+          "Hauptsatz, Verb 2.",
+          "Es gibt Herausforderungen. Trotzdem ist Vielfalt wertvoll."
+        ],
+        [
+          "dagegen / hingegen",
+          "Hauptsatz (Gegensatz)",
+          "Viele helfen, manche dagegen urteilen schnell."
+        ],
+        [
+          "jedoch",
+          "Hauptsatz",
+          "Viele sind offen, jedoch nicht alle."
+        ]
+      ],
+      "note": "trotzdem ও dennoch প্রায় একই। dagegen = বিপরীত দিক বোঝায়।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "die Vielfalt",
+      "options": [
+        "বৈচিত্র্য",
+        "সম্মান",
+        "মেনে নেওয়া",
+        "প্রতিবেশী এলাকা"
+      ],
+      "answer": 0,
+      "why": "die Vielfalt = বৈচিত্র্য।",
+      "word": "vielfalt"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "das Vorurteil",
+      "options": [
+        "পূর্বধারণা",
+        "একসাথে বসবাস",
+        "মেনে নেওয়া",
+        "সমাজ"
+      ],
+      "answer": 0,
+      "why": "das Vorurteil = পূর্বধারণা।",
+      "word": "vorurteil"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "akzeptieren",
+      "options": [
+        "পূর্বধারণা",
+        "উৎস",
+        "পার্থক্য",
+        "মেনে নেওয়া"
+      ],
+      "answer": 3,
+      "why": "akzeptieren = মেনে নেওয়া।",
+      "word": "akzeptieren"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Begegnung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Begegnung। বহুবচন: die Begegnungen।",
+      "word": "begegnung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Das sind Nachbarn, ___ ich geholfen habe.",
+      "options": [
+        "denen",
+        "die",
+        "den",
+        "dessen"
+      ],
+      "answer": 0,
+      "why": "Dativ Plural Relativpronomen।",
+      "word": "zusammenleben"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Der Mann, ___ Kinder hier zur Schule gehen, ist neu.",
+      "options": [
+        "dessen",
+        "deren",
+        "den",
+        "dem"
+      ],
+      "answer": 0,
+      "why": "der Mann (m) → dessen Kinder।",
+      "word": "herkunft"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক বাক্য কোনটি?",
+      "options": [
+        "Es gibt Herausforderungen. Trotzdem ist Vielfalt wertvoll.",
+        "Es gibt Herausforderungen. Trotzdem Vielfalt ist wertvoll.",
+        "Es gibt Herausforderungen, trotzdem Vielfalt wertvoll ist.",
+        "Trotzdem es gibt Herausforderungen."
+      ],
+      "answer": 0,
+      "why": "Trotzdem + Verb 2।",
+      "word": "respekt"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Integration“ কী?",
+      "options": [
+        "দুই পক্ষের প্রক্রিয়া",
+        "শুধু অভিবাসীর দায়িত্ব",
+        "আইন",
+        "পরীক্ষা"
+      ],
+      "answer": 0,
+      "why": "Prozess für beide Seiten।",
+      "word": "integration"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Toleranz“ কী?",
+      "options": [
+        "সহনশীলতা",
+        "শাস্তি",
+        "দূরত্ব",
+        "নিয়ম"
+      ],
+      "answer": 0,
+      "why": "die Toleranz।",
+      "word": "toleranz"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „সম্মান একপেশে হয় না।“",
+      "tiles": [
+        "einseitig.",
+        "ist",
+        "nicht",
+        "Respekt"
+      ],
+      "answer": [
+        "Respekt",
+        "ist",
+        "nicht",
+        "einseitig."
+      ],
+      "why": "sein + nicht + Adjektiv।",
+      "word": "respekt"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

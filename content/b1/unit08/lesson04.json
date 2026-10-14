@@ -1,0 +1,1508 @@
+{
+  "level": "B1",
+  "unit": 8,
+  "minutes": 18,
+  "lesson": 4,
+  "id": "b1-u08-l04",
+  "title": {
+    "de": "Hausordnung und gute Nachbarschaft",
+    "bn": "বাড়ির নিয়ম ও প্রতিবেশীর সাথে ভদ্র সম্পর্ক",
+    "en": "House rules and good neighbours"
+  },
+  "hook": {
+    "de": "Gute Zäune machen gute Nachbarn.",
+    "who": "Sprichwort",
+    "bn": "ভালো বেড়া ভালো প্রতিবেশী তৈরি করে।",
+    "en": "Good fences make good neighbours."
+  },
+  "goals": [
+    "Hausordnung: Ruhezeiten, Treppenhaus, Waschküche",
+    "höfliche Bitte und Entschuldigung",
+    "Konjunktiv II: Könnten Sie …? Es wäre nett, wenn …",
+    "Konflikte freundlich lösen"
+  ],
+  "words": [
+    {
+      "id": "hausordnung",
+      "de": "Hausordnung",
+      "art": "die",
+      "pl": "die Hausordnungen",
+      "pos": "বিশেষ্য",
+      "bn": "বাড়ির নিয়মাবলী",
+      "en": "house rules"
+    },
+    {
+      "id": "ruhezeit",
+      "de": "Ruhezeit",
+      "art": "die",
+      "pl": "die Ruhezeiten",
+      "pos": "বিশেষ্য",
+      "bn": "নীরবতার সময়",
+      "en": "quiet time"
+    },
+    {
+      "id": "nachtruhe",
+      "de": "Nachtruhe",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "রাতের নীরবতা",
+      "en": "night quiet hours"
+    },
+    {
+      "id": "laerm",
+      "de": "Lärm",
+      "art": "der",
+      "pos": "বিশেষ্য",
+      "bn": "শব্দদূষণ, হইচই",
+      "en": "noise"
+    },
+    {
+      "id": "stoeren",
+      "de": "stören",
+      "pos": "ক্রিয়া · hat gestört",
+      "bn": "বিরক্ত করা",
+      "en": "to disturb"
+    },
+    {
+      "id": "treppenhaus",
+      "de": "Treppenhaus",
+      "art": "das",
+      "pl": "die Treppenhäuser",
+      "pos": "বিশেষ্য",
+      "bn": "সিঁড়িঘর",
+      "en": "stairwell"
+    },
+    {
+      "id": "waschkueche",
+      "de": "Waschküche",
+      "art": "die",
+      "pl": "die Waschküchen",
+      "pos": "বিশেষ্য",
+      "bn": "কাপড় ধোয়ার (শেয়ার্ড) ঘর",
+      "en": "laundry room"
+    },
+    {
+      "id": "hausverwaltung",
+      "de": "Hausverwaltung",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "বাড়ি ব্যবস্থাপনা অফিস",
+      "en": "property management"
+    },
+    {
+      "id": "einhalten",
+      "de": "einhalten",
+      "pos": "ক্রিয়া · hat eingehalten",
+      "bn": "মেনে চলা",
+      "en": "to observe, to comply with"
+    },
+    {
+      "id": "regel",
+      "de": "Regel",
+      "art": "die",
+      "pl": "die Regeln",
+      "pos": "বিশেষ্য",
+      "bn": "নিয়ম",
+      "en": "rule"
+    },
+    {
+      "id": "ruecksichtsvoll",
+      "de": "rücksichtsvoll",
+      "pos": "বিশেষণ",
+      "bn": "বিবেচনাশীল",
+      "en": "considerate"
+    },
+    {
+      "id": "entschuldigen",
+      "de": "entschuldigen",
+      "pos": "ক্রিয়া · hat entschuldigt",
+      "bn": "ক্ষমা চাওয়া / মাফ করা",
+      "en": "to excuse, to apologise"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Herr Schulz",
+      "bn": [
+        "শুভ",
+        "সন্ধ্যা।",
+        "মাফ",
+        "করবেন,",
+        "এখন",
+        "রাত",
+        "সাড়ে",
+        "দশটা,",
+        "আর",
+        "আপনার",
+        "গান",
+        "বেশ",
+        "জোরে",
+        "শোনা",
+        "যাচ্ছে।"
+      ],
+      "en": [
+        "Good",
+        "evening.",
+        "Excuse",
+        "me,",
+        "it",
+        "is",
+        "half",
+        "past",
+        "ten",
+        "and",
+        "your",
+        "music",
+        "is",
+        "quite",
+        "loud."
+      ],
+      "de": [
+        {
+          "t": "Guten Abend.",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Guten Abend",
+          "gb": "শুভ সন্ধ্যা",
+          "ge": "Good evening",
+          "n": ""
+        },
+        {
+          "t": "Entschuldigung,",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "Entschuldigung",
+          "gb": "মাফ করবেন",
+          "ge": "Excuse me",
+          "n": ""
+        },
+        {
+          "t": "es ist jetzt",
+          "b": [
+            4
+          ],
+          "e": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "l": "es ist jetzt",
+          "gb": "এখন",
+          "ge": "it is half past ten",
+          "n": ""
+        },
+        {
+          "t": "halb elf,",
+          "b": [
+            5,
+            6,
+            7
+          ],
+          "e": [],
+          "l": "halb elf",
+          "gb": "রাত সাড়ে দশটা",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "und Ihre Musik",
+          "b": [
+            8,
+            9,
+            10
+          ],
+          "e": [
+            9,
+            10,
+            11
+          ],
+          "l": "und Ihre Musik",
+          "gb": "আর আপনার গান",
+          "ge": "and your music",
+          "n": ""
+        },
+        {
+          "t": "ist ziemlich laut.",
+          "b": [
+            11,
+            12,
+            13,
+            14
+          ],
+          "e": [
+            12,
+            13,
+            14
+          ],
+          "l": "ist ziemlich laut",
+          "gb": "বেশ জোরে শোনা যাচ্ছে",
+          "ge": "is quite loud",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "ইশ,",
+        "আমি",
+        "দুঃখিত।",
+        "আমি",
+        "খেয়াল",
+        "করিনি।",
+        "আমি",
+        "তাড়াতাড়ি",
+        "বন্ধ",
+        "করছি।"
+      ],
+      "en": [
+        "Oh,",
+        "I",
+        "am",
+        "sorry.",
+        "I",
+        "did",
+        "not",
+        "notice.",
+        "I",
+        "will",
+        "switch",
+        "it",
+        "off",
+        "right",
+        "away."
+      ],
+      "de": [
+        {
+          "t": "Oh,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Oh",
+          "gb": "ইশ",
+          "ge": "Oh",
+          "n": ""
+        },
+        {
+          "t": "das tut mir leid.",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            1,
+            2,
+            3
+          ],
+          "l": "das tut mir leid",
+          "gb": "আমি দুঃখিত",
+          "ge": "I am sorry",
+          "n": ""
+        },
+        {
+          "t": "Das habe ich",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            4,
+            5,
+            6
+          ],
+          "l": "Das habe ich",
+          "gb": "আমি খেয়াল",
+          "ge": "I did not",
+          "n": ""
+        },
+        {
+          "t": "nicht bemerkt.",
+          "b": [
+            5
+          ],
+          "e": [
+            7
+          ],
+          "l": "nicht bemerkt",
+          "gb": "করিনি",
+          "ge": "notice",
+          "n": ""
+        },
+        {
+          "t": "Ich schalte",
+          "b": [
+            6,
+            8,
+            9
+          ],
+          "e": [
+            8,
+            9,
+            10
+          ],
+          "l": "Ich schalte",
+          "gb": "আমি বন্ধ করছি",
+          "ge": "I will switch",
+          "n": ""
+        },
+        {
+          "t": "sie sofort aus.",
+          "b": [
+            7
+          ],
+          "e": [
+            11,
+            12,
+            13,
+            14
+          ],
+          "l": "sie sofort aus",
+          "gb": "তাড়াতাড়ি",
+          "ge": "it off right away",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Herr Schulz",
+      "bn": [
+        "ধন্যবাদ।",
+        "এখানে",
+        "রাত",
+        "দশটা",
+        "থেকে",
+        "সকাল",
+        "ছয়টা",
+        "পর্যন্ত",
+        "নীরবতার",
+        "সময়।",
+        "এটা",
+        "হাউস-নিয়মে",
+        "লেখা",
+        "আছে।"
+      ],
+      "en": [
+        "Thank",
+        "you.",
+        "Here",
+        "quiet",
+        "hours",
+        "are",
+        "from",
+        "ten",
+        "at",
+        "night",
+        "to",
+        "six",
+        "in",
+        "the",
+        "morning.",
+        "That",
+        "is",
+        "in",
+        "the",
+        "house",
+        "rules."
+      ],
+      "de": [
+        {
+          "t": "Danke.",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Danke",
+          "gb": "ধন্যবাদ",
+          "ge": "Thank you",
+          "n": ""
+        },
+        {
+          "t": "Hier gilt",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "Hier gilt",
+          "gb": "এখানে",
+          "ge": "Here",
+          "n": ""
+        },
+        {
+          "t": "von 22 bis 6 Uhr",
+          "b": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "e": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "l": "von 22 bis 6 Uhr",
+          "gb": "রাত দশটা থেকে সকাল ছয়টা পর্যন্ত",
+          "ge": "quiet hours are from ten at night to six in the morning",
+          "n": ""
+        },
+        {
+          "t": "Nachtruhe.",
+          "b": [
+            8,
+            9
+          ],
+          "e": [],
+          "l": "Nachtruhe",
+          "gb": "নীরবতার সময়",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Das steht",
+          "b": [
+            10
+          ],
+          "e": [
+            15,
+            16
+          ],
+          "l": "Das steht",
+          "gb": "এটা",
+          "ge": "That is",
+          "n": ""
+        },
+        {
+          "t": "in der Hausordnung.",
+          "b": [
+            11,
+            12,
+            13
+          ],
+          "e": [
+            17,
+            18,
+            19,
+            20
+          ],
+          "l": "Hausordnung",
+          "gb": "হাউস-নিয়মে লেখা আছে",
+          "ge": "in the house rules",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "ওটা",
+        "আমি",
+        "জানতাম",
+        "না।",
+        "আমার",
+        "আগে",
+        "ওটা",
+        "পড়া",
+        "উচিত",
+        "ছিল।",
+        "ওখানে",
+        "আর",
+        "কী",
+        "লেখা",
+        "আছে?"
+      ],
+      "en": [
+        "I",
+        "did",
+        "not",
+        "know",
+        "that.",
+        "I",
+        "should",
+        "have",
+        "read",
+        "it",
+        "earlier.",
+        "What",
+        "else",
+        "does",
+        "it",
+        "say?"
+      ],
+      "de": [
+        {
+          "t": "Das wusste ich",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "Das wusste ich",
+          "gb": "ওটা আমি",
+          "ge": "I did not",
+          "n": ""
+        },
+        {
+          "t": "nicht.",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "nicht",
+          "gb": "জানতাম না",
+          "ge": "know that",
+          "n": ""
+        },
+        {
+          "t": "Ich hätte sie",
+          "b": [
+            4
+          ],
+          "e": [
+            5,
+            6,
+            7
+          ],
+          "l": "Ich hätte sie",
+          "gb": "আমার",
+          "ge": "I should have",
+          "n": ""
+        },
+        {
+          "t": "früher lesen sollen.",
+          "b": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "e": [
+            8,
+            9,
+            10
+          ],
+          "l": "früher lesen sollen",
+          "gb": "আগে ওটা পড়া উচিত ছিল",
+          "ge": "read it earlier",
+          "n": ""
+        },
+        {
+          "t": "Was steht",
+          "b": [
+            12,
+            13,
+            14
+          ],
+          "e": [
+            11,
+            13,
+            14,
+            15
+          ],
+          "l": "Was steht",
+          "gb": "কী লেখা আছে",
+          "ge": "What does it say",
+          "n": ""
+        },
+        {
+          "t": "noch darin?",
+          "b": [
+            11
+          ],
+          "e": [
+            12
+          ],
+          "l": "noch darin",
+          "gb": "আর",
+          "ge": "else",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Herr Schulz",
+      "bn": [
+        "সিঁড়িঘর",
+        "খালি",
+        "রাখতে",
+        "হবে,",
+        "জুতো",
+        "বা",
+        "সাইকেল",
+        "রাখা",
+        "যাবে",
+        "না।",
+        "কাপড়",
+        "ধোয়ার",
+        "ঘর",
+        "সপ্তাহে",
+        "নির্দিষ্ট",
+        "দিনে",
+        "ব্যবহার",
+        "করা",
+        "যায়।",
+        "রবিবারে",
+        "ভারী",
+        "কাজ",
+        "নিষিদ্ধ।"
+      ],
+      "en": [
+        "The",
+        "stairwell",
+        "must",
+        "be",
+        "kept",
+        "clear;",
+        "shoes",
+        "or",
+        "bicycles",
+        "may",
+        "not",
+        "be",
+        "left",
+        "there.",
+        "The",
+        "laundry",
+        "room",
+        "can",
+        "be",
+        "used",
+        "on",
+        "certain",
+        "days",
+        "each",
+        "week.",
+        "Noisy",
+        "work",
+        "is",
+        "not",
+        "allowed",
+        "on",
+        "Sundays."
+      ],
+      "de": [
+        {
+          "t": "Das Treppenhaus",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Treppenhaus",
+          "gb": "সিঁড়িঘর",
+          "ge": "The stairwell",
+          "n": ""
+        },
+        {
+          "t": "muss",
+          "b": [
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "muss",
+          "gb": "হবে",
+          "ge": "must",
+          "n": ""
+        },
+        {
+          "t": "frei bleiben,",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            3,
+            4,
+            5
+          ],
+          "l": "frei bleiben",
+          "gb": "খালি রাখতে",
+          "ge": "be kept clear",
+          "n": ""
+        },
+        {
+          "t": "Schuhe oder Fahrräder",
+          "b": [
+            4,
+            5,
+            6
+          ],
+          "e": [
+            6,
+            7,
+            8
+          ],
+          "l": "Schuhe oder Fahrräder",
+          "gb": "জুতো বা সাইকেল",
+          "ge": "shoes or bicycles",
+          "n": ""
+        },
+        {
+          "t": "dürfen dort nicht stehen.",
+          "b": [
+            7,
+            8,
+            9
+          ],
+          "e": [
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "l": "dürfen dort nicht stehen",
+          "gb": "রাখা যাবে না",
+          "ge": "may not be left there",
+          "n": ""
+        },
+        {
+          "t": "Die Waschküche",
+          "b": [
+            10,
+            11,
+            12
+          ],
+          "e": [
+            14,
+            15,
+            16
+          ],
+          "l": "Waschküche",
+          "gb": "কাপড় ধোয়ার ঘর",
+          "ge": "The laundry room",
+          "n": ""
+        },
+        {
+          "t": "kann man",
+          "b": [
+            16,
+            17,
+            18
+          ],
+          "e": [
+            17,
+            18,
+            19
+          ],
+          "l": "kann man",
+          "gb": "ব্যবহার করা যায়",
+          "ge": "can be used",
+          "n": ""
+        },
+        {
+          "t": "an bestimmten Tagen",
+          "b": [
+            14,
+            15
+          ],
+          "e": [
+            20,
+            21,
+            22
+          ],
+          "l": "an bestimmten Tagen",
+          "gb": "নির্দিষ্ট দিনে",
+          "ge": "on certain days",
+          "n": ""
+        },
+        {
+          "t": "nutzen.",
+          "b": [],
+          "e": [],
+          "l": "nutzen",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Sonntags",
+          "b": [
+            19
+          ],
+          "e": [
+            30,
+            31
+          ],
+          "l": "Sonntags",
+          "gb": "রবিবারে",
+          "ge": "on Sundays",
+          "n": ""
+        },
+        {
+          "t": "ist lauter Lärm",
+          "b": [
+            20,
+            21
+          ],
+          "e": [
+            25,
+            26
+          ],
+          "l": "ist lauter Lärm",
+          "gb": "ভারী কাজ",
+          "ge": "Noisy work",
+          "n": ""
+        },
+        {
+          "t": "verboten.",
+          "b": [
+            22
+          ],
+          "e": [
+            27,
+            28,
+            29
+          ],
+          "l": "verboten",
+          "gb": "নিষিদ্ধ",
+          "ge": "is not allowed",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "বুঝেছি।",
+        "আমি",
+        "নিয়মগুলো",
+        "মেনে",
+        "চলব।",
+        "যদি",
+        "আবার",
+        "কোনো",
+        "সমস্যা",
+        "হয়,",
+        "আমাকে",
+        "সরাসরি",
+        "বলবেন।"
+      ],
+      "en": [
+        "I",
+        "understand.",
+        "I",
+        "will",
+        "follow",
+        "the",
+        "rules.",
+        "If",
+        "there",
+        "is",
+        "a",
+        "problem",
+        "again,",
+        "please",
+        "tell",
+        "me",
+        "directly."
+      ],
+      "de": [
+        {
+          "t": "Verstanden.",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Verstanden",
+          "gb": "আমি বুঝেছি",
+          "ge": "I understand",
+          "n": ""
+        },
+        {
+          "t": "Ich werde",
+          "b": [
+            2
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "Ich werde",
+          "gb": "আমি",
+          "ge": "I will",
+          "n": ""
+        },
+        {
+          "t": "die Regeln",
+          "b": [
+            3
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "Regel",
+          "gb": "নিয়মগুলো",
+          "ge": "the rules",
+          "n": ""
+        },
+        {
+          "t": "einhalten.",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            4
+          ],
+          "l": "einhalten",
+          "gb": "মেনে চলব",
+          "ge": "follow",
+          "n": ""
+        },
+        {
+          "t": "Falls es",
+          "b": [
+            6
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "Falls es",
+          "gb": "যদি",
+          "ge": "If there",
+          "n": ""
+        },
+        {
+          "t": "wieder ein Problem gibt,",
+          "b": [
+            7,
+            8,
+            9,
+            10
+          ],
+          "e": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "l": "wieder ein Problem gibt",
+          "gb": "আবার কোনো সমস্যা হয়",
+          "ge": "is a problem again",
+          "n": ""
+        },
+        {
+          "t": "sagen Sie es mir",
+          "b": [
+            11,
+            13
+          ],
+          "e": [
+            13,
+            14,
+            15
+          ],
+          "l": "sagen Sie es mir",
+          "gb": "আমাকে বলবেন",
+          "ge": "please tell me",
+          "n": ""
+        },
+        {
+          "t": "bitte direkt.",
+          "b": [
+            12
+          ],
+          "e": [
+            16
+          ],
+          "l": "bitte direkt",
+          "gb": "সরাসরি",
+          "ge": "directly",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Herr Schulz",
+      "bn": [
+        "গুছিয়ে",
+        "বলার",
+        "জন্য",
+        "ধন্যবাদ।",
+        "আপনি",
+        "যদি",
+        "কখনো",
+        "অনুষ্ঠান",
+        "করেন,",
+        "আগে",
+        "আমাদের",
+        "জানালে",
+        "ভালো",
+        "হতো।",
+        "আমরা",
+        "সহযোগিতা",
+        "করব।"
+      ],
+      "en": [
+        "Thank",
+        "you",
+        "for",
+        "putting",
+        "it",
+        "so",
+        "well.",
+        "If",
+        "you",
+        "ever",
+        "hold",
+        "a",
+        "party,",
+        "it",
+        "would",
+        "be",
+        "good",
+        "to",
+        "tell",
+        "us",
+        "beforehand.",
+        "We",
+        "will",
+        "cooperate."
+      ],
+      "de": [
+        {
+          "t": "Danke",
+          "b": [
+            3
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Danke",
+          "gb": "ধন্যবাদ",
+          "ge": "Thank you",
+          "n": ""
+        },
+        {
+          "t": "für Ihr Verständnis.",
+          "b": [
+            0,
+            1,
+            2
+          ],
+          "e": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "l": "für Ihr Verständnis",
+          "gb": "গুছিয়ে বলার জন্য",
+          "ge": "for putting it so well",
+          "n": ""
+        },
+        {
+          "t": "Wenn Sie",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "Wenn Sie",
+          "gb": "আপনি যদি",
+          "ge": "If you",
+          "n": ""
+        },
+        {
+          "t": "einmal feiern,",
+          "b": [
+            6,
+            7,
+            8
+          ],
+          "e": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "l": "einmal feiern",
+          "gb": "কখনো অনুষ্ঠান করেন",
+          "ge": "ever hold a party",
+          "n": ""
+        },
+        {
+          "t": "wäre es nett,",
+          "b": [
+            12,
+            13
+          ],
+          "e": [
+            13,
+            14,
+            15,
+            16
+          ],
+          "l": "wäre es nett",
+          "gb": "ভালো হতো",
+          "ge": "it would be good",
+          "n": ""
+        },
+        {
+          "t": "uns vorher",
+          "b": [
+            9,
+            10
+          ],
+          "e": [
+            17,
+            18,
+            19,
+            20
+          ],
+          "l": "uns vorher",
+          "gb": "আগে আমাদের",
+          "ge": "to tell us beforehand",
+          "n": ""
+        },
+        {
+          "t": "zu informieren.",
+          "b": [
+            11
+          ],
+          "e": [],
+          "l": "zu informieren",
+          "gb": "জানালে",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Dann",
+          "b": [
+            14
+          ],
+          "e": [
+            21,
+            22
+          ],
+          "l": "Dann",
+          "gb": "আমরা",
+          "ge": "We will",
+          "n": ""
+        },
+        {
+          "t": "haben wir",
+          "b": [
+            15,
+            16
+          ],
+          "e": [
+            23
+          ],
+          "l": "haben wir",
+          "gb": "সহযোগিতা করব",
+          "ge": "cooperate",
+          "n": ""
+        },
+        {
+          "t": "Verständnis.",
+          "b": [],
+          "e": [],
+          "l": "Verständnis",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "Typische Regeln in der Hausordnung",
+      "head": [
+        "Thema",
+        "Regel (Beispiel)"
+      ],
+      "rows": [
+        [
+          "Ruhezeiten",
+          "Nachtruhe meist 22–6 Uhr; oft Mittagsruhe 13–15 Uhr; Sonn- und Feiertage ruhiger"
+        ],
+        [
+          "Treppenhaus",
+          "freihalten; keine Schuhe oder Fahrräder dort abstellen"
+        ],
+        [
+          "Waschküche",
+          "feste Waschtage/Zeiten; sauber hinterlassen"
+        ],
+        [
+          "Müll",
+          "trennen und richtig entsorgen"
+        ],
+        [
+          "Haustiere",
+          "laut Mietvertrag; Rücksicht nehmen"
+        ],
+        [
+          "Besuch / Feiern",
+          "Nachbarn vorher informieren, Lärm vermeiden"
+        ]
+      ],
+      "note": "নিয়ম বাড়িভেদে আলাদা; আপনার Mietvertrag ও Hausordnung মনোযোগ দিয়ে পড়ুন। শব্দ সংক্রান্ত অভিযোগ প্রথমে সরাসরি ও ভদ্রভাবে বলাই রীতি।"
+    },
+    {
+      "type": "table",
+      "title": "Höflich bitten und sich entschuldigen",
+      "head": [
+        "Funktion",
+        "Formulierung"
+      ],
+      "rows": [
+        [
+          "Bitte",
+          "Könnten Sie bitte die Musik leiser machen? / Es wäre nett, wenn Sie …"
+        ],
+        [
+          "Hinweis",
+          "Hier gilt von 22 bis 6 Uhr Nachtruhe."
+        ],
+        [
+          "Entschuldigung",
+          "Das tut mir leid. / Das war nicht meine Absicht."
+        ],
+        [
+          "Einsicht",
+          "Ich hätte die Hausordnung früher lesen sollen."
+        ],
+        [
+          "Versprechen",
+          "Ich werde die Regeln einhalten."
+        ],
+        [
+          "Dank",
+          "Danke für Ihr Verständnis."
+        ]
+      ],
+      "note": "প্রথম অনুরোধে „Könnten Sie …?“ বা „Es wäre nett, wenn …“; কঠিন ভাষা ও অভিযোগমূলক সুর এড়ান।"
+    },
+    {
+      "type": "table",
+      "title": "Passiversatz und man-Sätze in Regeln",
+      "head": [
+        "Regel",
+        "Formulierung"
+      ],
+      "rows": [
+        [
+          "Pflicht",
+          "Das Treppenhaus muss frei bleiben. / Man muss die Ruhezeiten einhalten."
+        ],
+        [
+          "Verbot",
+          "Schuhe dürfen im Treppenhaus nicht stehen. / Lärm ist verboten."
+        ],
+        [
+          "Möglichkeit",
+          "Die Waschküche kann man an bestimmten Tagen nutzen."
+        ],
+        [
+          "Empfehlung",
+          "Man sollte Nachbarn vorher informieren."
+        ]
+      ],
+      "note": "নিয়ম বোঝাতে dürfen / müssen / können / sollen + man বা Passiv ব্যবহৃত হয়।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "die Hausordnung",
+      "options": [
+        "বিবেচনাশীল",
+        "নীরবতার সময়",
+        "শব্দদূষণ",
+        "বাড়ির নিয়মাবলী"
+      ],
+      "answer": 3,
+      "why": "die Hausordnung = বাড়ির নিয়মাবলী।",
+      "word": "hausordnung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "die Nachtruhe",
+      "options": [
+        "নীরবতার সময়",
+        "রাতের নীরবতা",
+        "সিঁড়িঘর",
+        "মেনে চলা"
+      ],
+      "answer": 1,
+      "why": "die Nachtruhe = রাতের নীরবতা।",
+      "word": "nachtruhe"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "einhalten",
+      "options": [
+        "ক্ষমা চাওয়া / মাফ করা",
+        "রাতের নীরবতা",
+        "সিঁড়িঘর",
+        "মেনে চলা"
+      ],
+      "answer": 3,
+      "why": "einhalten = মেনে চলা।",
+      "word": "einhalten"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Waschküche",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Waschküche। বহুবচন: die Waschküchen।",
+      "word": "waschkueche"
+    },
+    {
+      "type": "mcq",
+      "prompt": "কোনটি ভদ্র অনুরোধ?",
+      "options": [
+        "Könnten Sie bitte die Musik leiser machen?",
+        "Mach die Musik aus!",
+        "Das ist zu laut!",
+        "Ruhe jetzt!"
+      ],
+      "answer": 0,
+      "why": "Konjunktiv II।",
+      "word": "stoeren"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Nachtruhe“ সাধারণত কখন?",
+      "options": [
+        "রাত ১০টা থেকে সকাল ৬টা",
+        "সকাল ৮টা থেকে ১২টা",
+        "দুপুর ১টা থেকে ২টা",
+        "সারাদিন"
+      ],
+      "answer": 0,
+      "why": "22–6 Uhr।",
+      "word": "ruhezeit"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Ich hätte … lesen sollen“ মানে কী?",
+      "options": [
+        "আমার পড়া উচিত ছিল",
+        "আমি পড়ছি",
+        "আমি পড়ব",
+        "আমি পড়তে পারি না"
+      ],
+      "answer": 0,
+      "why": "hätte … sollen।",
+      "word": "regel"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Treppenhaus-এ কী করা উচিত নয়?",
+      "options": [
+        "জুতো বা সাইকেল রাখা",
+        "হাঁটা",
+        "আলো জ্বালানো",
+        "সিঁড়ি ব্যবহার"
+      ],
+      "answer": 0,
+      "why": "freihalten।",
+      "word": "treppenhaus"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„rücksichtsvoll“ মানে কী?",
+      "options": [
+        "বিবেচনাশীল",
+        "জোরে",
+        "রাগী",
+        "ধীর"
+      ],
+      "answer": 0,
+      "why": "Rücksicht + voll।",
+      "word": "ruecksichtsvoll"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „ভালো হতো যদি আপনি আমাদের আগে জানাতেন।“",
+      "tiles": [
+        "uns",
+        "zu informieren.",
+        "Es wäre nett,",
+        "vorher"
+      ],
+      "answer": [
+        "Es wäre nett,",
+        "uns",
+        "vorher",
+        "zu informieren."
+      ],
+      "why": "Es wäre nett, … zu …",
+      "word": "hausverwaltung"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}
