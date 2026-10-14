@@ -20,5 +20,16 @@
     },
     "questions": 24,
     "minutes": 60
+  },
+  {
+    "id": "b1-mock-01",
+    "level": "B1",
+    "title": {
+      "de": "Modelltest B1 — Goethe-Zertifikat B1",
+      "bn": "B1 মক পরীক্ষা ১",
+      "en": "B1 mock exam 1"
+    },
+    "questions": 24,
+    "minutes": 105
   }
 ]

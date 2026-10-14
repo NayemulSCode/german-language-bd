@@ -1,0 +1,427 @@
+{
+  "id": "b1-mock-01",
+  "level": "B1",
+  "title": {
+    "de": "Modelltest B1 — Goethe-Zertifikat B1",
+    "bn": "B1 মক পরীক্ষা ১",
+    "en": "B1 mock exam 1"
+  },
+  "passMark": 0.6,
+  "parts": [
+    {
+      "kind": "hoeren",
+      "title": "Hören — শোনা",
+      "instructions": "প্রতিটি অংশ শুনুন এবং সঠিক উত্তর বেছে নিন। আসল পরীক্ষায় অংশভেদে ১–২ বার চালানো হয়; এখানে যতবার খুশি শুনতে পারবেন, কিন্তু চেষ্টা করুন সর্বোচ্চ ২ বার।",
+      "minutes": 40,
+      "questions": [
+        {
+          "type": "listen",
+          "prompt": "Was erfährt der Kunde?",
+          "say": "Guten Tag, hier ist das Servicecenter der Stadtwerke. Ihre Jahresabrechnung ist fertig. Sie haben zu viel bezahlt und bekommen 86 Euro zurück. Das Geld wird in den nächsten zehn Tagen auf Ihr Konto überwiesen. Bei Fragen erreichen Sie uns montags bis freitags von acht bis sechzehn Uhr.",
+          "options": [
+            "Er bekommt Geld zurück.",
+            "Sein Vertrag wird gekündigt.",
+            "Er muss 86 Euro nachzahlen."
+          ],
+          "answer": 0,
+          "why": "„zu viel bezahlt … 86 Euro zurück“।"
+        },
+        {
+          "type": "listen",
+          "prompt": "Was soll Anna tun?",
+          "say": "Du, Anna, ich habe gerade mit dem Chef gesprochen. Die Besprechung wird von Mittwoch auf Donnerstag verschoben, weil zwei Kollegen krank sind. Sie beginnt aber wie geplant um halb zehn im großen Konferenzraum. Kannst du bitte noch den anderen Bescheid sagen?",
+          "options": [
+            "Einen neuen Raum buchen",
+            "Die anderen über den neuen Tag informieren",
+            "Die Besprechung leiten"
+          ],
+          "answer": 1,
+          "why": "„Kannst du … den anderen Bescheid sagen?“"
+        },
+        {
+          "type": "listen",
+          "prompt": "Was sagt die Person über das Praktikum?",
+          "say": "Ich habe lange überlegt, ob ich das Studium abbreche. Aber mein Professor hat mir geraten, ein Semester Pause zu machen und ein Praktikum zu absolvieren. Das war eine gute Idee: Jetzt weiß ich viel besser, was ich später beruflich machen will, und ich studiere mit neuer Motivation weiter.",
+          "options": [
+            "Sie macht es neben dem Studium weiter.",
+            "Es hat ihr geholfen, ihre Ziele zu klären.",
+            "Es war Zeitverschwendung."
+          ],
+          "answer": 1,
+          "why": "„weiß ich viel besser, was ich später … machen will“।"
+        },
+        {
+          "type": "listen",
+          "prompt": "Was sollen die Fahrgäste tun?",
+          "say": "Fahrgäste nach Köln, bitte beachten Sie: Wegen Bauarbeiten fällt der Regionalexpress um 14.12 Uhr heute aus. Bitte nutzen Sie den Zug um 14.40 Uhr von Gleis 3. Ihr Fahrschein bleibt gültig. Wir bitten um Entschuldigung für die Unannehmlichkeiten.",
+          "options": [
+            "Den Zug um 14.40 Uhr nehmen",
+            "Zwei Stunden warten",
+            "Ihr Ticket zurückgeben"
+          ],
+          "answer": 0,
+          "why": "Ausfall → Zug um 14.40 Uhr, Ticket gültig।"
+        },
+        {
+          "type": "listen",
+          "prompt": "Warum hat Herr Yilmaz das Fest organisiert?",
+          "say": "Moderatorin: Heute sprechen wir über Nachbarschaft. Herr Yilmaz, Sie haben ein Nachbarschaftsfest organisiert, richtig? — Ja, im letzten Sommer. Ich habe gemerkt, dass sich im Haus kaum jemand kannte. Deshalb haben wir im Hof gegrillt, und jede Familie hat etwas mitgebracht. Seitdem grüßen sich alle, und wir helfen uns gegenseitig.",
+          "options": [
+            "Weil sich die Hausbewohner nicht kannten",
+            "Weil er Geburtstag hatte",
+            "Weil die Hausverwaltung es verlangt hat"
+          ],
+          "answer": 0,
+          "why": "„im Haus kaum jemand kannte“।"
+        },
+        {
+          "type": "listen",
+          "prompt": "Was verlangt der Kunde?",
+          "say": "Ich möchte mich über die Lieferung beschweren. Ich habe vor zwei Wochen einen Schrank bestellt, und er ist immer noch nicht da. Außerdem hat mir niemand gesagt, wann er kommt. Wenn er bis Freitag nicht geliefert wird, möchte ich vom Vertrag zurücktreten und mein Geld zurückhaben.",
+          "options": [
+            "Einen neuen Schrank in anderer Farbe",
+            "Einen Rabatt",
+            "Lieferung bis Freitag, sonst Rückgabe des Geldes"
+          ],
+          "answer": 2,
+          "why": "bis Freitag oder Vertragsrücktritt + Geld zurück।"
+        },
+        {
+          "type": "listen",
+          "prompt": "Was findet die Person heute nicht mehr schlimm?",
+          "say": "Seit ich in Deutschland lebe, habe ich viel gelernt. Am Anfang war die Bürokratie am schwierigsten: so viele Formulare! Heute finde ich es nicht mehr schlimm, weil ich weiß, wo ich Hilfe bekomme. Am meisten schätze ich, dass man Termine zuverlässig einhalten kann.",
+          "options": [
+            "Die Arbeitszeiten",
+            "Das Wetter",
+            "Die Bürokratie"
+          ],
+          "answer": 2,
+          "why": "„Heute finde ich es nicht mehr schlimm“ (Bürokratie)।"
+        },
+        {
+          "type": "listen",
+          "prompt": "Was ist für die Firma wichtig?",
+          "say": "Guten Tag, ich rufe wegen der Stellenanzeige an. Ich habe eine Ausbildung als Elektriker, aber noch wenig Berufserfahrung. Ist das ein Problem? — Nein, wir bilden Sie gern weiter. Wichtig ist, dass Sie teamfähig sind und einen Führerschein haben. Schicken Sie uns bitte Ihre Bewerbung bis zum 15. des Monats.",
+          "options": [
+            "Lange Berufserfahrung",
+            "Teamfähigkeit und Führerschein",
+            "Ein Studium"
+          ],
+          "answer": 1,
+          "why": "„teamfähig … Führerschein“।"
+        },
+        {
+          "type": "listen",
+          "prompt": "Wie wird das Wetter morgen?",
+          "say": "Wie wird das Wetter? Heute Vormittag ist es im ganzen Land bewölkt, im Westen fällt zeitweise Regen. Am Nachmittag lockert es auf, von Osten her wird es sonnig bei bis zu 22 Grad. Morgen kommt ein Tief aus Nordwesten: Es wird windig und deutlich kühler.",
+          "options": [
+            "Regnerisch im Osten",
+            "Sonnig und 22 Grad",
+            "Windig und kühler"
+          ],
+          "answer": 2,
+          "why": "Tief → windig, deutlich kühler।"
+        },
+        {
+          "type": "listen",
+          "prompt": "Wer bezahlt den Kurs?",
+          "say": "Entschuldigen Sie, ist hier noch frei? — Ja, bitte. — Danke. Sind Sie auch wegen der Fortbildung hier? — Ja, ich möchte meine Deutschkenntnisse für den Beruf verbessern. Mein Chef bezahlt den Kurs, aber ich muss am Wochenende lernen. — Das ist anstrengend, aber es lohnt sich bestimmt.",
+          "options": [
+            "Der Arbeitgeber",
+            "Die Stadt",
+            "Die Person selbst"
+          ],
+          "answer": 0,
+          "why": "„Mein Chef bezahlt den Kurs“।"
+        },
+        {
+          "type": "listen",
+          "prompt": "Was empfehlen die Fachleute?",
+          "say": "Zum Thema Handynutzung bei Kindern: Viele Eltern fragen, ab welchem Alter ein eigenes Smartphone sinnvoll ist. Fachleute empfehlen, nicht zu früh zu beginnen und feste Regeln zu vereinbaren, zum Beispiel keine Handys beim Essen und am Abend. Wichtig ist außerdem, dass Eltern selbst ein gutes Vorbild sind.",
+          "options": [
+            "Kinder sollen früh ein Handy bekommen, ohne Regeln.",
+            "Feste Regeln und nicht zu früh beginnen",
+            "Handys komplett verbieten"
+          ],
+          "answer": 1,
+          "why": "„nicht zu früh … feste Regeln“।"
+        },
+        {
+          "type": "listen",
+          "prompt": "Was bittet Daniel?",
+          "say": "Hallo, ich bin es, Daniel. Ich stehe im Stau und komme zu spät zu unserem Treffen, wahrscheinlich eine halbe Stunde. Fangt bitte schon ohne mich an. Wenn ihr Hunger habt, bestellt ruhig das Essen für mich mit: ich nehme die Pizza mit Pilzen. Bis gleich!",
+          "options": [
+            "Das Treffen abzusagen",
+            "Auf ihn zu warten",
+            "Ohne ihn anzufangen und für ihn Pizza zu bestellen"
+          ],
+          "answer": 2,
+          "why": "„Fangt schon ohne mich an … bestellt für mich mit“।"
+        }
+      ]
+    },
+    {
+      "kind": "lesen",
+      "title": "Lesen — পড়া",
+      "instructions": "প্রতিটি লেখা পড়ে সঠিক উত্তর বেছে নিন। Richtig = ঠিক, Falsch = ভুল। একই লেখার একাধিক প্রশ্ন থাকতে পারে।",
+      "minutes": 65,
+      "questions": [
+        {
+          "type": "mcq",
+          "prompt": "Was ändert sich ab dem 1. Juli?",
+          "passage": "Liebe Kolleginnen und Kollegen,\nab dem 1. Juli arbeiten wir im Büro nach einem neuen Modell: Wer möchte, kann an zwei Tagen pro Woche von zu Hause arbeiten. Die Kernzeit von 10 bis 15 Uhr bleibt bestehen, dann müssen alle erreichbar sein. Bitte sprechen Sie Ihre Homeoffice-Tage vorher mit Ihrer Teamleitung ab. Wer einen eigenen Schreibtisch zu Hause hat, bekommt vom Unternehmen einen Zuschuss von 150 Euro für einen Bürostuhl.\nIhre Personalabteilung",
+          "options": [
+            "Die Kernzeit wird abgeschafft.",
+            "Alle müssen im Büro arbeiten.",
+            "Man kann an zwei Tagen pro Woche zu Hause arbeiten."
+          ],
+          "answer": 2,
+          "why": "„an zwei Tagen pro Woche von zu Hause arbeiten“।"
+        },
+        {
+          "type": "mcq",
+          "prompt": "Die Homeoffice-Tage müssen mit der Teamleitung abgesprochen werden.",
+          "passage": "Liebe Kolleginnen und Kollegen,\nab dem 1. Juli arbeiten wir im Büro nach einem neuen Modell: Wer möchte, kann an zwei Tagen pro Woche von zu Hause arbeiten. Die Kernzeit von 10 bis 15 Uhr bleibt bestehen, dann müssen alle erreichbar sein. Bitte sprechen Sie Ihre Homeoffice-Tage vorher mit Ihrer Teamleitung ab. Wer einen eigenen Schreibtisch zu Hause hat, bekommt vom Unternehmen einen Zuschuss von 150 Euro für einen Bürostuhl.\nIhre Personalabteilung",
+          "options": [
+            "Richtig",
+            "Falsch"
+          ],
+          "answer": 0,
+          "why": "„Bitte sprechen Sie … mit Ihrer Teamleitung ab“।"
+        },
+        {
+          "type": "mcq",
+          "prompt": "Das Unternehmen bezahlt jedem einen neuen Schreibtisch.",
+          "passage": "Liebe Kolleginnen und Kollegen,\nab dem 1. Juli arbeiten wir im Büro nach einem neuen Modell: Wer möchte, kann an zwei Tagen pro Woche von zu Hause arbeiten. Die Kernzeit von 10 bis 15 Uhr bleibt bestehen, dann müssen alle erreichbar sein. Bitte sprechen Sie Ihre Homeoffice-Tage vorher mit Ihrer Teamleitung ab. Wer einen eigenen Schreibtisch zu Hause hat, bekommt vom Unternehmen einen Zuschuss von 150 Euro für einen Bürostuhl.\nIhre Personalabteilung",
+          "options": [
+            "Richtig",
+            "Falsch"
+          ],
+          "answer": 1,
+          "why": "nur 150 € Zuschuss für einen Bürostuhl।"
+        },
+        {
+          "type": "mcq",
+          "prompt": "Was ist die Meinung von Klaus M.?",
+          "passage": "Leserbrief zum Thema Tempolimit\nIch fahre seit dreißig Jahren Auto und bin trotzdem für ein Tempolimit auf Autobahnen. Zwar verliere ich vielleicht ein paar Minuten, aber der Verkehr wird ruhiger, und es passieren weniger schwere Unfälle. Außerdem würde weniger Treibstoff verbraucht. Wer behauptet, ein Tempolimit sei ein Eingriff in die Freiheit, sollte auch an die Freiheit der Opfer denken.\nKlaus M., Leipzig",
+          "options": [
+            "Er fährt nicht Auto.",
+            "Er ist gegen ein Tempolimit.",
+            "Er findet ein Tempolimit sinnvoll."
+          ],
+          "answer": 2,
+          "why": "„bin trotzdem für ein Tempolimit“।"
+        },
+        {
+          "type": "mcq",
+          "prompt": "Klaus M. nennt auch den Treibstoffverbrauch als Argument.",
+          "passage": "Leserbrief zum Thema Tempolimit\nIch fahre seit dreißig Jahren Auto und bin trotzdem für ein Tempolimit auf Autobahnen. Zwar verliere ich vielleicht ein paar Minuten, aber der Verkehr wird ruhiger, und es passieren weniger schwere Unfälle. Außerdem würde weniger Treibstoff verbraucht. Wer behauptet, ein Tempolimit sei ein Eingriff in die Freiheit, sollte auch an die Freiheit der Opfer denken.\nKlaus M., Leipzig",
+          "options": [
+            "Richtig",
+            "Falsch"
+          ],
+          "answer": 0,
+          "why": "„Außerdem würde weniger Treibstoff verbraucht“।"
+        },
+        {
+          "type": "mcq",
+          "prompt": "Wer bekommt eine Ermäßigung für den Kurs?",
+          "passage": "Die Volkshochschule bietet im Herbst einen Kurs „Erste Hilfe im Alltag“ an. Der Kurs findet an vier Abenden statt, jeweils dienstags von 18 bis 20 Uhr. Die Teilnahme kostet 45 Euro; für Arbeitslose und Studierende gibt es eine Ermäßigung von 50 Prozent, wenn ein Nachweis vorgelegt wird. Die Anmeldung ist bis eine Woche vor Kursbeginn online möglich. Wer an einem Abend fehlt, kann den Stoff in einem Ersatztermin nachholen.",
+          "options": [
+            "Alle Teilnehmer",
+            "Arbeitslose und Studierende mit Nachweis",
+            "Nur Rentner"
+          ],
+          "answer": 1,
+          "why": "50 % für Arbeitslose und Studierende mit Nachweis।"
+        },
+        {
+          "type": "mcq",
+          "prompt": "Wer einen Abend verpasst, kann ihn nachholen.",
+          "passage": "Die Volkshochschule bietet im Herbst einen Kurs „Erste Hilfe im Alltag“ an. Der Kurs findet an vier Abenden statt, jeweils dienstags von 18 bis 20 Uhr. Die Teilnahme kostet 45 Euro; für Arbeitslose und Studierende gibt es eine Ermäßigung von 50 Prozent, wenn ein Nachweis vorgelegt wird. Die Anmeldung ist bis eine Woche vor Kursbeginn online möglich. Wer an einem Abend fehlt, kann den Stoff in einem Ersatztermin nachholen.",
+          "options": [
+            "Richtig",
+            "Falsch"
+          ],
+          "answer": 0,
+          "why": "„Ersatztermin“।"
+        },
+        {
+          "type": "mcq",
+          "prompt": "Was stört Jana ein wenig an der Wohnung?",
+          "passage": "Hallo Sven,\nstell dir vor, ich habe endlich eine Wohnung gefunden! Sie liegt im dritten Stock, hat zwei Zimmer und einen kleinen Balkon. Die Miete ist mit 720 Euro warm etwas höher, als ich wollte, aber die Lage ist super, nur fünf Minuten zur S-Bahn. Der Vermieter war freundlich, und ich darf am 1. Mai einziehen. Hättest du Lust, mir beim Umzug zu helfen? Als Dankeschön lade ich dich danach zum Essen ein.\nLiebe Grüße\nJana",
+          "options": [
+            "Die Miete ist etwas hoch",
+            "Der Vermieter",
+            "Die Lage"
+          ],
+          "answer": 0,
+          "why": "720 € warm, höher als gewollt।"
+        },
+        {
+          "type": "mcq",
+          "prompt": "Jana möchte, dass Sven ihr beim Umzug hilft.",
+          "passage": "Hallo Sven,\nstell dir vor, ich habe endlich eine Wohnung gefunden! Sie liegt im dritten Stock, hat zwei Zimmer und einen kleinen Balkon. Die Miete ist mit 720 Euro warm etwas höher, als ich wollte, aber die Lage ist super, nur fünf Minuten zur S-Bahn. Der Vermieter war freundlich, und ich darf am 1. Mai einziehen. Hättest du Lust, mir beim Umzug zu helfen? Als Dankeschön lade ich dich danach zum Essen ein.\nLiebe Grüße\nJana",
+          "options": [
+            "Richtig",
+            "Falsch"
+          ],
+          "answer": 0,
+          "why": "„Hättest du Lust, mir beim Umzug zu helfen?“"
+        },
+        {
+          "type": "mcq",
+          "prompt": "Was müssen viele Restaurants und Cafés seit Januar tun?",
+          "passage": "Neue Regeln für Mehrwegverpackungen\nSeit Januar müssen viele Restaurants und Cafés ihren Kundinnen und Kunden neben Einwegverpackungen auch Mehrwegverpackungen anbieten. Das gilt für Essen und Getränke zum Mitnehmen. Mehrwegbehälter sind meist gegen Pfand erhältlich und werden nach dem Gebrauch gespült und wiederverwendet. Kleine Betriebe mit wenigen Beschäftigten dürfen stattdessen mitgebrachte Behälter der Gäste befüllen. Umweltverbände begrüßen die Regelung, weisen aber darauf hin, dass sich noch zeigen muss, wie gut sie in der Praxis funktioniert.",
+          "options": [
+            "Keine Getränke zum Mitnehmen verkaufen",
+            "Nur noch Einwegverpackungen verwenden",
+            "Auch Mehrwegverpackungen anbieten"
+          ],
+          "answer": 2,
+          "why": "neben Einweg auch Mehrweg anbieten।"
+        },
+        {
+          "type": "mcq",
+          "prompt": "Kleine Betriebe dürfen mitgebrachte Behälter der Gäste befüllen.",
+          "passage": "Neue Regeln für Mehrwegverpackungen\nSeit Januar müssen viele Restaurants und Cafés ihren Kundinnen und Kunden neben Einwegverpackungen auch Mehrwegverpackungen anbieten. Das gilt für Essen und Getränke zum Mitnehmen. Mehrwegbehälter sind meist gegen Pfand erhältlich und werden nach dem Gebrauch gespült und wiederverwendet. Kleine Betriebe mit wenigen Beschäftigten dürfen stattdessen mitgebrachte Behälter der Gäste befüllen. Umweltverbände begrüßen die Regelung, weisen aber darauf hin, dass sich noch zeigen muss, wie gut sie in der Praxis funktioniert.",
+          "options": [
+            "Richtig",
+            "Falsch"
+          ],
+          "answer": 0,
+          "why": "„stattdessen mitgebrachte Behälter“।"
+        },
+        {
+          "type": "mcq",
+          "prompt": "Wie beurteilen Umweltverbände die Regelung?",
+          "passage": "Neue Regeln für Mehrwegverpackungen\nSeit Januar müssen viele Restaurants und Cafés ihren Kundinnen und Kunden neben Einwegverpackungen auch Mehrwegverpackungen anbieten. Das gilt für Essen und Getränke zum Mitnehmen. Mehrwegbehälter sind meist gegen Pfand erhältlich und werden nach dem Gebrauch gespült und wiederverwendet. Kleine Betriebe mit wenigen Beschäftigten dürfen stattdessen mitgebrachte Behälter der Gäste befüllen. Umweltverbände begrüßen die Regelung, weisen aber darauf hin, dass sich noch zeigen muss, wie gut sie in der Praxis funktioniert.",
+          "options": [
+            "Sie lehnen sie ab.",
+            "Sie begrüßen sie, warten aber auf die Praxis.",
+            "Sie haben sich nicht geäußert."
+          ],
+          "answer": 1,
+          "why": "„begrüßen … muss sich noch zeigen“।"
+        }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "title": "Schreiben, Teil 1 — Persönliche E-Mail",
+      "taskBn": "আপনার বন্ধু Markus আপনাকে সপ্তাহান্তে তার নতুন বাড়িতে আসতে বলেছে। আপনি আসতে পারছেন না। লিখুন: ধন্যবাদ জানান; কেন পারছেন না তার কারণ; একটি বিকল্প প্রস্তাব দিন; তাকে অন্য একটি প্রশ্ন করুন। প্রায় ৮০ শব্দ লিখুন।",
+      "taskDe": "Markus hat Sie am Wochenende in sein neues Haus eingeladen. Sie können nicht kommen. Bedanken Sie sich, erklären Sie den Grund, machen Sie einen anderen Vorschlag und stellen Sie eine Frage zum Haus. Schreiben Sie ca. 80 Wörter.",
+      "minWords": 70,
+      "model": "Lieber Markus,\nvielen Dank für die Einladung in dein neues Haus! Ich habe mich sehr gefreut. Leider kann ich am Wochenende nicht kommen, weil ich für meine Deutschprüfung lernen muss. Hättest du vielleicht Zeit am Samstag in zwei Wochen? Dann könnte ich bestimmt kommen und dir beim Einrichten helfen. Wie viele Zimmer hat das Haus eigentlich, und gibt es einen Garten? Ich bin schon sehr gespannt.\nViele Grüße\nSaheb",
+      "checklist": [
+        "Anrede und Dank",
+        "Grund erklärt (weil … + Verb am Ende)",
+        "Alternativvorschlag (Hättest du Zeit …? / Wie wäre es mit …?)",
+        "Frage zum Haus gestellt",
+        "höflicher Schluss",
+        "ca. 70–90 Wörter"
+      ]
+    },
+    {
+      "title": "Schreiben, Teil 2 — Forumsbeitrag (Meinung)",
+      "taskBn": "একটি অনলাইন ফোরামে বিষয়: „Soll Homeoffice für alle Berufe möglich sein?“ নিজের মতামত লিখুন: আপনার অবস্থান, দুটি যুক্তি, একটি উদাহরণ ও উপসংহার। প্রায় ৮০ শব্দ লিখুন।",
+      "taskDe": "Im Forum diskutieren Leser: „Sollte Homeoffice für alle Berufe möglich sein?“ Schreiben Sie Ihre Meinung (ca. 80 Wörter): Position, zwei Argumente, ein Beispiel, Schluss.",
+      "minWords": 70,
+      "model": "Meiner Meinung nach sollte Homeoffice nicht für alle Berufe möglich sein. Einerseits spart man viel Zeit, weil der Weg zur Arbeit wegfällt. Andererseits können Pflegekräfte oder Verkäufer ihre Arbeit nicht von zu Hause machen. Außerdem fehlt im Homeoffice oft der Kontakt zu den Kollegen. Zum Beispiel arbeite ich lieber im Büro, weil ich dort schneller Fragen klären kann. Deshalb finde ich, dass jede Firma nach Möglichkeit selbst entscheiden sollte.",
+      "checklist": [
+        "Position klar genannt (Meiner Meinung nach …)",
+        "zwei Argumente (einerseits … andererseits / außerdem)",
+        "Beispiel (zum Beispiel …)",
+        "Schluss (Deshalb finde ich, dass …)",
+        "Konnektoren benutzt (weil, deshalb, obwohl)",
+        "ca. 70–90 Wörter"
+      ]
+    },
+    {
+      "title": "Schreiben, Teil 3 — Formelle Nachricht",
+      "taskBn": "আপনি একটি পরীক্ষার কোর্সের আয়োজকের কাছে লিখছেন: আপনি অসুস্থ ছিলেন এবং পরীক্ষায় অংশ নিতে পারেননি। ক্ষমা চান; নতুন তারিখ জিজ্ঞাসা করুন; ডাক্তারের প্রমাণপত্র পাঠাচ্ছেন বলুন। প্রায় ৪০ শব্দ, ভদ্র ভাষায় (Sie)।",
+      "taskDe": "Sie konnten an einer Prüfung nicht teilnehmen (krank). Schreiben Sie an die Kursleitung: Entschuldigen Sie sich, fragen Sie nach einem neuen Termin, erwähnen Sie das Attest. Schreiben Sie ca. 40 Wörter (formell).",
+      "minWords": 35,
+      "model": "Sehr geehrte Damen und Herren,\nleider konnte ich am Samstag nicht an der Prüfung teilnehmen, weil ich krank war. Ich bitte um Entschuldigung. Das ärztliche Attest schicke ich Ihnen im Anhang. Könnten Sie mir bitte mitteilen, wann ich die Prüfung nachholen kann?\nMit freundlichen Grüßen\nSaheb Rahman",
+      "checklist": [
+        "formelle Anrede (Sehr geehrte Damen und Herren,)",
+        "Entschuldigung + Grund",
+        "Attest erwähnt",
+        "höfliche Frage (Könnten Sie mir bitte mitteilen …?)",
+        "Mit freundlichen Grüßen + Name",
+        "Sie-Form durchgehend"
+      ]
+    }
+  ],
+  "speaking": [
+    {
+      "title": "Sprechen, Teil 1 — Gemeinsam etwas planen",
+      "instructions": "আপনি ও আপনার সঙ্গী একসাথে কিছু পরিকল্পনা করছেন। প্রস্তাব দিন, মত জিজ্ঞাসা করুন, প্রতিক্রিয়া দিন ও সিদ্ধান্তে পৌঁছান (প্রায় ৩ মিনিট)।",
+      "prompts": [
+        {
+          "de": "Abschiedsfeier für eine Kollegin — Ort, Zeit, Geschenk, Essen",
+          "bn": "সহকর্মীর বিদায় অনুষ্ঠান — জায়গা, সময়, উপহার, খাবার",
+          "model": "Wie wäre es, wenn wir die Feier am Freitag nach der Arbeit machen? Wir könnten in der Kantine feiern, das ist praktisch. Was meinst du zum Geschenk? — Vielleicht einen Gutschein? — Gute Idee. Und für das Essen könnte jeder etwas mitbringen."
+        },
+        {
+          "de": "Ausflug mit dem Deutschkurs — Wohin? Wie? Was kostet es?",
+          "bn": "কোর্সের সাথে ভ্রমণ — কোথায়, কীভাবে, কত খরচ?",
+          "model": "Ich schlage vor, dass wir einen Tagesausflug an den See machen. Wir könnten mit dem Zug fahren, mit einem Gruppenticket wird es günstiger. Was hältst du davon? — Das klingt gut. Dann lass uns den Termin mit dem Kurs besprechen."
+        },
+        {
+          "de": "Umzug eines Freundes — Wer hilft? Transporter? Essen?",
+          "bn": "বন্ধুর বাসা বদল — কে সাহায্য করবে, গাড়ি, খাবার?",
+          "model": "Hast du am Samstag Zeit, bei Toms Umzug zu helfen? Ich kann einen Transporter leihen. Du könntest dann die Kartons packen. Danach laden wir alle zu Pizza ein. Einverstanden?"
+        }
+      ]
+    },
+    {
+      "title": "Sprechen, Teil 2 — Ein Thema vorstellen",
+      "instructions": "একটি বিষয় নিয়ে ১–২ মিনিট বলুন: ভূমিকা, নিজের অভিজ্ঞতা, দেশের সাথে তুলনা, সুবিধা-অসুবিধা, উপসংহার। তারপর নমুনা মিলিয়ে নিন।",
+      "prompts": [
+        {
+          "de": "Thema: Das Leben in einer neuen Stadt",
+          "bn": "নতুন শহরে জীবন",
+          "model": "Ich möchte über das Leben in einer neuen Stadt sprechen. Ich bin vor einem Jahr nach Deutschland gezogen. Am Anfang war alles fremd, aber ich habe schnell Freunde gefunden. Im Vergleich zu Bangladesch ist der Verkehr hier ruhiger, aber das Leben ist teurer. Ein Vorteil ist, dass es viele Angebote für Deutschlernende gibt. Ein Nachteil ist die Bürokratie. Insgesamt bin ich zufrieden."
+        },
+        {
+          "de": "Thema: Soziale Medien im Alltag",
+          "bn": "দৈনন্দিন জীবনে সোশ্যাল মিডিয়া",
+          "model": "Ich spreche über soziale Medien. Ich benutze sie, um mit meiner Familie in Kontakt zu bleiben. Ein Vorteil ist, dass man schnell Informationen bekommt. Ein Nachteil ist, dass man viel Zeit verliert und nicht alles stimmt, was man liest. Meiner Meinung nach sollte man bewusst damit umgehen."
+        },
+        {
+          "de": "Thema: Arbeiten im Ausland",
+          "bn": "বিদেশে কাজ করা",
+          "model": "Mein Thema ist das Arbeiten im Ausland. Viele Menschen suchen bessere Chancen. Ich arbeite seit zwei Jahren hier und habe viel gelernt, zum Beispiel Pünktlichkeit und Teamarbeit. Schwierig ist, dass man die Familie vermisst. Trotzdem würde ich es wieder machen, weil man sich persönlich weiterentwickelt."
+        }
+      ]
+    },
+    {
+      "title": "Sprechen, Teil 3 — Reagieren und Nachfragen",
+      "instructions": "অন্যজনের উপস্থাপনার পর প্রশ্ন করুন ও মত জানান। নিজের উপস্থাপনায় প্রশ্নের উত্তর দিন।",
+      "prompts": [
+        {
+          "de": "Eine Frage stellen",
+          "bn": "উপস্থাপনার পর একটি প্রশ্ন করুন",
+          "model": "Vielen Dank für Ihre Präsentation. Ich habe eine Frage: Wie lange wohnen Sie schon dort, und was gefällt Ihnen am besten?"
+        },
+        {
+          "de": "Zustimmen und ergänzen",
+          "bn": "একমত হয়ে কিছু যোগ করুন",
+          "model": "Da stimme ich Ihnen zu. Ich möchte noch ergänzen, dass auch die Gemeinschaft sehr wichtig ist."
+        },
+        {
+          "de": "Höflich widersprechen",
+          "bn": "ভদ্রভাবে দ্বিমত করুন",
+          "model": "Ich sehe das ein bisschen anders. Meiner Erfahrung nach ist es nicht immer so, aber ich verstehe Ihren Standpunkt."
+        },
+        {
+          "de": "Um Wiederholung bitten",
+          "bn": "আবার বলতে বলুন",
+          "model": "Entschuldigung, ich habe den letzten Satz nicht verstanden. Könnten Sie das bitte noch einmal anders erklären?"
+        }
+      ]
+    }
+  ]
+}

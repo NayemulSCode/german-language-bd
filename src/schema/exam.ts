@@ -26,8 +26,8 @@ const Speaking = z.object({
 })
 
 export const Exam = z.object({
-  id: z.string().regex(/^a[12]-mock-\d{2}$/, 'e.g. a2-mock-01'),
-  level: z.enum(['A1', 'A2']),
+  id: z.string().regex(/^(a1|a2|b1)-mock-\d{2}$/, 'e.g. b1-mock-01'),
+  level: z.enum(['A1', 'A2', 'B1']),
   title: z.object({ de: z.string(), bn: z.string(), en: z.string() }),
   passMark: z.number().min(0).max(1).default(0.6),
   parts: z.array(Part).min(2),

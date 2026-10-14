@@ -66,7 +66,7 @@ export function ExamScreen({ id }: { id: string }) {
     const total = exam.parts.reduce((n, p) => n + p.questions.length, 0)
     return shell(
       <section key={attempt}>
-        <div className="eyebrow bn">{exam.level === 'A2' ? 'মডেল টেস্ট · Goethe-Zertifikat A2-এর ধাঁচে' : 'মডেল টেস্ট · Start Deutsch 1-এর ধাঁচে'}</div>
+        <div className="eyebrow bn">{exam.level === 'A1' ? 'মডেল টেস্ট · Start Deutsch 1-এর ধাঁচে' : `মডেল টেস্ট · Goethe-Zertifikat ${exam.level}-এর ধাঁচে`}</div>
         <h1 style={{ fontSize: 28, marginTop: 4 }} lang="de">{exam.title.de}</h1>
         <div className="panel" style={{ marginTop: 14 }}>
           <ul className="goals bn">
