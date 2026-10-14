@@ -7,7 +7,7 @@ Screens: **Home** (daily goal, continue, review count, exam countdown, word of t
 a lesson sheet), **Review** (spaced-repetition flashcards), **Dictionary** (search German, Bangla or English),
 **Profile** (stats, themes incl. a warm night mode, goals, account). On phones the tabs sit at the bottom, on wide screens in a sidebar.
 
-Placement: a 20-question test (2 per A1 unit, no feedback) recommends a starting unit; a separate 24-question A2 test (`#placement/a2`) does the same for A2 and opens all of A1. Earlier units stay open to practise
+Placement: a 20-question test (2 per A1 unit, no feedback) recommends a starting unit; a separate 24-question A2 test (`#placement/a2`) does the same for A2 and opens all of A1, and a B1 test (`#placement/b1`) opens A1 and A2. Earlier units stay open to practise
 without being marked passed or giving XP; Profile has an "unlock all lessons" switch for free browsing.
 
 Review works like this: missed quiz words are due immediately; passing a lesson adds all its words, first review the next day.

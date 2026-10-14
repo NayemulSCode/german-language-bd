@@ -11,7 +11,7 @@ import { EXAMS, loadRecords } from '../lib/exam'
 
 export function CourseScreen() {
   const { lessonProgress, progress } = useApp()
-  const states = lessonStates(LESSONS, (id) => lessonProgress(id).passed, { startUnit: progress.startUnit, startUnitA2: progress.startUnitA2, unlockAll: progress.unlockAll })
+  const states = lessonStates(LESSONS, (id) => lessonProgress(id).passed, { startUnit: progress.startUnit, startUnitA2: progress.startUnitA2, startUnitB1: progress.startUnitB1, unlockAll: progress.unlockAll })
   const [level, setLevel] = useState<string>(() => LESSONS.find((l) => states.get(l.id) === 'now')?.level ?? 'A1')
   const [open, setOpen] = useState<Set<number>>(new Set())
   const [sheet, setSheet] = useState<LessonMeta | null>(null)
@@ -50,6 +50,7 @@ export function CourseScreen() {
       <div className="row" style={{ marginTop: 12, gap: 8, flexWrap: 'wrap' }}>
         <a className="btn sm ghost bn" href="#placement">{progress.placed ? 'A1 প্লেসমেন্ট টেস্ট আবার দিন' : 'কোথা থেকে শুরু করবেন? A1 প্লেসমেন্ট টেস্ট'}</a>
         {LESSONS.some((l) => l.level === 'A2') && <a className="btn sm ghost bn" href="#placement/a2">{progress.startUnitA2 > 0 ? 'A2 প্লেসমেন্ট টেস্ট আবার দিন' : 'A1 জানা আছে? A2 প্লেসমেন্ট টেস্ট'}</a>}
+        {LESSONS.some((l) => l.level === 'B1') && <a className="btn sm ghost bn" href="#placement/b1">{progress.startUnitB1 > 0 ? 'B1 প্লেসমেন্ট টেস্ট আবার দিন' : 'A2 জানা আছে? B1 প্লেসমেন্ট টেস্ট'}</a>}
       </div>
       {EXAMS.filter((ex) => ex.level === level).map((ex) => {
         const rec = loadRecords()[ex.id]

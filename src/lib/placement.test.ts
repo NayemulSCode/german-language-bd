@@ -43,6 +43,21 @@ describe('pickQuestions for A2', () => {
   })
 })
 
+describe('pickQuestions for B1', () => {
+  const dirB1 = new URL('../../content/b1/', import.meta.url).pathname
+  const b1 = readdirSync(dirB1).sort().flatMap((u) => readdirSync(join(dirB1, u)).sort().map((f) => Lesson.parse(JSON.parse(readFileSync(join(dirB1, u, f), 'utf8')))))
+  const items = pickQuestions(b1, 'B1')
+  it('asks two non-listening questions for each of the twelve B1 units', () => {
+    expect(items.map((i) => i.unit)).toEqual(Array.from({ length: 12 }, (_, k) => [k + 1, k + 1]).flat())
+    expect(items.every((i) => i.q.type !== 'listen')).toBe(true)
+  })
+  it('a B1 placement opens all of A1 and A2 and the earlier B1 units', () => {
+    const M = (id: string, level: string, unit: number) => ({ id, level, unit, lesson: 1, title: { de: '', bn: '', en: '' }, status: 'draft', minutes: 5, words: 1 }) as LessonMeta
+    const LL = [M('a1-u01-l01', 'A1', 1), M('a2-u01-l01', 'A2', 1), M('b1-u01-l01', 'B1', 1), M('b1-u02-l01', 'B1', 2), M('b1-u03-l01', 'B1', 3)]
+    expect([...lessonStates(LL, () => false, { startUnitB1: 2 }).values()]).toEqual(['open', 'open', 'open', 'now', 'locked'])
+  })
+})
+
 describe('placementResult', () => {
   const items = pickQuestions(lessons)
   const answers = (wrongAt: number[]) => items.map((_, i) => !wrongAt.includes(i))

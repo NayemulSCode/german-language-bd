@@ -9,7 +9,7 @@ import { QuestionBody, isReady, isRight } from '../components/Question'
 import { go } from '../router'
 
 /** A short mixed test over all A1 units: no feedback while answering, then a recommended starting unit. */
-export function PlacementScreen({ level = 'A1' }: { level?: 'A1' | 'A2' }) {
+export function PlacementScreen({ level = 'A1' }: { level?: 'A1' | 'A2' | 'B1' }) {
   const { setSettings } = useApp()
   const [items, setItems] = useState<PlacementItem[] | null>(null)
   const [started, setStarted] = useState(false)
@@ -45,7 +45,7 @@ export function PlacementScreen({ level = 'A1' }: { level?: 'A1' | 'A2' }) {
               <li>{bn(items.length)}টি প্রশ্ন, প্রায় ৫ মিনিট — সব {bn(new Set(items.map((x) => x.unit)).size)}টি ইউনিট থেকে।</li>
               <li>প্রতিটি উত্তরের পর ঠিক-ভুল দেখানো হবে না।</li>
               <li>না জানলে অনুমান না করে „জানি না“ চাপুন — তাতে ঠিক জায়গাটা বোঝা যায়।</li>
-              <li>এতে আপনার XP বা লেসনের অবস্থা বদলাবে না; শুধু আগের ইউনিটগুলো খুলে যাবে।{level === 'A2' && ' A2 টেস্টে আপনার সব A1 লেসনও খুলে যাবে।'}</li>
+              <li>এতে আপনার XP বা লেসনের অবস্থা বদলাবে না; শুধু আগের ইউনিটগুলো খুলে যাবে।{level === 'A2' && ' A2 টেস্টে আপনার সব A1 লেসনও খুলে যাবে।'}{level === 'B1' && ' B1 টেস্টে আপনার সব A1 ও A2 লেসনও খুলে যাবে।'}</li>
             </ul>
           </div>
           <div className="actions"><button className="btn bn" onClick={() => setStarted(true)}>শুরু করি</button></div>
@@ -58,7 +58,7 @@ export function PlacementScreen({ level = 'A1' }: { level?: 'A1' | 'A2' }) {
     const r = placementResult(items, correct)
     const t = UNIT_TITLES[`${level}-${r.startUnit}`]
     const apply = (unit: number) => {
-      setSettings(level === 'A2' ? { startUnitA2: unit } : { startUnit: unit, placed: true })
+      setSettings(level === 'B1' ? { startUnitB1: unit } : level === 'A2' ? { startUnitA2: unit } : { startUnit: unit, placed: true })
       go('#course')
     }
     return (

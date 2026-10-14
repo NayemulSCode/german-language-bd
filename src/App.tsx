@@ -53,7 +53,7 @@ export function App() {
         {route.name === 'dict' && <DictionaryScreen />}
         {route.name === 'me' && <ProfileScreen />}
         {route.name === 'lesson' && <LessonScreen id={route.param} />}
-        {route.name === 'placement' && <PlacementScreen level={route.param === 'a2' ? 'A2' : 'A1'} />}
+        {route.name === 'placement' && <PlacementScreen level={route.param === 'b1' ? 'B1' : route.param === 'a2' ? 'A2' : 'A1'} />}
         {route.name === 'exam' && <ExamScreen id={route.param || 'a1-mock-01'} />}
       </main>
       <Toast />

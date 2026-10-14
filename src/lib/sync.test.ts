@@ -86,6 +86,8 @@ describe('sanitizeProgress', () => {
     expect(sanitizeProgress({ startUnit: 6, placed: true, unlockAll: true })).toMatchObject({ startUnit: 6, placed: true, unlockAll: true })
     expect(sanitizeProgress({ startUnit: 0 }).startUnit).toBe(1)
     expect(sanitizeProgress({ startUnitA2: 5 }).startUnitA2).toBe(5)
+    expect(sanitizeProgress({ startUnitB1: 3 }).startUnitB1).toBe(3)
+    expect(sanitizeProgress({ startUnitB1: -1 }).startUnitB1).toBe(0)
     expect(sanitizeProgress({ startUnitA2: 'x' }).startUnitA2).toBe(0)
     expect(s.activity).toEqual({ '2026-03-01': 40 })
     expect(s.xp).toBe(20 + 35 + 20)

@@ -11,7 +11,7 @@ export const PER_UNIT = 2
  * Two questions per unit of the level (A1 or A2), from the first and the last lesson of the unit (so they differ and the later one is harder),
  * easiest unit first. Listening questions are left out so the test never depends on the device's voice.
  */
-export function pickQuestions(lessons: Lesson[], level: 'A1' | 'A2' = 'A1'): PlacementItem[] {
+export function pickQuestions(lessons: Lesson[], level: 'A1' | 'A2' | 'B1' = 'A1'): PlacementItem[] {
   const byUnit = new Map<number, Lesson[]>()
   for (const l of lessons) if (l.level === level) byUnit.set(l.unit, [...(byUnit.get(l.unit) ?? []), l])
   const items: PlacementItem[] = []
