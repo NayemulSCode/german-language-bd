@@ -1,0 +1,386 @@
+{
+  "id": "a1-mock-01",
+  "level": "A1",
+  "title": {
+    "de": "Modelltest A1 — Start Deutsch 1",
+    "bn": "A1 মক পরীক্ষা ১",
+    "en": "A1 mock exam 1"
+  },
+  "passMark": 0.6,
+  "parts": [
+    {
+      "kind": "hoeren",
+      "title": "Hören — শোনা",
+      "instructions": "প্রতিটি অংশ শুনুন এবং সঠিক উত্তর বেছে নিন। আসল পরীক্ষায় প্রতিটি অংশ ২ বার চালানো হয়; এখানে যতবার খুশি শুনতে পারবেন, কিন্তু চেষ্টা করুন সর্বোচ্চ ২ বার।",
+      "minutes": 20,
+      "questions": [
+        {
+          "type": "listen",
+          "prompt": "Von welchem Gleis fährt der Zug nach München?",
+          "say": "Achtung am Gleis fünf! Der Zug nach München fährt heute von Gleis sieben ab.",
+          "options": [
+            "Gleis fünf",
+            "Gleis sieben",
+            "Gleis neun"
+          ],
+          "answer": 1,
+          "why": "Durchsage: „von Gleis sieben“। fünf শুধু ঘোষণার শুরুতে বলা হয়েছে।"
+        },
+        {
+          "type": "listen",
+          "prompt": "Wie viel kostet das?",
+          "say": "Guten Tag, ich möchte zwei Brötchen und einen Kaffee, bitte. Das macht drei Euro fünfzig.",
+          "options": [
+            "3,05 €",
+            "3,50 €",
+            "5,30 €"
+          ],
+          "answer": 1,
+          "why": "drei Euro fünfzig = 3,50 €।"
+        },
+        {
+          "type": "listen",
+          "prompt": "Warum kommt Anna nicht zur Arbeit?",
+          "say": "Hallo, hier ist Anna. Ich komme heute nicht zur Arbeit. Ich bin krank und habe Fieber.",
+          "options": [
+            "Sie ist müde.",
+            "Sie ist krank.",
+            "Sie hat Urlaub."
+          ],
+          "answer": 1,
+          "why": "„Ich bin krank und habe Fieber“।"
+        },
+        {
+          "type": "listen",
+          "prompt": "Wann scheint morgen die Sonne?",
+          "say": "Das Wetter für morgen: Am Vormittag regnet es. Am Nachmittag scheint die Sonne.",
+          "options": [
+            "Am Vormittag",
+            "Am Nachmittag",
+            "Am Abend"
+          ],
+          "answer": 1,
+          "why": "Vormittag = regnet, Nachmittag = Sonne।"
+        },
+        {
+          "type": "listen",
+          "prompt": "Wo ist die Post?",
+          "say": "Entschuldigung, wo ist die Post? — Gehen Sie geradeaus und dann links. Die Post ist neben der Bank.",
+          "options": [
+            "Links, neben der Bank",
+            "Rechts, vor dem Bahnhof",
+            "Geradeaus, hinter der Schule"
+          ],
+          "answer": 0,
+          "why": "geradeaus, dann links; neben der Bank।"
+        },
+        {
+          "type": "listen",
+          "prompt": "Um wie viel Uhr beginnt der Kurs?",
+          "say": "Wann beginnt der Deutschkurs? — Am Montag um neun Uhr. — Und bis wann? — Bis zwölf Uhr.",
+          "options": [
+            "Um acht Uhr",
+            "Um neun Uhr",
+            "Um zwölf Uhr"
+          ],
+          "answer": 1,
+          "why": "beginnt am Montag um neun Uhr; zwölf ist das Ende।"
+        },
+        {
+          "type": "listen",
+          "prompt": "Wie alt ist Lisa?",
+          "say": "Ich habe eine Schwester und zwei Brüder. Meine Schwester heißt Lisa. Sie ist sechzehn Jahre alt.",
+          "options": [
+            "14 Jahre",
+            "16 Jahre",
+            "60 Jahre"
+          ],
+          "answer": 1,
+          "why": "sechzehn = 16 (sechzig = 60)।"
+        },
+        {
+          "type": "listen",
+          "prompt": "Was kostet ein Kilo Äpfel?",
+          "say": "Im Supermarkt gibt es heute ein Angebot: ein Kilo Äpfel für zwei Euro.",
+          "options": [
+            "1 €",
+            "2 €",
+            "12 €"
+          ],
+          "answer": 1,
+          "why": "zwei Euro = 2 €।"
+        },
+        {
+          "type": "listen",
+          "prompt": "Wann ist der Termin?",
+          "say": "Guten Tag, hier ist die Arztpraxis Doktor Müller. Ihr Termin ist am Mittwoch um vierzehn Uhr.",
+          "options": [
+            "Mittwoch, 14 Uhr",
+            "Mittwoch, 4 Uhr",
+            "Dienstag, 14 Uhr"
+          ],
+          "answer": 0,
+          "why": "am Mittwoch um vierzehn Uhr = 14:00।"
+        },
+        {
+          "type": "listen",
+          "prompt": "Wie fährt er zur Arbeit?",
+          "say": "Ich stehe um sechs Uhr auf. Ich frühstücke und gehe um sieben zur Arbeit. Ich fahre mit dem Bus.",
+          "options": [
+            "Mit dem Auto",
+            "Zu Fuß",
+            "Mit dem Bus"
+          ],
+          "answer": 2,
+          "why": "„Ich fahre mit dem Bus“।"
+        }
+      ]
+    },
+    {
+      "kind": "lesen",
+      "title": "Lesen — পড়া",
+      "instructions": "প্রতিটি ছোট লেখা পড়ে সঠিক উত্তর বেছে নিন। Richtig = ঠিক, Falsch = ভুল।",
+      "minutes": 25,
+      "questions": [
+        {
+          "type": "mcq",
+          "prompt": "Wann ist die Bäckerei am Sonntag offen?",
+          "passage": "Bäckerei Schmidt\nÖffnungszeiten\nMo–Fr: 7.00–18.00 Uhr\nSa: 7.00–13.00 Uhr\nSonntag: geschlossen",
+          "options": [
+            "Bis 13 Uhr",
+            "Von 7 bis 18 Uhr",
+            "Sie ist geschlossen."
+          ],
+          "answer": 2,
+          "why": "„Sonntag: geschlossen“ = বন্ধ।"
+        },
+        {
+          "type": "mcq",
+          "prompt": "Was möchte Tom?",
+          "passage": "Liebe Maria,\nich bin am Samstag in Berlin. Hast du Zeit? Wir können einen Kaffee trinken.\nViele Grüße\nTom",
+          "options": [
+            "Mit Maria Kaffee trinken",
+            "Nach Berlin umziehen",
+            "Maria anrufen"
+          ],
+          "answer": 0,
+          "why": "Tom schreibt: „Wir können einen Kaffee trinken“।"
+        },
+        {
+          "type": "mcq",
+          "prompt": "Wie viele Zimmer hat die Wohnung?",
+          "passage": "Zu vermieten:\n2-Zimmer-Wohnung, 55 m², Küche, Bad, Balkon.\nMiete: 600 € kalt. Ab 1. Mai frei.",
+          "options": [
+            "Ein Zimmer",
+            "Zwei Zimmer",
+            "Drei Zimmer"
+          ],
+          "answer": 1,
+          "why": "2-Zimmer-Wohnung = দুই রুম (Küche ও Bad আলাদা গোনা হয় না)।"
+        },
+        {
+          "type": "mcq",
+          "prompt": "Was bedeutet das Schild?",
+          "passage": "RAUCHEN VERBOTEN",
+          "options": [
+            "Man darf hier nicht rauchen.",
+            "Man darf hier rauchen.",
+            "Man muss hier rauchen."
+          ],
+          "answer": 0,
+          "why": "verboten = নিষিদ্ধ।"
+        },
+        {
+          "type": "mcq",
+          "prompt": "Wo wartet Jan?",
+          "passage": "Hallo Lukas,\nich bin im Café an der Ecke. Ich warte schon zehn Minuten. Wo bist du?\nJan",
+          "options": [
+            "Im Büro",
+            "Am Bahnhof",
+            "Im Café"
+          ],
+          "answer": 2,
+          "why": "„Ich bin im Café an der Ecke“।"
+        },
+        {
+          "type": "mcq",
+          "prompt": "Herr Yilmaz arbeitet nie am Wochenende.",
+          "passage": "Herr Yilmaz arbeitet in einem Krankenhaus. Er ist Pfleger. Er arbeitet von Montag bis Freitag, manchmal auch am Wochenende.",
+          "options": [
+            "Richtig",
+            "Falsch"
+          ],
+          "answer": 1,
+          "why": "„manchmal auch am Wochenende“ — তাই „nie“ ভুল।"
+        },
+        {
+          "type": "mcq",
+          "prompt": "Wann fährt der erste Bus?",
+          "passage": "Bus Linie 12\nFährt alle 10 Minuten.\nErste Fahrt: 5.30 Uhr · Letzte Fahrt: 23.00 Uhr",
+          "options": [
+            "Um 5.30 Uhr",
+            "Um 10.00 Uhr",
+            "Um 23.00 Uhr"
+          ],
+          "answer": 0,
+          "why": "„Erste Fahrt: 5.30 Uhr“।"
+        },
+        {
+          "type": "mcq",
+          "prompt": "Wie kann man sich bewerben?",
+          "passage": "Wir suchen eine Verkäuferin.\nArbeitszeit: 20 Stunden pro Woche.\nBitte schreiben Sie an: job@laden.de",
+          "options": [
+            "Per Telefon",
+            "Per E-Mail",
+            "Persönlich im Laden"
+          ],
+          "answer": 1,
+          "why": "Adresse: job@laden.de = E-Mail।"
+        },
+        {
+          "type": "mcq",
+          "prompt": "Sara wohnt in Syrien.",
+          "passage": "Mein Name ist Sara. Ich komme aus Syrien, aber ich wohne seit zwei Jahren in Köln. Ich lerne Deutsch.",
+          "options": [
+            "Richtig",
+            "Falsch"
+          ],
+          "answer": 1,
+          "why": "„ich wohne … in Köln“ — Syrien ist ihr Herkunftsland।"
+        },
+        {
+          "type": "mcq",
+          "prompt": "Du möchtest etwas Süßes. Was nimmst du?",
+          "passage": "Heute im Restaurant:\nSuppe 3,50 € · Salat 4,00 € · Pizza 7,50 € · Kuchen 2,50 €",
+          "options": [
+            "Die Suppe",
+            "Den Salat",
+            "Den Kuchen"
+          ],
+          "answer": 2,
+          "why": "Kuchen = মিষ্টি জিনিস।"
+        }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "title": "Schreiben, Teil 1 — Formular",
+      "taskBn": "আপনি একটি জিমে (Fitnessstudio) ভর্তি হচ্ছেন। ফর্মটি আপনার নিজের তথ্য দিয়ে পূরণ করুন (একটি কাগজে বা মনে মনে লিখুন)।",
+      "taskDe": "Name · Vorname · Geburtsdatum · Adresse · Telefon · Hobby",
+      "minWords": 0,
+      "model": "Name: Rahman\nVorname: Saheb\nGeburtsdatum: 12.03.1998\nAdresse: Hauptstraße 5, 10115 Berlin\nTelefon: 0151 2345678\nHobby: Fußball",
+      "checklist": [
+        "Name আর Vorname ঠিক ঘরে লিখেছি (পদবি = Name)",
+        "তারিখ দিন.মাস.বছর ক্রমে লিখেছি",
+        "ঠিকানা: রাস্তা + নম্বর, তারপর পোস্টকোড + শহর",
+        "Hobby একটি শব্দে লিখেছি"
+      ]
+    },
+    {
+      "title": "Schreiben, Teil 2 — Kurze Nachricht",
+      "taskBn": "আপনার বন্ধু Tom-কে শনিবার সন্ধ্যা ৬টায় আপনার জন্মদিনের পার্টিতে নিমন্ত্রণ জানিয়ে ২–৩ বাক্যে লিখুন।",
+      "taskDe": "Schreiben Sie an Ihren Freund Tom: Laden Sie ihn zu Ihrem Geburtstag ein (Samstag, 18 Uhr). Schreiben Sie 2–3 Sätze.",
+      "minWords": 20,
+      "model": "Lieber Tom,\nich lade dich zu meinem Geburtstag ein. Die Party ist am Samstag um 18 Uhr bei mir. Kommst du?\nViele Grüße\nSaheb",
+      "checklist": [
+        "শুরুতে „Lieber Tom,“ লিখেছি",
+        "নিমন্ত্রণ করেছি (ich lade dich … ein)",
+        "দিন ও সময় লিখেছি (Samstag, 18 Uhr)",
+        "একটি প্রশ্ন বা অনুরোধ আছে (Kommst du?)",
+        "শেষে „Viele Grüße“ আর নিজের নাম",
+        "ক্রিয়া ২য় স্থানে (Die Party ist …)"
+      ]
+    }
+  ],
+  "speaking": [
+    {
+      "title": "Sprechen, Teil 1 — Sich vorstellen",
+      "instructions": "প্রতিটি শব্দ দেখে একটি পূর্ণ বাক্য জোরে বলুন। তারপর নমুনা শুনে মিলিয়ে নিন।",
+      "prompts": [
+        {
+          "de": "Name?",
+          "bn": "আপনার নাম কী?",
+          "model": "Ich heiße Saheb Rahman."
+        },
+        {
+          "de": "Land?",
+          "bn": "আপনি কোন দেশ থেকে এসেছেন?",
+          "model": "Ich komme aus Bangladesch."
+        },
+        {
+          "de": "Wohnort?",
+          "bn": "আপনি কোথায় থাকেন?",
+          "model": "Ich wohne in Berlin."
+        },
+        {
+          "de": "Alter?",
+          "bn": "আপনার বয়স কত?",
+          "model": "Ich bin fünfundzwanzig Jahre alt."
+        },
+        {
+          "de": "Sprachen?",
+          "bn": "আপনি কোন কোন ভাষা বলেন?",
+          "model": "Ich spreche Bengalisch, Englisch und ein bisschen Deutsch."
+        },
+        {
+          "de": "Hobby?",
+          "bn": "আপনার শখ কী?",
+          "model": "Mein Hobby ist Fußball."
+        }
+      ]
+    },
+    {
+      "title": "Sprechen, Teil 2 — Fragen stellen und antworten",
+      "instructions": "কার্ডের শব্দ দিয়ে একটি প্রশ্ন বানান। অন্য কেউ (বা আপনি নিজে) উত্তর দিন।",
+      "prompts": [
+        {
+          "de": "Geschäft — ?",
+          "bn": "দোকান: কখন খোলে?",
+          "model": "Wann öffnet das Geschäft? — Um neun Uhr."
+        },
+        {
+          "de": "Hobby — ?",
+          "bn": "শখ: তোমার শখ কী?",
+          "model": "Was ist dein Hobby? — Ich spiele gern Fußball."
+        },
+        {
+          "de": "Frühstück — ?",
+          "bn": "নাস্তা: কী খাও?",
+          "model": "Was isst du zum Frühstück? — Brot und Tee."
+        },
+        {
+          "de": "Wohnung — ?",
+          "bn": "ফ্ল্যাট: কয় রুম?",
+          "model": "Wie viele Zimmer hat deine Wohnung? — Zwei Zimmer."
+        }
+      ]
+    },
+    {
+      "title": "Sprechen, Teil 3 — Bitten und Reagieren",
+      "instructions": "ভদ্রভাবে অনুরোধ করুন; অনুরোধ শুনলে সাড়া দিন (Ja, gern! / Tut mir leid …)।",
+      "prompts": [
+        {
+          "de": "Wasser — bitte",
+          "bn": "পানি চান",
+          "model": "Können Sie mir bitte ein Glas Wasser geben?"
+        },
+        {
+          "de": "Fenster zu",
+          "bn": "জানালা বন্ধ করতে বলুন",
+          "model": "Können Sie bitte das Fenster schließen?"
+        },
+        {
+          "de": "Stift leihen",
+          "bn": "কলম ধার চান",
+          "model": "Kann ich bitte Ihren Stift haben?"
+        },
+        {
+          "de": "Bitte wiederholen",
+          "bn": "আবার বলতে বলুন",
+          "model": "Können Sie das bitte wiederholen?"
+        }
+      ]
+    }
+  ]
+}

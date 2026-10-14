@@ -1,0 +1,13 @@
+[
+  {
+    "id": "a1-mock-01",
+    "level": "A1",
+    "title": {
+      "de": "Modelltest A1 — Start Deutsch 1",
+      "bn": "A1 মক পরীক্ষা ১",
+      "en": "A1 mock exam 1"
+    },
+    "questions": 20,
+    "minutes": 45
+  }
+]

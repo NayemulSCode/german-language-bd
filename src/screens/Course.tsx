@@ -7,6 +7,7 @@ import { bn } from '../lib/format'
 import { toast } from '../lib/toast'
 import { go } from '../router'
 import { Icon } from '../components/Icon'
+import { EXAMS, loadRecords } from '../lib/exam'
 
 export function CourseScreen() {
   const { lessonProgress, progress } = useApp()
@@ -48,6 +49,19 @@ export function CourseScreen() {
       <div className="eyebrow bn">কোর্স ম্যাপ</div>
       <h1 style={{ fontSize: 30, marginTop: 4 }}>শূন্য থেকে B1</h1>
       <a className="btn sm ghost bn" href="#placement" style={{ marginTop: 12 }}>{progress.placed ? 'প্লেসমেন্ট টেস্ট আবার দিন' : 'কোথা থেকে শুরু করবেন? প্লেসমেন্ট টেস্ট'}</a>
+      {level === 'A1' && EXAMS.map((ex) => {
+        const rec = loadRecords()[ex.id]
+        return (
+          <a key={ex.id} className="card row" href={`#exam/${ex.id}`} style={{ textDecoration: 'none', marginTop: 12 }}>
+            <div className="grow">
+              <div className="eyebrow bn">মক পরীক্ষা</div>
+              <div className="bn" style={{ fontWeight: 700, marginTop: 2 }}>{ex.title.bn}</div>
+              <div className="muted bn" style={{ fontSize: 14 }}>{bn(ex.questions)}টি প্রশ্ন + লেখা ও বলা · প্রায় {bn(ex.minutes + 35)} মিনিট{rec ? ` · সেরা ফল ${bn(Math.round(rec.best * 100))}%` : ''}</div>
+            </div>
+            <span className="btn sm ghost bn">{rec ? 'আবার' : 'শুরু'}</span>
+          </a>
+        )
+      })}
       <div className="levels" role="group" aria-label="লেভেল" style={{ gridTemplateColumns: `repeat(${LEVEL_ORDER.length},1fr)` }}>
         {LEVEL_ORDER.map((k) => (
           <button key={k} className="lv" aria-pressed={k === level} onClick={() => { setLevel(k); setOpen(new Set()) }}>
