@@ -33,6 +33,17 @@
     "minutes": 60
   },
   {
+    "id": "a2-mock-02",
+    "level": "A2",
+    "title": {
+      "de": "Modelltest A2 (2) — Goethe-Zertifikat A2",
+      "bn": "A2 মক পরীক্ষা ২",
+      "en": "A2 mock exam 2"
+    },
+    "questions": 24,
+    "minutes": 60
+  },
+  {
     "id": "b1-mock-01",
     "level": "B1",
     "title": {
