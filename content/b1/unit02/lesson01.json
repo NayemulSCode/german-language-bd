@@ -1,0 +1,1648 @@
+{
+  "level": "B1",
+  "unit": 2,
+  "minutes": 18,
+  "lesson": 1,
+  "id": "b1-u02-l01",
+  "title": {
+    "de": "Nachdem ich gewartet hatte …",
+    "bn": "সময়ের বাক্য ও Plusquamperfekt",
+    "en": "Temporal clauses and the past perfect"
+  },
+  "hook": {
+    "de": "Gut Ding will Weile haben.",
+    "who": "Sprichwort",
+    "bn": "ভালো জিনিসের জন্য সময় লাগে।",
+    "en": "Good things take time."
+  },
+  "goals": [
+    "bevor, nachdem, während, sobald, bis — সময়ের সংযোজক",
+    "Plusquamperfekt: hatte / war + Partizip II",
+    "Tempusfolge: nachdem + Plusquamperfekt",
+    "অফিসে অপেক্ষা ও অ্যাপয়েন্টমেন্টের গল্প বলা"
+  ],
+  "words": [
+    {
+      "id": "wartenummer",
+      "de": "Wartenummer",
+      "art": "die",
+      "pl": "die Wartenummern",
+      "pos": "বিশেষ্য",
+      "bn": "অপেক্ষার নম্বর (টোকেন)",
+      "en": "queue number"
+    },
+    {
+      "id": "aufrufen",
+      "de": "aufrufen",
+      "pos": "ক্রিয়া · ruft auf, hat aufgerufen",
+      "bn": "ডাকা (নম্বর বা নাম ধরে)",
+      "en": "to call (a number or name)"
+    },
+    {
+      "id": "sachbearbeiter",
+      "de": "Sachbearbeiter",
+      "art": "der",
+      "pl": "die Sachbearbeiter",
+      "pos": "বিশেষ্য",
+      "bn": "কর্মকর্তা (কেস দেখেন যিনি)",
+      "en": "case worker"
+    },
+    {
+      "id": "zustaendig",
+      "de": "zuständig",
+      "pos": "বিশেষণ",
+      "bn": "দায়িত্বে থাকা, এখতিয়ারভুক্ত",
+      "en": "responsible"
+    },
+    {
+      "id": "wartezeit",
+      "de": "Wartezeit",
+      "art": "die",
+      "pl": "die Wartezeiten",
+      "pos": "বিশেষ্য",
+      "bn": "অপেক্ষার সময়",
+      "en": "waiting time"
+    },
+    {
+      "id": "vollstaendig",
+      "de": "vollständig",
+      "pos": "বিশেষণ",
+      "bn": "সম্পূর্ণ",
+      "en": "complete"
+    },
+    {
+      "id": "nachreichen",
+      "de": "nachreichen",
+      "pos": "ক্রিয়া · hat nachgereicht",
+      "bn": "পরে জমা দেওয়া",
+      "en": "to submit later"
+    },
+    {
+      "id": "bevor",
+      "de": "bevor",
+      "pos": "সংযোজক",
+      "bn": "আগে (…করার আগে)",
+      "en": "before"
+    },
+    {
+      "id": "nachdem",
+      "de": "nachdem",
+      "pos": "সংযোজক",
+      "bn": "পরে (…করার পরে)",
+      "en": "after"
+    },
+    {
+      "id": "waehrend",
+      "de": "während",
+      "pos": "সংযোজক",
+      "bn": "যখন, ঠিক সেই সময়ে",
+      "en": "while"
+    },
+    {
+      "id": "sobald",
+      "de": "sobald",
+      "pos": "সংযোজক",
+      "bn": "যেই …",
+      "en": "as soon as"
+    },
+    {
+      "id": "beschaeftigt",
+      "de": "beschäftigt",
+      "pos": "বিশেষণ",
+      "bn": "ব্যস্ত",
+      "en": "busy"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Lena",
+      "bn": [
+        "বুর্গারআমটে",
+        "তোমার",
+        "অ্যাপয়েন্টমেন্ট",
+        "কেমন",
+        "ছিল?"
+      ],
+      "en": [
+        "How",
+        "was",
+        "your",
+        "appointment",
+        "at",
+        "the",
+        "citizens’",
+        "office?"
+      ],
+      "de": [
+        {
+          "t": "Wie",
+          "b": [
+            3
+          ],
+          "e": [
+            0
+          ],
+          "l": "Wie",
+          "gb": "কেমন",
+          "ge": "How",
+          "n": ""
+        },
+        {
+          "t": "war",
+          "b": [
+            4
+          ],
+          "e": [
+            1
+          ],
+          "l": "war",
+          "gb": "ছিল",
+          "ge": "was",
+          "n": ""
+        },
+        {
+          "t": "dein",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "dein",
+          "gb": "তোমার",
+          "ge": "your",
+          "n": ""
+        },
+        {
+          "t": "Termin",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "Termin",
+          "gb": "অ্যাপয়েন্টমেন্ট",
+          "ge": "appointment",
+          "n": ""
+        },
+        {
+          "t": "beim Bürgeramt?",
+          "b": [
+            0
+          ],
+          "e": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "l": "beim Bürgeramt",
+          "gb": "বুর্গারআমটে",
+          "ge": "at the citizens’ office",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "ভালো,",
+        "কিন্তু",
+        "আমাকে",
+        "অনেকক্ষণ",
+        "অপেক্ষা",
+        "করতে",
+        "হয়েছে।",
+        "আমি",
+        "অপেক্ষার",
+        "নম্বর",
+        "তোলার",
+        "পর",
+        "এক",
+        "ঘণ্টা",
+        "অপেক্ষা",
+        "করেছি।"
+      ],
+      "en": [
+        "Good,",
+        "but",
+        "I",
+        "had",
+        "to",
+        "wait",
+        "a",
+        "long",
+        "time.",
+        "After",
+        "I",
+        "had",
+        "taken",
+        "a",
+        "queue",
+        "number,",
+        "I",
+        "waited",
+        "an",
+        "hour."
+      ],
+      "de": [
+        {
+          "t": "Gut,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Gut",
+          "gb": "ভালো",
+          "ge": "Good",
+          "n": ""
+        },
+        {
+          "t": "aber",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "aber",
+          "gb": "কিন্তু",
+          "ge": "but",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "ich",
+          "gb": "আমাকে",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "musste",
+          "b": [
+            6
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "musste",
+          "gb": "হয়েছে",
+          "ge": "had to",
+          "n": ""
+        },
+        {
+          "t": "lange",
+          "b": [
+            3
+          ],
+          "e": [
+            6,
+            7,
+            8
+          ],
+          "l": "lange",
+          "gb": "অনেকক্ষণ",
+          "ge": "a long time",
+          "n": ""
+        },
+        {
+          "t": "warten.",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            5
+          ],
+          "l": "warten",
+          "gb": "অপেক্ষা করতে",
+          "ge": "wait",
+          "n": ""
+        },
+        {
+          "t": "Nachdem",
+          "b": [
+            11
+          ],
+          "e": [
+            9
+          ],
+          "l": "nachdem",
+          "gb": "পর",
+          "ge": "After",
+          "n": "nachdem + Plusquamperfekt; Hauptsatz im Präteritum oder Perfekt"
+        },
+        {
+          "t": "ich",
+          "b": [
+            7
+          ],
+          "e": [
+            10
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "meine Wartenummer",
+          "b": [
+            8,
+            9
+          ],
+          "e": [
+            13,
+            14,
+            15
+          ],
+          "l": "Wartenummer",
+          "gb": "অপেক্ষার নম্বর",
+          "ge": "a queue number",
+          "n": ""
+        },
+        {
+          "t": "gezogen",
+          "b": [
+            10
+          ],
+          "e": [
+            12
+          ],
+          "l": "gezogen",
+          "gb": "তোলার",
+          "ge": "taken",
+          "n": ""
+        },
+        {
+          "t": "hatte,",
+          "b": [],
+          "e": [
+            11
+          ],
+          "l": "hatte",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "had",
+          "n": ""
+        },
+        {
+          "t": "habe ich",
+          "b": [
+            7
+          ],
+          "e": [
+            16,
+            17
+          ],
+          "l": "habe ich",
+          "gb": "আমি",
+          "ge": "I waited",
+          "n": ""
+        },
+        {
+          "t": "eine Stunde",
+          "b": [
+            12,
+            13
+          ],
+          "e": [
+            18,
+            19
+          ],
+          "l": "eine Stunde",
+          "gb": "এক ঘণ্টা",
+          "ge": "an hour",
+          "n": ""
+        },
+        {
+          "t": "gewartet.",
+          "b": [
+            14,
+            15
+          ],
+          "e": [],
+          "l": "gewartet",
+          "gb": "অপেক্ষা করেছি",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "এক",
+        "ঘণ্টা?",
+        "তোমার",
+        "কি",
+        "অ্যাপয়েন্টমেন্ট",
+        "ছিল",
+        "না?"
+      ],
+      "en": [
+        "An",
+        "hour?",
+        "Did",
+        "you",
+        "not",
+        "have",
+        "an",
+        "appointment?"
+      ],
+      "de": [
+        {
+          "t": "Eine Stunde?",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Eine Stunde",
+          "gb": "এক ঘণ্টা",
+          "ge": "An hour",
+          "n": ""
+        },
+        {
+          "t": "Hattest",
+          "b": [
+            5
+          ],
+          "e": [
+            2
+          ],
+          "l": "Hattest",
+          "gb": "ছিল",
+          "ge": "Did",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "du",
+          "gb": "তোমার",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "keinen Termin?",
+          "b": [
+            4,
+            6
+          ],
+          "e": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "l": "keinen Termin",
+          "gb": "অ্যাপয়েন্টমেন্ট না",
+          "ge": "not have an appointment",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "ছিল,",
+        "কিন্তু",
+        "কর্মকর্তা",
+        "তখনও",
+        "আরেকজন",
+        "গ্রাহকের",
+        "সাথে",
+        "ব্যস্ত",
+        "ছিলেন।",
+        "আমি",
+        "যখন",
+        "অপেক্ষা",
+        "করছিলাম,",
+        "আমি",
+        "কাগজপত্র",
+        "আরেকবার",
+        "দেখে",
+        "নিলাম।"
+      ],
+      "en": [
+        "I",
+        "did,",
+        "but",
+        "the",
+        "case",
+        "worker",
+        "was",
+        "still",
+        "busy",
+        "with",
+        "another",
+        "customer.",
+        "While",
+        "I",
+        "was",
+        "waiting,",
+        "I",
+        "checked",
+        "my",
+        "documents",
+        "once",
+        "more."
+      ],
+      "de": [
+        {
+          "t": "Doch,",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Doch",
+          "gb": "ছিল",
+          "ge": "I did",
+          "n": ""
+        },
+        {
+          "t": "aber",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "aber",
+          "gb": "কিন্তু",
+          "ge": "but",
+          "n": ""
+        },
+        {
+          "t": "der Sachbearbeiter",
+          "b": [
+            2
+          ],
+          "e": [
+            3,
+            4,
+            5
+          ],
+          "l": "Sachbearbeiter",
+          "gb": "কর্মকর্তা",
+          "ge": "the case worker",
+          "n": ""
+        },
+        {
+          "t": "war",
+          "b": [
+            8
+          ],
+          "e": [
+            6
+          ],
+          "l": "war",
+          "gb": "ছিলেন",
+          "ge": "was",
+          "n": ""
+        },
+        {
+          "t": "noch",
+          "b": [
+            3
+          ],
+          "e": [
+            7
+          ],
+          "l": "noch",
+          "gb": "তখনও",
+          "ge": "still",
+          "n": ""
+        },
+        {
+          "t": "mit einem anderen Kunden",
+          "b": [
+            4,
+            5,
+            6
+          ],
+          "e": [
+            9,
+            10,
+            11
+          ],
+          "l": "mit einem anderen Kunden",
+          "gb": "আরেকজন গ্রাহকের সাথে",
+          "ge": "with another customer",
+          "n": ""
+        },
+        {
+          "t": "beschäftigt.",
+          "b": [
+            7
+          ],
+          "e": [
+            8
+          ],
+          "l": "beschäftigt",
+          "gb": "ব্যস্ত",
+          "ge": "busy",
+          "n": ""
+        },
+        {
+          "t": "Während",
+          "b": [
+            10
+          ],
+          "e": [
+            12
+          ],
+          "l": "während",
+          "gb": "যখন",
+          "ge": "While",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            9
+          ],
+          "e": [
+            13
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "wartete,",
+          "b": [
+            11,
+            12
+          ],
+          "e": [
+            14,
+            15
+          ],
+          "l": "wartete",
+          "gb": "অপেক্ষা করছিলাম",
+          "ge": "was waiting",
+          "n": ""
+        },
+        {
+          "t": "habe ich",
+          "b": [
+            13
+          ],
+          "e": [
+            16
+          ],
+          "l": "habe ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "meine Unterlagen",
+          "b": [
+            14
+          ],
+          "e": [
+            18,
+            19
+          ],
+          "l": "meine Unterlagen",
+          "gb": "কাগজপত্র",
+          "ge": "my documents",
+          "n": ""
+        },
+        {
+          "t": "noch einmal",
+          "b": [
+            15
+          ],
+          "e": [
+            20,
+            21
+          ],
+          "l": "noch einmal",
+          "gb": "আরেকবার",
+          "ge": "once more",
+          "n": ""
+        },
+        {
+          "t": "geprüft.",
+          "b": [
+            16,
+            17
+          ],
+          "e": [
+            17
+          ],
+          "l": "geprüft",
+          "gb": "দেখে নিলাম",
+          "ge": "checked",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "আর",
+        "সেগুলো",
+        "কি",
+        "সম্পূর্ণ",
+        "ছিল?"
+      ],
+      "en": [
+        "And",
+        "were",
+        "they",
+        "complete?"
+      ],
+      "de": [
+        {
+          "t": "Und",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "waren",
+          "b": [
+            4
+          ],
+          "e": [
+            1
+          ],
+          "l": "waren",
+          "gb": "ছিল",
+          "ge": "were",
+          "n": ""
+        },
+        {
+          "t": "sie",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "sie",
+          "gb": "সেগুলো",
+          "ge": "they",
+          "n": ""
+        },
+        {
+          "t": "vollständig?",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "vollständig",
+          "gb": "সম্পূর্ণ",
+          "ge": "complete",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "প্রায়।",
+        "কর্মকর্তা",
+        "আমাকে",
+        "ডাকলে",
+        "আমি",
+        "বুঝলাম",
+        "একটি",
+        "কাগজ",
+        "নেই।",
+        "আমি",
+        "ওটা",
+        "বাসায়",
+        "ভুলে",
+        "এসেছিলাম।"
+      ],
+      "en": [
+        "Almost.",
+        "When",
+        "the",
+        "case",
+        "worker",
+        "called",
+        "me,",
+        "I",
+        "noticed",
+        "a",
+        "document",
+        "was",
+        "missing.",
+        "I",
+        "had",
+        "left",
+        "it",
+        "at",
+        "home."
+      ],
+      "de": [
+        {
+          "t": "Fast.",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Fast",
+          "gb": "প্রায়",
+          "ge": "Almost",
+          "n": ""
+        },
+        {
+          "t": "Als",
+          "b": [
+            3
+          ],
+          "e": [
+            1
+          ],
+          "l": "Als",
+          "gb": "ডাকলে",
+          "ge": "When",
+          "n": ""
+        },
+        {
+          "t": "der Sachbearbeiter",
+          "b": [
+            1
+          ],
+          "e": [
+            2,
+            3,
+            4
+          ],
+          "l": "der Sachbearbeiter",
+          "gb": "কর্মকর্তা",
+          "ge": "the case worker",
+          "n": ""
+        },
+        {
+          "t": "mich",
+          "b": [
+            2
+          ],
+          "e": [
+            6
+          ],
+          "l": "mich",
+          "gb": "আমাকে",
+          "ge": "me",
+          "n": ""
+        },
+        {
+          "t": "aufrief,",
+          "b": [],
+          "e": [
+            5
+          ],
+          "l": "aufrufen",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "called",
+          "n": ""
+        },
+        {
+          "t": "merkte",
+          "b": [
+            5
+          ],
+          "e": [
+            7,
+            8
+          ],
+          "l": "merkte",
+          "gb": "বুঝলাম",
+          "ge": "I noticed",
+          "n": ""
+        },
+        {
+          "t": "ich,",
+          "b": [
+            4
+          ],
+          "e": [],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "dass",
+          "b": [],
+          "e": [],
+          "l": "dass",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "ein Dokument",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "ein Dokument",
+          "gb": "একটি কাগজ",
+          "ge": "a document",
+          "n": ""
+        },
+        {
+          "t": "fehlte.",
+          "b": [
+            8
+          ],
+          "e": [
+            11,
+            12
+          ],
+          "l": "fehlte",
+          "gb": "নেই",
+          "ge": "was missing",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            9
+          ],
+          "e": [
+            13
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "hatte",
+          "b": [],
+          "e": [
+            14
+          ],
+          "l": "hatte",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "had",
+          "n": ""
+        },
+        {
+          "t": "es",
+          "b": [
+            10
+          ],
+          "e": [
+            16
+          ],
+          "l": "es",
+          "gb": "ওটা",
+          "ge": "it",
+          "n": ""
+        },
+        {
+          "t": "zu Hause",
+          "b": [
+            11
+          ],
+          "e": [
+            17,
+            18
+          ],
+          "l": "zu Hause",
+          "gb": "বাসায়",
+          "ge": "at home",
+          "n": ""
+        },
+        {
+          "t": "vergessen.",
+          "b": [
+            12,
+            13
+          ],
+          "e": [
+            15
+          ],
+          "l": "vergessen",
+          "gb": "ভুলে এসেছিলাম",
+          "ge": "left",
+          "n": "Plusquamperfekt: hatte vergessen = আগেই ঘটে গিয়েছিল"
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "ইশ!",
+        "তুমি",
+        "কি",
+        "ওটা",
+        "পরে",
+        "জমা",
+        "দিতে",
+        "পারলে?"
+      ],
+      "en": [
+        "Oh",
+        "no!",
+        "Could",
+        "you",
+        "submit",
+        "it",
+        "later?"
+      ],
+      "de": [
+        {
+          "t": "Oh nein!",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Oh nein",
+          "gb": "ইশ",
+          "ge": "Oh no",
+          "n": ""
+        },
+        {
+          "t": "Konntest",
+          "b": [
+            7
+          ],
+          "e": [
+            2
+          ],
+          "l": "Konntest",
+          "gb": "পারলে",
+          "ge": "Could",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            1
+          ],
+          "e": [
+            3
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "es",
+          "b": [
+            3
+          ],
+          "e": [
+            5
+          ],
+          "l": "es",
+          "gb": "ওটা",
+          "ge": "it",
+          "n": ""
+        },
+        {
+          "t": "nachreichen?",
+          "b": [
+            4,
+            5,
+            6
+          ],
+          "e": [
+            4,
+            6
+          ],
+          "l": "nachreichen",
+          "gb": "পরে জমা দিতে",
+          "ge": "submit later",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "হ্যাঁ।",
+        "বাসা",
+        "থেকে",
+        "আনা",
+        "হলেই",
+        "আমি",
+        "ওটা",
+        "জমা",
+        "দিতে",
+        "পারব।",
+        "কর্মকর্তা",
+        "আমাকে",
+        "দ্বিতীয়",
+        "অ্যাপয়েন্টমেন্ট",
+        "দিয়েছেন।"
+      ],
+      "en": [
+        "Yes.",
+        "As",
+        "soon",
+        "as",
+        "I",
+        "have",
+        "fetched",
+        "it",
+        "from",
+        "home,",
+        "I",
+        "can",
+        "hand",
+        "it",
+        "in.",
+        "The",
+        "case",
+        "worker",
+        "gave",
+        "me",
+        "a",
+        "second",
+        "appointment."
+      ],
+      "de": [
+        {
+          "t": "Ja.",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ja",
+          "gb": "হ্যাঁ",
+          "ge": "Yes",
+          "n": ""
+        },
+        {
+          "t": "Sobald",
+          "b": [
+            4
+          ],
+          "e": [
+            1,
+            2,
+            3
+          ],
+          "l": "sobald",
+          "gb": "হলেই",
+          "ge": "As soon as",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            5
+          ],
+          "e": [
+            4
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "es",
+          "b": [
+            6
+          ],
+          "e": [
+            7
+          ],
+          "l": "es",
+          "gb": "ওটা",
+          "ge": "it",
+          "n": ""
+        },
+        {
+          "t": "von zu Hause",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            8,
+            9
+          ],
+          "l": "von zu Hause",
+          "gb": "বাসা থেকে",
+          "ge": "from home",
+          "n": ""
+        },
+        {
+          "t": "geholt habe,",
+          "b": [
+            3
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "geholt habe",
+          "gb": "আনা",
+          "ge": "have fetched",
+          "n": ""
+        },
+        {
+          "t": "darf ich",
+          "b": [
+            5,
+            9
+          ],
+          "e": [
+            10,
+            11
+          ],
+          "l": "darf ich",
+          "gb": "আমি পারব",
+          "ge": "I can",
+          "n": ""
+        },
+        {
+          "t": "es",
+          "b": [],
+          "e": [
+            13
+          ],
+          "l": "es",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "it",
+          "n": ""
+        },
+        {
+          "t": "abgeben.",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            12,
+            14
+          ],
+          "l": "abgeben",
+          "gb": "জমা দিতে",
+          "ge": "hand in",
+          "n": ""
+        },
+        {
+          "t": "Der Sachbearbeiter",
+          "b": [
+            10
+          ],
+          "e": [
+            15,
+            16,
+            17
+          ],
+          "l": "Der Sachbearbeiter",
+          "gb": "কর্মকর্তা",
+          "ge": "The case worker",
+          "n": ""
+        },
+        {
+          "t": "hat mir",
+          "b": [
+            11
+          ],
+          "e": [
+            18,
+            19
+          ],
+          "l": "hat mir",
+          "gb": "আমাকে",
+          "ge": "gave me",
+          "n": ""
+        },
+        {
+          "t": "einen zweiten Termin",
+          "b": [
+            12,
+            13
+          ],
+          "e": [
+            20,
+            21,
+            22
+          ],
+          "l": "einen zweiten Termin",
+          "gb": "দ্বিতীয় অ্যাপয়েন্টমেন্ট",
+          "ge": "a second appointment",
+          "n": ""
+        },
+        {
+          "t": "gegeben.",
+          "b": [
+            14
+          ],
+          "e": [],
+          "l": "gegeben",
+          "gb": "দিয়েছেন",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "Temporale Konjunktionen",
+      "head": [
+        "Konjunktion",
+        "Bedeutung",
+        "Beispiel"
+      ],
+      "rows": [
+        [
+          "bevor",
+          "…র আগে",
+          "Bevor ich zum Amt gehe, sammle ich meine Unterlagen."
+        ],
+        [
+          "nachdem",
+          "…র পরে",
+          "Nachdem ich die Nummer gezogen hatte, habe ich gewartet."
+        ],
+        [
+          "während",
+          "…র সময়ে",
+          "Während ich wartete, habe ich gelesen."
+        ],
+        [
+          "sobald",
+          "যেই …",
+          "Sobald ich das Dokument habe, komme ich wieder."
+        ],
+        [
+          "bis",
+          "…পর্যন্ত",
+          "Ich warte, bis mein Name aufgerufen wird."
+        ],
+        [
+          "seit(dem)",
+          "…থেকে (এখনও চলছে)",
+          "Seit ich hier lebe, lerne ich Deutsch."
+        ]
+      ],
+      "note": "সবগুলোই Nebensatz: ক্রিয়া একদম শেষে। Nebensatz আগে এলে মূল বাক্য ক্রিয়া দিয়ে শুরু হয়।"
+    },
+    {
+      "type": "table",
+      "title": "Plusquamperfekt = hatte / war + Partizip II",
+      "head": [
+        "Person",
+        "haben-Verben",
+        "sein-Verben"
+      ],
+      "rows": [
+        [
+          "ich",
+          "ich hatte gewartet",
+          "ich war gegangen"
+        ],
+        [
+          "du",
+          "du hattest gewartet",
+          "du warst gegangen"
+        ],
+        [
+          "er/sie/es",
+          "er hatte gewartet",
+          "er war gegangen"
+        ],
+        [
+          "wir",
+          "wir hatten gewartet",
+          "wir waren gegangen"
+        ],
+        [
+          "ihr",
+          "ihr hattet gewartet",
+          "ihr wart gegangen"
+        ],
+        [
+          "sie/Sie",
+          "sie hatten gewartet",
+          "sie waren gegangen"
+        ]
+      ],
+      "note": "Plusquamperfekt = বর্তমান অতীতের আগের অতীত („আগেই করে ফেলেছিলাম“)। Perfekt-এর haben/sein শুধু Präteritum-এ বদলে নিন।"
+    },
+    {
+      "type": "table",
+      "title": "Tempusfolge mit nachdem",
+      "head": [
+        "Zeitfolge",
+        "Satz"
+      ],
+      "rows": [
+        [
+          "zuerst (Plusquamperfekt)",
+          "Nachdem ich die Nummer gezogen hatte,"
+        ],
+        [
+          "dann (Präteritum / Perfekt)",
+          "habe ich eine Stunde gewartet. / wartete ich eine Stunde."
+        ],
+        [
+          "Alltag (Perfekt statt Plusquamperfekt)",
+          "Nachdem ich die Nummer gezogen habe, habe ich gewartet."
+        ]
+      ],
+      "note": "কথায় প্রায়ই Perfekt + Perfekt চলে; লেখায় Plusquamperfekt ব্যবহার করলে স্পষ্টতা বাড়ে।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "die Wartenummer",
+      "options": [
+        "অপেক্ষার সময়",
+        "পরে জমা দেওয়া",
+        "অপেক্ষার নম্বর",
+        "পরে"
+      ],
+      "answer": 2,
+      "why": "die Wartenummer = অপেক্ষার নম্বর।",
+      "word": "wartenummer"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "zuständig",
+      "options": [
+        "ডাকা",
+        "দায়িত্বে থাকা",
+        "সম্পূর্ণ",
+        "পরে"
+      ],
+      "answer": 1,
+      "why": "zuständig = দায়িত্বে থাকা।",
+      "word": "zustaendig"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "nachreichen",
+      "options": [
+        "দায়িত্বে থাকা",
+        "পরে জমা দেওয়া",
+        "আগে",
+        "যেই …"
+      ],
+      "answer": 1,
+      "why": "nachreichen = পরে জমা দেওয়া।",
+      "word": "nachreichen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Wartezeit",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Wartezeit। বহুবচন: die Wartezeiten।",
+      "word": "wartezeit"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Nachdem ich die Nummer ___, habe ich gewartet.",
+      "options": [
+        "gezogen hatte",
+        "gezogen habe hatte",
+        "hatte gezogen",
+        "zog hatte"
+      ],
+      "answer": 0,
+      "why": "Nebensatz: Partizip + hatte (শেষে)।",
+      "word": "nachdem"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„bevor“ মানে কী?",
+      "options": [
+        "আগে",
+        "পরে",
+        "যখন",
+        "কারণ"
+      ],
+      "answer": 0,
+      "why": "bevor = before।",
+      "word": "bevor"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Plusquamperfekt কোনটি?",
+      "options": [
+        "Er war gegangen.",
+        "Er ist gegangen.",
+        "Er ging.",
+        "Er geht."
+      ],
+      "answer": 0,
+      "why": "war + Partizip II।",
+      "word": "waehrend"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক বাক্য কোনটি?",
+      "options": [
+        "Sobald ich es habe, komme ich wieder.",
+        "Sobald ich es habe, ich komme wieder.",
+        "Sobald habe ich es, ich komme wieder.",
+        "Sobald ich habe es, komme ich wieder."
+      ],
+      "answer": 0,
+      "why": "Nebensatz আগে → মূল বাক্যে ক্রিয়া প্রথমে।",
+      "word": "sobald"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„vollständig“ এর বিপরীত কী?",
+      "options": [
+        "unvollständig",
+        "beschäftigt",
+        "zuständig",
+        "schnell"
+      ],
+      "answer": 0,
+      "why": "un- + vollständig।",
+      "word": "vollstaendig"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „যখন আমি অপেক্ষা করছিলাম, আমি কাগজপত্র দেখে নিলাম।“",
+      "tiles": [
+        "habe ich",
+        "wartete,",
+        "Während",
+        "ich",
+        "meine Unterlagen",
+        "geprüft."
+      ],
+      "answer": [
+        "Während",
+        "ich",
+        "wartete,",
+        "habe ich",
+        "meine Unterlagen",
+        "geprüft."
+      ],
+      "why": "während-Satz আগে → ক্রিয়া প্রথমে।",
+      "word": "waehrend"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

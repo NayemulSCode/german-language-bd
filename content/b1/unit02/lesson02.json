@@ -1,0 +1,1416 @@
+{
+  "level": "B1",
+  "unit": 2,
+  "minutes": 18,
+  "lesson": 2,
+  "id": "b1-u02-l02",
+  "title": {
+    "de": "Anträge und Beglaubigungen",
+    "bn": "আবেদন, অনুবাদ ও প্রত্যয়ন",
+    "en": "Applications, translations and certifications"
+  },
+  "hook": {
+    "de": "Papier ist geduldig.",
+    "who": "Redensart",
+    "bn": "কাগজ ধৈর্যশীল — লেখা সহজ, প্রমাণ কঠিন।",
+    "en": "Paper is patient."
+  },
+  "goals": [
+    "Nominalstil: die Beantragung, die Bearbeitung",
+    "Passiv Perfekt: ist übersetzt worden",
+    "Zeugnisse: Übersetzung und Beglaubigung",
+    "Fragen zu Dauer und Kosten"
+  ],
+  "words": [
+    {
+      "id": "antragsteller",
+      "de": "Antragsteller",
+      "art": "der",
+      "pl": "die Antragsteller",
+      "pos": "বিশেষ্য",
+      "bn": "আবেদনকারী",
+      "en": "applicant"
+    },
+    {
+      "id": "bearbeitungsdauer",
+      "de": "Bearbeitungsdauer",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "প্রক্রিয়ার সময়কাল",
+      "en": "processing time"
+    },
+    {
+      "id": "beglaubigung",
+      "de": "Beglaubigung",
+      "art": "die",
+      "pl": "die Beglaubigungen",
+      "pos": "বিশেষ্য",
+      "bn": "প্রত্যয়ন (সত্যায়ন)",
+      "en": "certification"
+    },
+    {
+      "id": "beglaubigt",
+      "de": "beglaubigt",
+      "pos": "বিশেষণ",
+      "bn": "সত্যায়িত",
+      "en": "certified"
+    },
+    {
+      "id": "uebersetzung",
+      "de": "Übersetzung",
+      "art": "die",
+      "pl": "die Übersetzungen",
+      "pos": "বিশেষ্য",
+      "bn": "অনুবাদ",
+      "en": "translation"
+    },
+    {
+      "id": "vollmacht",
+      "de": "Vollmacht",
+      "art": "die",
+      "pl": "die Vollmachten",
+      "pos": "বিশেষ্য",
+      "bn": "ক্ষমতাপত্র",
+      "en": "power of attorney"
+    },
+    {
+      "id": "gebuehr",
+      "de": "Gebühr",
+      "art": "die",
+      "pl": "die Gebühren",
+      "pos": "বিশেষ্য",
+      "bn": "ফি",
+      "en": "fee"
+    },
+    {
+      "id": "ausstellen",
+      "de": "ausstellen",
+      "pos": "ক্রিয়া · hat ausgestellt",
+      "bn": "ইস্যু করা",
+      "en": "to issue"
+    },
+    {
+      "id": "vorlegen",
+      "de": "vorlegen",
+      "pos": "ক্রিয়া · hat vorgelegt",
+      "bn": "দেখানো, জমা দেখানো",
+      "en": "to present"
+    },
+    {
+      "id": "rueckfrage",
+      "de": "Rückfrage",
+      "art": "die",
+      "pl": "die Rückfragen",
+      "pos": "বিশেষ্য",
+      "bn": "ফিরতি প্রশ্ন",
+      "en": "query"
+    },
+    {
+      "id": "anerkennung",
+      "de": "Anerkennung",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "স্বীকৃতি",
+      "en": "recognition"
+    },
+    {
+      "id": "original",
+      "de": "Original",
+      "art": "das",
+      "pl": "die Originale",
+      "pos": "বিশেষ্য",
+      "bn": "মূল কপি",
+      "en": "original"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Saheb",
+      "bn": [
+        "শুভ",
+        "দিন,",
+        "আমি",
+        "আমার",
+        "সনদের",
+        "স্বীকৃতির",
+        "জন্য",
+        "আবেদন",
+        "করতে",
+        "চাই।",
+        "কী",
+        "কী",
+        "কাগজ",
+        "লাগবে?"
+      ],
+      "en": [
+        "Good",
+        "day,",
+        "I",
+        "would",
+        "like",
+        "to",
+        "apply",
+        "for",
+        "recognition",
+        "of",
+        "my",
+        "certificate.",
+        "Which",
+        "documents",
+        "do",
+        "I",
+        "need?"
+      ],
+      "de": [
+        {
+          "t": "Guten Tag,",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Guten Tag",
+          "gb": "শুভ দিন",
+          "ge": "Good day",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "möchte",
+          "b": [
+            9
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "möchte",
+          "gb": "চাই",
+          "ge": "would like",
+          "n": ""
+        },
+        {
+          "t": "die Anerkennung",
+          "b": [
+            5
+          ],
+          "e": [
+            8
+          ],
+          "l": "Anerkennung",
+          "gb": "স্বীকৃতির",
+          "ge": "recognition",
+          "n": ""
+        },
+        {
+          "t": "meines Zeugnisses",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            9,
+            10,
+            11
+          ],
+          "l": "meines Zeugnisses",
+          "gb": "আমার সনদের",
+          "ge": "of my certificate",
+          "n": ""
+        },
+        {
+          "t": "beantragen.",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            5,
+            6,
+            7
+          ],
+          "l": "beantragen",
+          "gb": "আবেদন করতে",
+          "ge": "to apply for",
+          "n": ""
+        },
+        {
+          "t": "Welche Unterlagen",
+          "b": [
+            10,
+            11,
+            12
+          ],
+          "e": [
+            12,
+            13
+          ],
+          "l": "Welche Unterlagen",
+          "gb": "কী কী কাগজ",
+          "ge": "Which documents",
+          "n": ""
+        },
+        {
+          "t": "brauche ich?",
+          "b": [
+            13
+          ],
+          "e": [
+            14,
+            15,
+            16
+          ],
+          "l": "brauche ich",
+          "gb": "লাগবে",
+          "ge": "do I need",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Beamtin",
+      "bn": [
+        "আপনার",
+        "মূল",
+        "সনদ",
+        "আর",
+        "একটি",
+        "সত্যায়িত",
+        "অনুবাদ",
+        "লাগবে।",
+        "অনুবাদ",
+        "কোনো",
+        "স্বীকৃত",
+        "অনুবাদক",
+        "করবেন।"
+      ],
+      "en": [
+        "You",
+        "need",
+        "your",
+        "original",
+        "certificate",
+        "and",
+        "a",
+        "certified",
+        "translation.",
+        "The",
+        "translation",
+        "must",
+        "be",
+        "done",
+        "by",
+        "a",
+        "recognised",
+        "translator."
+      ],
+      "de": [
+        {
+          "t": "Sie brauchen",
+          "b": [
+            7
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Sie brauchen",
+          "gb": "লাগবে",
+          "ge": "You need",
+          "n": ""
+        },
+        {
+          "t": "Ihr Originalzeugnis",
+          "b": [
+            0,
+            1,
+            2
+          ],
+          "e": [
+            2,
+            3,
+            4
+          ],
+          "l": "Original",
+          "gb": "আপনার মূল সনদ",
+          "ge": "your original certificate",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            3
+          ],
+          "e": [
+            5
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "eine beglaubigte Übersetzung.",
+          "b": [
+            4,
+            5,
+            6
+          ],
+          "e": [
+            6,
+            7,
+            8
+          ],
+          "l": "Übersetzung",
+          "gb": "একটি সত্যায়িত অনুবাদ",
+          "ge": "a certified translation",
+          "n": ""
+        },
+        {
+          "t": "Die Übersetzung",
+          "b": [
+            8
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "Die Übersetzung",
+          "gb": "অনুবাদ",
+          "ge": "The translation",
+          "n": ""
+        },
+        {
+          "t": "muss",
+          "b": [],
+          "e": [
+            11
+          ],
+          "l": "muss",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "must",
+          "n": ""
+        },
+        {
+          "t": "von einem anerkannten Übersetzer",
+          "b": [
+            9,
+            10,
+            11
+          ],
+          "e": [
+            14,
+            15,
+            16,
+            17
+          ],
+          "l": "von einem anerkannten Übersetzer",
+          "gb": "কোনো স্বীকৃত অনুবাদক",
+          "ge": "by a recognised translator",
+          "n": ""
+        },
+        {
+          "t": "angefertigt",
+          "b": [
+            12
+          ],
+          "e": [
+            12,
+            13
+          ],
+          "l": "angefertigt",
+          "gb": "করবেন",
+          "ge": "be done",
+          "n": ""
+        },
+        {
+          "t": "werden.",
+          "b": [],
+          "e": [],
+          "l": "werden",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমার",
+        "অনুবাদ",
+        "কি",
+        "এখনও",
+        "বাকি",
+        "আছে?",
+        "আমি",
+        "ওটা",
+        "বাংলাদেশে",
+        "করিয়েছি।"
+      ],
+      "en": [
+        "Is",
+        "my",
+        "translation",
+        "still",
+        "missing?",
+        "I",
+        "had",
+        "it",
+        "done",
+        "in",
+        "Bangladesh."
+      ],
+      "de": [
+        {
+          "t": "Fehlt",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            0
+          ],
+          "l": "Fehlt",
+          "gb": "বাকি আছে",
+          "ge": "Is",
+          "n": ""
+        },
+        {
+          "t": "meine Übersetzung",
+          "b": [
+            0,
+            1,
+            2
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "meine Übersetzung",
+          "gb": "আমার অনুবাদ কি",
+          "ge": "my translation",
+          "n": ""
+        },
+        {
+          "t": "noch?",
+          "b": [
+            3
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "noch",
+          "gb": "এখনও",
+          "ge": "still missing",
+          "n": ""
+        },
+        {
+          "t": "Ich",
+          "b": [
+            6
+          ],
+          "e": [
+            5
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [],
+          "e": [
+            6
+          ],
+          "l": "habe",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "had",
+          "n": ""
+        },
+        {
+          "t": "sie",
+          "b": [
+            7
+          ],
+          "e": [
+            7
+          ],
+          "l": "sie",
+          "gb": "ওটা",
+          "ge": "it",
+          "n": ""
+        },
+        {
+          "t": "in Bangladesch",
+          "b": [
+            8
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "in Bangladesch",
+          "gb": "বাংলাদেশে",
+          "ge": "in Bangladesh",
+          "n": ""
+        },
+        {
+          "t": "machen lassen.",
+          "b": [
+            9
+          ],
+          "e": [
+            8
+          ],
+          "l": "lassen",
+          "gb": "করিয়েছি",
+          "ge": "done",
+          "n": "machen lassen = করিয়ে নেওয়া"
+        }
+      ]
+    },
+    {
+      "who": "Beamtin",
+      "bn": [
+        "ওটা",
+        "সেখানে",
+        "অনুবাদ",
+        "করা",
+        "হয়ে",
+        "থাকলে",
+        "আমাদের",
+        "সেটা",
+        "সত্যায়িত",
+        "দেখতে",
+        "হবে।",
+        "অনুবাদটি",
+        "কি",
+        "ইতিমধ্যে",
+        "সত্যায়িত",
+        "হয়েছে?"
+      ],
+      "en": [
+        "If",
+        "it",
+        "was",
+        "translated",
+        "there,",
+        "we",
+        "need",
+        "to",
+        "see",
+        "it",
+        "certified.",
+        "Has",
+        "the",
+        "translation",
+        "already",
+        "been",
+        "certified?"
+      ],
+      "de": [
+        {
+          "t": "Wenn",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            0
+          ],
+          "l": "Wenn",
+          "gb": "হয়ে থাকলে",
+          "ge": "If",
+          "n": ""
+        },
+        {
+          "t": "sie",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "sie",
+          "gb": "ওটা",
+          "ge": "it",
+          "n": ""
+        },
+        {
+          "t": "dort",
+          "b": [
+            1
+          ],
+          "e": [
+            4
+          ],
+          "l": "dort",
+          "gb": "সেখানে",
+          "ge": "there",
+          "n": ""
+        },
+        {
+          "t": "übersetzt wurde,",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "übersetzt wurde",
+          "gb": "অনুবাদ করা",
+          "ge": "was translated",
+          "n": ""
+        },
+        {
+          "t": "müssen wir",
+          "b": [
+            6
+          ],
+          "e": [
+            5,
+            6
+          ],
+          "l": "müssen wir",
+          "gb": "আমাদের",
+          "ge": "we need",
+          "n": ""
+        },
+        {
+          "t": "sie",
+          "b": [
+            7
+          ],
+          "e": [
+            7,
+            8,
+            9
+          ],
+          "l": "sie",
+          "gb": "সেটা",
+          "ge": "to see it",
+          "n": ""
+        },
+        {
+          "t": "beglaubigt",
+          "b": [
+            8
+          ],
+          "e": [
+            10
+          ],
+          "l": "beglaubigt",
+          "gb": "সত্যায়িত",
+          "ge": "certified",
+          "n": ""
+        },
+        {
+          "t": "sehen.",
+          "b": [
+            9,
+            10
+          ],
+          "e": [],
+          "l": "sehen",
+          "gb": "দেখতে হবে",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Ist",
+          "b": [],
+          "e": [
+            11
+          ],
+          "l": "Ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "Has",
+          "n": ""
+        },
+        {
+          "t": "die Übersetzung",
+          "b": [
+            11
+          ],
+          "e": [
+            12,
+            13
+          ],
+          "l": "die Übersetzung",
+          "gb": "অনুবাদটি",
+          "ge": "the translation",
+          "n": ""
+        },
+        {
+          "t": "schon",
+          "b": [
+            13
+          ],
+          "e": [
+            14
+          ],
+          "l": "schon",
+          "gb": "ইতিমধ্যে",
+          "ge": "already",
+          "n": ""
+        },
+        {
+          "t": "beglaubigt",
+          "b": [
+            14
+          ],
+          "e": [
+            15,
+            16
+          ],
+          "l": "beglaubigt",
+          "gb": "সত্যায়িত",
+          "ge": "been certified",
+          "n": ""
+        },
+        {
+          "t": "worden?",
+          "b": [
+            15
+          ],
+          "e": [],
+          "l": "worden",
+          "gb": "হয়েছে",
+          "ge": "(no counterpart)",
+          "n": "Passiv Perfekt: ist beglaubigt worden (worden, nicht geworden)"
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "হ্যাঁ,",
+        "একজন",
+        "নোটারি",
+        "ওটা",
+        "প্রত্যয়ন",
+        "করেছেন।",
+        "আবেদনের",
+        "প্রক্রিয়া",
+        "সাধারণত",
+        "কতদিন",
+        "লাগে?"
+      ],
+      "en": [
+        "Yes,",
+        "a",
+        "notary",
+        "has",
+        "certified",
+        "it.",
+        "How",
+        "long",
+        "does",
+        "the",
+        "processing",
+        "of",
+        "the",
+        "application",
+        "usually",
+        "take?"
+      ],
+      "de": [
+        {
+          "t": "Ja,",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ja",
+          "gb": "হ্যাঁ",
+          "ge": "Yes",
+          "n": ""
+        },
+        {
+          "t": "ein Notar",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "ein Notar",
+          "gb": "একজন নোটারি",
+          "ge": "a notary",
+          "n": ""
+        },
+        {
+          "t": "hat sie",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "hat sie",
+          "gb": "ওটা",
+          "ge": "has",
+          "n": ""
+        },
+        {
+          "t": "beglaubigt.",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            4,
+            5
+          ],
+          "l": "beglaubigt",
+          "gb": "প্রত্যয়ন করেছেন",
+          "ge": "certified it",
+          "n": ""
+        },
+        {
+          "t": "Wie lange",
+          "b": [
+            9
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "Wie lange",
+          "gb": "কতদিন",
+          "ge": "How long",
+          "n": ""
+        },
+        {
+          "t": "dauert",
+          "b": [
+            10
+          ],
+          "e": [
+            8
+          ],
+          "l": "dauert",
+          "gb": "লাগে",
+          "ge": "does",
+          "n": ""
+        },
+        {
+          "t": "die Bearbeitung",
+          "b": [
+            7
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "die Bearbeitung",
+          "gb": "প্রক্রিয়া",
+          "ge": "the processing",
+          "n": ""
+        },
+        {
+          "t": "des Antrags",
+          "b": [
+            6
+          ],
+          "e": [
+            11,
+            12,
+            13
+          ],
+          "l": "des Antrags",
+          "gb": "আবেদনের",
+          "ge": "of the application",
+          "n": ""
+        },
+        {
+          "t": "normalerweise?",
+          "b": [
+            8
+          ],
+          "e": [
+            14,
+            15
+          ],
+          "l": "normalerweise",
+          "gb": "সাধারণত",
+          "ge": "usually take",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Beamtin",
+      "bn": [
+        "বেশিরভাগ",
+        "ক্ষেত্রে",
+        "আবেদন",
+        "কয়েক",
+        "সপ্তাহ",
+        "বা",
+        "মাসের",
+        "মধ্যে",
+        "প্রক্রিয়া",
+        "করা",
+        "হয়।",
+        "প্রশ্ন",
+        "থাকলে",
+        "আমরা",
+        "আপনাকে",
+        "জানাব।",
+        "ফি",
+        "আছে।"
+      ],
+      "en": [
+        "In",
+        "most",
+        "cases",
+        "the",
+        "application",
+        "is",
+        "processed",
+        "within",
+        "a",
+        "few",
+        "weeks",
+        "or",
+        "months.",
+        "If",
+        "we",
+        "have",
+        "questions,",
+        "we",
+        "will",
+        "contact",
+        "you.",
+        "There",
+        "is",
+        "a",
+        "fee."
+      ],
+      "de": [
+        {
+          "t": "In den meisten Fällen",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "In den meisten Fällen",
+          "gb": "বেশিরভাগ ক্ষেত্রে",
+          "ge": "In most cases",
+          "n": ""
+        },
+        {
+          "t": "wird",
+          "b": [
+            9,
+            10
+          ],
+          "e": [
+            5
+          ],
+          "l": "wird",
+          "gb": "করা হয়",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "der Antrag",
+          "b": [
+            2
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "der Antrag",
+          "gb": "আবেদন",
+          "ge": "the application",
+          "n": ""
+        },
+        {
+          "t": "innerhalb",
+          "b": [
+            7
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "innerhalb",
+          "gb": "মধ্যে",
+          "ge": "processed within",
+          "n": ""
+        },
+        {
+          "t": "weniger Wochen",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            8,
+            9,
+            10
+          ],
+          "l": "weniger Wochen",
+          "gb": "কয়েক সপ্তাহ",
+          "ge": "a few weeks",
+          "n": ""
+        },
+        {
+          "t": "oder Monate",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            11,
+            12
+          ],
+          "l": "oder Monate",
+          "gb": "বা মাসের",
+          "ge": "or months",
+          "n": ""
+        },
+        {
+          "t": "bearbeitet.",
+          "b": [
+            8
+          ],
+          "e": [],
+          "l": "bearbeitet",
+          "gb": "প্রক্রিয়া",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Bei Rückfragen",
+          "b": [
+            11,
+            12
+          ],
+          "e": [
+            13,
+            14,
+            15,
+            16
+          ],
+          "l": "Rückfrage",
+          "gb": "প্রশ্ন থাকলে",
+          "ge": "If we have questions",
+          "n": ""
+        },
+        {
+          "t": "melden wir uns.",
+          "b": [
+            13,
+            14,
+            15
+          ],
+          "e": [
+            17,
+            18,
+            19,
+            20
+          ],
+          "l": "melden wir uns",
+          "gb": "আমরা আপনাকে জানাব",
+          "ge": "we will contact you",
+          "n": ""
+        },
+        {
+          "t": "Es gibt eine Gebühr.",
+          "b": [
+            16,
+            17
+          ],
+          "e": [
+            21,
+            22,
+            23,
+            24
+          ],
+          "l": "Gebühr",
+          "gb": "ফি আছে",
+          "ge": "There is a fee",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "Nominalstil: Verb → Nomen",
+      "head": [
+        "Verb",
+        "Nomen",
+        "Beispiel"
+      ],
+      "rows": [
+        [
+          "beantragen",
+          "die Beantragung",
+          "Die Beantragung erfolgt online."
+        ],
+        [
+          "bearbeiten",
+          "die Bearbeitung",
+          "Die Bearbeitung dauert vier Wochen."
+        ],
+        [
+          "anerkennen",
+          "die Anerkennung",
+          "die Anerkennung ausländischer Abschlüsse"
+        ],
+        [
+          "übersetzen",
+          "die Übersetzung",
+          "eine beglaubigte Übersetzung"
+        ],
+        [
+          "beglaubigen",
+          "die Beglaubigung",
+          "die Beglaubigung durch einen Notar"
+        ],
+        [
+          "prüfen",
+          "die Prüfung",
+          "Die Prüfung der Unterlagen ist abgeschlossen."
+        ]
+      ],
+      "note": "Ämter ও চিঠিতে Nominalstil খুব বেশি — -ung (f), -ion, -keit, -heit দিয়ে শেষ শব্দগুলো প্রায়ই die-শব্দ।"
+    },
+    {
+      "type": "table",
+      "title": "Passiv Perfekt: ist … worden",
+      "head": [
+        "Aktiv",
+        "Passiv Perfekt"
+      ],
+      "rows": [
+        [
+          "Man hat den Antrag geprüft.",
+          "Der Antrag ist geprüft worden."
+        ],
+        [
+          "Ein Notar hat die Übersetzung beglaubigt.",
+          "Die Übersetzung ist beglaubigt worden."
+        ],
+        [
+          "Wir haben Sie informiert.",
+          "Sie sind informiert worden."
+        ]
+      ],
+      "note": "Passiv Perfekt = sein + Partizip II + worden (Vergangenheit). Perfekt-Partizip von werden im Passiv ist „worden“, nicht „geworden“।"
+    },
+    {
+      "type": "table",
+      "title": "Dokumente für die Anerkennung (Überblick)",
+      "head": [
+        "Dokument",
+        "Hinweis"
+      ],
+      "rows": [
+        [
+          "Originalzeugnis",
+          "Kopie und Original"
+        ],
+        [
+          "beglaubigte Übersetzung",
+          "von vereidigtem/ermächtigtem Übersetzer"
+        ],
+        [
+          "Beglaubigung der Kopie",
+          "durch Notar oder Behörde"
+        ],
+        [
+          "Lebenslauf",
+          "tabellarisch"
+        ],
+        [
+          "Nachweis der Identität",
+          "Pass / Aufenthaltstitel"
+        ],
+        [
+          "Gebühr",
+          "je nach Stelle und Verfahren"
+        ]
+      ],
+      "note": "কোন সনদ কোথায় স্বীকৃতির জন্য পাঠাতে হবে (z. B. Anabin / „Anerkennung in Deutschland“ পোর্টাল) তা পেশা অনুযায়ী আলাদা। অফিশিয়াল পোর্টালে আগে দেখে নিন।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "die Beglaubigung",
+      "options": [
+        "অনুবাদ",
+        "প্রত্যয়ন",
+        "ফি",
+        "দেখানো"
+      ],
+      "answer": 1,
+      "why": "die Beglaubigung = প্রত্যয়ন।",
+      "word": "beglaubigung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "die Bearbeitungsdauer",
+      "options": [
+        "সত্যায়িত",
+        "প্রক্রিয়ার সময়কাল",
+        "ফি",
+        "ফিরতি প্রশ্ন"
+      ],
+      "answer": 1,
+      "why": "die Bearbeitungsdauer = প্রক্রিয়ার সময়কাল।",
+      "word": "bearbeitungsdauer"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "die Vollmacht",
+      "options": [
+        "আবেদনকারী",
+        "সত্যায়িত",
+        "ক্ষমতাপত্র",
+        "ইস্যু করা"
+      ],
+      "answer": 2,
+      "why": "die Vollmacht = ক্ষমতাপত্র।",
+      "word": "vollmacht"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Gebühr",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Gebühr। বহুবচন: die Gebühren।",
+      "word": "gebuehr"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Passiv Perfekt কোনটি?",
+      "options": [
+        "Der Antrag ist geprüft worden.",
+        "Der Antrag wird geprüft.",
+        "Der Antrag wurde geprüft.",
+        "Man prüft den Antrag."
+      ],
+      "answer": 0,
+      "why": "ist + Partizip + worden।",
+      "word": "vorlegen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Die Übersetzung ist beglaubigt ___.",
+      "options": [
+        "worden",
+        "geworden",
+        "werden",
+        "wurde"
+      ],
+      "answer": 0,
+      "why": "Passiv Perfekt: worden।",
+      "word": "ausstellen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„die Bearbeitung“ কোন ক্রিয়া থেকে?",
+      "options": [
+        "bearbeiten",
+        "beantragen",
+        "arbeiten",
+        "beschäftigen"
+      ],
+      "answer": 0,
+      "why": "bearbeiten → die Bearbeitung।",
+      "word": "bearbeitungsdauer"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„beglaubigt“ মানে কী?",
+      "options": [
+        "সত্যায়িত",
+        "অনুবাদিত",
+        "ছাপা",
+        "পুরোনো"
+      ],
+      "answer": 0,
+      "why": "beglaubigen = to certify।",
+      "word": "beglaubigt"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„machen lassen“ মানে কী?",
+      "options": [
+        "করিয়ে নেওয়া",
+        "নিজে করা",
+        "বন্ধ করা",
+        "ছেড়ে দেওয়া"
+      ],
+      "answer": 0,
+      "why": "lassen + Infinitiv।",
+      "word": "uebersetzung"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „অনুবাদটি সত্যায়িত করা হয়েছে।“",
+      "tiles": [
+        "worden.",
+        "beglaubigt",
+        "Die Übersetzung",
+        "ist"
+      ],
+      "answer": [
+        "Die Übersetzung",
+        "ist",
+        "beglaubigt",
+        "worden."
+      ],
+      "why": "Passiv Perfekt।",
+      "word": "beglaubigung"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

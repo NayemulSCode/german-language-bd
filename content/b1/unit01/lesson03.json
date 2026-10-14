@@ -1,0 +1,1734 @@
+{
+  "level": "B1",
+  "unit": 1,
+  "minutes": 18,
+  "lesson": 3,
+  "id": "b1-u01-l03",
+  "title": {
+    "de": "Das Vorstellungsgespräch",
+    "bn": "ইন্টারভিউ: প্রশ্ন ও উত্তর",
+    "en": "The job interview"
+  },
+  "hook": {
+    "de": "Übung macht den Meister.",
+    "who": "Sprichwort",
+    "bn": "অনুশীলনেই দক্ষতা আসে।",
+    "en": "Practice makes perfect."
+  },
+  "goals": [
+    "সাধারণ প্রশ্ন বোঝা: Stärken, Schwächen, Motivation",
+    "Konjunktiv II: Ich könnte …, Ich würde …",
+    "নিজের সম্পর্কে গুছিয়ে বলা",
+    "প্রশ্ন ফেরত করা: Wie sieht die Einarbeitung aus?"
+  ],
+  "words": [
+    {
+      "id": "staerke",
+      "de": "Stärke",
+      "art": "die",
+      "pl": "die Stärken",
+      "pos": "বিশেষ্য",
+      "bn": "শক্তির দিক",
+      "en": "strength"
+    },
+    {
+      "id": "schwaeche",
+      "de": "Schwäche",
+      "art": "die",
+      "pl": "die Schwächen",
+      "pos": "বিশেষ্য",
+      "bn": "দুর্বলতা",
+      "en": "weakness"
+    },
+    {
+      "id": "gruendlich",
+      "de": "gründlich",
+      "pos": "বিশেষণ",
+      "bn": "পুঙ্খানুপুঙ্খ",
+      "en": "thorough"
+    },
+    {
+      "id": "selbststaendig",
+      "de": "selbstständig",
+      "pos": "বিশেষণ",
+      "bn": "স্বাধীনভাবে (কাজ করতে সক্ষম)",
+      "en": "independent"
+    },
+    {
+      "id": "einarbeitung",
+      "de": "Einarbeitung",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "নতুন কাজে প্রশিক্ষণ",
+      "en": "induction, training period"
+    },
+    {
+      "id": "weiterbildung",
+      "de": "Weiterbildung",
+      "art": "die",
+      "pl": "die Weiterbildungen",
+      "pos": "বিশেষ্য",
+      "bn": "পেশাগত প্রশিক্ষণ",
+      "en": "further training"
+    },
+    {
+      "id": "verantwortung",
+      "de": "Verantwortung",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "দায়িত্ব",
+      "en": "responsibility"
+    },
+    {
+      "id": "uebernehmen",
+      "de": "übernehmen",
+      "pos": "ক্রিয়া · übernimmt, hat übernommen",
+      "bn": "গ্রহণ করা (দায়িত্ব)",
+      "en": "to take on"
+    },
+    {
+      "id": "gehaltsvorstellung",
+      "de": "Gehaltsvorstellung",
+      "art": "die",
+      "pl": "die Gehaltsvorstellungen",
+      "pos": "বিশেষ্য",
+      "bn": "প্রত্যাশিত বেতন",
+      "en": "salary expectation"
+    },
+    {
+      "id": "flexibel",
+      "de": "flexibel",
+      "pos": "বিশেষণ",
+      "bn": "নমনীয়",
+      "en": "flexible"
+    },
+    {
+      "id": "eindruck",
+      "de": "Eindruck",
+      "art": "der",
+      "pl": "die Eindrücke",
+      "pos": "বিশেষ্য",
+      "bn": "ধারণা, ছাপ",
+      "en": "impression"
+    },
+    {
+      "id": "bezeichnen",
+      "de": "bezeichnen",
+      "pos": "ক্রিয়া · hat bezeichnet",
+      "bn": "বলা, আখ্যা দেওয়া",
+      "en": "to describe, to call"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Frau Hoffmann",
+      "bn": [
+        "শুভ",
+        "দিন,",
+        "মিস্টার",
+        "রহমান।",
+        "আপনি",
+        "এসেছেন",
+        "বলে",
+        "ভালো",
+        "লাগছে।",
+        "দয়া",
+        "করে",
+        "নিজের",
+        "সম্পর্কে",
+        "কিছু",
+        "বলুন।"
+      ],
+      "en": [
+        "Good",
+        "day,",
+        "Mr",
+        "Rahman.",
+        "Nice",
+        "that",
+        "you",
+        "are",
+        "here.",
+        "Please",
+        "tell",
+        "me",
+        "something",
+        "about",
+        "yourself."
+      ],
+      "de": [
+        {
+          "t": "Guten Tag,",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Guten Tag",
+          "gb": "শুভ দিন",
+          "ge": "Good day",
+          "n": ""
+        },
+        {
+          "t": "Herr Rahman.",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "Herr Rahman",
+          "gb": "মিস্টার রহমান",
+          "ge": "Mr Rahman",
+          "n": ""
+        },
+        {
+          "t": "Schön,",
+          "b": [
+            7
+          ],
+          "e": [
+            4
+          ],
+          "l": "Schön",
+          "gb": "ভালো",
+          "ge": "Nice",
+          "n": ""
+        },
+        {
+          "t": "dass Sie da sind.",
+          "b": [
+            4,
+            5,
+            6
+          ],
+          "e": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "l": "dass Sie da sind",
+          "gb": "আপনি এসেছেন বলে",
+          "ge": "that you are here",
+          "n": ""
+        },
+        {
+          "t": "Erzählen Sie",
+          "b": [],
+          "e": [
+            10,
+            11
+          ],
+          "l": "Erzählen Sie",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "tell me",
+          "n": ""
+        },
+        {
+          "t": "bitte",
+          "b": [
+            9,
+            10
+          ],
+          "e": [
+            9
+          ],
+          "l": "bitte",
+          "gb": "দয়া করে",
+          "ge": "Please",
+          "n": ""
+        },
+        {
+          "t": "etwas über sich.",
+          "b": [
+            11,
+            12,
+            13,
+            14
+          ],
+          "e": [
+            12,
+            13,
+            14
+          ],
+          "l": "etwas über sich",
+          "gb": "নিজের সম্পর্কে কিছু বলুন",
+          "ge": "something about yourself",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "বাংলাদেশ",
+        "থেকে",
+        "এসেছি",
+        "এবং",
+        "সেখানে",
+        "তিন",
+        "বছর",
+        "টেকনিশিয়ান",
+        "হিসেবে",
+        "কাজ",
+        "করেছি।",
+        "এক",
+        "বছর",
+        "ধরে",
+        "আমি",
+        "জার্মানিতে",
+        "থাকি",
+        "আর",
+        "জার্মান",
+        "শিখছি।"
+      ],
+      "en": [
+        "I",
+        "come",
+        "from",
+        "Bangladesh",
+        "and",
+        "worked",
+        "there",
+        "for",
+        "three",
+        "years",
+        "as",
+        "a",
+        "technician.",
+        "For",
+        "a",
+        "year",
+        "I",
+        "have",
+        "been",
+        "living",
+        "in",
+        "Germany",
+        "and",
+        "learning",
+        "German."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "komme",
+          "b": [
+            3
+          ],
+          "e": [
+            1
+          ],
+          "l": "komme",
+          "gb": "এসেছি",
+          "ge": "come",
+          "n": ""
+        },
+        {
+          "t": "aus Bangladesch",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "aus Bangladesch",
+          "gb": "বাংলাদেশ থেকে",
+          "ge": "from Bangladesh",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "und",
+          "gb": "এবং",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [],
+          "e": [],
+          "l": "habe",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "dort",
+          "b": [
+            5
+          ],
+          "e": [
+            6
+          ],
+          "l": "dort",
+          "gb": "সেখানে",
+          "ge": "there",
+          "n": ""
+        },
+        {
+          "t": "drei Jahre",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            7,
+            8,
+            9
+          ],
+          "l": "drei Jahre",
+          "gb": "তিন বছর",
+          "ge": "for three years",
+          "n": ""
+        },
+        {
+          "t": "als Techniker",
+          "b": [
+            8,
+            9
+          ],
+          "e": [
+            10,
+            11,
+            12
+          ],
+          "l": "als Techniker",
+          "gb": "টেকনিশিয়ান হিসেবে",
+          "ge": "as a technician",
+          "n": ""
+        },
+        {
+          "t": "gearbeitet.",
+          "b": [
+            10,
+            11
+          ],
+          "e": [
+            5
+          ],
+          "l": "arbeiten",
+          "gb": "কাজ করেছি",
+          "ge": "worked",
+          "n": ""
+        },
+        {
+          "t": "Seit einem Jahr",
+          "b": [
+            12,
+            13,
+            14
+          ],
+          "e": [
+            13,
+            14,
+            15
+          ],
+          "l": "Seit einem Jahr",
+          "gb": "এক বছর ধরে",
+          "ge": "For a year",
+          "n": ""
+        },
+        {
+          "t": "lebe ich",
+          "b": [
+            15,
+            17
+          ],
+          "e": [
+            16,
+            17,
+            18,
+            19
+          ],
+          "l": "lebe ich",
+          "gb": "আমি থাকি",
+          "ge": "I have been living",
+          "n": ""
+        },
+        {
+          "t": "in Deutschland",
+          "b": [
+            16
+          ],
+          "e": [
+            20,
+            21
+          ],
+          "l": "in Deutschland",
+          "gb": "জার্মানিতে",
+          "ge": "in Germany",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            18
+          ],
+          "e": [
+            22
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "lerne Deutsch.",
+          "b": [
+            19,
+            20
+          ],
+          "e": [
+            23,
+            24
+          ],
+          "l": "lerne Deutsch",
+          "gb": "জার্মান শিখছি",
+          "ge": "learning German",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Frau Hoffmann",
+      "bn": [
+        "আপনি",
+        "নিজের",
+        "সবচেয়ে",
+        "বড়",
+        "শক্তির",
+        "দিক",
+        "কী",
+        "বলবেন?"
+      ],
+      "en": [
+        "What",
+        "would",
+        "you",
+        "call",
+        "your",
+        "greatest",
+        "strength?"
+      ],
+      "de": [
+        {
+          "t": "Was",
+          "b": [
+            6
+          ],
+          "e": [
+            0
+          ],
+          "l": "Was",
+          "gb": "কী",
+          "ge": "What",
+          "n": ""
+        },
+        {
+          "t": "würden",
+          "b": [
+            7
+          ],
+          "e": [
+            1
+          ],
+          "l": "würden",
+          "gb": "বলবেন",
+          "ge": "would",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [
+            0
+          ],
+          "e": [
+            2
+          ],
+          "l": "Sie",
+          "gb": "আপনি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "als Ihre größte",
+          "b": [
+            1,
+            2,
+            3
+          ],
+          "e": [
+            3,
+            4,
+            5
+          ],
+          "l": "als Ihre größte",
+          "gb": "নিজের সবচেয়ে বড়",
+          "ge": "call your greatest",
+          "n": ""
+        },
+        {
+          "t": "Stärke",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            6
+          ],
+          "l": "Stärke",
+          "gb": "শক্তির দিক",
+          "ge": "strength",
+          "n": ""
+        },
+        {
+          "t": "bezeichnen?",
+          "b": [],
+          "e": [],
+          "l": "bezeichnen",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "খুব",
+        "পুঙ্খানুপুঙ্খ",
+        "আর",
+        "স্বাধীনভাবে",
+        "কাজ",
+        "করি।",
+        "আমার",
+        "দুর্বলতা",
+        "হলো,",
+        "কখনো",
+        "কখনো",
+        "খুঁটিনাটিতে",
+        "আমার",
+        "বেশি",
+        "সময়",
+        "লাগে।"
+      ],
+      "en": [
+        "I",
+        "work",
+        "very",
+        "thoroughly",
+        "and",
+        "independently.",
+        "My",
+        "weakness",
+        "is",
+        "that",
+        "sometimes",
+        "I",
+        "need",
+        "too",
+        "much",
+        "time",
+        "for",
+        "details."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "arbeite",
+          "b": [
+            5,
+            6
+          ],
+          "e": [
+            1
+          ],
+          "l": "arbeite",
+          "gb": "কাজ করি",
+          "ge": "work",
+          "n": ""
+        },
+        {
+          "t": "sehr",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "sehr",
+          "gb": "খুব",
+          "ge": "very",
+          "n": ""
+        },
+        {
+          "t": "gründlich",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "gründlich",
+          "gb": "পুঙ্খানুপুঙ্খ",
+          "ge": "thoroughly",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "selbstständig.",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "selbstständig",
+          "gb": "স্বাধীনভাবে",
+          "ge": "independently",
+          "n": ""
+        },
+        {
+          "t": "Meine Schwäche",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "Schwäche",
+          "gb": "আমার দুর্বলতা",
+          "ge": "My weakness",
+          "n": ""
+        },
+        {
+          "t": "ist,",
+          "b": [
+            9
+          ],
+          "e": [
+            8
+          ],
+          "l": "ist",
+          "gb": "হলো",
+          "ge": "is",
+          "n": ""
+        },
+        {
+          "t": "dass",
+          "b": [],
+          "e": [
+            9
+          ],
+          "l": "dass",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "that",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            13
+          ],
+          "e": [
+            11
+          ],
+          "l": "ich",
+          "gb": "আমার",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "manchmal",
+          "b": [
+            10,
+            11
+          ],
+          "e": [
+            10
+          ],
+          "l": "manchmal",
+          "gb": "কখনো কখনো",
+          "ge": "sometimes",
+          "n": ""
+        },
+        {
+          "t": "zu viel Zeit",
+          "b": [
+            14,
+            15
+          ],
+          "e": [
+            13,
+            14,
+            15
+          ],
+          "l": "zu viel Zeit",
+          "gb": "বেশি সময়",
+          "ge": "too much time",
+          "n": ""
+        },
+        {
+          "t": "für Details",
+          "b": [
+            12
+          ],
+          "e": [
+            16,
+            17
+          ],
+          "l": "für Details",
+          "gb": "খুঁটিনাটিতে",
+          "ge": "for details",
+          "n": ""
+        },
+        {
+          "t": "brauche.",
+          "b": [
+            16
+          ],
+          "e": [
+            12
+          ],
+          "l": "brauche",
+          "gb": "লাগে",
+          "ge": "need",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Frau Hoffmann",
+      "bn": [
+        "কেন",
+        "আপনি",
+        "আমাদের",
+        "এখানে",
+        "কাজ",
+        "করতে",
+        "চান?"
+      ],
+      "en": [
+        "Why",
+        "do",
+        "you",
+        "want",
+        "to",
+        "work",
+        "with",
+        "us",
+        "in",
+        "particular?"
+      ],
+      "de": [
+        {
+          "t": "Warum",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Warum",
+          "gb": "কেন",
+          "ge": "Why",
+          "n": ""
+        },
+        {
+          "t": "möchten",
+          "b": [
+            6
+          ],
+          "e": [
+            1
+          ],
+          "l": "möchten",
+          "gb": "চান",
+          "ge": "do",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "Sie",
+          "gb": "আপনি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "gerade",
+          "b": [],
+          "e": [
+            8,
+            9
+          ],
+          "l": "gerade",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "in particular",
+          "n": ""
+        },
+        {
+          "t": "bei uns",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "bei uns",
+          "gb": "আমাদের এখানে",
+          "ge": "with us",
+          "n": ""
+        },
+        {
+          "t": "arbeiten?",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            5
+          ],
+          "l": "arbeiten",
+          "gb": "কাজ করতে",
+          "ge": "work",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আপনাদের",
+        "কোম্পানি",
+        "ভালো",
+        "নতুন-কাজের",
+        "প্রশিক্ষণ",
+        "আর",
+        "পেশাগত",
+        "প্রশিক্ষণ",
+        "দেয়।",
+        "তাছাড়া",
+        "আমি",
+        "দায়িত্ব",
+        "নিতে",
+        "চাই।"
+      ],
+      "en": [
+        "Your",
+        "company",
+        "offers",
+        "good",
+        "induction",
+        "and",
+        "further",
+        "training.",
+        "In",
+        "addition,",
+        "I",
+        "would",
+        "like",
+        "to",
+        "take",
+        "on",
+        "responsibility."
+      ],
+      "de": [
+        {
+          "t": "Ihre Firma",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "Ihre Firma",
+          "gb": "আপনাদের কোম্পানি",
+          "ge": "Your company",
+          "n": ""
+        },
+        {
+          "t": "bietet",
+          "b": [
+            8
+          ],
+          "e": [
+            2
+          ],
+          "l": "bietet",
+          "gb": "দেয়",
+          "ge": "offers",
+          "n": ""
+        },
+        {
+          "t": "eine gute Einarbeitung",
+          "b": [
+            2,
+            3,
+            4
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "Einarbeitung",
+          "gb": "ভালো নতুন-কাজের প্রশিক্ষণ",
+          "ge": "good induction",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            5
+          ],
+          "e": [
+            5
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "Weiterbildung",
+          "b": [
+            6,
+            7
+          ],
+          "e": [
+            7
+          ],
+          "l": "Weiterbildung",
+          "gb": "পেশাগত প্রশিক্ষণ",
+          "ge": "training",
+          "n": ""
+        },
+        {
+          "t": "an.",
+          "b": [],
+          "e": [],
+          "l": "an",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "Außerdem",
+          "b": [
+            9
+          ],
+          "e": [
+            8,
+            9
+          ],
+          "l": "Außerdem",
+          "gb": "তাছাড়া",
+          "ge": "In addition",
+          "n": ""
+        },
+        {
+          "t": "möchte",
+          "b": [
+            13
+          ],
+          "e": [
+            11,
+            12
+          ],
+          "l": "möchte",
+          "gb": "চাই",
+          "ge": "would like",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            10
+          ],
+          "e": [
+            10
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "Verantwortung",
+          "b": [
+            11
+          ],
+          "e": [
+            16
+          ],
+          "l": "Verantwortung",
+          "gb": "দায়িত্ব",
+          "ge": "responsibility",
+          "n": ""
+        },
+        {
+          "t": "übernehmen.",
+          "b": [
+            12
+          ],
+          "e": [
+            13,
+            14,
+            15
+          ],
+          "l": "übernehmen",
+          "gb": "নিতে",
+          "ge": "to take on",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Frau Hoffmann",
+      "bn": [
+        "কবে",
+        "আপনি",
+        "শুরু",
+        "করতে",
+        "পারবেন,",
+        "আর",
+        "আপনার",
+        "প্রত্যাশিত",
+        "বেতন",
+        "কত?"
+      ],
+      "en": [
+        "When",
+        "could",
+        "you",
+        "start,",
+        "and",
+        "what",
+        "are",
+        "your",
+        "salary",
+        "expectations?"
+      ],
+      "de": [
+        {
+          "t": "Wann",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Wann",
+          "gb": "কবে",
+          "ge": "When",
+          "n": ""
+        },
+        {
+          "t": "könnten",
+          "b": [
+            4
+          ],
+          "e": [
+            1
+          ],
+          "l": "könnten",
+          "gb": "পারবেন",
+          "ge": "could",
+          "n": ""
+        },
+        {
+          "t": "Sie",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "Sie",
+          "gb": "আপনি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "anfangen,",
+          "b": [
+            2,
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "anfangen",
+          "gb": "শুরু করতে",
+          "ge": "start",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            5
+          ],
+          "e": [
+            4
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "was",
+          "b": [
+            9
+          ],
+          "e": [
+            5
+          ],
+          "l": "was",
+          "gb": "কত",
+          "ge": "what",
+          "n": ""
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            6
+          ],
+          "l": "ist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "are",
+          "n": ""
+        },
+        {
+          "t": "Ihre Gehaltsvorstellung?",
+          "b": [
+            6,
+            7,
+            8
+          ],
+          "e": [
+            7,
+            8,
+            9
+          ],
+          "l": "Gehaltsvorstellung",
+          "gb": "আপনার প্রত্যাশিত বেতন",
+          "ge": "your salary expectations",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "দুই",
+        "সপ্তাহ",
+        "পরে",
+        "শুরু",
+        "করতে",
+        "পারব।",
+        "বেতনের",
+        "বিষয়ে",
+        "আমি",
+        "নমনীয়;",
+        "নতুন",
+        "কর্মীদের",
+        "জন্য",
+        "প্রচলিত",
+        "বেতনে",
+        "আমি",
+        "খুশি",
+        "হব।"
+      ],
+      "en": [
+        "I",
+        "could",
+        "start",
+        "in",
+        "two",
+        "weeks.",
+        "Regarding",
+        "salary",
+        "I",
+        "am",
+        "flexible;",
+        "I",
+        "would",
+        "be",
+        "happy",
+        "with",
+        "the",
+        "usual",
+        "salary",
+        "for",
+        "new",
+        "employees."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "könnte",
+          "b": [
+            6
+          ],
+          "e": [
+            1
+          ],
+          "l": "könnte",
+          "gb": "পারব",
+          "ge": "could",
+          "n": ""
+        },
+        {
+          "t": "in zwei Wochen",
+          "b": [
+            1,
+            2,
+            3
+          ],
+          "e": [
+            3,
+            4,
+            5
+          ],
+          "l": "in zwei Wochen",
+          "gb": "দুই সপ্তাহ পরে",
+          "ge": "in two weeks",
+          "n": ""
+        },
+        {
+          "t": "anfangen.",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            2
+          ],
+          "l": "anfangen",
+          "gb": "শুরু করতে",
+          "ge": "start",
+          "n": ""
+        },
+        {
+          "t": "Beim Gehalt",
+          "b": [
+            7,
+            8
+          ],
+          "e": [
+            6,
+            7
+          ],
+          "l": "Beim Gehalt",
+          "gb": "বেতনের বিষয়ে",
+          "ge": "Regarding salary",
+          "n": ""
+        },
+        {
+          "t": "bin ich",
+          "b": [
+            9
+          ],
+          "e": [
+            8,
+            9
+          ],
+          "l": "bin ich",
+          "gb": "আমি",
+          "ge": "I am",
+          "n": ""
+        },
+        {
+          "t": "flexibel;",
+          "b": [
+            10
+          ],
+          "e": [
+            10
+          ],
+          "l": "flexibel",
+          "gb": "নমনীয়",
+          "ge": "flexible",
+          "n": ""
+        },
+        {
+          "t": "ich würde mich",
+          "b": [
+            16,
+            17,
+            18
+          ],
+          "e": [
+            11,
+            12,
+            13,
+            14
+          ],
+          "l": "ich würde mich",
+          "gb": "আমি খুশি হব",
+          "ge": "I would be happy",
+          "n": ""
+        },
+        {
+          "t": "über ein übliches Gehalt",
+          "b": [
+            14,
+            15
+          ],
+          "e": [
+            15,
+            16,
+            17,
+            18
+          ],
+          "l": "über ein übliches Gehalt",
+          "gb": "প্রচলিত বেতনে",
+          "ge": "with the usual salary",
+          "n": ""
+        },
+        {
+          "t": "für Berufsanfänger",
+          "b": [
+            11,
+            12,
+            13
+          ],
+          "e": [
+            19,
+            20,
+            21
+          ],
+          "l": "für Berufsanfänger",
+          "gb": "নতুন কর্মীদের জন্য",
+          "ge": "for new employees",
+          "n": ""
+        },
+        {
+          "t": "freuen.",
+          "b": [],
+          "e": [],
+          "l": "freuen",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "Typische Fragen im Vorstellungsgespräch",
+      "head": [
+        "Frage",
+        "Beispielantwort"
+      ],
+      "rows": [
+        [
+          "Erzählen Sie etwas über sich.",
+          "Ich komme aus … und habe … Jahre als … gearbeitet."
+        ],
+        [
+          "Was sind Ihre Stärken?",
+          "Ich arbeite gründlich, selbstständig und zuverlässig."
+        ],
+        [
+          "Was sind Ihre Schwächen?",
+          "Ich brauche manchmal viel Zeit für Details."
+        ],
+        [
+          "Warum möchten Sie bei uns arbeiten?",
+          "Ihre Firma bietet … Außerdem möchte ich …"
+        ],
+        [
+          "Wann könnten Sie anfangen?",
+          "Ich könnte ab dem … / in zwei Wochen anfangen."
+        ],
+        [
+          "Haben Sie noch Fragen?",
+          "Wie sieht die Einarbeitung aus? Gibt es Weiterbildung?"
+        ]
+      ],
+      "note": "ইন্টারভিউয়ে সৎ থাকুন, কিন্তু দুর্বলতা বলার সময় „কীভাবে সামলাই“ তাও যোগ করুন। শেষে একটি প্রশ্ন করা আগ্রহের চিহ্ন।"
+    },
+    {
+      "type": "table",
+      "title": "Konjunktiv II im Gespräch",
+      "head": [
+        "Funktion",
+        "Beispiel"
+      ],
+      "rows": [
+        [
+          "höfliche Frage",
+          "Wann könnten Sie anfangen? · Würden Sie mir bitte … erklären?"
+        ],
+        [
+          "Möglichkeit",
+          "Ich könnte in zwei Wochen anfangen."
+        ],
+        [
+          "Wunsch",
+          "Ich würde gern mehr Verantwortung übernehmen."
+        ],
+        [
+          "Vorsicht",
+          "Das würde ich anders machen."
+        ]
+      ],
+      "note": "Konjunktiv II = বিনয়ী, সম্ভাব্য বা কাল্পনিক। A2-র হিলফসক্রিয়া (hätte, wäre, könnte, würde) এখানে প্রতি বাক্যে ব্যবহার করুন।"
+    },
+    {
+      "type": "table",
+      "title": "Tipps für das Gespräch",
+      "head": [
+        "Tipp",
+        "Warum"
+      ],
+      "rows": [
+        [
+          "pünktlich sein (10 Minuten früher)",
+          "Zuverlässigkeit zeigen"
+        ],
+        [
+          "Blickkontakt, Händedruck",
+          "sicherer Eindruck"
+        ],
+        [
+          "Firma vorher recherchieren",
+          "Motivation belegen"
+        ],
+        [
+          "Beispiele erzählen",
+          "Antworten konkret machen"
+        ],
+        [
+          "Fragen stellen",
+          "Interesse zeigen"
+        ]
+      ],
+      "note": "আচরণ-নিয়ম সংস্কৃতিভেদে আলাদা; জার্মানিতে সময়ানুবর্তিতা ও সরাসরি চোখে তাকানো ইতিবাচক ধরা হয়।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "die Verantwortung",
+      "options": [
+        "নমনীয়",
+        "দায়িত্ব",
+        "বলা",
+        "দুর্বলতা"
+      ],
+      "answer": 1,
+      "why": "die Verantwortung = দায়িত্ব।",
+      "word": "verantwortung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "die Einarbeitung",
+      "options": [
+        "ধারণা",
+        "দুর্বলতা",
+        "পেশাগত প্রশিক্ষণ",
+        "নতুন কাজে প্রশিক্ষণ"
+      ],
+      "answer": 3,
+      "why": "die Einarbeitung = নতুন কাজে প্রশিক্ষণ।",
+      "word": "einarbeitung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "flexibel",
+      "options": [
+        "নমনীয়",
+        "ধারণা",
+        "দুর্বলতা",
+        "নতুন কাজে প্রশিক্ষণ"
+      ],
+      "answer": 0,
+      "why": "flexibel = নমনীয়।",
+      "word": "flexibel"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Gehaltsvorstellung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Gehaltsvorstellung। বহুবচন: die Gehaltsvorstellungen।",
+      "word": "gehaltsvorstellung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Wann könnten Sie anfangen?“ — ভদ্র উত্তর কোনটি?",
+      "options": [
+        "Ich könnte in zwei Wochen anfangen.",
+        "Ich fange an, wann ich will.",
+        "Morgen vielleicht nicht.",
+        "Das weiß ich nicht."
+      ],
+      "answer": 0,
+      "why": "Konjunktiv II।",
+      "word": "flexibel"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Gehaltsvorstellung“ মানে কী?",
+      "options": [
+        "প্রত্যাশিত বেতন",
+        "বর্তমান বেতন",
+        "বেতন-কাটা",
+        "বোনাস"
+      ],
+      "answer": 0,
+      "why": "Vorstellung = expectation।",
+      "word": "gehaltsvorstellung"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক বাক্য কোনটি?",
+      "options": [
+        "Meine Schwäche ist, dass ich manchmal zu viel Zeit brauche.",
+        "Meine Schwäche ist, dass ich brauche manchmal zu viel Zeit.",
+        "Meine Schwäche dass ich manchmal brauche.",
+        "Meine Schwäche ist ich manchmal zu viel Zeit brauche dass."
+      ],
+      "answer": 0,
+      "why": "dass-Satz: ক্রিয়া শেষে।",
+      "word": "schwaeche"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Stärke“-র আর্টিকেল কী?",
+      "options": [
+        "die",
+        "der",
+        "das",
+        "den"
+      ],
+      "answer": 0,
+      "why": "die Stärke।",
+      "word": "staerke"
+    },
+    {
+      "type": "mcq",
+      "prompt": "ইন্টারভিউয়ের শেষে ভালো কী?",
+      "options": [
+        "একটি প্রশ্ন করা",
+        "কিছু না বলা",
+        "বেতন নিয়ে ঝগড়া",
+        "ফোন দেখা"
+      ],
+      "answer": 0,
+      "why": "Interesse zeigen।",
+      "word": "eindruck"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „আমি দায়িত্ব নিতে চাই।“",
+      "tiles": [
+        "übernehmen.",
+        "Verantwortung",
+        "möchte",
+        "Ich"
+      ],
+      "answer": [
+        "Ich",
+        "möchte",
+        "Verantwortung",
+        "übernehmen."
+      ],
+      "why": "Modalverb ২য়, Infinitiv শেষে।",
+      "word": "uebernehmen"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}

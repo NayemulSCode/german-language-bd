@@ -1230,5 +1230,117 @@
     "status": "draft",
     "minutes": 16,
     "words": 12
+  },
+  {
+    "id": "b1-u01-l01",
+    "level": "B1",
+    "unit": 1,
+    "lesson": 1,
+    "title": {
+      "bn": "চাকরির বিজ্ঞাপন পড়া",
+      "en": "Understanding a job advert",
+      "de": "Eine Stellenanzeige verstehen"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u01-l02",
+    "level": "B1",
+    "unit": 1,
+    "lesson": 2,
+    "title": {
+      "bn": "কভার লেটার (Anschreiben) লেখা",
+      "en": "Writing a cover letter",
+      "de": "Das Anschreiben"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u01-l03",
+    "level": "B1",
+    "unit": 1,
+    "lesson": 3,
+    "title": {
+      "bn": "ইন্টারভিউ: প্রশ্ন ও উত্তর",
+      "en": "The job interview",
+      "de": "Das Vorstellungsgespräch"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u01-l04",
+    "level": "B1",
+    "unit": 1,
+    "lesson": 4,
+    "title": {
+      "bn": "চাকরির চুক্তি, বেতন ও কর",
+      "en": "The employment contract",
+      "de": "Der Arbeitsvertrag"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u02-l01",
+    "level": "B1",
+    "unit": 2,
+    "lesson": 1,
+    "title": {
+      "bn": "সময়ের বাক্য ও Plusquamperfekt",
+      "en": "Temporal clauses and the past perfect",
+      "de": "Nachdem ich gewartet hatte …"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u02-l02",
+    "level": "B1",
+    "unit": 2,
+    "lesson": 2,
+    "title": {
+      "bn": "আবেদন, অনুবাদ ও প্রত্যয়ন",
+      "en": "Applications, translations and certifications",
+      "de": "Anträge und Beglaubigungen"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u02-l03",
+    "level": "B1",
+    "unit": 2,
+    "lesson": 3,
+    "title": {
+      "bn": "বিমা: কোনটা সত্যিই দরকার? (falls, hätte … sollen)",
+      "en": "Insurance: what do I really need?",
+      "de": "Versicherungen: Was brauche ich wirklich?"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
+  },
+  {
+    "id": "b1-u02-l04",
+    "level": "B1",
+    "unit": 2,
+    "lesson": 4,
+    "title": {
+      "bn": "সিদ্ধান্তের বিরুদ্ধে আপত্তি জানানো",
+      "en": "Objecting to an official decision",
+      "de": "Widerspruch einlegen"
+    },
+    "status": "draft",
+    "minutes": 18,
+    "words": 12
   }
 ]

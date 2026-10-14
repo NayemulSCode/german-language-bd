@@ -1,0 +1,1466 @@
+{
+  "level": "B1",
+  "unit": 1,
+  "minutes": 18,
+  "lesson": 2,
+  "id": "b1-u01-l02",
+  "title": {
+    "de": "Das Anschreiben",
+    "bn": "কভার লেটার (Anschreiben) লেখা",
+    "en": "Writing a cover letter"
+  },
+  "hook": {
+    "de": "Der Anfang ist die Hälfte des Ganzen.",
+    "who": "Sprichwort",
+    "bn": "শুরুটাই অর্ধেক কাজ।",
+    "en": "A good beginning is half the work."
+  },
+  "goals": [
+    "Aufbau: Anrede, Einleitung, Hauptteil, Schluss",
+    "verfügen über, sich bewerben auf",
+    "Relativsatz mit Akkusativ: Erfahrung, die ich gesammelt habe",
+    "Über … würde ich mich freuen"
+  ],
+  "words": [
+    {
+      "id": "anschreiben",
+      "de": "Anschreiben",
+      "art": "das",
+      "pl": "die Anschreiben",
+      "pos": "বিশেষ্য",
+      "bn": "কভার লেটার",
+      "en": "cover letter"
+    },
+    {
+      "id": "hiermit",
+      "de": "hiermit",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "এর মাধ্যমে",
+      "en": "hereby"
+    },
+    {
+      "id": "geeignet",
+      "de": "geeignet",
+      "pos": "বিশেষণ",
+      "bn": "উপযুক্ত",
+      "en": "suitable"
+    },
+    {
+      "id": "verfuegen",
+      "de": "verfügen",
+      "pos": "ক্রিয়া · hat verfügt (über + Akk.)",
+      "bn": "থাকা, অধিকার থাকা",
+      "en": "to have at one’s disposal"
+    },
+    {
+      "id": "sammeln",
+      "de": "sammeln",
+      "pos": "ক্রিয়া · hat gesammelt",
+      "bn": "সংগ্রহ করা (অভিজ্ঞতা)",
+      "en": "to gather"
+    },
+    {
+      "id": "erreichen",
+      "de": "erreichen",
+      "pos": "ক্রিয়া · hat erreicht",
+      "bn": "অর্জন করা",
+      "en": "to reach, to achieve"
+    },
+    {
+      "id": "vorstellungsgespraech",
+      "de": "Vorstellungsgespräch",
+      "art": "das",
+      "pl": "die Vorstellungsgespräche",
+      "pos": "বিশেষ্য",
+      "bn": "ইন্টারভিউ",
+      "en": "job interview"
+    },
+    {
+      "id": "anlage",
+      "de": "Anlage",
+      "art": "die",
+      "pl": "die Anlagen",
+      "pos": "বিশেষ্য",
+      "bn": "সংযুক্তি",
+      "en": "enclosure"
+    },
+    {
+      "id": "aufzaehlen",
+      "de": "aufzählen",
+      "pos": "ক্রিয়া · hat aufgezählt",
+      "bn": "তালিকা করা",
+      "en": "to list"
+    },
+    {
+      "id": "motivation",
+      "de": "Motivation",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "প্রেরণা, আগ্রহ",
+      "en": "motivation"
+    },
+    {
+      "id": "ueberzeugen",
+      "de": "überzeugen",
+      "pos": "ক্রিয়া · hat überzeugt",
+      "bn": "বিশ্বাস জন্মানো",
+      "en": "to convince"
+    },
+    {
+      "id": "zertifikat",
+      "de": "Zertifikat",
+      "art": "das",
+      "pl": "die Zertifikate",
+      "pos": "বিশেষ্য",
+      "bn": "সনদ",
+      "en": "certificate"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Saheb",
+      "bn": [
+        "আমি",
+        "আমার",
+        "কভার",
+        "লেটার",
+        "কীভাবে",
+        "শুরু",
+        "করব?"
+      ],
+      "en": [
+        "How",
+        "do",
+        "I",
+        "begin",
+        "my",
+        "cover",
+        "letter?"
+      ],
+      "de": [
+        {
+          "t": "Wie",
+          "b": [
+            4
+          ],
+          "e": [
+            0
+          ],
+          "l": "Wie",
+          "gb": "কীভাবে",
+          "ge": "How",
+          "n": ""
+        },
+        {
+          "t": "beginne",
+          "b": [
+            5
+          ],
+          "e": [
+            1,
+            2,
+            3
+          ],
+          "l": "beginne",
+          "gb": "শুরু",
+          "ge": "do I begin",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            0
+          ],
+          "e": [],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "mein Anschreiben?",
+          "b": [
+            1,
+            2,
+            3
+          ],
+          "e": [
+            4,
+            5,
+            6
+          ],
+          "l": "Anschreiben",
+          "gb": "আমার কভার লেটার",
+          "ge": "my cover letter",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "সম্বোধন",
+        "দিয়ে:",
+        "„Sehr",
+        "geehrte",
+        "Damen",
+        "und",
+        "Herren,“।",
+        "তারপর",
+        "কারণ:",
+        "„hiermit",
+        "bewerbe",
+        "ich",
+        "mich",
+        "auf",
+        "die",
+        "Stelle",
+        "als",
+        "Elektriker“।"
+      ],
+      "en": [
+        "With",
+        "the",
+        "salutation:",
+        "“Sehr",
+        "geehrte",
+        "Damen",
+        "und",
+        "Herren,”.",
+        "Then",
+        "the",
+        "reason:",
+        "“I",
+        "hereby",
+        "apply",
+        "for",
+        "the",
+        "position",
+        "as",
+        "an",
+        "electrician”."
+      ],
+      "de": [
+        {
+          "t": "Mit der Anrede:",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "Mit der Anrede",
+          "gb": "সম্বোধন দিয়ে",
+          "ge": "With the salutation",
+          "n": ""
+        },
+        {
+          "t": "„Sehr geehrte Damen und Herren,“.",
+          "b": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "e": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "l": "„Sehr geehrte Damen und Herren“",
+          "gb": "„Sehr geehrte Damen und Herren“",
+          "ge": "“Sehr geehrte Damen und Herren”",
+          "n": ""
+        },
+        {
+          "t": "Dann",
+          "b": [
+            7
+          ],
+          "e": [
+            8
+          ],
+          "l": "Dann",
+          "gb": "তারপর",
+          "ge": "Then",
+          "n": ""
+        },
+        {
+          "t": "der Grund:",
+          "b": [
+            8
+          ],
+          "e": [
+            9,
+            10
+          ],
+          "l": "der Grund",
+          "gb": "কারণ",
+          "ge": "the reason",
+          "n": ""
+        },
+        {
+          "t": "„hiermit",
+          "b": [
+            9
+          ],
+          "e": [
+            11,
+            12
+          ],
+          "l": "hiermit",
+          "gb": "„hiermit",
+          "ge": "“I hereby",
+          "n": ""
+        },
+        {
+          "t": "bewerbe ich mich",
+          "b": [
+            10,
+            11,
+            12
+          ],
+          "e": [
+            13
+          ],
+          "l": "sich bewerben",
+          "gb": "bewerbe ich mich",
+          "ge": "apply",
+          "n": ""
+        },
+        {
+          "t": "auf die Stelle",
+          "b": [
+            13,
+            14,
+            15
+          ],
+          "e": [
+            14,
+            15,
+            16
+          ],
+          "l": "auf die Stelle",
+          "gb": "auf die Stelle",
+          "ge": "for the position",
+          "n": ""
+        },
+        {
+          "t": "als Elektriker“.",
+          "b": [
+            16,
+            17
+          ],
+          "e": [
+            17,
+            18,
+            19
+          ],
+          "l": "als Elektriker“",
+          "gb": "als Elektriker“",
+          "ge": "as an electrician”",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আর",
+        "মূল",
+        "অংশে",
+        "আমি",
+        "কী",
+        "লিখব?"
+      ],
+      "en": [
+        "And",
+        "what",
+        "do",
+        "I",
+        "write",
+        "in",
+        "the",
+        "main",
+        "part?"
+      ],
+      "de": [
+        {
+          "t": "Und",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "was",
+          "b": [
+            4
+          ],
+          "e": [
+            1
+          ],
+          "l": "was",
+          "gb": "কী",
+          "ge": "what",
+          "n": ""
+        },
+        {
+          "t": "schreibe",
+          "b": [
+            5
+          ],
+          "e": [
+            2,
+            3,
+            4
+          ],
+          "l": "schreibe",
+          "gb": "লিখব",
+          "ge": "do I write",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            3
+          ],
+          "e": [],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "im Hauptteil?",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "l": "im Hauptteil",
+          "gb": "মূল অংশে",
+          "ge": "in the main part",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "ব্যাখ্যা",
+        "করো",
+        "কেন",
+        "তুমি",
+        "পদটির",
+        "জন্য",
+        "উপযুক্ত।",
+        "যেমন:",
+        "„আমার",
+        "তিন",
+        "বছরের",
+        "অভিজ্ঞতা",
+        "আছে,",
+        "যা",
+        "আমি",
+        "বাংলাদেশে",
+        "সংগ্রহ",
+        "করেছি।“"
+      ],
+      "en": [
+        "Explain",
+        "why",
+        "you",
+        "are",
+        "suitable",
+        "for",
+        "the",
+        "position.",
+        "For",
+        "example:",
+        "“I",
+        "have",
+        "three",
+        "years",
+        "of",
+        "experience,",
+        "which",
+        "I",
+        "gathered",
+        "in",
+        "Bangladesh.”"
+      ],
+      "de": [
+        {
+          "t": "Erkläre,",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0
+          ],
+          "l": "Erkläre",
+          "gb": "ব্যাখ্যা করো",
+          "ge": "Explain",
+          "n": ""
+        },
+        {
+          "t": "warum",
+          "b": [
+            2
+          ],
+          "e": [
+            1
+          ],
+          "l": "warum",
+          "gb": "কেন",
+          "ge": "why",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [
+            3
+          ],
+          "e": [
+            2
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": ""
+        },
+        {
+          "t": "für die Stelle",
+          "b": [
+            4,
+            5
+          ],
+          "e": [
+            5,
+            6,
+            7
+          ],
+          "l": "für die Stelle",
+          "gb": "পদটির জন্য",
+          "ge": "for the position",
+          "n": ""
+        },
+        {
+          "t": "geeignet",
+          "b": [
+            6
+          ],
+          "e": [
+            3,
+            4
+          ],
+          "l": "geeignet",
+          "gb": "উপযুক্ত",
+          "ge": "are suitable",
+          "n": ""
+        },
+        {
+          "t": "bist.",
+          "b": [],
+          "e": [],
+          "l": "bist",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "„Ich",
+          "b": [
+            8
+          ],
+          "e": [
+            10
+          ],
+          "l": "„Ich",
+          "gb": "„আমার",
+          "ge": "“I",
+          "n": ""
+        },
+        {
+          "t": "verfüge",
+          "b": [
+            12
+          ],
+          "e": [
+            11
+          ],
+          "l": "verfügen",
+          "gb": "আছে",
+          "ge": "have",
+          "n": ""
+        },
+        {
+          "t": "über drei Jahre",
+          "b": [
+            9,
+            10
+          ],
+          "e": [
+            12,
+            13
+          ],
+          "l": "über drei Jahre",
+          "gb": "তিন বছরের",
+          "ge": "three years",
+          "n": ""
+        },
+        {
+          "t": "Berufserfahrung,",
+          "b": [
+            11
+          ],
+          "e": [
+            14,
+            15
+          ],
+          "l": "Berufserfahrung",
+          "gb": "অভিজ্ঞতা",
+          "ge": "of experience",
+          "n": ""
+        },
+        {
+          "t": "die",
+          "b": [
+            13
+          ],
+          "e": [
+            16
+          ],
+          "l": "die",
+          "gb": "যা",
+          "ge": "which",
+          "n": "Relativpronomen: die Berufserfahrung → die (Akkusativ f)"
+        },
+        {
+          "t": "ich",
+          "b": [
+            14
+          ],
+          "e": [
+            17
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "in Bangladesch",
+          "b": [
+            15
+          ],
+          "e": [
+            19,
+            20
+          ],
+          "l": "in Bangladesch",
+          "gb": "বাংলাদেশে",
+          "ge": "in Bangladesh”",
+          "n": ""
+        },
+        {
+          "t": "gesammelt",
+          "b": [
+            16
+          ],
+          "e": [
+            18
+          ],
+          "l": "sammeln",
+          "gb": "সংগ্রহ",
+          "ge": "gathered",
+          "n": ""
+        },
+        {
+          "t": "habe.“",
+          "b": [
+            17
+          ],
+          "e": [],
+          "l": "habe“",
+          "gb": "করেছি“",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "„এছাড়া",
+        "আমি",
+        "এক",
+        "বছর",
+        "ধরে",
+        "জার্মান",
+        "শিখছি",
+        "আর",
+        "A2",
+        "স্তরে",
+        "পৌঁছেছি।“"
+      ],
+      "en": [
+        "“In",
+        "addition,",
+        "I",
+        "have",
+        "been",
+        "learning",
+        "German",
+        "for",
+        "a",
+        "year",
+        "and",
+        "have",
+        "reached",
+        "level",
+        "A2.”"
+      ],
+      "de": [
+        {
+          "t": "„Außerdem",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1
+          ],
+          "l": "„Außerdem",
+          "gb": "„এছাড়া",
+          "ge": "“In addition",
+          "n": ""
+        },
+        {
+          "t": "lerne",
+          "b": [
+            6
+          ],
+          "e": [
+            3,
+            4,
+            5
+          ],
+          "l": "lerne",
+          "gb": "শিখছি",
+          "ge": "have been learning",
+          "n": ""
+        },
+        {
+          "t": "ich",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": ""
+        },
+        {
+          "t": "seit einem Jahr",
+          "b": [
+            2,
+            3,
+            4
+          ],
+          "e": [
+            7,
+            8,
+            9
+          ],
+          "l": "seit einem Jahr",
+          "gb": "এক বছর ধরে",
+          "ge": "for a year",
+          "n": ""
+        },
+        {
+          "t": "Deutsch",
+          "b": [
+            5
+          ],
+          "e": [
+            6
+          ],
+          "l": "Deutsch",
+          "gb": "জার্মান",
+          "ge": "German",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            7
+          ],
+          "e": [
+            10
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "habe",
+          "b": [],
+          "e": [
+            11
+          ],
+          "l": "habe",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "have",
+          "n": ""
+        },
+        {
+          "t": "das Niveau A2",
+          "b": [
+            8,
+            9
+          ],
+          "e": [
+            13,
+            14
+          ],
+          "l": "das Niveau A2",
+          "gb": "A2 স্তরে",
+          "ge": "level A2”",
+          "n": ""
+        },
+        {
+          "t": "erreicht.“",
+          "b": [
+            10
+          ],
+          "e": [
+            12
+          ],
+          "l": "erreichen",
+          "gb": "পৌঁছেছি“",
+          "ge": "reached",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "শেষে",
+        "ধন্যবাদ",
+        "জানাও:",
+        "„একটি",
+        "ইন্টারভিউয়ের",
+        "আমন্ত্রণ",
+        "পেলে",
+        "আমি",
+        "খুব",
+        "খুশি",
+        "হব।",
+        "অনেক",
+        "শুভেচ্ছাসহ।“"
+      ],
+      "en": [
+        "At",
+        "the",
+        "end",
+        "you",
+        "thank",
+        "them:",
+        "“I",
+        "would",
+        "be",
+        "very",
+        "happy",
+        "about",
+        "an",
+        "invitation",
+        "to",
+        "an",
+        "interview.",
+        "Kind",
+        "regards.”"
+      ],
+      "de": [
+        {
+          "t": "Am Ende",
+          "b": [
+            0
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "Am Ende",
+          "gb": "শেষে",
+          "ge": "At the end",
+          "n": ""
+        },
+        {
+          "t": "bedankst",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            3,
+            4,
+            5
+          ],
+          "l": "bedankst",
+          "gb": "ধন্যবাদ জানাও",
+          "ge": "you thank them",
+          "n": ""
+        },
+        {
+          "t": "du",
+          "b": [],
+          "e": [],
+          "l": "du",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "dich:",
+          "b": [],
+          "e": [],
+          "l": "dich",
+          "gb": "(বাংলায় উহ্য)",
+          "ge": "(no counterpart)",
+          "n": ""
+        },
+        {
+          "t": "„Über eine Einladung",
+          "b": [
+            5
+          ],
+          "e": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "l": "„Über eine Einladung",
+          "gb": "আমন্ত্রণ",
+          "ge": "“I would be very happy about an invitation",
+          "n": ""
+        },
+        {
+          "t": "zu einem Vorstellungsgespräch",
+          "b": [
+            4
+          ],
+          "e": [
+            14,
+            15,
+            16
+          ],
+          "l": "Vorstellungsgespräch",
+          "gb": "ইন্টারভিউয়ের",
+          "ge": "to an interview",
+          "n": ""
+        },
+        {
+          "t": "würde ich mich sehr freuen.",
+          "b": [
+            8,
+            9,
+            10
+          ],
+          "e": [],
+          "l": "sich freuen",
+          "gb": "খুব খুশি হব",
+          "ge": "(no counterpart)",
+          "n": "Über + Akk. würde ich mich freuen = … পেলে খুশি হব (höflich)"
+        },
+        {
+          "t": "Mit freundlichen Grüßen“.",
+          "b": [
+            12
+          ],
+          "e": [
+            17,
+            18
+          ],
+          "l": "Mit freundlichen Grüßen“",
+          "gb": "শুভেচ্ছাসহ“",
+          "ge": "Kind regards”",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Saheb",
+      "bn": [
+        "আর",
+        "সংযুক্তি?"
+      ],
+      "en": [
+        "And",
+        "the",
+        "enclosures?"
+      ],
+      "de": [
+        {
+          "t": "Und",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Und",
+          "gb": "আর",
+          "ge": "And",
+          "n": ""
+        },
+        {
+          "t": "die Anlagen?",
+          "b": [
+            1
+          ],
+          "e": [
+            1,
+            2
+          ],
+          "l": "Anlage",
+          "gb": "সংযুক্তি",
+          "ge": "the enclosures",
+          "n": ""
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "সংযুক্তি",
+        "হলো",
+        "সিভি,",
+        "সনদ",
+        "আর",
+        "সার্টিফিকেট।",
+        "নিচে",
+        "সেগুলোর",
+        "তালিকা",
+        "দাও।"
+      ],
+      "en": [
+        "The",
+        "enclosures",
+        "are",
+        "CV,",
+        "certificates",
+        "and",
+        "diplomas.",
+        "List",
+        "them",
+        "at",
+        "the",
+        "bottom."
+      ],
+      "de": [
+        {
+          "t": "Die Anlagen sind",
+          "b": [
+            0,
+            1
+          ],
+          "e": [
+            0,
+            1,
+            2
+          ],
+          "l": "Die Anlagen sind",
+          "gb": "সংযুক্তি হলো",
+          "ge": "The enclosures are",
+          "n": ""
+        },
+        {
+          "t": "Lebenslauf,",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "Lebenslauf",
+          "gb": "সিভি",
+          "ge": "CV",
+          "n": ""
+        },
+        {
+          "t": "Zeugnisse",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "Zeugnisse",
+          "gb": "সনদ",
+          "ge": "certificates",
+          "n": ""
+        },
+        {
+          "t": "und",
+          "b": [
+            4
+          ],
+          "e": [
+            5
+          ],
+          "l": "und",
+          "gb": "আর",
+          "ge": "and",
+          "n": ""
+        },
+        {
+          "t": "Zertifikate.",
+          "b": [
+            5
+          ],
+          "e": [
+            6
+          ],
+          "l": "Zertifikat",
+          "gb": "সার্টিফিকেট",
+          "ge": "diplomas",
+          "n": ""
+        },
+        {
+          "t": "Zähle",
+          "b": [
+            8
+          ],
+          "e": [
+            7
+          ],
+          "l": "aufzählen",
+          "gb": "তালিকা",
+          "ge": "List",
+          "n": ""
+        },
+        {
+          "t": "sie",
+          "b": [
+            7
+          ],
+          "e": [
+            8
+          ],
+          "l": "sie",
+          "gb": "সেগুলোর",
+          "ge": "them",
+          "n": ""
+        },
+        {
+          "t": "unten",
+          "b": [
+            6
+          ],
+          "e": [
+            9,
+            10,
+            11
+          ],
+          "l": "unten",
+          "gb": "নিচে",
+          "ge": "at the bottom",
+          "n": ""
+        },
+        {
+          "t": "auf.",
+          "b": [
+            9
+          ],
+          "e": [],
+          "l": "auf",
+          "gb": "দাও",
+          "ge": "(no counterpart)",
+          "n": ""
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "table",
+      "title": "Aufbau des Anschreibens",
+      "head": [
+        "Teil",
+        "Funktion",
+        "Satzbeispiel"
+      ],
+      "rows": [
+        [
+          "Absender / Datum",
+          "উপরে",
+          "Saheb Rahman · Hauptstraße 5 · Berlin · 15.05.2026"
+        ],
+        [
+          "Betreff",
+          "কোন পদ",
+          "Bewerbung als Elektriker (m/w/d)"
+        ],
+        [
+          "Anrede",
+          "সম্বোধন",
+          "Sehr geehrte Frau Hoffmann, / Sehr geehrte Damen und Herren,"
+        ],
+        [
+          "Einleitung",
+          "আবেদনের কারণ",
+          "hiermit bewerbe ich mich auf die ausgeschriebene Stelle …"
+        ],
+        [
+          "Hauptteil",
+          "আমি কেন উপযুক্ত",
+          "Ich verfüge über … Berufserfahrung, die …"
+        ],
+        [
+          "Schluss",
+          "আমন্ত্রণ চাওয়া",
+          "Über eine Einladung … würde ich mich freuen."
+        ],
+        [
+          "Gruß + Anlagen",
+          "শেষ",
+          "Mit freundlichen Grüßen · Anlagen: Lebenslauf, Zeugnisse"
+        ]
+      ],
+      "note": "কভার লেটার ১ পৃষ্ঠার বেশি নয়। প্রতিটি কোম্পানির জন্য আলাদা করে লিখুন এবং কোম্পানির নাম ও পদের নাম ঠিকঠাক বসান।"
+    },
+    {
+      "type": "table",
+      "title": "Sprachliche Bausteine",
+      "head": [
+        "Absicht",
+        "Formulierung"
+      ],
+      "rows": [
+        [
+          "Bewerben",
+          "Hiermit bewerbe ich mich auf die Stelle als …"
+        ],
+        [
+          "Qualifikation",
+          "Ich verfüge über … / Ich habe … gesammelt / Ich habe … abgeschlossen"
+        ],
+        [
+          "Motivation",
+          "Mich überzeugt/begeistert besonders …"
+        ],
+        [
+          "Verfügbarkeit",
+          "Ich könnte ab dem … bei Ihnen anfangen."
+        ],
+        [
+          "Schluss",
+          "Über eine Einladung zu einem Vorstellungsgespräch würde ich mich sehr freuen."
+        ]
+      ],
+      "note": "verfügen über + Akkusativ; sich bewerben auf/um + Akkusativ (bei einer Firma: „bei Ihnen“)। Konjunktiv II macht den Ton höflich."
+    },
+    {
+      "type": "table",
+      "title": "Relativsatz (Akkusativ, Plural)",
+      "head": [
+        "Hauptsatz",
+        "Relativsatz"
+      ],
+      "rows": [
+        [
+          "Ich habe Erfahrung,",
+          "die ich in Dhaka gesammelt habe."
+        ],
+        [
+          "Ich schicke die Zeugnisse,",
+          "die Sie angefordert haben."
+        ],
+        [
+          "Das ist ein Projekt,",
+          "das ich geleitet habe."
+        ],
+        [
+          "Ich habe einen Kurs besucht,",
+          "den die Volkshochschule angeboten hat."
+        ]
+      ],
+      "note": "Relativpronomen = der Nomen-এর লিঙ্গ/বচন; Akkusativ: den (m), das (n), die (f/Pl.)। Perfekt-এর হিলফসক্রিয়া শেষে।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "das Anschreiben",
+      "options": [
+        "সংগ্রহ করা",
+        "কভার লেটার",
+        "ইন্টারভিউ",
+        "তালিকা করা"
+      ],
+      "answer": 1,
+      "why": "das Anschreiben = কভার লেটার।",
+      "word": "anschreiben"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "verfügen",
+      "options": [
+        "উপযুক্ত",
+        "ইন্টারভিউ",
+        "প্রেরণা",
+        "থাকা"
+      ],
+      "answer": 3,
+      "why": "verfügen = থাকা।",
+      "word": "verfuegen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "এই শব্দের অর্থ কী?",
+      "sub": "geeignet",
+      "options": [
+        "থাকা",
+        "ইন্টারভিউ",
+        "প্রেরণা",
+        "উপযুক্ত"
+      ],
+      "answer": 3,
+      "why": "geeignet = উপযুক্ত।",
+      "word": "geeignet"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক আর্টিকেল বেছে নিন",
+      "sub": "___ Anlage",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 1,
+      "why": "die Anlage। বহুবচন: die Anlagen।",
+      "word": "anlage"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক অব্যয় বেছে নিন",
+      "sub": "Ich verfüge ___ drei Jahre Berufserfahrung.",
+      "options": [
+        "über",
+        "für",
+        "mit",
+        "auf"
+      ],
+      "answer": 0,
+      "why": "verfügen über + Akk.",
+      "word": "verfuegen"
+    },
+    {
+      "type": "mcq",
+      "prompt": "সঠিক রূপ বেছে নিন",
+      "sub": "Ich habe Erfahrung, ___ ich in Dhaka gesammelt habe.",
+      "options": [
+        "die",
+        "der",
+        "das",
+        "den"
+      ],
+      "answer": 0,
+      "why": "die Erfahrung → die।",
+      "word": "sammeln"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Anschreiben-এর শেষে কোনটি ভদ্র?",
+      "options": [
+        "Über eine Einladung würde ich mich freuen.",
+        "Ruf mich an!",
+        "Ich will den Job.",
+        "Bis morgen!"
+      ],
+      "answer": 0,
+      "why": "Konjunktiv II = höflich।",
+      "word": "vorstellungsgespraech"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Hiermit bewerbe ich mich …“ কোথায় বসে?",
+      "options": [
+        "Einleitung",
+        "Anlagenliste",
+        "Gruß",
+        "Betreff"
+      ],
+      "answer": 0,
+      "why": "প্রথম বাক্য।",
+      "word": "hiermit"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Anlage-এ কী থাকে?",
+      "options": [
+        "Lebenslauf, Zeugnisse, Zertifikate",
+        "শুধু ছবি",
+        "ফোন নম্বর",
+        "কিছুই না"
+      ],
+      "answer": 0,
+      "why": "Anlagen = enclosures।",
+      "word": "anlage"
+    },
+    {
+      "type": "order",
+      "prompt": "বাক্য সাজান: „এর মাধ্যমে আমি পদটির জন্য আবেদন করছি।“",
+      "tiles": [
+        "bewerbe",
+        "hiermit",
+        "ich mich",
+        "auf die Stelle."
+      ],
+      "answer": [
+        "hiermit",
+        "bewerbe",
+        "ich mich",
+        "auf die Stelle."
+      ],
+      "why": "hiermit + ক্রিয়া ২য়।",
+      "word": "hiermit"
+    }
+  ],
+  "status": "draft",
+  "passMark": 0.8
+}
