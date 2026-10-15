@@ -4,6 +4,7 @@ import { GOALS, type Lang, type Theme } from '../lib/storage'
 import { bn } from '../lib/format'
 import { heatLevel, recentWeeks, streak } from '../lib/stats'
 import { Account } from '../components/Account'
+import { BADGES, earnedBadges } from '../lib/badges'
 
 const sw = (a: string, b: string) => [a, b]
 const THEMES: [Theme, string, string[], string][] = [
@@ -23,6 +24,7 @@ export function ProfileScreen() {
   const a1Done = a1.filter((l) => lessonProgress(l.id).passed).length
   const a1Pct = a1.length ? (a1Done / a1.length) * 100 : 0
   const days = recentWeeks(5)
+  const earned = earnedBadges(progress, LESSONS)
 
   return (
     <>
@@ -36,6 +38,19 @@ export function ProfileScreen() {
         <div className="stat"><b className="num">{bn(streak(progress.activity))}</b><span className="bn">দিনের স্ট্রিক</span></div>
         <div className="stat"><b className="num">{bn(progress.xp)}</b><span className="bn">মোট XP</span></div>
         <div className="stat"><b className="num">{bn(a1Done)} / {bn(a1.length)}</b><span className="bn">A1 লেসন</span></div>
+      </div>
+
+      <div className="card" style={{ marginTop: 14 }}>
+        <div className="eyebrow bn">ব্যাজ · {bn(earned.size)} / {bn(BADGES.length)}</div>
+        <ul className="badges">
+          {BADGES.map((b) => (
+            <li key={b.id} className={earned.has(b.id) ? 'got' : 'locked'} title={b.desc}>
+              <span className="b-icon" aria-hidden="true">{earned.has(b.id) ? b.icon : '🔒'}</span>
+              <b className="bn">{b.bn}</b>
+              <span className="bn">{b.desc}</span>
+            </li>
+          ))}
+        </ul>
       </div>
 
       <div className="card" style={{ marginTop: 14 }}>

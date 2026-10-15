@@ -6,6 +6,9 @@ import { DAY } from './lib/format'
 import { newCard, rateCard as nextCard, type Grade } from './lib/srs'
 import { speak } from './lib/audio'
 import { useAuth } from './auth'
+import { LESSONS } from './lib/content'
+import { announcements } from './lib/announce'
+import { celebrate } from './lib/celebrate'
 
 export type SyncStatus = 'off' | 'syncing' | 'synced' | 'error'
 
@@ -20,6 +23,7 @@ interface Ctx {
   say(text: string): Promise<void>
   lessonProgress(id: string): LessonProgress
   completeStep(lessonId: string, step: number): void
+  completeWelcome(): void
   finishQuiz(lessonId: string, r: { score: number; total: number; passed: boolean; wrong: string[]; wordIds: string[] }): void
 }
 
@@ -34,9 +38,12 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
   latest.current = progress
   const serverKey = useRef('') // what the server is known to hold, so we only sync real changes
   const running = useRef(false)
+  const local = useRef(false) // the last change came from the learner (not a sync), so it may deserve a celebration
+  const seen = useRef(progress)
 
   // every local change: derive XP from lessons, stamp the time, persist
   const update = useCallback((fn: (p: Progress) => Progress) => {
+    local.current = true
     setProgress((prev) => {
       const next = fn(prev)
       if (next === prev) return prev
@@ -50,6 +57,15 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
       return stamped
     })
   }, [])
+
+  // lesson passed, goal reached, streak milestone, new badge: celebrate what the learner just did
+  useEffect(() => {
+    if (local.current) {
+      local.current = false
+      for (const c of announcements(seen.current, progress, LESSONS)) celebrate(c)
+    }
+    seen.current = progress
+  }, [progress])
 
   // the chosen theme overrides the system light/dark setting (CSS keys off data-app-theme)
   useEffect(() => {
@@ -129,6 +145,8 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
           if (lp.done.includes(step)) return p
           return { ...p, lessons: { ...p.lessons, [lessonId]: { ...lp, done: [...lp.done, step].sort() } } }
         }),
+      // the 60-second welcome lesson: 10 XP of activity today starts the streak
+      completeWelcome: () => update((p) => (Object.keys(p.activity).length ? p : { ...p, activity: { [dayKey()]: 10 } })),
       finishQuiz: (lessonId, r) =>
         update((p) => {
           const lp = p.lessons[lessonId] ?? blank
