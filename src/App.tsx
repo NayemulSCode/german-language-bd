@@ -1,6 +1,9 @@
 import { useEffect } from 'react'
+import { Celebration } from './components/Celebration'
+import { WelcomeScreen } from './screens/Welcome'
+import { isNewLearner, welcomeSkipped } from './lib/welcome'
 import { useApp } from './state'
-import { useRoute, type RouteName } from './router'
+import { go, useRoute, type RouteName } from './router'
 import { Icon, Logo, type IconName } from './components/Icon'
 import { Toast } from './components/common'
 import { streak } from './lib/stats'
@@ -14,18 +17,25 @@ import { LessonScreen } from './screens/Lesson'
 import { PlacementScreen } from './screens/Placement'
 import { ExamScreen } from './screens/Exam'
 
-const TABS: [Exclude<RouteName, 'lesson' | 'placement' | 'exam'>, string][] = [['home', 'হোম'], ['course', 'কোর্স'], ['review', 'রিভিউ'], ['dict', 'ডিকশনারি'], ['me', 'প্রোফাইল']]
+const TABS: [Exclude<RouteName, 'lesson' | 'placement' | 'exam' | 'welcome'>, string][] = [['home', 'হোম'], ['course', 'কোর্স'], ['review', 'রিভিউ'], ['dict', 'ডিকশনারি'], ['me', 'প্রোফাইল']]
 
 export function App() {
   const route = useRoute()
   const { progress } = useApp()
-  const inLesson = route.name === 'lesson' || route.name === 'placement' || route.name === 'exam'
+  const inLesson = route.name === 'lesson' || route.name === 'placement' || route.name === 'exam' || route.name === 'welcome'
   const days = streak(progress.activity)
 
   // lessons run full-screen: the CSS hides the top bar and tabs
   useEffect(() => {
     document.body.classList.toggle('in-lesson', inLesson)
   }, [inLesson])
+
+  // a brand-new visitor opening the bare URL lands on the 60-second welcome lesson (once; skipping it remembers the choice)
+  useEffect(() => {
+    if (!location.hash && isNewLearner(progress) && !welcomeSkipped()) go('#welcome')
+    // only on first load
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
 
   return (
     <>
@@ -54,9 +64,11 @@ export function App() {
         {route.name === 'me' && <ProfileScreen />}
         {route.name === 'lesson' && <LessonScreen id={route.param} />}
         {route.name === 'placement' && <PlacementScreen level={route.param === 'b1' ? 'B1' : route.param === 'a2' ? 'A2' : 'A1'} />}
+        {route.name === 'welcome' && <WelcomeScreen />}
         {route.name === 'exam' && <ExamScreen id={route.param || 'a1-mock-01'} />}
       </main>
       <Toast />
+      <Celebration />
     </>
   )
 }

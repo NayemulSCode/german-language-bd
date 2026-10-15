@@ -8,6 +8,7 @@ import { dayKey, daysUntil, streak } from '../lib/stats'
 import { Icon } from '../components/Icon'
 import { Say, Tr } from '../components/common'
 import { go } from '../router'
+import { isNewLearner } from '../lib/welcome'
 
 export function HomeScreen() {
   const { progress, lessonProgress } = useApp()
@@ -46,6 +47,18 @@ export function HomeScreen() {
           <b className="num">{bn(xp)}<small>/ {bn(progress.goal)} XP</small></b>
         </div>
       </div>
+
+      {isNewLearner(progress) && (
+        <a className="card welcome-card" href="#welcome">
+          <span className="welcome-emoji" aria-hidden="true">👋</span>
+          <div className="grow">
+            <div className="eyebrow bn">নতুন? এখানে শুরু করুন</div>
+            <div className="bn" style={{ fontWeight: 700, fontSize: 18, marginTop: 2 }}>৬০ সেকেন্ডে প্রথম জার্মান শিখুন</div>
+            <div className="bn muted" style={{ fontSize: 14 }}>৪টি শব্দ শুনুন, ৩টি প্রশ্নের উত্তর দিন — আজই স্ট্রিক শুরু।</div>
+          </div>
+          <span className="btn sm bn">শুরু</span>
+        </a>
+      )}
 
       {next ? (
         <div className="card continue">
