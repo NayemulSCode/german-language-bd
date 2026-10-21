@@ -1,4 +1,4 @@
-import { readFileSync } from 'node:fs'
+import { existsSync, readFileSync, readdirSync } from 'node:fs'
 import { describe, expect, it } from 'vitest'
 import type { Lesson } from '../schema/lesson'
 import { coverage, localizeLesson, translatable } from './localize'
@@ -57,5 +57,31 @@ describe('checkOverlay', () => {
     expect(q).toBeGreaterThanOrEqual(0)
     const errs = checkOverlay(l, { [`quiz.${q}.options.0`]: 'same', [`quiz.${q}.options.1`]: 'same' }, {})
     expect(errs.some((e) => e.includes('duplicate options'))).toBe(true)
+  })
+})
+
+describe('the English files in content-en', () => {
+  const root = new URL('../../', import.meta.url)
+  const glossary = JSON.parse(readFileSync(new URL('content-en/common.json', root), 'utf8'))
+
+  it('has a valid glossary', () => {
+    expect(checkGlossary(glossary)).toEqual([])
+  })
+
+  it('every lesson overlay is valid and complete for A1', () => {
+    let files = 0
+    for (const unit of readdirSync(new URL('content/a1/', root)).sort()) {
+      for (const f of readdirSync(new URL(`content/a1/${unit}/`, root)).sort()) {
+        const lesson: Lesson = JSON.parse(readFileSync(new URL(`content/a1/${unit}/${f}`, root), 'utf8'))
+        const en = new URL(`content-en/a1/${unit}/${f}`, root)
+        expect(existsSync(en), `${lesson.id} has no English file`).toBe(true)
+        const overlay = JSON.parse(readFileSync(en, 'utf8'))
+        expect(checkOverlay(lesson, overlay, glossary), lesson.id).toEqual([])
+        const { done, total } = coverage(lesson, overlay, glossary)
+        expect(done, `${lesson.id} English coverage`).toBe(total)
+        files++
+      }
+    }
+    expect(files).toBe(40)
   })
 })

@@ -21,7 +21,19 @@ Two separate settings in Profile: **App language** (বাংলা / English) c
 
 Interface text lives in `src/i18n/bn.ts` (defines the keys) and `src/i18n/en.ts` (must have the same keys, so a missing translation is a compile error).
 Use `const { t, n } = useT()` in components: `t('home.goalLeft', { n: 20 })` fills `{n}` and formats numbers for the language (Bangla digits in Bangla, 0-9 in English).
-Lesson and exam *content* (grammar cards, quiz prompts, exam instructions) is still Bangla only and is not part of the interface dictionaries.
+### English lesson text
+
+Lessons are written in Bangla (`content/**`). English for the grammar cards, quiz questions, goals, word-class labels and dialogue notes lives next to it in `content-en/`:
+
+```
+content-en/common.json                          "Bangla phrase": "English", for text that repeats (quiz prompts, labels, days, months …)
+content-en/a1/unit01/lesson01.json              "path.in.lesson": "English", for one lesson, e.g. "quiz.3.why"
+```
+
+When the app language is English, a lesson that has its own file is shown in English (overlay first, then `common.json`); a lesson without one stays entirely in Bangla, never half and half.
+The word-order panels keep the Bangla sentence on purpose (the lesson compares it with German).
+`npm run validate` checks every file (paths must exist, text must be English, options must stay distinct) and prints the coverage per level; `npm test` fails if an A1 file is incomplete.
+**A1 is fully translated. A2, B1 and the mock exams are still Bangla only.** To add a lesson, create its file in `content-en/` with the paths printed as missing by `npm run validate`.
 
 ## Run
 
