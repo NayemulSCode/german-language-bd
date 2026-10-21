@@ -1,0 +1,23 @@
+{
+ "grammar.0.note": "This is a short, simplified history; reality is far more complex. Official or history-based sites (such as the Deutsche Rentenversicherung, bpb.de, DOMiD) are good sources. Check names and years.",
+ "grammar.1.note": "In written history the Präteritum is used, in speech usually the Perfekt. sein, haben and modal verbs are almost always in the Präteritum.",
+ "grammar.2.note": "„Gastarbeiter“ is a historical term; today people often say „Arbeitsmigranten“ or „Menschen mit Einwanderungsgeschichte“. Respect what the person themselves wants to be called.",
+ "quiz.0.options.0": "origin",
+ "quiz.0.options.1": "integration",
+ "quiz.0.options.2": "immigration",
+ "quiz.0.options.3": "skilled worker",
+ "quiz.0.why": "die Einwanderung = immigration.",
+ "quiz.1.options.0": "bringing family members over",
+ "quiz.1.options.1": "identity",
+ "quiz.1.options.2": "skilled worker",
+ "quiz.1.options.3": "belonging",
+ "quiz.1.why": "der Familiennachzug = bringing family members over.",
+ "quiz.2.options.0": "prejudice",
+ "quiz.2.options.1": "identity",
+ "quiz.2.options.2": "economic miracle",
+ "quiz.2.options.3": "guest worker",
+ "quiz.2.why": "das Vorurteil = prejudice.",
+ "quiz.9.prompt": "Put the sentence in order: “But many stayed.”",
+ "words.10.pos": "verb · ist eingewandert",
+ "words.11.pos": "verb · hat dazugehört"
+}

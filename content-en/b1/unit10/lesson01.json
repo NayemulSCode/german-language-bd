@@ -1,0 +1,23 @@
+{
+ "grammar.0.note": "History is a very large and sensitive subject; only a brief outline is given here. For reliable information see museums, reliable books and official education sites (e.g. bpb.de).",
+ "grammar.1.note": "The Präteritum is more common in stories, history and news writing; the Perfekt in conversation.",
+ "grammar.2.note": "wurde / wurden + Partizip II. A quantity expression (viele Menschen) → wurden.",
+ "quiz.0.options.0": "history",
+ "quiz.0.options.1": "emperor",
+ "quiz.0.options.2": "to found",
+ "quiz.0.options.3": "Germany's Basic Law",
+ "quiz.0.why": "die Geschichte = history.",
+ "quiz.1.options.0": "peace",
+ "quiz.1.options.1": "constitution",
+ "quiz.1.options.2": "to found",
+ "quiz.1.options.3": "memory",
+ "quiz.1.why": "die Verfassung = constitution.",
+ "quiz.2.options.0": "republic",
+ "quiz.2.options.1": "Germany's Basic Law",
+ "quiz.2.options.2": "eyewitness",
+ "quiz.2.options.3": "history",
+ "quiz.2.why": "der Zeitzeuge = eyewitness.",
+ "quiz.9.prompt": "Put the sentence in order: “The country was divided into two states.”",
+ "quiz.3.why": "die Republik. Plural: die Republiken.",
+ "words.6.pos": "verb · hat gegründet"
+}
