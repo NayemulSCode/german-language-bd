@@ -3,16 +3,19 @@ import type { Lesson } from '../schema/lesson'
 import { useApp } from '../state'
 import { Icon } from './Icon'
 import { Prefs } from './common'
+import { useT } from '../i18n/useT'
+import type { Key } from '../i18n/core'
 import { Hook } from './steps/Hook'
 import { Words } from './steps/Words'
 import { Dialog } from './steps/Dialog'
 import { Grammar } from './steps/Grammar'
 import { Quiz } from './steps/Quiz'
 
-const STEPS = ['হুক', 'শব্দ', 'সংলাপ', 'গ্রামার', 'কুইজ']
+const STEPS: Key[] = ['lesson.step.hook', 'lesson.step.words', 'lesson.step.dialog', 'lesson.step.grammar', 'lesson.step.quiz']
 
 export function LessonPlayer({ lesson }: { lesson: Lesson }) {
   const { progress, lessonProgress, completeStep, finishQuiz } = useApp()
+  const { t, n } = useT()
   const [step, setStep] = useState(0)
   const [quizRun, setQuizRun] = useState(0) // bumping this remounts Quiz to restart it
   const done = lessonProgress(lesson.id).done
@@ -30,15 +33,15 @@ export function LessonPlayer({ lesson }: { lesson: Lesson }) {
     <div className="wrap">
       <header className="lbar">
         <div className="lbar-top">
-          <a className="lclose" href="#course" aria-label="লেসন বন্ধ করে কোর্সে ফিরুন"><Icon name="close" /></a>
+          <a className="lclose" href="#course" aria-label={t('lesson.close')}><Icon name="close" /></a>
           <span className="lvl">{lesson.level}</span>
-          <span className="lbar-title">ইউনিট {lesson.unit} · লেসন {lesson.lesson} — {lesson.title.de}</span>
-          <span className="xp">{progress.xp} XP</span>
+          <span className="lbar-title">{t('lesson.barTitle', { u: lesson.unit, l: lesson.lesson })} — {lesson.title.de}</span>
+          <span className="xp">{n(progress.xp)} XP</span>
         </div>
-        <nav className="steps" aria-label="লেসনের ধাপ">
+        <nav className="steps" aria-label={t('lesson.steps')}>
           {STEPS.map((s, i) => (
             <button key={s} className={`step${i === step ? ' on' : ''}${done.includes(i) ? ' done' : ''}`} aria-current={i === step ? 'step' : undefined} onClick={() => go(i)}>
-              <i /><span className="bn">{s}</span>
+              <i /><span className="bn">{t(s)}</span>
             </button>
           ))}
         </nav>

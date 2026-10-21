@@ -2,6 +2,7 @@
 
 export type Lang = 'bn' | 'en' | 'both'
 export type Theme = 'system' | 'light' | 'dark' | 'night'
+export type Ui = 'bn' | 'en' // interface language
 export const GOALS = [20, 50, 100] as const
 
 export interface LessonProgress {
@@ -22,7 +23,8 @@ export interface Card {
 
 export interface Progress {
   // settings (last writer wins, see mergeProgress)
-  lang: Lang
+  lang: Lang // which translations to show in lessons
+  ui: Ui // language of the app's own menus, buttons and messages
   slow: boolean
   theme: Theme
   goal: number // daily XP goal
@@ -42,7 +44,7 @@ export interface Progress {
 }
 
 export const emptyProgress = (): Progress => ({
-  lang: 'both', slow: false, theme: 'system', goal: 50, name: '', examDate: '', startUnit: 1, unlockAll: false, placed: false, startUnitA2: 0, startUnitB1: 0,
+  lang: 'both', ui: 'bn', slow: false, theme: 'system', goal: 50, name: '', examDate: '', startUnit: 1, unlockAll: false, placed: false, startUnitA2: 0, startUnitB1: 0,
   xp: 0, lessons: {}, srs: {}, activity: {}, updatedAt: 0,
 })
 
@@ -65,6 +67,7 @@ export function sanitizeProgress(raw: unknown): Progress {
   if (!raw || typeof raw !== 'object') return out
   const r = raw as Record<string, unknown>
   if (r.lang === 'bn' || r.lang === 'en' || r.lang === 'both') out.lang = r.lang
+  if (r.ui === 'bn' || r.ui === 'en') out.ui = r.ui
   if (r.theme === 'system' || r.theme === 'light' || r.theme === 'dark' || r.theme === 'night') out.theme = r.theme
   out.slow = r.slow === true
   if (typeof r.goal === 'number' && (GOALS as readonly number[]).includes(r.goal)) out.goal = r.goal

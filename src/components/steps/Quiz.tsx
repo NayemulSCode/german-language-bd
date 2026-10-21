@@ -1,8 +1,9 @@
 import { useState } from 'react'
 import type { Lesson } from '../../schema/lesson'
 import { useApp } from '../../state'
-import { Say } from '../common'
+import { Say, Tr } from '../common'
 import { QuestionBody, isReady, isRight } from '../Question'
+import { useT } from '../../i18n/useT'
 
 interface Props {
   lesson: Lesson
@@ -12,6 +13,7 @@ interface Props {
 
 export function Quiz({ lesson, onFinish, onRestart }: Props) {
   const { say, lessonProgress } = useApp()
+  const { t, n } = useT()
   const quiz = lesson.quiz
   const [q, setQ] = useState(0)
   const [picked, setPicked] = useState<number | null>(null)
@@ -26,28 +28,28 @@ export function Quiz({ lesson, onFinish, onRestart }: Props) {
     const words = [...new Set(wrong)].map((id) => lesson.words.find((w) => w.id === id)).filter((w) => !!w)
     return (
       <section className="panel result">
-        <div className="eyebrow bn">কুইজের ফলাফল</div>
-        <div className="score" style={{ marginTop: 10 }}>{score}<small> / {quiz.length}</small></div>
+        <div className="eyebrow bn">{t('quiz.result')}</div>
+        <div className="score" style={{ marginTop: 10 }}>{n(score)}<small> / {n(quiz.length)}</small></div>
         <p className="bn" style={{ margin: '10px 0 0' }}>
           {passed
-            ? 'চমৎকার! পরের লেসন খুলে গেছে।'
-            : `পরের লেসন খুলতে ${Math.round(lesson.passMark * 100)}% (${Math.ceil(lesson.passMark * quiz.length)}টি সঠিক) লাগবে। আরেকবার চেষ্টা করুন।`}
+            ? t('quiz.passed')
+            : t('quiz.failed', { pct: Math.round(lesson.passMark * 100), need: Math.ceil(lesson.passMark * quiz.length) })}
         </p>
-        <p className="hint bn">সেরা স্কোর: {Math.max(best, score)} / {quiz.length}</p>
+        <p className="hint bn">{t('quiz.best', { a: Math.max(best, score), b: quiz.length })}</p>
         {words.length > 0 && (
           <div className="review">
-            <div className="eyebrow bn">রিভিউ তালিকায় গেল</div>
+            <div className="eyebrow bn">{t('quiz.addedReview')}</div>
             {words.map((w) => (
               <div key={w.id} style={{ display: 'flex', gap: 10, alignItems: 'center' }}>
                 <Say text={(w.art ? w.art + ' ' : '') + w.de} />
-                <span><b lang="de">{w.art ? w.art + ' ' : ''}{w.de}</b> — <span className="bn">{w.bn}</span></span>
+                <span><b lang="de">{w.art ? w.art + ' ' : ''}{w.de}</b> — <Tr bn={w.bn} en={w.en} /></span>
               </div>
             ))}
           </div>
         )}
         <div className="actions">
-          <button className="btn bn" onClick={onRestart}>আবার কুইজ</button>
-          <a className="btn ghost bn" href="#course">কোর্সে ফিরুন</a>
+          <button className="btn bn" onClick={onRestart}>{t('quiz.again')}</button>
+          <a className="btn ghost bn" href="#course">{t('common.back.course')}</a>
         </div>
       </section>
     )
@@ -76,7 +78,7 @@ export function Quiz({ lesson, onFinish, onRestart }: Props) {
 
   return (
     <section>
-      <div className="qhead bn"><span>প্রশ্ন {q + 1} / {quiz.length}</span><span>সঠিক: {score}</span></div>
+      <div className="qhead bn"><span>{t('q.of', { a: q + 1, b: quiz.length })}</span><span>{t('quiz.correct', { n: score })}</span></div>
       <div className="qbar"><i style={{ width: `${(q / quiz.length) * 100}%` }} /></div>
       <div className="qprompt bn">{cur.prompt}</div>
 
@@ -84,15 +86,15 @@ export function Quiz({ lesson, onFinish, onRestart }: Props) {
 
       {checked && (
         <div className={`fb ${ok ? 'ok' : 'no'} bn`}>
-          <strong>{ok ? 'ঠিক হয়েছে!' : 'হয়নি — রিভিউতে যোগ হলো'}</strong>
+          <strong>{ok ? t('q.right') : t('quiz.wrong')}</strong>
           {cur.type === 'order' && !ok && <><span lang="de">{cur.answer.join(' ')}</span><br /></>}
           {cur.why}
         </div>
       )}
       <div className="actions">
         {checked
-          ? <button className="btn bn" onClick={advance}>{q + 1 < quiz.length ? 'পরের প্রশ্ন' : 'ফলাফল দেখি'}</button>
-          : <button className="btn bn" disabled={!ready} onClick={check}>যাচাই করুন</button>}
+          ? <button className="btn bn" onClick={advance}>{q + 1 < quiz.length ? t('q.next') : t('quiz.seeResult')}</button>
+          : <button className="btn bn" disabled={!ready} onClick={check}>{t('quiz.check')}</button>}
       </div>
     </section>
   )

@@ -3,7 +3,7 @@ import { useApp } from '../state'
 import { LESSONS, type LessonMeta } from '../lib/content'
 import { groupUnits, lessonStates } from '../lib/course'
 import { LEVELS, LEVEL_ORDER, UNIT_TITLES } from '../lib/plan'
-import { bn } from '../lib/format'
+import { useT } from '../i18n/useT'
 import { toast } from '../lib/toast'
 import { go } from '../router'
 import { Icon } from '../components/Icon'
@@ -11,6 +11,7 @@ import { EXAMS, loadRecords } from '../lib/exam'
 
 export function CourseScreen() {
   const { lessonProgress, progress } = useApp()
+  const { t, n, ui } = useT()
   const states = lessonStates(LESSONS, (id) => lessonProgress(id).passed, { startUnit: progress.startUnit, startUnitA2: progress.startUnitA2, startUnitB1: progress.startUnitB1, unlockAll: progress.unlockAll })
   const [level, setLevel] = useState<string>(() => LESSONS.find((l) => states.get(l.id) === 'now')?.level ?? 'A1')
   const [open, setOpen] = useState<Set<number>>(new Set())
@@ -37,7 +38,7 @@ export function CourseScreen() {
 
   const pick = (l: LessonMeta) => {
     if (states.get(l.id) === 'locked') {
-      toast('আগের লেসনগুলো শেষ করলে এটা খুলবে।')
+      toast(t('course.locked'))
       return
     }
     setSheet(l)
@@ -45,30 +46,30 @@ export function CourseScreen() {
 
   return (
     <>
-      <div className="eyebrow bn">কোর্স ম্যাপ</div>
-      <h1 style={{ fontSize: 30, marginTop: 4 }}>শূন্য থেকে B1</h1>
+      <div className="eyebrow bn">{t('course.map')}</div>
+      <h1 style={{ fontSize: 30, marginTop: 4 }}>{t('course.zeroToB1')}</h1>
       <div className="row" style={{ marginTop: 12, gap: 8, flexWrap: 'wrap' }}>
-        <a className="btn sm ghost bn" href="#placement">{progress.placed ? 'A1 প্লেসমেন্ট টেস্ট আবার দিন' : 'কোথা থেকে শুরু করবেন? A1 প্লেসমেন্ট টেস্ট'}</a>
-        {LESSONS.some((l) => l.level === 'A2') && <a className="btn sm ghost bn" href="#placement/a2">{progress.startUnitA2 > 0 ? 'A2 প্লেসমেন্ট টেস্ট আবার দিন' : 'A1 জানা আছে? A2 প্লেসমেন্ট টেস্ট'}</a>}
-        {LESSONS.some((l) => l.level === 'B1') && <a className="btn sm ghost bn" href="#placement/b1">{progress.startUnitB1 > 0 ? 'B1 প্লেসমেন্ট টেস্ট আবার দিন' : 'A2 জানা আছে? B1 প্লেসমেন্ট টেস্ট'}</a>}
+        <a className="btn sm ghost bn" href="#placement">{progress.placed ? t('course.retakeA1') : t('course.takeA1')}</a>
+        {LESSONS.some((l) => l.level === 'A2') && <a className="btn sm ghost bn" href="#placement/a2">{progress.startUnitA2 > 0 ? t('course.retakeA2') : t('course.takeA2')}</a>}
+        {LESSONS.some((l) => l.level === 'B1') && <a className="btn sm ghost bn" href="#placement/b1">{progress.startUnitB1 > 0 ? t('course.retakeB1') : t('course.takeB1')}</a>}
       </div>
       {EXAMS.filter((ex) => ex.level === level).map((ex) => {
         const rec = loadRecords()[ex.id]
         return (
           <a key={ex.id} className="card row" href={`#exam/${ex.id}`} style={{ textDecoration: 'none', marginTop: 12 }}>
             <div className="grow">
-              <div className="eyebrow bn">মক পরীক্ষা</div>
-              <div className="bn" style={{ fontWeight: 700, marginTop: 2 }}>{ex.title.bn}</div>
-              <div className="muted bn" style={{ fontSize: 14 }}>{bn(ex.questions)}টি প্রশ্ন + লেখা ও বলা · প্রায় {bn(ex.minutes + 35)} মিনিট{rec ? ` · সেরা ফল ${bn(Math.round(rec.best * 100))}%` : ''}</div>
+              <div className="eyebrow bn">{t('course.mock')}</div>
+              <div className="bn" style={{ fontWeight: 700, marginTop: 2 }}>{ex.title[ui]}</div>
+              <div className="muted bn" style={{ fontSize: 14 }}>{t('course.examMeta', { q: ex.questions, m: ex.minutes + 35 })}{rec ? ` · ${t('course.examBest', { n: Math.round(rec.best * 100) })}` : ''}</div>
             </div>
-            <span className="btn sm ghost bn">{rec ? 'আবার' : 'শুরু'}</span>
+            <span className="btn sm ghost bn">{rec ? t('course.examAgain') : t('welcome.card.go')}</span>
           </a>
         )
       })}
-      <div className="levels" role="group" aria-label="লেভেল" style={{ gridTemplateColumns: `repeat(${LEVEL_ORDER.length},1fr)` }}>
+      <div className="levels" role="group" aria-label={t('course.level')} style={{ gridTemplateColumns: `repeat(${LEVEL_ORDER.length},1fr)` }}>
         {LEVEL_ORDER.map((k) => (
           <button key={k} className="lv" aria-pressed={k === level} onClick={() => { setLevel(k); setOpen(new Set()) }}>
-            <b>{k}</b><span className="bn">{LEVELS[k].tag}</span>
+            <b>{k}</b><span className="bn">{LEVELS[k].tag[ui]}</span>
           </button>
         ))}
       </div>
@@ -76,24 +77,24 @@ export function CourseScreen() {
       <div className="lvhead">
         <div>
           <h2>{level}</h2>
-          <div className="muted bn">{built ? `${bn(words)}টি শব্দ · ${bn(total.length)}টি লেসন · ${info.goal}` : info.goal}</div>
+          <div className="muted bn">{built ? `${t('course.wordsLessons', { w: words, l: total.length })} · ${info.goal[ui]}` : info.goal[ui]}</div>
         </div>
-        {built ? <span className="tag now bn">চলছে · {bn(Math.round((passed / total.length) * 100))}%</span> : <span className="tag bn">শীঘ্রই আসছে</span>}
+        {built ? <span className="tag now bn">{t('course.inProgress', { n: Math.round((passed / total.length) * 100) })}</span> : <span className="tag bn">{t('course.comingSoon')}</span>}
       </div>
 
       <div className="path">
         {units.map((u) => {
-          const t = UNIT_TITLES[u.key]
+          const ut = UNIT_TITLES[u.key]
           const done = u.lessons.filter((l) => lessonProgress(l.id).passed).length
           const active = u.lessons.some((l) => states.get(l.id) === 'now')
           const isOpen = open.has(u.unit)
           return (
             <div key={u.key} className={`unit ${active ? 'active' : ''} ${isOpen ? 'open' : ''}`}>
               <button onClick={() => toggle(u.unit)} aria-expanded={isOpen}>
-                <span className="n num">{bn(u.unit)}</span>
+                <span className="n num">{n(u.unit)}</span>
                 <span>
-                  <span className="t">{t?.de ?? `Einheit ${u.unit}`}</span><br />
-                  <span className="s bn">{t?.bn} · {bn(u.lessons.length)} লেসন</span>
+                  <span className="t">{ut?.de ?? `Einheit ${u.unit}`}</span><br />
+                  <span className="s bn">{ut?.[ui]} · {t('course.lessonsCount', { n: u.lessons.length })}</span>
                   <div className="bar"><i style={{ width: `${(done / u.lessons.length) * 100}%` }} /></div>
                 </span>
                 <Icon name="chev" className="chev" />
@@ -108,9 +109,9 @@ export function CourseScreen() {
                         <span className="ic"><Icon name={st === 'done' ? 'check' : st === 'locked' ? 'lock' : 'play'} /></span>
                         <span>
                           <span className="lt">{l.title.de}</span><br />
-                          <span className="ls bn">{l.title.bn} · {bn(l.minutes)} মিনিট</span>
+                          <span className="ls bn">{l.title[ui]} · {t('common.minutes', { n: l.minutes })}</span>
                         </span>
-                        {st === 'now' ? <span className="tag now bn">পরেরটা</span> : st === 'done' ? <span className="tag bn">{bn(Math.round((lp.best / Math.max(1, lp.total)) * 100))}%</span> : null}
+                        {st === 'now' ? <span className="tag now bn">{t('course.next')}</span> : st === 'done' ? <span className="tag bn">{n(Math.round((lp.best / Math.max(1, lp.total)) * 100))}%</span> : null}
                       </button>
                     )
                   })}
@@ -120,20 +121,10 @@ export function CourseScreen() {
           )
         })}
 
-        {info.planned.slice(units.length).map(([de, b], i) => (
-          <div key={de} className="unit soon">
-            <div className="hd">
-              <span className="n num" style={{ width: 44, height: 44, borderRadius: 12, display: 'grid', placeItems: 'center', background: 'var(--paper)', border: '1px solid var(--line)', fontFamily: 'var(--display)', fontWeight: 800, color: 'var(--muted)' }}>{bn(units.length + i + 1)}</span>
-              <span><span className="t">{de}</span><br /><span className="s bn">{b}</span></span>
-              <span className="tag bn">শীঘ্রই</span>
-            </div>
-          </div>
-        ))}
-
         {!EXAMS.some((ex) => ex.level === level) && <div className="card exam">
-          <div className="eyebrow bn">লেভেলের শেষে</div>
-          <h3 style={{ fontSize: 20, marginTop: 4 }}>{level} মক এক্সাম</h3>
-          <p className="muted bn" style={{ margin: '4px 0 0' }}>Goethe-Zertifikat {level}-এর ফরম্যাট ধরে পূর্ণ পরীক্ষা। সব ইউনিট শেষ হলে খুলবে — এটি শীঘ্রই আসছে।</p>
+          <div className="eyebrow bn">{t('course.atEnd')}</div>
+          <h3 style={{ fontSize: 20, marginTop: 4 }}>{t('course.mockExam', { lv: level })}</h3>
+          <p className="muted bn" style={{ margin: '4px 0 0' }}>{t('course.mockSoon', { lv: level })}</p>
           <div className="mods"><span>Lesen</span><span>Hören</span><span>Schreiben</span><span>Sprechen</span></div>
         </div>}
       </div>
@@ -144,6 +135,7 @@ export function CourseScreen() {
 }
 
 function LessonSheet({ lesson, done, onClose }: { lesson: LessonMeta; done: boolean; onClose(): void }) {
+  const { t, ui } = useT()
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => e.key === 'Escape' && onClose()
     window.addEventListener('keydown', onKey)
@@ -152,21 +144,21 @@ function LessonSheet({ lesson, done, onClose }: { lesson: LessonMeta; done: bool
   return (
     <div className="scrim" onClick={onClose}>
       <div className="sheet" role="dialog" aria-modal="true" aria-labelledby="sh-t" onClick={(e) => e.stopPropagation()}>
-        <div className="eyebrow bn">{lesson.level} · ইউনিট {bn(lesson.unit)} · লেসন {bn(lesson.lesson)} · {bn(lesson.minutes)} মিনিট</div>
+        <div className="eyebrow bn">{lesson.level} · {t('lesson.barTitle', { u: lesson.unit, l: lesson.lesson })} · {t('common.minutes', { n: lesson.minutes })}</div>
         <h3 id="sh-t">{lesson.title.de}</h3>
-        <div className="muted bn">{lesson.title.bn}</div>
+        <div className="muted bn">{lesson.title[ui]}</div>
         <ol className="steps5 bn">
-          <li>হুক: আজকের উক্তি বা প্রবাদ</li>
-          <li>নতুন শব্দ ({bn(lesson.words)}টি), উচ্চারণসহ</li>
-          <li>সংলাপ: ট্যাপে তিন ভাষায় তুলনা</li>
-          <li>বাংলায় গ্রামার কার্ড</li>
-          <li>কুইজ: ৮০% পেলে পরের লেসন খোলে</li>
+          <li>{t('sheet.hook')}</li>
+          <li>{t('sheet.words', { n: lesson.words })}</li>
+          <li>{t('sheet.dialog')}</li>
+          <li>{t('sheet.grammar')}</li>
+          <li>{t('sheet.quiz')}</li>
         </ol>
         <div style={{ display: 'flex', gap: 10, flexWrap: 'wrap', marginTop: 18 }}>
-          <button className="btn bn" style={{ flex: 1 }} autoFocus onClick={() => go(`#lesson/${lesson.id}`)}>{done ? 'আবার করুন' : 'শুরু করুন'}</button>
-          <button className="btn ghost bn" onClick={onClose}>বন্ধ</button>
+          <button className="btn bn" style={{ flex: 1 }} autoFocus onClick={() => go(`#lesson/${lesson.id}`)}>{done ? t('sheet.again') : t('common.start')}</button>
+          <button className="btn ghost bn" onClick={onClose}>{t('common.close')}</button>
         </div>
-        {lesson.status === 'draft' && <p className="muted bn" style={{ fontSize: 13, margin: '10px 0 0' }}>এই লেসনটি খসড়া — শিক্ষক বা জার্মানভাষীর যাচাই বাকি আছে।</p>}
+        {lesson.status === 'draft' && <p className="muted bn" style={{ fontSize: 13, margin: '10px 0 0' }}>{t('sheet.draft')}</p>}
       </div>
     </div>
   )

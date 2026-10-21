@@ -1,10 +1,12 @@
 import type { Lesson } from '../../schema/lesson'
 import { NextButton } from '../common'
+import { useT } from '../../i18n/useT'
 
 export function Grammar({ lesson, onNext }: { lesson: Lesson; onNext(): void }) {
+  const { t } = useT()
   return (
     <section>
-      <div className="eyebrow bn">ধাপ ৪ · গ্রামার কার্ড</div>
+      <div className="eyebrow bn">{t('grammar.step')}</div>
       {lesson.grammar.map((g, i) => {
         if (g.type === 'text') {
           return (
@@ -37,9 +39,9 @@ export function Grammar({ lesson, onNext }: { lesson: Lesson; onNext(): void }) 
                 <table>
                   <thead>
                     <tr>
-                      <th>কর্তা</th>
+                      <th>{t('grammar.subject')}</th>
                       {g.verbs.map((v) => <th key={v} lang="de">{v}</th>)}
-                      <th>বাংলা</th>
+                      <th>{t('grammar.bangla')}</th>
                     </tr>
                   </thead>
                   <tbody lang="de">
@@ -63,18 +65,18 @@ export function Grammar({ lesson, onNext }: { lesson: Lesson; onNext(): void }) 
             <p className="bn" style={{ margin: '6px 0 0' }}>{g.text}</p>
             <div className="order">
               <div className="slots" lang="de">
-                <small className="bn" lang="bn">জার্মান</small>
+                <small className="bn" lang="bn">{t('grammar.german')}</small>
                 {g.de.map((s, k) => <span key={k} className={`slot${s.v ? ' v' : ''}`}>{s.t}</span>)}
               </div>
               <div className="slots bn">
-                <small>বাংলা</small>
+                <small>{t('grammar.bangla')}</small>
                 {g.bn.map((s, k) => <span key={k} className={`slot${s.v ? ' v' : ''}`}>{s.t}</span>)}
               </div>
             </div>
           </div>
         )
       })}
-      <NextButton onClick={onNext}>কুইজ শুরু করি</NextButton>
+      <NextButton onClick={onNext}>{t('grammar.next')}</NextButton>
     </section>
   )
 }

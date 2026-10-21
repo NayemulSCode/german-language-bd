@@ -1,15 +1,17 @@
 import type { Lesson } from '../../schema/lesson'
 import { NextButton, Say, Tr } from '../common'
+import { useT } from '../../i18n/useT'
 
 export function Words({ lesson, onNext }: { lesson: Lesson; onNext(): void }) {
+  const { t } = useT()
   return (
     <section>
-      <div className="eyebrow bn">ধাপ ২ · নতুন শব্দ</div>
-      <h2 style={{ fontSize: 24, marginTop: 4 }}>{lesson.words.length}টি শব্দ</h2>
+      <div className="eyebrow bn">{t('words.step')}</div>
+      <h2 style={{ fontSize: 24, marginTop: 4 }}>{t('words.count', { n: lesson.words.length })}</h2>
       <div className="legend bn">
-        <span><b className="art der">der</b> পুংলিঙ্গ</span>
-        <span><b className="art die">die</b> স্ত্রীলিঙ্গ</span>
-        <span><b className="art das">das</b> ক্লীবলিঙ্গ</span>
+        <span><b className="art der">der</b> {t('words.m')}</span>
+        <span><b className="art die">die</b> {t('words.f')}</span>
+        <span><b className="art das">das</b> {t('words.n')}</span>
       </div>
       <div className="words">
         {lesson.words.map((w) => (
@@ -22,15 +24,15 @@ export function Words({ lesson, onNext }: { lesson: Lesson; onNext(): void }) {
               </div>
               <div className="meta bn">
                 {w.pos}
-                {w.pl && <> · বহুবচন: <span lang="de">{w.pl}</span></>}
+                {w.pl && <> · {t('words.plural')}: <span lang="de">{w.pl}</span></>}
               </div>
               <div className="mean"><Tr bn={w.bn} en={w.en} /></div>
             </div>
           </div>
         ))}
       </div>
-      <p className="hint bn">জার্মানে প্রতিটি বিশেষ্য বড় হাতের অক্ষরে শুরু হয়, আর আর্টিকেলসহ মুখস্থ করতে হয়।</p>
-      <NextButton onClick={onNext}>সংলাপে যাই</NextButton>
+      <p className="hint bn">{t('words.hint')}</p>
+      <NextButton onClick={onNext}>{t('words.next')}</NextButton>
     </section>
   )
 }

@@ -1,14 +1,17 @@
 import { useEffect, useMemo, useState } from 'react'
 import { useApp } from '../state'
 import { loadDictionary, spoken, type DictEntry } from '../lib/content'
-import { bn, fmtInterval } from '../lib/format'
+import { fmtInterval } from '../lib/format'
+import { useT } from '../i18n/useT'
+import type { Key } from '../i18n/core'
 import { intervalMs, type Grade } from '../lib/srs'
 import { Say, Tr } from '../components/common'
 
-const GRADES: [Grade, string][] = [[0, 'আবার'], [1, 'কঠিন'], [2, 'ভালো'], [3, 'সহজ']]
+const GRADES: [Grade, Key][] = [[0, 'review.again'], [1, 'review.hard'], [2, 'review.good'], [3, 'review.easy']]
 
 export function ReviewScreen() {
   const { progress, rateCard, say } = useApp()
+  const { t } = useT()
   const [dict, setDict] = useState<Map<string, DictEntry> | null>(null)
   const [flipped, setFlipped] = useState(false)
   const [reviewed, setReviewed] = useState(0)
@@ -24,25 +27,25 @@ export function ReviewScreen() {
     return Object.entries(progress.srs).filter(([k, c]) => c.due <= now && dict.has(k)).sort((a, b) => a[1].due - b[1].due)
   }, [progress.srs, dict])
 
-  if (!dict) return <div className="loading bn">লোড হচ্ছে…</div>
+  if (!dict) return <div className="loading bn">{t('common.loading')}</div>
 
   const total = Object.keys(progress.srs).length
   if (due.length === 0) {
     const upcoming = Object.values(progress.srs).filter((c) => c.due > Date.now()).sort((a, b) => a.due - b.due)[0]
     return (
       <>
-        <div className="eyebrow bn">রিভিউ</div>
+        <div className="eyebrow bn">{t('tab.review')}</div>
         <div className="card empty" style={{ marginTop: 14 }}>
-          <h2 style={{ fontSize: 26 }}>{total === 0 ? 'এখনো কোনো শব্দ নেই' : reviewed > 0 ? 'আজকের রিভিউ শেষ' : 'এখন কোনো শব্দ বাকি নেই'}</h2>
+          <h2 style={{ fontSize: 26 }}>{total === 0 ? t('review.empty') : reviewed > 0 ? t('review.finished') : t('home.dueNone')}</h2>
           <p className="muted bn">
             {total === 0
-              ? 'একটি লেসন পাস করলে তার শব্দগুলো পরের দিন থেকে এখানে আসবে। ভুল করা শব্দ সঙ্গে সঙ্গে যোগ হয়।'
+              ? t('review.emptyHint')
               : upcoming
-                ? `পরের শব্দ ${fmtInterval(upcoming.due - Date.now())} পরে আসবে। মোট ${bn(total)}টি শব্দ রিভিউ চক্রে আছে।`
-                : 'নতুন লেসন করলে আরও শব্দ যোগ হবে।'}
+                ? t('review.upcoming', { when: fmtInterval(upcoming.due - Date.now(), t), n: total })
+                : t('review.moreWords')}
           </p>
           <div style={{ display: 'flex', gap: 10, justifyContent: 'center', flexWrap: 'wrap', marginTop: 8 }}>
-            <a className="btn bn" href="#course">কোর্সে যাই</a>
+            <a className="btn bn" href="#course">{t('review.toCourse')}</a>
           </div>
         </div>
       </>
@@ -63,26 +66,26 @@ export function ReviewScreen() {
 
   return (
     <>
-      <div className="eyebrow bn">রিভিউ · স্পেসড রিপিটিশন</div>
-      <div className="row" style={{ marginTop: 4 }}><h1 className="grow" style={{ fontSize: 28 }}>আজ {bn(due.length)}টি শব্দ বাকি</h1></div>
+      <div className="eyebrow bn">{t('review.eyebrow')}</div>
+      <div className="row" style={{ marginTop: 4 }}><h1 className="grow" style={{ fontSize: 28 }}>{t('review.dueToday', { n: due.length })}</h1></div>
       <div className="bar" style={{ marginTop: 10 }}><i style={{ width: `${(reviewed / (reviewed + due.length)) * 100}%` }} /></div>
       <div className="flash">
-        <button className="face" onClick={flip} aria-label="কার্ড উল্টান">
+        <button className="face" onClick={flip} aria-label={t('review.flip')}>
           <div className="w">{e.art && <span className={`art ${e.art}`}>{e.art} </span>}{e.de}</div>
           {flipped
             ? <div style={{ fontSize: 19, display: 'flex', gap: 14, flexWrap: 'wrap', justifyContent: 'center' }}><Tr bn={e.bn} en={e.en} /></div>
-            : <div className="tapnote bn">মনে আছে অর্থ কী? ট্যাপ করে দেখুন</div>}
+            : <div className="tapnote bn">{t('review.tapNote')}</div>}
         </button>
       </div>
       <div className="row" style={{ justifyContent: 'center', marginTop: 12 }}><Say text={spoken(e)} /></div>
       {flipped ? (
         <div className="rate bn">
           {GRADES.map(([g, label]) => (
-            <button key={g} onClick={() => rate(g)}>{label}<small>{fmtInterval(intervalMs(card, g))}</small></button>
+            <button key={g} onClick={() => rate(g)}>{t(label)}<small>{fmtInterval(intervalMs(card, g), t)}</small></button>
           ))}
         </div>
       ) : (
-        <p className="muted bn" style={{ textAlign: 'center', fontSize: 14 }}>উল্টানোর পর নিজেই বলুন কতটা মনে ছিল — সেই অনুযায়ী পরের রিভিউর তারিখ ঠিক হবে।</p>
+        <p className="muted bn" style={{ textAlign: 'center', fontSize: 14 }}>{t('review.rateHint')}</p>
       )}
     </>
   )

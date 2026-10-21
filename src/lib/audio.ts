@@ -1,4 +1,5 @@
 import { toast } from './toast'
+import type { T } from '../i18n/core'
 import { clipKey } from './speakable'
 
 /**
@@ -17,7 +18,7 @@ function loadManifest() {
 let current: HTMLAudioElement | null = null
 let warnedVoice = false
 
-export async function speak(text: string, opts: { slow: boolean }): Promise<void> {
+export async function speak(text: string, opts: { slow: boolean; t: T }): Promise<void> {
   current?.pause()
   const files = await loadManifest()
   const file = files[clipKey(text, opts.slow)]
@@ -31,7 +32,7 @@ export async function speak(text: string, opts: { slow: boolean }): Promise<void
     return
   }
   if (!('speechSynthesis' in window)) {
-    toast('এই ব্রাউজারে উচ্চারণ চালানো যাচ্ছে না। Chrome দিয়ে খুলে দেখুন।')
+    toast(opts.t('audio.noSpeech'))
     return
   }
   speechSynthesis.cancel()
@@ -42,7 +43,7 @@ export async function speak(text: string, opts: { slow: boolean }): Promise<void
   if (v) u.voice = v
   else if (!warnedVoice) {
     warnedVoice = true
-    toast('ফোনে জার্মান ভয়েস পাওয়া যায়নি — উচ্চারণ ঠিক না-ও হতে পারে।')
+    toast(opts.t('audio.noVoice'))
   }
   await new Promise<void>((resolve) => {
     u.onend = u.onerror = () => resolve()

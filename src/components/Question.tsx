@@ -1,6 +1,7 @@
 import type { Question } from '../schema/lesson'
 import { useApp } from '../state'
 import { Say } from './common'
+import { useT } from '../i18n/useT'
 
 /** Order questions track picked tiles by index so repeated words work. */
 export const isRight = (q: Question, picked: number | null, order: number[]) =>
@@ -20,11 +21,12 @@ interface Props {
 /** The answer area of one question (multiple choice, listening, or word ordering). Used by lesson quizzes and the placement test. */
 export function QuestionBody({ q, picked, order, checked, onPick, onOrder }: Props) {
   const { say } = useApp()
+  const { t } = useT()
   if (q.type === 'order') {
     return (
       <>
-        <div className="answer" lang="de" aria-label="আপনার বাক্য">
-          {order.length === 0 && <span className="hint bn" style={{ margin: 6 }}>নিচের শব্দে ট্যাপ করে বাক্য বানান</span>}
+        <div className="answer" lang="de" aria-label={t('question.yourSentence')}>
+          {order.length === 0 && <span className="hint bn" style={{ margin: 6 }}>{t('question.tapBuild')}</span>}
           {order.map((ti) => (
             <button key={ti} className="tile" disabled={checked} onClick={() => onOrder(order.filter((x) => x !== ti))}>{q.tiles[ti]}</button>
           ))}
@@ -40,7 +42,7 @@ export function QuestionBody({ q, picked, order, checked, onPick, onOrder }: Pro
   return (
     <>
       {q.type === 'listen' && (
-        <div className="big-audio"><Say text={q.say} label="প্রশ্নটি শুনুন" /><span className="hint bn" style={{ margin: 0 }}>ট্যাপ করে শুনুন, দরকার হলে আবার</span></div>
+        <div className="big-audio"><Say text={q.say} label={t('question.listenQ')} /><span className="hint bn" style={{ margin: 0 }}>{t('question.tapListen')}</span></div>
       )}
       {q.type === 'mcq' && q.sub && (
         <div className={`qsub${q.subBn ? ' bn' : ''}`} {...(q.subBn ? {} : { lang: 'de' })}>{q.sub}</div>

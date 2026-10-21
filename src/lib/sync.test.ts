@@ -36,6 +36,17 @@ describe('mergeProgress', () => {
     expect(progressKey(mergeProgress(m, a))).toBe(progressKey(m))
   })
 
+  it('keeps the interface language of the device that changed settings last', () => {
+    const m = mergeProgress(p({ ui: 'bn', updatedAt: 10 }), p({ ui: 'en', updatedAt: 20 }))
+    expect(m.ui).toBe('en')
+  })
+
+  it('defaults the interface language to Bangla and rejects unknown values', () => {
+    expect(sanitizeProgress({}).ui).toBe('bn')
+    expect(sanitizeProgress({ ui: 'en' }).ui).toBe('en')
+    expect(sanitizeProgress({ ui: 'de' }).ui).toBe('bn')
+  })
+
   it('settings from the more recently updated side win', () => {
     const m = mergeProgress(p({ lang: 'bn', updatedAt: 10 }), p({ lang: 'en', slow: true, updatedAt: 20 }))
     expect(m.lang).toBe('en')
