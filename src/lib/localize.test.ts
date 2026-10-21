@@ -71,6 +71,7 @@ describe('the English files in content-en', () => {
   it.each([
     ['a1', 40],
     ['a2', 48],
+    ['b1', 48],
   ])('every lesson overlay is valid and complete for %s', (level, count) => {
     let files = 0
     for (const unit of readdirSync(new URL(`content/${level}/`, root)).sort()) {
