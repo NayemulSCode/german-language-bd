@@ -1,30 +1,33 @@
 import type { Progress } from './storage'
 import { DAY } from './format'
+import type { Key, T } from '../i18n/core'
 
 export interface Badge {
   id: string
   icon: string
-  bn: string // title
-  desc: string // how to earn it (Bangla)
 }
 
+/** Titles and how-to-earn text live in the dictionaries as `badge.<id>.t` and `badge.<id>.d`. */
 export const BADGES: Badge[] = [
-  { id: 'first-lesson', icon: '🌱', bn: 'প্রথম পদক্ষেপ', desc: 'প্রথম লেসন পাস করুন' },
-  { id: 'lessons-10', icon: '📚', bn: 'নিয়মিত শিক্ষার্থী', desc: '১০টি লেসন পাস করুন' },
-  { id: 'words-100', icon: '🔤', bn: '১০০ শব্দ', desc: '১০০টি শব্দ শিখুন' },
-  { id: 'words-500', icon: '🧠', bn: '৫০০ শব্দ', desc: '৫০০টি শব্দ শিখুন' },
-  { id: 'streak-3', icon: '🔥', bn: '৩ দিনের স্ট্রিক', desc: 'টানা ৩ দিন শিখুন' },
-  { id: 'streak-7', icon: '⚡', bn: '১ সপ্তাহের স্ট্রিক', desc: 'টানা ৭ দিন শিখুন' },
-  { id: 'streak-30', icon: '🏅', bn: '১ মাসের স্ট্রিক', desc: 'টানা ৩০ দিন শিখুন' },
-  { id: 'perfect', icon: '⭐', bn: 'পুরো নম্বর', desc: 'একটি কুইজে সবগুলো সঠিক উত্তর দিন' },
-  { id: 'review', icon: '🔁', bn: 'রিভিউ শুরু', desc: 'একটি শব্দ সফলভাবে রিভিউ করুন' },
-  { id: 'xp-500', icon: '🚀', bn: '৫০০ XP', desc: 'মোট ৫০০ XP অর্জন করুন' },
-  { id: 'xp-2000', icon: '💎', bn: '২০০০ XP', desc: 'মোট ২০০০ XP অর্জন করুন' },
-  { id: 'placed', icon: '🎯', bn: 'লক্ষ্য ঠিক', desc: 'একটি প্লেসমেন্ট টেস্ট দিন' },
-  { id: 'a1-done', icon: '🏆', bn: 'A1 সম্পূর্ণ', desc: 'A1-এর সব লেসন পাস করুন' },
-  { id: 'a2-done', icon: '🥈', bn: 'A2 সম্পূর্ণ', desc: 'A2-এর সব লেসন পাস করুন' },
-  { id: 'b1-done', icon: '🥇', bn: 'B1 সম্পূর্ণ', desc: 'B1-এর সব লেসন পাস করুন' },
+  { id: 'first-lesson', icon: '🌱' },
+  { id: 'lessons-10', icon: '📚' },
+  { id: 'words-100', icon: '🔤' },
+  { id: 'words-500', icon: '🧠' },
+  { id: 'streak-3', icon: '🔥' },
+  { id: 'streak-7', icon: '⚡' },
+  { id: 'streak-30', icon: '🏅' },
+  { id: 'perfect', icon: '⭐' },
+  { id: 'review', icon: '🔁' },
+  { id: 'xp-500', icon: '🚀' },
+  { id: 'xp-2000', icon: '💎' },
+  { id: 'placed', icon: '🎯' },
+  { id: 'a1-done', icon: '🏆' },
+  { id: 'a2-done', icon: '🥈' },
+  { id: 'b1-done', icon: '🥇' },
 ]
+
+export const badgeTitle = (t: T, id: string) => t(`badge.${id}.t` as Key)
+export const badgeDesc = (t: T, id: string) => t(`badge.${id}.d` as Key)
 
 export interface LessonRef {
   id: string

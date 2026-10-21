@@ -2,9 +2,11 @@ import { useState } from 'react'
 import type { Lesson } from '../../schema/lesson'
 import { useApp } from '../../state'
 import { NextButton, Say } from '../common'
+import { useT } from '../../i18n/useT'
 
 export function Dialog({ lesson, onNext }: { lesson: Lesson; onNext(): void }) {
   const { progress, say } = useApp()
+  const { t } = useT()
   const [sel, setSel] = useState<[number, number] | null>(null)
   const showBn = progress.lang !== 'en'
   const showEn = progress.lang !== 'bn'
@@ -13,9 +15,9 @@ export function Dialog({ lesson, onNext }: { lesson: Lesson; onNext(): void }) {
 
   return (
     <section>
-      <div className="eyebrow bn">ধাপ ৩ · সংলাপ</div>
-      <h2 style={{ fontSize: 24, marginTop: 4 }}>{a}{b && ` ও ${b}`}-এর সংলাপ</h2>
-      <p className="lead bn">যেকোনো জার্মান শব্দে ট্যাপ করুন — বাংলা আর ইংরেজি বাক্যে মিলে যাওয়া শব্দ হাইলাইট হবে।</p>
+      <div className="eyebrow bn">{t('dialog.step')}</div>
+      <h2 style={{ fontSize: 24, marginTop: 4 }}>{b ? t('dialog.title2', { a, b }) : t('dialog.title1', { a })}</h2>
+      <p className="lead bn">{t('dialog.lead')}</p>
       {lesson.dialog.map((ln, li) => {
         const tok = sel && sel[0] === li ? ln.de[sel[1]] : null
         return (
@@ -25,7 +27,7 @@ export function Dialog({ lesson, onNext }: { lesson: Lesson; onNext(): void }) {
                 <span className={`av s${speakers.indexOf(ln.who)}`}>{ln.who[0]}</span>
                 {ln.who}
               </span>
-              <Say text={ln.de.map((t) => t.t).join(' ')} label="পুরো বাক্য শুনুন" />
+              <Say text={ln.de.map((t) => t.t).join(' ')} label={t('dialog.listenLine')} />
             </div>
             <div className="toks" lang="de">
               {ln.de.map((t, ti) => (
@@ -60,21 +62,21 @@ export function Dialog({ lesson, onNext }: { lesson: Lesson; onNext(): void }) {
                 <div className="body">
                   <div>
                     <span className="lemma" lang="de">{tok.t.replace(/[.,!?]/g, '')}</span>{' '}
-                    <span className="meta">মূল রূপ: <span lang="de">{tok.l}</span></span>
+                    <span className="meta">{t('dialog.base')}: <span lang="de">{tok.l}</span></span>
                   </div>
                   <div className="mean">
                     {showBn && <span className="bn">{tok.gb}</span>}
                     {showEn && <span>{tok.ge}</span>}
                   </div>
                   {tok.n && <div className="hint bn" style={{ marginTop: 4 }}>{tok.n}</div>}
-                  {tok.b.length === 0 && showBn && <div className="hint bn">বাংলা বাক্যে এর সরাসরি কোনো শব্দ নেই।</div>}
+                  {tok.b.length === 0 && showBn && <div className="hint bn">{t('dialog.noBn')}</div>}
                 </div>
               </div>
             )}
           </div>
         )
       })}
-      <NextButton onClick={onNext}>গ্রামারে যাই</NextButton>
+      <NextButton onClick={onNext}>{t('dialog.next')}</NextButton>
     </section>
   )
 }

@@ -4,8 +4,8 @@ import { earnedBadges, longestStreak, type LessonRef } from './badges'
 import { announcements, type LessonTitle } from './announce'
 
 const L: LessonTitle[] = [
-  { id: 'a1-u01-l01', level: 'A1', words: 60, title: { bn: 'এক' } },
-  { id: 'a1-u01-l02', level: 'A1', words: 60, title: { bn: 'দুই' } },
+  { id: 'a1-u01-l01', level: 'A1', words: 60, title: { bn: 'এক', en: 'One' } },
+  { id: 'a1-u01-l02', level: 'A1', words: 60, title: { bn: 'দুই', en: 'Two' } },
 ]
 const passed = (ids: string[], extra: Partial<Progress> = {}): Progress => ({
   ...emptyProgress(),
@@ -44,25 +44,25 @@ describe('announcements', () => {
   const key = '2026-03-09'
 
   it('celebrates a newly passed lesson together with its first-lesson badge', () => {
-    const a = announcements(emptyProgress(), passed(['a1-u01-l01']), L, now)
+    const a = announcements(emptyProgress(), passed(['a1-u01-l01']), L, 'bn', now)
     expect(a.map((c) => c.title)).toEqual(['লেসন পাস!', 'নতুন ব্যাজ: প্রথম পদক্ষেপ'])
   })
 
   it('does not repeat for a lesson that was already passed', () => {
-    expect(announcements(passed(['a1-u01-l01']), passed(['a1-u01-l01']), L, now)).toEqual([])
+    expect(announcements(passed(['a1-u01-l01']), passed(['a1-u01-l01']), L, 'bn', now)).toEqual([])
   })
 
   it('fires once when today crosses the daily goal', () => {
     const before = { ...emptyProgress(), goal: 20, activity: { [key]: 15 } }
     const after = { ...before, activity: { [key]: 25 } }
-    expect(announcements(before, after, L, now).map((c) => c.title)).toEqual(['দৈনিক লক্ষ্য পূরণ!'])
-    expect(announcements(after, { ...after, activity: { [key]: 40 } }, L, now)).toEqual([])
+    expect(announcements(before, after, L, 'bn', now).map((c) => c.title)).toEqual(['দৈনিক লক্ষ্য পূরণ!'])
+    expect(announcements(after, { ...after, activity: { [key]: 40 } }, L, 'bn', now)).toEqual([])
   })
 
   it('fires on a streak milestone', () => {
     const before = { ...emptyProgress(), activity: { '2026-03-07': 5, '2026-03-08': 5 } }
     const after = { ...before, activity: { ...before.activity, [key]: 5 } }
-    const titles = announcements(before, after, L, now).map((c) => c.title)
+    const titles = announcements(before, after, L, 'bn', now).map((c) => c.title)
     expect(titles).toContain('৩ দিনের স্ট্রিক!')
   })
 })

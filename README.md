@@ -14,6 +14,15 @@ Review works like this: missed quiz words are due immediately; passing a lesson 
 Rating a card Again / Hard / Good / Easy sets the next interval (1 min, 10 min, 1 day, 4 days for new cards, growing for known ones).
 The design has a study-group leaderboard; it needs a social backend and is not built yet.
 
+## Languages
+
+Two separate settings in Profile: **App language** (বাংলা / English) changes the menus, buttons, feedback, exams, badges and messages;
+**Lesson translations** (বাংলা / English / both) chooses which meanings show next to German words. German is the language being taught, not an interface language.
+
+Interface text lives in `src/i18n/bn.ts` (defines the keys) and `src/i18n/en.ts` (must have the same keys, so a missing translation is a compile error).
+Use `const { t, n } = useT()` in components: `t('home.goalLeft', { n: 20 })` fills `{n}` and formats numbers for the language (Bangla digits in Bangla, 0-9 in English).
+Lesson and exam *content* (grammar cards, quiz prompts, exam instructions) is still Bangla only and is not part of the interface dictionaries.
+
 ## Run
 
 ```bash

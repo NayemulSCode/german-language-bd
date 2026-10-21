@@ -1,12 +1,13 @@
 import { useEffect, useMemo, useState } from 'react'
 import { loadDictionary, spoken, type DictEntry } from '../lib/content'
-import { bn } from '../lib/format'
+import { useT } from '../i18n/useT'
 import { Icon } from '../components/Icon'
 import { Say, Tr } from '../components/common'
 
 const LIMIT = 150
 
 export function DictionaryScreen() {
+  const { t } = useT()
   const [all, setAll] = useState<DictEntry[] | null>(null)
   const [q, setQ] = useState('')
 
@@ -26,15 +27,15 @@ export function DictionaryScreen() {
 
   return (
     <>
-      <div className="eyebrow bn">ডিকশনারি</div>
-      <h1 style={{ fontSize: 30, marginTop: 4 }}>জার্মান ⇄ বাংলা ⇄ English</h1>
+      <div className="eyebrow bn">{t('tab.dict')}</div>
+      <h1 style={{ fontSize: 30, marginTop: 4 }}>{t('dict.title')}</h1>
       <label className="search">
         <Icon name="search" />
-        <input type="search" placeholder="শব্দ লিখুন: Stadt, শহর, city…" value={q} onChange={(e) => setQ(e.target.value)} autoComplete="off" aria-label="শব্দ খুঁজুন" />
+        <input type="search" placeholder={t('dict.placeholder')} value={q} onChange={(e) => setQ(e.target.value)} autoComplete="off" aria-label={t('dict.search')} />
       </label>
-      {!all ? <div className="loading bn">লোড হচ্ছে…</div> : (
+      {!all ? <div className="loading bn">{t('common.loading')}</div> : (
         <>
-          <div className="muted bn" style={{ fontSize: 13, marginTop: 8 }}>{q ? `${list.length}টি ফল` : `মোট ${all.length}টি শব্দ`}</div>
+          <div className="muted bn" style={{ fontSize: 13, marginTop: 8 }}>{q ? t('dict.results', { n: list.length }) : t('dict.total', { n: all.length })}</div>
           <div className="entries">
             {list.length ? list.slice(0, LIMIT).map((e) => (
               <div className="entry" key={e.k}>
@@ -45,8 +46,8 @@ export function DictionaryScreen() {
                 </div>
                 <span className="tag">{e.lv}</span>
               </div>
-            )) : <div className="card muted bn">„{q}“ পাওয়া যায়নি। নতুন লেসনের সাথে আরও শব্দ যোগ হবে।</div>}
-            {list.length > LIMIT && <div className="muted bn" style={{ textAlign: 'center', fontSize: 14 }}>প্রথম {bn(LIMIT)}টি দেখানো হয়েছে — খুঁজে নিতে আরও লিখুন।</div>}
+            )) : <div className="card muted bn">{t('dict.none', { q })}</div>}
+            {list.length > LIMIT && <div className="muted bn" style={{ textAlign: 'center', fontSize: 14 }}>{t('dict.limit', { n: LIMIT })}</div>}
           </div>
         </>
       )}

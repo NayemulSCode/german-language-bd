@@ -3,7 +3,7 @@ import { useApp } from '../state'
 import { LESSONS, loadDictionary, spoken, type DictEntry } from '../lib/content'
 import { greeting, lessonStates } from '../lib/course'
 import { UNIT_TITLES } from '../lib/plan'
-import { bn } from '../lib/format'
+import { useT } from '../i18n/useT'
 import { dayKey, daysUntil, streak } from '../lib/stats'
 import { Icon } from '../components/Icon'
 import { Say, Tr } from '../components/common'
@@ -12,13 +12,14 @@ import { isNewLearner } from '../lib/welcome'
 
 export function HomeScreen() {
   const { progress, lessonProgress } = useApp()
+  const { t, n, ui, locale } = useT()
   const now = Date.now()
   const xp = progress.activity[dayKey(now)] ?? 0
   const pct = Math.min(1, xp / progress.goal)
   const C = 2 * Math.PI * 36
   const name = progress.name || 'Lerner'
   const days = streak(progress.activity, now)
-  const weekday = new Date(now).toLocaleDateString('bn-BD', { weekday: 'long' })
+  const weekday = new Date(now).toLocaleDateString(locale, { weekday: 'long' })
   const dueCount = useMemo(() => Object.values(progress.srs).filter((c) => c.due <= now).length, [progress.srs, now])
 
   const states = lessonStates(LESSONS, (id) => lessonProgress(id).passed, { startUnit: progress.startUnit, startUnitA2: progress.startUnitA2, startUnitB1: progress.startUnitB1, unlockAll: progress.unlockAll })
@@ -33,18 +34,18 @@ export function HomeScreen() {
     <div className="stack">
       <div className="hello">
         <div>
-          <div className="eyebrow bn">{weekday}{days > 0 ? ` · স্ট্রিক ${bn(days)}` : ''}</div>
+          <div className="eyebrow bn">{weekday}{days > 0 ? ` · ${t('home.streak', { n: days })}` : ''}</div>
           <h1>{greeting(new Date(now).getHours())}, {name}!</h1>
           <p className="muted bn" style={{ margin: '4px 0 0' }}>
-            {xp >= progress.goal ? 'আজকের লক্ষ্য পূরণ — দারুণ!' : `আজ আর ${bn(progress.goal - xp)} XP হলে দৈনিক লক্ষ্য পূরণ।`}
+            {xp >= progress.goal ? t('home.goalDone') : t('home.goalLeft', { n: progress.goal - xp })}
           </p>
         </div>
-        <div className="ring" role="img" aria-label={`দৈনিক লক্ষ্য ${xp} / ${progress.goal} XP`}>
+        <div className="ring" role="img" aria-label={t('home.goalAria', { a: xp, b: progress.goal })}>
           <svg viewBox="0 0 84 84">
             <circle cx="42" cy="42" r="36" fill="none" stroke="var(--line)" strokeWidth="8" />
             <circle cx="42" cy="42" r="36" fill="none" stroke="var(--accent)" strokeWidth="8" strokeLinecap="round" strokeDasharray={`${C * pct} ${C}`} />
           </svg>
-          <b className="num">{bn(xp)}<small>/ {bn(progress.goal)} XP</small></b>
+          <b className="num">{n(xp)}<small>/ {n(progress.goal)} XP</small></b>
         </div>
       </div>
 
@@ -52,51 +53,51 @@ export function HomeScreen() {
         <a className="card welcome-card" href="#welcome">
           <span className="welcome-emoji" aria-hidden="true">👋</span>
           <div className="grow">
-            <div className="eyebrow bn">নতুন? এখানে শুরু করুন</div>
-            <div className="bn" style={{ fontWeight: 700, fontSize: 18, marginTop: 2 }}>৬০ সেকেন্ডে প্রথম জার্মান শিখুন</div>
-            <div className="bn muted" style={{ fontSize: 14 }}>৪টি শব্দ শুনুন, ৩টি প্রশ্নের উত্তর দিন — আজই স্ট্রিক শুরু।</div>
+            <div className="eyebrow bn">{t('welcome.card.eyebrow')}</div>
+            <div className="bn" style={{ fontWeight: 700, fontSize: 18, marginTop: 2 }}>{t('welcome.card.title')}</div>
+            <div className="bn muted" style={{ fontSize: 14 }}>{t('welcome.card.sub')}</div>
           </div>
-          <span className="btn sm bn">শুরু</span>
+          <span className="btn sm bn">{t('welcome.card.go')}</span>
         </a>
       )}
 
       {next ? (
         <div className="card continue">
-          <div className="eyebrow bn">চালিয়ে যান · {next.level} · ইউনিট {bn(next.unit)} · লেসন {bn(next.lesson)}</div>
+          <div className="eyebrow bn">{t('home.continue', { lv: next.level, u: next.unit, l: next.lesson })}</div>
           <h2>{next.title.de}</h2>
-          <div className="bn" style={{ opacity: 0.85 }}>{next.title.bn} · {bn(next.minutes)} মিনিট</div>
+          <div className="bn" style={{ opacity: 0.85 }}>{next.title[ui]} · {t('common.minutes', { n: next.minutes })}</div>
           <div className="bar"><i style={{ width: `${(unitPassed / unitLessons.length) * 100}%` }} /></div>
-          <div className="bn" style={{ fontSize: 13, opacity: 0.75, marginTop: 6 }}>ইউনিট {bn(next.unit)}: {bn(unitLessons.length)}টির মধ্যে {bn(unitPassed)}টি লেসন শেষ</div>
-          <button className="btn bn" onClick={() => go(`#lesson/${next.id}`)}><Icon name="play" /> শুরু করুন</button>
+          <div className="bn" style={{ fontSize: 13, opacity: 0.75, marginTop: 6 }}>{t('home.unitProgress', { u: next.unit, a: unitPassed, b: unitLessons.length })}</div>
+          <button className="btn bn" onClick={() => go(`#lesson/${next.id}`)}><Icon name="play" /> {t('common.start')}</button>
         </div>
       ) : (
         <div className="card continue">
-          <div className="eyebrow bn">সব লেসন শেষ</div>
-          <h2>{LESSONS.some((l) => l.level !== 'A1') ? 'এখন পর্যন্ত সব শেষ!' : 'A1 সম্পূর্ণ!'}</h2>
-          <div className="bn" style={{ opacity: 0.85 }}>রিভিউ করে শব্দগুলো পাকা করুন। নতুন লেসন শীঘ্রই আসছে।</div>
-          <button className="btn bn" onClick={() => go('#review')}><Icon name="play" /> রিভিউ</button>
+          <div className="eyebrow bn">{t('home.allDone')}</div>
+          <h2>{LESSONS.some((l) => l.level !== 'A1') ? t('home.allSoFar') : t('home.a1Done')}</h2>
+          <div className="bn" style={{ opacity: 0.85 }}>{t('home.reviewSoon')}</div>
+          <button className="btn bn" onClick={() => go('#review')}><Icon name="play" /> {t('tab.review')}</button>
         </div>
       )}
 
       {!progress.placed && a1Passed === 0 && (
         <a className="card row" href="#placement" style={{ textDecoration: 'none' }}>
           <div className="grow">
-            <div className="eyebrow bn">নতুন? কিছু জানা আছে?</div>
-            <div className="bn" style={{ fontWeight: 700, marginTop: 4 }}>৫ মিনিটের প্লেসমেন্ট টেস্ট দিন</div>
-            <div className="muted bn" style={{ fontSize: 14 }}>আপনার জন্য সঠিক ইউনিট থেকে শুরু করুন — সব গোড়া থেকে করতে হবে না।</div>
+            <div className="eyebrow bn">{t('home.placeEyebrow')}</div>
+            <div className="bn" style={{ fontWeight: 700, marginTop: 4 }}>{t('home.placeTitle')}</div>
+            <div className="muted bn" style={{ fontSize: 14 }}>{t('home.placeSub')}</div>
           </div>
-          <span className="btn sm ghost bn">টেস্ট</span>
+          <span className="btn sm ghost bn">{t('home.test')}</span>
         </a>
       )}
 
       <div className="grid2">
         <a className="card row" href="#review" style={{ textDecoration: 'none' }}>
           <div className="grow">
-            <div className="eyebrow bn">আজকের রিভিউ</div>
-            <div className="big num" style={{ marginTop: 6 }}>{bn(dueCount)}</div>
-            <div className="muted bn" style={{ fontSize: 14 }}>{dueCount ? 'শব্দ আজ আবার দেখার সময়' : 'এখন কোনো শব্দ বাকি নেই'}</div>
+            <div className="eyebrow bn">{t('home.todayReview')}</div>
+            <div className="big num" style={{ marginTop: 6 }}>{n(dueCount)}</div>
+            <div className="muted bn" style={{ fontSize: 14 }}>{dueCount ? t('home.dueSome') : t('home.dueNone')}</div>
           </div>
-          <span className="btn sm ghost bn">রিভিউ</span>
+          <span className="btn sm ghost bn">{t('tab.review')}</span>
         </a>
         <ExamCard course={course} />
       </div>
@@ -104,7 +105,7 @@ export function HomeScreen() {
       <WordOfTheDay />
 
       {next && UNIT_TITLES[`${next.level}-${next.unit}`] && (
-        <p className="foot bn">এখন চলছে: {UNIT_TITLES[`${next.level}-${next.unit}`].bn}</p>
+        <p className="foot bn">{t('home.nowOn', { title: UNIT_TITLES[`${next.level}-${next.unit}`][ui] })}</p>
       )}
     </div>
   )
@@ -112,27 +113,28 @@ export function HomeScreen() {
 
 function ExamCard({ course }: { course: number }) {
   const { progress } = useApp()
+  const { t, n, locale } = useT()
   if (!progress.examDate) {
     return (
       <a className="card" href="#me" style={{ textDecoration: 'none' }}>
-        <div className="eyebrow bn">পরীক্ষার লক্ষ্য</div>
-        <div className="bn" style={{ marginTop: 6, fontWeight: 700 }}>পরীক্ষার তারিখ ঠিক করুন</div>
-        <div className="muted bn" style={{ fontSize: 14 }}>Goethe-Zertifikat A1 · প্রোফাইলে গিয়ে যোগ করুন</div>
+        <div className="eyebrow bn">{t('home.examGoal')}</div>
+        <div className="bn" style={{ marginTop: 6, fontWeight: 700 }}>{t('home.setExam')}</div>
+        <div className="muted bn" style={{ fontSize: 14 }}>{t('home.setExamSub')}</div>
         <div className="bar" style={{ marginTop: 12 }}><i style={{ width: `${course}%` }} /></div>
-        <div className="muted bn" style={{ fontSize: 13, marginTop: 4 }}>A1 কোর্সের {bn(course)}% শেষ</div>
+        <div className="muted bn" style={{ fontSize: 13, marginTop: 4 }}>{t('home.a1Pct', { n: course })}</div>
       </a>
     )
   }
-  const d = new Date(progress.examDate + 'T00:00:00').toLocaleDateString('bn-BD', { day: 'numeric', month: 'long', year: 'numeric' })
+  const d = new Date(progress.examDate + 'T00:00:00').toLocaleDateString(locale, { day: 'numeric', month: 'long', year: 'numeric' })
   return (
     <div className="card">
-      <div className="eyebrow bn">পরীক্ষার লক্ষ্য</div>
+      <div className="eyebrow bn">{t('home.examGoal')}</div>
       <div className="row" style={{ marginTop: 6 }}>
-        <div className="big num">{bn(daysUntil(progress.examDate))}</div>
-        <div className="bn muted" style={{ fontSize: 14, lineHeight: 1.3 }}>দিন বাকি<br />Goethe-Zertifikat A1 · {d}</div>
+        <div className="big num">{n(daysUntil(progress.examDate))}</div>
+        <div className="bn muted" style={{ fontSize: 14, lineHeight: 1.3 }}>{t('home.daysLeft')}<br />Goethe-Zertifikat A1 · {d}</div>
       </div>
       <div className="bar" style={{ marginTop: 12 }}><i style={{ width: `${course}%` }} /></div>
-      <div className="muted bn" style={{ fontSize: 13, marginTop: 4 }}>A1 কোর্সের {bn(course)}% শেষ</div>
+      <div className="muted bn" style={{ fontSize: 13, marginTop: 4 }}>{t('home.a1Pct', { n: course })}</div>
     </div>
   )
 }

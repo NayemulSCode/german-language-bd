@@ -1,5 +1,5 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
-import { computeXp, localStore, type Card, type Lang, type LessonProgress, type Progress, type Theme } from './lib/storage'
+import { computeXp, localStore, type Card, type Lang, type Ui, type LessonProgress, type Progress, type Theme } from './lib/storage'
 import { mergeProgress, progressKey, syncOnce } from './lib/sync'
 import { dayKey } from './lib/stats'
 import { DAY } from './lib/format'
@@ -8,6 +8,7 @@ import { speak } from './lib/audio'
 import { useAuth } from './auth'
 import { LESSONS } from './lib/content'
 import { announcements } from './lib/announce'
+import { makeT } from './i18n/core'
 import { celebrate } from './lib/celebrate'
 
 export type SyncStatus = 'off' | 'syncing' | 'synced' | 'error'
@@ -17,6 +18,7 @@ interface Ctx {
   syncStatus: SyncStatus
   syncNow(): void
   setLang(l: Lang): void
+  setUi(u: Ui): void
   setSlow(s: boolean): void
   setSettings(patch: Partial<Pick<Progress, 'theme' | 'goal' | 'name' | 'examDate' | 'startUnit' | 'unlockAll' | 'placed' | 'startUnitA2' | 'startUnitB1'>> & { theme?: Theme }): void
   rateCard(key: string, grade: Grade): void
@@ -62,10 +64,15 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     if (local.current) {
       local.current = false
-      for (const c of announcements(seen.current, progress, LESSONS)) celebrate(c)
+      for (const c of announcements(seen.current, progress, LESSONS, progress.ui)) celebrate(c)
     }
     seen.current = progress
   }, [progress])
+
+  // the page language follows the interface language (screen readers, hyphenation, fonts)
+  useEffect(() => {
+    document.documentElement.lang = progress.ui
+  }, [progress.ui])
 
   // the chosen theme overrides the system light/dark setting (CSS keys off data-app-theme)
   useEffect(() => {
@@ -130,6 +137,7 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
       syncStatus,
       syncNow: () => void runSync(),
       setLang: (lang) => update((p) => ({ ...p, lang })),
+      setUi: (ui) => update((p) => ({ ...p, ui })),
       setSlow: (slow) => update((p) => ({ ...p, slow })),
       setSettings: (patch) => update((p) => ({ ...p, ...patch })),
       rateCard: (key, grade) =>
@@ -137,7 +145,7 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
           const c = p.srs[key]
           return c ? { ...p, srs: { ...p.srs, [key]: nextCard(c, grade, Date.now()) } } : p
         }),
-      say: (text) => speak(text, { slow: progress.slow }),
+      say: (text) => speak(text, { slow: progress.slow, t: makeT(progress.ui) }),
       lessonProgress: (id) => progress.lessons[id] ?? blank,
       completeStep: (lessonId, step) =>
         update((p) => {

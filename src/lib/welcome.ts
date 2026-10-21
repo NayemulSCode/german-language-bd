@@ -35,14 +35,24 @@ export const PHRASES: Phrase[] = [
   { de: 'Auf Wiedersehen', bn: 'বিদায়', en: 'Goodbye' },
 ]
 
+export interface Bi {
+  bn: string
+  en: string
+}
+/** An answer option: German text is shown as it is, meanings follow the interface language. */
+export type Opt = string | Bi
+
 export interface WelcomeQ {
-  prompt: string // Bangla question
-  options: string[]
+  prompt: Bi
+  options: Opt[]
   answer: number
 }
 
 export const QUESTIONS: WelcomeQ[] = [
-  { prompt: '“ধন্যবাদ” জার্মান ভাষায় কী?', options: ['Hallo', 'Danke', 'Auf Wiedersehen'], answer: 1 },
-  { prompt: '“Guten Morgen” মানে কী?', options: ['সুপ্রভাত', 'বিদায়', 'ধন্যবাদ'], answer: 0 },
-  { prompt: 'কাউকে বিদায় জানাতে কী বলবেন?', options: ['Guten Morgen', 'Danke', 'Auf Wiedersehen'], answer: 2 },
+  { prompt: { bn: '“ধন্যবাদ” জার্মান ভাষায় কী?', en: 'How do you say “thank you” in German?' }, options: ['Hallo', 'Danke', 'Auf Wiedersehen'], answer: 1 },
+  { prompt: { bn: '“Guten Morgen” মানে কী?', en: 'What does “Guten Morgen” mean?' }, options: [{ bn: 'সুপ্রভাত', en: 'Good morning' }, { bn: 'বিদায়', en: 'Goodbye' }, { bn: 'ধন্যবাদ', en: 'Thank you' }], answer: 0 },
+  { prompt: { bn: 'কাউকে বিদায় জানাতে কী বলবেন?', en: 'What do you say to say goodbye?' }, options: ['Guten Morgen', 'Danke', 'Auf Wiedersehen'], answer: 2 },
 ]
+
+export const pick = (b: Bi, ui: 'bn' | 'en') => b[ui]
+export const optText = (o: Opt, ui: 'bn' | 'en') => (typeof o === 'string' ? o : o[ui])

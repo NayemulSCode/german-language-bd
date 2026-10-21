@@ -3,13 +3,15 @@ import type { SupabaseClient } from '@supabase/supabase-js'
 import { SUPABASE_ANON_KEY, SUPABASE_URL, supabaseRemote, syncConfigured } from './lib/remote'
 import type { RemoteStore } from './lib/sync'
 
+export type AuthError = 'notReady' | 'google' | 'link'
+
 interface AuthCtx {
   configured: boolean
   loading: boolean // true until we know whether someone is signed in
   email: string | null
   remote: RemoteStore | null // non-null exactly when signed in
-  signInGoogle(): Promise<string | null> // resolves with an error message, or null on success (the page then redirects)
-  signInEmail(email: string): Promise<string | null>
+  signInGoogle(): Promise<AuthError | null> // resolves with an error code (translated by the UI), or null on success (the page then redirects)
+  signInEmail(email: string): Promise<AuthError | null>
   signOut(): Promise<void>
 }
 
@@ -46,16 +48,16 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
   const signInGoogle = useCallback(async () => {
     const c = client.current
-    if (!c) return 'লগইন এখন চালু হয়নি। একটু পরে আবার চেষ্টা করুন।'
+    if (!c) return 'notReady'
     const { error } = await c.auth.signInWithOAuth({ provider: 'google', options: { redirectTo: redirectTo() } })
-    return error ? 'Google লগইন শুরু করা যায়নি। আবার চেষ্টা করুন।' : null
+    return error ? 'google' : null
   }, [])
 
   const signInEmail = useCallback(async (email: string) => {
     const c = client.current
-    if (!c) return 'লগইন এখন চালু হয়নি। একটু পরে আবার চেষ্টা করুন।'
+    if (!c) return 'notReady'
     const { error } = await c.auth.signInWithOtp({ email, options: { emailRedirectTo: redirectTo() } })
-    return error ? 'লিংক পাঠানো যায়নি। ইমেইল ঠিক আছে কি না দেখে আবার চেষ্টা করুন।' : null
+    return error ? 'link' : null
   }, [])
 
   const signOut = useCallback(async () => {
