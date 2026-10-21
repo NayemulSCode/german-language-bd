@@ -7,10 +7,10 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['icon.svg'],
+      includeAssets: ['icon.svg', 'logo.svg', 'favicon-32.png', 'apple-touch-icon.png'],
       workbox: {
         // lesson JSON chunks and (later) audio are cached so lessons work offline
-        globPatterns: ['**/*.{js,css,html,svg,json}'],
+        globPatterns: ['**/*.{js,css,html,svg,json,png}'],
         runtimeCaching: [
           {
             urlPattern: ({ url }) => url.pathname.startsWith('/audio/'),
@@ -28,7 +28,12 @@ export default defineConfig({
         display: 'standalone',
         background_color: '#F3F5F9',
         theme_color: '#17203A',
-        icons: [{ src: 'icon.svg', sizes: 'any', type: 'image/svg+xml', purpose: 'any' }],
+        icons: [
+          { src: 'icon-192.png', sizes: '192x192', type: 'image/png', purpose: 'any' },
+          { src: 'icon-512.png', sizes: '512x512', type: 'image/png', purpose: 'any' },
+          { src: 'icon-maskable-512.png', sizes: '512x512', type: 'image/png', purpose: 'maskable' },
+          { src: 'icon.svg', sizes: 'any', type: 'image/svg+xml', purpose: 'any' },
+        ],
       },
     }),
   ],
