@@ -320,5 +320,6 @@ export const EN: Record<keyof typeof BN, string> = {
   "me.namePh": "e.g. Saheb",
   "me.examDate": "Exam date",
   "me.foot": "All progress is saved on this device. If you log in (when it's set up), it syncs across all your devices.",
+  "grammar.english": "English",
 // __END__
 }

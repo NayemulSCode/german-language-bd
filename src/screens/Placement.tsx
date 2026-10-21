@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useApp } from '../state'
-import { loadAllLessons } from '../lib/content'
+import { loadAllLessons, localizeFor } from '../lib/content'
 import { pickQuestions, placementResult, type PlacementItem } from '../lib/placement'
 import { UNIT_TITLES } from '../lib/plan'
 import { useT } from '../i18n/useT'
@@ -20,8 +20,8 @@ export function PlacementScreen({ level = 'A1' }: { level?: 'A1' | 'A2' | 'B1' }
   const [correct, setCorrect] = useState<boolean[]>([])
 
   useEffect(() => {
-    loadAllLessons().then((ls) => setItems(pickQuestions(ls, level)))
-  }, [level])
+    loadAllLessons().then((ls) => Promise.all(ls.map((l) => localizeFor(l, ui)))).then((ls) => setItems(pickQuestions(ls, level)))
+  }, [level, ui])
 
   const header = (
     <header className="lbar">

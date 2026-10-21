@@ -318,5 +318,6 @@ export const BN = {
   "me.namePh": "যেমন: Saheb",
   "me.examDate": "পরীক্ষার তারিখ",
   "me.foot": "সব অগ্রগতি এই ডিভাইসে সেভ হয়। লগইন করলে (সেটআপ থাকলে) সব ডিভাইসে মিলে যায়।",
+  "grammar.english": "ইংরেজি",
 // __END__
 } as const
