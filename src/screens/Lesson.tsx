@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import type { Lesson } from '../schema/lesson'
-import { loadLesson } from '../lib/content'
+import { loadLesson, localizeFor } from '../lib/content'
 import { LessonPlayer } from '../components/LessonPlayer'
 import { useT } from '../i18n/useT'
 
@@ -8,15 +8,15 @@ import { useT } from '../i18n/useT'
 export function LessonScreen({ id }: { id: string }) {
   const [lesson, setLesson] = useState<Lesson | null>(null)
   const [error, setError] = useState(false)
-  const { t } = useT()
+  const { t, ui } = useT()
 
   useEffect(() => {
     let live = true
     setLesson(null)
     setError(false)
-    loadLesson(id).then((l) => live && setLesson(l), () => live && setError(true))
+    loadLesson(id).then((l) => localizeFor(l, ui)).then((l) => live && setLesson(l), () => live && setError(true))
     return () => { live = false }
-  }, [id])
+  }, [id, ui])
 
   if (error) {
     return (

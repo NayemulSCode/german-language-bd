@@ -1,5 +1,7 @@
 import type { Lesson } from '../schema/lesson'
 import index from '../generated/lessons-index.json'
+import { localizeLesson, type Glossary, type Overlay } from './localize'
+import type { Ui } from './storage'
 
 export type LessonMeta = (typeof index)[number]
 
@@ -38,3 +40,18 @@ export const loadDictionary = (): Promise<DictEntry[]> => (dict ??= import('../g
 
 /** The spoken form of an entry, article first. */
 export const spoken = (e: Pick<DictEntry, 'de' | 'art'>) => (e.art ? `${e.art} ${e.de}` : e.de)
+
+const overlays = import.meta.glob<Overlay>('../../content-en/**/*.json', { import: 'default' })
+let glossary: Promise<Glossary> | null = null
+const loadGlossary = (): Promise<Glossary> => (glossary ??= (overlays['../../content-en/common.json']?.() ?? Promise.resolve({})).catch(() => ({})))
+
+/** The lesson's English teaching text (grammar, quiz, goals…) when the interface is English. Without an English version it stays Bangla. */
+export async function localizeFor(lesson: Lesson, ui: Ui): Promise<Lesson> {
+  if (ui !== 'en') return lesson
+  const m = /^([a-c][12])-u(\d{2})-l(\d{2})$/.exec(lesson.id)
+  const load = m && overlays[`../../content-en/${m[1]}/unit${m[2]}/lesson${m[3]}.json`]
+  // a lesson is either translated (it has an overlay) or left entirely in Bangla, never half and half
+  const o = load ? await load().catch(() => null) : null
+  if (!o) return lesson
+  return localizeLesson(lesson, o, await loadGlossary())
+}

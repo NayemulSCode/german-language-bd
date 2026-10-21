@@ -2,6 +2,7 @@ import { mkdirSync, readdirSync, readFileSync, statSync, writeFileSync } from 'n
 import { join } from 'node:path'
 import { Lesson, type Question } from '../src/schema/lesson.ts'
 import { Exam } from '../src/schema/exam.ts'
+import { coverage, hasBangla, localizeLesson, translatable, type Glossary, type Overlay } from '../src/lib/localize.ts'
 
 /** Validates every lesson JSON in /content: schema first, then cross-reference checks the schema can't express. */
 
@@ -39,6 +40,31 @@ export function checkExam(raw: unknown): string[] {
   return parsed.data.parts.flatMap((p, pi) => checkQuestions(p.questions, `parts[${pi}].questions`))
 }
 
+/** English overlay for one lesson: every key must point at real Bangla text of that lesson, values must be non-empty English, and the result must still be a valid lesson (e.g. no duplicate options). */
+export function checkOverlay(lesson: Lesson, overlay: unknown, glossary: Glossary): string[] {
+  if (!overlay || typeof overlay !== 'object' || Array.isArray(overlay)) return ['overlay must be an object of "path": "English text"']
+  const errs: string[] = []
+  const valid = new Set([...translatable(lesson)].map(([path]) => path))
+  for (const [path, v] of Object.entries(overlay)) {
+    if (!valid.has(path)) errs.push(`"${path}": not a Bangla text in this lesson`)
+    else if (typeof v !== 'string' || !v.trim()) errs.push(`"${path}": must be a non-empty string`)
+    else if (hasBangla(v)) errs.push(`"${path}": English text must not contain Bangla ("${v.slice(0, 40)}")`)
+  }
+  if (errs.length) return errs
+  return checkLesson(localizeLesson(lesson, overlay as Overlay, glossary)).map((e) => `after applying English: ${e}`)
+}
+
+export function checkGlossary(g: unknown): string[] {
+  if (!g || typeof g !== 'object' || Array.isArray(g)) return ['common.json must be an object of "Bangla phrase": "English text"']
+  const errs: string[] = []
+  for (const [k, v] of Object.entries(g)) {
+    if (!hasBangla(k)) errs.push(`"${k}": key must be Bangla text`)
+    if (typeof v !== 'string' || !v.trim()) errs.push(`"${k}": must be a non-empty string`)
+    else if (hasBangla(v)) errs.push(`"${k}": English text must not contain Bangla`)
+  }
+  return errs
+}
+
 export function checkLesson(raw: unknown): string[] {
   const parsed = Lesson.safeParse(raw)
   if (!parsed.success) return parsed.error.issues.map((i) => `${i.path.join('.')}: ${i.message}`)
@@ -68,6 +94,7 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   const index: unknown[] = []
   const dictionary: unknown[] = []
   const seen = new Set<string>()
+  const lessons = new Map<string, Lesson>()
   for (const file of jsonFiles(ROOT)) {
     count++
     const raw = JSON.parse(readFileSync(file, 'utf8'))
@@ -77,6 +104,7 @@ if (import.meta.url === `file://${process.argv[1]}`) {
     if (lid) seen.add(lid)
     if (!errs.length) {
       const l = Lesson.parse(raw)
+      lessons.set(l.id, l)
       index.push({ id: l.id, level: l.level, unit: l.unit, lesson: l.lesson, title: l.title, status: l.status, minutes: l.minutes, words: l.words.length })
       // every word with its review key, for the Dictionary and Review screens (loaded on demand)
       for (const w of l.words) dictionary.push({ k: `${l.id}:${w.id}`, de: w.de, art: w.art, pl: w.pl, pos: w.pos, bn: w.bn, en: w.en, lv: l.level })
@@ -89,6 +117,37 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   }
   if (failed) {
     console.error(`\n${failed} of ${count} lesson file(s) invalid`)
+    process.exit(1)
+  }
+  // English versions of the Bangla teaching text live in /content-en (see src/lib/localize.ts)
+  const EN = new URL('../content-en/', import.meta.url).pathname
+  let enFailed = 0
+  let glossary: Glossary = {}
+  try {
+    glossary = JSON.parse(readFileSync(join(EN, 'common.json'), 'utf8'))
+    const errs = checkGlossary(glossary)
+    if (errs.length) { enFailed++; console.error('✗ content-en/common.json'); for (const e of errs) console.error(`    ${e}`) }
+  } catch { /* no glossary yet */ }
+  const done: Record<string, [number, number]> = {}
+  for (const l of lessons.values()) {
+    const m = /^([a-c][12])-u(\d{2})-l(\d{2})$/.exec(l.id)!
+    const file = join(EN, m[1], `unit${m[2]}`, `lesson${m[3]}.json`)
+    let overlay: unknown = null
+    try { overlay = JSON.parse(readFileSync(file, 'utf8')) } catch (e) {
+      if ((e as NodeJS.ErrnoException).code !== 'ENOENT') { enFailed++; console.error(`✗ ${file.replace(EN, 'content-en/')}: ${(e as Error).message}`); continue }
+    }
+    if (overlay) {
+      const errs = checkOverlay(l, overlay, glossary)
+      if (errs.length) { enFailed++; console.error(`✗ ${file.replace(EN, 'content-en/')}`); for (const e of errs) console.error(`    ${e}`) }
+    }
+    // only lessons with their own overlay count as translated (the app leaves the others in Bangla)
+    const c = overlay ? coverage(l, overlay as Overlay, glossary) : { done: 0, total: [...translatable(l)].length }
+    const d = (done[l.level] ??= [0, 0])
+    d[0] += c.done
+    d[1] += c.total
+  }
+  if (enFailed) {
+    console.error(`\n${enFailed} English file(s) invalid`)
     process.exit(1)
   }
   // mock exams live in /exams (outside /content so they are not treated as lessons)
@@ -116,4 +175,5 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   writeFileSync(join(out, 'dictionary.json'), JSON.stringify(dictionary) + '\n')
   writeFileSync(join(out, 'exams-index.json'), JSON.stringify(examIndex, null, 2) + '\n')
   console.log(`✓ ${count} lesson file(s) and ${examIndex.length} exam(s) valid`)
+  console.log('English teaching text: ' + Object.entries(done).map(([lv, [a, b]]) => `${lv} ${b ? Math.round((a / b) * 100) : 0}% (${a}/${b})`).join(' · '))
 }

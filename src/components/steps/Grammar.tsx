@@ -1,9 +1,12 @@
 import type { Lesson } from '../../schema/lesson'
 import { NextButton } from '../common'
 import { useT } from '../../i18n/useT'
+import { hasBangla } from '../../lib/localize'
 
 export function Grammar({ lesson, onNext }: { lesson: Lesson; onNext(): void }) {
   const { t } = useT()
+  /** the column says which language its text is in: Bangla, or English once the lesson has been translated */
+  const langLabel = (sample: string | undefined) => (sample && !hasBangla(sample) ? t('grammar.english') : t('grammar.bangla'))
   return (
     <section>
       <div className="eyebrow bn">{t('grammar.step')}</div>
@@ -41,7 +44,7 @@ export function Grammar({ lesson, onNext }: { lesson: Lesson; onNext(): void }) 
                     <tr>
                       <th>{t('grammar.subject')}</th>
                       {g.verbs.map((v) => <th key={v} lang="de">{v}</th>)}
-                      <th>{t('grammar.bangla')}</th>
+                      <th>{langLabel(g.rows[0]?.bn)}</th>
                     </tr>
                   </thead>
                   <tbody lang="de">
@@ -69,7 +72,7 @@ export function Grammar({ lesson, onNext }: { lesson: Lesson; onNext(): void }) 
                 {g.de.map((s, k) => <span key={k} className={`slot${s.v ? ' v' : ''}`}>{s.t}</span>)}
               </div>
               <div className="slots bn">
-                <small>{t('grammar.bangla')}</small>
+                <small>{langLabel(g.bn[0]?.t)}</small>
                 {g.bn.map((s, k) => <span key={k} className={`slot${s.v ? ' v' : ''}`}>{s.t}</span>)}
               </div>
             </div>
