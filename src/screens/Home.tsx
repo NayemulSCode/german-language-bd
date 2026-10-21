@@ -9,6 +9,7 @@ import { Icon } from '../components/Icon'
 import { Say, Tr } from '../components/common'
 import { go } from '../router'
 import { isNewLearner } from '../lib/welcome'
+import { LoginNudge } from '../components/Account'
 
 export function HomeScreen() {
   const { progress, lessonProgress } = useApp()
@@ -48,6 +49,8 @@ export function HomeScreen() {
           <b className="num">{n(xp)}<small>/ {n(progress.goal)} XP</small></b>
         </div>
       </div>
+
+      {!isNewLearner(progress) && <LoginNudge />}
 
       {isNewLearner(progress) && (
         <a className="card welcome-card" href="#welcome">

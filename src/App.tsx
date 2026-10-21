@@ -3,6 +3,7 @@ import { Celebration } from './components/Celebration'
 import { WelcomeScreen } from './screens/Welcome'
 import { isNewLearner, welcomeSkipped } from './lib/welcome'
 import { useApp } from './state'
+import { LoginChip } from './components/Account'
 import { go, useRoute, type RouteName } from './router'
 import { Icon, Logo, type IconName } from './components/Icon'
 import { Toast } from './components/common'
@@ -43,6 +44,7 @@ export function App() {
     <>
       <header className="top">
         <div className="brand"><Logo />Sprachbrücke</div>
+        <LoginChip />
         <span className="pill num" title={t('app.streakTitle')}>
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2c1 4 5 6 5 11a5 5 0 0 1-10 0c0-2 1-3 2-4 0 2 1 3 2 3 0-4-1-6 1-10z" fill="var(--accent)" /></svg>
           <span className="bn">{t('app.days', { n: days })}</span>
@@ -56,6 +58,7 @@ export function App() {
             <Icon name={k as IconName} /><span className="bn">{t(label)}</span>
           </a>
         ))}
+        <LoginChip className="side-login" />
       </nav>
 
       <main>
