@@ -92,5 +92,8 @@
   "কান": "ear",
   "দাঁত": "tooth",
   "পিঠ": "back",
-  "পায়ের পাতা": "foot"
+  "পায়ের পাতা": "foot",
+  "সঠিক বাক্য কোনটি?": "Which sentence is correct?",
+  "বিশেষ্য, বহুবচন": "noun, plural",
+  "অব্যয় + Dativ": "preposition + Dativ"
 }

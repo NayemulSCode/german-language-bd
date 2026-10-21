@@ -68,12 +68,15 @@ describe('the English files in content-en', () => {
     expect(checkGlossary(glossary)).toEqual([])
   })
 
-  it('every lesson overlay is valid and complete for A1', () => {
+  it.each([
+    ['a1', 40],
+    ['a2', 48],
+  ])('every lesson overlay is valid and complete for %s', (level, count) => {
     let files = 0
-    for (const unit of readdirSync(new URL('content/a1/', root)).sort()) {
-      for (const f of readdirSync(new URL(`content/a1/${unit}/`, root)).sort()) {
-        const lesson: Lesson = JSON.parse(readFileSync(new URL(`content/a1/${unit}/${f}`, root), 'utf8'))
-        const en = new URL(`content-en/a1/${unit}/${f}`, root)
+    for (const unit of readdirSync(new URL(`content/${level}/`, root)).sort()) {
+      for (const f of readdirSync(new URL(`content/${level}/${unit}/`, root)).sort()) {
+        const lesson: Lesson = JSON.parse(readFileSync(new URL(`content/${level}/${unit}/${f}`, root), 'utf8'))
+        const en = new URL(`content-en/${level}/${unit}/${f}`, root)
         expect(existsSync(en), `${lesson.id} has no English file`).toBe(true)
         const overlay = JSON.parse(readFileSync(en, 'utf8'))
         expect(checkOverlay(lesson, overlay, glossary), lesson.id).toEqual([])
@@ -82,6 +85,6 @@ describe('the English files in content-en', () => {
         files++
       }
     }
-    expect(files).toBe(40)
+    expect(files).toBe(count)
   })
 })
