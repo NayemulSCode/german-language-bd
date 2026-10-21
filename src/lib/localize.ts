@@ -1,4 +1,5 @@
 import type { Lesson } from '../schema/lesson'
+import type { Exam } from '../schema/exam'
 
 /**
  * English for lessons whose teaching text is written in Bangla.
@@ -64,6 +65,33 @@ export function coverage(lesson: Lesson, overlay: Overlay | null | undefined, gl
   for (const [path, text] of translatable(lesson)) {
     total++
     if (overlay?.[path] !== undefined || glossary[text] !== undefined) done++
+  }
+  return { done, total }
+}
+
+/**
+ * Mock exams are localized the same way (`content-en/exams/<id>.json`, path → English), all or nothing per exam.
+ * The exam title already carries its own `en`, so only the instructions, tasks, checklists and the Bangla `why` notes need an overlay.
+ */
+export function* translatableExam(exam: Exam): Generator<[string, string]> {
+  for (const [path, text] of walk(exam, '')) if (path !== 'title.bn') yield [path, text]
+}
+
+/** A copy of the exam with English wherever the overlay has it. */
+export function localizeExam(exam: Exam, overlay: Overlay | null | undefined): Exam {
+  if (!overlay) return exam
+  const out = structuredClone(exam)
+  for (const [path] of translatableExam(exam)) if (overlay[path] !== undefined) setAt(out, path, overlay[path])
+  return out
+}
+
+/** How much of an exam's Bangla text has an English version. */
+export function examCoverage(exam: Exam, overlay: Overlay | null | undefined): { done: number; total: number } {
+  let done = 0
+  let total = 0
+  for (const [path] of translatableExam(exam)) {
+    total++
+    if (overlay?.[path] !== undefined) done++
   }
   return { done, total }
 }

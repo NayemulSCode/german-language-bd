@@ -1,0 +1,22 @@
+{
+ "parts.0.title": "Hören — Listening",
+ "parts.0.instructions": "Listen to each item and choose the right answer. In the real exam each item is played once or twice; here you can listen as often as you like, but try to listen at most twice.",
+ "parts.1.title": "Lesen — Reading",
+ "parts.1.instructions": "Read each text and choose the right answer. Richtig = correct, Falsch = wrong.",
+ "writing.0.taskBn": "You are writing to Frau Wagner, your German course teacher: you cannot come to the course tomorrow because you are ill. Ask how you can catch up on the lesson. Write about 30–40 words (write on paper).",
+ "writing.1.taskBn": "Your friend Julia has written that she is coming to your city. Write to her: say you are happy; where to meet; a place (e.g. a restaurant) you could go to; which day you have time. Write about 40–50 words.",
+ "speaking.0.instructions": "Say 2–3 sentences about the topic on each card (about 30 seconds). Then compare with the model.",
+ "speaking.0.prompts.0.bn": "Where and in what kind of home do you live?",
+ "speaking.0.prompts.1.bn": "What is your job, or what are you studying?",
+ "speaking.0.prompts.2.bn": "What do you do in your free time?",
+ "speaking.0.prompts.3.bn": "Why and how are you learning German?",
+ "speaking.1.instructions": "You and your friend are planning a small event. Make suggestions about time, place and who does what, ask questions and agree.",
+ "speaking.1.prompts.0.bn": "Barbecue in the park — when, where, who brings what?",
+ "speaking.1.prompts.1.bn": "Weekend trip — where, how?",
+ "speaking.1.prompts.2.bn": "Gift for a colleague — what, how much?",
+ "speaking.2.instructions": "Make a polite request or suggestion; when you hear a request, respond (Ja, gern! / Tut mir leid, aber …).",
+ "speaking.2.prompts.0.bn": "Ask to postpone a doctor's appointment",
+ "speaking.2.prompts.1.bn": "Ask a friend to help you move",
+ "speaking.2.prompts.2.bn": "Politely decline an invitation",
+ "speaking.2.prompts.3.bn": "Ask when you haven't understood something"
+}

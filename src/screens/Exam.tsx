@@ -26,8 +26,8 @@ export function ExamScreen({ id }: { id: string }) {
   const [attempt, setAttempt] = useState(0)
 
   useEffect(() => {
-    loadExam(id).then(setExam, () => setError(true))
-  }, [id])
+    loadExam(id, ui).then(setExam, () => setError(true))
+  }, [id, ui])
 
   const score = useMemo(() => (exam && phase.k === 'result' ? scoreExam(exam, answers) : null), [exam, phase.k, answers])
   useEffect(() => {

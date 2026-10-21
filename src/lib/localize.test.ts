@@ -1,7 +1,8 @@
 import { existsSync, readFileSync, readdirSync } from 'node:fs'
 import { describe, expect, it } from 'vitest'
 import type { Lesson } from '../schema/lesson'
-import { coverage, localizeLesson, translatable } from './localize'
+import { Exam } from '../schema/exam'
+import { coverage, examCoverage, localizeExam, localizeLesson, translatable, translatableExam } from './localize'
 import { checkOverlay, checkGlossary } from '../../scripts/validate-content'
 
 const lesson = (): Lesson => JSON.parse(readFileSync(new URL('../../content/a1/unit01/lesson01.json', import.meta.url), 'utf8'))
@@ -87,5 +88,20 @@ describe('the English files in content-en', () => {
       }
     }
     expect(files).toBe(count)
+  })
+
+  it('every mock exam has a complete English overlay', () => {
+    const ids = readdirSync(new URL('exams/', root)).filter((f) => f.endsWith('.json')).sort()
+    expect(ids.length).toBe(6)
+    for (const f of ids) {
+      const exam = Exam.parse(JSON.parse(readFileSync(new URL(`exams/${f}`, root), 'utf8')))
+      const en = new URL(`content-en/exams/${f}`, root)
+      expect(existsSync(en), `${exam.id} has no English file`).toBe(true)
+      const overlay = JSON.parse(readFileSync(en, 'utf8'))
+      const { done, total } = examCoverage(exam, overlay)
+      expect(done, `${exam.id} English coverage`).toBe(total)
+      const local = localizeExam(exam, overlay)
+      expect([...translatableExam(local)].map(([p]) => p), exam.id).toEqual([])
+    }
   })
 })

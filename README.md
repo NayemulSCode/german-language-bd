@@ -33,7 +33,7 @@ content-en/a1/unit01/lesson01.json              "path.in.lesson": "English", for
 When the app language is English, a lesson that has its own file is shown in English (overlay first, then `common.json`); a lesson without one stays entirely in Bangla, never half and half.
 The word-order panels keep the Bangla sentence on purpose (the lesson compares it with German).
 `npm run validate` checks every file (paths must exist, text must be English, options must stay distinct) and prints the coverage per level; `npm test` fails if an A1 file is incomplete.
-**All 136 lessons (A1, A2 and B1) are fully translated. Only the mock exams are still Bangla only.** To add a lesson, create its file in `content-en/` with the paths printed as missing by `npm run validate`.
+**All 136 lessons (A1, A2 and B1) and the 6 mock exams are fully translated.** Exam English lives in `content-en/exams/<id>.json`. To add a lesson, create its file in `content-en/` with the paths printed as missing by `npm run validate`.
 
 ## Run
 

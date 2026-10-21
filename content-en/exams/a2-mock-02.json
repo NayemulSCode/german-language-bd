@@ -1,0 +1,22 @@
+{
+ "parts.0.title": "Hören — Listening",
+ "parts.0.instructions": "Listen to each item and choose the right answer. In the real exam each item is played once or twice; here you can listen as often as you like, but try to listen at most twice.",
+ "parts.1.title": "Lesen — Reading",
+ "parts.1.instructions": "Read each text and choose the right answer. Richtig = correct, Falsch = wrong.",
+ "writing.0.taskBn": "You are writing to your colleague Herr Koch: tomorrow you will come to the office late (you have to see a doctor). Ask whether someone can take notes for you in the morning meeting. Write about 30–40 words.",
+ "writing.1.taskBn": "Your friend Daniel's birthday is coming up. Write to him: send good wishes; say you can (or cannot) come to the party and give the reason; ask what gift you should bring. Write about 40–50 words.",
+ "speaking.0.instructions": "Say 2–3 sentences about the topic on each card (about 30 seconds). Then compare with the model.",
+ "speaking.0.prompts.0.bn": "Your family and friends",
+ "speaking.0.prompts.1.bn": "A typical day of yours",
+ "speaking.0.prompts.2.bn": "Your favourite food",
+ "speaking.0.prompts.3.bn": "A travel experience",
+ "speaking.1.instructions": "You and your friend are making a small plan. Make suggestions, ask questions, agree and decide.",
+ "speaking.1.prompts.0.bn": "Course party — when, what food, who brings what?",
+ "speaking.1.prompts.1.bn": "Cinema — which film, when, where to meet?",
+ "speaking.1.prompts.2.bn": "Weekend trip — where, how, what to take?",
+ "speaking.2.instructions": "Make a polite request or suggestion; when you hear a request, respond (Ja, gern! / Tut mir leid, aber …).",
+ "speaking.2.prompts.0.bn": "Ask for help in a shop when you can't find something",
+ "speaking.2.prompts.1.bn": "Make a doctor's appointment",
+ "speaking.2.prompts.2.bn": "Politely say no",
+ "speaking.2.prompts.3.bn": "Ask when you haven't understood"
+}

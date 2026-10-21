@@ -1,0 +1,22 @@
+{
+ "parts.0.title": "Hören — Listening",
+ "parts.0.instructions": "Listen to each item and choose the right answer. In the real exam each part is played once or twice; here you can listen as often as you like, but try to listen at most twice.",
+ "parts.1.title": "Lesen — Reading",
+ "parts.1.instructions": "Read each text and choose the right answer. Richtig = correct, Falsch = wrong. One text can have several questions.",
+ "writing.0.taskBn": "Your friend Markus has asked you to visit his new house at the weekend. You cannot come. Write: say thank you; the reason why you cannot come; suggest an alternative; ask him another question. Write about 80 words.",
+ "writing.1.taskBn": "Online forum topic: „Soll Homeoffice für alle Berufe möglich sein?“ Write your opinion: your position, two arguments, an example and a conclusion. Write about 80 words.",
+ "writing.2.taskBn": "You are writing to the organiser of an exam course: you were ill and could not take the exam. Apologise; ask for a new date; say you are sending a doctor's certificate. About 40 words, in polite language (Sie).",
+ "speaking.0.instructions": "You and your partner are planning something together. Make suggestions, ask for opinions, react and reach a decision (about 3 minutes).",
+ "speaking.0.prompts.0.bn": "Leaving party for a colleague — place, time, gift, food",
+ "speaking.0.prompts.1.bn": "Trip with the course — where, how, how much?",
+ "speaking.0.prompts.2.bn": "Friend's move — who will help, car, food?",
+ "speaking.1.instructions": "Speak for 1–2 minutes about a topic: introduction, your own experience, comparison with your country, advantages and disadvantages, conclusion. Then compare with the model.",
+ "speaking.1.prompts.0.bn": "Life in a new city",
+ "speaking.1.prompts.1.bn": "Social media in everyday life",
+ "speaking.1.prompts.2.bn": "Working abroad",
+ "speaking.2.instructions": "After the other person's presentation, ask questions and give your opinion. In your own presentation, answer questions.",
+ "speaking.2.prompts.0.bn": "Ask a question after a presentation",
+ "speaking.2.prompts.1.bn": "Agree and add something",
+ "speaking.2.prompts.2.bn": "Disagree politely",
+ "speaking.2.prompts.3.bn": "Ask the person to repeat"
+}
