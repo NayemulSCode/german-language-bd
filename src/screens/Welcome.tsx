@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { useApp } from '../state'
 import { Say } from '../components/common'
+import { Logo } from '../components/Icon'
 import { celebrate } from '../lib/celebrate'
 import { go } from '../router'
 import { bn } from '../lib/format'
@@ -45,7 +46,7 @@ export function WelcomeScreen() {
   return (
     <div className="wl">
       <header className="wl-top">
-        <span className="brand bn">Sprachbrücke</span>
+        <span className="brand"><Logo />Sprachbrücke</span>
         {stage !== 'done' && <button className="btn sm ghost bn" onClick={() => leave('#home')}>এড়িয়ে যান</button>}
       </header>
 
