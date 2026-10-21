@@ -1,16 +1,24 @@
 import type { Exam } from '../schema/exam'
 import index from '../generated/exams-index.json'
 import { isRight } from '../components/Question'
+import { localizeExam, type Overlay } from './localize'
+import type { Ui } from './storage'
 
 export type ExamMeta = (typeof index)[number]
 export const EXAMS: ExamMeta[] = index
 
 const loaders = import.meta.glob<Exam>('../../exams/*.json', { import: 'default' })
 
-export async function loadExam(id: string): Promise<Exam> {
+const overlays = import.meta.glob<Overlay>('../../content-en/exams/*.json', { import: 'default' })
+
+/** The exam, with its Bangla instructions and notes in English when the interface is English and an English version exists (never half and half). */
+export async function loadExam(id: string, ui: Ui = 'bn'): Promise<Exam> {
   const load = loaders[`../../exams/${id}.json`]
   if (!load) throw new Error(`Exam not found: ${id}`)
-  return load()
+  const exam = await load()
+  if (ui !== 'en') return exam
+  const o = await overlays[`../../content-en/exams/${id}.json`]?.().catch(() => null)
+  return localizeExam(exam, o)
 }
 
 /** One answer per question: a picked option index, or null when left unanswered. */

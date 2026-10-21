@@ -2,7 +2,7 @@ import { mkdirSync, readdirSync, readFileSync, statSync, writeFileSync } from 'n
 import { join } from 'node:path'
 import { Lesson, type Question } from '../src/schema/lesson.ts'
 import { Exam } from '../src/schema/exam.ts'
-import { coverage, hasBangla, localizeLesson, translatable, type Glossary, type Overlay } from '../src/lib/localize.ts'
+import { coverage, examCoverage, hasBangla, localizeExam, localizeLesson, translatable, translatableExam, type Glossary, type Overlay } from '../src/lib/localize.ts'
 
 /** Validates every lesson JSON in /content: schema first, then cross-reference checks the schema can't express. */
 
@@ -52,6 +52,20 @@ export function checkOverlay(lesson: Lesson, overlay: unknown, glossary: Glossar
   }
   if (errs.length) return errs
   return checkLesson(localizeLesson(lesson, overlay as Overlay, glossary)).map((e) => `after applying English: ${e}`)
+}
+
+/** English overlay for one mock exam: keys must point at real Bangla text of that exam and the localized exam must still be valid. */
+export function checkExamOverlay(exam: Exam, overlay: unknown): string[] {
+  if (!overlay || typeof overlay !== 'object' || Array.isArray(overlay)) return ['overlay must be an object of "path": "English text"']
+  const errs: string[] = []
+  const valid = new Set([...translatableExam(exam)].map(([path]) => path))
+  for (const [path, v] of Object.entries(overlay)) {
+    if (!valid.has(path)) errs.push(`"${path}": not a Bangla text in this exam`)
+    else if (typeof v !== 'string' || !v.trim()) errs.push(`"${path}": must be a non-empty string`)
+    else if (hasBangla(v)) errs.push(`"${path}": English text must not contain Bangla ("${v.slice(0, 40)}")`)
+  }
+  if (errs.length) return errs
+  return checkExam(localizeExam(exam, overlay as Overlay)).map((e) => `after applying English: ${e}`)
 }
 
 export function checkGlossary(g: unknown): string[] {
@@ -168,6 +182,26 @@ if (import.meta.url === `file://${process.argv[1]}`) {
     }
   }
   if (examFailed) process.exit(1)
+  // English text for the mock exams (content-en/exams/<id>.json)
+  const examEn: [number, number] = [0, 0]
+  let examsTranslated = 0
+  for (const name of readdirSync(EXAMS).filter((n) => n.endsWith('.json')).sort()) {
+    const exam = Exam.parse(JSON.parse(readFileSync(join(EXAMS, name), 'utf8')))
+    const file = join(EN, 'exams', name)
+    let overlay: unknown = null
+    try { overlay = JSON.parse(readFileSync(file, 'utf8')) } catch (e) {
+      if ((e as NodeJS.ErrnoException).code !== 'ENOENT') { examFailed++; console.error(`✗ ${file.replace(EN, 'content-en/')}: ${(e as Error).message}`); continue }
+    }
+    if (overlay) {
+      const errs = checkExamOverlay(exam, overlay)
+      if (errs.length) { examFailed++; console.error(`✗ ${file.replace(EN, 'content-en/')}`); for (const e of errs) console.error(`    ${e}`) }
+      else examsTranslated++
+    }
+    const c = overlay ? examCoverage(exam, overlay as Overlay) : { done: 0, total: [...translatableExam(exam)].length }
+    examEn[0] += c.done
+    examEn[1] += c.total
+  }
+  if (examFailed) process.exit(1)
   // small lesson list for the home screen, so lesson bodies can stay lazy-loaded
   const out = new URL('../src/generated/', import.meta.url).pathname
   mkdirSync(out, { recursive: true })
@@ -175,5 +209,5 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   writeFileSync(join(out, 'dictionary.json'), JSON.stringify(dictionary) + '\n')
   writeFileSync(join(out, 'exams-index.json'), JSON.stringify(examIndex, null, 2) + '\n')
   console.log(`✓ ${count} lesson file(s) and ${examIndex.length} exam(s) valid`)
-  console.log('English teaching text: ' + Object.entries(done).map(([lv, [a, b]]) => `${lv} ${b ? Math.round((a / b) * 100) : 0}% (${a}/${b})`).join(' · '))
+  console.log('English teaching text: ' + Object.entries(done).map(([lv, [a, b]]) => `${lv} ${b ? Math.round((a / b) * 100) : 0}% (${a}/${b})`).join(' · ') + ` · mock exams ${examEn[1] ? Math.round((examEn[0] / examEn[1]) * 100) : 0}% (${examEn[0]}/${examEn[1]})`)
 }

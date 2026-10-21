@@ -4,7 +4,7 @@ import { GOALS, type Lang, type Theme, type Ui } from '../lib/storage'
 import { useT } from '../i18n/useT'
 import type { Key } from '../i18n/core'
 import { heatLevel, recentWeeks, streak } from '../lib/stats'
-import { Account } from '../components/Account'
+import { Account, useCanSignIn } from '../components/Account'
 import { BADGES, badgeDesc, badgeTitle, earnedBadges } from '../lib/badges'
 
 const sw = (a: string, b: string) => [a, b]
@@ -27,6 +27,7 @@ export function ProfileScreen() {
   const a1Pct = a1.length ? (a1Done / a1.length) * 100 : 0
   const days = recentWeeks(5)
   const earned = earnedBadges(progress, LESSONS)
+  const { show: canSignIn, email } = useCanSignIn()
 
   return (
     <>
@@ -34,6 +35,8 @@ export function ProfileScreen() {
         <span className="av" style={{ width: 56, height: 56, borderRadius: '50%', background: 'var(--ink)', color: 'var(--paper)', display: 'grid', placeItems: 'center', fontFamily: 'var(--display)', fontWeight: 800, fontSize: 24 }}>{name[0].toUpperCase()}</span>
         <div className="grow"><h1 style={{ fontSize: 28 }}>{name}</h1><div className="muted bn">{t('me.goal')}</div></div>
       </div>
+
+      <div style={{ marginTop: 16 }}><Account /></div>
 
       <div className="stats" style={{ marginTop: 16 }}>
         <div className="stat"><b className="num">{n(learnedWords)}</b><span className="bn">{t('me.words')}</span></div>
@@ -117,9 +120,8 @@ export function ProfileScreen() {
         <div className="set"><span className="bn">B1 {t('place.test')} {progress.startUnitB1 > 0 ? `· ${t('me.startUnit', { n: progress.startUnitB1 })}` : ''}</span><a className="btn sm ghost bn" href="#placement/b1">{progress.startUnitB1 > 0 ? t('me.retake') : t('me.take')}</a></div>
         <div className="set"><label htmlFor="pname" className="bn">{t('me.name')}</label><span className="field"><input id="pname" type="text" maxLength={30} placeholder={t('me.namePh')} value={progress.name} onChange={(e) => setSettings({ name: e.target.value })} /></span></div>
         <div className="set"><label htmlFor="exam" className="bn">{t('me.examDate')}</label><span className="field"><input id="exam" type="date" value={progress.examDate} onChange={(e) => setSettings({ examDate: e.target.value })} /></span></div>
-        <Account />
       </div>
-      <p className="foot bn">{t('me.foot')}</p>
+      <p className="foot bn">{canSignIn ? t(email ? 'me.foot.in' : 'me.foot') : t('me.foot.local')}</p>
     </>
   )
 }

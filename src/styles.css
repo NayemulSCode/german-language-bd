@@ -403,3 +403,25 @@ body.in-lesson main{padding:0;max-width:none}
 .wl .fb.no{background:var(--bad-soft);color:var(--bad)}
 @media (min-width:700px){.wl{max-width:640px}.wl-opts{grid-template-columns:1fr}.wl-body > .btn{max-width:420px;justify-self:center}}
 @media (max-width:360px){.wl-phrase{padding:12px}.wl-top .btn{padding:8px 10px}}
+
+/* save-your-progress prompts */
+.save-card{display:grid;gap:8px;justify-items:start;border-color:var(--accent);background:linear-gradient(160deg,var(--accent-soft),var(--surface) 70%)}
+.save-card h2{font-size:22px;margin:0}
+.save-card p{margin:0}
+.save-card .btn{width:100%;margin-top:4px}
+.save-emoji{font-size:30px;line-height:1}
+.save-card.compact{grid-template-columns:auto 1fr;align-items:center;gap:12px}
+.save-card.compact .btn{width:auto;margin:0}
+.save-title{font-weight:700;font-size:17px}
+.save-acts{display:flex;align-items:center;gap:14px;margin-top:8px;flex-wrap:wrap}
+.benefits{list-style:none;margin:2px 0 4px;padding:0;display:grid;gap:6px;font-size:15px}
+.benefits li{display:flex;gap:8px;align-items:flex-start}
+.benefits li span{flex:none;color:var(--good);font-weight:800}
+.login-chip{width:auto;white-space:nowrap}
+.avatar-chip{width:30px;height:30px;border-radius:50%;background:var(--ink);color:var(--paper);display:grid;place-items:center;font-weight:800;font-size:14px;text-decoration:none;flex:none}
+.side-login{display:none}
+@media (min-width:900px){
+  nav.tabs .side-login{display:inline-grid;margin:14px 12px 0;justify-self:start}
+  nav.tabs a.avatar-chip{display:grid;padding:0;height:30px;gap:0;font-size:14px;color:var(--paper)}
+}
+.dialog .save-emoji{font-size:34px}
