@@ -64,13 +64,13 @@ Without configuration the app is fully offline and keeps progress on the device.
 (Google or an email link) and keep progress across devices, connect a free [Supabase](https://supabase.com) project:
 
 1. **Create a project** at supabase.com (free plan).
-2. **Create the table:** open *SQL Editor*, paste `supabase/migrations/20260101000000_progress.sql` and run it.
+2. **Create the table:** open *SQL Editor*, paste `supabase/migrations/20260101000000_progress.sql` and run it (it is safe to run again; it also grants the signed-in role access to the table, which new projects need for sync to work).
 3. **Email login:** *Authentication → Providers → Email* is on by default (magic link). Under *Authentication → URL Configuration* set
    *Site URL* to your deployed address and add it, plus `http://localhost:5173`, to *Redirect URLs*.
 4. **Google login (optional):** create an OAuth client in Google Cloud Console (type *Web application*), add the
    callback URL shown in *Authentication → Providers → Google* as an authorised redirect URI, then paste the client ID and secret into that Supabase page.
 5. **Connect the app:** copy `.env.example` to `.env.local` and fill in *Project URL* and the *anon public key*
-   (*Project Settings → API*). Add the same two values as environment variables on your host.
+   (*Project Settings → API*). The URL is the bare project address, like `https://abcd1234.supabase.co`, without `/rest/v1`. Add the same two values as environment variables on your host.
 6. **Keep the free project awake:** add repository secrets `SUPABASE_URL` and `SUPABASE_ANON_KEY`; the *Keep Supabase awake* workflow then pings it twice a week.
 
 How sync works: progress is stored locally first. When signed in, the app merges with the server copy

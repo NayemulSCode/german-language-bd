@@ -14,6 +14,8 @@ create table if not exists public.progress (
 alter table public.progress enable row level security;
 
 -- a signed-in user can read, create, change and delete only their own row
+-- (dropped first so this script can be run again safely)
+drop policy if exists "progress: owner full access" on public.progress;
 create policy "progress: owner full access"
   on public.progress
   for all
@@ -23,3 +25,8 @@ create policy "progress: owner full access"
 
 -- anonymous visitors get nothing
 revoke all on public.progress from anon;
+
+-- Newer Supabase projects do not expose tables created by SQL to the Data API by default.
+-- Signed-in users need these privileges; row-level security above still limits them to their own row.
+grant usage on schema public to authenticated;
+grant select, insert, update, delete on public.progress to authenticated;
