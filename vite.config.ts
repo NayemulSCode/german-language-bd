@@ -20,8 +20,8 @@ export default defineConfig({
         ],
       },
       manifest: {
-        name: 'Sprachbrücke',
-        short_name: 'Sprachbrücke',
+        name: 'GLBD',
+        short_name: 'GLBD',
         description: 'Learn German A1 to B1 with Bangla and English support · জার্মান ভাষা শিখুন A1 থেকে B1',
         lang: 'bn',
         start_url: '/',

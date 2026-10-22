@@ -43,7 +43,7 @@ export function App() {
   return (
     <>
       <header className="top">
-        <div className="brand"><Logo />Sprachbrücke</div>
+        <div className="brand"><Logo />GLBD</div>
         <LoginChip />
         <span className="pill num" title={t('app.streakTitle')}>
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2c1 4 5 6 5 11a5 5 0 0 1-10 0c0-2 1-3 2-4 0 2 1 3 2 3 0-4-1-6 1-10z" fill="var(--accent)" /></svg>
@@ -52,7 +52,7 @@ export function App() {
       </header>
 
       <nav className="tabs" aria-label={t('app.menu')}>
-        <div className="brand side-brand"><Logo />Sprachbrücke</div>
+        <div className="brand side-brand"><Logo />GLBD</div>
         {TABS.map(([k, label]) => (
           <a key={k} href={`#${k}`} aria-current={route.name === k ? 'page' : undefined}>
             <Icon name={k as IconName} /><span className="bn">{t(label)}</span>

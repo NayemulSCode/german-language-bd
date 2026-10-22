@@ -1,4 +1,4 @@
-# Sprachbrücke
+# GLBD (German Language BD)
 
 A free, offline-capable German course (A1 → B1) for Bangla speakers, with Bangla and English support.
 React + Vite + TypeScript PWA. Lessons are plain JSON; progress is stored on the device and can sync through Supabase.
