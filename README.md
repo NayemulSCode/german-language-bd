@@ -78,6 +78,12 @@ How sync works: progress is stored locally first. When signed in, the app merges
 lessons. XP is recalculated from lessons rather than stored. Only the language and slow-audio settings are last-writer-wins.
 Signing out keeps the progress on that device. Free-tier note: there are no automatic backups, so export the table occasionally.
 
+## Support card (optional)
+
+To show a "Buy me a coffee" card on the Profile and Home screens, set `VITE_SUPPORT_URL` (an `https://` link to Buy Me a Coffee, Ko-fi, …)
+and/or `VITE_BKASH_NUMBER` (people can Send Money to it) as environment variables on your host, then redeploy. Both are public.
+With neither set, nothing is shown.
+
 ## Audio
 
 `npm run audio` finds every string the app can speak (`src/lib/speakable.ts`), synthesizes normal and slow clips with

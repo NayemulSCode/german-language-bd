@@ -333,5 +333,14 @@ export const EN: Record<keyof typeof BN, string> = {
   "me.foot.local": "All progress is saved on this device.",
   "me.foot.in": "Your progress is saved on this device and in your account.",
   "grammar.english": "English",
-// __END__
+// __END__,
+  "support.title": "Is GLBD helping you?",
+  "support.sub": "GLBD is completely free. A coffee helps me keep adding new lessons and printable packs.",
+  "support.coffee": "☕ Buy me a coffee",
+  "support.bkash": "Send via bKash",
+  "support.bkash.title": "Support with bKash",
+  "support.bkash.body": "In the bKash app choose “Send Money” and send any amount to this number.",
+  "support.copy": "Copy number",
+  "support.copied": "Copied ✓",
+  "support.thanks": "Supporting is entirely optional. The app stays free for everyone — thank you so much!",
 }

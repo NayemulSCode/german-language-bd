@@ -6,6 +6,7 @@ import type { Key } from '../i18n/core'
 import { heatLevel, recentWeeks, streak } from '../lib/stats'
 import { Account, useCanSignIn } from '../components/Account'
 import { Avatar } from '../components/Avatar'
+import { SupportCard } from '../components/Support'
 import { BADGES, badgeDesc, badgeTitle, earnedBadges } from '../lib/badges'
 
 const sw = (a: string, b: string) => [a, b]
@@ -122,6 +123,7 @@ export function ProfileScreen() {
         <div className="set"><label htmlFor="pname" className="bn">{t('me.name')}</label><span className="field"><input id="pname" type="text" maxLength={30} placeholder={t('me.namePh')} value={progress.name} onChange={(e) => setSettings({ name: e.target.value })} /></span></div>
         <div className="set"><label htmlFor="exam" className="bn">{t('me.examDate')}</label><span className="field"><input id="exam" type="date" value={progress.examDate} onChange={(e) => setSettings({ examDate: e.target.value })} /></span></div>
       </div>
+      <div style={{ marginTop: 14 }}><SupportCard /></div>
       <p className="foot bn">{canSignIn ? t(email ? 'me.foot.in' : 'me.foot') : t('me.foot.local')}</p>
     </>
   )
