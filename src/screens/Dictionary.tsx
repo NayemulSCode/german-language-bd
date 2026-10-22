@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from 'react'
 import { loadDictionary, spoken, type DictEntry } from '../lib/content'
 import { useT } from '../i18n/useT'
 import { Icon } from '../components/Icon'
-import { Say, Tr } from '../components/common'
+import { LangSeg, Say, Tr } from '../components/common'
 
 const LIMIT = 150
 
@@ -33,6 +33,10 @@ export function DictionaryScreen() {
         <Icon name="search" />
         <input type="search" placeholder={t('dict.placeholder')} value={q} onChange={(e) => setQ(e.target.value)} autoComplete="off" aria-label={t('dict.search')} />
       </label>
+      <div className="dict-lang">
+        <span className="muted bn" style={{ fontSize: 13 }}>{t('dict.meanings')}</span>
+        <LangSeg />
+      </div>
       {!all ? <div className="loading bn">{t('common.loading')}</div> : (
         <>
           <div className="muted bn" style={{ fontSize: 13, marginTop: 8 }}>{q ? t('dict.results', { n: list.length }) : t('dict.total', { n: all.length })}</div>
