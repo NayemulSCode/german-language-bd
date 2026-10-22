@@ -10,7 +10,8 @@
     "typecheck": "tsc --noEmit",
     "validate": "tsx scripts/validate-content.ts",
     "test": "vitest run",
-    "audio": "tsx scripts/build-audio.ts"
+    "audio": "tsx scripts/build-audio.ts",
+    "packs": "tsx scripts/make-packs.ts"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.7",

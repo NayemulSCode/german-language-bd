@@ -78,6 +78,14 @@ How sync works: progress is stored locally first. When signed in, the app merges
 lessons. XP is recalculated from lessons rather than stored. Only the language and slow-audio settings are last-writer-wins.
 Signing out keeps the progress on that device. Free-tier note: there are no automatic backups, so export the table occasionally.
 
+## Printable packs
+
+`npm run packs` builds PDF study packs from the app's own content and its English text: a vocabulary pack, grammar sheets and a
+mock-exam booklet (with answer key) for each of A1, A2 and B1. Files go to `packs/` (not committed).
+Options: `-- --level a1`, `-- --only vocab|grammar|exams`, `-- --sample` (unit 1 only, a free sample), `-- --html` (HTML only).
+The PDF step needs Chromium through Playwright, which is not a project dependency: set `PLAYWRIGHT` to the path of Playwright's
+`index.mjs` and `CHROMIUM_PATH` to a Chromium binary if they are not found. Fonts come from Google Fonts, so it needs internet access.
+
 ## Support card (optional)
 
 To show a "Buy me a coffee" card on the Profile and Home screens, set `VITE_SUPPORT_URL` (an `https://` link to Buy Me a Coffee, Ko-fi, …)
