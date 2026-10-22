@@ -3,7 +3,7 @@ import { Celebration } from './components/Celebration'
 import { WelcomeScreen } from './screens/Welcome'
 import { isNewLearner, welcomeSkipped } from './lib/welcome'
 import { useApp } from './state'
-import { LoginChip } from './components/Account'
+import { LoginChip, SideAccount } from './components/Account'
 import { go, useRoute, type RouteName } from './router'
 import { Icon, Logo, type IconName } from './components/Icon'
 import { Toast } from './components/common'
@@ -58,7 +58,7 @@ export function App() {
             <Icon name={k as IconName} /><span className="bn">{t(label)}</span>
           </a>
         ))}
-        <LoginChip className="side-login" />
+        <SideAccount />
       </nav>
 
       <main>

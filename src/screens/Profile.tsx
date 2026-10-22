@@ -5,6 +5,7 @@ import { useT } from '../i18n/useT'
 import type { Key } from '../i18n/core'
 import { heatLevel, recentWeeks, streak } from '../lib/stats'
 import { Account, useCanSignIn } from '../components/Account'
+import { Avatar } from '../components/Avatar'
 import { BADGES, badgeDesc, badgeTitle, earnedBadges } from '../lib/badges'
 
 const sw = (a: string, b: string) => [a, b]
@@ -19,7 +20,6 @@ const GOAL_LABEL: Record<number, Key> = { 20: 'goal.20', 50: 'goal.50', 100: 'go
 export function ProfileScreen() {
   const { progress, setLang, setUi, setSlow, setSettings, lessonProgress } = useApp()
   const { t, n, ui } = useT()
-  const name = progress.name || 'Lerner'
   const passedLessons = LESSONS.filter((l) => lessonProgress(l.id).passed)
   const learnedWords = passedLessons.reduce((n, l) => n + l.words, 0)
   const a1 = LESSONS.filter((l) => l.level === 'A1')
@@ -27,12 +27,13 @@ export function ProfileScreen() {
   const a1Pct = a1.length ? (a1Done / a1.length) * 100 : 0
   const days = recentWeeks(5)
   const earned = earnedBadges(progress, LESSONS)
-  const { show: canSignIn, email } = useCanSignIn()
+  const { show: canSignIn, email, name: accountName, avatarUrl } = useCanSignIn()
+  const name = progress.name || accountName || 'Lerner'
 
   return (
     <>
       <div className="row">
-        <span className="av" style={{ width: 56, height: 56, borderRadius: '50%', background: 'var(--ink)', color: 'var(--paper)', display: 'grid', placeItems: 'center', fontFamily: 'var(--display)', fontWeight: 800, fontSize: 24 }}>{name[0].toUpperCase()}</span>
+        <Avatar name={name} url={avatarUrl} size={56} />
         <div className="grow"><h1 style={{ fontSize: 28 }}>{name}</h1><div className="muted bn">{t('me.goal')}</div></div>
       </div>
 
