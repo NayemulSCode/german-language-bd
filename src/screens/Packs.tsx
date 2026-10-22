@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { LESSONS } from '../lib/content'
 import { PACK_KINDS, PACK_LEVELS, PACK_PAGES, SAMPLES, downloadUrl } from '../lib/packs'
-import { BKASH_NUMBER, PACKS_CONTACT_URL, PACKS_PRICE, SUPPORT_URL, supportEnabled } from '../lib/support'
+import { BKASH_NUMBER, PACKS_CONTACTS, PACKS_PRICE, SUPPORT_URL, supportEnabled } from '../lib/support'
 import { BkashDialog } from '../components/Support'
 import { useT } from '../i18n/useT'
 
@@ -71,7 +71,7 @@ export function PacksScreen() {
           <div className="save-acts">
             {BKASH_NUMBER && <button className="btn sm bn" onClick={() => setOpen(true)}>{t('support.bkash')}</button>}
             {SUPPORT_URL && <a className="btn sm ghost bn" href={SUPPORT_URL} target="_blank" rel="noopener noreferrer">{t('support.coffee')}</a>}
-            {PACKS_CONTACT_URL && <a className="btn sm ghost bn" href={PACKS_CONTACT_URL} target="_blank" rel="noopener noreferrer">{t('packs.contact')}</a>}
+            {PACKS_CONTACTS.map((c) => <a key={c.url} className="btn sm ghost bn" href={c.url} target="_blank" rel="noopener noreferrer">{c.name ?? t('packs.contact')}</a>)}
           </div>
         </section>
       ) : (

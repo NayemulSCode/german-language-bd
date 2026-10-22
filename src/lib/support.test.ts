@@ -25,12 +25,16 @@ describe('support settings', () => {
     expect(s.BKASH_NUMBER).toBeNull()
     expect(s.supportEnabled).toBe(false)
   })
-  it('reads the packs contact link (https only) and a short price line', async () => {
-    const ok = await load({ VITE_PACKS_CONTACT_URL: 'https://wa.me/8801700000000', VITE_PACKS_PRICE: '৳199 per level' })
-    expect(ok.PACKS_CONTACT_URL).toBe('https://wa.me/8801700000000')
+  it('reads the packs contact links (https only, several allowed) and a short price line', async () => {
+    const ok = await load({ VITE_PACKS_CONTACT_URL: 'https://t.me/someone https://wa.me/8801700000000, https://example.com/chat', VITE_PACKS_PRICE: '৳199 per level' })
+    expect(ok.PACKS_CONTACTS).toEqual([
+      { url: 'https://t.me/someone', name: 'Telegram' },
+      { url: 'https://wa.me/8801700000000', name: 'WhatsApp' },
+      { url: 'https://example.com/chat', name: null },
+    ])
     expect(ok.PACKS_PRICE).toBe('৳199 per level')
-    const bad = await load({ VITE_PACKS_CONTACT_URL: 'http://example.com', VITE_PACKS_PRICE: 'x'.repeat(61) })
-    expect(bad.PACKS_CONTACT_URL).toBeNull()
+    const bad = await load({ VITE_PACKS_CONTACT_URL: 'http://example.com javascript:alert(1) not-a-link', VITE_PACKS_PRICE: 'x'.repeat(61) })
+    expect(bad.PACKS_CONTACTS).toEqual([])
     expect(bad.PACKS_PRICE).toBeNull()
   })
 })
