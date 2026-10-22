@@ -25,4 +25,12 @@ describe('support settings', () => {
     expect(s.BKASH_NUMBER).toBeNull()
     expect(s.supportEnabled).toBe(false)
   })
+  it('reads the packs contact link (https only) and a short price line', async () => {
+    const ok = await load({ VITE_PACKS_CONTACT_URL: 'https://wa.me/8801700000000', VITE_PACKS_PRICE: '৳199 per level' })
+    expect(ok.PACKS_CONTACT_URL).toBe('https://wa.me/8801700000000')
+    expect(ok.PACKS_PRICE).toBe('৳199 per level')
+    const bad = await load({ VITE_PACKS_CONTACT_URL: 'http://example.com', VITE_PACKS_PRICE: 'x'.repeat(61) })
+    expect(bad.PACKS_CONTACT_URL).toBeNull()
+    expect(bad.PACKS_PRICE).toBeNull()
+  })
 })

@@ -82,6 +82,9 @@ Signing out keeps the progress on that device. Free-tier note: there are no auto
 
 `npm run packs` builds PDF study packs from the app's own content and its English text: a vocabulary pack, grammar sheets and a
 mock-exam booklet (with answer key) for each of A1, A2 and B1. Files go to `packs/` (not committed).
+The app's **Packs page** (`#packs`, linked from Profile and Home) offers the free samples in `public/downloads` and explains how to get the full packs.
+Rebuild the samples with `npm run packs -- --sample --level a1` and update the page counts in `src/lib/packs.ts` after content changes.
+Set `VITE_PACKS_CONTACT_URL` and `VITE_PACKS_PRICE` (with the support settings below) to show the buying steps; without them the page says the full packs are coming soon.
 Options: `-- --level a1`, `-- --only vocab|grammar|exams`, `-- --sample` (unit 1 only, a free sample), `-- --html` (HTML only).
 The PDF step needs Chromium through Playwright, which is not a project dependency: set `PLAYWRIGHT` to the path of Playwright's
 `index.mjs` and `CHROMIUM_PATH` to a Chromium binary if they are not found. Fonts come from Google Fonts, so it needs internet access.

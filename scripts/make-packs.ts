@@ -11,7 +11,7 @@ import { examPack } from './packs/exams.ts'
  *   npm run packs                      all packs, all levels
  *   npm run packs -- --level a1        one level
  *   npm run packs -- --only vocab      vocab | grammar | exams
- *   npm run packs -- --sample          unit 1 only (a free sample)
+ *   npm run packs -- --sample          unit 1 only: a free sample, written to public/downloads (the app's Packs page links to it)
  *   npm run packs -- --html            write the HTML only (skip the PDF step)
  * PDFs need Chromium via Playwright: set PLAYWRIGHT (path to its index.mjs) and CHROMIUM_PATH if they are not on the default path.
  */
@@ -23,12 +23,15 @@ const only = opt('only')
 const sample = flag('sample')
 
 const OUT = new URL('../packs/', import.meta.url).pathname
+// free samples are published with the app (public/downloads); everything else stays in the ignored packs/ folder
+const PDF_OUT = sample ? new URL('../public/downloads/', import.meta.url).pathname : OUT
 mkdirSync(join(OUT, 'html'), { recursive: true })
+mkdirSync(PDF_OUT, { recursive: true })
 const jobs: [string, string][] = []
 const add = (name: string, html: string) => {
   const h = join(OUT, 'html', `${name}.html`)
   writeFileSync(h, html)
-  jobs.push([h, join(OUT, `${name}.pdf`)])
+  jobs.push([h, join(PDF_OUT, `${name}.pdf`)])
 }
 
 for (const lv of levels) {

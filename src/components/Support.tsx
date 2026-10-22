@@ -25,7 +25,7 @@ export function SupportCard({ compact = false }: { compact?: boolean }) {
   )
 }
 
-function BkashDialog({ number, onClose }: { number: string; onClose(): void }) {
+export function BkashDialog({ number, onClose }: { number: string; onClose(): void }) {
   const { t } = useT()
   const [copied, setCopied] = useState(false)
   useEffect(() => {
