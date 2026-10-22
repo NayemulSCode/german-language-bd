@@ -47,7 +47,7 @@ export function WelcomeScreen() {
   return (
     <div className="wl">
       <header className="wl-top">
-        <span className="brand"><Logo />Sprachbrücke</span>
+        <span className="brand"><Logo />GLBD</span>
         {stage !== 'done' && <button className="btn sm ghost bn" onClick={() => leave('#home')}>{t('welcome.skip')}</button>}
       </header>
 
