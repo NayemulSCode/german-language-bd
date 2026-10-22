@@ -442,3 +442,14 @@ body.in-lesson main{padding:0;max-width:none}
 .support-card{display:flex;align-items:center;gap:12px;border-color:var(--accent);background:linear-gradient(160deg,var(--accent-soft),var(--surface) 70%)}
 .support-card .btn{width:auto;text-decoration:none}
 .bkash-num{font-family:var(--display);font-weight:800;font-size:26px;letter-spacing:.04em;text-align:center;padding:12px;border:1.5px dashed var(--accent);border-radius:12px;background:var(--accent-soft)}
+
+/* printable packs */
+.pack-list{display:grid;gap:2px}
+.pack-row{display:flex;align-items:center;gap:12px;padding:10px 0;border-top:1px solid var(--line)}
+.pack-row:first-child{border-top:0}
+.pack-ico{font-size:22px;width:30px;text-align:center;flex:none}
+.pack-level{margin-top:10px}
+.packs-free{margin-top:16px;border-color:var(--accent);background:linear-gradient(160deg,var(--accent-soft),var(--surface) 70%)}
+.packs-card{border-color:var(--line)}
+.steps{margin:4px 0 6px;padding-left:20px;display:grid;gap:4px}
+.pack-row .grow{flex:1;min-width:0}

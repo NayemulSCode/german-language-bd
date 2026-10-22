@@ -109,6 +109,17 @@ export function HomeScreen() {
 
       <WordOfTheDay />
 
+      {!isNewLearner(progress) && (
+        <a className="card row packs-card" href="#packs" style={{ textDecoration: 'none' }}>
+          <span className="save-emoji" aria-hidden="true">🖨️</span>
+          <div className="grow">
+            <div className="bn save-title">{t('packs.card.title')}</div>
+            <div className="bn muted" style={{ fontSize: 14 }}>{t('packs.card.sub')}</div>
+          </div>
+          <span className="btn sm ghost bn">{t('packs.card.go')}</span>
+        </a>
+      )}
+
       {!isNewLearner(progress) && <SupportCard compact />}
 
       {next && UNIT_TITLES[`${next.level}-${next.unit}`] && (

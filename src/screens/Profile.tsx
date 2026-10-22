@@ -123,6 +123,16 @@ export function ProfileScreen() {
         <div className="set"><label htmlFor="pname" className="bn">{t('me.name')}</label><span className="field"><input id="pname" type="text" maxLength={30} placeholder={t('me.namePh')} value={progress.name} onChange={(e) => setSettings({ name: e.target.value })} /></span></div>
         <div className="set"><label htmlFor="exam" className="bn">{t('me.examDate')}</label><span className="field"><input id="exam" type="date" value={progress.examDate} onChange={(e) => setSettings({ examDate: e.target.value })} /></span></div>
       </div>
+      <div style={{ marginTop: 14 }}>
+        <a className="card row packs-card" href="#packs" style={{ textDecoration: 'none' }}>
+          <span className="save-emoji" aria-hidden="true">🖨️</span>
+          <div className="grow">
+            <div className="bn save-title">{t('packs.card.title')}</div>
+            <div className="bn muted" style={{ fontSize: 14 }}>{t('packs.card.sub')}</div>
+          </div>
+          <span className="btn sm ghost bn">{t('packs.card.go')}</span>
+        </a>
+      </div>
       <div style={{ marginTop: 14 }}><SupportCard /></div>
       <p className="foot bn">{canSignIn ? t(email ? 'me.foot.in' : 'me.foot') : t('me.foot.local')}</p>
     </>

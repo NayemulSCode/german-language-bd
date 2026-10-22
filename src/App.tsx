@@ -2,6 +2,7 @@ import { useEffect } from 'react'
 import { Celebration } from './components/Celebration'
 import { WelcomeScreen } from './screens/Welcome'
 import { isNewLearner, welcomeSkipped } from './lib/welcome'
+import { PacksScreen } from './screens/Packs'
 import { useApp } from './state'
 import { LoginChip, SideAccount } from './components/Account'
 import { go, useRoute, type RouteName } from './router'
@@ -19,7 +20,7 @@ import { LessonScreen } from './screens/Lesson'
 import { PlacementScreen } from './screens/Placement'
 import { ExamScreen } from './screens/Exam'
 
-const TABS: [Exclude<RouteName, 'lesson' | 'placement' | 'exam' | 'welcome'>, Key][] = [['home', 'tab.home'], ['course', 'tab.course'], ['review', 'tab.review'], ['dict', 'tab.dict'], ['me', 'tab.me']]
+const TABS: [Exclude<RouteName, 'lesson' | 'placement' | 'exam' | 'welcome' | 'packs'>, Key][] = [['home', 'tab.home'], ['course', 'tab.course'], ['review', 'tab.review'], ['dict', 'tab.dict'], ['me', 'tab.me']]
 
 export function App() {
   const route = useRoute()
@@ -54,7 +55,7 @@ export function App() {
       <nav className="tabs" aria-label={t('app.menu')}>
         <div className="brand side-brand"><Logo />GLBD</div>
         {TABS.map(([k, label]) => (
-          <a key={k} href={`#${k}`} aria-current={route.name === k ? 'page' : undefined}>
+          <a key={k} href={`#${k}`} aria-current={route.name === k || (k === 'me' && route.name === 'packs') ? 'page' : undefined}>
             <Icon name={k as IconName} /><span className="bn">{t(label)}</span>
           </a>
         ))}
@@ -70,6 +71,7 @@ export function App() {
         {route.name === 'lesson' && <LessonScreen id={route.param} />}
         {route.name === 'placement' && <PlacementScreen level={route.param === 'b1' ? 'B1' : route.param === 'a2' ? 'A2' : 'A1'} />}
         {route.name === 'welcome' && <WelcomeScreen />}
+        {route.name === 'packs' && <PacksScreen />}
         {route.name === 'exam' && <ExamScreen id={route.param || 'a1-mock-01'} />}
       </main>
       <Toast />
