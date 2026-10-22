@@ -10,6 +10,7 @@ import { Say, Tr } from '../components/common'
 import { go } from '../router'
 import { isNewLearner } from '../lib/welcome'
 import { LoginNudge, useCanSignIn } from '../components/Account'
+import { SupportCard } from '../components/Support'
 
 export function HomeScreen() {
   const { progress, lessonProgress } = useApp()
@@ -107,6 +108,8 @@ export function HomeScreen() {
       </div>
 
       <WordOfTheDay />
+
+      {!isNewLearner(progress) && <SupportCard compact />}
 
       {next && UNIT_TITLES[`${next.level}-${next.unit}`] && (
         <p className="foot bn">{t('home.nowOn', { title: UNIT_TITLES[`${next.level}-${next.unit}`][ui] })}</p>

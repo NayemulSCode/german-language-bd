@@ -437,3 +437,8 @@ body.in-lesson main{padding:0;max-width:none}
 .dialog .save-emoji{font-size:34px}
 
 .dict-lang{display:flex;align-items:center;flex-wrap:wrap;gap:6px 10px;margin-top:10px}
+
+/* support card */
+.support-card{display:flex;align-items:center;gap:12px;border-color:var(--accent);background:linear-gradient(160deg,var(--accent-soft),var(--surface) 70%)}
+.support-card .btn{width:auto;text-decoration:none}
+.bkash-num{font-family:var(--display);font-weight:800;font-size:26px;letter-spacing:.04em;text-align:center;padding:12px;border:1.5px dashed var(--accent);border-radius:12px;background:var(--accent-soft)}
