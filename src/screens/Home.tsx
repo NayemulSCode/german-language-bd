@@ -9,7 +9,7 @@ import { Icon } from '../components/Icon'
 import { Say, Tr } from '../components/common'
 import { go } from '../router'
 import { isNewLearner } from '../lib/welcome'
-import { LoginNudge } from '../components/Account'
+import { LoginNudge, useCanSignIn } from '../components/Account'
 
 export function HomeScreen() {
   const { progress, lessonProgress } = useApp()
@@ -18,7 +18,8 @@ export function HomeScreen() {
   const xp = progress.activity[dayKey(now)] ?? 0
   const pct = Math.min(1, xp / progress.goal)
   const C = 2 * Math.PI * 36
-  const name = progress.name || 'Lerner'
+  const { name: accountName } = useCanSignIn()
+  const name = progress.name || accountName?.split(' ')[0] || 'Lerner'
   const days = streak(progress.activity, now)
   const weekday = new Date(now).toLocaleDateString(locale, { weekday: 'long' })
   const dueCount = useMemo(() => Object.values(progress.srs).filter((c) => c.due <= now).length, [progress.srs, now])

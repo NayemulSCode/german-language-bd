@@ -48,18 +48,18 @@ h1,h2,h3{font-family:var(--display);text-wrap:balance;margin:0;line-height:1.15}
 .pill svg{width:16px;height:16px}
 main{max-width:720px;margin:0 auto;padding-inline:16px;padding-block:18px calc(var(--nav-h) + 32px + env(safe-area-inset-bottom,0px))}
 nav.tabs{position:fixed;left:0;right:0;bottom:0;z-index:6;background:var(--surface);border-top:1px solid var(--line);display:grid;grid-template-columns:repeat(5,1fr);padding-bottom:env(safe-area-inset-bottom,0px)}
-nav.tabs a{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;height:var(--nav-h);text-decoration:none;font-size:12px;color:var(--muted)}
-nav.tabs a svg{width:22px;height:22px}
-nav.tabs a[aria-current="page"]{color:var(--ink);font-weight:700}
-nav.tabs a[aria-current="page"] svg{color:var(--accent-ink)}
+nav.tabs>a{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;height:var(--nav-h);text-decoration:none;font-size:12px;color:var(--muted)}
+nav.tabs>a svg{width:22px;height:22px}
+nav.tabs>a[aria-current="page"]{color:var(--ink);font-weight:700}
+nav.tabs>a[aria-current="page"] svg{color:var(--accent-ink)}
 .side-brand{display:none}
 @media (min-width:900px){
   body{display:grid;grid-template-columns:232px 1fr}
   .top{display:none}
-  nav.tabs{position:sticky;top:0;height:100vh;grid-template-columns:1fr;grid-auto-rows:min-content;align-content:start;gap:4px;border-top:0;border-right:1px solid var(--line);padding:20px 12px}
-  nav.tabs a{flex-direction:row;justify-content:flex-start;gap:12px;height:auto;padding:10px 12px;border-radius:10px;font-size:15px}
-  nav.tabs a[aria-current="page"]{background:var(--paper)}
-  .side-brand{display:flex;margin:0 4px 18px}
+  nav.tabs{position:sticky;top:0;height:100vh;display:flex;flex-direction:column;gap:4px;border-top:0;border-right:1px solid var(--line);padding:20px 12px}
+  nav.tabs>a{flex-direction:row;justify-content:flex-start;gap:12px;height:auto;padding:10px 12px;border-radius:10px;font-size:15px}
+  nav.tabs>a[aria-current="page"]{background:var(--paper)}
+  .side-brand{display:flex;flex:none;margin:0 4px 18px}
   main{padding-block:32px 48px;width:100%}
 }
 
@@ -418,10 +418,20 @@ body.in-lesson main{padding:0;max-width:none}
 .benefits li{display:flex;gap:8px;align-items:flex-start}
 .benefits li span{flex:none;color:var(--good);font-weight:800}
 .login-chip{width:auto;white-space:nowrap}
-.avatar-chip{width:30px;height:30px;border-radius:50%;background:var(--ink);color:var(--paper);display:grid;place-items:center;font-weight:800;font-size:14px;text-decoration:none;flex:none}
-.side-login{display:none}
+.avatar{display:inline-grid;place-items:center;flex:none;border-radius:50%;background:var(--ink);color:var(--paper);font-family:var(--display);font-weight:800;line-height:1;overflow:hidden;user-select:none}
+.avatar img{width:100%;height:100%;object-fit:cover;display:block}
+.acct-chip{display:inline-flex;flex:none;border-radius:50%;text-decoration:none;box-shadow:0 0 0 2px var(--surface),0 0 0 3.5px var(--line)}
+.acct-chip:focus-visible{outline-offset:3px}
+.account.in{align-items:center;padding:12px 14px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r)}
+.side-account{display:none}
 @media (min-width:900px){
-  nav.tabs .side-login{display:inline-grid;margin:14px 12px 0;justify-self:start}
-  nav.tabs a.avatar-chip{display:grid;padding:0;height:30px;gap:0;font-size:14px;color:var(--paper)}
+  .acct-chip,.login-chip{display:none}
+  nav.tabs .side-account{display:block;margin-top:auto;min-width:0}
+  .side-link{display:flex;align-items:center;gap:10px;padding:10px;border-radius:12px;text-decoration:none;color:var(--ink);min-width:0}
+  .side-link:hover{background:var(--paper)}
+  .side-account.out{padding:10px 4px}
+  .side-who{display:flex;flex-direction:column;min-width:0;line-height:1.25}
+  .side-who b{font-size:14px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .side-who span{font-size:12px;color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 }
 .dialog .save-emoji{font-size:34px}

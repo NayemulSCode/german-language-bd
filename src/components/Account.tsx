@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import { useAuth } from '../auth'
 import { useApp } from '../state'
 import { useT } from '../i18n/useT'
+import { Avatar } from './Avatar'
 
 /** The few facts that make signing in worth it (shown on the Home card, in the Profile card and in the dialog). */
 function Benefits() {
@@ -17,8 +18,8 @@ function Benefits() {
 
 /** Whether the sign-in UI exists at all: it needs Supabase to be configured, and stays hidden while we find out if someone is already signed in. */
 export function useCanSignIn() {
-  const { configured, loading, email } = useAuth()
-  return { show: configured && !loading, email }
+  const { configured, loading, email, name, avatarUrl } = useAuth()
+  return { show: configured && !loading, email, name, avatarUrl }
 }
 
 /** Signed-in status (email, sync state, log out) or, when signed out, the "save your progress" card. Renders nothing when Supabase is not configured. */
@@ -32,7 +33,7 @@ export function Account() {
 
   if (email) {
     return (
-      <div className="account" aria-live="polite">
+      <div className="account in" aria-live="polite">
         <div className="who bn">
           <b>{email}</b>
           <span className={`sync ${syncStatus}`}>{syncStatus === 'off' ? '' : t(`auth.status.${syncStatus}`)}</span>
@@ -98,18 +99,51 @@ export function LoginNudge() {
   )
 }
 
-/** A small "Log in" button (top bar and side menu). When signed in it becomes a round avatar that opens the profile. */
-export function LoginChip({ className = '' }: { className?: string }) {
-  const { show, email } = useCanSignIn()
+/** Top bar (phones and tablets): a "Log in" button, or your round profile picture that opens the profile once signed in. */
+export function LoginChip() {
+  const { show, email, name, avatarUrl } = useCanSignIn()
   const { t } = useT()
   const [open, setOpen] = useState(false)
   if (!show) return null
-  if (email) return <a className={`avatar-chip ${className}`} href="#me" aria-label={email} title={email}>{email[0].toUpperCase()}</a>
+  if (email) {
+    return (
+      <a className="acct-chip" href="#me" aria-label={name ?? email} title={email}>
+        <Avatar name={name ?? email} url={avatarUrl} size={34} />
+      </a>
+    )
+  }
   return (
     <>
-      <button className={`btn sm bn login-chip ${className}`} onClick={() => setOpen(true)}>{t('auth.login')}</button>
+      <button className="btn sm bn login-chip" onClick={() => setOpen(true)}>{t('auth.login')}</button>
       {open && <SignInDialog onClose={() => setOpen(false)} />}
     </>
+  )
+}
+
+/** Bottom of the side menu (desktop): picture, name and email linking to the profile, or a "Log in" button. */
+export function SideAccount() {
+  const { show, email, name, avatarUrl } = useCanSignIn()
+  const { t } = useT()
+  const [open, setOpen] = useState(false)
+  if (!show) return null
+  if (email) {
+    return (
+      <div className="side-account">
+        <a className="side-link" href="#me" title={email}>
+          <Avatar name={name ?? email} url={avatarUrl} size={36} />
+          <span className="side-who">
+            <b>{name ?? email.split('@')[0]}</b>
+            <span>{email}</span>
+          </span>
+        </a>
+      </div>
+    )
+  }
+  return (
+    <div className="side-account out">
+      <button className="btn sm bn" onClick={() => setOpen(true)}>{t('auth.login')}</button>
+      {open && <SignInDialog onClose={() => setOpen(false)} />}
+    </div>
   )
 }
 
