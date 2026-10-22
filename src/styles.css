@@ -435,3 +435,5 @@ body.in-lesson main{padding:0;max-width:none}
   .side-who span{font-size:12px;color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 }
 .dialog .save-emoji{font-size:34px}
+
+.dict-lang{display:flex;align-items:center;flex-wrap:wrap;gap:6px 10px;margin-top:10px}

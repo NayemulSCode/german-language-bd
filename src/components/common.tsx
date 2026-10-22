@@ -40,19 +40,28 @@ export function Tr({ bn, en }: { bn: string; en: string }) {
   )
 }
 
-export function Prefs() {
-  const { progress, setLang, setSlow } = useApp()
+/** Bangla / English / Both: which translations to show next to the German. */
+export function LangSeg() {
+  const { progress, setLang } = useApp()
   const { t } = useT()
   const opts: [Lang, string][] = [['bn', 'বাংলা'], ['en', 'English'], ['both', t('lang.both')]]
   return (
+    <div className="seg" role="group" aria-label={t('lang.aria')}>
+      {opts.map(([k, label]) => (
+        <button key={k} className={k === 'en' ? '' : 'bn'} aria-pressed={progress.lang === k} onClick={() => setLang(k)}>
+          {label}
+        </button>
+      ))}
+    </div>
+  )
+}
+
+export function Prefs() {
+  const { progress, setSlow } = useApp()
+  const { t } = useT()
+  return (
     <div className="prefs">
-      <div className="seg" role="group" aria-label={t('lang.aria')}>
-        {opts.map(([k, label]) => (
-          <button key={k} className={k === 'en' ? '' : 'bn'} aria-pressed={progress.lang === k} onClick={() => setLang(k)}>
-            {label}
-          </button>
-        ))}
-      </div>
+      <LangSeg />
       <label className="toggle bn">
         <input type="checkbox" checked={progress.slow} onChange={(e) => setSlow(e.target.checked)} /> {t('lang.slow')}
       </label>

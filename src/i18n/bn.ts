@@ -188,6 +188,7 @@ export const BN = {
   "review.tapNote": "মনে আছে অর্থ কী? ট্যাপ করে দেখুন",
   "review.rateHint": "উল্টানোর পর নিজেই বলুন কতটা মনে ছিল — সেই অনুযায়ী পরের রিভিউর তারিখ ঠিক হবে।",
   "dict.placeholder": "শব্দ লিখুন: Stadt, শহর, city…",
+  "dict.meanings": "অর্থ দেখান:",
   "dict.search": "শব্দ খুঁজুন",
   "dict.results": "{n}টি ফল",
   "dict.total": "মোট {n}টি শব্দ",

@@ -22,7 +22,7 @@ export default defineConfig({
       manifest: {
         name: 'Sprachbrücke',
         short_name: 'Sprachbrücke',
-        description: 'জার্মান ভাষা শিখুন A1 থেকে B1 — বাংলা ও ইংরেজি সহায়তাসহ',
+        description: 'Learn German A1 to B1 with Bangla and English support · জার্মান ভাষা শিখুন A1 থেকে B1',
         lang: 'bn',
         start_url: '/',
         display: 'standalone',
