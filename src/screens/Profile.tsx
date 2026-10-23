@@ -1,5 +1,6 @@
 import { useApp } from '../state'
 import { LESSONS } from '../lib/content'
+import { isCore } from '../lib/course'
 import { GOALS, type Lang, type Theme, type Ui } from '../lib/storage'
 import { useT } from '../i18n/useT'
 import type { Key } from '../i18n/core'
@@ -23,7 +24,7 @@ export function ProfileScreen() {
   const { t, n, ui } = useT()
   const passedLessons = LESSONS.filter((l) => lessonProgress(l.id).passed)
   const learnedWords = passedLessons.reduce((n, l) => n + l.words, 0)
-  const a1 = LESSONS.filter((l) => l.level === 'A1')
+  const a1 = LESSONS.filter((l) => l.level === 'A1' && isCore(l))
   const a1Done = a1.filter((l) => lessonProgress(l.id).passed).length
   const a1Pct = a1.length ? (a1Done / a1.length) * 100 : 0
   const days = recentWeeks(5)

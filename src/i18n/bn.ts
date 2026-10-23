@@ -137,6 +137,7 @@ export const BN = {
   "lesson.step.quiz": "কুইজ",
   "lesson.close": "লেসন বন্ধ করে কোর্সে ফিরুন",
   "lesson.barTitle": "ইউনিট {u} · লেসন {l}",
+  "lesson.barTitle0": "শুরু এখানে · লেসন {l}",
   "lesson.steps": "লেসনের ধাপ",
   "lesson.loadFail": "লেসন লোড হয়নি। ইন্টারনেট দেখে আবার চেষ্টা করুন।",
   "tab.home": "হোম",

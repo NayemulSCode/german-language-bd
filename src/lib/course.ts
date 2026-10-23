@@ -10,6 +10,9 @@ export interface StateOptions {
   unlockAll?: boolean // nothing is locked
 }
 
+/** Unit 0 is the optional "Start here" unit (sounds, letters, numbers): it never blocks the path and does not count towards finishing a level. */
+export const isCore = (l: { unit: number }) => l.unit > 0
+
 export function lessonStates(lessons: LessonMeta[], passed: (id: string) => boolean, opts: StateOptions = {}): Map<string, LessonState> {
   const out = new Map<string, LessonState>()
   const start = opts.startUnit ?? 1
@@ -19,6 +22,10 @@ export function lessonStates(lessons: LessonMeta[], passed: (id: string) => bool
     (l.level === 'A1' && (a2 > 0 || b1 > 0 || l.unit < start)) || (l.level === 'A2' && (b1 > 0 || l.unit < a2)) || (l.level === 'B1' && l.unit < b1)
   let foundNow = false
   for (const l of lessons) {
+    if (!isCore(l)) {
+      out.set(l.id, passed(l.id) ? 'done' : 'open')
+      continue
+    }
     if (passed(l.id)) out.set(l.id, 'done')
     else if (opts.unlockAll || skipped(l)) out.set(l.id, 'open')
     else if (!foundNow) {
@@ -28,7 +35,7 @@ export function lessonStates(lessons: LessonMeta[], passed: (id: string) => bool
   }
   // with everything unlocked there is still a natural "next": the first lesson not passed
   if (opts.unlockAll && !foundNow) {
-    const first = lessons.find((l) => !passed(l.id) && !skipped(l))
+    const first = lessons.find((l) => isCore(l) && !passed(l.id) && !skipped(l))
     if (first) out.set(first.id, 'now')
   }
   return out

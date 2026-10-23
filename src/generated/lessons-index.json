@@ -1,5 +1,61 @@
 [
   {
+    "id": "a1-u00-l01",
+    "level": "A1",
+    "unit": 0,
+    "lesson": 1,
+    "title": {
+      "bn": "জার্মান বর্ণমালা",
+      "en": "The German alphabet",
+      "de": "Das Alphabet"
+    },
+    "status": "draft",
+    "minutes": 10,
+    "words": 8
+  },
+  {
+    "id": "a1-u00-l02",
+    "level": "A1",
+    "unit": 0,
+    "lesson": 2,
+    "title": {
+      "bn": "জার্মানের ধ্বনি ও উচ্চারণ",
+      "en": "The sounds of German",
+      "de": "Die Laute des Deutschen"
+    },
+    "status": "draft",
+    "minutes": 12,
+    "words": 8
+  },
+  {
+    "id": "a1-u00-l03",
+    "level": "A1",
+    "unit": 0,
+    "lesson": 3,
+    "title": {
+      "bn": "সংখ্যা, বয়স ও সাল",
+      "en": "Numbers, age and years",
+      "de": "Zahlen"
+    },
+    "status": "draft",
+    "minutes": 12,
+    "words": 9
+  },
+  {
+    "id": "a1-u00-l04",
+    "level": "A1",
+    "unit": 0,
+    "lesson": 4,
+    "title": {
+      "bn": "বার, মাস ও তারিখ",
+      "en": "Days, months and dates",
+      "de": "Tage, Monate, Datum"
+    },
+    "status": "draft",
+    "minutes": 12,
+    "words": 9
+  },
+  {
     "id": "a1-u01-l01",
     "level": "A1",
     "unit": 1,

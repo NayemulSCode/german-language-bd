@@ -1,0 +1,577 @@
+{
+  "id": "a1-u00-l04",
+  "level": "A1",
+  "unit": 0,
+  "lesson": 4,
+  "title": {
+    "de": "Tage, Monate, Datum",
+    "bn": "বার, মাস ও তারিখ",
+    "en": "Days, months and dates"
+  },
+  "status": "draft",
+  "minutes": 12,
+  "hook": {
+    "de": "Morgen, morgen, nur nicht heute, sagen alle faulen Leute.",
+    "who": "Sprichwort",
+    "bn": "কাল, কাল, আজ নয়, অলসরা এই কথা কয়।",
+    "en": "Tomorrow, tomorrow, just not today — that is what lazy people say."
+  },
+  "goals": [
+    "সাত দিন ও বারো মাসের নাম",
+    "am Montag, im Mai ব্যবহার করা",
+    "তারিখ ও জন্মদিন বলা"
+  ],
+  "words": [
+    {
+      "id": "tag",
+      "de": "Tag",
+      "art": "der",
+      "pl": "die Tage",
+      "pos": "বিশেষ্য",
+      "bn": "দিন",
+      "en": "day"
+    },
+    {
+      "id": "woche",
+      "de": "Woche",
+      "art": "die",
+      "pl": "die Wochen",
+      "pos": "বিশেষ্য",
+      "bn": "সপ্তাহ",
+      "en": "week"
+    },
+    {
+      "id": "monat",
+      "de": "Monat",
+      "art": "der",
+      "pl": "die Monate",
+      "pos": "বিশেষ্য",
+      "bn": "মাস",
+      "en": "month"
+    },
+    {
+      "id": "datum",
+      "de": "Datum",
+      "art": "das",
+      "pos": "বিশেষ্য",
+      "bn": "তারিখ",
+      "en": "date"
+    },
+    {
+      "id": "geburtstag",
+      "de": "Geburtstag",
+      "art": "der",
+      "pl": "die Geburtstage",
+      "pos": "বিশেষ্য",
+      "bn": "জন্মদিন",
+      "en": "birthday"
+    },
+    {
+      "id": "heute",
+      "de": "heute",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "আজ",
+      "en": "today"
+    },
+    {
+      "id": "morgen",
+      "de": "morgen",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "আগামীকাল",
+      "en": "tomorrow"
+    },
+    {
+      "id": "gestern",
+      "de": "gestern",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "গতকাল",
+      "en": "yesterday"
+    },
+    {
+      "id": "wochenende",
+      "de": "Wochenende",
+      "art": "das",
+      "pl": "die Wochenenden",
+      "pos": "বিশেষ্য",
+      "bn": "সপ্তাহান্ত",
+      "en": "weekend"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Muna",
+      "bn": [
+        "আজ",
+        "কী",
+        "বার?"
+      ],
+      "en": [
+        "What",
+        "day",
+        "is",
+        "it",
+        "today?"
+      ],
+      "de": [
+        {
+          "t": "Welcher",
+          "b": [
+            1
+          ],
+          "e": [
+            0
+          ],
+          "l": "Welcher",
+          "gb": "কোন",
+          "ge": "which",
+          "n": "Welcher Tag? — পুংলিঙ্গ প্রশ্ন"
+        },
+        {
+          "t": "Tag",
+          "b": [
+            2
+          ],
+          "e": [
+            1
+          ],
+          "l": "Tag",
+          "gb": "দিন",
+          "ge": "day",
+          "n": "der Tag"
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "ist",
+          "gb": "হলো",
+          "ge": "is",
+          "n": "ist"
+        },
+        {
+          "t": "heute?",
+          "b": [
+            0
+          ],
+          "e": [
+            4
+          ],
+          "l": "heute",
+          "gb": "আজ",
+          "ge": "today",
+          "n": "heute = আজ"
+        }
+      ]
+    },
+    {
+      "who": "Rafi",
+      "bn": [
+        "আজ",
+        "শুক্রবার।"
+      ],
+      "en": [
+        "Today",
+        "is",
+        "Friday."
+      ],
+      "de": [
+        {
+          "t": "Heute",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Heute",
+          "gb": "আজ",
+          "ge": "today",
+          "n": "heute = আজ"
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "ist",
+          "gb": "হলো",
+          "ge": "is",
+          "n": "ist"
+        },
+        {
+          "t": "Freitag.",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "Freitag",
+          "gb": "শুক্রবার",
+          "ge": "Friday",
+          "n": "Freitag — পুংলিঙ্গ (der Freitag)"
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "আমার",
+        "জন্মদিন",
+        "পনেরোই",
+        "মে।"
+      ],
+      "en": [
+        "My",
+        "birthday",
+        "is",
+        "on",
+        "May",
+        "15th."
+      ],
+      "de": [
+        {
+          "t": "Mein",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Mein",
+          "gb": "আমার",
+          "ge": "my",
+          "n": "der Geburtstag → mein"
+        },
+        {
+          "t": "Geburtstag",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "Geburtstag",
+          "gb": "জন্মদিন",
+          "ge": "birthday",
+          "n": "der Geburtstag"
+        },
+        {
+          "t": "ist",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "ist",
+          "gb": "হলো",
+          "ge": "is",
+          "n": "ist"
+        },
+        {
+          "t": "am",
+          "b": [],
+          "e": [
+            3
+          ],
+          "l": "am",
+          "gb": "তারিখে",
+          "ge": "on the",
+          "n": "am = an dem: am 15. Mai"
+        },
+        {
+          "t": "15.",
+          "s": "fünfzehnten",
+          "b": [
+            2
+          ],
+          "e": [
+            5
+          ],
+          "l": "15",
+          "gb": "পনেরো",
+          "ge": "15th",
+          "n": "15. = der fünfzehnte (পরে শিখবেন) — আপাতত সংখ্যা + বিন্দু"
+        },
+        {
+          "t": "Mai.",
+          "b": [
+            3
+          ],
+          "e": [
+            4
+          ],
+          "l": "Mai",
+          "gb": "মে",
+          "ge": "May",
+          "n": "der Mai"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "chips",
+      "title": "সপ্তাহের সাত দিন",
+      "intro": "সব দিনের নামই পুংলিঙ্গ: der Montag, der Dienstag… ট্যাপ করে শুনুন।",
+      "cols": 2,
+      "items": [
+        {
+          "t": "Montag",
+          "bn": "সোমবার",
+          "en": "Monday"
+        },
+        {
+          "t": "Dienstag",
+          "bn": "মঙ্গলবার",
+          "en": "Tuesday"
+        },
+        {
+          "t": "Mittwoch",
+          "bn": "বুধবার",
+          "en": "Wednesday"
+        },
+        {
+          "t": "Donnerstag",
+          "bn": "বৃহস্পতিবার",
+          "en": "Thursday"
+        },
+        {
+          "t": "Freitag",
+          "bn": "শুক্রবার",
+          "en": "Friday"
+        },
+        {
+          "t": "Samstag",
+          "bn": "শনিবার",
+          "en": "Saturday"
+        },
+        {
+          "t": "Sonntag",
+          "bn": "রবিবার",
+          "en": "Sunday"
+        }
+      ],
+      "note": "„am“ + দিন: am Montag (সোমবারে), am Wochenende।"
+    },
+    {
+      "type": "chips",
+      "title": "বারো মাস",
+      "intro": "মাসের নামও পুংলিঙ্গ: der Januar, der Mai। „im“ দিয়ে: im Mai (মে মাসে)।",
+      "cols": 3,
+      "items": [
+        {
+          "t": "Januar",
+          "bn": "জানুয়ারি",
+          "en": "January"
+        },
+        {
+          "t": "Februar",
+          "bn": "ফেব্রুয়ারি",
+          "en": "February"
+        },
+        {
+          "t": "März",
+          "bn": "মার্চ",
+          "en": "March"
+        },
+        {
+          "t": "April",
+          "bn": "এপ্রিল",
+          "en": "April"
+        },
+        {
+          "t": "Mai",
+          "bn": "মে",
+          "en": "May"
+        },
+        {
+          "t": "Juni",
+          "bn": "জুন",
+          "en": "June"
+        },
+        {
+          "t": "Juli",
+          "bn": "জুলাই",
+          "en": "July"
+        },
+        {
+          "t": "August",
+          "bn": "আগস্ট",
+          "en": "August"
+        },
+        {
+          "t": "September",
+          "bn": "সেপ্টেম্বর",
+          "en": "September"
+        },
+        {
+          "t": "Oktober",
+          "bn": "অক্টোবর",
+          "en": "October"
+        },
+        {
+          "t": "November",
+          "bn": "নভেম্বর",
+          "en": "November"
+        },
+        {
+          "t": "Dezember",
+          "bn": "ডিসেম্বর",
+          "en": "December"
+        }
+      ]
+    },
+    {
+      "type": "chips",
+      "title": "চার ঋতু",
+      "cols": 2,
+      "items": [
+        {
+          "t": "der Frühling",
+          "bn": "বসন্ত",
+          "en": "spring"
+        },
+        {
+          "t": "der Sommer",
+          "bn": "গ্রীষ্ম",
+          "en": "summer"
+        },
+        {
+          "t": "der Herbst",
+          "bn": "শরৎ",
+          "en": "autumn"
+        },
+        {
+          "t": "der Winter",
+          "bn": "শীত",
+          "en": "winter"
+        }
+      ],
+      "note": "im Sommer = গ্রীষ্মে, im Winter = শীতে।"
+    },
+    {
+      "type": "text",
+      "title": "তারিখ বলা ও লেখা",
+      "text": "জার্মানে ক্রম হলো দিন · মাস · সাল: 15.05.2025 = „der fünfzehnte Mai“। ঘটনার জন্য: „am 15. Mai“ (পনেরোই মে)। জন্মদিন: „Mein Geburtstag ist am 15. Mai.“"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "Freitag",
+      "options": [
+        "শুক্রবার",
+        "শনিবার",
+        "বুধবার",
+        "সোমবার"
+      ],
+      "answer": 0,
+      "why": "Freitag = শুক্রবার।"
+    },
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "Mittwoch",
+      "options": [
+        "বুধবার",
+        "মঙ্গলবার",
+        "বৃহস্পতিবার",
+        "রবিবার"
+      ],
+      "answer": 0,
+      "why": "Mittwoch = বুধবার (সপ্তাহের মাঝখান)।"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Samstag“ কোন বার?",
+      "options": [
+        "শনিবার",
+        "রবিবার",
+        "শুক্রবার",
+        "সোমবার"
+      ],
+      "answer": 0,
+      "why": "Samstag = শনিবার, Sonntag = রবিবার।"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Mai“ কোন মাস?",
+      "options": [
+        "মে",
+        "মার্চ",
+        "জুন",
+        "জুলাই"
+      ],
+      "answer": 0,
+      "why": "Mai = মে।",
+      "word": "monat"
+    },
+    {
+      "type": "mcq",
+      "prompt": "শূন্যস্থান পূরণ করুন",
+      "sub": "___ ist Freitag.",
+      "options": [
+        "heute",
+        "gestern",
+        "Woche",
+        "Datum"
+      ],
+      "answer": 0,
+      "why": "Heute ist Freitag = আজ শুক্রবার।",
+      "word": "heute"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„gestern“ মানে কী?",
+      "options": [
+        "গতকাল",
+        "আজ",
+        "আগামীকাল",
+        "এখন"
+      ],
+      "answer": 0,
+      "why": "gestern = গতকাল, morgen = আগামীকাল।",
+      "word": "gestern"
+    },
+    {
+      "type": "order",
+      "prompt": "শব্দ সাজান: „আমার জন্মদিন পনেরোই মে।“",
+      "tiles": [
+        "am",
+        "Mein",
+        "15.",
+        "Geburtstag",
+        "Mai",
+        "ist"
+      ],
+      "answer": [
+        "Mein",
+        "Geburtstag",
+        "ist",
+        "am",
+        "15.",
+        "Mai"
+      ],
+      "why": "Mein Geburtstag ist am 15. Mai।",
+      "word": "geburtstag"
+    },
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "Heute ist Sonntag.",
+      "options": [
+        "আজ রবিবার",
+        "আজ শনিবার",
+        "কাল সোমবার",
+        "গতকাল শুক্রবার"
+      ],
+      "answer": 0,
+      "why": "Sonntag = রবিবার।"
+    }
+  ],
+  "passMark": 0.8
+}

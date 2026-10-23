@@ -24,3 +24,12 @@ describe('speakableTexts', () => {
     expect(new Set(texts).size).toBe(texts.length)
   })
 })
+
+describe('speakableTexts for tappable chips', () => {
+  const lesson = Lesson.parse(JSON.parse(readFileSync(new URL('../../content/a1/unit00/lesson01.json', import.meta.url), 'utf8')))
+  const texts = speakableTexts(lesson)
+  it('includes what a chip speaks: its "s" when it has one, else its text', () => {
+    expect(texts).toContain('Beh')
+    expect(texts).toContain('Es-Zett')
+  })
+})

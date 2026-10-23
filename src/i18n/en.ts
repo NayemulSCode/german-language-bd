@@ -139,6 +139,7 @@ export const EN: Record<keyof typeof BN, string> = {
   "lesson.step.quiz": "Quiz",
   "lesson.close": "Close the lesson and go back to the course",
   "lesson.barTitle": "Unit {u} · Lesson {l}",
+  "lesson.barTitle0": "Start here · Lesson {l}",
   "lesson.steps": "Lesson steps",
   "lesson.loadFail": "The lesson didn't load. Check your internet and try again.",
   "tab.home": "Home",

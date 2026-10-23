@@ -70,7 +70,7 @@ describe('the English files in content-en', () => {
   })
 
   it.each([
-    ['a1', 40],
+    ['a1', 44], // ten units plus the optional Start here unit (4 lessons)
     ['a2', 48],
     ['b1', 48],
   ])('every lesson overlay is valid and complete for %s', (level, count) => {

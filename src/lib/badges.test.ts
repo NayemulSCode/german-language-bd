@@ -33,6 +33,12 @@ describe('badges', () => {
     expect(all.has('a2-done')).toBe(false) // no A2 lessons in the list: never "done"
   })
 
+  it('does not count the optional Start here unit towards finishing a level', () => {
+    const S: LessonRef[] = [{ id: 'a1-u00-l01', level: 'A1', unit: 0, words: 10 }, ...L.map((l) => ({ id: l.id, level: l.level, words: l.words, unit: 1 }))]
+    expect(earnedBadges(passed(['a1-u01-l01', 'a1-u01-l02']), S).has('a1-done')).toBe(true)
+    expect(earnedBadges(passed(['a1-u00-l01']), S).has('a1-done')).toBe(false)
+  })
+
   it('earns perfect only on a real (5+) full-marks quiz', () => {
     expect(earnedBadges(passed([], { lessons: { x: { done: [], best: 3, total: 3, passed: true } } }), L).has('perfect')).toBe(false)
     expect(earnedBadges(passed([], { lessons: { x: { done: [], best: 8, total: 8, passed: true } } }), L).has('perfect')).toBe(true)

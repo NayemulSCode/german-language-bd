@@ -1,0 +1,616 @@
+{
+  "id": "a1-u00-l02",
+  "level": "A1",
+  "unit": 0,
+  "lesson": 2,
+  "title": {
+    "de": "Die Laute des Deutschen",
+    "bn": "জার্মানের ধ্বনি ও উচ্চারণ",
+    "en": "The sounds of German"
+  },
+  "status": "draft",
+  "minutes": 12,
+  "hook": {
+    "de": "Übung macht den Meister.",
+    "who": "Sprichwort",
+    "bn": "অনুশীলনেই দক্ষতা।",
+    "en": "Practice makes perfect."
+  },
+  "goals": [
+    "লম্বা ও ছোট স্বর চেনা",
+    "ei, ie, eu, au পড়া",
+    "w, v, z, j, sch, ch ঠিকভাবে বলা"
+  ],
+  "words": [
+    {
+      "id": "laut",
+      "de": "Laut",
+      "art": "der",
+      "pl": "die Laute",
+      "pos": "বিশেষ্য",
+      "bn": "ধ্বনি",
+      "en": "sound"
+    },
+    {
+      "id": "aussprache",
+      "de": "Aussprache",
+      "art": "die",
+      "pos": "বিশেষ্য",
+      "bn": "উচ্চারণ",
+      "en": "pronunciation"
+    },
+    {
+      "id": "vokal",
+      "de": "Vokal",
+      "art": "der",
+      "pl": "die Vokale",
+      "pos": "বিশেষ্য",
+      "bn": "স্বরবর্ণ",
+      "en": "vowel"
+    },
+    {
+      "id": "konsonant",
+      "de": "Konsonant",
+      "art": "der",
+      "pl": "die Konsonanten",
+      "pos": "বিশেষ্য",
+      "bn": "ব্যঞ্জনবর্ণ",
+      "en": "consonant"
+    },
+    {
+      "id": "lang",
+      "de": "lang",
+      "pos": "বিশেষণ",
+      "bn": "লম্বা, দীর্ঘ",
+      "en": "long"
+    },
+    {
+      "id": "kurz",
+      "de": "kurz",
+      "pos": "বিশেষণ",
+      "bn": "ছোট, হ্রস্ব",
+      "en": "short"
+    },
+    {
+      "id": "sprechen",
+      "de": "sprechen",
+      "pos": "ক্রিয়া",
+      "bn": "বলা, কথা বলা",
+      "en": "to speak"
+    },
+    {
+      "id": "nachsprechen",
+      "de": "nachsprechen",
+      "pos": "ক্রিয়া",
+      "bn": "পিছনে বলা, অনুকরণ করে বলা",
+      "en": "to repeat after someone"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Muna",
+      "bn": [
+        "এটা",
+        "কীভাবে",
+        "উচ্চারণ",
+        "করে?"
+      ],
+      "en": [
+        "How",
+        "do",
+        "you",
+        "say",
+        "that?"
+      ],
+      "de": [
+        {
+          "t": "Wie",
+          "b": [
+            1
+          ],
+          "e": [
+            0
+          ],
+          "l": "Wie",
+          "gb": "কীভাবে",
+          "ge": "how",
+          "n": "প্রশ্নবোধক শব্দ"
+        },
+        {
+          "t": "spricht",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "spricht",
+          "gb": "বলে",
+          "ge": "says",
+          "n": "sprechen → er/man spricht (e → i)"
+        },
+        {
+          "t": "man",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "man",
+          "gb": "(সবাই)",
+          "ge": "one; you",
+          "n": "man = সাধারণ কেউ"
+        },
+        {
+          "t": "das",
+          "b": [
+            0
+          ],
+          "e": [
+            4
+          ],
+          "l": "das",
+          "gb": "এটা",
+          "ge": "that",
+          "n": "das = এটা"
+        },
+        {
+          "t": "aus?",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "aussprechen",
+          "gb": "(বের করে)",
+          "ge": "out",
+          "n": "aussprechen = aus + sprechen (hier: man spricht … aus)"
+        }
+      ]
+    },
+    {
+      "who": "Rafi",
+      "bn": [
+        "„Schule“।",
+        "প্রথমে",
+        "শ,",
+        "তারপর",
+        "উ।"
+      ],
+      "en": [
+        "“Schule”.",
+        "First",
+        "sh,",
+        "then",
+        "oo."
+      ],
+      "de": [
+        {
+          "t": "Schule.",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Schule",
+          "gb": "স্কুল",
+          "ge": "school",
+          "n": "sch = „শ“"
+        },
+        {
+          "t": "Erst",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "Erst",
+          "gb": "প্রথমে",
+          "ge": "first",
+          "n": "erst = প্রথমে"
+        },
+        {
+          "t": "sch,",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "sch",
+          "gb": "শ",
+          "ge": "sh",
+          "n": "sch = এক শব্দাংশ, এক ধ্বনি „শ“"
+        },
+        {
+          "t": "dann",
+          "b": [
+            3
+          ],
+          "e": [
+            3
+          ],
+          "l": "dann",
+          "gb": "তারপর",
+          "ge": "then",
+          "n": "dann = তারপর"
+        },
+        {
+          "t": "u.",
+          "b": [
+            4
+          ],
+          "e": [
+            4
+          ],
+          "l": "u",
+          "gb": "উ",
+          "ge": "oo",
+          "n": "u = „উ“"
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "ঠিক",
+        "আছে,",
+        "আমি",
+        "নকল",
+        "করছি!"
+      ],
+      "en": [
+        "Okay,",
+        "I",
+        "repeat",
+        "it!"
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            2
+          ],
+          "e": [
+            1
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": "ich — আমি"
+        },
+        {
+          "t": "spreche",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            2
+          ],
+          "l": "spreche",
+          "gb": "বলি",
+          "ge": "speak",
+          "n": "ich spreche (e → ich-এর সাথে বদলায় না)"
+        },
+        {
+          "t": "nach!",
+          "b": [
+            3,
+            4
+          ],
+          "e": [
+            2,
+            3
+          ],
+          "l": "nachsprechen",
+          "gb": "অনুকরণ করে",
+          "ge": "after",
+          "n": "nachsprechen = পিছনে বলা"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "chips",
+      "title": "স্বরবর্ণ: লম্বা আর ছোট",
+      "intro": "স্বর লম্বা হয় একটাই ব্যঞ্জনের আগে (Name), আর ছোট হয় দুই ব্যঞ্জনের আগে (Mann)। ট্যাপ করে শুনুন।",
+      "cols": 4,
+      "items": [
+        {
+          "t": "a",
+          "s": "Ah",
+          "bn": "আ (লম্বা)",
+          "en": "long “ah”",
+          "ex": "Vater · Haar"
+        },
+        {
+          "t": "e",
+          "s": "Eh",
+          "bn": "এ",
+          "en": "“ay”",
+          "ex": "Name · See"
+        },
+        {
+          "t": "i",
+          "s": "Ih",
+          "bn": "ই/ঈ",
+          "en": "“ee”",
+          "ex": "Kino · Tisch"
+        },
+        {
+          "t": "o",
+          "s": "Oh",
+          "bn": "ও",
+          "en": "“oh”",
+          "ex": "Brot · Ofen"
+        },
+        {
+          "t": "u",
+          "s": "Uh",
+          "bn": "উ",
+          "en": "“oo”",
+          "ex": "gut · Schule"
+        },
+        {
+          "t": "ä",
+          "s": "Äh",
+          "bn": "এ",
+          "en": "“e” in bed",
+          "ex": "Bär · spät"
+        },
+        {
+          "t": "ö",
+          "s": "Öh",
+          "bn": "ঠোঁট গোল এ",
+          "en": "round “e”",
+          "ex": "schön · Öl"
+        },
+        {
+          "t": "ü",
+          "s": "Üh",
+          "bn": "ঠোঁট গোল ই",
+          "en": "round “ee”",
+          "ex": "Tür · für"
+        }
+      ],
+      "note": "ä, ö, ü-এর জন্য ঠোঁটের আকার বদলান: ö = ঠোঁট গোল করে „এ“, ü = ঠোঁট গোল করে „ই“।"
+    },
+    {
+      "type": "chips",
+      "title": "জোড়া স্বর",
+      "intro": "ei আর ie উল্টো পড়া হয়! ei = আই, ie = লম্বা ঈ।",
+      "cols": 3,
+      "items": [
+        {
+          "t": "ei",
+          "s": "Eis",
+          "bn": "আই",
+          "en": "“eye”",
+          "ex": "Eis · mein"
+        },
+        {
+          "t": "ie",
+          "s": "Biene",
+          "bn": "লম্বা ঈ",
+          "en": "long “ee”",
+          "ex": "Bier · Liebe"
+        },
+        {
+          "t": "eu",
+          "s": "Euro",
+          "bn": "অয়",
+          "en": "“oy”",
+          "ex": "Euro · heute"
+        },
+        {
+          "t": "äu",
+          "s": "Häuser",
+          "bn": "অয়",
+          "en": "“oy”",
+          "ex": "Häuser · träumen"
+        },
+        {
+          "t": "au",
+          "s": "Haus",
+          "bn": "আউ",
+          "en": "“ow”",
+          "ex": "Haus · auch"
+        }
+      ]
+    },
+    {
+      "type": "chips",
+      "title": "যে ব্যঞ্জনগুলো ইংরেজি/বাংলার সাথে মেলে না",
+      "intro": "w = ভ, v = ফ, z = ৎস, j = ইয়, sch = শ, ch = নরম হ — জার্মান এ ছয়টাই বেশি ভুল হয়।",
+      "cols": 5,
+      "items": [
+        {
+          "t": "w",
+          "s": "Wasser",
+          "bn": "ভ",
+          "en": "“v”",
+          "ex": "Wasser · wohnen"
+        },
+        {
+          "t": "v",
+          "s": "Vater",
+          "bn": "ফ",
+          "en": "“f”",
+          "ex": "Vater · viel"
+        },
+        {
+          "t": "z",
+          "s": "Zahl",
+          "bn": "ৎস",
+          "en": "“ts”",
+          "ex": "Zahl · zehn"
+        },
+        {
+          "t": "j",
+          "s": "Jahr",
+          "bn": "ইয়",
+          "en": "“y”",
+          "ex": "Jahr · ja"
+        },
+        {
+          "t": "sch",
+          "s": "Schule",
+          "bn": "শ",
+          "en": "“sh”",
+          "ex": "Schule · schön"
+        },
+        {
+          "t": "ch",
+          "s": "ich",
+          "bn": "হ-এর মতো নরম",
+          "en": "soft “h”",
+          "ex": "ich · Milch"
+        },
+        {
+          "t": "sp-",
+          "s": "Sport",
+          "bn": "শ্প",
+          "en": "“shp”",
+          "ex": "Sport · sprechen"
+        },
+        {
+          "t": "st-",
+          "s": "Straße",
+          "bn": "শ্ট",
+          "en": "“sht”",
+          "ex": "Straße · stehen"
+        },
+        {
+          "t": "s-",
+          "s": "Sonne",
+          "bn": "জ (শব্দের শুরুতে)",
+          "en": "“z”",
+          "ex": "Sonne · sagen"
+        },
+        {
+          "t": "tsch",
+          "s": "Tschüss",
+          "bn": "চ",
+          "en": "“ch”",
+          "ex": "Tschüss · Deutsch"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "উচ্চারণ ও বানান প্রায় মেলে",
+      "text": "জার্মানের বেশির ভাগ শব্দ যেভাবে লেখা, সেভাবেই পড়া হয়। শব্দের শেষে b, d, g অনেকটা p, t, k-এর মতো শোনায় (Tag → „টাক“)। আর r-কে গলার ভেতর থেকে হালকা করে বলা হয়, বাংলার র-এর মতো জিভ কাঁপিয়ে নয়।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "prompt": "w অক্ষরের উচ্চারণ কেমন?",
+      "options": [
+        "ভ",
+        "ও",
+        "ডব্লিউ",
+        "ফ"
+      ],
+      "answer": 0,
+      "why": "w = ভ: Wasser, wohnen।"
+    },
+    {
+      "type": "mcq",
+      "prompt": "z অক্ষরের উচ্চারণ কেমন?",
+      "options": [
+        "জ",
+        "ৎস",
+        "শ",
+        "স"
+      ],
+      "answer": 1,
+      "why": "z = ৎস: Zahl, zehn।"
+    },
+    {
+      "type": "mcq",
+      "prompt": "sch-এর উচ্চারণ কেমন?",
+      "options": [
+        "শ",
+        "স",
+        "চ",
+        "স্ক"
+      ],
+      "answer": 0,
+      "why": "sch = শ: Schule।"
+    },
+    {
+      "type": "mcq",
+      "prompt": "ei কীভাবে পড়া হয়?",
+      "options": [
+        "আই",
+        "লম্বা ঈ",
+        "এ-ই আলাদা করে",
+        "অয়"
+      ],
+      "answer": 0,
+      "why": "ei = আই (Eis, mein); ie = লম্বা ঈ।"
+    },
+    {
+      "type": "mcq",
+      "prompt": "ie কীভাবে পড়া হয়?",
+      "options": [
+        "লম্বা ঈ",
+        "আই",
+        "আউ",
+        "অয়"
+      ],
+      "answer": 0,
+      "why": "ie = লম্বা ঈ: Bier, Liebe।"
+    },
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "Schule",
+      "options": [
+        "স্কুল",
+        "সূর্য",
+        "সংখ্যা",
+        "বছর"
+      ],
+      "answer": 0,
+      "why": "Schule = স্কুল (sch = শ)।"
+    },
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "Ich spreche langsam.",
+      "options": [
+        "আমি ধীরে বলি",
+        "আমি দ্রুত লিখি",
+        "আমি শুনছি",
+        "আমি যাচ্ছি"
+      ],
+      "answer": 0,
+      "why": "langsam = ধীরে।"
+    },
+    {
+      "type": "order",
+      "prompt": "শব্দ সাজান: „এটা কীভাবে উচ্চারণ করে?“",
+      "tiles": [
+        "das",
+        "man",
+        "Wie",
+        "spricht"
+      ],
+      "answer": [
+        "Wie",
+        "spricht",
+        "man",
+        "das"
+      ],
+      "why": "প্রশ্নশব্দ, তারপর verb।",
+      "word": "sprechen"
+    }
+  ],
+  "passMark": 0.8
+}

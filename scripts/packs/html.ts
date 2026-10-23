@@ -73,6 +73,9 @@ td.chk { width: 6mm; color: #9AA3B8; font-size: 11pt; }
 .key .row { display: grid; grid-template-columns: 9mm 1fr; gap: 2mm; margin: 1.2mm 0; break-inside: avoid; }
 .key .ans { font-weight: 800; background: #E3F4EA; color: #146B3E; border-radius: 1.5mm; text-align: center; padding: .3mm 0; height: fit-content; }
 .small { font-size: 8.5pt; }
+.cells { display: grid; grid-template-columns: repeat(var(--cols, 4), 1fr); gap: 1.5mm; margin: 1.5mm 0 3mm; }
+.cell { border: 1px solid #DCE1EB; border-radius: 1.5mm; padding: 1.5mm; text-align: center; display: flex; flex-direction: column; break-inside: avoid; }
+.cell .de { font-size: 12pt; }
 `
 
 export function page(title: string, body: string): string {

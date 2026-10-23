@@ -27,6 +27,13 @@ describe('pickQuestions', () => {
   })
 })
 
+describe('pickQuestions with the Start here unit', () => {
+  it('never asks about unit 0', () => {
+    expect(lessons.some((l) => l.unit === 0)).toBe(true)
+    expect(pickQuestions(lessons).some((i) => i.unit === 0)).toBe(false)
+  })
+})
+
 describe('pickQuestions for A2', () => {
   const dirA2 = new URL('../../content/a2/', import.meta.url).pathname
   const a2 = readdirSync(dirA2).sort().flatMap((u) => readdirSync(join(dirA2, u)).sort().map((f) => Lesson.parse(JSON.parse(readFileSync(join(dirA2, u, f), 'utf8')))))

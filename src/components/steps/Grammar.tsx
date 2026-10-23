@@ -1,7 +1,47 @@
-import type { Lesson } from '../../schema/lesson'
+import { useState } from 'react'
+import type { Lesson, GrammarPanel } from '../../schema/lesson'
+import { useApp } from '../../state'
 import { NextButton } from '../common'
 import { useT } from '../../i18n/useT'
 import { hasBangla } from '../../lib/localize'
+
+type ChipsPanel = Extract<GrammarPanel, { type: 'chips' }>
+
+/** Tap a cell to hear it; the hint under it follows the Bangla / English preference. */
+function Chips({ g }: { g: ChipsPanel }) {
+  const { say, progress } = useApp()
+  const { t } = useT()
+  const [playing, setPlaying] = useState<number | null>(null)
+  return (
+    <div className="panel" style={{ marginTop: 12 }}>
+      {g.title && <h3 style={{ fontSize: 19 }}>{g.title}</h3>}
+      {g.intro && <p className="bn" style={{ margin: '6px 0 0' }}>{g.intro}</p>}
+      <div className="chips" style={{ ['--cols' as string]: g.cols }}>
+        {g.items.map((it, k) => (
+          <button
+            key={k}
+            className={`chip${playing === k ? ' playing' : ''}`}
+            aria-label={t('say.listen', { text: it.s ?? it.t })}
+            onClick={() => {
+              setPlaying(k)
+              say(it.s ?? it.t).finally(() => setPlaying((p) => (p === k ? null : p)))
+            }}
+          >
+            <span className="chip-t" lang="de">{it.t}</span>
+            {((progress.lang !== 'en' && it.bn) || (progress.lang !== 'bn' && it.en)) && (
+              <span className="chip-h">
+                {progress.lang !== 'en' && it.bn && <span className="bn">{it.bn}</span>}
+                {progress.lang !== 'bn' && it.en && <span>{it.en}</span>}
+              </span>
+            )}
+            {it.ex && <span className="chip-x" lang="de">{it.ex}</span>}
+          </button>
+        ))}
+      </div>
+      {g.note && <div className="note bn">{g.note}</div>}
+    </div>
+  )
+}
 
 export function Grammar({ lesson, onNext }: { lesson: Lesson; onNext(): void }) {
   const { t } = useT()
@@ -11,6 +51,7 @@ export function Grammar({ lesson, onNext }: { lesson: Lesson; onNext(): void }) 
     <section>
       <div className="eyebrow bn">{t('grammar.step')}</div>
       {lesson.grammar.map((g, i) => {
+        if (g.type === 'chips') return <Chips key={i} g={g} />
         if (g.type === 'text') {
           return (
             <div className="panel" style={{ marginTop: 12 }} key={i}>
