@@ -1,0 +1,654 @@
+{
+  "id": "a1-u00-l01",
+  "level": "A1",
+  "unit": 0,
+  "lesson": 1,
+  "title": {
+    "de": "Das Alphabet",
+    "bn": "জার্মান বর্ণমালা",
+    "en": "The German alphabet"
+  },
+  "status": "draft",
+  "minutes": 10,
+  "hook": {
+    "de": "Ohne Buchstaben kein Wort.",
+    "who": "Sprichwort",
+    "bn": "অক্ষর ছাড়া কোনো শব্দ নেই।",
+    "en": "No letters, no words."
+  },
+  "goals": [
+    "২৬টি অক্ষরের জার্মান নাম এবং ä, ö, ü, ß",
+    "নিজের নাম বানান করে বলা",
+    "„Wie schreibt man das?“ জিজ্ঞাসা করা"
+  ],
+  "words": [
+    {
+      "id": "alphabet",
+      "de": "Alphabet",
+      "art": "das",
+      "pl": "die Alphabete",
+      "pos": "বিশেষ্য",
+      "bn": "বর্ণমালা",
+      "en": "alphabet"
+    },
+    {
+      "id": "buchstabe_l",
+      "de": "Buchstabe",
+      "art": "der",
+      "pl": "die Buchstaben",
+      "pos": "বিশেষ্য",
+      "bn": "অক্ষর, বর্ণ",
+      "en": "letter"
+    },
+    {
+      "id": "buchstabiertafel",
+      "de": "Buchstabiertafel",
+      "art": "die",
+      "pl": "die Buchstabiertafeln",
+      "pos": "বিশেষ্য",
+      "bn": "বানানের নামতালিকা (Anton, Berta…)",
+      "en": "spelling alphabet"
+    },
+    {
+      "id": "umlaut",
+      "de": "Umlaut",
+      "art": "der",
+      "pl": "die Umlaute",
+      "pos": "বিশেষ্য",
+      "bn": "উমলাউট (ä, ö, ü)",
+      "en": "umlaut (ä, ö, ü)"
+    },
+    {
+      "id": "gross",
+      "de": "groß",
+      "pos": "বিশেষণ",
+      "bn": "বড়; বড় হাতের",
+      "en": "big; capital"
+    },
+    {
+      "id": "klein",
+      "de": "klein",
+      "pos": "বিশেষণ",
+      "bn": "ছোট; ছোট হাতের",
+      "en": "small; lower-case"
+    },
+    {
+      "id": "wie_schreibt_man",
+      "de": "Wie schreibt man das?",
+      "pos": "অভিব্যক্তি",
+      "bn": "এটা কীভাবে লেখে?",
+      "en": "How do you write that?"
+    },
+    {
+      "id": "nochmal",
+      "de": "noch einmal",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "আরেকবার",
+      "en": "once more"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Lena",
+      "bn": [
+        "এটা",
+        "কীভাবে",
+        "লেখে?"
+      ],
+      "en": [
+        "How",
+        "do",
+        "you",
+        "write",
+        "that?"
+      ],
+      "de": [
+        {
+          "t": "Wie",
+          "b": [
+            1
+          ],
+          "e": [
+            0
+          ],
+          "l": "Wie",
+          "gb": "কীভাবে",
+          "ge": "how",
+          "n": "প্রশ্নবোধক শব্দ — বাক্যের শুরুতে"
+        },
+        {
+          "t": "schreibt",
+          "b": [
+            2
+          ],
+          "e": [
+            3
+          ],
+          "l": "schreibt",
+          "gb": "লেখে",
+          "ge": "writes",
+          "n": "schreiben → er/man schreibt"
+        },
+        {
+          "t": "man",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "man",
+          "gb": "(সবাই)",
+          "ge": "one; you",
+          "n": "man = সাধারণ কেউ, ইংরেজির “you/one”-এর মতো"
+        },
+        {
+          "t": "das?",
+          "b": [
+            0
+          ],
+          "e": [
+            4
+          ],
+          "l": "das",
+          "gb": "এটা",
+          "ge": "that",
+          "n": "das = এটা / ওটা"
+        }
+      ]
+    },
+    {
+      "who": "Rafi",
+      "bn": [
+        "বি-এ-আর।"
+      ],
+      "en": [
+        "B-A-R."
+      ],
+      "de": [
+        {
+          "t": "B-Ä-R.",
+          "s": "Beh Äh Err",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Bär",
+          "gb": "বি-এ-আর",
+          "ge": "B-Ä-R",
+          "n": "অক্ষরগুলো একে একে বলা হচ্ছে: Beh – Äh – Err"
+        }
+      ]
+    },
+    {
+      "who": "Lena",
+      "bn": [
+        "আরেকবার,",
+        "দয়া",
+        "করে?"
+      ],
+      "en": [
+        "Once",
+        "more,",
+        "please?"
+      ],
+      "de": [
+        {
+          "t": "Noch",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Noch",
+          "gb": "আরও",
+          "ge": "more",
+          "n": "noch einmal = আরেকবার"
+        },
+        {
+          "t": "einmal,",
+          "b": [
+            0
+          ],
+          "e": [
+            1
+          ],
+          "l": "einmal",
+          "gb": "একবার",
+          "ge": "once",
+          "n": "einmal = একবার"
+        },
+        {
+          "t": "bitte?",
+          "b": [
+            1,
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "bitte",
+          "gb": "দয়া করে",
+          "ge": "please",
+          "n": "bitte = দয়া করে"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "chips",
+      "title": "২৬টি অক্ষরের নাম",
+      "intro": "প্রতিটি অক্ষরে ট্যাপ করে নামটা শুনুন। নিচে আনুমানিক বাংলা উচ্চারণ।",
+      "cols": 5,
+      "items": [
+        {
+          "t": "Aa",
+          "s": "Ah",
+          "bn": "আ",
+          "en": "ah"
+        },
+        {
+          "t": "Bb",
+          "s": "Beh",
+          "bn": "বে",
+          "en": "bay"
+        },
+        {
+          "t": "Cc",
+          "s": "Zeh",
+          "bn": "ৎসে",
+          "en": "tsay"
+        },
+        {
+          "t": "Dd",
+          "s": "Deh",
+          "bn": "দে",
+          "en": "day"
+        },
+        {
+          "t": "Ee",
+          "s": "Eh",
+          "bn": "এ",
+          "en": "ay"
+        },
+        {
+          "t": "Ff",
+          "s": "Eff",
+          "bn": "এফ",
+          "en": "eff"
+        },
+        {
+          "t": "Gg",
+          "s": "Geh",
+          "bn": "গে",
+          "en": "gay"
+        },
+        {
+          "t": "Hh",
+          "s": "Hah",
+          "bn": "হা",
+          "en": "hah"
+        },
+        {
+          "t": "Ii",
+          "s": "Ih",
+          "bn": "ঈ",
+          "en": "ee"
+        },
+        {
+          "t": "Jj",
+          "s": "Jott",
+          "bn": "ইয়ট",
+          "en": "yot"
+        },
+        {
+          "t": "Kk",
+          "s": "Kah",
+          "bn": "কা",
+          "en": "kah"
+        },
+        {
+          "t": "Ll",
+          "s": "Ell",
+          "bn": "এল",
+          "en": "ell"
+        },
+        {
+          "t": "Mm",
+          "s": "Emm",
+          "bn": "এম",
+          "en": "emm"
+        },
+        {
+          "t": "Nn",
+          "s": "Enn",
+          "bn": "এন",
+          "en": "enn"
+        },
+        {
+          "t": "Oo",
+          "s": "Oh",
+          "bn": "ও",
+          "en": "oh"
+        },
+        {
+          "t": "Pp",
+          "s": "Peh",
+          "bn": "পে",
+          "en": "pay"
+        },
+        {
+          "t": "Qq",
+          "s": "Kuh",
+          "bn": "কু",
+          "en": "koo"
+        },
+        {
+          "t": "Rr",
+          "s": "Err",
+          "bn": "এর",
+          "en": "err"
+        },
+        {
+          "t": "Ss",
+          "s": "Ess",
+          "bn": "এস",
+          "en": "ess"
+        },
+        {
+          "t": "Tt",
+          "s": "Teh",
+          "bn": "তে",
+          "en": "tay"
+        },
+        {
+          "t": "Uu",
+          "s": "Uh",
+          "bn": "উ",
+          "en": "oo"
+        },
+        {
+          "t": "Vv",
+          "s": "Fau",
+          "bn": "ফাউ",
+          "en": "fow"
+        },
+        {
+          "t": "Ww",
+          "s": "Weh",
+          "bn": "ভে",
+          "en": "vay"
+        },
+        {
+          "t": "Xx",
+          "s": "Iks",
+          "bn": "ইকস",
+          "en": "iks"
+        },
+        {
+          "t": "Yy",
+          "s": "Üpsilon",
+          "bn": "ঊপসিলন",
+          "en": "ewp-si-lon"
+        },
+        {
+          "t": "Zz",
+          "s": "Zett",
+          "bn": "ৎসেট",
+          "en": "tset"
+        }
+      ]
+    },
+    {
+      "type": "chips",
+      "title": "বিশেষ অক্ষর",
+      "intro": "এগুলো বাংলায় নেই — ট্যাপ করে শুনুন, তারপর নিজে বলুন।",
+      "cols": 4,
+      "items": [
+        {
+          "t": "Ä ä",
+          "s": "Äh",
+          "bn": "এ (ঠোঁট ছড়িয়ে)",
+          "en": "like “e” in bed",
+          "ex": "Bär"
+        },
+        {
+          "t": "Ö ö",
+          "s": "Öh",
+          "bn": "ঠোঁট গোল করে এ",
+          "en": "round-lipped “e”",
+          "ex": "schön"
+        },
+        {
+          "t": "Ü ü",
+          "s": "Üh",
+          "bn": "ঠোঁট গোল করে ই",
+          "en": "round-lipped “ee”",
+          "ex": "Tschüss"
+        },
+        {
+          "t": "ß",
+          "s": "Es-Zett",
+          "bn": "তীক্ষ্ণ স",
+          "en": "sharp s",
+          "ex": "heißen"
+        }
+      ],
+      "note": "কিবোর্ডে না পেলে ae, oe, ue, ss লেখা যায়।"
+    },
+    {
+      "type": "table",
+      "title": "বানান করার নামতালিকা (Buchstabiertafel)",
+      "intro": "ফোনে নাম বা ঠিকানা বললে লোকে এভাবে বানান করে: „B wie Berta“।",
+      "head": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "rows": [
+        [
+          "A",
+          "Anton",
+          "K",
+          "Kaufmann",
+          "U",
+          "Ulrich"
+        ],
+        [
+          "B",
+          "Berta",
+          "L",
+          "Ludwig",
+          "V",
+          "Viktor"
+        ],
+        [
+          "C",
+          "Cäsar",
+          "M",
+          "Martha",
+          "W",
+          "Wilhelm"
+        ],
+        [
+          "D",
+          "Dora",
+          "N",
+          "Nordpol",
+          "X",
+          "Xanthippe"
+        ],
+        [
+          "E",
+          "Emil",
+          "O",
+          "Otto",
+          "Y",
+          "Ypsilon"
+        ],
+        [
+          "F",
+          "Friedrich",
+          "P",
+          "Paula",
+          "Z",
+          "Zeppelin"
+        ],
+        [
+          "G",
+          "Gustav",
+          "Q",
+          "Quelle",
+          "Ä",
+          "Ärger"
+        ],
+        [
+          "H",
+          "Heinrich",
+          "R",
+          "Richard",
+          "Ö",
+          "Ökonom"
+        ],
+        [
+          "I",
+          "Ida",
+          "S",
+          "Samuel",
+          "Ü",
+          "Übermut"
+        ],
+        [
+          "J",
+          "Julius",
+          "T",
+          "Theodor",
+          "ß",
+          "Eszett"
+        ]
+      ],
+      "note": "অফিসিয়াল শব্দগুলো মুখস্থ করা জরুরি নয় — নিজের নামের অক্ষরগুলোর শব্দ শিখুন।"
+    },
+    {
+      "type": "text",
+      "title": "ইংরেজি জানলে এগুলো সাবধান",
+      "text": "E = „এ“ (ইংরেজির ঈ নয়) · I = „ঈ“ · J = „ইয়ট“ · G = „গে“ · V = „ফাউ“ · W = „ভে“ · Y = „ঊপসিলন“ · Z = „ৎসেট“। ইংরেজি আর জার্মান নামের মিল নেই — তাই নিজের নামটা অন্তত ঠিকভাবে বানান করে বলা অভ্যাস করুন।"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "Weh",
+      "options": [
+        "W",
+        "V",
+        "B",
+        "M"
+      ],
+      "answer": 0,
+      "why": "W-এর জার্মান নাম „ভে“ (Weh)।"
+    },
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "Zett",
+      "options": [
+        "Z",
+        "S",
+        "C",
+        "X"
+      ],
+      "answer": 0,
+      "why": "Z-এর নাম „ৎসেট“ (Zett)।"
+    },
+    {
+      "type": "mcq",
+      "prompt": "জার্মানে অক্ষর V-এর নাম কী?",
+      "options": [
+        "Fau",
+        "Weh",
+        "Vih",
+        "Wih"
+      ],
+      "answer": 0,
+      "why": "V = „ফাউ“ (Fau); „ভে“ হলো W।"
+    },
+    {
+      "type": "mcq",
+      "prompt": "কোনটি জার্মানের বিশেষ অক্ষর?",
+      "options": [
+        "ß",
+        "ñ",
+        "ç",
+        "å"
+      ],
+      "answer": 0,
+      "why": "ß (Eszett) হলো তীক্ষ্ণ „স“।"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Ü-এর উচ্চারণ কেমন?",
+      "options": [
+        "ঠোঁট গোল করে „ই“",
+        "পরিষ্কার „উ“",
+        "„এ“",
+        "„অ“"
+      ],
+      "answer": 0,
+      "why": "ü = ঠোঁট গোল করে „ই“ বলা: Tschüss।",
+      "word": "umlaut"
+    },
+    {
+      "type": "mcq",
+      "prompt": "শূন্যস্থান পূরণ করুন",
+      "sub": "B wie ___.",
+      "options": [
+        "Berta",
+        "Anton",
+        "Dora",
+        "Emil"
+      ],
+      "answer": 0,
+      "why": "B wie Berta।"
+    },
+    {
+      "type": "order",
+      "prompt": "শব্দ সাজান: „এটা কীভাবে লেখে?“",
+      "tiles": [
+        "das?",
+        "Wie",
+        "man",
+        "schreibt"
+      ],
+      "answer": [
+        "Wie",
+        "schreibt",
+        "man",
+        "das?"
+      ],
+      "why": "প্রশ্নশব্দ Wie, তারপর schreibt।",
+      "word": "wie_schreibt_man"
+    },
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "Wie schreibt man das?",
+      "options": [
+        "এটা কীভাবে লেখে?",
+        "এটা কী?",
+        "এটা কে?",
+        "এটা কোথায়?"
+      ],
+      "answer": 0,
+      "why": "Wie schreibt man das? = এটা কীভাবে লেখে?",
+      "word": "wie_schreibt_man"
+    }
+  ],
+  "passMark": 0.8
+}

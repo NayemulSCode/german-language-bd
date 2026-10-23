@@ -12,6 +12,7 @@ export const LEVELS: Record<string, LevelInfo> = {
 export const LEVEL_ORDER = ['A1', 'A2', 'B1'] as const
 
 export const UNIT_TITLES: Record<string, { de: string; bn: string; en: string }> = {
+  'A1-0': { de: 'Start hier: Laute, Buchstaben, Zahlen', bn: 'শুরু এখানে: শব্দ, বর্ণ ও সংখ্যা (ঐচ্ছিক)', en: 'Start here: sounds, letters and numbers (optional)' },
   'A1-1': { de: 'Hallo!', bn: 'পরিচয় ও অভিবাদন', en: 'Introductions and greetings' },
   'A1-2': { de: 'Alphabet und Zahlen', bn: 'বর্ণমালা ও সংখ্যা', en: 'Alphabet and numbers' },
   'A1-3': { de: 'Familie', bn: 'পরিবার ও পেশা', en: 'Family and jobs' },

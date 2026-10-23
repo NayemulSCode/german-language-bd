@@ -55,7 +55,27 @@ const Table = z.object({
   rows: z.array(z.array(z.string())).min(1),
   note: z.string().optional(),
 })
+/** A grid of tappable cells (letters, numbers, days…): tap to hear it, with a small hint in Bangla and/or English under it. */
+const Chips = z.object({
+  type: z.literal('chips'),
+  title: z.string().optional(),
+  intro: z.string().optional(),
+  cols: z.number().int().min(2).max(6).default(4),
+  items: z
+    .array(
+      z.object({
+        t: z.string(), // shown (and spoken, unless s is given)
+        s: z.string().optional(), // text to speak when it differs from t (e.g. a respelled letter name)
+        bn: z.string().optional(), // hint shown when Bangla is on (a pronunciation or a meaning); stays Bangla in the English version
+        en: z.string().optional(), // hint shown when English is on
+        ex: z.string().optional(), // a short German example shown small under the hint
+      }),
+    )
+    .min(1),
+  note: z.string().optional(),
+})
 export const GrammarPanel = z.discriminatedUnion('type', [
+  Chips,
   z.object({ type: z.literal('text'), title: z.string().optional(), text: z.string() }),
   Table,
   ConjTable,
@@ -95,7 +115,7 @@ export const Question = z.discriminatedUnion('type', [Mcq, Listen, Order])
 export const Lesson = z.object({
   id: z.string().regex(/^[a-c][12]-u\d{2}-l\d{2}$/, 'e.g. a1-u01-l01'),
   level: z.enum(['A1', 'A2', 'B1']),
-  unit: z.number().int().positive(),
+  unit: z.number().int().min(0), // 0 = the optional "Start here" unit
   lesson: z.number().int().positive(),
   title: Bilingual.extend({ de: z.string() }),
   status: z.enum(['draft', 'reviewed']),

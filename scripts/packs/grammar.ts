@@ -21,6 +21,11 @@ function panel(bn: GrammarPanel, en: GrammarPanel): string {
       ${bn.rows.map((r, ri) => `<tr><td><b>${esc(r.pron)}</b></td>${r.stems.map((s, i) => `<td class="de">${esc(s)}<span class="v">${esc(r.ends[i])}</span></td>`).join('')}<td>${bi(r.bn, en.rows[ri].bn)}</td></tr>`).join('')}</tbody></table>
       ${bn.note ? `<div class="note small">${bi(bn.note, en.note)}</div>` : ''}</div>`
   }
+  if (bn.type === 'chips' && en.type === 'chips') {
+    return `<div class="panel">${bn.title ? `<h4>${bi(bn.title, en.title)}</h4>` : ''}${bn.intro ? `<p>${bi(bn.intro, en.intro)}</p>` : ''}
+      <div class="cells" style="--cols:${bn.cols}">${bn.items.map((it) => `<div class="cell"><b class="de">${esc(it.t)}</b>${it.bn ? `<span class="bn small">${esc(it.bn)}</span>` : ''}${it.en ? `<span class="small muted">${esc(it.en)}</span>` : ''}${it.ex ? `<span class="small muted">${esc(it.ex)}</span>` : ''}</div>`).join('')}</div>
+      ${bn.note ? `<div class="note small">${bi(bn.note, en.note)}</div>` : ''}</div>`
+  }
   if (bn.type === 'order' && en.type === 'order') {
     return `<div class="panel"><h4>${bi(bn.title, en.title)}</h4><p>${bi(bn.text, en.text)}</p>
       <table><tbody><tr><td class="small muted" style="width:20mm">Deutsch</td><td class="de">${pill(bn.de)}</td></tr><tr><td class="small muted bn">বাংলা</td><td class="bn">${pill(bn.bn)}</td></tr></tbody></table></div>`
@@ -44,7 +49,7 @@ export function grammarPack(level: string, lessons: LessonPair[], sample = false
   ]
   for (const u of units) {
     const t = UNIT_TITLES[`${level}-${u}`]
-    parts.push(`<section class="${parts.length > 1 ? 'pb' : ''}"><div class="unit-head"><div class="u">${level} · Unit ${u}</div><h2>${esc(t?.de ?? `Unit ${u}`)}</h2>${t ? `<span class="bn">${esc(t.bn)}</span><span class="en">${esc(t.en)}</span>` : ''}</div>`)
+    parts.push(`<section class="${parts.length > 1 ? 'pb' : ''}"><div class="unit-head"><div class="u">${u === 0 ? `${level} · Start here` : `${level} · Unit ${u}`}</div><h2>${esc(t?.de ?? `Unit ${u}`)}</h2>${t ? `<span class="bn">${esc(t.bn)}</span><span class="en">${esc(t.en)}</span>` : ''}</div>`)
     for (const l of chosen.filter((x) => x.bn.unit === u)) {
       parts.push(`<div class="lesson-head"><span class="n">${l.bn.lesson}</span><h3>${esc(l.bn.title.de)}</h3><span class="muted small">${esc(l.en.title.en)}</span></div>`)
       l.bn.grammar.forEach((g, i) => parts.push(panel(g, l.en.grammar[i])))

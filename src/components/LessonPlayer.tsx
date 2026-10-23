@@ -35,7 +35,7 @@ export function LessonPlayer({ lesson }: { lesson: Lesson }) {
         <div className="lbar-top">
           <a className="lclose" href="#course" aria-label={t('lesson.close')}><Icon name="close" /></a>
           <span className="lvl">{lesson.level}</span>
-          <span className="lbar-title">{t('lesson.barTitle', { u: lesson.unit, l: lesson.lesson })} — {lesson.title.de}</span>
+          <span className="lbar-title">{lesson.unit === 0 ? t('lesson.barTitle0', { l: lesson.lesson }) : t('lesson.barTitle', { u: lesson.unit, l: lesson.lesson })} — {lesson.title.de}</span>
           <span className="xp">{n(progress.xp)} XP</span>
         </div>
         <nav className="steps" aria-label={t('lesson.steps')}>

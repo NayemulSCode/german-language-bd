@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import { useApp } from '../state'
 import { LESSONS, loadDictionary, spoken, type DictEntry } from '../lib/content'
-import { greeting, lessonStates } from '../lib/course'
+import { greeting, isCore, lessonStates } from '../lib/course'
 import { UNIT_TITLES } from '../lib/plan'
 import { useT } from '../i18n/useT'
 import { dayKey, daysUntil, streak } from '../lib/stats'
@@ -29,7 +29,7 @@ export function HomeScreen() {
   const next = LESSONS.find((l) => states.get(l.id) === 'now')
   const unitLessons = next ? LESSONS.filter((l) => l.level === next.level && l.unit === next.unit) : []
   const unitPassed = unitLessons.filter((l) => lessonProgress(l.id).passed).length
-  const a1 = LESSONS.filter((l) => l.level === 'A1')
+  const a1 = LESSONS.filter((l) => l.level === 'A1' && isCore(l))
   const a1Passed = a1.filter((l) => lessonProgress(l.id).passed).length
   const course = a1.length ? Math.round((a1Passed / a1.length) * 100) : 0
 

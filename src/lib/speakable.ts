@@ -15,6 +15,7 @@ export function speakableTexts(l: Lesson): string[] {
     out.add(line.de.map((t) => t.t).join(' '))
     for (const t of line.de) out.add(t.s ?? t.t)
   }
+  for (const g of l.grammar) if (g.type === 'chips') for (const it of g.items) out.add(it.s ?? it.t)
   for (const q of l.quiz) {
     if (q.type === 'listen') out.add(q.say)
     else if (q.type === 'order') out.add(q.answer.join(' '))

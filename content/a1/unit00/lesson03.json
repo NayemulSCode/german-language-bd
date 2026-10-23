@@ -1,0 +1,634 @@
+{
+  "id": "a1-u00-l03",
+  "level": "A1",
+  "unit": 0,
+  "lesson": 3,
+  "title": {
+    "de": "Zahlen",
+    "bn": "সংখ্যা, বয়স ও সাল",
+    "en": "Numbers, age and years"
+  },
+  "status": "draft",
+  "minutes": 12,
+  "hook": {
+    "de": "Zahlen lügen nicht.",
+    "who": "Sprichwort",
+    "bn": "সংখ্যা মিথ্যা বলে না।",
+    "en": "Numbers do not lie."
+  },
+  "goals": [
+    "০ থেকে ১০০ ও হাজার",
+    "২১–৯৯: আগে একক, পরে দশক",
+    "বয়স ও সাল বলা"
+  ],
+  "words": [
+    {
+      "id": "zahl",
+      "de": "Zahl",
+      "art": "die",
+      "pl": "die Zahlen",
+      "pos": "বিশেষ্য",
+      "bn": "সংখ্যা",
+      "en": "number"
+    },
+    {
+      "id": "nummer",
+      "de": "Nummer",
+      "art": "die",
+      "pl": "die Nummern",
+      "pos": "বিশেষ্য",
+      "bn": "নম্বর (ফোন, ঠিকানা)",
+      "en": "number (phone, address)"
+    },
+    {
+      "id": "telefonnummer",
+      "de": "Telefonnummer",
+      "art": "die",
+      "pl": "die Telefonnummern",
+      "pos": "বিশেষ্য",
+      "bn": "ফোন নম্বর",
+      "en": "phone number"
+    },
+    {
+      "id": "alter",
+      "de": "Alter",
+      "art": "das",
+      "pos": "বিশেষ্য",
+      "bn": "বয়স",
+      "en": "age"
+    },
+    {
+      "id": "jahr",
+      "de": "Jahr",
+      "art": "das",
+      "pl": "die Jahre",
+      "pos": "বিশেষ্য",
+      "bn": "বছর",
+      "en": "year"
+    },
+    {
+      "id": "plus",
+      "de": "plus",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "যোগ",
+      "en": "plus"
+    },
+    {
+      "id": "minus",
+      "de": "minus",
+      "pos": "ক্রিয়াবিশেষণ",
+      "bn": "বিয়োগ",
+      "en": "minus"
+    },
+    {
+      "id": "wie_alt",
+      "de": "Wie alt bist du?",
+      "pos": "অভিব্যক্তি",
+      "bn": "তোমার বয়স কত?",
+      "en": "How old are you?"
+    },
+    {
+      "id": "wie_viel",
+      "de": "Wie viel kostet das?",
+      "pos": "অভিব্যক্তি",
+      "bn": "এর দাম কত?",
+      "en": "How much does it cost?"
+    }
+  ],
+  "dialog": [
+    {
+      "who": "Muna",
+      "bn": [
+        "তোমার",
+        "বয়স",
+        "কত?"
+      ],
+      "en": [
+        "How",
+        "old",
+        "are",
+        "you?"
+      ],
+      "de": [
+        {
+          "t": "Wie",
+          "b": [
+            2
+          ],
+          "e": [
+            0
+          ],
+          "l": "Wie",
+          "gb": "কত",
+          "ge": "how",
+          "n": "প্রশ্নবোধক শব্দ"
+        },
+        {
+          "t": "alt",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "alt",
+          "gb": "বয়সী",
+          "ge": "old",
+          "n": "alt = বয়সী; Wie alt = কত বয়সী"
+        },
+        {
+          "t": "bist",
+          "b": [],
+          "e": [
+            2
+          ],
+          "l": "bist",
+          "gb": "হও",
+          "ge": "are",
+          "n": "sein: ich bin, du bist"
+        },
+        {
+          "t": "du?",
+          "b": [
+            0
+          ],
+          "e": [
+            3
+          ],
+          "l": "du",
+          "gb": "তুমি",
+          "ge": "you",
+          "n": "du = তুমি (আপন বা বন্ধু)"
+        }
+      ]
+    },
+    {
+      "who": "Rafi",
+      "bn": [
+        "আমি",
+        "বাইশ।"
+      ],
+      "en": [
+        "I",
+        "am",
+        "twenty-two."
+      ],
+      "de": [
+        {
+          "t": "Ich",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Ich",
+          "gb": "আমি",
+          "ge": "I",
+          "n": "ich = আমি"
+        },
+        {
+          "t": "bin",
+          "b": [],
+          "e": [
+            1
+          ],
+          "l": "bin",
+          "gb": "হই",
+          "ge": "am",
+          "n": "ich bin"
+        },
+        {
+          "t": "zweiundzwanzig.",
+          "b": [
+            1
+          ],
+          "e": [
+            2
+          ],
+          "l": "zweiundzwanzig",
+          "gb": "বাইশ",
+          "ge": "twenty-two",
+          "n": "zwei + und + zwanzig: আগে একক, পরে দশক"
+        }
+      ]
+    },
+    {
+      "who": "Muna",
+      "bn": [
+        "আমার",
+        "নম্বর",
+        "হলো…"
+      ],
+      "en": [
+        "My",
+        "number",
+        "is…"
+      ],
+      "de": [
+        {
+          "t": "Meine",
+          "b": [
+            0
+          ],
+          "e": [
+            0
+          ],
+          "l": "Meine",
+          "gb": "আমার",
+          "ge": "my",
+          "n": "Nummer (die) → meine"
+        },
+        {
+          "t": "Nummer",
+          "b": [
+            1
+          ],
+          "e": [
+            1
+          ],
+          "l": "Nummer",
+          "gb": "নম্বর",
+          "ge": "number",
+          "n": "die Nummer"
+        },
+        {
+          "t": "ist…",
+          "b": [
+            2
+          ],
+          "e": [
+            2
+          ],
+          "l": "ist…",
+          "gb": "হলো",
+          "ge": "is",
+          "n": "ist"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "type": "chips",
+      "title": "০ থেকে ২০",
+      "intro": "ট্যাপ করে শুনুন। বাংলার মতো এখানেও ১১–১৯ আলাদা শব্দ।",
+      "cols": 5,
+      "items": [
+        {
+          "t": "0",
+          "s": "null",
+          "bn": "শূন্য",
+          "en": "0"
+        },
+        {
+          "t": "1",
+          "s": "eins",
+          "bn": "এক",
+          "en": "1"
+        },
+        {
+          "t": "2",
+          "s": "zwei",
+          "bn": "দুই",
+          "en": "2"
+        },
+        {
+          "t": "3",
+          "s": "drei",
+          "bn": "তিন",
+          "en": "3"
+        },
+        {
+          "t": "4",
+          "s": "vier",
+          "bn": "চার",
+          "en": "4"
+        },
+        {
+          "t": "5",
+          "s": "fünf",
+          "bn": "পাঁচ",
+          "en": "5"
+        },
+        {
+          "t": "6",
+          "s": "sechs",
+          "bn": "ছয়",
+          "en": "6"
+        },
+        {
+          "t": "7",
+          "s": "sieben",
+          "bn": "সাত",
+          "en": "7"
+        },
+        {
+          "t": "8",
+          "s": "acht",
+          "bn": "আট",
+          "en": "8"
+        },
+        {
+          "t": "9",
+          "s": "neun",
+          "bn": "নয়",
+          "en": "9"
+        },
+        {
+          "t": "10",
+          "s": "zehn",
+          "bn": "দশ",
+          "en": "10"
+        },
+        {
+          "t": "11",
+          "s": "elf",
+          "bn": "এগারো",
+          "en": "11"
+        },
+        {
+          "t": "12",
+          "s": "zwölf",
+          "bn": "বারো",
+          "en": "12"
+        },
+        {
+          "t": "13",
+          "s": "dreizehn",
+          "bn": "তেরো",
+          "en": "13"
+        },
+        {
+          "t": "14",
+          "s": "vierzehn",
+          "bn": "চৌদ্দ",
+          "en": "14"
+        },
+        {
+          "t": "15",
+          "s": "fünfzehn",
+          "bn": "পনেরো",
+          "en": "15"
+        },
+        {
+          "t": "16",
+          "s": "sechzehn",
+          "bn": "ষোলো",
+          "en": "16"
+        },
+        {
+          "t": "17",
+          "s": "siebzehn",
+          "bn": "সতেরো",
+          "en": "17"
+        },
+        {
+          "t": "18",
+          "s": "achtzehn",
+          "bn": "আঠারো",
+          "en": "18"
+        },
+        {
+          "t": "19",
+          "s": "neunzehn",
+          "bn": "উনিশ",
+          "en": "19"
+        },
+        {
+          "t": "20",
+          "s": "zwanzig",
+          "bn": "বিশ",
+          "en": "20"
+        }
+      ],
+      "note": "মনে রাখুন: sechs → sechzehn (শেষের s যায়), sieben → siebzehn (en যায়)।"
+    },
+    {
+      "type": "chips",
+      "title": "দশক ও একশো",
+      "intro": "বিশ, ত্রিশ… একশো, এক হাজার।",
+      "cols": 5,
+      "items": [
+        {
+          "t": "20",
+          "s": "zwanzig",
+          "bn": "বিশ",
+          "en": "20"
+        },
+        {
+          "t": "30",
+          "s": "dreißig",
+          "bn": "ত্রিশ",
+          "en": "30"
+        },
+        {
+          "t": "40",
+          "s": "vierzig",
+          "bn": "চল্লিশ",
+          "en": "40"
+        },
+        {
+          "t": "50",
+          "s": "fünfzig",
+          "bn": "পঞ্চাশ",
+          "en": "50"
+        },
+        {
+          "t": "60",
+          "s": "sechzig",
+          "bn": "ষাট",
+          "en": "60"
+        },
+        {
+          "t": "70",
+          "s": "siebzig",
+          "bn": "সত্তর",
+          "en": "70"
+        },
+        {
+          "t": "80",
+          "s": "achtzig",
+          "bn": "আশি",
+          "en": "80"
+        },
+        {
+          "t": "90",
+          "s": "neunzig",
+          "bn": "নব্বই",
+          "en": "90"
+        },
+        {
+          "t": "100",
+          "s": "hundert",
+          "bn": "একশো",
+          "en": "100"
+        },
+        {
+          "t": "1000",
+          "s": "tausend",
+          "bn": "এক হাজার",
+          "en": "1000"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "২১ থেকে ৯৯: উল্টো ক্রম!",
+      "intro": "জার্মানে আগে একক, তারপর „und“, তারপর দশক — ২১ = „এক এবং বিশ“।",
+      "head": [
+        "সংখ্যা",
+        "Deutsch",
+        "আক্ষরিক অর্থ",
+        "নিয়ম"
+      ],
+      "rows": [
+        [
+          "21",
+          "ein·und·zwanzig",
+          "এক+এবং+বিশ",
+          "আগে একক"
+        ],
+        [
+          "34",
+          "vier·und·dreißig",
+          "চার+এবং+ত্রিশ",
+          "আগে একক"
+        ],
+        [
+          "58",
+          "acht·und·fünfzig",
+          "আট+এবং+পঞ্চাশ",
+          "আগে একক"
+        ],
+        [
+          "99",
+          "neun·und·neunzig",
+          "নয়+এবং+নব্বই",
+          "আগে একক"
+        ]
+      ],
+      "note": "কিন্তু ১০০-এর পরে স্বাভাবিক: 125 = hundertfünfundzwanzig। ফোন নম্বর সাধারণত দুই-দুই অঙ্ক করে বলা হয়।"
+    },
+    {
+      "type": "text",
+      "title": "সাল বলা",
+      "text": "সাল জোড়া করে বলা হয়: 1995 = neunzehnhundertfünfundneunzig (১৯ শ’ + ৯৫); 2024 = zweitausendvierundzwanzig (দুই হাজার + ২৪)। বয়স বলতে: „Ich bin 22 Jahre alt.“ বা শুধু „Ich bin 22.“"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "sieben",
+      "options": [
+        "7",
+        "6",
+        "9",
+        "11"
+      ],
+      "answer": 0,
+      "why": "sieben = ৭।"
+    },
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "dreizehn",
+      "options": [
+        "13",
+        "30",
+        "3",
+        "23"
+      ],
+      "answer": 0,
+      "why": "dreizehn = ১৩, dreißig = ৩০।"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„einundzwanzig“ কত?",
+      "options": [
+        "21",
+        "12",
+        "120",
+        "2.1"
+      ],
+      "answer": 0,
+      "why": "ein + und + zwanzig = ২১।",
+      "word": "zahl"
+    },
+    {
+      "type": "mcq",
+      "prompt": "৪৫ জার্মানে কীভাবে বলে?",
+      "options": [
+        "fünfundvierzig",
+        "vierundfünfzig",
+        "fünfvierzig",
+        "vierzigfünf"
+      ],
+      "answer": 0,
+      "why": "আগে একক (fünf), তারপর und, তারপর দশক (vierzig)।"
+    },
+    {
+      "type": "mcq",
+      "prompt": "শূন্যস্থান পূরণ করুন",
+      "sub": "Ich bin 22 ___ alt.",
+      "options": [
+        "Jahre",
+        "Zahl",
+        "Nummer",
+        "plus"
+      ],
+      "answer": 0,
+      "why": "Ich bin 22 Jahre alt।",
+      "word": "jahr"
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Wie alt bist du?“ কী জানতে চায়?",
+      "options": [
+        "বয়স",
+        "নাম",
+        "ঠিকানা",
+        "পেশা"
+      ],
+      "answer": 0,
+      "why": "Wie alt = কত বয়সী।",
+      "word": "wie_alt"
+    },
+    {
+      "type": "order",
+      "prompt": "শব্দ সাজান: „আমি বাইশ বছরের।“",
+      "tiles": [
+        "alt",
+        "Ich",
+        "22",
+        "Jahre",
+        "bin"
+      ],
+      "answer": [
+        "Ich",
+        "bin",
+        "22",
+        "Jahre",
+        "alt"
+      ],
+      "why": "Ich bin … Jahre alt।",
+      "word": "jahr"
+    },
+    {
+      "type": "listen",
+      "prompt": "শুনে অর্থ বেছে নিন",
+      "say": "Wie alt bist du?",
+      "options": [
+        "তোমার বয়স কত?",
+        "তোমার নাম কী?",
+        "তুমি কোথায় থাকো?",
+        "তুমি কী করো?"
+      ],
+      "answer": 0,
+      "why": "Wie alt bist du? = তোমার বয়স কত?",
+      "word": "wie_alt"
+    }
+  ],
+  "passMark": 0.8
+}

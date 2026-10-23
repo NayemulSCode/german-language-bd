@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useApp } from '../state'
 import { LESSONS, type LessonMeta } from '../lib/content'
-import { groupUnits, lessonStates } from '../lib/course'
+import { groupUnits, isCore, lessonStates } from '../lib/course'
 import { LEVELS, LEVEL_ORDER, UNIT_TITLES } from '../lib/plan'
 import { useT } from '../i18n/useT'
 import { toast } from '../lib/toast'
@@ -19,9 +19,10 @@ export function CourseScreen() {
   const info = LEVELS[level]
   const units = groupUnits(LESSONS, level)
   const built = units.length > 0
-  const total = LESSONS.filter((l) => l.level === level)
+  const all = LESSONS.filter((l) => l.level === level)
+  const total = all.filter(isCore) // the optional Start here unit does not count towards finishing the level
   const passed = total.filter((l) => lessonProgress(l.id).passed).length
-  const words = total.reduce((n, l) => n + l.words, 0)
+  const words = all.reduce((n, l) => n + l.words, 0)
 
   // open the unit that holds the next lesson the first time the screen shows
   useEffect(() => {
@@ -91,7 +92,7 @@ export function CourseScreen() {
           return (
             <div key={u.key} className={`unit ${active ? 'active' : ''} ${isOpen ? 'open' : ''}`}>
               <button onClick={() => toggle(u.unit)} aria-expanded={isOpen}>
-                <span className="n num">{n(u.unit)}</span>
+                <span className="n num">{u.unit === 0 ? '★' : n(u.unit)}</span>
                 <span>
                   <span className="t">{ut?.de ?? `Einheit ${u.unit}`}</span><br />
                   <span className="s bn">{ut?.[ui]} · {t('course.lessonsCount', { n: u.lessons.length })}</span>
@@ -144,7 +145,7 @@ function LessonSheet({ lesson, done, onClose }: { lesson: LessonMeta; done: bool
   return (
     <div className="scrim" onClick={onClose}>
       <div className="sheet" role="dialog" aria-modal="true" aria-labelledby="sh-t" onClick={(e) => e.stopPropagation()}>
-        <div className="eyebrow bn">{lesson.level} · {t('lesson.barTitle', { u: lesson.unit, l: lesson.lesson })} · {t('common.minutes', { n: lesson.minutes })}</div>
+        <div className="eyebrow bn">{lesson.level} · {lesson.unit === 0 ? t('lesson.barTitle0', { l: lesson.lesson }) : t('lesson.barTitle', { u: lesson.unit, l: lesson.lesson })} · {t('common.minutes', { n: lesson.minutes })}</div>
         <h3 id="sh-t">{lesson.title.de}</h3>
         <div className="muted bn">{lesson.title[ui]}</div>
         <ol className="steps5 bn">

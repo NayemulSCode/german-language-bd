@@ -21,7 +21,7 @@ export function vocabPack(level: string, lessons: LessonPair[], sample = false):
     const t = UNIT_TITLES[key]
     const inUnit = lessons.filter((l) => l.bn.unit === u)
     parts.push(`<section class="${parts.length > 1 ? 'pb' : ''}">
-      <div class="unit-head"><div class="u">${level} · Unit ${u}</div><h2>${esc(t?.de ?? `Unit ${u}`)}</h2>${t ? `<span class="bn">${esc(t.bn)}</span><span class="en">${esc(t.en)}</span>` : ''}</div>`)
+      <div class="unit-head"><div class="u">${u === 0 ? `${level} · Start here` : `${level} · Unit ${u}`}</div><h2>${esc(t?.de ?? `Unit ${u}`)}</h2>${t ? `<span class="bn">${esc(t.bn)}</span><span class="en">${esc(t.en)}</span>` : ''}</div>`)
     for (const l of inUnit) {
       parts.push(`<div class="lesson-head"><span class="n">${l.bn.lesson}</span><h3>${esc(l.bn.title.de)}</h3><span class="muted small">${esc(l.en.title.en)}</span></div>
       <table class="vocab"><colgroup><col style="width:7mm"><col style="width:37%"><col style="width:13%"><col style="width:22%"><col></colgroup><thead><tr><th></th><th>German</th><th>Type</th><th>বাংলা</th><th>English</th></tr></thead><tbody>`)

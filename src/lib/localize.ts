@@ -27,9 +27,10 @@ function* walk(x: unknown, path: string): Generator<[string, string]> {
 
 /**
  * The word-order panels set German against the Bangla sentence on purpose (verb in second place, not at the end),
- * so the Bangla words there are the lesson, not a translation to replace.
+ * so the Bangla words there are the lesson, not a translation to replace. The same goes for the Bangla hints of tappable cells
+ * (`items.N.bn`): the cell's own `en` field is its English hint, shown by the language preference.
  */
-const KEEP_BANGLA = /^grammar\.\d+\.bn\.\d+\.t$/
+const KEEP_BANGLA = /^grammar\.\d+\.(bn\.\d+\.t|items\.\d+\.bn)$/
 
 /** Every [path, Bangla text] in a lesson that can have an English version. */
 export function* translatable(lesson: Lesson): Generator<[string, string]> {

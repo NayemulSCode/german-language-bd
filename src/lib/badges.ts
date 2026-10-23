@@ -32,6 +32,7 @@ export const badgeDesc = (t: T, id: string) => t(`badge.${id}.d` as Key)
 export interface LessonRef {
   id: string
   level: string
+  unit?: number // 0 = the optional Start here unit, which does not count towards finishing a level
   words: number
 }
 
@@ -56,7 +57,7 @@ export function earnedBadges(p: Progress, lessons: LessonRef[]): Set<string> {
   const words = passed.reduce((n, l) => n + l.words, 0)
   const best = longestStreak(p.activity)
   const levelDone = (lv: string) => {
-    const all = lessons.filter((l) => l.level === lv)
+    const all = lessons.filter((l) => l.level === lv && (l.unit ?? 1) > 0)
     return all.length > 0 && all.every((l) => p.lessons[l.id]?.passed)
   }
   const checks: Record<string, boolean> = {

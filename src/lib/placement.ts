@@ -13,7 +13,7 @@ export const PER_UNIT = 2
  */
 export function pickQuestions(lessons: Lesson[], level: 'A1' | 'A2' | 'B1' = 'A1'): PlacementItem[] {
   const byUnit = new Map<number, Lesson[]>()
-  for (const l of lessons) if (l.level === level) byUnit.set(l.unit, [...(byUnit.get(l.unit) ?? []), l])
+  for (const l of lessons) if (l.level === level && l.unit > 0) byUnit.set(l.unit, [...(byUnit.get(l.unit) ?? []), l])
   const items: PlacementItem[] = []
   for (const unit of [...byUnit.keys()].sort((a, b) => a - b)) {
     const ls = byUnit.get(unit)!.sort((a, b) => a.lesson - b.lesson)
