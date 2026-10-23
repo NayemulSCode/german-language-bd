@@ -3,6 +3,16 @@ name: Build audio
 # Run manually after adding or changing lessons. Existing clips are kept, so reruns are fast.
 on:
   workflow_dispatch:
+    inputs:
+      level:
+        description: Which level to build clips for
+        type: choice
+        options: [a1, a2, b1]
+        default: a1
+      limit:
+        description: Only generate this many clips (a small sample to listen to first); leave empty for all
+        type: string
+        default: ''
 permissions:
   contents: write
 jobs:
@@ -22,8 +32,10 @@ jobs:
           base=https://huggingface.co/rhasspy/piper-voices/resolve/main/de/de_DE/thorsten/medium
           curl -fsSL -O $base/de_DE-thorsten-medium.onnx
           curl -fsSL -O $base/de_DE-thorsten-medium.onnx.json
-      - run: npm run audio
+      - run: npm run audio -- --level "$LEVEL" ${LIMIT:+--limit "$LIMIT"}
         env:
+          LEVEL: ${{ inputs.level }}
+          LIMIT: ${{ inputs.limit }}
           PIPER_MODEL: de_DE-thorsten-medium.onnx
           PIPER_CMD: python3 -m piper
       - name: Commit clips

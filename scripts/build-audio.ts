@@ -11,6 +11,8 @@ import { clipKey, speakableTexts } from '../src/lib/speakable.ts'
  *
  *   PIPER_MODEL=de_DE-thorsten-medium.onnx npm run audio          # generate missing clips
  *   npm run audio -- --dry                                         # only list what is missing
+ *   npm run audio -- --level a1                                    # only the A1 lessons (a1 | a2 | b1; default: all)
+ *   npm run audio -- --level a1 --limit 40                         # a small sample to listen to first
  *
  * Env: PIPER_MODEL (required unless --dry), PIPER_CMD (default "piper"; e.g. "python3 -m piper").
  * Pronunciation fixes go in content/pronunciation.json as { "<text as shown>": "<text to synthesize>" }.
@@ -20,6 +22,14 @@ const ROOT = new URL('../', import.meta.url).pathname
 const OUT = join(ROOT, 'public/audio')
 const SLOW_SCALE = '1.5' // piper length-scale: >1 is slower
 const dry = process.argv.includes('--dry')
+const arg = (name: string) => {
+  const i = process.argv.indexOf(`--${name}`)
+  return i >= 0 ? process.argv[i + 1] : undefined
+}
+const level = arg('level')?.toLowerCase()
+if (level && !['a1', 'a2', 'b1'].includes(level)) throw new Error(`--level must be a1, a2 or b1 (got "${level}")`)
+const limit = arg('limit') ? Number(arg('limit')) : Infinity
+if (!(limit > 0)) throw new Error('--limit must be a positive number')
 
 function* jsonFiles(dir: string): Generator<string> {
   for (const name of readdirSync(dir).sort()) {
@@ -29,8 +39,16 @@ function* jsonFiles(dir: string): Generator<string> {
   }
 }
 
+// `allTexts` is every speakable string (so a partial run never drops other levels' clips); `texts` is what this run generates
+const allTexts = new Set<string>()
 const texts = new Set<string>()
-for (const f of jsonFiles(join(ROOT, 'content'))) for (const t of speakableTexts(Lesson.parse(JSON.parse(readFileSync(f, 'utf8'))))) texts.add(t)
+for (const f of jsonFiles(join(ROOT, 'content'))) {
+  const lesson = Lesson.parse(JSON.parse(readFileSync(f, 'utf8')))
+  for (const t of speakableTexts(lesson)) {
+    allTexts.add(t)
+    if (!level || lesson.level.toLowerCase() === level) texts.add(t)
+  }
+}
 
 const pronPath = join(ROOT, 'content/pronunciation.json')
 const pron: Record<string, string> = existsSync(pronPath) ? JSON.parse(readFileSync(pronPath, 'utf8')) : {}
@@ -40,9 +58,10 @@ const manifest: Record<string, string> = existsSync(manifestPath) ? JSON.parse(r
 
 const jobs = [...texts].flatMap((text) => [false, true].map((slow) => ({ text, slow, key: clipKey(text, slow) })))
 const fileFor = (key: string) => createHash('sha1').update(key).digest('hex').slice(0, 16) + '.mp3'
-const missing = jobs.filter((j) => !manifest[j.key] || !existsSync(join(OUT, manifest[j.key])))
+const allMissing = jobs.filter((j) => !manifest[j.key] || !existsSync(join(OUT, manifest[j.key])))
+const missing = allMissing.slice(0, limit)
 
-console.log(`${texts.size} texts → ${jobs.length} clips, ${missing.length} to generate`)
+console.log(`${level ? level.toUpperCase() + ': ' : ''}${texts.size} texts → ${jobs.length} clips, ${allMissing.length} to generate${missing.length < allMissing.length ? ` (this run: ${missing.length})` : ''}`)
 if (dry || missing.length === 0) process.exit(0)
 
 const model = process.env.PIPER_MODEL
@@ -68,7 +87,7 @@ for (const [i, j] of missing.entries()) {
 rmSync(tmpWav, { force: true })
 
 // drop manifest entries for text that no longer exists in any lesson
-const live = new Set(jobs.map((j) => j.key))
+const live = new Set([...allTexts].flatMap((t) => [clipKey(t, false), clipKey(t, true)]))
 for (const k of Object.keys(manifest)) if (!live.has(k)) delete manifest[k]
 writeFileSync(manifestPath, JSON.stringify(Object.fromEntries(Object.entries(manifest).sort()), null, 1) + '\n')
 console.log(`✓ wrote ${Object.keys(manifest).length} clips to public/audio`)

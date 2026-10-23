@@ -15,7 +15,7 @@ export default defineConfig({
           {
             urlPattern: ({ url }) => url.pathname.startsWith('/audio/'),
             handler: 'CacheFirst',
-            options: { cacheName: 'audio', expiration: { maxEntries: 2000 } },
+            options: { cacheName: 'audio', expiration: { maxEntries: 8000 } },
           },
         ],
       },
