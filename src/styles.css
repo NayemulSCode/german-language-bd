@@ -217,7 +217,7 @@ select{border:1.5px solid var(--line);background:var(--surface);border-radius:10
 .lx .hook q{display:block;font-family:var(--display);font-weight:800;font-size:clamp(24px,6.4vw,32px);line-height:1.15;quotes:"„" "“"}
 .lx .hook .who{margin-top:10px;font-size:14px;opacity:.75}
 .lx .hook .tr{margin-top:14px;display:grid;gap:4px;font-size:15px;opacity:.92}
-.lx .hook .say{position:absolute;right:14px;top:14px;background:transparent;color:var(--paper);border-color:color-mix(in srgb,var(--paper) 35%,transparent)}
+.lx .hook .say{position:absolute;right:14px;top:14px;background:transparent;color:var(--paper);border-color:color-mix(in srgb,var(--paper) 35%,transparent);z-index:1}
 .lx .goals{display:grid;gap:8px;margin:14px 0 0;padding:0;list-style:none}
 .lx .goals li{display:flex;gap:10px;align-items:baseline}
 .lx .goals li::before{content:"";flex:none;width:7px;height:7px;border-radius:2px;background:var(--accent);transform:translateY(-2px)}
