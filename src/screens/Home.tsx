@@ -9,7 +9,7 @@ import { Icon } from '../components/Icon'
 import { Say, Tr } from '../components/common'
 import { go } from '../router'
 import { isNewLearner } from '../lib/welcome'
-import { LoginNudge, useCanSignIn } from '../components/Account'
+import { LoginNudge, useCanSignIn, usePerks } from '../components/Account'
 import { SupportCard } from '../components/Support'
 
 export function HomeScreen() {
@@ -25,7 +25,8 @@ export function HomeScreen() {
   const weekday = new Date(now).toLocaleDateString(locale, { weekday: 'long' })
   const dueCount = useMemo(() => Object.values(progress.srs).filter((c) => c.due <= now).length, [progress.srs, now])
 
-  const states = lessonStates(LESSONS, (id) => lessonProgress(id).passed, { startUnit: progress.startUnit, startUnitA2: progress.startUnitA2, startUnitB1: progress.startUnitB1, unlockAll: progress.unlockAll })
+  const perks = usePerks()
+  const states = lessonStates(LESSONS, (id) => lessonProgress(id).passed, { startUnit: progress.startUnit, startUnitA2: progress.startUnitA2, startUnitB1: progress.startUnitB1, unlockAll: perks.unlockAll })
   const next = LESSONS.find((l) => states.get(l.id) === 'now')
   const unitLessons = next ? LESSONS.filter((l) => l.level === next.level && l.unit === next.unit) : []
   const unitPassed = unitLessons.filter((l) => lessonProgress(l.id).passed).length

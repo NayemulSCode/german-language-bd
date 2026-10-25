@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from 'react'
 import { loadDictionary, spoken, type DictEntry } from '../lib/content'
 import { useT } from '../i18n/useT'
 import { Icon } from '../components/Icon'
-import { LangSeg, Say, Tr } from '../components/common'
+import { BnPron, LangSeg, Say, Tr } from '../components/common'
 
 const LIMIT = 150
 
@@ -46,6 +46,7 @@ export function DictionaryScreen() {
                 <Say text={spoken(e)} />
                 <div className="grow">
                   <div className="de">{e.art && <span className={`art ${e.art}`}>{e.art} </span>}{e.de}</div>
+                  <BnPron text={spoken(e)} />
                   <div className="m"><Tr bn={e.bn} en={e.en} /></div>
                 </div>
                 <span className="tag">{e.lv}</span>

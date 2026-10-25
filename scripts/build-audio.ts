@@ -35,7 +35,7 @@ function* jsonFiles(dir: string): Generator<string> {
   for (const name of readdirSync(dir).sort()) {
     const p = join(dir, name)
     if (statSync(p).isDirectory()) yield* jsonFiles(p)
-    else if (name.endsWith('.json') && name !== 'pronunciation.json') yield p
+    else if (name.endsWith('.json') && name !== 'pronunciation.json' && name !== 'pron-bn.json') yield p
   }
 }
 

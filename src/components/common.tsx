@@ -3,6 +3,8 @@ import { useApp } from '../state'
 import { useT } from '../i18n/useT'
 import { onToast } from '../lib/toast'
 import type { Lang } from '../lib/storage'
+import { bnPron } from '../lib/bnPron'
+import { usePerks } from './Account'
 
 const ICON = (
   <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -37,6 +39,18 @@ export function Tr({ bn, en }: { bn: string; en: string }) {
       {progress.lang !== 'en' && <span className="bn">{bn}</span>}
       {progress.lang !== 'bn' && <span>{en}</span>}
     </>
+  )
+}
+
+/** How the German text sounds, written in Bangla letters: shown only when the signed-in Bangla pronunciation setting is on. */
+export function BnPron({ text }: { text: string }) {
+  const perks = usePerks()
+  const { t } = useT()
+  if (!perks.bnPron) return null
+  return (
+    <div className="bnp bn">
+      <span className="bnp-tag">{t('bnp.tag')}</span> {bnPron(text)}
+    </div>
   )
 }
 

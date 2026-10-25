@@ -25,7 +25,7 @@ describe('interface translations', () => {
   })
 
   it('English strings contain no Bangla, apart from deliberate examples', () => {
-    const allowed = new Set<Key>(['dict.placeholder'])
+    const allowed = new Set<Key>(['dict.placeholder', 'me.bnPronSub'])
     for (const k of keys) if (!allowed.has(k)) expect(hasBangla(EN[k]), `en ${k} contains Bangla: ${EN[k]}`).toBe(false)
   })
 

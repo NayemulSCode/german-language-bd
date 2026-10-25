@@ -464,3 +464,14 @@ body.in-lesson main{padding:0;max-width:none}
 .chip.playing .chip-h{color:#1b1300}
 .chip-x{font-size:11px;color:var(--muted)}
 @media (max-width:420px){.chips[style*="--cols: 6"],.chips[style*="--cols:6"]{grid-template-columns:repeat(4,minmax(0,1fr))}}
+/* Bangla pronunciation line (signed-in perk) */
+.bnp{margin-top:4px;font-size:15px;line-height:1.5;color:var(--muted)}
+.bnp-tag{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.04em;padding:1px 6px;border-radius:6px;background:var(--accent-soft);color:var(--accent-ink);margin-right:4px;vertical-align:1px}
+.lx .hook .bnp{color:inherit;opacity:.85}
+.lx .hook .bnp-tag{color:inherit;background:color-mix(in srgb,var(--paper) 18%,transparent)}
+.flash .bnp{text-align:center;margin-bottom:6px}
+.perk.locked label{opacity:.85}
+.lock-tag{display:inline-block;font-size:12px;font-weight:700;padding:1px 7px;border-radius:999px;background:var(--paper);border:1px solid var(--line);color:var(--muted);margin-left:4px}
+.perk{flex-wrap:nowrap;align-items:center}
+.perk label{flex:1;min-width:0}
+.perk > input,.perk > .btn{flex:none}

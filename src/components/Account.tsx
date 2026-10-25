@@ -3,13 +3,14 @@ import { useAuth } from '../auth'
 import { useApp } from '../state'
 import { useT } from '../i18n/useT'
 import { Avatar } from './Avatar'
+import { perksFor } from '../lib/perks'
 
 /** The few facts that make signing in worth it (shown on the Home card, in the Profile card and in the dialog). */
 function Benefits() {
   const { t } = useT()
   return (
     <ul className="benefits">
-      {(['auth.benefit.1', 'auth.benefit.2', 'auth.benefit.3'] as const).map((k) => (
+      {(['auth.benefit.1', 'auth.benefit.4', 'auth.benefit.5', 'auth.benefit.2', 'auth.benefit.3'] as const).map((k) => (
         <li key={k} className="bn"><span aria-hidden="true">✓</span>{t(k)}</li>
       ))}
     </ul>
@@ -20,6 +21,13 @@ function Benefits() {
 export function useCanSignIn() {
   const { configured, loading, email, name, avatarUrl } = useAuth()
   return { show: configured && !loading, email, name, avatarUrl }
+}
+
+/** The signed-in perks (all lessons unlocked, Bangla pronunciation) as they apply right now. */
+export function usePerks() {
+  const { configured, email } = useAuth()
+  const { progress } = useApp()
+  return perksFor(configured, !!email, progress)
 }
 
 /** Signed-in status (email, sync state, log out) or, when signed out, the "save your progress" card. Renders nothing when Supabase is not configured. */
@@ -183,6 +191,7 @@ export function SignInDialog({ onClose }: { onClose(): void }) {
         <span className="save-emoji" aria-hidden="true">☁️</span>
         <h2 id="signin-title" className="bn">{t('auth.dialog.title')}</h2>
         <p className="bn muted" style={{ margin: 0 }}>{t('auth.dialog.sub')}</p>
+        <Benefits />
         <button className="btn ghost bn" disabled={busy} onClick={() => void google()}>{t('auth.google')}</button>
         <div className="or bn"><span>{t('auth.or')}</span></div>
         <form onSubmit={mail}>

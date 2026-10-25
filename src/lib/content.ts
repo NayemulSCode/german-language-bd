@@ -10,7 +10,7 @@ export const LESSONS: LessonMeta[] = [...index].sort(
   (a, b) => a.level.localeCompare(b.level) || a.unit - b.unit || a.lesson - b.lesson,
 )
 
-const loaders = import.meta.glob<Lesson>('../../content/**/*.json', { import: 'default' })
+const loaders = import.meta.glob<Lesson>('../../content/*/unit*/lesson*.json', { import: 'default' })
 
 /** Every lesson body (used by the placement test). Each is its own small chunk. */
 export const loadAllLessons = (): Promise<Lesson[]> => Promise.all(Object.values(loaders).map((load) => load()))

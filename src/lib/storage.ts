@@ -31,7 +31,8 @@ export interface Progress {
   name: string
   examDate: string // YYYY-MM-DD or ''
   startUnit: number // A1 units before this one are open without being passed (set by the placement test)
-  unlockAll: boolean // every lesson open, no strict order
+  unlockAll: boolean // every lesson open, no strict order (a signed-in perk, see usePerks)
+  bnPron: boolean // show the Bangla pronunciation under German text (a signed-in perk, see usePerks)
   placed: boolean // the placement test has been taken
   startUnitB1: number // same for B1: all of A1 and A2 and the B1 units before this one are open
   startUnitA2: number // 0 = the A2 placement test has not been taken; otherwise A1 and A2 units before this one are open
@@ -44,7 +45,7 @@ export interface Progress {
 }
 
 export const emptyProgress = (): Progress => ({
-  lang: 'both', ui: 'bn', slow: false, theme: 'system', goal: 50, name: '', examDate: '', startUnit: 1, unlockAll: false, placed: false, startUnitA2: 0, startUnitB1: 0,
+  lang: 'both', ui: 'bn', slow: false, theme: 'system', goal: 50, name: '', examDate: '', startUnit: 1, unlockAll: false, bnPron: false, placed: false, startUnitA2: 0, startUnitB1: 0,
   xp: 0, lessons: {}, srs: {}, activity: {}, updatedAt: 0,
 })
 
@@ -75,6 +76,7 @@ export function sanitizeProgress(raw: unknown): Progress {
   if (typeof r.examDate === 'string' && DAY_KEY.test(r.examDate)) out.examDate = r.examDate
   if (isInt(r.startUnit, 99) && r.startUnit >= 1) out.startUnit = r.startUnit
   out.unlockAll = r.unlockAll === true
+  out.bnPron = r.bnPron === true
   out.placed = r.placed === true
   if (isInt(r.startUnitA2, 99)) out.startUnitA2 = r.startUnitA2
   if (isInt(r.startUnitB1, 99)) out.startUnitB1 = r.startUnitB1
