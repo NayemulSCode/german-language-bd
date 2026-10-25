@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useApp } from '../state'
+import { usePerks } from '../components/Account'
 import { LESSONS, type LessonMeta } from '../lib/content'
 import { groupUnits, isCore, lessonStates } from '../lib/course'
 import { LEVELS, LEVEL_ORDER, UNIT_TITLES } from '../lib/plan'
@@ -12,7 +13,8 @@ import { EXAMS, loadRecords } from '../lib/exam'
 export function CourseScreen() {
   const { lessonProgress, progress } = useApp()
   const { t, n, ui } = useT()
-  const states = lessonStates(LESSONS, (id) => lessonProgress(id).passed, { startUnit: progress.startUnit, startUnitA2: progress.startUnitA2, startUnitB1: progress.startUnitB1, unlockAll: progress.unlockAll })
+  const perks = usePerks()
+  const states = lessonStates(LESSONS, (id) => lessonProgress(id).passed, { startUnit: progress.startUnit, startUnitA2: progress.startUnitA2, startUnitB1: progress.startUnitB1, unlockAll: perks.unlockAll })
   const [level, setLevel] = useState<string>(() => LESSONS.find((l) => states.get(l.id) === 'now')?.level ?? 'A1')
   const [open, setOpen] = useState<Set<number>>(new Set())
   const [sheet, setSheet] = useState<LessonMeta | null>(null)

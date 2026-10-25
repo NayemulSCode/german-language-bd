@@ -20,7 +20,7 @@ interface Ctx {
   setLang(l: Lang): void
   setUi(u: Ui): void
   setSlow(s: boolean): void
-  setSettings(patch: Partial<Pick<Progress, 'theme' | 'goal' | 'name' | 'examDate' | 'startUnit' | 'unlockAll' | 'placed' | 'startUnitA2' | 'startUnitB1'>> & { theme?: Theme }): void
+  setSettings(patch: Partial<Pick<Progress, 'theme' | 'goal' | 'name' | 'examDate' | 'startUnit' | 'unlockAll' | 'bnPron' | 'placed' | 'startUnitA2' | 'startUnitB1'>> & { theme?: Theme }): void
   rateCard(key: string, grade: Grade): void
   say(text: string): Promise<void>
   lessonProgress(id: string): LessonProgress

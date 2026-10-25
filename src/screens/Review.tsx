@@ -5,7 +5,7 @@ import { fmtInterval } from '../lib/format'
 import { useT } from '../i18n/useT'
 import type { Key } from '../i18n/core'
 import { intervalMs, type Grade } from '../lib/srs'
-import { Say, Tr } from '../components/common'
+import { BnPron, Say, Tr } from '../components/common'
 
 const GRADES: [Grade, Key][] = [[0, 'review.again'], [1, 'review.hard'], [2, 'review.good'], [3, 'review.easy']]
 
@@ -73,7 +73,7 @@ export function ReviewScreen() {
         <button className="face" onClick={flip} aria-label={t('review.flip')}>
           <div className="w">{e.art && <span className={`art ${e.art}`}>{e.art} </span>}{e.de}</div>
           {flipped
-            ? <div style={{ fontSize: 19, display: 'flex', gap: 14, flexWrap: 'wrap', justifyContent: 'center' }}><Tr bn={e.bn} en={e.en} /></div>
+            ? <><BnPron text={spoken(e)} /><div style={{ fontSize: 19, display: 'flex', gap: 14, flexWrap: 'wrap', justifyContent: 'center' }}><Tr bn={e.bn} en={e.en} /></div></>
             : <div className="tapnote bn">{t('review.tapNote')}</div>}
         </button>
       </div>

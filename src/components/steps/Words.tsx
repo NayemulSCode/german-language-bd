@@ -1,5 +1,5 @@
 import type { Lesson } from '../../schema/lesson'
-import { NextButton, Say, Tr } from '../common'
+import { BnPron, NextButton, Say, Tr } from '../common'
 import { useT } from '../../i18n/useT'
 
 export function Words({ lesson, onNext }: { lesson: Lesson; onNext(): void }) {
@@ -22,6 +22,7 @@ export function Words({ lesson, onNext }: { lesson: Lesson; onNext(): void }) {
                 {w.art && <span className={`art ${w.art}`}>{w.art} </span>}
                 {w.de}
               </div>
+              <BnPron text={(w.art ? w.art + ' ' : '') + w.de} />
               <div className="meta bn">
                 {w.pos}
                 {w.pl && <> · {t('words.plural')}: <span lang="de">{w.pl}</span></>}

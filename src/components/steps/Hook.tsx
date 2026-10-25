@@ -1,5 +1,5 @@
 import type { Lesson } from '../../schema/lesson'
-import { NextButton, Say, Tr } from '../common'
+import { BnPron, NextButton, Say, Tr } from '../common'
 import { useT } from '../../i18n/useT'
 
 export function Hook({ lesson, onNext }: { lesson: Lesson; onNext(): void }) {
@@ -11,6 +11,7 @@ export function Hook({ lesson, onNext }: { lesson: Lesson; onNext(): void }) {
         <Say text={h.de} label={t('hook.listen')} />
         <div className="eyebrow" style={{ color: 'inherit', opacity: 0.7 }}>{t('hook.today')}</div>
         <q style={{ marginTop: 8, paddingRight: 44 }}>{h.de}</q>
+        <BnPron text={h.de} />
         <div className="who">— {h.who}</div>
         <div className="tr"><Tr bn={h.bn} en={h.en} /></div>
       </div>

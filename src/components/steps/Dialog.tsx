@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import type { Lesson } from '../../schema/lesson'
 import { useApp } from '../../state'
-import { NextButton, Say } from '../common'
+import { BnPron, NextButton, Say } from '../common'
 import { useT } from '../../i18n/useT'
 
 export function Dialog({ lesson, onNext }: { lesson: Lesson; onNext(): void }) {
@@ -44,6 +44,7 @@ export function Dialog({ lesson, onNext }: { lesson: Lesson; onNext(): void }) {
                 </button>
               ))}
             </div>
+            <BnPron text={ln.de.map((t) => t.t).join(' ')} />
             {showBn && (
               <div className="lrow bn">
                 <span className="ltag">বাংলা</span>

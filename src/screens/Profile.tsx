@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { useApp } from '../state'
 import { LESSONS } from '../lib/content'
 import { isCore } from '../lib/course'
@@ -5,7 +6,7 @@ import { GOALS, type Lang, type Theme, type Ui } from '../lib/storage'
 import { useT } from '../i18n/useT'
 import type { Key } from '../i18n/core'
 import { heatLevel, recentWeeks, streak } from '../lib/stats'
-import { Account, useCanSignIn } from '../components/Account'
+import { Account, SignInDialog, useCanSignIn, usePerks } from '../components/Account'
 import { Avatar } from '../components/Avatar'
 import { SupportCard } from '../components/Support'
 import { BADGES, badgeDesc, badgeTitle, earnedBadges } from '../lib/badges'
@@ -17,6 +18,22 @@ const THEMES: [Theme, Key, string[], Key][] = [
   ['dark', 'theme.dark', sw('#161D31', '#F0B43C'), 'theme.dark.d'],
   ['night', 'theme.night', sw('#1C160F', '#D9952E'), 'theme.night.d'],
 ]
+/** A settings switch for a signed-in perk: when signed out it shows a lock and opens sign-in instead. */
+function Perk({ id, title, sub, on, allowed, onChange, onLocked }: { id: string; title: string; sub: string; on: boolean; allowed: boolean; onChange(v: boolean): void; onLocked(): void }) {
+  const { t } = useT()
+  return (
+    <div className={`set perk${allowed ? '' : ' locked'}`}>
+      <label htmlFor={id} className="bn">
+        {title} {!allowed && <span className="lock-tag">🔒 {t('perk.loginOnly')}</span>}
+        <span className="muted" style={{ fontSize: 13, display: 'block' }}>{sub}</span>
+      </label>
+      {allowed
+        ? <input id={id} type="checkbox" checked={on} onChange={(e) => onChange(e.target.checked)} style={{ width: 20, height: 20, accentColor: 'var(--accent-ink)' }} />
+        : <button id={id} className="btn sm ghost bn" onClick={onLocked}>{t('perk.login')}</button>}
+    </div>
+  )
+}
+
 const GOAL_LABEL: Record<number, Key> = { 20: 'goal.20', 50: 'goal.50', 100: 'goal.100' }
 
 export function ProfileScreen() {
@@ -31,6 +48,8 @@ export function ProfileScreen() {
   const earned = earnedBadges(progress, LESSONS)
   const { show: canSignIn, email, name: accountName, avatarUrl } = useCanSignIn()
   const name = progress.name || accountName || 'Lerner'
+  const perks = usePerks()
+  const [signIn, setSignIn] = useState(false)
 
   return (
     <>
@@ -117,7 +136,8 @@ export function ProfileScreen() {
             {GOALS.map((g) => <option key={g} value={g}>{t(GOAL_LABEL[g])}</option>)}
           </select>
         </div>
-        <div className="set"><label htmlFor="unlock" className="bn">{t('me.unlock')} <span className="muted" style={{ fontSize: 13, display: 'block' }}>{t('me.unlockSub')}</span></label><input id="unlock" type="checkbox" checked={progress.unlockAll} onChange={(e) => setSettings({ unlockAll: e.target.checked })} style={{ width: 20, height: 20, accentColor: 'var(--accent-ink)' }} /></div>
+        <Perk id="unlock" title={t('me.unlock')} sub={t('me.unlockSub')} on={perks.unlockAll} allowed={perks.allowed} onChange={(v) => setSettings({ unlockAll: v })} onLocked={() => setSignIn(true)} />
+        <Perk id="bnpron" title={t('me.bnPron')} sub={t('me.bnPronSub')} on={perks.bnPron} allowed={perks.allowed} onChange={(v) => setSettings({ bnPron: v })} onLocked={() => setSignIn(true)} />
         <div className="set"><span className="bn">{t('place.test')} {progress.placed ? `· ${t('me.startUnit', { n: progress.startUnit })}` : ''}</span><a className="btn sm ghost bn" href="#placement">{progress.placed ? t('me.retake') : t('me.take')}</a></div>
         <div className="set"><span className="bn">A2 {t('place.test')} {progress.startUnitA2 > 0 ? `· ${t('me.startUnit', { n: progress.startUnitA2 })}` : ''}</span><a className="btn sm ghost bn" href="#placement/a2">{progress.startUnitA2 > 0 ? t('me.retake') : t('me.take')}</a></div>
         <div className="set"><span className="bn">B1 {t('place.test')} {progress.startUnitB1 > 0 ? `· ${t('me.startUnit', { n: progress.startUnitB1 })}` : ''}</span><a className="btn sm ghost bn" href="#placement/b1">{progress.startUnitB1 > 0 ? t('me.retake') : t('me.take')}</a></div>
@@ -136,6 +156,7 @@ export function ProfileScreen() {
       </div>
       <div style={{ marginTop: 14 }}><SupportCard /></div>
       <p className="foot bn">{canSignIn ? t(email ? 'me.foot.in' : 'me.foot') : t('me.foot.local')}</p>
+      {signIn && <SignInDialog onClose={() => setSignIn(false)} />}
     </>
   )
 }
