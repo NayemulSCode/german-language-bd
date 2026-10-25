@@ -73,6 +73,7 @@ const Chips = z.object({
     )
     .min(1),
   note: z.string().optional(),
+  pron: z.boolean().optional(), // false when the hints already are the Bangla pronunciation (letters, sounds): no extra pronunciation line
 })
 export const GrammarPanel = z.discriminatedUnion('type', [
   Chips,

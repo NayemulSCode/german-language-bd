@@ -399,7 +399,8 @@
           "bn": "ৎসেট",
           "en": "tset"
         }
-      ]
+      ],
+      "pron": false
     },
     {
       "type": "chips",
@@ -436,7 +437,8 @@
           "ex": "heißen"
         }
       ],
-      "note": "কিবোর্ডে না পেলে ae, oe, ue, ss লেখা যায়।"
+      "note": "কিবোর্ডে না পেলে ae, oe, ue, ss লেখা যায়।",
+      "pron": false
     },
     {
       "type": "table",

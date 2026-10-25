@@ -2,6 +2,8 @@ import { useState } from 'react'
 import type { Lesson, GrammarPanel } from '../../schema/lesson'
 import { useApp } from '../../state'
 import { NextButton } from '../common'
+import { usePerks } from '../Account'
+import { bnPron } from '../../lib/bnPron'
 import { useT } from '../../i18n/useT'
 import { hasBangla } from '../../lib/localize'
 
@@ -12,6 +14,7 @@ function Chips({ g }: { g: ChipsPanel }) {
   const { say, progress } = useApp()
   const { t } = useT()
   const [playing, setPlaying] = useState<number | null>(null)
+  const showPron = usePerks().bnPron && g.pron !== false
   return (
     <div className="panel" style={{ marginTop: 12 }}>
       {g.title && <h3 style={{ fontSize: 19 }}>{g.title}</h3>}
@@ -34,6 +37,7 @@ function Chips({ g }: { g: ChipsPanel }) {
                 {progress.lang !== 'bn' && it.en && <span>{it.en}</span>}
               </span>
             )}
+            {showPron && <span className="chip-p bn">{bnPron(it.s ?? it.t)}</span>}
             {it.ex && <span className="chip-x" lang="de">{it.ex}</span>}
           </button>
         ))}
