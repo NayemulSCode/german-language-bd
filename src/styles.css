@@ -475,3 +475,4 @@ body.in-lesson main{padding:0;max-width:none}
 .perk{flex-wrap:nowrap;align-items:center}
 .perk label{flex:1;min-width:0}
 .perk > input,.perk > .btn{flex:none}
+.chip-p{font-size:12px;line-height:1.3;color:var(--accent-ink);font-weight:600}
